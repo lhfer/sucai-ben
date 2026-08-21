@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>素材本 · AI 信息搜查</title>
+  <meta name="description" content="给中文 AI 自媒体博主用的素材档案。有意思优先。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="masthead-rule"></div>
+      <div class="kicker">
+        <span>剪报 · 不追热点只收有用的</span>
+        <span id="issue-date"></span>
+      </div>
+      <h1>素材本</h1>
+      <p class="tagline">AI 信息搜查 · 有意思优先</p>
+    </header>
+    <div class="toolbar">
+      <div class="unread-count">未读 <b id="unread-num">0</b></div>
+      <div class="seg" role="tablist" aria-label="筛选">
+        <button type="button" id="filter-unread" aria-pressed="true">未读</button>
+        <button type="button" id="filter-all" aria-pressed="false">全部</button>
+      </div>
+      <input class="search" id="search" type="search" placeholder="搜标题和正文" autocomplete="off">
+      <button type="button" class="mark-all" id="mark-all">全部标为已读</button>
+    </div>
+    <div class="chips" id="chips" aria-label="分类"></div>
+    <main id="feed"></main>
+    <div class="empty hidden" id="empty">都看完了<p>切到「全部」，或等下一期剪报。</p></div>
+    <footer class="colophon">
+      <span>已读记在这台浏览器上</span>
+      <span>固定地址，每日更新</span>
+    </footer>
+  </div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
