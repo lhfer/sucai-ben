@@ -2,6 +2,370 @@
   "updated": "2026-08-22",
   "items": [
     {
+      "id": "prompt-awarapan-2-side-profile",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "提示词",
+      "title": "湿头发侧脸贴橙红光斑，一张自拍变成电影海报",
+      "body": "有人把一张电影海报拆成一段能贴进 ChatGPT 的词。不是换脸。是侧脸、湿头发、橙红光斑。\n\nNews18 八月十六日先发，十七日又更。片子是《Awarapan 2》，八月十四日上映。海报是湿发侧影，贴在一墙橙红虚光上。肩上有淤青。脖子上有念珠。网上开始用自己的照片去复刻这个光。\n\n词里真正干活的是那句 85mm lens, f/1.4。它把脸压扁，把背景糊成一团火。负向词点名塑料皮肤、变形脸、多余耳朵。用侧脸或四分之三侧面当参考。短发就把肩长那句删掉。不要加片名和标志。那是片方的东西。\n\n所以呢：先传一张自己的侧脸，把整段词贴进去，只改颜色，不要改版权字。",
+      "prompt": "Ultra-realistic cinematic side-profile portrait of a young South Asian man with shoulder-length wet wavy black hair falling naturally across his forehead and face, a thick well-groomed beard and mustache, sharp jawline, and a small silver hoop earring in his left ear. He has an intense, serious expression with eyes looking forward in deep thought. His skin features realistic pores, subtle stubble, and tiny water droplets illuminated by dramatic lighting. He wears a black shirt blending into the dark shadows. The background is filled with rich orange and deep red bokeh lights, creating a fiery cinematic atmosphere with soft depth of field. High-contrast warm color grading, moody ambience, volumetric lighting, razor-sharp facial details, DSLR photography, shallow depth of field, HDR, RAW quality, 85mm lens, f/1.4, 8K ultra-detailed, hyper-realistic, filmic composition, premium editorial portrait, professional color grading, masterpiece quality.\n\nNegative prompt: low quality, blurry, cartoon, anime, CGI, overexposed, oversaturated, deformed face, asymmetrical features, duplicate hair, extra ears, extra eyes, bad anatomy, noisy image, artifacts, watermark, text, logo, low resolution, plastic skin, unrealistic beard, distorted proportions.",
+      "links": [
+        {
+          "label": "News18 原文与整段词",
+          "url": "https://www.news18.com/tech/awarapan-2-chatgpt-prompt-that-will-turn-your-photo-into-this-emraan-hashmi-poster-look-10275902.html"
+        },
+        {
+          "label": "身份锁定的侧脸变体",
+          "url": "https://aitechtonic.com/awarapan-2-ai-photo-editing-prompt/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-cinematic-black-ceo",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "提示词",
+      "title": "黑西装、黑墨镜、一圈发丝光，自拍变成黑白社长照",
+      "body": "有人把黑西装、黑墨镜、一圈发丝光写成一段能直接贴的词。不是滤镜。是黑白社长照。\n\nRohan 把三段现成词放在 Bloggerohan。第一段锁身份，再换服装。西装、白衬衫、细黑领带、雾面墨镜。背景是无缝深黑。发丝和肩上有一圈亮边。相机写成 Canon EOS R5，八十五毫米，光圈一点八。负向词把换脸、磨皮、卡通、水印全点名。\n\n第二段把西装换成黑礼服。第三段改成 oversized 黑 T，脸朝左。都要先上传一张脸清楚的正面照。脸糊了，后面全糊。\n\n所以呢：先传自己的脸，把第一段整段贴进去，只换衣服，不要让它改五官。",
+      "prompt": "Use the uploaded image as the ONLY facial identity reference.\n\nSTRICT IDENTITY & OUTFIT LOCK: Preserve the subject 100% unchanged—exact face, facial features, hairstyle, skin tone, expression, body proportions, and identity. Do not beautify, stylize, alter, or redesign any facial features.\n\nScene: Create an ultra-realistic cinematic black-and-white studio portrait with a centered chest-up composition. The subject wears a tailored black suit, crisp white shirt, slim black tie, and matte black sunglasses, maintaining a calm, confident, CEO-style expression.\n\nBackground: Seamless deep black studio background with dramatic high-contrast lighting, featuring a bright rim light around the hair and shoulders to create strong separation and a luxury editorial look.\n\nStyle: Premium CEO editorial photography with authentic DSLR aesthetics, Canon EOS R5, 85mm lens, f/1.8, monochrome color grading, realistic skin texture, sharp eye-level focus, HDR lighting, and cinematic contrast.\n\nQuality: Photorealistic, HDR, DSLR quality, 8K RAW, ultra-detailed.\n\nNegative Prompt: identity change, face distortion, hairstyle change, beauty filter, plastic skin, cartoon, anime, CGI, watermark, logo, text, bad anatomy, low quality.",
+      "links": [
+        {
+          "label": "三段现成词原文",
+          "url": "https://bloggerohan.com/cinematic-black-viral-photo-editing-prompt/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-womanpwr-clay-marble",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "提示词",
+      "title": "雨夜胶片、黏土人、大理石像，同一张自拍连切三刀",
+      "body": "有人把一张自拍连切三刀。第一刀是雨夜胶片。第二刀是黏土人。第三刀是博物馆里的大理石像。\n\nWoman PWR 八月二十日放出一整页 ChatGPT Images 2.0 改图词。不是空喊电影感。每段都写清要改什么，也写清脸不能动。雨夜那段点名侧光、湿街、青橙调、三十五毫米颗粒。黏土那段要真实黏土纹和轻雕塑痕。大理石那段要保留姿势和能认出来的骨相，再加石纹和展厅灯。\n\n页面还写了一次只改一件：灯软一点，背景少糊一点。重写整段，往往把已经对的脸也改坏。\n\n所以呢：先传一张脸清楚的自拍，三刀分开跑，每刀只贴下面对应的那一整段。",
+      "prompt": "Transform this photo into a cinematic film-noir portrait with dramatic side lighting, rain-soaked streets, deep shadows, subtle teal-and-amber tones, and realistic 35mm film grain. Keep the face recognizable.\n\n---\n\nTransform this portrait into a clay character with realistic clay texture, subtle sculpting marks, soft studio lighting, playful proportions, and a handcrafted background.\n\n---\n\nTurn this portrait into a detailed marble sculpture while preserving the pose and recognizable facial structure. Add carved stone texture, subtle imperfections, and museum-style lighting.",
+      "links": [
+        {
+          "label": "八月二十日改图词原文",
+          "url": "https://womanpwr.org/empowerment/chatgpt-photo-editing-prompts-the-ultimate-2026-guide-to-viral-instagram-edits/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-surreal-head-kling-seedance",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "提示词",
+      "title": "橙子脑袋走进厨房，Kling 两段、Seedance 一段接完",
+      "body": "有人把橙子脑袋、拿铁杯脑袋、土豆脑袋写成一条总词。先吐十个场面。你选一个。再吐三张图、两段 Kling、一段 Seedance。\n\nAI Prompting Store 把整条 Master Prompt 摊开。Kling 走图生视频。第一段从介绍走到动作。第二段从动作走到收场。每段第一句锁死首尾帧必须对上参考图。Seedance 一次拍三十秒，四段时间写进同一段话：站定、发现、高峰、收镜。总字数不超过二百五十个英文词。\n\n头型不能换。衣服不能换。不要写配乐。Kling 不听声音。竖屏九比十六。做完丢进 CapCut 接。\n\n所以呢：把下面整段贴进 ChatGPT，等它列出十个场面，你回一个数字，再拿它吐出的视频词去跑。",
+      "prompt": "You are a viral TikTok AI character video prompt specialist. Your job is to generate ultra-realistic, surreal, and visually shocking AI character scene prompts for image generation and video generation tools (Kling 3 and Seedance 2.0).\n\nWhen I paste this prompt, immediately give me a random list of 10 fresh viral video scenario ideas using these character types:\n- Orange-headed muscular human body characters\n- Coffee latte cup-headed doll characters\n- Yam / potato-headed characters\n- Leaf / nature humanoid characters\n- Fruit-faced animal-body hybrid characters\n\nEach idea should have: a character + a shocking/funny/satisfying situation.\nNumber them 1 to 10. Wait for me to choose one before generating any prompts.\nImage Rules: \nOnce the user picks a scenario, generate exactly 3 image prompts following these rules:\n\n═══════════════════════════════\nIMAGE PROMPT RULES\n═══════════════════════════════\n\nIMAGE 1 — Character Introduction / Hero Shot:\n- Full body portrait of the character, centered, facing camera\n- Describe the character head exactly: size, texture, color, expression details\n- Describe the human body: muscular build, skin tone, clothing, accessories\n- Setting: simple clean background that contrasts the character\n- Lighting: cinematic key light from 45 degrees, soft fill\n- Mood: dramatic, slightly humorous, visually arresting\n- Camera: eye-level medium shot, 85mm equivalent lens\n- Style: hyper-realistic 3D render, photorealistic detail, 8K\n- End with: Aspect ratio 9:16 vertical\n- Include negative prompt\n\nIMAGE 2 — Action / Peak Moment:\n- Start with: \"Use the uploaded reference image as the base. The character must be exactly the same character, same proportions, same costume as the reference image.\"\n- Character mid-action in the core scenario situation\n- Describe exact body pose, facial expression, hand position\n- Describe environmental details: props, setting, other elements\n- Describe emotional peak: shock / pain / satisfaction / comedy\n- Dynamic camera angle: slightly low angle, Dutch tilt allowed\n- Lighting: matches scene mood — harsh for pain, warm for satisfaction\n- Style: hyper-realistic 3D render, photorealistic, cinematic, 8K\n- End with: Aspect ratio 9:16 vertical\n- Include negative prompt\n\nIMAGE 3 — Reaction / Resolution:\n- Start with: \"Use the uploaded reference image as the base. The character must be exactly the same character, same proportions, same costume as the reference image.\"\n- Character reacting to the result of the action\n- Expression shifted: relief, triumph, shock, comedy\n- Same setting as Image 2 but slightly changed to show outcome\n- Camera: close-up or medium shot emphasizing expression\n- Lighting: same logic as Image 2\n- Style: hyper-realistic 3D render, photorealistic, cinematic, 8K\n- End with: Aspect ratio 9:16 vertical\n- Include negative prompt\n\n═══════════════════════════════\nGENERAL IMAGE RULES\n═══════════════════════════════\n- Character design NEVER changes across all 3 images\n- Head type is always consistent: same fruit/object, same size ratio\n- Always maintain same clothing, body proportions, skin tone\n- No cartoon style, no anime, no flat illustration\n- Always include detailed negative prompts\n- Always end with Aspect ratio 9:16 vertical\n\nGenerate 2 Kling 3 video prompts following these rules:\n\n═══════════════════════════════\nKLING 3 VIDEO PROMPT RULES\n═══════════════════════════════\n\nVIDEO 1 — Image 1 to Image 2 (Setup to Action):\n- First line: \"First frame must exactly match uploaded reference image one. Last frame must exactly match uploaded reference image two. Maintain exact character design, exact proportions, exact costume throughout.\"\n- Keep prompts direct and short — Kling 3 reads concise prompts better\n- Describe: character walking into scene or being introduced to the situation\n- Describe: the moment the action begins — first contact, first reaction\n- Describe camera motion: slow push-in OR static locked camera\n- Describe: environment activity — wind, steam, sparks, water — minimal\n- Tone: dramatic build, slightly comedic\n- End with: No audio. Aspect ratio 9:16. High quality.\n- Short negative prompt: no morphing, no character design change, no camera shake\n\nVIDEO 2 — Image 2 to Image 3 (Action to Resolution):\n- First line: \"First frame must exactly match uploaded reference image two. Last frame must exactly match uploaded reference image three. Maintain exact character design, exact proportions, exact costume throughout.\"\n- Describe: peak action continuing — the satisfying or shocking main moment\n- Describe: character expression shifting from tension to reaction\n- Describe camera motion: slow pull-back OR close-up push-in on face\n- Describe: particle effects if needed — sparks, smoke, splatter, glow\n- Tone: satisfying payoff, comedic release or dramatic climax\n- End with: No audio. Aspect ratio 9:16. High quality.\n- Short negative prompt: no morphing, no character design change, no camera shake\n\n═══════════════════════════════\nKLING 3 GENERAL RULES\n═══════════════════════════════\n- Always use image-to-video mode in Kling 3\n- Upload Image 1 as start frame for Video 1\n- Upload Image 2 as start frame for Video 2\n- Keep prompts under 150 words per video\n- Character design must be consistent across both videos\n- Avoid describing music or sound — Kling ignores audio prompts\n- Use \"cinematic\", \"smooth motion\", \"photoreal\" in every prompt\n- After generation: use Extend feature inside Kling to add 5 more seconds if needed\n\nGenerate 1 Seedance 2.0 video prompt following these rules:\n\n═══════════════════════════════\nSEEDANCE 2.0 VIDEO PROMPT RULES\n═══════════════════════════════\n\nVIDEO — Full Scene (Single 30-Second Generation):\n- Seedance 2.0 supports up to 30 seconds in one generation\n- The entire story arc — setup, action, peak, resolution — generates in one uncut video\n- Structure the prompt in 4 clear time phases:\n\nPHASE 1 — Opening (0-7s):\nDescribe character appearance in full detail. Character standing still, facing camera. Setting established. Calm mood. Slow camera push-in.\n\nPHASE 2 — Setup (7-15s):\nCharacter notices or is introduced to the situation. First movement. Expression shifting. Camera holds steady or very slow pan.\n\nPHASE 3 — Peak Action (15-23s):\nMain event at full intensity. Describe peak expression, body action, environment reaction. Camera: slight Dutch tilt or low angle for drama.\n\nPHASE 4 — Resolution (23-30s):\nCharacter reacts to outcome. Expression of relief, triumph, shock, or comedy. Camera pulls back slowly to reveal full scene. Hold on final frame.\n\n═══════════════════════════════\nSEEDANCE 2.0 PROMPT FORMAT\n═══════════════════════════════\n\nWrite the full prompt as one continuous paragraph structured like this:\n\n\"[Character description with exact head type, body, clothing]. [Setting description]. The video opens with [Phase 1 description]. Then [Phase 2 description]. The action peaks as [Phase 3 description]. The video ends with [Phase 4 description]. Camera: [camera movement description]. Lighting: [lighting description]. Style: hyper-realistic 3D render, cinematic, photorealistic, 8K. Aspect ratio 9:16. Duration: 30 seconds.\"\n\n═══════════════════════════════\nSEEDANCE 2.0 GENERAL RULES\n═══════════════════════════════\n- Open CapCut Desktop → Video Studio → select Seedance 2.0\n- Paste the full prompt — no need for image upload, text-to-video\n- Character design must be described in full detail in the prompt itself\n- Head type must be described with exact material, size, color, expression\n- Include lighting direction in prompt — Seedance responds well to it\n- Include camera movement description — it follows it accurately\n- Do not exceed 250 words total for the prompt\n- Export in 9:16 vertical for TikTok / Reels / Shorts\n",
+      "links": [
+        {
+          "label": "总词与流程原文",
+          "url": "https://aipromptingstore.com/how-to-create-viral-bizarre-surreal-ai-character-videos/"
+        }
+      ]
+    },
+    {
+      "id": "relight-depth-threejs",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "一张平面照片被灯扫过，凹处自己投下影子",
+      "body": "有人让灯光走进一张平面照片。不是滤镜。灯一移，凹处自己投下影子。\n\nDominik Fojcik 八月十九日在 Codrops 拆开这个戏法。先把图丢进深度估计。深度图就是哪近哪远的灰度。他做了 Depth Generation Tool。八位深度只有二百五十六级，坡度会变成台阶。他先转成浮点再抹平。再用相邻像素算出法线。法线就是表面朝哪边。阴影靠在深度图里朝灯光走几步：路上碰到更高的点，就算挡住。\n\n演示页能当场拧灯。仓库公开。深度工具单独一站。\n\n所以呢：先给自己的图出一张深度图，再打开演示，拖灯，看影子从脸上爬过去。",
+      "links": [
+        {
+          "label": "当场拧灯的演示",
+          "url": "https://tympanus.net/Tutorials/RelightingImages/"
+        },
+        {
+          "label": "八月十九日拆解",
+          "url": "https://tympanus.net/codrops/2026/08/19/relighting-images-with-depth-maps-and-three-js/"
+        },
+        {
+          "label": "给自己的图出深度图",
+          "url": "https://depth.fojcikdominik.com/"
+        },
+        {
+          "label": "GitHub 源码",
+          "url": "https://github.com/DGFX/codrops-relightning-images"
+        }
+      ]
+    },
+    {
+      "id": "geometry-painter-webgpu",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "在球上拖一笔，水晶或熔岩从笔迹里长出来",
+      "body": "有人在球上拖一笔。笔迹里长出水晶。或者熔岩缝。或者极光绸。或者会呼吸的珊瑚。\n\nChiro Visuals 八月十一日在 Codrops 拆 Geometry Painter。四种模式共用同一套涂抹，着色器各写各的。水晶是透石英。熔岩缝的宽度不在几何里，在一个旋钮上。极光绸把亮度锁在褶皱上。珊瑚共用同一波世界坐标心跳，分开画的几丛一起亮。\n\n演示拆成十个小页。第一页看拾取。第六页看没有宽度的带子。第九页看一波心跳管许多群落。源码在 GitHub。要 WebGPU。\n\n所以呢：打开演示页，在球上拖一笔，看晶体从笔迹里长出来。",
+      "links": [
+        {
+          "label": "十个能玩的小页",
+          "url": "https://tympanus.net/Tutorials/GeometryPainterThreeJS/demos/index.html"
+        },
+        {
+          "label": "八月十一日拆解",
+          "url": "https://tympanus.net/codrops/2026/08/11/exploring-procedural-geometry-with-three-js-and-webgpu/"
+        },
+        {
+          "label": "GitHub 源码",
+          "url": "https://github.com/achrefelouafi/GeometryPainterThreeJS"
+        }
+      ]
+    },
+    {
+      "id": "haoqi-design-glass-folio",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "玻璃心被卷过去，字像早期屏幕那样一格一格亮",
+      "body": "有人把作品集做成一座玻璃舞台。中间一块玻璃。字像早期屏幕那样一格一格亮。\n\nHaoqi Wen 在 TikTok 做设计系统。八月十五日自己在 Codrops 拆 HAOQI.DESIGN。玻璃吃卷曲和折射。页面结构留给 CSS。卷轴和指针先对齐，再决定特效落在哪一层。视觉走复古未来：舞台录像里的光学脏点，早期点阵字的解码感。Awwwards 八月十四日给了当日站点。CSS Winner 十七日再给一次。\n\n站点能直接滚。没有账号。没有安装。\n\n所以呢：打开站点，慢慢滚，看玻璃心被卷过去，字一格一格亮起来。",
+      "links": [
+        {
+          "label": "打开就能滚",
+          "url": "https://haoqi.design/"
+        },
+        {
+          "label": "八月十五日拆解",
+          "url": "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/"
+        },
+        {
+          "label": "Awwwards 当日站点",
+          "url": "https://www.awwwards.com/sites/haoqi-design"
+        }
+      ]
+    },
+    {
+      "id": "run-rob-run-music-goo",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "一坨玻璃黏液听低音，滚到页底变成方块",
+      "body": "有人把作品集做成一坨会听歌的玻璃黏液。闲着会晃。歌来了会鼓。滚到页底，它收成方块。\n\nCodrops 八月二十日放出拆解。外层是折射壳。心里是橙核。最外再罩一层闪光。音乐不是全频跟着抖。踢鼓和较大的拍手推得重。踩镲只给表面一点点能量。悬停会冒出网格读数和灰尘。没有 WebGPU 也能看。音乐要自己点，不自动播。\n\n文章把阻尼、分层、无障碍都写开。先看拆解，再对着画面想自己的片头：一坨听低音的东西，慢慢收成方块。\n\n所以呢：这不是背景动画，是把一首歌的低音，收成你可以滚、可以停、可以盯着看的一坨橙色玻璃核。。",
+      "links": [
+        {
+          "label": "八月二十日拆解",
+          "url": "https://tympanus.net/codrops/2026/08/20/run-rob-run-building-a-music-reactive-goo-with-three-js-and-webgpu/"
+        }
+      ]
+    },
+    {
+      "id": "fruit-fly-web-connectome",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "终端里打 fly，一只真脑接线的果蝇从网页里爬出来",
+      "body": "有人把一只果蝇放进了网页。不是动画。是真神经元在放电。\n\nShow HN 大约两小时前贴出来。Dustin Brett 把 macOS 上的 DesktopFly 搬进他自己的网页桌面 daedalOS。打开站点，终端里打 fly，就会爬出一只。可以一只，也可以一群。他从 FlyWire 原数据把神经元加到一千二百七十五个。FlyWire 就是那张果蝇全脑接线表。\n\n原作者 Denis Shiryaev 八月十八日先做出桌面版：果蝇走在窗口上，梳毛、睡觉、看见鼠标就逃。逃不是写死的。鼠标靠近变成视觉里的逼近。逼近要先打过大约一千二百个突触的前馈抑制，巨型纤维才会放电。巨型纤维就是逃跑命令神经元。慢靠近它忍，快扑过来大约四毫秒起飞。身体是程序画的，脑才是真的。\n\n所以呢：这不是一只会动的贴纸，是把真果蝇的逃跑回路，放进了浏览器。",
+      "links": [
+        {
+          "label": "打开终端打 fly",
+          "url": "https://dustinbrett.com/?app=terminal"
+        },
+        {
+          "label": "Hacker News 讨论",
+          "url": "https://news.ycombinator.com/item?id=49396322"
+        },
+        {
+          "label": "原版 DesktopFly 源码",
+          "url": "https://github.com/DenisSergeevitch/desktop-fly"
+        },
+        {
+          "label": "网页桌面 daedalOS",
+          "url": "https://github.com/DustinBrett/daedalOS"
+        }
+      ]
+    },
+    {
+      "id": "phyllotaxis-drone-synth",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "合成器自己响着，把此刻的旋钮写进网址",
+      "body": "有人做了一台自己会响的合成器。一按开始，声音就不停。没有哪个音会结束。也没有任何包络。包络就是音量从起音到衰减的那条曲线。这里振幅只是在动。和弦是那片场多动了一会儿。\n\nShow HN 大约十小时前贴出来。作者说自己不是程序员，是艺术家，这是他第一台网页音频合成器。引擎是调频。调频就是用一个振荡器去拧另一个振荡器的音高。每个声部在每个节拍都能碰到全部十二个音。预设置进网址里。把链接丢出去，对面听到的就是你调过的那台。什么都不用装。声音也不离开这台电脑。\n\n页面名叫 Phyllotaxis。叶序。就是植物绕茎长叶子的那种螺旋。旋钮一排：根音、低音、步态、镜像、扫弦、房间、合唱。它自己在转。\n\n所以呢：这不是一首会循环的背景音乐，是一台把此刻的旋钮写进网址、然后自己一直响下去的仪器。",
+      "links": [
+        {
+          "label": "打开就能响",
+          "url": "https://akindoflikeness.net/instruments/phyllotaxis/"
+        },
+        {
+          "label": "Hacker News 讨论",
+          "url": "https://news.ycombinator.com/item?id=49392928"
+        }
+      ]
+    },
+    {
+      "id": "odyssey-explorer-homeric-map",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "十七站航线钉在今天的海岸上，每个希腊词都能点",
+      "body": "有人把奥德修斯的航线摊在今天的地图上。十七站。从特洛伊到伊萨卡。每个希腊词都能点。\n\nShow HN 大约十一小时前贴出来。站点叫 Odyssey Explorer。点开特洛伊，先看见荷马原文。点 πολύτροπος，词根是转。是命运把他转来转去，还是他自己会转弯？柏拉图两边都读过。按 N，古海图换成今天的卫星。斯库拉对应卡拉布里亚一座真镇子，叫 Scilla。希腊文来自珀尔修斯公开文本。英译是一九一九年的默里。没有后台。没有账号。\n\n这和已经收下的那本会放大的《奥德赛》不是同一件。那本把全书收成一张时间图。这张把航线钉在真实海岸上。船员计数从《伊利亚特》的十二艘船起：大约六百人。序诗已经说了，他们回不去。\n\n所以呢：这不是一张旅游地图，是让你用手指点开一个希腊词，再抬眼看见它落在今天哪座城里。",
+      "links": [
+        {
+          "label": "打开就能航行",
+          "url": "https://georgemasto.com/odyssey"
+        },
+        {
+          "label": "Hacker News 讨论",
+          "url": "https://news.ycombinator.com/item?id=49391880"
+        }
+      ]
+    },
+    {
+      "id": "pianoify-audio-to-midi",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "任意十秒歌丢进去，网页里当场变成钢琴谱",
+      "body": "有人把任意一段歌丢进网页。十秒之后，它变成钢琴。\n\nShow HN 大约十四小时前贴出来。站点叫 pianoify。作者公开了一台最新的音频转 MIDI 模型。MIDI 就是不存声音、只存按下哪个键的乐谱事件。拖进一个 MP3、一段语音备忘录，或者贴一条 YouTube 链接。标签页里先解码，画出波形，裁成十秒。转写一边跑，钢琴卷帘一边往上长。用采样的施坦威演奏，延音踏板能用。再把谱子刻成五线谱，能导出 MusicXML。还能把原曲和钢琴叠在一起交叉淡化。和弦写在音符下面。\n\n不装软件。GPU 在服务器上。你负责丢文件。\n\n所以呢：这不是又一个会认歌的小工具，是把任意十秒先拆成键位，再让一架钢琴当场弹给你听。",
+      "links": [
+        {
+          "label": "打开就能转",
+          "url": "https://www.pianoify.net/"
+        },
+        {
+          "label": "Hacker News 讨论",
+          "url": "https://news.ycombinator.com/item?id=49389846"
+        }
+      ]
+    },
+    {
+      "id": "uplink-balloon-never-found",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "视觉尝试",
+      "title": "气球把几百张天上传回来，人在蒙大拿没接住",
+      "body": "有人把一只四百九十一克的气球放上平流层。它传回几百张图。他们开车追过蒙大拿。没找到。\n\nShow HN 大约一天前贴出来。载荷叫 UpLink。Andrew M 和 Sam Flynn 自己做的。去年跟 Hack Club 放过一次，图只有十八乘十。这次升到三百二十乘二百四十，走无线电链传下来。还测了 3D 打印耗材的隔热。两套独立定位。外壳自己打。电路自己画。固件、CAD、硬件全部开源，还拿了开源硬件认证。\n\n图廊还在。一张张从天上传下来的糊照片排成时间线。点开能放大。作者写：它到了平流层，把几百张图送回来，然后我们再也没收回它。\n\n所以呢：这不是航拍大片，是一只没接住的气球，把天空一张张电回来。",
+      "links": [
+        {
+          "label": "传回来的图廊",
+          "url": "https://uplink.gallery.radi8.dev/"
+        },
+        {
+          "label": "Hacker News 讨论",
+          "url": "https://news.ycombinator.com/item?id=49377660"
+        },
+        {
+          "label": "GitHub 源码",
+          "url": "https://github.com/radeeyate/UpLink"
+        }
+      ]
+    },
+    {
+      "id": "girl-candlelight-crossed-arms",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "提示词",
+      "title": "一支蜡烛贴着镜头，手臂挡住下半张脸只剩眼睛",
+      "body": "有人上传一张脸。手臂横着挡住下半张脸。只剩眼睛。左边一支红蜡烛贴着镜头烧。\n\nPrompt Seen 八月二十一日贴出完整词。不是已经收下的向日葵拼贴。那套把一张脸拆成四格。这套把脸藏进黑暗。背景全黑。光只来自一支蜡烛。这叫明暗对照。就是卡拉瓦乔那种一半亮一半黑。小臂上要叠满玻璃手镯：酒红、浅粉、浅绿、白，再挂一串脚铃声。妆只准细眼线。肤色锁成暖金棕。脸必须是上传那张。\n\n工具是 ChatGPT 或 Gemini。先上传参考图，再整段粘贴。比例锁 16:9。近景。眼睛看镜头。\n\n所以呢：现在能抄的自拍词，不是把脸修亮，是让一支蜡烛只照到眼睛，其余全部关掉。",
+      "prompt": "Create Ultra-realistic cinematic closeup low-light portrait of a woman (the reference image given) sitting in complete darkness, illuminated only by a single burning red candle placed very close to the camera on the left side of the frame. The portrait is a close-up composition where both forearms are crossed horizontally in front of her face, hiding the lower half of her face so that only her eyes, eyebrows, forehead visible.She gazes directly into the camera with calm, eyes. Both arms filled with stack of maroon, light pink, light green, white glass bangles and hanging charm(ghungroo )bangles. Warm golden-brown complexion of skin, no makeup only thin eyeliner on eyes. Lighting: one burning wax candle, dramatic chiaroscuro, deep black background. 16:9 ratio.",
+      "links": [
+        {
+          "label": "完整词原文",
+          "url": "https://promptseen.com/girl-candlelight-ai-photo-editing-prompt/"
+        }
+      ]
+    },
+    {
+      "id": "mughal-majesty-seven-scenes",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "提示词",
+      "title": "七场都围着红砂石圆顶走，脸不许走成别人",
+      "body": "有人上传一张自己的脸。七个镜头围着一座莫卧儿红砂石圆顶走完。人不能换。衣服不能换。地方不能换。\n\nPrompt Seen 八月二十一日下午贴出完整词。莫卧儿就是印度那几座红砂石陵墓的风格。开场是草坪。然后从棕榈树中间跟拍。坐下。走进有柱子的拱廊。仰拍爬台阶。再走回草坪。最后贴着女墙走，圆顶凉亭在脑后。凉亭原文写 chhatri。每一场都在走。身份锁死：任何肤色、任何年龄，脸必须是上传那张，不许长成路人。\n\n这和已经收下的向日葵拼贴不是同一套。那套改静帧。这套改十五秒旅行片。丢给 Gemini 或 Veo。比例 16:9。\n\n所以呢：现在能抄的视频词，不是让人在景点摆拍，是七场都在走，还不许走成别人。",
+      "prompt": "\"A cinematic ultra-realistic 8K video (16:9) of a young man wearing a baggy relaxed-fit denim jeans and a stylish premium fitted shirt, walking and moving around a grand Mughal-era red-sandstone domed mausoleum with palm trees, golden-hour to bright daylight lighting. CRITICAL: use the uploaded reference photo as the exact identity source — same face, same facial features, same exact skin tone and skin texture as the person in the uploaded photo, same body, maintained precisely in every scene, zero identity variation or face change between scenes. This must work accurately for any person of any age or skin tone who uploads their own reference photo — the generated face and skin must always match the uploaded photo exactly, never a generic or different face.\nScene 1: Wide shot — he walks steadily across an open green lawn in front of the grand domed monument, tall palm trees and a flowering tree nearby, warm golden sunlight casting long shadows, natural confident walking pace.\nScene 2: Wide tracking shot from behind — he walks forward between tall palm trees toward the monument, warm golden-hour sunlight glowing behind the dome, white flower petals scattered on the grass, cinematic depth.\nScene 3: He walks toward a stone bench under a large shady tree, then sits down gracefully, resting one arm on his knee while gazing at the monument in the distance, dappled sunlight through the leaves, calm cinematic pause with natural sitting motion.\nScene 4: He walks through a stone arched corridor lined with pillars, warm sunlight and shadows streaking across the floor, greenery visible through the far archway, steady cinematic walking motion from behind.\nScene 5: Low-angle shot — he climbs a set of old stone steps toward a red-sandstone archway entrance, bright blue sky above, dramatic upward framing, purposeful climbing motion.\nScene 6: Wide shot — he walks briskly back across the open lawn with the full monument and palm trees behind him, bright blue sky, crisp natural daylight, energetic confident walking pace.\nScene 7: Final low-angle shot — he walks along a stone parapet wall with the monument's domed chhatri (pavilion) towering behind him against a clear blue sky, steady forward walking motion, cinematic slow zoom-out to finish.\nOverall style: same face, same identity, same exact skin tone, same body, same baggy jeans and premium shirt outfit consistent in every scene, no identity change, same real Mughal-era monument location throughout — domed mausoleum, palm-lined lawn, shaded bench, arched stone corridor, stone steps, and parapet wall — natural continuous walking and movement in every single scene, realistic skin and fabric texture, warm golden-to-bright cinematic color grading, natural sunlight with soft lens flares, filmic contrast and depth, smooth cinematic transitions between angles, ultra-realistic premium 8K quality, 16:9 widescreen format, continuous story flow from start to end, no scene skipped.\"",
+      "links": [
+        {
+          "label": "完整词原文",
+          "url": "https://promptseen.com/mughal-majesty-ai-cinematic-stle-8k-video-prompt/"
+        }
+      ]
+    },
+    {
+      "id": "ssh-fighter-terminal",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "小众工具",
+      "title": "终端里打一局街机，命令只有 ssh sshfighter.com",
+      "body": "你打开终端，敲一行：ssh sshfighter.com。没有账号，没有下载。十八个角色，六个场地，真彩色方块像素在 SSH 里对打。W 出拳，E 踢，F 抓。方向键走跳。公钥指纹就是你的段位。作者 Thomas Davis 故意先把普通 ANSI 抠到能打街机。战斗 30 帧，画面 15 帧，只传变过的格子。网站能看录像，也能让 agent 拿专用密钥去排位。人榜和开放榜分开，机器人必须另做一把钥匙。排位局不能中途退出。开源，MIT。自己架也行，默认听 2223。所以呢：终端不是工作台，终端是拳台。",
+      "links": [
+        {
+          "label": "现在打",
+          "url": "https://sshfighter.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/thomasdavis/sshfighter.com"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49386763"
+        }
+      ]
+    },
+    {
+      "id": "desktop-vibe-fly",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "小众工具",
+      "title": "桌面果蝇闻见 AGENTS.md，自己爬去源码",
+      "body": "你的 Mac 桌面上停着一只果蝇。它不是动画。668 个真神经元、大约一万九千条 FlyWire 突触在 1 千赫兹仿真。光标冲太快，Giant Fiber 放电，它才逃。这份 fork 多了一招：闻 vibe。AGENTS.md、CLAUDE.md、.cursor/rules 等四十来个 agent 标记，在屏幕上变成气味。开着的项目最臭，图标最淡。转向神经元带着它走到源码上。macOS 13，clone 一下跑 build.sh。菜单栏有只苍蝇，点脑窗口能刺激 Giant Fiber。上游是桌面苍蝇，这份才是闻 vibe 的那只。所以呢：你的 vibe 项目，苍蝇比你先找到。",
+      "links": [
+        {
+          "label": "GitHub（闻 vibe 的 fork）",
+          "url": "https://github.com/kulikov0/desktop-vibe-fly"
+        },
+        {
+          "label": "上游 DesktopFly",
+          "url": "https://github.com/DenisSergeevitch/desktop-fly"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49389466"
+        }
+      ]
+    },
+    {
+      "id": "qarttext-readable-qr",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "小众工具",
+      "title": "人眼能读的二维码，字就写在格子里",
+      "body": "你扫一个二维码。格子里写着字。不是贴图，是真码。作者 dimview 把 Russ Cox 的 QArt 和低分辨率点阵字叠在一起。有效载荷占前几百 bit，后面的 padding 拿去画字母。Reed–Solomon 在 GF(256) 上是线性的，解一次方程就能同时带数据和画面。错误纠正额度还在。网页里填 URL、电话或 Wi-Fi，点 Generate。纠错等级越高，画面越挤。Cox 当年把垃圾接到 URL 后面换空位，这里改用 padding，载荷一个字节都不改。所以呢：二维码终于能让人读。",
+      "links": [
+        {
+          "label": "当场生成",
+          "url": "https://qarttext.pages.dev/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49386798"
+        },
+        {
+          "label": "Russ Cox 的 QArt",
+          "url": "https://research.swtch.com/qart"
+        }
+      ]
+    },
+    {
+      "id": "steganeur-llm-cover",
+      "date": "2026-08-22",
+      "added": "2026-08-22",
+      "category": "小众工具",
+      "title": "秘密写进下一个 token，封面读起来像普通续写",
+      "body": "你跟朋友约好同一只模型。你把「中午见」喂给 steganeur。它吐出一段像散文的续写。对方把这段字贴回去，秘密出来。没有侧信道，封面就是信道。Rust 写的，四种方法。Rejection 的输出和正常生成统计上一样。GPU 上 logprob 会漂，只有 block 扛得住。CPU 上 llama.cpp 就能试。作者说这是给两个人用的：看见字的人以为在读文章，知道模型和默认参数的人才能拆信。需要服务器回 token id 的 top_logprobs。所以呢：藏信不靠乱码，藏信靠下一个 token。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/marcsnid/steganeur"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49390543"
+        }
+      ]
+    },
+    {
       "id": "claude-concise-vs-vomit",
       "date": "2026-08-22",
       "added": "2026-08-22",
