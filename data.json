@@ -2,6 +2,222 @@
   "updated": "2026-08-23",
   "items": [
     {
+      "id": "charleston-ai-map-literacy",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "跨行业",
+      "title": "开学礼堂大屏上，AI把马里写成Mail，老师拿这张歪地图当第一课",
+      "body": "北查尔斯顿一所高中礼堂。老师挤着看大屏。讲师让AI画世界地图。马里写成Mail，埃及写成Sopth，利比亚的位置只剩Africa。全场先倒抽气，再笑。讲师Amanda Bickerstaff说，想让孩子别盲目信聊天机器人，就拿这张地图开场。南卡第二大学区五万名学生。州里没有AI指南，学区自己写。开学进入第二阶段：老师和初高中生线上线下学怎么用、什么时候别用。课上会演示聊天机器人一本正经编造论文。AP研究课老师Ray Knauer打算把幻觉和偏见当课堂材料。布鲁金斯学会Rebecca Winthrop说，真正的AI素养包括知道什么时候不用。所以呢：开学第一课不是教提示词，是先看机器怎么把地图画歪。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/ai-literacy-schools-education-4fb9f2c0240993499870f4f204bf41c1"
+        },
+        {
+          "label": "WSLS 转载（标注8月21日）",
+          "url": "https://www.wsls.com/business/2026/08/21/schools-are-starting-to-teach-ai-literacy-for-many-that-means-helping-kids-see-chatbots-flaws/"
+        }
+      ]
+    },
+    {
+      "id": "thorvald-uvc-bien-nacido",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "跨行业",
+      "title": "葡萄园二十年最干净的一茬果，园主说唯一变量是夜里走的灯",
+      "body": "加州Bien Nacido葡萄园。种植总监Greg Gonzalez盯着今年的果。他说这是二十年职业生涯里长得最好、最干净的一茬。唯一的变量是机器人。挪威Saga Robotics的Thorvald夜里自己在葡萄架下走，用UV-C紫外线打白粉病，不再靠重型柴油机喷杀菌剂。公司8月21日拿下AgTech Breakthrough年度农业机器人奖。2026年这套车在美国大约2500英亩酿酒葡萄上干活，覆盖英国约三成高架草莓。美国总经理Caine Thompson说，病害管理以前就是加药、加重型机械。现在是用电、用光、用轻车。评奖方也点了一句：给拖拉机加自动驾驶，省的是人工，改不了药和压实土壤。所以呢：葡萄园里的机器人不是在开拖拉机，是在用光代替农药。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Wine Industry Advisor 8月21日",
+          "url": "https://wineindustryadvisor.com/2026/08/21/saga-robotics-thorvald-named-overall-agriculture-robotics-solution-of-the-year/"
+        }
+      ]
+    },
+    {
+      "id": "ubtech-cruzr-1to1-line",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "跨行业",
+      "title": "优必选把客户产线1比1搬进展台，机器人早九晚五自己上下料",
+      "body": "北京亦庄世界机器人大会。展台被改成客户工厂。近十台优必选Cruzr S2、Cruzr Y1从早九干到晚五。一台给汽车钣金件、机加件上下料，工作台上定位小于1毫米，两台还要抬超过1米的工件。另一台从混杂料箱里抓不同规格护肤品纸盒，丢进德马播种墙，节拍最高接近每小时1100件。抓失败了自己改策略再抓。没有人盯，没有预编程走位。优必选把客户现场攻克过的难题1比1搬过来。副总裁焦继超说，客户先看硬件稳不稳、厂商懂不懂这条产线，不看榜单。方案已过实训，进入小规模交付。所以呢：工厂这行，客户留下来第二天接着干的机器，才算上岗，展台跳舞不算。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "量子位 8月22日",
+          "url": "https://www.qbitai.com/2026/08/477253.html"
+        },
+        {
+          "label": "凤凰网／智东西",
+          "url": "https://tech.ifeng.com/c/8vklzye7q0U"
+        }
+      ]
+    },
+    {
+      "id": "baiyupao-teleagent-followup",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "跨行业",
+      "title": "精神专科医院：科室报告从两三天压到十分钟，随访覆盖提到九成五",
+      "body": "哈尔滨白渔泡精神专科医院。近20个科室、3000张核编床位。中国电信王恕伟带队把TeleAgent嵌进日常流程。以前财务从各科收Excel，核对、制图、写科室运营报告，要两三天。现在十分钟出完整报告。精神病人出院后要长期盯。系统自动排出出院1周、1个月、3个月、6个月、1年五个随访节点，覆盖率从六七成提到95%以上，再加三级预警。信息科主任孙忠平说，AI接管的是重复活。底座是电信星辰大模型，部署在院内，病历不外送。8月22日《中国经营报》跟调研团进院写下这一幕。所以呢：专科医院里的AI先抢报表和随访，不是替医生看病。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "新浪财经／中国经营报 8月22日",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipcfyf7947705.shtml"
+        }
+      ]
+    },
+    {
+      "id": "xinghaitu-jd-100-orders",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "跨行业",
+      "title": "京东前置仓一天百单无人插手，星海图说客户买的是劳动产出",
+      "body": "世界机器人大会开展前一天。星海图和京东搭的前置仓，当天跑完100多单真实履约，中间没有人工流程。机器人抓货、拣选、撑开包装袋、装进去、封口。面对尺寸材质不同的商品，还要双臂协同，现场号称能撑数千到上万种货。旁边装配台另外一组活：拾螺丝、对准孔、锁付。CEO高继扬8月21日说，客户买的不是机器人整机，是劳动产出。今年在交千台级、模型驱动的生产力单元。现场效率大约是人的七到八成，适配一项新任务大约要10小时后训练，目标压到1小时。从展台到客户现场形成稳定产能，还要看连续运行和人工接管率。所以呢：仓库这行开始按工位买产出，不再按台买机器。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "华尔街见闻 8月21日",
+          "url": "https://www.163.com/dy/article/L4S95VE905198NMR.html"
+        }
+      ]
+    },
+    {
+      "id": "whrg-microwave-hotel-shift",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "跨行业",
+      "title": "运动会先比后厨和客房：夹零食进微波炉，拧不准五分钟就扣分",
+      "body": "北京一座临时餐厅。人形机器人用夹子夹起零食，放进微波炉，拧定时器，再去接下单。要求转到五分钟，偏差超过一分钟就扣分，送饮料洒多了也扣。新华社8月23日写下这一幕。这是第二届世界人形机器人运动会场景赛，周六正式开幕前几天先比干活。酒店赛给30分钟：搬不同尺寸行李、补毛巾拖鞋矿泉水、铺床。遥控完成只算一半分，全自主才拿满分。灵巧手单项还要比镊子夹豆子、拧瓶盖、接软线。市经信局刘伟良说，赛场本身就是试用场，比完不用再搭测试环境。局长姜广智说，最后一米的手活练会了，奖牌才能变成订单。所以呢：机器人比赛开始按客房和后厨计分，不再只比跑步。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "新华社 8月23日",
+          "url": "https://english.news.cn/20260823/4deac69e79dd42e29385efa2a8cbafad/c.html"
+        },
+        {
+          "label": "eWeek 酒店场景",
+          "url": "https://www.eweek.com/news/china-humanoid-robots-real-world-jobs/"
+        }
+      ]
+    },
+    {
+      "id": "aarons-chatgpt-fictional-witness",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "痛点",
+      "title": "上诉状里凭空多出几个证人",
+      "body": "圣达菲。新墨西哥州最高法院。周五，干了四十多年刑事的律师 Stephen Aarons 站在五位大法官面前。他把拉斯克鲁塞斯一带一桩杀妻案的庭审转写丢进 ChatGPT，以为会吐出一份无懈可击的摘要。交上去的上诉状里，出现了几个根本不存在的证人，一个真实证人还被编了从没说过的证词。大法官 Shannon Bacon 问他：你看新闻吗？律师靠 AI 幻觉已经是每天头版。首席大法官 Julie Vargas 说，他们更担心他对当事人不够上心——那个查帕拉尔六十岁男人去年被判杀妻，正在坐无期。Aarons 承认自己愚蠢，没把周五这场听证告诉客户。法庭判他藐视法庭，踢出案子，三十天内交五千美元到客户保护基金，再送纪律委员会。上诉材料全部作废，改派公设辩护人重来。所以呢：你把卷宗喂给机器，它能当场给你造出一屋子假证人。签字的是律师，坐监的是那个六十岁的人。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Santa Fe New Mexican",
+          "url": "https://www.santafenewmexican.com/news/local_news/new-mexico-high-court-blasts-lawyer-takes-him-off-case-for-ai-errors-in-brief/article_a162daf7-95a4-4010-a017-dedcbdb68b0b.html"
+        },
+        {
+          "label": "Aarons Law",
+          "url": "https://aarons.law/about/stephen"
+        }
+      ]
+    },
+    {
+      "id": "keefe-florida-46-citations",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "痛点",
+      "title": "四十六处假判例，对方银行自己去查",
+      "body": "佛罗里达第二上诉法院。周五十六页判决，案情只写了一句：没道理，维持原判。真正要写的是律师 Kenneth Keefe。他一九八五年拿执照，南帕萨迪纳自己开所。Capital Standard 告美国银行那件皮尼拉斯县地产案，补交的开场书状里至少三十一处幻觉，答辩书又加十五处。有的案子根本不存在，叫 Board of Regents v. Wilson。更危险的是真案子被安上从没写过的句子。对方律师点出来以后，他不但没改，又往上堆。法院一月下过命令：把每条引用复印来，标出原句在哪。他一个多月没回，后来说没想到生成式人工智能会编。法院不信那是辅助工具，觉得那就是他唯一的检索。罚一千五百美元，对方律师费他自己掏，再送佛罗里达律师协会。当事人 Vladimir Tchentsov 和 Anna Tchentsov 的上诉，还是输了。所以呢：真假判例混在一起，法官要一本一本对。签了名，就是你读过。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Fla. 2d DCA 判决",
+          "url": "https://www.propertyinsurancecoveragelaw.com/wp-content/uploads/2026/08/Capital-Standard-v.-U.S.-Bank-National-Assoc.pdf"
+        },
+        {
+          "label": "Damien Charlotin",
+          "url": "https://www.damiencharlotin.com/hallucinations/"
+        }
+      ]
+    },
+    {
+      "id": "wong-youtube-zoom-49m",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "痛点",
+      "title": "Zoom里的总理，声音是后来配的",
+      "body": "新加坡。警方把一整段假 Zoom 独家交给 CNA。画面里有总理黄循财、总统尚达曼、总理公署部长英兰妮，还有加拿大外长 Anita Anand。受害人后来至少转走四百九十万新元。记者把每一格对回去：至少七段画面来自还挂在油管上的旧视频。英兰妮那段是二零二三年 Money FM 的采访，原片只有三百五十多次播放。尚达曼二零二零年一场研讨会，不到两百次。黄循财宣布放宽防疫的记者会有三万次播放，骗子截的是四十一分钟以后那段。原声被换成假嘴，台标用 Live Zoom Recording 盖住。Anand 三月二十五日在巴黎谈霍尔木兹海峡的原话几乎没改，放在开头当锚。有十五秒黄循财和英兰妮并排坐，国大研究者说可能是 AI 拼出来的。所以呢：你看见的是真脸在动，听见的是假嘴在要钱。油管上没人看的旧片子，比全新的假脸更难认。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "CNA",
+          "url": "https://www.channelnewsasia.com/singapore/zoom-scam-5-million-analysis-full-video-6332621"
+        },
+        {
+          "label": "Malay Mail",
+          "url": "https://www.malaymail.com/news/singapore/2026/08/23/how-scammers-used-real-footage-of-pm-wong-and-world-leaders-to-build-a-s49m-scam/232423"
+        }
+      ]
+    },
+    {
+      "id": "kipp-colorado-grocery-deepfake",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "痛点",
+      "title": "她在收银台扣找零，那张脸是假的",
+      "body": "科罗拉多州议会。州参议员 Cathy Kipp 四月在地板上说，把多收的税留下来办教育，不是加税。丹佛智库独立研究所看不下去。他们放出一段深伪视频：Kipp 变成超市收银员，顾客要找零，她说听着，钱你已经给我了，我留下，孩子们要上学。片尾一行小字：AI generated content，因为现在谁还找真人收银。科州法律要求，候选人现任议员的深伪必须用跟其他字一样大的字写明：这段被改过，看起来像真的，其实不是。Kipp 向州务卿投诉，说这可能是新法第一条。所长 Jon Caldara 说这是讽刺，说的是提案 NN，不是叫人别投她。Kipp 声明里写，不能让选举里的假信息变成日常。州务卿办公室在查。查实了可以罚款。所以呢：政客的脸被拿去演一出她没演过的戏。法律要你把这是假的写得跟标题一样大，他们写成了一句玩笑。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "CBS Colorado",
+          "url": "https://www.cbsnews.com/colorado/news/deepfake-video-colorado-state-lawmaker-complaint/"
+        },
+        {
+          "label": "Independence Institute",
+          "url": "https://i2i.org/nn_195/"
+        }
+      ]
+    },
+    {
+      "id": "banxso-musk-rupert-ads",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "痛点",
+      "title": "马斯克和鲁珀特在广告里保证月入十八万",
+      "body": "南非。监管机构 FSCA 年报这周被媒体拆开。交易平台 Banxso 的广告里，马斯克、南非富豪 Johann Rupert、Nicky Oppenheimer，还有南非广播公司主持人，都在推销 Immediate Matrix：四千七百兰特进去，一个月能赚三十万兰特，大约一万八千美元。点进去的人被转到 Banxso 经纪人，劝他们做差价合约。公司说广告是别人做的，自己也被黑了。监管认定它直接或间接参与，或至少吃到好处。客户的钱没进正规通道，在内部账户之间转，有的拿去付私人和公司开销。有退休的人先被劝存不到五千兰特，后来把六十万、九十万兰特养老金砸进去。监管说大约六千一百万美元客户资金被挪用。对 Banxso 和董事 Harel Adam Sekler、Warwick David Sneider 连带罚约一点二三亿美元，四人禁业三十年。西开普高等法院三月判最终清算。所以呢：名人的脸是广告位。假脸送到你首页，钱进了内部账户。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Business Insider Africa",
+          "url": "https://africa.businessinsider.com/local/markets/elon-musk-and-johann-rupert-deepfake-ads-drew-south-africans-into-a-dollar61-million/ck92vhy"
+        },
+        {
+          "label": "Billionaires Africa",
+          "url": "https://www.billionaires.africa/2026/08/21/how-deepfake-ads-using-elon-musk-johann-rupert-helped-steal-61-5-million-from-south-african-investors/"
+        }
+      ]
+    },
+    {
+      "id": "farnsley-venecky-agenda",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "痛点",
+      "title": "手册上，肯塔基写成了Venecky",
+      "body": "路易斯维尔。Farnsley 中学。Stacey Morris 的儿子第一天放学上车就问：妈，咱们是不是住在 Venecky？她翻开十美元教学费买来的学生手册。美国地图上，肯塔基写成 Venecky，路易斯安那是 Lookoong，亚拉巴马是 Alotome，伊利诺伊是 Vitoiis，南卡是 Sorth Cuanto，亚利桑那是 Arizone。元素周期表是歪的，月相图看不清。她怀疑是人工智能生成的。校方让老师把第十九到三十六页撕掉再带回家。周五学区拿出新记录：这本是学校自己设计的，杰斐逊县公立学校印刷，花了三千多美元。全县只有三所学校自己做手册。发言人 Barnard Baker 说是孤立事件，不管材料来自网上、AI 工具还是出版商，发下去之前都该核对。家长有没有退那十美元，学区没答。所以呢：孩子打开手册，自己的州已经改名。像是机器写的，人却没看一眼就印了三千美元。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "WDRB 记录",
+          "url": "https://www.wdrb.com/news/education/new-records-show-farnsley-middle-school-designed-seemingly-ai-generated-agenda/article_c212a34f-68aa-417b-a401-71fcbff0545e.html"
+        },
+        {
+          "label": "WDRB 原文",
+          "url": "https://www.wdrb.com/news/venecky-instead-of-kentucky-jcps-middle-school-parents-suspect-school-agendas-are-ai-generated/article_c0d3bef9-bda3-454b-8606-9cf3c5a6178d.html"
+        }
+      ]
+    },
+    {
       "id": "prompt-hotel-travertine-editorial",
       "date": "2026-08-22",
       "added": "2026-08-23",
