@@ -2,6 +2,317 @@ window.INTEL_DATA = {
   "updated": "2026-08-23",
   "items": [
     {
+      "id": "prompt-hotel-travertine-editorial",
+      "date": "2026-08-22",
+      "added": "2026-08-23",
+      "category": "提示词",
+      "title": "米黄色洞石柱旁站着，羊毛西装肩线自己垂下来",
+      "body": "有人把一张自拍锁进酒店大堂的洞石柱旁。不是换脸。是羊毛西装自己垂下来。\n\nAura Prompt 八月二十二日放出五段电影感男装词。第一段把人放进米黄色洞石门厅。玻璃门上有外面的反光。地面有石头反光。灯是从门口漫进来的白天。相机写成五十毫米、光圈二点八。词一开头就把五官、鼻唇、下颌、肤色、发型全部点名不许动。布料要写出羊毛纤维和衬衫织纹。西装肩线要有真实重量。水印那句可以删。\n\n作者说洞石纹理连跑三次都还在。第一遍衣服对、背景假。第三遍背景才跟衣服一起稳住。竖构图三比四。正面清晰、光线均匀的参考照先传。脸糊了，后面全糊。身份锁要放在最前面。Gemini 读开头更用力。\n\n所以呢：先传自己的脸，把下面整段贴进 Gemini，只改衣服颜色，不要让它改五官。\n\nUse the uploaded photo as the strict facial reference and preserve the identity exactly. Keep 100% of the original facial features, facial proportions, eye shape, nose, lips, jawline, skin tone, hairstyle, and overall recognizability. Do not alter the face, reshape facial structure, beautify the skin, smooth pores, or create identity drift. The subject is a stylish young man photographed for a premium editorial fashion campaign inspired by modern Pinterest menswear photography in 2026. He wears a tailored charcoal wool blazer over a crisp white cotton shirt with the top button naturally open, straight dark trousers, polished black leather loafers, and a minimalist silver watch. The wool blazer shows realistic fiber texture, lapel stitching, and natural shoulder drape. The white shirt has visible cotton weave, a subtle collar crease, and natural fabric tension at the chest. He stands naturally beside a large architectural column with relaxed shoulders, one hand resting lightly inside the trouser pocket and the other hand adjusting the blazer cuff. His body is turned slightly toward one side while his face looks directly into the camera with a calm confident expression and natural eye contact. The environment is a luxurious hotel entrance built from warm cream travertine stone with visible natural veining and surface grain, brushed metal accents with matte finish, tall glass doors showing subtle reflections of the exterior, and polished stone flooring with realistic light reflection. Preserve the stone grain, subtle fingerprints on glass, natural fabric weave texture in every garment, individual hair strands, authentic skin pores, and the realistic weight of the blazer hanging from the shoulders. Use soft diffused daylight coming through the glass entrance with gentle directional shadows falling naturally beneath the blazer collar and trouser breaks. Realistic tonal transitions across the face with open shadow detail and controlled highlights on the hair and jacket shoulder. Photograph the scene using a professional full frame camera with a 50mm lens at f/2.8, ISO 100, shutter speed 1/250 second. Natural RAW photography characteristics with authentic optical rendering, realistic dynamic range, subtle film grain, restrained contrast, neutral luxury color grading across warm cream stone and cool charcoal fabric, and accurate skin color without correction. Keep the background environment naturally detailed and recognizable without artificial blur or softening. The result must look like a genuine fashion magazine photograph captured on location. Ultra photorealistic professional photography, authentic human anatomy, realistic skin texture, physically accurate lighting, natural fabric behavior, detailed environmental surfaces, realistic depth, natural dynamic range, subtle photographic imperfections, and lifelike tonal variation. No facial identity change, no face replacement, no altered facial proportions, no plastic skin, no excessive smoothing, no beauty filter, no artificial symmetry, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no excessive HDR, no oversaturation, no blown highlights, no duplicate objects, no text, no logo. Vertical 3:4 composition, sharp eyes, realistic anatomy, natural skin texture, professional editorial quality. Add a subtle bottom left corner watermark reading \"auraprompt.in\" in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "prompt": "Use the uploaded photo as the strict facial reference and preserve the identity exactly. Keep 100% of the original facial features, facial proportions, eye shape, nose, lips, jawline, skin tone, hairstyle, and overall recognizability. Do not alter the face, reshape facial structure, beautify the skin, smooth pores, or create identity drift. The subject is a stylish young man photographed for a premium editorial fashion campaign inspired by modern Pinterest menswear photography in 2026. He wears a tailored charcoal wool blazer over a crisp white cotton shirt with the top button naturally open, straight dark trousers, polished black leather loafers, and a minimalist silver watch. The wool blazer shows realistic fiber texture, lapel stitching, and natural shoulder drape. The white shirt has visible cotton weave, a subtle collar crease, and natural fabric tension at the chest. He stands naturally beside a large architectural column with relaxed shoulders, one hand resting lightly inside the trouser pocket and the other hand adjusting the blazer cuff. His body is turned slightly toward one side while his face looks directly into the camera with a calm confident expression and natural eye contact. The environment is a luxurious hotel entrance built from warm cream travertine stone with visible natural veining and surface grain, brushed metal accents with matte finish, tall glass doors showing subtle reflections of the exterior, and polished stone flooring with realistic light reflection. Preserve the stone grain, subtle fingerprints on glass, natural fabric weave texture in every garment, individual hair strands, authentic skin pores, and the realistic weight of the blazer hanging from the shoulders. Use soft diffused daylight coming through the glass entrance with gentle directional shadows falling naturally beneath the blazer collar and trouser breaks. Realistic tonal transitions across the face with open shadow detail and controlled highlights on the hair and jacket shoulder. Photograph the scene using a professional full frame camera with a 50mm lens at f/2.8, ISO 100, shutter speed 1/250 second. Natural RAW photography characteristics with authentic optical rendering, realistic dynamic range, subtle film grain, restrained contrast, neutral luxury color grading across warm cream stone and cool charcoal fabric, and accurate skin color without correction. Keep the background environment naturally detailed and recognizable without artificial blur or softening. The result must look like a genuine fashion magazine photograph captured on location. Ultra photorealistic professional photography, authentic human anatomy, realistic skin texture, physically accurate lighting, natural fabric behavior, detailed environmental surfaces, realistic depth, natural dynamic range, subtle photographic imperfections, and lifelike tonal variation. No facial identity change, no face replacement, no altered facial proportions, no plastic skin, no excessive smoothing, no beauty filter, no artificial symmetry, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no excessive HDR, no oversaturation, no blown highlights, no duplicate objects, no text, no logo. Vertical 3:4 composition, sharp eyes, realistic anatomy, natural skin texture, professional editorial quality. Add a subtle bottom left corner watermark reading \"auraprompt.in\" in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "links": [
+        {
+          "label": "八月二十二日五段原文",
+          "url": "https://auraprompt.in/cinematic-ai-photo-editing-prompts-instagram-boys/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-leather-sedan-street",
+      "date": "2026-08-22",
+      "added": "2026-08-23",
+      "category": "提示词",
+      "title": "阴天靠上黑轿车门，皮衣颗粒自己反光",
+      "body": "有人把一张自拍靠上黑色轿车的车门。不是滤镜。是阴天里的皮衣颗粒。\n\n同一页第二段把人放到市区石灰岩街道。玻璃橱窗里有店内的灯。一手搭在车门，手指放松。另一只手垂在衣摆旁。灯写成阴天漫射，不要闪光。镜头三十五毫米、光圈三点二。负向词点名假虚化、HDR、磨皮。皮衣要有细擦痕和缝线。重量要压在一条腿上。肩要方，但不要僵。\n\n作者对比过几种灯。阴天那句比闪光更能保住皮革。第三遍才把车门纹理和脸一起看清。水印那句可删。不要往街上加人。身份锁要放在最前面。手指必须写成放松，不然会多长一根。\n\n对侧马路只留远处的车。不要写品牌店招。\n\n所以呢：先传一张正面照，把下面整段贴进去，只换车的颜色，不要加霓虹。\n\nUse the uploaded reference image as the exact facial identity source. Preserve 100% facial identity with the same facial structure, proportions, eyes, eyebrows, nose, lips, jawline, skin tone, hairstyle, and natural imperfections. No face alteration, no facial reshaping, no excessive skin retouching, no smoothing, and no identity drift. Create an ultra realistic cinematic male fashion photograph inspired by premium Pinterest street style photography for 2026. The man wears a black leather jacket with authentic natural leather grain, subtle surface scuffs, realistic stitching along the collar and pockets, a fitted white heavyweight cotton T shirt with visible fabric texture and slight body tension, dark straight leg denim with natural crease lines at the knees and thigh break, black leather Chelsea boots with a defined toe and realistic sole thickness, and a subtle steel wristwatch with brushed metal bracelet detail. He is leaning casually against the side of a black luxury sedan. One leg is slightly forward with his weight shifted, one hand rests naturally on the vehicle with fingers relaxed and the other hand hangs comfortably near the jacket hem. His posture is relaxed and masculine, shoulders square but not stiff. His face looks directly into the camera with a composed confident expression, natural eye contact, and a calm set to the jaw. The background is a refined downtown avenue with modern limestone building facades, tall glass storefronts with interior lighting visible through the glass, premium parked vehicles on the far side of the road, clean concrete pavement with subtle surface variation, distant street elements, and realistic atmospheric depth with accurate perspective lines. Maintain sharp environmental textures on the car door, building stone, and pavement surface. Lighting is soft overcast daylight with a broad diffused sky source, controlled highlights across the car surface, gentle shadow definition beneath the subject's jaw and on the far side of the leather jacket, and balanced fill across the face. Capture the image with a full frame camera and 35mm lens at f/3.2, ISO 125, shutter speed 1/320 second. Natural RAW photography, accurate skin color, realistic pores, fine facial hair texture, authentic leather surface rendering, subtle sensor grain, cinematic neutral color grading, realistic contrast, no HDR appearance, no artificial glow, no beauty filter, no fake bokeh. The result must look like a genuine professional fashion photograph rather than a generated image. Ultra photorealistic professional photography, authentic human anatomy, realistic skin texture, physically accurate lighting, natural fabric behavior, detailed environmental surfaces, realistic depth, natural dynamic range, subtle photographic imperfections, and lifelike tonal variation. No facial identity change, no face replacement, no altered facial proportions, no plastic skin, no excessive smoothing, no beauty filter, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no excessive HDR, no oversaturation, no blown highlights, no duplicate objects, no text, no logo. Vertical 3:4 composition, face looking directly at the camera, natural anatomy. Add a subtle bottom left corner watermark reading \"auraprompt.in\" in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "prompt": "Use the uploaded reference image as the exact facial identity source. Preserve 100% facial identity with the same facial structure, proportions, eyes, eyebrows, nose, lips, jawline, skin tone, hairstyle, and natural imperfections. No face alteration, no facial reshaping, no excessive skin retouching, no smoothing, and no identity drift. Create an ultra realistic cinematic male fashion photograph inspired by premium Pinterest street style photography for 2026. The man wears a black leather jacket with authentic natural leather grain, subtle surface scuffs, realistic stitching along the collar and pockets, a fitted white heavyweight cotton T shirt with visible fabric texture and slight body tension, dark straight leg denim with natural crease lines at the knees and thigh break, black leather Chelsea boots with a defined toe and realistic sole thickness, and a subtle steel wristwatch with brushed metal bracelet detail. He is leaning casually against the side of a black luxury sedan. One leg is slightly forward with his weight shifted, one hand rests naturally on the vehicle with fingers relaxed and the other hand hangs comfortably near the jacket hem. His posture is relaxed and masculine, shoulders square but not stiff. His face looks directly into the camera with a composed confident expression, natural eye contact, and a calm set to the jaw. The background is a refined downtown avenue with modern limestone building facades, tall glass storefronts with interior lighting visible through the glass, premium parked vehicles on the far side of the road, clean concrete pavement with subtle surface variation, distant street elements, and realistic atmospheric depth with accurate perspective lines. Maintain sharp environmental textures on the car door, building stone, and pavement surface. Lighting is soft overcast daylight with a broad diffused sky source, controlled highlights across the car surface, gentle shadow definition beneath the subject's jaw and on the far side of the leather jacket, and balanced fill across the face. Capture the image with a full frame camera and 35mm lens at f/3.2, ISO 125, shutter speed 1/320 second. Natural RAW photography, accurate skin color, realistic pores, fine facial hair texture, authentic leather surface rendering, subtle sensor grain, cinematic neutral color grading, realistic contrast, no HDR appearance, no artificial glow, no beauty filter, no fake bokeh. The result must look like a genuine professional fashion photograph rather than a generated image. Ultra photorealistic professional photography, authentic human anatomy, realistic skin texture, physically accurate lighting, natural fabric behavior, detailed environmental surfaces, realistic depth, natural dynamic range, subtle photographic imperfections, and lifelike tonal variation. No facial identity change, no face replacement, no altered facial proportions, no plastic skin, no excessive smoothing, no beauty filter, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no excessive HDR, no oversaturation, no blown highlights, no duplicate objects, no text, no logo. Vertical 3:4 composition, face looking directly at the camera, natural anatomy. Add a subtle bottom left corner watermark reading \"auraprompt.in\" in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "links": [
+        {
+          "label": "八月二十二日五段原文",
+          "url": "https://auraprompt.in/cinematic-ai-photo-editing-prompts-instagram-boys/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-midnight-showroom-trench",
+      "date": "2026-08-21",
+      "added": "2026-08-23",
+      "category": "提示词",
+      "title": "夜里展厅地面站着，蓝光贴在黑皮风衣肩上",
+      "body": "有人把一张自拍送进夜里的汽车展厅。不是换脸。是蓝环境光贴在黑皮风衣上。\n\nAura Prompt 八月二十一日放出午夜奢侈男装词。第一段把人放进展厅地面。右手插进风衣口袋。头顶是暖白射灯。玻璃墙外是城市夜色。负向词点名车标、霓虹、雨。灯要按主光、辅光、阴影方向、色温这个顺序写。黑衣服必须写皮革颗粒和布料重量，不然会变成一团黑。ISO 八百，八十五毫米。背景车只当环境，不要抢脸。\n\n作者连跑几遍。深蓝环境光加黑皮风衣最稳。水印可删。不要加车标。夜里黑衣服往往要跑三四次，脸和衣服才会同时清楚。身份锁放在最前面。皮肤不要写成橙色。\n\n所以呢：先传一张脸清楚的正面照，把下面整段贴进 Gemini，只改风衣长度，不要让它点亮霓虹。\n\nUse the uploaded reference photo as the primary identity reference. Preserve the person's facial identity exactly as shown in the reference photo, including face shape, eyes, eyebrows, nose, lips, cheekbones, jawline, skin tone, natural asymmetry, age appearance, and all distinctive facial characteristics. Do not redesign, beautify, replace, or reinterpret the face. Preserve the original hair color and overall physical identity. Create an ultra photorealistic cinematic male portrait with the visual quality of a premium fashion editorial or luxury brand campaign photograph. The image should feel like a real location shot inside a high end establishment at night, with authentic human proportions, realistic skin texture, believable fabric weight, and subtle photographic character. A young adult man stands near the front of a luxury automobile showroom floor late at night. His body faces the camera almost straight on, weight slightly shifted to his right leg, left shoulder angled back half a step. His left hand is relaxed at his side, fingers loosely curled. His right hand is pushed into the side pocket of his trench coat. His chin is level and he looks directly into the camera with a calm composed expression, eyes steady, jaw relaxed, lips together but not tight. His posture reads confident but effortless, not stiff. Camera is positioned at chest level, slightly below the subject's eye line, using a natural straight on perspective. Vertical 3:4 composition, medium full shot from approximately the upper thighs to just above the head, subject centered with the showroom floor and vehicles receding behind him. Enough environment visible to clearly establish the luxury location. He wears a long black full grain leather trench coat falling to mid calf, double breasted with wide lapels, structured shoulders, a belted waist with a silver buckle, and deep side pockets. The coat has a subtle gloss on the chest and shoulders where the light catches the leather. Underneath he wears a fitted black mock neck long sleeve top in a smooth matte jersey fabric. Straight cut black wool blend trousers with a clean break at the ankle. Black leather Oxford shoes with a subtle cap toe and thin sole, highly polished. A slim silver watch on the left wrist, partially visible at the cuff. No other jewelry. Hair is neatly groomed, short on the sides, slightly longer and brushed back on top with a clean natural finish and no product shine. The environment is the interior of a contemporary luxury automobile showroom. Polished concrete floor reflecting the overhead lighting in long soft horizontal streaks. Two or three low profile luxury vehicles in matte black and deep navy sit in the background on either side, partially visible, not the main focus. Floor to ceiling glass walls on the far side show a dark city night outside with faint blurred lights. Minimalist display pedestals with chrome edges. Recessed ceiling spotlights in a grid pattern casting precise pools of warm white light on the vehicles and floor. Lighting is a refined mix of cool deep blue ambient fill from the glass walls and city night exterior, and precise warm white recessed spotlights from above. The key light falls from slightly above and in front, catching the top of the leather coat shoulders, the side of the face, and the watch. Deep cool shadows fall along the sides of the coat, below the chin, and across the lower body. The leather picks up clean specular highlights along the lapels and shoulders. No neon, no flash, no artificial color. Midnight showroom atmosphere, expensive and quiet. Captured at 85mm equivalent, f/2.0, ISO 800, full frame cinematic portrait, sharp on the face and coat texture, background vehicles and floor softly compressed, no fisheye, no wide angle stretch, natural lens rendering. Deep midnight color grade. Crushed near blacks in the coat and trousers. Cool blue ambient in the shadows. Warm white key on the skin and leather surface. Skin tones natural and accurate, not orange, not grey. Moderate contrast, controlled highlights, slight filmic desaturation in the midtones, premium luxury editorial character. Visible pores on the face, realistic skin texture with natural subsurface light interaction, fine facial stubble if present in the reference, natural asymmetry, no plastic skin, no beauty filter, no excessive retouching. Realistic leather grain on the trench coat, visible stitching at the lapels and belt, natural fabric weight pulling the coat downward, accurate shoe leather polish. Ultra photorealistic professional photography, authentic human anatomy, realistic skin texture, physically accurate lighting, natural fabric behavior, detailed environmental surfaces, realistic depth, natural dynamic range, subtle photographic imperfections, and lifelike tonal variation. No facial identity change, no face replacement, no altered facial proportions, no different eye shape, no changed nose, no changed lips, no changed skin tone, no plastic skin, no excessive smoothing, no beauty filter, no artificial symmetry, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no painting, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no unrealistic body proportions, no artificial lighting, no excessive HDR, no oversaturation, no blown highlights, no unnatural blur, no duplicate objects, no visible car brand logos, no copyrighted automotive trademarks, no text overlays, no watermark except auraprompt.in signature, no neon signs, no rain, no people in background, no blurry, no lowres, no fisheye. Vertical 3:4 composition. Add a subtle bottom left corner watermark reading \"auraprompt.in\" in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "prompt": "Use the uploaded reference photo as the primary identity reference. Preserve the person's facial identity exactly as shown in the reference photo, including face shape, eyes, eyebrows, nose, lips, cheekbones, jawline, skin tone, natural asymmetry, age appearance, and all distinctive facial characteristics. Do not redesign, beautify, replace, or reinterpret the face. Preserve the original hair color and overall physical identity. Create an ultra photorealistic cinematic male portrait with the visual quality of a premium fashion editorial or luxury brand campaign photograph. The image should feel like a real location shot inside a high end establishment at night, with authentic human proportions, realistic skin texture, believable fabric weight, and subtle photographic character. A young adult man stands near the front of a luxury automobile showroom floor late at night. His body faces the camera almost straight on, weight slightly shifted to his right leg, left shoulder angled back half a step. His left hand is relaxed at his side, fingers loosely curled. His right hand is pushed into the side pocket of his trench coat. His chin is level and he looks directly into the camera with a calm composed expression, eyes steady, jaw relaxed, lips together but not tight. His posture reads confident but effortless, not stiff. Camera is positioned at chest level, slightly below the subject's eye line, using a natural straight on perspective. Vertical 3:4 composition, medium full shot from approximately the upper thighs to just above the head, subject centered with the showroom floor and vehicles receding behind him. Enough environment visible to clearly establish the luxury location. He wears a long black full grain leather trench coat falling to mid calf, double breasted with wide lapels, structured shoulders, a belted waist with a silver buckle, and deep side pockets. The coat has a subtle gloss on the chest and shoulders where the light catches the leather. Underneath he wears a fitted black mock neck long sleeve top in a smooth matte jersey fabric. Straight cut black wool blend trousers with a clean break at the ankle. Black leather Oxford shoes with a subtle cap toe and thin sole, highly polished. A slim silver watch on the left wrist, partially visible at the cuff. No other jewelry. Hair is neatly groomed, short on the sides, slightly longer and brushed back on top with a clean natural finish and no product shine. The environment is the interior of a contemporary luxury automobile showroom. Polished concrete floor reflecting the overhead lighting in long soft horizontal streaks. Two or three low profile luxury vehicles in matte black and deep navy sit in the background on either side, partially visible, not the main focus. Floor to ceiling glass walls on the far side show a dark city night outside with faint blurred lights. Minimalist display pedestals with chrome edges. Recessed ceiling spotlights in a grid pattern casting precise pools of warm white light on the vehicles and floor. Lighting is a refined mix of cool deep blue ambient fill from the glass walls and city night exterior, and precise warm white recessed spotlights from above. The key light falls from slightly above and in front, catching the top of the leather coat shoulders, the side of the face, and the watch. Deep cool shadows fall along the sides of the coat, below the chin, and across the lower body. The leather picks up clean specular highlights along the lapels and shoulders. No neon, no flash, no artificial color. Midnight showroom atmosphere, expensive and quiet. Captured at 85mm equivalent, f/2.0, ISO 800, full frame cinematic portrait, sharp on the face and coat texture, background vehicles and floor softly compressed, no fisheye, no wide angle stretch, natural lens rendering. Deep midnight color grade. Crushed near blacks in the coat and trousers. Cool blue ambient in the shadows. Warm white key on the skin and leather surface. Skin tones natural and accurate, not orange, not grey. Moderate contrast, controlled highlights, slight filmic desaturation in the midtones, premium luxury editorial character. Visible pores on the face, realistic skin texture with natural subsurface light interaction, fine facial stubble if present in the reference, natural asymmetry, no plastic skin, no beauty filter, no excessive retouching. Realistic leather grain on the trench coat, visible stitching at the lapels and belt, natural fabric weight pulling the coat downward, accurate shoe leather polish. Ultra photorealistic professional photography, authentic human anatomy, realistic skin texture, physically accurate lighting, natural fabric behavior, detailed environmental surfaces, realistic depth, natural dynamic range, subtle photographic imperfections, and lifelike tonal variation. No facial identity change, no face replacement, no altered facial proportions, no different eye shape, no changed nose, no changed lips, no changed skin tone, no plastic skin, no excessive smoothing, no beauty filter, no artificial symmetry, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no painting, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no unrealistic body proportions, no artificial lighting, no excessive HDR, no oversaturation, no blown highlights, no unnatural blur, no duplicate objects, no visible car brand logos, no copyrighted automotive trademarks, no text overlays, no watermark except auraprompt.in signature, no neon signs, no rain, no people in background, no blurry, no lowres, no fisheye. Vertical 3:4 composition. Add a subtle bottom left corner watermark reading \"auraprompt.in\" in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "links": [
+        {
+          "label": "八月二十一日午夜五段原文",
+          "url": "https://auraprompt.in/midnight-luxury-photo-prompts-for-men-gemini-ai/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-midnight-subway-knit",
+      "date": "2026-08-21",
+      "added": "2026-08-23",
+      "category": "提示词",
+      "title": "空月台黄线前站着，隧道口把半边肩吞黑",
+      "body": "有人把一张自拍送进空地铁站。不是滤镜。是黄安全线前面，隧道口吞掉半边肩。\n\n同一页第五段把人放在月台。右手插裤袋。高领罗纹毛衣要吃掉大部分光，只剩肋骨纹接住顶灯。辅光来自左侧广告灯箱的琥珀色。不要霓虹灯管。ISO 一千六百，让颗粒留下。负向词点名站上其他人、招牌字、雨。作者说黑毛衣上的环境光，是 Gemini 显色最好的地方。顶灯是冷白，广告箱是暖边。\n\n竖构图三比四。水印可删。黑衣服要写布料纹理，不然会糊成一块。夜里高 ISO 那句能去掉塑料脸。身份锁放在最前面。月台必须空，不能有路人。\n\n表盘和鞋面只要很小的高光。不要把顶灯改成彩色。\n\n所以呢：先传自己的脸，把下面整段贴进去，站在黄线前，不要让它往站台上加人。\n\nUse the uploaded reference photo as the primary identity reference. Preserve the person's facial identity exactly as shown in the reference photo, including face shape, eyes, eyebrows, nose, lips, cheekbones, jawline, skin tone, natural asymmetry, age appearance, and all distinctive facial characteristics. Do not redesign, beautify, replace, or reinterpret the face. Preserve the original hair color and overall physical identity. Create an ultra photorealistic cinematic male portrait with the visual quality of a premium contemporary fashion editorial. The image should feel like a real late night subway platform location photograph with authentic ambient light and genuine architectural character, not a studio backdrop. A young adult man stands on an empty modern subway platform late at night. His body faces the camera almost straight on, feet slightly apart at shoulder width, weight even. His right hand is in his trouser pocket. His left arm hangs naturally at his side, hand relaxed. His chin is level and he looks directly into the camera with a steady composed expression, eyes sharp, lips relaxed and together. He stands slightly forward of the yellow safety line at the platform edge, the dark mouth of the tunnel visible behind him. The posture is relaxed and grounded, quietly confident. Camera is positioned at chest level, straight on, using a natural 50mm perspective. Vertical 3:4 composition, medium full shot from the mid thigh upward, subject centered on the platform, the tunnel entrance and receding platform architecture filling the background. He wears a heavyweight black ribbed knit turtleneck sweater with a close fitting high neck and a visibly textured vertical rib pattern across the entire body. The fit is slim through the torso and arms. Over it he wears wide leg tailored black wool trousers with a high rise waist, clean front crease, and a generous break at the ankle over the shoes. Black leather chunky sole loafers with a square toe and a thick stacked leather platform heel. A large format brushed silver watch with a black dial on the left wrist. A slim black leather crossbody bag worn across the body, strap crossing the chest diagonally, small rectangular body resting at the hip. Short neat hair, naturally textured on top, tight at the sides, no product shine. The environment is an empty contemporary urban subway station platform at night. The platform surface is dark grey textured anti slip tile with a yellow raised tactile safety strip at the edge. The platform walls behind the subject are clad in large format off white ceramic tile panels with a gentle curve. A dark tunnel mouth opens directly behind him, receding into absolute black. Overhead the station has a curved concrete ceiling with recessed white fluorescent strip lighting running the length of the platform. On the far wall of the platform a large illuminated advertising panel glows with a warm amber or cool blue backlit light. A digital display board is partially visible at the far end showing blurred white numbers. The platform is completely empty of other people. Lighting is a combination of the overhead recessed fluorescent strips casting a cool clinical white light from above, the warm amber backlit advertising panel providing a secondary directional fill from camera left, and the absolute darkness of the tunnel mouth creating a deep black absence behind his left shoulder. The face receives clean overhead fill with soft shadows below the brow and chin. The black turtleneck absorbs most of the light with subtle rib texture catching the overhead strips. The watch and loafer leather pick up small precise catchlights. No neon tubes, no colored stage lighting, no flash. The ambient platform light creates the cinematic mood naturally. Captured at 50mm equivalent, f/2.0, ISO 1600, full frame late night interior portrait, visible natural grain from the high ISO, sharp on the face and turtleneck texture, platform background receding with natural depth, tunnel behind in near total darkness, no fisheye, no wide angle compression. Near monochrome midnight color grade. True blacks throughout the outfit, the tunnel, and the platform edge. Cool overhead white light catching the face and shoulders. Warm amber secondary from the advertising panel creating a faint warm edge on the left side of the figure. Skin tones natural and accurate. High contrast between the lit subject and the dark tunnel behind. Slight film grain character, crushed blacks, clean mid highlights on the face. Real skin pores, natural facial texture, heavy knit rib texture clearly visible with individual rib definition under the overhead light, wool trouser crease sharp and natural, loafer leather surface detailed. Ultra photorealistic professional photography, authentic human anatomy, realistic skin texture, physically accurate lighting, natural fabric behavior, detailed environmental surfaces, realistic depth, natural dynamic range, subtle photographic imperfections, and lifelike tonal variation. No facial identity change, no face replacement, no altered facial proportions, no different eye shape, no changed nose, no changed lips, no changed skin tone, no plastic skin, no excessive smoothing, no beauty filter, no artificial symmetry, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no painting, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no unrealistic body proportions, no artificial lighting, no excessive HDR, no oversaturation, no blown highlights, no unnatural blur, no duplicate objects, no other people on the platform, no visible real brand logos, no copyrighted signage text, no text overlays, no watermark except auraprompt.in signature, no neon color wash, no rain, no daylight, no outdoor setting, no blurry, no lowres, no fisheye. Vertical 3:4 composition. Add a subtle bottom left corner watermark reading \"auraprompt.in\" in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "prompt": "Use the uploaded reference photo as the primary identity reference. Preserve the person's facial identity exactly as shown in the reference photo, including face shape, eyes, eyebrows, nose, lips, cheekbones, jawline, skin tone, natural asymmetry, age appearance, and all distinctive facial characteristics. Do not redesign, beautify, replace, or reinterpret the face. Preserve the original hair color and overall physical identity. Create an ultra photorealistic cinematic male portrait with the visual quality of a premium contemporary fashion editorial. The image should feel like a real late night subway platform location photograph with authentic ambient light and genuine architectural character, not a studio backdrop. A young adult man stands on an empty modern subway platform late at night. His body faces the camera almost straight on, feet slightly apart at shoulder width, weight even. His right hand is in his trouser pocket. His left arm hangs naturally at his side, hand relaxed. His chin is level and he looks directly into the camera with a steady composed expression, eyes sharp, lips relaxed and together. He stands slightly forward of the yellow safety line at the platform edge, the dark mouth of the tunnel visible behind him. The posture is relaxed and grounded, quietly confident. Camera is positioned at chest level, straight on, using a natural 50mm perspective. Vertical 3:4 composition, medium full shot from the mid thigh upward, subject centered on the platform, the tunnel entrance and receding platform architecture filling the background. He wears a heavyweight black ribbed knit turtleneck sweater with a close fitting high neck and a visibly textured vertical rib pattern across the entire body. The fit is slim through the torso and arms. Over it he wears wide leg tailored black wool trousers with a high rise waist, clean front crease, and a generous break at the ankle over the shoes. Black leather chunky sole loafers with a square toe and a thick stacked leather platform heel. A large format brushed silver watch with a black dial on the left wrist. A slim black leather crossbody bag worn across the body, strap crossing the chest diagonally, small rectangular body resting at the hip. Short neat hair, naturally textured on top, tight at the sides, no product shine. The environment is an empty contemporary urban subway station platform at night. The platform surface is dark grey textured anti slip tile with a yellow raised tactile safety strip at the edge. The platform walls behind the subject are clad in large format off white ceramic tile panels with a gentle curve. A dark tunnel mouth opens directly behind him, receding into absolute black. Overhead the station has a curved concrete ceiling with recessed white fluorescent strip lighting running the length of the platform. On the far wall of the platform a large illuminated advertising panel glows with a warm amber or cool blue backlit light. A digital display board is partially visible at the far end showing blurred white numbers. The platform is completely empty of other people. Lighting is a combination of the overhead recessed fluorescent strips casting a cool clinical white light from above, the warm amber backlit advertising panel providing a secondary directional fill from camera left, and the absolute darkness of the tunnel mouth creating a deep black absence behind his left shoulder. The face receives clean overhead fill with soft shadows below the brow and chin. The black turtleneck absorbs most of the light with subtle rib texture catching the overhead strips. The watch and loafer leather pick up small precise catchlights. No neon tubes, no colored stage lighting, no flash. The ambient platform light creates the cinematic mood naturally. Captured at 50mm equivalent, f/2.0, ISO 1600, full frame late night interior portrait, visible natural grain from the high ISO, sharp on the face and turtleneck texture, platform background receding with natural depth, tunnel behind in near total darkness, no fisheye, no wide angle compression. Near monochrome midnight color grade. True blacks throughout the outfit, the tunnel, and the platform edge. Cool overhead white light catching the face and shoulders. Warm amber secondary from the advertising panel creating a faint warm edge on the left side of the figure. Skin tones natural and accurate. High contrast between the lit subject and the dark tunnel behind. Slight film grain character, crushed blacks, clean mid highlights on the face. Real skin pores, natural facial texture, heavy knit rib texture clearly visible with individual rib definition under the overhead light, wool trouser crease sharp and natural, loafer leather surface detailed. Ultra photorealistic professional photography, authentic human anatomy, realistic skin texture, physically accurate lighting, natural fabric behavior, detailed environmental surfaces, realistic depth, natural dynamic range, subtle photographic imperfections, and lifelike tonal variation. No facial identity change, no face replacement, no altered facial proportions, no different eye shape, no changed nose, no changed lips, no changed skin tone, no plastic skin, no excessive smoothing, no beauty filter, no artificial symmetry, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no painting, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no unrealistic body proportions, no artificial lighting, no excessive HDR, no oversaturation, no blown highlights, no unnatural blur, no duplicate objects, no other people on the platform, no visible real brand logos, no copyrighted signage text, no text overlays, no watermark except auraprompt.in signature, no neon color wash, no rain, no daylight, no outdoor setting, no blurry, no lowres, no fisheye. Vertical 3:4 composition. Add a subtle bottom left corner watermark reading \"auraprompt.in\" in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "links": [
+        {
+          "label": "八月二十一日午夜五段原文",
+          "url": "https://auraprompt.in/midnight-luxury-photo-prompts-for-men-gemini-ai/"
+        }
+      ]
+    },
+    {
+      "id": "magical-canopy-webgpu",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "视觉尝试",
+      "title": "树冠在雾里跟着指针晃",
+      "body": "打开页面，整片树冠是体积光叠出来的，叶子一层一层在风里晃。指针一动，林间那团辉光会跟着偏过去。它不是贴好的森林贴图，是 WebGPU 上用 Three.js TSL 做的光线步进。软阴影和雾把远处吃掉，近处叶片还能看出厚度。风是算出来的，不是循环播放的视频。你不用点开始，场景自己在呼吸。mesh3d 在 8 月 21 日才把这条实验挂上。Chrome、Edge 一类支持 WebGPU 的浏览器才能进。没有菜单，没有关卡，就是走进去看光。实验室在 lab.aengel.io。叶子会分层摇摆，指针改变发光方向。所以呢，就是浏览器里走进一片会呼吸的假树林。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://lab.aengel.io/webgpu-raymarching-canopy/"
+        },
+        {
+          "label": "mesh3d",
+          "url": "https://mesh3d.gallery/experiment/magical-canopy"
+        }
+      ]
+    },
+    {
+      "id": "webgpu-blob-nacre",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "视觉尝试",
+      "title": "珍珠母球体跟着指针起涟漪",
+      "body": "屏幕中央一颗二十面体在慢慢呼吸，表面可以换成珍珠母、黄昏金、深渊蓝或岩浆红。指针贴上去，计算着色器会在那一层波纹里掀起一圈涟漪。四种材质只是换皮，底下是同一块 WebGPU 波动场。噪声把球体撕开又合上，像一摊不肯凝固的金属。你围着它转，它也跟着你的手指发抖。珍珠母会泛出油膜色，岩浆会从裂缝里冒热。深渊那套几乎是黑的，只剩边缘在亮。黄昏金那套像一块刚出炉的铜。mesh3d 8 月 21 日收录。打开就能转、能戳，不用装任何东西。需要 WebGPU 浏览器。没有教程，没有分数。所以呢，就是一颗会跟着手指发抖的数字黏液球。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://lab.aengel.io/webgpu-blob/"
+        },
+        {
+          "label": "mesh3d",
+          "url": "https://mesh3d.gallery/experiment/webgpu-blob"
+        }
+      ]
+    },
+    {
+      "id": "webgpu-tile-field",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "视觉尝试",
+      "title": "金属瓦片墙跟着光标鞠躬",
+      "body": "一整面金属瓦片墙对着你，瓦片会跟着光标一块一块倾斜。点一下，涟漪从那块瓦传到整面墙。五种瓦片形状可以换。悬停会把表面按下去，像按钢琴键。Three.js TSL 在 WebGPU 上算这面刚性阵列。每块瓦都是硬的，软的是整面墙一起弯。光从缝里漏出来，墙像活的。你换形状，墙的节奏跟着变。六边形更密，长条更像百叶。墙面始终对着镜头，像一块会呼吸的装甲。点得越急，涟漪叠得越花。mesh3d 8 月 21 日上架。打开就能摸。需要 WebGPU。墙不会碎。没有关卡。所以呢，就是一堵会跟着手指鞠躬的铁墙。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://lab.aengel.io/webgpu-tilefield/"
+        },
+        {
+          "label": "mesh3d",
+          "url": "https://mesh3d.gallery/experiment/webgpu-tile-field"
+        }
+      ]
+    },
+    {
+      "id": "webgpu-ribbon-carousel",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "视觉尝试",
+      "title": "相册骑在一条会转弯的绸带上",
+      "body": "一条缎带在三维里弯来弯去，照片贴在缎带表面往前滑。滚动越快，带子弯得越狠，边缘带着运动模糊。PBR 表面会反光，像真绸。它不是普通轮播，是单条参数化丝带。三条曲率轴同时拧，形状跟着滚轮走。图在带子上骑行，不会掉下去。滚动一停，带子慢慢回直。弓形高光会顺着边缘跑。带子永远接不上头，也永远走不完。你只负责滚，绸带负责弯。mesh3d 8 月 21 日挂出。WebGPU 浏览器才能看清反光。没有下一张按钮。滚轮就是方向盘。永远没有尽头。实验室在 lab.aengel.io。所以呢，就是把相册拧成一条会转弯的绸带。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://lab.aengel.io/webgpu-ribbon-carousel/"
+        },
+        {
+          "label": "mesh3d",
+          "url": "https://mesh3d.gallery/experiment/webgpu-ribbon-carousel"
+        }
+      ]
+    },
+    {
+      "id": "musical-spirograph",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "视觉尝试",
+      "title": "万花尺穿过圆环自己弹出音符",
+      "body": "彩色点按数学方程绕圈飞，画出万花尺那种玫瑰线。点穿过一圈圈同心环就弹出音符。最多三只手臂同时画。六个齿轮、六种音阶、六种合成器可以换。Quantize 能把乱敲收成节奏。图案自己长，声音跟着长。环可以扩到两个八度。Classic、Flower、Star、Orbit、Lotus、Spiral 六套起点。第二只手臂一加上去，画面立刻变成花。第三只手臂再加上去，像三个人抢一支笔。The Verge 8 月 22 日才写到它。打开就能画也能听，声音引擎会偶尔刺一下。没有账号。所以呢，就是万花尺自己在弹琴。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://musical.toys/toys/spirograph/"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition"
+        }
+      ]
+    },
+    {
+      "id": "rotation-double-reflection",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "视觉尝试",
+      "title": "红向量被两面镜子弹成一次旋转",
+      "body": "平面上两根反射轴，一根红向量被弹来弹去，最后转了一个角。这个角刚好是两根轴夹角的两倍。往下滚还有三维和圆反演。不写正弦余弦，只做两次镜像。拖那截叫 rotor 的弧，两根镜子会一起转。圆反演会把圆内的点弹到圆外。两个圆心叠在一起就变成缩放。圆心拉到很远就变成平移。几何代数把旋转、缩放、平移都收成反射的组合。三维里那根向量会在平面两侧折来折去。打开手性图形，镜像会成对出现。Hacker News 8 月 22 日的 Show HN，五十多分。打开就能拖。代码很短。所以呢，就是转圈其实是照两次镜子。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://static.laszlokorte.de/rotor-reflect/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49391168"
+        }
+      ]
+    },
+    {
+      "id": "soverybright-hdr-logo",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "视觉尝试",
+      "title": "标题比纯白还亮，HDR 屏会刺一下",
+      "body": "页面标题比纯白还亮，HDR 屏上会刺一下。上传 logo，点哪些颜色该发光，下载一张带增益图的 JPEG。普通屏看起来正常，HDR 屏上选定部分能亮到白色的七点五倍。LinkedIn 还不剥这层增益图，所以头像会从时间线里跳出来。白方块旁边还有更白的白方块。增益图画进 JPEG，旧设备当普通图。新款 MacBook 上看一眼就懂。选色、下载、贴回去，三步。Hacker News 当天五十多分。浏览器里做完，图不上传服务器。没有 HDR 屏也能看对比样张。免费。所以呢，就是让 logo 比白还白。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://www.soverybright.com/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49402521"
+        }
+      ]
+    },
+    {
+      "id": "zcomplete-shell-typo",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "小众工具",
+      "title": "打错命令，终端替你改口",
+      "body": "终端里打了 mkd build。屏幕回一句 command not found。\n\nzcomplete 不骂你。它从你常跑的命令里猜你想 mkdir。问一句 Y/n，就带着参数跑下去。cargo tset 也会被改成 cargo test。zsh、bash、fish 都能装。一条 curl 安装脚本就完事。\n\n命令打对时它不启动子进程。它按使用频率和当前目录加分。也认前缀、缩写和错字。rm、dd、git push --force 这类危险命令永远要确认。脚本和 CI 不会被改写。\n\n所以呢：你现在就能 curl 装上。故意打一次 gti status。看它会不会把 git 递回来。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/omarfakih1/zcomplete"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49392677"
+        }
+      ]
+    },
+    {
+      "id": "waittounlock-screentime",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "小众工具",
+      "title": "故意忘掉自己的 Screen Time 密码",
+      "body": "想靠 iOS 屏幕使用时间戒刷。最大漏洞是密码是你自己设的。手一痒就点忽略限制。四位数字一敲，又回去了。\n\nWaitToUnlock 是个网站。不装 App。它生成随机密码。再用一串添了又删的引导，让你输进去却记不住。密码加密存着。要拿回来至少等六小时。你也可以把等待拉长到一天。\n\n第三方拦截 App 两下就能卸。系统级限制卸不掉。有人以前把密码交给伴侣保管。这个站把同一套摩擦做成自助。免费就能用。更长等待才要一次性付费。\n\n所以呢：先在系统里设好限额。再打开这个站走一遍引导。下一回想破戒时，你连密码都想不起来。手会先停。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "WaitToUnlock",
+          "url": "https://waittounlock.com/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49403441"
+        }
+      ]
+    },
+    {
+      "id": "no-telemetry-dotenv",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "小众工具",
+      "title": "给前端依赖一键关遥测",
+      "body": "新开一个 Next 项目。.env 里很快就会躺着一堆你没同意过的遥测开关。\n\nno-telemetry 读当前的 package.json。它对照内置的四十多个工具表。把官方 opt-out 变量写进 .env。顺手加上 DO_NOT_TRACK=1。覆盖 Next、Prisma、Turbo、Storybook、Expo 这些常见货。\n\n它零生产依赖。运行时不联网。也不覆盖你已有的值。doctor 看状态。check 在 CI 里发现还开着就失败。\n\n所以呢：在项目根目录跑一句 npx no-telemetry init -y。再 doctor 一眼。哪些库还在往外打点立刻清楚。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/apvarun/no-telemetry"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49403546"
+        }
+      ]
+    },
+    {
+      "id": "wordpaste-keep-equations",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "小众工具",
+      "title": "从 Word 粘过来，公式还活着",
+      "body": "从 Word 粘进网页编辑器。格式垃圾铺一层。公式变成死图片。\n\nwordpaste 是一个函数。剪贴板 HTML 进去，干净 HTML 出来。Word 的 OMML 和 LibreOffice 的 MathML 变成可再编的 LaTeX。体积只有 3.6 kB。零依赖。Tiptap、ProseMirror、Lexical 或原生 contenteditable 都能接。\n\n官方有浏览器 playground。粘自己的文档就能看。左边是脏 HTML。右边是还能点开改的公式。\n\n所以呢：打开 playground。从 Word 拷一段带公式的文字贴进去。看公式是不是还活着，而不是一张图。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Playground",
+          "url": "https://smrifat1411.github.io/wordpaste/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/smrifat1411/wordpaste"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49402460"
+        }
+      ]
+    },
+    {
+      "id": "declarative-forms-ask",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "小众工具",
+      "title": "像 prompt() 一样问用户要一个对象",
+      "body": "浏览器只给你一个 prompt()。而且只问得到字符串。\n\ndeclarative-forms 把这形状放大。你描述想要的字段。await 回来一个对象。不用挂组件。也不用管表单状态。页面上有个按钮。点开就是三层叠对话框。选项会按团队重载。slug 会跟着标题算。\n\n库是纯 DOM 加一个 web component。React、Vue 或普通 script 都能用。它不适合要自己画布局的表单。它适合设置页和元数据对话框。它不接验证框架。无障碍也还没做完。\n\n所以呢：打开文档页按那颗按钮。填几格看右侧 Values 怎么跟着变。这就是全部集成。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "文档和演示",
+          "url": "https://wolfoo2931.github.io/declarative-forms/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49391469"
+        }
+      ]
+    },
+    {
+      "id": "dictata-local-whisper",
+      "date": "2026-08-23",
+      "added": "2026-08-23",
+      "category": "小众工具",
+      "title": "热键说完，字贴进窗口，语音不出这台电脑",
+      "body": "夜里写周报，手腕发酸，却不愿意把一句中文丢进云端听写框。\n\n按下热键，对着空气说完，再按一次，字已经贴进正在写的窗口。没有账号，没有上传。本机转写，可选再让本地模型把口头禅擦干净。一种模型文件走一条引擎，另一种换引擎。打包只有一个程序。周末就能装上试。作者把界面做成浮动小条，波形会动，状态看一眼就懂。它也能吃系统声音和本地文件，不只是对着麦克风说话。\n\nWindows 上这一套最省事。装完先对着记事本说三句，看字会不会自己长出来。\n\n所以呢：Dictata 把说话变成粘贴关在自己电脑里。不想把语音交给别人、又懒得再打两千字的人，现在就能装。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AntoineChatry/Dictata"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49405912"
+        }
+      ]
+    },
+    {
       "id": "claude-opus-46-smut-machine",
       "date": "2026-08-22",
       "added": "2026-08-23",
