@@ -2,6 +2,268 @@
   "updated": "2026-08-24",
   "items": [
     {
+      "id": "yandex-moscow-hospital-rover",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "跨行业",
+      "title": "莫斯科两家医院，六台送货机器人把血样和药盒从楼栋之间抱走",
+      "body": "莫斯科皮罗戈夫第一临床医院。护士以前抱着血样和药盒在楼栋之间走。3月16日起，6台Yandex送货机器人自己走人行道和车道。8月23日莫斯科卫生局和www1.ru更新数字：皮罗戈夫第一、菲拉托夫第十五两家医院，大约8000次院内配送，运了3吨多生物样本、药品、耗材、试剂和周转箱，给医护省下超过3500个小时。5月抽了150人，71%觉得好用，83%希望别的医院也上。城市里这车是最后一公里，医院里它成了内部物流。传感器自己走，神经网络算轨迹，不用改医院的路。血样走保温箱，货舱定期消毒。所以呢：医院里的机器人先抢的是抱箱子走路，不是替医生看病。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "www1.ru 8月23日",
+          "url": "https://www1.ru/en/news/2026/08/23/roboty-vziali-na-sebia-cast-raboty-v-moskovskix-bolnicax-i-uze-zameniaiut-pesie-poxody-mezdu-korpusami.html"
+        },
+        {
+          "label": "Yandex Autonomy 博客",
+          "url": "https://autonomy.yandex.ru/blog/kak-roboty-pomogli-moskovskim-medikam-osvobodit-3000-rabochih-chasov"
+        }
+      ]
+    },
+    {
+      "id": "galbot-s1-catl-24h",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "跨行业",
+      "title": "宁德时代产线，拆垛机器人连干三个多月通宵，没有人遥操",
+      "body": "宁德时代模组和电池包产线。箱子乱堆在垛位上，没有二维码，没有反光板。银河通用Galbot S1纯视觉找位置，拆垛、搬运、码垛，双臂大约50公斤。8月23日世界机器人大会展台上，它又搬了30公斤级物料。公司说S1今年3月在宁德HX基地验收，已经在量产线上7×24小时连着干了三个多月，零遥操。传统自动化卡在物料偏差、光照变化、人机混行。宁德这条线要求苛刻，同一套银河星脑还在跟上汽、北汽、博世、现代谈产线。展台能搬，产线能过夜，才算上岗。所以呢：电池厂要的不是会走的人形，是晚上没人盯还继续拆垛的那一台。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "天脉财经 8月23日",
+          "url": "https://www.dtm.com.cn/news/202608/300877.html"
+        },
+        {
+          "label": "网易科技 8月20日",
+          "url": "https://www.163.com/tech/article/L4PHHAN200098IEO.html"
+        }
+      ]
+    },
+    {
+      "id": "gc-robotics-1000mu-pest",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "跨行业",
+      "title": "一台巡检车看一千亩，泰国马来田里已经自己认病虫害",
+      "body": "北京亦庄世界机器人大会。吉沧机器人副总经理王康指着一台巡检车：一台能看大约1000亩，24小时无人值守自己走，多光谱、红外、全向传感器，AI自己认病虫害。他说泰国、马来西亚、澳大利亚、越南的田里已经在用，南亚也在路线图上。8月23日乌尔都语通讯社从现场发出。旁边维尊的采摘手拿自研线激光双目3D相机算抓取坐标，现在摘苹果、猕猴桃、冬枣、串番茄，销售总监周天说针对性适配后可以下芒果园。这不是一张巴基斯坦订单，是海外田里已经在跑的巡检。所以呢：农场先上岗的不是会摘芒果的手，是夜里自己认病斑的那辆巡检车。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "UrduPoint 8月23日",
+          "url": "https://www.urdupoint.com/en/world/chinese-robots-bring-fresh-solutions-for-paki-2240864.html"
+        },
+        {
+          "label": "中国新闻网 WRC",
+          "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682625.shtml"
+        }
+      ]
+    },
+    {
+      "id": "hbs-foundry-heygen-clone",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "跨行业",
+      "title": "哈佛把教授做成分身，记者拿香蕉优步路演，真人和分身都不买账",
+      "body": "哈佛商学院Foundry训练营。纽约时报记者Sarah Kessler对着Flybridge Capital联合创始人、哈佛高级讲师Jeff Bussgang的AI分身路演“香蕉版优步”。真人和分身都不买账，分身还挂着一张冻住的笑、肩头微微重复地动。HeyGen做的这张脸，嵌在八周699美元的课里。每周有真人直播，路演、销售会和董事会彩排交给分身。项目主任Katharina Rings本来想做聊天机器人，去年十月试过一版，学生要更被领着走，今年四月正式上。已经跟100多所大学、50个州试过。暑假大约760名创始人从学校入口进来，45%自己掏钱。联席主席Tom Eisenmann说，智能体被训练得更狠，很少当场叫好。Bussgang说有点渗人，又说学生喜欢。所以呢：商学院把教授的脸做成随时能骂你的分身，真课还在，贵的是那几次可以反复砸的路演。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "TechCrunch 8月22日",
+          "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/"
+        },
+        {
+          "label": "ThePrint 8月24日",
+          "url": "https://theprint.in/feature/harvard-business-school-professors-ai-clones-teaching-entreneurship/3023171/"
+        }
+      ]
+    },
+    {
+      "id": "dongguan-quad-unmanned-substation",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "跨行业",
+      "title": "东莞无人变电站，将近二十台机器狗常驻，人在后台一键发令",
+      "body": "东莞无人值守变电站。将近20台四足机器狗常驻。运维在后台一键下发，狗自己把全站设备走一遍。更细的活，人形机器人已经上手操作高压柜、看仪表。海缆敷设现场也有专用机器人。8月23日羊城晚报记者在世界机器人大会现场写下广东这支看不见的队伍。大会展位上，杰创智能的掌安星机器狗做集群巡防。广东产业园、医院、校园的安防机器狗已经批量落地。国家能源局：5月25日至28日，南方区域最大负荷连创四天新高，最高2.75亿千瓦。高温满负荷，人轮班值守又贵又危险。机器人把高危重复巡检先扛走，人去处置故障。所以呢：电网先换成狗去无人站过夜，不是先换调度员。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "新浪财经／羊城晚报 8月23日",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-23/doc-inipfzuz0771286.shtml"
+        }
+      ]
+    },
+    {
+      "id": "dre-iovine-closet-ai",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "跨行业",
+      "title": "录音棚里Dre把AI当鼓机，Iovine说有一堆制作人用了不敢认",
+      "body": "录音棚。Dr. Dre刚做完一段，把AI当作工具，看它拿自己刚做的东西能玩出什么。8月23日《纽约时报》刊出他和Jimmy Iovine的访谈。Dre说几天前有人反AI，听着像当年反鼓机、反合成器。Iovine点名Timbaland，还说有一堆closet AI producers，用了不敢认。Dre自己最近问聊天机器人的是怎么同时增肌减脂。Round Hill刚告Suno和Anthropic，Apple Music下半年要给AI歌打标。棚里的事实是：一线制作人已经在用，只是不肯写进专辑注释。所以呢：音乐这行的AI不是还在门口，是已经进棚，只是很多人还把电脑显示器转过去。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Variety 8月23日",
+          "url": "https://variety.com/2026/music/news/dr-dre-ai-music-threat-those-who-have-trouble-creating-1236480975/"
+        },
+        {
+          "label": "Yahoo／Variety",
+          "url": "https://www.yahoo.com/entertainment/music/articles/dr-dre-says-only-people-132001109.html"
+        }
+      ]
+    },
+    {
+      "id": "rajamouli-50-lang-human-dub",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "跨行业",
+      "title": "拉贾莫利要把《瓦拉纳西》配成五十种语言，先听一千五百条真人嗓子",
+      "body": "孟买。SS Rajamouli要把《瓦拉纳西》配成大约50种语言、发120个国家。8月23日Mid-Day：他不要AI配音。马赫什·巴布、Priyanka Chopra Jonas、Prithviraj Sukumaran的表演，他要求声音带着情绪、个性和意图，不是对口型。团队会先听超过1500名配音员的样带再定人。他刚骂过有人说预告片用了AI，叫巨大侮辱。泰卢固、印地、泰米尔、马拉雅拉姆、孟加拉，再加上法语、西班牙语、德语、阿拉伯语、日语、韩语。所以呢：大片全球化最先卡住的不是模型，是导演不肯让合成嗓子顶替演员。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Mid-Day 8月23日",
+          "url": "https://www.mid-day.com/entertainment/bollywood-news/article/ss-rajamouli-to-dub-varanasi-in-50-languages-choses-human-voices-over-ai-translations-23646140"
+        },
+        {
+          "label": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/varanasi-ss-rajamouli-to-sample-1500-voices-for-dubbing-of-mahesh-babu-and-priyanka-chopra-starrer-across-50-languages/articleshow/133434204.cms"
+        }
+      ]
+    },
+    {
+      "id": "gyeongnam-park-wansu-32",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "痛点",
+      "title": "油管上三十二条，对手的脸是拼出来的",
+      "body": "昌原。庆南道厅。警察厅网络搜查科今天说，二十号已向检察厅申请四人的事前拘捕令。三人是现任或前任道厅公务员，一人是广告条幅公司老板。指控是公职选举法。六月三日地方选举，朴完洙国民力量庆南知事竞选期间，他们找人做深伪视频，还提供住宿和工资。内部人C说，三月中到四月底，非官方油管上挂了三十二条人工智能视频，里头有针对民主党候选人金庆洙的深伪，把他因操纵评论坐过牢那档事拿出来演。选举法规定投票前九十天不得制作散发非法假人工智能视频。公务员本该政治中立。三人里有人还没辞职就下场，朴完洙当选后，其中一人七月又被聘回道厅。朴完洙这边否认有专门深伪组。检察今天面谈，最早二十六号法院审拘捕令。所以呢：竞选视频可以是假脸。公务员还没摘工牌，就已经在给对手做深伪。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/society/2026/08/24/police-seek-arrest-of-officials-over-deepfake-election"
+        },
+        {
+          "label": "中央日报",
+          "url": "https://www.joongang.co.kr/article/25455714"
+        }
+      ]
+    },
+    {
+      "id": "busan-lim-teacher-194",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "痛点",
+      "title": "修电脑的人走了，老师的照片还在U盘里",
+      "body": "釜山地方法院刑事七部。审判长林周赫。二十一日，把一名三十多岁电脑维修承包商判了三年。他从二〇二一年七月到去年九月，进出釜山十九所学校修电脑。女教职员走开去上课，云盘还登录着。他把私人照片和视频拷进自己的U盘，二十二万一千九百二十一个文件，一共一百九十四人。拿其中一些做成二十段深伪色情片，就是把真人的脸贴进黄片里。他还在学校里四十五次偷拍女教职员裙底。检方求刑十二年。法院说他对不特定女性、对上班那所学校的老师下手，性质恶劣，受害者精神压力极大，多数没原谅他。初犯、认罪，从轻。十年内不许去儿童青少年残疾人机构上班。所以呢：修电脑的人带着U盘进学校。老师的生活照，隔夜就变成她没拍过的假黄片。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/society/2026/08/22/it-contractor-jailed-for-stealing-teachers-photos-to-make"
+        },
+        {
+          "label": "머니투데이",
+          "url": "https://www.mt.co.kr/society/2026/08/21/2026082110372547520"
+        }
+      ]
+    },
+    {
+      "id": "ahmed-hennepin-30day",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "痛点",
+      "title": "书状里的判例，对方律师一搜就空",
+      "body": "明尼阿波利斯。亨内平县政府中心。二十一日，明尼苏达州律师纪律委员会公布：律师Faisal S. Ahmed同意停牌三十天。他二〇二五年往亨内平县法院交过一份书状，里头引用的好几份判决根本不存在，是人工智能编出来的。对方律师按名字去找，一本都没有，才揭穿。他自己跟调查人员说，用了人工智能法律检索助手起草，以为生成的引用都是真的。委员会写：连基本的核对都没做。明尼苏达这不是第一回。最高法院还没出强制人工核验令，但现有职业操守规则已经够用。签字就等于你读过。机器写的假案子进了卷宗，法官还得一本一本对。所以呢：检索助手能当场给你造出一屋子假判例。停牌一个月的，是那个签了名的律师。工具不担责，签字的人担。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "MPR News",
+          "url": "https://www.mprnews.org/story/2026/08/21/lawyer-in-minnesota-suspended-over-fake-ai-case-citations"
+        },
+        {
+          "label": "MGSN",
+          "url": "https://mgsnetwork.net/2026/08/22/minnesota-lawyer-suspended-over-fake-ai-case-citations/"
+        }
+      ]
+    },
+    {
+      "id": "phillips-parlade-immunity",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "痛点",
+      "title": "法官被指把案子交给AI，告都告不了",
+      "body": "内华达联邦地区法院。法官Gloria Navarro八月十二日把案子驳回，不许再告。加州执业律师T. Matthew Phillips自己打官司，告内华达家事法官Mari Parladé。二〇二三年八月，Parladé驳回他五项动议，还判他付对方律师费。他怀疑那份裁定是人工智能写的：法官说动议里没有法律论点，他明明写了，只是没按Points and Authorities那个标题。他告：如果百分之百交给人工智能、人脑没过一遍，那就不是司法行为，豁免不该罩着。Navarro说，就算全是机器写的，签发裁定仍是正常司法职能，告不了钱。法院没查AI到底用没用。上诉和纪律投诉还开着。所以呢：律师用AI编假判例会被罚。法官被指把案子交给AI，民事上告都告不了。豁免罩着签发那一笔。家里那档事还是按那份裁定走。钱告不了，纪律投诉的门还开着。对错另说。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Global Legal Insights",
+          "url": "https://www.globallegalinsights.com/news/judge-retains-immunity-despite-claim-she-delegated-decision-making-to-ai/"
+        },
+        {
+          "label": "Reason Volokh",
+          "url": "https://reason.com/volokh/2026/08/17/judges-allegedly-relying-wholly-on-ai-in-order-is-covered-by-judicial-immunity-court-rules/"
+        }
+      ]
+    },
+    {
+      "id": "lokken-nh-predict-19days",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "痛点",
+      "title": "十九天后，算法说他住够了",
+      "body": "威斯康星一家康复院。九十一岁的Gene Lokken二〇二二年五月腿和踝骨骨折。联合健康的Medicare Advantage付了十九天。然后系统里跳出一面旗。子公司naviHealth的人工智能nH Predict，拿大约六百万份病历算出这种人该住几天。到了。家人不服，自己掏钱几乎一年，直到他去世。遗产现在是明尼苏达联邦集体诉讼的首席原告。诉状说，员工被要求把住院天数压在算法预测的百分之一以内；告上去的拒绝，大约九成会被推翻；真正去告的人只有百分之零点二。参议院调查写过，用上这套工具以后，拒付率翻了一倍。联合健康说这工具只是指南，覆盖决定按医保规则来，不是算法按钮。集体认证材料九月十四日截止。这些是指控，法院没判。所以呢：算法说住够了，医生说还没好。没人去申诉，机器就赢了。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Live Insurance News",
+          "url": "https://www.liveinsurancenews.com/medicare-algorithm-federal-court/8573406/"
+        },
+        {
+          "label": "TechTimes",
+          "url": "https://www.techtimes.com/articles/324726/20260817/unh-patients-win-90-ai-denial-appeals-derivative-suit-says-executives-knew.htm"
+        }
+      ]
+    },
+    {
+      "id": "eto-mayo-maya-67",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "痛点",
+      "title": "数字助手错六成，报错的人先被裁",
+      "body": "罗切斯特。梅奥诊所。前研究运营总监、人工智能合规负责人Traci Tamiko Eto七月六日告上明尼苏达联邦法院。诉状说，自家数字助手MAYA出错率百分之六十七，研究组删掉难看的结果，还把没批过的软件塞进真实诊疗流程。她还报过病人数据去标识没过伦理审查。上司说再查会拖进度，伤竞争力。她点名Jeffrey Schmoll和伦理审查委员会主席Scott Wright。Schmoll说再查会花掉他不愿花的政治资本。她二〇二五年十二月一日被裁，说那次裁员只砍了她一个岗。梅奥七月底交三十三页备忘录，全盘否认。这些是指控，法院没判。所以呢：医院抢着上人工智能。报错的人先被裁掉。病人还不知道病历是哪台机器写的。抢第一的人，把审查当成拖后腿。错六成的助手，还在流程里跑。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "MDRXLaw",
+          "url": "https://www.mdrxlaw.com/news-and-alerts/unpacking-the-mayo-clinic-lawsuit/"
+        },
+        {
+          "label": "MedCity News",
+          "url": "https://medcitynews.com/2026/07/mayo-clinic-ai-lawsuit/"
+        }
+      ]
+    },
+    {
+      "id": "spf-ocha-ads-verify",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "痛点",
+      "title": "假新闻页上的总理，广告位是买来的",
+      "body": "新加坡警察部队。八月十八日，网上刑事危害法办公室给Facebook、Instagram、TikTok下了新行为守则。明年一月三十一日前，投给新加坡用户的广告，广告主必须对上政府证件；没金融管理局牌照的，金融广告直接拦。二〇二五年这三家占诈骗案大约三成，光脸书百分之十八。Group-IB查过Immediate Era骗局：二十八个已验证广告账号，五十二个跳转域名，一百一十九个假新闻站。假CNA页上，总理黄循财在推销投资。假雅虎新闻页上，协调部长尚穆根在接受采访。都是买来的广告位。不执行，最高罚一百万新元，再拖每天十万。所以呢：假脸先买广告位。平台收了钱，才被要求核验付钱的人是谁。刷到熟悉的脸，骗局已经走完一半。核验的是付钱的人，不是屏幕上那张熟脸。点进去才要钱。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Straits Times",
+          "url": "https://www.straitstimes.com/tech/social-media-platforms-must-verify-advertisers-identities-under-new-singapore-code"
+        },
+        {
+          "label": "CNA",
+          "url": "https://www.channelnewsasia.com/singapore/anti-scam-ocha-messaging-social-media-ecommerce-spf-6325181"
+        }
+      ]
+    },
+    {
       "id": "prompt-toxic-cinema-lobby",
       "date": "2026-08-24",
       "added": "2026-08-24",
