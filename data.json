@@ -2,6 +2,313 @@
   "updated": "2026-08-24",
   "items": [
     {
+      "id": "prompt-toxic-cinema-lobby",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "提示词",
+      "title": "影院大堂黑金海报旁站着，左手插口袋，右边是自己",
+      "body": "有人把自己锁进夜里的电影院大堂。不是换脸。是黑金大海报在左边亮着，人站在右边，一手插口袋。\n\nPrompt Seen 八月二十四日放出《Toxic》上映前的影院海报词。片子八月二十六日全球上映。词一开头就把五官、发型、肤色、年龄、体型全部点名不许动。人站在右边。大海报在左边。海报上是雅什，黑衣服墨镜，烟、火花、尘。负向词点名枪、血、伤。标题写成 TOXIC、ROCKING STAR YASH、26 08 26、GLOBAL RELEASE。地面要反光。黑大理石、金边、暖灯、一点蓝的影院灯牌。竖构图四比五。浅景深。\n\n同一页有男版和女版。女版衣服写成跟上传照一样，不要让它换装。男版写成灰蓝卷袖衬衫、深色裤、白球鞋、手表。第一遍海报字会糊。第三遍字和脸才会一起清楚。身份锁放在最前面。不要让模型给海报加武器。\n\n所以呢：先传一张脸清楚的正面照，把下面整段贴进 ChatGPT 或 Gemini，人站右边，不要让它改五官。\n\nCreate an ultra-realistic cinematic photo of the SAME person from the uploaded reference, preserving exact facial identity, hairstyle, skin tone, beard, age, and body proportions. Place him in a luxurious modern cinema lobby at night, standing on the RIGHT beside a large illuminated black-and-gold movie poster on the LEFT. He wears a light grey-blue rolled-sleeve shirt, dark trousers, white sneakers, and a watch, with one hand in his pocket and a natural smile.\n\nThe poster prominently features Yash as a rugged action hero in dark clothing and sunglasses, with dramatic smoke, sparks, dust, and cinematic lighting. No guns, weapons, blood, injuries, or graphic violence. Add the title “TOXIC”, “ROCKING STAR YASH,” “26 08 26”, and “GLOBAL RELEASE.” Luxury black marble, golden trims, glossy floors, warm lighting, subtle blue cinema signage, DSLR photography, realistic skin texture, shallow depth of field, 4:5 vertical composition, authentic cinematic look.\n\n---\n\nCreate an ultra-realistic cinematic photo of the SAME girl from the uploaded reference, preserving her exact facial identity, facial structure, skin tone, hairstyle, age, and body proportions. Place her standing confidently on the RIGHT beside a large illuminated black-and-gold movie poster on the LEFT inside a luxurious modern cinema lobby at night. She wears the same clothes as in the uploaded image, with one hand in her pocket and a natural, confident smile.\n\nThe poster prominently features Yash as a rugged action hero in dark clothing and sunglasses, surrounded by dramatic smoke, sparks, dust, and cinematic lighting. No guns, weapons, blood, injuries, or graphic violence. Add the text “TOXIC”, “ROCKING STAR YASH”, “26 08 26”, and “GLOBAL RELEASE” clearly on the poster. Add luxury black marble, golden trims, glossy reflective floors, warm cinematic lighting, subtle blue cinema signage, realistic skin texture, DSLR photography, shallow depth of field, premium cinematic color grading, ultra-detailed photorealistic quality, and a 4:5 vertical composition.",
+      "prompt": "Create an ultra-realistic cinematic photo of the SAME person from the uploaded reference, preserving exact facial identity, hairstyle, skin tone, beard, age, and body proportions. Place him in a luxurious modern cinema lobby at night, standing on the RIGHT beside a large illuminated black-and-gold movie poster on the LEFT. He wears a light grey-blue rolled-sleeve shirt, dark trousers, white sneakers, and a watch, with one hand in his pocket and a natural smile.\n\nThe poster prominently features Yash as a rugged action hero in dark clothing and sunglasses, with dramatic smoke, sparks, dust, and cinematic lighting. No guns, weapons, blood, injuries, or graphic violence. Add the title “TOXIC”, “ROCKING STAR YASH,” “26 08 26”, and “GLOBAL RELEASE.” Luxury black marble, golden trims, glossy floors, warm lighting, subtle blue cinema signage, DSLR photography, realistic skin texture, shallow depth of field, 4:5 vertical composition, authentic cinematic look.\n\n---\n\nCreate an ultra-realistic cinematic photo of the SAME girl from the uploaded reference, preserving her exact facial identity, facial structure, skin tone, hairstyle, age, and body proportions. Place her standing confidently on the RIGHT beside a large illuminated black-and-gold movie poster on the LEFT inside a luxurious modern cinema lobby at night. She wears the same clothes as in the uploaded image, with one hand in her pocket and a natural, confident smile.\n\nThe poster prominently features Yash as a rugged action hero in dark clothing and sunglasses, surrounded by dramatic smoke, sparks, dust, and cinematic lighting. No guns, weapons, blood, injuries, or graphic violence. Add the text “TOXIC”, “ROCKING STAR YASH”, “26 08 26”, and “GLOBAL RELEASE” clearly on the poster. Add luxury black marble, golden trims, glossy reflective floors, warm cinematic lighting, subtle blue cinema signage, realistic skin texture, DSLR photography, shallow depth of field, premium cinematic color grading, ultra-detailed photorealistic quality, and a 4:5 vertical composition.",
+      "links": [
+        {
+          "label": "八月二十四日男女两段原文",
+          "url": "https://promptseen.com/toxic-movie-poster-editing-prompts-2026/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-late-night-railway-video",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "提示词",
+      "title": "夜里月台黄灯下坐下，货车头灯扫过半边脸",
+      "body": "有人把一张自拍送进夜里的印度火车站。不是滤镜。是天桥、空月台、货车头灯扫过半边脸。\n\nPrompt Seen 八月二十三日放出七段夜车站视频词。贴进 Gemini，先上传脸。第一句就把五官、肤色、皮肤纹理锁死，后面每一场都不许漂。衣服写成贴身黑T、宽松牛仔裤、黑球鞋。灯是月台的琥珀顶灯、灯牌、车灯切雾。七场分别是：天桥俯拍跟踪、长椅侧坐、站台边低机位、贴着停着的车厢平移、空月台高角度、柱子侧脸、最后慢动作推近。货车头灯只扫一下脸，再退回环境光。\n\n作者说这是最近夜里情绪视频里最好贴的一条。身份锁写在 CRITICAL 那句。脸糊了，七场全糊。竖屏九比十六。同一套衣服、同一个站，一场都不要跳。不要往月台上加人。\n\n所以呢：先传自己的脸，把下面整段贴进 Gemini 视频，站在黄灯下，不要让它改五官，也不要加路人。\n\nA cinematic ultra-realistic 4K/8K vertical video (9:16) of a young man wearing a fitted black t-shirt, baggy relaxed-fit denim jeans, and black Nike sneakers, at a real Indian railway station at night, lit by warm amber platform lights, glowing signboards, and soft train headlights cutting through light haze/fog, moody premium aesthetic, professional film-grade cinematography. CRITICAL: use the uploaded reference photo as the exact identity source — same face, same facial features, same exact skin tone and skin texture as the person in the uploaded photo, same body, maintained precisely in every scene, zero identity variation between scenes. This must work accurately for any person of any age or skin tone who uploads their own reference photo.\nScene 1 (Overhead-tracking, foot-over-bridge): Camera glides behind and slightly above him as he walks down the covered bridge at night, warm amber lights reflecting off the tactile flooring, train lights glowing on the tracks far below, soft atmospheric haze, cinematic wide depth.\nScene 2 (Eye-level static, bench): He walks to a platform bench lit by a single overhead lamp, sits down slowly with relaxed premium posture — one arm draped over the backrest, ankle resting on opposite knee, head tilted slightly as he watches a distant lit train — golden lamplight on one side of his face, the rest in soft shadow, a quiet aesthetic pause.\nScene 3 (Low-angle close-up, platform edge): Camera positioned low, looking up at him as he stands at the platform edge, hands in pockets, chin slightly lowered then slowly raising to look into the distance, silhouette rim-lit by a signboard glow behind him, dramatic minimalist framing.\nScene 4 (Side-tracking dolly, train-side walk): Camera tracks smoothly alongside him at chest height as he walks beside a parked train, the train's window lights flickering past like a rhythmic pattern, his black t-shirt catching soft blue-white light from the coach interiors, sleek motion.\nScene 5 (High-angle overhead, empty platform): Camera looks down at a steep angle as he stands still in the center of the empty platform, arms loose at his sides, head tilted back looking up at the station lights above, long shadow stretching across the platform floor, symmetrical aesthetic composition.\nScene 6 (Close-up profile, leaning pose): He leans back against a station pillar, one knee bent with his foot against the base, arms folded loosely, looking off to the side with a calm confident half-smile, warm sodium light grazing the side of his face, soft bokeh of distant platform lights behind him.\nScene 7 (Slow-motion push-in, final frame): Camera slowly pushes in toward him as he stands facing the tracks, a goods train's headlight sweeping past and briefly illuminating his face in bright warm light before fading back to soft ambient glow, cinematic slow-motion finish, powerful and aesthetic closing shot.\nOverall style: same face, same identity, same exact skin tone, same body, same fitted black t-shirt, baggy denim jeans and black Nike shoes outfit consistent in every scene, no identity change, same real night-time railway station location throughout — foot-over-bridge, platform bench, platform edge, train-side walkway, open platform, and pillar — natural realistic movement with distinct aesthetic poses and camera angles in every scene including the seated scene, realistic skin and fabric texture, moody warm-amber and cool-blue night cinematic color grading, soft atmospheric haze and light glow, filmic depth, grain, and contrast, smooth deliberate cinematic transitions between angles, ultra-realistic premium 4K/8K quality, vertical 9:16 format, continuous aesthetic story flow from start to end, no scene skipped.",
+      "prompt": "A cinematic ultra-realistic 4K/8K vertical video (9:16) of a young man wearing a fitted black t-shirt, baggy relaxed-fit denim jeans, and black Nike sneakers, at a real Indian railway station at night, lit by warm amber platform lights, glowing signboards, and soft train headlights cutting through light haze/fog, moody premium aesthetic, professional film-grade cinematography. CRITICAL: use the uploaded reference photo as the exact identity source — same face, same facial features, same exact skin tone and skin texture as the person in the uploaded photo, same body, maintained precisely in every scene, zero identity variation between scenes. This must work accurately for any person of any age or skin tone who uploads their own reference photo.\nScene 1 (Overhead-tracking, foot-over-bridge): Camera glides behind and slightly above him as he walks down the covered bridge at night, warm amber lights reflecting off the tactile flooring, train lights glowing on the tracks far below, soft atmospheric haze, cinematic wide depth.\nScene 2 (Eye-level static, bench): He walks to a platform bench lit by a single overhead lamp, sits down slowly with relaxed premium posture — one arm draped over the backrest, ankle resting on opposite knee, head tilted slightly as he watches a distant lit train — golden lamplight on one side of his face, the rest in soft shadow, a quiet aesthetic pause.\nScene 3 (Low-angle close-up, platform edge): Camera positioned low, looking up at him as he stands at the platform edge, hands in pockets, chin slightly lowered then slowly raising to look into the distance, silhouette rim-lit by a signboard glow behind him, dramatic minimalist framing.\nScene 4 (Side-tracking dolly, train-side walk): Camera tracks smoothly alongside him at chest height as he walks beside a parked train, the train's window lights flickering past like a rhythmic pattern, his black t-shirt catching soft blue-white light from the coach interiors, sleek motion.\nScene 5 (High-angle overhead, empty platform): Camera looks down at a steep angle as he stands still in the center of the empty platform, arms loose at his sides, head tilted back looking up at the station lights above, long shadow stretching across the platform floor, symmetrical aesthetic composition.\nScene 6 (Close-up profile, leaning pose): He leans back against a station pillar, one knee bent with his foot against the base, arms folded loosely, looking off to the side with a calm confident half-smile, warm sodium light grazing the side of his face, soft bokeh of distant platform lights behind him.\nScene 7 (Slow-motion push-in, final frame): Camera slowly pushes in toward him as he stands facing the tracks, a goods train's headlight sweeping past and briefly illuminating his face in bright warm light before fading back to soft ambient glow, cinematic slow-motion finish, powerful and aesthetic closing shot.\nOverall style: same face, same identity, same exact skin tone, same body, same fitted black t-shirt, baggy denim jeans and black Nike shoes outfit consistent in every scene, no identity change, same real night-time railway station location throughout — foot-over-bridge, platform bench, platform edge, train-side walkway, open platform, and pillar — natural realistic movement with distinct aesthetic poses and camera angles in every scene including the seated scene, realistic skin and fabric texture, moody warm-amber and cool-blue night cinematic color grading, soft atmospheric haze and light glow, filmic depth, grain, and contrast, smooth deliberate cinematic transitions between angles, ultra-realistic premium 4K/8K quality, vertical 9:16 format, continuous aesthetic story flow from start to end, no scene skipped.",
+      "links": [
+        {
+          "label": "八月二十三日七场原文",
+          "url": "https://promptseen.com/late-night-feelings-railway-station-alone-ai-video-editing-prompt/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-25-rain-reveal",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "提示词",
+      "title": "雨夜对侧月台，末节车厢开走才看见她",
+      "body": "有人把三十秒写成四段时间。不是空喊电影感。是雨夜里一封折好的信，末节车厢开走才看见对面的人。\n\nDEV Community 八月二十三日把 Seedance 2.5 的词拆成时间轴。零到五秒是空郊区站、海军蓝大衣、站台棚下。五到十二秒火车从远处来，人低头看信，雨落在棚外。十二到二十秒车厢从镜头和对面月台中间穿过，带自然运动模糊。二十到二十六秒最后一节走开，对面米色大衣的女人站着。二十六到三十秒推到男人脸上，从紧到安静的笑。镜头从大远景接到侧面中景，收在克制的特写。色是蓝灰雨夜加钨丝站灯。地面要有湿反光。\n\n作者说 Seedance 要当分镜写，不要当静帧形容词堆。每段只做一件事。不要把五段动作塞进一秒。时间戳是预算，不是逐帧剪点。一次生成三十秒。\n\n所以呢：把下面整段贴进 Seedance 2.5，按时间轴走，不要把雨改成晴天，也不要让它对上脸。\n\n0–5s:\nWide shot of a nearly empty suburban train station on a rainy evening. A young man in a navy coat stands beneath the platform roof holding a folded letter.\n\n5–12s:\nA train approaches in the distance. The man looks down at the letter while rain falls beyond the platform.\n\n12–20s:\nThe train passes between the camera and the opposite platform, briefly blocking the view. Use natural motion blur as the carriages pass.\n\n20–26s:\nAs the last carriage moves away, a young woman in a beige coat is revealed standing on the opposite platform.\n\n26–30s:\nClose-up of the man's face as he notices her. His expression changes from tension to a quiet smile.\n\nCamera:\nStart with a wide establishing shot, transition to a medium side shot, then end with a restrained close-up.\n\nVisual style:\nBlue-gray rainy evening, warm tungsten station lights, realistic wet reflections, subtle film grain, natural facial expressions, understated live-action drama.",
+      "prompt": "0–5s:\nWide shot of a nearly empty suburban train station on a rainy evening. A young man in a navy coat stands beneath the platform roof holding a folded letter.\n\n5–12s:\nA train approaches in the distance. The man looks down at the letter while rain falls beyond the platform.\n\n12–20s:\nThe train passes between the camera and the opposite platform, briefly blocking the view. Use natural motion blur as the carriages pass.\n\n20–26s:\nAs the last carriage moves away, a young woman in a beige coat is revealed standing on the opposite platform.\n\n26–30s:\nClose-up of the man's face as he notices her. His expression changes from tension to a quiet smile.\n\nCamera:\nStart with a wide establishing shot, transition to a medium side shot, then end with a restrained close-up.\n\nVisual style:\nBlue-gray rainy evening, warm tungsten station lights, realistic wet reflections, subtle film grain, natural facial expressions, understated live-action drama.",
+      "links": [
+        {
+          "label": "八月二十三日 Seedance 2.5 原文",
+          "url": "https://dev.to/jeanine_huang_1030/seedance-25-prompting-a-practical-guide-to-better-ai-videos-2p0c"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-25-cafe-sip",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "提示词",
+      "title": "巴黎窗边端起杯子，喝一口再看街上",
+      "body": "有人把喝咖啡写成四个动作。不是一句电影感。是右手端杯、慢喝、放下、看街。\n\n同一篇八月二十三日的 Seedance 2.5 指南把坏词和好词并排放。坏词只写女人在巴黎喝咖啡。好词把人放在大窗边，动作按顺序写：端、喝、放、看。镜头写成中景慢推。灯是下午暖窗光。景深浅。皮肤不要调成广告色。\n\n作者说视频词要写会变的东西，不要只写存在的东西。杯子从桌上到嘴再回去，才是一段。不要加对白。不要换成男人西装。一次只做这一口。\n\n所以呢：把下面整段贴进 Seedance 2.5，让她喝完再看街，不要让它把杯子举在半空。\n\nA young woman sits beside a large window in a Paris café.\nShe picks up a ceramic coffee cup with her right hand,\ntakes a slow sip, places it back on the table, and looks\nout toward the street.\n\nMedium shot with a slow push-in. Warm afternoon sunlight,\nnatural skin tones, shallow depth of field, realistic\ncinematic photography.",
+      "prompt": "A young woman sits beside a large window in a Paris café.\nShe picks up a ceramic coffee cup with her right hand,\ntakes a slow sip, places it back on the table, and looks\nout toward the street.\n\nMedium shot with a slow push-in. Warm afternoon sunlight,\nnatural skin tones, shallow depth of field, realistic\ncinematic photography.",
+      "links": [
+        {
+          "label": "八月二十三日 Seedance 2.5 原文",
+          "url": "https://dev.to/jeanine_huang_1030/seedance-25-prompting-a-practical-guide-to-better-ai-videos-2p0c"
+        }
+      ]
+    },
+    {
+      "id": "prompt-apartment-window-proraw",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "提示词",
+      "title": "窗边抓着衬衫边，手机 ProRAW 把木地板留住",
+      "body": "有人把一张自拍锁进自己家的落地窗旁。不是杂志棚。是手机 ProRAW 把橡木地板留住。\n\nAura Prompt 八月二十三日放出五段生活肖像词。跟前两天那套洞石、皮衣、庭院不是同一套。相机写成 iPhone 17 Pro Max、四十八毫米、Apple ProRAW。不要闪光。不要 HDR。不要假虚化。人站窗边，一手插牛仔裤袋，一手轻抓敞开的奶油色棉衬衫边。表情写成普通人站着，不要模特那种咬肌。窗光从左边进来，鼻子和下颌右边只留一点阴影。窗帘是亚麻。椅子、书、植物只当家里的东西，不要抢脸。\n\n作者说室内窗光往往第二遍才稳。布料要写出棉织纹和肘部褶皱。水印可删。身份锁仍放最前面。这套是 candid 生活照，不是奢侈男装片场。\n\n所以呢：先传一张正面照，把下面整段贴进 ChatGPT 或 Gemini，只换衣服颜色，不要把镜头改成棚拍。\n\nUse the uploaded image as the strict facial reference and preserve the man’s identity exactly. Keep 100% of his facial structure, proportions, skin tone, eye shape, nose, lips, jawline, hairstyle, natural facial hair if present, and overall recognizability. Do not alter or beautify the face. Create an ultra realistic natural lifestyle portrait inspired by modern Pinterest photography in 2026. The image should feel like a genuine personal photo taken inside a real apartment, not a studio composite or CGI render. Realistic human proportions, authentic skin texture, believable fabric behavior, and natural photographic imperfections are essential throughout. A young man stands casually beside a large apartment window. His shoulders are relaxed and his posture reads completely natural rather than posed. One hand rests naturally inside his jeans pocket while the other lightly holds the edge of his open overshirt. His body is turned slightly away from the camera but his face is directed straight into the lens with calm confident eye contact and a relaxed natural expression. No exaggerated jawline tension, no model smize, just a real person standing comfortably. Camera is positioned at chest level, straight on with a natural 48mm equivalent perspective. Vertical 3:4 composition, medium shot from the knees upward, subject centered with window and apartment interior visible behind him. He wears a relaxed cream cotton overshirt worn fully open over a plain white heavyweight cotton T shirt. The overshirt has visible woven cotton texture, natural shoulder seams, soft chest drape, and realistic fabric folds at the elbows and lower hem. Underneath the white tee fits close to the torso with a crew neck and subtle cotton jersey texture. Straight fit dark blue denim jeans sit at the natural waist with realistic denim fading at the thighs and knees, visible stitching on the pockets, and authentic fabric tension across the legs. Clean white leather sneakers with a thin rubber sole and subtle material scuffing from wear. A minimal silver watch with a brushed case and a clean leather or metal bracelet strap sits on his left wrist. No other accessories. His hair matches the reference photo exactly. Preserve the natural hairstyle, color, and density from the uploaded image. Realistic individual hair strands with natural volume and root shadow. Authentic skin texture throughout including visible pores, fine facial hairs at the jaw and upper lip if present in the reference, subtle under eye texture, natural tonal variation across cheeks and forehead, and small believable skin imperfections. No beauty filter, no smoothing, no porcelain effect. Realistic lips with natural lip line definition. The apartment has light oak flooring with realistic wood grain and plank seams visible in the lower frame. Warm beige walls with subtle plaster texture. Floor to ceiling window panels with thin white frames allow soft natural daylight to enter from the left. Linen curtains in a warm off white tone hang beside the window with natural fabric drape and subtle shadow folds. A simple wooden chair sits partially in frame near the window. Small everyday home details such as a book, a plant, or a ceramic object appear in the background without competing with the subject. Lighting is soft diffused natural daylight entering through the large window from camera left. The light falls evenly across the face with gentle shadowing on the right side of the nose and jaw. No harsh contrast, no blown highlights on the window, no studio flash. Warm ambient fill from the room balances the window key. Shot on iPhone 17 Pro Max using a 48mm equivalent perspective, Apple ProRAW, realistic smartphone optics, natural exposure, subtle digital grain consistent with a real phone capture, neutral warm color grading, no artificial skin smoothing, no HDR look, no excessive sharpness, no artificial bokeh. Preserve realistic cotton texture, denim fiber, leather sneaker grain, wood floor surface, and linen curtain weave. Ultra photorealistic natural lifestyle portrait photography with authentic everyday character. No facial identity change, no face replacement, no altered facial proportions, no different eye shape, no changed nose, no changed lips, no changed skin tone, no plastic skin, no excessive smoothing, no beauty filter, no artificial symmetry, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no painting, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no unrealistic body proportions, no artificial studio lighting, no excessive HDR, no oversaturation, no blown highlights, no unnatural blur, no duplicate objects, no text overlays, no logos, no watermark except the auraprompt.in signature. Vertical 3:4 composition, Pinterest lifestyle photography aesthetic, fully realistic RAW image quality. Add a subtle bottom left corner watermark reading “auraprompt.in” in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "prompt": "Use the uploaded image as the strict facial reference and preserve the man’s identity exactly. Keep 100% of his facial structure, proportions, skin tone, eye shape, nose, lips, jawline, hairstyle, natural facial hair if present, and overall recognizability. Do not alter or beautify the face. Create an ultra realistic natural lifestyle portrait inspired by modern Pinterest photography in 2026. The image should feel like a genuine personal photo taken inside a real apartment, not a studio composite or CGI render. Realistic human proportions, authentic skin texture, believable fabric behavior, and natural photographic imperfections are essential throughout. A young man stands casually beside a large apartment window. His shoulders are relaxed and his posture reads completely natural rather than posed. One hand rests naturally inside his jeans pocket while the other lightly holds the edge of his open overshirt. His body is turned slightly away from the camera but his face is directed straight into the lens with calm confident eye contact and a relaxed natural expression. No exaggerated jawline tension, no model smize, just a real person standing comfortably. Camera is positioned at chest level, straight on with a natural 48mm equivalent perspective. Vertical 3:4 composition, medium shot from the knees upward, subject centered with window and apartment interior visible behind him. He wears a relaxed cream cotton overshirt worn fully open over a plain white heavyweight cotton T shirt. The overshirt has visible woven cotton texture, natural shoulder seams, soft chest drape, and realistic fabric folds at the elbows and lower hem. Underneath the white tee fits close to the torso with a crew neck and subtle cotton jersey texture. Straight fit dark blue denim jeans sit at the natural waist with realistic denim fading at the thighs and knees, visible stitching on the pockets, and authentic fabric tension across the legs. Clean white leather sneakers with a thin rubber sole and subtle material scuffing from wear. A minimal silver watch with a brushed case and a clean leather or metal bracelet strap sits on his left wrist. No other accessories. His hair matches the reference photo exactly. Preserve the natural hairstyle, color, and density from the uploaded image. Realistic individual hair strands with natural volume and root shadow. Authentic skin texture throughout including visible pores, fine facial hairs at the jaw and upper lip if present in the reference, subtle under eye texture, natural tonal variation across cheeks and forehead, and small believable skin imperfections. No beauty filter, no smoothing, no porcelain effect. Realistic lips with natural lip line definition. The apartment has light oak flooring with realistic wood grain and plank seams visible in the lower frame. Warm beige walls with subtle plaster texture. Floor to ceiling window panels with thin white frames allow soft natural daylight to enter from the left. Linen curtains in a warm off white tone hang beside the window with natural fabric drape and subtle shadow folds. A simple wooden chair sits partially in frame near the window. Small everyday home details such as a book, a plant, or a ceramic object appear in the background without competing with the subject. Lighting is soft diffused natural daylight entering through the large window from camera left. The light falls evenly across the face with gentle shadowing on the right side of the nose and jaw. No harsh contrast, no blown highlights on the window, no studio flash. Warm ambient fill from the room balances the window key. Shot on iPhone 17 Pro Max using a 48mm equivalent perspective, Apple ProRAW, realistic smartphone optics, natural exposure, subtle digital grain consistent with a real phone capture, neutral warm color grading, no artificial skin smoothing, no HDR look, no excessive sharpness, no artificial bokeh. Preserve realistic cotton texture, denim fiber, leather sneaker grain, wood floor surface, and linen curtain weave. Ultra photorealistic natural lifestyle portrait photography with authentic everyday character. No facial identity change, no face replacement, no altered facial proportions, no different eye shape, no changed nose, no changed lips, no changed skin tone, no plastic skin, no excessive smoothing, no beauty filter, no artificial symmetry, no CGI appearance, no 3D render, no illustration, no cartoon, no anime, no painting, no waxy skin, no distorted hands, no extra fingers, no missing fingers, no malformed limbs, no unnatural anatomy, no unrealistic body proportions, no artificial studio lighting, no excessive HDR, no oversaturation, no blown highlights, no unnatural blur, no duplicate objects, no text overlays, no logos, no watermark except the auraprompt.in signature. Vertical 3:4 composition, Pinterest lifestyle photography aesthetic, fully realistic RAW image quality. Add a subtle bottom left corner watermark reading “auraprompt.in” in Petit Formal Script, thin elegant cursive strokes, subtle premium handwritten signature style, small and elegant without interfering with the subject.",
+      "links": [
+        {
+          "label": "八月二十三日生活肖像原文",
+          "url": "https://auraprompt.in/chatgpt-lifestyle-photo-prompts-natural-portraits/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-ugc-kitchen",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "提示词",
+      "title": "厨房里举着瓶子对着镜头说，没想到真的有用",
+      "body": "有人把一段自拍视频写成对口型。不是广告片。是厨房里举着瓶子，对着手机说没想到真的有用。\n\nKapwing 把 Seedance 2.5 的 UGC 词摊开。竖屏九比十六，二十秒。镜头写成手臂长的手机中近景，手持微晃，不要滑轨。人是家里厨房，白砖、木柜、右边窗光。零到五秒看镜头，眉毛抬一下，再看手里的东西。五到十三秒把瓶子转向镜头。十三到二十秒放下一点，笑一下，再说一句我留下了。对白分三次写，中间夹动作。声音是近距离手机麦、冰箱低鸣、远处街声。不要配乐。不要字幕。不要磨皮。\n\n作者说 UGC 要写表演：对视、停顿、手势、说法，不要写成棚拍。一句对白配一个动作。不要把三句话叠进同一秒。\n\n所以呢：把下面整段贴进 Seedance 2.5，手机举在面前，不要让它换成电影灯光。\n\nFORMAT: 9:16 vertical, 20 seconds, realistic smartphone UGC video, natural exposure, no cinematic color grade.\n\nSUBJECT: A woman in her late twenties with shoulder-length curly red hair and a faded denim jacket stands in a bright home kitchen. White subway tile behind her, warm wooden cabinets, morning daylight from a window on camera right.\n\nCAMERA: Medium close-up at eye level, approximately arm's-length smartphone framing. Mostly static handheld camera with subtle natural movement. No cinematic dolly or artificial camera orbit.\n\n0–5s: She looks directly into the lens while holding the product beside her chest. She raises one eyebrow slightly, glances down at the product, then back to camera.\n\nDIALOGUE: With a slightly skeptical, conversational delivery, she says, “Okay, I genuinely wasn't expecting this to work.”\n\n5–13s: She turns the product toward camera and gestures to it with her free hand.\n\nDIALOGUE: Her tone becomes more animated: “But I've used it every morning this week, and this is the first one I've actually kept using.”\n\n13–20s: She lowers the product slightly, gives a small surprised laugh, and looks directly into the lens.\n\nDIALOGUE: “So... yeah. I'm keeping it.”\n\nAUDIO: Natural close smartphone microphone sound. Faint refrigerator hum and distant street ambience. No music.\n\nCONSTRAINTS: No subtitles, captions, logo overlays, beauty-filter skin, exaggerated influencer gestures, dramatic camera movement, or studio lighting.",
+      "prompt": "FORMAT: 9:16 vertical, 20 seconds, realistic smartphone UGC video, natural exposure, no cinematic color grade.\n\nSUBJECT: A woman in her late twenties with shoulder-length curly red hair and a faded denim jacket stands in a bright home kitchen. White subway tile behind her, warm wooden cabinets, morning daylight from a window on camera right.\n\nCAMERA: Medium close-up at eye level, approximately arm's-length smartphone framing. Mostly static handheld camera with subtle natural movement. No cinematic dolly or artificial camera orbit.\n\n0–5s: She looks directly into the lens while holding the product beside her chest. She raises one eyebrow slightly, glances down at the product, then back to camera.\n\nDIALOGUE: With a slightly skeptical, conversational delivery, she says, “Okay, I genuinely wasn't expecting this to work.”\n\n5–13s: She turns the product toward camera and gestures to it with her free hand.\n\nDIALOGUE: Her tone becomes more animated: “But I've used it every morning this week, and this is the first one I've actually kept using.”\n\n13–20s: She lowers the product slightly, gives a small surprised laugh, and looks directly into the lens.\n\nDIALOGUE: “So... yeah. I'm keeping it.”\n\nAUDIO: Natural close smartphone microphone sound. Faint refrigerator hum and distant street ambience. No music.\n\nCONSTRAINTS: No subtitles, captions, logo overlays, beauty-filter skin, exaggerated influencer gestures, dramatic camera movement, or studio lighting.",
+      "links": [
+        {
+          "label": "Seedance 2.5 UGC 词原文",
+          "url": "https://www.kapwing.com/resources/how-to-prompt-seedance-2-5-a-guide-for-ai-video-creators/"
+        }
+      ]
+    },
+    {
+      "id": "inertialref-milky-way",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "视觉尝试",
+      "title": "六自由度飞进银河还能落到地面",
+      "body": "打开标签页，先是一片真的银河。七千一百二十三颗编过目的恒星挤在一百五十光年里，再往外才是种子长出来的。地球有云、有城市灯、海面会反光。土星是扁的，影子压在自己的环上。你可以六自由度飞，从银心一路落到一座山坡，还能分辨一英寸。存档不到七百字节，因为存的是引用，不是拷贝。没有加载缝。没有关卡。图形还是球和锥，底下的坐标是分段的，精度一直跟到地面。天狼星、南门二都能搜。七百零二颗已确认的系外行星挂在四百四十三个系统上。Show HN 今天早上才贴出来。需要 WebGPU 浏览器。没有账号。飞的时候没有过场。落地也没有提示。所以呢，就是浏览器里走进银河，还能落到地面上。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://inertialref.jonjaques.com"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49412059"
+        }
+      ]
+    },
+    {
+      "id": "fmemory-crt-wall",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "视觉尝试",
+      "title": "二十四台坏显像管叠成一堵墙",
+      "body": "雾气房间里二十四台显像管叠成一堵墙。每块玻璃都是活的画布：频谱、时钟、雪花。唱片在墙里响，没有播放条。你拖中间那块玻璃，时间跟着走。点任何一块屏，它就死成雪花。Filip 用 Blender 建出这些管子，再用 Three.js 把画布贴上去。管子会坏，声音还在。Codrops 八月二十二日才写到这间实验室。墙不会给你菜单。你只负责拖和点。实验室在 lab.filipzrnzevic.com。没有分数。没有下一首按钮。玻璃本身就是进度条。打开就能听。雾不会散。管子一直在闪。所以呢，就是用一堵快死的电视墙听一张唱片。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://lab.filipzrnzevic.com/fm"
+        },
+        {
+          "label": "Codrops",
+          "url": "https://tympanus.net/codrops/2026/08/22/sixty-frames-for-the-record-a-three-js-game-seven-fly-throughs-and-a-wall-of-crts/"
+        }
+      ]
+    },
+    {
+      "id": "lxstnght-seven-flythroughs",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "视觉尝试",
+      "title": "七条走廊共用一个引擎往里飞",
+      "body": "七段飞穿共用一个引擎。长桁、烟道、炉井、八十四米的仪仗厅，全是 Blender 建出来的地方，不是套了着色器的方块。你滚轮往前，镜头自己飞，音乐跟着走。一段是空壳船体，一段是生体走廊，一段是往上爬的炉筒。Filip 八月二十二日在 Codrops 拆开这套架子。七段挂在同一条货架上，点进去就能飞。没有关卡，没有地图。滚轮就是油门。几何是建模出来的，着色器只负责光。实验室在 lab.filipzrnzevic.com。打开就能进。永远没有终点。走廊会自己把你吸进去。音乐不停。所以呢，就是给一张黑胶唱片造了七条能走进去的走廊。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://lab.filipzrnzevic.com/lxstnght"
+        },
+        {
+          "label": "Codrops",
+          "url": "https://tympanus.net/codrops/2026/08/22/sixty-frames-for-the-record-a-three-js-game-seven-fly-throughs-and-a-wall-of-crts/"
+        }
+      ]
+    },
+    {
+      "id": "zixu-pointcloud-campus",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "视觉尝试",
+      "title": "紫金港南大门点云自己往前长",
+      "body": "浙大紫金港。南大门这一头，点云在呼吸。你滚轮往前，穿过求是大道，三分钟后会撞上主图书馆。左右转是旋转，上下是前进。点会亮、会散、会重新聚成路和楼。不是扫描件回放，是程序长出来的点云路。仓库八月二十三日才建。独立学生实验，不代表学校。可以静音进。没有菜单。没有终点提示，图书馆自己会从雾里长出来。打开就能走。Three.js 在浏览器里算这些点。声音可以关。路不会断。点贴着地面走，楼从点里长出来。南门还在身后闪。大道中间那条线会自己亮。雾里没有路牌可看。所以呢，就是把一条校园南北轴拧成一片会呼吸的点。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://maestros-manor-replica.vercel.app"
+        },
+        {
+          "label": "仓库",
+          "url": "https://github.com/BallCard/maestros-manor-replica"
+        }
+      ]
+    },
+    {
+      "id": "room-signal-hrtf",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "视觉尝试",
+      "title": "拖喇叭和头颅听房间自己弹声",
+      "body": "俯视图里一间 U 形走廊。橙色喇叭能拖，蓝色头也能拖。按住 Alt 转头，左右耳听到的回声会换边。房间还能换成鞋盒、回声厅、圆柱、球、环。声音会在墙上弹，弹完再进耳机。十七套真人头部轮廓可以换。早到的反射走几何路径，晚场是二十万到五十万条射线，在 WebAssembly 里算。上传或当场录音都行，音频不出浏览器。Show HN 八月二十三日贴出。桌面页，最小八百六十像素宽。没有账号。拖完按播放就能听。射线会画在图上。头一转，左右声道跟着换。墙是硬的。所以呢，就是把房间的回声画出来，再塞进你的两只耳朵。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://nikhil-verma.com/room-signal/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49408078"
+        }
+      ]
+    },
+    {
+      "id": "world-sizer-cartogram",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "视觉尝试",
+      "title": "国家按人口和烟自己胀起来",
+      "body": "世界地图上的国家会自己胀起来。按人口，中国和印度把欧亚撑满。换成二氧化碳，几个工业国突然变胖。再换成奥运金牌、森林、驻军、艾滋病感染人数，版图每次都换一张脸。投影是摩尔维特，数据来自世界银行二零二五年。面积不再代表国土，只代表你选的那一项。旁边有最大十国和最小十国。Show HN 八月二十三日挂出。打开就能切。没有登录。没有下载。国家不会碎，只会挤。切得越狠，地图越不像课本。俄罗斯按人口会瘪下去。小国按金牌会突然变大。边界还在，只是面积撒谎。切一次，世界换一张脸。所以呢，就是让地图按人、按钱、按烟自己变形。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://douwe.com/projects/worldsizer"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49408664"
+        }
+      ]
+    },
+    {
+      "id": "box-blanks-dieline",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "视觉尝试",
+      "title": "四百七十九种纸盒当场自己折",
+      "body": "一张纸盒展开图平摊在桌上。四百七十九种盒型可以换。普通开槽箱是第一种。切线是实的，压痕是虚的。点一下三维，盒子当场折起来。再点看折叠，板子一块块合上。长宽高能拧，内外尺寸跟着变。空白面积、板数、压痕数当场报出来。这不是 illustrator 插件，是网页里的参数化刀模。Show HN 八月二十三日放出。免费。打开就能折。没有账号。刀模不会飞走。折完还能摊回去。胶水边会标出来。尺寸用毫米报。展开图始终对着你。折完还能再摊平。换盒型，折痕会自己改。纸还是那张纸。所以呢，就是把纸盒的展开图活过来，让它自己折给你看。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://boxblanks.com/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49408931"
+        }
+      ]
+    },
+    {
+      "id": "linecast-terminal-almanac",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "小众工具",
+      "title": "终端里的老黄历：天气雷达月亮潮汐",
+      "body": "终端开着。你不想为了看一眼雨，再切到浏览器。\n\nlinecast 是六件终端摆件：天气、雷达、日照、月亮、潮汐、地图。点阵和盲文笔画，颜色跟着当前主题走。不用账号，也不要密钥。一句 uvx linecast weather 就能跑。纯 Python，零依赖。雷达在中日欧美有真图，别处用模式补。地图能转到带晨昏线的地球。支持中文界面。macOS 和 Linux，Python 3.10 以上。SSH 里不行。作者说像把老黄历做成了 Minitel。\n\n所以呢：现在就在终端敲 uvx linecast weather。看温度曲线自己长出来。再换 radar，看雨带有没有压过来。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ashuttl/linecast"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49408089"
+        }
+      ]
+    },
+    {
+      "id": "yatko-github-download",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "小众工具",
+      "title": "GitHub 忘了做的那个下载按钮",
+      "body": "把仓库丢给不会看 Releases 的人。十五个压缩包排在那里。darwin_arm64、linux_musl、windows_amd64。对方问该点哪一个。\n\nYatko 只要把 github.com 换成 yatko.app。同一条路径，落地页按访客的系统和芯片挑对的包。加 /dl 直接跳到二进制。还有 JSON 接口给脚本。文件仍从 GitHub 的 CDN 走，它不托管。校验和也会带出来。作者 argval 的仓库是开源的。Product Hunt 今天刚上。\n\n所以呢：现在把任意公开仓库的地址，域名改成 yatko.app。看它有没有把你这台机器该下的那个递回来。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Yatko",
+          "url": "https://yatko.app/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/argval/yatko"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/posts/yatko"
+        }
+      ]
+    },
+    {
+      "id": "lan-sheriff-watchtower",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "小众工具",
+      "title": "本机连了哪些服务器，画在一张活地图上",
+      "body": "智能电视刚插上网。你看不见它在跟谁说话。\n\nLAN Sheriff 一个程序跑起来，浏览器自己打开。默认 Deputy 模式，不提权，只看这台机器：哪个应用连了哪家公司，弧线画在世界地图上。有镜像口或路由器视角，才看得到电视和门铃。它只观察，不拦包。八条规则盯第一次接触、信标、明文口令。数据不出这台电脑。291 Group 八月二十三日发 1.0.1。AGPL。首页也有。仪表盘在本机 2911 端口。\n\n所以呢：先下一份官方包，在本机跑起来。打开 Watchtower。看你正在用的软件，弧线落到了哪几个国家。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/291-Group/LAN-Sheriff"
+        },
+        {
+          "label": "官网",
+          "url": "https://lansheriff.com"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49409438"
+        }
+      ]
+    },
+    {
+      "id": "squat-counter-phone-accel",
+      "date": "2026-08-24",
+      "added": "2026-08-24",
+      "category": "小众工具",
+      "title": "手机握在手里，网页自己数你蹲了几下",
+      "body": "客厅里想蹲三十下。不想再装一个健身应用，也不想把动作交给云。\n\nSquat Counter 是一个网页。点允许运动传感器，手机握在手里，开始蹲。加速度的模用来判一次，方向无所谓。口袋会闷掉信号，所以别塞口袋。每次成功有震动和计数。灵敏度三档，也能手动加减一。今日次数只存在这个浏览器里。清站点数据就没了。作者 Julien Reszka 顺手挂了一条研究：坐到站起成绩最差的人，六年内死亡风险大约高五点四倍。笔记本没有传感器，试不成。\n\n所以呢：用手机打开这个页。允许传感器。握紧，先蹲五下。看数字会不会自己往上跳。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "当场数",
+          "url": "https://julienreszka.github.io/squat-counter/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49409070"
+        }
+      ]
+    },
+    {
       "id": "glm53-roots-fire-hd",
       "date": "2026-08-24",
       "added": "2026-08-24",
