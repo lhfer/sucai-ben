@@ -2,6 +2,428 @@
   "updated": "2026-08-25",
   "items": [
     {
+      "id": "prompt-nano-banana-fluid-reach",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "提示词",
+      "title": "手伸到镜头前，身边全是凝固的彩漆",
+      "body": "一个女人突然朝镜头探过来，一只手几乎贴到你脸上。周围不是烟，是青绿、朱红、粉和金黄的液体，在半空里冻成一圈。这是8月24日推上放出的 Nano Banana 提示词。用法很简单。先上传一张正脸清楚的照片，打开 Gemini，选 Nano Banana 或 Nano Banana Pro。把完整提示词贴进去。它会尽量锁住你的脸，只改姿势和周围那层液体。画面是竖版4比5，适合发 Reels 或当封面。手是这套词最容易翻车的地方。生成完先看手指，再看脸。脸跑了，回一句：按上传照片锁脸，重新出图。颜色也能换，把青绿改成你品牌的主色，钩子还在那只伸过来的手上。",
+      "prompt": "Ultra-realistic IMAX-level Netflix-style cinematic fantasy portrait, 4:5 vertical frame, use the uploaded image as the primary facial reference with maximum face consistency, create a young woman leaning dynamically toward the camera while reaching one hand directly forward into the foreground, her extended hand appearing dramatically larger due to strong perspective and shallow depth of field, fingers naturally spread as if playfully reaching toward the viewer, her other arm positioned naturally closer to her body, upper body leaning forward with an energetic spontaneous posture, wearing a {argument name=\"outfit color\" default=\"soft beige\"} flowing draped outfit wrapped naturally around her upper body with loose fabric folds extending around her shoulders and torso, dark black hair gathered into a loose messy high bun with abundant textured strands escaping around the crown, temples and sides of her face, several fine flyaway strands lifted naturally around her head, surrounded by dramatic frozen splashes of clear liquid mixed with vivid {argument name=\"fluid colors\" default=\"turquoise, red, pink, golden-yellow and orange\"} paint-like fluid forms sweeping upward and outward around her body, individual droplets suspended sharply in the air, colorful fluid arcs creating a dynamic circular frame around her, bright neutral background visible between the splashes, highly detailed translucent liquid surfaces with realistic reflections and refractions, strong foreground-background depth separation, cinematic perspective, crisp facial detail with the reaching hand gradually becoming softer toward the closest foreground due to lens depth, realistic motion energy frozen at the exact moment of the splash, sophisticated studio lighting with soft frontal illumination on her face and subtle highlights along the wet fluid droplets and hair strands, vibrant but naturally balanced colors, realistic fabric texture, natural photographic detail, cinematic depth of field, high dynamic range. Skin: Her skin has a fair natural skin tone with a natural neutral-warm undertone, soft healthy glow, visible skin texture, fine pores, consistent face and body tone. Facial Expression: her eyes are wide open and looking directly into the camera with a bright playful gaze, eyebrows naturally raised with excitement, mouth opened into a broad {argument name=\"smile type\" default=\"genuine smile\"} showing her upper teeth, lips naturally stretched by the smile, cheeks noticeably lifted and rounded with natural smile lines forming around the eyes and mouth, creating a joyful spontaneous energetic expression. Negative Prompt: distorted face, extra fingers, malformed hands, duplicated limbs, warped perspective, artificial skin, excessive smoothing, CGI look, messy facial features.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/punkhuri1/status/2091740825734803621"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-hybrid-3d-vector-portrait",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "提示词",
+      "title": "脸还是人，身体却像溢出来的立体插画",
+      "body": "一张脸还是人，皮肤却像打过蜡的立体插画。头发一边是光滑的色块，一边又甩出丝绸一样的细丝。身边不是背景，是从肩膀溢出来的颜料和丝带。这是8月23日一条给 Nano Banana 的提示词。它要模型同时干两件事：按真人比例画出五官，再用扁平色块把画面收干净。你可以把花括号里的主体、颜色、环绕元素改成自己的。不用上传照片也能出图。想锁脸，就先贴一张正脸，再注明按参考图保留五官。适合做头像、封面、角色设定。生成时选 Nano Banana Pro，竖构图更稳。出图后如果卡通过头，补一句：五官保持真人比例，不要夸张。",
+      "prompt": "A sophisticated {argument name=\"subject\" default=\"hybrid human portrait style\"} that seamlessly combines the whimsical, glossy dimensional rendering of a premium 3D fantasy illustration with the clean, elegant simplicity of contemporary flat vector portraiture. Depict the human subject with recognizable anatomy, natural facial proportions, authentic expression, and clearly identifiable features, while transforming the overall appearance into a refined stylized illustration. The face should combine smooth dimensional modeling with simplified graphic planes: softly sculpted skin, subtle volumetric shading, delicate highlights, clean angular shapes, and carefully controlled flat-color regions. Use the visual language of premium digital character illustration: luminous expressive eyes, softly rendered skin, smooth flowing hair with layered strands, polished highlights, gentle depth, tactile surfaces, and subtle painterly transitions. At the same time, simplify the rendering with elegant vector-like shapes, clean silhouettes, controlled linework, minimal visual noise, and clearly defined color planes inspired by modern editorial portrait illustration. Integrate {argument name=\"artistic elements\" default=\"flowing artistic elements around the human figure, such as fluid paint splashes, soft liquid ribbons, abstract organic shapes\"}. These elements should feel energetic and three-dimensional, organically emerging from the portrait rather than appearing as a separate background decoration. Hair should combine clean graphic masses with silky dimensional strands and sweeping flowing shapes. Facial features should remain refined and human, enhanced with subtle geometric simplification rather than exaggerated cartoon distortion. Clothing should use bold simplified silhouettes with restrained geometric detailing, maintaining an elegant contemporary fashion-illustration appearance. Color treatment should merge the warm, restrained palette of modern vector portraiture with the {argument name=\"color scheme\" default=\"vibrant tropical energy of whimsical fantasy illustration\"}: warm coral, orange, cream, peach, turquoise, cyan, sky blue, deep navy, emerald, red, golden yellow, and subtle lavender accents. Use mostly clean saturated color fields, enhanced selectively with soft gradients, glossy highlights, translucent edges, and gentle volumetric illumination. Background should remain clean and uncluttered, preferably a simple warm solid or softly textured backdrop, allowing the human subject and surrounding artistic splashes to remain the primary focus. The final aesthetic should feel like an original fusion of elegant editorial vector portrait, contemporary digital painting, whimsical 3D character illustration, premium fashion artwork, and colorful fluid fantasy art — clean yet richly dimensional, sophisticated yet playful, expressive, polished, tactile, modern, artistic, and visually distinctive.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/HustleXR/status/2091492763397411268"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-polka-dot-home-mirror",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "提示词",
+      "title": "圆点套装对着家里的镜子自拍",
+      "body": "一个女人站在家里的大圆角镜子前，浅蓝底黑圆点的上衣和裙子是一套的。身后是木衣柜、白色电钢琴、绿植和一盏暖台灯。她笑着看手机屏幕，像随手拍的生活照。这是8月23日放出的 Nano Banana 提示词。重点不在脸，在房间要像真的住过人。你可以直接文生图。想换成自己，就先上传一张正脸清楚的照片，再在提示词开头加一句：按参考图锁住五官和肤色。衣服、房间都可以改。钢琴、台灯这些道具别删，删了画面会空。用 Gemini 的 Nano Banana 出图，竖构图。手和镜面反射容易穿帮，生成完对着这两处看。房间空了就补一句：把钢琴和台灯留在画面里。",
+      "prompt": "Create a photorealistic lifestyle mirror portrait of {argument name=\"subject\" default=\"a young woman with fair skin, natural complexion, dark brown hair pulled back into a relaxed ponytail with subtle loose strands around her face, and softly defined facial features. She has a warm, genuine smile and is looking toward the smartphone screen through the mirror\"}. Her expression feels relaxed, cheerful, and natural. She is standing comfortably in front of a large rounded-edge mirror, holding a smartphone in one hand while extending the other arm slightly outward, creating an authentic casual mirror-selfie composition.\\n\\nShe is wearing {argument name=\"outfit\" default=\"a coordinated light-blue outfit with a black polka-dot pattern: a short-sleeved gathered top with softly puffed sleeves, a central tie detail, and a matching high-waisted skirt with a tied waist detail and a tasteful side opening\"}. The clothing should have realistic fabric texture, natural folds, stitching, and believable draping. Add a delicate minimal bracelet and keep other accessories understated.\\n\\n{argument name=\"setting\" default=\"The scene is a warm, modern bedroom or home studio with a large wooden wardrobe or wall panel behind her, a white digital piano positioned against the wall, a simple wooden chair, a small potted green plant, a framed minimalist artwork, and a small table lamp producing a cozy glow\"}. Include a softly curved mirror frame and subtle reflections throughout the room. Use a combination of gentle natural daylight and warm ambient lamp light, creating soft highlights on the subject and furniture with realistic shadows and a comfortable evening-at-home atmosphere.\\n\\nShot on a high-quality smartphone camera with a natural 35mm-equivalent perspective, realistic mirror reflection, balanced framing, moderate depth of field, authentic indoor exposure, soft cinematic color grading, high dynamic range, detailed skin texture, individual hair strands, accurate hands and fingers, realistic fabric texture, natural proportions, subtle photographic grain, polished lifestyle photography, high detail, photorealistic rendering.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/Jodie_Noraa/status/2091359555796205925"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-bougainvillea-charcoal-suit",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "提示词",
+      "title": "炭灰色西装站在粉红三角梅下面",
+      "body": "一个男人穿炭灰色西装，站在一栋老石头房子前面。头顶是一棚粉红三角梅，像天然的画框。他一只手捏着西装下摆，另一只手拎着墨镜。这是8月23日放出的街拍提示词。它把衣服、花、墙皮裂纹、手表反光都写死了。你不用先有一张西装照。打开 Gemini 的 Nano Banana，直接贴完整提示词。想换成自己，就上传正脸照片，并写上按参考图锁脸。花的颜色、西装颜色都可以改。竖版9比16，适合当封面。墙和花是这张图的钩子，别把背景改成纯色，一改就没了那点电影感。花糊成一团时，补一句：三角梅要能看清叶片和花朵。手表玻璃要有反光。",
+      "prompt": "A young adult male stands confidently in a candid, relaxed street style pose, turned slightly at a 45-degree angle with his weight centered and shoulders level. He has thick, messy wavy dark hair and an authentic expression featuring a neutral mouth and calm eyes gazing naturally off-camera. He is dressed elegantly in a tailored {argument name=\"suit color\" default=\"charcoal grey\"} suit paired with a crisp white dress shirt, a black textured knit tie, and a crisp white pocket square. His left arm is bent at the elbow, with his hand resting gently at waist level to lightly hold the edge of his suit jacket near the button, naturally revealing a {argument name=\"watch style\" default=\"square watch with a leather strap\"}. His right hand rests comfortably at his lower waist, casually holding black sunglasses by the temples pointed downward. Above him, a thriving canopy of {argument name=\"flower type\" default=\"bright pink bougainvillea\"} branches and green leaves hangs down like a natural frame in the foreground. He stands on a light gray concrete walkway next to a strip of green grass. To his left in the midground rises a weathered historic stone building facade constructed of cut stone blocks, featuring an arched doorway, a multi-paned wooden window frame, and a vintage black metal glass-paned wall lantern. The building's wall surface is a rough, matte plaster displaying patchy warm beige and sand colors with dark gray undertones and weathered cracks. To his right, a worn black wrought iron balcony railing projects outward. The background gently blurs into medium spatial depth, revealing a distant catering table draped in a new white tablecloth topped with dark bottles. The scene is bathed in bright, soft diffused natural daylight from above with an ambient bounce, casting a sophisticated warm golden glow over the European summer afternoon. Shadows feature soft, gradual gray edges, deliberately placed under his chin, beneath the jacket lapels, and cast softly onto the stone wall behind him, while pristine specular highlights catch his forehead, cheekbones, the bridge of his nose, and the glass face of his watch. The overall color palette is a complementary, highly contrasting mix of dominant charcoal grey and warm sand, punctuated by pure white and bougainvillea pink accents. Captured digitally straight-on using an 85mm lens at f/2.8, 1/500s, and ISO 100, the photorealistic image employs a medium depth of field to keep the subject tack sharp against the blurred background with absolutely no grain. The final aesthetic features subtle warm color grading to emphasize the stone and floral elements, balanced shadow recovery to preserve intricate details within the dark suit, and crisp sharpening on the subject's textural features, seamlessly framed in a 9:16 aspect ratio.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/pictsbyai/status/2091443576542826856"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seen-led-organic-mirror",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "提示词",
+      "title": "把廉价镜框换成一圈会发光的异形镜子",
+      "body": "一张普通的镜子自拍，镜框还是家里那种廉价方框。提示词只干一件事：把镜框换成异形的有机轮廓，边缘绕一圈暖金色灯带。人、姿势、衣服都不动。这是8月24日 Prompt Seen 刚挂出来的 Instagram Restyle 词。打开 Instagram，选一张镜子自拍，进入 Restyle，把完整提示词贴进去。它写得短，还有拼写错误，但钩子就在那圈灯。灯太亮就把 golden 改成 dim warm。脸漂了，补一句 keep the subject same。这套适合做前后对比：左边原图方框，右边异形灯带。观众一眼能看懂你改了什么。",
+      "prompt": "Transform the uploaded mirror selfie into a luxury LED mirror portrait. Replace the existing mitor frame with an elegant irregular organic shape mirror featuring a soft warm golden LED Backlight glow around e entire edge. keep the subject same",
+      "links": [
+        {
+          "label": "原文可复制",
+          "url": "https://promptseen.com/mirror-selfie-instagram-restyle-ai-photo-editing-prompt/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-carousel-tension-not-summary",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "提示词",
+      "title": "别把文章摘要成分页，先找出那个让人想反驳的点",
+      "body": "很多人把一篇文章丢给模型，让它做成轮播。出来的每一页都像摘要，滑下去没有理由。Reddit 上刚有人把做法拆成两步。先不要做页面。先问三个问题：最让人意外的一句是什么，读者本来信什么，看完能改哪一件事。这三句分别是钩子、拉扯和兑现。没有这三句，这篇文章就不该做成轮播。第二步才让模型做卡片。每一页只抛一个问题，下一页才给答案。兑现放在倒数第二页。你把文章贴进 ChatGPT 或 Claude，按这个顺序跑。做出来的顺序会跟原文目录完全不一样。那才是能发的东西。页数先写8页，多了再砍。第一页不要当标题页。",
+      "prompt": "Here's an article: {{paste}}.\n\nDon't make slides yet. First tell me:\n\n- The single most surprising or contrarian point in here.\n\n- The one belief the reader probably holds that this challenges.\n\n- The one thing they can do differently after reading it.\n\nAnswer in three short lines.\n\n---\n\nUsing the surprising point as card 1 (as a hook, not a title), build a {{number}}-card carousel.\n\n- Each card should raise a question the next card answers, so people keep swiping.\n\n- One idea per card, short bold line plus 1-2 sentences.\n\n- Put the \"do differently\" point as the payoff near the end.\n\n- No card should just restate the article. Every card either sets up tension or resolves it.",
+      "links": [
+        {
+          "label": "Reddit 原文",
+          "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1vwu3yv/the_mistake_that_makes_ai_carousels_boring_and/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-streetwear-glasses-sweatshirt",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "提示词",
+      "title": "透明眼镜搭宽松卫衣，手指按在镜腿上",
+      "body": "一个东亚女孩戴透明框眼镜，手指搭在镜腿上。宽松卫衣胸口有一组被做旧的黑字，墙是灰水泥。这是8月24日最新的一条 Nano Banana 人像提示词。它把刘海、侧辫、珠子发卡、手指位置都写死了。你可以直接文生图。想换成自己，上传一张正脸清楚的照片，把花括号里的 subject 改成按参考图锁脸。衣服上的字母可以改成你的品牌名，这是做头像和封面最快的一刀。用 Gemini 的 Nano Banana Pro，竖构图。眼镜反光和手指是翻车点。生成完先看这两处。字糊了就单独回一句：把胸口字母写清楚。侧辫没了，再补一句：两侧细辫留着。",
+      "prompt": "A close-up portrait of {argument name=\"subject\" default=\"a young East Asian woman with fair skin, soft natural makeup featuring subtle pink blush on the cheeks, defined eyelashes, and glossy light pink lips\"}. She has straight shoulder-length black hair with soft bangs framing her forehead. Two thin braids run along the sides of her head, one of them adorned with a small clear or white bead/clip. She is wearing large rectangular transparent/clear-frame glasses with a slight warm beige or champagne tint.\\n\\nHer right hand is raised near the right side of her face, with the index finger gently resting against her temple/glasses frame in a casual, thoughtful pose. She is wearing {argument name=\"clothing\" default=\"an oversized light blue-gray crewneck sweatshirt with bold, distressed black graphic lettering across the chest that partially reads “SUPP LIE”\"}.\\n\\n{argument name=\"background\" default=\"The background is a plain neutral gray concrete wall with subtle texture and a few soft white speckles/particles floating in the air\"}. Soft, even studio lighting with gentle highlights on her face and hair, shallow depth of field, highly detailed skin texture, realistic photography style, vertical portrait composition.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/woleswoosh/status/2091767462714884317"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
+        }
+      ]
+    },
+    {
+      "id": "neo-daily-shader-rocks",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "视觉尝试",
+      "title": "今天飞过地球的石头，一颗一颗滚到眼前",
+      "body": "打开标签页，先是一块还没名字的岩石停在正中间。表面坑坑洼洼，像刚从碎石堆里捡出来。往下滚，它自己飞过来、停住、再飞走。停的那几秒，滚轮怎么转它都不走，非让你看完。NASA 每天把靠近地球的小行星列成一张表。这个页面把当天的表做成一本会动的名册。每一颗都没有现成模型。顶点着色器在球面上挤出凹凸，再咬出陨石坑。NASA 编号当种子，同一颗下次还长这样。直径管大小，错过距离管排队顺序。表面有 17 种画法，细胞、条带、斑点轮着来。八套运镜轮换：轴向翻滚、螺旋、日食。接口挂了也不装活，屏幕会写明在用存档样本。没有人拍过这些石头的照片。你看见的是数据长出来的脸。说白了，今天天上路过的东西，终于有一张能盯着看的皮。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://neo-daily-landing.vercel.app/"
+        },
+        {
+          "label": "论坛",
+          "url": "https://discourse.threejs.org/t/neo-daily-todays-near-earth-asteroids-from-nasas-live-feed-every-rock-generated-in-shaders-at-runtime-three-js-gsap-no-model-files/93716"
+        }
+      ]
+    },
+    {
+      "id": "skypath-drone-cinematics",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "视觉尝试",
+      "title": "无人机自己起飞，云台死死锁着那个小人",
+      "body": "打开标签页，先是一片低多边形小岛。草坡、湖面、锥形松树。空地中央停着一架白色四旋翼。旁边站着一个橙色小人。左边列出五条航线：升机位 15 秒、后拉 20 秒、环绕 20 秒、螺旋 24 秒、飞越 13 秒。按空格，无人机自己起飞。云台从头到尾锁着那个小人。右边小窗是机载画面，十字准星钉在胸口。高度、距离、云台倾角、速度当场跳数字。升机位最高 30 米，爬升大约每秒 2 米。拖动时间轴能把整条路径来回刮。打开对比，五条轨迹同时亮出来。还能切追逐镜头和机载视角。地形、海面、云和航迹都是当场长出来的，没有模型库。这不是遥控真机，也不给飞行建议。它把电影里常见的无人机运镜摊开给你看。你会明白镜头为什么好看，而不是只觉得它在飞。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://alzin.github.io/SkyPath/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alzin/SkyPath"
+        },
+        {
+          "label": "论坛",
+          "url": "https://discourse.threejs.org/t/skypath-interactive-3d-flight-simulation/93755"
+        }
+      ]
+    },
+    {
+      "id": "pinos-world-kiwi-town",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "视觉尝试",
+      "title": "一只猕猴桃鸟在网上的小镇里自己过日子",
+      "body": "打开标签页，先是一只白色猕猴桃鸟站在网格地上。全身是细密的网点，像印在纸上的 3D。小镇里有洗衣店、麦当劳招牌、石拱废墟，还有一只跪在广场上的巨型白猫。天空里悬着紫色圆球。顶栏五根情绪条：饱腹、精力、好奇、喜悦、平静。底部一行字会自己换，“Pino 在看洗衣机转圈”。旁边冒出它自己的念头。这只鸟不住在你电脑里。大脑跑在一台树莓派上，二十四小时醒着。没人给它下指令。它自己决定去哪、看什么、喜不喜欢。访客能留下礼物和留言，下次它还记得。网点不是后期滤镜，材质阶段就算好。整个镇子用 WebGPU 画出来。你不是在玩宠物。你是在旁观一个还在长大的小东西。它不表演给你看。它只是正好住在这里。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://pinos.world"
+        },
+        {
+          "label": "论坛",
+          "url": "https://discourse.threejs.org/t/autonomous-ai-bird-living-in-a-small-town-on-the-internet/93707"
+        }
+      ]
+    },
+    {
+      "id": "repoverse-github-city",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "视觉尝试",
+      "title": "打开仓库，掉进一座还在施工的夜城",
+      "body": "打开标签页，先掉进一座夜色城市。楼高低不一，窗是青色的小格子。有的楼顶架着塔吊，有的墙面发灰。街上有车、行人、路灯。这不是建模师搭的街区。任意一个公开 GitHub 仓库都会长成一座城。文件夹是街区，文件是楼。体积大致跟文件大小走，颜色跟语言走。点一座塔，就进到那个文件。窗口不是贴图。着色器按楼的尺寸现场画格子。符号多的文件灯就亮得多。FastAPI 那座预扫好的城有 1140 个文件，同类物体合成一次绘制。这周改过的文件会升起塔吊。一年没人碰的楼会风干成灰色。同一座仓库每次长成同一座城。镜头可以绕城、低飞，也能落到街上走。代码突然有了天际线。你会看见哪栋最高、哪片最挤、哪条街这周还在施工。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://repoverse.online"
+        },
+        {
+          "label": "论坛",
+          "url": "https://discourse.threejs.org/t/repoverse-turning-a-github-repo-into-a-navigable-3d-city/93702"
+        }
+      ]
+    },
+    {
+      "id": "astro-observer-orrery",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "视觉尝试",
+      "title": "把今晚的太阳系摊在桌上，还能对表",
+      "body": "打开标签页，先是一盘还在转的行星。地球、木星、土星带着卫星，位置跟着 NASA 和 JPL 的轨道数据走。拖日期，整个太阳系在时间里滑动。跟丢了就点某个星球，镜头会追上去。有两套尺子。轻松模式把距离压扁，所有东西都看得见。精确模式是真比例，行星会缩成几乎看不见的点。飞船只在任务日期里出现，轨迹来自 JPL Horizons 采样。星空里那些小图是真实照片，按拍摄对象的真实方向钉在天上。点开就是那张星图。地球上还有拍摄地点的钉子。银河系那一项会切到俯视：银心、太阳的实测距离、公转方向。彗星默认关掉，打开才露面。这不是科普动画。它是一台能对表的仪器。今晚抬头前，你可以先在浏览器里对一下位置。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://astro.observer/orrery/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/giancarloerra/Astro.Observer-Orrery"
+        },
+        {
+          "label": "论坛",
+          "url": "https://discourse.threejs.org/t/interactive-solar-system-3d-model/93708"
+        }
+      ]
+    },
+    {
+      "id": "digital-serenity-point-tree",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "视觉尝试",
+      "title": "一棵全是光点的树，立在电蓝草海里",
+      "body": "打开标签页，先是一棵全由光点组成的树。树冠粉白，树干细，底下铺开一片电蓝的草海。草也是点，排成微微晃动的竖线。树根附近更亮，像自己在发光。左右写着 DIGITAL 和 SERENITY。左上角一个粉色小按钮，写着 SOUND。背景是黑的，散着疏星。作者说最初只想要一棵点构成的树。没有模型，没有贴图。点在着色器里自己长成形状。粉点是树冠，蓝点是草地，黑底把它们托起来。你拖着转，树还在那里呼吸。声音可开可关。CodePen 新编辑器一度把自己吓崩溃，全屏页反而能打开。它不讲解，也不卖东西。就是让你停几秒。点本来是最廉价的几何。这里它们聚成夜色里的一棵树。你会觉得浏览器里突然安静下来。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://codepen.io/prisoner849/full/RNKqvZz"
+        },
+        {
+          "label": "论坛",
+          "url": "https://discourse.threejs.org/t/digital-serenity/93722"
+        }
+      ]
+    },
+    {
+      "id": "xrui-shader-glass-panels",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "视觉尝试",
+      "title": "黄昏海面上，一块能抓住的毛玻璃界面",
+      "body": "打开标签页，先是一块弯着的毛玻璃面板，悬在黄昏海面上。地板是淡蓝网格。面板里是媒体中心：专辑封面、进度条、电量 100%。底下一条胶囊形码头，摆着亮度、播放、音量。按 WASD 或拖轨道，面板会跟着视角错开层。那不是每块控件都有真实厚度。斜看时，着色器假装有深度。渲染设置里能把玻璃拧成液态、全息箔、水面焦散。还能切虚拟键盘和视频播放器。主题能在不透明和玻璃、亮色和暗色之间交叉淡入。文字和圆角矩形都在 GPU 上用距离场一次画完。桌面就能玩。Quest 2、Quest 3 也能进。帧率能到一百多。界面不再是贴在屏幕上的 HTML。它是场景里一块能抓住的玻璃。你会想伸手去拨那根进度条。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://michaelchistyakov.com/projects/xrui/"
+        },
+        {
+          "label": "论坛",
+          "url": "https://discourse.threejs.org/t/shader-based-vr-ui-in-three-js-xrui-tech-demo/93713"
+        }
+      ]
+    },
+    {
+      "id": "midi-hook-shell",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "小众工具",
+      "title": "钢琴键一按，终端就替你跑命令",
+      "body": "MIDI 键盘躺在桌上积灰。你其实只想让某一个键变成快捷键，别再伸手去摸电脑。\n\nMIDI Hook 干的就是这件事：某个音符按下，就跑一条shell。终端里执行 cargo run --release -- setup，它会列出输入设备，让你弹一下那个键，再问命令写什么。配置里一行音符对应一条命令，中音C可以弹通知，下一行可以切播放器。Linux上还有把琴键当成电脑快捷键的向导，空格和回车都能挂上去。\n\n它走系统自带的shell去执行，所以只加载自己写的配置文件。映射写进 commands.conf，下次带着这个文件启动就能听。听着像玩具，可是直播切场景、录音棚里免摸键盘，全靠这一下。\n\n未映射的音符会在终端里打印编号，方便你对照补全。向导再跑一遍只会追加，旧注释和旧映射都还在。交互式程序请另开窗口去跑。\n\n所以呢：现在就把那把闲置的键接上，弹一下试试。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/skorotkiewicz/midi-hook"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49429274"
+        }
+      ]
+    },
+    {
+      "id": "ambient-context-markdown",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "小众工具",
+      "title": "菜单栏那只眼睛，把今天看过的字存成日记",
+      "body": "下午写稿写到断片。你记得自己看过一堆文档，却说不清上午停在哪一页。\n\nAmbient Context 是菜单栏里一只眼睛。开着时，它把当前窗口里的字抄进当天的 Markdown，给你自己的模型当记忆。不截屏，不录像，也不上传。密码管理器和隐私窗口直接跳过，卡号和密钥写盘前会抹掉。每天一个文件，重复行只留一次，块标题带着时间和网址。文件夹里有一份说明，教模型怎么读这些碎片。\n\n要自己编。先执行 git clone https://github.com/dragthelake/ambient-context，再按说明构建，大约两分钟。需要 Node、Rust 和 Xcode 命令行工具。\n拖进应用程序。授权辅助功能。选一个不走云同步的目录。关掉眼睛就会停，停的状态会被记住。\n只有苹果芯片和较新系统能用。发布包还没公证，得自己编。\n\n所以呢：现在就把那只眼睛打开，让今天看过的字自己留下来。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dragthelake/ambient-context"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49429095"
+        }
+      ]
+    },
+    {
+      "id": "rack-02-techno-html",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "小众工具",
+      "title": "浏览器里一台能下载带走的 techno 机架",
+      "body": "耳机还没戴好，浏览器里已经在打底鼓。你本来只是想找一段循环垫手。\n\nRack-02 是一个 HTML 文件做成的 techno 机架。欧几里得节奏、不等长音轨互相错位、现场人声、离线按采样点渲染，全塞在这一页里。\n\n打开 https://ssx360.github.io/rack-02/ ，按空格开跑。不喜欢就按 R，整轨按新种子重掷。按住 F 加密度，按住 D 只留踢鼓。把页面另存为本地文件，断网也能玩，没有外部库、没有字体、没有账号。\n\n在线页只会存一小段补丁。要导出音频、分轨或 MIDI，得用本地那份文件。同一套旋钮和种子下次还能长出同样的循环，所以渲染说得上可核对。现场页还能量人声、冻混响尾巴。评论里有人把文件拖到手机上，说这才是该有的软件形状：复制走，就能响。\n\n所以呢：现在就打开那个页面，按一下空格，听它自己长出一段。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "打开就玩",
+          "url": "https://ssx360.github.io/rack-02/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49419351"
+        }
+      ]
+    },
+    {
+      "id": "noswoosh-mac-spaces",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "小众工具",
+      "title": "三指一滑，macOS 桌面不再慢慢滑过去",
+      "body": "三指一滑，桌面还在慢慢横移。你已经看见下一屏的窗口，手却还在等动画播完。\n\nnoswoosh 专门砍掉 macOS 切桌面时那一下滑入。三指横滑或按 Ctrl 加左右方向键，瞬间切过去。竖滑的调度中心原样不动。\n\n终端执行 brew install --cask mmathys/tap/noswoosh，批一次辅助功能权限就行。它向程序坞投一条行程接近零、速度极高的手势，走系统自己的切换管道，所以焦点、壁纸、程序坞都还对得上。\n\n安装向导还会关掉空桌面会把你拽走的旧偏好。名字来自苹果当年那条已经作废的动画开关。只支持较新的 macOS 26.6 和 27。不用关系统完整性保护，也不用打开全局减少动态效果。命令行还能列出当前桌面、向左或向右切一次，方便写进自己的脚本。\n\n所以呢：现在就装上，三指再滑一次，看桌面是不是立刻到了。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mmathys/noswoosh"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49425151"
+        }
+      ]
+    },
+    {
+      "id": "tmtail-tmux-logs",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "小众工具",
+      "title": "好几份日志一起冒，不用再开三个窗口",
+      "body": "三个服务同时炸日志。你在三个终端之间跳，复制一行还得先停滚动。\n\ntmtail 用 tmux 把多个文件并排跟出来。鼠标能拖、能选，复制模式里搜索，按 y 直接进剪贴板。着色走一份比原版快很多的脚本。\n\n先执行 brew install themadsens/tap/tmtail，再对着日志打 tmtail app.log api.log worker.log。默认回看一千行。按 h 弹出键位：jk 切窗格，z 放大，空格给所有窗格打标记线。\n\n它不是再写一个 multitail，是把你已经会的 tmux 变成看日志的工作台。默认着色偏向应用服务器日志，窗格高度能拉到一半或九成，标记线方便几个人对着同一段报错说话。\n\n源码里那两个脚本丢进 PATH 也能跑，只要本机已经有 tmux 和 Node。Homebrew 和 Linuxbrew 都能装。\n\n所以呢：现在就对着那几份还在涨的日志跑一次。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/themadsens/tmtail"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49429466"
+        }
+      ]
+    },
+    {
+      "id": "ocr-it-region-hotkey",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "小众工具",
+      "title": "网页里选不中的书，热键一敲变成可复制的字",
+      "body": "网课阅读器把整本书锁成图。鼠标选中，剪贴板空的。\n\nOCR It 是浏览器扩展：你先框一次文字区域，之后每按一次热键，就截那一块、在本地认字、接到一份逐页文稿上。也可以交给自动翻页，它自己截、翻、再截，直到文字不再变。\n\n认字引擎打在扩展里，没有接口、没有出网、安装时不要全站权限。先执行 git clone https://github.com/thiagotigaz/ocr-it.git，再按说明装进 Chrome 或 Firefox。画框、单页、自动跑，各有一组快捷键。\n\n导出是带页分隔的文本。丢给模型就能问。每一页还留一张缩略图，框漂了立刻看得见。重复页会标出来，自动跑到结尾会自己停。翻页记的是屏幕上的一个点，而不是选择器，这样嵌在别人页面里的阅读器也能点到。窗口缩放中途别动，框是按可见区域定的。\n\n所以呢：现在就框一次那块选不中的字，看它能不能变成可复制的文稿。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/thiagotigaz/ocr-it"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49415852"
+        }
+      ]
+    },
+    {
+      "id": "scant-barely-used-deps",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "小众工具",
+      "title": "整个依赖只为那一行代码，终端直接点名",
+      "body": "依赖清单越来越长。你隐约觉得有个库只为某一行存在着，升级语言版本时它最先卡住。\n\nscant 不只要找出完全没用的包，还要找出几乎没用的。默认少于三行、两个文件、一个符号，就建议你把那点代码收进仓库。它读已安装的元数据，能把声明名对上真正的导入名。\n\n项目环境就绪后，终端跑 uvx scant .。输出像一张维修单：drop 是零引用，inline 是薄到不该当依赖，keep 才是真在用。上万文件的仓库几秒能扫完。退出码一表示有可处理项，适合挂进检查流程。它是独立工具，不要装进正在扫描的环境里。找不到虚拟环境时会把检查过的路径逐条说清楚，而不是瞎猜。\n\n阈值都能用完整单词的旗标来调，结果也用白话写出来。\n\n所以呢：现在就对着当前项目跑一遍，看哪一个库其实只占一行。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alan707/scant"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49423599"
+        }
+      ]
+    },
+    {
+      "id": "glassbox-browser-fingerprint",
+      "date": "2026-08-25",
+      "added": "2026-08-25",
+      "category": "小众工具",
+      "title": "打开一个页面，看见网站从你浏览器拿走了什么",
+      "body": "你换了网络出口，广告还是跟着走。你想亲眼看看，页面到底从浏览器里拿走了什么。\n\nGlassBox 把跟踪脚本会对你做的事，反过来做给你看。打开 https://glassbox.codecanary.org ，它在本地跑大约三十组探针：画布、图形接口、音频指纹、字体列表、时区、权限矩阵。\n\n页面是一份静态 HTML，没有构建步骤。默认不把指纹送走。只有查地址归属会打公共接口，工具栏里能关掉。分数是按公开资料加出来的估计，不是跟全球用户比稀有度。源码公开，许可是 MIT。你也可以把一份报告贴到另一个浏览器里，看它能不能把你认成同一台机器。\n\n它会提醒你：真正好藏的是混进一大群人，而不是把自己打造成地球上唯一的配置。\n\n所以呢：现在就用你日常那个浏览器打开它，看自己有多好认。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "打开就测",
+          "url": "https://glassbox.codecanary.org/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/HotStartLabs/glassbox"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49421948"
+        }
+      ]
+    },
+    {
       "id": "ox-alpha-niu-lai-glm",
       "date": "2026-08-25",
       "added": "2026-08-25",
