@@ -2,6 +2,362 @@
   "updated": "2026-08-26",
   "items": [
     {
+      "id": "prompt-sunglasses-window-pane",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "提示词",
+      "title": "墨镜特写，窗格子正好打在脸上",
+      "body": "一个女人戴着黑色大方框墨镜，肩带针织上衣，墙上的窗格子正好打在脸上和锁骨上。这是8月25日推上放出的 Nano Banana 提示词。用法很简单。打开 Gemini，选 Nano Banana 或 Nano Banana Pro。把完整提示词贴进去。想换成自己，就先上传一张正脸清楚的照片，再在开头加一句：按参考图锁住五官和肤色。画面是特写，适合当头像和封面。墨镜和窗影是钩子，别把背景改成纯色。花括号里的主体、墨镜、墙面都可以改。出图后先看眼镜框有没有糊，再看窗格子是不是还在皮肤上。脸跑了，回一句：按上传照片锁脸，重新出图。",
+      "prompt": "A realistic close-up portrait of a {argument name=\"subject\" default=\"young East Asian woman\"} in her early 20s, with soft light brown shoulder-length hair styled with soft bangs and gentle waves framing her face. She is wearing {argument name=\"accessory\" default=\"oversized black rectangular sunglasses\"} with dark gradient lenses and a thick black frame. Her makeup is natural and polished: soft defined eyebrows, subtle blush, and glossy coral-peach lips. She wears small silver double hoop earrings. She is dressed in a fitted black ribbed knit halter top with a high round neckline that leaves her shoulders and upper chest bare. Her pose is a soft selfie-style angle: body slightly turned, one hand resting near her opposite shoulder, looking over her shoulder toward the camera with a calm, confident expression. The background is a {argument name=\"background\" default=\"plain light beige wall\"} with soft natural window light casting distinct geometric window-pane shadows across the wall and her face. Soft directional sunlight creates gentle highlights on her hair, skin, and the texture of the ribbed top. High-detail realistic photography style, natural skin texture, soft bokeh, elegant and modern aesthetic, high resolution.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/woleswoosh/status/2092039252557070777"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32514"
+        }
+      ]
+    },
+    {
+      "id": "prompt-superhero-street-selfie",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "提示词",
+      "title": "红蓝紧身衣，傍晚街上伸手自拍",
+      "body": "一个女人站在傍晚的人行道上，红蓝紧身衣，手臂朝镜头伸过来，像随手拍的街拍。身后是停车、树、公寓和暖黄路灯。这是8月24日放出的 Nano Banana 提示词。重点不在变装，在衣服要像真人穿的戏服，有缝线和布纹。打开 Gemini，选 Nano Banana 或 Nano Banana Pro。想锁脸，先上传一张正脸清楚的照片，再写上按参考图保留五官。花括号里的头发、衣服、街道都可以改。用85毫米、大约f/1.8，脸要实，背景要虚。出图后先看手指，再看胸前的标志有没有糊成一团。脸跑了，回一句：按上传照片锁脸，重新出图。",
+      "prompt": "Create a photorealistic urban portrait of a young woman taking a casual selfie outdoors on a city sidewalk during the evening. She has {argument name=\"hair\" default=\"long dark brown hair\"} styled in a loose ponytail with soft natural strands around her face. Her complexion is warm and natural with realistic skin texture, subtle facial details, and soft highlights from nearby street lighting. She has expressive eyes, neatly shaped eyebrows, and a gentle confident smile with a relaxed and friendly expression. Her head is slightly tilted toward the camera, creating an authentic candid selfie composition.\n\nThe subject is standing on a city street with one arm extended naturally toward the camera as if capturing a selfie. Her posture is relaxed and confident, with a natural stance and realistic body proportions. Maintain accurate anatomy, natural hands, and an everyday lifestyle photography feel.\n\nShe is wearing a {argument name=\"outfit\" default=\"fitted superhero-inspired red and blue full-body athletic suit\"} with a textured fabric pattern, subtle web-like surface details, and a stylized spider emblem on the front area. The costume should appear as a fictional fantasy outfit with realistic stitching, fabric texture, and professional costume design. Add minimal accessories and keep the overall appearance clean, modern, and polished.\n\nThe {argument name=\"environment\" default=\"environment is a lively urban neighborhood street\"} with sidewalks, parked cars, trees, apartment buildings, storefront walls, and warm street lamps in the background. The scene should feel like a real city evening with natural surroundings and realistic architectural details. Include soft reflections from nearby lights and a slightly blurred background to emphasize the subject.\n\nUse warm evening lighting with a mix of fading natural twilight and golden street illumination. Create soft highlights on the face and costume, gentle shadows for depth, and realistic ambient city light. The background should have subtle bokeh from streetlights and distant buildings while maintaining a believable outdoor atmosphere.\n\nPhotograph the scene with an 85mm portrait lens at approximately f/1.8, using a close selfie-style perspective with natural depth of field. Keep the subject's face and eyes sharply focused while allowing the background to softly blur. Use realistic camera optics, detailed hair strands, natural skin texture, accurate fabric rendering, high dynamic range, and professional editorial photography quality. Apply a cinematic color grade with balanced reds and blues, warm skin tones, soft contrast, realistic saturation, and smooth highlight transitions. The final image should look like a high-quality cinematic street portrait with authentic lighting, realistic detail, and a natural photographic style",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/Jodie_Noraa/status/2091887559060390207"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32505"
+        }
+      ]
+    },
+    {
+      "id": "prompt-crochet-cat-shoulder",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "提示词",
+      "title": "钩针开衫，肩上趴着一只橘猫",
+      "body": "一个女人戴玳瑁大方框墨镜，头巾在下巴底下打结，肩上趴着一只毛茸茸的橘猫。阳光从后面打过来，头发和钩针针脚都发亮。这是8月25日放出的 Nano Banana 提示词。钩子不在脸，在那件奶油、青绿、洋红织出来的开衫，还有肩上那只猫。打开 Gemini，选 Nano Banana 或 Nano Banana Pro。不用先有猫的照片。想换成自己，就上传一张正脸，并写上按参考图锁脸。花括号里的头发、衣服、头巾都可以改。背景写成干净蓝天就够了，别再往上堆景点。出图后先看猫的爪子和眼镜框。猫糊成一团，补一句：橘猫要能看清毛发，不要糊。脸跑了，回一句：按上传照片锁脸。",
+      "prompt": "Close-up portrait of a young woman with {argument name=\"hair\" default=\"flowing brown hair\"} wearing a {argument name=\"clothing\" default=\"crocheted oversized cardigan (cream, teal, and magenta yellow)\"} and a {argument name=\"accessory\" default=\"brightly colored crochet headscarf (cream, teal, lime green, and magenta yellow)\"} tied under her chin.She wore large, square, oversized sunglasses with thick tortoiseshell frames and amber lenses.The sun shines brightly from behind, illuminating her and creating a bright, high-contrast, dreamy summer aesthetic.Her dark bangs peeked out from under her scarf and her makeup was subtle.A fluffy orange cat relaxes on her shoulder.The background is a clear bright blue sky.Realistic, colorful, fashionable photography style., pet, photorealistic, high detail",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/ColorWolf2006/status/2092130399065460788"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32502"
+        }
+      ]
+    },
+    {
+      "id": "prompt-skardu-couple-travel",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "提示词",
+      "title": "手机自拍，两人站在斯卡都湖边",
+      "body": "一对情侣站在巴基斯坦斯卡都，男人伸手自拍，女人站在旁边。后面是大山、湖水和草甸，远处还有别的游客。这是8月25日放出的 Nano Banana 提示词。它故意写成手机旅行照，不要电影棚，不要闪光灯。先上传两张正脸清楚的照片，一张男一张女。打开 Gemini，选 Nano Banana 或 Nano Banana Pro。把完整提示词贴进去。男人写成白库尔塔，女人写成紫色传统裙。花括号里的地点和衣服都可以改。出图后先对脸，再看是不是全身都在画面里。脸漂了，回一句：按两张参考图分别锁脸，不要美颜。背景空了，补一句：把山、湖和远处游客留在画面里。",
+      "prompt": "Use my pic face Create an ultra-realistic full-body photograph of a {argument name=\"subject\" default=\"young South Asian Couple\"} (use uploaded reference face exactly) enjoying a trip in {argument name=\"location\" default=\"Skardu, Pakistan\"}. The image should look like a genuine tourist photo captured on a modern smartphone. Style: Natural smartphone camera photography, ultra realistic, real travel photo, NOT cinematic, NOT studio lighting, NOT AI-looking. SKARDU ADVENTURE (ULTRA REALISTIC, FULL BODY, 8K\n CAMERA\n• Full body visible\n• Natural handheld phone camera shot\n• Slight perspective imperfections\n• Realistic depth of field\n• Ultra HD 8K quality\n• Sharp facial details\n• Natural color tones\n• No filters\nMALE\n• Use uploaded reference face exactly\n• Same hairstyle as reference image\n• Light beard\n• Wearing traditional {argument name=\"clothing\" default=\"white Korton Kurta pajama\"} with stylish shoes.\nFEMALE\n• Elegant traditional purple traditional Pakistani dress.\n• Natural makeup\n• Realistic facial features\n• Warm smile\n• Natural hair movement\n POSE\n• Man Catch the selfie Own girlfriend.\n• Genuine candid travel moment\n• Happy and relaxed expressions\n• Authentic tourist vibes\nLOCATION — SKARDU\n• Beautiful Skardu Valley\n• Massive mountains in background\n• Crystal-clear lake nearby\n• Green meadows\n• Rocky landscapes\n• Famous Skardu scenery\n• Natural tourism atmosphere\nCROWD\n• Tourists visible in background\n• Families taking photos\n• People enjoying the scenery\n• Natural crowd blur\n LIGHTING\n• Bright natural daylight\n• Soft mountain sunlight\n• Realistic shadows\n• Natural exposure\n• No flash\n REALISM\n• Hyper-realistic photography\n• Natural skin pores\n• Real fabric textures\n• Authentic human anatomy\n• Smartphone camera quality\n• Travel photography realism\n• Ultra HD 8K",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/DilshadAI1/status/2092064932217209067"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32504"
+        }
+      ]
+    },
+    {
+      "id": "prompt-macro-eye-reference",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "提示词",
+      "title": "一只眼睛贴到镜头前，皱纹全留下",
+      "body": "一张脸被裁到只剩一只眼睛和眉毛。虹膜上有细纹，眼皮是皱的，眉毛是银色的。这是8月24日放出的 Nano Banana 提示词。它要模型按参考图锁身份，再把皮肤纹理放大到能看清。先上传一张正脸清楚的照片，年龄和肤色都按原样。打开 Gemini，选 Nano Banana 或 Nano Banana Pro。构图是正面平视，只留一只眼。花括号里的瞳色、皮肤、发色都可以改。浅灰背景，100毫米微距，不要磨皮。出图后先看虹膜有没有糊成色块，再看皱纹还在不在。脸漂年轻了，回一句：按参考图保留年龄和皱纹，不要磨皮。适合做前后对比封面，不要拿去当头像。",
+      "prompt": "Extreme macro close-up of the same woman from the reference image, keeping her exact identity, {argument name=\"eye color\" default=\"pale blue eyes\"}, {argument name=\"skin type\" default=\"warm aged skin\"} and {argument name=\"hair color\" default=\"silver hair\"}. Tight crop on one eye and eyebrow, straight-on eye-level angle, serene expression. Hyperrealistic detail: pale blue iris with fine striations and a soft catchlight, natural sparse lashes, fine crepey eyelid texture, deep natural wrinkles and age spots, a soft silver brow. Soft even studio beauty light, pale gray background, 100mm macro, razor sharp, photorealistic, not airbrushed, no text.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/camiinthisthang/status/2091950064491241584"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32511"
+        }
+      ]
+    },
+    {
+      "id": "prompt-linen-suit-golden-bar",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "提示词",
+      "title": "奶油色亚麻西装，黄昏吧台倒酒",
+      "body": "一个男人穿奶油色双排扣亚麻西装，白衬衫领口开着，玳瑁墨镜，站在木吧台后面倒酒。左边暖光把脸切开，阴影是奶油色的。这是8月24日放出的 Nano Banana 提示词。相机写成徕卡 SL2-S、85毫米、f/1.8。先上传一张正脸清楚的照片。打开 Gemini，选 Nano Banana 或 Nano Banana Pro。把完整提示词贴进去。竖构图三比四。花括号里的衣服、动作、光线都可以改。不要把吧台改成棚拍白墙，一改就没了那点黄昏。出图后先对脸，再看酒液和杯壁反光。脸跑了，回一句：按上传照片锁脸，重新出图。墨镜反光糊了，补一句：镜片里要有吧台灯光。",
+      "prompt": "Ultra-realistic 8K cinematic portraits, 3:4 vertical, uploaded reference for 100% face alignment. A confident man in a {argument name=\"clothing\" default=\"cream double-breasted linen suit\"}, open-collar white shirt, and tortoiseshell sunglasses {argument name=\"action\" default=\"pours cocktails behind a wooden bar\"} at {argument name=\"lighting\" default=\"golden hour\"}. Warm, cinematic key light from the left sculpts rich highlights and creamy shadows, evoking timeless luxury Camera: Leica SL2-S 85 mm f/1.4, ISO 100, f/1.8, 1/250 s. Shallow depth, high dynamic range, lomography grain, golden diffusion.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/AlexPromptsAI/status/2091876237765423375"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32508"
+        }
+      ]
+    },
+    {
+      "id": "prompt-yacht-club-menu",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "提示词",
+      "title": "码头餐厅看菜单，身后是白色游艇",
+      "body": "一个男人坐在海边餐厅，几何墨镜，右手捏着打开的菜单上沿。桌上是空酒杯、胡椒磨、橄榄油瓶和一盆白花。身后是多层白色游艇。这是8月24日放出的 Nano Banana 提示词。它把阳光写成右前方四十五度硬光，下巴和墨镜下是短而深的黑影。打开 Gemini，选 Nano Banana 或 Nano Banana Pro。想换成自己，就上传正脸照片，并写上按参考图锁脸。构图四比五，35毫米、f/4。花、杯子、游艇都别删，删了就只剩一张证件照。出图后先看手和菜单的交接，再看游艇有没有糊成色块。手崩了，回一句：手指按菜单上沿，不要多余的手指。",
+      "prompt": "A young adult male with dark curly hair sits casually at a 45-degree angle towards the right, gazing downward through geometric sunglasses with a serious, focused, and candid expression. He is dressed in a fitted warm gray long-sleeve crewneck shirt, maintaining relaxed, perfectly level shoulders. His right hand holds the top right edge of a dark open menu, his thumb resting naturally on the front cover pointing slightly upward while his fingers remain organically tucked behind. The scene unfolds on a waterfront restaurant patio, where he sits straight on at eye level behind a wooden table in the immediate foreground. This table arrangement features an empty pristine clear wine glass catching bright light reflections, a small worn light-wood traditional pepper grinder, a new clear glass olive oil bottle containing dark golden oil, a white plate with a cloth napkin, a vintage woven wicker chair back exhibiting a light tan and pale blue-green pattern, and a smooth dark olive-green pot blooming with vibrant white Kalanchoe flower clusters. Behind him, a worn silver metallic patio umbrella pole extends vertically out of frame, giving way to a deep, gently soft background revealing a Mediterranean seaside environment with distant landmasses under a cloudy blue summer sky, alongside massive multi-deck white luxury motor yachts featuring dark tinted windows and radar domes resting on deep ocean blue waters. The atmosphere is illuminated by bright, highly directional hard natural sunlight striking from the front and top right at a 45-degree angle, bathing the scene in a warm golden light with absolutely no ambient fill. This intense single light source creates an energetic, highly saturated, and high-contrast environment, casting short, deep black, harsh-edged shadows under his chin, onto his cheeks from his sunglasses, and beneath the foreground objects, while preserving crisp specular highlights on his textured hair, shoulders, the rims of the glassware, and the brilliant white yachts. The luxurious, breezy seaside dining aesthetic is captured as a medium-shot editorial digital photograph with a clean, structured visual style and a complementary palette emphasizing deep ocean blue, warm gray, crisp white, and warm wood tones. Shot with a 35mm lens at f/4 and a fast 1/1000s shutter speed at ISO 100 to ensure tack-sharp focus on the subject while retaining context in the distinct but naturally blurred background, the image utilizes post-processing that enhances blue and white saturation, slightly lifts shadows to maintain the dark shirt's detail, and warms the overall white balance to emphasize the sunny Mediterranean atmosphere, all perfectly framed in a 4:5 aspect ratio.",
+      "links": [
+        {
+          "label": "原推全文",
+          "url": "https://x.com/pictsbyai/status/2091802189161447609"
+        },
+        {
+          "label": "Nano Banana 合集",
+          "url": "https://youmind.com/en-US/nano-banana-pro-prompts?id=32513"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-serum-marble",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "提示词",
+      "title": "大理石上拧开精华，一滴落在手背",
+      "body": "一瓶精华立在浅色大理石上，旁边一汪水。阳光从左边进来，琥珀色玻璃里有反光。这是8月24日放出的 Seedance 2.5 产品片词。它按秒写动作。零到八秒慢推，八到十八秒一只手从右边伸进来，握住瓶身下半截，转大约三十度，标签始终能看清。十八到二十五秒切到微距，拧开盖子，滴管提起，一滴透明液体落在另一只手背上。二十五到三十秒瓶子重新立好，再推到标签，最后两秒停住。先上传一张产品正脸照。打开 Seedance 2.5，选十六比九、三十秒。写明 @Image1 只锁瓶子、标签、logo、琥珀色玻璃和黑盖，不要抄参考图的白棚背景。手和标签最容易翻车。标签糊了，回一句：按参考图锁住标签文字，不要重画。",
+      "prompt": "FORMAT: 16:9, 30 seconds, premium skincare commercial, photorealistic product photography.\n\nREFERENCE: @Image1 defines the serum bottle, label typography, logo placement, amber glass, pipette, and black cap exactly. Preserve all product proportions and packaging details. Do not copy the white studio background from @Image1. @Video1 controls pacing and camera movement only; do not copy its product, colors, or environment.\n\nSCENE: The serum bottle stands upright on pale veined marble beside a shallow pool of water. Warm diffused sunlight enters from camera left. A soft neutral fill illuminates the label without creating glare.\n\n0–8s: Begin with a medium-wide locked composition. Slowly push toward the bottle as moving sunlight creates subtle reflections through the amber glass.\n\n8–18s: A clean hand enters from camera right, grips the bottle naturally around its lower half, and rotates it approximately 30 degrees toward camera. Keep the label readable throughout the movement.\n\n18–25s: Cut to a macro close-up. The hand unscrews the cap and lifts the glass pipette. One drop of transparent serum forms at the tip and falls onto the back of the opposite hand.\n\n25–30s: Return to the bottle standing upright. Slow push-in toward the label. Hold the final composition for the last two seconds.\n\nCONTINUITY: Bottle shape, cap, label, logo, typography, liquid level, and amber-glass color remain identical in every shot.\n\nAUDIO: Soft cap twist, subtle glass contact against marble, single serum-drop sound, quiet room tone. No dialogue. No music.\n\nCONSTRAINTS: Do not redesign, distort, rotate, rewrite, or replace the label. No extra bottles, malformed hands, floating objects, text overlays, subtitles, or watermark.",
+      "links": [
+        {
+          "label": "八月二十四日 Seedance 2.5 原文",
+          "url": "https://www.kapwing.com/resources/how-to-prompt-seedance-2-5-a-guide-for-ai-video-creators/"
+        }
+      ]
+    },
+    {
+      "id": "voxeltv-voxel-sculptures",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "视觉尝试",
+      "title": "打开标签页，Rick Astley 被切成一座会转的体素浮雕",
+      "body": "打开标签页，先看到一台复古电视。Rick Astley 的脸被切成密密的方块，颜色跟着当前帧走，高低跟着深度图起伏。拖鼠标绕过去，浮雕会跟着转，像绕着一块会唱歌的石膏。切到 Take On Me、Sweet Dreams、Video Killed the Radio Star，每首歌都是一座会动的体素雕塑。深度不是现场猜的，是 Depth Anything 事先算好的关键帧，再贴到格子上。电视背后有后板，还有上一首下一首。高级面板能改网格密度，也能切回平面电视看原片。桌面还能把本地视频丢进去，浏览器里当场切块，文件不出这台机器。非专业的人可以这样说：音乐录影带不再是平面，变成你可以绕着走的立体浮雕。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://voxeltv.surge.sh"
+        }
+      ]
+    },
+    {
+      "id": "audio3d-sound-landscape",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "视觉尝试",
+      "title": "按下录音，你的声音长成一座能飞进去的山",
+      "body": "打开标签页，中间两个按钮：录音，或者用演示音。点录音，对着麦克风出声，底下那条波形开始跳。几秒后页面说正在雕刻高程网格，然后整座山从频谱里长出来。点 Drop in，你从天上掉进自己的声音里。WASD 往前走，鼠标转头，Shift 加速，T 开观光航线。山脊是响的地方高，静的地方低。演示音每次种子不同，峰可以很轻也可以很猛。风景里会藏小发现，截图也能带走。手机上是左右摇杆，一个走路一个看。声音全程留在这台机器上，麦克风只在你按录音时开。非专业的人可以这样说：你不是在看别人的装置，是把自己的一声喊变成一座能走进去的地形。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://lukes.website/audio3d/"
+        }
+      ]
+    },
+    {
+      "id": "valicred-particle-codex",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "视觉尝试",
+      "title": "往下滚，三千四百颗星尘从翅膀拧成闪电",
+      "body": "打开标签页，先看见一团星尘。往下滚，三千四百个粒子被卷成下一章的形状。第一章是赫尔墨斯的翅膀，下一章拧成宙斯的闪电，再变成雅典娜盾上的眼睛。再往下是塔耳塔洛斯的涡流、阿瑞斯交叉的刀、赫淮斯托斯的铁砧、狄俄尼索斯的螺旋、克洛诺斯和普罗米修斯并立、阿波罗的日冕、弥诺陶洛斯的角，最后是波塞冬的三叉戟。颜色跟着章走，时钟指针是当场算的。右上角能打开典籍音效，关掉也不影响看。粒子是 BufferGeometry 直接画的，手机上也能跟着滚。故事讲一只猫去奥林匹斯给凡人讨学分，但你真正看见的是形状在星尘里换形。非专业的人可以这样说：往下滚，神话一件一件从同一团粉尘里长出来。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://www.valicred.com.au/lore"
+        }
+      ]
+    },
+    {
+      "id": "opt-globe-fourcolor",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "视觉尝试",
+      "title": "拖动一颗四色拼贴的地球，船沿着最短航线走",
+      "body": "打开标签页，地球还在加载。转出来以后，陆地不是贴图，是一块一块戈德堡式的瓷砖。国家被四色填开，相邻两块颜色不同。拖它会转。海上有船在走，路线是 A 星算的最短航线，岸边有灯塔。空中还会画出旅行商问题的闭合回路，城市之间的线在动。点漂着的概念节点，会弹出优化在讲什么。求解器在后台用 WebAssembly 跑，模型不离开这台电脑。地球滚出视野会自动停画，省电。底下才是真正的线性规划编辑器，上面这一颗球是把算法变成能转的地球仪。非专业的人可以这样说：优化不再是公式，是一颗你能用手转的地球，船上的路就是算出来的最短路。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://optinthebrowser.com/"
+        }
+      ]
+    },
+    {
+      "id": "moonhalo-night-walk",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "视觉尝试",
+      "title": "月晕底下两个人对向走，字写着一起留下来",
+      "body": "打开标签页，底是深蓝。左上角一行字：walking on a moonlit night。月亮贴着真实月面贴图，外面套着半透明壳，晕圈一层一层淡下去。月亮停在画面偏上。前景两个人对向走，手脚在摆，走到中间会侧身错开，再往远处走，走到头又折回来。地上有一句黄紫双色的字：beautiful moon's halo，Let's stay together。镜头固定，人自己走。没有菜单，没有按钮，就是这一夜。月亮壳的透明度跟着距离变，近一点晕更实，远一点更透。非专业的人可以这样说：这不是演示技巧，是两个人在月晕底下走夜路，你只需要看着他们交错。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://jrlazz.github.io/shaders/moonhalo2.html"
+        }
+      ]
+    },
+    {
+      "id": "highrise-real-stack",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "视觉尝试",
+      "title": "起重机晃过中线，点一下楼板，高度对上巨石阵",
+      "body": "打开标签页，一张像测绘纸的白底。起重机吊着一块楼板，在中线上来回晃。点一下，楼板落下。落在中线上算完美，偏了会滑，斜太多整栋会倒。高度从零米往上长，旁边写还差几米到巨石阵。风越往上越大，吊臂也晃得更凶。两种死法：板滑下去，或者楼歪过它还能站的角度。连击记在 streak 里，最好成绩停在旁边。每一层高度都对一座真建筑，不是随便的分数。塔看起来像草图，线很细，像还没上色的施工图。你盖得越高，风越像在故意拆你。非专业的人可以这样说：你不是在堆方块，是在用手指盖一座真楼，盖到哪一层，世界上就有一座同高的东西在等你。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://highrise.lol"
+        }
+      ]
+    },
+    {
+      "id": "texbrain-wasm-latex",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "小众工具",
+      "title": "工位不让装 TeX，标签页里也能出 PDF",
+      "body": "工位电脑不让装 TeX Live。公式还得交。\n\nTeXbrain 把 pdfTeX 塞进浏览器。没有账号。没有服务器。打开标签页就能写。引擎是 WebAssembly，大约一点八兆。第一次编译只下载这份文档用到的宏包，缓存在本机。再编译大约一到五秒。Chrome 和 Edge 能直接打开磁盘上的文件夹。Firefox 和 Safari 只能用虚拟盘。Git 也在同一页里，克隆、提交、推送都不用终端。限制写得很清楚。只有 pdfTeX。没有 XeTeX。也没有 bibtex。宏包还停在二零二零年那一代。文件不出这台机器，除非你自己推到远端。\n\n本机试一次先执行 git clone https://github.com/swimmingbrain/texbrain.git\n所以呢：现在就打开那个地址，写一段公式，看 PDF 是不是当场长出来。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/swimmingbrain/texbrain"
+        },
+        {
+          "label": "现场",
+          "url": "https://tex.swimmingbrain.dev/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49441375"
+        }
+      ]
+    },
+    {
+      "id": "typeclip-human-keystrokes",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "小众工具",
+      "title": "倒计时三秒，剪贴板开始像人一样打字",
+      "body": "演示视频里，一贴上提示词就露馅。观众一眼看出是粘贴。\n\nTypeclip 把剪贴板按人的节奏打进当前输入框。速度会抖。标点会停一下。可选打错再改。每次运行都打印种子。同一颗种子能原样重演。只做苹果电脑。第一次要给终端辅助功能权限。倒计时里点进镜头前的输入框。切走窗口立刻停。超过两千字会先问你。作者给的录屏流程是：开录屏，在镜头外的终端跑命令，倒计时里点进画面里的框。\n\n先装 brew install cssllcio/tap/typeclip，再执行 typeclip -d 3 --wpm 85\n所以呢：现在就复制一段提示词，开倒计时，看它会不会像人一样敲完。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cssllcio/typeclip"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49437115"
+        }
+      ]
+    },
+    {
+      "id": "sillage-fixed-lm-memory",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "小众工具",
+      "title": "冻住的小模型读完稿，记忆只占几兆",
+      "body": "小模型读完稿就忘。你不想再开一个越长越大的向量库。\n\nSillage 给冻住的语言模型一块固定大小的记忆。没有梯度。没有微调。索引也不会越读越胖。GPT-2 大约七点四兆。Qwen3 大约二十五兆。读一万份和读一份一样大。它只从你喂进去的文件学习，不从自己生成的句子学习。状态写在当前目录的 .sillage 里，断电也能活。读是慢的。默认 Qwen3 大约每万词八分钟。索引和提问不用模型，当场出结果。论文数字说，固定四点二兆的赫布缓存，在重复技术文本上比无限长大的近邻库还好。叙事长文它认输。\n\n先装 pip install sillage，再执行 sillage read notes.md\n所以呢：现在就把自己的旧稿丢进去读一遍，明天再问它报告里写过什么。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/riscoss63/sillage"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49439609"
+        }
+      ]
+    },
+    {
+      "id": "fingerink-kindle-draw",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "小众工具",
+      "title": "旧 Kindle 没有笔，手指也能在页上画",
+      "body": "旧 Kindle Paperwhite 没有手写笔。页边想画一笔却画不了。\n\nFinger Ink 是 KOReader 插件。一根手指在页上画。两指手势照常翻页。墨水按页存在 sidecar 里，能撤销，也能擦。PDF 可以导出成真正的注释，Acrobat 和预览都能看见。导出是单向的，出去就不能再改。没有掌托。重排或旋转之后，字会走，墨还停在原地。快刷会残影。需要二零二六年三月以后的 KOReader。作者自己的机器是二零一八年的 Paperwhite 四。\n\n插上线后执行 scp -r fingerink.koplugin root@kindle:/mnt/us/koreader/plugins/\n所以呢：现在就拷进插件目录，重启阅读器，在更多工具里打开 Finger Ink，先在一页空白上画一笔。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SMUsamaShah/fingerink.koplugin"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49436271"
+        }
+      ]
+    },
+    {
+      "id": "latticedb-single-file",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "小众工具",
+      "title": "一张文件里同时走路、搜义和搜字",
+      "body": "本地知识库又要走路又要搜义。你不想为此再起一台图数据库。\n\nLatticeDB 是一份文件。没有服务器。打开就能写。同一层查询里可以沿边走、做向量近邻、再做全文检索。作者说它像 SQLite，只是面向连在一起的数据。内置哈希嵌入只是占位，相似文本不会靠近，真要用语义得接自己的模型。它是单写者。一个进程占住这份文件。表格型数据用 SQLite 更合适。八月二十六日登上 Show HN，一百二十多分。\n\n装好后执行 lattice create /tmp/notes.lattice\n所以呢：现在就建一份空库，把人物和文档的边写进去，看一条查询能不能同时走到作者。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jeffhajewski/latticedb"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49437049"
+        }
+      ]
+    },
+    {
+      "id": "defragger-linux-blockmap",
+      "date": "2026-08-26",
+      "added": "2026-08-26",
+      "category": "小众工具",
+      "title": "看磁盘自己搬家，像当年那张块图",
+      "body": "换到 Linux 二十年。他最想念的却是 Windows 那张会动的磁盘块图。\n\nDefragger 把块图做回来。文件、空闲、元数据摊在一张自适应地图上。它不外包给 e4defrag。ext4 走内核自己的搬家接口。图形界面和命令行都不以 root 跑，提权只交给一条窄的 PolicyKit 助手。这是 alpha。先备份。ext4 测得最多。FAT 写入更新，先拿可扔的盘试。安全玩法是仓库自带的残碎片镜像，挂成临时回环设备，关掉就删。\n\n安全试一次执行 just demo\n所以呢：现在就先跑演示盘，看色块自己挪过去，别急着对真磁盘下手。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/gbin/defragger"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49438865"
+        }
+      ]
+    },
+    {
       "id": "headlong-audel-thinks-all-night",
       "date": "2026-08-26",
       "added": "2026-08-26",
