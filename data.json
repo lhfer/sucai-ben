@@ -2,6 +2,410 @@
   "updated": "2026-08-27",
   "items": [
     {
+      "id": "prompt-ig-feed-food-drip",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "上面那盘煎饼的糖浆，滴进了下面那条评论",
+      "body": "Instagram 信息流里上下两张帖，上面是一叠厚煎饼，琥珀色糖浆正往下坠；下面是一张人像，人忽然抬头接住那一滴。界面本身一动不动，只有糖浆穿出画框、越过点赞栏，砸进下一帖。\n\nKapwing 把这波玩法拆成三步：先选两张能互动的静图，再用官方 Feed 模板拼成一张「假信息流」，最后整图丢进图生视频。提示词只干一件事——分清谁能动、谁只能反应、谁必须锁死。你要写清：顶部元素破框下移、穿过 UI、进入底图；信息流不滚动、不变形；底图人物身份服装场景全程保持。\n\n所以呢：先把两帖摆成一张假信息流，再告诉模型「只有糖浆能越界，界面和底图人设都别动」，跨帖幻觉才会立住。",
+      "prompt": "Animate this image so that the photo on the top [DESCRIBE TOP POST] interacts with the image on the bottom [DESCRIBE BOTTOM POST].\n\n[TOP ELEMENT] from the top post should break out of its original post frame and move downward, crossing in front of the Instagram interface before entering the bottom post. It should then [DESCRIBE INTERACTION].\n\nKeep the Instagram feed completely stable. Do not scroll, move, warp, or animate the interface or post frames. Preserve the appearance and composition of the top post except for [TOP ELEMENT].\n\nAnimate the bottom post into a living scene so [BOTTOM SUBJECT] can naturally notice, react to, and interact with [TOP ELEMENT]. Preserve the subject's identity, appearance, clothing, art style, and environment from the original image throughout the animation.\n\nThe effect should initially look like a normal Instagram feed, then reveal the illusion that something inside the top post can physically escape its frame, cross the Instagram UI, and interact with the post below. Use realistic motion, gravity, and physical interaction appropriate to [TOP ELEMENT].",
+      "links": [
+        {
+          "label": "Kapwing食物滴落教程",
+          "url": "https://www.kapwing.com/resources/how-to-make-the-viral-ai-food-drip-effect-video/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-anime-rooftop",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "天台风一吹，校服少年猛回头",
+      "body": "日落日本高中天台。铁丝网、远处楼群、橙转紫的天空。少年背对镜头站着，红围巾和外套下摆被风掀起来；身后有动静，他整个人僵住，再猛地转身。镜头跟着从中景快推进到特写，眼睛睁大，围巾还在飘，身体却停住。\n\nKapwing 的 Seedance 2.5 动漫模板把难点写死了：参考图只锁脸型、刺头、红围巾、校服和赛璐璐平涂，整段视频必须保住二维线稿，不许滑成 3D 皮肤毛孔。时间轴只给三个动作——背风、猛转、定格表情——再配屋顶风声和一声低沉冲击音。\n\n所以呢：想拍二次元回头杀，先用参考图锁死线稿和平涂，再把「转身」写成一个干脆动作，别让模型偷偷加写实皮肤。",
+      "prompt": "FORMAT: 16:9, 15 seconds, hand-drawn 2D anime aesthetic.\n\nREFERENCE: @Image1 defines the character exactly: face shape, spiky black hair, red scarf, navy school jacket, proportions, line weight, and flat cel-shading. The entire video must preserve @Image1's 2D illustration style.\n\nSCENE: Rooftop of a Japanese high school at sunset. Chain-link fence, distant city skyline, orange sky fading into violet.\n\n0–5s: The young man stands with his back partly toward camera as wind moves his red scarf and jacket hem. He hears something behind him and freezes.\n\n5–10s: He turns sharply toward camera in one decisive movement. As his face becomes visible, the camera performs a fast push-in from medium shot to close-up.\n\n10–15s: His eyes widen. The scarf continues moving in the wind while the rest of his body becomes still. Hold on his expression as the sunset flickers across the background.\n\nSTYLE CONTINUITY: Preserve clean black outlines, flat two-tone cel shading, simplified anime facial features, hand-drawn hair shapes, and the same character proportions throughout.\n\nAUDIO: Strong rooftop wind, distant city traffic, fabric flutter. One low dramatic impact sound as he turns. No dialogue.\n\nCONSTRAINTS: No 3D rendering, realistic skin pores, volumetric CGI hair, live-action texture, changing line thickness, morphing facial proportions, or photorealism.",
+      "links": [
+        {
+          "label": "Kapwing Seedance指南",
+          "url": "https://www.kapwing.com/resources/how-to-prompt-seedance-2-5-a-guide-for-ai-video-creators/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-cyber-alley-vault",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "雨巷里一脚踩箱，侧身跃过无人机",
+      "body": "夜里窄巷，粉青霓虹泡在积水里。穿湿黑夹克的蒙面人从镜头后方狂奔，溅起水花，回头看了一眼；前方无人机砸进巷子堵住去路，他右脚一顿，改向左墙，踩上矮箱借力，左脚蹬墙，整个人侧身跃过机身。\n\nKapwing 的动作模板不让你把奔跑、转弯、起跳写成一锅粥，而是写成因果链：先看到障碍，再改向，再起跳，落地滑一米才继续跑。镜头也绑在动作上——腾空那一刻才从后方跟拍切成低侧角，禁止围着人乱转。夹克要越跑越湿，不能中途变干。\n\n所以呢：写追逐戏就按「看见→改向→起跳→落地」拆开，并把镜头切点挂在腾空那一瞬，动作才不会糊成一团。",
+      "prompt": "FORMAT: 16:9, 25 seconds, grounded cyberpunk action thriller, realistic physics.\n\nSUBJECT: A hooded runner in a soaked black jacket sprints through a narrow neon-lit alley at night. Rain falls heavily. Pink and cyan signage reflects across puddles.\n\n0–7s: Handheld tracking shot from behind, matching the runner's speed. He splashes through shallow puddles while looking briefly over his left shoulder.\n\n7–14s: A delivery drone drops into the alley ahead and blocks his path. He sees it, plants his right foot, and changes direction toward the left wall.\n\n14–19s: He steps onto a low crate and pushes upward. His left foot contacts the wall. He uses the momentum to vault sideways over the drone as it passes beneath him.\n\nCAMERA: As his feet leave the ground, move from rear tracking into a low side angle that follows the arc of the jump. Do not orbit around him.\n\n19–25s: He lands with both feet on the wet pavement, slides forward approximately one meter, regains his balance, and immediately continues running. The camera drops behind him again and resumes the tracking shot.\n\nCONTINUITY: Same black jacket, hood, shoes, body proportions, rain level, alley layout, and drone throughout. His jacket becomes progressively wetter and remains wet.\n\nAUDIO: Heavy rain, running footsteps, splashes, drone motor, fabric movement, sharp impact as his shoes land. No dialogue.\n\nCONSTRAINTS: Natural human anatomy and momentum. No morphing limbs, impossible mid-air direction changes, teleporting drone, excessive camera shake, slow motion, or text.",
+      "links": [
+        {
+          "label": "Kapwing Seedance指南",
+          "url": "https://www.kapwing.com/resources/how-to-prompt-seedance-2-5-a-guide-for-ai-video-creators/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-pov-knight",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "第一人称骑马冲锋，只看见自己的铁手套",
+      "body": "阴天战场外的泥路，镜头一直钉在骑士眼睛高度。你只能看见自己的铠甲前臂、戴手套的手、战锤、马耳和鞍桥前缘——整段不许切到第三人称全身。马在跑，画面跟着骑马的上下颠；对手从正前方逼近，右手举锤从右向左抡一记，挥完锤子又回到画面右下角。\n\nKapwing 的 POV 模板把「第一人称」写成硬规则：镜头永不外切，只有指定肢体能入画。这比空喊 POV 三个字母管用，模型才不会半路偷偷给你来个英雄全身镜头。音效也绑在蹄子、铠甲和风上，不配史诗配乐。\n\n所以呢：做沉浸感短片，先写死「镜头=眼睛、只能看见自己的手和武器」，再写挥击，POV 才不会塌。",
+      "prompt": "FORMAT: 16:9, 20 seconds, continuous first-person POV, grounded medieval realism.\n\nPOV RULE: Camera remains at the knight's eye level for the entire video. Never show the knight from an external angle. Only his armored forearms, gloved hands, weapon, horse's ears, and front of the saddle may enter frame.\n\nSCENE: A muddy medieval road outside a stone fortress during an overcast battle. The knight rides a dark brown horse while holding a heavy war hammer in his right hand and the reins in his left.\n\n0–7s: The horse gallops forward. Camera movement follows the natural vertical rhythm of horseback riding. The knight's left hand tightens the reins as another mounted soldier approaches from ahead.\n\n7–14s: The approaching rider passes on camera right. As the opponent enters striking distance, the knight raises the hammer with his right arm and swings once from right to left.\n\n14–20s: After the swing completes, the hammer returns into the lower-right edge of frame. The horse continues forward toward the fortress gate while the knight steadies the reins.\n\nAUDIO: Hooves striking wet ground, armor movement, horse breathing, distant battle noise, wind. No music.\n\nCONSTRAINTS: First-person camera only. No external shots of the protagonist, detached hands, floating weapon, impossible arm positions, camera orbit, cuts, text, or HUD elements.",
+      "links": [
+        {
+          "label": "Kapwing Seedance指南",
+          "url": "https://www.kapwing.com/resources/how-to-prompt-seedance-2-5-a-guide-for-ai-video-creators/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-fashion-concrete",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "水泥棚里走过来，风衣下摆自己甩开",
+      "body": "晒得发白的水泥棚景，傍晚硬光从左边打进来，地上拖着长影。模特穿着驼茶色风衣慢慢朝镜头走，下摆跟着腿摆；走到点上，重心挪到左腿，向右做半圈控制转身，衣摆先扬再落。布料一稳，镜头从全身缓推进到半身，她的视线越过镜头，不直视你。\n\nKapwing 时尚模板把人和衣服拆成两张参考：一张只锁脸和体型，一张锁风衣剪裁、翻领、腰带、扣子和布料。光要写「从哪边来、影子多长」，别只堆 cinematic。扣子和腰带位置全程不许换。\n\n所以呢：拍衣服广告，把「人」和「衣服」分成两份参考，再写清楚转身时衣摆怎么扬，面料才会自己演戏。",
+      "prompt": "FORMAT: 9:16, 20 seconds, luxury fashion campaign, editorial realism.\n\nREFERENCE: @Image1 defines the model's face, hairstyle, height, and body proportions only. @Image2 defines the camel-tan trench coat exactly: cut, lapels, belt, buttons, sleeve length, fabric, and color. @Image3 defines the sunlit concrete studio environment only.\n\n0–7s: Full-body locked frontal shot. The model walks slowly toward camera. The trench coat moves naturally around her legs with each step.\n\n7–14s: She stops on her mark, shifts her weight onto her left leg, and makes a controlled half-turn to her right. The coat hem flares outward from the rotation and then settles naturally.\n\n14–20s: As the fabric settles, perform a slow push-in from full-body to waist-up framing. She looks slightly past camera rather than directly into the lens.\n\nLIGHTING: Hard late-afternoon sunlight enters from camera left, producing long defined shadows across the concrete floor. Soft neutral fill preserves detail on the shadow side of the coat.\n\nCONTINUITY: Same model, hairstyle, coat construction, belt position, buttons, footwear, and studio throughout.\n\nAUDIO: Footsteps on concrete, subtle fabric movement, quiet studio ambience. No dialogue.\n\nCONSTRAINTS: Do not change the coat length, color, buttons, lapels, or belt. No duplicated limbs, warped hands, runway audience, text overlay, or watermark.",
+      "links": [
+        {
+          "label": "Kapwing Seedance指南",
+          "url": "https://www.kapwing.com/resources/how-to-prompt-seedance-2-5-a-guide-for-ai-video-creators/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-handycam-red-sf",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "旧金山正午，DV跟拍一件全红穿搭",
+      "body": "像朋友拿着2003年索尼手持DV在街对面偷拍：对焦乱晃、高光发糊、右下角还有绿色日期。男人一身深红——短款皮衣、红领带、红色贝雷帽、红色漆皮旅行袋——正午旧金山街头边走边打电话，完全不知道自己被拍。\n\nImagineArt 这篇 Seedance 指南把「伪纪录片时尚片」写成完整分镜：先街对面数码变焦锁定，再贴近跟拍，再从车缝低角度拍腿和链条，中段在街角停步时用一连串不到一秒的快切，最后镜头从他身上滑开，对焦到墙上刻着的品牌字。音频也要像从 DV 话筒录到的街边音箱，略带失真。\n\n所以呢：想要「像偷拍到的大片」，别写电影感，改写 DV 毛病——自动对焦、过曝、日期戳和快切，真实感反而更强。",
+      "prompt": "STYLE: Sony DCR-TRX handycam 2003 — SD resolution, CCD bloom on highlights, autofocus hunting, digital zoom artifacts, slight interlace feel, date-time stamp bottom right in small green font. Handheld unsteady, candid friend-on-the-street energy.\n\nGRADE: Mid-noon San Francisco hazy sunshine — blown-out warm whites in sky, overexposed pavement, skin tones warm and slightly oversaturated in the handycam way, soft warm shadows, everything luminous and washed. His deep red outfit cutting vivid through the haze.\n\nCAMERA: Handycam throughout — digital zoom, autofocus hunting, natural shake, occasional rack focus. Kinetic fast cuts mid-section. No stabilisation. Real street feel.\n\nSUBJECT: Black male, powerfully built — deep red cropped leather moto jacket, white shirt, red NY Yankees tie, cream distressed cargo pants with chain hardware, red patent duffle bag, red beret, tinted sunglasses, chunky silver jewellery, phone to ear, white chunky sneakers. SF downtown, mid-noon.\n\n00:00-00:03 > Camera finds him from across the street — digital zoom hunting before locking on him mid-walk, phone to ear, red duffle swinging, traffic occasionally cutting in front of the shot. He has no idea he's being filmed. Noon light washing overexposed behind him.\n\n00:03-00:05 > Operator crosses and closes in — tracking behind and to the side at chest height, camera bobbing with walking pace, red jacket and beret vivid in the haze. Autofocus briefly loses him on a passing pedestrian then snaps back.\n\n00:05-00:07 > CUT — shooting through a gap between parked cars, low angle, his legs and chain hardware and sneakers in the lower frame, upper body above, SF street behind him.\n\n00:07-00:09 > CUT — tight digital zoom on just the sneakers and cargo chain details catching the noon sun. CUT — zoom pulling wide fast to show his full figure from behind, duffle swinging.\n\n00:09-00:10 > CUT — side angle tight on his face above the sunglasses, jaw moving on the phone, beret sharp against the blown-out sky.\n\n00:10-00:15 > KINETIC SECTION — he stops at a corner, takes the phone from his ear, looks left then right. Fast cuts all within this moment: left angle waist-up — sunglasses tight — low looking up full figure — NY tie and chain close — hand adjusting the duffle — face looking right — low wide — red jacket collar tight. Each cut under one second, handycam whipping between angles with motion blur, noon light consistent and hot. Ends wide low angle looking up as he starts walking again.\n\n00:15-00:19 > Long tracking shot from behind — camera at shoulder height, the SF street opening ahead, his shadow stretching forward on the hot pavement, the red outfit vivid and moving, other pedestrians and real street life around him. Unhurried.\n\n00:19-00:22 > CUT — side tracking from a distance, SF architecture behind him, hazy light washing the building faces bright. CUT — tight on the chain hardware at his waist swinging with each step, noon light catching each link.\n\n00:22-00:25 > CUT — tight on his face, autofocus finally perfectly locked, sunglasses catching the bright noon sky as a double reflection. He still doesn't look at the camera.\n\n00:25-00:27 > He walks toward and past the camera — the red jacket filling the entire frame for one frame as he passes — then the camera turns following him from behind as he walks away.\n\n00:27-00:30 > Camera pans off him to the right — drifting along the building wall beside him, slightly unsteady, noon light warm on the concrete — until the pan finds: LIVON engraved large and raw into the wall. Autofocus locks on the letters. Date-time stamp in the corner. Hold. Tape cuts to static.\n\nAUDIO: BGM — early 2000s pop track, bright and slightly compressed, melodic with light percussion and warm synth, playing as if from a nearby portable speaker recorded through the handycam mic — slightly tinny and real. Fades on the wall hold. SFX — SF street ambient throughout, passing cars, distant voices, handycam auto-zoom whir on the first shot, autofocus click hunting and locking, chain hardware faint jingle on kinetic cuts, tape static cut at the end.",
+      "links": [
+        {
+          "label": "ImagineArt时尚手持片",
+          "url": "https://www.imagine.art/blogs/seedance-2-5-prompt-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-watch-macro",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "黑丝绒上，秒针一格一格咬着走",
+      "body": "暗色丝绒台面，机械表躺在正中。镜头贴到几乎能数齿轮的距离，绕表盘慢慢转一圈，蓝宝石表镜下反光一路挪动，打开的后盖里小齿轮真的在转。秒针每跳一下都带着清脆哒声，转到英雄定格时收成一声共鸣。\n\nImagineArt 把这类产品片压成一句可执行的调度：极致微距加上三百六十度慢轨道，再让机芯零件可见，声音跟指针同步。别空喊 luxury，把绒面、轨道、机芯可见、滴答变钟声写进同一条提示，质感才会自己站出来。适合今晚直接丢进 Seedance 做品牌短片片头。\n\n所以呢：拍高端物件，让镜头围着转、让内部零件动起来，再用声音对准秒针，比堆形容词更像真广告。",
+      "prompt": "Extreme macro shot of a luxury mechanical watch on a dark velvet surface. The second hand ticks with satisfying precision as the camera slowly orbits 360 degrees, revealing intricate engravings and sapphire crystal reflections under soft studio key lighting. Tiny gears visibly turn inside the open caseback. Delicate ticking sound builds into a resonant chime at the hero frame. Cinematic shallow depth of field, premium jewelry photography style.",
+      "links": [
+        {
+          "label": "ImagineArt奢表微距",
+          "url": "https://www.imagine.art/blogs/seedance-2-5-prompt-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-floating-sneaker",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "白棚里一只鞋自己转，鞋底透光",
+      "body": "干净白棚，现代跑鞋悬在半空，像失重。鞋面纹理一点点被看清，半透明大底里的防滑钉吃进光线；镜头围着鞋慢慢转，最后啪一下切到正中英雄构图，配一声干净的 whoosh 和锁定点击。\n\n这是 ImagineArt Seedance 指南里的电商起手式：零重力旋转负责展示面，微距细节负责材质，收束英雄帧负责下单欲。没有手入画，没有杂物，产品自己完成演讲。今晚就能拿去改成你自己的 SKU，只换鞋子描述和品牌颜色即可，不用重搭棚。\n\n所以呢：不会拍棚的人，也可以先让产品在白棚里自己转一圈，再锁正脸英雄帧，电商短视频就有骨架了。",
+      "prompt": "Floating modern sneaker with a textured upper and a translucent sole plate with traction studs, clean white studio background. The product rotates slowly in zero gravity while macro details resolve: stitching, texture grain, light refracting through the sole. Orbiting camera ends in a snap to a centered hero frame, punctuated by a clean whoosh and a click on the lock-in.",
+      "links": [
+        {
+          "label": "ImagineArt漂浮球鞋",
+          "url": "https://www.imagine.art/blogs/seedance-2-5-prompt-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-minimax-h3-foam-fight",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "洗碗池边，泡沫忽然糊到她脸上",
+      "body": "厨房水槽边，男人站在画面右侧把洗好的盘子递给左边的女人，下一秒右手一甩，洗洁精泡沫朝左飞出去。女人吓一跳，两人立刻笑着互泼，边躲边闹，水槽边一片狼藉。\n\nPixo 整理的 MiniMax H3 官方用法强调：参考文件要先声明职责，动作按过程写，别写成情绪摘要。这条示范把 @image1 锁人物、@video1 锁动作节奏，再用「递盘→甩泡沫→互泼」三拍推进。H3 指南 8 月 25 日刚更新，正适合今晚试生活向搞笑短片。\n\n所以呢：想拍生活搞笑短片，先绑定参考各管什么，再把玩笑写成可见的因果动作，泡沫和表情才会同步。",
+      "prompt": "[References] The characters in @image1 strictly follow the movements, expressions and performance rhythm of @video1.\n[Process] The man stands at the sink on the right of frame and hands a washed plate to the woman on the left — then turns and suddenly flicks dish-soap foam at her with his right hand, toward the left edge of frame. Startled, she reacts instantly, and the two start gleefully splashing foam at each other, dodging and laughing.",
+      "links": [
+        {
+          "label": "Pixo MiniMax H3指南",
+          "url": "https://pixo.video/blog/minimax-h3-prompt-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-neon-sleeper",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "提示词",
+      "title": "窗外一整座霓虹城，床上的人还在睡",
+      "body": "人侧躺在床上，面对落地窗，窗外是一整片夜里还在跳动的霓虹城。镜头从床上方慢慢漂向玻璃，城市灯火在床单上轻轻脉动；雨丝爬过窗面，远处车声和低频合成器嗡鸣把气氛压得很静，像还没醒的赛博朋克清晨。\n\nImagineArt 把它当作赛博朋克「世界建立」短片：几乎没有剧情，只有镜头漂移和环境声。适合做转场、BGM 封面或情绪片头——观众先被窗外城市吸住，再注意到床上那个人还没醒。想加故事，也可以后续再接一段醒来推窗，今晚先用这一镜把气氛立住。\n\n所以呢：不会写复杂剧情时，就让镜头从床漂到窗，用雨和霓虹自己把情绪铺满。",
+      "prompt": "A person sleeps in a bed facing a large window overlooking a vibrant neon-lit cityscape at night. The camera drifts slowly from over the bed toward the glass, city lights pulsing softly across the sheets. Rain streaks the window; distant traffic and a low synth hum give the scene a calm, cyberpunk mood.",
+      "links": [
+        {
+          "label": "ImagineArt霓虹入睡",
+          "url": "https://www.imagine.art/blogs/seedance-2-5-prompt-guide"
+        }
+      ]
+    },
+    {
+      "id": "pointer-square-lens",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "视觉",
+      "title": "鼠标一移，灰照片里钻出一个会鼓的彩色方镜",
+      "body": "打开页面，整屏先是一张发灰的照片，像还没上色的样张。鼠标一挪，一块方镜跟着走。方镜里面突然变彩色，中间鼓起来，像放大镜贴在玻璃上。越靠边，红绿蓝越分家，颜色自己错开一层。方镜外面那张灰图还在轻轻晃，像水面有细纹。右边有旋钮，能改方镜大小、鼓的程度、颜色错位的强弱。整页没有模型，也没有后期滤镜堆。就是一张全屏平面，片断着色器（GPU 上逐像素算颜色的小程序）把两张图裁在一起。Codrops 八月二十五日放出教程，baqemono 的中田智之写的。现场能直接拖着玩。\n\n所以呢：想做跟手的镜头感，不必上三维，一块会鼓的彩色方镜就够把注意力拽住。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://tympanus.net/Tutorials/PointerSquareLensDistortion"
+        },
+        {
+          "label": "教程",
+          "url": "https://tympanus.net/codrops/2026/08/25/building-a-mouse-following-square-lens-effect-with-three-js-and-glsl/"
+        }
+      ]
+    },
+    {
+      "id": "bloom-chrysanthemum-tsl",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "视觉",
+      "title": "一朵菊花在屏幕里开花，二百一十五片花瓣自己弯",
+      "body": "打开标签页，先写 Cooking，然后一朵菊花长出来。花瓣不是贴图，是程序当场画的。一共二百一十五片。每一片用 TSL 弯成弧，TSL 是 Three.js 的节点着色语言，写起来像搭积木，不用手写一长串底层代码。整朵花跑在 WebGPU 上，浏览器直接用新一代图形接口画。你可以围着转，看花瓣一张一张弯开。mesh3d 八月二十五日把它收进实验墙。作者 Quentin Brohan，页面上只留 About 和回主页的链。没有菜单打扰。就是一朵会呼吸的菊。\n\n所以呢：花瓣多到用手建模会疯，但用着色器弯一弯，一朵活花就能停在网页正中间。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://bloom.quentinbrohan.fr/"
+        },
+        {
+          "label": "作者站",
+          "url": "https://quentinbrohan.fr/"
+        }
+      ]
+    },
+    {
+      "id": "iron-lung-blood-ocean",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "视觉",
+      "title": "潜进血海，摄像头盯着你的手转方向",
+      "body": "打开页面，仪表盘先亮起来。深度、坐标、氧气百分比排成一排。外面是一片暗红的海，浪是实时算的流体，不是预录视频。点 Enable Cam，浏览器要摄像头。手一抬，潜水器跟着转。MediaPipe 在本地认手势，画面不用上传。也可以切回鼠标。右上角能开关声，能抓截图进画廊。这是对 David Szymanski 游戏《Iron Lung》的粉丝向致敬。故事写在下面：星都灭了，只剩血海和一艘焊死的铁肺。mesh3d 八月二十五日挂上。WebGPU 把血浪和地形一起推。\n\n所以呢：恐怖游戏的压迫感，搬到网页上也能用手掌直接开潜水器。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://iron-lung.quentinbrohan.fr/"
+        }
+      ]
+    },
+    {
+      "id": "chemicals-hormone-monitors",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "视觉",
+      "title": "一排旧显示器贴着脸，每种激素一种会动的纹样",
+      "body": "打开标签页，几台旧显示器怼到眼前。每块屏幕里跑着不一样的程序纹理。有的像电流，有的像缓慢沸腾的液体。页面写着：双击某台进全屏，往下滚会凑近，鼠标移动会转视角。这些纹样对应关键激素和情绪联想，不是科普动画，是把化学身份画成能盯着看的表面。底下用 React Three Fiber，也就是用 React 写法搭 Three.js 场景。模型来自 MONOGRID。mesh3d 八月二十五日收录。About 点开能看见作者说明。\n\n所以呢：激素这种看不见的东西，被塞进几台显示器里，滚近一点就能感觉到它在屏幕里跳。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://chemicals.quentinbrohan.fr/"
+        }
+      ]
+    },
+    {
+      "id": "mondrian-scroll-journey",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "视觉",
+      "title": "往下滚，蒙德里安的画自己拆成线、色块和空白",
+      "body": "打开 mondriantribute.com，先看见大字 PIET MONDRIAN，进度从百分之零往上爬。进入以后是五章旅程。从早期安静的荷兰风景，一路滚到只有直线和原色的风格派。页面写着 Scroll to decompose，往下滚，画面会自己拆。字会散开，色块会重组。左右有 Prev 和 Next，也能一章一章跳。这是 Onofrio Napolitano 做的 WebGL 致敬站。mesh3d 八月二十五日挂上。声音和卷动绑在一起，像跟着画家一步步扔掉多余细节。\n\n所以呢：艺术史不再是墙上的说明牌，是你手指往下滚时，画自己在解体又重建。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://www.mondriantribute.com/"
+        }
+      ]
+    },
+    {
+      "id": "issview-cupola-earth",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "视觉",
+      "title": "从空间站舷窗往下看，城市灯和极光跟着真轨道走",
+      "body": "打开 issview.com，先写 INITIALIZING LINK。连上以后，你像趴在国际空间站的观察窗上。底下的地球不是随便贴的球。轨道用 CelesTrak 数据按 SGP4 推，SGP4 就是常用的卫星位置算法。白天有气象层，夜里有城市灯。极光会跟着空间天气指标变。角落里能开环境声，也能听 NASA 真实通话。碎片雷达用磷光扫线标出近处的垃圾。点 3D MODULES 能进站内模块。mesh3d 八月二十五日收录。作者 David Elfström Lilja。没有账号，位置如果开了也不离开你的设备。\n\n所以呢：你不用上天，也能在浏览器里看此刻空间站底下正在经过哪片云和哪座城。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://issview.com/"
+        }
+      ]
+    },
+    {
+      "id": "stellamap-live-solar-system",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "视觉",
+      "title": "整张太阳系摊开，行星和正在飞的探测器都在真位置",
+      "body": "打开 stellamap.net，先写 Placing the planets。转出来以后，太阳、八大行星、主要卫星，还有还在干活的探测器，都停在这一刻该在的位置。位置按公开的开普勒根数往当下推，不是美术摆件。你可以钻到太阳系总览页，把国际空间站、韦伯、旅行者一号、毅力号、朱诺一个个点开看简介。首页还叠着本周航天新闻卡片。八月二十七日早上登上 Hacker News 的 Show HN。它不是游戏关卡，是一张还在呼吸的活地图。\n\n所以呢：想知道旅行者现在飞到多远，别背数字，打开地图，它就画在那儿。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "现场",
+          "url": "https://www.stellamap.net"
+        },
+        {
+          "label": "总览",
+          "url": "https://www.stellamap.net/solar-system"
+        }
+      ]
+    },
+    {
+      "id": "tailcat-netcat-no-account",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "小众工具",
+      "title": "咖啡馆里他想把文件丢给对面笔记本，却不想开 Tailscale 账号",
+      "body": "两台电脑都在咖啡馆。他只想把一段日志塞过去。不想注册 Tailscale。也不想改路由表。\n\n于是他装了 Tailcat。一边跑 `tailcat`，终端吐出一串以 tc 开头的短令牌。另一边把令牌贴进去。两端立刻用 WireGuard 加密对通。走的是 Tailscale 的数据面。控制面完全不用。不需要账号。不需要 root。进程退出，临时密钥就作废。还能 `--serve=8080` 把本地端口透过去。甚至能开无认证 SSH。浏览器里也有演示页，能直接互传文本和文件。\n\n所以呢：今天就在两台机器上互扔一个令牌，当一回没有账号的 netcat。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tailscale/tailcat"
+        },
+        {
+          "label": "浏览器演示",
+          "url": "https://tailscale.github.io/tailcat/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49452990"
+        }
+      ]
+    },
+    {
+      "id": "biomass-local-swear-jar",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "小众工具",
+      "title": "凌晨三点骂完 Claude，他发现脏话被本地悄悄记账了",
+      "body": "组件又崩了。Claude 第五次建议用 getElementById。他在提示词里写了一句不该给妈妈看的话。\n\nBiomass Conversion Index 是装在 Claude Code 里的本地脏话计数器。每次提交提示词，钩子在本机扫一遍。命中就记一条「生物质转化事件」。数据只写进 `~/.claude/` 的 JSONL。不上云。不开遥测。斜杠命令 `/biomass-conversion-index` 能按日、周、月看羞耻榜。还会标注是哪个模型把你逼急的。约九百个词，覆盖四十五种语言。整词匹配，不会把 classic 误判成 ass。\n\n所以呢：装上它，下次骂代理之前先看一眼今天的和谐偏离指数。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fireinbelly/biomass-conversion-index-monitoring-system"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49447045"
+        }
+      ]
+    },
+    {
+      "id": "wattage-token-killawatt",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "小众工具",
+      "title": "账单吓人时，他把 Claude Code 会话插上了功率计",
+      "body": "上周代理跑完，额度像漏水。他不知道钱烧在哪一步。\n\nWattage 自称是 AI 代理的「功率计」。它直接读 `~/.claude/projects` 里的会话日志。也可以吃 OpenTelemetry 轨迹。离线计价。对着五十多个模型的价目表，跑八到十个浪费检测器。前缀反复重发、缓存没吃到、同工具连打、推理过度、贵模型干轻活，每条都标出美元和改法。还能挂进 CI。代理一变贵就让构建失败。不需要 API Key。也不回传任何东西。\n\n所以呢：今晚对本地会话跑一次 `uvx wattage report --claude-code`，先看见浪费在哪。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/faizannraza/wattage"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49459005"
+        }
+      ]
+    },
+    {
+      "id": "cani-spreadsheet-functions",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "小众工具",
+      "title": "同事表格一换软件就报错，他打开了表格版 caniuse",
+      "body": "同一条公式。Excel 能算。Google 表格却变红。LibreOffice 又给另一个数。他已经懒得再猜三家文档谁在说谎。\n\nCan I Spreadsheet 把六百个表格函数做成 caniuse。搜函数名，立刻看三家是否支持。更狠的是结果来自真引擎回算，不是抄厂商说明。站点已经标出五十五处三家分歧。还能粘贴整条公式做兼容检查。LibreOffice 按版本列出 XLOOKUP、FILTER、SORT 何时上线。每个徽章背后都有可复现的测试用例。\n\n所以呢：下次共享表格前，先在这里查一遍会不会踩坑。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "试用",
+          "url": "https://canispreadsheet.com/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49452645"
+        }
+      ]
+    },
+    {
+      "id": "is-github-cooked-tracker",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "小众工具",
+      "title": "GitHub 又挂的那天，他把故障史滤成了自己的可靠性叙事",
+      "body": "状态页绿灯还在跳。Actions 却推不上去。群里又在吵「GitHub 是不是熟了」。每个人嘴里的「又挂了」其实指的不是同一组服务。\n\nIs GitHub Cooked 把二〇一六年以来一千多次故障摊开。按服务筛。按严重级别筛。看日历热力。看近三个月各服务可用率。Copilot、Actions、PR、Search 各自掉了几天几小时。最差的日子、星期几最爱炸，都能一眼看见。作者说可靠性故事取决于你依赖哪些服务。现在可以把滤镜定下来，再跟别人对口径。\n\n所以呢：下次再吵「稳不稳」，先把自己依赖的服务滤出来再开口。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "试用",
+          "url": "https://isgithubcooked.com/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49454728"
+        }
+      ]
+    },
+    {
+      "id": "bury-lol-pixel-graveyard",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "小众工具",
+      "title": "失败的副作用目终于有地方下葬，两美元一块永久碑",
+      "body": "失败的副作用目终于有地方下葬。那个再也没打开的仓库。那个停更的订阅。那个凌晨三点发誓戒掉又复发的习惯。他想给它们一块石头，而不是再塞进待办列表假装还活着。\n\nbury.lol 是像素风互联网公墓。写下名字。可选墓志铭。可选生卒。签上挖坟人。付两美元，墓立刻上线，拿到永久链接。不退款。不复活。也可以先逛陌生人的坟，给别人的失败留一束电子花。碑上能挂社交链接。管理员会拦真实私人姓名。适合葬项目、时代、虚构角色，不适合葬活人隐私。开幕日还能免费挖。\n\n所以呢：今天挑一件已经死透的东西，给它立一块永远在线的小碑。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "公墓",
+          "url": "https://bury.lol/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49450273"
+        }
+      ]
+    },
+    {
+      "id": "pushup-quest-camera-rpg",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "小众工具",
+      "title": "他把手机支在地上，每做一个俯卧撑就砍一刀怪",
+      "body": "他把手机支在地上。健身 App 让他点一下就算完成。他想作弊都嫌麻烦，也讨厌自己骗自己多做了三下。\n\nPushup RPG 用前置摄像头在本机数真正的俯卧撑。深度不够不计。每一下都是伤害。八个生态位、四十八个手绘怪。打完掉装备。装备只加奖励，不加「少做几次」。镜头画面不上传。不录视频。也可以改成深蹲。还能跟朋友四十四秒同屏拉绳子对决。只传次数，不传画面。iOS 和 Android 都有。核心免费。没有账号也能先开打。登录只为备份进度和好友排行榜。\n\n所以呢：今晚把手机支好，去做一个真正会掉血的俯卧撑吧。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://pushup.quest/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49455695"
+        }
+      ]
+    },
+    {
       "id": "mturk-closes-sept30",
       "date": "2026-08-27",
       "added": "2026-08-27",
