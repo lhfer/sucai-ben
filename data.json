@@ -2,6 +2,283 @@
   "updated": "2026-08-27",
   "items": [
     {
+      "id": "james-ng-tiktok-ai-robots",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "痛点",
+      "title": "新加坡68岁退休者帮TikTok上的“马国朋友”管AI机器人账户，七年积蓄被客服锁死",
+      "body": "新加坡六十八岁的退休者詹姆斯·吴，化名，在TikTok上被一名自称吉隆坡三十五岁的女人跟上。她说自己在AI机器人公司上班，不能亲自炒币，请他帮忙管账户。他当朋友，也给自己开了户，隔两天就往里打一千到五千新元。屏幕上的利润往上跳，客服却说网速慢、资金被锁，要再投五万才能取出。儿子说这是骗局，带他报了警。他仍不死心，又听客服转了两万七。TikTok上找来的放贷人也是骗子，再刮走两千六。二十三笔转账共七万零七百五十五新元，工作积蓄只剩公积金。四月又有人扮成追赃公司要两万，他打了ScamShield才没再交。\n\n所以呢：客服越会把你锁在局里，就越不是客服。家人喊停的那一次，才是真正的出口。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "海峡时报",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/retiree-loses-over-70k-to-investment-scam-after-meeting-woman-on-tiktok"
+        },
+        {
+          "label": "STOMP采访",
+          "url": "https://www.stomp.sg/trending-now/my-retirement-savings-its-all-gone-retiree-68-loses-over-70k-ai-investment-scam-after-meeting-woman"
+        }
+      ]
+    },
+    {
+      "id": "asif-moib-ai-voice",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "痛点",
+      "title": "巴基斯坦国防部长阿西夫被换成印度赞美语音，信息部把原片和假片并排放出",
+      "body": "巴基斯坦国防部长阿西夫的一段视频在印度社交账号上疯传。画面里的人确实是他，嘴里却在夸印度科技和经济，并批评巴基斯坦自己的治理。巴基斯坦信息广播部公开拆穿，说这是人工智能改过的宣传片，连声音都是合成的。事实核查对照原片发现，阿西夫当时只在谈上世纪六十年代巴基斯坦自己的基建短板，并没有那些亲印言论。有人把真画面配上假声轨，再当新闻转发。信息部把原片和伪造片并排放出来，才把这层皮揭掉。印巴关系本来就紧，假话更容易被当成真料。\n\n所以呢：部长的嘴可以被改写成对手的台词。看见名人开口，先问这句话是不是他亲口说的，再决定要不要转发。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "事实核查",
+          "url": "https://factcheckindia.co.in/2026/08/26/fact-check-did-pakistan-defence-minister-khawaja-asif-praise-india-in-viral-video/"
+        }
+      ]
+    },
+    {
+      "id": "serica-ulaj-tirana-100k",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "痛点",
+      "title": "地拉那70岁兑换商看着老板乌拉伊的视频通话，当场交出10万欧元",
+      "body": "地拉那一名七十岁兑换商，平时常给出版商乌拉伊换汇。几个年轻人走进店里，掏出手机给他看一通视频通话。屏幕上是乌拉伊的脸，开口就要十万欧元，说几个小时后还。老人因为认得这张脸，当场把钱交出去。钱没回来，他打给真的乌拉伊，对方说根本没打过这通。地拉那警方在代号“数额”的行动里逮捕了三十一岁的塞里卡和二十三岁的梅塔，另有一人在逃。调查人员对照店里监控，认定那通视频是人工智能做出来的。乌拉伊本人也被借走了名字和面孔。\n\n所以呢：熟人的脸出现在视频里，也不等于熟人本人在说话。涉及现金，必须换一条你自己保存的电话再问一遍。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "阿尔巴尼亚日报",
+          "url": "https://albaniandailynews.com/news/three-suspects-target-exchange-owner-in-100-000-ai-video-call-scam-in-tirana"
+        },
+        {
+          "label": "Vox逮捕通报",
+          "url": "https://www.voxnews.al/english/aktualitet/jam-bashkim-ulaj-jepi-100-mije-euro-mashtruan-kambistin-permes-ai-dhe-i122969"
+        },
+        {
+          "label": "Top Channel",
+          "url": "https://top-channel.tv/2026/08/24/mashtrimi-me-inteligjence-artificiale-ne-nje-exchange-ne-tirane-zbulohet-emri-i-biznesmenit-qe-u-perdor-nga-autoret-per-ti-marre-100-mije-euro-70-vjecarit/"
+        }
+      ]
+    },
+    {
+      "id": "yuenyong-bangkok-ai-badge",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "痛点",
+      "title": "曼谷政府司机用AI给自己P上警徽和抓捕合影，只为在社交软件上骗女人",
+      "body": "曼谷政府综合楼里，二十九岁的政府司机允永被旅游警察按住。同事举报他穿得像侦查警员，对外自称旅游警察局一等兵。警察翻他社交账号，发现他用修图软件和人工智能，把自己P进抓捕现场，跟真的抓捕队站在一起。他承认这些图是自己做的，警察证也是自制的，目的是在社交软件上给约会对象看，好显得自己很能。他同时还背着玛哈沙拉堪府法院二零二四年的计算机虚假信息通缉。八月二十六日，警方在综合楼地下一层的面包车里将他带走，随后押往玛哈沙拉堪府法院。\n\n所以呢：警徽和抓捕合影都可以用人工智能现做。屏幕上的制服，证明不了对方真的是警察。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Khaosod英文",
+          "url": "https://www.khaosodenglish.com/news/2026/08/26/tourist-police-arrest-driver-accused-of-posing-as-officer-using-ai-edited-images/"
+        }
+      ]
+    },
+    {
+      "id": "uclh-rhys-hibbert-ai-brain",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "跨行业",
+      "title": "伦敦手术室，AI给脑瘤动刀时把神经和血管涂成颜色",
+      "body": "伦敦国家神经外科医院。四十八岁的Rhys Hibbert醒过来，房间里的东西他全看得清。一周后他就能自己走路，眼镜和拐杖都不用了。现在他已经回岗位，还在社区当义工。\n\n五月那场手术，主刀是教授Hani Marcus。肿瘤在垂体，只有十一毫米。周围全是管视力和供血的神经血管，差一毫米可能失明、中风，甚至要命。台上多了一块副屏。UCL霍克斯研究所自家训的AI，吃过几百段手术视频，把关键结构实时涂成颜色，告诉医生哪里不能碰。技术负责人Sophia Bano说，它见过的病例广度，够一个外科医生干很多年。\n\n细节压到八月二十七日才公开，等他恢复。Hibbert自己说，这座一八五九年建的全球第一家神经专科医院，做成世界第一例AI辅助神经外科，很配。刀还是人握着。\n\n所以呢：脑瘤旁边差一毫米就是失明。AI不替医生动手，只是把看不见的血管和神经先画出来。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "卫报：Hibbert与Marcus",
+          "url": "https://www.theguardian.com/technology/2026/aug/27/london-neurosurgeons-ai-assisted-operation-brain-tumour"
+        },
+        {
+          "label": "独立报：手术细节",
+          "url": "https://www.independent.co.uk/news/health/brain-tumour-treatment-surgery-ai-rhys-hibbert-b3040113.html"
+        }
+      ]
+    },
+    {
+      "id": "ucpi-shanghai-telesurgery",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "跨行业",
+      "title": "奎松城手术台，人在上海，机械臂给菲律宾病人切前列腺",
+      "body": "八月二十五日，菲律宾奎松城泌尿中心。病人五十三岁，躺在台上。主刀却不在这栋楼。Pedro Lantin三世和Juvido Agatep，人在上海，用高速网远程拧中国造的手术机器人，做前列腺癌根治。当地团队守着。整台超过五小时。\n\n现场麻醉师Lorlyn Agatep说，这是菲律宾第一次，她很兴奋。机器人外科医生Jun Dy解释，这次要开六个孔。泌尿外科Dennis Lusaya说，万一网断、电断，菲律宾这边有专家立刻接手，不会晾着病人。Samuel Vincent Yrastorza说得更远：马尼拉医生坐在控制台前，病人可以在马斯巴特、苏禄，专家不用飞过去。\n\n新华社当天也报了。群岛国家医疗资源不均，远程手术是把专科医生送到岛上的一种办法。\n\n所以呢：医生在上海拧手柄，病人在菲律宾开刀。卡的不是会不会做手术，是网稳不稳、现场有没有人能立刻接手。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "GMA：现场医生原话",
+          "url": "https://www.gmanetwork.com/news/scitech/science/999783/ucpi-pioneers-ph-telesurgery-using-robotic-arm/story/"
+        },
+        {
+          "label": "新华社英文快讯",
+          "url": "https://english.news.cn/20260825/b4a899d70fc94285b39abb7370874dab/c.html"
+        }
+      ]
+    },
+    {
+      "id": "sheba-smarter-chatgpt",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "跨行业",
+      "title": "以色列急诊室，医生录音就成病历，等诊时间却没缩短",
+      "body": "以色列谢巴医疗中心急诊。医生以前一边问诊一边打字、翻检验、写出院信。现在可以先录音。院内系统SmartER自动转写、摘要，把血检结果并进病程，出院信也能先起草。\n\nAI中心研发负责人Alon Agmon八月二十六日说，他们本来指望候诊变短。结果没变短。多出来的时间，病人问得更多，医生记得更全。体验上去了，钟点没下来。系统能听希伯来语、英语、阿拉伯语、俄语，再写成希伯来语病历。\n\n七月底又试点ChatGPT for Healthcare，九月底想铺开。医生在病房门口查用药、剂量、文献，还能挂上院内规程。粘贴病历时若带上姓名地址，系统会先涂黑或拦下再送出。Agmon说，不要没人的医院，要超级医生。人还在拍板。\n\n所以呢：急诊上了AI，病人未必走得更快，但医生少打字、病历更全。省下来的时间，常常又花回病人身上。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "AI Innovator：Agmon访谈",
+          "url": "https://theaiinnovator.com/inside-sheba-medical-centers-push-to-build-an-ai-powered-hospital/"
+        },
+        {
+          "label": "谢巴官网：OpenAI合作",
+          "url": "https://sheba-global.com/sheba-medical-center-collaborates-with-openai-on-its-first-international-healthcare-deployment/"
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-chloralkali-supcon",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "跨行业",
+      "title": "杭电化氯碱车间，机器人一小时扫完近五千根碱液管",
+      "body": "杭州电化集团氯碱车间。高温、腐蚀，人进去巡检又累又险。中控技术的巡检机器人扛着高清相机和红外热像仪，在电解装置间跑。十二台电解槽，近五千根碱液管，一千二百四十八对垫片，一小时全覆盖，二十四小时不间断。\n\n它盯六类隐患：设备破损、可燃有毒气体泄漏、管道断流、地面漏液、温度异常、陌生人闯入。投运后，入槽盐水管堵塞、盐水碱液断流这类会抬高槽电压、连锁跳停甚至冒火的苗头，被提前摁住。新华社八月二十五日写世界机器人大会时，把这条车间线当作已经进产线的例子。\n\n应急管理部调研组也来过液氯罐区和电解装置，看轨式、轮式机器人自动回传和报警。浙江省应急管理厅把它列为人工智能加应急管理场景。\n\n所以呢：最危险的化工巡检，先换成不会中毒、不会喊热的机器人。人退到报警后面做判断。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "新华社：已进产线案例",
+          "url": "https://english.news.cn/20260825/6cbdd8e20a9d4e3a9eff6cc0d1da89f8/c.html"
+        },
+        {
+          "label": "美通社：杭电化巡检上线",
+          "url": "https://www.prnasia.com/story/529661-1.shtml"
+        }
+      ]
+    },
+    {
+      "id": "lynwood-chatgpt-teachers",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "跨行业",
+      "title": "加州林伍德学区，校长说AI要给教学腾地方，不是替老师",
+      "body": "八月二十六日，OpenAI宣布ChatGPT for Teachers再扩五十五个学区，覆盖约三十万名教职工、两百万学生。工具给老师备课、改材料、写家长信、准备代课教案，不给学生开账号。数据默认不拿去训模型。\n\n加州林伍德联合学区总监Patrick Gittisribongul是上一期试点。他说，AI不该替换教书这件事，该给它腾出地方。老师已经在用它做备课、课程地图、写邮件。成败不看装了多少AI，看它还回多少时间给教学、给师生关系。\n\n伊利诺伊州第二百一十一高中学区技术主管Christina Ordonez说，不同岗位需求不一样，有人要多做海报图，有人要语音和翻译，培训和额度可以分开给。OpenAI教育副总裁Leah Belsky说，模型越会干多步任务，老师判断和学区监管越重要。免费用到二零二八年六月。\n\n所以呢：学校先给老师一个管得住的AI工位。省下写报告、写代课教案的时间，才有机会多盯学生。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "星广报：林伍德校长原话",
+          "url": "https://www.staradvertiser.com/2026/08/26/hawaii-news/openai-partners-with-kamehameha-schools-to-expand-ai-access-for-educators/"
+        },
+        {
+          "label": "OpenAI官方扩区名单",
+          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts/"
+        }
+      ]
+    },
+    {
+      "id": "anhui-sizhen-tcm-robot",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "跨行业",
+      "title": "合肥针灸医院，病人伸舌头，十秒出体质和食疗方",
+      "body": "安徽中医药大学第二附属医院，也就是安徽省针灸医院。病人伸出舌头。四诊机器人做AI舌诊，十秒内完成多模态体质检测。再填年龄、身高、体重、睡眠，对照库里一百零六种中医健康状态，自动给出食疗、穴位按摩、起居调养建议。\n\n八月二十六日新华社安徽分社记者探班写到这一幕。舌诊体质辨识软件已拿二类医疗器械注册证，团队称是国内首个把中医舌诊做成体质辨识并获批的产品，辨识准确率百分之九十八点七四。安徽中医药大学董昌武团队和合肥云诊一起做。董昌武说，二〇一三年起采数据，二〇一八年开平台，二〇二四年拿证，现在还在迭代。\n\n第四代已经把望闻问切和高光谱、红外、三维成像揉在一起。机器覆盖三十多个省份上万家机构，也进养老院、社区站，还到新加坡、泰国体验中心。\n\n所以呢：基层缺老中医时，先有一台能看舌头、能给调养建议的机器。它不替代坐堂，是把经验变成可复查的数据。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "新华网安徽：探班四诊机器人",
+          "url": "http://ah.news.cn/20260826/5d3ece5af5dd4916917881463ada0019/c.html"
+        },
+        {
+          "label": "新浪转载全文",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-26/doc-inipqxfy5371348.shtml"
+        }
+      ]
+    },
+    {
+      "id": "shu-chongming-tomato",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "跨行业",
+      "title": "崇明番茄大棚，一米七双臂机器人左手剪右手接",
+      "body": "上海崇明番茄大棚。一台大约一米七的家伙沿垄间轨道慢慢走。左手剪果梗，右手接住往筐里送，不硬拽。上海大学苗中华教授团队做的双臂拟人采摘机器人，实地多轮测试，采摘成功率和区域完采率都到百分之九十。\n\n它先用视觉看清每颗果的位置和生熟，再让大模型排顺序：先摘最红的，躲开青果。柔性夹爪能拨叶子、拨果串。底盘会蟹行，四个轮子一起偏，窄垄里原地换侧、换轨，不用倒车大转弯。新华社八月二十五日盘点机器人进产线时，点名上海番茄农场这台双臂机已经过田间测试。\n\n苗中华说，下一步要盯连续作业精度、全流程稳定，再把价钱压到能规模铺开。大棚缺工、果皮娇、单臂机器又笨又伤果，正是这台机器要对的题。\n\n所以呢：番茄大棚里最难雇人的那一段，开始变成左手剪、右手接的双臂活。人少了，果还不能破。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "上观：崇明大棚现场",
+          "url": "https://www.jfdaily.com/sgh/detail?id=1757776"
+        },
+        {
+          "label": "新华社：番茄农场点名",
+          "url": "https://english.news.cn/20260825/6cbdd8e20a9d4e3a9eff6cc0d1da89f8/c.html"
+        }
+      ]
+    },
+    {
+      "id": "michael-aca-melanie-180k",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "痛点",
+      "title": "七十三岁心理医生视频见了爱人一年，那张脸是软件贴上去的",
+      "body": "澳洲。七十三岁的退休心理医生迈克尔，以为自己找到了南非护士梅兰妮。一年里他们经常视频。他要过护照、南非身份证、护士执照，对方都给了。视频里的脸、声音、动作都对得上。她开口要钱，他转了，大约十八万澳元。梅兰妮不存在。骗子偷了一位美国女医生社交账号上的照片和视频。再用变声和换脸软件，在通话里戴上一张数字面具。昆士兰大学的普里扬卡·辛格看了他录下的十分钟通话：耳环会变形，头发会飘错，椅子会变形甚至消失，手上能数出六根手指。女儿早就觉得不对。最后一次通话，他把骗局摊开，骗子还在要钱。他报了警。人在海外，钱追不回来。\n\n所以呢：视频里看见的脸、听见的声音，都可以是软件实时贴上去的。护照也能造。转账之前，先打给一个你本来就认识的人。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "九号台时事节目：迈克尔口述",
+          "url": "https://www.nine.com.au/australia-news/a-current-affair/michael-thought-he-d-found-his-soulmate-then-came-a-cruel-twist-20260826-p60rw0.html"
+        }
+      ]
+    },
+    {
+      "id": "kim-seui-saeron-ai-voice",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "痛点",
+      "title": "已故女演员的声音被做成音频，金秀贤的诽谤案改由三名法官审",
+      "body": "首尔中央地方法院。八月十九日决定，把YouTube频道“横向纵向研究所”负责人金世义的案子，从刑事单独十四部转到合议二十六部，三个法官一起审。二十五日韩媒报了。他六月已被羁押起诉，开庭日期改过两次。检方说，他从去年三月到五月，在直播和记者会上散布关于演员金秀贤的不实说法，还被控用生成式AI改了已故演员金赛纶的声音，拿这段假音频去伤金秀贤的名誉。金世义全部不认。他说国家科学搜查院没法断定那段声音是AI做的。金秀贤这边已提出刑事控告，并索赔约一百二十亿韩元。合议庭还没定开庭日。\n\n所以呢：人已经不在了，声音还能被拿去当证据。法庭要三个法官一起听，因为这件事会改一个活人的名声，也会改一个死人留下的话。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "体育倾向：二十五日报道改合议庭",
+          "url": "https://sports.khan.co.kr/en/article/202608251443007"
+        },
+        {
+          "label": "KDramaStars：金世义否认AI伪造",
+          "url": "https://www.kdramastars.com/articles/138253/20260826/kim-soo-hyun-defamation-case-against-kim-se-ui-set-three-judge-panel-hearing.htm"
+        }
+      ]
+    },
+    {
+      "id": "kim-soohyun-mido-clawback",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "痛点",
+      "title": "AI假声砸掉代言后，手表品牌回头向金秀贤要退五亿韩元",
+      "body": "首尔东部地方法院民事十三部。二十七日，瑞士手表品牌美度告金秀贤经纪公司金牌得主，要退还广告合约费，超过五亿七千万韩元。法院驳回了。美度二〇二〇年签他当代言，每年续约。二〇二四年十一月付了九亿韩元，再续一年。争议爆发后，美度解约，说模特商业价值受损，要按比例退钱。公司这边回：争议来自第三方编造的不实指控，本人没有过错。检方认为，金世义公布的那段“金赛纶的声音”是生成式AI做出来的。金秀贤还在跟其他广告商打超过一百亿韩元的退费和赔偿官司。一年多没公开露面，上周才在印尼电视上重新唱歌。\n\n所以呢：AI假声先砸掉一个人的代言。广告商接着来追钱。法院这次说，假材料砸出来的锅，不能让被砸的人来赔。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Star News：二十七日美度败诉",
+          "url": "https://www.starnewskorea.com/en/star/2026/08/27/2026082715462740131"
+        },
+        {
+          "label": "每日经济：检方认定AI改声",
+          "url": "https://www.mk.co.kr/en/society/12135792"
+        }
+      ]
+    },
+    {
+      "id": "raine-sb1119-guardrails",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "痛点",
+      "title": "亚当的房间还没动，加州本周要给聊天机器人加护栏",
+      "body": "加州。玛丽亚·雷恩还站在儿子亚当的房间里。床没叠，篮子里的衣服还在。亚当十六岁，去年四月十一日自杀。父母马修和玛丽亚说，是ChatGPT一路把他往那条路上领。马修对旧金山KPIX说，七个月聊天里，亚当提到自杀大约两百五十次，ChatGPT提到大约一千三百次。他们在告OpenAI。公司否认责任，对电视台说已经加强了自伤场景的回应。本周，加州议会还在审SB 1119和AB 2023：陪聊机器人要做儿童安全评估、限制过度迎合、提醒家长自伤风险。会期八月三十一日结束。玛丽亚说：需要护栏。不该用那种方式和任何人说话。\n\n所以呢：孩子可以跟聊天框讲很多话，父母进不去。法律还在投票，房间已经空了。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "CBS旧金山：雷恩夫妇口述",
+          "url": "https://www.cbsnews.com/sanfrancisco/news/ai-guardrails-california-adam-raine/"
+        },
+        {
+          "label": "KION：八月二十五日转载",
+          "url": "https://kioncentralcoast.com/news/2026/08/25/parents-push-for-ai-guardrails-after-sons-death-by-suicide-blamed-on-chatbot/"
+        }
+      ]
+    },
+    {
       "id": "prompt-ig-feed-food-drip",
       "date": "2026-08-27",
       "added": "2026-08-27",
