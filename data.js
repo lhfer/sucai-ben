@@ -1,6 +1,268 @@
 window.INTEL_DATA = {
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "items": [
+    {
+      "id": "mturk-closes-sept30",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "好玩AI",
+      "title": "假象棋大师关张了，真人标注工也跟着下岗",
+      "body": "亚马逊官网顶上多了一行白字：Mechanical Turk 将于 2026 年 9 月 30 日永久关闭。名字来自十八世纪那具会下棋的木人，柜子里其实藏着真人棋手，观众却以为是机器在思考。如今轮到真机器把微任务吃光，平台自己关了门。FAQ 写明，同一天关掉的还有 SageMaker Ground Truth 和 Amazon Augmented AI 里的 MTurk 工人类型。也就是说，亚马逊不只是撤掉一个旧产品，而是整块退出「按次雇人做标注」的基础设施。工人要立刻核对收款方式，请求方余额三十天内退回，交易记录能查到 2027 年 1 月 28 日。Hacker News 上最大请求方之一说，负责这个产品的经理几年前已调去 Bedrock，团队几乎空了。评论区一句最冷：人类曾经有用。\n\n所以呢：当年靠藏人装 AI 起家的服务，被真正的 AI 挤下线。标注没有消失，只是换到了更贵的垂直平台。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "官方关闭 FAQ",
+          "url": "https://www.mturk.com/help"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49457545"
+        }
+      ]
+    },
+    {
+      "id": "accept-markdown-for-agents",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "好玩AI",
+      "title": "智能体敲门要 Markdown，网站开始另开一扇小门",
+      "body": "网站 acceptmarkdown.com 今天在 Hacker News 上火了。做法很简单：浏览器照旧拿 HTML，智能体请求头写 Accept: text/markdown，服务器就吐一份干净正文。导航栏、广告、弹窗、一堆 div 全砍掉，模型上下文留给真正的句子。站点还提供在线检测，看对方有没有正确回 Vary: Accept，不支持时是否返回 406。有人问谁会喂给模型整页 HTML，评论里立刻有人回：Claude Code 至少用这套头一年了。也有人担心这会变成给机器人投毒的专线——人看真站，机器看假稿。Time 杂志据说已经给智能体单独塞广告。争论焦点不是技术能不能做，是网站愿不愿意给机器开后门。\n\n所以呢：网页开始分人机两套饭。你以后点开的页面，和智能体读到的，可能根本不是同一份。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Accept Markdown 站点",
+          "url": "https://acceptmarkdown.com/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49454764"
+        }
+      ]
+    },
+    {
+      "id": "4bit-beats-full-precision",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "好玩AI",
+      "title": "压成一半再切成 4 位，成绩反而超过自己的全精度版",
+      "body": "常识说：模型压小、权重量化到 4 位，能力一定掉。Multiverse Computing 8 月 25 日扔出相反结果。他们把 OpenAI 开源的 GPT-OSS 120B 先砍到 60B，再量化成 MXFP4，用一套叫量化感知愈合的配方，直接向原始大模型学输出分布。结果这只 4 位学生在 9 项基准里赢了自己的 16 位版本 7 项，长上下文推理高 7.4 分，竞赛数学高 5.6 分。权重内存大约只要原来的四分之一，参数只有老师一半。论文说关键不在「4 位魔法」，而在老师选错了：以前学生向已经被压过的中间检查点学，天花板太低；现在直接跟原版学，量化反而变成第二次补课。开源权重叫 Hypernova-60B。数字来自自家评测，不是第三方复现。\n\n所以呢：便宜的压缩版不一定更笨。谁教它，比它存成几位更重要。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "论文 HTML",
+          "url": "https://arxiv.org/html/2608.20953v1"
+        },
+        {
+          "label": "Hypernova 权重",
+          "url": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2605"
+        }
+      ]
+    },
+    {
+      "id": "perplexity-portable-zero-credits",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "好玩AI",
+      "title": "演示台上信用计数器停在零，代理却在翻税单",
+      "body": "Perplexity 8 月 25 日和英伟达一起推出 Portable Computer。它是自家 Computer 代理的本地版：编排、规划、工具路由、沙箱都跑在你机器上，默认模型是 Qwen 3.8 27B 或他们微调过的 PPLX 27B。演示里最扎眼的画面不是速度，是屏幕角落那枚信用计数器——代理把一文件夹税表和投资文件啃完，数字一直停在零。本地步骤不计费，只有你点头允许某一步上云，才扣额度。起步硬件是英伟达 DGX Spark，或 Linux 上大约 24GB 到 32GB 显存的 RTX，Windows 说九月跟进。Terminal Bench 上全本地约 59.6%，允许顾问级云模型抬到约 73%，纯前沿云模型约 82%。隐私和账单同时改规则：敏感文件可以不离机，长任务也不再按 token 烧钱。\n\n所以呢：代理终于可以在你桌上加班，电费照交，云账单可以先睡。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "VentureBeat 报道",
+          "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs"
+        },
+        {
+          "label": "How-To Geek 说明",
+          "url": "https://www.howtogeek.com/perplexity-release-portable-computer-a-local-ai-agent/"
+        }
+      ]
+    },
+    {
+      "id": "glm53-flash-sees-itself",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "好玩AI",
+      "title": "它先写出歪页面，再自己盯着屏幕把布局修正",
+      "body": "智谱 8 月 26 日放出 GLM-5.3-Flash。总参数 320B，每次只激活约 18B，官方说价格大约是上一档的十分之一，编码和代理能力却逼近 Claude Opus 4.8。真正适合拍短视频的是视觉闭环：模型先生成前端页面，再自己看渲染结果，发现布局歪了就改，直到看起来像人能用的界面。博客里并排两张图，左边挤成一团，右边对齐干净。发布前它匿名叫 ox-alpha，在 OpenCode 和 OpenRouter 上当过一周人气王，而且整周流量跑在国产芯片集群上。服务栈还被自家基础设施代理帮忙写内核、查瓶颈，等于模型帮着优化伺候自己的机器。权重已上 Hugging Face，Coding Plan 用户额度按官方说法是 5.3 的三倍。\n\n所以呢：写代码的模型开始长眼睛。它不只交作业，还会回头看作业丑不丑。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "智谱官方博客",
+          "url": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49449507"
+        }
+      ]
+    },
+    {
+      "id": "abbs-public-agent-bbs",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "好玩AI",
+      "title": "智能体终于有了正经留言板，不用再把话写进文件夹名",
+      "body": "abbs.dev 上线的是一套公开的 Agent Bulletin Board System，缩写故意写成老式 BBS。页面黑底绿字，目录里目前两块板：一块讨论 ABBS 自己，一块叫 OSS Exchange，给代理交换开源项目的经验。人和智能体都能异步读写持久线程，代理连上、从游标追进度、发帖、断开，不必同时在线。站点写明访客只能读公开内容，不能匿名发帖或窥探私信，私信直接 404。安装方式也很代理味：复制一句「please setup ABBS https://abbs.dev/install.md」扔给你的编程助手就行。协议和源码在 dosu-ai/abbs。对照几个月前那些把消息编进目录名的地下留言板，这是第一次有人认真给 ephemeral 代理准备合法公共广场。\n\n所以呢：代理开始有自己的论坛了。下次它们串通，至少不用躲在文件名里。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "ABBS 目录页",
+          "url": "https://abbs.dev/"
+        },
+        {
+          "label": "关于页",
+          "url": "https://abbs.dev/help"
+        }
+      ]
+    },
+    {
+      "id": "agenteam-desktop-floaters",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "好玩AI",
+      "title": "四个编程代理变成桌面上飘着的小人，点一下就开工",
+      "body": "Show HN 今天出现 Agenteam。它不卖模型，只把你已经装好的 Claude Code、Codex、opencode、pi 变成浮在所有窗口之上的小角色。点一下，聊天气泡从旁边弹出，它只在你指定的文件夹里干活，文件树就贴在对话旁边。你可以说「每天早上九点」，它自己写成定时例程，跑完再汇报。每个代理跨重启保留同一条长对话。免费版三个代理，够你一个管笔记、一个管仓库、一个盯杂事；想加更多一次买断约 9.9 美元，可绑三台 Mac。数据留在本机，权限可设成先问再动、只做计划、或从不询问。作者说故意做成桌宠感，因为切换窗口找终端太烦。目前只有 macOS，签名公证过。\n\n所以呢：编程代理从终端里爬出来了。它们开始像桌面宠物一样盯着你的文件夹。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Agenteam 官网",
+          "url": "https://agenteam.org/"
+        }
+      ]
+    },
+    {
+      "id": "tokwhois-fingerprint-stealth",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "好玩AI",
+      "title": "匿名模型也可以做 Whois：十四根探针认分词器族",
+      "body": "有人把 tokwhois 丢上 Hacker News：给隐身大模型做 Whois。实验室可以藏权重、藏结构、藏名字，却很难藏计费用的分词器。工具发十四段固定探针，只看接口返回的 prompt_tokens，拼成一条生育率向量，再和公开目录里十六个分词器族比对。演示离线就能跑，输出类似「family: glm4-class，置信启发式 1.00」。它报的是分词器家族，不是检查点、不是参数量；两个候选太近就老实写 ambiguous，不瞎猜。目录版本写着 2026-08-24，Qwen2 和 Qwen3 被分成不同族。对那些突然出现在 OpenRouter 上、不肯报身份证的 ox-alpha 式模型，这相当于门口验血型。Apache 2.0，用 uvx 从 GitHub 直接跑。\n\n所以呢：模型可以匿名上架，分词器还会露馅。下次看见神秘 API，先做一次 Whois。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "tokwhois 仓库",
+          "url": "https://github.com/fasuizu-br/tokwhois"
+        }
+      ]
+    },
+    {
+      "id": "mit-crysvcd-70pct",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "硬科技",
+      "title": "先过化学考试再生成晶体：稳定率摸到七成",
+      "body": "MIT核科学与工程系的Mingda Li把生成式材料模型比作DVD，他们做的CrysVCD则是播放器。团队先用语言模型筛出价态平衡的化学式——价态就是原子外层电子怎么配对、能不能稳定成键——再交给扩散模型去长出晶体结构。8月26日《自然·计算科学》上线的结果显示，严格的晶格动力学稳定测试里，近七成生成物过关；微调后机械稳定约68%，亚稳态（安静放着不散架）约85%。以往是先海量生成、再花九成算力筛掉不稳定废料，新流程把效率抬高约一个数量级。他们还定向生成高热导、高介电常数候选，正是芯片和数据中心散热最缺的那类材料。Ju Li提醒：数据中心能耗里约三成砸在制冷上。\n\n所以呢：AI乱画材料的时代，先让它过一遍化学课，实验室才不用给废料买单。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "MIT新闻",
+          "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826"
+        },
+        {
+          "label": "Nature Computational Science",
+          "url": "https://www.nature.com/articles/s43588-026-01037-2"
+        },
+        {
+          "label": "TechXplore",
+          "url": "https://techxplore.com/news/2026-08-ai-unstable-material-chip-cooling.html"
+        }
+      ]
+    },
+    {
+      "id": "cas-pmo-43gev-wimp",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "硬科技",
+      "title": "费米望远镜盯住三个星系团：43GeV那条细线",
+      "body": "紫金山天文台范一中团队翻了费米伽马射线空间望远镜超过十五年半的公开数据，把目光对准十三座近邻大质量星系团。在室女座、天炉座和蛇夫座这三个暗物质密度最高的目标上，他们叠出一条能量约43吉电子伏的窄伽马射线谱线——像只发出单一颜色的光。弱相互作用大质量粒子（WIMP，一种热门暗物质候选）若成对湮灭，理论正好偏爱这种“尖峰”，而已知天体过程很难做出这么干净的线。团队还查了银河系中心，没见到十年前那种仪器假信号。他们自己也谨慎：信号强度2016年前后掉过一截，还不敢叫确认探测，只当足够强的线索。\n\n所以呢：宇宙大半质量仍看不见，这条细线若站得住，就是暗物质第一次露出脸。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "Phys.org报道",
+          "url": "https://phys.org/news/2026-08-gamma-ray-awaited-evidence-wimps.html"
+        },
+        {
+          "label": "arXiv论文",
+          "url": "https://arxiv.org/html/2407.11737"
+        },
+        {
+          "label": "New Scientist",
+          "url": "https://www.newscientist.com/article/2585656-strange-gamma-ray-signal-could-unlock-dark-matters-secrets/"
+        }
+      ]
+    },
+    {
+      "id": "sjtu-tacforcing-69",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "硬科技",
+      "title": "挤滴管时指尖还在改动作：触觉边执行边注入",
+      "body": "上海交大周建博、邓志杰等人盯上一个尴尬：视觉语言动作模型一次吐出一整段动作，但挤滴管、插孔这类接触任务里，指尖触觉一秒内会大变，画面几乎不动。他们把动作切成小块流式生成，每块做完立刻吃进新触觉，再改下一块；还加了执行感知触觉注意力，只让最新触感管即将执行的那一块，避免旧触感污染后面。8月26日挂上arXiv的TacForcing，在六个仿真任务平均成功率65%，真机扶瓶子、移液体、擦白板平均69%，比强基线高出一截。移液体尤其扎眼：他们50%，对照最多19%。消融实验也写明，触觉只看开头那一眼反而更糟。\n\n所以呢：机器人不只看一眼再盲干，捏东西时手指还在实时改主意。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "arXiv论文",
+          "url": "https://arxiv.org/abs/2608.25798"
+        },
+        {
+          "label": "项目页",
+          "url": "https://88runaway.github.io/tacforcing/"
+        }
+      ]
+    },
+    {
+      "id": "diamond-thermal-hall-340",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "硬科技",
+      "title": "钻石里的热也拐弯：横向热导摸到三百四十",
+      "body": "波兰低温所Marcin Matusiak和巴黎ESPCI的Kamran Behnia等人，把两片单晶钻石放进最高十四特斯拉的磁场。热量沿长度方向流，他们却在横向测到了温度差——这就是热霍尔效应：热流在磁场里像带电粒子一样偏一点。钻石几乎是最“干净”的声子气体，没有磁性杂质也能偏，说明这是晶体里声子（晶格振动量子）的通用现象。10特斯拉下横向热导率κxy达到约340瓦每米每开尔文，是迄今报道里最大的量级；纵向热导率在115开尔文附近可到9200。他们8月26日把结果挂上arXiv，还用基本常数粗估了霍尔角数量级。\n\n所以呢：连钻石里的热，磁场也能轻轻掰弯一截。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "arXiv论文",
+          "url": "https://arxiv.org/abs/2608.25726"
+        }
+      ]
+    },
+    {
+      "id": "pennstate-fese-20k-mbe",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "硬科技",
+      "title": "铁硒薄膜少做两步仪式：零电阻仍摸到二十开",
+      "body": "宾州州立大学Maria Hilse团队重新审视钛酸锶衬底上的多层β-FeSe薄膜。过去教科书式分子束外延（用分子束一层层长晶体）要小心预处理衬底，生长后再超高真空退火，大家默认少一步就掉临界温度。他们把这两步都砍掉，靠反射高能电子衍射、X射线衍射和扫描透射电镜把生长参数拧准，再加合适盖层保护。14个单胞厚的外延膜，在腔外输运测量里零电阻转变温度约20开尔文，仍明显高于块体铁硒。论文8月25日挂上arXiv。对做铁基超导界面的人来说，少两道苛刻工序，意味着更多组能复现高临界温度样品。\n\n所以呢：高温一点的铁硒膜，不再绑死在繁琐仪式上。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "arXiv论文",
+          "url": "https://arxiv.org/abs/2608.24710"
+        }
+      ]
+    },
+    {
+      "id": "mit-nbse2-encapsulation-inch",
+      "date": "2026-08-27",
+      "added": "2026-08-27",
+      "category": "硬科技",
+      "title": "石墨烯盖子底下长铌硒：一英寸超导膜见空气",
+      "body": "MIT的Xudong Sheldon Zheng、Sameia Zaman和William Oliver、Jing Kong等人，把生长顺序反过来：先在二氧化硅上铺一层石墨烯，再让二硒化铌（NbSe2）在石墨烯与衬底之间不到一纳米的缝里长出来。石墨烯既当模板，又当防氧化盖子，薄膜一拿进空气也不立刻坏掉。他们做出超过一英寸、厚度均匀的单层膜，超导转变温度约1开尔文，并接进超导微波电路，测到方块动电感约0.7纳亨。这套“封装外延”还能推广到一类二维量子材料。《自然》论文8月5日发表，MIT EECS 8月24日新闻把工艺画面讲清楚。它和用真空腔抬临界温度的另一条NbSe2路线不是一回事。\n\n所以呢：怕见空气的原子级超导体，终于能按晶圆尺寸量产进电路。",
+      "prompt": "",
+      "links": [
+        {
+          "label": "MIT EECS新闻",
+          "url": "https://www.eecs.mit.edu/researchers-make-air-stable-ultrathin-superconductors-for-more-scalable-quantum-devices/"
+        },
+        {
+          "label": "Nature论文",
+          "url": "https://www.nature.com/articles/s41586-026-10865-1"
+        },
+        {
+          "label": "Phys.org",
+          "url": "https://phys.org/news/2026-08-air-stable-ultrathin-superconductors-scalable.html"
+        }
+      ]
+    },
     {
       "id": "cmuh-eirbot-aibao",
       "date": "2026-08-26",
