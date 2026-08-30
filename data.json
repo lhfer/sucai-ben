@@ -57,7 +57,7 @@
       "added": "2026-08-30",
       "category": "提示词",
       "title": "写字楼里粤英夹花，把一份 proposal 骂回去",
-      "prompt": "In a high-rise office building, the man leaned back, wearing a tired, disdainful expression, and said in Cantonese: 「其实……我真系唔系好 buy 你呢个 logic 啾。成个 proposal 根本 align 唔到我哔个 core value。你个 flow 咁乱，点样去 convince 个 client 呀？不如你返去 re-think 下个 angle，听朝早我要见到个 final version。」",
+      "prompt": "In a high-rise office building, the man leaned back, wearing a tired, disdainful expression, and said in Cantonese: 「其实……我真系唔系好 buy 你呢个 logic 啰。成个 proposal 根本 align 唔到我哋个 core value。你个 flow 咁乱，点样去 convince 个 client 呀？不如你返去 re-think 下个 angle，听朝早我要见到个 final version。」",
       "body": "男人靠进椅背，一脸不耐烦。粤语里夹着 buy、logic、proposal、core value，把整份方案怼回去。口型和夹花一起动，像真在骂人，不像配了英文旁白。\n\n这是快手 Kling VIDEO 3.0 官方用户指南里「方言和口音」的示范。关键就一句：said in Cantonese。指定方言之后，模型会跟着 code-switch——中英夹杂——走口型，而不是硬念一段标准普通话旁白。坑在于：你不写方言，它就默认英文腔；写了，夹花才能站住。\n\n所以呢：3.0 真正能拍的不是又一段英文旁白，是你会说的那种夹花。",
       "links": [
         {
