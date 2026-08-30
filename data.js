@@ -2,6 +2,253 @@ window.INTEL_DATA = {
   "updated": "2026-08-30",
   "items": [
     {
+      "id": "gods-eye-view-spy-globe",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "视觉尝试",
+      "title": "打开地球，点进飞机驾驶舱，夜视一开像谍战片",
+      "prompt": "",
+      "body": "浏览器里先转出一颗真地球。飞机在飞，点进去能坐进驾驶舱；再换一层，城市网格里嵌着公共监控画面，国际空间站划过，Starlink 壳层一层层扣上去。FLIR 热成像和夜视皮肤一开，操作台瞬间像谍战片里的控制台。\n\n做这个的是 Bilawal Sidhu。他把「上帝视角」开源成浏览器地球：CesiumJS 搭骨架，谷歌逼真三维瓦片铺地表，底下塞公开数据——大约八百四十颗卫星的核心目录，大约八百路公共摄像头。仓库大约八月二十五开源，今天上了 Product Hunt，GitHub 已经一万两千多星，MIT 许可证。本地跑开发服务，浏览器打开本机 4173 端口。逼真三维瓦片要谷歌地图密钥，readme 写每月大约一千次免费三维会话。这不是一键托管，得自己跑。\n\n所以呢：谍战片滤镜下面，全是你本来就能查到的公开数据。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view"
+        },
+        {
+          "label": "作者 Substack",
+          "url": "https://www.spatialintelligence.ai/p/i-open-sourced-gods-eye-view"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/god-s-eye-view"
+        },
+        {
+          "label": "演示视频",
+          "url": "https://www.youtube.com/watch?v=GRJaKcXZS94"
+        }
+      ]
+    },
+    {
+      "id": "archify-agent-diagrams",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "小众工具",
+      "title": "跟智能体白话讲完架构，一张能丢进幻灯片的图自己长出来",
+      "prompt": "",
+      "body": "Cursor 或 Claude Code 里，你用大白话说完系统，或者直接指着仓库。智能体吐出一份带类型的 JSON，Archify 再编译成自包含的 HTML 加 SVG 架构图——工作流、时序、数据流也能画。暗色亮色随便切，还能导出 PNG、SVG、WebM，以及一千二百乘六百三十的分享图。\n\n作者 tt-a1i。一次安装：npx skills add tt-a1i/archify -g。自称不编造拓扑，有什么画什么。MIT，不用账号。GitHub 今日趋势第一，星标三万出头。主页和画廊都在 tt-a1i.github.io/archify。\n\n所以呢：别再让人「先打开画图软件」——对话里讲完，图已经能贴进幻灯片。",
+      "links": [
+        {
+          "label": "项目主页",
+          "url": "https://tt-a1i.github.io/archify/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "label": "画廊",
+          "url": "https://tt-a1i.github.io/archify/gallery.html"
+        }
+      ]
+    },
+    {
+      "id": "prompt-kling-3-cantonese-office-roast",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "提示词",
+      "title": "写字楼里粤英夹花，把一份 proposal 骂回去",
+      "prompt": "In a high-rise office building, the man leaned back, wearing a tired, disdainful expression, and said in Cantonese: 「其实……我真系唔系好 buy 你呢个 logic 啲。成个 proposal 根本 align 唔到我哒个 core value。你个 flow 咁乱，点样去 convince 个 client 呀？不如你返去 re-think 下个 angle，听朝早我要见到个 final version。」",
+      "body": "男人靠进椅背，一脸不耐烦。粤语里夹着 buy、logic、proposal、core value，把整份方案恐回去。口型和夹花一起动，像真在骂人，不像配了英文旁白。\n\n这是快手 Kling VIDEO 3.0 官方用户指南里「方言和口音」的示范。关键就一句：said in Cantonese。指定方言之后，模型会跟着 code-switch——中英夹杂——走口型，而不是硬念一段标准普通话旁白。坑在于：你不写方言，它就默认英文腔；写了，夹花才能站住。\n\n所以呢：3.0 真正能拍的不是又一段英文旁白，是你会说的那种夹花。",
+      "links": [
+        {
+          "label": "Kling 3.0 用户指南",
+          "url": "https://kling.ai/quickstart/klingai-video-3-model-user-guide"
+        }
+      ]
+    },
+    {
+      "id": "cosmic-collisions-theia-moon",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "视觉尝试",
+      "title": "两颗半熔行星撞上，月亮从碎屑里慢慢凝出来",
+      "prompt": "",
+      "body": "标签页一开，原地球和忒伊亚星——传说撞出月球的那颗——正面撞上。岩浆溅开，潮汐臂甩出去，碎片盘转起来，月亮最后停在大约四点六个地球半径的地方。拖影、光晕、热浪，像电影镜头，不像科普动画。\n\nGaploid 用 WebGL2 做的。背景铺了五千零八十颗亮到六等的真星；粒子从一万六千到二十六万两千颗，分铁核、地幔、地壳，手机默认大约三万三千。预设有 theia、head-on、hit&run、twins、shatter；旁边还有希克苏鲁伯兄弟页。更新日志从八月二十五写到二十九。MIT，不用账号。Chrome 能跑，Safari 有人报过问题。Show HN 上有讨论。\n\n所以呢：月亮怎么来的，不用翻教材——打开标签页看两颗半熔的行星撞一次就够。",
+      "links": [
+        {
+          "label": "现场演示",
+          "url": "https://gaploid.github.io/cosmic-collisions/"
+        },
+        {
+          "label": "希克苏鲁伯兄弟页",
+          "url": "https://gaploid.github.io/cosmic-collisions/chicxulub.html"
+        },
+        {
+          "label": "Show HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49489682"
+        }
+      ]
+    },
+    {
+      "id": "galaxium-webgpu-space-explorer",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "视觉尝试",
+      "title": "滚轮一滑太阳系变小，银河铺开，脑子被炸了两次",
+      "prompt": "",
+      "body": "滚轮往外一滑，太阳系缩成一点，银河铺开。翔曲时星星拖影，行星、旅行者号、草帽星系中心黑洞、人马座 A* 都能到；小行星带还能开关。有人评论：一直滚出去，脑子被炸了两次，看到黑洞又炸一次。\n\n这是 Guillaume Chéreau——Stellarium Mobile 作者——业余一年做的 WebGPU 宇宙旅行。他原话大意：这是在宇宙里旅行，不是从地球看天。演示在 galaxium.app。Show HN 一百一十四分、三十四条评。彗星卫星大约一天更新两次。要 WebGPU（Chrome、Edge、Safari macOS 二十六及以上、Firefox）；作者故意拦手机，桌面模式大约十五到二十帧。有的四 GB 显卡会报内存不够。\n\n所以呢：别把它当成又一个太阳系仪——滚轮一滑，你才知道自己有多小。",
+      "links": [
+        {
+          "label": "在线演示",
+          "url": "https://galaxium.app"
+        },
+        {
+          "label": "Show HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49420524"
+        }
+      ]
+    },
+    {
+      "id": "prompt-kling-3-summers-with-you",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "提示词",
+      "title": "果汁转圈，一句情话卡在最后特写",
+      "prompt": "Outdoor terrace of a European villa, by a dining table with a blue and white checkered tablecloth, a young white woman in a blue and white striped short-sleeve shirt and khaki shorts, with a brown belt, sits barefoot, opposite a young white man in a white T-shirt. The camera zooms in, the woman swirls the juice in a glass, her eyes looking at the distant woods, and says \"These trees will turn yellow in a month, won't they?\". Close-up of the man, he lowers his head and says, \"but they'll be green again next summer.\". Then the woman turns her head, smiles at the man opposite, and says, \"Are you always this optimistic? Or just about summer?\". Then the man lifts his head, looks at the woman and says, \"Only about summers with you.\"",
+      "body": "欧式别墅露台，蓝白格子桌布。女人转着果汁看远处树林，说树一个月会黄；男人低头：明年还会绿。她问是不是对夏天特别乐观。他抬头：「Only about summers with you.」镜头推到特写，情话落在最后一刀。\n\n这是 Kling 3.0 官方指南的 Multi-Shot——多镜头——示范。官方提醒：Multi-Shot 开关关掉，整段会塌成单镜头，分镜全废。坑就在这儿——你以为写了四刀，开关一关只剩一镜糊过去。分镜写清楚才有戏。\n\n所以呢：官方示范不是产品广告，是一句能截的恋爱 punchline。",
+      "links": [
+        {
+          "label": "Kling 3.0 用户指南",
+          "url": "https://kling.ai/quickstart/klingai-video-3-model-user-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-sound-leads-camera",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "提示词",
+      "title": "先听见金属架砸地，镜头才慌忙甩过去",
+      "prompt": "A quiet home studio at night. A metal music stand tips and clatters to the floor off-frame in the first two seconds, and the camera whips right toward the sound, settling on the fallen stand and scattered sheets. A person steps into frame and rights it. Audio leads the motion: the clatter is sharp and directional, followed by room silence and paper shuffle.",
+      "body": "夜里家庭录音室。画外先传来金属乐谱架倒地的脆响，镜头才慌忙甩过去，落在倒架和散落的谱纸上。有人走进画面，把它扶起来。十秒、十六比九、音频开着。\n\nMorphed 的 Seedance 2.5 语法页把这件事写得很清楚：Sound event drives the camera——声音事件带着镜头走。失败对照是写 mood word，比如 atmospheric sound design；成功对照是写物理声源——金属架、砸地、方向。Seedance 2.5 和 MiniMax H3 同日（二零二六七月三十一）公开，这是背景，不是今天才出。\n\n所以呢：先写声音，画面才会听话。",
+      "links": [
+        {
+          "label": "Seedance 2.5 提示词语法",
+          "url": "https://morphed.app/blog/seedance-2-5-prompts"
+        }
+      ]
+    },
+    {
+      "id": "seendiff-agent-walkthrough",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "小众工具",
+      "title": "进度条在问：你真的看过智能体改的每一页了吗",
+      "prompt": "",
+      "body": "Claude Code 或 Codex 扔过来一个四百个文件的 PR。你在仓库里跑 seendiff，本地打开查看器——看的是每个改动文件改完之后的整页，不是碎片 diff。滚过视口自动标 Seen，按一下键标 Reviewed。进度条一直在那儿问：你真看过了吗？\n\n作者 acme-dot-bot。今天 Product Hunt 大约第四。GitHub 六星，新，但排位是真的。智能体还能写一出 JSON 剧本——walkthrough——seendiff 在真 diff 上播放，行号过期就失败。大约四千行，四个依赖，绑在 127.0.0.1，无遥测，MIT。安装：uv tool install，从 GitHub acme-dot-bot/seendiff 拉代码。\n\n所以呢：智能体改了四百页，你至少该知道自己翻过哪几页。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://seendiff.com/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/acme-dot-bot/seendiff"
+        }
+      ]
+    },
+    {
+      "id": "magicpatterns-ai-theme-park",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "视觉尝试",
+      "title": "打一行字，公园自己长出来，跟着小人去坐过山车",
+      "prompt": "",
+      "body": "输入一句话，三维过山车公园自己长出来：海盗湾、巧克力工厂、迪斯科世界。你能跟着游客走，听见他们坐车时在想什么。页面上有 Grand Park、Pirate Cove、Chocolate Factory、Epic Rollercoasters、Disco World 几条起始提示，点进去就能逛。\n\nAlexander Lee 在 Magic Patterns 做的。背后不是乱生成：设计系统智能体加评分循环——生成、量表打分、改技能——好让轨道闭合、主题统一、路连得上。Show HN 大约周五上的，五十六分二十五评。演示在 magicpatterns.com/theme-park。\n\n所以呢：AI 乱生成和有规则的公园，差别就在轨道会不会自己接上。",
+      "links": [
+        {
+          "label": "主题公园演示",
+          "url": "https://www.magicpatterns.com/theme-park"
+        },
+        {
+          "label": "Show HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49452037"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-quoted-text-trap",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "提示词",
+      "title": "海报上多出来一行你没要的旅游口号",
+      "prompt": "A travel poster of Lisbon rooftops at golden hour, terracotta tiles descending toward the river, viewed from a high balcony, mid century screen print style with flat colour separations and visible registration, the headline 'LISBON' in bold cream sans-serif across the top third.\n\na travel poster for Lisbon with the city name at the top\n\nA golden retriever mid shake after a swim, water flying off in a ring around him, shallow lake edge behind, low evening sun catching the spray, shot side on at dog height.",
+      "body": "你只说「里斯本旅游海报，顶部写城市名」。模型却自己加副标题：DISCOVER THE HEART OF PORTUGAL……连水壶都会擅自印 HYDRATE // 32oz。海报上多出一行你没要的口号，这就是坑。\n\nFello AI 对照谷歌三份官方 Nano Banana——Gemini 出图，人话叫 Nano Banana Pro——公式后的实测。Mistake 4：不把要印的字加引号，模型就自己编。下面三条：第一条是强 prompt，把 LISBON 用引号钉死并指定字重位置；第二条是弱对照；第三条是动作领先的加餐。可就算强 prompt，Pro 仍可能加 Portugal 和 THE CITY OF GOLDEN LIGHT——冲突本身就能演示。中文博主可改成上海或成都。\n\n所以呢：要印的字不加引号，模型就把你当广告文案师。",
+      "links": [
+        {
+          "label": "Fello AI Nano Banana 指南",
+          "url": "https://felloai.com/nano-banana-prompt-guide/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-chatgpt-visual-slash-codes",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "提示词",
+      "title": "同一句「拆开给我看」，斜杠一换就变爆炸图",
+      "prompt": "/explodedview /blueprint /infographic /handwritten explain the architecture of an AI employee, showing all components separated, technical connection lines, handwritten annotations and clear labels\n\n/xray a modern laptop showing the battery, CPU, cooling system and motherboard\n\n/xray /infographic show the anatomy of a high-performing LinkedIn profile, labeling the headline, banner, featured section, content, comments and network\n\n/handwritten /infographic explain the 7 habits of great networkers on a notebook page with arrows, circles, highlights and small doodles",
+      "body": "同一句「拆开给我看」。斜杠换成 /explodedview，出爆炸图；换成 /blueprint，出蓝图；再叠 /handwritten，边上冒出手写批注。四码叠在一起拆「AI employee」，一张图里组件全散开，连线和技术标注一起上。\n\nJoe Apfelbaum 八月二十四写在 Substack。公式是 /[STYLE] + [FORMAT] + [SUBJECT] + [INSTRUCTIONS]。文内写明 These aren’t magical secret commands——不是 ChatGPT 内置魔法命令，只是视觉速记。下面四条原样可复制：拆 AI 员工、X 光笔记本、LinkedIn 画像解剖、笔记本上的七个习惯。\n\n所以呢：一个想法乘十种视觉码，是内容倍增器，不是又一张海报。",
+      "links": [
+        {
+          "label": "Joe 的 Substack 原文",
+          "url": "https://joeapfelbaum.substack.com/p/25-chatgpt-viral-ai-visual-codes"
+        }
+      ]
+    },
+    {
+      "id": "prompt-veo-timestamp-jungle",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "提示词",
+      "title": "每两秒一张分镜单：藤条、脸、手、大远景",
+      "prompt": "[00:00-00:02] Medium shot from behind a young female explorer with a leather satchel and messy brown hair in a ponytail, as she pushes aside a large jungle vine to reveal a hidden path.\n[00:02-00:04] Reverse shot of the explorer's freckled face, her expression filled with awe as she gazes upon ancient, moss-covered ruins in the background. SFX: The rustle of dense leaves, distant exotic bird calls.\n[00:04-00:06] Tracking shot following the explorer as she steps into the clearing and runs her hand over the intricate carvings on a crumbling stone wall. Emotion: Wonder and reverence.\n[00:06-00:08] Wide, high-angle crane shot, revealing the lone explorer standing small in the center of the vast, forgotten temple complex, half-swallowed by the jungle. SFX: A swelling, gentle orchestral score begins to play.",
+      "body": "女探险家推开藤条，八秒切四刀：背后中景、雀斑脸特写、手摸石壁、大远景俯拍。每两秒一张分镜单，藤条、脸、手、大远景，镜头该干什么写清楚，音效也写上。\n\n这是 Google Cloud Veo 3.1 官方 timestamp 示例，Prompt Architects 八月二十六原样转载。注意：Veo 3 的接口已于六月三十关停，现在实际写的是 3.1。音频默认开，不写音效也会乱配乐。谷歌自己的八秒预算按两秒一刀切。分镜单写清楚，比堆形容词管用。\n\n所以呢：Veo 不是写一段形容词，是给每两秒一份分镜。",
+      "links": [
+        {
+          "label": "Prompt Architects 转载",
+          "url": "https://prompt-architects.com/blog/21-veo3-prompt-structure"
+        },
+        {
+          "label": "谷歌 Cloud Veo 指南",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1"
+        }
+      ]
+    },
+    {
+      "id": "openmaic-v1-workbench",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "小众工具",
+      "title": "飞书里丢一句「教我傅里叶变换」，教室自己开始讲和画",
+      "prompt": "",
+      "body": "飞书里说「教我 X」，多智能体教室自己开讲：AI 老师加同学、幻灯片、测验、HTML 模拟、白板、语音一起上。也能丢一份 PDF，整堂课从文档长出来。\n\n清华 MAIC 实验室的 OpenMAIC。GitHub 两万两千多星。八月二十七发了 v1.0.0，加了 Pro 工作台——跟一个会规划、搭建、改课的智能体聊天，能上传文档音视频。可自托管：pnpm 开本地开发服务，模型密钥自己填（OpenAI、Anthropic、Gemini、DeepSeek、Qwen、Kimi、GLM、Ollama 等）。托管捷径 clawhub install openmaic。MIT。在线演示有人超时，别指望一定能打开。\n\n所以呢：备课不必从空白幻灯片开始——一句话或一份 PDF，教室先替你搭好骨架。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "label": "v1 发行说明",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/releases"
+        },
+        {
+          "label": "托管入口",
+          "url": "https://open.maic.chat/"
+        }
+      ]
+    },
+    {
       "id": "culture-beats-ai-productivity",
       "date": "2026-08-30",
       "added": "2026-08-30",
