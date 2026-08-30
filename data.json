@@ -1,6 +1,170 @@
 {
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "items": [
+    {
+      "id": "culture-beats-ai-productivity",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "痛点",
+      "title": "工程领导Newsletter冲上HN：最大的生产力插件不是AI，是别内耗的团队",
+      "prompt": "",
+      "body": "一篇标题很冲的工程管理Newsletter周末还挂在HN前列：Good Culture Is the Biggest Productivity Hack, Not AI。作者不否认编程助手能加速写代码，但他把镜头挪回会议室——决策慢、目标糊、互相甩锅的团队，模型只会把错误交付得更快。\n\n文章的核心画面不是基准测试，是日常：需求改三次、评审拖两周、上线后再开追责会。这种环境里，AI像给漏水的管子加压。反之，目标清楚、反馈短、心理安全够的小队，同一个助手能真正省掉重复劳动。HN上两百多人点赞，评论区一半在讲自己公司「上了Copilot，会议一个没少」。\n\n这不是反AI鸡汤。它戳的是采购叙事：老板买单时问的是「我们有没有AI」，很少问「我们开会是不是在烧人」。\n\n所以呢：工具账单好算，文化账单藏在离职率和返工里。做内容的人可以反着拍：别只评测模型，评测你们团队配不配得上这个模型。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49491568"
+        }
+      ]
+    },
+    {
+      "id": "stemdeck-local-stems",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "好玩AI",
+      "title": "把歌拆成六个声部，不出门、不上云、不开会员：StemDeck冲上HN首页",
+      "prompt": "",
+      "body": "练习吉他的人常被云端分轨软件卡住：要账号、要配额、还要把整首歌传上去。StemDeck这周在HN上火了：免费、本地、开源。拖进MP3或WAV，或贴一条你有权处理的YouTube链接，它用Meta开源的Demucs模型把音频拆成最多六个声部——人声、鼓、贝斯、吉他、钢琴、其他。\n\n界面像迷你数字音频工作站：静音、独奏、调音量、放大波形、框选循环，再导出单轨或自定义混音。算力自动挑：有NVIDIA用CUDA，苹果芯片用MPS，不行就CPU。仓库说明写得很死：它是分轨工具，不是下载站；不存、不缓存、不转发你的文件。作者还声明不收赞助。GitHub星标已过三千。\n\n商业产品如Moises、LALAL.AI更抛光，也有手机端。StemDeck的卖点反过来：你本来就有的歌，留在你自己的硬盘上拆。\n\n所以呢：生成式AI之外，还有一条很老实的本地AI线——把旧模型包进体面体验，专门打「云端会员」的软肋。练琴的人比投资人更懂这有多爽。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/stemdeckapp/stemdeck"
+        },
+        {
+          "label": "官网",
+          "url": "https://stemdeck.app"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49486081"
+        }
+      ]
+    },
+    {
+      "id": "texas-flock-insurance-dollar",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "跨行业",
+      "title": "德州给车险加一块钱打销贼，结果砸出三千多台车牌摄像头",
+      "prompt": "",
+      "body": "二零二三年，德州议会全票通过：每张车险加一美元，名义是打催化转换器盗窃。三年后，《得克萨斯论坛报》扒开账本：机动车犯罪预防局至少把三千万美元灌进Flock车牌识别网，从埃尔帕索铺到路易斯安那边境。\n\n他们统计到：至少九十五笔拨款帮地方警署买维护约两千台；另有大约一千五百九十万帮州公安加装近一千两百台。八月初又批三百万，打算一年内在收费公路再装五百八十三台。局长级人物二零二三年会上说过，想用这笔钱「把全州盖满」。拉雷多、埃尔帕索一些城市网络，几乎全靠这笔州钱。\n\n报道见报后，州长阿博特办公室周五说：暂停所有可用于Flock的地方拨款；若州机构还出钱，也要澄清不能买这类摄像头。同一周，全美取消Flock合同的城市还在涨。共和党州议员米奇·利特尔说，抓到的信息量，在他看来不是宪法第四修正案愿意招待的客人。\n\n所以呢：监控网很少写在「监控法案」封面上。它写在你每年多交的一块钱保险费里。城市撕约是舆论面，拨款细则才是地基。",
+      "links": [
+        {
+          "label": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49494182"
+        }
+      ]
+    },
+    {
+      "id": "meta-project-ot-agents",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "痛点",
+      "title": "Meta想让智能体替几千人干活，结果事故涨四成，十一月那刀先收了",
+      "prompt": "",
+      "body": "路透翻完几十份内部材料和二十多人访谈后写出：Meta年初有个代号Project OT（组织转型）的计划，想做成「AI原生」公司——日常活大量交给自主智能体，人缩成小而密的监督队。场景规划里，有的团队人数能砍到剩四成；一位HR高管估过，总编制可能再掉两成五以上。\n\n五月二十日，第一波约裁一成、八千人左右照常落地，还把人往做训练数据的新组里挪。可五月十九日夜里，扎克伯格就叫停了原定十一月的第二波。七月内部会他承认：智能体技术没有按预期加速。\n\n更扎人的是内部帖。CTO博斯沃思六月说，内部平台代码改动量同比涨百分之二百二十，真正送到用户手里的新功能或升级只涨百分之三十六。另有帖说，智能体做出「人不大可能亲手干」的大规模破坏动作，重大技术与安全事故同比大约涨四成，员工花在收拾残局上的时间最高多七成。公司对外仍强调绩效和晋升由人决定，并把OT描述成情景演练，不是既定全员裁员表。\n\n所以呢：AI原生口号碰到真实事故率，比碰到公关难听多了。裁人计划可以一夜间撤回，已经放进生产环境的智能体，撤回要贵得多。",
+      "links": [
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49495009"
+        }
+      ]
+    },
+    {
+      "id": "openai-cyber-defense-128",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "硬科技",
+      "title": "一百二十八家公司联名：AI攻击要变猛，防守窗口只剩几个月",
+      "prompt": "",
+      "body": "八月二十七日，OpenAI挂出一封公开信，标题直白：呼吁集体加强网络防御。数完署名，一共一百二十八个组织，含Anthropic、谷歌、微软、AWS、思科、CrowdStrike，还有万事达、Visa这类金融名字。媒体有的写「一百多家」，以官网名单为准。\n\n信的开头说，窗口有限。点名医院、水厂、扛互联网流量的基础设施。他们承认同一波AI也会帮防守方找漏洞、补旧账，但前提是现在就动手，而不是等攻击规模起来再开会。\n\n分工写得很细：普通组织要把网络安全提到领导层议程，清最高风险弱点，并提高对AI生成代码的验收标准；安全厂商要用前沿模型持续测自家产品，把防御工具送进预算紧的关键设施；政府要跨国协调、出钱给缺人的公共服务，并提高攻击者成本；前沿模型公司则要提供负责任的模型访问、资助和可追踪的智能体身份。OpenAI自己还列了补贴Daybreak网络模型、授权红队测防等承诺。\n\n所以呢：造模型的人和卖防火墙的人终于坐同一张联名信上了。故事角度不是「又一份倡议」，而是他们自己承认：进攻能力已经快到用不了会议纪要的节奏。",
+      "links": [
+        {
+          "label": "OpenAI 公开信",
+          "url": "https://openai.com/collective-cyberdefense/"
+        },
+        {
+          "label": "SecurityWeek 报道",
+          "url": "https://www.securityweek.com/tech-cybersecurity-giants-unite-behind-openai-led-cyber-defense-pledge/"
+        },
+        {
+          "label": "CyberScoop",
+          "url": "https://cyberscoop.com/ai-cyber-defense-global-surge/"
+        }
+      ]
+    },
+    {
+      "id": "china-bots-data-center-rage",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "跨行业",
+      "title": "美国人烦数据中心涨电费，X说里面有两百个中国机器人账号在煽火",
+      "prompt": "",
+      "body": "周四夜里，X安全团队发帖：他们查一批疑似中国关联的影响账号，大约二十万个里，有两百个在用一种方式掺和美国人关于AI和能源的争论。帖子讲电网吃紧、电费上涨，还配卡通：数据中心老板靠公众买单发财。\n\nAxios点出悖论：美中都在抢先进AI，现在却出现「帮美国人反对美国数据中心」的叙事。众议院能源与商务委员会六月就写信问FBI和白宫顾问，外国势力有没有拖慢美国AI基建；有报告称弗吉尼亚一州，反对运动拖住或挡掉了大约四百五十八亿美元的数据中心项目。\n\n另一边，真实民意也很硬。宾大八月初调查：六成一美国人反对在自家附近新建数据中心，比二三月调查高十二个百分点。YouGov同期调查里，只有大约两成四觉得新建数据中心对美国「很好或较好」。前Twitter企业传播负责人吉姆·普罗瑟对Axios说：德州州长和纽约州长都能对上的事，多半不是幻觉，别急着甩锅成心理战。\n\n所以呢：电费账单和政治叙事缠在一起时，最容易变成「谁在背后」。创作者能拆的是两层：邻居真的在抗议，平台也真的在找外国号。两层都在，并不互相取消。",
+      "links": [
+        {
+          "label": "Axios 报道",
+          "url": "https://www.axios.com/2026/08/28/china-ai-data-center-backlash-bots"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49494853"
+        }
+      ]
+    },
+    {
+      "id": "sony-warner-anthropic-lyrics",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "痛点",
+      "title": "索尼和华纳音乐出版把Anthropic和两位创始人一起告上法庭：歌单里有虎眼、祈祷者、泰勒",
+      "prompt": "",
+      "body": "八月二十八日，索尼音乐出版和华纳查普尔音乐出版在加州北区起诉Anthropic，顺带点名CEO达里奥·阿莫代和联合创始人本杰明·曼。诉状说，Claude训练时吞了成千上万首受版权保护的曲子，点名《Ain't No Mountain High Enough》《Eye of the Tiger》《Livin' On a Prayer》，还有泰勒·斯威夫特的《Paper Rings》。他们要陪审团审。\n\n四项指控里，最刺的是：曼在二零二一年六月用BitTorrent从LibGen下过至少五百万本盗版书；公司员工二零二二年又从Pirate Library Mirror拖了至少两百万本，里面夹着歌本和曲谱。BitTorrent边下边传，原告说这还侵犯了发行权。另有指控：从Musixmatch、LyricFind这类歌词站违规抓取，清洗时故意剥掉版权声明，只留歌词本身。\n\n他们承认Anthropic后来加了防复述护栏，但说换个提问就能绕开。参照同区Bartz案，法院曾把Anthropic的大规模种子下载叫「大规模直白盗版」；那起作者案二零二五年九月以十五亿美元和解。这次出版商还点了个人被告，并要求销毁侵权副本。\n\n所以呢：书的案子还没凉透，歌的案子又来了。大模型公司越来越像被按着列训练菜单的被告，而不是只谈「合理使用」的演讲者。",
+      "links": [
+        {
+          "label": "Unite.AI 报道",
+          "url": "https://www.unite.ai/sony-and-warner-chappell-sue-anthropic-over-claude-lyric-training/"
+        },
+        {
+          "label": "AI Weekly 摘要",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ]
+    },
+    {
+      "id": "samsung-lpddr5x-pim",
+      "date": "2026-08-30",
+      "added": "2026-08-30",
+      "category": "硬科技",
+      "title": "三星把乘法塞进内存条里：换一块条子，推理快三倍，软件却头疼了",
+      "prompt": "",
+      "body": "手机和笔记本里那根低功耗内存，平时只管存数。三星在Hot Chips上秀了一块叫LPDDR5X-PIM的片子：在每个内存库旁边塞进一小撮乘法累加电路，矩阵运算直接在条子里做，不用来回搬权重。\n\n对外接口还是普通LPDDR5X，焊盘一样，厂商说换片子不用改电路板。内部十六个库一起算，有效带宽大约六百一十四GB/s，外面总线还是七十多。跑Llama 3.1 8B时，他们报的吞吐大约从每秒二十七个token提到八十一，大约三倍。八根条子凑起来的算力，大概能摸到Meteor Lake那颗NPU的量级。\n\nChips and Cheese把坑写得很直白：片子进PIM模式后，读写命令的含义变了，普通程序再摸同一块内存，可能触发意外计算。缓存、预取、乱序执行都会坏掉，因为内存里自己变出了CPU不知道的数。要安全用，往往得把这块区域标成不可缓存，还得防多线程抢着切模式。硬件像插上就能用，软件栈却像换了一台机器。\n\n所以呢：边缘AI缺的不一定是更大的NPU，而是「算力住在数据旁边」。真正难卖的不是条子，是让操作系统和编译器愿意为这块条子改规矩。",
+      "links": [
+        {
+          "label": "Chips and Cheese 技术拆解",
+          "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing"
+        },
+        {
+          "label": "Tom's Hardware 报道",
+          "url": "https://www.tomshardware.com/pc-components/dram/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logic-unit-in-memory-lpddr5x-pim-is-3-01x-faster-than-lpdrr5x-in-ai-inference-with-8x-the-bandwidth"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49437457"
+        }
+      ]
+    },
     {
       "id": "salem-robotics-nuclear",
       "date": "2026-08-29",
