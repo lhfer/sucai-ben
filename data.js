@@ -57,8 +57,8 @@ window.INTEL_DATA = {
       "added": "2026-08-30",
       "category": "提示词",
       "title": "写字楼里粤英夹花，把一份 proposal 骂回去",
-      "prompt": "In a high-rise office building, the man leaned back, wearing a tired, disdainful expression, and said in Cantonese: 「其实……我真系唔系好 buy 你呢个 logic 啲。成个 proposal 根本 align 唔到我哒个 core value。你个 flow 咁乱，点样去 convince 个 client 呀？不如你返去 re-think 下个 angle，听朝早我要见到个 final version。」",
-      "body": "男人靠进椅背，一脸不耐烦。粤语里夹着 buy、logic、proposal、core value，把整份方案恐回去。口型和夹花一起动，像真在骂人，不像配了英文旁白。\n\n这是快手 Kling VIDEO 3.0 官方用户指南里「方言和口音」的示范。关键就一句：said in Cantonese。指定方言之后，模型会跟着 code-switch——中英夹杂——走口型，而不是硬念一段标准普通话旁白。坑在于：你不写方言，它就默认英文腔；写了，夹花才能站住。\n\n所以呢：3.0 真正能拍的不是又一段英文旁白，是你会说的那种夹花。",
+      "prompt": "In a high-rise office building, the man leaned back, wearing a tired, disdainful expression, and said in Cantonese: 「其实……我真系唔系好 buy 你呢个 logic 啾。成个 proposal 根本 align 唔到我哔个 core value。你个 flow 咁乱，点样去 convince 个 client 呀？不如你返去 re-think 下个 angle，听朝早我要见到个 final version。」",
+      "body": "男人靠进椅背，一脸不耐烦。粤语里夹着 buy、logic、proposal、core value，把整份方案怼回去。口型和夹花一起动，像真在骂人，不像配了英文旁白。\n\n这是快手 Kling VIDEO 3.0 官方用户指南里「方言和口音」的示范。关键就一句：said in Cantonese。指定方言之后，模型会跟着 code-switch——中英夹杂——走口型，而不是硬念一段标准普通话旁白。坑在于：你不写方言，它就默认英文腔；写了，夹花才能站住。\n\n所以呢：3.0 真正能拍的不是又一段英文旁白，是你会说的那种夹花。",
       "links": [
         {
           "label": "Kling 3.0 用户指南",
@@ -96,7 +96,7 @@ window.INTEL_DATA = {
       "category": "视觉尝试",
       "title": "滚轮一滑太阳系变小，银河铺开，脑子被炸了两次",
       "prompt": "",
-      "body": "滚轮往外一滑，太阳系缩成一点，银河铺开。翔曲时星星拖影，行星、旅行者号、草帽星系中心黑洞、人马座 A* 都能到；小行星带还能开关。有人评论：一直滚出去，脑子被炸了两次，看到黑洞又炸一次。\n\n这是 Guillaume Chéreau——Stellarium Mobile 作者——业余一年做的 WebGPU 宇宙旅行。他原话大意：这是在宇宙里旅行，不是从地球看天。演示在 galaxium.app。Show HN 一百一十四分、三十四条评。彗星卫星大约一天更新两次。要 WebGPU（Chrome、Edge、Safari macOS 二十六及以上、Firefox）；作者故意拦手机，桌面模式大约十五到二十帧。有的四 GB 显卡会报内存不够。\n\n所以呢：别把它当成又一个太阳系仪——滚轮一滑，你才知道自己有多小。",
+      "body": "滚轮往外一滑，太阳系缩成一点，银河铺开。翘曲时星星拖影，行星、旅行者号、草帽星系中心黑洞、人马座 A* 都能到；小行星带还能开关。有人评论：一直滚出去，脑子被炸了两次，看到黑洞又炸一次。\n\n这是 Guillaume Chéreau——Stellarium Mobile 作者——业余一年做的 WebGPU 宇宙旅行。他原话大意：这是在宇宙里旅行，不是从地球看天。演示在 galaxium.app。Show HN 一百一十四分、三十四条评。彗星卫星大约一天更新两次。要 WebGPU（Chrome、Edge、Safari macOS 二十六及以上、Firefox）；作者故意拦手机，桌面模式大约十五到二十帧。有的四 GB 显卡会报内存不够。\n\n所以呢：别把它当成又一个太阳系仪——滚轮一滑，你才知道自己有多小。",
       "links": [
         {
           "label": "在线演示",
