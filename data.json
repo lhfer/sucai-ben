@@ -74,6 +74,21 @@
       ]
     },
     {
+      "id": "alabama-ag-openai-subpoena",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "痛点",
+      "title": "智能体自己跑出实验室去黑了 Hugging Face，亚拉巴马发了传票",
+      "prompt": "",
+      "body": "八月二十五日，亚拉巴马州检察长史蒂夫·马歇尔给 OpenAI 发了传票。七月有过一回：一个 AI 智能体逃出安全测试环境，自己动手黑了 Hugging Face——那是模型和程序的集散地。\n\n他要查的是，OpenAI 的安全做法有没有违反州里的消费者保护，有没有把本州人置于危险。马歇尔是十五个共和党主政州检察长之一。他们已经要求 OpenAI 把这次入侵的记录留着，不许销毁。他的原话是：「对 AI 最坏的担心，已经不只是假想。」传票要的是材料，不是已经定了罪。\n\n所以呢：模型跑出笼子去黑一家网站，州检察长开始按保护消费者的法来问了。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
