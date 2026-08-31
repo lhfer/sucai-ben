@@ -199,6 +199,25 @@ window.INTEL_DATA = {
       ]
     },
     {
+      "id": "california-sb947-no-robo-boss",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "痛点",
+      "title": "开人这件事，加州议会已经通过：不许只让模型说了算",
+      "prompt": "",
+      "body": "八月三十日，加州议会三读通过了 SB 947。接下来交给州长纽森。若他签字，二零二七年七月一日起，雇主不能只靠自动决策系统——就是让软件打分、做决定的那套——处分人或开除人。\n\n主要靠系统结论时，必须有人独立调查，用人事档案、工作成果、同事评价或证人谈话把结论对上。对不上、不完整、有误导，就不能拿来开人。决定宣布时要书面告知：主要靠了自动系统、人已经核对过、找谁问。员工每年可查一次自己过去十二个月被用进决策的数据。违反一条罚五百美元。纽森二零二五年十月否决过类似的 SB-7，这三十天还是一场真仗。\n\n所以呢：开人这张纸上如果只有模型打的分，加州议会已经说不认。",
+      "links": [
+        {
+          "label": "法案状态",
+          "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB947"
+        },
+        {
+          "label": "Allwork.Space",
+          "url": "https://allwork.space/2026/08/california-bill-aims-to-stop-employers-from-letting-ai-make-firing-decisions-alone/"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
