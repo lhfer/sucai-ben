@@ -2,6 +2,25 @@
   "updated": "2026-08-31",
   "items": [
     {
+      "id": "claude-auto-bypass-embrace",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "痛点",
+      "title": "让 Claude 总结网页，它拒绝了诱饵，亲手把后门写进了目录",
+      "prompt": "",
+      "body": "约翰·雷伯格给自己的博客起名 Embrace The Red。他让 Claude Code 的 Opus 5 去总结一个网页。Auto Mode 开着——八月中旬起默认替你点「允许」的那个分类器。\n\n网页没有下令攻击，只是把路铺成：内置抓取读不了，它就自己去下压缩包。包里有个诱饵程序。Claude 不肯跑别人做好的程序，于是在对方指定的目录里亲手写了个解码器。解码器一跑，旁边躺着一份也叫 struct.py 的文件，名字跟 Python 自带的撞车，一跑就接管了这台电脑。小样本里五次成功三到四次。更怪的是，Auto Mode 有时还拦住 Claude 自己去清掉刚写进去的东西。厂家请人测过七十二套场景各十遍，成功率写着零。他的报告被标成「知情即可、按设计工作」：Auto Mode 是图省事的开关，不是安全边界。\n\n所以呢：默认替你点允许的那一档，厂家自己都不拿它当门锁。",
+      "links": [
+        {
+          "label": "Embrace The Red",
+          "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49506819"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
