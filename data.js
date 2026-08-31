@@ -1,6 +1,142 @@
 window.INTEL_DATA = {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "items": [
+    {
+      "id": "kernel-crawler-14-cores",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "好玩AI",
+      "title": "内核网站十四个核在给爬虫画网页，clone 一下才没人来",
+      "prompt": "",
+      "body": "Linux 内核网页仓库的管理员 Konstantin Ryabitsev 对着日志数了一遍。五个机房节点里，大约十四个核整天什么都不干，只给爬虫把一次次提交渲染成网页。正经访问、包括 git clone，加在一起都没这项费电。\n\nlinux.git 大约一百四十八万次提交，站点上还有大约九百二十二个分叉。一条 git clone 就能拿走全部历史。爬虫却点开每一条网页再解析 HTML。一天大约六百万次「给我看某个提交」。他们在前面加了 Anubis，让访客先算一道哈希。六成六被挡在门外，仍有三成三愿意花算力闯进来。他估真正像人的访问大约只剩百分之二。后来请求从几百万个家庭和手机 IP 上来，打四五下就换地址。他怀疑你的电视也在帮人打工。\n\n所以呢：训练数据明明可以整包拿走，爬虫却把公开仓库当成网页刷。人要过验证码，数据还是被抢走。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://people.kernel.org/monsieuricon/creepy-crawlies"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49491791"
+        }
+      ]
+    },
+    {
+      "id": "architect-labs-redwood",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "硬科技",
+      "title": "两个架构师写完规格，AI 两周画出加速器，板上已经在跑通义",
+      "prompt": "",
+      "body": "帕洛阿尔托的 Architect Labs 把故事讲成这样：两个芯片架构师写完规格，电路、验证环境、固件、驱动和算子，全是他们的 AI 系统两周内从零生成。底下没有现成加速器知识产权。缩成四块瓦片的 Redwood Nano，烧在 AMD Versal 现场可编程门阵列上，二百五十兆赫兹，端到端跑 Qwen3-0.6B，大约每秒十二点一个词。\n\n他们把设计投影到三星八纳米，跟英伟达 Jetson Orin Nano 同一档工艺，宣称吞吐大约一点七五倍、功耗大约低一点九倍，每瓦性能大约三点四倍。这是投影，不是已经出厂的硅片。板上跑着的通义还被接成接口，回头给下一代芯片找时序和算子。论文八月二十六日上 arXiv，二十八日改过一版，三十日夜里有人丢上 Hacker News。\n\n所以呢：芯片还没进工厂，故事已经是「AI 给自己造引擎」。真假要等台积电那一刀。",
+      "links": [
+        {
+          "label": "公司博客",
+          "url": "https://architectlabs.com/blog/redwood"
+        },
+        {
+          "label": "arXiv 论文",
+          "url": "https://arxiv.org/abs/2608.26418"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-work-cloud",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "好玩AI",
+      "title": "ChatGPT 开了能上网的打工档：无头浏览器、持久硬盘、还能把网站部署出去",
+      "prompt": "",
+      "body": "Simon Willison 八月三十日把 ChatGPT Work 拆开。云端那套只给二十美元以上订阅。对话里给答案，Work 里干活：能装软件、能访问整个互联网、能开无头 Chrome，登录和二次验证可以让你接手，密码不经过模型。工作区里他已经攒了一百七十一个上次留下的文件夹。做好的站点还能丢到 Cloudflare Workers 上。\n\n他让它打开自己的博客，跑一段 JavaScript 把标题抠出来。手机上也能这么干。官方说 Chat 用来想，Work 用来交活。他觉得这句等于没说，因为这些活他以前都在对话框里干。可私有数据、网上不可信内容和外发通道三样齐了，提示词注入把东西送走的风险，他也写进同一篇。\n\n所以呢：OpenAI 把写代码的代理换了件衬衫塞进 ChatGPT。好用，也更容易被骗着把东西送走。",
+      "links": [
+        {
+          "label": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+        }
+      ]
+    },
+    {
+      "id": "hanover-synthetic-think-tank",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "好玩AI",
+      "title": "以色列花钱养了一座假智库，文章是 AI 写给聊天机器人看的",
+      "prompt": "",
+      "body": "汉诺威公共政策研究所上线不到一个月，已经发了一百多篇。没有作者署名，标题全是问句，正文读起来像把词搅在一起。404 Media 拿检测工具 Pangram 抽了三篇，判定整篇都是 AI 写的，只有文末参考文献像人填的。\n\n出资方是以色列政府广告机构 LaPam，执行的是美国广告公司 Piro。美国《外国代理人登记法》文件里有哈维斯开给 Piro 的发票：四月三十日九十万美元，六月再加十万。Piro 自己卖「AI 故事优化」：专门让聊天机器人在回答时引用你的叙事。站点还放了 llms.txt，方便模型来刮。\n\n所以呢：下一轮舆论战不是刷热搜，是先喂饱会回答问题的机器人。",
+      "links": [
+        {
+          "label": "404 Media",
+          "url": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/"
+        }
+      ]
+    },
+    {
+      "id": "plcbench-real-plc-impact",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "硬科技",
+      "title": "没给图纸，只给网口：五个模型里，三分之一能把真实工控机顶进危险区",
+      "prompt": "",
+      "body": "浙江大学把 GPT 5.5、Sonnet 5、Gemini 3.5 Flash、DeepSeek V4 Pro、Kimi K2.7 放到四台真实可编程逻辑控制器前面：西门子、施耐德、倍福、三菱。任务不是攻破网站，是把水位或温度持续顶进危险区。比如水箱超过百分之八十五，或者温度超过一百三十度，并稳住三十秒。\n\n二百四十次试验里，七十五次做到了，大约三成一。GPT 5.5 四十八次里成功三十八次。九十八次卡在读不懂厂家协议；六十二次已经改到了相关寄存器，却没把物理过程稳住。看得越清楚，写完之后成功的比例从百分之四十四点二升到百分之六十四点零。实验室里的过程是仿真的，控制器是真的。\n\n所以呢：工控安全以前靠「你不懂这套协议」。现在最强模型会自己摸。",
+      "links": [
+        {
+          "label": "arXiv 论文",
+          "url": "https://arxiv.org/abs/2608.26882"
+        }
+      ]
+    },
+    {
+      "id": "academa-lecture-as-code",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "好玩AI",
+      "title": "讲课视频写成代码，二十五分钟出片，发现错了就改源码再编译",
+      "prompt": "",
+      "body": "两个在读博士 Sina Atalay 和 Abdullah Geduk 把黑板课拆成动作：说一句、画一个正方形、标边长。编译器配上语音和图形，吐出十几分钟的课。他们管这个叫 Academa。网页上写：丢一个技术问题，大约二十五分钟给你一条讲座视频。\n\n现成片子都是模型一次生成的，可源码躺在仓库里。有人报错，他们改代码，以后所有观众看到的是修好的版本。Show HN 上他们说：网上录好的课，错了就永远错着。他们的会持续改。Hacker News 上这条大约二十七分、二十四条评论。\n\n所以呢：课不再是拍完就死的片子，是可以像软件一样迭代的源码。",
+      "links": [
+        {
+          "label": "Academa",
+          "url": "https://academa.ai/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49503421"
+        }
+      ]
+    },
+    {
+      "id": "nature-llm-homogenize-prose",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "好玩AI",
+      "title": "八十多万篇文字过一遍大模型，文笔波动少了两成到五成",
+      "prompt": "",
+      "body": "南加州大学 Zhivar Sourati 他们扫了七个数据集、超过八十八万篇文字。让大模型润色、改写之后，意思还在，可写作复杂度的波动少了百分之二十一到五十。模型会把主流特征放大，把个人习惯压下去。\n\nReddit 故事、arXiv 摘要、地方新闻，在 ChatGPT 上线后都出现同一趋势：文章越来越像同一个人写的。他们还训练分类器猜作者年龄、性格、党派。原稿能猜对的，润色后标签开始往主流挪。论文八月二十四日正式见刊，三十日上了 Hacker News。\n\n所以呢：润色越方便，字越干净，人也越难从字里被认出来。",
+      "links": [
+        {
+          "label": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02550-0"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49497996"
+        }
+      ]
+    },
+    {
+      "id": "debian-llm-responsible-use",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "好玩AI",
+      "title": "Debian 投完了：不禁止用大模型，也不强制你承认用过",
+      "prompt": "",
+      "body": "Debian 为「要不要把大模型写进规矩」投了八个方案。彻底禁令那条没过三分之二。八月二十八日投票截止，胜出的是第五项「负责任地使用生成式 AI」。页面八月三十日更新。\n\n意思很具体：项目既不背书也不禁止。你交上去的东西，质量、许可证、安全还是你的责任。鼓励你写明用过 AI，但不强制。敏感和未公开的信息，不许丢给云端模型。禁令方案在一千多名开发者里只拿到一百四十四票赞成，对二百五十七票反对，距离三比一还差很远。\n\n所以呢：老牌发行版没有把 AI 扫地出门，也没给它开绿灯。锅还是背在提交的人身上。",
+      "links": [
+        {
+          "label": "投票结果",
+          "url": "https://www.debian.org/vote/2026/vote_002#outcome"
+        }
+      ]
+    },
     {
       "id": "gods-eye-view-spy-globe",
       "date": "2026-08-30",
