@@ -161,6 +161,25 @@ window.INTEL_DATA = {
       ]
     },
     {
+      "id": "edm-musicians-hunt-ai-slop",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "痛点",
+      "title": "人声和旋律一起卡壳，二十六岁制作人说这就是 AI 电音的马脚",
+      "prompt": "",
+      "body": "八月二十九日，《The Verge》写了两个电音制作人当街点名。二十六岁的马克斯·哈里斯，网名 H4RRIS；三十九岁的 Nihil Young。他们公开指认像是 Suno 做出来的曲子。\n\n哈里斯听的是嘶声，还有人声和旋律同步卡住——模型把两件乐器当成一件来了。Young 给索尼、华纳、环球做过后期：把歌调好，做出厂那一版。他说 AI 铺开后，客户单子越来越干。Threads 上发完，黑客来了，网暴也来了，他先停了点名。Suno 简易模式：选个曲风，点一下。Deezer 说新上传里 AI 超过一半。Kapwing 统计，Spotify 和 YouTube 上前十名 AI 音乐创作者二零二五年赚了超过六百万美元。AI 虚拟人 Xania Monet 签了三百万美元的约。Young 说，人听歌像在手机喇叭上啃快餐。\n\n所以呢：垃圾歌不是听不出来，是听出来的人，客户和安全感一起没了。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai"
+        },
+        {
+          "label": "SlopTracker",
+          "url": "https://sloptracker.org/"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
