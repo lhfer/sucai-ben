@@ -21,6 +21,25 @@ window.INTEL_DATA = {
       ]
     },
     {
+      "id": "openai-plus-5h-limit-back",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "痛点",
+      "title": "Plus 刚过了几周只算周额度的日子，五个小时的闸又落下来了",
+      "prompt": "",
+      "body": "Tibo 是 OpenAI 做 Codex 的工程负责人。八月二十四到二十五日，他宣布：ChatGPT Plus 在写代码的 Codex、以及办公用的 ChatGPT Work 上，五个小时一截的用量限制，次日回来。\n\n这闸已经抬了好几周，只剩每周总额度。他说两个原因。一是把算力高峰摊平。二是 Plus 用户一不小心把一周额度烧光，然后一脸懵。一百美元和两百美元的 Pro 档，五小时闸接下来几个月继续关着。撞上五小时或周额度，就等，或者再买额度。\n\n所以呢：Plus 便宜是便宜，便宜的那档又开始按五个小时掐表了。",
+      "links": [
+        {
+          "label": "9to5Mac",
+          "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49432879"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
