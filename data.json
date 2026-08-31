@@ -218,6 +218,21 @@
       ]
     },
     {
+      "id": "emerald-ai-grid-flex",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "跨行业",
+      "title": "电网一紧，机房四十秒里让出三成电，这家公司估值到了十亿",
+      "prompt": "",
+      "body": "华盛顿的 Emerald AI 融了一亿五千万美元 A 轮，估值十点五亿美元。Energize Capital 和 DCVC 领投。加上这笔，总共已融超过两亿两千万。十二家财富世界五百强成了投资人。\n\n创始人兼 CEO 瓦伦·西瓦拉姆说，AI 自己那道最大的坎就是电。他们卖的不是新电厂，是软件：让数据中心看电网脸色用电。电网一紧，四十秒里能把用电砍掉大约三成。他们宣称，光靠现有美国电网，这样能挤出超过一百吉瓦给 AI。一吉瓦是十亿瓦，大约一座大型电厂；一百吉瓦就是一百座这个量级。五场商业演示跑完，已经在整座数据中心的规模上商用。\n\n所以呢：电不够，不一定要再修十年电网。有人先让机房学会在高峰时让路。",
+      "links": [
+        {
+          "label": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20260825127649/en/Emerald-AI-Raises-%24150-Million-Series-A-at-%241.05-Billion-Valuation-to-Scale-Power-Flexible-AI-Data-Centers"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
