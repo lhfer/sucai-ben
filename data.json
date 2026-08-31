@@ -2,6 +2,350 @@
   "updated": "2026-08-31",
   "items": [
     {
+      "id": "nfc-harvest-pcb-card",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "小众工具",
+      "title": "名片贴上手机，没电池的二十一个灯自己跳起来",
+      "prompt": "",
+      "body": "名片贴上手机背面。没有电池。二十一个灯自己跳起来。\n\n威尔逊·哈珀是电气工程本科生。他不想做又厚又贵、还得塞电池的 PCB 名片，于是用上了 NXP 的 NTAG I2C Plus——这块 NFC 芯片不只把联系方式传给手机，还能把磁场里多出来的电导给外面的电路。主控是 ATtiny816。灯用 Charlieplexing 串起来：六个脚管二十颗，再加一颗指示灯。天线绕满整张卡，谐在十三点五六兆赫。嘉立创一次做了三十张，信用卡厚度，无铅。今天上了 Show HN，一百四十四分。仓库开源。\n\n所以呢：下次递名片，让对方拿手机贴一下——灯会自己亮。",
+      "links": [
+        {
+          "label": "项目手记",
+          "url": "https://wilsonharper.net/projects/businesscard/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/WiHarper/nfc_card"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49478426"
+        }
+      ]
+    },
+    {
+      "id": "infinite-block-illusion",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "视觉尝试",
+      "title": "方块永远往洞里滚，滚进去又从边上长出来",
+      "prompt": "",
+      "body": "方块永远往洞里滚。滚进去，边上又长出新的。你盯着看，分不清谁在动。\n\n做这个的是 xenova，就是 Hugging Face 上那个 transformers.js 的约书亚。八月二十五开源。Three.js 加 WebGPU。三十套材质：石头、冰川、熔岩、竹子、皮革、沙丘。右边滑出调参坞，八十二个旋钮；舞台默认一千零八十见方，坞打开画面不挪。空格暂停，M 开关声音——配的是谢帕德音阶，那种听着一直在升、其实没升的音。MIT。Chrome 打开就能看。\n\n所以呢：打开标签页，让方块滚。你会怀疑看见的是洞，还是自己在掉进去。",
+      "links": [
+        {
+          "label": "在线演示",
+          "url": "https://xenova-infinite-block-illusion.static.hf.space/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/xenova/infinite-block-illusion"
+        }
+      ]
+    },
+    {
+      "id": "prompt-kling-family-morning-4voice",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "早饭还没吃完，四个人已经抢完一轮话",
+      "prompt": "A busy kitchen in the morning.\nCereal pouring. Coffee machine buzzing.\nKids running footsteps. Backpack zippers.\n\nA mother flips toast quickly, stressed.\n[Character A: Mom, fast urgent voice]: \"Shoes on! We're leaving in five minutes!\"\n\nImmediately, a little girl whines from the hallway.\n[Character B: Little Daughter, crying voice]: \"I can't find my sweater!\"\n\nThe older brother groans dramatically.\n[Character C: Older Brother, annoyed sarcastic tone]: \"Because you never put it away.\"\n\nMom sighs heavily.\n[Mom, shouting louder]: \"Nobody is fighting before 8 AM!\"\n\nThe dad walks in calmly sipping coffee.\n[Character D: Dad, sleepy amused voice]: \"Good morning, team.\"\n\nMom turns sharply.\n[Mom, exhausted voice]: \"Help.\" ",
+      "body": "厨房乱成一团。倒麦片，咖啡机响，孩子跑，书包拉链拉上。妈妈翻着吐司喊：五分钟出门！立刻，走廊里小女儿哭：毛衣找不到。哥哥阴阳怪气。妈妈更大声：八点前不许吵。爸爸端着咖啡走进来，睡眼惺忪：早安，团队。妈妈转身：救命。\n\n这是 fal 上 Kling 3.0 提示词指南的四人对话示范。关键不在厨房，在 Immediately——立刻。指南写了：不写这词，模型会把两个人的话叠成一句。角色要钉死 Character A、B、C、D，语气写进标签里：着急、哭、阴阳、困。原生音频开着，口型才跟得上抢话。\n\n所以呢：一家四口能拍，是因为你规定了谁先抢谁的话。",
+      "links": [
+        {
+          "label": "Kling 3.0 提示词指南",
+          "url": "https://blog.fal.ai/kling-3-0-prompting-guide/"
+        }
+      ]
+    },
+    {
+      "id": "wilderfire-fractal-flame-ai",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "视觉尝试",
+      "title": "分形火焰在浏览器里烧，旁边的模型边看边拧旋钮",
+      "prompt": "",
+      "body": "浏览器里一团火焰在烧。不是视频，是分形火焰：无数小点在显卡上乱跑，堆成一片会动的火。你拖三角形，火跟着变。旁边还能叫一个模型来改——它看着当前画面，最多拧八轮参数。\n\n作者安德列·帕奎特。他把老软件 JWildfire、Apophysis 用 WebGPU 重做了，九百多种变体，每团火各自编译成一条计算着色器。AI 助手走 OpenRouter，你自带钥匙；能看图的模型会自动打分再改。全在本地，什么都不上传。许可证是 LGPL。要 Chrome、Edge，或 Safari 十八以上。点 Randomize 就能出一张，不满意再 Mutate。\n\n所以呢：以前要装一套分形软件。现在打开网页，让模型边看边烧。",
+      "links": [
+        {
+          "label": "在线演示",
+          "url": "https://wilderfire.fly.dev"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/thepacket/wilderfire"
+        }
+      ]
+    },
+    {
+      "id": "prompt-veo-plate-drop-hook",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "厨师盯着镜头，完整盘子从手里滑下去",
+      "prompt": "Subject: A 30-year-old chef in a white uniform, flour on forearms.\n\nAction: Holds a perfectly intact ceramic plate in front of camera,\nmaking direct eye contact, then lets the plate slip from her hands.\nPlate falls toward floor.\n\nContext: Restaurant kitchen, warm overhead lighting, dim bokeh\nbackground.\n\nCamera: Medium close-up, 50mm lens, locked-off static. Camera does\nnot follow the falling plate.\n\nLighting: Warm overhead key plus soft front fill.\n\nAudio: Sharp ceramic shatter. Brief silence after impact. Distant\nkitchen ambience returns.\n\nAspect: 9:16. Duration: 5s.",
+      "body": "三十岁厨师，白上衣，小臂上有面粉。她把一只完整的瓷盘举到镜头前，对上眼，松手。盘子往地上掉。镜头锁死，五十毫米，中近景，不跟着盘子走。一声脆响，短暂静默，远处厨房声又回来。竖屏，五秒。\n\n这是 Prompt Architects 整理的 Veo 病毒钩子第一条。钩子就两下：对视，加松手。脑子以为盘子是安全的，结果不是。业余写法会让镜头追盘子，一追，意外就没了。音频要写进提示词：碎裂、静默、环境声。Veo 3 画面和声音一次生成，你不写声音，钩子只剩半截。人物要写具体，写「一个人」就会假。\n\n所以呢：镜头不动，盘子才吓人。",
+      "links": [
+        {
+          "label": "15 条病毒 Veo 提示词",
+          "url": "https://prompt-architects.com/blog/28-15-viral-veo3-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prequel-cinematic-screen",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "小众工具",
+      "title": "点完录制，缩放和死气已经替你剪好了",
+      "prompt": "",
+      "body": "你在 Mac 上录一段操作。停下来，编辑器自己打开。点击过的地方已经推近，打字的地方已经框住，发呆的空镜已经标好能剪。摄像头没烧进画面，事后还能改成圆的、放哪个角。\n\n这是 Prequel。八月三十上了 Product Hunt。苹果芯片、macOS 十四以上。缩放跟着点击和打字走，背景、圆角、阴影事后加。麦克风和系统音分开两条增益，通知爆音事后拧小就行。导出最高四 K、一百二十帧，H.264 或 HEVC，全在本机媒体引擎上压，不上传。十四天试用，无水印。\n\n所以呢：产品演示难看，常常不是功能差，是录像平。这个是替你做完那一刀推近。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://prequel.sh"
+        }
+      ]
+    },
+    {
+      "id": "prompt-minimax-h3-coffee-to-desert",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "咖啡泡沫推近，沙丘自己从可可粉里长出来",
+      "prompt": "@Image 1: Push in rapidly toward the milk foam, cocoa particles, and dark liquid texture on the coffee until particles, bubbles, and ripples fill the frame. Keep the macro photography realistic, with extremely shallow depth of field and fine powder drifting through backlight. Let the surface feel suspended between granular sand and fluid.\n\nAt the exact moment when the cocoa particles, foam contours, and coffee swirl closely resemble the dune ridges, wind-carved textures, and airborne sand in @Image 2, transition seamlessly into the desert landscape. Continue pushing forward until the full dunes from @Image 2 are revealed.\n\nNo tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it photoreal, quiet, and restrained—as though one granular material naturally expands from the microscopic coffee surface into a vast desert. One continuous shot with no visible edit.",
+      "body": "镜头对着一杯咖啡猛推。奶泡、可可粉、深色液体铺满画面。浅景深，背光里有细粉在飘。表面悬在沙子和液体之间。就在可可粒、泡沫边、漩涡长得像沙丘脊、风刻纹理、飞沙的那一瞬，画面无缝变成沙漠，继续往前推，整片沙丘摊开。\n\n这是 MiniMax H3 参考生视频的示范。两张图各有工作：图一锁咖啡微距，图二锁沙丘。要写「一张连续镜头，不许撕裂、黑场、硬切、合成缝」。H3 把文字、图、视频、音频放进同一上下文，五到十五秒，两点 K，自带立体声。Pixo 那版把同一招写成可粘贴的公式。\n\n所以呢：转场不是特效名，是你规定「像到什么程度才变」。",
+      "links": [
+        {
+          "label": "fal H3 提示词指南",
+          "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide"
+        },
+        {
+          "label": "Pixo 二十条可粘贴提示",
+          "url": "https://pixo.video/blog/minimax-h3-prompts"
+        }
+      ]
+    },
+    {
+      "id": "magical-canopy-raymarch",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "视觉尝试",
+      "title": "树冠在雾里一层层晃，鼠标一动光跟着走",
+      "prompt": "",
+      "body": "树冠在雾里一层层晃。叶子被风推着，软阴影贴在底下。你动鼠标，那团光跟着走。\n\n这是法国开发者亚瑟·恩格尔的 Magical Canopy。mesh3d 八月二十一日收录。整棵树冠用光线步进画出来——不是搭多边形模型，是对着体积一步步采样——Three.js 的 TSL 着色器跑在 WebGPU 上。演示在 lab.aengel.io。没有账号，打开就能看。要一台认 WebGPU 的浏览器。它不是教程，是一页能发进视频的气氛。\n\n所以呢：树不用种。光线走进去，叶子自己在晃。",
+      "links": [
+        {
+          "label": "在线演示",
+          "url": "https://lab.aengel.io/webgpu-raymarching-canopy/"
+        },
+        {
+          "label": "mesh3d 收录",
+          "url": "https://mesh3d.gallery/experiment/magical-canopy"
+        }
+      ]
+    },
+    {
+      "id": "neo-silo-novel-tool",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "小众工具",
+      "title": "Howey 把自己关进筒仓，三次回车就是新一章",
+      "prompt": "",
+      "body": "《羊毛记》的作者休·豪伊把自己关进全屏。回车两下，新一节。回车三下，新一章。左边是章节大纲，右边是占位符。删掉又舍不得的句子，拖进 Darlings——亲爱的们——以后还能捞回来。\n\n他讨厌 Word 和 Scrivener 的花活。九年前就写过理想工具叫 NEO。八月十日把还没到测试版的东西丢出来：Mac、Windows、Linux，免费。进筒仓模式要打一串句子才放你走。还能把稿子加成 PDF 寄给自己，带 SHA-256 指纹，防以后有人用模型伪造写作史。GitHub 大约二百九十星。Windows 安装现在还有坑。\n\n所以呢：写长篇最需要的不是功能，是一个不容易逃出去的房间。",
+      "links": [
+        {
+          "label": "作者介绍",
+          "url": "https://hughhowey.com/introducing-neo/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/hughhowey/neo"
+        }
+      ]
+    },
+    {
+      "id": "prompt-minimax-h3-binocular-brand-film",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "双筒望远镜框死不动，四张静帧被扫成品牌片",
+      "prompt": "Use Images 1–4 as sequential keyframes, seen through a vintage binocular viewfinder searching for the MINIMAX installation. Open out of focus with subtle handheld shake, then push in quickly and rack focus onto Image 1. Between keyframes, use fast binocular-scan transitions with whip movement, motion blur, optical smearing, and brief exposure flicker. Cut at peak blur, then settle and snap back into focus. Keep the twin circular lens mask absolutely fixed throughout: identical position, scale, feathered black vignette, and edge softness, with no warping or drift. Only the image inside the mask may move.\n\nIn Image 2, let the fabric move gently in the wind while the MINIMAX lettering follows the folds and remains legible. In Image 3, the subject should feel like a stylish passerby caught by chance, walking, turning, and swinging their arms naturally. In Image 4, the subject adjusts their glasses or lifts their chin slightly with a cool, effortless fashion-campaign attitude.\n\nRed typography should resolve with the focus: begin slightly blurred and at low opacity, then fade into clarity over 0.3–0.5 seconds. A subtle vertical slide or slight tracking expansion is allowed. Fade it out before the next transition or let motion blur carry it away. No spins, bounces, or large fly-ins/outs.\n\nVisual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine grain, soft highlight halation, restrained color, and red typographic accents. Minimal, premium, lightly playful. Do not add people, vehicles, buildings, or logos. Preserve the core composition and the MINIMAX installation exactly.",
+      "body": "两个圆框钉在画面上，一辈子不动。里面的世界在扫：虚焦、甩、运动模糊、曝光闪一下，再啪地合焦。红字像打字机那样跟着焦点出现，零点三秒内变清楚，下一刀之前被模糊带走。\n\n这是 MiniMax H3 的品牌片示范。四张图当关键帧，去找一块写着 MINIMAX 的装置。遮罩的位置、大小、黑边羽化必须写死，只许圆里面动。图二布料被风吹，字跟着褶皱还得能读。图三像偶遇的路人。图四扶眼镜、抬下巴。视觉：韦斯·安德森式三十五毫米，细颗粒，红色字。\n\n所以呢：品牌片的道具不是 Logo 飞进来，是那副永远不抖的望远镜。",
+      "links": [
+        {
+          "label": "fal H3 提示词指南",
+          "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide"
+        }
+      ]
+    },
+    {
+      "id": "webmotion-deterministic-video",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "视觉尝试",
+      "title": "第几帧画什么写死了，导出的 MP4 跟预览一个像素不差",
+      "prompt": "",
+      "body": "页面上有一段片子在播。你把进度条随便拖到某一帧，画面跟导出后的 MP4 是同一张。因为它规定：能看见的一切，只是当前帧号的纯函数。不许读墙上的钟，不许随机数，不许用动画帧的时间戳。\n\n这是 WebMotion。场景就是 HTML：标签里写从第几帧到第几帧、透明度怎么缓动。声音走同一条时间轴，离线混完再塞进 AAC。给智能体还配了技能：npx webmotion shoot 把关键帧打成 PNG 给模型看，lint 抓时间轴上的错。包名 @superhq/webmotion，浏览器里就能导出。\n\n所以呢：AI 写视频以前是盲写三百帧。现在每一帧都能对得上。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://webmotion.superhq.ai/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/superhq-ai/webmotion"
+        }
+      ]
+    },
+    {
+      "id": "prompt-kling-parked-car-lofi",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "夜雨车里他说 That's worse than yes",
+      "prompt": "Inside a parked car at night.\nRain tapping softly on the roof.\nLow lo-fi music playing from the speakers.\n\nA driver grips the steering wheel, nervous.\n[Character A: Driver Friend, hesitant voice]: \"So… are you mad at me?\"\n\nImmediately, the passenger stares out the window.\n[Character B: Passenger Friend, quiet cold tone]: \"I don't know.\"\n\nThe driver swallows.\n[Driver Friend, softly speaking]: \"That's worse than yes.\"\n\nThe passenger sighs deeply.\n[Passenger Friend, tired voice]: \"I just didn't expect it from you.\" ",
+      "body": "夜里，车停着。雨敲车顶。喇叭里低保真音乐。开车的人握着方向盘，声音发虚：你在生我的气吗。立刻，副驾盯着窗外，冷冷的：我不知道。开车的人咽了一下：这比说是还糟。副驾叹气：我只是没想到是你。\n\n还是 Kling 3.0 指南里的双人对话。Immediately 再次出现。角色标签钉死 Driver Friend 和 Passenger Friend，语气写进标签：犹豫、冷、轻声、疲倦。Lo-fi 和雨声要写进环境，模型才不会配成热闹配乐。大约八秒。\n\n所以呢：短片最狠的一句，往往不是骂人，是「这比说是还糟」。",
+      "links": [
+        {
+          "label": "Kling 3.0 提示词指南",
+          "url": "https://blog.fal.ai/kling-3-0-prompting-guide/"
+        }
+      ]
+    },
+    {
+      "id": "rip-my-build-cemetery",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "小众工具",
+      "title": "侧项目死了，来这儿写讣告，还让人献玫瑰",
+      "prompt": "",
+      "body": "侧项目死了。你来这儿写讣告：叫什么、哪年活的、死于什么、下一件想做什么。过审之后有一块永久墓地。访客能献一朵一块钱的玫瑰，或者花两块钱给坟上加装饰。抄走的教训会排行。\n\n站名叫 RIP MY BUILD，侧项目公墓。头牌是 Logology：五年打磨产品，品牌没做完就停了，墓志铭写「我们发货太慢，品牌没做完」。本周排行还有 Idento、Freeflow。写讣告免费，不用登录。他们说：发帖庆祝开始，讣告解释结尾。结果那条教训，比再开一个一模一样的仓库有用。\n\n所以呢：死掉的项目也该有一次发布。至少让下一件事捡到那条教训。",
+      "links": [
+        {
+          "label": "侧项目公墓",
+          "url": "https://www.ripmybuild.com"
+        }
+      ]
+    },
+    {
+      "id": "prompt-mj-v8-text-batch-motel",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "汽车旅馆招牌太长，拆成三组引号才认字",
+      "prompt": "Motel sign (batch the line into three quoted chunks):\nA cinematic still of a vintage motel sign that says \"Worry not\" \"You can sleep here for free\" \"If danger is in your future.\"\n\nAlphabet sheet (split the alphabet across quoted groups):\nA complete alphabet sheet. \"A B C D E\" \"F G H I J\" \"K L M N O\" \"P Q R S T\" \"U V W X Y Z\" style: retrofuturistic panels on a solid black background. experimental, very readable, typographic student art poster --ar 7:10\n\nRansom note:\nA ransom note where each letter is cut from a different style of magazine text \"Bring the money to 17th Street.\"\n\nIf letters still fail: add --style raw, then --quality 4. Patch a single bad line in Gemini Nano Banana.",
+      "body": "汽车旅馆的霓虹招牌。你让它写 Worry not, you can sleep here for free if danger is in your future。一整句塞进一组引号，字母就开始糊。拆成三组：「Worry not」「You can sleep here for free」「If danger is in your future」，字突然齐了。\n\n这是 Midjourney V8 的 text batching——文案分批。字母表也一样，ABCDE、FGHIJ 分组加引号。勒索信：每个字母从不同杂志剪下来，引号里只放那句 Bring the money to 17th Street。还不听话就加 --style raw，再不行 --quality 4。实在修不好，拿去 Nano Banana 改那一行。\n\n所以呢：字糊不是模型笨，是你把一整句塞进了一组引号。",
+      "links": [
+        {
+          "label": "Midjourney V8 文案分批",
+          "url": "https://midjourneyv6.org/midjourney-v8-text-generation/"
+        }
+      ]
+    },
+    {
+      "id": "ravioli-stamp-shapes",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "小众工具",
+      "title": "图片丢进去，边缘咬出一圈饺子齿孔",
+      "prompt": "",
+      "body": "把一张图拖进去。边缘立刻被咬出一圈齿孔，像邮票，也像饺子模具。孔数、孔大小、咬口圆度都能拧。方形、圆形、三角形。导出透明 PNG，或者可缩放的 SVG。\n\n这是 Ravioli，今天上 Product Hunt 的小设计工具。就这一件事：邮票齿边。不用账号。封面、表情包、复古海报，缺的往往不是滤镜，是这圈齿。你也可以先空着图，只导出那一圈齿当遮罩，再拿去套别的画面。做完直接透明底，不用再抠。\n\n所以呢：想让一张图看起来像从本子上撕下来的，先给它咬一圈孔。",
+      "links": [
+        {
+          "label": "在线工具",
+          "url": "https://raviolitool.vercel.app/"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/ravioli-2"
+        }
+      ]
+    },
+    {
+      "id": "prompt-veo-popstar-first-last-arc",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "歌手当面唱完，镜头绕到台后看人海",
+      "prompt": "Step 1 — Nano Banana start frame:\nMedium shot of a female pop star singing passionately into a vintage microphone. She is on a dark stage, lit by a single, dramatic spotlight from the front. She has her eyes closed, capturing an emotional moment. Photorealistic, cinematic.\n\nStep 2 — Nano Banana end frame:\nPOV shot from behind the singer on stage, looking out at a large, cheering crowd. The stage lights are bright, creating lens flare. You can see the back of the singer's head and shoulders in the foreground. The audience is a sea of lights and silhouettes. Energetic atmosphere.\n\nStep 3 — Veo 3.1 first-and-last-frame:\nThe camera performs a smooth 180-degree arc shot, starting with the front-facing view of the singer and circling around her to seamlessly end on the POV shot from behind her on stage. The singer sings \"when you look me in the eyes, I can see a million stars.\" ",
+      "body": "先做一张：女歌手闭眼，对着老式麦克风唱，一束追光从正面打来。再做一张：镜头已经绕到她背后，台下是灯海和人影。两张图丢进 Veo 的首尾帧。提示词只写一件事：镜头平滑绕一百八十度，从正面转到背后。她唱：when you look me in the eyes, I can see a million stars.\n\n这是谷歌云 Veo 3.1 指南的工作流。Nano Banana 管两头的构图，Veo 管中间怎么走，还带上歌词。可问题是：两张图的人要是不像同一个人，弧线再顺也假。所以先锁脸，再让摄像机去转。\n\n所以呢：先决定从哪看到哪，中间那条弧才有人可绕。",
+      "links": [
+        {
+          "label": "Veo 3.1 提示词指南",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1"
+        }
+      ]
+    },
+    {
+      "id": "superagent-mac-home",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "小众工具",
+      "title": "Claude 住进侧栏，用你已经登录的浏览器动手",
+      "prompt": "",
+      "body": "侧栏里一排聊天。每个任务一条，做完角落敲一下，窗口自己不跳到前台。智能体打开的是你已经登录的浏览器：发邮件、点按钮、看手机模拟器。每条聊天还能占一条 git worktree，你的主目录一动不动。\n\n这是 Superagent。作者说：这类工具都是给靠看 diff 吃饭的人做的，他们反过来——先给不写代码的人看页面，代码排第二。用你已经在付的 Claude 订阅，没有第二张账单，MIT，不开账号，不电话回家。苹果芯片的安装包，可配 iPhone，端到端加密。Codex 和 Antigravity 还在 soon。\n\n所以呢：智能体该住在你的电脑上，用你的登录态干活，而不是再开一个沙盒。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://superagent.computer"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/pungme/superagent-desktop"
+        }
+      ]
+    },
+    {
+      "id": "prompt-minimax-h3-line-rewrite",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "同一条成片，旧台词原样贴上，只换那一句",
+      "prompt": "In Video 1, replace the woman's line—\"There's no way we can be together. It's not that I don't love you; we simply can't make it to the end.\"—with the line from Audio 1: \"Please don't go. This time, let's not let each other go.\" Adjust the performance subtly to match the new dialogue.",
+      "body": "成片已经在了。女人说：我们没办法在一起。不是我不爱你，我们只是走不到最后。你不要重拍。你把这句原样贴进提示词，再指定音频一里的新词：求你别走。这一次，别再放开对方。表演只允许微调。\n\n这是 MiniMax H3 的对白替换。Pixo 那句提醒最狠：旧句必须逐字引用，模型才知道改哪一句。你要是写成「把她的话改温柔一点」，它会整段重演。H3 能在原视频上做局部编辑，人物、布光、走位留下，只动那张嘴。结果同一条 take 能试三条结局，不用重请演员。\n\n所以呢：改词不是重拍。把旧句贴上去，它才知道那一句该死。",
+      "links": [
+        {
+          "label": "fal H3 提示词指南",
+          "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide"
+        },
+        {
+          "label": "Pixo 可粘贴提示",
+          "url": "https://pixo.video/blog/minimax-h3-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-ny-cutout-type",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "New York 四个字母开窗，天际线只活在字里",
+      "prompt": "A typographic poster with a solid black background, bold letters spell \"New York\", filling the center of the frame. The text acts as a cut-out window. A photograph of New York skyline is visible ONLY inside the letterforms.",
+      "body": "纯黑底。粗字母铺满画面，拼出 New York。字母是窗。纽约天际线只出现在笔画里，窗外什么都没有。\n\n这是谷歌云 Nano Banana 指南里「文字渲染」的示范。规则就三条：要出现的词加引号；说清字体；说清字是什么容器。Nano Banana 2 能把字当遮罩，而不是贴在图上的标题。竖的、横的海报都适合。城市名换成你自己的站名也行，结构不用改。那句「只出现在字母里面」别删。删了，天际线会漏出笔画外边。\n\n所以呢：城市不必铺满海报。让它只住在四个字母里。",
+      "links": [
+        {
+          "label": "Nano Banana 提示词指南",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-weather-cup",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "提示词",
+      "title": "旧金山今天的雨，被装进一只茶杯",
+      "prompt": "[Search for current weather and date in San Francisco] + [Analytically, use this data to modify the scene (e.g., if raining, make it look grey and rainy)] + [Visualize this in a miniature city-in-a-cup concept embedded within a realistic, modern smartphone UI.",
+      "body": "先查旧金山今天的天气和日期。下雨就让画面发灰、发湿；晴就偏暖金。然后把这座微型城市装进一只茶杯，杯子嵌在一只现代手机界面里。\n\n这是 Nano Banana 的联网公式：搜索请求，加分析任务，加视觉翻译。模型会去搜实时天气，再决定光线。三月三日那次示范就是这么跑的。可问题是：你不写「用查到的数据改画面」，它会编一个永远晴天的旧金山。城市换成你所在的那座，茶杯也可以换成碗。公式三段都要在，少一段它就只画一只漂亮空杯。\n\n所以呢：天气海报别靠猜。让它先出门看一眼天。",
+      "links": [
+        {
+          "label": "Nano Banana 提示词指南",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana"
+        }
+      ]
+    },
+    {
       "id": "claude-code-weekly-limits-cut",
       "date": "2026-08-31",
       "added": "2026-08-31",
