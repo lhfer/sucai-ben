@@ -180,6 +180,25 @@
       ]
     },
     {
+      "id": "anthropic-max-usage-class-action",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "痛点",
+      "title": "两百美元买的是二十倍，华盛顿一个程序员算完只剩六到八倍",
+      "prompt": "",
+      "body": "卡尔·卡恩住华盛顿。他把 Claude 从随便问问升到写代码，今年四月升到每月两百美元的 Max 20x。广告写的是 Pro 的二十倍用量。他的诉状说，实际大约只有六到八倍。\n\n一百美元那档 Max 5x，广告五倍，他说大约三倍半。一次五小时会话就烧掉周额度的一成五，订上不久就被掐，只能停工、省着用，或者再付钱。他还说两百美元那档打着「省百分之五十」卖。他要加州北区法院认这是虚假宣传，让二零二五年四月以来买过的人一起告，把钱退回来。Anthropic 没评论。这是一份尚未认证的集体诉讼诉状，不是判决。\n\n所以呢：套餐名里的二十倍，是广告词。用量怎么算，用户算不清，公司也没把尺子拿出来。",
+      "links": [
+        {
+          "label": "诉状 PDF",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.472161/gov.uscourts.cand.472161.1.0.pdf"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-lawsuit-claude-max-plans-usage-limits"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
