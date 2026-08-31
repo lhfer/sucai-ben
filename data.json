@@ -108,6 +108,25 @@
       ]
     },
     {
+      "id": "ryanair-gemini-crew-logistics",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "跨行业",
+      "title": "每天三千九百班飞机，瑞安把排机组交给谷歌那套企业 Gemini",
+      "prompt": "",
+      "body": "八月十二日，欧洲廉价航空瑞安跟谷歌云签了五年数据和 AI 合作。三万五千名员工上谷歌的办公套件和云。\n\nGemini 企业版拿来自动做决定、把机组后勤排顺、把公司杂活加快。云不押一家，亚马逊那边也留着，两头互备。后面还打算上 DeepMind 那套会自己改算法的 AlphaEvolve，再加天气预报模型 WeatherNext，管机队和维修。目标是二零三四年一年运三亿旅客。眼下大约每天三千九百班，飞机大约六百五十架。CEO 埃迪·威尔逊说，增长有多快，底盘就得有多抗造。\n\n所以呢：廉价航空拼的是准点，不是聊天窗。模型先去排人、看天气、扛故障。",
+      "links": [
+        {
+          "label": "瑞安新闻稿",
+          "url": "https://corporate.ryanair.com/news/ryanair-google-cloud-announce-five-year-data-and-ai-partnership/"
+        },
+        {
+          "label": "谷歌云新闻稿",
+          "url": "https://www.googlecloudpresscorner.com/2026-08-12-Ryanair-and-Google-Cloud-Announce-Five-Year-Data-and-AI-Partnership"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
