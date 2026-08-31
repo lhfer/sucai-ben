@@ -89,6 +89,25 @@
       ]
     },
     {
+      "id": "opentable-llm-fill-seats",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "跨行业",
+      "title": "谷歌地图里问一句今晚吃什么，OpenTable 说这样进来的人多了十七倍",
+      "prompt": "",
+      "body": "八月二十六日，OpenTable 推出二十八年里最大一波产品。不是新预订按钮，是给餐馆上的自动化和大模型接口。\n\n大模型接到谷歌搜索、地图、Gemini、ChatGPT、Copilot、Perplexity 和 Alexa 上。这样走进来坐下的人，跟去年比多了十七倍，人均大约多花两成。AI 礼宾每月活跃用户超过五十万。餐桌自动化测试里跑了两百多万次，大约每月省四个半小时。翻台——一桌吃完下一桌坐下——测试里每班能多抠出大约三十九分钟可订时间。语音伙伴超过二十家，经他们坐下的食客三百万，比二零二五年涨了百分之二百七十。CTO 萨加尔·梅塔说，餐馆正被逼着用更少的人干更多的事。OpenTable 属于 Booking Holdings。\n\n所以呢：空位子不是被广告填上的，是被聊天窗和地图里那句「今晚吃什么」填上的。",
+      "links": [
+        {
+          "label": "新闻稿",
+          "url": "https://www.prnewswire.com/news-releases/opentable-launches-its-largest-suite-of-new-and-updated-product-features-for-restaurants-302860569.html"
+        },
+        {
+          "label": "产品页",
+          "url": "https://www.opentable.com/restaurant-solutions/product-innovation/"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
