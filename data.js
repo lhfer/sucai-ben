@@ -59,6 +59,21 @@ window.INTEL_DATA = {
       ]
     },
     {
+      "id": "anthropic-blacklist-ruled-illegal",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "痛点",
+      "title": "军方要「任何合法用途」，Anthropic 不签，法官把那张外国威胁标签撕了",
+      "prompt": "",
+      "body": "八月二十八日，加州北区法官丽塔·林把五角大楼那张标签撕了。国防部曾把 Anthropic 标成供应链风险——以前拿来对付外国威胁的那种戳。林写：这是对言论的非法报复，赫格塞斯那道决定站不住。\n\n事情起于改协议。军方要模型能用于「任何合法用途」。Anthropic 不签，红线就两条：不给美国大规模监控，不给能自己开火的武器。别的实验室签了。Anthropic 被贴上这个戳。国防部转头跟谷歌、微软、OpenAI、SpaceX 签了。三月那道临时禁令已经写过：贴这个戳，是因为他们「通过媒体用敌对方式」说话。Anthropic 发言人说欢迎判决，仍想跟政府好好干活。\n\n所以呢：不肯给军方开杀手权限，换来的不是谈判，是一张以前贴给外国公司的标签。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
