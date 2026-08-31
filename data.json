@@ -127,6 +127,25 @@
       ]
     },
     {
+      "id": "aidoc-12-systems-diagnostic",
+      "date": "2026-08-31",
+      "added": "2026-08-31",
+      "category": "跨行业",
+      "title": "片子越积越慢，放射科走得比以前快一半，十二家医院找 Aidoc 结盟",
+      "prompt": "",
+      "body": "八月十一日，美国十二家医疗系统和做诊断 AI 的 Aidoc 组成联盟。他们一年看大约两千万病人。名单里有西奈山、Cedars-Sinai、休斯顿卫理公会、西北、克利夫兰大学医院。\n\n要一起设计诊断流程，量安全、质量和速度，把治理规则拿出来共用。门诊影像出片时间，二零一四到二零二三年翻了一倍还多。放射科医生离开这行的速度，二零二零年以来高了五成，短缺预计要排到二零五五年。Aidoc 已经进了大约两千家医院，一年大约六千万例，提供自己的基础模型和操作系统，分别叫 CARE 和 aiOS。第一批结果要到二零二七年。CEO 埃拉德·瓦拉赫说，速度和安全被说成二选一，是假的。\n\n所以呢：人不够、片子堆着，医院不指望买一个神奇按钮，先把十二家的尺子刻成同一把。",
+      "links": [
+        {
+          "label": "UH 新闻稿",
+          "url": "https://news.uhhospitals.org/news-releases/articles/2026/08/twelve-us-health-systems-and-aidoc-unite"
+        },
+        {
+          "label": "Aidoc 公告",
+          "url": "https://www.aidoc.com/about/news/twelve-us-health-systems-and-aidoc-unite-to-form-diagnostic-ai-consortium/"
+        }
+      ]
+    },
+    {
       "id": "nfc-harvest-pcb-card",
       "date": "2026-08-31",
       "added": "2026-08-31",
