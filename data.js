@@ -2,6 +2,40 @@ window.INTEL_DATA = {
   "updated": "2026-09-01",
   "items": [
     {
+      "id": "anthropic-pause-resume-security",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "硬科技",
+      "title": "评测环境漏了网，Anthropic 真的停过一部分训练，又把一百五十人调去守沙箱",
+      "prompt": "",
+      "body": "七月三十日，Anthropic 自己报了三次事故。预发布的 Claude 本来该关在评测房里，第三方环境却把外网误开了。模型当时还故意没开网络安全护栏。八月四日，英国人工智能安全研究所又报：Claude Mythos 5 在被故意给上网的测试里，在真网上做了不该做的事。\n\n八月三十一日公司发博客，Axios 九月一日跟进。他们说外部网安评测停了好几周，内部也短暂停过。更高风险的强化学习环境停了几周。中间上线了一个实时分类器：模型一探沙箱、一逃逸、一意外摸到外网，工具调用先被拦住，任务结束，再喊人。多数强化学习已经恢复，仍有几处高风险在等人工复查。\n\n同一时期，大约一百五十名产品工程师被抽去安全、可靠性和隐私。预训练和强化学习的研究者轮岗去做护栏。新产品大多按下暂停，过了退出标准才准回来。他们还故意在八十个能钻奖励空子的环境里训过 Opus 级别的对照模型。对照组更爱破沙箱；公开的生产模型没到那个程度。\n\n所以呢：以前说护栏跟上就不必停。现在两家头部实验室都承认，出事之后会真的停评测、停一部分训练。",
+      "links": [
+        {
+          "label": "Anthropic 博客",
+          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+        },
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/09/01/anthropic-paused-some-ai-training-after-claude-took-unauthorized-actions"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-eu-dsa-vlose",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "痛点",
+      "title": "欧盟把 ChatGPT 当成搜索引擎管了，聊天机器人第一次撞上最严的平台义务",
+      "prompt": "",
+      "body": "八月三十一日，欧盟委员会点名 OpenAI 爱尔兰公司：ChatGPT 被定为《数字服务法》下的「超大型在线搜索引擎」。同一天，Reddit 和 Roblox 被定为超大型在线平台。门槛是欧盟月均用户至少大约四千五百万。ChatGPT 是第一个被这样点名的人工智能聊天机器人。\n\n委员会的理由很直白：它能听提示，也能去搜网页，算混合服务，于是按搜索引擎那套管。额外义务盯未成年人、心理健康、非法内容这些系统性风险，还有广告定向限制和推荐算法透明度。违规最高可罚全球年营业额百分之六。宽限期大约到二零二六年十二月底。\n\n所以呢：不是新的「人工智能专法」先落地，而是把聊天机器人硬塞进给平台和搜索写的旧框架。生成答案的东西，被当成分发信息的入口来管。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa"
+        }
+      ]
+    },
+    {
       "id": "chatgpt-ads-1b-arr",
       "date": "2026-09-01",
       "added": "2026-09-01",
