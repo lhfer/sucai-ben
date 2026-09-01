@@ -2,6 +2,36 @@ window.INTEL_DATA = {
   "updated": "2026-09-01",
   "items": [
     {
+      "id": "nvidia-mediatek-35b-nvlink",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "硬科技",
+      "title": "英伟达砸三十五亿美元可转债，把联发科的定制芯片锁进自家机架总线",
+      "prompt": "",
+      "body": "八月三十一日英伟达新闻稿：向联发科发行的可转债投三十五亿美元。联发科采纳 NVLink Fusion。超算、云和前沿模型方拿到一条预验证路径，可以把定制加速芯片接到英伟达用 NVLink 串起来的机架级「人工智能工厂」里。\n\n两边还说会在本地人工智能电脑和车载上继续合作。套件里有 Fusion 小芯片、NVLink-C2C、高带宽内存相关件。外界马上读出循环叙事：出钱扶生态芯片商，同时把互联标准钉死在自家机架上。\n\n所以呢：下一轮不一定是谁又能买到显卡。自定义芯片想进大规模训练房，照样可能先过英伟达那根总线。",
+      "links": [
+        {
+          "label": "NVIDIA 新闻稿",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms"
+        }
+      ]
+    },
+    {
+      "id": "memoryfields-agent-md",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "硬科技",
+      "title": "别再给记忆加管道了，有人把代理记忆收成一包能带走的 Markdown",
+      "prompt": "",
+      "body": "Cal Paterson 八月写了一篇，黑客新闻上很热。他嫌现在的代理记忆系统大多糟糕，拆成三类：绑死某家实验室编排器的；又要向量库又要图数据库还要再请一个模型决定记什么的；还有把事实抽成孤立命题的「高现代主义」图。\n\n他的提案叫 memoryfield：记忆首先是数据。一个压缩包里是一堆 Markdown 页面，可带 YAML 头，外加可选的向量索引文件。单页软限制大约八千字节，方便嵌入。主张让代理直接写散文式记忆，少做二次摘要和切块。语义跳转最多大约两次工具调用，别在知识图谱里迷路。\n\n所以呢：一百万上下文救不了记忆。把记忆做成能复制走的文件，比再叠一套只有自己懂的流水线更像工程师会留下的东西。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://calpaterson.com/memoryfields.html"
+        }
+      ]
+    },
+    {
       "id": "writing-safest-from-ai",
       "date": "2026-09-01",
       "added": "2026-09-01",
