@@ -2,6 +2,188 @@
  "updated": "2026-09-01",
  "items": [
   {
+   "id": "china-ai-kefu-gbt47746",
+   "date": "2026-09-01",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "客服国标今天落地：转人工不许藏，AI 答应的，公司要认",
+   "prompt": "",
+   "body": "龚先生在二手车 App 里问客服小瓜，二万八千七百块包不包过户。小瓜说包。到了线下，销售又要一千块过户费。订金两千已经交了。另一边，王女士门锁坏了，全家带着婴儿站在门外，跟 AI 客服来回说了大约五十分钟，人工还是转不出来。\n\n今天起，《顾客联络服务 人工与智能客户服务协同要求》实施，标准号 GB/T 47746。它是推荐性国标，不能直接开罚单，但写得很硬：转人工入口要找得到；涉及价格、退款、合同，最终确认须走人工或规范流程；企业不能再说「算法说的不算」。新华社引黑猫投诉，「AI客服」能搜出四千七百多条。中消协上半年售后投诉占比百分之二十六点七九。才博的吴岩松说，AI 回的和人回的，都代表公司立场。\n\n所以呢：不是禁 AI 客服。是不许把拦截率当成 KPI，也不许让聊天框替公司开空头支票。\n",
+   "links": [
+    {
+     "label": "新华社",
+     "url": "https://www.news.cn/20260831/4daeb6e49b67455793cd4f7773cf942d/c.html"
+    },
+    {
+     "label": "光明网法治",
+     "url": "https://legal.gmw.cn/2026-08/26/content_38964634.htm"
+    }
+   ]
+  },
+  {
+   "id": "china-weiduanju-banfa-sep1",
+   "date": "2026-09-01",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "微短剧新规今天生效：AI 剧每集必须打标，八十万就要总局发证",
+   "prompt": "",
+   "body": "广电总局令第十六号今天施行。单集不到二十分钟的微短剧，按投资和题材分三类备案。AI 做的，每集都要在显眼处标明。真人投三百万元、AI 投八十万元，就进一类：总局备案，省级以上审成片，还要发行许可证。三十万到八十万的 AI 剧走省级审。三十万以下交给平台播前审。\n\nDataEye 看今年上半年抖音端：新剧二十二点一九万部，播放五千一百五十七亿次，七十七部里只有一部回本，百分之九十八点七半年没摸到盈亏线。破亿的只有一千零五十五部，占百分之零点四八。AI 仿真人剧新剧占比到六月已到七成。红果四月底已经处理过超万部低质 AI 剧。用户从去年一点二亿涨到六亿。\n\n所以呢：杏仁眼花瓣唇被强制打上「AI」的那天，平台要把那百分之九十八点七的赔钱产能自己筛掉。备案不是道德说教，是审核成本。\n",
+   "links": [
+    {
+     "label": "澎湃 数据",
+     "url": "https://www.thepaper.cn/newsDetail_forward_33967164"
+    },
+    {
+     "label": "澎湃 新规",
+     "url": "https://www.thepaper.cn/newsDetail_forward_33977502"
+    }
+   ]
+  },
+  {
+   "id": "sse-hopkins-ai-court-win",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "牛津博士拿着模型和电费单上庭，把能源公司告赢了",
+   "prompt": "",
+   "body": "莱尔·霍普金斯是牛津的博士生，也写软件。SSE 追他一笔一千零九十一英镑的电费，说有一个「八点 b」的单元。那个电表早就拆了。催了将近三年，还派过收债的。他用 GPT-5.5 和 Claude Fable 对法规、对 SSE 自己的记录，自己出庭。模型订阅加接口大约烧了一百七十五英镑，证据一百多页。\n\n七月十七日，牛津郡法院判他赢，拿回一千零八十七英镑，含开支利息。法官说 SSE 带他坐了趟过山车，再催就是骚扰。庭前有过更高金额但要保密的和解，他拒了：「更重要的是能把他们做的事讲出去。」判决后第七天，又来了一封账单。SSE 后来道歉，说已经赔了。他自己也承认，早期模型更爱编判例，所以每条都对过原文。\n\n所以呢：不是 AI 替他打官司。是他拿模型去拆公司自己的档案，再亲自上庭。\n",
+   "links": [
+    {
+     "label": "The Register",
+     "url": "https://www.theregister.com/2026/08/31/energy-biz-sse-smacked-around-in-court-by-a-guy-and-ai/"
+    },
+    {
+     "label": "Oxford Mail",
+     "url": "https://www.oxfordmail.co.uk/news/26413620.oxford-university-student-wins-legal-battle-energy-bill/"
+    }
+   ]
+  },
+  {
+   "id": "nyc-schools-ai-software-freeze",
+   "date": "2026-08-26",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "纽约为了重写 AI 校规，把成绩本续订也冻住了",
+   "prompt": "",
+   "body": "布鲁克林一位高中校长对着采购系统干瞪眼。离开学只剩两周，电子成绩本、数字通行证、用了多年的 i-Ready，续订全停了。不是因为这些是聊天机器人。是因为教育局把全学区软件采购一刀切冻上了。\n\n三月那份 AI 校规用红绿灯：评分、处分、个别化教育计划不许用 AI。家长炸了。局长卡马尔·塞缪尔斯承认没打准。七月初下令暂停软件采购，好重写政策。到八月二十六日，终稿还没出来，冻结也没解。学校九月十日开学。校长对 Chalkbeat 说：我们不知道什么能用、什么不能用，这太难受了。大约六千五百条公众意见砸进来。美国最大学区用采购冻结换政策时间。\n\n所以呢：教育 AI 的痛点常常不是禁不禁 ChatGPT。是监管真空会把无关的教务系统一起卡死。\n",
+   "links": [
+    {
+     "label": "Chalkbeat",
+     "url": "https://www.chalkbeat.org/newyork/2026/08/26/nyc-schools-software-purchasing-freeze-ai-policy/"
+    }
+   ]
+  },
+  {
+   "id": "fifth-circuit-wingate-perplexity",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "联邦上诉庭问：法官用 AI 写出不存在的名字，推理还算数吗",
+   "prompt": "",
+   "body": "密西西比一部限制公立学校 DEI 的法，被地区法官亨利·温盖特一纸禁令挡住。八月三十一日，第五巡回上诉法院开庭，讨论要不要把案子从他手里拿走。法官杰里·史密斯说，那份临时禁令建立在根本不存在的名字和根本不存在的陈述上。他追问：这有没有污染最终推理。\n\n温盖特后来写信解释：书记员用 Perplexity 当基础起草助手，汇总公开卷宗。标准流程本该多层审稿、核对引注。二〇二五年七月二十日入卷的，是不该入卷的早期稿。州检察长当庭要求换法官。原告律师说禁令决定先于那份草稿，错误只是文书性的。参议院司法委员会已经去信。裁决还要数周。\n\n所以呢：这回不是律师瞎引案例。是上诉法官当众问，幻觉有没有写进宪法判断。\n",
+   "links": [
+    {
+     "label": "Magnolia Tribune",
+     "url": "https://magnoliatribune.com/2026/08/31/state-argues-fifth-circuit-should-remand-mississippis-anti-dei-law-case-to-different-judge/"
+    },
+    {
+     "label": "Law.com",
+     "url": "https://www.law.com/nationallawjournal/2026/08/31/serious-matter-5th-circuit-weighs-reassignment-after-judge-used-ai-to-draft-ruling/"
+    }
+   ]
+  },
+  {
+   "id": "ca-sb951-tech-displacement-notice",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "加州新通过：AI 裁员那张通知上，必须写清哪些活被机器拿走了",
+   "prompt": "",
+   "body": "八月三十一日，加州参众两院以二十九票对十票通过 SB951，送州长签。它不管「能不能只让模型决定开人」——那是另一条已经过了的 SB947。这条管的是那张纸。\n\n加州本来就有六十天的大规模裁员通知。新法说：如果裁员、搬迁、关厂全部或实质部分是因为 AI 或其他自动化拿走了岗位，通知里必须写明被自动化的工作职能。劳工部门要公开摘要，按季度汇总技术性失业。二〇二八年一月前还要交一份 AI 对招聘影响的报告。违约民事罚金最高每天五百美元。企业再想用「我们在重组」四个字带过，会少一块挡箭牌。\n\n所以呢：算法裁员要不要书面说人话，加州先写进了 WARN 通知。\n",
+   "links": [
+    {
+     "label": "加州议会",
+     "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB951"
+    },
+    {
+     "label": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/human-resources-news/california-passes-bill-requiring-notices-of-ai-related-layoffs"
+    }
+   ]
+  },
+  {
+   "id": "instagram-ai-generated-profile",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "Instagram 给假人号改名：不贴「AI 生成主页」，就别想进推荐",
+   "prompt": "",
+   "body": "Instagram 八月三十一日改了标签。以前叫「AI 创作者」，现在叫「AI 生成主页」，专指标注这个人设主体是生成出来的。不贴：可能被移出给非粉丝看的 Reels 和探索页。贴了：不因为「是 AI 人」本身被罚。真人用 AI 修图、润色文案、做图，不用贴这个。\n\n官方原话是：人们不喜欢看到一个像真人的主页，后来才发现整个人是生成的。背景里有约会软件上的 AI 男网红私信拉人，也有纽约时报七月找到的几百个 AI 医生、养生号。亚当·莫塞里说这是第一步。用户仍然不能一键滤掉所有 AI 泔水。误伤可以申诉。\n\n所以呢：平台这次打的是「假人」，不是「AI 做的图」。贴标会不会反而给虚拟网红发一张合法身份证，还得看流量怎么分。\n",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop"
+    }
+   ]
+  },
+  {
+   "id": "eu-ai-act-first-rfis",
+   "date": "2026-08-29",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "欧盟 AI 法案第一次动手：先要安全卷宗，不是先开罚单",
+   "prompt": "",
+   "body": "通用模型条款八月二日刚可执行。四周后，执行副总裁亨娜·维尔库宁公开确认：欧洲 AI 办公室已经发出正式信息请求。第一组问模型怎么防被偷、有没有独立外评、上线后怎么监测。第二组问训练内容摘要，对象是没交摘要、也没来非正式对话的公司。Euractiv 写，版权那一组覆盖三十家以上。她没点名是哪几家实验室。\n\n她把这称作执行 AI 法案的第一步。不答可以再发；再拒可以罚款；错误、不完整或误导性答复也可能触发罚则。再往上，可以要求改技术、评测模型，最重到全球年营业额百分之三。这不是把聊天机器人当搜索引擎管的那套 DSA，是 AI 专法自己的第一脚。\n\n所以呢：布鲁塞尔先把实验室写成必须交卷的监管对象。开罚单还在后面。\n",
+   "links": [
+    {
+     "label": "Euractiv",
+     "url": "https://www.euractiv.com/news/exclusive-eu-orders-leading-ai-labs-to-detail-security-practices/"
+    },
+    {
+     "label": "欧盟执法页",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"
+    }
+   ]
+  },
+  {
+   "id": "cottonmind-1-0",
+   "date": "2026-08-24",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "中棉所把四万一千篇文献塞进「棉芯」，棉农能在地里拍照问诊",
+   "prompt": "",
+   "body": "中国农科院棉花研究所八月二十四日发布棉花专属大模型棉芯一点零。项目负责人杨作仁。网页端给科研：四万一千六百八十篇中外文献，两千多项专利和国标，五百五十九部著作，一千八百零六条审定品种，覆盖基因、育种、栽培、植保。小程序给田间：问答、拍照诊断、找专家，还能换语言。\n\n它不是又一个通用聊天框下乡。是把这一种作物的知识闭环先做成工具。光明日报写，这标志着棉花产业走进「AI 加科研加生产」。地里真正好不好用，还得看病叶照片认不认得准，建议会不会跟安徽那类打药事故一样缺少刹车。\n\n所以呢：农业垂直模型的机会，不在口号，在这一亩地的病和种。\n",
+   "links": [
+    {
+     "label": "光明网科技",
+     "url": "https://tech.gmw.cn/2026-08/26/content_38964595.htm"
+    }
+   ]
+  },
+  {
+   "id": "aidoc-cms-ntap-137",
+   "date": "2026-08-13",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "Medicare 给 CT 分诊 AI 开了报销码，住院一单最高一百三十七美元",
+   "prompt": "",
+   "body": "医院放射科想上 CT 急症分诊 AI，财务先问：谁买单。八月中旬，联邦医保给 Aidoc 的 CARE 多部位 CT 分诊开了新技术加付。十月一日起大约三年窗口，编码 XEZ5XKC，符合条件的住院病例最高加付一百三十七点五三美元，大约是技术平均成本的六成五。FDA 去年九月给过突破性认定，今年一月拿了五百一十 k。\n\nAidoc 首席执行官埃拉德·瓦拉赫说，有了报销路径，病人能更早用上。CMS 同时宣布，从二〇二八财年申请起关掉「替代」通道，以后都要证明有实质临床改善。这跟哪十二家医院装了机器不是同一件事。是诊断 AI 第一次有了可对账的住院付费码。\n\n所以呢：医疗 AI 真正卡点常常是医保怎么付。没有付费码，再准的圈病灶也进不了住院流程。\n",
+   "links": [
+    {
+     "label": "Radiology Business",
+     "url": "https://radiologybusiness.com/topics/artificial-intelligence/medicare-approves-new-technology-add-payment-inpatient-radiology-ai-solution"
+    },
+    {
+     "label": "Aidoc 公告",
+     "url": "https://www.prnewswire.com/news-releases/aidocs-care-body-ct-multi-triage-receives-eligibility-for-medicare-new-technology-add-on-payment-302850312.html"
+    }
+   ]
+  },
+  {
    "id": "glassdoor-adjusters-hate-ai",
    "date": "2026-08-31",
    "added": "2026-09-01",
@@ -86,9 +268,9 @@
    "date": "2026-08-31",
    "added": "2026-09-01",
    "category": "跨行业",
-   "title": "三百万军职人员的门户，同一天放进了 ChatGPT 和 Grok",
+   "title": "三百万军职人员的内部门户，同一天放进了 ChatGPT 和 Grok",
    "prompt": "",
-   "body": "五角大楼的 AI 门户 GenAI.mil 上线九个月，已经有一百七十万人登过。八月三十一日，军用版 ChatGPT 和政府版 Grok 同一天进去，跟原来的 Gemini 并排。这是给受控非密信息用的，云安全档叫影响等级五：敏感，但还没到保密。三百万军职人员，干的是计划、政策、后勤、行政，不是打仗。海军已经强制要求迁过去。\n\n陆军第十八空降军用它写一份南方司令部演习命令：九个写手，六周交卷。以前同等活要六到九个月、更多人。OpenAI 的人举的例子更土：填差旅单、对补给、写运输需求。数据不出政府环境，不拿去训公开模型。打仗用的模型走另一条还没公开的网。部门自己也说，门户上这些模型不打算用于作战。\n\n所以呢：军队先把聊天框用在填表和写命令上。真要上战场的那套，另走一条线。\n",
+   "body": "五角大楼的内部 AI 门户 GenAI.mil 上线九个月，已经有一百七十万人登过。八月三十一日，军用版 ChatGPT 和政府版 Grok 同一天进去，跟原来的 Gemini 并排。这是给受控非密信息用的，云安全档叫影响等级五：敏感，但还没到保密。三百万军职人员，干的是计划、政策、后勤、行政，不是打仗。海军已经强制要求迁过去。\n\n陆军第十八空降军用它写一份南方司令部演习命令：九个写手，六周交卷。以前同等活要六到九个月、更多人。OpenAI 的人举的例子更土：填差旅单、对补给、写运输需求。数据不出政府环境，不拿去训公开模型。打仗用的模型走另一条还没公开的网。部门自己也说，门户上这些模型不打算用于作战。\n\n所以呢：军队先把聊天框用在填表和写命令上。真要上战场的那套，另走一条线。\n",
    "links": [
     {
      "label": "Military Times",
