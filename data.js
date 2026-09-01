@@ -2,6 +2,36 @@ window.INTEL_DATA = {
   "updated": "2026-09-01",
   "items": [
     {
+      "id": "openclaw-2-accidentally",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "好玩AI",
+      "title": "九百三十三个贡献者，OpenClaw 一不小心做出了二点零",
+      "prompt": "",
+      "body": "八月三十日，Hannes Rudolph 在 OpenClaw 博客里承认：他们本来只想把安装变简单、把浏览器体验做成一等公民。结果清理一路扫过去，变成有史以来最大的更新，只好叫二点零。\n\n数字夸张。九百三十三个贡献者，其中五百六十九个第一次来；超过一万六千个拉取请求，大约占项目历史上合并请求的一半。过去二百三十天他们发过一百零六个版本，几乎隔一两天一发。这次将近七周没发版，不是停工，是团队变大、改动堆得太猛，地基和发布流程一起重做。\n\n新装优先复用你电脑上已有的 ChatGPT 或 Claude 订阅、接口密钥和本地模型。配置能挪进对话里慢慢补。浏览器应用重建。共享云会话让多人接手同一只 Claw。创始人 Peter Steinberger 已经加入 OpenAI，项目由基金会运营、OpenAI 赞助，仍然开源。\n\n所以呢：个人代理从「一个人的玩具」长成「家里人可以接着干」的软件。本地编排器还在，但故事已经是大版本协同。",
+      "links": [
+        {
+          "label": "OpenClaw 博客",
+          "url": "https://openclaw.ai/blog/openclaw-2-accidentally"
+        }
+      ]
+    },
+    {
+      "id": "wrapture-agent-not-vibe",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "好玩AI",
+      "title": "wrapt 作者让代理写出整库，自己先画好地图，硬说这不是 vibe coding",
+      "prompt": "",
+      "body": "八月三十一日，Simon Willison 推介一个新库 Wrapture。作者是 Graham Dumpleton，做过 wrapt、mod_wsgi，也做过 New Relic 的 Python 探针。他把「给函数套一层」的老本事，同时用到测试桩和追踪上，还带 OpenTelemetry。现有项目可以用一份 TOML 挂观察，把经过的调用写进 jsonlines。\n\n最刺的是他亲口写的那句：库里每一行代码和文档，都是人工智能助手在他指导下写的。他立刻补刀：这不是 vibe coding。他在这个角落泡了太久，清楚成品必须长什么样，模型只是生产工具，不是设计来源。\n\n所以呢：资深基础设施作者公开「全代理写库」的样板。争论可以收成一句：有地图的代理工程，和甩一句提示词赌运气，不是同一种活。",
+      "links": [
+        {
+          "label": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/"
+        }
+      ]
+    },
+    {
       "id": "nvidia-mediatek-35b-nvlink",
       "date": "2026-09-01",
       "added": "2026-09-01",
