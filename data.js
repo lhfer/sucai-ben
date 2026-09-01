@@ -2,6 +2,44 @@ window.INTEL_DATA = {
   "updated": "2026-09-01",
   "items": [
     {
+      "id": "birdnet-go-yard-cams",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "好玩AI",
+      "title": "三台安防摄像头改行听鸟，本地模型一年记下四十多万次鸣叫",
+      "prompt": "",
+      "body": "Jason Tucker 家里已经挂着安防摄像头。妻子爱听鸟、爱在手机上认种。他干脆把三路摄像头的麦克风接进 Docker 里的 BirdNet-Go，全程本地跑，不走云接口。鸟一开口，系统就分析音频给出名字。蝙蝠和青蛙偶尔也会被扫到。\n\n模型库后来加上了谷歌的 Perch 第二版，能认的物种大约一万四千七百九十五种，比 BirdNET 二点四的大约六千种宽一截。可以设规则：某只鸟一出现就推到家里 Discord 或 Home Assistant。还会记「院子里第一次见到谁」。他贴出近十二个月的账：四十一万八千多次检测，二百七十一种，平均置信度百分之六十点九，加州家朱雀一家就十一万八千多次。\n\n评论区最爱传的彩蛋是：有一次系统把车道上邻居放的屁也当成一次检测，推到了 Home Assistant。原文六月就写了，八月三十一日冲上黑客新闻首页，大约三百六十四票。\n\n所以呢：安防摄像头找到了第二职业。本地模型听一整天，人只在稀有鸟或荒诞误报时被叫醒。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49511856"
+        }
+      ]
+    },
+    {
+      "id": "sweepled-hidden-camera-ai",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "好玩AI",
+      "title": "手机贴七美元灯罩，五秒里靠反光怎么变揪出隐藏摄像头",
+      "prompt": "",
+      "body": "住酒店最怕墙上多一只眼睛。韩国科学技术院计算机学院韩峻教授团队，联手新加坡国立大学和新加坡管理大学，做了一套叫 SweepLED 的办法。八月三十日前后多家媒体报道。硬件就是给手机加一个大约七美元的 LED 壳。\n\n用法反直觉：手机摄像头固定不动，只让灯从多个方向扫过去。普通反光会跟着角度挪走或消失。镜头因为里面有镜片、光圈和传感器，反射会走出另一套变形。深度学习盯的是这串随时间变化的模式，不是人眼找「亮点」。团队拿三十件日常物试，充电器、闹钟、遥控器、装饰都有，准确率大约百分之九十四，单件检查不到五秒。论文六月在 ACM MobiSys 二零二六上讲过。\n\n所以呢：反偷拍不一定要贵探测器。一盏能换角度的灯，加上会读反光轨迹的模型，普通人也能扫一遍房间。",
+      "links": [
+        {
+          "label": "TechXplore",
+          "url": "https://techxplore.com/news/2026-08-smartphone-based-technology-hidden-cameras.html"
+        },
+        {
+          "label": "朝鲜日报英文",
+          "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/"
+        }
+      ]
+    },
+    {
       "id": "openclaw-2-accidentally",
       "date": "2026-09-01",
       "added": "2026-09-01",
