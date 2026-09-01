@@ -2,6 +2,40 @@ window.INTEL_DATA = {
   "updated": "2026-09-01",
   "items": [
     {
+      "id": "apple-macs-ai-agent-rush",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "硬科技",
+      "title": "OpenAI 成批买 Mac mini，苹果被企业端 AI 需求提前逼出发新机",
+      "prompt": "",
+      "body": "苹果通常秋天接近十月十一月才发新 Mac。八月三十日 MacRumors 引 The Information 说，本周提前发 Mac mini 和 Mac Studio，是因为企业端要买 AI 硬件的胃口大得超预期。官方还宣传：多台 Mac Studio 可以串成一套，用来跑前沿大模型。六月那场「公园里的商务」活动里，福特、迪士尼、Anthropic 的高管都到了，Mac mini 被称作场上的宠儿。\n\n可苹果当时几乎没有专做企业客户的工程团队，也谈不上成型的企业 AI 战略。有人想买 Private Cloud Compute 的访问，被拒了。伙伴路径落到 WebAI、Mount Thor 这类在苹果硬件上做执行环境的公司。内存短缺叠加上去，高端配置缺货好几个月。有的企业看向英伟达那台形似 Mac mini 的 DGX Spark。\n\n二十四七华尔街八月三十一日补充：OpenAI 近几个月成批买了成千上万台 Mac mini 和 Mac Studio，主要给强化学习和「会用电脑的代理」做训练。训这种代理，要的是成千上万台各自干活的机器，不是一台巨无霸的显卡堆。苹果统一内存在这类任务上意外好用。Anthropic 据说也通过亚马逊云租过苹果芯片干类似的活。\n\n所以呢：本地大模型把台式 Mac 变成了小机房。苹果被自己的芯片叙事反噬，仓库空着，实验室却在成排下单。",
+      "links": [
+        {
+          "label": "MacRumors",
+          "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/"
+        },
+        {
+          "label": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/31/apple-is-suddenly-an-ai-infrastructure-stock-as-openai-buys-macs-by-the-tens-of-thousands/"
+        }
+      ]
+    },
+    {
+      "id": "doltlite-beta-2k-agent-prs",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "硬科技",
+      "title": "两千个代理提交，SQLite 被叉成能像 Git 一样分支合并的 DoltLite",
+      "prompt": "",
+      "body": "DoltHub 八月三十一日宣布 DoltLite 进入 Beta，版本零点五零。故事开头像玩笑：有人想拿 Steve Yegge 的多智能体编排器 Gas Town 练手，需要一个真问题。他们盯上了多年想做却不敢重写的事：给嵌入式场景做一版带版本控制的 Dolt。\n\n做法是叉 SQLite。SQL 解析和测试那一层几乎原样留下，只把底下的 B 树换成单文件块存储上的 Prolly 树。于是你得到能分支、合并、对比、推送、拉取的 SQLite。作者写，大约两千个拉取请求是代理团队拉出来的。五个来月，存储格式改过十二次，现在这个格式已经稳住五十多个发布、三个多月。\n\n测试数字很硬：五百八十万条复杂查询的 sqllogictest 全过；八十九万多项 SQLite 官方 TCL 接受测试过了百分之九十九点四六，剩下四千八百多条已知分歧，多半因为主键、分块、没有传统日志旁路。\n\n所以呢：多智能体工程不再只是演示切片。两千个代理提交，能做出敢叫 Beta 的数据库。",
+      "links": [
+        {
+          "label": "DoltHub 博客",
+          "url": "https://www.dolthub.com/blog/2026-08-31-doltlite-beta/"
+        }
+      ]
+    },
+    {
       "id": "birdnet-go-yard-cams",
       "date": "2026-09-01",
       "added": "2026-09-01",
