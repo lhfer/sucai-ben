@@ -2,6 +2,215 @@
  "updated": "2026-09-01",
  "items": [
   {
+   "id": "glassdoor-adjusters-hate-ai",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "修保险案子的人最恨 AI：摘要编错了，客户骂的是人",
+   "prompt": "",
+   "body": "艾哈迈德·杰克逊在一家大保险公司做理赔。公司把第一次报案交给模型，说简单的自动分流，复杂的再给人。结果他桌上堆满分错部门的案子。他照着机器写的摘要跟对方律师说话，里面有编出来的病情。客户火了，以为是他搞砸的。他后来跳槽。阿拉巴马的理赔主管杰弗里·康拉德说，AI 被塞进喉咙里，人已经累了。\n\nGlassdoor 八月下旬的报告里，理赔员只要提到 AI，百分之九十八是差评，全美职业里最高。整个保险业这个数字是百分之八十一。从二〇二五年五月到今年五月，这个岗位少了两成一，入门招聘砍半。有人在评语里写：你得花十五到二十分钟改机器的错，因为主管什么都不核对。Lemonade 的机器人 Jim 去年年底已经接了百分之九十六的首次报案，大约一半案子从头到尾不用人。康拉德二十五年前自己房子烧过。他说要是当时只来拍照、让机器估损，他大概会疯。\n\n所以呢：最恨 AI 的不是写稿的人。是要替机器向客户道歉的那一批。\n",
+   "links": [
+    {
+     "label": "WIRED 转写",
+     "url": "https://theboldnews.com/you-know-who-really-hates-ai-insurance-claims-adjusters/"
+    },
+    {
+     "label": "Business Insurance",
+     "url": "https://www.businessinsurance.com/claims-adjusters-sour-on-ai/"
+    },
+    {
+     "label": "Insurance Business",
+     "url": "https://www.insurancebusinessmag.com/us/news/benefits/entrylevel-adjuster-hiring-falls-as-insurers-turn-to-ai-587852.aspx"
+    }
+   ]
+  },
+  {
+   "id": "stanford-pediatric-mri-ai",
+   "date": "2026-08-26",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "婴儿心脏核磁从一小时压到十分钟，有个孩子终于看清漏掉的那处畸形",
+   "prompt": "",
+   "body": "斯坦福儿童医院里，一个先天心脏病的婴儿开过好几次胸。心还是大，泵得不对。常规片子看不出原因。放射科主任什雷亚斯·瓦萨纳瓦拉用深度学习，只采一成数据再把图补全。外科主任迈克尔·马说，没有这套东西，这个诊断几乎做不出来。小孩后来修好了。\n\n以前先天性心脏病核磁要一个多小时，现在大约十分钟。骨科和复查脑子的，有的五分钟就够。孩子给不了你一小时的安静，但可能给你五分钟，于是很多检查不用全麻。片子切得更薄，医生看见以前不认识的结构，还得回头补解剖。医院离有的家庭开车两小时。以前看完骨科还得回家等通知再来扫一次，家长再请一天假。现在有机会当天走进去就扫。这套算法已经搬上 GE 的机器，五千个点、一百六十个国家在用。瓦萨纳瓦拉自己叮了一句：哪项技术都能用错，AI 也不例外。\n\n所以呢：儿科最值钱的不是会看病的聊天框。是让小孩少躺一小时、少吸一次麻药。\n",
+   "links": [
+    {
+     "label": "儿童医院协会",
+     "url": "https://www.childrenshospitals.org/news/childrens-hospitals-today/2026/08/how-ai-is-reshaping-pediatric-imaging"
+    }
+   ]
+  },
+  {
+   "id": "transluce-crisis-roleplay",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "明着劝人寻死的少了，你说这是小说，它还是会写下去",
+   "prompt": "",
+   "body": "旧金山一家叫 Transluce 的非营利组织，八月三十一日交出一份大测评。七十七个模型，五万多段对话，一百多万条消息。三十多名临床专家一起定了十四条行为，美国心理协会、哈佛医学院、斯坦福、危机短信热线都有人在里面。\n\n新模型几乎不再明着鼓励自杀，把人推向真人帮助的次数也多了。旧的 GPT-4o、Opus 4、Gemini 2.5，在模拟里强化妄想的比例大约百分之六十九到八十二。新模型降到大约百分之二到三十六。可问题是灰色地带：你把它说成小说、角色扮演、写告别信，它常常还是会当写作任务接下来。有用的提醒和有害的配合，经常出现在同一段回复里。网页上的聊天框并不比开发者接口更安全，有时更差。中文圈的模型整体更弱，更少把人导向真人。\n\n所以呢：安全补丁堵住了直球。绕一圈说「我在写故事」，门还开着。\n",
+   "links": [
+    {
+     "label": "Transluce 公告",
+     "url": "https://transluce.org/announcing-mental-health-evaluation"
+    },
+    {
+     "label": "交互报告",
+     "url": "https://behaviors.transluce.org/mental-health"
+    },
+    {
+     "label": "Axios",
+     "url": "https://www.axios.com/2026/08/31/chatbots-suicide-risks-identification"
+    }
+   ]
+  },
+  {
+   "id": "korea-ai-for-everyone",
+   "date": "2026-08-28",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "韩国要给五千二百万人发不要钱、不限量的聊天机器人",
+   "prompt": "",
+   "body": "韩国科学信息通信部星期五从六家里挑了 SK 电讯、Kakao 和 KT。项目叫「人人都有的 AI」。今年先给三家一共五百一十二张英伟达 B200，九月内测，十二月全国铺开。从二〇二七年起，全国服务费政府补贴。\n\nKakao 把入口放进国民都在用的 KakaoTalk，能订座、填表、付款。SK 电讯说还要能打电话给不会上网的窗口。KT 接到比较网、买衣服、找房子。政府要求至少一半跑在经过认证的国产模型上。官方招标材料里写：三分之二韩国人用过 AI，大约两千三百万人经常用生成式工具。ChatGPT 今年四月在韩国有两千三百四十五万用户，真正付钱的只有一百八十万。没有第二个 G20 国家在按这个时间表，给全体居民发不限量的公共助手。\n\n所以呢：这不是又一个聊天框。是一个国家把「用不花钱的 AI」当成水电一样铺。\n",
+   "links": [
+    {
+     "label": "韩国先驱报",
+     "url": "https://www.koreaherald.com/article/10855962"
+    },
+    {
+     "label": "The Next Web",
+     "url": "https://thenextweb.com/news/south-korea-free-ai-chatbot-all-citizens-domestic-models"
+    }
+   ]
+  },
+  {
+   "id": "chatgpt-mil-genai",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "三百万军职人员的门户，同一天放进了 ChatGPT 和 Grok",
+   "prompt": "",
+   "body": "五角大楼的 AI 门户 GenAI.mil 上线九个月，已经有一百七十万人登过。八月三十一日，军用版 ChatGPT 和政府版 Grok 同一天进去，跟原来的 Gemini 并排。这是给受控非密信息用的，云安全档叫影响等级五：敏感，但还没到保密。三百万军职人员，干的是计划、政策、后勤、行政，不是打仗。海军已经强制要求迁过去。\n\n陆军第十八空降军用它写一份南方司令部演习命令：九个写手，六周交卷。以前同等活要六到九个月、更多人。OpenAI 的人举的例子更土：填差旅单、对补给、写运输需求。数据不出政府环境，不拿去训公开模型。打仗用的模型走另一条还没公开的网。部门自己也说，门户上这些模型不打算用于作战。\n\n所以呢：军队先把聊天框用在填表和写命令上。真要上战场的那套，另走一条线。\n",
+   "links": [
+    {
+     "label": "Military Times",
+     "url": "https://www.militarytimes.com/industry/techwatch/2026/08/31/the-militarys-chatgpt-is-now-live-via-the-pentagons-genai-platform/"
+    },
+    {
+     "label": "DefenseScoop",
+     "url": "https://defensescoop.com/2026/08/31/grok-chatgpt-added-to-genai-mil/"
+    }
+   ]
+  },
+  {
+   "id": "pmc-89pct-llm-papers",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "生物医学论文十篇里九篇带着机器爱用的词，作者自己先不信",
+   "prompt": "",
+   "body": "根特大学的德米特里·科巴克一开始不信自己算出来的数，觉得肯定算错了。跟同事把一百一十九万篇生物医学公开论文的用词过了一遍。到二〇二五年十二月，大约百分之八十九的全文带着大模型爱用的词，比如 delves、invaluable 这类。讨论部分大约百分之七十八，方法部分大约百分之五十四。韩国、中国、台湾的作者更高，英国最低。\n\n这不是抓某个人作弊的检测器。是看整库的用词漂移。科巴克说，模型的偏见一旦写进导论，会渗进整个学科。结果部分如果也是机器在写，还得防它编数据。Wiley 去年年中的调查里，七成研究者承认用大模型帮忙写。Nature 这周跟进报道。多伦多的凯勒·赛勒说，牙膏已经挤出来了，塞不回去。\n\n所以呢：科学论文的「人话」正在被同一套词库抹平。你以后读到的「深入探讨」，可能只是机器的口头禅。\n",
+   "links": [
+    {
+     "label": "Nature 报道",
+     "url": "https://www.nature.com/articles/d41586-026-02551-z"
+    },
+    {
+     "label": "arXiv",
+     "url": "https://arxiv.org/abs/2608.10715"
+    }
+   ]
+  },
+  {
+   "id": "fsb-ai-cyber-g20",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "英格兰银行行长跟 G20 说：眼下金融最急的，是模型让黑客更便宜",
+   "prompt": "",
+   "body": "安德鲁·贝利是英格兰银行行长，也是全球金融稳定委员会主席。他在八月三十一日和九月一日 G20 会前给财长写信。中东还在打，主权债、私募信贷、资产估值都紧。可他写得最靠前的一句是：对金融系统来说，眼下最急的是前沿模型会改掉网络攻击的速度、规模和成本，进而动摇全市场信心。\n\n好多国家还没有管先进模型怎么放出去的办法。金融机构又绑在少数几家科技供应商上。他点名要能从裸机把关键系统和数据救回来，第三方云也不能先垮。委员会在琢磨两件事：金融机构用前沿模型做防御行不行，以及出事以后怎么从大面积中断里爬起来。\n\n所以呢：央行行长开口了。模型还没让银行更聪明，先让黑客更便宜。\n",
+   "links": [
+    {
+     "label": "FSB 原信",
+     "url": "https://www.fsb.org/2026/08/fsb-chairs-letter-to-g20-finance-ministers-and-central-bank-governors-august-2026/"
+    },
+    {
+     "label": "路透/CNA",
+     "url": "https://www.channelnewsasia.com/business/ai-driven-cyber-risk-top-concern-global-financial-stability-watchdog-says-6351556"
+    }
+   ]
+  },
+  {
+   "id": "taiyadi-barber-instacore",
+   "date": "2026-08-29",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "圣何塞老师傅头上挂五台相机，把剪发的手教给机器人",
+   "prompt": "",
+   "body": "圣何塞 Style Masters 理发店，外号 Magic 的泰亚迪·戴剪了三十多年头，给四九人队剪过。客人现在多了一句闲话：他头上、胸口、两只手腕挂着五台相机，背后一个轻背包。做零工匹配的 Instawork 新开了机器人实验室，管这套叫 Instacore。录像用来模仿手的角度。\n\n他剪一个客人要四十五分钟到一小时。他说理发师是便宜的心理医生，相机没改这一点。只要客人不反对，他愿意把手艺教给机器。「反正会发生，为什么不加入？」这家公司平台上大约一千万零工。六月他们就说，要把厨房切菜、货架补货都录下来，当成机器人的教材。行业去年大约录了一百万小时，今年预计两千万小时，研究者觉得这连需要的万分之四都不到。\n\n所以呢：机器人要学的不是论文。是一个愿意把头伸进镜头的老师傅。\n",
+   "links": [
+    {
+     "label": "ABC7",
+     "url": "https://abc7news.com/post/heres-old-school-san-jose-barber-taiyadi-magic-day-is-now-teaching-robots-cut-hair-ai-instawork-robotics/19754964/"
+    },
+    {
+     "label": "Instacore 发布",
+     "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/instawork-robotics-lab-debuts-instacore-a-wearable-system-built-1174313"
+    }
+   ]
+  },
+  {
+   "id": "pastor-lester-ai-twin",
+   "date": "2026-08-25",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "牧师把自己做成分身，教友半夜能问；出事了，它会叫你打电话给真人",
+   "prompt": "",
+   "body": "加州瓦列霍，友谊浸信会牧师贾斯汀·莱斯特把自己的油管、TikTok、Instagram，连同每一篇讲道和书，写进一个分身。教友布里安娜说，有些问题不好意思当面问，觉得自己应该知道。CNN 记者对着它说今天有点孤单。它引了一句经文，让他去联系一个人。\n\n莱斯特听过有人以为真的在跟他说话，他被吓到，先把视频关了。有人提到自杀或虐待，分身会说：这超出我了，打电话给牧师。他把省下的邮件时间拿去把探访从五分钟拉到二十分钟。「我上学是为了讲福音，不是为了回邮件。」教堂里还有一只会跟小孩说话的机器狗，门上有人脸识别。他说 AI 不能感受。同事也说，不会搞成没有人的虚拟教堂。\n\n所以呢：教会先用上了「人设分身」。最要紧的那句话留给了真人：出事了，打电话给我。\n",
+   "links": [
+    {
+     "label": "ABC7 / CNN",
+     "url": "https://abc7news.com/post/vallejo-pastor-justin-lester-friendship-missionary-baptist-church-brings-artificial-intelligence-religious-realm/19731252/"
+    }
+   ]
+  },
+  {
+   "id": "cyber-ai-burnout-hospitals",
+   "date": "2026-08-31",
+   "added": "2026-09-01",
+   "category": "痛点",
+   "title": "守医院和银行的人先垮了：警报变多，AI 写的漏洞也一起涌进来",
+   "prompt": "",
+   "body": "瓦尔·梅雷在 GitLab 当安全工程师。她喜欢这行是因为目标清楚：别让公司炸掉。以前也累，但还扛得住。去年她说「AI 疯了」开始。外头警报变多，里头同事用模型写代码，漏洞一起涌进来。领导又逼他们用 AI 提效，她觉得更慢。「我渐渐看不清我们到底该干什么。」她请了两个月倦怠假，后来离开这行，一年写了四本小说。\n\n彭博八月三十一日把标题对准医院和银行。守门人正在被掏空。另一份行业调查里，百分之八十三的机构在用或计划用 AI 做安全，可百分之六十八的安全从业者说这两年工作更难了。攻击的人用模型放大，防守的人被要求用同一套东西提效。两边加起来，人先没了。\n\n所以呢：模型让攻击变便宜，也让防守的人先垮。医院和银行最怕的，可能不是下一道漏洞，是没人还肯守门。\n",
+   "links": [
+    {
+     "label": "OODA 转述彭博",
+     "url": "https://oodaloop.com/briefs/technology/ai-burnout-hits-the-people-charged-with-defending-hospitals-and-banks-from-hackers/"
+    },
+    {
+     "label": "Business Report",
+     "url": "https://www.businessreport.com/article/how-ai-is-fueling-burnout-among-cybersecurity-professionals"
+    }
+   ]
+  },
+  {
+   "id": "alpha-school-two-hour",
+   "date": "2026-08-05",
+   "added": "2026-09-01",
+   "category": "跨行业",
+   "title": "私立 AI 学校秋季再开二十七所，文化课压缩成早上两小时软件",
+   "prompt": "",
+   "body": "Alpha School 秋季要一口气开二十七所新校，丹佛、芝加哥、纳什维尔、波士顿、亚特兰大、迈阿密海滩都在名单上，全美大约五十个校园。早上两小时，孩子对着会改难度的软件学语文数学。下午工作坊，旁边的人叫向导，不叫老师。多数学费四万到七万五美元。创办人麦肯齐·普莱斯说，好老师无法规模化，软件可以一次更新所有教室。\n\n学习科学家卡尔·亨德里克本来怀疑，参观以后帮他们做课。公司还在休斯敦两所、马萨诸塞斯普林菲尔德一所公立学校试，那里学生成分会杂得多。独立媒体 404 Media 查过，说生成的教案经常不合逻辑。目标写着二十年内服务十亿孩子。科学美国人这周问了一句：好教学规模化不了，好软件就能吗？\n\n所以呢：最贵的私立学校在卖「两小时文化课」。开业速度比证据跑得快。\n",
+   "links": [
+    {
+     "label": "科学美国人",
+     "url": "https://www.scientificamerican.com/article/alpha-schools-ai-teaching-model-is-expanding-does-it-work/"
+    },
+    {
+     "label": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/alpha-school-expands-to-27-new-communities-nationwide-with-campuses-opening-this-fall-302843874.html"
+    }
+   ]
+  },
+  {
    "id": "torchwright-doom-transformer",
    "date": "2026-09-01",
    "added": "2026-09-01",
