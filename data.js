@@ -1,6 +1,36 @@
 window.INTEL_DATA = {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "items": [
+    {
+      "id": "writing-safest-from-ai",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "好玩AI",
+      "title": "分布式系统教授说：程序员在还债，写作者反而更安全",
+      "prompt": "",
+      "body": "八月三十一日，布法罗大学的 Murat Demirbas 发文。身边技术人被「五倍生产力」配额追着跑，又被代理生成的代码压出认知债务。他说写代码这份工种正在被彻底改写，写作却出奇地没被伤到。\n\n他嫌大模型写出的散文：同一种机器人节奏，同一些陈词。它们把他破而有魂的句子，修成塑料味的词泥。图像、语音、视频模型进步很快，文字模型在表达、深度和真假上却像撞了墙。他把写作称作 wicked problem：没有标准题面，没有停笔规则，成败取决于能不能在另一个人脑子里产生共鸣。代码有编译器和测试立刻打回，写作没有这种机械裁判。\n\n所以呢：他赌像样的写作者短期内不会被抢饭碗。对自媒体来说，这既是安慰，也是提醒：读者对塑料文已经起生理厌恶了。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html"
+        }
+      ]
+    },
+    {
+      "id": "beafk-phone-steer-agents",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "小众工具",
+      "title": "孩子出生后他烦透守在桌边，做了个手机遥控编程代理的工作台",
+      "prompt": "",
+      "body": "八月三十一日，beafk 在 Product Hunt 上线。创始人 Bogdan 说，越来越靠编程代理写代码之后，人还是得整天守在电脑旁：开会话、看进度、偶尔答一句、在工具间切换。儿子出生后这更离谱。代理在干活，他的日子却仍被办公桌编排。\n\nbeafk 是手机优先的工作区。Claude Code、Codex、Grok Build、Kimi Code 跑在你自己的开发机上，你可以在一个会话里把它们编成一队，再用手机去指挥。代码和凭证留在本机。团队空间里有管理员和成员，机器访问可管，证书走带签名的哈希链审计日志。按机器收费，不按座位。\n\n所以呢：代理真要替你写代码，人就该能走开。手机不是再开一个终端，是远程方向盘。",
+      "links": [
+        {
+          "label": "CIO Influence",
+          "url": "https://cioinfluence.com/machine-learning/beafk-app-launches-mobile-first-ai-coding-agent-orchestration-on-product-hunt/"
+        }
+      ]
+    },
     {
       "id": "claude-auto-bypass-embrace",
       "date": "2026-08-31",
