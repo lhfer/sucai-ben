@@ -2,6 +2,40 @@
   "updated": "2026-09-01",
   "items": [
     {
+      "id": "chatgpt-ads-1b-arr",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "好玩AI",
+      "title": "ChatGPT 广告不到两百天，公司自己报年化十亿美元 run rate",
+      "prompt": "",
+      "body": "八月三十一日 OpenAI 发产品文。ChatGPT Ads 上线不到两百天，广告业务的年化 run rate 报到十亿美元。自助投放的 Ads Manager 这一天起扩到印度、欧洲、中东和北非。广告已能在四十多个国家买到，广告主有好几万。\n\n公司强调广告会单独标出来，跟回答分开，不插手模型怎么答，广告主也拿不到私人对话。免费层靠广告撑着，他们说周活用户过了十亿。注意：run rate 是拿近几个月收入乘十二推出来的，不是已经入账一整年的钱。\n\n所以呢：订阅之外，广告这根轮子终于有了能念出口的数字。来得快，也提醒你：免费聊天的背面，已经是正式卖广告的生意。",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/"
+        }
+      ]
+    },
+    {
+      "id": "apple-openai-macbook-evidence",
+      "date": "2026-09-01",
+      "added": "2026-09-01",
+      "category": "痛点",
+      "title": "苹果盯着离职工程师的 MacBook：电路图进了 OpenAI，还被指让同事毁证据",
+      "prompt": "",
+      "body": "八月三十一日，苹果在诉前雇员刘畅和 OpenAI 的商业秘密案里补了一份材料。刘畅一月从苹果跳到 OpenAI。他律师后来交出离职后用的那台 MacBook。苹果说法医初检看见四件事。\n\n他下载过苹果机密电路原理图，并在 OpenAI 的工作里用过。苹果说他和 OpenAI 一些人清楚还摸得到苹果那边的残留权限。得知苹果在查之后，他给 OpenAI 同事发了销毁证据的指示，对方回复会照做。他还在 OpenAI 用过一个跟苹果内部工程工具同名的东西。三月份有人用那张原理图在 LTspice 里跑仿真。聊天记录里他说，自己的人工智能代理学会了跑 LTspice 并看结果。\n\n苹果的论点更刺：商业秘密一旦喂进会学习的代理，可能变成收不回来、还会继续传播的用法。他们要法院加速取证。\n\n所以呢：挖人官司落到了笔记本和仿真文件上。下一句大家会追问的是，偷来的图纸教给代理之后，怎么灭火。",
+      "links": [
+        {
+          "label": "9to5Mac",
+          "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/"
+        }
+      ]
+    },
+    {
       "id": "apple-macs-ai-agent-rush",
       "date": "2026-09-01",
       "added": "2026-09-01",
