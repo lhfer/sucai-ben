@@ -138,6 +138,21 @@ window.INTEL_DATA = {
       ]
     },
     {
+      "id": "wellington-deloitte-ai-report",
+      "date": "2026-09-02",
+      "added": "2026-09-02",
+      "category": "痛点",
+      "title": "四十三万五千刀的裁员报告，市长说大段是 AI 写的",
+      "prompt": "",
+      "body": "新西兰惠灵顿市长安德鲁·利特尔周二上电台。市议会去年花了四十三万五千新西兰元，请德勤做 Future Fit Pōneke，说市政府多出三百三十个全职编制。后来有人发现：现职和空缺被重复计算，还用了纳税人联盟三年前的就业数据。\n\n利特尔说，报告里「大段」是 AI 写的。他没细说比例。他承认合同管理那一段有用，剩下的「坦白说纯属浪费时间」。上周交到议会的文件又挖出：兼职也按全职薪水算，人力开支多报了两千一百五十万；职位名带 project 的，被当成重复岗。按更准的算法大概是二百八十四人，别的错误假设还没剔干净。\n\n德勤上周说，工作里会用包括 AI 在内的工具，但分析、结论必须有人签字。他们坚持报告反映了专业判断。\n\n所以呢：贵的不是模型，是一份能决定三百三十个人去留的报告，经不起翻表。",
+      "links": [
+        {
+          "label": "RNZ",
+          "url": "https://www.rnz.co.nz/news/regions/1229348/mayor-says-large-chunks-of-wellington-council-deloitte-report-written-by-ai"
+        }
+      ]
+    },
+    {
       "id": "prompt-fable51-progress-batch",
       "date": "2026-09-01",
       "added": "2026-09-02",
