@@ -100,6 +100,29 @@ window.INTEL_DATA = {
       ]
     },
     {
+      "id": "nyc-k8-ai-ban-600k",
+      "date": "2026-09-02",
+      "added": "2026-09-02",
+      "category": "痛点",
+      "title": "纽约公立校给六十万孩子按下暂停：学前到初中，学生面 AI 先别碰",
+      "prompt": "",
+      "body": "全美最大学区纽约市公立学校，九月十号开学。市教育局准备周三正式亮出规则：二岁学前班到八年级，学生不得使用面向学生的生成式 AI，包括聊天机器人和 AI 家教。纽约每日新闻拿到的幻灯片说，这大约覆盖六十万学生，占全系统三分之二。\n\n学前到二年级，教室里不许发个人设备，电子白板还能留。三到五年级建议个人屏幕每天不超过三十分钟，初中四十五分钟。高中「受限」可用：AI 素养课、职业认证、五个试点。老师可用批准过的工具备课、翻译、起草通知，但打分、行为监控、心理辅导、特教方案不许交给机器。\n\n三月那版草案几乎只教老师怎么用，家长冲进董事会和市政厅，六千多人联署要求停两年，市议会过半议员写信。教育局长卡马尔·萨缪尔斯五月认栽说「没打中」。市长佐兰·马姆达尼对外说，低年级先暂停一年，好好研究影响。\n\n所以呢：最大的学区不是在选哪家模型，是在争孩子还要不要先学会跟人说话。",
+      "links": [
+        {
+          "label": "NY Daily News",
+          "url": "https://www.nydailynews.com/2026/09/01/nyc-public-schools-to-ban-generative-ai-for-students-in-elementary-and-middle-school/"
+        },
+        {
+          "label": "Chalkbeat",
+          "url": "https://www.chalkbeat.org/newyork/2026/09/02/nyc-schools-to-set-ai-policy-ban-screen-time-limits/"
+        },
+        {
+          "label": "ABC News",
+          "url": "https://abcnews.com/Technology/new-york-city-public-schools-banning-ai-middle/story?id=136134872"
+        }
+      ]
+    },
+    {
       "id": "prompt-fable51-progress-batch",
       "date": "2026-09-01",
       "added": "2026-09-02",
