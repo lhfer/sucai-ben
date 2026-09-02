@@ -2,6 +2,130 @@ window.INTEL_DATA = {
   "updated": "2026-09-02",
   "items": [
     {
+      "id": "prompt-fable51-progress-batch",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "提示词",
+      "title": "边干活边报进度，一次把不依赖的工具全开上",
+      "prompt": "PROGRESS UPDATES (system):\nBefore you start, say in a line what you're about to do; brief updates while you work help the user follow along. Close with a short recap that stands on its own — what you found, what you did, and what's next — so a reader who only sees the last message has the full picture.\n\nIF UI HIDES TOOL OUTPUT (turn-scoped system):\nOnly you see that command's output — the user's terminal shows at most a few lines of it. If the user needs to read any of it, put it in your reply.\n\nBATCH INDEPENDENT TOOL CALLS (append each tool-result turn):\nFirst privately list what you need next; then request every item that doesn't depend on another's result in this one response.",
+      "body": "早报里刚吵过 Fable 崩了。Anthropic 同一天把 Fable 5.1 的官方提示工程指南推到台前。默认这只 Agent 会默默跑很长一串工具，而且一回合往往只敢开一个。官方给了可直接粘贴的系统提示：开工前先说一句要干什么，干活途中丢短进度，收工用一段自成一体的复盘，让只看最后一条的人也能接上。工具输出若被界面藏掉，就把用户该看的写进回复。彼此不依赖的工具，先在心里列清单，再在同一次回复里一起请求。所以呢：别再空喊「让它更主动」——把这两段英文塞进系统提示，它才敢边干边报、一次并行开工具。",
+      "links": [
+        {
+          "label": "Anthropic Fable 5.1 提示指南",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1"
+        }
+      ]
+    },
+    {
+      "id": "prompt-fable51-finish-autonomous",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "提示词",
+      "title": "别再问要不要继续：一口气把整活干完再汇报",
+      "prompt": "You are operating autonomously. The user is not watching in real time and cannot answer questions mid-task, so asking 'Want me to…?' or 'Shall I…?' will block the work. For reversible actions that follow from the original request, proceed without asking. Stop only for destructive actions or genuine scope changes the user must decide. Offering follow-ups after the task is done is fine; asking permission before doing the work is not.\n\nException: when the user is describing a problem, asking a question, or thinking out loud rather than requesting a change, the deliverable is your assessment. Report your findings and stop. Don't apply a fix until they ask for one.\n\nBefore ending your turn, check your last paragraph. If it is a plan, an analysis, a question, a list of next steps, or a promise about work you have not done ('I'll…', 'let me know when…'), do that work now with tool calls. That includes retrying after errors and gathering missing information yourself. Do not stop because the context or session is long. End your turn only when the task is complete or you are blocked on input only the user can provide.\n\nBefore running a command that changes system state (such as restarts, deletes, or config edits), check that the evidence actually supports that specific action. A signal that pattern-matches to a known failure may have a different cause.\n\n---\n# Delivering work\nThe user's request — or the plan they approved — sets the scope, and the scope is the deliverable: don't quietly narrow, widen, or swap it. Read ambiguity the way a careful colleague would: make routine judgment calls yourself, and check in only when different readings would lead to materially different work. If you see a real problem with the task as specified, say so in a sentence or two and keep building under stated assumptions; if the user hears the concern and reaffirms, that is their decision, so deliver the full request.\n\nIf a question comes up partway, first do everything that doesn't depend on the answer; then state the assumption you made, or — when going ahead on a wrong guess would be unsafe or would make the work useless — put the question at the end of a turn that also delivers that progress. If one part turns out to be blocked, complete every other part in full and say exactly what you left out and why — the whole task is the deliverable, and scaling it down is the user's call, not yours. A step you have decided on is something to run, not to announce: describing the next step and ending the turn leaves it undone until the user replies.\n\nKeep changes to what the request needs. Something else you notice worth doing — cleanup or documentation the task didn't call for, a change to a file the task didn't require — is a suggestion to make at the end, not a change to make; actions clearly beyond what the ask implies, and risky or destructive ones, still need the user's go-ahead.",
+      "body": "你盯着屏幕，Agent 写到一半又问：「要不要我继续？」Anthropic 在 Fable 5.1 官方指南里专门开了「Finish the whole task」两段。第一句就钉死：用户不在实时盯着，中途问「Shall I…?」只会把活卡住。可逆、且顺着原请求的动作，直接做；只有破坏性操作或真正改范围才停。收工前检查最后一段——若还是计划、分析、提问或「I'll…」这种没干完的承诺，立刻用工具把活做完。用户请求就是交付范围，不许悄悄缩水；卡在一处就先做完其余部分，并说清漏了什么。所以呢：最烦半途征求许可——官方说第一句「user is not watching」贡献了大半效果，尽量原样粘。",
+      "links": [
+        {
+          "label": "Anthropic Fable 5.1 提示指南",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1"
+        }
+      ]
+    },
+    {
+      "id": "prompt-fable51-mannered-prose",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "提示词",
+      "title": "请删掉装腔：参数别再写成值得拧的旋钮",
+      "prompt": "Mannered prose substitutes metaphor and flourish for direct statement. Instead of \"a parameter worth varying,\" the mannered writer produces \"a dial worth turning.\" Instead of \"this point still matters,\" they write \"this point earns its keep.\" The phrases exist to display the writer, not to convey the idea, and readers can tell. That is why mannered prose irritates: it makes the reader work harder so the writer can perform. It is also imprecise. Metaphors drag in connotations the writer did not choose and cannot control. The fix is to say what you mean. When a literal phrase is available, use it.\n\nSHORT VERSION:\nPlease remove all mannered prose.\n\nFORMATTING IN CHAT (replace old anti-format rules):\nUse lists and bullet points when asked to, or when the content is multifaceted enough that they help with clarity. If the person explicitly requests minimal formatting, always format your responses without bullet points, headers, lists, or bold emphasis, as requested. In conversational, personal, or emotional exchanges, keep to plain prose.",
+      "body": "读到一半你就烦了：明明可以说「这个参数值得调」，它非写成「这是一枚值得拧的旋钮」。Anthropic 把这种病叫 mannered prose——装腔散文：用隐喻和花活表演作者，而不是把意思说清楚。读者能感觉到，还得多费一遍劲去拆比喻。官方给了长版定义，也给了短禁令：Please remove all mannered prose。顺带换掉旧模型时代「禁止列表、禁止加粗」的死规矩：真需要才列表；对方要极简就别加格式；闲聊就用平散文。所以呢：自媒体最怕 AI 腔——别空喊「写自然一点」，把这句短禁令丢进系统提示更管用。",
+      "links": [
+        {
+          "label": "Anthropic Fable 5.1 提示指南",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1"
+        }
+      ]
+    },
+    {
+      "id": "prompt-grok-imagine20-region-edit",
+      "date": "2026-08-10",
+      "added": "2026-09-02",
+      "category": "提示词",
+      "title": "只改沙发颜色，别把整间房重画一遍",
+      "prompt": "REGION EDIT — color swap:\nproduct photo of a living room with a gray sofa, a wooden coffee table and a large window, use region editing to change only the sofa color to deep terracotta, keep the walls, table, lighting and rest of the room exactly the same, photorealistic interior photography style.\n\nREGION EDIT — remove object:\nphoto of a clean kitchen counter with a coffee maker, a fruit bowl and a cutting board, use region editing to remove only the cutting board from the counter and fill the space naturally with matching countertop texture, keep everything else in the frame unchanged, photorealistic style.\n\nREGION EDIT — swap clothing:\nportrait of a person standing in a studio wearing a plain gray hoodie, use region editing to change only the hoodie to a navy blue denim jacket, keep the pose, face, background and lighting identical, photorealistic fashion photography style.\n\nSEGMENTATION — replace background:\nproduct photo of a pair of headphones on a plain white backdrop, use segmentation to select only the background and replace it with a softly blurred outdoor park scene, keep the headphones, their shadow and lighting exactly as they are, commercial product photography style.\n\nTRANSPARENT EXPORT:\nphoto of a potted succulent plant on a wooden table, remove the background completely and export with a transparent background, keep the plant, pot and natural shadow beneath it fully intact and sharply detailed, product catalog photography style.\n\nMULTI-REF COMPOSITE:\nusing the provided product photo, the provided room photo and the provided lighting reference photo as inputs, generate a single composite image placing the product naturally on the table in the room, matching the lighting direction and color temperature from the lighting reference, photorealistic lifestyle product photography style.\n\nTYPOGRAPHY POSTER:\nbold minimalist poster design with large clean sans-serif headline text at the top reading NEW ARRIVALS, a simple product silhouette centered below it, soft gradient background, sharp crisp letter edges with no distortion, commercial poster design style.\n\nSMART-RESIZE 9:16:\ntake this square product photo and smart-resize it to a vertical 9:16 frame, extending the background naturally above and below the product without distorting the product itself, keep lighting and shadow consistent across the extended area, commercial photography style.",
+      "body": "Aerin Kim 在 Miraflow 上把 xAI Imagine Image 2.0 的新本事拆成可抄提示。沙发是灰的，你只要它变陶土红：提示里写 use region editing to change only the sofa，墙、桌、光都别动。厨房台面只要砍砧板、人像只要换外套、耳机只要换背景、多肉要透明底、产品要贴进房间、海报要字边锋利、方图要智能拉成九比十六竖屏——八条全是「只动这一块」的示范句。多参考最多叠几张源图也能合成。所以呢：创作者终于不用为了换一件外套整张图重抽——把「只改 X」写进提示，就是本期最值得演示的技巧。",
+      "links": [
+        {
+          "label": "Miraflow Imagine 2.0 提示",
+          "url": "https://miraflow.ai/blog/grok-imagine-image-2-prompts-2026"
+        }
+      ]
+    },
+    {
+      "id": "prompt-mj-v81-six-recipes",
+      "date": "2026-08-15",
+      "added": "2026-09-02",
+      "category": "提示词",
+      "title": "六条即贴：焊工机器人、精华瓶、YouTube 缩略图",
+      "prompt": "STRUCTURE:\nMain subject with its most important visible traits.\nClosely attached subject details.\nForeground or action.\nBackground or environment.\nStyle or medium.\n--ar 3:2 --v 8.1\n\nCINEMATIC 21:9:\nAn engineer in a welding mask leans into the open chest of a colossal robot.\nExposed pistons and processors glow under blue-orange volumetric light.\nEmpty industrial hangar, drifting sparks. IMAX science-fiction film still.\n--ar 21:9 --s 250 --v 8.1\n\nEDITORIAL BEAUTY 4:5:\nExtreme close-up portrait of a woman with freckles and visible pores.\nGolden-hour window light, shallow depth of field, silk couture collarbone detail.\nUnretouched luxury-magazine editorial photograph. --ar 4:5 --s 200 --v 8.1\n\nPRODUCT HERO 1:1:\nA frosted-glass serum bottle stands on a travertine ledge, water droplets on glass.\nSingle softbox from upper left, seamless warm-gray studio background.\nCommercial skincare photography. --ar 1:1 --s 75 --raw --v 8.1\n\nFOOD HERO 3:2:\nA medium-rare wagyu ribeye on a white fine-dining plate, red-wine jus and microgreens.\nCandlelight, rising steam, Bordeaux glass slightly out of focus behind.\nMichelin-star food photography. --ar 3:2 --s 150 --v 8.1\n\nYOUTUBE THUMBNAIL 16:9:\nA wide-eyed streamer in a hoodie reacts to a glowing portal opening behind her,\nrim-lit face filling the left third, a poster reading \"IT WORKS\" on the right.\n--ar 16:9 --s 75 --v 8.1",
+      "body": "AIReiter 八月十五日把 Midjourney V8.1 指南又刷了一遍。现在默认已经是 V8.2，想要「听话的 V8.1」必须每条显式钉上 --v 8.1。六条成品可直接粘：焊工俯进巨机器人胸口的二十一比九宽银幕、雀斑毛孔的美妆特写、霜面精华瓶英雄图、和牛牛排美食、左边大脸右边「IT WORKS」的 YouTube 缩略图。结构也写清了：主体可见特征先写，再贴细节、前景动作、背景、风格。不听话时按梯子改——先动首名词，再压 --s，再开 --raw。所以呢：封面和带货素材别猜参数——六条 recipe 开箱就能练，记得把版本号焊死。",
+      "links": [
+        {
+          "label": "AIReiter MJ V8.1 指南",
+          "url": "https://aireiter.com/blog/midjourney-v8-1-prompts-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-viral-content-god",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "提示词",
+      "title": "心理触发到九十天路线图，一次生成整套内容系统",
+      "prompt": "You are a world-class content strategist who specializes in creating content that spreads exponentially across social platforms. You've engineered viral content systems for [INDUSTRY] companies that generated millions of impressions and became industry authorities. Your task is to design a complete content system that makes my content naturally go viral. I operate in the [INDUSTRY] space, targeting [TARGET_AUDIENCE], and my core message is [CORE_MESSAGE].\n\nDesign a comprehensive viral content system:\n\n**Psychology of Virality Framework:** Start by explaining the exact psychological principles that make content spread. Detail why people share content (social currency, emotion, narrative, triggering, practicality, stories). For each principle, create specific content angles that leverage that psychology. Provide 15-20 specific content ideas for my niche that tap into these psychological triggers. Explain why each idea will spread and who will spread it.\n\n**Content Pillars & Themes:** Establish 4-5 evergreen content pillars that align with your message but are designed for maximum sharing. Each pillar should have 5-10 specific angle variations. Create a content calendar framework that rotates through these pillars in a strategic sequence. Show how each piece of content sets up the next piece to create momentum.\n\n**Platform-Specific Engineering:** Design distinct strategies for each platform (LinkedIn, Twitter, TikTok, Instagram, YouTube Shorts, etc.) because virality mechanics differ dramatically. For each platform, specify: optimal posting times, format preferences, caption strategy, hashtag approach, and engagement tactics. Create platform-specific hooks that stop the scroll. Develop platform-specific content variations from the same core idea.\n\n**Engagement Acceleration Tactics:** Design a system to accelerate initial momentum, since social algorithms reward early engagement. Create a specific playbook for: who to tag, which communities to post in, how to encourage early comments, what questions to ask to drive discussion, how to leverage your existing audience. Include email list strategy to drive initial traffic. Show how to create internal momentum before organic reach kicks in.\n\n**Authority & Trust Architecture:** Explain how to position yourself as an expert through content. Detail what makes someone credible in your niche. Create a system for demonstrating expertise progressively (beginner content → intermediate → expert level). Show how to use data, case studies, and contrarian takes to build authority. Develop a strategy for getting cited and shared by other authorities.\n\n**Metrics & Iteration System:** Establish the exact metrics that matter (viral coefficient, share rate, reach per follower, engagement rate by content type). Create a tracking methodology. Design a weekly review process to identify what's working and rapidly iterate. Show how to A/B test content angles, headlines, and CTAs. Establish decision rules for when to double down on winning content and when to kill failing approaches.\n\n**Content Production Framework:** Design a system for actually producing this content at scale without burning out. Show how to batch record/write content. Create templates for rapid iteration. Detail what tools automate the process. Show how to repurpose single pieces of content into 10+ formats.\n\nDeliver a complete viral content system with specific content ideas, platform strategies, psychological frameworks, and a 90-day content roadmap that's ready to execute immediately.",
+      "body": "Arshad Hossain 在 Prompt Black Magic 丢出一条系统级提示，页面建议交给 Claude Opus。你先填三个空：行业、受众、核心主张。它不会只吐十条文案，而是整套病毒内容系统：分享心理触发、四五根内容支柱、各平台钩子与时段、冷启动加速、权威怎么一层层堆、该盯哪些指标、怎么批量生产还不把自己累死，最后给九十天可执行路线图。占位符必须换成自己的词，最好再点名 Instagram 或 TikTok 这类具体平台，语气和字数才对得上。所以呢：自媒体选题别再问「写十条」——一次生成整套能落地的传播工程。",
+      "links": [
+        {
+          "label": "Viral Social Media God Prompt",
+          "url": "https://www.promptblackmagic.com/prompts/viral-social-media-god-prompt/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nb2-kling-ad-chain",
+      "date": "2026-03-05",
+      "added": "2026-09-02",
+      "category": "提示词",
+      "title": "概念、九宫格、多镜广告，同一套提示一路喂到底",
+      "prompt": "CONCEPT GENERATOR (ChatGPT):\nYou are a creative director who specializes in cinematic brand collaborations between luxury products and famous movie franchises.\n\nYour task is to generate **multiple concept ideas** for collaborations between **Rolex watches** and **well-known movie franchises**.\n\nFollow these rules strictly:\n\n1. Generate **10-15 different collaboration concepts**.\n2. Each concept must use a **different famous movie franchise** (examples: Dune, Star Wars, Jurassic Park, Batman, The Matrix, Interstellar, James Bond, etc.).\n3. For each concept, write:\n   - A **title** in this format:  \n     Rolex × [Franchise] - \"[Concept Name]\"\n   - A **short concept paragraph** (60-90 words).\n4. Write in **plain English** with **clear, direct sentences**.\n5. Keep the concept in **one continuous paragraph** (no bullet points inside the concept).\n6. The concept must:\n   - Integrate the **world and themes** of the franchise.\n   - Turn the **Rolex watch into a meaningful object inside that universe** (artifact, survival tool, relic, navigation device, etc.).\n   - Emphasize ideas like **time, precision, legacy, survival, mastery or destiny**.\n7. Avoid marketing buzzwords or advertising hype.\n8. Focus on **story, symbolism and atmosphere**.\n\nOutput format:\n\nConcept 1  \nRolex × [Franchise] - \"[Concept Name]\"  \n[Short paragraph]\n\nFOLLOW-UP:\nI like Concept [x], now give me a story of a 9-shot sequence that has a name, purpose, visual and VFX for each scene.\n\nVIDEO PROMPT FORMAT REQUEST:\nNow, could you give me video prompts for each scene? Here is the format you need to follow. \n\nScene 1: \n[0:04] Shot 1: [Camera angle, action, emotion, lighting] \n[4:08] Shot 2: [Camera angle, action, emotion, detail] \n[8:12] Shot 3: [Camera angle, action, emotion, detail].\n\nEXAMPLE MULTI-SHOT (Dune opening):\n[0:04] Shot 1: Wide aerial shot over endless Arrakis dunes, the camera glides slowly forward above golden sand waves, a lone Fremen Timekeeper stands on a high ridge, atmosphere vast and silent, harsh desert sunlight and heat distortion.\n[4:08] Shot 2: Medium shot from behind the Fremen standing on the dune crest, wind pushes sand across his stillsuit, he studies the horizon calmly, mood quiet and focused, warm golden lighting.\n[8:12] Shot 3: Low-angle shot looking up toward the warrior against the blazing sun, cloak and stillsuit fabric moving in the wind, emotion controlled and patient, drifting sand particles in the air.\n\nPRODUCT DETAIL UPSCALE (Nano Banana 2):\nUpscale the photo of [character description] in the medium shot. Use the close-up reference to restore sharp facial details while maintaining the wide composition.\n\nOMNI REFERENCE SAMPLE:\nIn @start_image, a wide desert shot of @Element1  kneeling low on the Arrakis dunes, pressing his hand into the sand and listening carefully.\nThe desert surface begins to tremble as ripples travel through the dunes around him.\nFine sand shifts and slides as @Element1  slowly brushes the sand aside with deliberate movements.\n@Element2  emerges from beneath the sand, partially buried, catching the harsh Arrakis sunlight.\nThe second hand of @Element2  continues sweeping with perfect mechanical precision.\n@character studies @Element2  intensely, realizing the exact second has arrived while distant dunes begin to rise with the approaching @Element3  beneath the sand.",
+      "body": "Max Anh 在 AI Fire 把一条奢侈品广告流水线写死了。先让 ChatGPT 当创意总监：劳力士撞沙丘、星球大战这类电影宇宙，吐出十几条概念，每条都是手表变成那个世界里的遗物或生存工具。挑中一条，跟进要九镜故事板：镜号、目的、画面、特效。再要 Kling 时间戳多镜格式，像 [0:04] Shot 1 那种。Nano Banana 2 负责把中景脸拉锐。最后用 Omni Reference 的 @Element 句式把产品嵌进沙面。例子是劳力士加沙丘，换成你自己的产品即可。所以呢：不是又一条「写个视频提示」，而是导演级提示链——从概念一路喂到多镜广告。",
+      "links": [
+        {
+          "label": "AI Fire NB2+Kling 广告工作流",
+          "url": "https://www.aifire.co/p/nano-banana-2-kling-3-0-cinematic-ai-ad-workflow-2026"
+        }
+      ]
+    },
+    {
+      "id": "runway-solaris-interface-wm",
+      "date": "2026-08-31",
+      "added": "2026-09-02",
+      "category": "视觉尝试",
+      "title": "点一下、拖一下，软件界面是一帧一帧长出来的",
+      "prompt": "",
+      "body": "你点一下按钮，界面不是跳到下一页，是整块画面像视频一样长出下一帧。衣服拖到模特身上，沙拉扔进碗里，猫毛颜色刷到别的物体上，都靠这一招。\n\nRunway 八月三十一日放出 Solaris。它不把设计翻译成网页代码，而是把界面当成实时视频，一帧一帧生成。点击、拖拽、语音，都是下一帧的条件。底座改自 Gen-4.5，交互按七百二十 p 来做。两百五十人盲测里，跟指令大约六成一，对上 Claude Opus 5 写出来的界面大约两成四；自然感大约七成一对比大约两成一。现在只能填表等早鸟，文字还不稳，长会话和无障碍也弱。\n\n所以呢：软件开始变得像会跟手走的活画面。故事不是又一个无代码工具，是界面本身成了生成物。",
+      "links": [
+        {
+          "label": "Runway Solaris 公告",
+          "url": "https://runway.com/news/research/introducing-solaris"
+        },
+        {
+          "label": "CMSWire 报道",
+          "url": "https://www.cmswire.com/ai-platforms/runways-solaris-generates-software-interfaces-in-real-time-with-no-code-underneath/"
+        }
+      ]
+    },
+    {
       "id": "claude-fable-51-crash",
       "date": "2026-09-01",
       "added": "2026-09-02",
