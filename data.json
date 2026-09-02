@@ -126,6 +126,150 @@
       ]
     },
     {
+      "id": "videoai-live-h3-spots",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "视觉尝试",
+      "title": "直播间每个广告位，都是刚生成的即时片子",
+      "prompt": "",
+      "body": "聊天框里丢一个网址，直播画面里大约六秒后就长出一条新广告。像电视购物，可货架是现算的。\n\nPaul Grisel 把这条「AI 电视购物」直播页丢上 Hacker News。每个广告位即时生成。他自己说，一分钟的 spot 大约十二秒出片，模型是 MiniMax H3 Max，推理走 fal。页面标题 VIDEO AI ME LIVE，聊天框提示主持在听。作者承认贵，但好玩，也试过接 Twitch。\n\n所以呢：能拍的玩法不是又一个视频模型评测。是直播管道本身变成了生成器，广告位按秒往外冒。",
+      "links": [
+        {
+          "label": "VIDEO AI ME LIVE",
+          "url": "https://videoai.me/live"
+        },
+        {
+          "label": "Show HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49520151"
+        }
+      ]
+    },
+    {
+      "id": "fal-h3-max-realtime",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "视觉尝试",
+      "title": "五秒片子大约三秒出片，比你看完还快",
+      "prompt": "",
+      "body": "你丢一句提示，五秒的片子大约三秒就出来了。还没看完，成片已经躺在播放器里。\n\nfal 把开源的 MiniMax H3 做了后训练，推出 H3 Max，并和自家推理栈一起拧。官方说相对 H3 原端点吞吐大约三十五倍，跟同档质量模型比平均大约十五倍。人评里他们自称在总体、跟提示、美学三维里排第一。Playground、Agent 和接口都能试，文生视频和图生视频都有。九月一日前后的通稿在推，首周促销价页面之间说法不一，以端点实时价为准。\n\n所以呢：创作者能拍的不是又一个模型名，是速度本身变成了镜头。打开 playground，比完一句提示更快看到片。",
+      "links": [
+        {
+          "label": "fal 介绍 H3 Max",
+          "url": "https://fal.ai/learn/devs/introducing-h3-max-by-fal"
+        },
+        {
+          "label": "H3 Max 文生视频端点",
+          "url": "https://fal.ai/models/minimax/h3-max/text-to-video"
+        }
+      ]
+    },
+    {
+      "id": "beeple-diffuse-control-mmoca",
+      "date": "2026-09-19",
+      "added": "2026-09-02",
+      "category": "视觉尝试",
+      "title": "十二块大屏，观众拧旋钮，馆藏画实时融化",
+      "prompt": "",
+      "body": "观众拧一下旋钮，十二块大屏上的馆藏画开始融化、变色、乱动。\n\nBeeple 要在麦迪逊当代艺术博物馆挂起《Diffuse Control》。十二块同步大屏嵌在抛光铝结构里，素材来自公域或已授权的馆藏图，用 Stable Diffusion 加专有软件持续变形。展台旁的 kiosk 让人调颜色、运动和潜空间。多人一起拧，会进协作模式；抢狠了就进故障模式。开展是九月十九日，到二零二七年一月十日。馆方强调馆藏只进闭环，不上公共训练集。\n\n所以呢：控制权被拆给了艺术家、策展人、观众和机器。这是能拍的装置镜头，不是又一条文生图教程。",
+      "links": [
+        {
+          "label": "MMoCA 展览页",
+          "url": "https://www.mmoca.org/events/diffuse-control-by-beeple/"
+        }
+      ]
+    },
+    {
+      "id": "fotor-video-agent-edit",
+      "date": "2026-08-31",
+      "added": "2026-09-02",
+      "category": "视觉尝试",
+      "title": "图表打错一个字，不用整条 AI 视频重烧",
+      "prompt": "",
+      "body": "图表里一个数字打错了。你不想整条片子重烧。时间线还在，改那一格就行。\n\nFotor 的 Video Agent 大约八月三十一日冲上 Product Hunt 日榜第一。聊天能把脚本和素材编成动态图形和视频，可导出前文字、数字、logo、图表仍躺在多轨时间线上，可以单独改。官方还挂着自动字幕和配乐。公司自己说测试里三到五天的活能压到大约四十分钟，那是自家口径。评分并不完美，别当万能剪辑手。\n\n所以呢：演示点很土也很硬。AI 视频最烦整条重跑，这一次把可编辑的时间线留了下来。",
+      "links": [
+        {
+          "label": "Fotor AI 视频编辑器",
+          "url": "https://www.fotor.com/ai-video-editor/"
+        },
+        {
+          "label": "Product Hunt Fotor",
+          "url": "https://www.producthunt.com/products/fotor"
+        }
+      ]
+    },
+    {
+      "id": "mcptunnels-expose",
+      "date": "2026-09-02",
+      "added": "2026-09-02",
+      "category": "小众工具",
+      "title": "一条命令，笔记本上的 MCP 变成二十四小时公网地址",
+      "prompt": "",
+      "body": "terragohan 在 Show HN 上扔出 mcptunnels。一条命令：mcptunnel expose -- 后面跟上你的 stdio MCP，它就起服务、桥到 Streamable HTTP，吐出一个公网地址。默认中继是 tunnel.mcptunnels.xyz，匿名隧道二十四小时自动死；带 OAuth 2.1，密码由 CLI 生成。也可自建 tunneld。比通用 ngrok 更贴 MCP 形状：它直接吃 MCP 命令并做桥接。作者说这是给临时演示用的，流量会过中继，别挂长期服务。所以呢：给云端 Claude 或 ChatGPT 演示笔记本上的 MCP，不用先开 ngrok 账号——一条命令，二十四小时后链接自己死。",
+      "links": [
+        {
+          "label": "文档站",
+          "url": "https://terragohan.github.io/mcptunnels/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/terragohan/mcptunnels"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49527807"
+        }
+      ]
+    },
+    {
+      "id": "shed-agent-workspaces",
+      "date": "2026-09-02",
+      "added": "2026-09-02",
+      "category": "小众工具",
+      "title": "主仓库只读，Agent 只糟蹋可扔掉的硬链接工作区",
+      "prompt": "",
+      "body": "Andrew Hannigan 丢出一个 Go 单二进制 Shed。它在 ~/.shed/repos 里维护一份操作系统层只读、会话同步的仓库目录。Agent 要写文件时，shed workspace new 从共享镜像打出硬链接可写克隆，几秒搞定，离线也能用。shed init 给 Claude Code、Cursor CLI、opencode 挂上 SessionStart 钩子，让代理学会这套流程。PR 合并后 shed prune 清掉对应工作区。并行会话不共享引用。所以呢：代理别再糟蹋你的主工作树——它们只糟蹋可扔的工作区，参考副本一直只读。",
+      "links": [
+        {
+          "label": "GitHub AndrewHannigan/shed",
+          "url": "https://github.com/AndrewHannigan/shed"
+        }
+      ]
+    },
+    {
+      "id": "slideops-deck-drift",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "小众工具",
+      "title": "幻灯片引用带哈希，代码一漂对应页就亮红灯",
+      "prompt": "",
+      "body": "glukicov 给 Claude Code 写了两套 Agent Skills，叫 SlideOps。先访谈主题和受众，再吐出自包含 HTML 幻灯片；每一页用 data-src 加 sha256 钉住源码行。check.py 是纯标准库 Python，毫秒级、不调模型，给每页打标：CURRENT、MOVED、CHANGED、MISSING。MOVED 只修引用；CHANGED 吐出 JSON 修复简报，代理不用整本幻灯片重生成。所以呢：文档终于有了构建产物哈希——改几行代码，对应那几页立刻亮成过期。",
+      "links": [
+        {
+          "label": "GitHub glukicov/slideops",
+          "url": "https://github.com/glukicov/slideops"
+        }
+      ]
+    },
+    {
+      "id": "gawkbot-local-office",
+      "date": "2026-09-02",
+      "added": "2026-09-02",
+      "category": "小众工具",
+      "title": "本地一间多机器人办公室，琐事做完还搭个审批小应用",
+      "prompt": "",
+      "body": "有人醒来发现四十一笔报销已经填好了。还差三笔刷卡，屏幕上有个小应用在等他点头。\n\nnajmuzzaman-mohammad 把这套开源东西叫 Gawkbot，九月二日丢上 Show HN。本机开一间机器人办公室：每个机器人有自己的目录和工具白名单，能跑 Claude Code、Codex、OpenCode，也能接本地模型。它先干杂活，报销、对账、收件箱分拣，再搭一个微型仪表盘。每次发送、提交、付钱、删除，都要你当面再点一次批准。没有自家云，也不用注册账号。\n\n所以呢：你不是雇了一个聊天框。是雇了一间会干活、但钥匙还在你口袋里的本地办公室。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://gawk.bot/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/najmuzzaman-mohammad/gawkbot"
+        }
+      ]
+    },
+    {
       "id": "claude-fable-51-crash",
       "date": "2026-09-01",
       "added": "2026-09-02",
