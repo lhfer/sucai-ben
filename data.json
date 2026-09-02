@@ -2,6 +2,25 @@
   "updated": "2026-09-02",
   "items": [
     {
+      "id": "john-deere-jd-ops-ai",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "拖拉机仪表盘上的邻居：约翰迪尔把自家田的数据塞进聊天框",
+      "prompt": "",
+      "body": "爱荷华州农场主凯利·加勒特每年都在纠结什么时候下种。机器已经把田里的数据采了一堆，他自己却没时间翻完。九月一日，约翰迪尔在农场进度展前推出 JD：嵌进 Operations Center 的小按钮聊天助手。\n\n你问它燃油、保养、产量、天气，它只拿你自己账号里的田块、机器和作业记录来答，不出去刮公开网页。产品经理杰克逊·巴卡说，它更像咖啡店里的生意伙伴，不像朋友。公司没说背后是哪家大模型，只说用几套前沿模型随时切换。早期试用先给部分美国客户，后面要上网页、手机，再进驾驶室屏幕；草地、基建、修路、林业也要跟。\n\n可问题是，这家公司跟农民、跟联邦贸易委员会为维修权吵了好几年。这回它顺手贴出十条数据承诺：不卖农场数据、不拿去做农产品投机、第三方分享你说了算。\n\n所以呢：拖拉机终于肯聊天了。可农民真正想问的是，数据还在不在自己手里。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot"
+        },
+        {
+          "label": "Farm Progress",
+          "url": "https://www.farmprogress.com/farm-progress-show/john-deere-s-new-ai-assistant-can-analyze-farm-data"
+        }
+      ]
+    },
+    {
       "id": "prompt-fable51-progress-batch",
       "date": "2026-09-01",
       "added": "2026-09-02",
