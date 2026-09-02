@@ -153,6 +153,25 @@ window.INTEL_DATA = {
       ]
     },
     {
+      "id": "texas-ghost-datacenter-demand",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "痛点",
+      "title": "德州电网门口排着四百七十四吉瓦，州长先喊停：哪些是真机房？",
+      "prompt": "",
+      "body": "路透社九月一日梳理美国中部一条走廊：超大型用电户，多半是数据中心，报上来的用电意向已经超过七百吉瓦，是眼下全行业估算用电量的十倍还多。德州电网运营商 ERCOT 的排队从二零二三年大约四十八吉瓦飙到超过四百七十四吉瓦，大约九成是数据中心，纸面上超过本州历史峰值用电的五倍。\n\n州长格雷格·阿博特八月三日下令：新机房先别接电，公用事业委员会和 ERCOT 要把项目审清楚——真正老板是谁、拿了多少税补、用水怎么冷却、对社区有什么影响。大约二百五十到三百个大项目要过这关。别处一收押金，水分就掉：Exelon 高概率需求砍了大约四成；俄亥俄 AEP 的管道掉了一半以上。PJM 那片十三州电网，近几轮容量拍卖里，数据中心预期已经让居民和企业多扛了大约二百九十四亿美元。\n\n公共利益团体 Public Citizen 的泰森·斯洛克姆说，很多州还像西部拓荒。德州公用事业委员会主席托马斯·格利森说得更短：你不知道什么是真的，就不知道该建什么。\n\n所以呢：AI 抢电的第一战，不是算力够不够，是表上那些吉瓦有多少只是抢位的鬼影。",
+      "links": [
+        {
+          "label": "Reuters 转载",
+          "url": "https://finance-commerce.com/2026/09/ai-data-centers-electricity-demand-grid-concerns/"
+        },
+        {
+          "label": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/"
+        }
+      ]
+    },
+    {
       "id": "prompt-fable51-progress-batch",
       "date": "2026-09-01",
       "added": "2026-09-02",
