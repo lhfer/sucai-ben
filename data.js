@@ -123,6 +123,21 @@ window.INTEL_DATA = {
       ]
     },
     {
+      "id": "google-gemini-k12-all-ages",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "痛点",
+      "title": "谷歌把 Gemini 默认开给全年龄学生，校长从新闻里才知道",
+      "prompt": "",
+      "body": "八月以前，学校里的 Gemini 多半只给十八岁以上。八月起，Google Classroom 把标签页开给了所有 K-12 学生：能把课件变成闪卡、出测验、问数学作文、生图。谷歌说全球超过一点五亿师生在用这套学习平台。六月发过预告，公司觉得学校该有准备；学区随时能关。可问题是，默认变成了「先开着，你再决定关不关」。\n\n俄亥俄普利茅斯高中新校长迈克尔·马丁是从新闻里听说的，不是从谷歌，也不是学区公文。老师整体还没受训，学校先关掉。Common Sense Media 旗下青年 AI 安全研究所的罗比·托尼说，这是默认采纳，不是默认许可。安全厂商 Securly 的 CEO 说管理员像在打地鼠。\n\n微软 Copilot 给学生默认关着，满十三岁才由管理员打开。OpenAI 教师工作区不带学生。Anthropic 的 Claude 不给未成年人。一月有报告还批评过 Gemini：同样提示，幼儿园和高中生收到的情绪支持口吻差不多，也容易漏掉精神病、ADHD 这类信号。\n\n所以呢：教室里的冲突，常常不是学生偷偷用 AI，是平台替全学区先按下了开。",
+      "links": [
+        {
+          "label": "Education Week",
+          "url": "https://www.edweek.org/technology/schools-caught-flat-footed-after-google-makes-gemini-chatbot-available-to-all-students/2026/09"
+        }
+      ]
+    },
+    {
       "id": "prompt-fable51-progress-batch",
       "date": "2026-09-01",
       "added": "2026-09-02",
