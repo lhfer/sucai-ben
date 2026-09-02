@@ -2,6 +2,191 @@ window.INTEL_DATA = {
   "updated": "2026-09-02",
   "items": [
     {
+      "id": "john-deere-jd-ops-ai",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "拖拉机仪表盘上的邻居：约翰迪尔把自家田的数据塞进聊天框",
+      "prompt": "",
+      "body": "爱荷华州农场主凯利·加勒特每年都在纠结什么时候下种。机器已经把田里的数据采了一堆，他自己却没时间翻完。九月一日，约翰迪尔在农场进度展前推出 JD：嵌进 Operations Center 的小按钮聊天助手。\n\n你问它燃油、保养、产量、天气，它只拿你自己账号里的田块、机器和作业记录来答，不出去刮公开网页。产品经理杰克逊·巴卡说，它更像咖啡店里的生意伙伴，不像朋友。公司没说背后是哪家大模型，只说用几套前沿模型随时切换。早期试用先给部分美国客户，后面要上网页、手机，再进驾驶室屏幕；草地、基建、修路、林业也要跟。\n\n可问题是，这家公司跟农民、跟联邦贸易委员会为维修权吵了好几年。这回它顺手贴出十条数据承诺：不卖农场数据、不拿去做农产品投机、第三方分享你说了算。\n\n所以呢：拖拉机终于肯聊天了。可农民真正想问的是，数据还在不在自己手里。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot"
+        },
+        {
+          "label": "Farm Progress",
+          "url": "https://www.farmprogress.com/farm-progress-show/john-deere-s-new-ai-assistant-can-analyze-farm-data"
+        }
+      ]
+    },
+    {
+      "id": "ge-appliances-acdc-ai",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "烤箱垫圈套错了，车间响起 AC/DC，人要拔腿就跑",
+      "prompt": "",
+      "body": "佐治亚州拉法叶，GE Appliances 旗下的 Roper 工厂里，无人车往产线送零件，机器人把玻璃灶台扣上金属框。到处挂着会看的摄像头和传感器。制造总监托尼·加伯特说，镜头看见烤箱上套错了垫圈，那一段线会停，音响开始放很大声的摇滚。听见 AC/DC，就要往那边跑。\n\n副总裁比尔·古德管着九个大家电厂。以前他打电话问厂长「今天跑得怎么样」，现在改问「你为什么跑这么差」。Brilliant Factory 平台一天吃进上百万行数据，AI 早上先交一份报告：哪里要坏、怎么修。一个电机发烫，就提前约人，别等线停。停一条线，每分钟大约三四百到五百美元。良率每抬一个百分点，一年能省一百五十万到两百万。\n\n古德干了将近四十年制造。他说模型能比他想得快。可他不怕被换掉：工厂刚在佐治亚加了六百个岗位、砸了一亿八千万扩产。人少了这一头，就挪到那一头；下周产什么，也交给需求预测。\n\n所以呢：美国厂不是靠聊天窗活下来的，是靠听见摇滚就冲过去的那几分钟。",
+      "links": [
+        {
+          "label": "GPB / NPR",
+          "url": "https://www.gpb.org/news/2026/09/01/it-can-outthink-me-how-major-manufacturer-came-embrace-ai"
+        }
+      ]
+    },
+    {
+      "id": "searchdog-blueprint-70pct",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "图纸不写「卫生洁具」四个字，它也能数出厕所和洗手池",
+      "prompt": "",
+      "body": "工地上的合同、规范、二维图纸、三维 BIM 各说各话。Autodesk、Bentley、AVEVA 的文件格式也不一样。你把图转成通用格式再丢给大模型，大约一半信息会在转换里丢光。韩国创业公司 Searchdog 的创始人白俊善说，没有人真正解决「让 AI 读懂施工文件」这件事。\n\n他们的做法不是硬调模型，是先把形状、图层、尺寸抽出来，再用搜索把关系和条款串上。用户上传一张图，问这栋楼卫生洁具有哪些、各多少，系统能立刻报出马桶、洗手池、淋浴间的数量，哪怕图上根本没写「卫生洁具」这四个字。承包商和设计院拿它核对规范、核对甲方要求，白俊善说审图时间能砍七成。\n\n公司成立不到两年，已经跟韩国大型建企签了供货，还在跟一家半导体厂试点，刚进 Nvidia Inception，下半年要去美国。\n\n所以呢：工地要的不是会写诗的模型，是一张图里藏着的数量和条款对不对得上。",
+      "links": [
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/technology/2026/09/01/searchdog-targets-us-with-ai-that-reads-building-blueprints"
+        },
+        {
+          "label": "同题续报",
+          "url": "https://en.sedaily.com/finance/2026/09/02/ai-now-reads-blueprints-searchdog-cuts-design-review-time"
+        }
+      ]
+    },
+    {
+      "id": "onerail-omnistar-nvidia",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "选快递以前要二十分钟，现在两分半：小店也想追上亚马逊的送货速度",
+      "prompt": "",
+      "body": "电商越来越急，最后一公里却还在人和表格里磨。九月一日，物流公司 OneRail 跟英伟达一起把 OmniStar 推出来：帮零售商在所有承运方、所有送货方式里，给每一单挑最合适的那条路。\n\nCEO 比尔·卡塔尼亚说，决定慢一拍，利润就吐回去。以前挑最优路由大约要二十分钟，他们说现在能压到两分半。网络里有超过一千二百万司机、一千多家物流伙伴，模型拿这些专有数据练。一家大型轮胎经销商已经用上了，公司称三年下来能省下大约四千万美元的运行开支。平台还估第四季度商品交易额能过六十亿。\n\n卡塔尼亚想让中小零售也追上沃尔玛和亚马逊那种速度。英伟达零售业务副总裁阿齐塔·马丁说，价值不在炫技，而在条件一变就能多算几套方案。OneRail 的 AI 负责人大卫·达施勒说得更直：别人给大众文字能力，他们给大众「送得起」的能力。\n\n所以呢：同城配送拼的不是口号，是每一单两分半里省下来的钱。",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/01/onerail-nvidia-ai-delivery-platform.html"
+        }
+      ]
+    },
+    {
+      "id": "nurvis-rakuwa-headphones",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "京都护士戴上骨传导耳机：边走边说，病历自己落下来",
+      "prompt": "",
+      "body": "京都乐活医院有一百五十张普通床、六张高护床。护士要写记录、对医嘱、对用药、排一天的时间线，还要准备交班和会议。间接事务越堆越高，跟人说话的时间就被挤掉。\n\n东京练马的 Peaceful 八月起跟这家医院做验证。他们的 NURVIS 靠骨传导耳机和手机当免提助手：护士口述，护理记录自动成文；操作和用药信息能实时核对；日程和会议材料也能帮着理。创始人神之内正和自己干过急诊、重症和神经外科护理。他说好的护理判断往往只活在老人脑子里，带不走也教不掉。这套系统想把观察、跟家属说话、临场判断显影出来，好让新人也能学。\n\n医院强调隐私和安全。目标不是换掉护士，是把文档负担抠回去，让人重新站到床边。\n\n所以呢：医疗 AI 真正难卖的，不是会聊天，是能不能戴在耳朵上、跟着班走完。",
+      "links": [
+        {
+          "label": "Third News",
+          "url": "https://third-news.com/article/0e6296aa-a5a1-11f1-b36d-9ca3ba08e13f"
+        }
+      ]
+    },
+    {
+      "id": "yuyu-pharma-jecheon-ai",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "提川药厂日利用率超过百分百，政府出钱让机器先去包软胶囊",
+      "prompt": "",
+      "body": "韩国柳柳制药的提川工厂，有一条核心产线日均利用率长期压在百分百以上。处方鱼油软胶囊的二次包装，现在还靠人手。九月一日公司说，它进了产业通商资源部属下机器人产业振兴院的先进制造机器人试点，单家最多能拿两亿韩元补助。\n\n计划上的是 AI 视觉检测、多视觉自动汇总、关节机器人装箱，再加开箱、封箱、贴标。CEO 朴鲁勇说，要看的不只是产量、不良率和成本，还有少让人得肌肉骨骼病、车间能不能更安全。政府这套试点强调的不是摆一台机器人拍照，而是把「怎么在真实工艺里用机器人」写成可复制的流程模型。\n\n所以呢：药厂最先被机器拿走的，往往不是配方，是包装台上重复弯腰的那几步。",
+      "links": [
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/technology/2026/09/01/yuyu-pharma-to-deploy-ai-and-robots-at-jecheon-plant"
+        }
+      ]
+    },
+    {
+      "id": "nyc-k8-ai-ban-600k",
+      "date": "2026-09-02",
+      "added": "2026-09-02",
+      "category": "痛点",
+      "title": "纽约公立校给六十万孩子按下暂停：学前到初中，学生面 AI 先别碰",
+      "prompt": "",
+      "body": "全美最大学区纽约市公立学校，九月十号开学。市教育局准备周三正式亮出规则：二岁学前班到八年级，学生不得使用面向学生的生成式 AI，包括聊天机器人和 AI 家教。纽约每日新闻拿到的幻灯片说，这大约覆盖六十万学生，占全系统三分之二。\n\n学前到二年级，教室里不许发个人设备，电子白板还能留。三到五年级建议个人屏幕每天不超过三十分钟，初中四十五分钟。高中「受限」可用：AI 素养课、职业认证、五个试点。老师可用批准过的工具备课、翻译、起草通知，但打分、行为监控、心理辅导、特教方案不许交给机器。\n\n三月那版草案几乎只教老师怎么用，家长冲进董事会和市政厅，六千多人联署要求停两年，市议会过半议员写信。教育局长卡马尔·萨缪尔斯五月认栽说「没打中」。市长佐兰·马姆达尼对外说，低年级先暂停一年，好好研究影响。\n\n所以呢：最大的学区不是在选哪家模型，是在争孩子还要不要先学会跟人说话。",
+      "links": [
+        {
+          "label": "NY Daily News",
+          "url": "https://www.nydailynews.com/2026/09/01/nyc-public-schools-to-ban-generative-ai-for-students-in-elementary-and-middle-school/"
+        },
+        {
+          "label": "Chalkbeat",
+          "url": "https://www.chalkbeat.org/newyork/2026/09/02/nyc-schools-to-set-ai-policy-ban-screen-time-limits/"
+        },
+        {
+          "label": "ABC News",
+          "url": "https://abcnews.com/Technology/new-york-city-public-schools-banning-ai-middle/story?id=136134872"
+        }
+      ]
+    },
+    {
+      "id": "google-gemini-k12-all-ages",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "痛点",
+      "title": "谷歌把 Gemini 默认开给全年龄学生，校长从新闻里才知道",
+      "prompt": "",
+      "body": "八月以前，学校里的 Gemini 多半只给十八岁以上。八月起，Google Classroom 把标签页开给了所有 K-12 学生：能把课件变成闪卡、出测验、问数学作文、生图。谷歌说全球超过一点五亿师生在用这套学习平台。六月发过预告，公司觉得学校该有准备；学区随时能关。可问题是，默认变成了「先开着，你再决定关不关」。\n\n俄亥俄普利茅斯高中新校长迈克尔·马丁是从新闻里听说的，不是从谷歌，也不是学区公文。老师整体还没受训，学校先关掉。Common Sense Media 旗下青年 AI 安全研究所的罗比·托尼说，这是默认采纳，不是默认许可。安全厂商 Securly 的 CEO 说管理员像在打地鼠。\n\n微软 Copilot 给学生默认关着，满十三岁才由管理员打开。OpenAI 教师工作区不带学生。Anthropic 的 Claude 不给未成年人。一月有报告还批评过 Gemini：同样提示，幼儿园和高中生收到的情绪支持口吻差不多，也容易漏掉精神病、ADHD 这类信号。\n\n所以呢：教室里的冲突，常常不是学生偷偷用 AI，是平台替全学区先按下了开。",
+      "links": [
+        {
+          "label": "Education Week",
+          "url": "https://www.edweek.org/technology/schools-caught-flat-footed-after-google-makes-gemini-chatbot-available-to-all-students/2026/09"
+        }
+      ]
+    },
+    {
+      "id": "wellington-deloitte-ai-report",
+      "date": "2026-09-02",
+      "added": "2026-09-02",
+      "category": "痛点",
+      "title": "四十三万五千刀的裁员报告，市长说大段是 AI 写的",
+      "prompt": "",
+      "body": "新西兰惠灵顿市长安德鲁·利特尔周二上电台。市议会去年花了四十三万五千新西兰元，请德勤做 Future Fit Pōneke，说市政府多出三百三十个全职编制。后来有人发现：现职和空缺被重复计算，还用了纳税人联盟三年前的就业数据。\n\n利特尔说，报告里「大段」是 AI 写的。他没细说比例。他承认合同管理那一段有用，剩下的「坦白说纯属浪费时间」。上周交到议会的文件又挖出：兼职也按全职薪水算，人力开支多报了两千一百五十万；职位名带 project 的，被当成重复岗。按更准的算法大概是二百八十四人，别的错误假设还没剔干净。\n\n德勤上周说，工作里会用包括 AI 在内的工具，但分析、结论必须有人签字。他们坚持报告反映了专业判断。\n\n所以呢：贵的不是模型，是一份能决定三百三十个人去留的报告，经不起翻表。",
+      "links": [
+        {
+          "label": "RNZ",
+          "url": "https://www.rnz.co.nz/news/regions/1229348/mayor-says-large-chunks-of-wellington-council-deloitte-report-written-by-ai"
+        }
+      ]
+    },
+    {
+      "id": "texas-ghost-datacenter-demand",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "痛点",
+      "title": "德州电网门口排着四百七十四吉瓦，州长先喊停：哪些是真机房？",
+      "prompt": "",
+      "body": "路透社九月一日梳理美国中部一条走廊：超大型用电户，多半是数据中心，报上来的用电意向已经超过七百吉瓦，是眼下全行业估算用电量的十倍还多。德州电网运营商 ERCOT 的排队从二零二三年大约四十八吉瓦飙到超过四百七十四吉瓦，大约九成是数据中心，纸面上超过本州历史峰值用电的五倍。\n\n州长格雷格·阿博特八月三日下令：新机房先别接电，公用事业委员会和 ERCOT 要把项目审清楚——真正老板是谁、拿了多少税补、用水怎么冷却、对社区有什么影响。大约二百五十到三百个大项目要过这关。别处一收押金，水分就掉：Exelon 高概率需求砍了大约四成；俄亥俄 AEP 的管道掉了一半以上。PJM 那片十三州电网，近几轮容量拍卖里，数据中心预期已经让居民和企业多扛了大约二百九十四亿美元。\n\n公共利益团体 Public Citizen 的泰森·斯洛克姆说，很多州还像西部拓荒。德州公用事业委员会主席托马斯·格利森说得更短：你不知道什么是真的，就不知道该建什么。\n\n所以呢：AI 抢电的第一战，不是算力够不够，是表上那些吉瓦有多少只是抢位的鬼影。",
+      "links": [
+        {
+          "label": "Reuters 转载",
+          "url": "https://finance-commerce.com/2026/09/ai-data-centers-electricity-demand-grid-concerns/"
+        },
+        {
+          "label": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/"
+        }
+      ]
+    },
+    {
+      "id": "skt-tolta-road-inspect",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "客服车慢慢开过城南，屏幕跳出挖土机：光缆还没被刨断",
+      "prompt": "",
+      "body": "九月一日，SK 电讯一辆装了 AI 巡检方案 Tolta 的车，在京畿道城南市盆唐区慢慢开。镜头看见路边工地，屏幕立刻跳出橙色警报。再开几分钟，又提示「发现挖掘机」。高空作业车一出现，系统报附近有十七根线缆、一个机柜、一根电线杆。管理员能在屏幕上看光纤和地下线跟现场离多远。\n\nTolta 不靠昂贵激光雷达。它吃的是公司车辆日常上门、维修时顺手拍下的视频，再加无人机画面，自动认十一类巡检要素：工地、重型设备、线路异常。人不用再专门派一队巡检车。工地一动土就可能刨断地下通信设施，以前靠人眼和事后报修，现在想在刨断之前喊一声。\n\n所以呢：通信公司的 AI，最先保的不是聊天质量，是马路牙子底下那根还没断的线。",
+      "links": [
+        {
+          "label": "Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/2026090116093642287"
+        }
+      ]
+    },
+    {
       "id": "prompt-fable51-progress-batch",
       "date": "2026-09-01",
       "added": "2026-09-02",
