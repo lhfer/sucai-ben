@@ -36,6 +36,25 @@
       ]
     },
     {
+      "id": "searchdog-blueprint-70pct",
+      "date": "2026-09-01",
+      "added": "2026-09-02",
+      "category": "跨行业",
+      "title": "图纸不写「卫生洁具」四个字，它也能数出厕所和洗手池",
+      "prompt": "",
+      "body": "工地上的合同、规范、二维图纸、三维 BIM 各说各话。Autodesk、Bentley、AVEVA 的文件格式也不一样。你把图转成通用格式再丢给大模型，大约一半信息会在转换里丢光。韩国创业公司 Searchdog 的创始人白俊善说，没有人真正解决「让 AI 读懂施工文件」这件事。\n\n他们的做法不是硬调模型，是先把形状、图层、尺寸抽出来，再用搜索把关系和条款串上。用户上传一张图，问这栋楼卫生洁具有哪些、各多少，系统能立刻报出马桶、洗手池、淋浴间的数量，哪怕图上根本没写「卫生洁具」这四个字。承包商和设计院拿它核对规范、核对甲方要求，白俊善说审图时间能砍七成。\n\n公司成立不到两年，已经跟韩国大型建企签了供货，还在跟一家半导体厂试点，刚进 Nvidia Inception，下半年要去美国。\n\n所以呢：工地要的不是会写诗的模型，是一张图里藏着的数量和条款对不对得上。",
+      "links": [
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/technology/2026/09/01/searchdog-targets-us-with-ai-that-reads-building-blueprints"
+        },
+        {
+          "label": "同题续报",
+          "url": "https://en.sedaily.com/finance/2026/09/02/ai-now-reads-blueprints-searchdog-cuts-design-review-time"
+        }
+      ]
+    },
+    {
       "id": "prompt-fable51-progress-batch",
       "date": "2026-09-01",
       "added": "2026-09-02",
