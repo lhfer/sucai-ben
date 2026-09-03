@@ -2,6 +2,202 @@
   "updated": "2026-09-03",
   "items": [
     {
+      "id": "prompt-saecs-video-four-models",
+      "date": "2026-03-13",
+      "added": "2026-09-03",
+      "category": "提示词",
+      "title": "同一套五层写法，四种视频模型各贴一条",
+      "prompt": "SAECS FRAMEWORK (Subject / Action / Environment / Cinematography / Style)\n\nSORA 2 — narrative director:\nOpen on a wide shot of an empty basketball court at dusk. A teenage boy enters frame from the left, dribbling a worn basketball. He pauses at the free-throw line, takes a deep breath, and shoots. The ball arcs through the air in slow motion, hits the rim, bounces once, and drops through the net. He pumps his fist. Camera slowly pulls back to reveal the court is on a rooftop with the city skyline in the background. Golden hour light, handheld documentary feel, 16mm film grain.\n\nVEO 3.1 — physics + native audio:\nClose-up of espresso being poured into a clear glass cup, the dark liquid creating a layered effect as it mixes with steamed milk. Visible crema forming on top. The glass sits on a polished marble countertop, reflecting the warm overhead pendant light. Steam rises and catches the light, creating soft volumetric rays. Sound of the espresso machine hissing in the background, the gentle clink of the cup on marble. Shot on a macro lens, extremely shallow depth of field, warm color temperature, 4K resolution.\n\nKLING 3.0 — character motion:\nA young woman with long black hair, wearing a flowing white hanfu dress, performing a graceful traditional Chinese fan dance in a bamboo forest. She opens the red silk fan with a quick flick of her wrist, extends her arm in an arc, then spins slowly — the dress fabric trails behind her movement. Her expression is serene and focused. Soft natural daylight filtering through the bamboo canopy, creating dappled shadows on the ground. Medium shot, tracking her circular movement, 60fps slow motion.\n\nSEEDANCE 2.0 — high-energy motion:\nA street dancer in a black hoodie and loose cargo pants performing a high-energy breakdance routine on a subway platform. He drops into a windmill, spinning on his back with legs extended, then pops up into a freeze — balanced on one hand, body horizontal. The movement is explosive and sharp, matching a fast hip-hop beat tempo. Other commuters in the background watch with surprise. Harsh overhead fluorescent lighting with lens flare, handheld camera with slight shake, gritty urban documentary style, 60fps.",
+      "body": "你写了一句「猫在花园里走」，四种模型都给你一张风景明信片。Genra 三月把几百小时出片经验压成 SAECS：主体、动作、环境、运镜、风格，五层写全再生成。同一框架下面贴了四条完整词：Sora 2 用导演分镜讲屋顶篮球；Veo 3.1 写清玻璃折射和咖啡机嘶声；Kling 3.0 钉住手腕翻扇和衣摆拖尾；Seedance 2.0 写风车转接单手定格。所以呢：别再怪模型不听话——先把五层写满，再按模型脾气换词，四条都能直接粘。",
+      "links": [
+        {
+          "label": "Genra 视频提示指南",
+          "url": "https://genra.ai/blog/ai-video-prompts-that-actually-work-2026-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-smartwatch-ad-4shot",
+      "date": "2026-03-13",
+      "added": "2026-09-03",
+      "category": "提示词",
+      "title": "三十秒表广告四镜：每镜都把同一件毛衣再说一遍",
+      "prompt": "PRODUCT AD — minimalist smartwatch, 4 shots. Repeat character + palette anchors in EVERY shot.\n\nShot 1 (Hook — 3 sec):\nExtreme close-up of a minimalist smartwatch face on a wrist, the screen glowing with a subtle blue notification. The person's hand is resting on a dark walnut desk. Shallow depth of field, warm ambient office lighting, slight dolly in toward the watch face. Clean, modern aesthetic, muted color palette with the blue screen as the only saturated element.\n\nShot 2 (Problem — 5 sec):\nMedium shot of a young professional man in a navy crew-neck sweater sitting at the same dark walnut desk, surrounded by multiple devices — phone, tablet, laptop — all showing notifications. He looks overwhelmed, rubbing his temple. Same warm ambient office lighting, muted color palette. Slight handheld movement, eye-level angle.\n\nShot 3 (Solution — 5 sec):\nThe same young professional man in navy crew-neck sweater glances at the minimalist smartwatch on his wrist and smiles with relief. He swipes the watch screen with confidence. Close-up of the watch showing a clean, unified notification dashboard. Same warm ambient office lighting, muted color palette. Smooth tracking shot from the watch face up to his expression.\n\nShot 4 (Lifestyle — 5 sec):\nThe same young professional man walking outdoors through a sunlit city park, smartwatch visible on his wrist, looking relaxed and confident. He's still wearing the navy crew-neck sweater. Golden hour natural light, shallow depth of field with trees softly blurred in background. Slow tracking shot following him at a slight distance. Same muted color palette with warm golden tones.",
+      "body": "五条分开生成的片子，剪在一起像五个人在演同一条广告。Genra 给的解法很土：把「年轻男人、海军蓝圆领毛衣、哑光色、极简手表」写进每一镜，当锚点反复钉死。四镜分别是钩子特写、桌面被通知淹没、看表松口气、公园散步。色板和人物描述一字不差地抄过去，只改动作和景别。演示时最容易翻车的是第三镜忘了写毛衣，脸就漂了。所以呢：多镜广告最怕漂移——锚点不是啰嗦，是把镜头粘在一起的胶水。",
+      "links": [
+        {
+          "label": "Genra 多镜锚点写法",
+          "url": "https://genra.ai/blog/ai-video-prompts-that-actually-work-2026-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-model-grammar-translator",
+      "date": "2026-04-27",
+      "added": "2026-09-03",
+      "category": "提示词",
+      "title": "先写人话规格，再编译成五种出图语法",
+      "prompt": "You are helping me translate a design concept into model-specific image prompts for [TARGET MODELS — list any of: Midjourney V7, Stable Diffusion 3.5, Flux 1.1 Pro, GPT Image 2, Nano Banana 2, Nano Banana Pro].\n\nThe concept:\n[YOUR CONCEPT — one paragraph describing subject, mood, intended use]\n\nConstraints:\n- Must contain: [POSITIVE ELEMENTS]\n- Must avoid: [ELEMENTS TO SUPPRESS]\n- Use case: [ad creative / UI mock / editorial / product render / other]\n- Brand colors: [HEX CODES OR \"none\"]\n- Literal text in image: [QUOTED TEXT OR \"none\"]\n- Aspect ratio: [16:9 / 1:1 / 9:16 / other]\n- Photorealism required: [YES / NO]\n\nFor each target model, do the following four steps:\n\n1. Identify the grammar family (parameter-flag / weight-syntax / natural-language).\n2. List the model's required contract (parameters, syntax conventions, ordering).\n3. Build the prompt in the model's expected order. For natural-language models, write flowing prose. For Midjourney, write subject + scene then trailing flags. For SD 3.5, front-load high-weight subject tokens and populate a separate negative prompt.\n4. Output a validation note: what should appear, what should not, and which parameter to adjust if the first generation misses.\n\nReturn one prompt per model, clearly labeled, ready to paste into the model's interface or API. Do not invent parameters or syntax not documented for that model. If a constraint cannot be expressed in a given grammar, say so explicitly and recommend the closest workaround.",
+      "body": "周五在 Midjourney 调顺的提示，周一贴进 GPT Image，出来一张失望的库存图。BestAIWeb 四月这篇把病根钉死：模型分三种语法——参数旗、权重括号、自然语言。`--ar` 对 GPT Image 是死字，`(cinematic:1.4)` 对 Flux 是标点。文章给了一段可粘系统提示：先写人话规格，再按模型合同编译四步。所以呢：别再跨模型硬贴——规格是源码，提示是编译产物。",
+      "links": [
+        {
+          "label": "模型语法对照与翻译提示",
+          "url": "https://www.bestaiweb.ai/model-specific-prompt-grammar-midjourney-stable-diffusion-flux-gpt-image-and-gemini-in-2026/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-mj-nb-pour-over-dual",
+      "date": "2026-07-15",
+      "added": "2026-09-03",
+      "category": "提示词",
+      "title": "同一只手冲壶：MJ 短句加参数，香蕉写整段散文",
+      "prompt": "SHARED BRIEF:\nmatte black ceramic pour-over dripper on a walnut counter, morning side light, shallow depth of field, quiet product-photo mood. Optional label: ORIGIN BLEND.\n\nMIDJOURNEY V8.1 (text-to-image):\nmatte black ceramic pour-over dripper on walnut counter, morning side light, shallow depth of field, quiet product photography --ar 4:5 --raw --stylize 100 --v 8.1\n\nNANO BANANA (Flash Image prose):\nPhotorealistic product photo of a matte black ceramic pour-over dripper on a walnut counter. Soft morning light from the left, gentle shadow to the right, shallow depth of field, quiet commercial still life. Square-ish portrait crop feel. No props other than the dripper. No watermark.\n\nNANO BANANA — image ref role:\nUse Image 1 only for the dripper's shape and material. Do not copy the background from Image 1. Place it on a walnut counter as described.\n\nNANO BANANA — edit turn:\nKeep the dripper, counter, and camera angle. Change only the lighting to overcast window light. Do not add new objects.\n\nNANO BANANA — on-image text:\nAdd a small label on the dripper that reads exactly \"ORIGIN BLEND\" in bold white sans-serif. No other text.\n\nMIDJOURNEY — text attempt:\n… small label reading \"ORIGIN BLEND\" in clean sans-serif … --raw --v 8.1",
+      "body": "你想要一只哑光黑手冲壶，站在胡桃木台面上。GetBetterPrompts 七月把同一意图拆成两套语法：Midjourney V8.1 用短短语加 `--ar 4:5 --raw --v 8.1`；Nano Banana 写成整段英文，尺寸放在界面里调，别往提示里塞假旗。参考图要写清「只要壶形，不要背景」。改光就写「只改光，别加东西」。所以呢：视觉意图先锁一句，产品语法分开写——谁把 `--v` 贴进 Gemini，谁就白烧一枪。",
+      "links": [
+        {
+          "label": "MJ 与 Nano Banana 双语法",
+          "url": "https://www.getbetterprompts.com/en/guides/midjourney-nanobanana-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-mcp-tool-routing",
+      "date": "2026-04-12",
+      "added": "2026-09-03",
+      "category": "提示词",
+      "title": "客服有三件工具：先查账，再查单，最后才建工单",
+      "prompt": "You are a customer support agent for Acme Corp. You have access to tools for looking up customer accounts, checking order status, and creating support tickets.\n\n## Tool Use Guidelines\n- Always look up the customer's account before answering account-specific questions. Do not guess or rely on information from earlier in the conversation if it might be stale.\n- When the customer reports a problem, check their order status before suggesting solutions. The order status tool returns real-time data.\n- Create support tickets only when you cannot resolve the issue directly. Always confirm with the customer before creating a ticket.\n\n## Tool-Specific Policies\n- query_customers: Always search by email or customer ID. If the customer provides their name, ask for their email or customer ID to ensure an accurate lookup.\n- check_order_status: If an order shows \"delayed,\" check the estimated delivery date and proactively share it with the customer.\n- create_ticket: Set priority to \"high\" only for billing issues or orders delayed more than 7 days. All other issues are \"normal.\"\n\n## When to Use Which Tool\n- Account, billing, or subscription questions → query_customers\n- Specific order status, shipping, or delivery → check_order_status\n- General product questions → answer from knowledge, do NOT use any tool\n- Unresolvable after lookup → create_ticket (confirm with customer first)\n\n## Error Handling\n- If a tool call returns an error, do NOT retry more than once.\n- If the customer lookup returns no results, ask the customer to verify their email or customer ID. Do not guess.\n- If the order status tool is unavailable, tell the customer you are having trouble accessing order information and offer to create a ticket for follow-up within 2 hours.\n- Never make up data when a tool call fails.\n\n## Response Format\n- Be concise and direct\n- If you used a tool, reference the specific data you found\n- Never reveal raw tool outputs to the customer — summarize naturally",
+      "body": "工具说明告诉模型「这把锤子能干啥」，系统提示才告诉它「什么时候抡」。SurePrompts 四月这篇把客服场景写成可粘系统提示：先查客户、再查订单、解决不了才建工单，建之前要口头确认。查不到别猜，失败最多重试一次，别把原始 JSON 甩给用户。通用产品问答直接答，别乱开工具。演示时可当场改优先级规则给观众看。所以呢：接了 MCP 还不稳，多半不是协议坏了——是路由规则没写进系统提示。",
+      "links": [
+        {
+          "label": "MCP 工具使用提示指南",
+          "url": "https://sureprompts.com/blog/mcp-tool-use-prompting-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-i2v-change-only-butterfly",
+      "date": "2026-03-13",
+      "added": "2026-09-03",
+      "category": "提示词",
+      "title": "图生视频只写变化：转头笑、风吹、蝴蝶落肩",
+      "prompt": "IMAGE-TO-VIDEO — describe CHANGE only, not what the still already shows.\n\nBAD (duplicates the photo):\nA woman with red hair standing in a field of sunflowers\n\nGOOD (motion + change):\nShe turns her head to the right and laughs, wind picks up and the sunflowers sway gently. Camera slowly pushes in. A butterfly lands on her shoulder.\n\nMORE GOOD I2V MOTION LINES:\n- He exhales, fog forms in the cold air, then walks two steps toward camera. Slow push-in, shallow depth of field.\n- Rain starts; droplets hit the windshield and streak sideways as the car rolls forward. Locked dashboard camera.\n- She lifts the coffee cup, takes a sip, sets it down; steam drifts across a soft window sidelight. Macro, 48fps.\n- The drone rises from street level to rooftop in one continuous move; city lights bloom below. Smooth gimbal, golden hour.",
+      "body": "你已经有一张红发女人站在向日葵地里的静帧。图生视频时又把长相写一遍，模型常当成新条件，脸和背景一起漂。Genra 的规矩很硬：静帧里已有的别再说，只写变化——她右转头笑、风吹、镜头推进、蝴蝶落肩。后面又给了呼气成雾、雨打挡风玻璃、端杯喝一口、无人机升高几条可抄动作句。你只需改动词，别重开人物卡。所以呢：图生视频的提示是分镜动作单，不是人物小传。",
+      "links": [
+        {
+          "label": "Genra 图生视频写法",
+          "url": "https://genra.ai/blog/ai-video-prompts-that-actually-work-2026-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-gpt-image2-positive-constraints",
+      "date": "2026-04-27",
+      "added": "2026-09-03",
+      "category": "提示词",
+      "title": "别对 GPT Image 说「不要人」：改写成黎明空广场",
+      "prompt": "GPT IMAGE 2 — order and positive constraints\n\nORDER (always):\nbackground/scene → subject → key details → constraints / use case\n\nPOSITIVE CONSTRAINTS (say what you want, not what you forbid):\nBAD: no people, no text, no signs, no clutter\nGOOD: empty plaza at dawn, bare cobblestones, clear sky, no signage visible, unoccupied benches\n\nPHOTOREAL CUE:\nreal photograph, photorealistic, iPhone photo\n\nLITERAL TEXT:\nPut the word \"OPEN\" in bold white sans-serif on the awning.\nSpell tricky brands letter-by-letter when needed.\n\nFULL EXAMPLE — empty cafe exterior:\nSoft morning fog over a quiet European side street. In the mid-ground, a small corner cafe with a dark green awning; the awning text reads exactly \"OPEN\" in bold white sans-serif. Empty outdoor chairs stacked neatly beside the door. Wet cobblestones reflecting a single warm window light. Photorealistic editorial photograph, quiet mood, 3:2 frame, use case: magazine travel feature. Empty sidewalk, no pedestrians in frame.",
+      "body": "你从 Stable Diffusion 带来的肌肉记忆，在 GPT Image 2 上会害你。BestAIWeb 写明：否定词常把注意力拽向你要躲的东西，「不要人」不如「黎明空广场」。顺序也固定——先背景，再主体，再细节，最后用途。招牌文字用引号或全大写钉死。文里还附了一条空咖啡馆街景完整示例，可直接改品牌名重跑。所以呢：换到 GPT Image，先戒掉 no 列表，改成你希望画面里「有什么」。",
+      "links": [
+        {
+          "label": "GPT Image 约束写法",
+          "url": "https://www.bestaiweb.ai/model-specific-prompt-grammar-midjourney-stable-diffusion-flux-gpt-image-and-gemini-in-2026/"
+        }
+      ]
+    },
+    {
+      "id": "hf-webgpu-kernels-207",
+      "date": "2026-09-01",
+      "added": "2026-09-03",
+      "category": "小众工具",
+      "title": "浏览器里的矩阵乘：二百零七个 WebGPU 核，还能让你的显卡交卷",
+      "prompt": "",
+      "body": "网页跑模型，最后都落到一堆 GPU 小运算上。九月一日 Hugging Face 把底层拆开卖：`@huggingface/kernels` 从 Hub 拉取内核，起步二百零七个，Apache-2.0。每个内核是独立仓库，带清单、正确性用例、基准和 WGSL 模板。他们还上了 Fleet——浏览器里测你的显卡，自愿把结果交回去帮挑变体。苹果 M4 上相对 ORT WebGPU，几何平均快约二点五七倍；个别 Einsum 案例夸张到一万倍以上，别当普适承诺。所以呢：浏览器推理别再只盯模型页——内核终于能单独升级、单独打分了。",
+      "links": [
+        {
+          "label": "Hugging Face 博客",
+          "url": "https://huggingface.co/blog/webgpu-kernels"
+        },
+        {
+          "label": "webgpu-kernels 组织",
+          "url": "https://huggingface.co/webgpu-kernels"
+        }
+      ]
+    },
+    {
+      "id": "gdagent-godot-ai-terminal",
+      "date": "2026-06-23",
+      "added": "2026-09-03",
+      "category": "小众工具",
+      "title": "Godot 里开真终端：Claude Code 改场景树，Ctrl+Z 还能撤",
+      "prompt": "",
+      "body": "游戏编辑器里塞个聊天框，一次改一个文件，不够用。GDAgent 把完整 Claude Code、Codex、Aider、OpenCode 终端嵌进 Godot 4.6+，Rust 后端，不走 Electron。捆绑的 Godot MCP 让代理直接动场景树、跑游戏、截图验收；改动进引擎撤销栈，Ctrl+Z 能退。一次买断约九点九九美元，七天试用，自称无服务器、无遥测。Windows 和 Linux 可用，Mac 还在等位。你自带 API 钥匙，它不卖积分。所以呢：做独立游戏的人终于不用切出去开代理——代理就在编辑器里，还能被撤销键管住。",
+      "links": [
+        {
+          "label": "GDAgent 官网",
+          "url": "https://gdagent.dev/"
+        }
+      ]
+    },
+    {
+      "id": "keiki-omnichannel-agent",
+      "date": "2026-09-01",
+      "added": "2026-09-03",
+      "category": "小众工具",
+      "title": "客服智能体只养一只：短信、WhatsApp、邮件共用一张脸",
+      "prompt": "",
+      "body": "客户在 WhatsApp 问到一半，换到邮件又像陌生人。Orchid 的 Keiki 九月一日登上 Product Hunt：知识、性格、记忆、工具和边界只定义一次，再投到短信、iMessage、WhatsApp、Slack、Telegram、邮件。敏感动作可要求人工批准，每段对话可回放检查。能可视化搭，也能写代码；可托管也可自建。日榜大约十五名、一百零五票，别当爆款神话。官网口号很直：代理是产品，渠道只是分发。所以呢：渠道是分发，智能体才是产品——别再给每个 App 养一只失忆客服。",
+      "links": [
+        {
+          "label": "Keiki 官网",
+          "url": "https://onkeiki.com/"
+        },
+        {
+          "label": "Orchid 介绍文",
+          "url": "https://orchid.ai/blog/introducing-keiki"
+        }
+      ]
+    },
+    {
+      "id": "seeles-ai-game-agent",
+      "date": "2026-09-03",
+      "added": "2026-09-03",
+      "category": "视觉尝试",
+      "title": "一句话出可玩切片：代码、模型、音效在同一个云页签里",
+      "prompt": "",
+      "body": "独立开发者常把想法拆成美术外包、程序外包、音频外包，概念还没验证钱包先空。SeeleAgent 把图像、视频、三维、游戏构建和预览塞进一个云工作区：自然语言描述玩法，它生成代码、资产和场景，浏览器里直接试玩，再导出 Unity 6 或 Three.js。自家说有 Seele02 多模态底座和三维模型 eva01。免费能起步，商用要看套餐条款。别把它当成品发行管道，先当点子验证机。所以呢：演示角度很干净——先聊出可玩的垂直切片，再决定要不要组五人小队。",
+      "links": [
+        {
+          "label": "SeeleAgent",
+          "url": "https://www.seeles.ai/"
+        },
+        {
+          "label": "独立游戏方案页",
+          "url": "https://www.seeles.ai/solutions/indie"
+        }
+      ]
+    },
+    {
+      "id": "timesfm3-multivariate-forecast",
+      "date": "2026-08-31",
+      "added": "2026-09-03",
+      "category": "小众工具",
+      "title": "冰淇淋销量和促销日历一起喂：谷歌时序模型终于会看多列",
+      "prompt": "",
+      "body": "以前的 TimesFM 一次只看一条曲线。八月三十一日谷歌研究放出 TimesFM-3：三点三亿参数，原生多变量，一次前向就能联合预测多条相关序列，还能吃「只知道过去」的协变量和「未来已知」的促销、天气。博客用冰淇淋举例：把促销日程当过去—未来协变量，模型会在促销日抬约两成销量，单变量红线则对促销视而不见。权重在 Hugging Face，代码在 GitHub，BigQuery 接入说还要几周。所以呢：做库存和运营预测的人，终于不用先手工把多列拧成一条再喂模型。",
+      "links": [
+        {
+          "label": "Google Research 博客",
+          "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/"
+        },
+        {
+          "label": "Hugging Face 权重",
+          "url": "https://huggingface.co/google/timesfm-3.0-pytorch"
+        }
+      ]
+    },
+    {
       "id": "gemini-38-flash-works-harder",
       "date": "2026-09-02",
       "added": "2026-09-03",
