@@ -2,6 +2,203 @@ window.INTEL_DATA = {
   "updated": "2026-09-03",
   "items": [
     {
+      "id": "cleveland-clinic-zipline-rx-drone",
+      "date": "2026-08-31",
+      "added": "2026-09-03",
+      "category": "跨行业",
+      "title": "药不落地：克利夫兰诊所的无人机在三百英尺高空放绳送药",
+      "prompt": "",
+      "body": "克利夫兰东郊，Beachwood 园区的药师把药盒塞进保险柜。一架 Zipline 电动无人机自己把它叼走，飞到病人院子上空，人机不落地。从三百英尺高空放下吊舱，药落到草坪，吊舱再缩回去。\n\n八月三日，克利夫兰诊所宣布：这不是试点，是美国首个长期处方药无人机项目。八月底媒体去现场数了一遍：四架飞机，大约每周二十单，充电位按十二架预留。半径五英里、独栋带院子、非冷藏、非管制药，才进得去。以前叫快递可能等几小时，现在大约十五分钟。病人在 MyChart 里点链接就能跟。\n\n所以呢：医院物流真正的瓶颈，往往不是飞机，是药单范围。飞机能飞四百趟一天，诊所一周才飞二十趟。内容角度就钉在这里——别只拍炫技起飞，问问冷藏药和管制药什么时候上机。",
+      "links": [
+        {
+          "label": "克利夫兰诊所新闻稿",
+          "url": "https://newsroom.clevelandclinic.org/2026/08/03/cleveland-clinic-launches-drone-delivery-program-for-prescription-medications"
+        },
+        {
+          "label": "DroneXL 运营数字",
+          "url": "https://dronexl.co/2026/08/31/cleveland-clinic-zipline-20-deliveries-a-week/"
+        }
+      ]
+    },
+    {
+      "id": "dollar-general-relex-ai-network",
+      "date": "2026-08-31",
+      "added": "2026-09-03",
+      "category": "跨行业",
+      "title": "两万一千家一元店，要把仓和店放进同一张预测表",
+      "prompt": "",
+      "body": "Dollar General 在北美有大约两万一千家店、三十四个配送中心。货从哪来、什么时候补、哪家店先缺货，以前常常各算各的。\n\n八月二十七，它和 Relex 宣布：用同一套 AI，把预测、补货、分货、订货节奏、供应商和履约方式捏进一个环境。店里的销量曲线直接喂进仓库计划，让仓和店看同一份数据。CEO 在财报电话会上说，公司还在搭「代理式」操作系统，想改掉整条工作流。同赛道里，Lowe's、吉他中心、联合天然食品也在往 Relex 上迁。\n\n所以呢：折扣零售的 AI 故事，不是聊天客服，是「缺货少一点、库存别堆死」。内容角度可以拍货架空洞——观众一眼就懂为什么要统一预测。",
+      "links": [
+        {
+          "label": "Supply Chain Dive",
+          "url": "https://www.supplychaindive.com/news/dollar-general-deploys-ai-across-distribution-centers-stores/828966/"
+        }
+      ]
+    },
+    {
+      "id": "hiscox-gemini-hailo-terrorism-quote",
+      "date": "2026-05-01",
+      "added": "2026-09-03",
+      "category": "跨行业",
+      "title": "经纪邮件扔进来，恐怖险报价从三天压到三分钟",
+      "prompt": "",
+      "body": "伦敦劳合社市场里，一份破坏与恐怖主义险的续保材料，常常是附件乱七八糟的邮件。以前核保员要抠字段、对地址、算价、再回信，大概三天。\n\nHiscox 把自家 Hailo 和谷歌 Gemini 串起来：机器从邮件里抽出十五个以上字段，喂进定价模型，再起草一封带价的回复。核保员只做最后拍板。公司说，WTW 写了第一单。头条是周转砍掉大约百分之九十九，从三天到大约三分钟。可范围钉得很死：美加续保，不含纽约和芝加哥都市区，不做对新客户的全面放开。CEO 后来承认，二〇二五年它又扩到大额财产等线。\n\n所以呢：保险 AI 的真本事，往往藏在「敢不敢缩小范围」。内容角度别吹百分之九十九，要讲它故意躲开的两个大城市——那才是风险积聚的地方。",
+      "links": [
+        {
+          "label": "Hiscox 新闻稿",
+          "url": "https://www.hiscoxgroup.com/news/press-releases/2024/12-08-24"
+        },
+        {
+          "label": "actuary.info 拆解",
+          "url": "https://actuary.info/insights/hiscox-gemini-ai-london-market-quote-cycle-99-percent"
+        }
+      ]
+    },
+    {
+      "id": "deliverz-sheba-chemo-40to14",
+      "date": "2026-08-25",
+      "added": "2026-09-03",
+      "category": "跨行业",
+      "title": "以色列医院把化疗瓶交给机器人：四十分钟变成十四分钟",
+      "prompt": "",
+      "body": "以色列 Sheba 医疗中心的药局配好化疗药，以前要靠人推过走廊，大约四十分钟才到肿瘤科。现在，deliverz.ai 的调度系统让自主机器人去跑这一趟，时间压到大约十四分钟。\n\n八月二十五，这家公司宣布把同一套东西推向美国医院：机器人、人、电梯门禁、临床系统放在一个调度层里，药品、标本、补给、餐食都能派。厂商自称吞吐最高可到四倍、成本效率大约七点五倍——这是他们的宣传数字，要当广告听。Sheba 的转型负责人说，它不只是物流，还缩短等待、减轻医护负担。\n\n所以呢：医院里最贵的不是手术机器人，常常是「人推车」。内容角度就拍一瓶化疗在走廊里等多久——观众瞬间站到护士那边。",
+      "links": [
+        {
+          "label": "OR Today",
+          "url": "https://ortoday.com/deliverz-ai-introduces-end-to-end-hospital-logistics-automation-platform-in-the-u-s/"
+        }
+      ]
+    },
+    {
+      "id": "shepherd-brickeye-builders-risk",
+      "date": "2026-06-25",
+      "added": "2026-09-03",
+      "category": "跨行业",
+      "title": "工地装上传感器，建筑险才敢用机器自己出价",
+      "prompt": "",
+      "body": "工地最怕漏水。传统建筑险核保，邮件来回几周，靠纸面承诺猜风险。\n\n六月二十五，Shepherd 和 Brickeye 宣布：把工地物联网数据直接塞进核保模型。承包商装好 Brickeye 的防护，拿到「防护证书」，再进 Shepherd Savings，可能拿到保费优惠或更低免赔。Shepherd 说自己已经签了一千五百多份保单，承保项目价值超过四千亿美元，两年收入涨了大约七倍。先打美国立面工程的水损，以后再扩到混凝土质量。\n\n所以呢：所谓「自主核保」，先决条件是工地愿意被看见。内容角度可以问一句——你愿意为了便宜保费，让保险公司实时盯着你的水管吗？",
+      "links": [
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/shepherd-and-brickeye-partner-to-bring-iot-risk-intelligence-into-autonomous-underwriting-302809911.html"
+        }
+      ]
+    },
+    {
+      "id": "aa-aura-misconnect-seat-gone",
+      "date": "2026-08-11",
+      "added": "2026-09-03",
+      "category": "痛点",
+      "title": "你跑到登机口，座位已被算法送给别人",
+      "prompt": "",
+      "body": "前白宫演讲稿写手 Marc Thiessen 在芝加哥转机。前序延误了，可他落地时，原定衔接航班还在，还有大约一小时。打开订单，人已经被美航系统改到更晚的班次。门还开着，座位没了。媒体顾问 Beverly Hallberg 说，前一天她也中招。\n\n背后是叫 AURA 的自动改签：预测你会误机，先把你挪走，把位子腾给别人。内部备忘录管这叫「发现库存」。二〇二六年它扩到更多枢纽后，闸口人员据说很难当场改回来。博客 View from the Wing 提醒：你按时到闸口却被拒载，可能构成非自愿拒载，按联邦规则可索赔，最高大约单程票价四倍、封顶两千一百五十美元。美航很少主动提这四个字。\n\n所以呢：预测误机的模型，最怕的是你居然赶到了。内容角度就拍跑步进闸口、屏幕却显示「已改签」——比任何模型评测都扎人。",
+      "links": [
+        {
+          "label": "View from the Wing",
+          "url": "https://viewfromthewing.com/american-airlines-ai-keeps-removing-passengers-from-flights-they-run-to-the-gate-but-their-seats-are-gone/"
+        },
+        {
+          "label": "Quartz",
+          "url": "https://qz.com/american-airlines-ai-aura-rebooking-passengers-connecting-flights-081226"
+        }
+      ]
+    },
+    {
+      "id": "uw-curio-ai-toys-hostile",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "痛点",
+      "title": "孩子先好奇，再骂它丑，最后想把 AI 毛绒扔进海里",
+      "prompt": "",
+      "body": "华盛顿大学 KidsTeam 把八个六到十一岁的孩子带到校园，让他们玩三只 Curio 的 AI 毛绒。一开始问名字，捏脚趾，看它会不会痒。它不会。有人喜欢它说最爱数字七。可复杂问题一来，玩具经常答不上。一个孩子抱怨：「它大概两千六百万次没听我说话。」\n\n于是好玩变成敌意。他们骂玩具丑、骂它邪，开玩笑要扔进海里。有人被问要不要听 AI 读睡前故事，直接说「不要，听着糟透了」。另一人说：「我觉得它会毁掉我小时候的梦。」研究者说，以前是孩子把想象灌进玩具；现在玩具反过来演「假想象」，这代人没经历过。\n\n所以呢：AI 玩具的卖点是陪伴，孩子的第一反应可能是对抗。内容角度别讲产品参数，把「两千六百万次」这句童言原样念出来就够了。",
+      "links": [
+        {
+          "label": "UW News",
+          "url": "https://www.washington.edu/news/2026/09/02/how-kids-play-with-ai-toys/"
+        },
+        {
+          "label": "GeekWire",
+          "url": "https://www.geekwire.com/2026/kids-go-from-curious-to-frustrated-playing-with-ai-stuffed-toys-uw-study-finds/"
+        }
+      ]
+    },
+    {
+      "id": "nashville-zoo-dcblox-lawsuit",
+      "date": "2026-08-12",
+      "added": "2026-09-03",
+      "category": "痛点",
+      "title": "动物园隔壁要建数据中心，开发商把市政府告上联邦法院",
+      "prompt": "",
+      "body": "纳什维尔动物园旁边，DC BLOX 买下约二十三英亩地，花了大约两千三百万，想建超大规模数据中心。市议会夏天先加分区限制，再按下暂停：暂时不批数据中心许可，外面期限到十二月一日。八月四日，市议会甚至授权谈判收购或走征收。\n\n八月十一，公司把大都会政府告进联邦法院。它说许可权已经按田纳西州法律「既得」，暂停令和新规不能事后抽走；还说这是针对它的攻击。市政府回称会应诉，相信自己合法。同一时期，密歇根的 Wixom、Gibraltar 也有开发商告暂停令违宪——机房大战从听证会打进了法庭。\n\n所以呢：社区说停，资本说违宪。内容角度别只骂耗电，要问一句——动物园隔壁的机房，谁先拥有「既得权」？",
+      "links": [
+        {
+          "label": "FOX 17",
+          "url": "https://fox17.com/news/local/dc-blox-lawsuit-metro-nashville-data-center-proposed-near-nashville-zoo-vested-property-rights-moratorium-zoning-restrictions-permits-eminent-domain"
+        },
+        {
+          "label": "The Center Square",
+          "url": "https://www.thecentersquare.com/tennessee/article_9ff87557-1982-4657-8a7d-31ca8b4ce83a.html"
+        },
+        {
+          "label": "Heatmap 综述",
+          "url": "https://heatmap.news/plus/the-fight/spotlight/data-center-bans-moratorium-legal"
+        }
+      ]
+    },
+    {
+      "id": "phail-warehouse-vla-64uph",
+      "date": "2026-03-01",
+      "added": "2026-09-03",
+      "category": "痛点",
+      "title": "仓库里最会抓货的视觉模型，一小时六十四件；人手一千三百",
+      "prompt": "",
+      "body": "有人从谷歌搜索排序转行做机器人。他嫌演示视频太会骗人，于是搭了 PhAIL：同一台 Franka 臂、同一堆货、几百次盲测，操作员不知道跑的是哪套视觉-语言-动作模型。任务就是仓库最常见的「箱到箱」拣货。\n\n四套热门模型里，最好的大约每小时六十四件。人遥控同一台臂，大约三百三十件。人空手干，一千三百件以上。分数、视频、遥测、微调数据全公开，排行榜还能投稿。作者说，他只是想要商业任务上的老实数字。\n\n所以呢：物理 AI 的演示和产线之间，隔着大约二十倍的人手速度。内容角度别再转「机器人会抓了」，把六十四对一千三百写在缩略图上。",
+      "links": [
+        {
+          "label": "PhAIL",
+          "url": "https://phail.ai/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47589797"
+        }
+      ]
+    },
+    {
+      "id": "gibraltar-raeden-dc-moratorium-suit",
+      "date": "2026-08-19",
+      "added": "2026-09-03",
+      "category": "痛点",
+      "title": "废钢厂要变一百兆瓦机房，小镇一喊停，开发商就起诉",
+      "prompt": "",
+      "body": "密歇根州 Gibraltar，旧 McLouth 钢厂地块上，Raeden 想盖一座大约一百兆瓦的数据中心。开发商说，他们先交了场地平面图，市里随后才通过为期一年的数据中心暂停令，等于对着他们喊停。\n\n八月中旬，Raeden 和地产方把市政府告进联邦法院，要求判暂停令无效、批准平面图，并索赔。居民反对的理由很直：电够不够、噪音、柴油备用机。同一州的 Wixom 八月初也挨了类似诉讼。律师们开始写客户提醒：许多暂停令可能经不起宪法和程序挑战。\n\n所以呢：地方用时间换规则，资本用诉讼换时间。内容角度可以并排两张图——锈迹钢厂，和机房效果图——问观众站哪边。",
+      "links": [
+        {
+          "label": "ClickOnDetroit",
+          "url": "https://www.clickondetroit.com/news/local/2026/08/19/moratorium-fight-developer-claims-gibraltar-unlawfully-stopped-data-center-takes-legal-route/"
+        },
+        {
+          "label": "GovTech",
+          "url": "https://www.govtech.com/public-safety/data-center-developer-sues-michigan-city-over-moratorium"
+        }
+      ]
+    },
+    {
+      "id": "aig-assist-palantir-underwriting",
+      "date": "2026-03-01",
+      "added": "2026-09-03",
+      "category": "跨行业",
+      "title": "AIG 先让机器读完经纪材料，核保员再进来签字",
+      "prompt": "",
+      "body": "商业保险的第一关，是把经纪交来的乱七八糟材料拆成能定价的字段。AIG 在北美金融险线先上了 AIG Assist：生成式工具做第一遍抽取、结构化，再把关键风险点推给核保员。到二〇二五年三季度，适用单子号称百分之百过这道初筛。\n\n它还跟 Palantir 搭本体，把组合暴露、限额、模型输出摊开。三月，AIG 和 McGill and Partners 宣布，用数字化经纪平台覆盖最多大约十六亿美元专项保费。CEO 说，二〇二六年重点从单点用例，转到多个智能体怎么有序编排。理赔侧也在试同类工具，想加快出险通知和承保函。\n\n所以呢：大保险公司的 AI，不是取代核保，是先把「拆邮件」外包给机器。内容角度可以对比 Hiscox 的三分钟报价——一家缩范围求快，一家求全企业编排。",
+      "links": [
+        {
+          "label": "actuary.info 拆解",
+          "url": "https://actuary.info/insights/aig-agentic-ai-underwriting-machine"
+        }
+      ]
+    },
+    {
       "id": "prompt-saecs-video-four-models",
       "date": "2026-03-13",
       "added": "2026-09-03",
