@@ -1,6 +1,250 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "items": [
+    {
+      "id": "gemini-38-flash-works-harder",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "好玩AI",
+      "title": "谷歌又甩一版 Flash：单价没变，可它更爱多想几步，账单可能更贵",
+      "prompt": "",
+      "body": "谷歌九月二日交出 Gemini 3.8 Flash。六周里这是第三版 Flash。官方说它在写代码、跑智能体、做多步推理上都比 3.7 强，标价还是一样：一百万输入 token 七十五美分，输出三块七毛五。\n\n可问题是它「更努力」。复杂任务上它会多走几步推理，反复调工具。Artificial Analysis 测下来，单次任务输出大约多三成，智能体评测里多轮也更多，同等智力档位实际花销反而涨了大约四成。想省钱的人，谷歌自己也说可以继续用 3.7。\n\n同一天还有给「自己人」的版本：3.8 Flash Cyber。它专攻找漏洞和自动打补丁，只对政府和受信任伙伴开放，挂在新的 Fairwind 计划下。谷歌说 Chrome 安全组用它产出的正确补丁，是市面上更大商业模型的二点六倍；有个关键性基础漏洞，以往研究要几个月，这次不到两小时找到。\n\n所以呢：便宜标价不等于便宜账单。模型越会「自己多干一会儿」，你越要盯着 effort 和 token，不然演示里的省钱感会被真实账单打脸。",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+        },
+        {
+          "label": "Fairwind",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"
+        }
+      ]
+    },
+    {
+      "id": "qwen38-max-0902-code-arena",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "好玩AI",
+      "title": "没发博客，只换了一个模型 ID：通义登顶网页开发榜，比 Opus 多三分",
+      "prompt": "",
+      "body": "阿里云九月二日几乎没做宣传。接口上多了一个名字：qwen3.8-max-0902。参数规模还是二点四万亿，上下文一百万，价钱也不动：一百万输入两美元，输出六美元。\n\n结果 Arena.ai 的 Code Arena 网页开发榜上，它以一千六百九十一分排第一，比 Claude Opus 5 Max 多三分。一个月前它还在第四，和第一差三十七分。这一刀主要砸在写代码和长程智能体训练上。通义自己的表里，八项编程测试全涨，TerminalBench 从十一点三跳到二十九点零。\n\n可别急着换全家桶。独立分析写得很直：同价更好写码，多数长程工程任务仍落后 Opus 5。榜第一是真人投票加自动评测，不是厂商自嗨；但「全线碾压」这句话，今天还站不住。\n\n所以呢：有时候最猛的产品动作，不是发布会，是静悄悄换一个后缀。做内容可以讲「静默更新」这一招：用户先在榜上发现你，再回头找新闻。",
+      "links": [
+        {
+          "label": "TechTimes",
+          "url": "https://www.techtimes.com/articles/326373/20260902/qwen38-max-0902-beats-claude-opus-5-coding-china-law-still-owns-every-call.htm"
+        },
+        {
+          "label": "CellCog",
+          "url": "https://cellcog.ai/blog/qwen3-8-max-0902/"
+        },
+        {
+          "label": "Arena Code",
+          "url": "https://arena.ai/leaderboard/code/webdev"
+        }
+      ]
+    },
+    {
+      "id": "muse-spark-13-meta",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "好玩AI",
+      "title": "Meta 的 Muse 更会跟人商量了：卡住会问，动手前会确认",
+      "prompt": "",
+      "body": "Meta 九月二日放出 Muse Spark 1.3。它强调的不是又刷一条榜，而是把智能体干活时的「人感」拧紧一点：提示词含糊就先问清楚，卡住会求助，干大事之前会跟你确认。长任务里它还能顺着你的习惯，要么勤汇报，要么闷头干。\n\n编码侧，内部工程师对比说它更干净：工具调用大约少两成，token 大约少四分之一，废话也少了。演示里它能啃一堆乱七八糟的材料，自己补上下文，最后交出 CFD 报告、混音修贝斯、县里公园合作的 PPT 这种跨工种活。\n\n安全上也往「别乱动手」偏：对抗样本更扛得住，不可逆操作前更会掂量。模型今天就能在 Muse Code 和 Meta Model API 用上。\n\n所以呢：下一轮产品差异，可能不在智商分，而在会不会在对的时候停下来问人一句。这比「又快了百分之二十」更好拍成短视频。",
+      "links": [
+        {
+          "label": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49541256"
+        }
+      ]
+    },
+    {
+      "id": "pacman-fusion-20ms",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "硬科技",
+      "title": "等离子体乱起来只要千分之几秒：普林斯顿给托卡马克装上二十毫秒的 AI 刹车",
+      "prompt": "",
+      "body": "核聚变装置里，比太阳芯还热的等离子体，出幺蛾子往往只要几毫秒。人再专注，反应也是秒级。普林斯顿等离子体物理实验室和普林斯顿大学九月二日公布一套叫 PACMAN 的框架：把预测和控制交给机器学习，目标仍由人定。\n\n整套回路大约二十毫秒转一圈，而且不停转。它在圣地亚哥的 DIII-D 托卡马克上跑了五次实验。其中一次，模型提前大约两百毫秒预判到撕裂模这种不稳定性，赶在出事之前改等离子体状态。传统控制器常常是撕开了才去压，性能往往一起掉。\n\n同一次实验里，它还能同时调度六台回旋管加热器。作者 Hiro Farre Kaga 说，以前那种仿真要几天甚至几个月，适合明年再开下一炮；控制室要的是「这一刻」的决定。\n\n所以呢：AI 进硬科学，真正值钱的不是会写论文摘要，是把「来不及」变成「刚好来得及」。融合这种场景，二十毫秒就是生死线。",
+      "links": [
+        {
+          "label": "Newswise / PPPL",
+          "url": "https://www.newswise.com/doescience/pacman-ai-framework-for-controlling-fusion-systems-safely-makes-key-decisions-in-milliseconds"
+        },
+        {
+          "label": "phys.org",
+          "url": "https://phys.org/news/2026-09-pacman-ai-framework-fusion-safely.html"
+        },
+        {
+          "label": "Nuclear Fusion paper",
+          "url": "https://iopscience.iop.org/article/10.1088/1741-4326/ae7f9d"
+        }
+      ]
+    },
+    {
+      "id": "theyfell-startup-obituary",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "好玩AI",
+      "title": "别的 AI 都夸你牛：这个网站专给你的创业项目写讣告",
+      "prompt": "",
+      "body": "Kyle Clouthier 做了个叫 TheyFell 的小站。你贴上公司、网站或个人主页，它不捧杀，它下葬。页面写得很直：每个 AI 都说你做的东西很棒，这个会读真实材料，写出它该得的讣告。免费，够狠。\n\n作者先拿自己开刀。卡片展开就是「Here Lies」和死因，GitHub 和网站一起埋。你也可以在链接后面加瞄准词，比如「roast the pricing page」，它只打你点名的那一块。地址、邮箱、电话会先洗掉，护照号社保号直接拒收。\n\nHN 上九点多赞、七条评论，氛围就是「终于有个不舔的」。它不埋葬人，只埋葬作品和选择。\n\n所以呢：拍内容时，把「AI 只会拍马」翻过来用。让观众把自己的落地页扔进去，看死因写的是定价、定位还是根本没人要。比十句鸡汤有画面。",
+      "links": [
+        {
+          "label": "TheyFell",
+          "url": "https://theyfell.com/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49543617"
+        }
+      ]
+    },
+    {
+      "id": "tracon-agent-flagged-itself",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "好玩AI",
+      "title": "给编程智能体装上黑匣子：它半成品时，先把自己的 rm -rf 标红了",
+      "prompt": "",
+      "body": "Mukesh Kumar 看不惯一件事：人对人有 git blame、CI 日志，对手里的 Claude Code、Codex、Cursor，命令滚出终端就没了。于是他做了 Tracon，名字借自航空管制雷达室，本机托盘里盯着每个智能体。\n\n它记时间线：命令、改文件、装包、提示词，归到哪个会话。危险动作当场插红旗：递归删除、管道装脚本、摸凭证、强推、绕过权限。它只报警，不拦。数据全留本地，AGPL，没有账号没有遥测。\n\n好笑的是，Tracon 大半是 Claude Code 写的。它一边写一边尾巴盯着自己的会话。有一次智能体为了修依赖跑了 rm -rf node_modules，半成品的 Tracon 立刻红牌进收件箱。Live 页上第一批真数据，就是正在造 Live 页的那次会话。\n\n所以呢：你要审计智能体，审计工具自己也得被看见。作者把「被 AI 写的」写进 README，不当秘密，当信任模型。这比又一个「AI 写代码」故事好讲。",
+      "links": [
+        {
+          "label": "DEV 原文",
+          "url": "https://dev.to/mukes555/my-ai-agent-built-a-flight-recorder-for-ai-agents-and-it-flagged-itself-30dg"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mukes555/tracon"
+        }
+      ]
+    },
+    {
+      "id": "robotics-demo-gap-newman",
+      "date": "2026-09-01",
+      "added": "2026-09-03",
+      "category": "硬科技",
+      "title": "机器人演示视频请默认打问号：十五个坎，多数镜头都绕开了",
+      "prompt": "",
+      "body": "Steve Newman 九月一日写了一篇清单文：机器人为什么难，以及你为什么该忽略演示视频。知识工作里的 AI，你能亲手摸；人形机器人大多还关在实验室和剪辑过的片子里。\n\n他列的坑很具体。人手大约二十多个自由度、一万七千个触觉传感器，现有机械手很难样样齐。叠衣服、翻蛋饼、拧狭窄空间里的螺丝，软趴趴的布和食材会逼你瞬间改动作。视觉、规划、理解任务上下文、跟人协作，每一项单独都难。速度常常慢到两分钟才把一件衣服扔进洗衣机。过热也很狠：人型机产热大约是人的两倍，还不会像人那样全身散热。\n\n更扎的是泛化。Waymo 开了两亿多英里，还会开进积水路口。家和店里的边角情况只会更多。供应链也不像 ChatGPT 那样能借现成芯片厂起飞：有分析说，真有经济价值之后，可能还要好几年才能爬到一年产几百万台。\n\n所以呢：下次再看「人形保姆」片，先问这十五项里它演示了几项，回避了几项。镜头切得越花，越要怀疑那一次成功是不是一百次里剪出来的。",
+      "links": [
+        {
+          "label": "Second Thoughts",
+          "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49543191"
+        }
+      ]
+    },
+    {
+      "id": "trellner-215k-ai-grounding",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "好玩AI",
+      "title": "二十一万五千篇「最佳软件」页，不是给人看的：Perplexity 在引用它们",
+      "prompt": "",
+      "body": "Trellner 九月二日放了一份硬核报告。他们拿三百八十个采购类问题去问 Perplexity 的两个联网模型，收回七千五百三十四条引用。近六成指向流量榜十万名开外的站，两成三甚至挤不进前一百万。\n\n更怪的是三个小站。它们的 sitemap 里塞了二十一万五千一百二十八个「最佳某某软件」页，主页 HTML 标题直接写着 Facts & Grounding Page。Grounding 是检索系统取证据的行话，不是买家会搜的词。三个站像同一套模板、同一批 Cloudflare 名字服务器，各有六篇博客，还互相吹捧。问同一个「项目估算软件」，三个站给出三套前五名，Gitnux 的第一名在另一个站的前五里根本没有。\n\n第三大引用源甚至是卖产品演示工具的 Guideflow 博客：九十六个品类、一百九十四次引用，超过了 Gartner。维基百科全场只被点了三次。\n\n所以呢：AI 搜索的「证据」，正在被专门喂给模型的页面占领。做内容的人可以拍「给 AI 看的 SEO」：标题不写给人，写给检索器。",
+      "links": [
+        {
+          "label": "Trellner 报告",
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49536375"
+        }
+      ]
+    },
+    {
+      "id": "google-pics-workspace",
+      "date": "2026-09-01",
+      "added": "2026-09-03",
+      "category": "好玩AI",
+      "title": "Docs 里点一下图就能改：Google Pics 把修图塞进办公套件，默认还可能是开着的",
+      "prompt": "",
+      "body": "谷歌九月一日把 Google Pics 正式推进 Workspace。它跟在 Google Vids 后面，用 Nano Banana 做底层。你可以在 pics.new 起稿，也可以在 Docs、Slides 里点开一张图，直接叠一层编辑器，不用导出再导入。\n\n它主打对象级修改：框住一个人或一行字，只动那一块。图里的文字能改、能排版、能翻译，其余构图尽量不动。还能裁成社媒尺寸，升到 2K 或 4K，改坏了有版本可回。个人 Pro、Ultra，以及多数商业 Workspace 档位能用；Business Starter 不在列。\n\nTechRepublic 提醒了一句：对符合条件的企业，这项能力默认打开。IT 要是不管内容治理，员工可能明天就开始在公司文档里狂生成图。\n\n所以呢：办公套件正在把「会修图」变成默认技能。短视频角度可以是：同事不再问你要 Canva 账号，他们在幻灯片里自己改 logo 颜色。",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/"
+        },
+        {
+          "label": "Workspace Updates",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/google-pics-brings-pro-level-ai-image-creation-and-editing-to-Google-Workspace.html"
+        },
+        {
+          "label": "9to5Google",
+          "url": "https://9to5google.com/2026/09/01/google-pics-launch/"
+        }
+      ]
+    },
+    {
+      "id": "autosaddler-harness-opt",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "硬科技",
+      "title": "别再只调提示词：微软这篇让智能体自己修「马鞍」，三项基准各涨大约十分",
+      "prompt": "",
+      "body": "智能体跑长任务，经常不是模型笨，是外面那层脚手架松。提示词、工具、钩子、循环逻辑，行话叫 harness，像马鞍。微软研究院和合作者放出 AutoSaddler：把修马鞍当成离线学习，一批一批看失败轨迹，再打补丁。\n\n它不靠一句「反思一下」。诊断要翻代码和长轨迹，补丁分成提示、工具、中间件三类，还要过验证集，免得只修好这一条又搞坏别的。GAIA2、SWE-Bench Pro、Terminal-Bench 2.0 上，相对原版马鞍分别大约涨九点零、九点六、十点零个百分点，并超过自动基线。\n\n效率也刺眼：在 GAIA2 开发集上，它大约一千次任务执行就到七成二，而另两个自动方法吃了大约两千八百次还更低。消融实验说，浅诊断、乱改、不过验证，分数都会掉。\n\n所以呢：下一波「智能体变强」，很多时候不是换大脑，是换鞍具。内容角度：同一颗模型，换套脚手架，分数能差一截。",
+      "links": [
+        {
+          "label": "arXiv HTML",
+          "url": "https://arxiv.org/html/2608.23041"
+        },
+        {
+          "label": "项目页",
+          "url": "https://aka.ms/AutoSaddler-website"
+        }
+      ]
+    },
+    {
+      "id": "harnessdev-create-evolve",
+      "date": "2026-09-01",
+      "added": "2026-09-03",
+      "category": "硬科技",
+      "title": "模型会写代码，会不会造自己的脚手架？新基准说：写作还行，搜索差得远",
+      "prompt": "",
+      "body": "字节 Seed 等机构九月一日提出 HarnessDev。它不问模型答对几道题，问它能不能从很弱的种子出发，搭出一套能反复用的智能体脚手架，再靠反馈自己迭代。\n\n六个创造者模型、四个领域、五个下游基准，一共两千两百多个实例。结果很分裂：短写作接近人类参考，机器学习实验甚至超过选定参考；搜索和研究差最大，写代码也明显落后。进化阶段能涨分，但不稳，换到另一个执行模型上，增益常常缩水甚至倒退。\n\n论文还写了一个现实对照：同一 GPT-5，在 Terminus 2 里解 Terminal-Bench 三点五成，在 Codex CLI 里能到将近五成。鞍不同，马一样，成绩差一截。\n\n所以呢：行业正在把「会不会修自己的执行环境」当成新考题。博主可以讲：未来招的也许不只是会用 Agent 的人，还有会给 Agent 钉马鞍的人。",
+      "links": [
+        {
+          "label": "arXiv HTML",
+          "url": "https://arxiv.org/html/2609.01437"
+        },
+        {
+          "label": "项目页",
+          "url": "https://self-developing-agents.github.io/"
+        }
+      ]
+    },
+    {
+      "id": "doj-amicus-ai-training-fair-use",
+      "date": "2026-09-02",
+      "added": "2026-09-03",
+      "category": "硬科技",
+      "title": "美国司法部帮腔：训练大模型若被版权卡住，国家安全都要吃亏",
+      "prompt": "",
+      "body": "纽约时报告 OpenAI 的版权案里，美国副司法部长 Stanley Woodward Jr. 九月递交法庭之友意见书，口气很冲：要是规则让美国很难做出强 AI 产业，就会威胁国家安全，把优势让给不受版权束缚的对手。\n\n意见书几乎复读实验室多年的说法：错误的合理使用判决会抬高入场费，只剩巨头付得起授权；训练的公共收益压过对原作市场的伤害。时报发言人回得很硬：政府站在几家万亿级公司一边，创作者被偷了还要笑着看。法院仍可驳回，补充意见截止日期写到十月十六日。\n\n同一时期，国防侧还在加深和 OpenAI、Grok 的合作。AppleInsider 把这条线串起来：训练数据争议，已经从民法吵到国家安全叙事。\n\n所以呢：版权仗的胜负，可能不由「像不像抄袭」单独决定，而由「谁代表国家竞争力」来加权。做内容时，把法庭文件里那句国家安全金句念出来，比空喊「AI 偷内容」更有冲突感。",
+      "links": [
+        {
+          "label": "AppleInsider",
+          "url": "https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-legal-theft"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49543408"
+        }
+      ]
+    },
     {
       "id": "john-deere-jd-ops-ai",
       "date": "2026-09-01",
