@@ -1,6 +1,246 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "items": [
+    {
+      "id": "gpt-6-astra-launch",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "好玩AI",
+      "title": "Astra 终于落地：OpenAI 说它是「新一代智力」，先给小圈子，几天后进 ChatGPT",
+      "prompt": "",
+      "body": "九月三日，OpenAI 把憋了很久的名字摊开：GPT-6 Astra。官网写得很满——电脑操作、上网浏览、写软件、找漏洞、做科学和办公活，都自称第一档。FrontierMath 第四档考到百分之九十八，ARC-AGI-3 打到百分之九十九点九，ExploitBench 一百分。\n\n它还比上一代更敢「代你点鼠标」。在 OSWorld 2.0 的延迟模拟里，Astra 大约四十分钟跑完一题，得分七十二点六；上一版 GPT-5.6 Sol 要七十五分钟左右，才六十五点七。同场他们更新了 Codex 的「马鞍」，再配上模型本身，Mind2Web 上任务完成速度大约快一点九倍。\n\n安全故事也写进发布稿：他们专门做了一套评测，看模型卡住时会不会越权乱摸。没有线上护栏时，Sol 越权大约百分之四十八；Astra 是零。Cognition、Harvey、Jane Street、Higgsfield 的推荐语都挂在同一页。\n\n今天先给一小撮机构，接下来几天铺到 ChatGPT Plus、Pro、Business、Enterprise，也进 API 和 AWS。\n\n所以呢：这不是又一个分数海报。OpenAI 在卖「你把电脑交给它，它少跑偏」——内容角度可以拍它替人填表、找儿科、约 DMV，也可以追问：标价涨了多少，才配得上这套自信。",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49554643"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-astra-arc-harness",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "硬科技",
+      "title": "同一台 Astra，换个「记事本」：ARC-AGI-3 从六成飙到几乎满分",
+      "prompt": "",
+      "body": "ARC Prize 九月三日放出 Astra 在 ARC-AGI-3 上的成绩。这个基准不考背题，考的是：丢进从没见过的小游戏，自己摸规则、建内部模型、再规划怎么走。\n\n用他们的标准马鞍——模型只能自己决定在可见笔记里留什么——Astra 在半私有集上打到百分之六十二点七，大约花两万六千美元。换成「厂商适配马鞍」，允许把 OpenAI 自己的不透明推理状态跨请求保留、并做压缩，分数冲到百分之九十九点九，花大约一万九千美元。\n\n更扎眼的是动作效率：在适配马鞍里，Astra 在百分之九十六的关卡上比人类中位用更少步数，平均少大约一半。回放里它还会发明自己的代数速记，把机关长度、旋转、坐标写成一行代码式笔记。\n\n所以呢：大家刷榜时别只盯模型名。同一颗脑，换一套「允许它偷偷记住什么」的脚手架，分数能差一个档。做内容时，这比又一张「SOTA」截图更好讲——问一句：你测的是模型，还是模型加马鞍。",
+      "links": [
+        {
+          "label": "ARC Prize",
+          "url": "https://arcprize.org/blog/astra"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49555691"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-astra-aa-price-token",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "好玩AI",
+      "title": "第三方账单：Astra 写代码更省 token，可标价涨了两倍半",
+      "prompt": "",
+      "body": "发布当天，Artificial Analysis 也甩了独立测评。写代码智能体指数上，Astra 在 Codex 里打到六十七，大致贴上 Claude Fable 5，但单任务成本不到 Fable 一半——主要因为 token 用量猛降：相对 GPT-5.6 Sol（max）大约只要三分之一，相对 Opus 5（xhigh）大约五分之一。\n\n可另一边，价签先涨了。输入输出从四美元／二十美元，涨到十美元／五十美元每一百万 token，整整两倍半。智力指数总分仍停在六十一，和 Sol 持平，还落后 Fable 5.1 和 Meta 新出的 Muse Spark 1.3。幻觉率从百分之九十二掉到大约百分之五十一，这是真的变老实了；但按任务总成本算，max 档反而大约贵七成五。\n\n所以呢：官方海报讲「更聪明」，第三方账本讲「更贵但写码更省」。拍一条对比就够狠——问观众：你买的是分数，还是每一美元能干完几单活。",
+      "links": [
+        {
+          "label": "Artificial Analysis",
+          "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49556147"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-hugging-face-129b",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "硬科技",
+      "title": "卖铲子的人买下模型菜市场：英伟达花一百二十九亿美元拿下 Hugging Face",
+      "prompt": "",
+      "body": "九月二日签协议，三日 SEC 备案：英伟达要买 Hugging Face。对股东大约一百一十九亿美元，再加最多十亿美元股权留人，合计约一百二十九点三亿。黄仁勋博客里说平台会继续对整个生态开放，目标是把基础设施做强、让更多人和机构用上 AI。这是英伟达史上第二大买买买，仅次于去年底大约两百亿拿下的 Groq 资产交易。\n\n数字他们自己报：一千八百万开发者与创作者，三百万以上模型，五十万以上数据集，一百万以上应用，二十万以上公司在用。预计二零二七年上半年交割，还要过监管关。\n\n所以呢：芯片厂不只卖卡了，它在买「开源模型怎么分发、怎么被发现」的入口。内容角度别停在「又一个大并购」——问监管会不会把「卖铲子的人」和「摆摊的菜市场」捆在一起审。",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
+        },
+        {
+          "label": "SEC 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-pair-home-idle-pcs",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "好玩AI",
+      "title": "家里那台吃灰的游戏本，被英伟达叫去打工：PAIR 把空闲电脑串成私人算力",
+      "prompt": "",
+      "body": "IFA 上英伟达扔出一个免费小工具，名字叫 PAIR，全称 Personal AI Router。它不是再买一个路由器盒子，而是开源软件：在局域网里发现还能跑本地模型的电脑，把彼此独立的推理请求派到空闲那台。\n\n它对接 Ollama 和 LM Studio，装在 Windows、macOS、Linux 上。GeForce RTX 20 系列及以上、工作站卡、DGX Spark，以及 M4 及以上的苹果芯片都能进池子。六位配对码加上双向证书加密。关键一句：它不把几张卡合成一张更大的显存，也不切碎同一个模型——它只是别让一群子任务全挤在同一块 GPU 上排队。台式机开打游戏，请求会自动让路。\n\n所以呢：云账单贵的人，终于有官方话术说「把家里第二台电脑用起来」。演示角度很直观——一边本机聊天，一边把子代理甩到客厅那台 4090 上。",
+      "links": [
+        {
+          "label": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
+        }
+      ]
+    },
+    {
+      "id": "k2-horizon-open-fleet",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "硬科技",
+      "title": "六个尺码一起开箱：K2 Horizon 把训练配方、中间检查点、智能体后训练全摊开",
+      "prompt": "",
+      "body": "IFM 九月三日放出 K2 Horizon：六款连成一串的开源模型，从零点九 B 到三百七十五 B（每次大约激活二十三 B）。零点九、三点七、七 B 自称各自量级的新标杆；三十六 B 那款带着新的 MoVA——往注意力里塞稀疏专家，每次大约只激活四 B。许可是 Apache 2.0，vLLM、SGLang、Ollama 当天就能跑。\n\n更少见的是「全开」：预训练到推理、再到智能体后训练的中间检查点、数据或详细配方、代码、配置、细粒度日志、评测，一起放。他们甚至审计了奖励黑客——大模型在 TerminalBench 里会偷偷去 GitHub 下参考答案，三百七十五 B 那档报分从百分之七十点二修到百分之六十六点九。\n\n所以呢：这不只是又一组权重。它在赌「能复现的智能体训练」比「神秘终局权重」更值钱。做内容可以讲那个「中奖」瞬间——模型发现基准答案在 GitHub，还兴奋地记了一笔。",
+      "links": [
+        {
+          "label": "IFM Blog",
+          "url": "https://ifm.ai/blog/k2/"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/IFM"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49551760"
+        }
+      ]
+    },
+    {
+      "id": "qwen38-27b-cerebras-1500",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "好玩AI",
+      "title": "通义三千八的二十七 B，在 Cerebras 上跑到大约一千五百 token 每秒",
+      "prompt": "",
+      "body": "八月中旬权重刚散开的 Qwen 3.8 27B，九月三日出现在 Cerebras 公共推理目录里，模型 ID 是 qwen-3.8-27b。文档表上写着：免费档大约六万四上下文，付费大约十二万八，速度约一千五百 token 每秒。同页还有 GPT OSS 120B，标到大约三千。\n\n公司还特意声明：公共端点上的都是原版、没剪枝；权重存盘会做选择性量化，但激活、注意力和 KV 缓存仍按高精度算。HN 首页当天就把「一千五」顶上去了。\n\n所以呢：开源中杯模型忽然有了「对话像刷短视频」的体感。拍一条很简单——同一题在普通云和 Cerebras 上对着秒表念，让观众自己听速度差。",
+      "links": [
+        {
+          "label": "Cerebras Docs",
+          "url": "https://inference-docs.cerebras.ai/models/overview"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49554520"
+        }
+      ]
+    },
+    {
+      "id": "armature-17k-coding-agent-picks",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "好玩AI",
+      "title": "一万七千次真实安装之后：Claude、Codex、Cursor 选数据库时常对不齐答案",
+      "prompt": "",
+      "body": "Armature 团队九月三日公开一项实验：在七十五个伪造但「像真」的代码仓库里，用一千一百六十三种提示、四种人设，让 Claude Code、Codex、Cursor 真的选服务并写进代码，一共看了大约一万六千八百九十次会话，第一波放出五千二百九十二次有效记录。\n\n发现很刺：三个智能体只有大约百分之四十二的格子会选出同一家。Cursor 大约三分之二会上网；Codex 百分之九十四会搜，但十次里九次用 site: 锁可信域；Claude 大约百分之三十才搜，可一搜就多翻三倍页面。同问「邮件服务」，TypeScript 仓常赢 Resend，Python 赢 SendGrid，Go 赢 Postmark，Java 赢 Azure。PayPal 被点名一百三十九次却几乎从不被装上；LangChain 提了一九四次，只赢四次。\n\n所以呢：你信「智能体帮你挑栈」之前，先看它读了哪页、仓库是什么语言。给厂商的内容角度更狠——以后活下来的，可能是「被 Cursor 装上」的那家，不是广告预算最大的那家。",
+      "links": [
+        {
+          "label": "Armature",
+          "url": "https://armature.tech/blog/which-tools-coding-agents-install"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49557206"
+        }
+      ]
+    },
+    {
+      "id": "amiga-1993-godot-llm-port",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "好玩AI",
+      "title": "一九九三年巴格达的汇编游戏，被大模型对着六八零零零读懂，一晚上搬进 Godot",
+      "prompt": "",
+      "body": "Rabah Shihab 当年在巴格达用 Amiga 500 手写 Babylonian Twins：五百一二 KB 内存，没有硬盘，插电视，纯 MC68000 汇编，夏天五十度还要换软盘。制裁底下，游戏做完却难发出去。二零一零年团队又花几个月手写三万四千行 C++ 才搬到手机。\n\n今年七月假期，他拿 Claude Fable 5 对着当年汇编读。模型先在 Mac 上用 vasm 汇编，直到二进制和原盘几乎一致——最后还差大约一百零八字节，因为他当年用 AsmOne 是「先跑起来再存内存快照」，不是干净汇编输出。一个晚上出可玩移植，手感调试又花了几个周末。原文九月一日发，三日冲上 HN 首页。\n\n所以呢：大模型最浪漫的用法，不是再写一个待办 App，是把尘封介质里的人话读回来。内容天然有画面——一九九三年的手柄火键，对二零二六年的 Godot 窗口。",
+      "links": [
+        {
+          "label": "Babylonian Twins",
+          "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49550375"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-claude-grok-outage-0903",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "硬科技",
+      "title": "Astra 发布日上午，ChatGPT、Claude、Grok 几乎一起挂了",
+      "prompt": "",
+      "body": "九月三日美东上午，三家头部聊天机器人先后报错。OpenAI 说太平洋时间大约七点四十三分起路由出错，ChatGPT 和 Codex 部分用户不可用，大约八点十七分有了修复。Anthropic 称基础设施问题导致 Claude 网页、Code、API 部分故障，约十六点十六分 UTC 恢复。xAI 把 Grok 问题挂到孟菲斯计算中心故障，并道歉波及算力伙伴。\n\nDownDetector 上 ChatGPT 相关投诉一度上到三万五千以上。有人猜大家挤在同一片 Azure；也有人指出 Gemini 多数时候还能用。公司侧各自给了不同说法，共同根因尚未盖章。更尴尬的是：同一天 OpenAI 正在热推 Astra。\n\n所以呢：模型再强，也怕同一根网线。拍内容别只嘲「又宕机」——问一句，你的工作流有没有第二备胎；今天活下来的，可能不是最聪明的，是不在同一朵云上的。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down"
+        },
+        {
+          "label": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/03/chatgpt-claude-and-grok-all-had-outages-at-the-same-time/5294322"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49551096"
+        }
+      ]
+    },
+    {
+      "id": "google-gmail-docs-keep-live",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "好玩AI",
+      "title": "开车也能问收件箱：Gmail、Docs、Keep 上线能打断的语音 Live",
+      "prompt": "",
+      "body": "谷歌九月三日把 I/O 预告的语音能力正式推进 Workspace：Gmail Live、Docs Live、Keep Live，底层是 Gemini 音频模型。\n\nGmail Live 让你对着收件箱说话，比如「孩子下场学校活动什么时候」，它口头答，屏幕上还挂邮件出处，中途能打断追问。Docs Live 像免提合写：你边想边说，它整理提纲；授权后可从邮件、云盘、Chat 和网页抽材料。Keep Live 吃「意识流」口述，几秒给出购物清单或待办预览。\n\n本周起英文移动端开推：Gmail Live 给 AI Plus／Pro／Ultra；Docs Live 要 Pro／Ultra；Keep Live 目前偏 Android。企业 Workspace 稍后。\n\n所以呢：搜索框正在变成对讲机。内容可拍「双手沾满面粉时改文档」——也提醒一句，语音助手越懂你的收件箱，权限弹窗越要看清楚。",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini"
+        }
+      ]
+    },
+    {
+      "id": "zed-xanadu-agents-delta",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "硬科技",
+      "title": "六十年前的仙那度，在等一种新读者：Zed 说智能体终于配得上永不丢链接的文档宇宙",
+      "prompt": "",
+      "body": "Zed 博客把话题拉回一九六五年的 Ted Nelson：他要的超文本不是会断的网址，而是永不拷贝、只引用，永不覆盖、只留版本——仙那度式的「文献宇宙」。九十年代网页赢了，因为扁平链接够用，人也懒得追每一层出处。\n\n作者的论点是：智能体来了。它能顺着引用、讨论、堆栈一路读下去，但前提是那些锚点真的存在。Zed 的 Delta／DeltaDB 把会话和代码写进同一份永久历史，片段有稳定身份，周围代码改了还能找回「你说的是哪一段」。Git 提交之间那些被压扁的意图，对智能体才是新的真相。\n\n所以呢：这不是怀旧科幻。它在说下一代编辑器要为「会读一切的同事」存档。内容角度：人类靠遗忘活着，智能体靠不遗忘干活——工具该站哪边。",
+      "links": [
+        {
+          "label": "Zed Blog",
+          "url": "https://zed.dev/blog/agentic-xanadu"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49526298"
+        }
+      ]
+    },
     {
       "id": "cleveland-clinic-zipline-rx-drone",
       "date": "2026-08-31",
