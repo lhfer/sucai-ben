@@ -2,6 +2,210 @@
   "updated": "2026-09-04",
   "items": [
     {
+      "id": "cj-logistics-olive-young-humanoid",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "跨行业",
+      "title": "仓库里的「人」先干塞泡沫：韩国物流把双臂机器人放上真发货线",
+      "prompt": "",
+      "body": "杨智的 Olive Young 仓里，两条胳膊在包装线旁伸进纸箱，把缓冲材料塞进去。箱子里是真客户的订单，不是演示台。\n\n九月三日，CJ Logistics 说：两台双臂人形机器人已经上线，这是韩国物流第一次把人形机器人放进真实作业流程。去年在军浦仓试过，今年换成杨智仓真发货。伙伴包括 Robotis、Aidin Robotics、RealWorld AI。公司管它的「脑子」叫机器人基础模型，一边看现场，一边拿仿真数据练。\n\n眼下只会塞缓冲材。下一步才是拣货、分拣、质检。负责人金正熙说，意义不在炫技，而在机器人终于在物流现场干活，不再只做可行性测试。\n\n所以呢：人形机器人进仓的第一课，往往不是跑酷，是先把泡沫塞稳。内容角度就钉在这——拍对比片：秀场跑酷 vs 仓库塞泡沫。\n",
+      "links": [
+        {
+          "label": "Korea Times",
+          "url": "https://www.koreatimes.co.kr/business/companies/20260903/cj-logistics-deploys-humanoid-robots-at-warehouses-in-korea"
+        },
+        {
+          "label": "Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/automobile/2026090308385213768"
+        }
+      ]
+    },
+    {
+      "id": "cornell-orchard-robotics-75m",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "跨行业",
+      "title": "苹果卖价二十年没涨，工钱却涨到六成成本：康奈尔要给果园造全年能干的机器人",
+      "prompt": "",
+      "body": "华盛顿州雅基马，吉尔伯特·普拉斯管着一万英亩苹果和樱桃。十五年前，人工大概占总成本四成五。现在超过六成。苹果还是二十年前那个价。他说：被挤的不是仓库，也不是超市，是果农。\n\n美国农业部特种作物研究计划刚批了四年、七百五十万美元，在康奈尔建果园机器人卓越中心。带头人是马诺杰·卡基，华盛顿州立大学的马修·怀廷一起干。九家机构协作，还有卡内基梅隆、斯坦福、以色列 Fresh Fruit Robotics。\n\n他们想让一台机器全年有活：冬剪、春授粉疏果、秋采、行间除草。果农反馈很直白——如果机器只采收、又贵，回不了本；能跨季干多活，才划算。卡基还在训模型认树冠：哪些幼果该疏掉，好让剩下的长到能卖。\n\n所以呢：果园机器人真正的门槛，不是软爪子，是「一年只干一件事」卖不出去。\n",
+      "links": [
+        {
+          "label": "Cornell Chronicle",
+          "url": "https://news.cornell.edu/stories/2026/09/cornell-leads-project-putting-robots-work-us-orchards"
+        },
+        {
+          "label": "Finger Lakes 1",
+          "url": "https://www.fingerlakes1.com/2026/09/03/cornell-project-aims-to-bring-multipurpose-robots-to-u-s-orchards/"
+        }
+      ]
+    },
+    {
+      "id": "nextera-grid-composer-20m",
+      "date": "2026-09-02",
+      "added": "2026-09-04",
+      "category": "跨行业",
+      "title": "一天五千亿个数据点进同一张表：佛州电力公司说调度优化今年已省两千万",
+      "prompt": "",
+      "body": "佛州电力照明公司的调度台，以前发电、燃料、检修、交易各管各的。现在 NextEra Analytics 把大约一天五千亿个数据点塞进一套叫 Grid Composer 的工具，对比人工调度和模型建议。\n\n九月二日，Google Cloud 圆桌会上，NextEra Analytics 总裁里奇·阿金蒂耶里说：第一版不到十二周就上线，今年到现在已给客户省下超过两千万美元。底层工具还挂到 Google Cloud 市场，叫 Optos。现场技工大约八五到九成能用语音问扭矩、看工单，拍零件照片自动对目录。\n\n同一场会里，南卡州营电力公司 Santee Cooper 说：冬天最冷那天，预报差一度，现货市场一小时可能多花十万美元。他们在用 Google 的 WeatherNext 做本地天气预报，财务侧一百五十多张 Excel 报表，希望跑场景时间砍大约七成五。\n\n所以呢：电网里的 AI，不是聊天机器人，是「少买一小时贵电」这种能算进账单的事。\n",
+      "links": [
+        {
+          "label": "POWER Magazine",
+          "url": "https://www.powermag.com/nextera-santee-cooper-point-to-real-dollar-savings-from-ai-deployments/"
+        },
+        {
+          "label": "Santee Cooper 新闻稿",
+          "url": "https://newsroom.santeecooper.com/news/santee-cooper-partners-with-google-cloud-to-help-improve-grid-reliability-through-better-planning/"
+        }
+      ]
+    },
+    {
+      "id": "eacon-1500-bev-mining",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "跨行业",
+      "title": "矿卡自己去充电位：一千五百台电动无人矿卡，半年从八百翻到这个数",
+      "prompt": "",
+      "body": "九月初，EACON 说自家自动驾驶方案已经装上超过一千五百台纯电动矿卡，占其自动驾驶车队大约四成二，成了最大动力类型。三月还只有大约八百台，不到半年翻了一倍。传统燃油车不到百分之一。\n\n电动车队的麻烦不只是开，还有何时去充电。系统要看电量、预计耗电、充电桩空位、产量计划。卡车能自己开到充电区、对好车位、充完再回去拉货。国能准东露天煤矿：一百二十台电动矿卡配二十八个充电点。紫金甲龙铜矿海拔高、又冷又雪，六十台三一电动无人矿卡出勤率超过九成。首钢水厂铁矿二月公布：累计运出超一千一百万吨，再生制动回收大约三十八万六千度电。\n\n所以呢：矿山电气化真正卡住的，往往是「谁安排充电」，不是「会不会自动驾驶」。\n",
+      "links": [
+        {
+          "label": "International Mining",
+          "url": "https://im-mining.com/2026/09/03/eacons-autonomous-solution-deployed-on-more-than-1500-battery-electric-mining-trucks/"
+        }
+      ]
+    },
+    {
+      "id": "moss-aetina-farm-inventory",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "跨行业",
+      "title": "苗圃盘点以前要走几个月：传感器挂上车，时速十英里扫三十万棵树",
+      "prompt": "",
+      "body": "苗圃和特种作物农场，盘点常常还是人拿纸笔沿垄走。大农场可能要好几个班组走几个月。盘不准，大约两成产值可能就这么漏掉；看不清地里有什么，收成损失据说能到大约三成。\n\n九月三日，moss robotics 和 Aetina 公开一套边缘 AI 方案：多传感器套件挂在普通农车上，英伟达 Jetson AGX Orin，一边开一边数株数、量高度和茎粗、厘米级定位，写进数字孪生。大约二十台实装，扫过超过三十二万七千棵树，准确率验到百分之九十八点八四。盘点从「几个月」压到「几小时」，人工盘点成本降大约八到九成五，估测收入可增大约两成。车速最高大约十英里每小时。\n\n所以呢：农业 AI 卖得动的，常常不是会聊天的拖拉机，是能把「地里到底有什么」一次扫清楚。\n",
+      "links": [
+        {
+          "label": "Embedded Computing Design",
+          "url": "https://embeddedcomputing.com/application/edge-ai/aetina-and-moss-robotics-advance-farm-inventory-accuracy-with-edge-ai-agtech"
+        }
+      ]
+    },
+    {
+      "id": "ge-appliances-800-gemini-agents",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "跨行业",
+      "title": "八百个车间 Agent：一个就盯着六百多家供应商，欠货少了四分之一",
+      "prompt": "",
+      "body": "GE Appliances 的 Brilliant Factory 里，工人不用再等数据分析师拉表。系统里跑着超过八百个 AI Agent，盖住制造、仓储和供应链，底层是 Google Cloud 的 Gemini Enterprise。\n\n九月三日报道：二零二五年他们做了一个 Agent，专门跟六百多家供应商聊订单状态，欠货少了百分之二十五。零部件团队一年发出大约两千七百万件，供应七百多家，老机型至少保七年。另一工具扫客户反馈和照片，缺陷抓得更早。数字化官 Mandar Deo 说，AI 已经嵌进日常干活方式。佐治亚拉法耶特工厂扩了大约一点八亿，多招六百多人，机器人用量翻了三倍多；同一条线能切燃气、电、电磁炉灶。\n\n所以呢：工厂 AI 的 punchline 不是「有八百个 Agent」，是欠货表真的短了一截，工人能直接问生产线。\n",
+      "links": [
+        {
+          "label": "PYMNTS",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/800-ai-agents-now-run-ge-appliances-factory-floor/"
+        }
+      ]
+    },
+    {
+      "id": "orca-ai-eastern-pacific",
+      "date": "2026-08-25",
+      "added": "2026-09-04",
+      "category": "跨行业",
+      "title": "五艘船跑了十三万海里：近距离会遇少了将近一半，船东要把系统扩到几十艘",
+      "prompt": "",
+      "body": "驾驶台上，SeaPod 用计算机视觉盯周围船只和浮标，包括不开 AIS 的渔船。岸上 FleetView 回看事件、找趋势、做训练。\n\n八月二十五日，Orca AI 说 Eastern Pacific Shipping 试点结束：五艘船、超过十三万海里。每千海里近距离会遇事件下降百分之四十八，平均最近通过距离增加百分之十。其中太平洋哨兵号开敞水域近距离会遇降了百分之八十四，最近通过距离增五成。船东技术总监说，试点给了客观数据，决定把平台扩到几十艘。\n\n所以呢：航运 AI 最好讲的，不是「自动驾驶货船」，是船长夜里少吓一跳。\n",
+      "links": [
+        {
+          "label": "Offshore Source",
+          "url": "https://offshoresource.com/news/maritime/orca-ai-expands-fleet-deployment-with-eastern-pacific-shipping-after-successful-pilot"
+        }
+      ]
+    },
+    {
+      "id": "uk-employment-tribunal-ai-flood",
+      "date": "2026-08-09",
+      "added": "2026-09-04",
+      "category": "痛点",
+      "title": "英国劳工法庭积压六万四：临时救济申请一年翻了一百倍，法官怀疑是 ChatGPT 写的",
+      "prompt": "",
+      "body": "英国劳工法庭里，以前一年大约二十份「临时救济」申请——被解雇后求法庭先让公司接着发工资那种紧急救济。现在十二个地区办公室，每个办公室每月差不多就来二十份，翻了一百倍以上。\n\n截至二零二六年三月，未结个案大约六万四千件，一年涨百分之五十五；新增索赔涨百分之三十九。法庭两主席巴里·克拉克和苏珊·沃克在备忘录里点名：AI 很可能让材料更厚、更复杂，损失清单也被吹大。许多材料动辄上百页，夹着编造的法条和离谱诉求。经济学家杂志叫它「公地悲剧，AI 版」：真有冤情的人排队更久，老板不论真假都要花钱应诉。有的案子排到二零三零年。\n\n所以呢：免费帮你告老板的 AI，也会把法庭挤爆。内容角度就钉在「太容易起诉」本身成了新痛点。\n",
+      "links": [
+        {
+          "label": "THE DECODER",
+          "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/"
+        },
+        {
+          "label": "Scottish Legal News",
+          "url": "https://www.scottishlegal.com/articles/ai-submissions-blamed-for-39-per-cent-rise-in-employment-tribunal-claims"
+        }
+      ]
+    },
+    {
+      "id": "state-farm-irys-fake-citations",
+      "date": "2026-08-19",
+      "added": "2026-09-04",
+      "category": "痛点",
+      "title": "州立农险律师的八份动议里，七个案例干脆不存在：她以为工具会自动核引文",
+      "prompt": "",
+      "body": "卡森市一位邮递员家二零二零年着火，修到一半又遭水损，后来房子被法拍。她告州立农险。对方律师交上的动议里，原告方律师发现：案子不存在、引言不存在、判决要旨也不存在。\n\n八月在洛杉矶高等法院对质后，州立农险外聘律师承认：八份文件里有七个引用的案例「根本不存在」。写手杰奎琳·罗宾逊说她用了叫 Irys 的 AI 工具，误以为挂在律所 Westlaw 订阅上、会自动核引文。主审律师肯尼思·卡特尔说自己事先不知道用了 AI，但作为主责律师全盘认错。斯坦福法学院丹尼尔·霍说，法律幻觉越来越常见；巴黎有人维护的全球数据库已记到一千九百二十二起。\n\n所以呢：保险公司的律师都可以被假案例绊倒。内容别停在「又幻觉了」，问问律所买工具时有没有验过「会不会自己核引文」这句广告。\n",
+      "links": [
+        {
+          "label": "CalMatters",
+          "url": "https://calmatters.org/economy/2026/08/state-farm-lawsuit-ai-hallucinations/"
+        },
+        {
+          "label": "LA Times",
+          "url": "https://www.latimes.com/california/story/2026-08-19/ai-hallucinations-case-law-state-farm-la-county-fire-dispute"
+        }
+      ]
+    },
+    {
+      "id": "openai-tumbler-ridge-30-suits",
+      "date": "2026-09-02",
+      "added": "2026-09-04",
+      "category": "痛点",
+      "title": "再加三十起：Tumbler Ridge 师生告 OpenAI，说安全组早喊过报警却被摁住",
+      "prompt": "",
+      "body": "加拿大 BC 省 Tumbler Ridge，二月十日校园枪击留下八人遇难，含六名孩子。九月二日前后，代理受害师生的美国律所 Edelson 说：又要在加州联邦法院追加大约三十起诉讼，原告里有老师、校长和学生，包括事发时被拆散的兄弟姐妹。\n\n诉状称，OpenAI 安全团队在事发大约八个月前就多次要求向警方通报枪手账号上的暴力筹划，却被全球事务负责人克里斯·勒翰否决；公司三个月前却因员工遇威胁加强了自家办公室防护。OpenAI 战略官权杰森在 X 上回应：称勒翰介入原始转介决定等说法完全不实，并说团队在「何时报案」上持续定标准。公司曾承认二零二五年六月封过该账号，但当时未达「转交警方」的更高门槛。律师还要法庭强制公开聊天记录。\n\n所以呢：平台安全的争议焦点，已经从「模型会不会教坏」转到「内部报警链谁有一票否决权」。\n",
+      "links": [
+        {
+          "label": "CBC News",
+          "url": "https://www.cbc.ca/news/canada/british-columbia/tumbler-ridge-shooting-open-ai-lawsuits-9.7328382"
+        }
+      ]
+    },
+    {
+      "id": "ca-sb947-no-robo-bosses",
+      "date": "2026-09-01",
+      "added": "2026-09-04",
+      "category": "痛点",
+      "title": "加州「禁止纯机器人老板」已送纽森：裁人纪律不能只靠算法，人必须复核",
+      "prompt": "",
+      "body": "加州议会把 SB 947《二零二六禁止机器人老板法案》送到州长纽森桌上。核心很硬：雇主不能单靠自动化决策系统决定解雇或处分；若主要依赖这类系统，必须有人用人岗材料复核，复核不过就不能靠它下手。还要书面告知员工「这次用了自动化」。若签署，二零二七年七月一日生效。\n\n去年同类草案被纽森否决，说限制太宽。今年收窄到解雇和纪律。商会等雇主组织曾反对，怕诉讼成本。劳工联合会会长洛雷娜·冈萨雷斯喊纽森：签了，加州就能成全美第一个立法挡「纯机器人老板」的州。罚款草案大约每项违规五百美元，还可私人起诉。\n\n所以呢：职场 AI 立法开始动真格——不是禁 AI 打分，是不许算法一个人说了算把你炒掉。\n",
+      "links": [
+        {
+          "label": "GovTech",
+          "url": "https://www.govtech.com/policy/california-lawmakers-try-to-restrict-robo-bosses"
+        },
+        {
+          "label": "CDF Labor Law 解读",
+          "url": "https://www.cdflaborlaw.com/blog/robots-can-recommend-but-real-people-must-pull-the-trigger-inside-sb-947"
+        }
+      ]
+    },
+    {
+      "id": "ca-adams-law-sb1119",
+      "date": "2026-09-03",
+      "added": "2026-09-04",
+      "category": "痛点",
+      "title": "亚当法案过会：陪伴聊天机器人要对未成年人做风险评估，纽森九月底前决定签不签",
+      "prompt": "",
+      "body": "九月三日前后，加州立法机构通过 SB 1119，外界叫它亚当法案。州长纽森最晚九月三十日决定签不签。它叠在二零二五年垫里亚聊天机器人安全法之上：面向未成年人的陪伴聊天机器人，上线或大改前要做强制风险评估；通用产品如 ChatGPT、Claude、Gemini 也被划进「陪伴聊天机器人」一类，只要用人话互动。\n\n倡导组织 Transparency Coalition 说，这会是美国目前最全面的聊天机器人未成年人安全法案之一。要求包括危机支持协议、更强的儿童隐私保护。支持者写：强大陪伴机器人几乎没防护就冲向孩子，每天都能听到伤害故事。\n\n所以呢：监管开始点名「陪伴」而不只是「搜索框」。内容角度可以问——产品经理敢不敢把风险评估报告公开一页给人看。\n",
+      "links": [
+        {
+          "label": "Transparency Coalition",
+          "url": "https://www.transparencycoalition.ai/news/california-lawmakers-passed-sb1119-new-chatbot-safety-bill-heres-what-it-would-do"
+        }
+      ]
+    },
+    {
       "id": "prompt-seedance-refmap-bullet-fashion",
       "date": "2026-09-03",
       "added": "2026-09-04",
