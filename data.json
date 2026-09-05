@@ -2,6 +2,214 @@
   "updated": "2026-09-05",
   "items": [
     {
+      "id": "zoox-las-vegas-airport",
+      "date": "2026-09-03",
+      "added": "2026-09-05",
+      "category": "跨行业",
+      "title": "取行李旁边就能上车：Zoox 成了拉斯维加斯机场第一家全无人出租车",
+      "prompt": "",
+      "body": "拉斯维加斯哈里·里德国际机场，行李转盘旁边就能上车。不是网约车司机，是一辆没有方向盘、没有踏板的 Zoox。\n\n九月三日起，这辆亚马逊旗下的定制无人车开始接送往返机场的付费乘客。八月十日刚获准商业运营，八月联邦安全监管给了两年临时豁免，每年最多部署两千五百辆。机场两边航站楼都有点，取行李层附近就能上下车。Uber 和 Lyft 送人能到航站楼路边，但接人往往要走到停车场上层，再走五到十分钟。\n\n眼下机场只有 Zoox 一家在跑全无人网约。内华达交通局上个月已给特斯拉、Uber、Waymo 发了克拉克县商业许可，未来十二个月全县最多可上八千辆机器人出租车。Uber 还打算跟现代旗下 Motional 以及 Zoox 本身合作。\n\n所以呢：机场抢的不是「会不会自动驾驶」，是取行李出口那几十米。内容角度就钉在这里——拍对比片：人走停车场十分钟，对无人车在转盘旁边等你。\n",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/03/amazons-zoox-expands-its-robotaxi-service-to-las-vegas-airport/"
+        },
+        {
+          "label": "Las Vegas Sun",
+          "url": "https://lasvegassun.com/news/2026/sep/03/zoox-begins-autonomous-rides-to-las-vegas-airport/"
+        }
+      ]
+    },
+    {
+      "id": "osaka-metro-hinata-gemini",
+      "date": "2026-08-31",
+      "added": "2026-09-05",
+      "category": "跨行业",
+      "title": "梅田站来了个一米七八的「站员」：问海游馆，它会指路还甩二维码",
+      "prompt": "",
+      "body": "大阪御堂筋线梅田站北改札口，Metro Opus 店里站着一个穿制服的家伙。身高一米七八，体重四十八公斤，没有设定性别，大家叫它「日向」。你问「想去海游馆」，它会开口报换乘，再在手里亮出二维码，扫了就能在手机上看路线图。\n\n八月三十一日起，大阪地铁、KDDI 和石黑浩教授创办的 AVITA 一起做接客实验。机器人底座来自二零二五年大阪万博「生命的未来」馆，脑子挂的是谷歌 Gemini。专用麦克风收音，能指方向、动眼睛嘴巴胳膊，号称六十种语言，还会跟着你的音量、语速和情绪调整。问「哪家好吃的大阪烧」也能答。\n\n九月六日前在梅田，九到十五日挪到谷町九丁目站东改札。每天大约十一点到晚上八点能体验。目的很直白：缺人的车站，先测乘客接不接受「人形站员」，再谈能不能长期上岗。\n\n所以呢：地铁里的 AI，第一关不是懂线路，是站在改札口让人愿意开口问。\n",
+      "links": [
+        {
+          "label": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2609/01/2000001023/"
+        },
+        {
+          "label": "Osaka Metro 新闻稿",
+          "url": "https://subway.osakametro.co.jp/news/news_release/20260828_humanoid_jikken.php"
+        }
+      ]
+    },
+    {
+      "id": "maldron-butlerbot-anna",
+      "date": "2026-09-03",
+      "added": "2026-09-05",
+      "category": "跨行业",
+      "title": "客房服务翻倍：纽卡斯尔酒店让机器人送餐，还用本地演员的声音打电话",
+      "prompt": "",
+      "body": "英格兰纽卡斯尔 Newgate Street 的 Maldron 酒店，客房门响了，电话里却是一张熟人嗓子：本地演员蒂姆·希利在说，你的客房服务到了。开门一看，是一台叫 Anna Bot 的 ButlerBot W3。\n\n九月三日前后酒店晒成绩：上了东北公司 Spark Robotics 的送餐机器人后，客房服务营收翻了一倍。机器人自己认路、跟电梯说话、接到房间电话系统。除了吃的喝的，还能送毛巾和洗漱用品，前台和酒吧的人不用为一条毛巾离开岗位。希利本人常住这家店，给慈善项目 Sunday for Sammy 录了声音。总经理安娜·沃德科克说，最好笑的是希利自己点餐，电话那头响的还是他自己。\n\n酒店强调技术是帮人，不是替人。机器人把重复往返交给机器，人留在吧台和餐厅盯客人。\n\n所以呢：酒店机器人真正能写进报表的，往往不是炫技问候，是「人不用为毛巾跑一趟楼」。\n",
+      "links": [
+        {
+          "label": "Travel Extra",
+          "url": "https://www.travelextra.ie/newcastle-hotel-doubles-room-service-revenue-with-robot-assistant/"
+        }
+      ]
+    },
+    {
+      "id": "kargo-lineage-poultry-receiving",
+      "date": "2026-09-04",
+      "added": "2026-09-05",
+      "category": "跨行业",
+      "title": "禽肉冷库门口，托盘一到摄像头就记账：六个月扫了六万四千单",
+      "prompt": "",
+      "body": "阿拉巴马州迪凯特，Lineage 的冷库门口支着摄像头塔。旁边是禽肉加工厂。托盘一滚进来，系统自己认 SKU、批次，直接写进仓库管理系统。人不用再拿枪扫、对照提单、敲键盘。\n\n九月四日，视觉公司 Kargo 和冷链巨头 Lineage 说：这套收货已经跑通。过去六个月自动处理超过六万四千单收货；迪凯特仓每天大约五百多个托盘。以前几分钟的活，现在按秒算。副总裁兼首席数据科学家艾略特·沃尔夫说，收货是仓库里最吃人的一环，自动化后把人腾去干更值钱的事。下一步还要上整车扫描，再提吞吐。\n\n冷链最怕错批次、丢追溯。机器先把门口这一关钉死，后面的存储和发运才跟得上。\n\n所以呢：食品仓的 AI，常常不是聊天机器人，是门口那几座「会认托盘的塔」。\n",
+      "links": [
+        {
+          "label": "Poultry Times",
+          "url": "https://www.poultrytimes.com/kargo-implements-ai-automated-receiving-at-lineage-ala-poultry-warehouse/"
+        }
+      ]
+    },
+    {
+      "id": "geodis-vecna-plainfield-amr",
+      "date": "2026-09-01",
+      "added": "2026-09-05",
+      "category": "跨行业",
+      "title": "宠物用品仓不学开车了：人只搬箱子，机器人自己开去月台",
+      "prompt": "",
+      "body": "印第安纳 Plainfield，GEODIS 六十万平方英尺的仓专做一家宠物用品客户。以前拣货员要开电动托盘车满仓跑，还得背仓库管理系统、认路、找月台。疫情时需求暴涨，三班倒都忙不过来。\n\n九月刊《Modern Materials Handling》写：他们跟 Vecna Robotics 一起改流程。机器人负责开和送到指定暂存位，人只负责把箱子放到车上。订单前一天整批发下去，编排引擎派车。新员工上手从学开车变成跟屏幕按钮走。平均产能大约涨百分之八十五，有些天翻到百分之一百五十。经理说，比纯人工托盘车多拣大约一倍。于是班次从三班压回两班，日均拣货人数下降，人被调到园区别处。动力工业设备事故从二零二二年的七起，降到后面二十四个月里两起。\n\n一开始仪表盘还隔一天才更新，现场经理急得不行。后来改成实时看机器人在哪、单做到哪，才管得住。\n\n所以呢：仓里上机器人，先改的往往是「谁开车」，不是「谁会搬箱子」。\n",
+      "links": [
+        {
+          "label": "Modern Materials Handling",
+          "url": "https://www.mmh.com/article/system_report_geodis_doubles_picking_throughput_with_amrs"
+        }
+      ]
+    },
+    {
+      "id": "sharpa-dairy-queen-shanghai",
+      "date": "2026-08-29",
+      "added": "2026-09-05",
+      "category": "跨行业",
+      "title": "上海街头人形机器人做暴风雪杯：五十多步都会，可还没证明能天天干",
+      "prompt": "",
+      "body": "上海吴江路，八月二十九日，Sharpa 和中国区 Dairy Queen 运营商 CFB 开了一家机器人餐厅。人形机器人 North 用店里原来的杯子、勺子和设备，走完做一杯暴风雪的全流程，还要做那一下倒扣展示。公司说一单大约五十到六十个连续动作。\n\n好看是真的。可同一周路透社扒了中国人形机器人业：去年全球大约两万台出货里，中国厂商约占九成五；二零二六年上半年各级政府至少花了大约两亿三千万美元买人和配件。工厂和训练中心跑下来，灵巧、可靠、成本和临场应变仍是硬坎。业内估计高质量训练数据大约五十万小时，想奔更通用的身体智能，可能要一亿小时量级。Sharpa 八月底融资消息里，累计融资超过四十五亿人民币，投资方名单很长。\n\n餐饮业的环境本就是给人设计的：门要开、杯子会变形、人会穿来穿去。演示成功，不等于高峰时段连续几百单还不翻车。\n\n所以呢：人形进店的第一课，不是「会不会做冰淇淋」，是「意外发生时谁来收场」。\n",
+      "links": [
+        {
+          "label": "Hospitality & Catering News",
+          "url": "https://www.hospitalityandcateringnews.com/2026/09/a-robot-making-ice-cream-in-shanghai-and-what-it-tells-us-about-where-humanoid-robotics-really-is/"
+        }
+      ]
+    },
+    {
+      "id": "deutsche-bank-dc-ai-brief",
+      "date": "2026-09-04",
+      "added": "2026-09-05",
+      "category": "痛点",
+      "title": "德意志银行子公司上诉状被整份打回：四个判例是谷歌 AI 编的",
+      "prompt": "",
+      "body": "华盛顿特区上诉法院审一件抵押贷款止赎案，法官翻对方答辩状，好几处案例怎么也查不到。六月二十二日发令：说明白，为什么不该因可能引用 AI 幻觉判例而整份打回。\n\n九月四日前后判决出来。子公司律师洛伊希尔·霍尔承认：四个引用是谷歌生成式工具编出来的，「本不该出现在呈给本院的书状里」。她个人认了，法院却说：凡在书状上签名的律所律师都有份。三人合议庭把整份答辩状打掉，并移交特区律师协会纪律办公室。法院写得很冲：假判例假装有用，其实是在误导法庭、烧掉时间，等查清时损害已经造成。法官也说，律师再不了解 AI，是在拿自己冒险——但了解不等于可以不核对。\n\n所以呢：大行名所也挡不住「签了字却没点开链接」。内容角度就钉在签名栏——谁签字，谁对假判例负责。\n",
+      "links": [
+        {
+          "label": "ABA Journal",
+          "url": "https://www.abajournal.com/news/article/dc-circuit-blames-deutsche-bank-lawyers-for-ai-hallucinations"
+        },
+        {
+          "label": "Reason / Volokh",
+          "url": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/"
+        }
+      ]
+    },
+    {
+      "id": "california-sb574-lawyer-ai",
+      "date": "2026-09-01",
+      "added": "2026-09-05",
+      "category": "痛点",
+      "title": "加州给律师用 AI 立了规矩：不能把执业外包给模型，交庭还得披露",
+      "prompt": "",
+      "body": "加州议会两院通过了 SB 574。路透社九月一日报道：这是美国首部专门管律师怎么用生成式 AI 的州级法案，接下来等州长纽森签不签。\n\n条文很直白。律师「不得把法律执业外包给」生成式 AI；凡用 AI 产出的材料，都要采取合理步骤核验，包括案例引用，发现幻觉必须改；递交法庭的文书要披露用了 AI；还不许把保密或非公开信息塞进某些生成式系统。仲裁员也不能把裁决交给 AI。提案人、参议院司法委员会主席汤姆·昂伯格说，律师还在交带幻觉的材料，却归因于 AI，「这根本不能存在」——法庭靠的是双方诚信，诚信没了，整套系统就散。\n\n有律师觉得这大体是现有职业伦理的复读。伯克利法律与技术中心主任韦恩·斯泰西说，相当程度上与现行规则重叠。昂伯格的反驳是：写进法律，法院多了一把罚人的工具。\n\n所以呢：律师用 AI 的红线，正在从「行业常识」变成「法案条文」。\n",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/government/california-lawmakers-pass-bill-governing-lawyers-use-ai-2026-09-01/"
+        }
+      ]
+    },
+    {
+      "id": "kaiser-cna-picket-ai-sep1",
+      "date": "2026-09-01",
+      "added": "2026-09-05",
+      "category": "痛点",
+      "title": "合同刚过期，加州近二十家凯撒医院门口：护士举牌要限 AI",
+      "prompt": "",
+      "body": "九月一日，奥克兰凯撒医疗中心门外，几十名穿红衣的护士举牌喊安全配比。加州护士协会说，全州将近二十家凯撒设施在搞「信息性纠察」——人照常上班，医院照常开门，但要把人不够和 AI 上岗的担心喊给路人听。旧合同八月三十一日到期，谈了大约十几轮，工资还没碰。\n\n儿科老护士克雷格·塞多塔尔说，程序护士用来抗议排班的「异议表」加起来大约五千份。Bargaining 成员罗宾·卡森说得更短：护理要跟人说话，同情心来自人，「AI 没有同情心」。院方声明：现有协议已保证技术是帮护士用临床判断，不是替人；配比按州法定标准，系统还是跟工会一起建的。\n\n这跟八月核桃溪分诊减员的故事不是同一条线，但打在同一个痛点上：医院上 AI 时，床边的人要的是否决权和透明，不是又一份新闻稿。\n\n所以呢：医护谈 AI，第一句往往不是「模型准不准」，是「谁有权说不」。\n",
+      "links": [
+        {
+          "label": "KQED",
+          "url": "https://www.kqed.org/news/12097878/in-oakland-kaiser-nurses-take-staffing-ai-concerns-to-the-picket-lines"
+        },
+        {
+          "label": "NBC Bay Area",
+          "url": "https://www.nbcbayarea.com/news/local/kaiser-nurses-picket-staffing-ai/4136121/"
+        }
+      ]
+    },
+    {
+      "id": "rizap-personal-ai-pii",
+      "date": "2026-09-03",
+      "added": "2026-09-05",
+      "category": "痛点",
+      "title": "为了汇总表格，RIZAP 员工把保险号和病名丢进了私人 ChatGPT",
+      "prompt": "",
+      "body": "九月三日，RIZAP 公开道歉。子公司员工做特定保健指导数据汇总时，把客户资料上传到了个人在用的外部生成式 AI。时间窗覆盖二零二六年一月一日到八月十九日登记的一部分对象：姓名、生日、性别、保险证符号号码、邮箱，有的人还有地址和电话；以及高血压、糖尿病这类要配慮信息，还有指导分型。\n\nIHI 健保组合随后通知：委托 RIZAP 做指导的加入者里，涉及二零二四到二六年度、大约二百一十人。事发后聊天记录删了，并向 OpenAI 申请停用学习；九月一日对方答复未用于模型训练。个人信息保护委员会已报。公司说第三方外泄尚未确认，但运营商员工是否看过数据仍在查。再发防止措施里，第一条就是重申：没批准的生成式 AI，别用。\n\n所以呢：企业 AI 治理的第一道墙，常常不是模型选型，是员工顺手打开的那个私人账号。\n",
+      "links": [
+        {
+          "label": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2609/04/2000001161/"
+        },
+        {
+          "label": "RIZAP 官方致歉",
+          "url": "https://business.rizap.jp/news/2492"
+        },
+        {
+          "label": "IHI 健保通知",
+          "url": "https://www.ihikenpo.or.jp/asp/news/news.asp?articleid=189769&page=1"
+        }
+      ]
+    },
+    {
+      "id": "clearspeed-insurance-verification-gap",
+      "date": "2026-09-04",
+      "added": "2026-09-05",
+      "category": "痛点",
+      "title": "保险公司加速上 AI，年报里却几乎不提假材料：理赔员只有三成敢说能认出深度伪造",
+      "prompt": "",
+      "body": "Clearspeed 委托的研究扫了四十九家保险和再保公司的七十六份公开文件，又访谈了十六位英美理赔和核保高管。九月四日公布的结论很刺：自动化跑得比核验快。\n\n七十六份年报、10-K、委托书里，没有一家提到合成媒体、合成身份或声音克隆。四十九家里只有六家谈到 deepfake，还都塞在网络安全披露里，没有一家把它写成「会混进理赔和核保证据」。五大再保巨头最新年报同样静音。另一边，三月一份对三百名美国理赔人的调查：百分之九十八承认 AI 修图工具在抬高数字欺诈；但只有百分之三十二自称很有把握认出深度伪造。行业估计财险损失里大约一成跟欺诈有关，信任缺口每年至少三千零八十六亿美元量级。\n\n超过九成客户其实是老实人。核验太狠，好人觉得被怀疑；核验太松，假材料顺着自动流程往里钻。智能体以后还会互相传材料，人提供的信息更要先可审计。\n\n所以呢：保险 AI 的下一场仗，不是多快结案，是先分清哪张图、哪段录音配得上被机器相信。\n",
+      "links": [
+        {
+          "label": "Beinsure",
+          "url": "https://beinsure.com/news/insurance-ai-adoption-exposes-verification-gap-study-finds/"
+        }
+      ]
+    },
+    {
+      "id": "workplace-deepfake-harassment-suits",
+      "date": "2026-09-04",
+      "added": "2026-09-05",
+      "category": "痛点",
+      "title": "同事用 AI 做了你的假视频，公司也可能被告：雇主要管的不是「谁做的」",
+      "prompt": "",
+      "body": "华盛顿州巡逻队一名干了十九年的警员科林·皮尔森起诉：同事用 AI 做了段他和另一名穿制服警员「亲密接吻」的视频，还配上嘲讽性取向的旁白，在单位里流传。纳什维尔气象主播布里·史密斯·弗里德里希斯的联邦诉讼里写：针对她的深度伪造色情图被用来骗观众，管理层没认真查，成了她拒续约离开的最后一根稻草。巴尔的摩一所高中体育主任用深度伪造音频给校长「配」种族主义和反犹言论，后来认罪入狱四个月。\n\n彭博法律近期梳理：雇主不一定要亲手做深度伪造才会挨告。关键的是知道或应当知道之后，有没有合理纠正。联邦民权法 Title VII 下，若伪造图在同事间流传并影响受害人工作，可构成敌意工作环境。律师建议反骚扰政策要点名 AI，别只写笼统「不当内容」；下班后做的、却渗进职场的内容，公司也越来越难装看不见。\n\n所以呢：职场深度伪造的第一责任人，往往不是做视频的那个人，是收到举报后装聋的管理层。\n",
+      "links": [
+        {
+          "label": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/ai-deepfakes-spawn-new-breed-of-workplace-harassment-lawsuits"
+        },
+        {
+          "label": "Pullman & Comley 综述",
+          "url": "https://www.pullcom.com/working-together/ai-deepfakes-workplace-employer-liability"
+        }
+      ]
+    },
+    {
       "id": "prompt-gpt-image2-espn-courtside",
       "date": "2026-09-05",
       "added": "2026-09-05",
