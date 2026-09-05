@@ -2,6 +2,270 @@
   "updated": "2026-09-05",
   "items": [
     {
+      "id": "prompt-gpt-image2-espn-courtside",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "提示词",
+      "title": "球场边假转播：先长得像 ESPN 截图，再让视频轻轻晃一下",
+      "prompt": "A screenshot from a live NBA game TV broadcast on ESPN. The camera cuts to the audience - a person sitting courtside, smiling naturally, unaware they are on camera. Full ESPN broadcast overlay: scorebug, network logo watermark, 16:9 aspect ratio. The image looks exactly like a real TV screenshot - broadcast color grading, slight compression artifacts, interlacing grain.",
+      "body": "有人在球场边笑得一脸无辜，画面却像被 ESPN 切到了观众席。分数条、台标水印、一点压缩噪点，全都得像真转播截图，而不是一张干净海报。\n\nJXP 那条 GPT Image 2 教程把这招当成假体育热潮的种子：先用静态图钉住「电视感」，再丢给 Kling 做极轻的手持晃动，观众才会信。可演示的点很直白——假的不是人物，是转播零件。你可以换成韩棒、英超，骨架别动。\n\n静态图出来之后，运动只写一句「极轻手持晃动」就够；动得多反而像伪造。",
+      "links": [
+        {
+          "label": "JXP",
+          "url": "https://www.jxp.com/blog/gpt-image-2-kling-3-0-ai-video-tutorial"
+        }
+      ]
+    },
+    {
+      "id": "prompt-kling-interrogation-coref",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "提示词",
+      "title": "审讯室别抢话：先写动作，再挂语气标签",
+      "prompt": "A sleek modern interrogation room with cold LED lighting. Muted gray walls, a glass window, security cameras blinking red. Low atmospheric suspense music hums with deep bass drones.\n\nA detective in a navy suit leans forward slowly. His hands rest calmly on the table.\n\n[Character A: Lead Detective, controlled serious voice]: \"Let's stop pretending.\"\n\nImmediately, the suspect shifts in their chair, tense.\n[Character B: Prime Suspect, sharp defensive voice]: \"I already told you everything.\"\n\nThe detective slides a folder across the table. Paper scraping sound.\n\n[Lead Detective, calm but threatening tone]: \"Then explain why your fingerprints are here.\"\n\nThe suspect's breathing quickens.\n\n[Prime Suspect, voice trembling]: \"That's impossible...\"\n\nThe detective stands suddenly, chair scraping back. Music tightens with a rising pulse.",
+      "body": "审讯室里两个人，冷灯、红点摄像头、低沉底噪——这还只是布景。难的是台词别糊成同一个人在念。\n\nfal 的 Kling 3.0 指南给了共指写法：人物先起独一无二的标签，动作写完再开口，语气塞进方括号；换人时用 Immediately 顶一下。侦探推文件夹、嫌疑人喘粗气，声音才跟得上。短剧骨架直接换角色名和句子就能拍。\n\n这套语法也适合短剧号外：换场景、换台词，保留「标签 + Immediately」就行。",
+      "links": [
+        {
+          "label": "fal Kling 3.0",
+          "url": "https://blog.fal.ai/kling-3-0-prompting-guide/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-kling-rainy-car-lofi",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "提示词",
+      "title": "雨夜停在路边：车里两句对白，比剧情更重要",
+      "prompt": "Inside a parked car at night. Rain tapping softly on the roof. Low lo-fi music playing from the speakers.\n\nA driver grips the steering wheel, nervous.\n[Character A: Driver Friend, hesitant voice]: \"So... are you mad at me?\"\n\nImmediately, the passenger stares out the window.\n[Character B: Passenger Friend, quiet cold tone]: \"I don't know.\"\n\nThe driver swallows.\n[Driver Friend, softly speaking]: \"That's worse than yes.\"\n\nThe passenger sighs deeply.\n[Passenger Friend, tired voice]: \"I just didn't expect it from you.\"",
+      "body": "引擎熄了，雨敲车顶，音响里飘一点 lo-fi。司机抓着方向盘问「你生我气了吗」，副驾看窗外，只回「我不知道」。\n\n还是 fal 那套对白语法，但这回情绪比情节重。适合演示「氛围床 + 两句真话」：换你自己的句子，结构别拆。一百个字以内就能重拍一条。\n\n拍的时候别把台词写成一大段对白：一句一个标签，雨声和 lo-fi 只做床，不抢戏。",
+      "links": [
+        {
+          "label": "fal Kling 3.0",
+          "url": "https://blog.fal.ai/kling-3-0-prompting-guide/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-25-recordshop",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "提示词",
+      "title": "三十秒一张蓝唱片：时间戳管故事，参考图只管脸和雨衣",
+      "prompt": "16:9, naturalistic handheld travel film, soft overcast daylight.\nThe same solo traveler in a yellow raincoat appears throughout.\n\n0-6s: Wide street-level view. She crosses a wet intersection toward a record shop.\n6-14s: The camera follows behind her through the doorway; no cut and no new people.\n14-23s: Medium close-up. She finds a blue record, smiles, and turns it toward the lens.\n23-30s: The camera slowly pulls back into the street as the door closes. Hold for one second.\n\nUse @Image 1 only for the traveler's face and raincoat.\nUse @Video 1 only for the handheld camera rhythm, not its location or people.\n<light rain and distant traffic> (quiet lo-fi instrumental, no vocals)\nKeep her face, clothing, record color, shop layout, and direction of travel consistent.",
+      "body": "黄雨衣姑娘穿过湿路口，钻进唱片店，翻出一张蓝唱片对着镜头笑——三十秒里只发生这一件事。\n\nLinkModel 的 Seedance 2.5 模板把秒表写死：每段只干一件事；参考图写清「只借脸和雨衣」，参考视频「只借手持节奏，别借路人和地点」。博主能讲的不是景，是排除法：参考图一多，不写 only，它们就会打架。\n\n把这条当教程拍：先展示不写 only 的乱脱，再展示写上 only 之后脸和雨衣怎么稳。",
+      "links": [
+        {
+          "label": "LinkModel Seedance 2.5",
+          "url": "https://www.linkmodel.ai/blog/seedance-2-5-prompt-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-25-speaker-orbit",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "提示词",
+      "title": "音箱广告三拍：转一圈、推到 logo、停住听嗡声",
+      "prompt": "A matte-black wireless speaker sits centered on a clean white pedestal under soft high-key studio lighting. Water droplets bead on the fabric grille. 0-8s: slow 360-degree orbit revealing form and texture. 8-20s: gentle dolly-in toward the logo as a soft ambient electronic hum rises. 20-30s: hold on a sharp close-up of the logo with subtle light reflection. Premium commercial look, crisp detail, native audio. Use @image1 for exact product shape, logo, and material only.",
+      "body": "白台座上摆一只哗光黑音箱，网罩挂着水珠。镜头先慢慢绕一圈，再往 logo 推，最后钉死特写，底噪轻轻嗡一下。\n\nCometAPI 这条 Seedance 2.5 样例把电商短片拆成三拍：orbit → dolly → hold。主体换成面霜、耳机、咖啡罐都行，节奏别改。参考图只锁外形和材质，别让背景跟着混进来。\n\n电商号最常用的骨架就是这三拍：先让人看清形状，再让人记住log，最后用声音收尾。",
+      "links": [
+        {
+          "label": "CometAPI Seedance 2.5",
+          "url": "https://www.cometapi.com/how-to-prompt-seedance-2-5/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-ideogram4-mango-sago-json",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "提示词",
+      "title": "芒果西米海报：文字放进框，别指望它自己排版",
+      "prompt": "{\n  \"high_level_description\": \"A retro-style square 1:1 poster for a \\\"Mango Sago Social\\\" team tasting event, featuring bold red typography on a salmon pink background with illustrations of a tall glass of mango sago dessert, fresh mangoes, and scattered sago pearls, composed for a square format.\",\n  \"compositional_deconstruction\": {\n    \"background\": \"Solid salmon-pink background with scattered decorative elements including small yellow and white confetti-like shapes and thin wavy lines. A stylized sunburst effect radiates from behind the central glass dessert.\",\n    \"elements\": [\n      {\"type\": \"text\", \"bbox\": [70, 270, 470, 730], \"text\": \"MANGO\\nSAGO\\nSOCIAL\", \"desc\": \"Large, bold, blocky sans-serif text in a deep reddish-orange color. The words are stacked vertically in the upper half of the poster. The letters have a slightly distressed or textured appearance.\"},\n      {\"type\": \"text\", \"bbox\": [490, 210, 565, 790], \"text\": \"TEAM TASTING EVENT\", \"desc\": \"Medium-sized sans-serif text in white, centered within a horizontal reddish-orange banner ribbon located below the main title.\"},\n      {\"type\": \"text\", \"bbox\": [580, 170, 700, 830], \"text\": \"FRIDAY \\u00b7 JULY 18 \\u00b7 4\\u201336 PM\\nTHE PANTRY \\u00b7 5TH FLOOR LOUNGE\", \"desc\": \"Small sans-serif text in white. The first line is on a horizontal reddish-orange banner ribbon. The second line is directly below it on the same color background.\"},\n      {\"type\": \"obj\", \"desc\": \"A tall glass filled with an orange-colored beverage containing numerous small translucent spheres (sago pearls). The drink is topped with whipped cream and diced mango pieces. A whole mango sits to the right of the glass.\"},\n      {\"type\": \"text\", \"bbox\": [905, 680, 965, 965], \"text\": \">RSVP BY JULY 15<\", \"desc\": \"Small sans-serif text in white within a rounded rectangular button shape with a dark reddish-brown border located at the bottom right corner.\"}\n    ]\n  }\n}",
+      "body": "活动名、时间、地点、RSVP——海报上每个字都有自己的框。Ideogram 4 官方样例把「芒果西米局」写成 JSON：标题竖排、色带、按钮各占一个 bbox。\n\n跟爵士海报告诉你的是同一件事：要字准，就别散文。Magic Prompt 适合乱逛；客户定稿的文案，框住再生成。换活动名和日期，骨架能反复用。\n\n粘贴 JSON 时别加代码栏围栏；Ideogram 认的是原生结构，不是一段被包起来的代码块。",
+      "links": [
+        {
+          "label": "Ideogram 4.0",
+          "url": "https://ideogram.ai/blog/ideogram-4.0/"
+        }
+      ]
+    },
+    {
+      "id": "fracture-ai-break-canvas",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "视觉尝试",
+      "title": "画下去就碎：碎完之后，物理规则会被 AI 重写",
+      "prompt": "",
+      "body": "你在画布上画一条线，它不会好好待着——会碎成粒子，互相吸、互相推，熵值一路往上爬。碎到阈值，系统就去问 GPT-4 要一套新物理，下一轮规则变了，粒子却还记得上一轮待过的位置。\n\nFRACTURE 做给「系统崩塌」黑客松：反馈环、熵可视化、自适应规则、涌现图案、刻意崩塌，五样都在浏览器里跑。适合录屏讲「失控也是设计」——不是滤镜抖动，是规则自己换皮。\n\n录屏时把熵条和粒子数放进画面，观众才看得懂「崩塌是刻意的」。",
+      "links": [
+        {
+          "label": "Demo",
+          "url": "https://fracture-canvas.vercel.app"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/NavyaNayer/Fracture"
+        }
+      ]
+    },
+    {
+      "id": "aetherdraw-webmcp-board",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "视觉尝试",
+      "title": "白板把场景树直接交给浏览器里的 Agent",
+      "prompt": "",
+      "body": "普通白板，Agent 只能从像素里猜你画了什么。AetherDraw 把 Excalidraw 那套画布打开，再挂上 WebMCP：场景树、几何边界、自动排版，变成浏览器里的工具接口。\n\n作者为 2026 WebMCP Challenge 做了十一套分型工具，还能自动排乱线团、切七种主题。旁边有开发者面板看工具 schema 和耗时。想拍「Agent 真的在改画布」而不是截图口述，这条链路更干净。",
+      "links": [
+        {
+          "label": "Live",
+          "url": "https://aetherdraw.onrender.com"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ShreyashChaurasia/AetherDraw"
+        }
+      ]
+    },
+    {
+      "id": "dali-mcp-ad-scorer",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "小众工具",
+      "title": "生成前先打分：对着市场上还在跑的广告比",
+      "prompt": "",
+      "body": "Seedance 重跑一次可能要好几刀。Dali 这个 MCP 不替你出图，它先给提示词和成片打分：对着一万多条还在市场上活着的广告说话，而不是对着「提示词心得」。\n\nscore_prompt 看镜头、运动、光；score_creative 看你像不像还在投的赢家，并指出缺的属性。Claude / Cursor 里加一条 https://dali.getlulu.dev/mcp 就能用。角度很毒：先问会不会打水漂，再按生成键。",
+      "links": [
+        {
+          "label": "Dali",
+          "url": "https://dali.getlulu.dev"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Lulu-The-Narwhal/dali-mcp"
+        }
+      ]
+    },
+    {
+      "id": "actradeck-agent-cockpit",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "小众工具",
+      "title": "Agent 要删目录时，先弹到你面前的本地驾驶舱",
+      "prompt": "",
+      "body": "Claude Code 或 Codex 正要 rm -rf，ActraDeck 把它拦下来：高风险动作进本地审批箱，密钥先打码再落盘，会话还能回放。\n\n默认绑在本机回环，不强制云账号。有一键 demo，也有 Docker 三十秒安全演练。作者写得很坦白：这是尽力检测，不是沙箱圣杯。适合拍「人在回路」——批准、拒绝、会话级放行，一眼能看懂。\n\nnpx actradeck@latest demo 先跑一遍假命令，不碰真文件系统。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/actradeck/actradeck"
+        }
+      ]
+    },
+    {
+      "id": "mongotar-prompt-roundtrip",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "小众工具",
+      "title": "文件打包成提示词，改完还能拆回磁盘",
+      "prompt": "",
+      "body": "很多「仓库转提示词」工具只会吐一大堆文本。mongotar 反过来也能用：把选中的文件打成可读文本，权限写在文件头里；模型若整文件交回，可以再反序列化回磁盘。\n\n作者故意不做 LLM 特化，七百行左右，像 tar 的文本亲戚。嫌 diff 被模型改烂的人，会吃这套整文件往返。Show HN 标题就叫 Files to Prompt, and Back。\n\n适合拍「整文件交接比 diff 更耐造」——代理技能里很常用得上。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sebastiancarlos/mongotar"
+        }
+      ]
+    },
+    {
+      "id": "promptlint-cicd",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "小众工具",
+      "title": "提示词也能 lint：规则、测试、再推进仓库",
+      "prompt": "",
+      "body": "写提示词很爽，回归很痛。PromptLint 把提示词当代码：有规则、有测试、有 playground，还带 VS Code 插件和 MCP server。\n\n适合团队把「别空话、别自相矛盾、必含输出格式」写成检查项，合并前先红灯。不是又一个提示词生成器，是防漂移的护栏。\n\n把提示词放进 CI 之后，团队才不用靠口口相传「这版能用」。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/brixsoftworks/promptlint"
+        },
+        {
+          "label": "Playground",
+          "url": "https://brixsoftworks.github.io/promptlint/"
+        }
+      ]
+    },
+    {
+      "id": "aivideo-credit-guard",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "小众工具",
+      "title": "视频提示词先过安检，再决定烧不算力",
+      "prompt": "",
+      "body": "生成器不会告诉你提示词太糊——它会先扣费。AIVideoCreditGuard 在本地跑：查缺主体、互相打架的运镜、多镜头却没有角色圣经，顺带估费用和变形风险。\n\n竖屏 / 横屏 / 方形 / 故事板有不同档。严格模式给自动化用：退出码 0 才去真生成，1 就回流重写提示词。不调用云、不需要 API key。\n\n把它插在 n8n 或脚本前面，能省下一大堆「生成失败也扣费」的悲剧。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/madebysaira/AIVideoCreditGuard"
+        }
+      ]
+    },
+    {
+      "id": "openmotion-screenshot-motion",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "小众工具",
+      "title": "产品截图扔进去，Agent 在时间线上搭可改动效",
+      "prompt": "",
+      "body": "创始人常卡在：会写提示词，不会做动效。OpenMotion 是免费 macOS 工作室——普通话描述场景，贴上截图或品牌包，Agent 在真实画布和时间线上搭层、缓动、镜头和声音，再导出 MP4。\n\n它强调可编辑，不是一键黑盒；还能跟 Codex、Claude Code 一起干活，不必另开一串 API key。适合 SaaS 发布片和功能讲解的毛片。\n\n跟录屏软件不同：它要的是可改的层和时间线，不是一条冻死的视频。",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://openmotion.design"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/openmotion"
+        }
+      ]
+    },
+    {
+      "id": "motn-code-native-motion",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "小众工具",
+      "title": "动效先变成代码，不要先变成压扁的视频",
+      "prompt": "",
+      "body": "Motn 把动效画在无限画布上，吐出来的是代码，不是只能下载的扁视频。可以说「慢一点」，并排比几个变体，再导出进 Framer 或任何 React 站。\n\n作者押注 code-native：可交互、够锐、能改、能混搭。嫌 GenAI 视频贵又难改的人，这条路径更像「用嘴写动画工程」。\n\n跟一键生成视频比，这里的产出更像前端组件，改一句话就能重编。",
+      "links": [
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/motn-ai"
+        },
+        {
+          "label": "Site",
+          "url": "https://motn.ai"
+        }
+      ]
+    },
+    {
+      "id": "lanes-personal-context-mcp",
+      "date": "2026-09-05",
+      "added": "2026-09-05",
+      "category": "小众工具",
+      "title": "一个 MCP 端点：账号、记忆、技能，分给每个 Agent 一份权限",
+      "prompt": "",
+      "body": "Agent 一多，每人各接一遍 Gmail、日历、Notion，权限图会炸。Lanes 的 Personal Context MCP 做成你自托管的一个端点：账户、记忆、技能集中放，再用 Access Profile 决定谁能碰什么。\n\nClaude、ChatGPT、Codex 都能挂同一条线。适合拍「并行 Agent 共用上下文，但不共用权限」——比再演示一次单聊窗口有料。",
+      "links": [
+        {
+          "label": "Lanes",
+          "url": "https://lanes.sh/showcase/personal-context-mcp"
+        }
+      ]
+    },
+    {
       "id": "openai-dsewiki-agent-collusion",
       "date": "2026-09-04",
       "added": "2026-09-05",
