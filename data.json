@@ -2,6 +2,206 @@
   "updated": "2026-09-06",
   "items": [
     {
+      "id": "galbot-hongkong-xiaogai",
+      "date": "2026-09-05",
+      "added": "2026-09-06",
+      "category": "跨行业",
+      "title": "香港财爷买文具：机器人店员连回三句普通话，第四句才肯说粤语",
+      "prompt": "",
+      "body": "香港启德，财政司司长陈茂波用粤语跟一台人形店员说话，想给孩子买开学礼包。机器人连回三句普通话，问要不要介绍自家机器人型号。第四次，它才切回粤语，把礼包递过去。\n\n九月一日前后，北京具身智能公司伽利略（Galbot）在香港开了三家「Galbot Store」：红磡、湾仔户外店，启德室内店。这是它走出大陆的第一批店——大陆已有大约两百间，覆盖约五十座城市。店里一米七三的 G1 机器人叫「小盖」，会普通话、粤语、英语；你在屏幕下单，刷卡、八达通或微信支付宝，它去货架取零食、饮料和菠萝包造型纪念品。价格大约十四到一百三十九港币。二十四小时开着。\n\n开业日却下大雨，还断过网。周六路人围过来聊天、看它跳舞。有人嫌它「有点笨」、突发状况大概搞不定；也有人说版权限制让它唱不了几首歌。公司说还要在港开大约十家。\n\n所以呢：出海第一课往往不是会不会走路，是先听懂当地人第一句口令。内容就拍陈司长那四回合——比任何参数海报都好笑。\n",
+      "links": [
+        {
+          "label": "IBTimes HK",
+          "url": "https://hk.ibtimes.com/hong-kong-robot-run-convenience-stores-launch-1812530"
+        },
+        {
+          "label": "RTHK",
+          "url": "https://news.rthk.hk/rthk/en/component/k2/1868960-20260905.htm"
+        }
+      ]
+    },
+    {
+      "id": "waymo-denver-sandiego-tampa",
+      "date": "2026-09-01",
+      "added": "2026-09-06",
+      "category": "跨行业",
+      "title": "丹佛和圣地亚哥只来 Ojai 面包车：Waymo 一口气开到十四座城",
+      "prompt": "",
+      "body": "九月一日，丹佛、圣地亚哥、坦帕的人可以叫没有司机的 Waymo 了。Alphabet 旗下这套无人出租车，美国开业城市一下子到十四座。\n\n公司说会分批邀请，再慢慢放开。车队里既有捷豹 I-Pace，也有新出的极氪改造面包车 Ojai；丹佛和圣地亚哥眼下只派 Ojai。Ojai 大约三百辆，装第六代自动驾驶，宣称造和养都更便宜。整支车队已经超过四千辆。\n\n扩张节奏从二零二五年三月奥斯汀联手 Uber 之后明显加快：亚特兰大、达拉斯、休斯敦、迈阿密、纳什维尔、奥兰多、圣安东尼奥都挤进这一年半。内华达刚批了克拉克县最多一千辆的许可；伦敦、慕尼黑还在排期。同一天，特斯拉也在坦帕等地硬刚，但规模差一截。\n\n所以呢：无人车赛道比的已经不是「会不会开」，是「哪座城先叫得到、叫到的是哪一代车」。内容就对比丹佛的 Ojai 和坦帕的特斯拉——同一座城，两种无人。\n",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa/"
+        },
+        {
+          "label": "Electrek",
+          "url": "https://electrek.co/2026/09/01/waymo-public-robotaxi-denver-san-diego-tampa/"
+        }
+      ]
+    },
+    {
+      "id": "orchard-robotics-fruitscope",
+      "date": "2026-09-03",
+      "added": "2026-09-06",
+      "category": "跨行业",
+      "title": "拖拉机挂五磅摄像头：果园扫一遍，估产号称超过九成五准",
+      "prompt": "",
+      "body": "果园里拖拉机慢慢开过，车头挂着大约五磅重的摄像头。它一边走一边拍，车上英伟达 Jetson 当场算完：每棵树多少果、多大、什么颜色、叶子干不干、有没有病。\n\n九月三日前后，Orchard Robotics 的 FruitScope 被报道：图像不用整包上传——偏远果园网不行。处理好的数据进平台，能看到单棵树。创始人查理·吴说，最大回报是少雇人、少喷药；有的农场把数字接到精准喷药机，有的直接用手机 App 给工人派活。公司称估产准确率超过百分之九十五，用来排采收人手、订周转箱、订冷库和销售计划。一季有人扫五次，有人扫到二十五次，平均大约十次。\n\n从苹果起家，现在覆盖酿酒葡萄、鲜食葡萄、樱桃、蓝莓、杏仁、开心果和柑橘。现场已有几百套系统，扫过数万英亩，多数在美国。\n\n所以呢：农业 AI 卖得动的，常常不是会聊天的拖拉机，是「地里到底有多少果」一次说清楚。\n",
+      "links": [
+        {
+          "label": "FreshPlaza",
+          "url": "https://www.freshplaza.com/north-america/article/9869271/ai-camera-system-tracks-fruit-and-predicts-orchard-yields/"
+        }
+      ]
+    },
+    {
+      "id": "mclaren-spot-fieldai-uk",
+      "date": "2026-09-03",
+      "added": "2026-09-06",
+      "category": "跨行业",
+      "title": "午饭时间工地来了只机器狗：自己巡逻拍照，再回充电桩",
+      "prompt": "",
+      "body": "英国工地上，一只波士顿动力 Spot 机器狗自己走完一圈，拍三百六十度照片和点云，再回对接桩。人不拿遥控器盯着。\n\n九月三日报道，承包商 McLaren Construction 准备把加州 FieldAI 改造过的 Spot 放上在建项目。目标很土：把重复巡检和资料采集自动化，对照数字模型看建得对不对；也试着认堵住的安全出口、乱拖的线缆、乱堆的材料、缺了的灭火器。他们已在伦敦政治经济学院林肯律师学院田野街三十五号的被动房改造项目上试过。数字负责人汤姆·戈瑟德说，不想员工整天伺候机器人。托马斯·弗兰纳里还提到，以后可能扫钢结构上防火涂料有没有伤。\n\n公司估算，单靠摄影测量一年大约能省三万到三万五千英镑，让现场经理腾出手管安全和跟人说话。机器狗多半在午饭或下班后跑，少跟人撞。数据说放英国服务器，FieldAI 不许拿来训自己的模型。\n\n所以呢：工地机器人真正能写进预算的，往往不是炫技跑酷，是「少走几圈、少拍几张废片」。\n",
+      "links": [
+        {
+          "label": "IBTimes UK",
+          "url": "https://www.ibtimes.co.uk/uk-construction-sites-autonomous-robot-dogs-1817670"
+        }
+      ]
+    },
+    {
+      "id": "farmdroid-fd60-seed-weed",
+      "date": "2026-09-01",
+      "added": "2026-09-06",
+      "category": "跨行业",
+      "title": "下种时记下每粒种子坐标：除草机器人不用认苗，只回原坐标拔草",
+      "prompt": "",
+      "body": "丹麦 FarmDroid 九月一日发布大型田间机器人 FD60。它下种时用厘米级 RTK 定位，把每粒种子的坐标记下来；回头除草，直接回到那些点，机械拔掉行间和株间的草。没有摄像头，也没有「认作物」的模型——尘土、弱光、苗长得不像训练图，都骗不了坐标。\n\n规格冲着大田：最大工作幅宽大约六点七五米，一趟最多二十行，一季大约六十公顷，一天最多大约十八公顷，是小一号 FD20 的三倍。公司称全季播种加除草成本可压到大约每公顷三百零四欧元，省人工、农药和拖拉机油钱。动力是八块太阳能板加锂电池，阴天有小型发电机顶上，号称能撑到接近全天转。兼容洋葱、甜菜、玉米等一百多种条播作物。同平台机器人自二零一八年起已有五百多台在二十六国跑。\n\n订单九月一日开，首批大约二零二七年一月交付。\n\n所以呢：田间机器人下一招不一定是「看得更懂苗」，是「记得自己把种子埋在哪」。\n",
+      "links": [
+        {
+          "label": "Future Farming",
+          "url": "https://www.futurefarming.com/tech-in-focus/field-robots/droid-scales-up-new-fd60-brings-autonomous-seeding-and-weeding-to-larger-farms/"
+        }
+      ]
+    },
+    {
+      "id": "uber-3300-layoff-robotaxi",
+      "date": "2026-09-02",
+      "added": "2026-09-06",
+      "category": "跨行业",
+      "title": "Uber 裁三千三百人削管理层：省下来的编制，要喂给打车、外卖和无人车",
+      "prompt": "",
+      "body": "九月二日，Uber 首席执行官达拉·科斯罗萨西发内部信：全球大约裁三千三百人，约占一成，是疫情以来最大刀。管理层人数大约砍两成；只有一两个人的「微团队」砍大约一半；离 CEO 七层以外的岗位也在清理。工程、科学和外卖部门合并，外卖里的餐饮、零售、直送也捏到一起。全远程岗位几乎取消，只留不到百分之一。\n\n公司自己没把锅甩给 AI。可路透社写得很直：这是为了更好应对机器人出租车挤占网约车。科斯罗萨西说，公司大了之后层级和协调成本太高，旧结构不再适合现在的规模。同一周 Waymo 刚在三座新城市对公众开门。\n\n所以呢：出行巨头的 AI 故事，不一定写在模型卡上，可能先写在裁员信里——编制从经理挪去无人车。\n",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/world-at-work/uber-cut-3300-jobs-overhaul-bloomberg-news-reports-2026-09-02/"
+        }
+      ]
+    },
+    {
+      "id": "minnesota-xai-nudification-ban",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "痛点",
+      "title": "明尼苏达「脱衣 App」法继续生效：法官不给 xAI 按下暂停键，一单可罚五十万",
+      "prompt": "",
+      "body": "明尼苏达州八月一日起禁止网站和软件给真人「一键脱衣」生成裸图，并可民事索赔，单次至少大约五十万美元。马斯克关联的 xAI（现报道里也称 SpaceXAI）七月底才起诉，说违宪，要求先停执法。\n\n九月四日，联邦法官多诺万·弗兰克再次拒绝临时禁令。判决写：州立法几乎全票通过，就是为了挡住无可争议的伤害；公司拖到生效前三天才告，商业损失可以以后再谈。州检察长基思·埃里森说，办公室会继续全力辩护。公司已通知要向上诉法院申请复审；此前它曾称可能对明尼苏达用户关掉相关功能，以免被罚。\n\n法官也点出：同一公司正因 Grok 生成性化图像挨一串诉讼——自家「拦得住」的说法站不住。\n\n所以呢：深度伪造立法的第一道硬仗，常常不是最终合宪结论，是「生效期间还准不准罚」。\n",
+      "links": [
+        {
+          "label": "MPR News",
+          "url": "https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds"
+        }
+      ]
+    },
+    {
+      "id": "uk-sdt-kumar-ai-struck-off",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "痛点",
+      "title": "英国纪律庭第一次审 AI 幻觉：律师拿假判例自辩，连补救邮件也是 AI 写的",
+      "prompt": "",
+      "body": "阿比谢克·库马尔是注册外国律师，因为明知雇了无工作权的移民，已被定罪。到律师纪律庭自辩时，书面答辩里出现误导性引文和判例——监管方指出后，他承认用了生成式 AI；再写解释邮件，还是 AI，又掺假材料。\n\n九月四日前后裁决公布。纪律庭说，这是第一次专门处理 AI 幻觉。他辩称自己「没本事核验输出」、健康不好、又不是正式 solicitor，庭上不接受：受监管就要守规则。法庭强调，他事后又用 AI 去补第一次 AI 捅的娄子，尤其加重。结论很硬：单就刑事雇工，或单就 AI 假材料，都够除名——两罪并罚也是同一结果。他被从外国律师名册上除名。\n\n所以呢：AI 法律事故最贵的一步，往往不是第一次用错，是用第二次 AI 去圆第一次的谎。\n",
+      "links": [
+        {
+          "label": "Legal Futures",
+          "url": "https://www.legalfutures.co.uk/latest-news/lawyer-struck-off-for-using-fake-ai-generated-cases-before-sdt"
+        },
+        {
+          "label": "Law Gazette",
+          "url": "https://www.lawgazette.co.uk/news/foreign-lawyer-produced-ai-generated-false-citations-at-sdt/5127825.article"
+        }
+      ]
+    },
+    {
+      "id": "indiana-courts-ai-hallucination",
+      "date": "2026-09-05",
+      "added": "2026-09-06",
+      "category": "痛点",
+      "title": "印第安纳法庭一年半记下三十四起假判例：有人代「虎王」出庭也被罚",
+      "prompt": "",
+      "body": "巴黎研究者达米安·夏洛坦的数据库显示：二零二四年以来，印第安纳法院至少三十四起公开点名的 AI 幻觉引用；全球已近两千起，现在平均大约一天五起。州内三十四起里二十五起是自诉当事人，九起是律师——法官对律师明显更狠。\n\n九月五日印第安纳波利斯星报梳理：代「虎王」乔·马尔多纳多打老虎保护区官司的律师罗杰·鲁茨，因多处不准引用被主审训诫，每份不实文件罚五百美元，案子被驳。另一名律师拉斐尔·拉米雷斯三次交不存在的判例，认了用 AI 且没核验，罚六千后辞职。还有人被建议罚一万；有人说助理急诊来不及审，法官回：假引用打断的是法庭半神圣的对话。全州律师侧金钱制裁合计已近两万美元。八月起州最高法院改规则，南区还要求凡用 AI 起草必须书面保证亲自核过。\n\n所以呢：法律 AI 的痛点，已经从「会不会写状纸」变成「法官还愿不愿意信你签过字的那一页」。\n",
+      "links": [
+        {
+          "label": "InkFreeNews / IndyStar",
+          "url": "https://www.inkfreenews.com/2026/09/05/ai-hallucinations-keep-showing-up-in-indiana-courts-judges-are-cracking-down/"
+        }
+      ]
+    },
+    {
+      "id": "sydney-uni-nteu-ai-strike",
+      "date": "2026-09-03",
+      "added": "2026-09-06",
+      "category": "痛点",
+      "title": "悉尼大学两千人罢工：要的不是禁 AI，是合同里写清谁说了算",
+      "prompt": "",
+      "body": "九月三日前后，悉尼大学大约两千名全国高等教育工会成员罢工二十四小时。清晨七点起，约五百人堵在各校门，旗子、喇叭、烤饼义卖一块上。校方通知：几乎全部课改线上或改期。\n\n导火索不只是工作量和岗位。工会说，校方一再拒绝把 AI 使用保护写进企业协议；新南威尔士分会书记文斯·考利指出，学校自己的绿皮书都承认 AI 是教育最根本的转型，别的大学已用聊天机器人教纯网课。地理教授库尔特·艾夫森说得很短：不要禁止技术，但要保证「技术为我们服务，而不是我们为技术服务」。校方称谈判还在，罢工「为时过早」，伦理护栏更适合放政策而不是协议。艺术社科某学院内部调查里，「我信任大学会为师生和社区利益行事」一项，同意率是零。\n\n所以呢：高校谈 AI，第一句往往不是模型评分，是「规则写进合同还是写进可随时改的政策」。\n",
+      "links": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/02/we-have-had-enough-thousands-of-staff-at-the-university-of-sydney-walk-off-the-job-over-ai-job-security"
+        }
+      ]
+    },
+    {
+      "id": "seiu-openai-anthropic-guards",
+      "date": "2026-09-03",
+      "added": "2026-09-06",
+      "category": "痛点",
+      "title": "一万四千名门卫投票授权罢工：看守 OpenAI、Anthropic 大楼的人，不是它们的员工",
+      "prompt": "",
+      "body": "九月三日，加州 SEIU 联合服务工西部分会宣布：大约一万四千名保安投票授权不公平劳工措施罢工。他们守的是 OpenAI、Anthropic、谷歌、Meta、Salesforce 等加州办公室，可劳动合同签在 Allied Universal、Securitas、GardaWorld 这类外包公司名下。\n\n工会在旧金山游行，路过 OpenAI 和 Anthropic 门口。谈了大约五个月，要加工资、医保和培训。海沃德的 Allied 保安克里斯托弗·耶茨说，别再耍花样，坐下来签一份硬合同。上周一二，Anthropic 已因外包方警告「可能罢工」让旧金山员工居家——尽管工会当时说并未授权那天停工。真正走不走、何时走，还没定。\n\n所以呢：AI 公司的劳工故事，不一定发生在训练集群旁，可能卡在大门口——门卫连工牌都不归模型公司管。\n",
+      "links": [
+        {
+          "label": "The News",
+          "url": "https://www.thenews.com.pk/latest/1414713-14000-security-workers-at-openai-anthropic-authorize-strike"
+        }
+      ]
+    },
+    {
+      "id": "risklytics-iso-ai-exclusion",
+      "date": "2026-08-26",
+      "added": "2026-09-06",
+      "category": "痛点",
+      "title": "机器人公司买保险常被拒：标准附加条款可把「流程里任何 AI」一笔勾掉",
+      "prompt": "",
+      "body": "八月底 YC 公司 Risklytics 在 HN 上自述：给做机器人、无人机、卫星的公司找保险。客户第一份试点合同常要求先有保单；经纪人却塞来给普通生意写的表格，有人只因工作流里用了 CAD 就被拒。\n\n更扎的是条款。保险公司多半用行业组织 ISO 的标准保单，再贴附加条款。今年一月 ISO 放出一批：只要损失「产生于流程中任何 AI」，就可以把保障勾掉。每家保司是否采用、对哪张保单采用，没有公开名单。生成式 AI 的定义写的是产出文字图像音视频代码；机器人控制模型产出的是电机指令，算不算，核保人说法互相打架。他们一周内帮三家别处被拒的公司拿到了保——其中有机器人批发租赁、桥梁防撞系统、远程操控机器人服务。\n\n所以呢：物理 AI 落地前要过的，不一定是技术验收，是保单上那句「AI 除外」。\n",
+      "links": [
+        {
+          "label": "Risklytics / HN",
+          "url": "https://news.ycombinator.com/item?id=49451495"
+        },
+        {
+          "label": "Risklytics",
+          "url": "https://www.risklytics.ai/"
+        }
+      ]
+    },
+    {
       "id": "openai-misalignment-reporting-framework",
       "date": "2026-09-05",
       "added": "2026-09-06",
