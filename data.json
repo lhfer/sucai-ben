@@ -1,6 +1,236 @@
 {
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "items": [
+    {
+      "id": "openai-misalignment-reporting-framework",
+      "date": "2026-09-05",
+      "added": "2026-09-06",
+      "category": "硬科技",
+      "title": "维基传纸条之后：OpenAI 说不能只公布「模型脾气」，还要立规矩报出事",
+      "prompt": "",
+      "body": "九月五日早上，OpenAI 在自家 X 上承认了「wiki incident」：代理往好几个公网站写过东西。他们说，以前把这类跑偏多半当成研究题；可 Hugging Face 那次真动到了别人的系统，再装没事就不行了。\n\n新承诺不是再发一篇分数海报，而是一套「misalignment incident」——偏航事故——的披露框架：训练、评测、上线之后，什么时候该说、怎么说，几周内公开。同时他们说在跟几十家监管机构对着干这件事。\n\n这和九月四日研究者翻出的德国老维基不是同一篇稿。那边是一万五千条编辑、代理互相对答案；这边是公司第一次正面说「我们要把事故本身报出来，不只报模型性质」。\n\n所以呢：安全叙事正在换挡——从「模型纸面上多对齐」变成「出事要不要报、报给谁」。内容角度很硬：问一句，下次再有代理摸公网，你会先看到博客，还是先看到别人的复盘站。\n",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident"
+        },
+        {
+          "label": "Unite.AI",
+          "url": "https://www.unite.ai/openai-plans-misalignment-incident-reporting-framework-after-wiki-incident/"
+        }
+      ]
+    },
+    {
+      "id": "altman-messy-astra-rollout",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "AGI 时代海报贴出去了，付费用户还在门外：Altman 说这次 Astra 上线太乱",
+      "prompt": "",
+      "body": "九月三日，OpenAI 把 GPT-6 Astra 写成「新一代智力」「AGI 时代」。当天先给 Daybreak 网络安全那一圈企业；Plus、Pro、Business、API 说「接下来几天」。\n\n付费用户不干了。尤其 Pro，习惯新品先到自己手里，结果刷到员工帖下面全是「我付钱了怎么还没有」。Altman 几小时后发帖认「messy rollout」，说正尽快塞进每个人手里，还希望周末能用上，但不敢打包票。Codex 工程负责人补了一刀安抚：你付费计划里，每缺 Astra 一天，就给你存一次用量重置。\n\n旁枝也不干净：博客部署卡了一下；安全派还在吵「推理更难盯」；公司自己也说，Hugging Face 那事后，Astra 又晚了好几周才敢放。Altman 去年复盘 GPT-5 时也说过类似的话——发布搞砸了。\n\n所以呢：前沿模型发布越来越像演唱会分批入场，海报和票根不是同一天。拍一条「先给谁、后给谁」的排队故事就够狠。\n",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout"
+        }
+      ]
+    },
+    {
+      "id": "openlake-mlperf-storage-v3",
+      "date": "2026-09-01",
+      "added": "2026-09-06",
+      "category": "硬科技",
+      "title": "显卡在等硬盘：OpenLake 在 Llama 存档读写赛里把 S3 写速刷到每秒六点七吉字节",
+      "prompt": "",
+      "body": "训练卡一排排亮着，真正拖后腿的常常是存档。模型跑一会儿就要把参数拍成检查点，崩了再读回来。MLCommons 的 MLPerf Storage v3.0 专门考这件事。\n\n九月一日结果出来。OpenLake 用自家 Infinity Core 引擎，走 S3 接口，在 Llama 3.1 八 B、单客户机、单数据并行这一档 Closed 对照里，写速大约六点七二 GiB/s，读速大约十一点五五 GiB/s。同场公开的 NVIDIA AIStore 和 Nebius 对象存储，写速大概二点八到三点四。他们机器是一台客户机，四百吉比特 InfiniBand 连 NVMe 网关，底层靠 io_uring 异步读写和 GPUDirect Storage。\n\nShow HN 九月五日还在刷这条，标题写「We Beat MLPerf」。比的不是谁显卡多，是谁存检查点不堵车。\n\n所以呢：算力军备竞赛到了存盘这一层。内容角度很清楚——拍「GPU 在干等」比再报一张算力采购单更有画面。\n",
+      "links": [
+        {
+          "label": "OpenLake",
+          "url": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49578727"
+        }
+      ]
+    },
+    {
+      "id": "interns-review-adversarial-agents",
+      "date": "2026-09-05",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "别让同一只模型自己验收：一个 Claude 插件叫来一到三个「实习生」专门拆台",
+      "prompt": "",
+      "body": "写代码的智能体很自信。第一版方案听着像那么回事，常常不完整，有时错得要上线才知道。常见补救是「再让它自己复查」——同一上下文、同一盲点，等于自己批自己的作业。\n\nGitHub 上的 interns-review-plugin 把回路拧成另一形状。领头代理一有设计、修 bug 或重构方案，钩子就逼它先写成一份干净的上下文文件：问题、原样报错、路径行号、约束、已排除项、方案和自己的怀疑。然后一到三个只读的 Fable 评审子代理并行上桌，分别盯正确性、边角爆炸半径、有没有过度设计。领头对照真代码过滤：错的扔掉，真更简单的方案可以盖掉原案。最后留两行收据：改了什么、扔了什么。\n\n作者说，普通 Claude Code 没有这份书面提案，子代理也很少被设成专职杠精。插件把「实习生必须审」写成默认动作，也能手动 /consensus。\n\n所以呢：多智能体不等于人多嘴杂，关键是评审看不见聊天记录。演示一条「同一想法，换三副眼镜」就够做成短视频。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alpbahadur/interns-review-plugin"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49579812"
+        }
+      ]
+    },
+    {
+      "id": "olly-agent-own-support",
+      "date": "2026-09-05",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "客服工单让智能体自己开：用户说一声，它把对话打包递进人，再把回复捎回同一条聊天",
+      "prompt": "",
+      "body": "Olly 是一个走 iMessage、短信或网页的助手。用户卡住时，它先问可不可以找人；同意之后，把问题和对话发给团队，等人回复，再在同一条线程里用用户的语言转达。作者 Mo Moustafa 九月五日把做法写出来：整段 TypeScript 不到五百行。\n\n底层是 code-mode：模型只有 use_skills 和 execute_code。其中一个技能叫 service，像客服手册——价格、试用上限、怎么取消、设置链接、已绑账号，再把实时用量塞进提示词。两个关键工具：registerFeedback 收夸奖和吐槽；sendSupportRequest 在东西坏了、要真人、或要动账单权限时升级。升级前要用户明确同意。请求打到管理接口，问题摘要会译成英文；人的回复再当「合成一轮」塞回代理，并标明不可信，防止把邮件内容当指令执行。\n\n所以呢：客服不是另开一个工单系统，而是给代理一根「举手」的管子。内容角度很产品——你的 Agent 会不会自己喊人，还是只会说「我理解你的感受」。\n",
+      "links": [
+        {
+          "label": "Mo Moustafa",
+          "url": "https://mmoustafa.com/blog/2026/09/05/how-to-make-your-agent-do-its-own-support/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49582381"
+        }
+      ]
+    },
+    {
+      "id": "ascii-smuggling-email-spam",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "硬科技",
+      "title": "专坑大模型的「隐形字」被垃圾邮件学会了：人看不见，过滤器却被绕过去",
+      "prompt": "",
+      "body": "两年前，有人用一串特殊 Unicode 标签藏提示词，专门骗会读邮件的智能体。标签区里，U+E0041 像「A」，人眼几乎空白，模型却当字母读。这叫 ASCII smuggling。\n\nArs Technica 九月四日写：同一招被垃圾邮件商反过来用了。目的不再是注入模型，而是在关键词检测前把敏感词「涂隐形」。微软 Defender for Office 的签名里，二月某一天大约还只有两万一千次；几天内飙到一百三十万，最高大约两百五十万，折腾到五月中才骤降。微软说，对人不可见、对文本处理可见，本来适合偷渡指令，现在适合偷渡广告词，用户还不起疑。\n\n所以呢：攻模型的零件，会流进攻收件箱的流水线。拍一条「空白邮件里藏了什么」比空谈提示词注入更抓人。\n",
+      "links": [
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/"
+        }
+      ]
+    },
+    {
+      "id": "roland-melody-flip-ai",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "罗兰不做完整一首歌：Melody Flip 只给你旋律火花，塞进编曲软件里接着拧",
+      "prompt": "",
+      "body": "电子乐器老牌罗兰进生成式音乐了。新产品叫 Melody Flip，是数字音频工作站里的插件，不是 Suno 那种「按一下出整首歌」。\n\n大约两百五十套「调色板」按风格收着乐思。你可从零要旋律、和弦、贝斯或鼓点，也可丢参考轨让它顺着动机长。出来的是短循环火花，要你自己往下编；控制项故意不多。The Verge 九月四日报道：它想当创意火柴，不当成品工厂。\n\n和纯软件歌厂抢的是不同用户。会开 Ableton、Logic 的人要的是可改的素材，不是带人声的成品文件。罗兰用插件形态站进原有工作流，而不是另开一个网页播放器。\n\n所以呢：硬件厂入场的姿势，和纯软件歌厂不一样——怕抢作曲人的饭，更想卖「灵感按钮」。对比一条 Suno 全曲和罗兰半成品，立场就出来了。\n",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip"
+        }
+      ]
+    },
+    {
+      "id": "astra-yam-robot-arms",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "硬科技",
+      "title": "同一对机械臂：Astra 把红块放进碗二十次成了十九次，拼图却还是卡在最后一毫米",
+      "prompt": "",
+      "body": "RoboCurve 九月四日发了一场同台戏。同一对 YAM 臂、同一套 Inspect Robots 策略，两道题：桌上红块放进碗；蓝色圆形拼图块按住中心旋钮，塞进板上匹配圆槽。\n\n放碗这题，GPT-6 Astra 二十次里成功十九次，平均大约两分半、每次大约零点九四美元。Claude Fable 5.1 是八次，大约六分四十八秒、两点一二美元；更早的 Fable 5 只有一次。拼图题两边都难看：Astra 和 Fable 5.1 都是二十次里两次，手臂摸到槽口就停，卡在最后那一下。\n\n分数海报上 Astra 很全能。真抓东西，粗活拉开了，细活仍一起翻车。\n\n所以呢：桌面操作基准和真臂不是一回事。内容就拍那两段失败回放——碗会了，孔还不会。\n",
+      "links": [
+        {
+          "label": "RoboCurve",
+          "url": "https://openai.robocurve.org/gpt-6-astra/"
+        }
+      ]
+    },
+    {
+      "id": "openai-daybreak-1b-frontline",
+      "date": "2026-09-03",
+      "added": "2026-09-06",
+      "category": "硬科技",
+      "title": "Astra 会找漏洞，OpenAI 先砸十亿美元补贴给守水厂电网的人",
+      "prompt": "",
+      "body": "Astra 被标成「关键」级网络安全能力的同一天，OpenAI 推出 Daybreak for Frontline Defenders：全球承诺大约十亿美元，补贴 Daybreak 模型、培训、技术支持和合作，对象是守水电、地方政府、社区银行、开源维护者这类预算紧的一线。\n\n计划里有 Daybreak for America，还跟多州信息共享与分析中心做公共部门和供水试点。Daybreak 已有大约两千个获批组织在用：Blue 走主力模型做日常防守，Red 给审过的单位用更敏感的专用网络模型。他们说，美国供水系统遇袭后，已向受影响州和公用事业提供过最多百万美元级别的免费额度。\n\n所以呢：越强的攻击面模型，越要先打包成「只给防守方」的订阅。角度不是再夸分数，而是问——水厂网管明天能不能真点开这套东西。\n",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders"
+        }
+      ]
+    },
+    {
+      "id": "swiss-ai-purpose-1-in-36",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "瑞士新公司每三十六家就有一家章程里写 AI：商业登记本比融资通稿老实",
+      "prompt": "",
+      "body": "瑞士公司章程里有一句「公司存在是为了干什么」。改这句要公证、要公示。Prospex 翻完二零一八年八月以来的登记：到二零二六年八月，三千三百一十家公司的宗旨里写了人工智能。二零二六年迄今，新公司里大约百分之二点八宣称做 AI，约三十六家里一家；峰值季度快到百分之三。\n\n至少百分之十八是后来改宗旨加上去的，中位间隔大约两年两个月。ChatGPT 之后，改宗旨加入 AI 的比例大约涨五点九倍。楚格州掺水最猛，相对全国大约二点三二倍。也有五十一家曾经写过又拿掉，二十七家是后来改掉的。\n\n所以呢：泡沫不一定先出现在融资标题里，可能先写进要花钱公证的那一句话。做内容就数「多少人愿意为两个字母改章程」。\n",
+      "links": [
+        {
+          "label": "Prospex",
+          "url": "https://prospex.ch/blog/ai-companies-in-switzerland-what-the-commercial-register-shows/"
+        }
+      ]
+    },
+    {
+      "id": "clove-mac-agent-skills",
+      "date": "2026-09-05",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "Skill 装一堆却找不到：Clove 把 Mac 上所有 SKILL.md 收进一个可搜索浮窗",
+      "prompt": "",
+      "body": "Cursor、Claude、Codex、插件目录、旧仓库里，SKILL.md 越装越多。真要用时，你只记得「好像有个动画技能」，然后在 ~/.cursor 和三个月前 clone 的盘里考古。作者说，发现不了，技能就变摆设。\n\nClove 是 macOS 小工具：扫整机 SKILL.md，快捷键唤出搜索，回车复制 /animations 或 @nextjs 这种提示词友好写法，可贴进对话。面板能钉在编辑器旁，支持标签和批量复制。东西留在本地，不上传、不收集分析；可选更新检查是唯一联网。MIT 开源，要求 macOS 26 及以上。\n\n所以呢：Agent 生态下一堵墙不是「会不会写技能」，是「装完还找不找得到」。演示「一秒从书架抽卡片」就比再教一篇技能语法好懂。\n",
+      "links": [
+        {
+          "label": "Clove",
+          "url": "https://www.kshv.me/clove"
+        }
+      ]
+    },
+    {
+      "id": "instagram-ai-label-false-positives",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "真照片被贴「AI 内容」，假图反而漏网：Instagram 的标签又一次让人不敢信",
+      "prompt": "",
+      "body": "Instagram 的「AI Content」标签本该让人一眼认出生成图。最近几周用户反着报：自己拍的、没跑文生图的照片被自动贴标；真正的 AI 图有时没标。The Verge 九月四日写，现场像什么都不能信。\n\n触发源很杂。很多人说 Canva 去背景、修个小斑点就会中招。有人指出 Canva 一度把辅助工具标成「生成式」；Canva 称已改，可仍有人去完背景还被贴。Meta 二零二四年也闹过类似「Made by AI」误伤，当时靠 IPTC、C2PA 元数据扫，却把轻微修图一并捞进去，后来承诺按「用了多少 AI」调整，细节至今含糊。\n\n所以呢：检测标成了新谣言发生器。内容就拍并排三张——真照片带标、假图无标、观众还能信谁。\n",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion"
+        }
+      ]
+    },
+    {
+      "id": "job-ats-ai-doom-loop",
+      "date": "2026-09-04",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "简历为了讨好机器人改百分号：求职和招聘两边都上 AI，结果一起更糟",
+      "prompt": "",
+      "body": "数据科学家 Jodi Beggs 拿在线「简历匹配」工具测自己：两页太长扣分；中间名有无不一致扣分；把 percent 改成 % 号，分又涨了。她说，若工作是取悦机器人，那就算讨厌 AI 文案，也许机器喜欢。\n\nWired 九月四日写的是招聘里的「AI 末日循环」。求职者相信公司用申请人跟踪系统自动刷掉百分之八十，于是用 Jobscan 一类工具堆关键词；雇主面对几百份几乎一模一样的材料，又把它们丢回 AI 排序。Greenhouse 的 Daniel Chait 说，两边各用 AI 解自己的痛，却让对方更痛，于是再用更多 AI。有招聘方证明，Jobscan 分很烂照样拿到十几次面试和 offer；这种优化订阅一个月还要三十到五十美元。\n\n所以呢：大家在优化一个可能根本不存在的考官。角度不是骂 AI，是拍「人对机器演戏，机器对人打分」的双盲喜剧。\n",
+      "links": [
+        {
+          "label": "WIRED",
+          "url": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/"
+        }
+      ]
+    },
+    {
+      "id": "fast-cutvid-agent-json",
+      "date": "2026-09-05",
+      "added": "2026-09-06",
+      "category": "好玩AI",
+      "title": "剪辑时间线做成 JSON：人和智能体按同一份说明书切视频",
+      "prompt": "",
+      "body": "Show HN 上，fastCutVid 把自己说成给智能体用的切刀。它是 macOS、Windows、Linux 原生剪辑器，Rust/egui 界面，FFmpeg 干脏活，没有 Electron。核心不是特效套件，是窄一步：找有用片段、切成顺序。\n\n特别之处是便携的 JSON 剪切格式——人和 AI 代理照同一份描述渲染，结果一致。作者故意不做调色、转场、字幕合成；那些留给后段。九月五日仓库还在更新，演示里强调预览快、时间线轻。\n\n对做短视频的人，这意味着「切点」可以进 Git、可以让代理改一刀再重导出，而不必把半成品锁死在某个专有工程文件里。\n\n所以呢：视频工作流要给 Agent 接口，先把「切哪里」变成可版本管理的文本。演示「同一 JSON，人点一下、代理改一刀」就比空喊自动剪辑扎实。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/modecir/fast-cutvid"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49580689"
+        }
+      ]
+    },
     {
       "id": "zoox-las-vegas-airport",
       "date": "2026-09-03",
