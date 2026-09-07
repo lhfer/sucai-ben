@@ -2,6 +2,170 @@ window.INTEL_DATA = {
   "updated": "2026-09-07",
   "items": [
     {
+      "id": "hyundai-wia-unmanned-forklift",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "跨行业",
+      "title": "货台上没司机：现代威亚无人叉车明年进起亚华城厂",
+      "body": "韩国起亚华城工厂的货台边上，明年五月可能先来一台没人开的叉车。九月七日，现代汽车集团零部件公司现代威亚（Hyundai Wia）说，它做出了能自己进出货车、上下托盘的无人叉车，国内头一回把这套卖进真工厂，首站就是起亚 Autoland 华城。\n\n它挂在自家移动机器人品牌 H-Motion 下。车上有激光雷达、摄像头和四周安全扫描仪，能在厂区里自己找路；托盘偏了二十五厘米、歪了十多度，公司说也能认全。载重大约四吨，时速卡在六点五公里，撞到障碍会立刻停。路线还在数字孪生工厂里先练过。\n\n所以呢：汽车厂要的不是会聊天的机器人，是能替人把货从卡车搬进车间的那一叉。",
+      "links": [
+        {
+          "label": "Asiae",
+          "url": "https://www.asiae.co.kr/en/article/2026090707575477268"
+        },
+        {
+          "label": "Aju Press",
+          "url": "https://www.ajupress.com/view/20260907083270732"
+        }
+      ]
+    },
+    {
+      "id": "bnsteel-cowbot-farm",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "跨行业",
+      "title": "腰上别个标签，四条腿跟在后面：釜山田间试推独轮车机器人",
+      "body": "釜山田埂上，农民推独轮车运刚摘的菜，腰和膝盖最吃亏。九月七日，釜山公司 BNSteel 说，自家四足搬运机器人 B&B CowBot 已经下田试跑。\n\n工人腰上别一块跟踪标签，机器就跟着走，一次大约驮二十公斤。能爬三十度坡，果园土埂也敢过。手机上两个大按钮：开、停。公司说老年人听五分钟就能上手。人走出视线或信号断了，它会立刻停。九月到十月，在釜山机张郡和忠南牙山一带开放免费试用，专门找还在推独轮车的农户。\n\n所以呢：农村缺的不一定是会认作物的大脑，是先把「背东西」这件事从人身上卸下来。",
+      "links": [
+        {
+          "label": "Asiae",
+          "url": "https://www.asiae.co.kr/en/article/2026090711015291877"
+        }
+      ]
+    },
+    {
+      "id": "bauhaus-xyz-rocky-receiving",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "跨行业",
+      "title": "德国五金仓收货口没人了：四台 Rocky 一天拆二十二个集装箱",
+      "body": "德国克雷费尔德，建材连锁 BAUHAUS 的配送中心收货口，六月底以后很少再看见专人拆集装箱。四台 Rocky 移动机械臂机器人并排干活：从货柜里掏货、按去向分拣、再码成稳托盘。\n\n这是波士顿公司 XYZ Robotics 的第三代移动操作平台。一个四十英尺柜，两个人工大约要四小时；一台 Rocky 大约九十分钟。四点说平均一天处理二十二个柜，收货口不再配专职人力。试点四个月大约摸过十八万件，破损率低于千分之三。公司没公开合同价，业内估整套大约一百二十万到一百八十万美元；BAUHAUS 物流负责人说按人工节省算，大约十八个月回本，还能把收货开到夜班。\n\n所以呢：五金店货最乱的一关，终于轮到「会走路的机械臂」先上。",
+      "links": [
+        {
+          "label": "RoboticsIntl",
+          "url": "https://www.roboticsintl.com/article/bauhaus-deploys-xyz-robotics-for-fully-automated-receiving-workflow"
+        }
+      ]
+    },
+    {
+      "id": "norbert-health-14m-nursing",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "跨行业",
+      "title": "养老院里先会查体再记账：Norbert 再融一千四百万教机器人当护工助手",
+      "body": "布鲁克林创业公司 Norbert Health 不造人形壳子，只卖「临床脑子」。九月一日它宣布拿到一千四百万美元 A 轮，累计融资约一千九百万。钱要用来加技能库、冲监管许可，并把部署从专业护理院扩到更多场景。\n\n它说自己的系统挂在合作方的移动机器人上：能无接触采生命体征、按流程做评估、跟患者说话，再把记录写进电子病历。二零二五年八月起已在美国多家护理院上线，每天巡视数百名患者。公司报患者接受度百分之九十六，监测依从性百分之八十二，约为人工远程监测基线的两倍。联创兼 CEO 亚历克斯·温特说，美国床边缺近百万护士，光会搬东西的物流机器人不够，得会干护理活。\n\n所以呢：护工机器人的下一场融资故事，比拼的是会不会写进病历，不是会不会走路。",
+      "links": [
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/norbert-health-raises-14-million-series-a-to-power-autonomous-robotic-nursing-assistants-302865486.html"
+        },
+        {
+          "label": "RuntimeWire",
+          "url": "https://runtimewire.com/article/alex-winter-norbert-health-14-million-robotic-nursing"
+        }
+      ]
+    },
+    {
+      "id": "carbon-autonomy-ready-great-plains",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "跨行业",
+      "title": "拖拉机自己开还不够：Carbon 拉农具厂一起调深度和压力",
+      "body": "爱荷华农场进度展上，一台挂着传感器的 Great Plains HT1100 Terra-Max 在展。九月初前后，激光除草公司 Carbon Robotics 推出 Carbon Autonomy Ready：给农具厂一份技术规范，让别人家的机具也能直接挂上它的自动驾驶拖拉机平台。第一家入伙的是久保田旗下的 Great Plains。\n\n接上之后，拖拉机不只自己开，还能读农具实时数据，自动改耕作深度、下压力和调平，像人坐在驾驶室里拧旋钮一样。CEO 保罗·迈克塞尔说，要解决的是熟练机手不够、拖拉机利用率低。评论里有人盯着更刺的一点：Carbon 现在多装在约翰迪尔拖拉机上，农具却来自另一品牌——它想当跨品牌的「中间层」。\n\n所以呢：农田自动化下一关，不是再少一个司机，是机具也肯跟拖拉机说同一种话。",
+      "links": [
+        {
+          "label": "Precision Farming Dealer",
+          "url": "https://www.precisionfarmingdealer.com/articles/7266-carbon-robotics-launches-carbon-autonomy-ready-program-great-plains-joins-as-first-member"
+        },
+        {
+          "label": "AgInsights",
+          "url": "https://www.aginsights.blog/carbon-robotics-moves-beyond-tractor-control-as-great-plains-opens-the-door-to-cross-brand-implement-autonomy/"
+        }
+      ]
+    },
+    {
+      "id": "vigier-ciment-anymal",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "跨行业",
+      "title": "水泥厂夜里自己巡逻：四条腿十六个月查了三万三千次",
+      "body": "瑞士维吉耶水泥厂（Vigier Ciment，维卡集团）的佩里老厂，二零二五年一月起夜里多了一只四条腿的巡检机器人 ANYmal。它爬三座磨机、六层楼，围着大约四百五十个点位转。十六个月下来，公司案例写：累计超过三万三千次巡检。\n\n一次它发现破碎机地基开裂，赶在整周停产前拦住，案例按大约六十三万美元算这笔账。还有轴承外表看着没事，温度已往一百四十摄氏度爬；氨气暴露、五十米高过滤系统漏风，也进了早报。厂里原来大约两百个固定传感器够不着上千台设备，机器狗补上热成像、气体和声学镜头。\n\n所以呢：重工业买腿式机器人，卖点常常不是炫技，是少让人进危险区，少停一天产线。",
+      "links": [
+        {
+          "label": "ANYbotics",
+          "url": "https://www.anybotics.com/news/vigier-ciment-autonomous-inspection-case-study/"
+        }
+      ]
+    },
+    {
+      "id": "munich-google-ai-overviews-liable",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "痛点",
+      "title": "慕尼黑法院：AI 概览是谷歌自己写的话，说错要负责",
+      "body": "慕尼黑地方法院五月二十八日先给了一道临时禁令：谷歌搜索里的「AI 概览」把两家慕尼黑出版社写成搞订阅骗局、换壳经营。法院说，那些指控在被引用的网页里根本找不到。\n\n关键句在于定性。传统搜索只指路，算间接干扰者，通常要先被通知才担责。法院把 AI 概览判成直接干扰者：它是在用自己的话重写、评价结果，等于谷歌把内容当成自己的。用户「可以自己点进去核对」也不算免责。谷歌六月已上诉；柏林另一家法院在不同语境下结论相反，争论还在高等法院。\n\n所以呢：搜索框一旦开始「自己回答」，平台就很难再假装自己只是中立的路牌。",
+      "links": [
+        {
+          "label": "Oxford Law Blog",
+          "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/who-speaks-when-algorithm-speaks-german-ruling-ai-overviews"
+        },
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=48470248"
+        }
+      ]
+    },
+    {
+      "id": "seattle-times-newsday-openai",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "痛点",
+      "title": "西雅图时报和 Newsday 也告了：要法院拆掉吃过它们稿子的模型",
+      "body": "九月四日，《西雅图时报》和长岛《Newsday》在纽约南区联邦法院起诉 OpenAI 和微软。它们说稿子被抓去训练，还被聊天机器人复述；有一组测试里，模型在拿到标题和链接后，连续吐出八十八个词，几乎照搬西雅图时报写波音七三七 MAX 危机的那段。\n\n诉状还点出：两家条款禁止用内容训练 AI，Newsday 的 robots.txt 也挡过爬虫；同时 OpenAI 已跟美联社、新闻集团等签过授权，公开透露的几份合计付钱超过三亿美元，却没来找原告谈。它们要赔偿，更要法院扣押或销毁含有其作品的训练集和模型。微软回应「很意外」，愿意坐下来谈。\n\n所以呢：地方报这一波告的不是抽象公平使用，是「你付了别人，凭什么白用我」。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
+        },
+        {
+          "label": "MediaNama",
+          "url": "https://www.medianama.com/2026/09/223-seattle-times-sue-openai-copyrighted-journalism/"
+        }
+      ]
+    },
+    {
+      "id": "idea-deepfake-ai-firing",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "痛点",
+      "title": "德州老师举报校园毒品后被炒：校方罪名写「用了深度伪造 AI」",
+      "body": "德州一位五十一岁生物技术老师说，他在学生下车区捡到疑似毒品，交给后勤，后来听说警方验了是真的。他在校园 Teams 提醒同事留意异常，校长删了他的消息，说事已结。\n\n八月二十六日他在得州南区联邦法院起诉 IDEA 公立学校联盟。诉状写：新来的管理者记了不实听课记录，再把不相干事件拼成「使用深度伪造 AI」的违纪档案。学校自己的 IT 审计查了键盘和流量，确认他没进过任何 AI 生图网站。他二零二五年十二月十日被开。他还说，若真是严重不当行为，校方通常要向州教育与儿童福利机构报备，可这些报告没交。指控含报复、性别与年龄歧视，尚未经法庭认定。\n\n所以呢：职场里多了一种新武器——一句「你用了 AI」，如果拿不出取证，反而成了反噬自己的把柄。",
+      "links": [
+        {
+          "label": "HRD America",
+          "url": "https://www.hcamag.com/us/specialization/employment-law/teacher-says-idea-public-schools-fired-him-over-deepfake-ai-claim/587767"
+        }
+      ]
+    },
+    {
+      "id": "maersk-locus-flying-tiger",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "跨行业",
+      "title": "飞虎队欧洲仓：人在货架区等，机器人把拣货从四十提到一百四十",
+      "body": "波兰弗罗茨瓦夫，马士基给丹麦杂货品牌飞虎队（Flying Tiger）管的五千七百平方米仓，以前拣货员一小时大约四十行，一天能走两万步。网红一推，第四季度量能翻五倍。\n\n二零二三年五月上了 Locus 的「机器人即服务」：Origin 小车驮着多格料箱在巷道跑，人留在拣货区，系统自动拼单、排路。上线后大约一百四十行/小时，入职从三天缩到二十分钟，走路大约砍到八千步，打包台从十六个开到四十个；二十四小时内发出的包裹能占到六成到全部。马士基说拣货环节成本降了约三分之一（已含机器人服务费），推撞工伤为零，病假降约百分之十五。\n\n所以呢：爆款电商仓要的弹性，常常是「机器人可以按周加减」，不是再盖一座全自动城堡。",
+      "links": [
+        {
+          "label": "GetTransport",
+          "url": "https://blog.gettransport.com/news/maersk-locus-robots-implementation-flying-tiger-wroclaw/"
+        }
+      ]
+    },
+    {
       "id": "prompt-seedance-bali-vlog",
       "date": "2026-09-07",
       "added": "2026-09-07",
