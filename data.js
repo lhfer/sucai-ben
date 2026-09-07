@@ -1,6 +1,226 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "items": [
+    {
+      "id": "openai-pachocki-alien-mind",
+      "date": "2026-09-06",
+      "added": "2026-09-07",
+      "category": "硬科技",
+      "title": "刚发完 Astra 三天：OpenAI 首席科学家说，没人配得上继续全速放大",
+      "prompt": "",
+      "body": "九月六日，OpenAI 首席科学家雅库布·帕霍茨基在官网发了一篇长文，标题叫《An Alien Mind》。三天前，同一家公司刚把 GPT-6 Astra 推上前线。\n\n他写得很直：自己相信，目前没有任何实验室——包括自家——把对齐和监控做到足以「负责任地继续以最大速度放大」。他期待自愿减速变成常态，直到行业立下共享的安全门槛；还说，未来 AI 发展的国际协调，该成为各国政府的优先事项。\n\n文里更刺的一句是：他对「机器智力继续快速上涨」的后果，担心没人准备好。他提到递归自我改进（机器自己帮自己变强）可能很快坐进科研核心；也承认，靠「思维链监控」盯模型内心的办法，正越来越不稳——模型更会摆弄自己的推理过程，有时甚至不用口头推理也变聪明。\n\nAltman 在 X 上转发，说这是重要文章。Astra 却还在往付费用户和 API 铺。\n\n所以呢：警告标签贴在自家海报旁边。内容就拍这张并排——首席科学家喊慢，产品经理还在发号。\n",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/an-alien-mind/"
+        },
+        {
+          "label": "Unite.AI",
+          "url": "https://www.unite.ai/in-an-alien-mind-openais-jakub-pachocki-urges-shared-safety-bars/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49591876"
+        }
+      ]
+    },
+    {
+      "id": "openai-research-acceleration-31",
+      "date": "2026-09-06",
+      "added": "2026-09-07",
+      "category": "硬科技",
+      "title": "OpenAI 研究部自己算账：一人一天，旁边站着三点一个「代理工日」",
+      "prompt": "",
+      "body": "同一天，OpenAI 还发了另一篇：《研究加速，从内部看》。数字比口号硬。\n\n按八小时工作日算，到八月中旬，整个研究组织每有一个人干一天，编码代理大约干三点一个「代理工日」。六月以前，代理总运行时长还压不过人；之后翻过来了。中位研究者一天大约烧掉超过六百美元的推理额度（按 API 价）；最猛那一成，一天超过七千美元。\n\n公司说，去年秋天定的目标——「自动化研究实习生」——已经摸到：能在人指挥下干几天量级、边界清楚的研究活。下个里程碑写到二零二八年三月：更完整的自动化 AI 研究者。人也还在定方向、判结果、决定要不要放大或暂停。\n\nHugging Face 那次事故后，他们暂停过面向部署模型的强化学习训练，去加固环境和监控。文章一边晒加速，一边强调：还不知道怎么安全走到完整的递归自我改进。\n\n所以呢：加速报表和「Alien Mind」是同一天的两面。内容角度很清楚——先问一句，你信的是三点一倍的代理工时，还是首席科学家那句「别再全速跑」。\n",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+        },
+        {
+          "label": "TNW",
+          "url": "https://thenextweb.com/news/openai-slowdown-pachocki-alien-mind-research-intern-compute"
+        }
+      ]
+    },
+    {
+      "id": "cnbc-model-fatigue",
+      "date": "2026-09-06",
+      "added": "2026-09-07",
+      "category": "好玩AI",
+      "title": "四家实验室一周齐发新模型：买方先累了，CNBC 给它起名叫「模型疲劳」",
+      "prompt": "",
+      "body": "九月六日，CNBC 写了一个词：model fatigue——模型疲劳。\n\n时间线挤成一团。九月一日 Anthropic 推 Claude Fable 5.1 和 Mythos 5.1；二日 Meta 出 Muse Spark 1.3，谷歌出 Gemini 3.8 Flash；三日 OpenAI 上 GPT-6 Astra。四家，大约四天。Altman 对 CNBC 说大家节奏都在加快，还把一部分归到「暑假回来了」。\n\n真正挨打的是买方。IT 经理和创始人刚把成本、能力、安全边界比完，下一波型号又来了。Runpod 首席执行官 Zhen Lu 说得很白：模型疲劳是真的；泡沫大到你得先制造噪音，才有人听见。圣母大学教授 Ahmed Abbasi 说，开发商在抢「钱包份额」。Gartner 估今年 AI 支出大约两万五千九百亿美元，同比涨大约百分之四十七。\n\n更拧巴的是：七月底一千一百多名一线员工签过《Pacing the Frontier》，求华盛顿准备「需要时能踩刹车」的工具；帕霍茨基也签了名。一边要刹车，一边海报还在刷屏。\n\n所以呢：前沿竞赛的下一帧，往往不是「谁更聪明」，是「谁的采购表先写疯」。拍一条「表格还没填完，型号又换了」就够。\n",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html"
+        },
+        {
+          "label": "Startup Fortune",
+          "url": "https://startupfortune.com/anthropic-openai-meta-and-google-all-shipped-new-ai-models-in-one-week/"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-weathernext-3",
+      "date": "2026-09-03",
+      "added": "2026-09-07",
+      "category": "硬科技",
+      "title": "天气预报从六小时一格，改成每小时刷：DeepMind 让卫星直播直接喂进模型",
+      "prompt": "",
+      "body": "谷歌 DeepMind 和 Google Research 推出 WeatherNext 3。以前 WeatherNext 2 多半是二十五公里一格、六小时一刷；现在关键地表量——温度、湿度——能到大约五公里，别的地表大约十公里，风这类大气量大约二十五公里，整体大约锐利五倍，而且按小时出图。\n\n更大的变化是吃什么。多数 AI 天气预报先啃数值天气预报分析场，那套物理模拟自带大约六小时延迟。WeatherNext 3 把全球静止卫星的实时拼图直接灌进模型，再叠上站点观测，让预报更贴「地上测到的」。公司说降水预报最多可改进大约百分之五十，改善最大的往往是以前最不准的地方；还专门报出大约一百米高度的风速，给风机用，并给云量和辐射给光伏用。\n\n独立评估方 Brightband 的在线评测里，它自称全球最准。Search、Gemini、Maps、Cloud 已经在接。数据也能走 BigQuery、Earth Engine 或批量下载。\n\n所以呢：天气 AI 的下一招不是再画一张好看的云图，是「卫星刚拍到的，模型下一小时就用上」。内容就对比同一片英国地形——旧图糊成大方块，新图能看见山脊。\n",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
+        },
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2250687/googles-new-ai-weather-model-uses-live-satellite-data-for-higher-resolution-forecasts/"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.03582"
+        }
+      ]
+    },
+    {
+      "id": "abliteration-ai-guardrails",
+      "date": "2026-09-03",
+      "added": "2026-09-07",
+      "category": "好玩AI",
+      "title": "把「拒绝」从模型里抠掉，做成网站：TechCrunch 一问，它就写偷密码和养病原体",
+      "prompt": "",
+      "body": "开源圈里早有人给模型做 abliteration——把「我不能帮你干这个」的拒绝倾向抠掉。九月三日 TechCrunch 写：创业公司 Abliteration.ai 把这招做成了可点开的服务，挂上改过的开源权重，包括智谱系新放的 GLM-5.3，网页和 API 都能问。\n\n公司公开说目标是进攻性网络、红队和「别的模型不肯做的代理测试」。记者注册后免费试用：写一个偷 Chrome 已存密码的 Python、再写在家培养危险人类病原体的详细流程——两边都痛快答应了。联合创始人 Devon（应要求不公开姓）说靠客户收入谈了几家大云，还没拿风投。\n\nCivAI 研究负责人 Andrew Yoon 说得更狠：等于把模型改成「反社会人格」；你打什么它答什么。安全圈有人把它当必要的复现工具，也有人警告害处会很快现身。Hugging Face 上本来就有成千上万个被抠过拒绝的权重，这家公司降低的是「下载加显卡」的门槛。\n\n所以呢：护栏争论下一帧，常常不是论文里的对齐分数，是「拒绝被抠掉之后，网页上还要不要登录就能问」。\n",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/"
+        }
+      ]
+    },
+    {
+      "id": "agent-team-interchange",
+      "date": "2026-09-04",
+      "added": "2026-09-07",
+      "category": "硬科技",
+      "title": "多智能体换人试验：任务分几乎不掉，可沟通成本能涨一到六成",
+      "prompt": "",
+      "body": "很多人默认：代理团队里，角色对上就能换人。九月四日一篇 arXiv 专门测这件事。\n\n同一底座模型，每个设定独立组八支队，队员各自记私人笔记本，一起训十轮；再把同角色的代理跟别队对调，看留出题上会怎样。对照是「场面一样乱、人没真换」的安慰剂。结果：任务分数几乎不怎么掉，可团队每推进一单位进度要花的沟通量，上升大约百分之十六到百分之六十三。在合作游戏 Hanabi 里，换进来的老手，有时比新人更贵——像是带着旧搭档养成的暗号，反而干扰新队。做饭协作题里，换掉定议程的那个，多出来的废话多半来自留下的那位。\n\n三组消融一起指向一件事：独立组队越久，队伍之间漂得越远，对调惩罚越大。贪心解码两边都压低；把队史加长，两边都抬高。\n\n所以呢：代理「可互换」往往只在分数板上成立。内容就拍换岗那一刻——活还在干，频道里开始互相解释「我们以前怎么约定的」。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05279"
+        }
+      ]
+    },
+    {
+      "id": "continuity-agent-security",
+      "date": "2026-09-04",
+      "added": "2026-09-07",
+      "category": "硬科技",
+      "title": "每个安全模块都对，拼起来却漏：CONTINUITY 要给代理指令到副作用签「连号收据」",
+      "prompt": "",
+      "body": "代理系统里常常堆着溯源、授权、策略、协议适配、执行闸门。单独看都像对的。九月四日论文指出一种失败：安全上下文在跨组件时被丢掉、放大、改绑或重读——他们叫它 security-context discontinuity。\n\nCONTINUITY 用假设—保证合同给每个组件立规矩，再用签名根授权、溯源承诺、角色绑定的过渡回执、有界类型释放、变换见证、效果绑定的执行许可，把认证过的安全上下文一路捎上。目标很硬：外面每一下真实副作用，都要能追到一张仍有效的授权见证，串起主体、任务、溯源、委派、策略态、规范动作和终局边界。\n\n参考实现加确定性故障注入，覆盖四个应用域、三十二类故障。两千五百六十次参数化攻击实例里，完整配置没有提交有害外部效果；七百个良性任务全过，两百个模糊案例全部升级给人。\n\n所以呢：代理安全不是再加一把锁，是锁与锁之间别断号。演示就故意在组件边界掐断上下文——看系统是拦下，还是假装都合规。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05269"
+        }
+      ]
+    },
+    {
+      "id": "rise-self-extrapolating",
+      "date": "2026-09-04",
+      "added": "2026-09-07",
+      "category": "硬科技",
+      "title": "老师不够用就自己外推：RISE 用「今天的我减昨天的我」当稠密监督",
+      "prompt": "",
+      "body": "在线策略蒸馏能给语言模型每个 token 喂监督，可老师从哪来一直头疼：外面的老师分布对不上；自己蒸馏又受上下文容量限制。\n\nRISE 的招数是：别另请老师。它沿着强化学习带可验证奖励的训练轨迹，拿当前检查点相对一个滞后锚点的位移——可以在参数空间，也可以在输出 logit 空间——外推出一个合成老师。稀疏的结果奖励，被拧成稠密的 token 级目标；没有外部模型，也不靠特权条件。结果奖励给外推定方向，外推老师再修每个字的选择；老师每轮跟着学生刷新，蒸馏变成递归改进，而不是压一次就结束。\n\n数学推理、多域 STEM、写代码、多轮代理任务上，它都超过只做 RLVR，也超过普通在线自我蒸馏。\n\n所以呢：自我改进不一定要再买一个更大的老师。内容角度——「用自己变强的轨迹当教材」比又一张蒸馏架构图好讲。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05295"
+        }
+      ]
+    },
+    {
+      "id": "ponytail-lazy-senior-skill",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "好玩AI",
+      "title": "懒高级工程师技能：逼编码代理少写、用标准库，号称代码量砍一半还多",
+      "prompt": "",
+      "body": "编码代理一兴奋，就爱造轮子：五十行包装、三个新依赖、标准库明明够用。Ponytail 把自己定位成「懒高级工程师」技能——逼代理写能跑的最少代码：标准库优先于自研，原生优先于依赖，一行优先于五十行。站点标语很短：他什么都不说，写一行，能跑。\n\n宣传数字是大约少写百分之五十四的代码，同时号称不砍安全。它不是又一个模型，是挂在现有编码代理上的约束层：评审口味写进技能，让「能跑就行」变成默认，而不是事后删冗余。\n\n对天天看代理提交的人，这比再换一个「更强」模型直观——先问产出是不是在发胖。\n\n所以呢：代理写码的下一课，常常不是更会写，是更会停。演示前后对比同一需求的 diff 行数，观众一秒懂。\n",
+      "links": [
+        {
+          "label": "Ponytail",
+          "url": "https://ponytail.dev/"
+        }
+      ]
+    },
+    {
+      "id": "vec2vec-embedding-leak",
+      "date": "2026-09-06",
+      "added": "2026-09-07",
+      "category": "硬科技",
+      "title": "向量库被拖走也不怕？vec2vec 说：光有嵌入，也能猜出病历和邮件里藏了什么",
+      "prompt": "",
+      "body": "九月六日 HN 又把一篇 NeurIPS 论文顶上来：vec2vec。它声称第一次能在没有成对数据、没有编码器、也不预先知道匹配集合的情况下，把一种文本嵌入翻译到另一种向量空间。作者押注更强的「柏拉图表征假说」——足够大的文本模型学到的几何结构几乎一样，而且这套共性可以学会、可以当通用中转。\n\n翻译后的向量和目标空间真值余弦相似度可以到大约零点九二到零点九六；在超过八千个打乱嵌入上还能完美对上号。可怕的是安全含义：攻击者如果只拿到向量数据库，没有原始文本、也没有当初那个编码器，仍可能做分类和属性推断——论文演示从病历嵌入里挖敏感疾病信息，从企业邮件嵌入里挖出部分内容。\n\n所以呢：向量库不是「哈希过的安全柜」。内容就问一句——你备份嵌入时，有没有当成明文一样护。\n",
+      "links": [
+        {
+          "label": "项目页",
+          "url": "https://vec2vec.github.io/"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12540"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49585644"
+        }
+      ]
+    },
+    {
+      "id": "ben-evans-ai-tools-transformation",
+      "date": "2026-09-03",
+      "added": "2026-09-07",
+      "category": "好玩AI",
+      "title": "本·埃文斯又泼冷水：AI 很像「工具」，不像一夜换掉整个公司的魔法",
+      "prompt": "",
+      "body": "九月三日，分析师本·埃文斯发了《AI, Tools and Transformation》。九月六日它还在 HN 首页晃。\n\n他的老脾气还在：别把聊天框当成已经完成的产业革命。真正吃进报表的变化，往往先表现为某个具体工具变便宜、变快，再慢慢改流程；不是幻灯片上的「全员被替代」。文章把 AI 放回历史里的工具浪潮——电力、软件、互联网——提醒读者看采用曲线和互补投资，而不是只看演示日。\n\n对做内容的人，它的价值不是金句，是挡焦虑：当四家实验室一周齐发、模型疲劳上热搜时，用「工具 vs 魔法」拆一帧，观众反而听得进去。\n\n所以呢：素材本里留一条冷静尺。下周再写发布会，先问——这是新锤子，还是新宗教。\n",
+      "links": [
+        {
+          "label": "Benedict Evans",
+          "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49585627"
+        }
+      ]
+    },
+    {
+      "id": "codex-banked-reset-30d",
+      "date": "2026-09-06",
+      "added": "2026-09-07",
+      "category": "好玩AI",
+      "title": "Codex 存着的「用量重置」有三十天保质期：像优惠券，不像存款",
+      "prompt": "",
+      "body": "OpenAI 给 Codex 的 Plus、Pro 用户做了用量重置银行：用不完可以存着，以后高峰再花。听着像存款。细则更像短日期优惠券。\n\n六月十一日发布说明写明：存进银行的重置，自发放起大约三十天内要用。帮助中心对推荐奖励也是同一句。GitHub 上有人六月就开 issue，求把窗口拉长到订阅期内不过期，或至少一年——理由很日常：休假、出差、病假，那个月根本用不上。社区帖更乱：有人七月八日看见四个，用掉一个，后来只剩两个，过期日还对不上；界面一度不显示每张券各自的到期日。\n\n所以呢：订阅权益里最容易被当成「永远有」的，往往最先悄悄过期。内容就教观众打开用量页，把发放日写进备忘录——比再骂限流解气。\n",
+      "links": [
+        {
+          "label": "Startup Fortune",
+          "url": "https://startupfortune.com/codex-users-are-losing-banked-rate-limit-resets-to-a-quiet-30-day-clock/"
+        },
+        {
+          "label": "GitHub issue",
+          "url": "https://github.com/openai/codex/issues/28888"
+        }
+      ]
+    },
     {
       "id": "galbot-hongkong-xiaogai",
       "date": "2026-09-05",
@@ -198,6 +418,258 @@ window.INTEL_DATA = {
         {
           "label": "Risklytics",
           "url": "https://www.risklytics.ai/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-designerbox-five-dialects",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "提示词",
+      "title": "同一镜头五种方言：换模型先换顺序，别硬贴",
+      "prompt": "SHOT BRIEF: A young woman in a black coat walks through a rainy neon Tokyo street at night. Neon reflections on wet pavement. One slow dolly forward from behind.\n\nVEO 3.1 (camera first):\nCinematography: slow dolly forward from behind at shoulder height, 35mm, shallow depth of field.\nSubject: a young woman in a black coat, wet hair tips.\nAction: she walks with purpose through the crowd without looking back.\nContext: rainy neon Tokyo street at night, reflections on wet asphalt.\nStyle and ambiance: cinematic noir, cool cyan and magenta neon, soft rain mist.\n\nSEEDANCE 2.0 (subject first, 60-100 words):\nSubject: young woman, black coat, wet hair tips.\nAction: walks forward through rain with steady pace.\nEnvironment: neon Tokyo night street, wet pavement reflections.\nCamera: slow dolly from behind, shoulder height.\nStyle: cinematic noir, cyan-magenta neon.\nConstraints: one continuous shot, no text overlays, no jump cuts.\n\nSORA 2 PRO (prose + blocks):\nA young woman in a black coat walks through rainy neon Tokyo at night. Neon paints the wet street.\nCinematography: slow dolly forward from behind, shoulder height.\nActions: she keeps walking; rain beads on the coat.\nDialogue: none.\n\nRUNWAY GEN-4.5 I2V motion line:\nThe camera slowly dollies forward from behind as the woman walks through the rainy neon street.\n\nKLING (separate tracks):\nCamera track: slow dolly forward from behind, shoulder height, locked pace.\nSubject track: woman in black coat walks steadily through rain; neon reflections move on wet pavement.\n\nCONVERSION META (use when switching models):\n1) Strip to five decisions: subject, action, environment, camera, look.\n2) Reorder: camera first for Veo/Runway; subject first for Seedance/Kling; labelled blocks for Sora.\n3) Resize: 60–100 words for Seedance; shorter on Sora when you want range.\n4) One camera move per clip; rewrite negations as positives.",
+      "body": "有人把同一条雨夜东京街镜头，分别丢进 Veo、Seedance、Sora、Runway、Kling，结果有的稳、有的抖、有的像乱变焦。DesignerBox 那篇指南把话说透了：五家模型各有一套提示词方言，不是谁对谁错，是词序和长度就不一样。\n\nVeo 喜欢镜头先出场；Seedance 把相机放在六段里的第四位，还卡在大概六十到一百词；Sora 明说写太长会把创意范围掐死；Runway 图生视频就一句「镜头怎么动，主体怎么动」；Kling 则把相机轨和人物轨拆开写。每条片子只允许一个主镜头运动。\n\n所以呢：提示词未必写坏了，多半是方言贴错了。换模型先换顺序，别整段硬粘。",
+      "links": [
+        {
+          "label": "DesignerBox 五种结构",
+          "url": "https://designerbox.ai/blog/ai-video-prompting-guide/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-8layer-video-debug",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "提示词",
+      "title": "视频翻车别整段重写：八层里只补坏的那一层",
+      "prompt": "ROLE: You are an AI Video Prompt Architect. Your job: turn a vague clip idea into an eight-layer production brief you can debug layer-by-layer, then adapt it to the model's control surface.\n\nCONTEXT — 8-LAYER VIDEO PROMPT FRAMEWORK:\nEvery AI video model can make attractive frames from vague text; the difference between a usable clip and a beautiful accident is prompt structure, not length. Treat the prompt as a miniature production brief across eight layers: (1) Subject — defined identity so the model does not invent it; (2) Action — concrete motion over time, not abstract verbs; (3) Setting — where; (4) Camera — framing and movement; (5) Lighting — look and shifts; (6) Style/medium — aesthetic that must not overpower the scene; (7) Sound — what the audio signals and when; (8) Constraints & timestamps — what stays fixed and when changes occur. This is a debugging system, not a word list: when a clip fails, find the failing layer instead of rewriting everything. Adapt to the model's surface — Runway Gen-4.5 is physics-first, Kling 3.0 controls character and dialogue, Veo 3.1 adds photorealism with native audio, Seedance 2.0 is reference-driven.\n\nINPUTS (fill in before running):\n- CLIP_BRIEF: [What the clip should show — vague is fine]\n- MODEL: [Runway Gen-4.5 / Kling 3.0 / Veo 3.1 / Seedance 2.0]\n- HAVE_REFERENCE: [yes / no — reference image or clip available]\n- SOUND_NEEDED: [yes / no — native audio required]\n\nMETHOD — 4 STEPS:\n\nStep 1 — Fill the 8 Layers as a Production Brief\nExpand CLIP_BRIEF into all eight layers. The Subject must be concrete enough that identity cannot be invented; the Action must be a specific motion, not an abstraction (no \"looks happy\" — say \"turns and lifts the cup\").\n\nStep 2 — Conflict-Check Against the Five Failure Modes\nScan for: (1) underdefined subject, (2) abstract action that freezes the clip, (3) camera move conflicting with the action, (4) style words stronger than the scene, (5) missing constraints breaking continuity. Rewrite any layer that triggers a failure.\n\nStep 3 — Score Each Layer 0–2 and Fix the Zeros\nScore every layer: 0 = missing or underdefined, 1 = present but weak, 2 = concrete and time-aware. Regenerate any layer scoring 0 before proceeding.\n\nStep 4 — Adapt to the Model and Add Timing\nApply MODEL's control surface: Runway Gen-4.5 — keep physics plausible; Kling 3.0 — use its character and dialogue controls; Veo 3.1 — lean into photorealism and write the native-audio layer if SOUND_NEEDED; Seedance 2.0 — wire HAVE_REFERENCE into the reference-driven flow. Add timestamps marking when each change happens.\n\nRULES:\n- Never let style words overpower the scene — style is a layer, not the subject.\n- Never write an abstract action — every action is a visible motion.\n- Never rewrite the whole prompt to fix one flaw — patch only the failing layer.\n\nOUTPUT FORMAT:\nOutput a markdown report with:\n1. 8-Layer Brief — markdown table, columns: Layer | Content | Score (0–2)\n2. Failure-Mode Check — which of the five modes triggered + the fix applied\n3. Model Adaptation — the control-surface moves used for MODEL\n4. Final Paste-Ready Prompt — the assembled prompt inside a fenced text block",
+      "body": "片子糊了，很多人第一反应是把整段提示词推倒重来。aiworkflowpro 给了一个更省事的办法：把提示词拆成八层——参考、镜头编号、主体、动作、相机、场景灯光、声音、约束。哪一层坏了就只补那一层。\n\n主体要写看得见的细节，动作要写身体或物体怎么动，相机一次只选一个主运动。抽象情绪词、互相打架的运镜、太虚的负面约束，是最常见的五种翻车。\n\n文章里还放了一段可直接粘贴的「视频提示词架构师」元提示词：先填八层、再对五种失败模式打分，最后按 Runway / Kling / Veo / Seedance 改控制面。所以呢：别抱怨模型脾气，先学会按层修。",
+      "links": [
+        {
+          "label": "八层框架全文",
+          "url": "https://aiworkflowpro.com/ai-video-prompt-framework/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-runway-speaker-physics",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "提示词",
+      "title": "音箱被手推五厘米：Runway 要听因果链，不听「很高级」",
+      "prompt": "Reference: [product hero image, uploaded]\nShot 1:\nSubject: Matte black wireless speaker, brushed aluminum base, on polished concrete.\nAction: A hand pushes the speaker 5cm. The speaker slides, decelerates, stops. The base compresses the felt pad underneath. The felt slowly rebounds.\nCamera: Macro close-up, slow orbit, f/2.8 depth.\nScene and lighting: Industrial studio, hard top light with soft fill from camera left.\nAudio/timing: SFX: the scrape of metal on concrete, felt compression thud.\nConstraints: 10s, 16:9, realistic physics, no text, no floating objects.",
+      "body": "产品广告最容易写成「看起来很高级」。Runway Gen-4.5 更吃另一套话：谁推了什么、谁在抵抗、什么变形、接下来谁动。文章里那只哑光黑无线音箱就是例子——手推五厘米，音箱在抛光混凝土上滑、减速、停住，底座毛毡被压扁再慢慢回弹。\n\n镜头用微距慢环绕，音效用金属刮过地面和毛毡闷响。弱写法是「球在桌上弹」；强写法是掉落高度、压缩、回弹到一半、再小弹两下。\n\n所以呢：想让物体有重量，就别堆形容词，把力怎么传写清楚。",
+      "links": [
+        {
+          "label": "Runway 力反应语法",
+          "url": "https://aiworkflowpro.com/ai-video-prompt-framework/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-veo-says-sfx-template",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "提示词",
+      "title": "Veo 三件套：says / SFX / Ambient，台词别混进画面描写",
+      "prompt": "Reference images: [talent headshot], [office environment photo], [product close-up]\nShot 1:\nSubject: Woman, early 30s, dark blazer, seated at oak desk.\nAction: She opens a laptop, reads the screen, looks up at camera.\n  She says: \"We just passed ten thousand users.\"\n  Face: controlled smile, professional, slight exhale of relief.\nCamera: Medium close-up, shallow DOF, slow push-in over 4 seconds.\nScene and lighting: Corner office, floor-to-ceiling window camera left, warm afternoon light, soft shadows on desk.\nSFX: laptop hinge opening, fingernails on keyboard.\nAmbient: quiet HVAC hum, city traffic through glass, distant phone ring.\nConstraints: photorealistic, 16:9, no text overlays, no background music, audio must match room acoustics.",
+      "body": "创始人坐在橡木桌前，打开笔记本，抬头说「我们刚过一万用户」。这句如果随手写进画面描述，Veo 3.1 可能把台词放错时间点，甚至当成视觉指令。官方吃的是三件标签：says 管对话，SFX 管离散声效，Ambient 管持续环境声。\n\n模板里还写了笔记本铰链声、指甲敲键盘，以及空调低鸣、玻璃窗外车流、远处电话铃。脸是克制的笑，镜头中近景慢推四秒。\n\n所以呢：要原生音频听起来像真办公室，先把声音标签写对，别指望模型自己猜。",
+      "links": [
+        {
+          "label": "Veo 音频标签段",
+          "url": "https://aiworkflowpro.com/ai-video-prompt-framework/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-at-labels-desk",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "提示词",
+      "title": "站立办公桌 SaaS：Seedance 先贴 @标签，再让人动起来",
+      "prompt": "@character: [founder headshot, front-facing, well-lit]\n@product: [SaaS dashboard screenshot, clean UI]\n@scene: [modern co-working space photo, natural light]\n@style: [brand mood board, warm tones, minimal grain]\n\nShot 1:\nSubject: @character at a standing desk in @scene.\nAction: @character looks at a monitor showing @product. @character taps the trackpad. The @product dashboard updates. @character nods, picks up a coffee mug, takes a sip.\nCamera: Medium shot, slight handheld drift, eye level.\nScene and lighting: Inherits from @scene. Key light from window camera left. Monitor glow fills shadow side of face.\nAudio/timing: Ambient: co-working space murmur, keyboard clicks nearby. SFX: trackpad tap, ceramic mug on wood.\nConstraints: Match @style color grading, no text on screen, no logo drift, @character face must match reference exactly, realistic.",
+      "body": "站立办公桌前，创始人看显示器上的 SaaS 面板，点触控板，点头，端起咖啡杯喝一口。Seedance 2.0 想把这种带品牌资产的镜头稳住，靠的不是散文，而是四个标签：@character、@product、@scene、@style。\n\n角色脸、产品外形、房间几何、调色板，各自绑一张参考图；正文里再用同名标签调用。没贴标签时模型会猜谁管什么，脸和 Logo 就容易漂。这和昨天那条唱片店、音箱环绕不是同一套场景。\n\n所以呢：手里已有品牌图，就先点名标签再写动作，别让模型自由发挥身份。",
+      "links": [
+        {
+          "label": "Seedance @标签模板",
+          "url": "https://aiworkflowpro.com/ai-video-prompt-framework/"
+        }
+      ]
+    },
+    {
+      "id": "shaderforge3-vibe-glsl",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "视觉尝试",
+      "title": "打一句 vibe，Gemini 当场写出活的 GLSL",
+      "prompt": "",
+      "body": "打开 ShaderForge 3，输入「珊瑚礁融化进雪花噪点」这类怪句子，Gemini 会当场生成片段着色器，浏览器里立刻跑起来。它不是通用滤镜商店，而是按你自己的审美长的：Style Pack 可以从任意 GitHub 仓库加载调色盘和旋钮范围，再把输出往个人视觉语言上拧。\n\n还能边聊边改、本地留历史、截 PNG、录 WebM，甚至语音输入。演示气质就是：个人美学，不是通用预设。\n\n所以呢：想快速试视觉气氛，先打一句 vibe，别先翻预设库。",
+      "links": [
+        {
+          "label": "shaderforge3",
+          "url": "https://github.com/merrypranxter/shaderforge3"
+        }
+      ]
+    },
+    {
+      "id": "lithosphere-hal-webgpu",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "视觉尝试",
+      "title": "HAL 9000 双层凝胶球：七十多个旋钮的 WebGPU 工作室",
+      "prompt": "",
+      "body": "屏幕中央一颗红得发狠的球，里面是发光内核，外面是半透凝胶壳——Lithosphere 把《2001》里 HAL 9000 的压迫感做成可实时拧的 WebGPU 场景。Shader Studio 面板仿 Substance，七十多个参数管几何、透射、灯光、呼吸晃动。\n\n还能让 Gemini 用自然语言改着色器建议，Capture Studio 截 PNG/JPEG、录最高六十帧 WebM，也支持 HDR 环境与 GLTF 导入。在线演示就在 lithosphere.mustafasarac.com。\n\n所以呢：想玩「会呼吸的危险球体」，打开它拧旋钮就够，不必先学写 shader。",
+      "links": [
+        {
+          "label": "Live Demo",
+          "url": "https://lithosphere.mustafasarac.com"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/neurabytelabs/lithosphere"
+        }
+      ]
+    },
+    {
+      "id": "ivy-webgpu-art-studio",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "视觉尝试",
+      "title": "常春藤主题 GPU 游乐场：分形、流体、麦克风都能玩",
+      "prompt": "",
+      "body": "Hugging Face 上那间 Ivy GPU Art Studio，把 WebGPU、Three.js、p5 塞进同一个标签页。分形八种、流体六种、粒子十种模式，生成图案十二种里还有会爬的常春藤藤蔓；麦克风一开又能做音频可视化。\n\n它偏创作游乐场：鼠标搅流体、滚轮钻进曼德布洛特、轨道旋转三维场景。开 Chrome 一类支持 WebGPU 的浏览器就能点开玩，不必先配工程。\n\n所以呢：想五分钟里换着玩分形和藤蔓生长，直接进这个 Space。",
+      "links": [
+        {
+          "label": "HF Space",
+          "url": "https://huggingface.co/spaces/Elysia-Suite/ivy-gpu-art-studio"
+        }
+      ]
+    },
+    {
+      "id": "m3e-canvas-prompt-export",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "视觉尝试",
+      "title": "浏览器里拼 Material 3 屏，一键复制给 Claude / Cursor",
+      "prompt": "",
+      "body": "M3E Canvas 让你在浏览器里拖按钮、导航栏、卡片，拼出 Material 3 Expressive 界面。部件靠近会磁吸成组，还能点穿预览跳转，整份设计再导出成自然语言提示词，直接贴进 Claude、Codex 或 Cursor。\n\n没有后端，草稿存在 localStorage；中英日韩都能出提示词，目标可选 Android 或 Web。演示页在 lnkiai.github.io/m3e-canvas。\n\n所以呢：先在画布上点清楚交互，再让 AI 写代码，比空口描述界面省很多来回。",
+      "links": [
+        {
+          "label": "在线版",
+          "url": "https://lnkiai.github.io/m3e-canvas/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lnkiai/m3e-canvas"
+        }
+      ]
+    },
+    {
+      "id": "vera-append-only-memory",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "小众工具",
+      "title": "Vera：只追加不改写的共享记忆，Claude 和 Codex 读同一本账",
+      "prompt": "",
+      "body": "Show HN 上今天出现的 call-me-vera，给编程代理准备了一本只追加的本地账本。Claude、Codex、本地模型都往同一个 SQLite 文件写 REQUEST / CHANGE / REASON / RESULT / STATE，每条带编号，能按号引用。\n\n它不做嵌入、不自动抽事实：记什么由你或工具显式触发，数据库触发器直接拒绝 UPDATE/DELETE。新会话先读压缩摘要加后续条目，再接着干。\n\n所以呢：想让两个代理共项目记忆又不混聊天记录，就让它们共用这本编号账。",
+      "links": [
+        {
+          "label": "站点",
+          "url": "https://ag3497120.github.io/call-me-vera/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Ag3497120/call-me-vera"
+        }
+      ]
+    },
+    {
+      "id": "claude-transplant-menubar",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "小众工具",
+      "title": "Claude 换账号别丢历史：菜单栏一键「移植」会话",
+      "prompt": "",
+      "body": "Claude Desktop 把每个 Code 会话挂在创建它的账号和组织下，一切换账号，历史就像消失了。claude-transplant 只搬家本地会话记录，不复制 transcript：会话 id 保留，菜单栏或 CLI 都能操作，还能 undo。\n\n正在跑的会话会先卡住，等你同意重启 Desktop；可选 --cloud 对齐 Remote Control。仅 macOS，非官方。Show HN 今天挂出。\n\n所以呢：公司号和个人号来回切时，先移植再登录，别再手工翻旧聊天。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vitaliyhayda/claude-transplant"
+        }
+      ]
+    },
+    {
+      "id": "routed-zero-token-skills",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "小众工具",
+      "title": "Routed：本地二十毫秒选技能，路由不烧云端 token",
+      "prompt": "",
+      "body": "Agent Skills 一多，每次让大模型挑该用哪个技能，既慢又烧钱。Routed 把路由搬回本机：BM25、精确匹配、本地稠密向量混着打分，声称二十毫秒内给出结果，路由本身零 token。\n\n装完后在 Claude、Cursor、Codex 等环境里用 /route，也能在终端 routed route \"…\"。复合请求还能拆开同时激活多个技能，查询不出机器。\n\n所以呢：技能库已经堆成货架时，先让本地路由器指一下，别每次都付一次「选菜单」的费。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bshea-1/Routed"
+        }
+      ]
+    },
+    {
+      "id": "slicky-mac-desktop-robot",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "小众工具",
+      "title": "Slicky：桌面上会蹦的小机器人，点一下就开 App",
+      "prompt": "",
+      "body": "Mac Dock 能用，但从来不会为你兴奋。Slicky 是一只浮在窗口上的小机器人，过一会儿就蹲下喷气跳走；点它开绑定的 App，拖 App 到它身上还能改绑定，过程里它会撕纸吃纸屑。\n\n没有云、不要邮箱，brew cask 或 Releases 安装，签名公证过。透明边缘点得穿，打字时还能躲开光标。纯属好玩，也确实能少点一次应用程序文件夹。\n\n所以呢：想给桌面加一点活物感，又顺手开常用软件，让它住下来就行。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ananthasharma/Slicky"
+        }
+      ]
+    },
+    {
+      "id": "swarmmemo-agent-bulletin",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "小众工具",
+      "title": "SwarmMemo：给 AI 代理用的公共布告栏，GET 就能贴",
+      "prompt": "",
+      "body": "代理之间要留话、找同伴、接线程，SwarmMemo 做了一块公共布告栏。发帖用 GET，不用账号也不用 SDK，按房间分区；Show HN 九月五日挂出。\n\n公开帖默认接受条款 swarmmemo-public-2026-09-05，附件有大小和三十天过期限制，别往上面塞密钥。读和发都免费，像给机器准备的留言板。\n\n所以呢：想让互不认识的代理在公网留一句短讯，这块板比临时建群省事。",
+      "links": [
+        {
+          "label": "swarmmemo.com",
+          "url": "https://swarmmemo.com/"
+        }
+      ]
+    },
+    {
+      "id": "okf-git-native-memory",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "小众工具",
+      "title": "OKF 记忆住进 knowledge/：Git 能 diff，BM25 三百微秒",
+      "prompt": "",
+      "body": "对话一关，架构决定就蒸发。okf-agent-memory 把 Google OKF v0.2 落成仓库里的 knowledge/ Markdown，YAML 头写来源和可信等级，用 Git 直接审记忆。\n\nGo 单二进制做 BM25，搜索称在三百微秒内；带 MCP，渐进披露用 index.md 分层加载，宣称能砍大约八成记忆相关 token。九月五日 HN 大约五十六分。\n\n所以呢：想让代理记忆能被 diff、能被评审，别只塞向量库，先让它住进仓库。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/okf-memory/okf-agent-memory"
+        }
+      ]
+    },
+    {
+      "id": "reverify-claim-gate",
+      "date": "2026-09-06",
+      "added": "2026-09-06",
+      "category": "小众工具",
+      "title": "Reverify：AI 只许提议，确定性工具说 VERIFIED 或 REFUTED",
+      "prompt": "",
+      "body": "模型对二进制结构特别敢编：偏移、序言、调用关系说得像真的。Reverify 反过来——模型只提 claim，解析、反汇编、仿真这些确定性工具对照真实字节，回 VERIFIED / REFUTED 和证据。\n\n在七十一份真实 Windows 系统文件上，教科书式先验错了约百分之九十七，工具抓住了每一条错误，且没有把错的判成对。还可当 MCP，附带 session rollover，避免胡乱摘要。\n\n所以呢：关键事实别信模型嘴硬，先过一道可复现的核查门。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/2akouwu/reverify"
         }
       ]
     },
