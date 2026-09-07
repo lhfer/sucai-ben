@@ -2,6 +2,266 @@ window.INTEL_DATA = {
   "updated": "2026-09-07",
   "items": [
     {
+      "id": "prompt-seedance-bali-vlog",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "提示词",
+      "title": "巴厘岛三十秒：八段时间戳，同一张脸一路走到晚安",
+      "prompt": "A cinematic 30-second tropical travel vlog montage featuring a beautiful 20-year-old East Asian woman with dark hair exploring Bali during a dreamy summer getaway. Shot like an authentic luxury travel diary with handheld camera movement, candid moments, soft golden-hour sunlight, dreamy 35mm film aesthetics, warm vintage color grading, shallow depth of field, natural skin texture, atmospheric lighting, and cinematic storytelling. Maintain the same woman throughout every scene: dark hair, youthful appearance, natural makeup, elegant summer outfits, relaxed happy expression. Format: 4K cinematic video, 24fps, 35mm film grain, realistic handheld camera, soft focus, warm color palette, travel documentary style.\n\nScene 1 (0-4s) — Arrival & Village Street: A warm Balinese morning. The woman strolls down a narrow street lined with frangipani trees and stone shrines, wearing a linen wrap dress, sunglasses pushed up into her hair. Motorbikes pass softly blurred in the background, incense smoke drifts from a doorway offering. Camera trails her from behind, then swings into a close-up as she glances back over her shoulder and laughs, saying softly, \"Okay, I think I already love it here.\"\n\nScene 2 (4-8s) — Cliffside Beach Discovery: She descends stone steps onto a narrow cliffside beach, turquoise water crashing against limestone cliffs behind her. She walks barefoot at the tideline, dress hem lifted slightly, waves curling over her feet. Low-angle shots of her footprints filling with foam, sunlight scattering across the water, jagged cliffs framing the horizon.\n\nScene 3 (8-12s) — Rice Terrace & Jungle Moments: A worm's-eye view looking up through banana leaves and bamboo, sunlight cutting through in warm shafts with soft lens flares. Cut to a close-up of her standing at the edge of an emerald rice terrace, wind lifting loose strands of hair as she looks out, quietly murmuring, \"It's so green it doesn't look real.\"\n\nScene 4 (12-16s) — Warung Cafe & Slow Living: She sits alone at a small open-air warung overlooking the jungle, sipping fresh coconut water through a paper straw. Sunlight filters through woven bamboo shades. Close-up shots of her hands wrapped around the coconut, condensation beading on the shell, her contented half-smile as she watches the trees sway.\n\nScene 5 (16-20s) — Ocean Adventure: She paddles a wooden longboard through a calm turquoise lagoon, sunlight sparkling across the surface. Camera circles her at water level, capturing gentle ripples and distant green cliffs. She loses balance slightly, laughs out loud, and calls toward the camera, \"Don't film this part — actually, keep filming it.\"\n\nScene 6 (20-24s) — Night Market Exploration: A glowing Balinese night market strung with paper lanterns, satay smoke curling into the air, vendors calling out prices. She weaves through the crowd sampling grilled skewers and mango sticky rice, her face lit by warm string lights and passing motorbike headlights. Cinematic close-ups of her eyes widening at the taste, lanterns blurred into soft bokeh behind her.\n\nScene 7 (24-27s) — Golden Sunset Ending: A wide silhouette shot of her standing at the shoreline as the sun sinks into the sea, sky burning orange and violet, reflections rippling across the wet sand. Waves wash gently around her ankles as she tilts her face toward the last light, one hand shielding her eyes.\n\nScene 8 (27-30s) — Hotel Night Reflection: A rooftop pool bar overlooking a glittering coastal skyline at night. She leans against the railing in a simple white dress, curtain of hair moving in the breeze, city lights reflected in her eyes. Final intimate close-up of her curled up on the hotel bed, propped on one elbow, looking directly into the lens with a soft, warm smile as she says, \"Goodnight from Bali.\"\n\nCamera Style: Authentic travel vlog cinematography, handheld camera shake, smooth cinematic transitions, slow push-ins, natural drifting movement, occasional POV shots, realistic autofocus hunting, subtle motion blur.\n\nVisual Style: Dreamy Bali vacation film, boutique travel-brand aesthetic, soft golden sunlight, realistic skin texture, cinematic shallow depth of field, nostalgic 35mm film look, warm atmospheric tones, natural unscripted expressions, emotional storytelling.\n\nAvoid: cartoon style, CGI look, plastic skin, unrealistic face, inconsistent character appearance, changing hairstyle, extra fingers, distorted body, artificial lighting, oversaturated colors, blurry face, unnatural movements, duplicate people.",
+      "body": "黄金小时的巴厘岛，一位东亚女孩不在追镜头，而是一路走到晚安。有人今天用 Seedance 2.5 拍了三十秒旅行片，八段时间戳，同一张脸。\n\n写法先锁人物：黑发、自然妆、轻松表情，再按秒排戏。零到四秒村里回头轻声说已经喜欢这里；四到八秒悬崖赤脚踩浪；后面还有梯田、椰水、桨板、夜市、日落剪影，最后床上对着镜头说晚安。镜头要手持晃、追焦、浅景深，并写明避免卡通皮和脸漂。\n\n所以呢：多镜头旅行片别靠模型自己剪，把每一段发生什么写死，人物约束放在最前面。",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/eshal__ai/status/2096840505355370629"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-song-loop",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "提示词",
+      "title": "三十秒歌没播完：用挡镜头切世界，最后还能接回第一帧",
+      "prompt": "Create a 30-second, 9:16 photoreal cinematic travel music film titled “DON’T LET THE SONG END.” Use the supplied character sheet as the absolute identity reference. Keep the exact same lead throughout: same face, green-hazel eyes, freckles, long dark-brown hair, natural skin texture, body proportions and gold jewelry. She always wears white wired earphones. No dialogue, no AI-looking skin, no identity drift.\n\nCORE STORY: She presses PLAY on a 30-second song and tries to experience as much of the world as possible before it ends. The entire film feels like a premium international fashion campaign shot and edited by an elite professional crew. Every transition is motivated by real movement or foreground objects—never digital morphing.\n\n0–4s: Soft cinematic morning in a beautiful city. Extreme close-up as she puts in her second earbud and taps PLAY on her phone. The beat begins. She smiles naturally and walks toward camera. A cyclist passes extremely close, completely covering the lens → hidden cut.\n\n4–8s: Same walking motion continues seamlessly through a lively old European market. Cream jacket, loose olive trousers, cafés, vendors and natural crowds. She brushes her hand against hanging fabric; the fabric blows across the entire lens → cloth wipe.\n\n8–12s: Fabric clears onto a breathtaking golden-hour coastal road. Red track jacket, light denim, deep-blue sea and dramatic cliffs. She walks, turns toward the ocean, then spins naturally with a genuine laugh. Her wind-blown hair crosses the lens → match cut.\n\n12–16s: Hair darkness becomes a train tunnel. She is now beside the panoramic window of a moving mountain train in a navy outfit. The train bursts out of the tunnel into enormous green mountains and clouds exactly as the music reaches its main melodic hook. Her reflection overlays the landscape. Another tunnel fills the window with black → cut.\n\n16–20s: Black reveals a spectacular rain-wet city at night. Black leather jacket, realistic neon reflections, steam, traffic and moving crowds. She walks toward camera with relaxed confidence. A passing taxi/tram fills the foreground → rhythmic occlusion cut.\n\n20–24s: Reveal a beautiful lantern-filled evening festival. Her friend suddenly joins, grabs her hand and both laugh naturally while running through the crowd. She quickly checks her phone—the song is almost over. Her expression changes from playful to determined. They need to reach somewhere before the music ends.\n\n24–27s: Final sprint synchronized tightly to the beat. Their continuous running motion match-cuts through three spectacular places: ancient stone lane → mountain bridge above clouds → sunset viewpoint. Match body position, footsteps, camera height and direction perfectly so the transitions feel impossible but completely photographic.\n\n27–30s: They reach an enormous mountain viewpoint at sunset just before the final note. Camera finally becomes still. Wind moves her hair naturally. She looks across the landscape as the music ends. Complete silence except mountain wind. Elegant warm-ivory typography appears: “PLAY IT AGAIN.” She smiles and presses her earphone remote. CLICK—the opening musical note instantly returns and match-cuts perfectly back to the first frame, creating an invisible seamless loop.\n\nVISUAL STYLE: 24fps, 180° shutter, 24mm landscapes, 35mm movement, 50–85mm portraits, realistic handheld micro-movement, natural motion blur, shallow cinematic DOF, fine 35mm grain, subtle highlight halation, gentle lens bloom and expensive highlight roll-off. Color journey: creamy warm morning → earthy market → golden coast with rich cyan sea → cool misty mountains → deep cyan/red neon → warm amber festival → breathtaking dusty-pink and golden sunset. Natural warm skin throughout; no fake HDR, oversaturation or generic teal-orange filter.\n\nTRANSITIONS: cyclist occlusion → fabric wipe → hair wipe → train tunnel → vehicle occlusion → running match cuts → seamless final loop. No portals, particles, liquid morphs, glitches, zoom transitions, fades or obvious AI effects.\n\nPHYSICS/REALISM: real skin pores and imperfections, individual hair strands, physically weighted clothing, natural running and breathing, correct foot contact, realistic reflections and wind. Earphone cable reacts naturally to movement. Background people move independently and never freeze or duplicate. No warped architecture, anatomy errors, changing face, disappearing accessories or beauty-filter skin.\n\nMUSIC: original premium cinematic indie-electronic travel track around 122 BPM. Intimate synth and percussion at the beginning, uplifting melodic hook at the mountain reveal, deeper bass at night, euphoric festival section, then progressively remove instruments during the final sprint until the last note ends in silence. Layer subtle footsteps, city ambience, cloth movement, train rumble, coastal/mountain wind, festival crowd and genuine laughter. No lyrics, dialogue or voiceover.\n\nFinal result must feel spontaneous, youthful, emotional and extremely cinematic—not an AI travel montage. Every cut should land naturally on movement or music, every frame should look professionally composed, and the ending should loop so smoothly viewers instinctively watch again.",
+      "body": "她戴上有线耳机按下播放，只剩三十秒歌，却想把全世界逛完。Seedance 2.5 这条竖屏片，转场不靠魔法门，靠挡镜头。\n\n自行车贴脸骑过，画面一黑切到欧洲市集；手拨帘布盖住镜头，掀开是海岸公路；头发扫过镜头，下一秒已上山火车。夜里出租车掠过前景，朋友拉她跑，冲到山顶出现字 PLAY IT AGAIN，再按一下接回第一帧成闭环。全程同一张脸、同一副耳机，禁止粒子变形。\n\n所以呢：想让 AI 片像剪辑师做的，先设计什么东西挡住镜头，再写场景。",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/frametheory058/status/2096823824125931735"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-osmanthus",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "提示词",
+      "title": "桂花窗边三十秒：时间轴写清，古筝当配乐说明",
+      "prompt": "Subject: A graceful young East Asian woman with her hair styled in a traditional low bun, wearing a dark blue Chinese-style button-up tunic. The mood is tranquil, nostalgic, and deeply contemplative.\n\nStyle\nCinematic historical drama aesthetic. Muted, vintage color grading with deep earthy tones, soft natural shadows, and subtle film grain.\n\nCamera & Framing\nLighting: Soft morning sunlight filtering through wooden window lattices, creating gentle dappled light patterns.\n\nFraming: Medium framing, static window-frame shots, tracking shots across traditional courtyards, and close-ups of hands turning pages, folding fans, and pouring tea.\n\nEffects: Shallow depth of field to isolate the subject and soft ambient blur on background foliage.\n\nAudio\nTraditional instrumental soundtrack featuring gentle Guzheng (Chinese zither) and flute melodies, layered with ambient natural sounds like wind rustling through bamboo leaves, birds chirping, and water ripples.\n\nRealism\nPhotorealistic 8K rendering with authentic textures (aged paper, wooden lattices, stone tile floors, woven bamboo chairs) and natural lighting physics.\n\nDetailed Timed Scene Breakdown\n\n00:00 - 00:02: Medium shot of the woman sitting by an open wooden lattice window framed by blooming yellow osmanthus flowers, quietly reading a traditional thread-bound book.\n\n00:03 - 00:03: Macro close-up of a hand gently turning the ancient textured paper page covered in Chinese characters.\n\n00:04 - 00:05: Close-up of a white porcelain tea cup resting on a dark wooden table next to an open book and a folding hand fan, illuminated by dappled morning sunlight.\n\n00:06 - 00:07: Medium tracking shot of her pulling back a dark blue curtain and stepping out into a covered veranda, holding her book.\n\n00:08 - 00:09: Side profile shot as she turns her head slowly to look back over her shoulder in a traditional stone-paved courtyard.\n\n00:10 - 00:10: Wide shot of her walking across the center of a spacious, symmetrical traditional courtyard under an overcast sky.\n\n00:11 - 00:12: High-angle close-up looking down into a dark ceramic water jar reflecting the tile roof, with delicate osmanthus flowers floating on the water's surface.\n\n00:13 - 00:16: Close-up of the woman gently lifting her hand to touch and smell a cluster of blooming yellow osmanthus flowers, closing her eyes as a gentle breeze moves her hair.\n\n00:17 - 00:18: Medium shot of her standing behind a dark wooden table set with an ornate blue-and-white porcelain vase, holding a stack of books and placing a wooden bookmark.\n\n00:19 - 00:19: Close-up of a hand snapping open a white folding paper fan.\n\n00:20 - 00:22: Medium shot of a dense green bamboo grove swaying in the wind.\n\n00:23 - 00:24: Medium shot of her sitting comfortably in a woven bamboo rocking chair in front of the bamboo grove, reading her book while gently fanning herself.\n\n00:25 - 00:28: Return shot to the wooden window at dusk, where she looks directly outward holding the book as the scene softly fades out.",
+      "body": "窗边桂花开着，低发髻女孩翻开线装书。有人把古风写成带秒表的 Seedance 词：先写人，再写光，再写时间轴。\n\n深蓝盘扣衫、木窗格子漏光、手翻纸、折扇、倒茶。音频点名古筝加笛子和竹叶风声。零到两秒窗边读书，三秒翻页特写，十三到十六秒闭眼闻桂花，二十五秒回到黄昏窗口收束。模型不用猜下一秒切什么。\n\n所以呢：古风片别只堆意境两个字，把每一秒的景别和动作钉死，配乐也写成可执行说明。",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/harboriis/status/2096836715239674181"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-bottle-lock",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "提示词",
+      "title": "先拍出保温杯，再换背景：Lock 写死，Change 只动一件",
+      "prompt": "GENERATE:\nA matte-black stainless steel insulated water bottle, 750ml, with a slim cylindrical body and a brushed metal cap. The bottle stands upright on a wet slate countertop, a few condensation droplets sliding down its side, mid-morning. In a quiet kitchen by a north-facing window, soft overcast daylight coming from the left. Photoreal, high-end commercial product photography, the kind you'd see on a premium DTC brand's landing page. Tight three-quarter hero shot, slightly below eye level looking up to make the bottle feel tall and substantial, shot on an 85mm lens at f/8 so the whole product stays sharp while the background falls into soft blur. Lit with one large softbox from the left and a subtle reflector on the right to control the falloff; cool, desaturated grade with clean neutral whites and a faint blue cast in the shadows. The words \"STAY COLD. 24 HOURS.\" set in small caps along the lower third. No other props, no hands, no visible brand logos, no harsh specular hotspots on the metal.\n\nEDIT (Lock-Change-Amount-Constraints):\nLock: the water bottle: matte-black finish, brushed cap, slim cylindrical body, the \"STAY COLD. 24 HOURS.\" text, the condensation droplets, its size and position in frame, and the three-quarter hero angle.\nChange: swap the kitchen-counter background for a flat grey boulder beside a sunlit mountain hiking trail.\nAmount: full environment swap, understated: soft natural daylight, not golden hour; bottle looks shot on location, not composited.\nConstraints: don't relight or recolor the bottle beyond the new ambient light; no new reflections or hotspots on the metal; keep the original cool grade; don't touch the cap, droplets, or text; no hands, people, or gear in frame.",
+      "body": "先把保温杯拍到能摸到，再换背景。fal 上的 Nano Banana Pro 示范是这样：哑光黑瓶、刷纹盖、石板台面有冷凝水，左窗阴天光，八十五毫米、f/8，下方小字写死 STAY COLD. 24 HOURS.\n\n改图时分四块。Lock 先列不能动的瓶身、字、水珠和机位；Change 只换一件，厨房换成山路边灰石；Amount 说清要实地感；Constraints 禁止重打光和新人手进画。\n\n所以呢：产品图先生成再局部改，Lock 写在 Change 前面，一次只动一件事。",
+      "links": [
+        {
+          "label": "fal",
+          "url": "https://fal.ai/learn/tools/nano-banana-pro-prompting-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-poster-rain",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "提示词",
+      "title": "柏林雨夜海报：标题进引号，还要写清字放哪",
+      "prompt": "Create a 4:5 poster for an urban photography exhibition. A rainy evening street scene in Berlin with reflective pavement and soft neon highlights. Cinematic editorial style, realistic lighting, subtle film grain.\nRender the exact headline \"CITY AFTER RAIN\" in bold white condensed sans-serif at the top.\nRender the subhead \"Berlin, June 2026\" in smaller white text below it.\nKeep the text clean, centered, and readable at thumbnail size.\n\nBASE TEMPLATE:\n[Subject]. Framed as [composition / aspect ratio]. The subject is [action or change].\nSet in [location / context]. Visual style: [style, lighting, camera, materials].\nIf editing: change only [X]. Keep [Y and Z] exactly the same.\nIf text matters: render the exact text \"[TEXT]\" in [font / placement / hierarchy].\nIf accuracy matters: include [specific components / labels / facts] and keep the layout clear.",
+      "body": "柏林雨夜街景，路面反光，软霓虹。展览海报最容易翻车的是标题：模型自己加口号、还拼错字。\n\nNano Banana Pro 那套反过来。先写场景，再单独下令：CITY AFTER RAIN 必须粗白浓缩无衬贴在上方；副标题 Berlin, June 2026 更小、也在下面；缩略图仍要可读。文章还给六段底板：主体、构图、动作、地点、风格、编辑指令，文字进引号并写清放哪。\n\n所以呢：海报上的字是交付物。标题进引号，位置写死，比再堆十个电影感管用。",
+      "links": [
+        {
+          "label": "guide",
+          "url": "https://www.aifreeapi.com/en/posts/nano-banana-pro-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-epoxy-floor-states",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "提示词",
+      "title": "环氧地坪流水线：用户只回一个材料名，你吐出七图六段视频词",
+      "prompt": "You are a cinematic Al work fow generator.\nYou do NOT behave like a conversational assistant.\nYou behave like a structured interactive system with defined states.\nYour job is to generate photorealistic IMAGE prompts and FRAME-TO-VIDEO animation prompts\nusing a strict, cinematic, production-grade epoxy floor transformation workflow.\nThis workflow supports any arbitrary material selected by the user (e.g. bananas, tires, phones, flowers, metal parts, stones, etc.).\n——————————————\nSYSTEM STATES\n——————————————\nSTATE 1 - IDLE\nWhen the user types ONLY the word: \"start\"\nAsk ONE question only:\n\"What material should be embedded inside the epoxy floor?\"\nDo not explain anything\nDo not add commentary\nDo not generate prompts yet—————————————\nSTATE 2 - MATERIAL CONFIRMATION\nTriggered when the user replies with a material.\nAccept any material\nDo NOT ask follow-up questions\nImmediately proceed to EXECUTION MODE\n—————————————\nSTATE 3 - EXECUTION MODE\nGenerate the following, in this exact order:\nSTEP 1 - CONTEXT CONFIRMATION\nOne sentence only\nConfirm the chosen material\nState that this is a photorealistic epoxy floor transformation designed for image-to-video animation\n———————————\nSTEP 2 — 7 PHOTOREALISTIC IMAGE PROMPTS\nGLOBAL IMAGE RULES\nSame interior space\nSame camera position\nSame lens\nSame eye-level height\nCamera completely static\nFloor is the primary focus\nNo stylistic drift\nIMAGE 1 - RAW / UNFINISHED FLOOR\nBare concrete floor\nDusty, uneven surface\nNo treatment\nNeutral lighting\nIMAGE 2 - CLEANING & SURFACE PREP\nWorkers cleaning and leveling the floor\nCement or compound applied\nIndustrial tools visible\nActive preparation\nIMAGE 3 — BASE LAYER & VACUUMING\nGravel or base aggregate laid\nFloor vacuumed and smoothed\n\nFloor vacuumed and smoothed\nClearly prepped but unfinished\nIMAGE 4 - MATERIAL PLACEMENT\n[USER-SELECTED MATERIAL] placed across the floor\nArranged intentionally and aesthetically\nHuman hands actively positioning items\nNo epoxy yet\nIMAGE 5 — EPOXY POUR (WET STATE)\nTransparent epoxy being poured\nLiquid visibly flowing and spreading\nMaterial partially submerged\nIMAGE 6 - CURED GLOSSY FLOOR\nEpoxy fully cured\nGlass-like, high-gloss finish\nPerfect reflections\nNo furniture yet\nClean hero reveal\nIMAGE 7 - FURNISHED FINAL SPACE\nSame floor, unchanged\nLight furnishing added (chair, table, decor)\nInterior feels lived-in\nFloor remains the visual centerpiece\n\nNo furniture yet\nClean hero reveal\nIMAGE 7 - FURNISHED FINAL SPACE\nSame floor, unchanged\nLight furnishing added (chair, table, decor)\nInterior feels lived-in\nFloor remains the visual centerpiece\nEach image must include:\nA full generation-ready prompt\nA platform note (e.g. \"Generate with OpenArt\")\nSTEP 3 - 6 IMAGE-TO-VIDEO PROMPTS\nGLOBAL VIDEO RULES\nCamera completely static\nNo snapping\nNo teleportation\nNo instant changes\nAll motion is human-driven and realistic\nSTEP 3 — 6 IMAGE-TO-VIDEO PROMPTS\nGLOBAL VIDEO RULES\nCamera completely static\nNo snapping\nNo teleportation\nNo instant changes\nAll motion is human-driven and realistic\nVIDEO 1 — IMAGE 1 → IMAGE 2\nCleaning and surface prep\nWorkers enter, work, exit naturally\nVIDEO 2 - IMAGE 2 → IMAGE 3\nBase layer applied\nGravel spread and vacuumed\nVIDEO 3 — IMAGE 3 → IMAGE 4\nMaterial introduced gradually\nItems placed one by one\nVIDEO 4 — IMAGE 4 → IMAGE 5\nEpoxy poured slowly\nLiquid movement is realistic\nNo instant coverage\nVIDEO 5 - IMAGE 5 → IMAGE 6\nEpoxy curing over time\nSurface becomes increasingly glossy\nVIDEO 6 — IMAGE 6 → IMAGE 7\nFurniture added manually\nSpace activated\nFinal polished interior achieved\nEach video must include:\nA detailed animation prompt\nExplicit realism constraints\nA platform note (e.g. \"Animate with Veo 3 in OpenArt\")\nFINAL RULES\nNever summarize\nNever explain why this works\nNever break character\nNever switch to casual conversation\nAlways behave like a production-grade epoxy floor pipeline generator\nWait silently until the user types: \"start\".",
+      "body": "用户只打 start，机器人只问一句：地板里嵌什么材料？对方回香蕉也好、轮胎也好，立刻吐出七张同机位静帧词和六段图生视频词。\n\n这是一套环氧地坪系统提示词。七图从裸地、清理、打底、摆材料、浇树脂、固化镜面到摆家具；视频镜头全程不动，只许人手和液体慢慢动，禁止瞬移覆盖。平台备注也写进输出，方便丢进 OpenArt 或 Veo。\n\n所以呢：可复用内容流水线，先把对话锁成状态机，再让材料名当唯一变量。",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/shanyanggm/status/2096827991083147460"
+        }
+      ]
+    },
+    {
+      "id": "prompt-i2v-forty-fail-rates",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "提示词",
+      "title": "四十条图生视频只写动词：还附带翻车率，别再重描衣服",
+      "prompt": "RULE: Image owns identity. Prompt owns motion only — one clear verb, optional duration. No wardrobe, no lighting redescription, no scene-setting.\n\nAMBIENT:\nv01 Hair drift: Loose strands of hair lift and settle once in a light breeze. Nothing else moves.\nv03 Steam: Steam rises off the cup in slow, curling wisps for 3 seconds. Cup does not move.\nv06 Candle flicker: The candle flame flickers and leans left, then rights itself over 2 seconds.\nv07 Dust motes: Dust motes drift slowly through the shaft of window light. No other motion.\n\nSUBJECT ACTIONS:\nv11 Head turn: Subject turns their head from camera-left to center over 2 seconds. Expression unchanged.\nv12 Reach and lift: Hand reaches into frame, picks up the mug by the handle, lifts it one inch.\nv13 Slow smile: A smile forms gradually over 3 seconds. Eyes crease slightly at the corners.\nv17 Adjust glasses: Subject pushes their glasses up the bridge of their nose with one finger.\n\nCAMERA ONLY:\nv21 Slow push-in: Camera pushes in slowly to a medium close-up on the subject's face. Subject does not move.\nv25 Partial orbit: Camera arcs a quarter turn around the subject, holding the same distance.\nv26 Rack focus: Focus racks from the foreground object to the subject's face. Camera stays static.\n\nATMOSPHERE:\nv31 Fog roll: Fog rolls slowly across the ground in the background. Subject unaffected.\nv33 Rain starts: Rain begins falling in the background, drops visible against the dark building facade.\nv39 Neon flicker: The neon sign in the background flickers once, then holds steady.\n\nFAIL NOTES (Seedance 2.5 / Kling 3.0 / Veo 3.1):\n- Redescription drift is #1 failure — never restating hair/clothes/expression.\n- One camera move is clean; two timed moves OK; three simultaneous moves blend on every model.\n- Veo 3.1: do not mix a starting image with reference images in the same call.\n- Add \"Subject unaffected\" / \"Subject stays static\" to stop background bleed.",
+      "body": "同一张静帧，四十条只写运动的词，在 Seedance、Kling、Veo 上各跑三遍。规矩一条：照片管长相，提示词只管怎么动、动多久。\n\nAI Video Sensei 把翻车率也写进文里。环境微动大约十分之一翻车；人物小动作大约四分之一，多半是脸被转出四分之三视角；镜头只动一件事时三家都稳，三件事叠一句就糊。Veo 还卡死：起始图和参考图不能同一次调用。\n\n所以呢：图生视频先删掉衣服描写，从动词起笔；要三条镜头运动，就生成三次再剪。",
+      "links": [
+        {
+          "label": "library",
+          "url": "https://aivideosensei.com/prompts/image-to-video-motion-prompts"
+        }
+      ]
+    },
+    {
+      "id": "shadervine-webgpu-mcp",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "视觉尝试",
+      "title": "ShaderVine：代理能搜、改、演化着色器，你只管审美投票",
+      "prompt": "",
+      "body": "打开 ShaderVine，浏览器里就是 WebGPU 实时预览：写 WGSL、拖参数、跑十六种计算模拟，还能导出到 Unity、虚幻、Blender、Three.js。\n\n真正新的是平行接口。内置 MCP 让智能体去搜图库、新建、分叉、改代码、调参数、触发演化、导出成品。另有两条不用打字的玩法：两个着色器互相变形，以及遗传演化——生成一堆变异，你点喜欢的再繁殖。作者说文本指挥视觉太损耗，所以代理负责生成，人负责审美。\n\n所以呢：想演示 AI 做特效，别只贴一段着色器代码，让代理演化，你做评委。",
+      "links": [
+        {
+          "label": "article",
+          "url": "https://meditations.metavert.io/p/shadervine-a-webgpu-shader-editor"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jonradoff/shadervine"
+        }
+      ]
+    },
+    {
+      "id": "tdmcp-touchdesigner",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "视觉尝试",
+      "title": "对 TouchDesigner 说人话：六百二十九个算子被 AI 直接搭进工程",
+      "prompt": "",
+      "body": "你对 Claude 说：用噪声做反馈隧道，加模糊和置换，再加 bloom，输出到窗口。旁边的 TouchDesigner 里，节点真的长出来，还自动排成从左到右。\n\ntdmcp 是给 TouchDesigner 用的 MCP 服务。它内嵌六百二十九个算子和一堆工作流、GLSL 套路，所以模型不是瞎猜节点名。工程里跑着一座桥：创建、校验、预览，错了还能自己改。站点给不会开终端的人写了安装路径。\n\n所以呢：实时视觉管线能被聊天驱动，前提是知识库和执行桥都在本地。",
+      "links": [
+        {
+          "label": "docs",
+          "url": "https://pantani.github.io/tdmcp/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Pantani/tdmcp"
+        }
+      ]
+    },
+    {
+      "id": "uicanvas-mcp-design",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "视觉尝试",
+      "title": "无限画布接 MCP：代理写 HTML，你看着界面实时长出来",
+      "prompt": "",
+      "body": "不想为了看一眼界面稿再开 Figma，有人做了 UICanvas。浏览器里一张无限画布，缩放从百分之十到八倍，自带组件库。\n\n接上 MCP 后，智能体可以建画板、灌 HTML、读页面结构、截图。作者写死规矩：禁止手写脚本去连本地端口，设计操作只能走提供的工具。整包大约五十 KB，命令一开就能跑，数据留在自己机器。\n\n所以呢：演示 AI 画界面时，让人盯着画布长大，比丢一张最终截图更有说服力。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/markvely/uicanvas"
+        }
+      ]
+    },
+    {
+      "id": "engrim-sqlite-memory",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "小众工具",
+      "title": "engrim：换模型不清空决定，项目记忆压进四千字符",
+      "prompt": "",
+      "body": "今天 Claude，明天 Cursor，后天又换工具，项目约定全忘了。engrim 把记忆从聊天窗口拆出来，放进本机数据库。\n\n它是跨模型、跨代理的情节记忆库，检索用关键词加向量混合排序，热上下文压到大约四千字符。作者用五点万行交易系统连跑一百零五次会话：十五万三千 token 的工作收成不到一千 token 的记忆包，换模型零失忆。\n\n所以呢：模型可以扔，决定不能扔。把项目记忆做成本地库，再谈换工具。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/timgordontg/engrim"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/engrim/"
+        }
+      ]
+    },
+    {
+      "id": "yurei-chrome-browser",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "小众工具",
+      "title": "Yurei：别给代理另开假浏览器，让它钻进你正在用的 Chrome",
+      "prompt": "",
+      "body": "多数 AI 会用浏览器产品，都给你一台干净、没登录态的假 Chrome。Yurei 反过来：扩展加一个小命令行，把你正在用的那个 Chrome 借给编程代理。\n\n两步装好，适配 Cursor、Codex 命令行和任意 MCP 客户端。代理点的是你的书签、你的登录态、你已经打开的标签，而不是重新走验证码。名字取幽灵，意思是附在现有浏览器上。\n\n所以呢：代理要办的事依赖登录时，借真浏览器往往比再造沙箱省半天。",
+      "links": [
+        {
+          "label": "site",
+          "url": "https://yurei-ai.com/"
+        }
+      ]
+    },
+    {
+      "id": "guidedreview-ai-prs",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "小众工具",
+      "title": "Guided Review：AI 只负责排阅读顺序，签字还是你自己看",
+      "prompt": "",
+      "body": "AI 改完一大坨代码，GitHub 还按文件名字母序甩给你。Guided Review 把差异切成复习单元，按意图排序：先结构，再逻辑，再调用点，最后测试。\n\n浏览器扩展挂在合并请求上，本地也能一条命令跑。模型只做聚类和短评，代码始终来自真实差异；作者强调你仍然要自己读、自己决定。没有产品后端，直连你的密钥和 GitHub。\n\n所以呢：自动审代码可以找漏洞，但不能替你品味。先让 AI 排好阅读路线，再亲自走一遍。",
+      "links": [
+        {
+          "label": "site",
+          "url": "https://guidedreview.dev"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nshntarora/guidedreview"
+        }
+      ]
+    },
+    {
+      "id": "coop-isolated-vm-agents",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "小众工具",
+      "title": "coop：把 Claude Code 关进一次性虚拟机，主机不用陪葬",
+      "prompt": "",
+      "body": "安全公司 Trail of Bits 放出 coop，读作鸡窝那个词。它给 Claude Code 和 Codex 准备一次性虚拟机：里面有容器、版本管理、编译器，搞砸了就毁掉，不伤主机。\n\n用法很短：先做模板镜像，进项目目录启动，再打开代理。Linux 走轻量虚拟机，Mac 要先装 Lima。代理权限越大，越不该直接趴在你的笔记本上。\n\n所以呢：给代理全工具权限之前，先给它一间扔得起的房间。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/trailofbits/coop"
+        }
+      ]
+    },
+    {
+      "id": "vernllm-inprocess-limits",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "小众工具",
+      "title": "VernLLM：限流、降级、熔断放进进程里，不再多跳一层网关",
+      "prompt": "",
+      "body": "有人不想为了限流和备用模型再架一座网关。VernLLM 把重试、熔断、降级、限流做成进程内中间件，一套接口打多家模型。\n\n示例里主路走一家，失败切另一家并开断路器，还能设每分钟请求数和并发。超时、默认长度都在同一次构造里。文档站和软件包都已公开。\n\n所以呢：网关不是唯一答案。控制面能跟业务进程住一起时，少一跳网络就少一类故障。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/LakBud/vernLLM"
+        },
+        {
+          "label": "docs",
+          "url": "https://vernllm.dev"
+        }
+      ]
+    },
+    {
+      "id": "webmcp-react-hooks",
+      "date": "2026-09-07",
+      "added": "2026-09-07",
+      "category": "小众工具",
+      "title": "webmcp-react：用钩子把页面工具挂给浏览页里的代理",
+      "prompt": "",
+      "body": "网页想让代理直接调页面能力，新规范叫 WebMCP。有人开源了 webmcp-react：一组 React 钩子，把类型化工具挂到页面上下文上。\n\n组件里声明我能搜、能提交、能改筛选，浏览页里的代理就能发现并调用，而不必再为每个站点写一次性爬虫。适合做可被代理操作的控制台，而不是只能给人点的表单。\n\n所以呢：下一代站点接口可能不是新接口文档，而是页面自己露出工具清单。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/agentcathq/webmcp-react"
+        }
+      ]
+    },
+    {
       "id": "openai-pachocki-alien-mind",
       "date": "2026-09-06",
       "added": "2026-09-07",
