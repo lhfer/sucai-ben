@@ -1,6 +1,256 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "items": [
+    {
+      "id": "anthropic-flt-lean-11days",
+      "date": "2026-09-07",
+      "added": "2026-09-08",
+      "category": "硬科技",
+      "title": "人类要十年的形式化，Claude 用十一天写完：费马大定理第一次被机器验过",
+      "prompt": "",
+      "body": "大自然杂志九月七日报道：费马大定理第一次变成了计算机能从头验到底的证明。\n\n故事要从三百多年前讲起。费马在书页空白写下一句：大于二次方时，三个正整数没法拼成 aⁿ+bⁿ=cⁿ。一九九五年，怀尔斯和泰勒用一百多页现代数学把这句钉死；可要把这套推理改写成证明助手 Lean 认得的每一步，学界原计划按年计。帝国理工 Kevin Buzzard 牵头的社区工程，蓝图就有八十六页。\n\nAnthropic 研究员 Tianyi Peng 本来只想试试 Claude 能不能往前蹭。结果在 Prove2Me 平台上，几十个代理分工定义概念、证中间定理、再往上垒，大约十一天写出一千三百万行 Lean，中间定理大约两万九千五百条，体量比社区库 Mathlib 还大出五倍多。吃掉大约六十亿输出 token，模型水平大致对标 Claude Fable 5.1。Lean 只靠三条标准公理验过；对照工具确认定理表述和 Mathlib 里的费马陈述一致。GitHub 开源，Buzzard 说：如果费马都能自动形式化，现代文献的自动验算就不远了。\n\n所以呢：AI 数学下一帧不是「再证一个猜想」，是「证明写完就能被机器签字」。内容就拍两张并排——怀尔斯那本一百二十九页，和一千三百万行机器稿。\n",
+      "links": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+        },
+        {
+          "label": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02822-9"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/anthropics/fermats-last-theorem"
+        }
+      ]
+    },
+    {
+      "id": "packomania-discovery-loop-28",
+      "date": "2026-09-04",
+      "added": "2026-09-08",
+      "category": "好玩AI",
+      "title": "二十八美元刷掉十个圆填充纪录：LLM 改算法，裁判另开程序验",
+      "prompt": "",
+      "body": "有人问：前沿模型除了写代码聊天，能不能真的把某个冷门世界纪录往前推一截？\n\n九月四日，Wes Sander 在 arXiv 交出答案。系统叫 Discovery Loop：从一个简陋求解器起步，大模型看记分板和历史点子，提出下一版算法；每一版都丢给独立验证器，变好才留下，翻车就扔。战场是 Packomania 的圆填充题——在单位正方形里塞 N 个半径可变的圆，尽量把半径和做大。\n\n十五轮以内，N 从一百零一到一百一十四里有十个取值刷了已知最优，涨幅大约百分之二点四到五点四。大模型账单一共二十七点七二美元。Packomania 站方已独立收下这些解。\n\n所以呢：自动化发现不一定要烧一座机房。内容就拍「二十八刀 vs 十个纪录」——强调裁判是另开的程序，不是模型自己给自己打分。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05093"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49604782"
+        }
+      ]
+    },
+    {
+      "id": "outrageously-small-nn-amx",
+      "date": "2026-09-07",
+      "added": "2026-09-08",
+      "category": "硬科技",
+      "title": "一台 CPU 核上跑出「会抄上下文」：Greg Diamos 把小模型拧到六千六 token 一秒",
+      "prompt": "",
+      "body": "Greg Diamos 本来只想解决一个脏活：海量文本要抽字段、分类，没钱租 GPU 集群。目标写得很土——单核大约每秒一万 token。\n\n他把约束钉死：训练和推理都锁在一颗 Intel Xeon 的物理核上，靠芯片上的矩阵扩展 AMX。结果出来三件意外。大约两亿五千九百万 token、单核跑九小时，三百多万活跃参数的模型，在「上下文归纳」探针上到百分之九十三（蒙的话大约百分之七）；位置平移百分之九十；两位数加法百分之四十七。最长一跑到四十九亿 token，大约是 Chinchilla 最优比例的七十四倍，训练损失还在往下掉。预训练模型自由生成会立刻塌成死循环，要靠四轮后训练才勉强能用；作者自己写清楚：精确匹配只有百分之十八点二，别吹成通用推理。\n\n所以呢：小模型又有戏，前提是你量机器、挑数据、盯生成，而不是只看损失曲线。内容就拍「一台核 vs 一堆探针分数」——把 AMX 说成人话：CPU 里的小矩阵发动机。\n",
+      "links": [
+        {
+          "label": "Blog",
+          "url": "https://gregdiamos.com/2026/09/07/outrageously-small-neural-networks.html"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/gdiamos/amx-reasoning-v1-instruct"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49604579"
+        }
+      ]
+    },
+    {
+      "id": "nixos-strip-trusting-trust",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "硬科技",
+      "title": "不用动编译器：改掉一个 strip，整份 Linux 发行版都能被后门跟到底",
+      "prompt": "",
+      "body": "肯·汤普森一九七几年讲过「信任信任」：编译器被下毒，它编出来的程序带后门，连自己再编译自己也会把毒传下去。很多人以为这只发生在编译器上。\n\n九月八日还挂在 Hacker News 首页的一篇 arXiv（七月投稿）说：普通构建工具 GNU strip 也行。作者只改成品 ELF 二进制，不动源码。在 NixOS 启动链里，二进制种子里塞进一个被改过的 strip；毒会从一代 strip 传到下一代，种子离开依赖闭包之后，还活在最终标准环境里。拿真实 nixpkgs 版本跑，图形安装器能完整编出来，几乎每个二进制都被后门过，后面想干什么都行。\n\n所以呢：供应链安全如果只盯「编译器干不干净」，会漏掉一排看起来无善的小工具。内容就拍一条传送带——种子里一个扳手，整条产线的螺丝全变了。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2607.24888"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49575515"
+        }
+      ]
+    },
+    {
+      "id": "molecular-deja-vu-retrieval",
+      "date": "2026-09-04",
+      "added": "2026-09-08",
+      "category": "硬科技",
+      "title": "分子题答对了，未必会算：二十二项前沿模型在背已发表的数字",
+      "prompt": "",
+      "body": "化学圈爱拿分子属性回归榜给大模型打分。可「答对」有两种可能：真的推出来，或把论文里印过的数背出来。\n\n九月四日的 arXiv《Molecular Déjà Vu》审了二十二个前沿模型、十二个回归基准，专门抓「逐位复述已发表数值」。结果很拧：五个数据集上，超过一半模型露出逐字检索；其余数据集只零星出现。同一批分子、同一句提示，把推理强度拧高，被标成检索的次数反而多大约百分之八十九。作者试着打断检索后发现，最强模型有时还能认出「改过的分子写法 + 原来的标签」；压住检索之后，各模型误差反而更靠近——说明榜上拉开的差距，很大一块是谁背得更狠。\n\n所以呢：科学基准如果不查「是不是在翻小抄」，你会把记忆力当成化学直觉。内容就拍一页实验表——正确答案旁边圈出「原文一模一样」。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05381"
+        }
+      ]
+    },
+    {
+      "id": "chollet-agi-means-invention",
+      "date": "2026-09-07",
+      "added": "2026-09-08",
+      "category": "好玩AI",
+      "title": "Chollet 给 AGI 立门槛：别急着宣布，先等到它真会发明",
+      "prompt": "",
+      "body": "九月七日，François Chollet 在 X 上写了一段不绕弯的话。\n\n他说，当初大家愿意砸钱造 AGI，故事一直围着「发明」转——治癌症、解决聚变之类。所以在他看来，在 AI 真的能做出概念突破、新鲜洞见之前，别忙着「宣布 AGI」。Astra 刚发完、Brockman 还在刷「我们进入 AGI 时代」的同一周，这句话像一盆凉水：能力海报和定义门槛，根本不是同一张纸。\n\n所以呢：口号战场的下一条内容，不是再比谁分更高，是问一句「发明」到底算不算进你的定义。拍成短视频就够——一边是海报「AGI 时代」，一边是 Chollet 那句「等到会发明再说」。\n",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/fchollet/status/2097058741325881442"
+        }
+      ]
+    },
+    {
+      "id": "caltech-mathathon-open",
+      "date": "2026-09-07",
+      "added": "2026-09-08",
+      "category": "好玩AI",
+      "title": "四十小时、两百万刀算力额度：Caltech 办第一场「研究级数学黑客松」",
+      "prompt": "",
+      "body": "十月三十到十一月一，大约一百支队伍会走进加州理工。主办方说这是第一场专门冲「研究级数学」的黑客松，Anthropic 和 OpenAI 都挂了支持。\n\n规则不像写个 App。队伍拿到前沿模型和超过两百万美元的 AI 额度，对着开放猜想干四十小时，交 LaTeX，再当面给一线数学家答辩——既看结果，也看你是不是真懂自己用的方法。现场先发一波奖；社区验完再发第二波。官网还点名近几个月 AI 数学动静：厄尔多什单位距离猜想被推翻、显式非 sofic 群、六维球复结构（后一条仍未核实）。\n\n所以呢：当模型开始碰开放问题，竞赛的下半场变成「你能不能向人解释清楚」。内容就拍答辩席——机器出证明，人问「你为什么信」。\n",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://mathathonchallenge.com/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49596055"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-decart-walkaway",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "硬科技",
+      "title": "彭博称 Anthropic 不买了：六十亿美元的 Decart 收购谈崩",
+      "prompt": "",
+      "body": "八月中旬，路透和彭博都写过：Anthropic 在谈买以色列创业公司 Decart，报价大约六十亿美元，看中的是世界模型和让芯片跑得更省的软件，原本可能并进推理性能团队。\n\n九月八日凌晨，Hacker News 挂出彭博新稿标题：Anthropic Said to Walk Away from $6B Decart Acquisition——据说不买了。细节多在付费墙后；公开侧能确定的是：这会是 Anthropic 迄今最大规模收购之一，时间又卡在传闻中的上市窗口附近，谈崩本身就是信号。\n\n所以呢：模型发布周之外，钱和芯片叙事也在重新排队。内容就写「谈了又散」——六十亿世界模型，最后为什么没进门。\n",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-08/anthropic-said-to-walk-away-from-6-billion-decart-acquisition"
+        },
+        {
+          "label": "Fortune（此前谈判）",
+          "url": "https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion/"
+        }
+      ]
+    },
+    {
+      "id": "rsa-ecertify-512-claude",
+      "date": "2026-09-07",
+      "added": "2026-09-08",
+      "category": "好玩AI",
+      "title": "九十年代根证书被拆开：Claude Code 帮人从旧浏览器安装包里捞出 512 位 RSA",
+      "prompt": "",
+      "body": "Matthew McPherrin 九月七日写了件好玩又有点吓人的事：他分解了一家九十年代证书机构的 RSA 密钥。\n\n现在网站多用至少两千零四十八位；可早期 Web PKI 几乎没下限。他从 archive.org 上的 Netscape、IE 安装包入手，让 Claude Code 批量抠出当年随浏览器下发的根证书，再筛小密钥。一九九九年三月，Netscape 4.51 里塞过加拿大机构 E-Certify 的五百一十二位 RSA 根，分别给 SSL 和邮件用——同年更大的 RSA-155 都已被分解，这根本来就不该装。二零零二年 Netscape 撤掉；IE 那边没找到同规格的 SSL 根。作者说没什么「正经理由」，就是好玩。\n\n所以呢：AI 写脚本的日常用途，有时是把历史安全笑话挖出来给人看。内容就拍一张「一九九九年浏览器信任链」——五百一十二位，今天台式机就能拆。\n",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://mcpherrin.ca/2026/09/07/rsa.html"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49604637"
+        }
+      ]
+    },
+    {
+      "id": "wearableqa-health-reasoning",
+      "date": "2026-09-04",
+      "added": "2026-09-08",
+      "category": "硬科技",
+      "title": "手环数据连读五百天：新基准问模型会不会看病历式时间序列",
+      "prompt": "",
+      "body": "智能手表天天吐心率、睡眠、步数，可多数 AI 基准不问：你能不能对着一个真人几个月的脏数据做健康推理？\n\nWearableQA 九月四日上 arXiv。两百名真实用户，每人最多五百天每日测量，再配血检和人口学信息，做成四千零八十四道十选一。题目沿两条轴切开：算数 vs 生理解读，单信号 vs 多信号交叉。十四个专有和开源模型得分大约百分之十九点六到七十二点九（蒙的话百分之十），多数仍低于百分之六十，离「能看病历式时间序列」还远。\n\n所以呢：消费健康 AI 下一关不是再画一张睡眠花瓣图，是「纵向脏数据能不能讲出人话诊断线索」。内容就拿一道交叉题——昨晚深睡掉了，静息心率升了，模型选哪一项。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05405"
+        }
+      ]
+    },
+    {
+      "id": "diffusion-tv-crt-antenna",
+      "date": "2026-09-04",
+      "added": "2026-09-08",
+      "category": "好玩AI",
+      "title": "拧老电视天线，等于在拧扩散模型：Diffusion TV 把去噪做成身体游戏",
+      "prompt": "",
+      "body": "扩散模型那句「从噪声里一点点洗出图」，多数人只在网页上滑进度条。\n\n九月四日的装置论文 Diffusion TV，把一台改过的 CRT 老电视变成教具。观众拧天线，画面和声音的清晰度跟着变，等于用身体重演「去噪」；再拧频道钮，在三个台之间切：过去（灭绝动物）、现在（濒危物种）、未来（虚构生物）。AI 生成的影像被嵌进时间和生态叙事，而不是又一块屏幕海报。\n\n所以呢：解释生成模型，有时比再写一篇科普文更有效的是让人动手。内容就拍一只手拧天线——雪花变清的那一秒。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05404"
+        }
+      ]
+    },
+    {
+      "id": "cua-universe-gui-cli",
+      "date": "2026-09-04",
+      "added": "2026-09-08",
+      "category": "硬科技",
+      "title": "光点鼠标不够：CUA-Universe 逼代理同时会点界面、会敲命令行",
+      "prompt": "",
+      "body": "电脑使用代理在 OSWorld 一类榜上越来越能点，可真实干活往往是「看一眼界面，再甩一条命令」。两套接口共用同一应用状态，现成可扩展环境却很少——给每个 App 同时接图形界面和命令行，手工工程量吓人。\n\nCUA-Universe 九月四日提出可扩展的混合环境：同一套应用状态上同时练 GUI 和 CLI。作者说，现有代理还不太会在两条路上协调，轨迹常常又长又笨，只会点不会敲。\n\n所以呢：Astra 们比拼「会不会用电脑」的下一题，不是更多截图，是会不会在该敲终端时放下鼠标。内容就拍同一任务两条轨迹——纯点击二十步，混命令行五步。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05374"
+        }
+      ]
+    },
+    {
+      "id": "unimate-any-skeleton",
+      "date": "2026-09-04",
+      "added": "2026-09-08",
+      "category": "好玩AI",
+      "title": "骨架长什么样都行：UniMate 一个模型给任意绑骨资产按文生动",
+      "prompt": "",
+      "body": "自动绑骨已经能量产「能动画的三维资产」，卡点变成：动作从哪来。旧方法多半锁死某类骨架，或推理时还要微调、还要参考动作。\n\nUniMate 自称统一基础模型：丢进已绑骨的三维资产和一句文本，就能合成关节运动，测试时不用再优化，也不按骨架重训。核心是「感知拓扑」的扩散 Transformer，把骨架结构写进网络，让同一套权重能伺候人和六足怪。\n\n所以呢：生成三维内容的流水线，下一截是「任意怪骨架也能听懂指令跳舞」。内容就拿同一句提示词驱动两种骨架——看模型会不会愣住。\n",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05415"
+        }
+      ]
+    },
+    {
+      "id": "gdb-astra-drug-spectrogram",
+      "date": "2026-09-07",
+      "added": "2026-09-08",
+      "category": "好玩AI",
+      "title": "Brockman 连发 Astra 演示：药怎么起效，频谱图怎么认成声音",
+      "prompt": "",
+      "body": "GPT-6 Astra 上线后几天，OpenAI 总裁 Greg Brockman 还在 X 上连发「Astra for …」短片。九月七日两条特别好截：一条把药物作用机制画成可视化；一条把频谱图认成具体声音。前面几天还有查论文、医学应用、真实问题求解。\n\n这不是新榜分数，是产品经理在喂直觉——模型到底能替人盯哪一块专业屏幕。评论区两极：有人觉得是 AGI 海报附赠，有人觉得演示剪辑比能力诚实。\n\n所以呢：模型发布后的第二周，战场从基准表挪到「三秒内能不能看懂它在干啥」。内容就剪 Brockman 时间线——同一句 Astra for，换五块专业屏幕。\n",
+      "links": [
+        {
+          "label": "药机制可视化",
+          "url": "https://x.com/gdb/status/2097042947581804983"
+        },
+        {
+          "label": "频谱认声",
+          "url": "https://x.com/gdb/status/2097055132009861234"
+        }
+      ]
+    },
     {
       "id": "hyundai-wia-unmanned-forklift",
       "date": "2026-09-07",
