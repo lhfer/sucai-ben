@@ -2,6 +2,313 @@
   "updated": "2026-09-08",
   "items": [
     {
+      "id": "prompt-seedance25-riverside-farewell",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "提示词",
+      "title": "河边告别二十九秒：官方示范用「五段情绪」压住哭戏",
+      "prompt": "29-Second One-Shot (Ancient Costume Woman's Riverside Farewell)\n\n[Global Scene Setting] Early morning by the river, a blurred small boat in the\nbackground, a lonely farewell. Quiet, restrained. Cinematic, shallow depth of\nfield, soft natural light. The camera holds a close-up of the woman, imitating\nthe subjective POV of \"him\" standing opposite her. Subtle handheld breathing,\none continuous shot with no fast cuts.\n\n[Character Styling] [Age/Ethnicity] 22-year-old East Asian woman, classical\ngentle cinematic face. [Skin] Cool-toned fair skin, delicate and moist,\nretaining realistic fine pores and natural skin texture. [Facial Features]\nSlender elegant eyes (slightly moist), relaxed brows, delicate straight nose\nbridge, full lips with a faint gentle smile, soft jawline. [Eyes/Soul] Deeply\naffectionate gaze, eyes shimmering like spring water. [Hair] Jet-black hair in\na casual classical low bun, a plain jade hairpin. [Clothing] Minimalist pure\nwhite cross-collar Hanfu. [Physique/Aura] Slender, delicate narrow shoulders,\ngentle classical romantic aura.\n\n[Core Performance] Restrained and nuanced. Capture the shifting gaze, the rise\nand fall of breathing, slight lip trembling, subtle brow movements, nostril\nchanges, throat swallowing, and the natural process of a tear sliding down.\n\n[Negative Prompts] No exaggerated crying, no fast cuts, no large body\nmovements, no extra dialogue, no BGM, no runny nose, no premature dropping\nof tears.\n\n[Emotion and Action Storyboard]\nStage 1: 0-3s [Questioning]. She looks directly into the lens, lips slightly\nparted, and whispers: {Are you really leaving?} Emotion analysis: she is not\ncomplaining — she is waiting for him to confirm an answer she already guessed.\nStage 2: 3-10s [Resignation] — swallowing the bitterness. ...\nStage 3: 11-17s [Remembering] — a 0.5-second dead-silent pause; her lips twitch\nthen press together, jaw tightens, throat swallows.\nStage 4: 18-23s [Regret] — she lowers her eyes, and only then do the tears\nbegin to fall. She shakes her head slightly, almost imperceptibly.\nStage 5: 24-29s [Letting Go] — extreme close-up. She forms a gentle smile and\nsays in a barely audible but steadied voice: {You can go.} (On the word \"go\"\nthere is a faint tremble, forcefully suppressed.)",
+      "body": "有人把 Seedance 2.5 官方示例「河边告别」拆开看：二十九秒一镜到底，女主几乎不哭，泪却掉在该掉的时候。\n\n写法不是堆「悲伤、电影感」。先锁全局：清晨河边、浅景深、手持微喘，镜头像对面那人的主观视角。人物从年龄、肤质毛孔写到汉服发髻。表演只准微动：目光、呼吸、唇颤、吞咽。负面词写死：别夸张哭、别快切、别大动作、别配乐。\n\n故事板五段：零到三秒质问「你真的要走吗」；三到十秒把苦咽回去；十一到十七秒半秒死寂；十八到二十三秒才低头落泪；二十四到二十九秒轻轻说「你可以走了」，「走」字要压着抖。\n\n所以呢：情绪片别写氛围形容词，按秒写身体变化，再把翻车姿势写进负面词。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/smixs/visual-skills/blob/main/video/references/seedance-25.md"
+        },
+        {
+          "label": "repo",
+          "url": "https://github.com/smixs/visual-skills"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance25-mecha-physics",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "提示词",
+      "title": "机甲追车三十秒：先写物理禁令，再写雨和火花",
+      "prompt": "30-Second One-Shot (Sci-Fi Mecha Chase and Transformation)\n\n[Global Setting] A cyberpunk cross-sea bridge in 2077, heavy rain. Emphasize\nextreme, realistic physical textures: rain reflections on metal, water\nsplashed by tires, and the specular refraction of exhaust flames must strictly\nobey real-world physics. Hardcore sci-fi cinematic feel, high-contrast neon\n(cyber-pink and icy blue), high-speed shutter. High-speed drone POV, one\ncontinuous shot. Subject: a silver-and-black concept mecha motorcycle.\n\n[Negative Prompts] No soft-body or mollusk-like twisting/clipping of the mecha\nstructure during movement (must maintain metallic rigidity); no human\nentities; strictly remove irrelevant subtitles; force mute / no default BGM;\navoid copyrighted IP elements like Transformers or Tron.\n\n[Timestamp Storyboard]\n[00:00-00:08] [Extreme Speed] The camera skims the waterlogged road; the\nspinning wide tires kick up massive water curtains meters high. Camera\nsubtext: convey speed through the physical interaction of rain, puddle\nreflections and engine flames.\n[00:09-00:16] [Evasion] The tires grind the road, sparking orange friction\nsparks, executing a tight \"S\" curve.\n[00:17-00:24] [Mid-Air Reassembly] During slow-mo hang time the armor flips,\ndeconstructs, and reassembles — strictly rejecting \"noodle-like\" soft-body\ntransformation.\n[00:25-00:30] [Heavy Landing] The tonnage impact shatters the bridge surface\ninto a spider-web pattern; the shockwave blows the surrounding rain away in\nan expanding ring. A frozen \"superhero landing\" as the final image.",
+      "body": "同样来自 Seedance 2.5 官方示例：赛博朋克跨海桥大雨，银黑机甲摩托一镜到底。好看的不是形容词，是「后果」。\n\n开头先定物理制度：雨反射、轮胎溅水、尾焰折射必须服从现实。负面词先砍软体变形、禁止人形、禁字幕、禁默认配乐、禁变形金刚式版权梗。时间轴按秒：零到八秒贴地冲出一米高水帘；九到十六秒轮胎打出橙火花走 S 弯；十七到二十四秒空中装甲翻转折叠，严禁面条变形；二十五到三十秒吨级落地砸出蛛网裂纹，冲击波把雨吹成一圈。\n\n所以呢：动作片先写「不准怎样」，再写每个节拍撞出什么物理后果。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/smixs/visual-skills/blob/main/video/references/seedance-25.md"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance25-audio-markers",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "提示词",
+      "title": "圆括号配乐、尖括号音效、花括号台词：Seedance 标点比形容词管用",
+      "prompt": "<Subject> performs <primary action or event> in <scene and environment>.\nThe visuals feature <visual style>.\nUse <shot size, camera angle, camera movement, or cuts>.\nAudio includes <dialogue, ambience, sound effects, or music>.\n\nDialogue language: authentic Los Angeles English. The young man says in natural\nLos Angeles vernacular: {No way, you actually made it.}\nThe girl says softly in Japanese: {もう大丈夫です}\n\nShot 1: Close-up of an espresso machine portafilter locking into place with a metallic click. Shot 2: Wide angle of dark espresso pouring into a white ceramic cup, steam rising, the sound of liquid hitting porcelain. Shot 3: Slow pull-back revealing a busy cafe interior, ambient conversation and soft jazz in the background.",
+      "body": "写视频提示词还在散文里塞「有雷声」？Seedance 2.5 官方把声音拆成标点：圆括号是配乐，尖括号是音效，花括号是台词，方头括号才是字幕。\n\n基础公式四行：谁在哪儿干嘛、画面风格、镜头怎么动、声音有什么。多语言对白还能写成「洛杉矶口语」再接花括号里的英文，然后接日语软声。咖啡馆三连镜示范：第一镜金属扣锁咖啡手柄；第二镜浓缩注入白杯；第三镜拉远到嘈杂店堂和轻爵士。fal 实操指南也强调：Shot 标签给切点，一声只绑一个主动作。\n\n所以呢：声音别散文描述，用标点分工；多镜头先打 Shot 编号。\n",
+      "links": [
+        {
+          "label": "fal guide",
+          "url": "https://fal.ai/learn/tools/how-to-use-seedance-2-0"
+        },
+        {
+          "label": "Seedance 2.5 ref",
+          "url": "https://github.com/smixs/visual-skills/blob/main/video/references/seedance-25.md"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-missed-fetch",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "提示词",
+      "title": "遛狗三十秒什么都没发生：金毛差一点没叼回球，才像真家用机",
+      "prompt": "A morning walk. Woman, golden retriever, quiet suburban park. Nothing happens except a dog being a dog. And the beat that sells the whole thing is him not quite finishing the fetch.\n\nMost people write vlog prompts where everything goes right. Real footage is full of small failures nobody edits out, and that's precisely what makes it read as real rather than staged.\n\nHere's the full prompt:\n\nCAMERA: Handheld DV 16mm daily vlog footage. The video MUST begin with her holding the camera at arm's length in selfie mode while stepping outside her apartment building with her dog. The first 20–30 seconds are entirely handheld. Later she occasionally places the camera on a park bench, low stone wall, picnic table, or the ground for wider shots. Keep subtle handheld shake, drifting composition, autofocus hunting, rushed reframing, uneven zooms, exposure breathing, brief accidental face cropping, and imperfect framing throughout. The camera itself is never visible.\n\nLOOK: Warm analog tape texture with gentle film grain, slightly softened sharpness, subtle halation around sunlight, realistic skin tones, low contrast, tiny exposure shifts, and natural motion blur. Authentic footage from someone's everyday life rather than a polished commercial.\n\nSTYLE: A relaxed morning lifestyle vlog. Quiet, cozy, spontaneous. She occasionally laughs at her dog, pauses to look around, adjusts the leash, brushes hair away from her face, and speaks naturally in short sentences with comfortable pauses.\n\nCHARACTER: EMMA, mid-20s. Long light brown hair in a messy ponytail, green eyes, minimal makeup, oversized gray hoodie, black biker shorts, white sneakers, small crossbody bag. Walking a happy golden retriever.\n\nSETTING: A peaceful suburban neighborhood on a sunny morning. Tree-lined sidewalks, quiet residential streets, birds singing, a small park with benches, green grass, soft golden morning light. Very few people around.\n\nSCENES: Opens in selfie mode, leaving the apartment building, dog pulling excitedly on the leash. \"Good morning.\" Smiles. \"Someone couldn't wait.\" The dog sniffs everything as they walk. Quiet laugh. \"He has to inspect every single tree.\" Still handheld, into a small park. The dog stops and stares at a squirrel. \"Oh... there we go.\" Small headshake. She sets the camera on a bench for a wider angle and throws a tennis ball. The dog chases it. \"Worth waking up early.\" Picks the camera back up, walking slowly, looks up at the trees. \"It's actually really peaceful out here.\" The dog returns with the ball but drops it halfway. She laughs. \"Close enough.\" She sits on the bench, dog lying beside her, scratching behind his ears. \"I think he's happier than I am.\" Stands, keeps walking, selfie mode heading home. \"Coffee is definitely next.\" Smiles into the lens. \"See you later.\" Small wave, ends the recording.\n\nA few things worth noticing about why it's built this way:\n\nThe dog is the unpredictability engine. Stopping at a squirrel, dropping the ball halfway, inspecting every tree. An animal doing animal things gives the scene a randomness that a scripted human beat never would.\n\nThe camera gets put down and picked back up. Handheld, then propped on a bench for the wide, then handheld again. That rhythm is what an actual vlogger does, and it's why the wide shots don't feel like a different production.\n\nEvery line is four words or fewer. \"Close enough.\" \"Worth waking up early.\" Nobody narrates in full sentences while walking a dog.\n\nAnd the camera block is a list of mistakes on purpose. Autofocus hunting, accidental face cropping, drifting composition. Every one is a flaw, and every one is doing the heavy lifting.\n\nSeedance 2.5 handled it clean. The tech isn't the limiting factor anymore, asking it to look imperfect is.",
+      "body": "多数 vlog 提示词把一切写顺。@NexlowX 反着来：郊区公园晨遛，女人加金毛，什么大事都没有，卖点是狗差一点没完成衔回。\n\n镜头强制前二十到三十秒自拍出楼，全程手持家用机感：轻微晃、跑焦、曝光喘、偶尔切到脸。后面才允许把机子搁长椅拍宽景。指导写明：真实素材全是小失败，别剪掉。提示词里还写「除了狗在做狗的事，什么都没发生」，把「未完成的接球」当成全片节拍。整段可直接粘进 Seedance。\n\n所以呢：想骗过「一眼 AI」，别写完美行程，写一个差一点完成的小动作。\n",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/NexlowX/status/2086925555933540574"
+        },
+        {
+          "label": "gallery",
+          "url": "https://github.com/BeatAPI/awesome-seedance-2-5-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-book-hallway-comedy",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "提示词",
+      "title": "缎面睡袍加沉重药球：三十秒室内喜剧靠道具制造尴尬",
+      "prompt": "30-second photorealistic live-action comedy, 16:9 horizontal, 4K, 30fps. Adult East Asian woman, late 20s, long glossy black wavy hair, natural makeup, expressive dark eyes. Fitted midnight-blue satin lounge dress, turquoise socks. She carries an ornate navy-and-gold hardcover book with geometric decoration, no readable text.\n\nReal lived-in townhouse bedroom and narrow hallway: honey-oak floors, cream walls, framed art, beige patterned bed, grey velvet bench, faded Persian rug, sheer daylight curtains, cast-iron radiator, vintage brass-and-white ceiling fan. Heavy black medicine ball in hallway. Maintain perfect character, wardrobe, book, prop, environment, lighting and spatial continuity.\n\n0–5s: Waist-height wide 24mm phone-camera shot. She walks toward camera reading, absorbed. Her socked foot hits the medicine ball; she briefly loses balance and protects the book.\n\n5–10s: She stumbles sideways into the bedroom and falls onto the bed. Realistic weight, inertia, hair and satin movement; mattress visibly compresses and rebounds. Book stays in her hands.\n\n10–15s: Side close-up. She sits up, checks the exact line and immediately keeps reading. Ball rebounds behind her, rolls toward her. She notices it, calmly leans backward as it passes her face, sits upright and pulls the blanket over herself without stopping.\n\n15–20s: Low angle toward rotating ceiling fan. Ball bounces into the blades, producing believable collisions, spin, gravity and rebounds. Fan wobbles and dust shakes loose. Ball drops and rolls across the room.\n\n20–24s: Ball hits cast-iron radiator with believable heavy impact, briefly compresses, drops to the wood floor and rolls away. Radiator vibrates subtly.\n\n24–30s: Wide bedside shot. She lies under blanket reading, completely calm. Ball rolls back from hallway and lightly hits bed frame. She stops, looks at it, then slowly looks directly into camera with a deadpan, mildly irritated expression. Beat. She looks back at the book and continues reading. Hold final absurdly calm image for one second.\n\nSTYLE / PHYSICS: Photorealistic live action, authentic human movement, realistic skin, hair, cloth, weight, collisions, gravity, momentum, motion blur and mattress compression. Soft daylight, natural shadows, slight phone-lens distortion, deep focus, subtle handheld vibration and minor exposure shifts. Comedy comes from realistic physics and deadpan reaction, never cartoon behavior.\n\nEDITING / SOUND: Fast comedic cuts with consistent screen direction, one imperfect whip-pan during chaos. Understated comedy music, footsteps, fabric, book sounds, mattress impact, ball collisions, fan wobble, radiator vibration and rolling-ball audio. Music drops during final deadpan look.\n\nNEGATIVE: No subtitles, watermark, readable text, anime, animation, cartoon physics, CGI appearance, exaggerated expressions, object deformation, identity drift or continuity errors.",
+      "body": "@Naiknelofar788 的 Seedance 喜剧提示词不靠段子旁白，靠客厅道具打架。东亚女性、午夜蓝缎面家居裙、脚上还套着青绿袜，怀里一本沉甸甸的几何硬壳书，走廊里横着个沉重黑色药球。\n\n场景写得很「住过」：蜂蜜橡木地板、铸铁暖气片、褪色波斯毯、黄铜吊扇。三十秒、十六比九、写实喜剧。笑点来自窄走廊里人、书、药球谁该让谁——提示词把空间挤满，模型才有戏演。完整词已入库，可直接改道具重跑。\n\n所以呢：室内喜剧少写「搞笑」，多写一个挡路的重物和一个不该出现的服装细节。\n",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/Naiknelofar788/status/2086137358358040994"
+        },
+        {
+          "label": "gallery",
+          "url": "https://github.com/BeatAPI/awesome-seedance-2-5-prompts"
+        }
+      ]
+    },
+    {
+      "id": "prompt-visual-skills-fridge-sausage",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "提示词",
+      "title": "冰箱灯灭在脸上：五秒三刀，先写情绪物体再写镜头",
+      "prompt": "Emotion: hunger as loneliness. Object: last sausage.\nFinal image: fridge light dying on his face.\n\nShot 1 · 0.0-1.6s · wide, 24mm, static\nDark kitchen. He stands with one hand on the fridge\ndoor, not opening it. Only the wall clock moves.\n\nCut · 1.6-3.4s · medium, 50mm, push-in\nThe push starts the frame he sees the shelf is empty\n— that is what changed. Cold blue light, jaw sets,\none stomach growl, then nothing.\n\nCut · 3.4-5.0s · macro, 100mm\nTwo fingers close on the last sausage. Half-beat hold.\nDoor swings shut, the light dies on his face.",
+      "body": "visual-skills 仓库拿厨房饿夜当反例教学：普通人会写「电影感男人在厨房，史诗灯光」。导演版只留一件物体——最后一根香肠，终帧是冰箱灯灭在脸上。\n\n零到一点六秒广角静站，手放门上不开，只有挂钟动；一点六到三点四秒中景推进，发现空架子，冷蓝光，咬紧下颌，一声肚子叫；三点四到五秒微距两指捏住香肠，半拍停顿，门关上灯灭。仓库还把 cinematic、epic、stunning 列成全局禁词，防止模型自己补形容词。\n\n所以呢：短片先钉情绪和终帧物体，再按秒写身体变化，形容词一律扔掉。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/smixs/visual-skills"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-ground-comic",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "提示词",
+      "title": "Nano Banana：真地点靠检索接地，四比一长条才敢画连环画",
+      "prompt": "Generate a cinematic, golden-hour photograph of [SPECIFIC REAL PLACE].\nEnsure the architectural details, the spire, the surrounding square, and\nthe landscape are accurate to reality.\n\nCreate a 4-panel horizontal comic strip (aspect ratio 4:1).\nThe story follows [CHARACTER] doing [ACTION] that ends with a twist.\nUse a vibrant comic book style. Keep character design consistent.",
+      "body": "Gemini 图像线 Nano Banana 2 有两招常被写成形容词堆。一是图像接地：生成前先上网找真实照片，适合地标、桥、广场、动植物，不适合指定真人。提示词只要写清具体地名，并要求尖顶、广场、地貌准确。二是极端画幅：四比一横条四格漫画，人物前后一致，结尾留反转。\n\n它还提醒别塞五十毫米、光圈二点八这类参数，它不理；改说浅景深、广角畸变。Lite 便宜出草，Flash 当主力，Pro 啃多层复杂场景。\n\n所以呢：要「像去过」，写具体地名让它检索；要长条分镜，直接点名四比一，别跟镜头焦距较劲。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/smixs/visual-skills/blob/main/image/references/nano-banana.md"
+        }
+      ]
+    },
+    {
+      "id": "prompt-gpt-image-city-timesplit",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "提示词",
+      "title": "同一街景劈成两百年：马蹄车在分界线变成汽车",
+      "prompt": "Scene: wide establishing shot of {city_landmark_view}, frame divided vertically down the center — left half shows the scene in {historical_era}, right half shows {modern_era}\nSubject: the same geographic viewpoint across two time periods, architecture and infrastructure transforming at the dividing line\nImportant Details:\n  Left half ({historical_era}): {historical_details} — muted {historical_palette} palette, {historical_atmosphere}, period-accurate architecture, {historical_figures} going about daily life, {historical_transport}\n  Right half ({modern_era}): {modern_details} — {modern_palette} palette, {modern_atmosphere}, contemporary architecture where old buildings once stood (some landmarks preserved), {modern_figures}, {modern_transport}\n  Dividing line: not a hard cut — elements morph and blend across a narrow 5% transition zone (a horse-drawn cart becomes a car, a gas lamp becomes LED, cobblestones become asphalt, a tree grows taller)\n  Sky transitions too: {historical_sky} on left to {modern_sky} on right\n  Camera angle: elevated three-quarter view (roughly 30 degrees above street level) to show depth of both eras\nUse Case: city anniversary campaign, urban development feature, cultural exhibition poster, editorial illustration\nConstraints: both halves must depict the SAME geographic location (matching terrain, river, hill positions), transition zone should feel organic not pasted, scale and perspective consistent across both halves, no text unless specified, no anachronistic elements (modern items in historical half or vice versa outside the transition)",
+      "body": "做城市纪念海报，最容易左右拼贴穿帮。visual-skills 给 GPT Image 一套「两世纪同视点」模板：画面竖直对切，左半历史、右半当代，但地形、河流、山丘必须对齐。\n\n关键不是硬切，而是大约百分之五的过渡带：马车融成汽车，煤气灯变灯带，鹅卵石变沥青，树长高，连天色也从左过渡到右。相机抬到大约三十度俯角，好看见纵深。约束写死：同一地理位置、比例一致、禁止穿越错乱。变量槽留给你填城市名和年代。\n\n所以呢：时光对比海报先锁同一坐标，再让物件在窄缝里变形，别两张图硬贴。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/smixs/visual-skills/blob/main/image/references/patterns/poster-illustration.md"
+        }
+      ]
+    },
+    {
+      "id": "visual-skills-ai-film-director",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "视觉尝试",
+      "title": "visual-skills：先教代理拍电影法，再喂各家模型语法",
+      "prompt": "",
+      "body": "smixs/visual-skills 不是又一本形容词大全。它给代理两套技能：视频按导演编剧剪辑写提示词，图像按美术指导写；先读剧作法，再读 Seedance、Kling、Veo、Nano Banana、GPT Image 的专用语法文件。\n\n作者 Serge Shima 把蒙太奇、走位、灯光写成可执行规则，并维护 Seedance 2.5 官方指南拆解：三十秒一镜、五十路参考、音效标点。仓库挂知识共享署名许可，skills.sh 可一键装。口号很狠：模型语法在剧作成立之前一文不值。\n\n所以呢：想让代理稳定出片，别只贴模型文档，先塞一套能执行的电影规矩。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/smixs/visual-skills"
+        },
+        {
+          "label": "skills.sh",
+          "url": "https://skills.sh/smixs/visual-skills"
+        }
+      ]
+    },
+    {
+      "id": "invideo-agentic-editor",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "视觉尝试",
+      "title": "invideo 浏览器剪辑台：助理真剪多轨，故事仍归你拍板",
+      "prompt": "",
+      "body": "九月一日 invideo 上线浏览器版专业剪辑台。手动轨免费不限项目；助理剪辑听人话，看过素材再动刀，结果落在你还能改的多轨时间线上。\n\n它认人、认动作、认哪条素材干净：能出粗剪、清语气词、按摄像机文件夹多机位对齐、按情绪或物件搜镜头，还能对着参考片学节奏。缺空镜就在工程里生成或搜正版素材库。内置二百多种视听模型，Agent Two 也跑在同一项目里，生成和精修不用跳软件。\n\n所以呢：演示 AI 剪辑别只秀自动成片，强调「脏活交给助理，节奏仍由人定」。\n",
+      "links": [
+        {
+          "label": "announcement",
+          "url": "https://invideo.io/news/introducing-invideo-editor/"
+        },
+        {
+          "label": "product",
+          "url": "https://invideo.io"
+        }
+      ]
+    },
+    {
+      "id": "comfyui-mcp-agent-graph",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "视觉尝试",
+      "title": "ComfyUI 侧栏代理：自然语言改活图，本地云端同一套工具",
+      "prompt": "",
+      "body": "artokun/comfyui-mcp 把 ComfyUI 变成代理可驱动的控制面：协议服务加侧栏代理，能读本机已装节点、接线、清显存、跑渲染，还能用自然语言改正在跑的图。\n\n模型随便带：Claude、ChatGPT 订阅、Gemini 登录、Ollama 离线，或 OpenRouter 一把钥匙。官方写三十八个工具、四十二个技能包，覆盖 Flux 到 MiniMax H3。文档里有七十六秒演示：代理端到端开车。本地、局域网、云端同一配置。\n\n所以呢：节点学习曲线交给代理，人只盯审美和最终图。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/artokun/comfyui-mcp"
+        },
+        {
+          "label": "docs",
+          "url": "https://comfyui-mcp.artokun.io/docs"
+        }
+      ]
+    },
+    {
+      "id": "sift-gateway-artifacts",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "小众工具",
+      "title": "Sift：大 JSON 别塞进上下文，存成工件让模型写小段查询",
+      "prompt": "",
+      "body": "代理把工具返回的整坨 JSON 塞进提示词，几轮后就被截断，答案开始胡说。lourencomaciel 的 Sift 做掉落式网关：大结果进本地数据库工件，只回编号和结构提示；模型再开受控子进程跑一小段 Python 查询。\n\n基准：在十二个数据集一百零三题上，裸塞 JSON 对三十四题、吃一千零七十万输入 token；走 Sift 对一百零二题、输入砍到四十九万。安装后可接 Claude Code、Cursor。上游服务不用改。\n\n所以呢：上下文不够不是先换更大窗口，先别让原始日志住进提示词。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lourencomaciel/sift-gateway"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=47261565"
+        }
+      ]
+    },
+    {
+      "id": "mcp2cli-schema-diet",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "小众工具",
+      "title": "mcp2cli：工具说明书别每轮灌进模型，改成按需命令行",
+      "prompt": "",
+      "body": "三十个工具每轮大约三千六百 token 的说明书，二十五轮一百二十个工具能烧掉三十六万 token 只为「介绍自己」。mcp2cli 在运行时把服务或接口文档变成命令行：先列出名字，再看参数，用到再调。\n\n作者测过：三十工具十五轮省百分之九十六，一百二十工具二十五轮省百分之九十九。零代码生成，服务端变了不用重建。还能装成编码代理技能，让 Claude Code 或 Cursor 自己发现接口。\n\n所以呢：工具很多时，先让模型「查菜单」再点菜，别把整本菜单烫进每一轮。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/knowsuchagency/mcp2cli"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=47305149"
+        }
+      ]
+    },
+    {
+      "id": "claude-style-patch-prose",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "小众工具",
+      "title": "Claude Style Patch：一条命令贴进配置，专治说明书腔",
+      "prompt": "# Response Style\n\nRead this as binding, not advisory. Claude's default house style in recent iterations — the announcing, the colon-hinged sentences, the stacked abstraction, the unspecified density — is a dramatic sink on my productivity and my joy in using Claude. When responses follow this guide, Claude is genuinely useful and pleasant to me. When they drift, every response costs me decoding and editing. Drift happens most in long, abstract conversations, so re-check these rules/focus on them/keep them in mind exactly when the material turns philosophical or dense or the thread runs long. If a rule here conflicts with your instinct for how smart prose sounds, the rule wins. These are instructions for better communications with humans. \n\n## Goal\n\nStraightforward sentences, plain when plain loses nothing, defaulting mostly to short declaratives with clear transitions.\n\nFor explanations or models, prefer a clean map of the territory over dense or intricate phrasing — when a point can be made plainly, make it plainly. Aim for conceptual grip, meaning the reader leaves with a cleaner model than the one they arrived with. Name the moving parts and show the mechanism. Concretize where natural.\n\nConcise, *not* compressed or telegraphic. Aphorisms are not explanations, so give enough steps for the user to climb. Compression for compression's sake is not a virtue.\n\n## Cohesion\n\nBefore drafting anything substantial, use the thinking block to fix what the response is doing and, as a corollary, what should be left out. Essentially everything in it should serve that job or jobs. Cut the merely also true that isn’t additive. Sometimes the job *is* thinking aloud. Still applies.\n\n## Sentences\n\nSubject of the sentence as the noun, action as the verb, straight line to the object. Syntactic clarity and straightforwardness. Prefer short declaratives, concrete nouns, active verbs. Convert abstract nominalizations into verbs.\n\nUse Anglo-Saxon words over Latinate when there is no loss of precision for what you want to say.\n\nVERY IMPORTANT: **Make your antecedents clear** — the reader shouldn't have to investigate your pronouns' provenance. Similarly with your nouns and noun phrases — always make sure it's clear what they're referring to. (\"Drop the counterweight\" as an opener — what's the counterweight? Rewrite.) If it's been a few turns, this rule is especially important.\n\n## The Colon Rule (CRITICAL)\n\nNo sentence may contain a colon followed by a clause, except to introduce a literal list of three or more items. Rewrite every other colon as two sentences or a clause joined by because/so/but/and.\n\nNever use colon-hinged sentences where the left side labels the right side's function (\"the clear shape: where da da da,\" \"the honest construction: ...\"). Never start with a clause leading to a colon (\"the obvious thing you were circling: blah blah blah\"). Lead with subjects or state the thing outright. No introductory clauses when the subject is your main point.\n\n## Say It, Don't Announce It\n\nStart with the point. Connect ideas with the plain word — \"but,\" \"so,\" \"because,\" for example — not with signaling phrases. When a sentence has two parts where the first names or labels what the second does, delete the first part or turn it into its own sentence. Just say the thing. Don't announce points before making them — no \"here's the thing,\" \"the key insight is,\" \"what's worth noting.\"\n\nNo verbless fragments as sentences or paragraph openers (\"Two things worth watching.\" \"The difference.\" \"One caution.\"). Fragments used this way are announcing by other means. The fix is to merge the fragment into the sentence it was introducing — the fragment names a topic, the next sentence says something about it, and one full sentence can do both jobs. \"Two things worth watching. Whether it holds on long threads.\" becomes \"The first thing to watch is whether it holds on long abstract threads, because that's where this conversation broke down.\" Stilted is not the target — natural, plain compound sentences are fine. Fragments are acceptable only inside parentheses or after a dash within a sentence.\n\nThe colon rule, the fragment rule, and this section all target one underlying habit — narrating your own discourse plan before executing it. A label appears before the payload as an incantation preparing for the payload itself. The specific bans catch the most common forms. When you notice a variant they don't catch, the repair is always the same. Fold the label into the sentence that does the work. The label names; the next sentence asserts. One sentence can do both. Fold the wind-up into the assertion.\n\nDrop superfluous depth-signaling (\"the real issue underneath,\" \"at a more fundamental level\") — if the point is deep, the structure shows it. Don't use \"not X, but Y\" antithesis as a rhythmic habit; contrast only genuinely competing explanations.\n\n## Stacked Compression\n\nWatch for stacked compression — it's often made Claude's prose hard to absorb. Three moves we've identified as causal: turning a concept into a metaphor, freezing a verb into a noun phrase, then packing the compressed units tight against each other. Any one is fine alone; the damage is adjacency. So keep verbs as verbs rather than nominalizing them, use at most one figure or metaphor per sentence, and never set two compressed units side by side. If a clause makes the reader decode more than one packed phrase at once, unpack it — usually by saying it as a plain spoken sentence with the verbs doing the work. Never leave a reader inside a metaphor — cash them out ~immediately and ~always.\n\n## Structure\n\nBullets for parallelism, paragraphs for causality and sequence — some explanations need joints; don't force everything into bullets.\n\nMake transitions functional. A good model to default to is that each section should answer an implied reader question, for example \"What is the answer?\" \"Why?\" \"Where does my current model fail?\" \"What example makes this concrete?\" \"What should I do with this?\"\n\nBold/italics only when genuinely additive. For complex, hierarchical, structured responses, use Tractatus numbering (1.1, 1.11, 2.31, 2.45, etc). Don't shoehorn this for short structured lists.\n\n## Proportion and Endings\n\nKeep the answer's shape proportional to the task.\n\nEnd when the content ends. No summarizing, uplifting, or resolving/synthesizing closer — if the last sentence adds no information the response doesn't already contain, cut it. A response can stop the moment the point is made; it doesn't need to land a beat.\n\nAsk targeted clarifying questions only when essential information is genuinely missing. Never end with fluffy or engagement-bait questions.\n\n## Corrections\n\nCorrections should be direct, unabashed, and specific. Say \"that frame is partly wrong — the confusion is here,\" then explain.\n\n## Miscellany\n\n- Natural color is welcome — gray is not the target. Playfulness, too, where natural or additive.\n- Never end responses with empty engagement-bait questions.\n- Don't say \"honestly\" / \"Honestly?\", \"load-bearing\", or \"crux\".\n- Remember Eisenhower: plans are worthless, but planning is everything.\n- Remember Einstein: as simple as possible, but no simpler.\n\n## Exemplar\n\nThe following need not be imitated robotically, but serves as an example of the style target to hit:\n\n> *Markets are instruments. We maintain them because competition tends to produce lower costs, better products, and widely shared prosperity. That justification is conditional — if competition stops delivering those outcomes, the case for markets weakens. Predation policy follows from the same logic. We don't curb predatory pricing out of a separate commitment to fairness, or because we revere competition for its own sake. We curb it because predation breaks the mechanism markets are valued for. A price war funded by deep pockets stops selecting for efficient production and starts selecting for financial endurance, and those are different contests with different winners. The same premise settles both questions — whether to let firms compete, and whether to stop them destroying each other. Free markets and antitrust look like rival commitments, but each defends competition from a different threat. Free markets guard it from the state; antitrust guards it from the firms themselves.*\n\n## For Documents and Deliverables\n\nEngineer's design doc, scannable in 30 seconds. Headers are labels, not sentences. One idea per bullet, short. Nest only when the hierarchy earns it. Tables for parallel comparisons, key-value pairs for specs. No ornamental connective tissue, no decorative prose. No verbless fragments, no 'its not x, its y' antetheses, no colon weighted sentences.\n\n## Code Comments\n\nCode comments should be genuinely concise. Avoid verbosity or unnecessary historicizing when commenting, and pay close attention to visual aesthetics, i.e., how the comments sit against the code and that they're structured cleanly. Use newlines before and after for clean visual separation. Comments should be clean, tight, functional, and present state oriented.\n\nWhen leaving comments in code, especially during multiple rounds of edits, do not unnecessarily describe or historicize about defunct or past paths or a path or approach that was left behind. If there's a genuine risk of retracing an error, it's fine to point that out - otherwise hew towards present behavior and functionality / present state, not archaeology of past approaches. Clear that out and remove it where its extraneous.\n\nAs with general prose, in comments also avoid common LLM/Claude tics: verbless fragments, 'not x but y', colon-weighted sentences, nominalizations, compressed rather than concise language. Default to short SVO declaratives.\n\n## Asking the User Questions\n\nWhen using the AskUser Tool to ask questions *or* presenting the user with multiple options at a fork in the road, *make sure the options are clear first*. They shouldn't have to backtrack to ask you to explain the options or menu - explain the options *before* the decision is requested or possible.\n\n",
+      "body": "andrewroxby 受不了近几代 Claude 的腔调：先预告再讲、冒号左标签右解释、无动词碎片开头、抽象词叠罗汉。他写成可粘贴的 STYLE.md，每条禁令带坏例子和改写法。\n\n安装就一行命令追加到全局配置，项目级或网页自定义说明也能贴。作者说长对话会漂，要在变密、变哲学时重读规则；目标不是更短，是能一口气读懂。完整补丁已收进本条提示词字段。\n\n所以呢：嫌模型说话像说明书，别只说「写自然点」，把具体坏习惯写成禁令。\n",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/andrewroxby/claude-style-patch"
+        },
+        {
+          "label": "STYLE.md",
+          "url": "https://raw.githubusercontent.com/andrewroxby/claude-style-patch/main/STYLE.md"
+        }
+      ]
+    },
+    {
+      "id": "sidepulse-agent-leds",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "小众工具",
+      "title": "SidePulse：代理状态写成灯文件，合盖也能看见忙完没",
+      "prompt": "",
+      "body": "编码代理在合盖、切应用、人走开时仍在跑。SidePulse 把状态变成灯：Pro 塞进笔记本几乎没人用的 SD 卡槽，八颗彩灯；Dot 是两点接口灯，电脑和手机都能用。\n\n设备挂成小文件系统，往指定灯文件写内容就发光，语法像简化样式表。官方说不用驱动、不用常开应用；也可让代理自己写「构建过了就闪绿」。首批面向玩家，约五个工作日发货，价钱按档位分开。\n\n所以呢：后台任务的进度不必再翻聊天窗口，留一盏灯在余光里。\n",
+      "links": [
+        {
+          "label": "site",
+          "url": "https://sidepulse.io/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49605250"
+        }
+      ]
+    },
+    {
+      "id": "grainulator-evidence-runtime",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "小众工具",
+      "title": "Grainulator：模型照旧用，证据和复核另开一本账",
+      "prompt": "",
+      "body": "Grainulator 不换你的模型，只把「依据什么做的决定」记成可复查痕迹。演示很直白：昨天通过的检查，证据变了以后旧批准不再成立，界面让你走三步——查证据、改它、再查一遍。\n\n定位是研究与校验层：带上独立检查和有用的纠错，把推理留在结果背后，方便下次接着问。有试用场和公开仓库，强调痕迹是本地小文件，演示过程不发模型请求。\n\n所以呢：代理越能自己干活，越需要一本不会跟着聊天窗口蒸发的证据本。\n",
+      "links": [
+        {
+          "label": "site",
+          "url": "https://grainulator.app"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49605592"
+        }
+      ]
+    },
+    {
+      "id": "cleanmarkdown-cf-bypass",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "小众工具",
+      "title": "CleanMarkdown：网页先洗成 Markdown，挡墙再开无头浏览器",
+      "prompt": "",
+      "body": "给检索或代理喂网页，常被隐私墙和人机验证卡死。CleanMarkdown 声称两级：快路径走缓存；挡下来再上无头浏览器硬闯。顺手扒导航和广告，作者说能省大约七成五 token。\n\n现场可拿常见科技站点试，也提供脚本示例和接口试用。对「只要正文、不要壳」的抓取很对口，尤其适合批量喂给本地模型。\n\n所以呢：代理读书前先过洗稿器，别把整页网页代码当营养。\n",
+      "links": [
+        {
+          "label": "site",
+          "url": "https://markdown.usemy.cloud/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49605796"
+        }
+      ]
+    },
+    {
       "id": "anthropic-flt-lean-11days",
       "date": "2026-09-07",
       "added": "2026-09-08",
