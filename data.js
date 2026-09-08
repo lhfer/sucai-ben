@@ -2,6 +2,188 @@ window.INTEL_DATA = {
   "updated": "2026-09-08",
   "items": [
     {
+      "id": "nissan-smyrna-amr-traffic",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "跨行业",
+      "title": "两台机器人堵在同一个货点：日产田纳西厂先学会指挥交通",
+      "body": "田纳西州士麦那车身车间里，两台无人搬运车曾同时被派到同一个点，当面撞上未来式堵车。日产制造总监 JS Bolton 对 Business Insider 说：当然希望开箱就完美，可现实不会。\n\n软件修好之后，这批 Rockwell OTTO 的自主移动机器人能自己充电，落伍了还会「叫替补」。最大的一台能驮大约四千一百九十磅，时速约四点五英里，用激光雷达和摄像头绕人开，不再靠地上磁条。叉车先把料架从月台送到中转区，机器人钻进架子底下，抬高两寸半，再送到焊接工位。整套计划分六期，完成后要接走现在六十四个叉车和牵引车司机干的活；人还在厂里，但原岗位没了，公司让他们去竞聘别的岗。\n\n所以呢：汽车厂真正急的是「零件怎么到工位」，不是会聊天的机器人。先学会别堵车，才谈得上省人。",
+      "links": [
+        {
+          "label": "Business Insider",
+          "url": "https://www.businessinsider.com/nissans-ai-robots-smyrna-tennessee-2026-9"
+        },
+        {
+          "label": "Digital Today",
+          "url": "https://www.digitaltoday.co.kr/en/view/100741/nissan-expands-ai-robots-at-smyrna-plant-shifting-parts-hauling-work-handled-by-64-workers"
+        }
+      ]
+    },
+    {
+      "id": "brightpick-dr-max-pharmacy",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "跨行业",
+      "title": "欧洲最大连锁药房再加四十四台：药仓拣货几乎不用人手",
+      "body": "布拉格一家药仓里，三十台 Brightpick Autopicker 已经能一天拣出大约两万件，人工拣货砍掉约百分之九十五，容量抬了四成，拣错几乎没了。物流总监 Rudolf Zurek 说，人从搬箱子改成了质检。\n\n八月中旬公司宣布：下半年再往捷克俄斯特拉发和斯洛伐克布拉迪斯拉发各塞二十二台，集团一共七十四台。俄斯特拉发那批专门给医院和门店补货；布拉迪斯拉发那批扛网上订单高峰。机器人在巷道里自己抓药、合单，仓库不用先大改结构。\n\n所以呢：医药仓要的不是「会说话的店员」，是错一件都不行的速度。客户愿意从九台扩到七十四台，比发布会更硬。",
+      "links": [
+        {
+          "label": "Brightpick",
+          "url": "https://brightpick.ai/brightpick-expands-partnership-with-dr-max/"
+        },
+        {
+          "label": "Automated Warehouse",
+          "url": "https://www.automatedwarehouseonline.com/brightpick-to-deploy-44-more-robots-with-dr-max-group/"
+        }
+      ]
+    },
+    {
+      "id": "lumos-mos2-mitsubishi",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "跨行业",
+      "title": "不在厂里翻跟头：Lumos 双臂工人上了三菱电机产线",
+      "body": "常熟三菱电机的 PLC 产线上，一台约一点六五米高的双臂机器人在做六面外观检查、推箱、拧螺丝、搬料。它叫 Lumos MOS2，公司故意不叫演示机，叫「AI Worker」。创始人余超说：客户不关心你会不会后空翻，关心成功率、节拍、部署时间和回本。\n\n上一代 MOS 已在那条线连续无故障跑过一千多小时。三菱先当客户开放质检、装配、分拣、搬运四类场景，再建联合实验室；二零二六年五月又领投了 A 轮，累计融资过十亿人民币。MOS2 双臂合计可负重大约五十公斤，占地约半平方米，能在窄巷里换工具干活。\n\n所以呢：工业机器人的下一关不是秀肌肉，是能不能在真实节拍里连续上班，还让客户愿意掏钱当股东。",
+      "links": [
+        {
+          "label": "RoboticsTomorrow",
+          "url": "https://www.roboticstomorrow.com/news/2026/08/31/lumos-robotics-launches-mos2-as-ai-worker-bringing-embodied-intelligence-to-the-factory-floor/27014/"
+        }
+      ]
+    },
+    {
+      "id": "pudu-shenzhen-robot-hotel",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "跨行业",
+      "title": "深中通道人工岛上，普渡要开一家「没有人打断」的酒店",
+      "body": "珠江口深中通道西人工岛上，普渡机器人和深圳文旅产业公司要合开一家全场景机器人酒店：前台、送物、清扫、餐饮、行李，全交给机器人。计划二零二七年正式开业，今年底先放开几间房和机器人入住、入室配送给公众试。\n\n酒店大约四十四间高端房，外加餐厅和健身房。普渡说会用自家的具身模型 PuduFM 1.0 和 PuduAgent，让接待、配送、清扫机器人共用一套「脑子」。联合创始人郭聪对新华社说：全场景意味着机器人深入每个环节，没有服务空档，也没有人打断。岛上本来就要做成机器人和旅游目的地，酒店只是第一块。\n\n所以呢：客房送餐机器人早就见过了。真正新鲜的是敢说「整家酒店不靠人顶班」，先拿几间房把翻车姿势跑出来。",
+      "links": [
+        {
+          "label": "New Atlas",
+          "url": "https://newatlas.com/ai-humanoids/luxury-hotel-staffed-robots-shenzhong/"
+        },
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/apac/news-releases/pudu-robotics-and-shenzhen-ctid-co-ltd-launch-the-worlds-first-full-scenario-robot-serviced-hotel-project-302786948.html"
+        }
+      ]
+    },
+    {
+      "id": "foxconn-nurabot-hospital",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "跨行业",
+      "title": "护士站少走三成路：鸿海 Nurabot 在台北荣总送药送检体",
+      "body": "台北荣总、童综合等医院里，鸿海的护理协作机器人 Nurabot 已经不只是展台样机。现场数据显示它一天能干七十五到八十项任务，靠送药、送检体等协助，把护理负荷大约压低三成。\n\nCOMPUTEX 和 NVIDIA GTC 台北上，鸿海还展了化疗药调配到病房配送的闭环：Yuyama 的调配设备、FARobot 在院内运药、Nurabot 送到护士站；手术室里还有和川崎重工一起做的刷手护士协作臂。另一套 CoDoClaw 想把乳腺癌筛查、心电图、眼底、冠脉等专科 Agent 串成统一界面。\n\n所以呢：医院要的不是会聊天的陪护，是少让护士在走廊上跑腿。真跑起来的是送药送检体这种「看得见的省脚」。",
+      "links": [
+        {
+          "label": "Hon Hai",
+          "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/2045"
+        }
+      ]
+    },
+    {
+      "id": "hai-robotics-1500-climb",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "跨行业",
+      "title": "欧洲时装仓一口气上一千五百台爬架机器人：每小时两万四千箱",
+      "body": "一家未具名的欧洲时装电商，要把新履约中心交给海柔创新：同一套系统里塞进一千五百多台 HaiPick Climb 爬架机器人，号称全球最大一单。仓区约三万平方米，一百二十万个双深货位，吞吐超过每小时两万四千个料箱。\n\n这家零售商在欧洲已经跑过多套海柔系统，这次是加码。欧洲区总经理 Peter Guan 说，客户把最大、最战略的仓交给你，才算真正认账。海柔八月还公布：全球签约的爬架机器人已过一万台，十二个国家有项目，八家客户扩容或复购。\n\n所以呢：服装电商拼的是旺季别爆仓。机器人不是「多了几台」，是整仓按一万五千级密度重新设计。",
+      "links": [
+        {
+          "label": "Retail SCL",
+          "url": "https://www.retailscl.com/exhibitor-news/hai-robotics-selected-deliver-worlds-largest-deployment-rack-climbing-warehouse-robots"
+        },
+        {
+          "label": "Hai Robotics",
+          "url": "https://www.hairobotics.com/news/haipick-climb-reaches-10000-robot-milestone-across-global-customer-projects"
+        }
+      ]
+    },
+    {
+      "id": "caterpillar-fieldai-jobsite",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "跨行业",
+      "title": "卡特彼勒找 FieldAI：工地每天都在变，通用机器人模型要上车",
+      "body": "九月四日，工程机械巨头卡特彼勒宣布和物理 AI 创业公司 FieldAI 合作：把工地与制造现场的运营数据，喂进 FieldAI 的机器人基础模型，先做自主巡检、工地数字孪生和风险感知。首席技术官 Jaime Mineart 说，未来取决于人的经验怎么和会开车的机器拼在一起。\n\n建筑机器人常栽在「场地一天一个样」。卡特彼勒看中 FieldAI 能在复杂工业环境里部署、且不绑死在某一台专用机上。CES 上卡特彼勒已展过智能挖掘机、装载机和推土机产品线；这次等于把软件大脑接到整机目录上。同期 Bedrock 的无人挖掘机已在内华达和得州工地干真活，行业气氛是一起往前拱。\n\n所以呢：重型机械厂不再只卖铁，开始买「能在乱工地上自己看路」的模型。下一仗是巡检和孪生，不是先无人化所有驾驶室。",
+      "links": [
+        {
+          "label": "Construction Dive",
+          "url": "https://www.constructiondive.com/news/caterpillar-partners-fieldai-equipment-automation/829708/"
+        },
+        {
+          "label": "Construction Digital",
+          "url": "https://constructiondigital.com/news/caterpillar-ai-collaboration-on-mining-and-construction"
+        }
+      ]
+    },
+    {
+      "id": "allianz-partners-ai-cuts",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "痛点",
+      "title": "安联旅行险总裁亲口说：一千五到一千八百人，就是因为 AI",
+      "body": "慕尼黑一场活动上，安联伙伴公司（Allianz Partners）首席执行官 Tomas Kunzmann 不再绕弯子：欧洲要砍一千五到一千八百个岗位，原因就是人工智能。部门两万二千多人里，大约一万四千人在电话里接咨询和理赔，正是生成式 AI 最容易顶掉的那一类。\n\n讽刺在同一栋楼里。几周前安联还被 Evident 评为二零二六保险 AI 指数第一，登记用例超过九百个；董事 Barbara Karuth-Zelle 说这是「同事被解放去做真正重要的事」。对被裁的人来说，「解放」听起来完全是另一个意思。集团首席经济学家 Ludovic Subran 同时警告市场对 AI 回报过于亢奋。\n\n所以呢：保险公司终于肯把「裁员因为 AI」五个字说出口。以后同行再写「技术变革」，大家会直接对照这个数字。",
+      "links": [
+        {
+          "label": "Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/allianz-confirms-hundreds-of-job-cuts-as-ai-reshapes-insurance-581696.aspx"
+        }
+      ]
+    },
+    {
+      "id": "wsib-train-ai-layoff",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "痛点",
+      "title": "安大略工伤局：员工先教 AI 对答案，随后自己收到裁员通知",
+      "body": "加拿大安大略工伤局（WSIB）一轮调整牵涉约五百六十六人。萨德伯里的客户服务代表 Sanjeev Kapoor 对 CBC 说，他们被要求核对 AI 给的政策号和日期对不对：「我们等于在训练 AI 抢走自己的饭碗。」他还说系统经常给出错误政策号。个案经理 Brittnee Gauthier 说，大家本来还挺兴奋新工具，直到发现它让自己显得多余。\n\n工会指控局里还在做面向雇主和工人的聊天机器人，想在几个月内替掉至少三成客服；WSIB 既不承认也不否认。官方说理赔摘要工具只是减轻行政负担，跟办公室合并无关。工会另指 Owl、Guidewire 等供应商已嵌进核心系统。\n\n所以呢：监管型理赔一旦让一线去「教」模型，裁员通知和错误政策号会一起来。先问准确率怎么量，再谈增效。",
+      "links": [
+        {
+          "label": "CBC",
+          "url": "https://www.cbc.ca/news/canada/sudbury/wsib-layoffs-jobs-cut-ai-insurance-tools-9.7324448"
+        },
+        {
+          "label": "Canadian Occupational Safety",
+          "url": "https://www.thesafetymag.com/ca/news/general/ai-chatbot-will-replace-call-centre-jobs-at-wsib-union-alleges/547814"
+        }
+      ]
+    },
+    {
+      "id": "acrisure-2250-ai-cuts",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "痛点",
+      "title": "全球第八大保险经纪砍两千二百五十人：CEO 信里直接写 AI",
+      "body": "密歇根大急流城的 Acrisure，五月二十日由联合创始人兼首席执行官 Greg Williams 发内部信：大约两千二百五十个岗位要在二零二七年前分批砍掉，约占全球编制百分之十一，主要落在美国。信里写明，技术、人工智能和数字平台正在改写客户怎么被服务。\n\n这是七个月内第二刀。二零二五年十月已因自动化裁掉约四百个会计后台。Williams 说，过去要几天几周的客户工作，现在能压到几分钟，公司必须继续加速，不能「怀念从前的做法」。分析认为先动的是理赔流转、监管报表、对账这类重复活，顾问式销售还留着。\n\n所以呢：保险中介的「AI 裁员」已经从会计室扩到前台服务。安联、Acrisure 接连点名，行业再难装成只是市场压力。",
+      "links": [
+        {
+          "label": "Insurance Journal",
+          "url": "https://www.insurancejournal.com/news/national/2026/05/22/871138.htm"
+        },
+        {
+          "label": "The Insurer",
+          "url": "https://www.theinsurer.com/ti/news/exclusive-acrisure-to-cut-2250-jobs-as-williams-ties-layoffs-to-ai-and-2026-05-20/"
+        }
+      ]
+    },
+    {
+      "id": "agentic-checkout-credit-blind",
+      "date": "2026-09-08",
+      "added": "2026-09-08",
+      "category": "痛点",
+      "title": "聊天结账黄了，真正丢的是犹豫：信贷模型看不见人了",
+      "body": "OpenAI 的站内 Instant Checkout 开了六个月就撤：一度承诺百万级 Shopify 商家，二月真正上线大约三十家；沃尔玛发现聊天里结账的转化率只有跳到官网的三分之一。很多人当热闹散了。\n\nPayPal 资深数据科学家 Varun Raj Duvalla 在 Village Voice 上说，看错信号了。Agentic Commerce 协议、AWS 的代理支付层、Visa 给代理发的卡还在往前铺。人越来越把比价和筛选交给软件，最后一键点在哪已经不重要。问题是：犹豫、回访、凌晨下单这些行为，本来是信贷模型最爱读的信号；代理一介入，流水变得又干净又没信息。他还指出几乎没人给交易打「人还是代理发起」的标签，模型照样打分，却分不清两个人是不是被同一工具抹平了。\n\n所以呢：购物按钮失败只是表层。底层风险是银行还在用「读人」的老办法，去读一台代理留下的干净账单。",
+      "links": [
+        {
+          "label": "Village Voice",
+          "url": "https://www.villagevoice.com/the-ai-checkout-failed-the-credit-problem-remains/"
+        }
+      ]
+    },
+    {
       "id": "prompt-seedance25-riverside-farewell",
       "date": "2026-09-08",
       "added": "2026-09-08",
