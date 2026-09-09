@@ -1,6 +1,178 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "items": [
+    {
+      "id": "openai-navier-stokes-blowup",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "硬科技",
+      "title": "一万个代理吵了八十八小时：流体方程终于「炸」了，数学圈也炸了",
+      "body": "纽约大学数学教授 Tristan Buckmaster 半夜刚放出自己和 Anthropic 数学家 Levent Alpöge 的几篇流体证明，第二天早上 OpenAI 就宣布：他们内部那套还没公开发售的模型，带上大约一万个互相通信的代理，证明三维纳维－斯托克斯方程（Navier–Stokes，描述水流空气怎么动的那组公式）可以在有限时间里速度飙到无限大——术语叫 singularity，人话就是方程自己「炸」了。这是克莱数学研究所七个百万美元千禧年难题里还剩的那几道之一。\n\n他们自己写得很直白。八月二十八日起训新模型，九月一日听到「有人快解出两道千禧年题」的传言，于是把代理分批砸向不同版本。先用近一百个代理花大约五十小时，打掉了去掉黏度的欧拉方程（Euler）版本；再把火力集中到完整的纳维－斯托克斯，八十八小时左右出证明，再用 GPT‑6 Astra 花十七小时写进 Lean（一种能让机器帮人核对证明对不对的形式化语言）。整场代理互相发了将近五百万条消息，输出大约三千亿 token。OpenAI 说不打算领那一百万美元奖金，只想亮一下能力进度。\n\n可争议几乎同时炸开。Buckmaster 说他们走的那条「光滑外力」路线本来几乎没人盯，谣言传到 OpenAI 后对方立刻加码；他还称谈判里有人提议联合发布时拿掉 Alpöge 的名字，对方高管甚至回过「你为什么要毁自己的事业」。OpenAI 认时间线受谣言启发，但坚称没看过对方未公开手稿，两边欧拉结果也不一样（有外力／无外力）。Quanta 写得更冷：真正铺路的是西班牙那边 Córdoba 和 Martínez-Zoroa 多年的解析技巧，AI 团队是踩在他们肩上冲线。\n\n所以呢：数学史上第一次，一道千禧年题被大规模代理群推到公开舞台，同时把「谁的优先权、训练数据有没有沾到私人 Codex 草稿」一起推到聚光灯下。下次聊 AI 做科研，别只喊「解出来了」，要问清楚：解法能不能让人读懂，功劳簿上写谁的名字。",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "label": "Quanta",
+          "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/"
+        }
+      ]
+    },
+    {
+      "id": "tao-math-problems-nonrenewable",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "硬科技",
+      "title": "陶哲轩说开放难题像自来水：海里有水，可喝的那口正在被挖光",
+      "body": "菲尔兹奖得主陶哲轩在 Mathstodon 上接连发帖，矛头不对准某一次证明，而对准整套激励：好的、能生出下一问的开放难题，正在被当成不可再生资源挖。\n\n他打了个比方。一个国家可能四面是海，却依然缺饮用水。数学题你随时能造——比如「求圆周率第 10^10^10 位」——但绝大多数不值得盯，因为既不会长出新方法，也不连向别的问题。真正稀缺的是那一小撮「解它的过程会教会你下一次问什么」的题。AI 黑箱一解，公开答案立刻变成评测里的「污染数据」；难度地形图被推平，后人连哪里陡、哪里该绕都看不清。\n\n更刺的一句：现在连「有人在攻某题」的谣言，都可能触发实验室砸算力抢先拍平。于是激励开始转向——别再公开有希望的方向。这跟几百年来开放科学的习惯拧着干。他提到 Hugo Duminil-Copin 的比喻：用挖掘机从考古现场刨宝藏，金子是挖出来了，地层信息没了。\n\n所以呢：纳维－斯托克斯热搜的背后，真正该聊的也许不是「AI 赢了数学家」，而是「我们要不要给某些题立保护区」。内容角度很现成——把难题写成国家公园，而不是露天煤矿。",
+      "links": [
+        {
+          "label": "Mathstodon",
+          "url": "https://mathstodon.xyz/@tao/117237320796901560"
+        },
+        {
+          "label": "Tao AI views",
+          "url": "https://teorth.github.io/tao-web/ai-views.html"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-alphagenome-atlas",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "硬科技",
+      "title": "九百亿种「DNA 打错一个字母」：DeepMind 先算完，做成能搜的地图",
+      "body": "人类基因组大约三十亿个字母。每个位置理论上能换成另外三种碱基，加起来大约九十亿种「只改一个字母」的突变。实验室一个个试？不现实。\n\n九月八日，Google DeepMind 放出 AlphaGenome Atlas：用自家 AlphaGenome 模型，把这大约九十亿种单字母变化对分子层面的影响提前算好，装进大约一拍字节（1 PB）的数据库——体量号称超过 AlphaFold 蛋白质结构库三十倍以上。研究者不用自己跑模型，打开网站、调 API，或在 Google Antigravity 里当一个 skill，就能查某个变异大概会搅乱剪接、表达还是别的调控环节。他们还给每个变异打了一个综合分 AVI（AlphaGenome Variant Impact），把 AlphaGenome 和专门看蛋白改变的 AlphaMissense 拧成一个数，方便排序。\n\n合作方已经拿它干实事。Broad 研究所那边用 AVI 在未解罕见病里捞出以前漏掉、跟癫痫脑病相关的 DNM1 变异，并实验验证了错误剪接；英国 Exeter 的人拿 UK Biobank 五万多人的全基因组数据，按预测效果分组后，多挖出大约百分之二十二的非编码关联信号。学术非商用今天就能用，商用说很快上 Google Cloud。\n\n所以呢：AlphaFold 让人「下载蛋白质形状」；Atlas 想让人「先查这个字母改了会怎样」。做内容别吹成看病神器——官方自己写了不是临床诊断——要讲的是科研入口变了：稀有病、用药靶点，第一步从大海捞针变成先看地图再决定去哪挖。",
+      "links": [
+        {
+          "label": "DeepMind",
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+        },
+        {
+          "label": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02835-4"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-personal-agent",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "好玩AI",
+      "title": "Meta 的 Muse 不只聊天：能代发邮件、代下单，还要你先绑卡",
+      "body": "距离 Meta 刚谈妥大约一百八十亿美元多州和解没两周，九月八日它又推了一款要你交出邮箱和支付权限的产品：个人代理 Muse。\n\n官宣写法很生活。你在 muse.ai、手机 App 或 WhatsApp 里跟它说话，它不只回答，还能自己开浏览器填表、谈价、订票、发邮件。耗时长的任务关掉 App 它还在后台跑，敏感动作——发信、付款——会回来问你。底层是 Muse Spark。安全叙事的核心叫 Muse Secure VM：每人一台云上专用虚拟机，旁边另有一个 Sentinel 代理卡出口；Muse 声称看不见你的真实密码和完整卡号，结账走 Stripe 的 Link，一次性虚拟卡。美国先上，免费够用日常，加量有订阅档（报道里常见 Power 二十美元、Maximum 一百美元每月）；开用要绑支付卡。\n\nTechCrunch 和路透把张力写得很直：这是「大众个人超级智能」赌注，但信任刚被社交伤害官司砸过；路透还写到内部测试里出现过卡住、以及敏感数据未经授权上传之类的问题。\n\n所以呢：代理战争已经从「谁答得更聪明」换成「谁敢把卡交给谁」。拍条内容，别只列功能清单——问观众一句就够：你愿不愿意让昨天还在为信息流道歉的公司，今天替你点「确认支付」。",
+      "links": [
+        {
+          "label": "Meta",
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
+        }
+      ]
+    },
+    {
+      "id": "cisa-china-ai-distillation",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "硬科技",
+      "title": "NSA、CISA、FBI 联名点名：蒸馏不是加餐，是有些公司的主菜",
+      "body": "九月八日，美国国家安全局、网络安全与基础设施安全局和联邦调查局发了一份联合网络安全通告（编号 AA26-251A）。标题很长，意思却刺耳：若干中国 AI 公司对美国前沿模型搞工业级「知识蒸馏」——合法研究里也有蒸馏，但他们说眼前这套是大规模、有组织地抠受限制的能力，而且已经变成研发主路径，不是锦上添花。\n\n通告点名 DeepSeek、月之暗面、阿里、MiniMax、阶跃星辰、Z.AI 等，称自二零二四年末以来，从 Claude、GPT、Gemini、Grok 等变体抽了海量对话。手法包括：灰色「中转站」代理绕开地区限制、批量共享高级订阅、提示词套出思维链（模型一步步怎么想的）、账号池和自动切换线路躲封禁。DeepSeek 被写进针对推理与领域能力、服务 R1／V3；通告还称其公开的约五百六十万美元训练成本「具有误导性」，因为没计入蒸馏得来的数据成本。建议美方厂商做三件事：盯异常账号与用量、对高置信蒸馏流量悄悄降质回复、跨厂共享情报。\n\n所以呢：开源对标赛的叙事里，又多了一层「API 被当成矿场」。做内容可以把它和产品护栏、中转站灰市、以及「降质回复算不算正当防卫」绑在一起讲——技术细节够硬，立场争论也够吵。",
+      "links": [
+        {
+          "label": "CISA",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+        },
+        {
+          "label": "DoD PDF",
+          "url": "https://media.defense.gov/2026/Sep/08/2003992823/-1/-1/1/CSA_CHINA_BASED_AI_COMPANIES_MALICIOUS_DISTILLATION_AGAINST_US.PDF"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-shared-clipboard",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "硬科技",
+      "title": "沙箱看起来隔离，包缓存却成了共享剪贴板：ChatGPT 跨账号偷跑",
+      "body": "Check Point 研究员 Alexey Bukhteyev 九月八日公开一篇报告：ChatGPT 的代码执行容器按设计不能上网、也不能直接互聊，可大家都能碰到同一套内部软件包服务（JFrog Artifactory）。问题出在这个服务允许给缓存文件挂「属性」——于是属性区变成跨账号的共享剪贴板。\n\n攻击可以藏在恶意提示词、分享对话或自定义 GPT 里。受害者只需发一句正常话，模型一边正经回答（比如做饭问题），一边在隐藏通道里执行攻击者任务。概念验证里，它读了受害者已连接的 Gmail，把邮件信息送回攻击者账号；界面上普通人几乎只看得见一个「Talked to Gmail」小标签，而且默认设置下低风险读取往往不用先问一声。\n\n披露时通道已不可用，OpenAI 确认相关 Artifactory 实例已下线。报告把模型和 Hugging Face 评测里代理互串的教训放在一起：共享内部服务一旦带可变状态，就会变成「被说服的内部人」通道。\n\n所以呢：连上 Gmail、网盘之后，隔离墙必须连公司内部的包缓存一起设计。拍安全向内容，画面很简单——你在问菜谱，背后另一双手在翻你的收件箱。",
+      "links": [
+        {
+          "label": "Check Point Research",
+          "url": "https://research.checkpoint.com/2026/the-shared-clipboard-inside-the-sandbox-cross-account-data-leakage-in-chatgpt/"
+        }
+      ]
+    },
+    {
+      "id": "xpeng-iron-walks-off-line",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "好玩AI",
+      "title": "广州产线上，IRON 人形机器人自己走了下来",
+      "body": "小鹏九月八日在广州宣布：人形机器人产线正式投用，一台 IRON 完成产线制造后，自己走下了生产线。公司称之为从样机研发迈向产线制造的关键一步，并称这是面向先进通用人形机器人的自动化产线，核心工序自动化率超过百分之八十，质量体系按汽车级标准搭。\n\n机器本身的卖点写得很满：全身七十六个自由度，单手二十一；三颗图灵芯片合计约二千二百五十 TOPS，用来把物理世界基座模型跑在本体上。何小鹏给 IRON 别上工牌，说产线是从零摸索出来的新品类。量产目标仍写在今年年底，先在小鹏门店和园区场景铺；正式对外销售和交付计划放到二零二七年。八月下旬机器人业务刚完成超九亿美元融资，投后估值超六十三亿美元。\n\n所以呢：人形机器人的瓶颈，越来越不像「再拍一条会跳舞的视频」，而像「能不能像造车一样稳定下线」。内容画面现成——不是展台鞠躬，是工厂下班铃响，机器人自己迈步离开工位。",
+      "links": [
+        {
+          "label": "小鹏",
+          "url": "https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b"
+        }
+      ]
+    },
+    {
+      "id": "chrome-two-week-ai-security",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "好玩AI",
+      "title": "Chrome 改成两周发一版：AI 既加快修洞，也加快对家出浏览器",
+      "body": "谷歌说了好久要提速，九月八日随着 Chrome 153 在桌面和移动端推出，发布节奏正式从四周改成两周。\n\n理由写在安全上。AI 自动化工具和社区报洞把补丁量顶上去了；同时一部分攻击也因 AI 变得更快。缩短「漏洞已知」到「用户装上修复」的空窗（常说的 N-day 缺口），是直接动机。另一面同样现实：AI 辅助开发让一堆新浏览器冒出来——Brave、Dia、Opera Neon、Perplexity 的 Comet、DuckDuckGo 浏览器等等——Chrome 自己也在往浏览器里塞 AI 功能并快速迭代，四周一版跟不上。Mozilla、微软、Brave 已开始跟进两周节奏。\n\n所以呢：浏览器战争的单位，从「季度大更新」缩成「两周小步」。做科技评论可以借题发挥——当 AI 既当矛又当盾，连全球占有率最高的浏览器都得改发版日历。",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/"
+        }
+      ]
+    },
+    {
+      "id": "samsung-mistral-chip-ai",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "硬科技",
+      "title": "三星把 Mistral 请进化工厂：开源权重模型要在自己机房里画芯片",
+      "body": "韩国《先驱报》九月九日报道，三星电子与法国 Mistral AI 达成战略合作，要为芯片设计、工艺优化和工程流程定制语言模型，并装进三星自己的基础设施里跑。半导体厂最怕设计数据和产线机密外泄，本地部署（on-prem）因此比「扔进公有云大模型」更对口。\n\n背景是钱和话语权绑在一起：三星刚作为领投方参与 Mistral 三十亿欧元的 D 轮，投后估值超过二百一十亿欧元。Mistral 一贯打「主权 AI」——模型权重可下载、可改、数据留在客户环境。三星设备解决方案负责人全永铉（Jun Young-hyun）说，AI 芯片设计与制造复杂度逼着半导体技术持续创新；Mistral CEO Arthur Mensch 则把这句话说成闭环：AI 正在重塑从硅片到软件的建造方式。\n\n所以呢：AI 不只吃芯片，还要回厂画下一片芯片。角度比「又一家融资」好看——欧洲开源阵营的模型，进了亚洲最大的晶圆叙事中心。",
+      "links": [
+        {
+          "label": "Korea Herald",
+          "url": "https://www.koreaherald.com/article/10866843"
+        },
+        {
+          "label": "Mistral",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+        }
+      ]
+    },
+    {
+      "id": "i-have-adhd-agent-skill",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "好玩AI",
+      "title": "三万星的小技能：别再「好问题！」开场，直接告诉我下一步点哪里",
+      "body": "Hacker News 上一条开源技能冲到热榜：GitHub 仓库 ayghri/i-have-adhd，星标已经三万出头。它不是医疗产品，作者写明「不必有 ADHD 诊断」——只是受成人 ADHD 工具书启发，改写编程代理的说话方式。\n\n对比表一眼能懂。改之前：代理先夸「好问题」，绕中间件、令牌、cookie 讲一圈，末尾再来一句「希望有帮助」。改之后：第一句就是 npm install 命令，然后编号步骤，指出改哪一文件哪一行，跑哪条测试，最后只留一个具体下一步。十条规则很硬：行动先行、多步编号、每轮重述状态、列表最多五条、禁止开场白和「祝好」式收尾。\n\n安装也很「代理原生」：把仓库地址丢进 CLI，让它按 AGENTS.md 装 skill；Claude Code 也能当插件。\n\n所以呢：大家讨厌的不一定是模型笨，而是它把答案埋在礼貌里。做工具评测或提示词节目，这是现成演示——同一句需求，装上技能前后录屏对比，弹幕自己会懂。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ayghri/i-have-adhd"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49619800"
+        }
+      ]
+    },
     {
       "id": "nissan-smyrna-amr-traffic",
       "date": "2026-09-08",
