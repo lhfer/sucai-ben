@@ -2,6 +2,214 @@
   "updated": "2026-09-09",
   "items": [
     {
+      "id": "samsung-medical-orchestra-surgery",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "跨行业",
+      "title": "手术室里两台人形助手：一台递刀，一台当助手",
+      "prompt": "",
+      "body": "外科医生说一声「刀」，旁边的人形机器人自己抓起器械递过去——这种场面，三星首尔医院准备在九月十六日公开演示。医院说，这是卫生福利部韩国版 ARPA-H 项目里的「ORchestra」手术室团队：和 Rainbow Robotics、Aidin Robotics 等一起，已经干了大约一年。\n\n演示会分两场。第一场看机器人自己抓器械，跟着主刀在监视器上的动作，切开、分离、缝合生物组织；一号机扮演巡回护士，二号机同时顶助手医生和护士的活。第二场改成开放手术模拟：递器械、稳住内窥镜画面、拉开组织，来宾还能上手摸一把。教授郑龙基说，机器人还不会自己判断病人状况后自动开刀，但能让人看见「帮手」到底能不能跟上整场手术的节奏。\n\n所以呢：手术室缺的不是更会聊天的模型，是夜里和急诊还能递稳器械的人手。韩国医院先把两台人形机绑进同一套流程，比单机秀动作更像真问题。",
+      "links": [
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/culture/2026/09/09/samsung-medical-center-unveils-humanoid-surgical-assistant"
+        }
+      ]
+    },
+    {
+      "id": "toyota-gearpal-line-diagnose",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "跨行业",
+      "title": "产线停机从前要五六小时：技师问一句，两分钟出答案",
+      "prompt": "",
+      "body": "丰田北美工厂里，一台机器突然停住，以前技师要翻手册、翻旧维修单、打电话问老前辈，诊断常常拖到五六个小时。现在他们可以走到旁边，用自然语言问 GearPal：这台机器怎么了、怎么修。系统把诊断记录、历史工单和维修指引翻出来，同一件事往往两到三分钟就有方向。\n\nGearPal 挂在内部平台 ToyotaGPT 上。企业 AI 团队大约三十五人，管制造、供应链、金融、经销商等全公司场景；上线代理已经超过五十个。过去做一个新代理要六个月、六名工程师，现在大约四天、一个人。老技师退休带走的经验，被收成可复用的「技能」塞进代理；产线还加了模型网关，主供应商挂了能切备用，免得聊天工具一断，整条线跟着瞎。负责人说，每个制造用例至少冲着六位数美元年省钱走，北美各厂加起来是百万级。\n\n所以呢：车厂最贵的不是模型分数，是停一分钟就烧掉的产线。谁能把「老技师脑子里的那本账」变成当场能问的东西，谁才真正把 AI 写进损益表。",
+      "links": [
+        {
+          "label": "LangChain",
+          "url": "https://www.langchain.com/blog/how-toyota-north-america-put-enterprise-ai-on-the-balance-sheet-with-deep-agents-and-langsmith"
+        }
+      ]
+    },
+    {
+      "id": "bigwave-space-factory-insulation",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "跨行业",
+      "title": "玻璃棉扎手又伤肺：模块房厂先让人形机去贴保温",
+      "prompt": "",
+      "body": "韩国模块住宅厂 Space Factory（也叫 Space Studio）的产线上，最先拿去交给人形机器人的不是拧螺丝，是贴玻璃纤维保温棉。这种材料形状不规则，传统工业臂很难抓；人干久了，呼吸道和皮肤都遭罪。九月八日，工业物理 AI 公司 BigWave Robotics 宣布，从二零二六年起逐步把人形机送进对方的生产和工地。\n\nSpace Factory 已经在厂里预制木结构模块，还和三星电子做过「三星 AI 模块住宅」。BigWave 说，先啃难自动化的异形工序，再往「关灯工厂」走；今年公司大约两成营收已来自人形相关业务，并供货给重工和汽车零部件厂。老板金玟敃把这件事说成：人形机从制造物流，跨进了建筑和模块住宅。同期公司还在冲科斯达克上市，八月累计营收约一百零六亿韩元，在手订单口径抬到四百一十亿。\n\n所以呢：工地自动化不一定先从会走路的演示开始，往往从「人最不想碰、机器又最难抓」的那一道工序下手。",
+      "links": [
+        {
+          "label": "Businesskorea",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=276389"
+        },
+        {
+          "label": "Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/2026090809370628061"
+        }
+      ]
+    },
+    {
+      "id": "gc-green-cross-ai-gmp",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "跨行业",
+      "title": "疫苗批次别再靠事后抽检：绿十字要给 mRNA 产线装实时质控",
+      "prompt": "",
+      "body": "九月八日，韩国绿十字（GC Green Cross）宣布拿下产业通商资源部的牵头课题：做一套「AI 疫苗制造波动控制与智能质量管理」系统。一起干的还有木浦大学、大邱天主教大学和全南生物产业振兴院，周期四年半，一路做到二零三〇年。\n\n战场放在和顺生物专门园区和绿十字和顺工厂的 mRNA-LNP 合规产线。目标不是多写几份报告，而是从原液到制剂整条链路，用连续过程分析和 AI 模型盯住批次之间的质量漂移，能预测、能报警。厂长李仁圭说，做成之后，下一次大流行来时，才谈得上又快又稳地放量。\n\n所以呢：药厂真正怕的不是「模型写不写得出论文」，是同一配方做出忽好忽坏的批次。把 AI 嵌进 GMP，比再开一场发布会更贴生产线。",
+      "links": [
+        {
+          "label": "Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/2026090809490304219"
+        }
+      ]
+    },
+    {
+      "id": "amr-labs-dongwon-pharmacy",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "跨行业",
+      "title": "两万五千种药当天出库：二十五台小车把拣错压到几乎为零",
+      "prompt": "",
+      "body": "韩国药企物流中心 Dongwon iFarm 里，巷道只有两米宽，SKU 超过两万五千种，还要当天按韩国药品优良供应规范出库。AMR Labs 的自主移动机器人在这里已经商用：靠三维视觉和激光雷达自己建图，地面不用贴二维码。车上还挂着亚克级精密称重、RFID 核对，并接上医保审查评估院接口，公司称拣错率压到低于万分之一，生产率抬了三成以上。现场跑着二十五台，九月再加五台到三十台。\n\n九月初，阿布扎比卫生政策与投资代表团走进这家仓。阿联酋正把制药和智能物流当成去石油化的重点，访客当场说这套精度可以直接搬到他们要建的先进医药流通设施里，并谈 Abdullah Group 层面的投资结构。AMR Labs 同时还拿下咖啡原料分销商 BNC International 的餐饮履约订单。\n\n所以呢：医药仓的门槛不是「会不会说话」，是错一件都不行。能把误差打到接近零的小车，比通用人形秀更值钱。",
+      "links": [
+        {
+          "label": "Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/2026090209472447608"
+        }
+      ]
+    },
+    {
+      "id": "zinova-tron2-tool-intelligence",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "跨行业",
+      "title": "不换专用机：一只双臂机器人自己支模、放钢筋、绑交叉点",
+      "prompt": "",
+      "body": "工地上很多人说：绑钢筋的机器早就有了，可它只会干这一件事，还得趴在轨道上。Zinova Labs 第一次公开演示「工具智能」时，换了思路——让深圳 LimX Dynamics 的 TRON 2 学会用工人手里那套工具，把缩小版「平躺浇筑再吊装」墙板流程从头走完：支模板、多层放钢筋、把交叉点绑牢，换工具、换高度，还是同一套手臂。\n\nTRON 2 双臂各七个关节，伸距约七十三厘米，定位精度半毫米，轮式和脚式还能切换。另一套演示干脆把上身拆下来，挂到重型工业臂末端，用大臂的力量和双臂的灵巧一起干：一块板扶住，旁边那台开枪钉；或者在框里抹平湿混凝土。Zinova 二零二五年才成立，目标先盯住宅、零售和数据中心，还嘴硬说到月球火星。眼下还没上真工地。\n\n所以呢：建筑自动化的难点往往不是再发明一台「只会绑钢筋」的专机，是教会一台机器换工具、连着干完好几道活。",
+      "links": [
+        {
+          "label": "Interesting Engineering",
+          "url": "https://interestingengineering.com/videos/a-robot-picked-up-real-construction-tools-and-built-a-wall-panel-by-itself"
+        },
+        {
+          "label": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/limx-and-zinova-put-tron-2-to-work-on-simulated-construction-sites"
+        }
+      ]
+    },
+    {
+      "id": "fanuc-imts-handwriting-kit",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "跨行业",
+      "title": "手写一张拣货单：发那科要让 AI 读完再指挥机械臂",
+      "prompt": "",
+      "body": "芝加哥 IMTS 二零二六九月十四日开幕。发那科美国展台和谷歌云合演一出：AI 代理读手写指令，再指挥机器人认件、定位、配齐零件。旁边的 CRX「Vibe Coding」展项用自然语言和生成式 AI 直接吐出 Python 和机器人程序。公司强调，AI 只坐在解释层，下面仍是原来的坐标、路径、碰撞约束和控制器，不是让大模型直接拧腕子。\n\n展台上还有双臂 CRX 靠视觉加力觉插连接器、无行星齿轮；另一套给移动中的零件拧螺栓，靠 Inbolt 跟踪和英伟达算力追着动。新的 R-50iA 紧凑直流控制器能直接吃二十四到四十八伏电池，给装在无人车上的协作臂省掉一层逆变器。报道也写明：现场还没给出编程耗时、误读率和量产误差，热闹归热闹，真刀真枪的数字要等展后再看。\n\n所以呢：工厂要的不是「会写代码的聊天框」，是手写单子变成受控动作的那一串闸门。谁能把读懂和不许乱动绑在一起，谁才配上产线。",
+      "links": [
+        {
+          "label": "Aerospace and Mechanical Insider",
+          "url": "https://aeromechinsider.com/2026/09/08/fanuc-integrates-ai-force-control-and-digital-twins-for-imts/"
+        }
+      ]
+    },
+    {
+      "id": "fnbo-verafin-agentic-aml",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "跨行业",
+      "title": "奥马哈银行把制裁审查砍掉一半时间：调查官先拿到标准底稿",
+      "prompt": "",
+      "body": "内布拉斯加的第一国民银行奥马哈（FNBO）管着大约三百四十六亿美元资产，反洗钱官 David Dawson 说得直白：以前调查员自己跨系统翻材料，每个人起点不一样，本身就是风险。银行上了纳斯达克 Verafin 的两名「代理分析师」——一个盯制裁和相关警报，一个做强化尽职调查（EDD，也就是高风险客户那套更深的背景核查）。\n\n结果是：制裁和 EDD 审查耗时砍掉约一半，腾出最多一半人力去做更整体的研判。AI 负责把材料收齐、按监管口径起草说明；人还是拍板要不要升级或放行。风险官 Nick Baxter 说，他们本来就用了多年 Verafin，再上一层代理不算跳远。厂商还把这类角色扩成一整支「代理人力」：制裁、欺诈、案件管理、监管报送，背后连着两千八百多家机构的联盟情报，却不互相裸传敏感数据。\n\n所以呢：银行合规真正痛的是「每个人翻卷起点不同」。先把起点对齐，比再买一个更会聊天的模型管用。",
+      "links": [
+        {
+          "label": "Nasdaq Verafin",
+          "url": "https://verafin.com/resource/fnbo-seizes-the-agentic-ai-advantage/"
+        },
+        {
+          "label": "UC Today",
+          "url": "https://uctoday.com/how-fnbo-cut-financial-crime-review-time-50-with-ai"
+        }
+      ]
+    },
+    {
+      "id": "harrison-ai-au-layoff-us-pivot",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "痛点",
+      "title": "联邦砸三千二百万留住本土，Harrison.ai 却裁澳洲人、去美国雇医生用自己的 AI",
+      "prompt": "",
+      "body": "澳大利亚医疗影像 AI 公司 Harrison.ai 读 CT 和 X 光，产品已进四十多个国家。去年融资估值近四亿美元时，联邦「国家重建基金」砸进三千二百万澳元，主席当时说是为了确保公司继续把运营留在澳洲。九月八日前后，ABC 和 ACS 报道：澳洲岗位已有人被裁，另一些人在内部改成「每个经理都是 AI 代理的球员兼教练」之后选择离开；同一时期，公司在美国开了 Frontier Radiology，雇美国医生用自家工具出报告。\n\n基金回应称知道这次调整，说公司从产品开发转向全球商业化，技能结构在变，并仍相信它会留在澳洲、服务全球。伦理学者却盯上另一头：医生拿钱用同一家公司的 AI，会不会更不敢质疑模型给出的意见。\n\n所以呢：纳税人以为买到了「本土岗位」，公司账本上买到的是「全球商业化」。医疗 AI 一旦自己又当裁判又当球员，冲突写在合同里。",
+      "links": [
+        {
+          "label": "ACS Information Age",
+          "url": "https://ia.acs.org.au/article/2026/taxpayer-backed-harrison-ai-cuts-jobs-in-australia.html"
+        },
+        {
+          "label": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
+        }
+      ]
+    },
+    {
+      "id": "korea-finance-union-ai-45day",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "痛点",
+      "title": "一万五千名金融从业者上街：AI 提效了，凭什么还不给四天半工时",
+      "prompt": "",
+      "body": "九月四日，首尔光化门世宗大道上，韩国金融产业工会拉起约一万五千人，举行约一年来首次总罢工。标语里有阻止政策性银行外迁、加薪百分之六，还有一条更刺耳：上四天半工作制。工会主席尹锡九说，金融公司因人工智能和数字化生产力上去了，成果该拿来缩短工时、再招年轻人，而不是让留下的人扛更重的活。\n\n他当场追问：二零零二年实行五天工作制以来，银行营业时间二十四年几乎没短过十分钟；现在大约百分之九十五的转账已在远程完成，AI 又在狂奔，为什么工时不能减。资方加薪只肯到百分之二点五，外迁名单尚未最终敲定，谈判卡死。\n\n所以呢：这不是「反 AI」游行，是工人抢着给效率发声——提效如果只进股东口袋，街上就会多一条「把时间还给我」的队伍。",
+      "links": [
+        {
+          "label": "Businesskorea",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=276240"
+        },
+        {
+          "label": "UPI",
+          "url": "https://www.upi.com/Top_News/World-News/2026/09/04/financial-workers-on-strike/8291788566332/"
+        }
+      ]
+    },
+    {
+      "id": "connecticut-cart-warn-ai-oct1",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "痛点",
+      "title": "康州十月一起：裁员纸上必须写清，是不是 AI 干的",
+      "prompt": "",
+      "body": "康涅狄格州五月通过的 CART 法案，十月一日先动刀的是裁员表格，不是聊天机器人。一百人以上雇主如果触发本州大规模裁员通知（WARN），必须写明：这次减员是否和公司使用人工智能或其他技术变革有关。写假了、躲着写，州检察长可按不正当商业行为追究；这张表还会进日后歧视诉讼的证据袋。\n\n它不禁止你用软件换掉一个班组，只逼你把原因写进政府档案。「其他技术变革」故意写得比 AI 宽，排班系统、自动化流水线都可能算。二零二七年十月还有第二波：自动就业决策工具要提前告知员工，且不能再拿「是 AI 决定的」当歧视抗辩。\n\n所以呢：以后再说「组织优化」，纸面上可能得老实勾选「和技术有关」。安静裁员的空间，被州政府撕开了一道口。",
+      "links": [
+        {
+          "label": "The Leveraged Years",
+          "url": "https://www.theleveragedyears.com/ai-regulation-news/connecticut-warn-ai-layoff-disclosure"
+        },
+        {
+          "label": "Davis Polk",
+          "url": "https://www.davispolk.com/insights/client-update/connecticut-enacts-sweeping-ai-legislation-addressing-multiple-ai"
+        }
+      ]
+    },
+    {
+      "id": "montefiore-nysna-ai-ur-nurses",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "痛点",
+      "title": "布朗克斯十二名核保护士被裁：工会说活被 AI 软件接走了",
+      "prompt": "",
+      "body": "纽约布朗克斯的蒙特菲奥里医疗系统里，十二名利用率审查护士收到裁员通知。她们的日常是读病历、跟保险公司对赔付口径——工会纽约州护士协会说，这些活将改由 AI 软件来做，医院发四十五天通知却没按合同先坐下来谈避免冲击的办法，也没履行「AI 导致减员必须协商」的技术条款。\n\n被裁护士 Ajita Mathew 担心模型会漏掉病历里的临床细微差别，影响患者报销。同事还在内部会上点名拟用的软件有数据泄露前科。医院政府事务高管 Joe Solmonese 回击称说法不准确、具有误导性，并说医院一直在为更好疗效投技术。全国护士联合会把这起案子当成较早一批「护士因 AI 被换掉」的合同战；凯撒三月罢工后的新合同里，已经写进专门的 AI 条款。\n\n所以呢：医院里最先被软件盯上的，往往不是床边输液的人，是读图表、跟保险吵架的那一桌。合同里有没有 AI 条款，此刻比口号管用。",
+      "links": [
+        {
+          "label": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/daily-labor-report/ny-nursing-union-fights-ai-layoffs-citing-technology-pitfalls"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/13/nurses-new-york-ai"
+        }
+      ]
+    },
+    {
       "id": "prompt-seedance-little-forest-farming",
       "date": "2026-09-09",
       "added": "2026-09-09",
