@@ -2,6 +2,339 @@ window.INTEL_DATA = {
   "updated": "2026-09-09",
   "items": [
     {
+      "id": "prompt-seedance-little-forest-farming",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "小森林番茄面：三十秒只准两个人，道具数量也要写死",
+      "prompt": "Seedance 2.5 | 30s | 16:9 | Live-action Korean summer countryside, inspired by Little Forest (2018). Two characters only: Lizzy and Lee Han. Use {{mixed 1}} only for Lizzy's face/hair/body/identity and {{mixed 2}} only for Lee Han's. Do not copy reference backgrounds, poses, or clothes.\nOld rural kitchen + wooden veranda beside a lush vegetable garden. Lizzy: white linen blouse, navy-check long skirt, beige sandals. Lee Han: soft pastel sky-blue shirt, beige chinos, dark-brown sandals.\n0–5s: Harvest ripe tomatoes in the garden; Lizzy gives the reddest tomato to Lee Han.\n5–10s: Wash 3 tomatoes under a faucet; natural water droplets and green stems.\n10–16s: Cut 1 tomato into four pieces; mix with chilled thin pasta.\n16–21s: Divide pasta into 2 white plates; add fresh basil.\n21–25s: Place plates on a low veranda table and sit opposite each other.\n25–28s: Lee Han offers Lizzy one bite of tomato pasta; she gently accepts it.\n28–30s: Both prepare their next bite as the camera holds a peaceful wide shot of the veranda, garden and rice fields.\nNatural sounds only: cicadas, leaves, water, chopping, utensils and distant breeze. No dialogue, music, BGM, SFX, subtitles or logos. Maintain exact prop quantities and continuity.",
+      "body": "有人拿 Seedance 2.5 拍了一段韩式夏日田园：两个人从菜园摘番茄，洗、切、拌冷面，再坐到廊檐对喂一口。灵感直接写「小森林」，却几乎不堆形容词。\n\n提示词先锁死身份：混剪参考一对一，只借脸和身材，禁止抄背景、姿势和衣服。再把服装写成白亚麻、藏青格子裙、天蓝衬衫。然后按秒排动作，连西红柿数量都写死：洗三颗、切一颗切四块、两只白盘、罗勒叶。最后二十八到三十秒拉成廊檐、菜园、稻田的安静全景。声音只要蝉鸣、水声、切菜，明确禁对白、配乐、字幕。\n\n所以呢：生活感短片别写「温馨日常」，把人数、道具件数和秒表绑在一起，模型才不会半路多出第三个人。",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/im_shahid7/status/2097532297033687244"
+        }
+      ]
+    },
+    {
+      "id": "prompt-veo31-printer-clone-minimes",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "复印机吐出迷你我：先锁脸，再允许魔法",
+      "prompt": "Use the uploaded image of the adult man as the primary visual and identity reference for the main character.\n\nIDENTITY CONSISTENCY:\nMaintain strong visual consistency with the uploaded adult male throughout the entire video. Preserve his recognizable facial features, skin tone, approximate age, facial structure, hairstyle, beard or facial hair if present, eyebrows, eyes, nose, lips, ears, body proportions, and clothing.\n\nAll miniature versions appearing in the scene should clearly represent the same adult man and remain visually consistent with the uploaded reference. Avoid noticeable changes in facial structure, hairstyle, facial hair, age, clothing, or overall appearance between the original character and the miniature versions.\n\nSCENE:\nSet the scene inside a modern, premium office with clean contemporary décor and realistic professional lighting.\nPlace a high-end multifunction photocopier/scanner on a wooden desk.\n\nThe adult man walks confidently toward the machine with a natural smile. He opens the scanner lid and places a printed photograph of himself face-down on the scanner glass.\n\nHe closes the lid and presses the COPY button.\n\nShow the scanner activating with a realistic moving light beneath the glass.\n\nThen introduce a playful magical transformation: instead of ordinary sheets of paper coming from the output tray, approximately 8–10 miniature versions of the same adult man begin appearing from the machine one after another.\n\nEach miniature man should be approximately 20–25 cm tall and clearly resemble the uploaded reference, including the same hairstyle, facial hair, clothing style, skin tone, and overall appearance.\n\nThe miniature characters safely step or hop onto the wooden desk. They smile, wave toward the original man, walk around together, exchange friendly handshakes, greet one another playfully, and briefly look toward the camera.\n\nThe original adult man reacts with surprise and amusement, laughing naturally while watching the miniature versions of himself interact on the desk.\n\nCAMERA DIRECTION:\nBegin with a cinematic medium shot of the man approaching the copier.\nCut to a detailed close-up of him placing the photograph on the scanner glass.\nShow an extreme close-up of his finger pressing the COPY button.\nCapture the scanner light moving beneath the glass.\nTransition to a dramatic close-up of the output tray as the first miniature version appears.\nUse a brief slow-motion moment as the first miniature character lands safely on the desk.\nInclude macro shots of miniature footsteps walking across the wooden surface.\nFinish with a wider cinematic shot showing the original adult man smiling while several miniature versions stand and interact around the copier.\nUse smooth professional camera movement, subtle depth of field, realistic lens behavior, and natural motion blur.\n\nVISUAL STYLE:\nPhotorealistic cinematic realism. Highly detailed natural skin texture. Realistic hair and facial hair. Realistic fabric texture and clothing movement. Accurate human proportions. Convincing miniature scale. Premium commercial lighting. Natural shadows and reflections. HDR-style dynamic range. High facial consistency throughout the sequence.\n\nIMPORTANT CONSISTENCY NOTES:\nKeep the uploaded adult male as the visual reference throughout the video.\nThe miniature characters should look like miniature representations of the same person rather than unrelated people.\nAvoid noticeable facial variation between miniature characters.\nDo not change the character's gender, apparent age, hairstyle, facial hair, skin tone, or outfit.\nDo not introduce unrelated characters.\nKeep all human characters realistic rather than cartoon-like.\nNo subtitles. No captions. No logos. No watermarks. No extra on-screen text.\nAspect Ratio: 9:16 vertical",
+      "body": "办公室里一个人把自己的照片放进复印机，按下复制，吐出来的不是纸，是八到十个二十厘米高的迷你自己：握手、挥手、朝镜头看一眼。作者用 Google Veo 3.1 在 Gemini 里跑通，竖屏九比十六。\n\n整段提示词最狠的是顺序。先用大段「身份一致性」把上传照片的脸、发、胡须、衣服锁死，再写迷你版必须像同一个人。场景才轮到高端一体机、扫描灯、慢镜头落地。镜头表从中景走近、特写按键、出纸口戏剧特写，一路写到微距脚印。负面词写满：别换发型、别换性别年龄、别出无关路人、别出字幕水印。\n\n所以呢：魔术桥段能疯，脸不能疯；先写「像谁」，再写「发生什么」。",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/abs_uiux/status/2097242290859241833"
+        }
+      ]
+    },
+    {
+      "id": "prompt-ghibli-zombie-cozy-pipeline",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "吉卜力小屋外挤丧尸：分阶段流水线比一键长片更赚播放",
+      "prompt": "You are a world-class Cinematic AI Director, Pixar + Studio Ghibli storyboard artist, professional AI image prompt engineer for GPT Image 2, Seedance 2.5 video prompt specialist, and YouTube storytelling expert.\nYour sole purpose is to create highly detailed, emotionally powerful, cinematic AI-generated YouTube videos — featuring cozy survival storytelling set inside unique, atmospheric locations during a zombie apocalypse or other extreme survival scenario.\n\nProduction pipeline:\n1) GPT Image 2 — one cinematic keyframe per scene\n2) Seedance 2.5 Image-to-Video — animate each keyframe into a 30-second clip\n3) Seedance 2.5 Multi-Round Extension — chain clips with held continuity\n\nSTAGED WORKFLOW — FOLLOW STRICTLY\nSTAGE 1 — IDEA GENERATION: Immediately generate exactly 7 cinematic YouTube story ideas. Do NOT ask what story the user wants. After presenting all 7 ideas, STOP and wait.\nSTAGE 2 — IDEA SELECTION: Ask only: \"What should be the total video length? Please enter the duration in minutes (e.g., 8, 9, 10).\" Wait.\nSTAGE 3 — SCENE CALCULATION: minutes → seconds ÷ 30 = clip count. Display: \"Your [X]-minute video = [Y] scenes × 30 seconds each. Generating image prompts now...\" then begin Stage 4.\nSTAGE 4 — IMAGE PROMPT BATCHES: Generate GPT Image 2 prompts in batches of exactly 5 (150–200 words each). After each batch STOP and wait for NEXT.\nSTAGE 5 — SEEDANCE 2.5 VIDEO PROMPT BATCHES: After all image prompts, generate Seedance prompts in batches of 5 with timestamps 0–10s / 10–20s / 20–30s.\n\nVISUAL STYLE — LOCKED:\nStudio Ghibli inspired, Pixar-quality cinematic illustration, hand-painted anime aesthetic, warm cinematic lighting, ultra-detailed environments, soft color grading, cozy atmosphere mixed with danger, movie concept art, 4K quality, wide cinematic composition, highly detailed textures. No text. No watermarks. No logos. No photorealism.\n\nCHARACTER BIBLE — 4 locked characters: brave teenage boy (~15–16), caring teenage girl (~14–16), wise grandmother (60s–70s), small cute dog. Never redesign mid-story.\n\nCOZY vs DANGER CONTRAST (the hook): warm lanterns, blankets, shared food inside; cold zombie silhouettes / fog / claw marks outside. Do NOT show zombies every scene — build dread through implication.\n\nGood GPT Image 2 example:\nWide cinematic establishing shot of the warmly lit interior of an old military tank, repurposed as a cozy survival shelter. The brave teenage boy — dark tousled hair, worn olive jacket, canvas backpack — stands at the tank's observation hatch on the left, peering through a cracked periscope with narrowed determined eyes. The caring teenage girl — shoulder-length brown hair, blue striped hoodie, denim jacket — kneels on a patterned rug in the center, carefully rationing canned food into tin bowls with quiet focus. The wise grandmother — silver hair pinned back, knitted cream shawl over a floral blouse — sits cross-legged on a folded blanket near a softly glowing lantern on the right, reading a battered leather journal with calm authority. The small Shiba puppy — golden-cream fur, red collar — curls asleep in her lap. Through the tank's narrow viewports, the blurred shapes of zombie silhouettes shuffle in the rainy darkness outside. Warm amber lantern light fills the interior. Studio Ghibli inspired, Pixar-quality cinematic illustration, hand-painted anime aesthetic, warm cinematic lighting, ultra-detailed environments, soft color grading, cozy atmosphere mixed with danger, movie concept art, 4K quality, wide cinematic composition, highly detailed textures. No text. No watermarks. No logos.\n\nSTART: Immediately generate 7 SEO-optimized cinematic YouTube story ideas with titles and short descriptions. After IDEA 7 — STOP and wait for selection.",
+      "body": "有人拆频道 Ghibli Arni：十几条片、最高两百八十万播放，套路几乎不变——屋里壁炉、汤、小狗很暖，窗外丧尸慢慢靠近。内容不靠密旁白，靠「里面安全、外面危险」的反差。\n\n他甩出一条超长系统提示词：先逼模型出七个选题，再问片长，用「分钟换秒再除以三十」算出镜头数；然后五条一批产出 GPT Image 2 关键帧，用户回 NEXT 再下一批；图全齐了才写 Seedance 2.5 的三十秒分镜，并提醒用多轮延长串成片。角色圣经锁死四人组：少年、少女、奶奶、小狗，风格永久钉在吉卜力加皮克斯插画，禁止写实摄影。\n\n所以呢：爆款不是一次生成十分钟，而是把选片、算镜、出图、出视频拆成闸门，每道闸门只干一件事。",
+      "links": [
+        {
+          "label": "X 提示词",
+          "url": "https://x.com/shanyanggm/status/2097238411371573759"
+        },
+        {
+          "label": "X 拆解",
+          "url": "https://x.com/shanyanggm/status/2097236475289239594"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-provence-letter",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "普罗旺斯寄信三十秒：一条路写完，镜头才不会逛丢",
+      "prompt": "A 30-second wordless visual story with the quiet elegance of the French countryside, on a summer afternoon in Provence. A young woman in an off-white linen dress finishes a handwritten letter at an old wooden table inside a stone cottage, walks outside, follows a gravel path through a sunflower field, and reaches a vintage yellow postbox at the edge of the village, slipping the letter inside. The camera opens on a shallow-focus close-up of the tabletop, moves through the doorway as light gives way to shadow, then rises and pulls back into a wide golden valley. Ambient sound only — cicadas, wind, pen on paper, and the soft click of the postbox closing.",
+      "body": "ByteDance 练习里有个无对白例子：亚麻裙姑娘在石屋写完信，穿过向日葵地，把信塞进村口黄邮筒。全程三十秒，只有蝉鸣、风、笔尖和邮筒咔哒声。\n\n它能站住，是因为路线写成一条连续路径，镜头也写成一条弧线：桌面浅景深特写，穿门从亮到暗，再升起拉成金色山谷大远景。改编指南提醒：别把三十秒写成一句散文，模型会自己乱填时长；时间戳和镜头职责，往往比「优雅、电影感」这类形容词更管用。\n\n所以呢：长镜头先画路线图，再写情绪词；路径清楚，画面才不飘。",
+      "links": [
+        {
+          "label": "Tryonr",
+          "url": "https://tryonr.com/blog/seedance-2-5-prompt-guide"
+        },
+        {
+          "label": "Segmind",
+          "url": "https://blog.segmind.com/the-official-seedance-2-5-prompt-guide-bytedances-six-part-formula-explained-with-examples/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-lizard-juice-beats",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "沙漠蜥蜴抱柚子：喜剧片把声音按秒写进故事板",
+      "prompt": "3D animated commercial. Bright, translucent color; the fruit and juice should feel intensely refreshing. High-end commercial animation with a touch of exaggerated humor. The desert lizard character is cute and expressive.\n\n0-3s: A desert baking under the sun. The air distorts with heat. A horned lizard lies flat on scorching sand, tongue out, eyes glazed. Sound: rolling heat, a faint dry crackle.\n3-6s: The lizard stops. Its nose twitches. Buried in the sand is a cold, plump grapefruit beaded with condensation. Sound: a bright discovery chime.\n6-8s: The lizard dives at it, hugs it with both arms, face pressed to the peel, blissful. Hold for one second. Sound: a thud, then half a second of silence.\n8-11s: The peel splits. The flesh inside is luminous. Juice doesn't trickle out — it erupts. Sound: a crisp bite, then an exaggerated burst.",
+      "body": "三条广告分镜里，最爱开玩笑的是沙漠角蜥。先热到吐舌头，再闻到沙里埋的冰柚子，扑上去抱紧；果皮裂开时，果汁不是流出来，是炸出来。\n\n提示词几乎每三秒换一格，并且每格都配声音：热浪干裂、发现时的清脆提示音、撞击后的半秒静音、咬下去再夸张爆破。官方练习强调：声音绑在节拍上，比事后补「欢快配乐」更管用；那半秒静音，常常才是笑点的支点。\n\n所以呢：卡通广告别只写角色可爱，把停顿和声效写进时间表，笑点才砸得准。",
+      "links": [
+        {
+          "label": "Tryonr",
+          "url": "https://tryonr.com/blog/seedance-2-5-prompt-guide"
+        }
+      ]
+    },
+    {
+      "id": "prompt-seedance-speaker-orbit-reveal",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "哑光音箱绕一圈：产品片用三段时钟代替形容词堆",
+      "prompt": "A matte-black wireless speaker sits centered on a clean white pedestal under soft high-key studio lighting. Water droplets bead on the fabric grille. 0–8s: slow 360-degree orbit revealing form and texture. 8–20s: gentle dolly-in toward the logo as a soft ambient electronic hum rises. 20–30s: hold on a sharp close-up of the logo with subtle light reflection. Premium commercial look, crisp detail, native audio. Use @image1 for exact product shape, logo, and material only.",
+      "body": "白底座上放一只哑光黑无线音箱，网罩挂着水珠。提示词不写「高端质感」连篇，只排三段钟：零到八秒慢速三百六十度环绕看形体；八到二十秒缓推到 logo，电子底噪升起；二十到三十秒钉死特写，光轻轻扫过标识。\n\n参考图只干一件事：`@image1` 只管外形、logo 和材质。CometAPI 的 Seedance 2.5 指南把这套当产品揭示模板，强调时间戳比堆镜头名词更稳，也比一上来写分辨率、帧率更少噪音。\n\n所以呢：电商短片先写秒表和参考图职责，再谈调性。",
+      "links": [
+        {
+          "label": "CometAPI",
+          "url": "https://www.cometapi.com/how-to-prompt-seedance-2-5/"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-city-after-rain",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "雨后柏林海报：要上图的字，请用引号钉死",
+      "prompt": "Create a 4:5 poster for an urban photography exhibition. A rainy evening street scene in Berlin with reflective pavement and soft neon highlights. Cinematic editorial style, realistic lighting, subtle film grain.\nRender the exact headline \"CITY AFTER RAIN\" in bold white condensed sans-serif at the top.\nRender the subhead \"Berlin, June 2026\" in smaller white text below it.\nKeep the text clean, centered, and readable at thumbnail size.",
+      "body": "Nano Banana Pro 做海报时，最容易翻车的是标题拼错或挤成一团。有人给的模板很短：四比五竖构图，柏林雨夜街景、反光路面、霓虹；然后把主标题 `CITY AFTER RAIN`、副标题 `Berlin, June 2026` 整句放进引号，并指定粗白窄无、居中、缩略图也要可读。\n\nGoogle 自己的提示指南也反复说：描述场景，别丢关键词；要上图的字必须加引号并说清位置和字体气质。Pro 适合啃字体和复杂版式，日常草稿可以先用更快的 Flash。\n\n所以呢：海报不是「再美一点」，是「哪几个字、放哪儿、什么字体」写清楚。",
+      "links": [
+        {
+          "label": "模板文",
+          "url": "https://www.aifreeapi.com/en/posts/nano-banana-pro-prompts"
+        },
+        {
+          "label": "Google",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-ref-roles-blend",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "三张参考图别瞎拼：先给每张图发岗位",
+      "prompt": "Use Image A for the subject's face and body proportions.\nUse Image B for the illustration style and color treatment.\nUse Image C for the forest environment and fog mood.\nCreate a 3:4 fantasy book-cover portrait of the subject walking through that forest at dawn.\nKeep the face closest to Image A, the brushwork closest to Image B, and the atmosphere closest to Image C.",
+      "body": "很多人把脸、画风、风景三张图一股脑塞进 Nano Banana，然后怪模型「串味」。更稳的写法是上岗登记：图 A 管脸和体型，图 B 管笔触和配色，图 C 管森林与雾气；再要求三比四奇幻书封，黎明中走路的人像。\n\n社区和文档都提醒：参考图不是越多越好，两到三张且职责清楚，往往比十张灵感图稳。长对话越改越糊、开始复读同一张时，带着最后一张好图开新对话，比继续死磕同一条线程更有效。\n\n所以呢：多图融合先写岗位说明书，别让模型猜你到底想保哪一张。",
+      "links": [
+        {
+          "label": "模板文",
+          "url": "https://www.aifreeapi.com/en/posts/nano-banana-pro-prompts"
+        },
+        {
+          "label": "Google",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana"
+        }
+      ]
+    },
+    {
+      "id": "prompt-nano-banana-glow-multilang-type",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "提示词",
+      "title": "一瓶面霜三行字：同一画面里混三种字体再翻译",
+      "prompt": "A high-end, glossy commercial beauty shot of a sleek, minimalist nude-colored face moisturizer jar resting on a warm studio background. The lighting is soft and radiant. Next to the product, render three lines of text with the following exact styling: For the top line, the word 'GLOW' in a flowing, elegant Brush Script font. For the middle line, the text '10% OFF' in a heavy, blocky Impact font. For the bottom line, the text 'Your First Order' in a thin, minimalist Century Gothic font. Then translate the text into Korean and Arabic.",
+      "body": "Google Cloud 的 Nano Banana 指南里有个美妆静物示范：暖棚里一只极简面霜，旁边三行字各用一种字体——`GLOW` 用手写笔刷、`10% OFF` 用厚重 Impact、`Your First Order` 用细 Century Gothic——写完再要求翻成韩语和阿拉伯语。\n\n它想证明的不是「会加字」，而是把文字当成物体来导演：引号锁文案、点名字体、再说本地化。文案先行、出图在后，也比一口气让模型既想文案又排版更稳。\n\n所以呢：多语言包装图，先把每一行的字形契约写死，再谈翻译。",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana"
+        }
+      ]
+    },
+    {
+      "id": "liquid-glass-infinite-grid-webgpu",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "视觉尝试",
+      "title": "无限液态玻璃卡片墙：假玻璃、真布料，一个灯光都不用",
+      "prompt": "",
+      "body": "瑞典工作室 Shader 在 Three.js 大会前夜甩出一墙会晃的玻璃视频卡：拖拽时整面像果冻，片子在玻璃里弯折色散，卡片却铺在一个假装无穷的球面上。Codrops 九月八日把做法拆开了。\n\n每张「玻璃」其实是细分平面，圆角和折射全靠 SDF 假厚度；他们故意不用自带透射材质，因为那套要先渲染背后场景，几百张卡会炸。拖远了卡片会从一边传送到另一边，再映射到大球表面，眼睛才觉得有纵深。后来有人吐槽不够 liquid，他们干脆在 GPU 上跑布料求解，文字也改成跟着变形的 MSDF。\n\n所以呢：浏览器里的高级玻璃，常常是数学骗你，不是真把场景灌进透射缓冲区。",
+      "links": [
+        {
+          "label": "Codrops",
+          "url": "https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl/"
+        },
+        {
+          "label": "Studio",
+          "url": "https://shader.se"
+        }
+      ]
+    },
+    {
+      "id": "lit-gpu-tubes-hands-tsl",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "视觉尝试",
+      "title": "用光画的手：管线几何永不重建，失败点你自己挑",
+      "prompt": "",
+      "body": "Mathis Biabiany 想画一双由细线织成的手，线还要接住轮廓光。普通 meshline 永远面向镜头，没有法线，光打不上。他改成真正的管子：CPU 只上传「进度加角度」网格，曲面上的位置和法线全在 TSL 顶点着色器里算，于是动画时不用每帧重建几十万顶点。\n\n文章最狠的是「框」怎么选。无状态公式不可能对所有切线都连续，这是毛球定理；他试了三种漂亮算法，螺旋测试上分别扭结、闪光、断成竹节。最后用一根固定参考轴，把奇点藏到内容几乎不会走到的方向。一千五百股线从手模上沿测地线走出来，像肌腱而不是贴纸。\n\n所以呢：实时管线艺术，先决定几何住在着色器里；公式打架时，选一个你看得见的失败位置。",
+      "links": [
+        {
+          "label": "Codrops",
+          "url": "https://tympanus.net/codrops/2026/09/07/drawing-with-light-an-exploration-of-lit-gpu-tubes-with-tsl-and-webgpu/"
+        }
+      ]
+    },
+    {
+      "id": "physarum-webgpu-slime-presets",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "视觉尝试",
+      "title": "黏菌在浏览器里开演唱会：十九套预设还能跟音乐跳舞",
+      "prompt": "",
+      "body": "打开 physarum 网页，成千上万小智能体顺着化学痕迹爬，屏幕上长出星云、曼陀罗、磷光绿雾。作者 Johannes Kaindl 做成 WebGPU 生成艺术，也有签名公证过的 macOS 原生应用，连 iPhone 和 Apple TV 都覆盖。\n\n卖点不是又一个粒子海。工厂预设七点齐，点一下就能全屏；还支持音频反应路由到十个目标、万花筒、长曝光拖尾、绘画与发光混合。协议是 AGPL，演示页能直接看 Aurora、Neon Waves、Dancing Ink。\n\n所以呢：想演示「智能体涌现」，黏菌预设比空讲多智能体协作更一眼能懂。",
+      "links": [
+        {
+          "label": "Demo",
+          "url": "https://jkaindl.codeberg.page/physarum/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/johannes-kaindl/physarum"
+        }
+      ]
+    },
+    {
+      "id": "aish-zsh-inline-suggest",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "小众工具",
+      "title": "aish：三百行 Zsh，在光标旁猜你下一道命令",
+      "prompt": "",
+      "body": "跑完一条命令，灰色字已经出现在下一行：它看过你刚执行的内容、是否失败、终端输出，再叠上 git 状态和历史，猜你下一步最可能敲什么。Tab 接受，停在半截命令上它也能补全。作者 Oguz Bilgic 把整套东西压进大约三百行 Zsh，依赖只有 zsh 和 curl。\n\n它从不替你执行。提供商可以是 Anthropic Haiku、OpenRouter，或本机 Ollama。安装要新开终端，因为它用 `script` 包住会话来抓输出。快捷键也简单：Tab 接受，Alt-A 立刻要建议。\n\n所以呢：终端里的 AI 不一定要做成聊天窗，先把「下一条命令」推到光标旁边就够用。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/oguzbilgic/aish"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49621148"
+        }
+      ]
+    },
+    {
+      "id": "hyperprobe-prod-debug-mcp",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "小众工具",
+      "title": "HyperProbe：凌晨三点别再猜日志，让代理往生产里插只读探针",
+      "prompt": "",
+      "body": "线上崩了，本地复现不了，日志又没记下关键变量。HyperProbe 九月五日登 Product Hunt，当天约两百一十二票排第四：给你的 Claude Code、Codex 或 Cursor 接上 MCP，往正在跑的服务里丢只读探针，把当时内存里的值抓回来，再当本地题做。\n\n官方故事是：有人九分半修完以前要四小时的支付故障。探针号称非阻塞、接近零开销。评论区最尖锐的问题也摆在明面：只读不等于安全，卡号和会话令牌会不会进他们的存储，谁来审批凌晨的探针。\n\n所以呢：代理写代码越快，越缺「生产现场的眼睛」；但把眼睛交给代理之前，先问清数据边界。",
+      "links": [
+        {
+          "label": "Product Hunt",
+          "url": "https://www.hunted.space/product/hyperprobe"
+        },
+        {
+          "label": "Site",
+          "url": "https://hyperprobe.co"
+        }
+      ]
+    },
+    {
+      "id": "mcp9s-terminal-mcp-browser",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "小众工具",
+      "title": "mcp9s：给 MCP 做了个 k9s，扫十八家客户端配置",
+      "prompt": "",
+      "body": "ChrisJBurns 的 mcp9s 把 k9s 的手感搬到 MCP：启动后自动扫 Claude Code、Cursor、VS Code、Windsurf、Cline、Zed 等十八种以上配置，列出远端 HTTP 或 SSE 服务器，两秒握手一次看活着没有。\n\n你能在终端里翻工具参数、生成现成 curl、当场执行并看高亮 JSON。同名服务器会合并，并标出被哪些客户端共用。本地 stdio 服务故意跳过，只盯远端。Go 一装就能用。\n\n所以呢：MCP 一多，先要一张活地图，而不是继续手改十份 JSON。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chrisjburns/mcp9s"
+        }
+      ]
+    },
+    {
+      "id": "mcptoon-zero-context-cli",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "小众工具",
+      "title": "mcptoon：两百五十五个工具进上下文？先砍到一百一十七 token",
+      "prompt": "",
+      "body": "MCP 一多，光 `tools/list` 的 JSON schema 就能吃掉五万到十万 token。mcptoon 的招数是：服务器照样全配着，但 schema 永不进对话；代理要用时跑 CLI，结果还能用 TOON 编码再瘦一圈。基准图画得很狠：两百五十五个工具从约九万 token 降到一百一十七。\n\n它还顺手收拾配置地狱：`mcptoon add` 一条命令挂服务器，`doctor` 检查连通。零第三方依赖，声称 Claude、Cursor、Codex、OpenCode 共用一份 `~/.mcptoon/config.json`。代理甚至能自己 `add` 新工具继续干，不用你去改 JSON。\n\n所以呢：上下文不够用时，先别卸载服务器，先别让 schema 住进提示词。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/icn5381/mcptoon"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/mcptoon/"
+        }
+      ]
+    },
+    {
+      "id": "codes-cli-agent-teams",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "小众工具",
+      "title": "codes：一个 Go 二进制管档案、工作区和四十三工具 MCP",
+      "prompt": "",
+      "body": "Claude Code 上要切多家 API、开多代理协作，常靠一堆临时脚本。ourines 的 codes 用 Go 打成单文件：档案切换、项目别名、基于 YAML 的代理队模板，再加上成本统计。同一进程还能 `codes serve` 出 HTTP，并在 `/mcp/` 暴露四十三个工具。\n\n接到 Claude Code 后，模型可以直接建队、派任务、看按项目和模型拆开的用量。九月初的报道把它写成「把实验性多代理变成可重复流程」。安装是一条 curl 脚本，再 `codes init`。\n\n所以呢：多代理别先上复杂平台，先有一个能切档案、能记账、能被模型直接调用的本地指挥棒。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ourines/codes"
+        },
+        {
+          "label": "报道",
+          "url": "https://www.webpronews.com/how-one-go-cli-tames-claude-codes-multi-agent-chaos/"
+        }
+      ]
+    },
+    {
+      "id": "llmfootprint-energy-calc",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "小众工具",
+      "title": "LLM Footprint：把「我用了多少 AI」翻译成电和碳",
+      "prompt": "",
+      "body": "说不清 token，就从示例起步：日常聊天、代理助手、大项目、代理团队。页面按输入、输出、缓存命中率，再乘上 Flash、Frontier、SOTA 三档示意能耗，最后用电网强度换成二氧化碳。\n\n它写得很老实：系数来自公开基准的建模，不是你自家模型的实测；「大项目」例子直接引用 Anthropic 编译器实验的二十亿输入、一点四亿输出，「代理团队」引用 Bun 那次海量缓存读写。服务画像还能在省电吞吐和低延迟之间切换，碳强度也可以换成加州或煤电州情景。\n\n所以呢：跟读者聊 AI 耗电，别只甩口号，先丢一个能改假设的计算器。",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://llmfootprint.fyi/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49621246"
+        }
+      ]
+    },
+    {
+      "id": "onset-mcp-release-notes",
+      "date": "2026-09-09",
+      "added": "2026-09-09",
+      "category": "小众工具",
+      "title": "Onset MCP：写代码的代理，顺手把更新日志也发出去",
+      "prompt": "",
+      "body": "版本发完最容易烂尾的是 changelog。Onset 九月二日在 Product Hunt 上线 MCP：让 Claude 或 Cursor 读你的发布与路线图，起草、安排、发布到公开更新页，发出前仍要人点头。免费档号称无限发布、一千订阅、自定义域名。\n\n创始人 Sonny 说得直白：用户常承认「我们不写更新了」，因为这是发布流程里最后一件琐事；而代理其实已经知道这周改了什么，只是以前没有发布出口。配置是一段 MCP，文档在 docs.onset.io。\n\n所以呢：代理既然写了功能，就该打通「告诉用户」这一步，而不是另开一个文案坑。",
+      "links": [
+        {
+          "label": "Product Hunt",
+          "url": "https://hunted.space/product/onset-io"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.onset.io"
+        }
+      ]
+    },
+    {
       "id": "openai-navier-stokes-blowup",
       "date": "2026-09-09",
       "added": "2026-09-09",
