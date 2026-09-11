@@ -100,6 +100,44 @@ window.INTEL_DATA = {
       "prompt": ""
     },
     {
+      "id": "deepseek-v4-1-flash",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "DeepSeek 新 Flash：五千五百亿参数，干活时只叫醒一百六十亿",
+      "body": "深度求索大约九月十日在 Hugging Face 挂出 DeepSeek-V4.1-Flash，MIT 协议开源权重。它是个会看图的混合专家模型：骨干大约五千五百二十亿参数，可真正算每个词时，预填大约只激活八十亿，生成大约一百六十亿；上下文能拉到一百万 token。\n\n他们把键值缓存压到大约每 token 八百九十字节，大概是上一代 Flash 的四分之一，好让「读很长材料再动手」的代理不那么烧钱。官方表上，Terminal-Bench 2.1 通过率百分之九十点六，压过 Opus 5.0 和 GPT-5.6 Sol；DeepSWE 1.1 解决率百分之七十四点二。思考强度还能在一到一百之间拧旋钮。\n\nArtificial Analysis 给它智力指数四十分、大约每秒一百九十四 token，价大约每百万输入零点三美元、输出一点二美元。\n\n所以呢：开源阵营又在证明一件事——总参数吓人没关系，关键是「每次只叫醒一小撮」，账单才跟得上代理狂跑。",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+        },
+        {
+          "label": "Artificial Analysis",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "unitree-unifolm-wla-1",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "宇树一个六B模型包六十四个活：桌面到全身一起干",
+      "body": "宇树科技九月十日宣布开源新一代人形基座模型 UnifoLM-WLA-1.0。参数大约六十亿。项目页写：真机数据大约两千五百小时，单个模型统筹六十四个任务——五十四个桌面操作，十个全身移动操作；两指夹爪和多种五指灵巧手都能接。\n\n它前面还有个「具身推理」骨干，建在通义千问视觉语言模型 Qwen3-VL-4B 上，训练样本超过五百万，一边学指点、检测、轨迹，一边保住普通图文能力，再叠上以交互为中心的世界建模。官方称多项开源评测领先，并可比肩部分闭源。\n\n页面上代码、权重、数据仍标着即将放出，但公司公开口径是「完全开源」。\n\n所以呢：人形竞赛正从「会走路的演示」转到「一个脑子能不能换手、换场景还接着干」——这才是能拍成长内容的点。",
+      "links": [
+        {
+          "label": "Unitree",
+          "url": "https://unigen-x.github.io/unifolm-wla.github.io/"
+        },
+        {
+          "label": "Gate",
+          "url": "https://www.gate.com/news/detail/unitree-robotics-open-sources-unifolm-wla-10-embodied-foundation-model-24163030"
+        }
+      ],
+      "prompt": ""
+    },
+    {
       "id": "cognition-rsa-260-devin",
       "date": "2026-09-10",
       "added": "2026-09-10",
