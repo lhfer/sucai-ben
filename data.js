@@ -138,6 +138,44 @@ window.INTEL_DATA = {
       "prompt": ""
     },
     {
+      "id": "xiaomi-robotics-u0-sep",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "小米机器人世界模型再放码：四B权重和训练脚本一起丢出来",
+      "body": "小米机器人团队九月十日继续给 Xiaomi-Robotics-U0 添货：放出约四十亿参数档和 Sequence 权重，并把分布式训练（FSDP）代码开源。这条线是面向「具身世界」的基础模型，从 EMU3.5 起步，能做场景生成与编辑、文生图、视频和多模态穿插生成。\n\n仓库在 GitHub 的 XiaomiRobotics/Xiaomi-Robotics-U0。他们还推 FlashAR 加速：一块 H20 上，一千零二十四边长的文生图大约五点四四秒一张，比慢速自回归eager快几十倍。\n\n画面很工程师：不是人形机跳舞，是把「机器人眼里的世界」当成可生成、可编辑的素材库，让实验室能直接拉权重开练，不必先从零搭世界模型。\n\n所以呢：手机厂下场开源世界模型，说明具身数据与仿真正在变成下一轮公开军备——跟谁家手臂更灵巧同样值得追。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/XiaomiRobotics/Xiaomi-Robotics-U0"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/XiaomiRobotics/Xiaomi-Robotics-U0-4B"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "christiano-openai-board-risk",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "新董事自己报数：一年失控大约百分之四，三年大约百分之十五",
+      "body": "保罗·克里斯蒂亚诺九月九日加入 OpenAI 基金会董事会，并进安全与安保委员会，同时当集团董事会的无投票观察员。他当天发长文：按能力和对齐的难度看，他认为行业——包括 OpenAI——目前还没把「灾难性失控」压到可接受水平；他加入是希望公司真能把风险降下来。\n\n他自己给的主观概率很刺眼：未来一年大约百分之四，未来三年大约百分之十五。文中还提到，OpenAI 曾预测大约十八个月内可能具备完全自动化 AI 研究的能力；一旦研究本身被自动化，反馈可能快到让人来不及改规矩。\n\n这正好撞上 Anthropic 研究员离职、对齐负责人公开谈灭种概率的同一周舆论。\n\n所以呢：当安全故事从「外部批评」变成「自己人坐进董事会还报百分数」，内容角度就是制度本身在不信任自己的速度。",
+      "links": [
+        {
+          "label": "Substack",
+          "url": "https://paulfchristiano.substack.com/p/personal-statement-on-joining-the"
+        },
+        {
+          "label": "OpenAI Foundation",
+          "url": "https://openaifoundation.org/news/paul-christiano-joins-openai-foundation-board"
+        }
+      ],
+      "prompt": ""
+    },
+    {
       "id": "cognition-rsa-260-devin",
       "date": "2026-09-10",
       "added": "2026-09-10",
