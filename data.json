@@ -36,6 +36,40 @@
       "prompt": ""
     },
     {
+      "id": "openai-astra-pro-pause",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "好玩AI",
+      "title": "Astra 太火：两百美元的 Pro 新订单先关上了",
+      "body": "OpenAI 产品负责人 Thibault Sottiaux（大家叫他 Tibo）九月十日在 X 上说了一句很生活的话：Astra 的需求他从没见过，系统最吃紧的是每月两百美元的 Pro 档，所以先停掉新开户。\n\nTechCrunch 跟进确认：已有用户照常用，API 和更便宜的 Go、Plus 还开着。他说这是「最小的一步」，好让尽可能多人还能用上；停多久没说，前一天他还预告过如果继续爆可能会这么干。\n\n画面很具体：不是模型发布，是排队的人把收银台挤爆了，店员先把最贵那扇门关上。贵的先限购，便宜的照卖，听起来颠倒，可对算力账单却很诚实。\n\n所以呢：当最强模型成了显眼的限购商品，内容角度不在参数表，而在「贵的先断货」这件事本身有多荒诞、多好拍。",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "anthropic-threat-intel-sep2026",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "Anthropic 摊开八个月的翻车账：有人两小时打穿几十个目标",
+      "body": "Anthropic 九月十日发布威胁情报报告，盘点二零二五年十二月到二零二六年八月他们拦下的 Claude 滥用。模型主要是 Haiku、Sonnet、Opus；更强的 Fable、Mythos 几乎没进这些案子，除了一起非法蒸馏。\n\n七类伤害写得很全：网络攻击、舆论操作、监控、常规武器软件、生物相关、诈骗，还有偷偷蒸馏自家模型。TNW 报道点名中国、俄罗斯、伊朗、也门相关活动，并称 Moonshot、DeepSeek 等实验室被指控做非法蒸馏。公司说 AI 把门槛压矮了——以前要一队熟手，现在单人几小时就能并行打几十个受害者，有的突破只要两到三小时。\n\n他们说每起都封号、加防护，并在合适时把情报交给执法和同行。\n\n所以呢：安全故事已经不是「会不会被滥用」，而是「滥用变成了小作坊流水线」——这比参数竞赛更适合写成系列内容。",
+      "links": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        },
+        {
+          "label": "TNW",
+          "url": "https://thenextweb.com/news/anthropic-claude-misuse-threat-intelligence-report"
+        }
+      ],
+      "prompt": ""
+    },
+    {
       "id": "cognition-rsa-260-devin",
       "date": "2026-09-10",
       "added": "2026-09-10",
