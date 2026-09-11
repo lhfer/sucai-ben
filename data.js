@@ -2,6 +2,536 @@ window.INTEL_DATA = {
   "updated": "2026-09-11",
   "items": [
     {
+      "id": "aig-israel-ai-voice-strike",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "痛点",
+      "title": "以色列 AIG 几百人今早罢工：语音代理要进劳资合同才肯谈",
+      "body": "以色列 AIG 的销售、客服和理赔呼叫中心，九月十一日清晨停了。工会跟管理层谈了将近一年，周四谈判破裂，周五正式罢工。桌上不只是薪水，还有公司准备上线的 AI 语音代理：它被设计成能一对一模拟客服代表的工作。\n\n员工怕的不是「多一个助手」，而是「换人之前先不打招呼」。他们要求：凡是可能动到编制的技术工具，必须写进集体合同再上。周三已经有一百五十人同时离岗示威；今天是全面停工。公司说谈判诚意在、门还开着，也强调会负责任地用 AI。可员工听见的是另一句：试点已经在跑，规则还没谈完。\n\n所以呢：保险业把语音代理当降本工具时，劳资谈判的新筹码已经不是加班费，而是「机器什么时候可以替人接电话」。",
+      "links": [
+        {
+          "label": "Ctech",
+          "url": "https://www.calcalistech.com/ctechnews/article/b1a3qfbfge"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "hokkaido-tokachi-ai-ag-zones",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "跨行业",
+      "title": "北海道十九个町成特区：无人拖拉机终于能上路去田里",
+      "body": "日本政府周四拍板：北海道十胜地区十九个市町村，包括带广市，划成国家战略特区，专门推 AI 农业。眼下最大的卡点很土：无人拖拉机能在田里干活，可从仓库开到田头那一段是公路，法律要求车上必须有人。地一大、车一多，省人力的账就算不过来。\n\n特区里改了规矩：无人拖拉机可以跟在有人驾驶的卡车后面成列上路；配套通信基础设施的审批也会放宽。政府希望科技公司因此愿意进农业。带广市长说十胜大农场适合当示范场，内阁府本月就开调查，十一月还有研讨会。\n\n所以呢：农业 AI 真正卡的往往不是算法，是「机器能不能合法地从车库开到地头」。谁先把路权谈开，谁才谈得上规模化。",
+      "links": [
+        {
+          "label": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/11/japan/hokkaido-agriculture-special-zones/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "hanjin-ai-safety-guardian-60",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "跨行业",
+      "title": "韩进二十个快递仓装上「安全守护」：翻传送带、没戴盔都会喊",
+      "body": "韩进九月十一日说，全国大约二十个城郊小件仓已经装上自家叫「AI Safety Guardian」的系统。摄像头盯着传送带：有人违规翻越、车辆不按安全路线走、人行道乱停车、没戴安全帽，都会被抓出来。危险一现，现场灯和语音报警，安全员手机也会收到短信。\n\n系统七月末先在首都圈约十个仓试点，再铺到忠清、江原等郊区小仓——公司故意先照顾「安全员人手更紧」的地方。画面分析来自合作方 Hudatas，用韩进自己攒的监控数据训练，还做了多层过滤，好少报假警。公司称，上线仓的主要危险行为大约少了六成。大田巨型枢纽还在用 AI 预测干线车装卸进度，用来压缩下一辆车的等泊时间。\n\n所以呢：物流仓的 AI 第一刀常常不是分拣提速，是把「差一点出事」的动作当场喊停。",
+      "links": [
+        {
+          "label": "CHOSUNBIZ",
+          "url": "https://biz.chosun.com/en/en-industry/2026/09/11/YGDNJD6X7RB2LCQIIMBEWLY6TA/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "paytm-pi-banks-insurers",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "跨行业",
+      "title": "Paytm 把支付大脑卖给银行：Pi 要帮印度和阿联酋做销户与理赔",
+      "body": "印度支付巨头 Paytm 九月十一日被曝推出企业服务 Paytm Intelligence，简称 Pi。它不是又一个客服聊天框，而是一串能串流程的 AI 代理：找客户、跑营销、做客服、评估信用、盯欺诈、看保险理赔是否靠谱。首批目标是印度和阿联酋的银行、贷款机构和保险公司，已经有少量客户在用。\n\n底子是 Paytm 自己训了约两年的金融模型，喂的是海量交易和行为数据。公司一边在支付战场跟 PhonePe、Google Pay 抢份额，一边想把多年攒下的风控和流程能力卖成软件生意；内部还打算扩招约四千人，把 AI 产品做大。\n\n所以呢：支付公司真正值钱的未必是扫码份额，而是「谁更懂一笔钱后面的人」。谁先把这套能力卖给银行，谁就从管道商变成工具商。",
+      "links": [
+        {
+          "label": "Convergence Now",
+          "url": "https://www.convergence-now.com/fintech/paytm-launches-pi-to-bring-agentic-ai-to-banks-and-insurers/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "ca-nurses-ab2575-ab1979-desk",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "痛点",
+      "title": "加州护士两部 AI 法案送纽森桌上：敢改机器建议不许穿小鞋",
+      "body": "加州护士协会九月十日宣布：两部由护士推动的法案 AB 1979 和 AB 2575 已经过两院，摆到州长纽森桌上，九月三十日前要签字或否决。医院、保险公司和科技游说团体反对了好几个月，最后还是没拦下。\n\nAB 1979 盯的是「机器不能替持照医护做最终临床判断」，直接面向消费者的健康聊天机器人碰病历也得遵守加州医疗保密法。AB 2575 更扎人：一线医护凭专业判断覆盖或不覆盖 AI 临床决策支持系统的输出，雇主不得报复；出了事后，开发商和部署方也不能拿「护士没点覆盖」当挡箭牌甩锅。护士会长说，她们每天都在床边抓差错，现在却有人想让机器压过她们，还希望她们闭嘴。\n\n所以呢：医疗 AI 的立法焦点已经从「准不准用」变成「谁能否决机器、否决了会不会被穿小鞋」。",
+      "links": [
+        {
+          "label": "National Nurses United",
+          "url": "https://www.nationalnursesunited.org/press/nurses-celebrate-final-passage-of-landmark-ai-bills-urge-gov-newsom-to-sign"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "burns-gritt-solar-robots",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "跨行业",
+      "title": "电站工地不换设备：夹具一挂就能抬八十磅光伏板",
+      "body": "工程总包商 Burns & McDonnell 九月二日宣布，跟施工机器人公司 Gritt 正式合作，把 AI 机器人铺到公用事业级光伏工地。双方已经一起在真工地试了一年：重复抬板、装阵列、浇混凝土、放钢筋这类又累又危险的活，交给挂在现成工程机械上的模块夹具去做，不用另买一整套专用机器人。\n\n公司可再生能源业务线负责人说得很直白：太阳能施工就是天天抬八十磅的组件。Gritt 的软件按野外训练，要应付不平地面、极端天气和现场物流乱局，边干边用现场数据改动作。劳工紧、项目积压多，他们先从装板切入，再看能不能扩到别的电力基建流程。\n\n所以呢：户外施工 AI 要赢，不是造一台新车，是让工地本来就有的挖机吊车「突然会干活」。",
+      "links": [
+        {
+          "label": "pv magazine USA",
+          "url": "https://pv-magazine-usa.com/2026/09/02/burns-mcdonnell-partners-with-gritt-to-deploy-ai-construction-robotics-for-utility-scale-solar/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "hepalink-pingshan-ai-syringe",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "跨行业",
+      "title": "深圳坪山预充针工厂拿下 FOYA：每小时两万四千支靠 AI 找气泡",
+      "body": "海普瑞深圳坪山新预充式注射器工厂，九月九日被 ISPE 写成 2026 年度工厂奖「创新—新技术」案例。厂区将近三十万平方英尺，年产能三亿三千万支抗凝剂预充针。地贵就往上盖：二十四米高的立体库嵌进厂房正中，物料用螺旋输送往上走，空间利用率比传统平铺方案高大约五成二。\n\n真正抢眼的是质检：一体式脱巢加多相机 AI 识别，每小时两万四千支，声称关键缺陷检出率百分百，能把无害气泡和真正的微粒、划痕、裂纹分开。物料用 AGV 直接送到 A 级隔离器，少一次人手接触；库房物流编制从五十人收到十八人。厂里还用数字孪生把坪山和南山两厂的库存、排产、质量数据连成活系统。\n\n所以呢：无菌药厂的 AI 故事不是「又上了一台机器人」，是「贵药在人碰不到的路径里被机器一眼验完」。",
+      "links": [
+        {
+          "label": "ISPE",
+          "url": "https://ispe.org/pharmaceutical-engineering/ispeak/inside-hepalinks-2026-ispe-facility-year-awards-foya-innovation"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "handok-ai-orch-ketotop",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "跨行业",
+      "title": "韩独膏药厂一块屏管全厂：安全和产能打架时 AI 先保命",
+      "body": "记者八月三十一日走进韩独阴城工厂，AGV 运原料时跟人撞路径，车会自己停。旁边人说：你直接走过去就行，它认人优先。厂里二〇一一年就无质化，攒下的数据成了 AI 底子。公司在做「AI 编排平台」：生产、物流、质控、预测维护、安全管理各有代理，上面再坐一个督导 AI；一旦产能目标和安全冲突，系统被设计成先保安全。\n\n关节炎贴剂 Ketotop 膏药厂七千多平方米，一块数字孪生屏就能看哪台机在转、哪片区在清洁、室内温度多少。韩独是韩国药企里首个拿到中小企业部「自主工厂」支持、又入选二〇二六制造 AI 快速商用项目的公司，预算约四十二亿韩元。生产支持负责人说，二〇二四年才真正把 AI 用到产线，显著效果预计二〇二八年才看得见。\n\n所以呢：药厂数字化真正难的不是上屏，是「效率和安全抢优先级时，机器听谁的」。",
+      "links": [
+        {
+          "label": "Aju Press",
+          "url": "https://www.ajupress.com/view/20260903093670185"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "bpa-crane-wire-ai-nkia",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "跨行业",
+      "title": "釜山港钢丝绳会「说话」：肉眼看不见的断丝靠磁场加 AI",
+      "body": "釜山港湾公社九月三日跟 Nkia 一起，在韩国安全产业博览会亮出一套港口起重机钢丝绳实时诊断系统。钢丝绳是吊集装箱的命脉，坏了会停机，严重时出事故。以前主要靠人眼看外表，里面断了几根丝、伤到哪一步，往往要等出事才知道。\n\n新系统持续测钢丝绳周围磁场变化，再交给 AI 判异常，把肉眼看不到的内部缺陷提前标出来，顺便告诉你该不该做预防性维护。技术按釜山港真实现场条件开发，已经过现场验证。港湾公社社长说，货运设备安全既关工人，也关港口能不能连续运转，还会继续跟中小企业找「贴现场」的 AI 安全技术。\n\n所以呢：港口 AI 不一定先替你调度箱子，更先盯住「那根看起来还好好的绳子」。",
+      "links": [
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/society/2026/09/03/bpa-develops-ai-system-to-detect-crane-wire-rope-flaws"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "georgia-sb444-no-ai-only-denial",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "痛点",
+      "title": "佐治亚州立法：AI 可以帮忙审单，但不能独自把保险拒了",
+      "body": "佐治亚州参议院法案 SB 444 已由州长签字，二〇二七年一月一日生效。它不禁止保险公司用 AI 做利用率审查，反而明文允许 AI 帮忙自动化、减行政负担。可底线写得很硬：对患者发出拒付、限付、拖延这类不利决定之前，必须有合格自然人做利用率审查，而且审查里要有临床同行参与；AI 不得压过这位临床同行的判断。\n\n受影响的是所有在佐治亚持牌的健康险公司和帮他们做事前授权的第三方。现在大量依赖自动化平台的流程，得在生效日前改成「人签了字，机器才能发拒信」。宾州等州也在走同类路子。\n\n所以呢：美国医保 AI 监管正在形成一句口头禅——机器可以翻病历，但不能单独盖「拒」字章。",
+      "links": [
+        {
+          "label": "Sheppard Mullin",
+          "url": "https://www.sheppard.com/insights/blogs/additional-states-continue-legislative-trend-with-new-laws-limiting-use-of-artificial-intelligence-in-health-insurance-determinations"
+        },
+        {
+          "label": "BillTrack50",
+          "url": "https://www.billtrack50.com/billdetail/1959960"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "pakistan-judgegpt-1559",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "跨行业",
+      "title": "巴基斯坦一千五百多名法官试用 JudgeGPT：中位区多结一千八百案",
+      "body": "CEPR 讨论稿把巴基斯坦全国审判法院的一次田野实验摊开：研究团队跟司法系统一起做了定制助手 JudgeGPT，把一千五百五十九名法官、一百一十八家法院随机分三组——一组拿 AI 加针对性培训，一组拿 AI 加泛泛科技培训，一组只培训不给 AI。\n\n结果很清楚：AI 加上「怎么用在起草和澄清法条」的专项培训，法官更愿用、用得更勤、也更持久。行政数据显示，接触这类处理法官越多的地区，结案越多；按中位区暴露度估算，一年大约多结一千八百四十八件，比均值高约百分之六点三。上诉率略降，文书质量指标略升。聊天日志显示，法官主要拿它澄清概念和改草稿；专项培训会把用法从「开放式问法」拽向「改文字」这类更容易核对的活。\n\n所以呢：公共部门上大模型，胜负手常常不是模型本身，是有没有人教法官「别拿它当百科，拿它当校对」。",
+      "links": [
+        {
+          "label": "CEPR DP21783",
+          "url": "https://cepr.org/publications/dp21783"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "learned-hand-la-riverside-clerk",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "痛点",
+      "title": "洛杉矶法官在试 AI 书记员：当事人可能根本不知道机器看过案",
+      "body": "加州洛杉矶和河滨两郡高等法院在试公司 Learned Hand 做的 AI 书记员：摘要动议、写研究备忘录，洛杉矶六个民事法官还能拿它帮忙起草暂定裁决。洛杉矶合同大约三十一万四千美元，路线图写到刑事、家事和遗嘱；河滨试点只要一万美元。政策规定，只有整份文书「完全由生成式 AI 写成」才必须披露——当事人往往不知道自己的案子有没有被机器看过。\n\n合同允许试到刑事里的排除证据动议和定罪后救济；检察官说这关乎人身自由，怕 AI 搞错。有法官私下听同事提过，将来或许用它筛《种族正义法》申诉，当场说「离谱」。法院官方否认已经这么用，但承认合同留了口子。发明人说法庭人手永远赶不上积案，唯一出路是给每位法官一个 AI 书记员。\n\n所以呢：司法 AI 最刺的不是会不会写草稿，是「当事人连有没有机器参与都无权知道」。",
+      "links": [
+        {
+          "label": "CalMatters",
+          "url": "https://calmatters.org/economy/technology/2026/05/ai-los-angeles-riverside-courts/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "prompt-seedance-panda-tumble",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "熊猫幼崽顺着草坡侧滚，八秒只准风声和草响",
+      "body": "森林斜坡上，一只圆滚滚的熊猫幼崽趴着，慢慢侧滚下山。前三秒是低机位中远景，草被压弯，斑驳阳光跟着风晃。三到八秒镜头往右下跟，它停下趴稳，圆脸转向镜头，前爪按进草里，抬一下头又放松。全程背景虚化，只有风声、草响和滚动声，不许配乐，也不许字幕。\n\n这是 Seedance 2.5 官方提示词指南里的示范段落。它先钉住「纪实自然片」气质，再写主体和场景，最后用连续秒级时间轴拆动作。官方特别强调：二点五对整秒时间戳很听话，时间段要连续、别留空档；内容太少它会自己编，太多又会漏动作。收尾那句「只要风和草」比堆一串「电影感」管用。\n\n所以呢：写短视频别堆形容词，先把第几秒干什么、什么声音能进画面写死。",
+      "links": [
+        {
+          "label": "Seedance 2.5 官方提示词指南",
+          "url": "https://docs.seedance.tv/en/seedance-2-5-prompting-guide"
+        }
+      ],
+      "prompt": "Realistic nature-documentary look on a forest slope in warm afternoon light. A small, round panda cub tumbles clumsily downhill.\n\nSubject and setting: the cub has fluffy fur and a compact, rounded body. The slope contains moss, clover, soil, small stones, and scattered yellow flowers; tree trunks in the background remain softly out of focus.\n\n0–3 seconds: low-angle medium-wide shot. The panda lies across the incline and begins a slow sideways roll, bending the grass beneath its body while dappled sunlight shifts gently in the breeze.\n3–8 seconds: the camera follows slightly down and to the right. The panda gradually stops, settles on its belly, turns its round face toward the camera, presses its front paws into the grass, lifts its head once, then relaxes.\n\nKeep the panda sharp and the background naturally defocused, with subtle handheld breathing. Use only wind, grass rustle, and soft rolling sounds. No music and no subtitles."
+    },
+    {
+      "id": "prompt-seedance-raccoon-cyber-rerender",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "白模动作原样保留，只把浣熊扔进赛博朋克夜城",
+      "body": "先拍好一段白模走位：谁往哪走、镜头怎么跟、几秒切一刀，全锁在 Video 1 里。然后提示词只说一件事——环境换成深蓝紫的赛博夜城，主体换成穿黑色潜行服的小浣熊，屋顶轮廓被城市轮廓光勾出来。动作路径、运镜、节奏、构图一律照抄原片，不许再发明运动轨迹、坐标轴或摄像机辅助线。\n\nSeedance 官方把这叫「白模／分镜参考」：视频只管调度，外观另写。很多人翻车就翻在这儿——一边让模型继承原片动作，一边又用文字重写一遍动作，两边打架，结果手脚粘连、镜头乱跳。正确写法是：继承什么写一句，偏离什么写一句，其余闭嘴。\n\n所以呢：想换皮别重写剧本；让视频管走位，文字只管新世界和新角色。",
+      "links": [
+        {
+          "label": "Seedance 2.5 官方提示词指南",
+          "url": "https://docs.seedance.tv/en/seedance-2-5-prompting-guide"
+        }
+      ],
+      "prompt": "Fully re-render Video 1 while preserving its action paths, camera movement, timing, and framing exactly.\n\nReplace the environment with a cyberpunk night city in deep blue and violet. Dense skyscrapers carry holographic ads and neon reflections while distant aircraft move slowly between them. The subject is a small raccoon in a black stealth suit, carefully crossing a rooftop, its silhouette rim-lit by the city behind it.\n\nNo background music. Keep only wind, distant mechanical ambience, footsteps, and fabric movement. Do not generate motion paths, axes, or camera guides."
+    },
+    {
+      "id": "prompt-seedance-pixel-courier",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "六张关键帧横移一镜：像素快递员把能量核插进反应堆",
+      "body": "十五秒竖屏像素科幻短片：深蓝太空底，十六位像素质感，复古电子乐一路不断。开头先写死——Images 1 到 6 按顺序当关键帧，镜头用一次连续横移把它们串起来，别让模型自己乱切。\n\n画面从轨道站外景钻进舷窗，橙白宇航服快递员转身、取出发光能量核、警报亮起后穿过失重走廊、跃过断裂栈桥，最后把核插进反应堆，舱灯从红变蓝。脸、衣服、能量核外形、站内建筑全程一致，动作要连续；不许字幕、闪烁或元素变形。\n\n官方把「宫格分镜」和「分张关键帧」分开：分镜管叙事顺序，关键帧更抠构图对齐。这则示范选的是后者——你要的是像素连环画一镜到底，不是九宫格各自发挥。\n\n所以呢：要严对齐就写「按顺序当关键帧」，再加一条连续运镜，别指望模型猜图序。",
+      "links": [
+        {
+          "label": "Seedance 2.5 官方提示词指南",
+          "url": "https://docs.seedance.tv/en/seedance-2-5-prompting-guide"
+        }
+      ],
+      "prompt": "Use Images 1 through 6 in order as keyframes for a 15-second vertical pixel-art science-fiction short. Keep a deep-blue space background, consistent 16-bit pixel texture, and retro electronic music throughout. Connect all frames through one continuous horizontal camera move.\n\nBegin with the orbital station exterior in Image 1. After the camera passes through a window, the space courier in Image 2 turns toward the lens. In Image 3, she removes a glowing energy core from a storage bay. When the alarm lights activate, she moves through the zero-gravity corridor in the pose shown in Image 4, then leaps across a broken catwalk using the action in Image 5. The camera keeps following and enters the reactor chamber in Image 6, where she inserts the core and the room lights change from red to blue.\n\nKeep her face, orange-and-white spacesuit, energy-core design, and station architecture consistent. Motion must remain continuous. No text, subtitles, flicker, or element deformation."
+    },
+    {
+      "id": "prompt-seedance-rocket-farewell",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "九镜灾难告别：金裙老人与青绿机器人在火箭爆炸后相拥",
+      "body": "黄昏草原发射场，金黄裙子的老妇人靠着一尊风化青绿的守护机器人，远望火箭。三十秒、十六比九、三十五毫米胶片颗粒、轻微手持呼吸感。色调只许暖金、凉蓝和爆炸橙三种撞在一起；禁止黑白、插画线稿、玩具感或塑料 CG。\n\nImage 1 只管九镜顺序和运镜节奏，Image 2 管场地构图和冷暖，Image 3 管人，Image 4 管机器人。九镜写死：远望、搀扶、特写告别、升空、空中爆炸、一滴泪、人倒下、机器人俯身护住、全景拥抱。对白用自然英语，风声和爆炸声要对上节拍。\n\n官方提醒：宫格分镜适合管镜头数和叙事，别指望像素级对齐；真正要对齐构图，用分张关键帧。资产映射要回答两件事——它属于谁、具体参考什么。\n\n所以呢：灾难片别写「很感人」；把九镜顺序和每张参考图的岗位写清，眼泪才落在对的那一刀。",
+      "links": [
+        {
+          "label": "Seedance 2.5 官方提示词指南",
+          "url": "https://docs.seedance.tv/en/seedance-2-5-prompting-guide"
+        }
+      ],
+      "prompt": "Asset mapping: Image 1 defines the order, framing, and camera rhythm of nine shots. Image 2 defines the composition and warm/cool palette of a grassland launch site at dusk. Image 3 defines an elderly woman in a golden-yellow dress. Image 4 defines a tall, weathered teal guardian robot.\n\nGenerate a 30-second, 16:9 live-action disaster-film sequence. Use 35mm color-film grain, subtle handheld breathing, and shallow depth of field. Contrast warm golden sunset, cool dusk blue, and explosive orange. No black-and-white, illustration, storyboard line art, toy-like rendering, or plastic CG.\n\nFollow Image 1's nine-shot order: the pair watch the rocket from afar; the robot supports the woman; a close-up farewell; rocket liftoff; explosion in the sky; a tear falls; the woman collapses; the robot bends down and wraps around her protectively; end on a wide shot of the embrace. Dialogue is natural English. Place ambience, wind, and explosion sounds accurately."
+    },
+    {
+      "id": "prompt-seedance-folding-lamp",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "折叠台灯三十秒：四面参考钉死几何，只准出现一盏灯",
+      "body": "一盏折叠台灯要拍成三十秒品牌故事：不是「氛围好看」就行，铰链、比例、按键、接口一毫米都不能漂。BeatAPI 把官方写法收成生产简报——先声明任务是参考生成，再给每张图发岗位。\n\n正面、左铰链、右控件、后接口四张图描述同一盏灯，画面里只准出现一盏；第五张只管公寓木纹和暖夜光，人不要抄；Video 1 只借慢速环绕和微距推镜节奏；Audio 1 管配乐落点和尾标音。时间轴从微距零件到单手展开，再到书桌亮起暖光池，最后环绕一圈定格留白。\n\n官方反复警告：五十个参考是上限不是目标。资产越多，身份和风格越容易互相打架。产品片先锁几何，再谈情绪。\n\n所以呢：电商片先写「只准一盏灯」，再写美——铰链一漂，后面全白拍。",
+      "links": [
+        {
+          "label": "BeatAPI Seedance 2.5 生产指南",
+          "url": "https://beatapi.io/blog/seedance-2-5-guide"
+        }
+      ],
+      "prompt": "Create one 30-second 16:9 product story for the folding lamp.\n\nREFERENCE ROLES\n@Image1 defines the lamp's front appearance.\n@Image2 defines the same lamp's left-side hinge structure.\n@Image3 defines the same lamp's right-side controls.\n@Image4 defines the same lamp's rear ports. These four images describe one lamp; only one lamp may appear in the video.\n@Image5 defines the apartment layout, wood surfaces, and warm evening light; do not copy any people from it.\n@Video1 defines only the slow orbit, macro push, and transition rhythm.\n@Audio1 defines music timing and the final sonic logo.\n\n0–5s — Macro close-ups establish the hinge, brushed metal, and controls.\n5–12s — One hand unfolds the lamp in a continuous, mechanically plausible move.\n12–20s — The camera widens as the lamp illuminates a reading desk; the room changes from cool ambient light to a warm focused pool without moving the lamp.\n20–27s — Slow orbit reveals the same geometry from all sides while a person opens a book and begins reading in the background.\n27–30s — Stable hero frame with clear negative space; @Audio1 lands its final cue.\n\nPreserve the exact hinge, proportions, controls, ports, material, and one-lamp count in every shot. No extra product, warped logo, floating parts, sudden zoom, unmotivated cut, subtitle, watermark, or invented on-screen copy."
+    },
+    {
+      "id": "prompt-kling-shoe-wet-asphalt",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "白跑鞋砸进湿沥青：水花炸开，鞋带尖被惯量甩直",
+      "body": "白跑鞋全速砸进湿沥青，慢动作极特写。水珠向外炸开，鞋带尖被惯量甩得笔直。镜头跟着脚，从脚跟落地一路跟到脚趾蹬离。画面带 ISO 800 胶片颗粒，暖黄钠灯映在水洼上，看不见任何品牌标志，输出按四 K HDR 来。\n\nAtlabs 拿这条示范 Kling 3.0：它更像物理学家，先信动量和织物形变，再管你的品牌简报。球鞋发售、运动补剂、能量饮料这类要「动能」的片子，Kling 往往比死磕参考图的模型更对味；反过来，logo 必须帧帧不糊，就别硬用它。\n\n所以呢：要水花和惯量，把撞击写成因果链；要logo 不漂，换带 Identity Lock 的那一边。",
+      "links": [
+        {
+          "label": "Atlabs：Kling 3.0 vs Seedance 2.0",
+          "url": "https://www.atlabs.ai/blog/kling-3.0-vs-seedance-2.0-for-content-creators-which-ai-video-model-should-you-use"
+        }
+      ],
+      "prompt": "Slow-motion extreme close-up of a white running shoe hitting wet asphalt at full sprint. Water particles explode outward on impact. Shoelace tips snap from momentum. Camera follows the foot from heel strike through toe-off. ISO 800 film grain texture. Warm sodium-vapor streetlights reflecting off the puddle surface. No logos visible. 4K HDR output."
+    },
+    {
+      "id": "prompt-kling-tokyo-crossing",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "东京十字路口直冲镜头：每三步切一次表、鞋、领",
+      "body": "拥挤的东京十字路口，穿宽松米色大衣的年轻女人径直朝镜头走来。机位跟在肩膀高度，景深很浅。每走三步切一次细节：腕表、鞋底、外套领口。最后她转身离开，湿路面映着霓虹。没有对白，九比十六竖屏。\n\n这是给 Reels／Shorts 用的「滚动停手」模板。Kling 吃口语化、高能量运动描写，不一定要先准备一堆参考图；Seedance 那套 @标签系统在这里反而拖速度。短平快社媒片，先把「每三步切细节」这种可执行节奏写进提示词，比写「很潮」管用。\n\n所以呢：竖屏钩子靠节奏，不靠形容词——几步一切，观众才停得住拇指。",
+      "links": [
+        {
+          "label": "Atlabs：Kling 3.0 vs Seedance 2.0",
+          "url": "https://www.atlabs.ai/blog/kling-3.0-vs-seedance-2.0-for-content-creators-which-ai-video-model-should-you-use"
+        }
+      ],
+      "prompt": "Rapid-cut street style video. Young woman in oversized beige coat walks directly toward camera through a crowded Tokyo crossing. Camera tracks at shoulder height. Shallow depth of field. Every third step, cut to a close-up detail: wrist watch, shoe sole, jacket collar. Final shot: she turns and walks away. Neon reflections on wet pavement. No dialogue. 9:16 aspect ratio."
+    },
+    {
+      "id": "prompt-seedance-product-orbit",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "产品环绕八秒：@产品图管外形，@色板管所有上色",
+      "body": "白棚里，一件产品从微距细节慢慢被镜头环绕拉远，八秒后整物现身。主光是左上方四十五度一只柔光箱，对面补光压到一半强度；背景是无缝白纸。提示词里两行最关键：@ProductImage 当主角外形，@BrandPalette 管所有上色——色温不许偏离参考色板。\n\nAtlabs 用它对比两派模型：Seedance 更像导演，吃多模态参考和品牌锁；Kling 更像物理引擎，吃动量。电商、美妆、奢侈品要 logo 和色号帧帧对齐，优先这种「岗位标签」写法，而不是散文风景。\n\n所以呢：品牌片先给图发岗位——谁管外形、谁管色号——再谈环绕有多高级。",
+      "links": [
+        {
+          "label": "Atlabs：Kling 3.0 vs Seedance 2.0",
+          "url": "https://www.atlabs.ai/blog/kling-3.0-vs-seedance-2.0-for-content-creators-which-ai-video-model-should-you-use"
+        }
+      ],
+      "prompt": "@ProductImage as hero subject. @BrandPalette for all color rendering. Camera: slow 360-degree orbital pull-back from macro detail to full product reveal. Lighting: single softbox key light from 45 degrees above-left, fill from opposite side at 50% intensity. Background: seamless white sweep. No colour grading deviation from reference palette. Duration: 8 seconds. Output: 2K."
+    },
+    {
+      "id": "prompt-nano-banana-lighthouse",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "暴风雨灯塔：六十岁看守举黄铜望远镜，光柱切开雨幕",
+      "body": "黄昏暴风雨里，六十多岁的灯塔看守站在顶层栏杆边，举起一架黄铜望远镜。机位在下方仰拍，灯塔光束切开雨幕做逆光。二十一比九宽画幅，写实，蓝与琥珀色偏冷调；不要字、水印和标志。\n\nTech Insider 九月八日的五模型指南拿它示范 Nano Banana Pro（Gemini 图像）：谷歌明确要求写完整句子，别丢逗号关键词汤。顺序接近摄影师 rumbling——主体、动作、地点、构图、风格。它还擅长多轮改：下一句只说「衣服换成黄雨衣，布局别动」，比整段重写稳。\n\n所以呢：给香蕉模型写信，别发电报——完整句子比标签堆砌听得懂。",
+      "links": [
+        {
+          "label": "2026 五模型图像提示词指南",
+          "url": "https://tech-insider.org/how-to-write-ai-image-prompts-2026/"
+        }
+      ],
+      "prompt": "A weathered lighthouse keeper in his sixties, standing at the top railing of a coastal lighthouse, checking a brass telescope during a storm at dusk. Wide establishing shot, camera positioned below looking up, dramatic backlighting from the lighthouse beam cutting through rain. Cinematic 21:9 aspect ratio, photorealistic, muted blue and amber color grading, no text, no watermark, no visible logos."
+    },
+    {
+      "id": "prompt-gpt-image-earbud-case",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "耳机盒棚拍：Scene／Subject／Details／Constraints 四段分开写",
+      "body": "无缝白棚，顶光柔散。一只哑光黑无线耳机盒合盖，微微四分之三角搁在小块反光亚克力台上。焦点钉在纹理和铰链线，底下一点点倒影，软影落到右侧。约束写死：无字、无 logo、无水印、无多余道具，一比一正方形。\n\nOpenAI 给 GPT Image 2 的推荐顺序就是这四段：场景、主体、必须看见的细节、不许漂的约束。字要精确出现时，把原文放进引号并单独写字体与位置；多图输入则按序号发岗位。比一长串形容词更省返工。\n\n所以呢：营销图先列约束清单——「不要什么」写清楚，比事后擦水印便宜。\n\n多写一句约束，少返工一次，才是这类模板真正省钱的地方。",
+      "links": [
+        {
+          "label": "2026 五模型图像提示词指南",
+          "url": "https://tech-insider.org/how-to-write-ai-image-prompts-2026/"
+        }
+      ],
+      "prompt": "Scene: A modern product photography studio with a seamless white background and soft diffused lighting from above.\nSubject: A matte black wireless earbud case, closed, positioned at a slight three-quarter angle on a small reflective acrylic platform.\nDetails: Sharp focus on the case's texture and hinge line, subtle reflection beneath the product, soft shadow falling to the right.\nConstraints: No text, no logos, no watermark, no additional props in frame, square 1:1 crop."
+    },
+    {
+      "id": "prompt-ideogram-summer-tour-json",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "夏日巡演海报：Ideogram 要 JSON，色号必须大写六位",
+      "body": "一张独立乐队夏日巡演海报：暖橙到粉的渐变天空，剪影天际线，粗标题写 SUMMER TOUR 2026，下方是弹吉他的人影。色板钉死成 #FF6B35、#F7C59F、#2E2A2B。文字和吉他手各自带包围盒，原点在左上，坐标按零到一千归一化。\n\nIdeogram 4.0 按结构化 JSON 字幕训练，字段顺序要固定：先 high_level_description，再 style_description，再 compositional_deconstruction。色号只认大写六位，缩写和「深红色」这类口头色都更糊。网页端仍收纯文本，但要精确落字和品牌色，就上 JSON。\n\n所以呢：海报别散文描写——把字放进带框的 text 元素，色号写成大写十六进制。",
+      "links": [
+        {
+          "label": "2026 五模型图像提示词指南",
+          "url": "https://tech-insider.org/how-to-write-ai-image-prompts-2026/"
+        }
+      ],
+      "prompt": "{\n  \"high_level_description\": \"A minimalist concert poster for an indie band's summer tour, bold typography, warm sunset palette.\",\n  \"style_description\": {\n    \"medium\": \"vector illustration, flat design\",\n    \"lighting\": \"warm gradient background\",\n    \"color_palette\": [\n      \"#FF6B35\",\n      \"#F7C59F\",\n      \"#2E2A2B\"\n    ]\n  },\n  \"compositional_deconstruction\": {\n    \"background\": \"warm orange-to-pink gradient sky over a silhouette skyline\",\n    \"elements\": [\n      {\n        \"type\": \"text\",\n        \"bbox\": [\n          50,\n          100,\n          250,\n          900\n        ],\n        \"desc\": \"large bold headline reading SUMMER TOUR 2026\",\n        \"color_palette\": [\n          \"#2E2A2B\"\n        ]\n      },\n      {\n        \"type\": \"obj\",\n        \"bbox\": [\n          300,\n          200,\n          900,\n          800\n        ],\n        \"desc\": \"silhouette of a guitarist mid-performance\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "prompt-midjourney-mars-diner",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "提示词",
+      "title": "火星复古餐馆：短词在前，参数用双横线钉在最后",
+      "body": "火星上的复古未来餐馆：霓虹招牌、铬合金吧台、宇航员喝咖啡，大景别，电影光。真正决定结果的是末尾那串双横线参数——十六比九、风格化二百五、混沌十五、种子四八二一三。\n\nMidjourney V8.1 还是「短词加参数」方言：--ar 管画幅，--stylize 管它家审美盖过你字面意思的程度，--chaos 管四宫格彼此差多远，--seed 把起始噪声锁住方便复现。从 V7 抄参数表要小心，Omni Reference、Draft／Turbo、单独的 --quality 和直接 --niji 切换在 V8 工作流里已经不对了。\n\n所以呢：换模型先换语法——火星餐馆可以同一句，但 MJ 要把旋钮钉在句尾。",
+      "links": [
+        {
+          "label": "2026 五模型图像提示词指南",
+          "url": "https://tech-insider.org/how-to-write-ai-image-prompts-2026/"
+        }
+      ],
+      "prompt": "a retro-futuristic diner on Mars, neon signage, chrome countertops, astronauts having coffee, wide shot, cinematic lighting\n--ar 16:9 --stylize 250 --chaos 15 --seed 48213"
+    },
+    {
+      "id": "llm-attention-visualizer",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "视觉尝试",
+      "title": "鼠标悬停生成词：看清模型从上文哪几个词抄答案",
+      "body": "打开网页，等一小段演示文本生成完，把鼠标悬停在某个已生成的词上。前面那些「影响」它的旧词会按权重亮起来——地址、日期这类照抄原文的地方，源头会特别刺眼。作者 Isham 九月七日把这套注意力可视化丢上线，Hacker News 讨论很热闹。\n\n实现上用 Transformers.js 在浏览器跑小模型，但常规生成循环拿不到内部值，他改了 ONNX 图，把注意力相关量暴露出来，再上传到自己的 Hugging Face。可视化做了大幅简化：跨头、跨层聚合成每个旧词一个数，所以「影响」两字要打折扣。即便如此，你仍能看见模型不是靠一小团隐状态硬猜整段地址，而是生成时回头去抄。\n\n所以呢：下次有人问「它怎么抄得这么准」，丢这个页面——抄的时候它在回看原文。",
+      "links": [
+        {
+          "label": "LLM Attention Visualization",
+          "url": "https://ishamf.dev/p/llm-attention-visualizer/"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49613068"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "multimatte-promptable-bg",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "视觉尝试",
+      "title": "抠图改口述：说「狗碗」就留碗，说「牛仔裤」就留裤",
+      "body": "同一张图，提示词写 the dog，狗被留下；改成 the dog bowl，只剩碗；再写成 the jeans，只剩牛仔裤。Feyn 九月十日发布的 MultiMatte 就是这种「用话瞄准」的背景去除：你点名要留的物体，其余切掉。\n\n它站在 Meta SAM 3 上，只用低秩微调动了约一千九百四十九万参数（大约百分之二点二七），却把 DIS-VD 上的 S-measure 从零点六六七拉到零点九零一。和二值蒙版不同，它输出连续透明度，头发和半透明边更经得起看。一行 pip install nobg，再 from_pretrained(\"feyninc/multimatte\") 就能跑；线上也可直接试。\n\n所以呢：抠图别再只会点选——用一句话告诉模型留谁，比绿幕思维更接近剪辑台。",
+      "links": [
+        {
+          "label": "MultiMatte 介绍",
+          "url": "https://usefeyn.com/blog/multimatte/"
+        },
+        {
+          "label": "在线试用",
+          "url": "https://usefeyn.com/multimatte"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "copperhead-pcb-cursor",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "视觉尝试",
+      "title": "电路板界的 Cursor：改 USB-C 供电，先过 ERC 再许提交",
+      "body": "终端里敲一句：给这把钥匙加上 USB-C 供电。Copperhead 先读电源文档、列网络、提出变更方案，通过校验才解锁编辑；改完原理图和文档后跑 KiCad 自己的 ERC，通过才记决策、写变更日志。官网自称「电路板界的 Cursor」，九月八日上 Hacker News 就冲到两百多赞。\n\nnpm i -g copperhead 之后，它按八个阶段推进：规格、架构、选型、原理图、布线、产出、固件、调试计划——每阶段必须把产物落到磁盘，门禁失败就停。编辑是对 KiCad s-expression 的手术刀式改动，不是整文件重生成，diff 才看得懂。脏 git 树它拒绝开工，预算文档里写死的约束它也不会偷偷违反。\n\n所以呢：硬件 AI 真正值钱的不是「会画图」，是改一处时文档、BOM 和电气检查一起跟着走。",
+      "links": [
+        {
+          "label": "Copperhead",
+          "url": "https://copperhead.sh/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "sd25-pe-official-skill",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "小众工具",
+      "title": "官方 sd25-pe：草稿丢进去，只吐干净 Seedance 提示词",
+      "body": "字节给 Seedance 2.5 准备了一套可安装的提示词工程技能，名字叫 sd25-pe。用 npx skills 从方舟文档源装进 Claude Code／Codex 一类环境后，输入 /sd25-pe 加你的粗糙简报，它会按官方四段结构重写：素材职责、一句话主旨、时间轴、全局约束。\n\n关键边界写在技能说明里：它只负责理解和输出提示词，任何情况下都不自己去调生成接口。你要出片，先拿干净提示词，再交给单独的生成工具。素材保持只读，不改原片，也不自动做辅助素材。BeatAPI 和 DEV 社区都在八月把它写成「指南里最被低估的一行命令」。\n\n所以呢：别让聊天机器人边写词边烧算力——先过官方洗词器，再按生成按钮。",
+      "links": [
+        {
+          "label": "BeatAPI 安装说明",
+          "url": "https://beatapi.io/blog/seedance-2-5-guide"
+        },
+        {
+          "label": "skills.sh 条目",
+          "url": "https://www.skills.sh/site/arkdocs.tos-cn-beijing.volces.com/sd25-pe"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "seedance-prompt-forge",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "小众工具",
+      "title": "开源 Prompt Forge：把翻车的 Seedance 词审计到可粘贴",
+      "body": "官方 sd25-pe 之外，还有人把同一类工作做成开源 Agent Skill。silentbuilds／seedance-prompt-forge 专门写、审计、修复 Seedance 2.5 的文生视频、参考视频、编辑、延长和多模态提示词。它会给每份参考命名绑职，把含糊创意改成看得见听得见的指示，并在你花生成额度前跑确定性检查。\n\n安装可用 npx skills add silentbuilds/seedance-prompt-forge，也支持 Claude Code、Codex、Cursor、Gemini CLI 等兼容 Skills 的工具。仓库还带浏览器可上传的 ZIP 和单文件包，方便只有聊天界面的人。和官方技能一样：产物是提示词，不是视频。\n\n所以呢：提示词也要有 lint——生成前先过审计，比十次重抽便宜。",
+      "links": [
+        {
+          "label": "GitHub：seedance-prompt-forge",
+          "url": "https://github.com/silentbuilds/seedance-prompt-forge"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "backblaze-b2-mcp",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "小众工具",
+      "title": "代理要存客户导出：B2 用应用密钥裁出四十个存储工具",
+      "body": "九月八日，Backblaze 给 B2 对象存储开了官方 MCP 服务器。代理可以说「给这份客户导出准备私有目的地，留三十天，给我一个安全上传方式」——按密钥权限，它能建桶、设生命周期、发短时上传链、校验到达、再发短时下载链。大文件走短时 URL 直传，不经过模型对话，也不经过 MCP 进程。\n\n工具最多约四十个，覆盖原生 API、S3 兼容面和用量分析；密钥看不到的能力，代理也调不到。删除、削弱保留这类动作可配置成需确认或直接拒绝。本地默认要确认，托管 HTTP 默认阻断破坏性调用。安装可以双击 .mcpb，或 npx -y @backblaze-labs/b2-mcp。\n\n所以呢：别把主密钥贴进聊天——给代理一把窄钥匙，让存储工具面跟着权限收缩。",
+      "links": [
+        {
+          "label": "Backblaze B2 MCP 公告",
+          "url": "https://www.backblaze.com/blog/introducing-the-backblaze-b2-mcp-server/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "nightfall-mcp-gateway",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "小众工具",
+      "title": "删库前先拦一刀：Nightfall 把 MCP 调用接到网关",
+      "body": "六月前，很多公司的「代理安全」还是事后仪表盘：看已经发生了什么。Nightfall 九月九日推出早期访问的 MCP Gateway，把控制推到执行前——Cursor、Claude Code、VS Code、Claude Cowork 的工具调用先过同一层治理代理。凭据按租户加密代持，代理碰不到裸密钥；高风险调用（删除、丢数据库）可以在跑起来之前被剪掉；每次调用留审计，且不保留提示词和回复正文。\n\n同批发了两样周边：命令行数据传输防护盖住 curl、scp、aws s3、npm 等；MCP Server Visibility 给环境里本地和远程服务器打分，把没人审过的服务器揪出来。开发者改一行客户端配置指向网关即可。\n\n所以呢：代理安全别只做日志回看——危险工具调用要在按下执行键前就能被政策拦住。",
+      "links": [
+        {
+          "label": "Nightfall MCP Gateway 公告",
+          "url": "https://www.nightfall.ai/news/nightfall-launches-mcp-gateway-to-govern-ai-agents-before-they-act"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "relaticle-agent-crm",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "小众工具",
+      "title": "CRM 里两套权限：外部代理可写，应用内助手每条要你点头",
+      "body": "Manuk 一个人做了大约两年 Relaticle，九月八日上 Product Hunt。多数 CRM 是后装 AI；它反过来做成代理优先——外部 MCP 客户端经 OAuth 拿到三十七个官方工具，工作区自定义字段会自动进每个代理的 schema，读写像 API 客户端一样直接发生。\n\n应用内助手更严：每次写入都变成提案，展示精确变更，按记录批准或跳过。作者在发布帖里把核心问题写得很直：只读太废，静默写入客户数据又太危险，于是拆成两套权威。AGPL 可自托管，也能接 Ollama 本地推理；云版按工作区计价，不按座位。\n\n所以呢：给代理的写权限可以有，但「坐在你旁边的助手」和「外面的 API 代理」不该同一把刀。",
+      "links": [
+        {
+          "label": "Relaticle",
+          "url": "https://relaticle.com"
+        },
+        {
+          "label": "Product Hunt 概览",
+          "url": "https://webmail.hunted.space/product/relaticle"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "botbin-agent-pastebin",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "小众工具",
+      "title": "代理做出的 HTML 仪表盘：curl 一贴就有公网地址和 MCP",
+      "body": "代理刚生成一份 dashboard.html，你不想把它塞进仓库，也不想开临时服务器。Botbin 就是给这种产物准备的 Pastebin：curl -d @dashboard.html https://botbin.io，马上拿到可分享链接；也能带标题、用管道上传、用创建时返回的 Edit-Token 做 PUT 更新。\n\n九月十一日作者在 Show HN 强调 MCP：远程端点 https://botbin.io/mcp，工具就 publish、update、get 三个。另有 agents.md 和 llms.txt，方便代理自己读用法。逻辑很朴素——人有 Pastebin，代理的工件也该有一处落点，而且最好能被工具协议直接调用。\n\n所以呢：别让代理的 HTML 报告只活在对话气泡里——贴出去，同事才能点开看。",
+      "links": [
+        {
+          "label": "Botbin",
+          "url": "https://botbin.io/?mcp=true"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "geiger-local-agent-inventory",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "小众工具",
+      "title": "盖革计数器扫本机：一条只读命令清点所有代理和 MCP",
+      "body": "你电脑上到底跑着几个编码代理、连了哪些 MCP、装了什么插件？九月九日 Show HN 上的 Geiger 把自己比作「代理盖革计数器」：一条只读命令，盘点机器上的每个代理、MCP 服务器、插件和 AI 扩展。仓库星数已经过百，定位很明确——先看见，再谈治理。\n\n它不替你拦删除，也不代持密钥；价值是把「我以为只有一个 Cursor」这种错觉戳破。配合 Nightfall 那类网关，盘点是上游，策略是下游。团队若要做代理安全，第一步往往不是买平台，而是搞清楚本机到底暴露了什么工具面。\n\n所以呢：治理前先计数——你不知道桌上有几台仪器，就谈不上校准。",
+      "links": [
+        {
+          "label": "GitHub：geiger",
+          "url": "https://github.com/Atomburstofficial/geiger"
+        }
+      ],
+      "prompt": ""
+    },
+    {
       "id": "cognition-swe-2",
       "date": "2026-09-11",
       "added": "2026-09-11",
