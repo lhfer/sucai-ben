@@ -1,6 +1,142 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "items": [
+    {
+      "id": "cognition-swe-2",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "Cognition 新编程模型只比顶尖差一分，价钱却便宜六成多",
+      "body": "做编程代理的 Cognition，九月十日又推了一款叫 SWE-2 的模型。他们自己报的成绩很直白：在 FrontierCode 1.1 主榜上拿到百分之五十，离 Anthropic 的 Fable 5.1 只差不到一分，可成本大概便宜百分之六十四。\n\n画面不是发布会幻灯片，是一群工程师把强化学习硬推到万亿参数量级。底座来自月之暗面的 Kimi K3，总参数大约两万八千亿。他们说以前那种「每个思考深度各训一回」太贵，于是一次训练里把所有思考强度一起推，让贵和便宜的档位同时往前挪。\n\n对照表里，它压过自家 SWE-1.7 和 Grok 4.6；DeepSWE 1.1 拿到百分之七十三，终端基准 Terminal-Bench 2.1 到百分之九十二点八。跟 OpenAI 的 GPT-6 Astra 比，分数还差一截，可价钱大约只有四分之一。\n\n所以呢：写代码这件事，越来越像买「够用且便宜」的工人，而不是只追榜首那一个名字。谁能把性价比曲线整段抬起来，谁就更像能规模化接单的工厂。",
+      "links": [
+        {
+          "label": "Cognition",
+          "url": "https://cognition.com/blog/swe-2"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "openai-agents-api",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "OpenAI 把 Codex 那套管家直接卖成接口：一句话开云上代理",
+      "body": "OpenAI 九月十日把 Agents API 放进公开测试。以前只有自家 Codex 能用的那套「管家」——管会话、管上下文、崩了能接着跑、还能把活拆给子代理——现在开发者用一次接口调用就能拉起来。\n\n你可以指定模型（文档示例里是 gpt-6-astra）、工具，以及跑代码的环境：要么用他们托管的沙箱，要么接到你自己的机器。代理能改文件、跑命令、连 MCP 服务，长时间任务不必自己手写调度。公司说不另收一层 Agents API 费，只按模型、工具和容器的正常价计。\n\n可问题也写在文档里：数据目前只支持美国驻留，而且不支持零数据留存。换句话说，长跑代理的现场磁带，默认落在他们的规矩里。\n\n所以呢：做代理产品的门槛，从「自己造操作系统」降到了「会调接口」；同时，你把长跑代理交给谁托管，也等于把现场磁带交给谁。",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-the-agents-api/"
+        },
+        {
+          "label": "Docs",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "openai-astra-pro-pause",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "好玩AI",
+      "title": "Astra 太火：两百美元的 Pro 新订单先关上了",
+      "body": "OpenAI 产品负责人 Thibault Sottiaux（大家叫他 Tibo）九月十日在 X 上说了一句很生活的话：Astra 的需求他从没见过，系统最吃紧的是每月两百美元的 Pro 档，所以先停掉新开户。\n\nTechCrunch 跟进确认：已有用户照常用，API 和更便宜的 Go、Plus 还开着。他说这是「最小的一步」，好让尽可能多人还能用上；停多久没说，前一天他还预告过如果继续爆可能会这么干。\n\n画面很具体：不是模型发布，是排队的人把收银台挤爆了，店员先把最贵那扇门关上。贵的先限购，便宜的照卖，听起来颠倒，可对算力账单却很诚实。\n\n所以呢：当最强模型成了显眼的限购商品，内容角度不在参数表，而在「贵的先断货」这件事本身有多荒诞、多好拍。",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "anthropic-threat-intel-sep2026",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "Anthropic 摊开八个月的翻车账：有人两小时打穿几十个目标",
+      "body": "Anthropic 九月十日发布威胁情报报告，盘点二零二五年十二月到二零二六年八月他们拦下的 Claude 滥用。模型主要是 Haiku、Sonnet、Opus；更强的 Fable、Mythos 几乎没进这些案子，除了一起非法蒸馏。\n\n七类伤害写得很全：网络攻击、舆论操作、监控、常规武器软件、生物相关、诈骗，还有偷偷蒸馏自家模型。TNW 报道点名中国、俄罗斯、伊朗、也门相关活动，并称 Moonshot、DeepSeek 等实验室被指控做非法蒸馏。公司说 AI 把门槛压矮了——以前要一队熟手，现在单人几小时就能并行打几十个受害者，有的突破只要两到三小时。\n\n他们说每起都封号、加防护，并在合适时把情报交给执法和同行。\n\n所以呢：安全故事已经不是「会不会被滥用」，而是「滥用变成了小作坊流水线」——这比参数竞赛更适合写成系列内容。",
+      "links": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        },
+        {
+          "label": "TNW",
+          "url": "https://thenextweb.com/news/anthropic-claude-misuse-threat-intelligence-report"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "google-finland-nuclear-ai",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "谷歌砸一百三十亿欧元进芬兰：核电站一半电先订走",
+      "body": "BBC 报道，谷歌宣布在芬兰投下大约一百三十亿欧元（约一百一十亿英镑、一百五十亿美元），说是迄今在欧洲单笔最大投资。钱会建三座新数据中心，并扩建现有站点，用来撑 AI 用电。\n\n更扎眼的是电：谷歌跟芬兰公用事业公司 Fortum 签了二十二年合同，最多买下某座核电站一半的发电量。总理佩特里·奥尔波公开欢迎，说这证明芬兰能负责任地建 AI 基建。\n\n画面很硬：不是又一张芯片海报，而是一座核电站的电表，一半指针长期指向谷歌的机房。机柜可以加班加点买，稳定的千瓦时却要抢几十年。\n\n所以呢：比拼模型的下一场，其实在抢稳定的电。谁能锁住几十年的千瓦时，谁才谈得上把大模型跑满。",
+      "links": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/c8r6y4me2g6o"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "openai-gpt-live-1-api",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "电话里能抢话了：GPT-Live-1 把全双工语音送进接口",
+      "body": "OpenAI 九月十日把 GPT-Live-1 放进 API。它能一边听一边说，不用等你说完再整段回复——这种全双工能力最早出现在 ChatGPT 里，现在开发者可以直接接。\n\n语言学习应用 Speak 做了早期对比：相对老式「你说完我再说」的链路，打断次数大约少了百分之八十，学生有更多时间想下一句。模型还能把更深的推理和工具调用甩给背后的 GPT-6 Astra 或其他文本模型，并让你调语气、语速和风格。\n\n以前语音代理常把「听写—大模型—再合成」串成三截，延迟一卡就尬。现在压进一个模型里一起想，插话和停顿更像真人电话，客服和陪练场景会最先吃到这波。\n\n所以呢：语音产品的胜负手，开始从「像不像真人音色」转到「能不能自然插话、让人喘口气」。",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "deepseek-v4-1-flash",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "DeepSeek 新 Flash：五千五百亿参数，干活时只叫醒一百六十亿",
+      "body": "深度求索大约九月十日在 Hugging Face 挂出 DeepSeek-V4.1-Flash，MIT 协议开源权重。它是个会看图的混合专家模型：骨干大约五千五百二十亿参数，可真正算每个词时，预填大约只激活八十亿，生成大约一百六十亿；上下文能拉到一百万 token。\n\n他们把键值缓存压到大约每 token 八百九十字节，大概是上一代 Flash 的四分之一，好让「读很长材料再动手」的代理不那么烧钱。官方表上，Terminal-Bench 2.1 通过率百分之九十点六，压过 Opus 5.0 和 GPT-5.6 Sol；DeepSWE 1.1 解决率百分之七十四点二。思考强度还能在一到一百之间拧旋钮。\n\nArtificial Analysis 给它智力指数四十分、大约每秒一百九十四 token，价大约每百万输入零点三美元、输出一点二美元。\n\n所以呢：开源阵营又在证明一件事——总参数吓人没关系，关键是「每次只叫醒一小撮」，账单才跟得上代理狂跑。",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+        },
+        {
+          "label": "Artificial Analysis",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "unitree-unifolm-wla-1",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "宇树一个六B模型包六十四个活：桌面到全身一起干",
+      "body": "宇树科技九月十日宣布开源新一代人形基座模型 UnifoLM-WLA-1.0。参数大约六十亿。项目页写：真机数据大约两千五百小时，单个模型统筹六十四个任务——五十四个桌面操作，十个全身移动操作；两指夹爪和多种五指灵巧手都能接。\n\n它前面还有个「具身推理」骨干，建在通义千问视觉语言模型 Qwen3-VL-4B 上，训练样本超过五百万，一边学指点、检测、轨迹，一边保住普通图文能力，再叠上以交互为中心的世界建模。官方称多项开源评测领先，并可比肩部分闭源。\n\n页面上代码、权重、数据仍标着即将放出，但公司公开口径是「完全开源」。\n\n所以呢：人形竞赛正从「会走路的演示」转到「一个脑子能不能换手、换场景还接着干」——这才是能拍成长内容的点。",
+      "links": [
+        {
+          "label": "Unitree",
+          "url": "https://unigen-x.github.io/unifolm-wla.github.io/"
+        },
+        {
+          "label": "Gate",
+          "url": "https://www.gate.com/news/detail/unitree-robotics-open-sources-unifolm-wla-10-embodied-foundation-model-24163030"
+        }
+      ],
+      "prompt": ""
+    },
     {
       "id": "cognition-rsa-260-devin",
       "date": "2026-09-10",
