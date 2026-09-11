@@ -1,6 +1,40 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "items": [
+    {
+      "id": "cognition-swe-2",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "Cognition 新编程模型只比顶尖差一分，价钱却便宜六成多",
+      "body": "做编程代理的 Cognition，九月十日又推了一款叫 SWE-2 的模型。他们自己报的成绩很直白：在 FrontierCode 1.1 主榜上拿到百分之五十，离 Anthropic 的 Fable 5.1 只差不到一分，可成本大概便宜百分之六十四。\n\n画面不是发布会幻灯片，是一群工程师把强化学习硬推到万亿参数量级。底座来自月之暗面的 Kimi K3，总参数大约两万八千亿。他们说以前那种「每个思考深度各训一回」太贵，于是一次训练里把所有思考强度一起推，让贵和便宜的档位同时往前挪。\n\n对照表里，它压过自家 SWE-1.7 和 Grok 4.6；DeepSWE 1.1 拿到百分之七十三，终端基准 Terminal-Bench 2.1 到百分之九十二点八。跟 OpenAI 的 GPT-6 Astra 比，分数还差一截，可价钱大约只有四分之一。\n\n所以呢：写代码这件事，越来越像买「够用且便宜」的工人，而不是只追榜首那一个名字。谁能把性价比曲线整段抬起来，谁就更像能规模化接单的工厂。",
+      "links": [
+        {
+          "label": "Cognition",
+          "url": "https://cognition.com/blog/swe-2"
+        }
+      ],
+      "prompt": ""
+    },
+    {
+      "id": "openai-agents-api",
+      "date": "2026-09-11",
+      "added": "2026-09-11",
+      "category": "硬科技",
+      "title": "OpenAI 把 Codex 那套管家直接卖成接口：一句话开云上代理",
+      "body": "OpenAI 九月十日把 Agents API 放进公开测试。以前只有自家 Codex 能用的那套「管家」——管会话、管上下文、崩了能接着跑、还能把活拆给子代理——现在开发者用一次接口调用就能拉起来。\n\n你可以指定模型（文档示例里是 gpt-6-astra）、工具，以及跑代码的环境：要么用他们托管的沙箱，要么接到你自己的机器。代理能改文件、跑命令、连 MCP 服务，长时间任务不必自己手写调度。公司说不另收一层 Agents API 费，只按模型、工具和容器的正常价计。\n\n可问题也写在文档里：数据目前只支持美国驻留，而且不支持零数据留存。换句话说，长跑代理的现场磁带，默认落在他们的规矩里。\n\n所以呢：做代理产品的门槛，从「自己造操作系统」降到了「会调接口」；同时，你把长跑代理交给谁托管，也等于把现场磁带交给谁。",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-the-agents-api/"
+        },
+        {
+          "label": "Docs",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview"
+        }
+      ],
+      "prompt": ""
+    },
     {
       "id": "cognition-rsa-260-devin",
       "date": "2026-09-10",
