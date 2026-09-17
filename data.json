@@ -2,6 +2,331 @@
   "updated": "2026-09-17",
   "items": [
     {
+      "id": "prompt-seedance-cat-food-rescue",
+      "category": "提示词",
+      "title": "工地橘猫正咬袖口救人，听见猫粮罐一开就跑了",
+      "body": "未完工的水泥板上，一个胖胖的美国工人双手扒着楼板边，靴子在墙上蹭灰。头顶一只橘猫叼住他夹克袖口往后拽。正要上来那一瞬，远处临时工棚里有人掰开湿粮铁罐——「咔」一声。\n\n猫耳朵竖起，松口，后腿一蹲弹射离开，全速冲向猫粮。工人还挂在边上，冲着猫棚喊：「你为了晚饭就丢下我？」\n\n这条 Seedance 2.5 词把十五秒竖屏拆成秒表：几秒救援、几秒开罐、几秒掉头狂奔，还写死「十根手指都要看见」「猫不许用人手」「开罐声一响立刻反应」。所以呢：搞笑片别靠形容词，把笑点写成时间轴上的物理事件。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Strength04_X/status/2100451863602909230"
+        },
+        {
+          "label": "WaveSpeedAI",
+          "url": "https://wavespeed.ai/"
+        }
+      ],
+      "prompt": "Create an exactly 15-second vertical 9:16 ultra-photorealistic live-action video at a real unfinished construction site in an urban environment.\n\nThe footage must look like authentic handheld documentary footage filmed with a real overweight American construction worker, one real orange tabby cat, and a physically existing construction site.\n\nThe scene begins as a serious rescue situation and ends with an abrupt unexpected distraction caused by the cat hearing its food can being opened.\n\nUse unfinished gray concrete, exposed steel reinforcement bars, dusty floors, muted industrial colors, natural afternoon daylight, realistic skin texture, authentic concrete shadows, and physically believable scale.\n\nNo CGI appearance, animation, fantasy effects, artificial cinematic lighting, plastic skin, excessive sharpening, fake dust, or unrealistic physics.\n\nCHARACTERS:\n\nAn overweight white American construction worker around 40 years old is hanging from the edge of an unfinished concrete floor.\n\nHe has short messy dark-brown hair, natural stubble, visible pores, realistic sweat, and an ordinary face.\n\nHe wears a dusty yellow construction helmet, faded brown work jacket, gray shirt, dark work pants, gloves, and heavy boots.\n\nExactly one adult orange tabby cat is sitting on the concrete floor above him.\n\nThe cat has realistic striped fur, natural paws, whiskers, ears, and ordinary feline proportions.\n\nThe cat behaves like a real food-motivated domestic cat.\n\nLOCATION LOGIC:\n\nThe unfinished building has multiple exposed concrete levels.\n\nA small temporary worker shelter is located approximately 10 meters behind the cat.\n\nA stainless-steel cat bowl and an unopened wet-food can are inside the shelter.\n\nThe shelter remains outside the main exterior composition.\n\nCAMERA:\n\nReal 24fps live-action footage, natural 180-degree motion blur, realistic lens depth, subtle handheld movement, clean direct cuts.\n\nNo digital zoom, slow motion, speed ramp, floating camera, fade, dissolve, or montage.\n\n0–2.7S:\n\nTight frontal shot.\n\nThe construction worker hangs from the edge of an unfinished concrete floor.\n\nBoth hands separately grip the concrete ledge.\n\nAll ten fingers remain naturally visible.\n\nHis arms shake from exhaustion.\n\nHis boots scrape against the vertical wall.\n\nSmall grains of concrete dust fall downward.\n\nHe looks upward and shouts:\n\n\"Help me! Please!\"\n\n2.7–5.1S:\n\nCut to a low-angle point-of-view shot.\n\nThe orange tabby cat approaches the edge.\n\nThe worker's two hands remain visible at the bottom of the frame.\n\nThe cat carefully grabs the loose fabric of the worker's jacket cuff with its mouth.\n\nIt pulls backward.\n\nIts four paws remain planted on the concrete.\n\nThe worker pushes upward with his boots and pulls with both arms.\n\nThe cat provides only a small stabilizing pull.\n\n5.1–7.0S:\n\nDetailed side close-up.\n\nThe cat's teeth remain attached to the same jacket fabric.\n\nThe sleeve stretches naturally.\n\nIts front paws brace against the dusty concrete.\n\nThe worker rises several centimeters.\n\nHis forearms tense.\n\nHe looks toward the cat and says:\n\n\"Come on, buddy!\"\n\nSmall pieces of dust move beneath the cat's paws.\n\n7.0–8.4S:\n\nHard cut inside the temporary shelter.\n\nA human hand opens a small metal can of wet cat food.\n\nThe lid bends back with a sharp metallic click.\n\nThe food inside becomes visible.\n\nThe stainless-steel bowl sits beside it.\n\nNo electronic sound.\n\n8.4–10.1S:\n\nHard cut back to the exact rescue position.\n\nThe cat is still biting the jacket cuff.\n\nThe metallic can-opening sound reaches the cat.\n\nIts ears instantly snap upright.\n\nIts eyes widen.\n\nIts head whips sharply toward the shelter.\n\nIt immediately releases the jacket.\n\nIts hind legs compress.\n\nThe cat launches backward from the ledge in one explosive movement.\n\nThe worker instantly tightens both hands around the concrete edge.\n\nHis body drops only a few centimeters.\n\nHe never loses his grip.\n\nHe shouts:\n\n\"No! Wait!\"\n\n10.1–12.3S:\n\nWider side shot.\n\nThe cat lands securely on all four paws.\n\nIt immediately pivots nearly 180 degrees.\n\nIt accelerates into a full-speed sprint toward the shelter.\n\nIts claws briefly scrape concrete.\n\nIts tail extends for balance.\n\nIt never looks back.\n\nThe worker watches in disbelief.\n\nHe shouts:\n\n\"COME BACK!\"\n\n12.3–15S:\n\nReturn to the tight frontal composition.\n\nThe worker remains hanging from the concrete edge.\n\nBoth hands and all ten fingers remain visible.\n\nHe looks toward the shelter.\n\nA faint sound of the food can opening again is heard.\n\nHe stares in disbelief and says:\n\n\"You left me for dinner?\"\n\nEnd immediately while he remains safely gripping the ledge.\n\nSOUND:\n\nOnly realistic construction-site sounds.\n\nWind through unfinished concrete, distant traffic, metal movement, concrete dust, boots scraping, strained breathing, fabric stretching, cat claws scraping concrete, rapid paw impacts, and the metallic sound of a wet-food can opening.\n\nThe can-opening sound is the exact trigger for the cat's reaction.\n\nNo cartoon sounds, meme effects, electronic beeps, artificial whooshes, subtitles, captions, logos, or watermarks.\n\nUse restrained tense background music.\n\nCut the music abruptly when the can opens.\n\nSTRICT CONTINUITY:\n\nExactly one worker and one orange tabby cat.\n\nThe worker always has two anatomically correct hands and ten consistent fingers.\n\nNo missing fingers, extra limbs, fused hands, disappearing arms, changing clothing, duplicated cat, teleportation, changing construction geometry, fake dust, CGI environment, or body distortion.\n\nThe cat never behaves like a human and never uses its paws as hands.\n\nABSOLUTE ACTION PRIORITY:\n\nThe cat's food reaction must be immediate.\n\nInstant ear snap, instant head turn, immediate release, explosive backward leap, landing, rapid pivot, and full-speed sprint.\n\nNo hesitation, slow walking, pause, or looking back.",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-seedance-crowd-freeze-axe",
+      "category": "提示词",
+      "title": "人群突然同步乱舞又定格，只有拿斧头的男人站着",
+      "body": "一个长发络腮胡男人握着斧头，穿过拥挤人群走到正中，站住。周围所有人忽然齐刷刷转头、抬手、迈步，像被同一根线拽着；然后整场动作瞬间冻结，每人卡在半空姿势里。\n\n镜头慢慢推近他。他环顾一圈，看向镜头，轻轻一笑。斧头始终自然垂在身侧。\n\n这条 Seedance 2.5 词把「潮」写成两段物理事件：先同步狂动，再集体定格，主角全程不动。还要求上传参考图锁脸、发型、衣服和人群光。所以呢：做反差梗片，先写清谁能动、谁必须僵住，别只喊「电影感」。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/iamrealsnow/status/2100443604527599810"
+        }
+      ],
+      "prompt": "Create an ultra-realistic cinematic live-action video using the uploaded reference image as the exact visual reference for the man, his face, hairstyle, outfit, proportions, crowd, environment, lighting, and composition. A rugged man with long, thick black hair, a full dense black beard, and a rough gangster-inspired appearance, wearing a dark fitted outfit and holding a weathered axe naturally in one hand, walks calmly through a dense crowd. He reaches the center and stops completely still while the surrounding people suddenly begin moving in rapid, perfectly synchronized motion—turning their heads, shifting positions, raising their arms, and stepping in unison. The man remains completely motionless and expressionless as the chaotic movement suddenly stops, leaving the entire crowd frozen mid-action.\n\nThe man remains standing perfectly still at the center of the frozen crowd, calmly looking around while every person remains locked in their exact position. The camera slowly pushes closer toward him as the silent crowd stays completely motionless in the background. He then looks directly into the lens and gives a subtle mysterious smile. The axe remains naturally held in one hand at his side throughout the scene.\n\nPhotorealistic skin, realistic anatomy, detailed beard and hair texture, natural lighting, believable physics, shallow depth of field, authentic handheld camera movement, and natural ambient sound. Maintain the man's facial identity consistently throughout the entire video.\n\nNo anime, cartoon, illustration, CGI look, morphing, duplicated people, distorted faces, teleportation, floating objects, exaggerated effects, subtitles, logos, or watermark.",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-seedance-paris-white-to-red",
+      "category": "提示词",
+      "title": "巴黎街边白裙走路，红光一绕变成红裙再吃冰淇淋",
+      "body": "年轻女人穿着干净白裙，走在巴黎人行道上，咖啡馆和路人从身后掠过。镜头跟拍。路过一家橱窗时，红色光带缠上身体，白裙无缝变成红色无袖礼服。\n\n接着切到热闹十字路口的街拍，最后是她捧着冰淇淋看向镜头的特写。\n\n这条 Seedance 2.0 时装词不堆「高级感」空话，而是按路线写：白裙走街 → 红光变装 → 路口自信走 → 冰淇淋收束。所以呢：变装片先画走路路线和变装触发点，颜色自己会跟上。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/ayzalnooor24521/status/2100456445900710158"
+        }
+      ],
+      "prompt": "Created a cinematic fashion transformation video featuring a beautiful young woman walking through elegant Parisian streets. She begins in a clean white summer dress, walking naturally along a stylish city sidewalk surrounded by classic architecture, cafés, shops, and pedestrians. The camera smoothly follows her with realistic cinematic movement and shallow depth of field. As she passes a storefront, glowing red light trails swirl around her body, creating a magical fashion-transition effect. Her outfit transforms seamlessly from white into a sophisticated red sleeveless dress. Continue with dynamic street-level shots as she confidently walks through a busy Paris intersection. Finish with a beautiful close-up of her in the red dress, gently holding and eating an ice cream while looking naturally toward the camera. Photorealistic details, elegant fashion-film aesthetic, natural daylight, smooth transitions, realistic skin texture, cinematic lens, subtle background motion, premium commercial look.",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-mj-video-dolly-dust",
+      "category": "提示词",
+      "title": "Midjourney 视频：慢推镜头，女人回头，阳光里漂灰尘",
+      "body": "先在 Midjourney 里出一张定妆静帧，再点 Animate。手写动作词别写长：镜头怎么动、人做什么、空气里有什么。\n\n创作者实测模板是三短句——「Slow dolly forward. Woman turns her head toward camera. Dust motes drift in sunlight.」官方还让你用 `--motion low` 保稳，或 `--motion high` 换猛劲；要循环就加 `--loop`。\n\n所以呢：MJ 视频不是再写一篇小说，是给静帧加三拍节拍器。",
+      "links": [
+        {
+          "label": "AI Magicx 实测指南",
+          "url": "https://www.aimagicx.com/blog/midjourney-v1-video-model-hands-on-guide-2026"
+        },
+        {
+          "label": "Midjourney Video 文档",
+          "url": "https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video"
+        }
+      ],
+      "prompt": "Slow dolly forward. Woman turns her head toward camera. Dust motes drift in sunlight. --motion low",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-mj-video-handheld-detective",
+      "category": "提示词",
+      "title": "手持中景：侦探顶风点烟，镜头微晃",
+      "body": "同一套 Midjourney 视频短句公式，换到人物小动作：先钉机位和抖动，再写他具体干什么。\n\n模板是「Handheld shake, medium shot. Detective lights a cigarette against the wind.」别加爆炸、碎裂这类复杂物理——实测说 V1 在这些上容易假，重物理交给 Kling 一类模型更合适。\n\n所以呢：短动作片先写清「镜头怎么抖」和「手指点着了什么」。",
+      "links": [
+        {
+          "label": "AI Magicx 实测指南",
+          "url": "https://www.aimagicx.com/blog/midjourney-v1-video-model-hands-on-guide-2026"
+        },
+        {
+          "label": "Midjourney Video 文档",
+          "url": "https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video"
+        }
+      ],
+      "prompt": "Handheld shake, medium shot. Detective lights a cigarette against the wind. --motion high",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-mj-video-candle-loop",
+      "category": "提示词",
+      "title": "固定机位蜡烛跳动，影子拉长，适合加 --loop",
+      "body": "第三种短句：机位锁死，只让环境动。「Static shot. Candle flame flickers. Shadows stretch across the wall behind.」\n\n这类几乎不动的主体，特别适合官方 `--loop`：首尾同一帧，做成可循环的开场五秒。想指定另一张结束帧，用 `--end` 贴图片地址；`--motion low` 更能保住火焰的细抖。\n\n所以呢：循环片别追求剧情，先让火焰和影子自己呼吸。",
+      "links": [
+        {
+          "label": "AI Magicx 实测指南",
+          "url": "https://www.aimagicx.com/blog/midjourney-v1-video-model-hands-on-guide-2026"
+        },
+        {
+          "label": "Midjourney 循环与尾帧公告",
+          "url": "https://updates.midjourney.com/looping-and-end-frame-for-video-video-in-the-discord-bot/"
+        }
+      ],
+      "prompt": "Static shot. Candle flame flickers. Shadows stretch across the wall behind. --motion low --loop",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-kling-astronaut-red-desert",
+      "category": "提示词",
+      "title": "红沙漠宇航员慢走：主体、动作、场景、运镜、光一次写齐",
+      "body": "Kling 官方公式其实就五块：谁、他在干嘛、在哪、镜头怎么走、光什么气氛。有人把「一只熊猫在咖啡馆看书」扩成完整分镜，就是在填这五格。\n\n这条宇航员示例把五格钉死：红沙漠慢走、金色小时、慢推、低机位、暖逆光、浅景深、胶片颗粒。API 单条上限大约两千五百字符，但实测六十到一百词的清晰句往往比形容词墙更稳。\n\n所以呢：别写「电影感运镜」，改写成「slow dolly-in, low angle」。",
+      "links": [
+        {
+          "label": "Atlas Cloud Kling 提示词指南",
+          "url": "https://www.atlascloud.ai/blog/tips/kling-ai-video-prompt-guide"
+        }
+      ],
+      "prompt": "A lone astronaut walks slowly across a red desert, vast dunes stretching to the horizon at golden hour, slow dolly-in, low angle, warm backlight, shallow depth of field, cinematic, 35mm film grain.",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-kling-neon-motorcycle-rain",
+      "category": "提示词",
+      "title": "雨夜霓虹摩托穿车流：侧跟拍加水花",
+      "body": "同一套五格公式换到动态片：主体是摩托骑手，动作是雨夜霓虹街里左右穿车，镜头贴着侧面快速跟拍，地面反光和水花一起甩开。\n\n把「make it dynamic」换成「fast tracking shot following from the side」，模型才知道速度感从哪来。别再堆「炫酷」「燃」这类空词，快门和夜间气氛写进同一句就够。\n\n所以呢：动作片先写清跟拍方向和水花从哪溅起来，速度感自己会来。",
+      "links": [
+        {
+          "label": "Atlas Cloud Kling 提示词指南",
+          "url": "https://www.atlascloud.ai/blog/tips/kling-ai-video-prompt-guide"
+        }
+      ],
+      "prompt": "A motorcyclist races down a rain-soaked neon street, weaving between cars, fast tracking shot following from the side, splashing water, reflections, high shutter speed, energetic, night.",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-kling-i2v-turn-window",
+      "category": "提示词",
+      "title": "图生视频别复述长相：只写她转身、慢推、发丝被风掀",
+      "body": "图已经传上去了，再写「红裙子美女」等于浪费字数。Kling 图生视频的规矩是：主体和场景由图负责，提示词只补动作和运镜。\n\n一句够用：「she turns toward the window, slow push-in, hair lifting in the breeze。」需要负向清理时另开一栏，比如模糊脸、畸形手、闪烁硬切，别和正向词揉在一起。\n\n所以呢：图生视频把字花在「动什么」，别把静帧再描述一遍。",
+      "links": [
+        {
+          "label": "Atlas Cloud Kling 提示词指南",
+          "url": "https://www.atlascloud.ai/blog/tips/kling-ai-video-prompt-guide"
+        }
+      ],
+      "prompt": "she turns toward the window, slow push-in, hair lifting in the breeze\n\nNegative prompt: blurry, distorted face, warped hands, sudden cut, flicker",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-flux-kontext-golden-hour",
+      "category": "提示词",
+      "title": "Flux Kontext：换黄金时光外景，脸和衣服一寸不许动",
+      "body": "Black Forest Labs 的 Flux.1 Kontext 不是从零画画，是拿你上传的图改一刀。写词时要同时说清「改什么」和「绝对别动什么」。\n\n这条把背景换成暖色黄金时光外景、虚化树和低太阳，同时锁住姿势、脸、头发、衣服和脸上的光，还要求环境光跟原图对上，避免抠图像贴纸。原光方向最好也写一句，比如「脸从左侧来光」。\n\n所以呢：修图提示词一半是手术刀，一半是封条。",
+      "links": [
+        {
+          "label": "30 条 Flux Kontext 提示词",
+          "url": "https://academy.techpresso.co/prompts/flux-kontext-prompts"
+        }
+      ],
+      "prompt": "Using the [UPLOADED IMAGE], replace the background with a warm golden-hour outdoor setting, soft blurred trees and a low sun behind the subject. Keep the subject's pose, face, hair, clothing, and lighting on the face exactly the same. Match the new ambient light to the subject so the edges blend naturally, no harsh cutout outline.",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-flux-kontext-neon-night",
+      "category": "提示词",
+      "title": "湿霓虹夜街换背景，再给人物加一圈冷色描边光",
+      "body": "还是 Kontext：城市夜街、霓虹招牌、车灯虚化、湿反光地面。人物本体不变，只在边缘加一点冷色轮廓光，让人和新环境咬合，构图裁切保持原样。\n\n技巧是点名霓虹主色，比如品红和青，轮廓光才会跟着变，不会随便漂成别的颜色。一次只改场景，别顺手改发型或衣服，否则模型容易整张重画。湿路面写清楚，反光才站得住。\n\n所以呢：换场景时，记得给人物补一笔「属于新地方的光」。",
+      "links": [
+        {
+          "label": "30 条 Flux Kontext 提示词",
+          "url": "https://academy.techpresso.co/prompts/flux-kontext-prompts"
+        }
+      ],
+      "prompt": "In the [UPLOADED IMAGE], change the background to a moody city street at night with glowing neon signs and bokeh from car lights, wet reflective pavement. Keep the subject unchanged but add subtle cool rim light on their edges to match the neon environment. Maintain the original framing and crop. Magenta and cyan signs.",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "prompt-flux-kontext-product-hero",
+      "category": "提示词",
+      "title": "产品扔进品牌色渐变棚拍，标签文字必须锐利不动",
+      "body": "电商常用一刀：把原图产品放到干净的品牌色渐变背景上，底下一点柔和反射，左上角方向光。形状、标签、颜色和比例全部锁死，杂物清掉。\n\n最关键的一句是「keep the label text and logo perfectly sharp and unchanged」——否则品牌字最先糊成乱码。颜色占位符换成你的品牌色再跑。\n\n所以呢：产品修图先保护商标，再谈氛围。",
+      "links": [
+        {
+          "label": "30 条 Flux Kontext 提示词",
+          "url": "https://academy.techpresso.co/prompts/flux-kontext-prompts"
+        }
+      ],
+      "prompt": "Take the product in the [UPLOADED IMAGE] and place it on a clean gradient studio background in [BRAND COLOR], with a soft reflection beneath it and gentle directional light from the upper left. Keep the product's exact shape, label, colors, and proportions unchanged. Remove any background clutter. Keep the label text and logo perfectly sharp and unchanged.",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "buddy-mcp-pipeline-fix",
+      "category": "小众工具",
+      "title": "流水线红了别复制日志：Buddy MCP 让代理自己读日志再重跑",
+      "body": "编码代理会改仓库，但推送之后发生了什么，它通常两眼一抹黑。Buddy 九月十五日前后把远程 MCP 接到 Claude Code、Cursor、Codex：代理能列流水线、拉失败日志、修代码、再触发一次构建。\n\n官方演示里，测试挂在时区——华沙本地过得了，UTC 跑腿挂了。代理读到日志，改成按商店时区算「欢乐时光」，再跑通。服务器号称一百一十八个工具、十二类；你可以用 `?tools=pipelines,source` 先缩到二十八个，授权屏还能按工作区和工作类切只读。\n\n所以呢：给代理钥匙时，先决定它能看见哪几类按钮，再让它碰真正的部署。",
+      "links": [
+        {
+          "label": "Buddy MCP 文档",
+          "url": "https://buddy.works/docs/ai-agents/mcp"
+        },
+        {
+          "label": "修复失败流水线实录",
+          "url": "https://buddy.works/blog/buddy-mcp-read-logs-find-bug-ship-fix"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/buddy"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "kario-editable-motion-mcp",
+      "category": "小众工具",
+      "title": "一句话出片还不够：Kario 交出可改图层的动效工程",
+      "body": "多数 AI 视频工具吐出来的是锁死的成片。Kario 走另一条路：你丢 brief、logo 或产品链接，它铺场景、选字、给每层做动画，打开后仍是带关键帧和时间轴的工程，能手改也能用白话继续指挥。\n\n更狠的是 MCP 地址 `https://api.karioai.com/mcp`——Claude 或 ChatGPT 可以直接在聊天里建片、改片、分享。导出 MP4 不吃积分，积分只扣在代理的策划和动画活上。\n\n所以呢：动效工具的胜负手，不是「能不能出片」，是改第二版时要不要从头重做。",
+      "links": [
+        {
+          "label": "Kario 官网",
+          "url": "https://www.karioai.com/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "oh-story-dsh-four-workbenches",
+      "category": "小众工具",
+      "title": "DeepSeek 工作台一装四开：小说、短剧、游戏、视频解说",
+      "body": "GitHub 上 zenstory-ai/oh-story-dsh 大约三百五十星。它是 DeepSeek Harness 的社区插件，把四条创作流水线塞进同一个本地网页：小说三栏编辑、短剧分镜与提示词板、小说改编可玩游戏、本地视频中文解说。\n\n短剧侧会维护剧本、视觉设定、分镜、图片词、视频词，还能接 Seedance、GPT Image、MiniMax。安装是一条 `npx` 把插件加进 DSH，再开 `web`；空目录先跑 `/story` 或 `/short-drama`，写出第一个创作文件后工作台才现身。\n\n所以呢：网文工具别只比谁聊天顺，比谁能把项目文件和工作台钉在同一块屏幕上。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zenstory-ai/oh-story-dsh"
+        },
+        {
+          "label": "X 讨论",
+          "url": "https://x.com/aiyuange/status/2100458972952371341"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "imagineart-mcp-96-tools",
+      "category": "小众工具",
+      "title": "聊天里直接喊九十六个创意工具：ImagineArt 上了 MCP",
+      "body": "九月十五日，Vyro 旗下 ImagineArt 放出 MCP 服务器。ChatGPT、Claude、Cursor、Grok 里加服务器、用账号登录，就能在对话里生图、生视频、生音乐，不用再自己管一堆 API Key。\n\n官方说一共九十六个原生工具：常用的文生图文生视频音乐，加上放大、抠背景、时装棚拍；还有广告工作室和时尚工作室两条引导流水线。背后聚合 Sora、Veo、Kling、Runway、Midjourney 等，扣的是原有平台积分。\n\n所以呢：创意工具开始往「人已经待着的聊天窗」搬家，标签页战争换了战场。",
+      "links": [
+        {
+          "label": "Inside AI 报道",
+          "url": "https://insideai.news/news/ai-tools/imagineart-mcp-server/11887/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "layer-mcp-315-models",
+      "category": "小众工具",
+      "title": "一个 MCP 接通三百一十五个模型：图、视频、三维、声音",
+      "body": "Layer 把整套创作台暴露成 MCP：`https://mcp.app.layer.ai/mcp`。代理可以搜可用模型、直接 Forge 跑单个模型、执行团队在 Blueprint 里搭好的工作流，还能把多镜视频时间轴拼起来渲染。\n\n创意服务器大约二十一个工具，覆盖图、视频、三维、音效与音乐。计费仍走工作区 Creative Units，每次生成前有估价工具；视频另有每分钟三十次的限速。\n\n所以呢：当你的代理要「顺手出一张图标再做五秒循环」，不必再为每个模型单独开标签页。",
+      "links": [
+        {
+          "label": "Layer MCP",
+          "url": "https://layer.ai/mcp"
+        },
+        {
+          "label": "工具文档",
+          "url": "https://layer.ai/docs/mcp/tools"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "genieui-design-system-wish",
+      "category": "视觉尝试",
+      "title": "许个愿就出界面：但只能用你注册过的组件拼",
+      "body": "AndyGeek 的 genieUI 不让模型乱吐 HTML。你用自然语言许愿，它从你设计系统里已经注册的组件里挑选、配置、摆位，交出可点选、可拖动、可导出的组件树，而不是一张截图。\n\n演示里是附近烘焙店列表：距离、风味、今晚品鉴时间，卡片能继续在图层和检查器里改。模型可换 Claude、Codex、Gemini、Grok、DeepSeek 等，不绑死一家。\n\n所以呢：生成式界面要能改第二版，边界必须画在「你的组件目录」上，而不是模型的想象力上。",
+      "links": [
+        {
+          "label": "genieUI",
+          "url": "https://genieui.com/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49669199"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "flutter-genui-widget-catalog",
+      "category": "视觉尝试",
+      "title": "Flutter 官方实验：别让聊天吐字墙，让它拼你的控件",
+      "body": "flutter/genui 仓库已经一千七百多星。目标很明确：把大模型那堵字墙，换成用你项目里现成 Widget 目录拼出来的可交互界面。状态一变就回写客户端数据模型，再喂回代理，形成闭环。\n\n它走 JSON 与 A2UI 协议，不是生成一坨代码再编译。用例很具体：别用文字列商品，直接渲染可滑的商品卡片；别让用户打字答问卷，直接甩出滑块和勾选框。仓库里还带给编程代理用的 skill 文件。\n\n所以呢：下一代助手界面的胜负，可能不在文案，而在你敢不敢把自家控件目录交给模型来排。",
+      "links": [
+        {
+          "label": "GitHub flutter/genui",
+          "url": "https://github.com/flutter/genui"
+        },
+        {
+          "label": "A2UI",
+          "url": "https://a2ui.org"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
       "id": "fugleramme-eink-bird-frame",
       "category": "好玩AI",
       "title": "厨房窗台装了块墨水屏：鸟一叫，十九世纪手绘就跳出来",
