@@ -2,6 +2,224 @@ window.INTEL_DATA = {
   "updated": "2026-09-17",
   "items": [
     {
+      "id": "ct-scanlon-ai-health-plan",
+      "category": "痛点",
+      "title": "康州管账官拍桌子：二十七万人医保，算法不能独自砍单",
+      "body": "哈特福德的新闻发布会上，康涅狄格州主计长肖恩·斯坎伦把话说死了：他管的州雇员与市政合伙医保，一共二十七万多人，从二〇二七年一月一日起，保险公司不许再让人工智能单独做「不利决定」——拒赔、降码、砍支付，都必须有人审过。\n\n政策还写进另一条：会员看病数据不许拿去训别家模型。安泰、信诺、安森等承保方谈了一个月，当场接了。斯坎伦说，明年还要推州议会，把同样护栏扩到全州受监管的商业保单。医生协会会长当场站台：病人和医生的判断，不该被算法替代。\n\n所以呢：州政府先拿自己员工当试点，等于把「AI 拒赔要有人签字」写成可执行合同，比空喊联邦立法快半步。",
+      "links": [
+        {
+          "label": "CT Mirror",
+          "url": "https://ctmirror.org/2026/09/16/ct-artificial-intelligence-regulations-health-insurance/"
+        },
+        {
+          "label": "康州主计长公告 PDF",
+          "url": "https://osc.ct.gov/wp-content/uploads/2026/09/2026.09.16-Comptroller-AI-Healthcare-Policy.pdf"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "house-datacenter-ratepayer-bill",
+      "category": "痛点",
+      "title": "众议院四百一十七票过关：机房扩容，先别让邻居替你交电费",
+      "body": "华盛顿表决屏亮起四一七比三。科罗拉多共和党众议员加布·埃文斯和佛州民主党众议员凯西·卡斯托联手的法案过了众议院：要求各州审议联邦标准，让数据中心这类大用电户自己扛电网升级成本，别把账摊进普通家庭电费。\n\n法案改的是一九七八年那部公用事业监管法。发言时埃文斯说，跟中国抢 AI 要建机房，但不能踩在月底付电费的美国人背上。民调也不客气：马萨诸塞大学八月调查，六成五受访者反对自家社区旁盖 AI 机房。参议院民主党人却嫌它「只让州考虑、不强制」，另推更硬的超级算力商自掏腰包版。\n\n所以呢：选民已经把「AI 电费」变成选票议题，国会先递一张软约束，真刀真枪还得看各州和能源监管会怎么收紧。",
+      "links": [
+        {
+          "label": "Roll Call",
+          "url": "https://rollcall.com/2026/09/16/bill-aimed-at-voter-anger-over-data-centers-passes-house/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "florida-ai-parent-opt-in",
+      "category": "痛点",
+      "title": "佛州教委改规矩：课堂 AI 要家长勾同意，陪聊机器人直接禁",
+      "body": "冬港的州立学院会议室里，佛州教育委员会举手通过新规：中小学要用 AI 教学工具，必须先告诉家长工具名字、用在哪门课、孩子怎么跟它互动；家长得主动勾同意，不同意就得有同等质量的非 AI 替代方案。学区要在二〇二七年七月一日前写进互联网安全政策。\n\n配套更狠：学前到五年级额外审查；专门满足社交情感需要、假装交朋友、用拟人套路哄孩子一直聊的「陪伴型」系统一律禁止；不许偷偷做行为监控和社会评分。老师要接受 AI 风险培训，学生不得无人监管使用，学校还得能不靠厂商立刻关掉工具。州立学院系统则规定，没有教师明确许可，学生不能拿 AI 交计分作业。\n\n所以呢：纽约洛杉矶是先禁一年再研究，佛州改成「默认可选、家长签字」——家长权被抬到课堂入口，厂商再想悄悄塞陪聊就过不了门。",
+      "links": [
+        {
+          "label": "Tallahassee Democrat",
+          "url": "https://www.tallahassee.com/story/news/education/2026/09/16/florida-sets-new-rules-for-ai-use-in-k-12-and-college-classrooms/91800850007/"
+        },
+        {
+          "label": "Education Week",
+          "url": "https://www.edweek.org/technology/banning-ai-alone-wont-snuff-out-the-techlash-parent-advocates-say/2026/09"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "aft-microsoft-school-ai-pact",
+      "category": "痛点",
+      "title": "全美教师工会跟微软签死协议：学生数据不许拿去训模型",
+      "body": "纽约，美国教师联合会主席兰迪·温加滕、纽约市联合教师联合会主席迈克尔·马尔格鲁，跟微软副董事长布拉德·史密斯坐到一起，宣布一份「全国学校 AI 安全与隐私标准」。核心几条写进可强制执行的客户合同：学生和教师数据不得用于训练模型、不得拿去卖广告；AI 不能在没有人盯着的情况下做决定；家长和学校要看得懂工具怎么运作。\n\n十一月一日起，全美学区可以把这些条款直接塞进现有或新签的微软合同，违约能解约、能索赔。温加滕的原话很冲：联邦没人下场，工会就自己锻一块带牙的铁。微软说要推到每个学区；OpenAI、Anthropic 也在谈类似约定，谷歌教育却还没表态。\n\n所以呢：课堂 AI 的护栏第一次从「原则倡议」变成能起诉的合同条款——谁控制采购合同，谁就能逼厂商改产品。",
+      "links": [
+        {
+          "label": "AFT 官方",
+          "url": "https://www.aft.org/press-release/aft-uft-and-microsoft-announce-national-ai-safety-privacy-standard-schools-protect"
+        },
+        {
+          "label": "K-12 Dive",
+          "url": "https://www.k12dive.com/news/teachers-unions-announce-ai-safety-agreement-with-microsoft/829957/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "novo-anthropic-claude-science",
+      "category": "跨行业",
+      "title": "减重药巨头把 Claude 拉进实验室：报告从几个月压到几分钟",
+      "body": "丹麦Bagsværd的诺和诺德总部刚开完员工大会，隔天就官宣：跟 Anthropic 合作，把 Claude 系列和 Claude Science 塞进新药发现与研发流程。CEO 说，AI 不止提速，还能帮人推理人体生物学和药物机理；Anthropic 的达里奥·阿莫代则强调，要让顶尖研究员用上「安全又够强」的前沿模型。\n\n诺和诺德已经在用 Claude 自动写临床试验报告，把患者文档从「几个月」压到「几分钟」。下一步还会拿同一套模型加固内部软件开发。减肥药韦格维的东家公开站队，等于告诉整个制药业：实验室文档和候选分子筛选，正在变成算力战场。\n\n所以呢：药厂不再只买「算分子」的黑盒，而是把通用大模型请进日常研发流水线——谁先把报告和实验推理跑通，谁就先缩短上市倒计时。",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-16/novo-will-work-with-anthropic-ai-to-speed-drug-development"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/novo-partners-with-anthropic-speed-up-drug-development-with-claude-2026-09-16/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "aema-flexible-datacenter-power",
+      "category": "跨行业",
+      "title": "谷歌英伟达拉起「柔性能源联盟」：机房用电要会跟着电网喘气",
+      "body": "周三，Emerald AI、谷歌和英伟达宣布成立 AI 能源管理联盟。口号很直白：未来的 AI 工厂不能只会「死死咬住」一条大功率，而要能按电网状况挪算力、放电池、切自备电源，甚至在紧急时主动降载。\n\n联盟把二十家左右算力、公用事业和发电商拢到一张桌上，包括 Anthropic、National Grid、AES、NRG 等。英伟达可持续负责人说这是三赢：压电价、安抚邻居、还能继续扩机房。民调却显示八成四美国人担心数据中心冲击本地；联盟赌的是「可验证的灵活性」能换来更快并网、少建昂贵升级。\n\n所以呢：AI 的瓶颈已经从芯片挪到变电站——谁能证明自己会让电，谁才可能继续获准盖楼。",
+      "links": [
+        {
+          "label": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
+        },
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/09/16/tech-giants-launch-flexible-power-coalition-data-centers"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "fairview-bd-vmax-pharmacy",
+      "category": "跨行业",
+      "title": "明尼苏达药房一周两万张方：美国首台冷链盒装机器人上岗",
+      "body": "明尼苏达的 Fairview 卫生系统成了全美第一个装上 BD Vmax 160 的健康系统。这台欧洲成熟、美国首发的中央配药机器人，专啃「盒装即用」和冷链药：GLP-1、生物制剂这些不能再当普通药瓶灌的货，要自动补货、贴全美五十州标签、在二到八摄氏度里存，过期直接拦下。\n\nFairview 旗下二十五家门诊药房加邮寄，平均每周开出约两万张处方。零售药店关门、药荒社区增多，健康系统被迫把履约收到中央仓。厂家宣称料箱三秒装一托、准确率百分之九十九点八，夜里也能自动补货。\n\n所以呢：医院药房的下一场自动化，打的不是普通药片，而是又贵又怕热的特药——谁先把冷链盒装跑通，谁就能接着扛处方洪峰。",
+      "links": [
+        {
+          "label": "BD 新闻稿",
+          "url": "https://news.bd.com/2026-09-14-BD-Advances-Intelligent-Robotics-to-Transform-the-Future-of-Pharmacy-Care-at-Fairview"
+        },
+        {
+          "label": "Becker's",
+          "url": "https://www.beckershospitalreview.com/pharmacy/fairview-1st-us-health-system-to-deploy-pharmacy-robot/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "turbo-teddy-st-josephs",
+      "category": "跨行业",
+      "title": "坦帕儿童医院走廊跑来「涡轮泰迪」：化疗药不能进管道就靠它叼",
+      "body": "坦帕圣约瑟夫儿童医院走廊上，一台约三英尺高的机器狗晃着「涡轮泰迪」的卡通脸刷门禁、自己叫电梯。它一天跑十到二十趟，专送不能晃、不能塞气动物流管的化疗和消化神经科药——以前得有人从主楼地下室药房一路抱到日间病房，为了少跑腿还常攒成批，孩子就干等。\n\n捐钱的是本地患者大卫·芬克一家：他在这儿治克罗恩病十多年，家里那只博美成了机器人的名字和模样。护士长说，机器跑腿后，药师能留在药房盯药，护士能留在床边盯人。\n\n所以呢：医院机器人最打动人的，往往不是人形秀，而是把「不能进管道」的那一小段物流补上——家长一眼看懂的痛点，比展厅演示好拍十倍。",
+      "links": [
+        {
+          "label": "FOX 13 Tampa",
+          "url": "https://www.fox13news.com/news/meet-turbo-teddy-robot-dog-fetching-medications-st-josephs-childrens-hospital-patients"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "logan-amelia-hologram-guide",
+      "category": "跨行业",
+      "title": "波士顿洛根机场竖起九个「艾米莉亚」：迷路也能扫码带走路线",
+      "body": "波士顿洛根机场里，九台真人大小的全息屏站着虚拟向导「艾米莉亚」。她会多语言指路、报 TSA 排队、认自己所在位置给眼前旅客定制路线；复杂问题答不上来，就转真人，再打电话给旅客。屏幕上还能扫二维码，把地图直接塞进手机，免得转个弯又迷路。\n\n做屏的洛杉矶公司 Proto 说，别的机场多拿全息机做广告娱乐，洛根这版才是真正的导览分身，兴趣点已有四百个，年底要扩到一千。旅客反馈没像他们担心的那样「新鲜劲一过就冷」，几乎每小时都有人上来聊。\n\n所以呢：机场把「问讯台下班后谁管迷路的人」交给会喊真人的全息员——跨行业落地，比再发一篇旅客 App 更新好拍。",
+      "links": [
+        {
+          "label": "AirlineGeeks",
+          "url": "https://airlinegeeks.com/2026/09/16/airports-enlist-ai-holograms-as-guides/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "latent-pharmacy-agents-60",
+      "category": "跨行业",
+      "title": "克利夫兰诊所也上药房智能体：特药批文堵车，机器先替人翻规则",
+      "body": "旧金山的 Latent 宣布，药房智能平台已在六十家美国健康系统上线，覆盖约七千万患者；新名单里有克利夫兰诊所、AdventHealth、辛辛那提儿童、南加州大学凯克医学等七家。他们甩出的不是聊天机器人，而是能读病历、理赔、支付方政策和药品说明书、在受控流程里跑事前授权的「临床智能体」。\n\n压力来自特药洪峰：专科药已占美国药房支出一半。今年七月一日联邦 GLP-1 过渡计划一夜放出四百万名医保老人资格，Latent 说十天内就部署智能体去核资格、凑材料交授权。预计未来十二个月要处理超过五百八十万次用药旅程。药学团队仍盯着，机器先啃行政泥潭。\n\n所以呢：新药研发再快，卡在保险公司表格上照样到不了人——医院买的是「会办批文的代理」，不是又一块诊断模型。",
+      "links": [
+        {
+          "label": "Latent 新闻室",
+          "url": "https://www.latenthealth.com/press/latent-expands-ai-platform-new-generation-of-medicines"
+        },
+        {
+          "label": "Becker's",
+          "url": "https://www.beckershospitalreview.com/pharmacy/cleveland-clinic-adventhealth-among-7-new-latent-partners-as-pharmacy-ai-agents-launch/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "ryanair-ai-80pct-chats",
+      "category": "跨行业",
+      "title": "瑞安航空一天十二万条客服聊天：八成不用真人接",
+      "body": "欧洲廉价航司瑞安航空把客服做成一道算术题：旅客越多，提问越多，以前就得加人。AWS 案例里写明，他们的智能体每天处理约十二万条聊天、覆盖七种语言，八成对话不用真人收尾；自二〇二四年十月上线以来，累计答了一千万条，宣称准确率百分之九十四。\n\n团队拿一万二千道真实旅客题测了五个基础模型，最后选定亚马逊 Nova 2 Lite，回复从十八秒压到二点九秒。二月又把十二个专项机器人收成一个总代理，每条答案先过自动打分再给旅客看。客服总监说目标很清楚：客服成本别再跟旅客量线性上涨。电话加聊天，他们声称已省下逾五十万座席小时。\n\n所以呢：航空业把「人随客涨」这条铁律掰弯了——但加拿大航司聊天机器人乱编丧亲票价的教训还在，机器答错，官司还是公司背。",
+      "links": [
+        {
+          "label": "PYMNTS",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ryanair-ai-resolves-80percent-customer-chats-without-humans/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "yazaki-cuebus-humanoid-handoff",
+      "category": "跨行业",
+      "title": "矢崎工厂里仓库和人形机交棒：零件自己滑出来，再递到下一道工序",
+      "body": "静冈县裾野市，矢崎总业新开的创新中心 REN 里，立体仓储 CUEBUS 和一台人形机器人约好九月二十一日开联合演示。地板嵌直线电机，托盘自己滑，人不需要走道，号称同面积库存是传统平置货架四倍以上；出库口的零件被自动弹出，站着的人形机接住，再递给下一道工序。\n\n矢崎是全球线束巨头，零件又长又碎、型号极多。CUEBUS 的托盘本身没电机没电池，动力全在地板，停位误差约一厘米，插一百伏插座就能跑。商社山善负责人形侧，三家要量的不是宣传片，而是两种机器人交棒到底顺不顺。\n\n所以呢：制造业真正难的不是「再买一台人形」，而是仓库吐货节奏和手臂抓取对得上——交棒顺了，才谈得上少人搬运。",
+      "links": [
+        {
+          "label": "claypier",
+          "url": "https://claypier.com/en/cuebus-humanoid-warehouse-trial/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "ai-friction-grid-clinic-classroom",
+      "category": "趋势",
+      "title": "同一周三条摩擦面：电费、拒赔、课堂签字一起顶上来",
+      "body": "九月中旬这几天，三件看似不搭的事叠在一起：美国众议院高票让各州审议「机房自己付电网升级」；康州主计长给二十七万医保人立规，算法不能独自拒赔；佛州教委要求课堂 AI 必须家长勾同意，陪聊机器人直接禁。\n\n它们打的不是模型榜单，而是普通人摸得着的账单、病历和孩子屏幕。谷歌英伟达同时拉「柔性能源联盟」示好电网，教师工会又把微软按进可起诉的隐私合同——技术公司一边求并网、一边被采购方反制。\n\n所以呢：AI 进真行业的下一季叙事，已经从「谁更聪明」换成「谁付钱、谁签字、谁担责」；创作者跟这条线，比再追一个发布会好讲。",
+      "links": [
+        {
+          "label": "Roll Call",
+          "url": "https://rollcall.com/2026/09/16/bill-aimed-at-voter-anger-over-data-centers-passes-house/"
+        },
+        {
+          "label": "CT Mirror",
+          "url": "https://ctmirror.org/2026/09/16/ct-artificial-intelligence-regulations-health-insurance/"
+        },
+        {
+          "label": "Tallahassee Democrat",
+          "url": "https://www.tallahassee.com/story/news/education/2026/09/16/florida-sets-new-rules-for-ai-use-in-k-12-and-college-classrooms/91800850007/"
+        }
+      ],
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
       "id": "prompt-seedance-cat-food-rescue",
       "category": "提示词",
       "title": "工地橘猫正咬袖口救人，听见猫粮罐一开就跑了",
