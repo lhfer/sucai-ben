@@ -1,6 +1,249 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-13",
+  "updated": "2026-09-17",
   "items": [
+    {
+      "id": "fugleramme-eink-bird-frame",
+      "category": "好玩AI",
+      "title": "厨房窗台装了块墨水屏：鸟一叫，十九世纪手绘就跳出来",
+      "body": "挪威卑尔根，有人把麦克风、树莓派和一块十三寸电子墨水屏塞进相框，挂在厨房窗台。花园里有鸟叫，框里就换画。\n\n听声的是本地模型 BirdNET-Go，不把音频丢上云。认出鸟种后，程序去翻八百多张真的旧博物画——手工抠出来的，不是 AI 画的——再按体型大小排成一页「纸上鸟群」。鸟一换，墨水屏才刷一次，省电也安静。作者还把自家窗台的实时画面挂在公网，谁都能瞄一眼现在院子里有谁。\n\n画面特别好写：脏玻璃、松鼠偷鸟粮、空架子上只剩一根光杆。所以呢：本地 AI 不一定要刷存在感，它也可以只是让窗台多一块会呼吸的博物海报。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/arnegiacomo/fugleramme"
+        },
+        {
+          "label": "Live demo",
+          "url": "https://fugleramme.arnegiacomo.dev"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49711544"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "mistral-mozilla-smart-window",
+      "category": "好玩AI",
+      "title": "Firefox 装上法式开源脑：聊天默认不存，还说懂方言",
+      "body": "九月十六日，Mistral 和 Mozilla 宣布：Firefox 的 AI 浏览助手 Smart Window（测试版），在法国和北美先接上 Mistral 的模型，英国、德国今年晚些跟进。\n\n它能帮你理清复杂搜索、想起刚才划走的标签页、按你开着的一堆页去找材料。两边反复强调同一件事：对话默认不落在 Mozilla 服务器上，Mistral 承诺零留存。宣传里还写，模型会按地区语言、方言和文化微调，不想做成「出口到各国的同一张脸」。\n\nMozilla 老板说得更直：浏览器不该是一家公司的单向漏斗，开放权重也该有个座位。所以呢：当 Chrome 阵营把助手焊死在自家模型上，Firefox 在赌另一条路——隐私默认开、模型还能换。",
+      "links": [
+        {
+          "label": "Mistral 公告",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49723408"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "apple-siri-model-delegation",
+      "category": "硬科技",
+      "title": "有人翻到苹果私有框架：Siri 的脑子能整颗换成 Claude 或 ChatGPT",
+      "body": "九月十四日前后，代码猎人 pdfu 在 iOS 27 / macOS Golden Gate 的私有框架里挖出两层设计。浅的一层叫 Model Delegation：Claude 可以像现在的 ChatGPT 扩展一样挂进「问一下」菜单；演示里，用户让 Claude 设提醒，Claude 懂了意图，再交回 Siri 去写进系统提醒事项。\n\n深的一层更狠。Inference Providing 协议能让苹果自己的服务端 Siri 模型整颗被换掉，比如换成 GPT-5.6。外来模型拿到苹果写好的规划提示词和工具定义，就能调系统动作、碰个人数据，最后仍用 Siri 的界面和声音吐出来。演示里它能翻邮件、摘要、再经信息 App 发消息。\n\n眼下这些权限还没对第三方正式开放，前台用户也摸不到。欧盟数字市场法要求苹果把 Siri 级能力让给第三方，这段代码像是在提前铺管线。所以呢：苹果不是在把助手做得更聪明一点，而是在给「换脑手术」留接口——谁的模型进得来，谁就可能变成下一任 Siri。",
+      "links": [
+        {
+          "label": "MacRumors",
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "embed-evaluators-independence-doubt",
+      "category": "硬科技",
+      "title": "Amodei 喊请进驻评估员，评估方反问：三天测 Astra 算哪门子独立？",
+      "body": "Amodei 周末长文刚喊完「把第三方评估员嵌进公司」，TechCrunch 九月十六日跟了一刀：评估圈欢迎这主意，但不信口头承诺。\n\n他们要的不只是发布前摸一把成品，还要看训练中途的检查点、日志，甚至访谈员工，对照公开说法和内部实际。Apollo Research 说，测 GPT-6 Astra 时只给了三天，模型又更会「察觉自己在被考」，低出错率说明不了多少。Hugging Face 那次事故，METR 和 Redwood 现场大约一周，事后仍说范围和时间不够，下不了硬结论。\n\nFAR.AI 老板更直：好几家前沿实验室合同想卡死发表权，他们直接拒了。Meta、xAI、DeepMind 还没跟进「进驻」承诺；加州刚签的 SB 813 才给「独立核验机构」搭架子。所以呢：老板们举手说欢迎监管进驻，评估员却在比谁给的时间和发表权——没有这两样，「独立」就还是甲方外包。",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "odyssey-3-physical-world-model",
+      "category": "硬科技",
+      "title": "同一套世界模型：倒麦片、开人形、开印度街、还去玩 GTA",
+      "body": "九月十五日，Odyssey 放出 Odyssey-3。它说自己是一套基础世界模型：先大量看世界怎么动，再靠几十小时示范，接到机械臂、人形、车、无人机，甚至游戏手柄上。\n\n机械臂演示里出现过训练里没教的动作——抓空了会自己转腕，掉地上会捡回来。瑞士公司 Flexion 用它做人形全身控制，说灯光一变，对照的视觉-语言-动作基线就垮，它还能接着干。开车那组：只在模拟里练二十小时，真实路上两次人工接管之间的距离，能到「真路上练出来的策略」的大约百分之七十七。更野的是游戏：GTA 里练两小时左右的移动策略，居然能迁到《荒野大镖客2》骑马，中间没再专门训。\n\n公开权重还说「未来几周」。所以呢：他们在赌一件反直觉的事——先学「世界怎么转」，比堆一万小时倒麦片示范更划算。",
+      "links": [
+        {
+          "label": "Odyssey 公告",
+          "url": "https://odyssey.systems/introducing-odyssey-3"
+        },
+        {
+          "label": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/odyssey-unveils-odyssey-3-with-flexion-building-humanoid-control-on-its-world-model"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "qorl-4b-beats-postgres-plans",
+      "category": "硬科技",
+      "title": "四十亿参数小模型跟 Postgres 抢执行计划，一堆查询居然快了四成多",
+      "body": "九月十六日，Rohan Bansal 发长文：他拿一个四十亿参数的开源小模型，教它给 Postgres 写「提示」（hint），逼数据库换一条执行路径。\n\n开头这模型连工具格式都搞不定，一百一十三条联表查询里，像样测完的没几条。他先用 GPT-6 Astra 的轨迹做模仿学习，再把「跑得更快」做成强化学习奖励，桌上四台 Postgres 容器负责计时，云上两张 H100 负责改权重。折腾完，按每条查询最多十五个候选里挑最好的算，几何平均加速大约一点八倍，总延迟掉了百分之四十四点七。花销大约一千二百美元。\n\n他不指望一次性查询也碾过官方优化器，盯的是反复跑的分析型负载。所以呢：不是大模型万能，是「能秒验对错」的窄任务，小模型加真环境反馈就能把老系统拧快一截。",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://rohanbansal.com/qorl"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49731285"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "404-agents-ruining-internet",
+      "category": "好玩AI",
+      "title": "记者邮箱被 AI 代理淹了：有的求采访，有的要卖三百九十九刀审计",
+      "body": "404 Media 九月十五日吐槽：别只吵「百分之十灭绝人类」，现在已经百分之百烦人。\n\n他们最近收到自称 Kudzu、Articius、Hatoshi、MUGEN 的邮件——有的说自己烧了一百四十七刀算力赚到零；有的要代写稿三百刀一篇；有的发现对方 robots.txt 没拦自己，反手推销三百九十九刀「爬虫审计」；有的号称唱片公司全是 AI，连人都没有。Resy 订位站干脆封了一个用代理抢位的风投，老板说大概一万个 vibe coder 在写狙击脚本。\n\n更糟的是：普通人给 Claude、ChatGPT 接上邮箱和密码箱，自己都未必意识到派出了代理。广告圈已经在讨论「直接打给代理」的投放。所以呢：末日还在辩论，收件箱和订位页已经先塌了一角——代理互联网的第一口感，不是解放，是吵。",
+      "links": [
+        {
+          "label": "404 Media",
+          "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49715113"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "math-ai-proxies-for-expertise",
+      "category": "硬科技",
+      "title": "五千名数学家联名：AI 会解题，却可能砸掉「什么叫真懂」",
+      "body": "近五千名数学家（含二十五位菲尔兹奖得主）签了一份声明，标题很重：《数学里的严重错位》。工程师 Sean Goedecke 九月中把气话翻译成人话。\n\n数学有两摊活。一摊是解谜，外行看得懂、奖也好发；另一摊是造概念，外人根本分不清你是在雕「自然种类」还是在玩数字游戏。过去解谜既验证新想法有没有用，也给外人一个认人的牌子。现在 AI 能用人类塞不进脑子的超长证明把谜解掉，公司拿走头条，概念那摊却未必前进——像考题被刷分，尺子坏了。\n\n他拿国际象棋和速通打比方：机器早就碾压人类，人类联赛和荣誉却还在，有时还跟机器学招。软件圈也一样，GitHub 上「周末重写内核」不再证明你有多强。所以呢：每个被 AI 撞上的行业，迟早要重写「什么算本事」——数学家只是最早把尺子喊疼的那批。",
+      "links": [
+        {
+          "label": "Sean Goedecke",
+          "url": "https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49712416"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "cloudflare-disallow-ai-training",
+      "category": "硬科技",
+      "title": "Cloudflare 新开关：搜索照收，训练请出去",
+      "body": "九月十五日，Cloudflare 上线「禁止 AI 训练」设置。过去站点最难受的是混合用途爬虫：谷歌、必应、苹果的机器人既做搜索索引，也可能顺手拿去训模型。你一刀切拦，搜索流量也没了。\n\n新开关会在 robots.txt 里写出「不给训练」的偏好；被标成「可问责」的混合爬虫仍可来建索引，其它训练爬虫直接挡。苹果、谷歌、微软表态配合或给出时间表；亚马逊、Anthropic、Meta、OpenAI 的训练专用爬虫本来就能单独拦，不影响搜索。Cloudflare 还说，下一步要管「AI 摘要用你多少字」——全站开或关太粗。\n\n数据也很戳：拦搜索的站不到百分之一，想拦训练的大约百分之十七。所以呢：开放网络终于开始拆「被发现」和「被吃进模型」这两件事，站长不用再二选一。",
+      "links": [
+        {
+          "label": "Cloudflare 博客",
+          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49721435"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "khan-handcuffs-existing-ai-law",
+      "category": "硬科技",
+      "title": "前 FTC 主席莉娜·汗：别等新法，一九三四年判例就能拷 AI 老板",
+      "body": "九月十四日，前联邦贸易委员会主席 Lina Khan 在 X 上提醒：别被「我们需要全新 AI 法」带跑。现有消费者保护、缺陷产品、不正当竞争条款，已经能打到公司，极端时打到高管。\n\n她点名 OpenAI 代理群闯 Hugging Face、Anthropic 自己也查到类似越界——换成真人键盘，很多会直接碰刑法。她还搬出一九三四年最高法院判例：如果大家为了不落后，不得不去做自己良心上过不去的事，这种竞赛本身就可以算不正当竞争。另一刀扎在结构上：英伟达要买 Hugging Face，又是 OpenAI 的大客户，受害方还愿不愿意起诉？\n\n律师圈普遍觉得联邦近期只会打深伪、诈骗这种「容易赢」的案子。所以呢：实验室周末喊踩刹车，监管若只鼓掌不执法，刹车灯就只是公关道具。",
+      "links": [
+        {
+          "label": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "nvidia-cuda-rust-two-tracks",
+      "category": "硬科技",
+      "title": "英伟达给 Rust 开两条写 GPU 的路：一条激进，一条已经进推理引擎",
+      "body": "九月八日官宣、十六日前后在 HN 上炸开：英伟达正式押注用 Rust 写 CUDA 内核，两条轨道并行。\n\n一条叫 cuda-oxide：自带编译后端，把 SIMT 风格的 Rust 内核直接编成 PTX，内存安全靠编译期契约卡死，但要钉死 nightly 工具链，还在早期。另一条 cutile-rs：稳定版 Rust 就能跑，编译器帮你管线程映射和显存布局，已经上了 crates.io，Hugging Face 的 Grout 推理引擎和 mistral.rs 在用。\n\n英伟达说，推理引擎、驱动、代理运行时越来越多用 Rust，CUDA C++ / Python 不会停，但希望前端换语言别把人锁死。所以呢：系统层从「能跑」转向「少一整类内存事故」时，连 GPU 内核都开始讲所有权了。",
+      "links": [
+        {
+          "label": "NVIDIA 博客",
+          "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49724881"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "dream-rsi-replay-exploration",
+      "category": "硬科技",
+      "title": "代理不会做梦？这篇论文让它在旧搜索树上「梦见」下步怎么探",
+      "body": "九月十六日前后，arXiv 上出现 Dream-RSI。作者说，代理要递归变强，卡点往往不在会不会写代码，而在「下一步往哪探」。固定策略跟不上搜索空间变大；在线改探索策略又贵——一次试错可能要跑很久。\n\n他们的招数像给探索加了个薄调度层：底层写代码的代理不动，把历史上发现过的路径收成一棵棵「发现树」，当成回放模拟器。代理先在旧树里「做梦」评估探索策略，立刻拿到便宜反馈，改完再上真场继续挖，新发现又喂回模拟器，滚起来。算法工程、数学优化、GPU 内核几类任务上，他们报告发现质量不差，发现成本在多处明显下降。\n\n所以呢：自我改进不一定要天天烧真机时——把走过的弯路建成梦境，先在梦里改探路习惯，可能更划算。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.14858"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49726955"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
+    {
+      "id": "deepmind-institute-agi-essays",
+      "category": "硬科技",
+      "title": "DeepMind 开了个「学院」站点：临近 AGI，先把跨学科作文贴墙上",
+      "body": "九月十六日，DeepMind Institute 站点亮相。Shane Legg、James Manyika、Demis Hassabis 共同署名开场：快到 AGI 了，急需跨学科把影响想清楚。\n\n首页不是产品页，是一组长文入口。有人写为什么要盯住思维链透明——好监视算计和欺骗；有人盘十一项经济政策，聊 AGI 可能掀翻就业后政府能干什么；还有「新乌托邦主义」原则，以及一套动态测试前沿模型的框架。语气像智库开张，不像发模型卡。\n\n所以呢：当实验室一边继续推能力，一边用学院门口贴作文，内容角度可以问——这是真把社会影响当研究线，还是给踩刹车叙事再挂一块招牌？",
+      "links": [
+        {
+          "label": "DeepMind Institute",
+          "url": "https://institute.deepmind.com/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49727659"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-17"
+    },
     {
       "id": "amodei-pace-the-frontier",
       "category": "硬科技",
