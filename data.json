@@ -2,6 +2,255 @@
   "updated": "2026-09-18",
   "items": [
     {
+      "id": "prompt-seedance-rice-terrace",
+      "category": "提示词",
+      "title": "荒山十六秒种出梯田：五十个小人农民一锹一锹挖",
+      "body": "一块光秃秃的微型山坡，忽然涌上一群指甲盖大的真人农民。有人拉绳打桩，有人挥锄挖土，有人砌石挡墙，有人开闸放泥水，有人跪着一排排插秧——十六秒竖屏里，荒坡变成多层水稻梯田，最后镜头一拉，金黄田埂和还在收割的小人全入画。\n\n这条 Seedance 2.5 词把工程拆成秒表：挖、砌、灌、种、长、割，每段都要求「看得见在干活」，严禁魔法变出田、工人飘浮、布局乱跳。风格钉死微距棚拍，真人缩小，不是玩具塑料。\n\n所以呢：缩时工程片别喊「壮观」，把每一秒写成工种和物理动作。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/RizwanAly07/status/2100815169840406787"
+        }
+      ],
+      "prompt": "Create a 16-second vertical 9:16 ultra-photorealistic miniature farming time-lapse.\n\nA completely barren miniature mountain slope is rapidly transformed by 50–100 tiny realistic farmers into spectacular multi-level rice terraces. Keep the entire video extremely fast-paced, dense, and continuously active, with multiple teams working simultaneously.\n\n0–2s — MARKING & DIGGING\nFarmers stretch ropes, hammer wooden stakes, measure levels, and immediately dig the dry mountain soil with hoes and shovels.\n\n2–4s — TERRACE CONSTRUCTION\nMultiple teams carve horizontal terraces simultaneously. Workers excavate soil, carry baskets downhill, level surfaces, and physically build stone retaining walls. Terraces must develop visibly—never appear instantly.\n\n4–6s — IRRIGATION\nFarmers stack stones, compact soil, dig connecting water channels, and place tiny wooden bridges. A water gate opens and muddy water physically flows from the highest terrace through the lower paddies.\n\n6–8s — PADDIES & PLANTING\nFarmers spread and level wet mud while others carry baskets of rice seedlings. Groups kneel, plant seedlings row-by-row, stand, and rapidly move to the next section.\n\n8–10s — MASS PLANTING\nRapid time-lapse shows hundreds of seedlings being physically planted while other teams maintain irrigation channels and water levels. Terraces become dense green rice fields.\n\n10–12s — GROWTH & MAINTENANCE\nRice naturally grows through accelerated time-lapse. Farmers weed, repair terrace walls, clear irrigation channels, and carry tools and baskets.\n\n12–14s — HARVEST\nGreen rice rapidly becomes golden and ripe. Farmers use tiny sickles to cut stalks, bundle them, carry them in baskets, and load small wooden carts.\n\n14–16s — FINAL REVEAL\nFast smooth camera pull-back and upward reveal of huge layered rice terraces, stone walls, flowing channels, muddy paths, bridges, golden fields, carts, baskets, and dozens of farmers still harvesting.\n\nSTYLE: Photorealistic macro miniature photography, detailed soil and stones, realistic muddy water, natural daylight, accurate shadows, shallow depth of field, subtle handheld macro movement, 8K-level detail. Real humans at miniature scale—not CGI, cartoon, animation, or plastic toys.\n\nSTRICT: No magical appearances, teleportation, disappearing objects, duplicated/morphing workers, floating workers, instant terraces, instant growth, changing layouts, giant humans, oversized tools, text, logos, or watermark. Every terrace, wall, channel, seedling, and harvest bundle must be physically constructed, planted, or handled.",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-gpt-image-photobooth-migrate",
+      "category": "提示词",
+      "title": "拍立得九宫格：男孩一格格爬进女孩那一栏，右边空了",
+      "body": "一张竖版拍立得拼贴：两列五行。左边女孩，右边男孩。第一行他们各占一格，像陌生人；往下走，男孩身子一点点越过中间黑线，挤进她那一格；到最底行，右边几乎全空，只剩一句手写「more stories」，两个人挤在左边拥抱亲额头。\n\n这条 GPT Image 2.5 词的核心不是「浪漫」，而是一条视觉定理：右边变空，是因为人真的搬过去了——不许复制第二个人，不许两边各吻一次。连手写小字、胶片齿孔、胶带都写死了。\n\n所以呢：讲故事的拼贴图，先规定谁可以离开自己的格子，空出来的那一格才是 punchline。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/frametheory058/status/2100583390806442370"
+        }
+      ],
+      "prompt": "Create an ultra-photorealistic vertical romantic photo-booth contact-sheet collage, 2 columns × 5 rows, showing ONE continuous visual story involving the exact same young adult couple throughout.\n\nCORE VISUAL IDEA:\nThe two columns are not ten unrelated photos. They represent two separate adjacent photo-booth spaces. The young woman begins entirely inside the LEFT column and the young man begins entirely inside the RIGHT column. As the rows move downward, the man gradually leaves his own frame and physically moves into the woman’s frame. His original RIGHT frame therefore becomes progressively emptier. This visual migration is the central concept and MUST remain logically consistent.\n\nCHARACTERS:\nA very cute young adult East Asian couple, approximately 20–23 years old, both clearly adults.\n\nGIRL:\nNaturally adorable Korean-looking young woman, soft youthful facial features, expressive dark-brown eyes, realistic fair skin with visible pores and subtle natural texture, slightly rosy cheeks, dark-brown hair in a loose messy bun with wispy strands around her face. Oversized black knitted sweater. Minimal natural makeup. Sweet, shy, playful personality.\n\nBOY:\nCute Korean-looking young man, youthful but clearly adult, soft masculine facial features, warm dark eyes, naturally messy fluffy dark hair, realistic skin texture. Light-grey oversized hoodie over a simple white T-shirt. Gentle, slightly shy personality.\n\nSTRICT IDENTITY LOCK:\nThe SAME woman and SAME man must appear in every row. Identical faces, hairstyle, clothing, skin tone and proportions throughout. No face drift, no hairstyle changes, no outfit changes.\n\nSTORYBOARD:\n\nROW 1 — TWO STRANGERS\nLEFT: girl alone, chest-up portrait, casually looking toward the right edge as though she has noticed someone.\nRIGHT: boy completely visible and centered in his own frame, facing camera naturally.\nThey are physically separated by the vertical black divider.\nSmall handwritten text:\nLEFT: “just a girl… ♡”\nRIGHT: “just a guy…”\n\nROW 2 — THEY NOTICE EACH OTHER\nLEFT: girl turns her eyes and face toward him with a tiny restrained smile.\nRIGHT: boy turns toward the girl, leaning slightly toward the LEFT boundary for the first time.\nHe is still mostly inside his own frame.\nText:\nLEFT: “who noticed something”\nRIGHT: “…and looked twice ♡”\n\nROW 3 — CROSSING THE LINE\nThis is the important transition.\nThe boy has moved substantially LEFT and is now entering the girl’s frame across the central divider. The couple are close together, looking directly at each other and smiling naturally.\nHis RIGHT frame must now contain noticeably more empty background because he has physically moved away from it.\nDo NOT duplicate him.\nText:\nLEFT: “then we smiled ♡”\nRIGHT empty area: “and suddenly it made sense”\n\nROW 4 — HE HAS LEFT HIS FRAME\nThe boy is now almost COMPLETELY inside the LEFT frame with the girl.\nThey share one soft, natural kiss, photographed candidly rather than dramatically.\nOnly a tiny portion of his shoulder/body may intersect the central border.\nThe RIGHT frame is approximately 85–90% EMPTY — just clean studio background.\nThis empty frame is intentional and visually important.\nText:\nLEFT: “same weird thoughts ♡”\nRIGHT empty frame: “different chaos ♡”\n\nROW 5 — FINAL PAYOFF\nThe boy has now COMPLETELY abandoned his original right-hand frame.\nBoth characters are entirely together inside the LEFT frame.\nInstead of another kiss, create an irresistibly cute candid moment: he hugs her tightly from behind while giving her a small forehead/temple kiss; she scrunches her cheeks slightly, closes her eyes and smiles naturally.\nTheir body language should feel spontaneous, warm and genuinely affectionate.\nRIGHT frame must be COMPLETELY EMPTY except for:\n“more stories ♡”\n\nText in left:\n“same people…”\n\nIMPORTANT:\nNever place a second copy of either character in the right frame after the man moves left.\nNever repeat the kissing image across both columns.\nThe empty space tells the story.\n\nDESIGN:\nMinimal premium analog contact-sheet aesthetic inspired by an old 35mm film proof sheet, but make the composition completely original.\n\nWarm off-white / soft beige seamless studio background.\nDeep black film borders.\nThin slightly imperfect frame separators.\nTiny amber film-number markings and subtle sprocket details along outer edges.\nVery subtle authentic analog grain, dust and microscopic scratches.\nSmall pieces of aged masking tape.\nA few torn-paper notes.\nTiny hand-drawn hearts.\nSmall dried flowers near one bottom corner.\nOnly a handful of decorations — never clutter the photographs.\n\nMargin notes:\n“Good people, good times ♡”\n“You + Me Always ♡”\n“Collect moments, not things ♡”\n\nBOTTOM HERO MESSAGE:\nPlace a torn warm-ivory paper strip across the lower border with handwritten text:\n\n“you + me = a better kind of chaos ♡”\n\nPHOTOGRAPHY:\n100% believable real-human photography.\nPremium editorial photo-booth portraits shot on a full-frame camera with approximately 50–85mm portrait-lens character.\nSoft warm studio key light, subtle fill, realistic shadow falloff.\nNatural skin pores, peach fuzz, individual hair strands, realistic knitted fabric and hoodie texture.\nSlightly imperfect candid expressions.\nWarm cinematic color grade with creamy highlights, rich blacks and subtle analog grain.\nFaces remain sharp while retaining natural photographic softness.\n\nThe first row should feel slightly awkward and separated.\nEvery subsequent row becomes visually warmer and physically closer.\nThe final row should provide the strongest emotional payoff.\n\nNO CGI.\nNO illustration.\nNO anime.\nNO plastic skin.\nNO excessive beauty retouching.\nNO duplicated people.\nNO extra fingers or limbs.\nNO random additional characters.\nNO identity changes.\nNO duplicated poses.\nNO repeated kiss.\nNO decorative overload.\nNO characters appearing inside intentionally empty right-side frames.\n\nFINAL FEEL:\nA photograph someone would instantly stop scrolling to understand — first they notice two separate people, then realize the man is literally disappearing from his own frames because he is moving into hers. Cute, clever, romantic, nostalgic, highly polished and visually understandable even before reading the handwritten text.",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-seedance-me-vs-little-me",
+      "category": "提示词",
+      "title": "棚拍里真人和自己的 3D 小人互相瞪：谁也不让步",
+      "body": "浅灰棚里站两个人：右边是真人女生，粉开衫、牛仔短裙、白球鞋，抱臂微微撇嘴；左边是半身高的自己——大头、小身子、同款衣服，一手叉腰一手往上指，像在跟「大号自己」抬杠。\n\n创作者标了 Seedance 2.5，贴出完整棚拍词：参考图只锁身份和发型，真人写实、小人偏动画电影质感，但脸必须一眼同人；站位、身高比例、互怼表情全写死。\n\n所以呢：做「我和我的分身」梗图，先锁同一张脸，再写清楚谁高谁矮、谁在瞪谁。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/DaniaSafvi/status/2100815385939624109"
+        }
+      ],
+      "prompt": "Create a high-resolution, ultra-realistic 4:5 vertical studio portrait featuring a real woman standing beside a stylized 3D caricature of herself.\n\nUse the provided reference image as the ONLY identity and hairstyle reference. Preserve the woman’s exact recognizable facial structure, facial proportions, skin tone, natural facial features, and hairstyle. Do not alter her identity, beautify her face excessively, or make her look like a generic model. The real woman and the caricature must unmistakably look like the same person.\n\nCOMPOSITION\n\nFull-body vertical composition with both subjects clearly visible from head to toe.\n\n- Place the real woman on the RIGHT.\n- Place the 3D caricature on the LEFT.\n- The caricature should be approximately 50–60% of the real woman’s height.\n- Both subjects face each other.\n- Their interaction should feel like a cute, playful disagreement between the woman and her miniature cartoon version.\n- Keep the composition balanced, clean, and visually natural.\n\nREAL WOMAN — PHOTOREALISTIC\n\nRender the real woman with highly realistic photographic quality, natural skin texture, subtle pores, realistic hair strands, accurate anatomy, and soft feminine facial details.\n\nShe stands with her arms crossed, her body slightly angled toward the caricature. Her head is tilted slightly away while she looks down toward the caricature with a cute, mildly annoyed, playful sulking expression. Her lips are slightly pouted, as if she is silently saying, “Really?”\n\nKeep her posture stylish, natural, feminine, and believable.\n\nREAL WOMAN — OUTFIT\n\n- Soft pink cardigan\n- White fitted cami top\n- Light blue denim mini skirt\n- Clean white sneakers\n- Small quilted pink handbag\n\nKeep all clothing realistic, properly fitted, and naturally textured.\n\n3D CARICATURE — MINIATURE VERSION\n\nCreate a polished, premium-quality 3D animated caricature version of the exact same woman.\n\nThe caricature should have:\n\n- A large expressive head\n- A smaller stylized body\n- Slightly exaggerated but appealing facial proportions\n- The same recognizable facial structure and features\n- The same hairstyle and hair color\n- The same skin tone\n- The same overall appearance as the real woman\n\nThe caricature must clearly resemble the real woman rather than looking like a different character.\n\nPlace the caricature on the LEFT, looking upward toward the real woman with a pouty, stubborn, slightly annoyed but adorable expression.\n\nIts pose should be expressive and humorous:\n\n- One hand resting on the waist\n- The other hand raised and pointing upward toward the real woman\n- Body slightly leaned forward as if arguing back\n- Cute, playful attitude rather than anger or aggression\n\nCARICATURE OUTFIT\n\nMatch the real woman exactly:\n\n- Soft pink cardigan\n- White fitted cami top\n- Light blue denim mini skirt\n- White sneakers\n- Small pink quilted handbag\n\nThe clothing should look like a miniature stylized version of the real woman’s outfit.\n\nVISUAL STYLE\n\nCombine photorealistic photography for the real woman with a high-end cinematic 3D animated character for the caricature.\n\nThe two subjects must appear naturally present in the same physical studio space, with matching perspective, lighting direction, scale, and contact shadows.\n\nUse:\n\n- Soft diffused professional studio lighting\n- Gentle highlights on skin and clothing\n- Natural soft shadows\n- Realistic floor contact shadows\n- Clean light-gray seamless gradient background\n- Cinematic depth and subtle studio atmosphere\n- High-resolution textures\n- Sharp facial details\n- Natural hair detail\n- Realistic hands and fingers\n\nFINAL LOOK\n\nThe final image should feel like a premium cinematic fashion photograph combined with a polished animated-movie character.",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-higgsfield-genjutsu-duel",
+      "category": "提示词",
+      "title": "武打片只换脸和道场：动作镜头一秒不许改",
+      "body": "一段道馆对打原片。创作者用 Higgsfield Genjutsu（一种「只改角色和场景、动作原样保留」的视频玩法）把两个蒙面武僧换成自己的参考人物：一个白背心蓝运动裤金蓝护臂，一个银发紫衫黑金护甲；背景整段换成榻榻米木梁大厅。\n\n提示词几乎不写「打得帅」，而是写替换清单：谁换谁、原道服一件不许留、地板要换成榻榻米且每一步脚都踩实，飞踢、格挡、倒地的节拍和运镜必须跟 video_1 一模一样。\n\n所以呢：换角视频先列「改什么、严禁改什么」，动作才不会塌。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/harboriis/status/2100817506248388805"
+        },
+        {
+          "label": "Higgsfield Genjutsu",
+          "url": "https://higgsfield.ai/genjutsu"
+        }
+      ],
+      "prompt": "video_1. Replace the hooded monk fighter with image_1, using his complete face, long tousled black hair, dark brown skin tone, muscular body build, white sleeveless shirt, blue striped track pants, black boots, and large gold-and-blue armored forearm gauntlets exactly as shown in image_1. Replace the attacking martial artist in the white gi with image_2, using his complete face, swept-up silver hair, light skin tone, athletic muscular build, purple open-collar shirt, dark fitted trousers, black boots, and black-and-gold armored shoulder and forearm pieces exactly as shown in image_2. Nothing of either source fighter’s face, body, clothes, footwear, necklace, sash, gi, belt, or wraps carries over. Replace the complete source dojo environment with the traditional tatami training hall in image_3 throughout the entire video. Remove the source wooden plank floor, red lanterns, rear shrine dais, red railings, source columns, calligraphic signs, decorative artifacts, and all other source set dressing not visible in image_3. Stage the duel on the level tatami floor, with both fighters supported by the tatami during every step, crouch, landing, hand brace, and fall. Everything else stays exactly as in video_1: every body movement, pose sequence, martial-arts action beat, character position, camera move, framing change, continuous-shot rhythm, and timing.\n\nACTIVE REFERENCES\nimage_1 is the complete appearance reference for the defensive fighter: use the dark-skinned muscular man’s long black hair, face, white tank top, blue track pants, black boots, and gold-and-blue forearm armor.\nimage_2 is the complete appearance reference for the attacking fighter: use the light-skinned athletic man’s silver spiked hair, face, purple shirt, dark trousers, black boots, and black-and-gold armor.\nimage_3 is the mandatory full-location replacement: use its spacious traditional Japanese tatami hall, dark timber beams and pillars, shoji-screen walls, upper wooden gallery, weapon stand at the far left, and rear display alcove.\n\nSOURCE VIDEO\nvideo_1 is the source video being edited. Preserve the opening airborne high kick over the defensive fighter’s low duck, the recovery into guard, the advancing punch flurry, forearm parries, spinning strike, brief hand-to-floor recovery, the second high kick, the defensive duck and spinning counter strike, the attacker’s backward collapse, and the winner’s controlled rise to stand over the fallen opponent. Keep the single continuous moving camera shot and its real-time pacing exactly in place.\n\nSHOT-BY-SHOT GUIDE\nShot 1 (0.0-10.1s): Keep the same eye-level medium-to-medium-wide tracking and orbiting view of the uninterrupted fight. The image_1 fighter begins in the left foreground in three-quarter profile, crouched low on the tatami with both gold-and-blue armored forearms raised in guard and his gaze fixed toward the attacker. The image_2 fighter begins in the right midground facing left, launches the same flying high kick over image_1, rotates through the landing, and returns to fighting range on the tatami. From 2.8-5.2s, keep image_1 shifting backward through the left and center foreground while he deflects the incoming punches and spinning strike with his armored forearms; keep image_2 advancing from the right toward center with aggressive forward punches, then briefly dropping a hand to the tatami to catch his balance after the failed attack. From 5.2-8.2s, keep image_2 throwing the committed high roundhouse from the right side toward center; image_1 ducks beneath it, pivots on the tatami, and delivers the same decisive spinning counter strike, sending image_2 recoiling backward. From 8.2-10.1s, keep image_2 falling flat onto his back in the center-to-right midground with arms spread and remaining down on the tatami. Keep image_1 recovering into a low crouch near center-left, then straightening to stand over him with a calm downward gaze. Show the target hall’s tatami mats beneath both fighters, shoji screens and timber structure in the background, and the upper gallery at correct scale and depth. Do not show the removed plank flooring, lanterns, shrine steps, red railings, or source signs.\n\nSETTING\nUse the complete traditional tatami hall from image_3 as the only environment. The fighters occupy the open central tatami floor, scaled naturally beneath the high dark timber ceiling and upper gallery. Keep firm foot contact, knee contact, hand contact, and full-body landing contact with the tatami. Preserve natural depth through the foreground mats, central open training space, timber pillars, rear shoji screens, and distant display alcove. The weapon stand remains only at the far left edge where visible in image_3 and is not handled by either fighter.\n\nEXPRESSION NOTES\nKeep image_1 focused and composed through the evasions and counter, then calm and victorious while looking down at the fallen opponent. Keep image_2 intense and aggressive during the attacks, shocked at the counter impact.",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "higgsfield-genjutsu-visual",
+      "category": "视觉尝试",
+      "title": "Genjutsu：原片动作不动，人、衣服、场景随便换",
+      "body": "你手里有一段拍好的打斗或舞蹈。Higgsfield 的 Genjutsu 不做整段重拍，而是两招：Motion Transfer（动作迁移）——抽走原片的动作和镜头，往新角色或新世界上套；Object Swap（物件替换）——只改你点名的人、衣服、产品或地点，其余画面留着。\n\n官方说一段三到三十秒视频，最多挂几十张参考图，输出到一千零八十 p；可以不写长提示词，用预设也能跑。创作者已经拿它做武打换角、广告一稿多市场、同一套编舞换偶像。\n\n所以呢：以后「换脸换景」不必重拍，先保住那一套已经拍对的动作。",
+      "links": [
+        {
+          "label": "Genjutsu 产品页",
+          "url": "https://higgsfield.ai/genjutsu"
+        },
+        {
+          "label": "官方说明文",
+          "url": "https://higgsfield.ai/blog/higgsfield-genjutsu"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-seedance-lab-breach",
+      "category": "提示词",
+      "title": "实验室寄生逃逸三十秒：门关上了，玻璃里还有一条触须",
+      "body": "五名研究员在地下生物实验室干活。玻璃舱砰一声裂开，小黑虫贴上脖子；眼睛变黑，同事一个个被卷进去。剩下三人抄起消防斧、灭火器和金属推车硬刚，以为打倒了——背后第二座培养舱却在裂。\n\n他们冲出厚门落锁。警报停了。隔着观察窗，实验室空空荡荡，可反射里有一条黑触须慢慢探上来。\n\n这条 Seedance 2.5 词把三十分钟恐怖片压进三十秒秒表，要求「不血腥、靠动作和声音吓人」，还写死假胜利和终章反转。\n\n所以呢：短恐怖片先排时间轴上的反转点，别只堆形容词。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/john_my07/status/2100824560484659349"
+        },
+        {
+          "label": "WaveSpeedAI",
+          "url": "https://wavespeed.ai/"
+        }
+      ],
+      "prompt": "Create an ultra-realistic, cinematic sci-fi horror-action short film, exactly 30 seconds long, set inside a highly advanced underground biological research laboratory. The sequence should feel like a terrifying scene from a premium Hollywood creature-horror movie, featuring practical-effects-inspired creatures, realistic human performances, intense physical action, and believable cinematic physics.\n\nThe concept follows five scientists trapped inside a laboratory when an experimental organism escapes containment and rapidly infects the research team. The action must feel immediate, chaotic, and frightening, with a clear beginning, escalating threat, desperate survival fight, and a powerful final twist.\n\nENVIRONMENT & CINEMATOGRAPHY\n\nA large, functional research laboratory filled with stainless steel equipment, glass containment cylinders, specimen tables, medical monitors, overhead fluorescent lighting, emergency cabinets, and reinforced laboratory doors. The setting should feel like a real operating facility, not a futuristic fantasy environment.\n\nUse realistic handheld cinematography, natural camera shake during impacts, dynamic tracking shots, close-ups during moments of fear, and wide shots that establish the destruction. Muted clinical color grading, authentic skin textures, realistic shadows, physically accurate glass breakage, and practical-effects-inspired creature movement.\n\nThe parasite creatures are small, dark, wet, biologically believable organisms with thin, flexible tendrils, subtle muscle movement, and sudden bursts of speed. Their design should be unsettling and original. Avoid exaggerated CGI, cartoonish anatomy, and excessive graphic gore.\n\nAUDIO\n\nStart with entirely natural diegetic laboratory sound: ventilation, electrical humming, equipment beeps, footsteps, and distant mechanical noises. Introduce a tense cinematic instrumental score after the first containment breach. Use realistic glass shattering, screams, metal impacts, frantic breathing, creature movements, and facility alarms. No unnecessary artificial sound effects.\n\n---\n\n[0–2s] — THE FIRST ATTACK\n\nHard cut to a wide laboratory shot.\n\nFive scientists work at different stations when a loud metallic bang erupts from the rear containment section.\n\nOne scientist turns.\n\nA dark shape slams against the inside of a glass chamber.\n\nThe chamber bursts open. Glass fragments scatter across the floor, and a small parasite creature races through the mist and launches directly toward a nearby scientist.\n\nIt attaches to the side of his neck.\n\nHe screams and falls against a steel table.\n\n[2–5s] — THE INFECTION\n\nHandheld close-up of the scientist struggling on the floor. His colleagues rush toward him, shouting for help.\n\nThe organism disappears beneath his collar.\n\nDark veins begin spreading subtly across his neck and jaw. His body trembles violently, knocking a tray of instruments onto the floor.\n\nThe lead scientist reaches for him.\n\nHe suddenly stops moving.\n\nThe room falls silent for a moment.\n\nHe slowly lifts his head. His eyes have turned completely black.\n\n[5–8s] — THE SECOND VICTIM\n\nThe infected scientist rises with stiff, unnatural movements.\n\nA female scientist backs away, visibly terrified.\n\nHe lunges forward.\n\nShe tries to escape around a laboratory table, but dark tendrils extend rapidly from his mouth and wrap around her protective clothing. She is pulled backward into a workstation, sending equipment crashing to the ground.\n\nThe camera cuts to the other scientists' shocked reactions, then back to her struggling to break free.\n\nAvoid graphic penetration or visible wounds. Keep the attack frightening through movement, sound, and performance.\n\n[8–11s] — TWO AGAINST THREE\n\nThe infected woman suddenly goes still.\n\nHer head lifts slowly.\n\nHer eyes turn black.\n\nBoth infected scientists stand together in the center of the wrecked laboratory, their bodies twitching subtly as tendrils retract into their mouths.\n\nThe remaining three scientists retreat toward the emergency equipment.\n\nThe lead scientist grabs a heavy fire axe from a wall-mounted emergency case.\n\nAnother scientist picks up a metal tool, while the third reaches for a fire extinguisher.\n\nThe infected pair begin advancing.\n\n[11–15s] — THE SURVIVAL FIGHT\n\nThe infected creatures suddenly charge.\n\nThe lead scientist swings the axe toward the first creature. The impact is partially obscured by a fast camera movement and a steel workstation, sending the infected figure crashing into a specimen table.\n\nGlass containers topple and shatter.\n\nThe second infected creature attacks from the side.\n\nA scientist blasts it with a fire extinguisher, filling the space with thick white vapor. The creature recoils, its tendrils whipping through the cloud.\n\nThe third scientist shoves a heavy steel cart into its path.\n\nThe infected creature crashes into the cart and falls to the floor.\n\nUse grounded action choreography, realistic weight, physical resistance, and non-graphic impacts.\n\n[15–18s] — FALSE VICTORY\n\nThe two infected figures lie motionless among the scattered equipment.\n\nThe survivors stand several feet away, breathing heavily, weapons raised.\n\nThe lead scientist cautiously approaches the fallen creatures.\n\nOne infected hand twitches.\n\nShe immediately steps backward.\n\nA red emergency light begins flashing.\n\nThe laboratory alarm activates.\n\n[18–21s] — THE THIRD CONTAINMENT CHAMBER\n\nA wide shot reveals the entire laboratory.\n\nBehind the survivors, a second containment chamber begins vibrating.\n\nA hairline crack spreads across the glass.\n\nThe survivors are focused on the fallen infected scientists and do not notice.\n\nThe chamber shatters.\n\nA larger, faster parasite creature launches out of the mist and crosses the room in a single sudden movement.\n\nThe lead scientist hears the impact and spins around.\n\n[21–24s] — THE LAST STRIKE\n\nThe creature leaps toward the lead scientist.\n\nShe raises the fire axe and swings.\n\nUse a dramatic side-angle shot as the axe intercepts the creature mid-leap. The impact sends it tumbling across the floor.\n\nNo visible blood or graphic injury. Emphasize the physical force of the collision, the creature's unnatural movement, and the survivors' reactions.\n\nThe creature lies still.\n\nA dark liquid trail spreads subtly across the floor without graphic detail.\n\n[24–27s] — THE LABORATORY LOCKDOWN\n\nThe three survivors press their backs against one another, scanning the laboratory.\n\nRed emergency lights flash across their exhausted faces.\n\nBroken glass, fallen equipment, overturned carts, and damaged containment chambers fill the background.\n\nThe alarm klaxon echoes through the facility.\n\nThe lead scientist spots the heavy exit door and gestures toward it.\n\nThey move together cautiously, stepping around debris and fallen colleagues.\n\n[27–29s] — THE ESCAPE\n\nThe survivors reach the reinforced laboratory door.\n\nThe lead scientist pulls the emergency release.\n\nThe heavy door begins closing.\n\nA sudden impact strikes the other side.\n\nThe survivors rush through the opening.\n\nThe lead scientist slams the emergency lock.\n\nThe door seals with a powerful mechanical clang.\n\n[29–30s] — FINAL HORROR REVEAL\n\nClose-up of the lead scientist leaning against the sealed door, gasping for breath.\n\nThe other two survivors stand beside her.\n\nThe alarm suddenly stops.\n\nSilence.\n\nA faint scratching sound comes from inside the sealed laboratory.\n\nThe lead scientist looks through the small observation window.\n\nThe laboratory appears empty.\n\nThen, behind her reflection in the glass, a dark tendril slowly rises into view.\n\nShe turns.\n\nHard cut to black.\n\n---\n\nFINAL PRODUCTION REQUIREMENTS\n\n- Ultra-realistic, premium live-action sci-fi horror quality.\n- 30 seconds, 1080p, cinematic widescreen composition.\n- Original creature design with practical-effects-inspired realism.\n- Realistic actors, facial expressions, body weight, and physical reactions.\n- Natural handheld camera movement and intentional action framing.\n- Non-graphic horror: no explicit blood, open wounds, dismemberment, or detailed bodily penetration.\n- Violence conveyed through implied impacts, shadows, sound, reactions, and quick cuts.\n- Consistent character identity, wardrobe, laboratory environment, and creature appearance.\n- Physically accurate glass destruction, liquid behavior, metal impacts, and environmental damage.\n- Escalating tension, fast action, and a memorable final reveal.\n- No text overlays, subtitles, logos, or watermarks.\n- The final video must feel like an original, professionally directed sci-fi horror-action sequence; not a copied scene or a disconnected montage.",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-seedance-travel-map",
+      "category": "提示词",
+      "title": "风吹来一张手绘地图：金光散步走成小冒险",
+      "body": "傍晚，年轻女人普通散步。风送来一张手绘地图。她顺着草丛和树影钻小径，踩过微湿木桥，爬上坡，最后坐在日落观景点冲镜头笑一下，画面渐黑。\n\nSeedance 2.5 这条词不写「史诗旅程」，只钉真实走路、包和纸片的物理、风草水桥怎么动；声音只要脚步、鸟叫、桥板吱呀这类现场音，禁止奇幻漂浮和换脸换衣服。路线停靠点写得像分镜表。\n\n所以呢：旅行 vlog 提示词先写清地图→小径→木桥→山顶的停靠点，再让光和声音自己跟。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/aiwithaly/status/2100825262770246074"
+        }
+      ],
+      "prompt": "Create a 30-second ultra-photorealistic live-action cinematic travel vlog following a young woman on an ordinary golden-hour walk that unexpectedly becomes a small adventure. She discovers a hand-drawn map carried by the wind, follows its hidden trail through trees and tall grass, crosses a slightly wet wooden footbridge over a shallow stream, then climbs uphill and discovers a breathtaking sunset viewpoint.\n\nShow natural human biomechanics, realistic walking, bag and paper physics, wind interaction, grass and branch movement, realistic water flow, bridge mechanics, changing terrain, and believable balance. Use handheld vlog footage, stabilized tracking, close-ups of the map, over-the-shoulder reveals, natural autofocus, a stream-level shot, and a cinematic final pullback.\n\nUse only diegetic audio: footsteps, wind, birds, paper movement, grass, bridge creaks, flowing water, breathing, distant traffic, and natural dialogue. Warm golden-hour lighting, realistic shadows, atmospheric depth, subtle lens effects, and natural 24fps motion. End with her sitting beside the viewpoint as the sun sets, smiling toward the camera before the frame fades to black.\n\nNo CGI, animation, fantasy, supernatural events, impossible physics, floating objects, distorted anatomy, duplicated people, changing faces or clothing, unrealistic water or wind, impossible camera movement, subtitles, logos, or watermark.",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "impractical-mcp-motion",
+      "category": "小众工具",
+      "title": "一句话出发布片：代理连上 Impractical 就剪运动图形",
+      "body": "产品刚推完，还差一支十二秒发布视频。Impractical 让 Claude、Codex、Cursor 这类代理通过 MCP（给 AI 接外部工具的协议）直接连上自家画布：读品牌和产品，拆成开场、产品、证据、收束四拍，写出可改的运动草稿，还能按「开头再快一点」这种白话改某一镜，最后导出一千零八十 p 或四 K。\n\n官网演示里，代理一步步调用 connect、plan_beats、create_video、polish_motion；人不用打开 After Effects 时间线。产品猎上也挂着免费起步安装命令。\n\n所以呢：发布片不一定要剪辑师坐夜班，可以让已经懂你产品的代理直接进运动画布。",
+      "links": [
+        {
+          "label": "Impractical 官网",
+          "url": "https://impractical.ai/"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/impractical"
+        },
+        {
+          "label": "Motion Studio",
+          "url": "https://motion.impractical.ai/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-gpt-image-manga-assassin",
+      "category": "提示词",
+      "title": "把任意主题捏成「时装刺客」漫画海报：公式可换配件",
+      "body": "竖版全身海报：黑衣不对称结构、多层腰带挂链、锐利目光，背后黑白放射线，头顶超大标题字——像漫画封面撞上奢侈街拍。\n\nGPT Image 2 的公式写得很干脆：动画角色主视觉加奢侈街拍，再叠漫画封面气场和平面封面设计。主体换成音乐就挂线材工牌，换成科技就加金属饰条，换成神话就加符文护甲。口号和编辑说明栏也要跟主题相关，不许通用鸡汤。\n\n所以呢：系列海报别每次从零形容，先定一套「刺客时装」骨架，再只换主题配件。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Gdgtify/status/2100768268948832742"
+        }
+      ],
+      "prompt": "Render [SUBJECT] as a sleek anime fashion poster with a couture-assassin aesthetic.\n\nFORMULA:\n([anime character key art] + [luxury streetwear editorial] + [manga poster energy] + [graphic cover design])\n\nCORE LOOK:\n- full-body vertical composition\n- elegant but fierce pose\n- asymmetrical black outfit with exposed structure\n- layered belts, hanging straps, rings, chains, tab details, garter-like connectors, gloves, heeled boots or combat boots\n- sharp face, cool gaze, composed confidence\n- hair styled dramatically, clean silhouette\n\nGRAPHIC DESIGN:\n- oversized headline text using [DISPLAY_NAME]\n- radial burst or dynamic black-and-white line explosion behind the figure\n- optional Japanese / symbolic / vertical typography accents\n- include 1 short slogan and 1 small “editorial caption” block\n- use poster framing, like album art + fashion campaign + manga cover\n\nRENDER STYLE:\n- polished anime linework\n- hard cel shading\n- high contrast edges\n- selective glossy highlights\n- graphic shadow shapes\n\nSUBJECT ADAPTATION:\n- convert the essence of [SUBJECT] into outfit motifs\n- convert the subject’s domain into accessories\nexamples:\nmusic → cables, tags, stage styling\ntechnology → sleek metallic trims, coded tags\ncity → skyline motifs, transit symbols\nmythology → sigils, armor trims, relic details\n- text should feel custom and relevant, not generic\n\nTARGET IMPRESSION:\nexpensive, iconic, modern, stylish, manga-loud, poster-ready.",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "animatic-cinematography-mcp",
+      "category": "小众工具",
+      "title": "七十八个运镜工具塞进编辑器：问一句就吐生产级 CSS 动画",
+      "body": "你在 Cursor 或 Claude 里说：「给产品发布页做三段错落入场，编辑气质。」Animatic 这个托管 MCP 会去搜动作库、排分镜、用人格护栏校验，再编译成带关键帧和时间函数的生产级 CSS；本地装全量还能一键走完 brief 到 Remotion 可渲染规格。\n\n它挂了十五个方向技能、六种美术方向、六种序列原型，弹簧物理曲线和按渠道输出的配置也都备好。免费注册 Preset 拿令牌就能连远程端点。\n\n所以呢：网页动效不一定手写关键帧，可以让助手先按电影分镜搜配方再编译。",
+      "links": [
+        {
+          "label": "Animatic 介绍",
+          "url": "https://www.presetai.dev/animatic"
+        },
+        {
+          "label": "Preset",
+          "url": "https://presetai.dev/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-nano-banana-half-face",
+      "category": "提示词",
+      "title": "半张脸藏在侧逆光里：杂志封面式双重曝光",
+      "body": "女人露肩红裙，腰际构图。一道侧逆光只照亮半边脸和轮廓，表情藏在暗部，高髻、浓睫、身体被照亮，背景糊成暗神秘。最后再叠一层双重曝光的模糊自己。\n\nNano Banana 2 这条词不堆「高级感」空话，只钉光源方向、可见半张脸、双重曝光收束——适合做神秘封面或情绪海报。光从身后侧面来，另一半脸必须看不见，这是整张图的钩子。\n\n所以呢：半脸肖像先写清光从哪边来、哪半张脸必须看不见。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/dreamydigiarts/status/2100804509253451875"
+        }
+      ],
+      "prompt": "Hyper-realistic editorial extreme close-up face portrait of a woman in a redoff-the-shoulder dress. She is standing waist-high, with a single light source falling from behind and to the side, highlighting her silhouette and creating dramatic contrast lighting. Only half of her face is visible, the light falling in such a way that her expression is hidden, emphasizing only one side of the face. Looking confidently to the side. Lashes are lush, hair is shiny and gathered in a high bun with a strand by the face. Body is illuminated. Background is dark and blurry, creating an atmosphere of mystery, focus on her figure and dress. Style – hyperrealism, editorial glamour, 8K quality, sharp details on fabric and jewelry. Double exposure photo of this girl. Blurred photo.",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "rive-mcp-editorless",
+      "category": "小众工具",
+      "title": "不用打开 Rive 编辑器：Claude 直接读写渲染 .riv 动画",
+      "body": "交互动画格式 Rive（.riv）往常要开官方编辑器。GitHub 上的 rive-mcp 反过来：Claude 或任何 MCP 客户端可以直接创建、编辑、检查、渲染和实时预览 .riv，还能从 JSON 场景规格序列化出二进制文件。\n\n它内置二十多个语义动作预设（弹出、错落升起、呼吸、视差漂等），还有设计令牌生成和「动作像不像机器人」的质量检查。作者强调：免费、无云订阅、不依赖编辑器窗口。\n\n所以呢：做 App 微动效，可以让代理直接改动画文件，不必来回点时间线。",
+      "links": [
+        {
+          "label": "GitHub rive-mcp",
+          "url": "https://github.com/ODU33104/rive-mcp"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-seedance-perfume-bleu",
+      "category": "提示词",
+      "title": "十秒香水片：开盖、喷腕、闭眼闻，瓶子最后怼脸",
+      "body": "浅灰蓝棚里，女人黑发后梳、灯笼袖黑衫，双手把深蓝方瓶递向镜头。指尖旋开黑盖，银喷头一雾喷上内侧手腕，手腕抬到鼻尖闭眼浅笑。收尾瓶子锐利占满画面，人糊在后景。\n\nSeedance 2.0 词按镜头拆：呈瓶、开盖、喷腕、闻香、瓶特写，还带一句英文旁白。动作慢、浅景深、商业片气质，十秒刚好够讲完「最后一下点缀」。\n\n所以呢：产品广告片用「手部微动作清单」比堆品牌形容词管用。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/AiwithElisia/status/2100818214754128101"
+        }
+      ],
+      "prompt": "Cinematic luxury perfume commercial, 10 seconds. A elegant woman with slicked-back dark hair, wearing a black long-sleeve blouse with puffed shoulders, stands against a soft pale blue-grey studio background. She holds a dark navy square glass bottle of Bleu de Chanel Eau de Parfum with both hands toward the camera, presenting it. Close-up of her fingers removing the black cap, revealing the silver spray nozzle. She sprays a fine mist onto her inner wrist in a bright window-lit setting. She then lifts her wrist to her face, closes her eyes, and inhales the scent with a subtle satisfied smile. Final shot: the bottle fills the frame in sharp focus while she is softly blurred behind it. Soft natural lighting, shallow depth of field, high-end fashion film aesthetic, slow elegant movements, premium commercial look.\nVoiceover: “Getting ready, one final touch. Bleu de Chanel, make it yours.”",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "openshowreel-ae-mcp",
+      "category": "小众工具",
+      "title": "给 After Effects 装上「资深动效师肌肉记忆」MCP",
+      "body": "多数自动 AE 工具只会直线关键帧，看起来像机器人。开源项目 OpenShowreel 把资深动效师常用的那套力学封成 MCP 工具：弹跳过冲表达式、子层时间偏移拖尾、按钮按下回弹、文字逐字显现、主摄像机轻微俯仰收束等，约四十个工具，对接 After Effects 2026。\n\n作者说差距不在「会不会打关键帧」，而在这些可组合的手感。AI 助手可以像设计师一样叠这些力学，而不是只拖位置。\n\n所以呢：让代理开 AE，先喂「会弹、会错开、会收镜」的工具包，比只说「做得高级一点」有效。",
+      "links": [
+        {
+          "label": "GitHub OpenShowreel",
+          "url": "https://github.com/Phanikondru/openshowreel"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "prompt-mj-polaroid-sref",
+      "category": "提示词",
+      "title": "拍立得气质肖像：一条 sref 把风格锁死再乱玩",
+      "body": "创作者在 Midjourney v8.2 分享一条拍立得风肖像：正文只写「artistic portrait of a beautiful character」，真正干活的是参数——chaos 四十五、竖构图、sref 锁风格、raw、风格权重拉满、weird 二十五。\n\nsref 是 Midjourney 的风格参考码，意思是人物描述可以极短，风格参考和权重负责「长得像拍立得」。换人时几乎不用重写美学段落。\n\n所以呢：MJ 系列图先锁一条 sref，正文只管换人换事。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/carolletta/status/2100585598927130632"
+        }
+      ],
+      "prompt": "artistic portrait of a beautiful character --chaos 45 --ar 9:16 --sref 3003057594 --raw --sw 1000 --stylize 600 --weird 25",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
       "id": "bend-ai-proof-language",
       "category": "好玩AI",
       "title": "游戏规则写成数学定律：AI 想改代码，证明不过就不给合",
