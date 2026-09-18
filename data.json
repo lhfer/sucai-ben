@@ -2,6 +2,221 @@
   "updated": "2026-09-18",
   "items": [
     {
+      "id": "north-dakota-vantis-cvs-bvlos",
+      "category": "跨行业",
+      "title": "北达科他跑道上，CVS 无人机把药箱飞出视线外",
+      "body": "戈曼机场跑道边，全美各州航空官员抬头盯着屏幕。九月十六日，北达科他北方平原无人机试验场把「超视距」飞行（BVLOS，眼睛看不见飞机也能飞）搬到州航空官员年会上实况演示：CVS Health、SkyfireAI、Kelly Hills Unmanned 和泰雷兹同台，药箱和农用机在 Vantis 全州网络上飞。\n\nCVS 把「空中应急响应」和移动药房概念塞进同一趟航线，想证明无人机能当医疗供应链的延长线。另一侧是农业无人机：Kelly Hills 和泰雷兹此前在堪萨斯做过农用组网，这次让州官亲眼看「飞机、地面基建、通信」怎么凑成一套。试验场负责人特雷弗·伍兹说，北达科他搭的是能让公司真干活的生态，不是秀航迹。\n\n所以呢：药店巨头跑来州官会场飞药，说明「最后一公里药品」已经从概念片走进监管演示——谁先把超视距网络和药房合规拧到一起，谁就能抢偏远医疗配送的入场券。",
+      "links": [
+        {
+          "label": "DRONELIFE",
+          "url": "https://dronelife.com/2026/09/17/northern-plains-uas-test-site-flies-medical-and-agricultural-bvlos-demos-on-vantis-at-nasao/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T17:55:00+08:00"
+    },
+    {
+      "id": "zeus-erlanger-zera-lab-robot",
+      "category": "跨行业",
+      "title": "查塔努加医院先让机器人跑血样：护士别再当搬运工",
+      "body": "田纳西查塔努加的埃朗格医院走廊，很快要多一辆会自己按电梯的小车。本地创业公司 Zeus Robotics 创始人维维克·坦卡昌宣布：三个月试点，把首台 ZERA 自主物流机器人送进医院，专门运血样、拭子、活检标本。现场勘察做完了，十月中旬上岗。\n\n机器人用机械臂开门、坐电梯，放样和取样都要刷员工生物识别，箱内不连医院 Wi-Fi，也不存病人电子档案。坦卡昌反复说：临床人员不该在楼层之间跑腿，触摸和照护只能人给人，机器替代不了。埃朗格管理层书面表态欢迎本地伙伴；公司还想以后扩到文书、被单、药品。\n\n所以呢：医院自动化最先啃的不是「诊断」，是最脏最累的标本搬运——谁能把护士从走廊里解放出来，谁就先摸到真正的医院痛点，而不是又一台会聊天的分诊屏。",
+      "links": [
+        {
+          "label": "Chattanooga Times Free Press",
+          "url": "https://www.timesfreepress.com/news/2026/sep/12/local-startup-zeus-robotics-plans-erlanger-pilot/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T17:56:00+08:00"
+    },
+    {
+      "id": "china-eastern-pudong-meal-robots",
+      "category": "跨行业",
+      "title": "浦东配餐中心四只机械臂：四秒装好一盒航食",
+      "body": "北京民航会场还在谈「人工智能进民航」，上海浦东的东航配餐中心已经把故事做成流水线。四只机械臂协同往餐盒和盘子里摆菜，两个多月装出六十多万份航食；连轴转时，平均四秒出一份组装好的餐。\n\n九月十七日开幕的第四届中国航空运输协会民航大会，把这类现场摆进展厅：配餐机械臂旁边，还有四足机器人在试机场配送。主办方说，焦点就是把 AI 嵌进民航运营，从餐食到机务都在找能减负的环节。中国日报当天报道，行业正用机器补人手缺口、抬服务效率。\n\n所以呢：航空业的 AI 不一定先落在驾驶舱，而是先落在「每四秒一盒饭」这种可计量工序——博主讲民航智能化，用配餐流水线比讲「智慧航司」口号更抓人。",
+      "links": [
+        {
+          "label": "China Daily",
+          "url": "https://www.chinadaily.com.cn/a/202609/18/WS6aaca57ce4b06d4aa055ec41.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T17:57:00+08:00"
+    },
+    {
+      "id": "schneider-tuas-agentic-hub",
+      "category": "跨行业",
+      "title": "施耐德大士仓砸两千五百万新元：货找人，人去管智能体",
+      "body": "新加坡大士港附近的 Hub Asia 物流仓，施耐德电气宣布再砸两千五百万新元升级，目标二零二七年完工。核心是「货到人」：库存自动送到拣货位，工人不用满仓跑。一期六月已上线，松散件靠自主机器人、车辆和传送带进出，仓管系统用机器学习做库存预测，效率大约抬了百分之十。\n\n二期要把自动化从散件扩到整箱，并引入可改布局的货架。全部落地后，公司预期系统能扛约四成出库货量、效率再抬到约百分之二十。两千五百万里，一千九百万要花到二零三零年的人身上：培养二十六人管新系统，拣货员转去编程和排障；转不过去的调到匹配旧技能的岗位。副总裁辛格强调，不是要做成无人仓——数据中心客户订单还在两位数涨，机器管量，人管判断。\n\n所以呢：工厂仓自动化的叙事从「裁人」改成「改工种」——钱一半砸在机器人，大半砸在再培训，这才是能写进产业故事的落地法。",
+      "links": [
+        {
+          "label": "The Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/schneider-electric-spends-s25-million-automate-tuas-logistics-hub-reskill-workers"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T17:58:00+08:00"
+    },
+    {
+      "id": "toyota-400k-factory-robots",
+      "category": "跨行业",
+      "title": "丰田跟投资人算账：一年一万亿日元自动化，四十万台机器人进厂",
+      "body": "东京，丰田告诉投资人一笔可能从二零二八年起每年约一万亿日元（约六十四亿美元）的工厂现代化账。路透社九月十八日报道：这笔钱覆盖丰田、集团公司和主要供应商，用来加速自动化与机器人部署；公司说，大概需要四十万台机器人——含替换旧机、新装机，人形和非人形都算。\n\n日经同日写得更细：自研协作机器人「ELEY」会跟员工并肩，学熟练工动作，也能带新人；它重约五十公斤，靠轮子走，不是两脚走路的那种人形秀。分析师说，丰田把机器人当成汽车之外的增长故事，类似消息会更勤。隔壁现代也放话，二零二八年起要在美国乔治亚工厂部署人形机。\n\n所以呢：车企巨头公开把「年投六十四亿」和「四十万台」绑在一起，等于告诉供应链：下一代工厂订单不在整车 alone，而在产线机器人与协作软件。",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/autos-transportation/toyota-estimates-factory-automation-could-cost-64-billion-per-year-2028-2026-09-18/"
+        },
+        {
+          "label": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/business/technology/toyota-to-deploy-400-000-robots-to-work-alongside-factory-staff"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T17:59:00+08:00"
+    },
+    {
+      "id": "aws-duke-agentic-grid-planning",
+      "category": "跨行业",
+      "title": "杜克能源把并网研究交给智能体：两周备数压成几小时",
+      "body": "休斯敦，亚马逊云科技九月十七日宣布「智能体电网规划」项目：公用事业公司可调用 AWS 托管的 AI 智能体，跑它们本来就信任的物理仿真软件、电网模型和工程标准。合作方杜克能源说，数据准备工作从大约两周手工活压到几小时。\n\n背景很硬：劳伦斯伯克利实验室统计，二零二五年底美国排队并网的发电和储能超过两千吉瓦，当年投运项目中位排队超过五年；德州电力可靠性委员会 alone，二零二六年三月大负荷并网申请就到了约四百一十吉瓦。智能体负责备数、跑流程、协调工作流，工程师仍做最终工程判断，并留下可审计版本记录。杜克数字战略工程董事约翰·普雷斯利强调：人主导，机器腾出判断时间。\n\n所以呢：AI 抢电的故事不只是机房耗电，还有「并网研究排队」——谁能把工程师从两周表格里解放出来，谁就先给新能源和大负荷客户让出队。",
+      "links": [
+        {
+          "label": "AWS Press",
+          "url": "https://press.aboutamazon.com/aws/2026/9/aws-launches-agentic-grid-planning-program-to-accelerate-interconnection-studies"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T18:00:00+08:00"
+    },
+    {
+      "id": "jtc-kajima-bay-excavator",
+      "category": "跨行业",
+      "title": "裕廊创新区无人挖机开干：一人盯两台，八百公顷土方等答案",
+      "body": "新加坡裕廊创新区的 Bulim 自主试验场，九月十八日，裕廊集团（JTC）和日本鹿岛宣布新加坡首个自主重型工程机械试点。操作员只派任务、画电子围栏，挖机和压路机靠传感器与人工智能自己干，舱里没人；远端有人盯着，出事才插手。目标是操作人力减半——一人看两台。\n\n挖机用苏黎世创业公司 Gravis 的改装套件；压路机跑鹿岛 A4CSEL，这是该系统首次走出日本。改装逻辑很现实：承包商升级手里的旧机，不必整队换新。JTC 工程运营助理总裁钟凯文说，未来五年至少有八百公顷土方面临人力瓶颈，试点成功就往管线项目推广，并跟人力部一起写安全规范：围栏、激光雷达、急停。二零二七年还想试推土机和自卸车编队。\n\n所以呢：建筑业的 AI 不是工地聊天机器人，是「舱里没人的挖机」——人力短缺国家把试点写成国策，改装套件比炫酷新机更像能卖的生意。",
+      "links": [
+        {
+          "label": "TechNode Global",
+          "url": "https://technode.global/2026/09/18/jtc-and-kajima-launch-singapores-first-autonomous-heavy-construction-equipment-pilot-to-ease-manpower-constraints-improve-worksite-safety/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T18:01:00+08:00"
+    },
+    {
+      "id": "zurich-airport-l4-weride",
+      "category": "跨行业",
+      "title": "苏黎世机场班车空座上路：四级自动驾驶，驾驶座没人",
+      "body": "苏黎世机场机坪上，两辆员工班车开始按四级自动驾驶跑：车上没有安全驾驶员，监视改到远端驾驶舱。机场九月九日新闻稿写，这是欧洲最早一批机场级试点之一；与文远知行（WeRide）从二零二五年三月起分阶段推进，累计已跑一万五千多公里。\n\n路线固定，不穿越飞机滑行道。Swissport 和 Krummen Kerzers 的员工在远端值守，必要时介入；原来的安全驾驶员被训练成远程岗。创新经理拉斐尔·格莱泽纳说，先空载跑约四周，再让员工上车；自动化不等于人消失，而是一人将来能盯多辆车。试点计划到二零二六年底，经验会喂给更多机场车辆。\n\n所以呢：机场缺人，最先解放的是机坪摆渡——「驾驶座空着、远端有人」比全无人口号更可信，也给航空后勤自动化提供可拍的画面。",
+      "links": [
+        {
+          "label": "Zurich Airport Newsroom",
+          "url": "https://newsroom.flughafen-zuerich.ch/en/zurich-airport-automated-shuttle-buses-now-operate-without-a-safety-driver-on-board/"
+        },
+        {
+          "label": "Electrek",
+          "url": "https://electrek.co/2026/09/13/zurich-airport-deploys-l4-autonomous-shuttle-without-a-human-monitor/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T18:02:00+08:00"
+    },
+    {
+      "id": "medicare-wiser-eff-foia",
+      "category": "痛点",
+      "title": "联邦医保 AI 预授权泄密：有人等了八十三天，病床边哭着催批文",
+      "body": "电子前沿基金会九月八日甩出约一千页联邦医保文件：二零二六年一月启动的 WISeR 试点，用 AI 审六州老人部分治疗的事先授权。官方说厂商应七十二小时内答复，内部报告却写着有请求拖了八十三天。俄亥俄反馈里，医生写患者哭着打电话、椎体成形术床边哭了三个病人，只因批文迟迟不来。\n\n更刺眼的是钱：厂商按「挡住的开支」拿分成，等于否决有奖金；质量分再差，付款也只扣百分之五到十。头三个月两家厂商否决五千九百四十四单，其中 Virtix 否决数比批准还多，已被要求交整改计划。另一家 Innovaccer 上线前就告诉医保局：功能没测完，只能先「自动放行」。十三类服务只是第一年，规划文件还瞄着救护车、癌症治疗、核磁等更急的项目。\n\n所以呢：老人预授权试验把「AI 省钱」写进合同激励，文件一公开，公众听到的不是效率，是病床边的哭声——讲医保 AI，就讲这八十三天。",
+      "links": [
+        {
+          "label": "EFF",
+          "url": "https://www.eff.org/deeplinks/2026/09/new-records-reveal-problems-medicares-ai-prior-authorization-experiment"
+        },
+        {
+          "label": "CMS WISeR 模型页",
+          "url": "https://www.cms.gov/priorities/innovation/innovation-models/wiser"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T18:03:00+08:00"
+    },
+    {
+      "id": "court-ai-hallucination-1395",
+      "category": "痛点",
+      "title": "三天三起假材料：美国法庭 AI 幻觉已记到一千三百九十五案",
+      "body": "路透社九月十七日盘点：短短三天，新墨西哥州谋杀上诉律师因伪造警察证言被训；俄克拉何马州检察官披露，斯蒂芬斯县家事法官劳伦斯·惠勒承认用 ChatGPT 做研究，裁定书里写了两个不存在的判例；洛杉矶代表州立农业保险公司的律师因七份文件引用出错，被罚九百九十九点九九美元。\n\n追踪者统计，自二零二二年生成式 AI 普及以来，美国州联邦法院至少一千三百九十五起案件冒出过幻觉材料。二零二三年曼哈顿法官凯文·卡斯特尔开出第一张罚单时，行业以为会警醒；他现在对路透社说，对抗制还能把错揪出来，但若不加大制裁威慑，问题不会自己停。新墨西哥州大法官香农·培根当庭吼：我十三岁的侄子都知道幻觉，你要么不懂，要么在赌。\n\n所以呢：法律圈不是「会不会用 AI」，而是「敢不敢不核对」——一千三百九十五这个数，够做一条让外行听懂的法庭警报。",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/government/ai-error-ridden-court-filings-surge-despite-three-years-court-sanctions-2026-09-17/"
+        },
+        {
+          "label": "Reuters（俄州法官）",
+          "url": "https://www.reuters.com/legal/litigation/oklahoma-judge-used-ai-in-ruling-that-contained-false-citations-prosecutor-says-2026-09-09/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T18:04:00+08:00"
+    },
+    {
+      "id": "sf-nuhw-kaiser-ai-therapists",
+      "category": "痛点",
+      "title": "旧金山十一票全过：不许凯撒拿 AI 顶替心理治疗师",
+      "body": "旧金山市政厅，十一名监事全票通过决议：要求凯撒永久撤回工会所称的「可怕三条」合同要求——包括用 AI 替换持照治疗师、外包行为健康、并拿「唯一裁量权」改临床模式。提案人陈谦恩（Chyanne Chen）此前开过听证会，凯撒拒不出席；治疗师田娜·吕说，市政站台等于告诉公众：心理健康还得是人。\n\n全国医疗工作者工会（NUHW）指出，凯撒已在用 AI 录治疗会话、用算法筛求诊者，却不愿写入南加州合同里那句「新技术无意替代临床人员」。凯撒同时还处在加州管理式医疗部和联邦劳工部合计约两亿三千一百万美元和解协议的监控下，正因心理健康可及性挨罚。八月四天调解无果，治疗师已授权最长三天罢工，日期未定。\n\n所以呢：护士纠察是一条线，治疗师这条线打到「AI 能不能坐进诊室」——城市决议没有强制力，但把舆论钉子钉在「替换」二字上，合同谈判就不好装看不见。",
+      "links": [
+        {
+          "label": "NUHW",
+          "url": "https://home.nuhw.org/2026/09/02/san-francisco-passes-resolution-opposing-kaiser-contract-demands/"
+        },
+        {
+          "label": "KALW",
+          "url": "https://www.kalw.org/bay-area-news/2026-09-02/sf-supervisors-push-back-on-kaisers-use-of-ai-in-mental-health-care"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T18:05:00+08:00"
+    },
+    {
+      "id": "us-judiciary-ai-ops-guidance",
+      "category": "跨行业",
+      "title": "联邦法院一边训法官别外包审判，一边用 AI 读手写诉状",
+      "body": "华盛顿司法会议散场后，第九巡回上诉法院法官西德尼·托马斯对记者说：二十四人专班已摸出六十多个议题，给出三十条建议，目标一年内把新指引送上议程。二零二五年七月已内部提醒全国法官：核心审判职能别交给 AI，生成内容必须自己核。\n\n同一天他讲出另一面：第九巡回去年近一半上诉是没有律师的当事人，常交手写材料；法院用 AI 把手写转成可读文本，书记员省时间，当事人的状子也真能被读懂。第五、第六巡回则拿 AI 做格式质检，发现问题就退回重交，避免案子因格式被驳。第六巡回杰弗里·萨顿强调：AI 不是在说「上诉不行」，而是说「先把状子改对」。\n\n所以呢：法庭这周最有戏的不是禁令口号，而是「审判不能外包、文书可以机器助读」的分界——内容角度正好对照假判例罚单：工具能进书记员办公室，进不了法槌。",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/government/us-judiciary-developing-new-guidance-courts-use-ai-2026-09-17/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T18:06:00+08:00"
+    },
+    {
+      "id": "arrive-medical-drone-custody-gap",
+      "category": "痛点",
+      "title": "一张处方要过七个衙门：医疗无人机卡在「没人接货」",
+      "body": "印第安纳波利斯，Arrive AI 九月十七日端出一份行业白皮书的结论：美国一张处方药无人机配送，至少可能碰到七个联邦或州机构——联邦航空管理局管飞机，食品药品管理局管药，缉毒署管管制药品，各州药房委员会管发药——但没有任何一家单独管「货交到谁手里」那一寸。\n\n咨询公司 AeroX 的《守护天空》报告把这个交接空白写成行业最大未解问题：无人机或机器人到了，门口没人，监管链条就断。白皮书点名 Arrive Point 这类带身份核验、温控监测、全程留痕的投递端点，当作「最后一寸」样板，并提到印州一家区域医院已在院内做异步机器人配送。全球医疗无人机市场估约二点九四亿美元，报告预估二零三四到二十五亿。\n\n所以呢：飞得起来不等于送得进去——医疗无人机真正的摩擦在监管缝和门口空荡，谁解决「没人接货」，谁才跨过演示飞。",
+      "links": [
+        {
+          "label": "Arrive AI / ACCESS Newswire",
+          "url": "https://newsroom.xpr.media/story/227414/industry-whitepaper-names-arrive-ais-arrive-point-the-model-for-solving-medical-drone-deliverys-last-inch-problem/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18T18:09:00+08:00"
+    },
+    {
       "id": "prompt-seedance-rice-terrace",
       "category": "提示词",
       "title": "荒山十六秒种出梯田：五十个小人农民一锹一锹挖",
