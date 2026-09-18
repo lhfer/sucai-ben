@@ -1,6 +1,300 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "items": [
+    {
+      "id": "bend-ai-proof-language",
+      "category": "好玩AI",
+      "title": "游戏规则写成数学定律：AI 想改代码，证明不过就不给合",
+      "body": "Hacker News 首页出现一门叫 Bend 的语言。写法看着像 Python，卖点却不是又快一点，而是专防 AI 乱改代码。\n\n你先在 LAWS.bend 里写「定律」——比如棋盘游戏里任何走法都不能直接赢。AI 改完程序，必须再交一份 PROOF.bend。证明过不了，合入就被卡住。官方演示里，让 Claude「让棋盘绕边」：没有定律时它会顺手塞进破坏规则的 bug；有定律就一直拦到证明成立。\n\n编译器说单核速度接近 C，同一份二进制还能铺到多核甚至 GPU。类型检查和证明检查大约一秒内搞定，方便代理每改一次就验一次。配套说明写得很直：先读指南、写好定律、提交前跑证明。\n\n所以呢：以后防 AI 写坏代码，可能不是靠人肉盯 diff，而是把「不许破的规矩」写成数学合同。",
+      "links": [
+        {
+          "label": "Bend 官网",
+          "url": "https://bend-lang.com/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49746163"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/HigherOrderCO/Bend"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "bonsai-2-27b-ternary",
+      "category": "硬科技",
+      "title": "二十七 B 模型被压进六 GB：笔记本跑大模型开始接近无损",
+      "body": "Caltech 背景的 PrismML 九月十七日放出 Ternary Bonsai 2。它把大约二百七十亿参数的多模态模型，用「三元权重」——每个数只取负一、零或正一——再加一点缩放，理想体积压到约五点九 GB。相对全精度大约五十四 GB，缩了九倍以上。\n\n官方说聚合基准还留住百分之九十八点二的分数。支持二十六万两千 token 上下文，也能看图。RTX 5090 上宣称每秒大约一百四十三个 token；一块 4090 上，每 token 能耗大约零点七一四毫瓦时，说比全精度八 B 模型还省电约百分之四十。开源协议是 Apache 2.0。\n\n所以呢：「手机和笔记本跑得动的二十七 B」开始接近无损压缩——以后比参数量更值得聊的，可能是每 GB 能干多少活。",
+      "links": [
+        {
+          "label": "PrismML 公告",
+          "url": "https://prismml.com/news/bonsai-2-27b"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49746618"
+        },
+        {
+          "label": "HF GGUF",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "openai-astra-for-law",
+      "category": "好玩AI",
+      "title": "OpenAI 没另训律师模型：给 Astra 套上两亿三千万条案库",
+      "body": "九月十七日，OpenAI 推出 Astra for Law。底座还是 GPT-6 Astra，外面加了美国判例和法规的检索索引——覆盖逾两亿三千万个网址——再配上法律分析指令。不是另训一个新大脑，是把案库和工作流包进同一个入口。\n\n私有法律研究题库二百道题上，它总正确率百分之五十四；同一题只用网页搜索的普通 Astra，只有百分之三十八点七。判例题多找回约百分之二十四的参考案。先给 Trusted Access 用户用，API 稍后上；同时挂了 Relativity、Clio 等二十六家伙伴插件，Word 版 ChatGPT 也正式开放。\n\n所以呢：垂直 AI 赢的不一定是新底座，是「案库加工具加权限墙」——律师换的不是聊天机器人，是整张工作流的入口。",
+      "links": [
+        {
+          "label": "OpenAI 公告",
+          "url": "https://openai.com/index/astra-for-law/"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/17/openai-launches-astra-for-law-a-gpt-6-configuration-for-legal-research/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49745940"
+        },
+        {
+          "label": "OpenAI 官推",
+          "url": "https://x.com/OpenAI/status/2100679992720142459"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "cactus-needle-3",
+      "category": "好玩AI",
+      "title": "手表里塞进八到二十九兆的「按按钮专家」，敢对标云端大模型",
+      "body": "Cactus 团队放出 Needle 3：一个专门学「工具调用」的小模型——就是学会按哪个按钮、填哪个参数。单文件大约八到二十九兆字节。同一套权重能切成二到二十层的子网，参数大约两千九百万到一亿两千一百万。\n\n他们说在手机上调工具，能打过大约十倍大的模型。在 DroidCall 基准上，从四层起微调后的版本，能超过云端的 DeepSeek V4 Flash。树莓派五上宣称解码每秒四百到四千 token。Python 里用装饰器定义工具，还能按设备层数裁剪。\n\n所以呢：不是「小模型聊天」，是「小到塞进手表、专门会按按钮」——关灯这种事，也许不用再请云端大模型。",
+      "links": [
+        {
+          "label": "Needle 3 产品页",
+          "url": "https://cactuscompute.com/needle"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49748553"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/cactus-needle/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "anthropic-claude-leads-26pct-rd",
+      "category": "硬科技",
+      "title": "Anthropic 亮仪表盘：Claude 已主导四分之一下一代模型研发",
+      "body": "路透社九月十七日报道：Anthropic 说，截至八月，Claude「主导」了公司 AI 研发工作的百分之二十六——三月还只有百分之一。这是按研究机构 Epoch AI 的量表算的。「主导」不是完全放手，而是高阶提示下完成大部分，人仍监督。\n\n内部同时大约三万个代理在跑研究与工程。八月逾十亿次决策里，大约每四点七万次拦一次。公司还承诺定期公开三项指标：AI 自建比例、代理怎么监管、算力怎么分，挂在自家 Institute 站点上。\n\n所以呢：「AI 造 AI」不再是口号，是能贴墙上的百分比——实验室开始用仪表盘向公众证明自己有没有踩油门。",
+      "links": [
+        {
+          "label": "路透社",
+          "url": "https://www.reuters.com/business/anthropic-says-claude-now-leads-quarter-work-building-its-next-ai-models-2026-09-17/"
+        },
+        {
+          "label": "Anthropic 测量说明",
+          "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+        },
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2261909/anthropic-says-claude-leads-26-percent-of-its-ai-research-and-development/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "infinite-parameter-llms",
+      "category": "硬科技",
+      "title": "聊天别再往提示词里塞事实：论文让模型边聊边「长」权重",
+      "body": "一篇冲上 Hacker News 的论文换了个思路。平时模型的知识焊死在预训练里；你后来纠正的事实，只能塞进越来越挤的提示词，每轮重读一遍。混合专家那种「海量静态参数」，照样绑死在训练那天看到的数据上。\n\n作者用一个紧凑的「超网络」——专门生成别的网络参数的小网络——把实时数据变成对共享底座的低秩调制，再对潜变量做在线更新。会话里「有效权重」跟着信念变，磁盘占用却固定。他们说相对纯上下文学习和检索，能摊薄算力、腾出上下文、跨轮记得住，泛化也更好。\n\n所以呢：如果成立，聊天记忆可能从「越聊越挤的草稿」变成「边聊边写进肉里」——模型开始在对话里长肉，而不只是记笔记。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.18842"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49743483"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "skillsync-portable-sessions",
+      "category": "好玩AI",
+      "title": "YC 团队给 AI 编程会话做「转码器」：换工具别再从头聊",
+      "body": "Skillsync 是 YC 冬季二六批次团队。他们在 Launch HN 说痛点很简单：Claude Code、Codex、Cursor 的会话格式互不兼容，换工具等于重来。\n\n开源引擎 txcript 用 Rust 写成，像 ffmpeg 转视频那样翻译会话——消息、推理过程、工具调用都能搬。上层桌面端把会话聚在一起可搜，技能和记忆写成可读的 markdown，再经 MCP 暴露给别的工具。额度撞墙可以迁走；通勤在手机 App 想清楚，回家整段丢进 Claude Code 开写。默认本地，只有显式分享才出机器。\n\n所以呢：大家以为被锁的是模型订阅，其实锁的是「聊了三个月的上下文」——会话正在变成新的源码仓库。",
+      "links": [
+        {
+          "label": "Launch HN",
+          "url": "https://news.ycombinator.com/item?id=49743049"
+        },
+        {
+          "label": "Skillsync",
+          "url": "https://skillsync.com"
+        },
+        {
+          "label": "txcript 开源引擎",
+          "url": "https://github.com/skillsynchq/txcript"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "msft-scraping-largest-theft",
+      "category": "好玩AI",
+      "title": "微软内部备忘录自己写：AI 抓取是「人类史上最大规模劳动盗窃」",
+      "body": "《纽约时报》诉 OpenAI 与微软案里，解封材料九月十七日被多家媒体摊开。微软应用科学总监 Brent Hecht 在二零二三年一月内部备忘录里，把抓取称作「惊人的盗窃……人类史上最大规模的劳动盗窃」。\n\n同批材料还写：Copilot「答案引擎」相对传统必应搜索，可致时报域名点击率最多掉大约百分之九十三；ChatGPT 负责人称对出版商是「生存威胁」，而且「大体是替代」。训练数据里原告作品副本逾九点一万；Common Crawl 衍生含时报文档逾两百万。公司仍在打合理使用抗辩，但自家幻灯片已经把「无害转换」叙事撕开了口。\n\n所以呢：不是外行骂「偷内容」，是被告公司自己人先写下「盗窃」二字——版权战终于有了人话版冲突感。",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
+        },
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49745932"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "label-free-bias-ttrl",
+      "category": "硬科技",
+      "title": "测试时强化学习只拧十万个旋钮，还不需要人工打分",
+      "body": "研究者把「测试时强化学习」——模型答题时边试边改——压到只动大约十万个 bias 参数，骨干冻住不动。奖励信号来自多数票伪标签：同一题多滚几次，票多的当对，不用人工标答案。\n\n数学题集 MATH-500 上准确率百分之七十六点六七，略超他们自己有标签的复现；相对动全参数的同类方法，少优化大约七万六千倍参数。同流程还抬了视觉和音频推理几项基准；学到的转向向量还能迁到四千五百道留出题。分析里写：多数票会随共识变可靠，梯度能量更大的 bias 子空间更好训。\n\n所以呢：「现场变聪明」不一定要动整台发动机——给模型拧两个旋钮，更接近产品能落地的样子。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.18587"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "goose-no-heap-lang",
+      "category": "硬科技",
+      "title": "Lobster 作者新语言 Goose：取消堆，数字上敢压 C++ 和 Rust",
+      "body": "Wouter van Oortmerssen——Lobster 语言的作者——放出 Goose。宣称没有分配器、没有垃圾回收、也不要你写生命周期标注。动态值活在编译器管的数据栈上，作用域一退出就释放。\n\n十六项基准汇总：相对惯用 C++ 大约快三点三倍，相对手优 C++ 大约一点一六倍，相对最佳安全 Rust 大约一点一二倍；内存还少一截。引用不会因数组变长而失效；数据结构可以直接当文件格式；线程互不共享内存。编译成单个 C 文件，还能走 TinyCC。\n\n所以呢：当所有人都在谈 AI 写代码，有人用「取消堆」把性能和安全重新洗牌——硬科技圈也在出反潮流牌。",
+      "links": [
+        {
+          "label": "GitHub README",
+          "url": "https://github.com/aardappel/goose/tree/master"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49748954"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "faa-875m-smart-atc",
+      "category": "硬科技",
+      "title": "美国空管砸八点七五亿美元买 AI：先盯住华盛顿上空堵不堵",
+      "body": "美国联邦航空管理局九月十七日前后宣布要推 SMART——航路与轨迹的战略管理软件，由 Air Space Intelligence 提供，十二年合同大约八点七五亿美元。TechCrunch 援引华尔街日报披露细节。\n\n定位不是换掉整套空管，而是云平台增强：用 AI 评估航司时刻、天气、机场容量和空域约束，预测流量，尽量在冲突发生前识别。先在华盛顿都会区落地再扩。背景是管制员长期短缺，老系统也该现代化；此前局里还有大规模招聘计划。\n\n所以呢：民航堵点最后也会变成「预测冲突的软件合同」——AI 进安全关键设施时，故事重点不是会不会聊天，是这九亿美元值不值。",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49748387"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "qwen-3-8-omni-flash",
+      "category": "好玩AI",
+      "title": "阿里 Qwen 新 Omni：不只看懂视频，还要能规划、调工具、点完界面",
+      "body": "九月十七日，阿里 Qwen 团队发布 Qwen3.8-Omni-Flash。定位原生吃文本、图像、音频、视频，目标却从「能看懂」拧向「能把活干完」：任务规划、工具调用、编码、知识工作，还有图形界面交互。第三方摘要称支持近百万 token 级上下文与结构化输出。\n\n产品线上它和既有的 Flash、Flash-Next 并存。这次明确押的是「代理式生产力」——看完材料，还要能接着办事，而不是停在理解层。Hacker News 同日也有讨论帖跟进。\n\n所以呢：多模态竞赛的下一句口号变了——不是「听得懂视频」，是「看完视频直接帮你点完界面」。",
+      "links": [
+        {
+          "label": "Qwen 博客",
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash"
+        },
+        {
+          "label": "第三方摘要",
+          "url": "https://pulseaugur.com/cluster/260657-qwen-launches-qwen3-8-omni-flash-omnimodal-model-for-agentic-productivity"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49747925"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "rir-rollback-reflection-agents",
+      "category": "硬科技",
+      "title": "长程代理论文：世界状态可以读档，失败反省不许删",
+      "body": "长程任务里，代理一步走错会改坏环境，后面错误越滚越大。现有办法要么只改对话上下文、环境烂摊子还在；要么整段回滚，连刚学到的教训一并丢掉。两边都难受。\n\n论文 RIR——Rollback-Induced Reflection——说别二选一：把恢复当成「回滚边界控制」——何时介入、回到哪、什么信息该活下来。环境回到选定的先前状态，失败轨迹则蒸馏成可复用的反思记忆，指导下一步。三个长程基准、多种大模型骨干上，作者称表现一致抬升。\n\n所以呢：像游戏存档——读档不代表失忆。代理要的是「悔棋」加「长记性」，不是二选一。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.18304"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
+    {
+      "id": "autobot-voice-harness",
+      "category": "好玩AI",
+      "title": "开源 AutoBot：用嘴催长程 AI 干活，还拿账本证明干完了",
+      "body": "独立开发者放出 MIT 开源 harness AutoBot。目标像个人 Jarvis：语音遥控长程代理，然后放下手机。宣称在 OSWorld 桌面任务基准拿到百分之三十二点四一——作者说这把某套方案从第四推到第一，并超过 Opus 5——AssistantBench 则到百分之五十点七零。\n\n本地账本跟踪未完成产出和完工证据；记忆驱动逐步自治；夜间整理与锁定学习；心跳机制维持执行。数据可放加密盘，定位隐私向、跑在自己项目里，不是云端托管。Show HN 九月十七日挂出。\n\n所以呢：不是再做一个聊天框，是「用嘴催进度、用账本证明干完了」——语音代理开始讲交付，不只讲能聊。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/demeyer1/Autobot"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=49743478"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-18"
+    },
     {
       "id": "ct-scanlon-ai-health-plan",
       "category": "痛点",
