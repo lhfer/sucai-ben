@@ -2,6 +2,427 @@
   "updated": "2026-09-19",
   "items": [
     {
+      "id": "prompt-seedance-mentos-coke-dashcam",
+      "category": "提示词",
+      "title": "行车记录仪里，可乐罐车撞上曼妥思卡车",
+      "body": "车里有人举着手机，镜头抖得像真的在开。左边先出现一辆破洞的可乐罐车，深褐色汽水正往路面喷；旁边停着一辆门还关着的曼妥思货车。一个穿背心的大汉从右侧肩道走进画面，举着空塑料大杯怼进可乐喷柱，灌满、猛喝，再拉开货车后门把整箱薄荷糖倒进可乐湖——泡沫柱炸起来，人被喷得像火箭飞向地平线。\n\n整段约三十秒，先用 GPT Image 锁住「假得像真事故」的第一帧，再丢给 Seedance 2.5 按秒表演：到场、灌杯、开门、喷飞。关键词是数字捏缩放、单次接触、可乐粘稠度，严禁电影级打光。\n\n所以呢：假车祸片要像行车记录仪，先把第一帧拍脏，再写秒级时间轴。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/techhalla/status/2100526486113472703"
+        }
+      ],
+      "prompt": "DIRECTIVE:\nProduce one still that reads as a real in-car dashcam frame grabbed from a moving car on a highway. Optical dashcam capture, wide windshield view, windshield glass, A-pillar, a slice of dashboard/hood — lived-in dashcam JPEG, not cinema, not HDR.\n\nBEAT / COMPOSITION:\nLooking forward through the windshield. On the LEFT side of the road (left lane or left shoulder, clearly in frame): TWO branded trucks close together.\n\nCOCA-COLA TRUCK (LEFT, CRITICAL):\nA full-size Coca-Cola tanker / delivery truck, official Coca-Cola red livery and logos readable. It has a breakdown: a torn ragged hole in the tank wall. A thick, heavy jet of dark-brown Coca-Cola is blasting out of that hole onto the asphalt — lots of liquid, puddle spreading, foam, spray in the air, wet road shine. The truck is stopped or crawling, hazard situation.\n\nMENTOS TRUCK (BESIDE IT, CRITICAL):\nRight next to the Coca-Cola truck (same left cluster, slightly ahead or alongside): a closed box truck / delivery truck with large, unmistakable MENTOS branding on the side (Mentos logo, candy rolls artwork). Rear and side doors CLOSED. No candy spilling. You can clearly read that it is a Mentos truck.\n\nCAMERA PACK:\nFixed dashcam behind the windshield, slight barrel wide, dashboard or hood bottom of frame, windshield dirt/reflections, timestamp overlay optional, daytime road, other traffic farther ahead. Real consumer dashcam still.\n\nLIGHT:\nDaylight, overcast or sun, real road color, cola looking like dark soda not black oil.\n\nPHOTOGRAPHIC CHARACTER:\nUnstaged dashcam grab — physically grounded trucks, readable brands, the leak is the event.\n\nOnce it's ready, use it as reference for Seedance 2.5 and this prompt:\n\n[STYLE + CAMERA + ATMOSPHERE]\nVertical 3:4 smartphone video filmed FROM INSIDE a moving car, passenger or driver seat. Phone held handheld (not a bolted dashcam): arms, slight breathing shake, windshield and A-pillar in frame, a slice of dashboard/hood at the bottom, maybe a finger edge. We are ARRIVING — forward motion first, trucks growing larger, then we slow and stop short of the cola lake. CONTINUOUS SINGLE TAKE the entire 30s. Digital pinch-zooms only (no cuts): punch into the Coke jet, the jug fill, the Mentos doors, the launch, then zoom out as he shrinks to the horizon. Daylight, overcast, wet asphalt, rain specks on glass. Consumer phone JPEG, autofocus hunting, rolling shutter. Photoreal live physics: cola viscosity, foam, Mentos cases, one adult body launched like a Mentos rocket.\n\nLOCKED SET / VEHICLES:\n- LEFT ahead through the windshield: red Coca-Cola tanker with a ragged hole, dark-brown Coca-Cola ALREADY blasting onto the lane, spreading cola lake.\n- BESIDE it: Mentos box truck, rear doors CLOSED at arrival, Mentos livery readable (\"mentos / The Freshmaker\").\n- Highway continuing past them toward a clear vanishing-point horizon.\n- NO other truck for the guy. He does not exit a vehicle.\n\nLOCKED CAST:\n- THE GUY: one very large man alone — sweat-dark tank top, cargo shorts, stained baseball cap, Alabama redneck energy. No second person. He ENTERS FRAME FROM THE RIGHT (shoulder / right edge of the windshield view) already on foot — he does not get out of any truck, van, or car.\n- HERO OBJECT: one giant gas-station plastic jug / Big Gulp–scale cup in his right hand. Starts EMPTY (daylight visible through clear plastic), stays in that hand until the blast.\n\nDiegetic audio: road noise while arriving, cola hiss, gulping, metal latch, volcanic foam roar, Doppler scream as he flies away, phone mic clipping.\n\n[IMAGE REFERENCES]\n[ref_image] = locked opening phone still from inside the car looking through the windshield at the Coke tanker + Mentos truck cluster. Tanker, hole, cola jet, Mentos truck, and in-car foreground are LAW. Clip BEGINS with us still rolling toward that cluster.\n\n[TIMELINE SECOND BY SECOND]\n\n0-3s: [HOOK — ARRIVING + ZOOM] Phone already rolling. Road noise. Through the windshield the Coca-Cola tanker and Mentos truck are already ahead on the left; cola ALREADY jetting from the hole. We close distance — trucks grow. Digital zoom punches into the Coke stream and the hole. By ~2.5s brakes dip. Several events already: motion, the leak, closing in, first zoom.\n\n3-5s: [STOP + HE ENTERS FROM RIGHT] We fully stop. Idle phone shake. Zoom out a notch. THE GUY walks INTO FRAME FROM THE RIGHT — already on foot from the shoulder / right edge, giant EMPTY jug held high, clear plastic with daylight through it. He does not exit any vehicle. He steps straight into the cola lake toward the tanker jet.\n\n5-9s: [FILL — HOLD IT] He shoves the empty jug INTO the Coke stream. ONE CONTACT: jug into the jet. Phone slam-zooms the fill and HOLDS. For a clear ~2 full seconds (through ~7–8s) the jug is STILL filling under the blast — brown liquid climbing the plastic, foam boiling over the rim, overflowing his forearm, stream hammering the mouth of the jug the whole time. Only then does he pull the full heavy jug out and raise it.\n\n9-12s: [CHUG] He tilts and CHUGS — huge gulps, cola down the tank top. Empties most of it, gasps, still holding the jug. Turns to the Mentos rear doors. Phone zooms out enough to keep tanker jet + Mentos bumper + him in frame.\n\n12-16s: [OPEN + DUMP] ONE CONTACT: he yanks both Mentos rear doors open. Cases stacked high. He dumps a case — Mentos rolls cascade into the cola lake. Packs split, white mints into the brown river. Digital zoom on the mint waterfall hitting the puddle. He still stands in the lake with the jug.\n\n16-20s: [IT GOES] Hard fizz, then a WHITE FOAM COLUMN erupts between the trucks. ONE CONTACT: the fountain hits him from below like a human Mentos rocket. Feet leave asphalt. Jug flies. He launches UP and AWAY down the highway axis. Phone slam-zooms his body leaving the ground, then struggles to track him.\n\n20-24s: [HUMAN FOUNTAIN] He is a dark silhouette riding the white column, spinning once, cap gone. The geyser leans him toward the open highway horizon. Foam hits our windshield — phone jerks but stays inside the car, still filming through glass. Digital zoom hunting his shape in the spray.\n\n24-26s: [SHRINKS] Zoom out through foam streaks on the glass. He is airborne over the far lanes, a tiny spinning figure on a white spray trail, Mentos truck hopping, tanker still feeding the column. Phone digital-zooms into the shrinking speck, then out again.\n\n26-30s: [PAYOFF — GONE] He dwindles to a speck and DISAPPEARS into the horizon haze past the vanishing point (~1s earlier than before). Phone holds on empty sky/road where he vanished, foam still climbing between the trucks, Mentos doors still open, Coke still dumping. Final tiny digital zoom into that empty vanishing point. Loop-open: empty horizon, roar still going.\n\n[STYLE & QUALITY BOOSTERS]\nPhotoreal handheld phone from inside a car, 3:4 vertical. Arriving motion then stop. Digital pinch-zooms only, continuous take. One man enters from the RIGHT on foot — never exits a vehicle. Empty jug fills on camera for a clear multi-second hold. Body launched to the vanishing point. Coherent liquid physics. Identity lock to [ref_image] for both trucks, the hole, and the in-car windshield framing.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-shaolin-staff-30s",
+      "category": "提示词",
+      "title": "少林院落一打十二：木棍围殴不慢镜",
+      "body": "石质院落中央，一个剃光头的年轻弟子被正好十二根木棍围住。没有慢动作，没有字幕，没有 Logo。三十秒里大约二十八个机位轮番切：俯拍包围、脚部换步、夺棍特写、师父在院落边缘冷眼旁观。他先闪、再夺第一根棍，带着棍在人群里穿插，最后十二人全倒——抬头，更大的挑战又从寺门涌进来。\n\n这条 Seedance 2.5 词把人数锁死：主角一人、对手十二、武器只有木棍。动作进程写成「被围→高压防→夺棍→反攻→短暂赢→反转」，禁止流血、禁止瞬移、禁止对手无故消失。可当武术片模板反复改皮肤。\n\n所以呢：武术群戏别靠炫技慢镜，把人数和夺械进程写进合同里。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/whorange__/status/2100957191637492023"
+        }
+      ],
+      "prompt": "30秒少林武术动作场面，节奏极快但仍然清晰易读，从头到尾持续打斗，约8个剧情节拍、20个左右有明确目的的不同机位。一名少林弟子对战12名对手。不使用慢动作，不使用字幕，不使用说明文字，不使用Logo，不使用任何画面文字。\n\nREFERENCE INPUTS:\n使用 @SHAOLIN_HERO_REFERENCE 作为主角：一名20岁出头的年轻中国男性少林弟子，身材精瘦且具有运动员体型，剃光头，眼神专注锐利，表情克制而有纪律感，动作快速敏捷。穿浅灰色传统少林练功服，袖口收紧，腰间系深色腰带，宽松练功裤，腿部绑布，脚穿简单布鞋。\n\n使用 @SHAOLIN_MONK_GROUP_REFERENCE 作为12名对手：必须正好12名中国男性少林武僧，全部剃光头，身材结实敏捷，穿统一体系的传统少林练功服，颜色可在灰色、米色、旧棕色之间略有区别。每人都持一根木棍。他们应像真正受过训练的寺院武僧，而不是普通士兵。面部和身材可以略有不同，但必须明显属于同一组少林训练者。\n\n使用 @SHAOLIN_COURTYARD_REFERENCE 作为环境：中国少林寺练功院，宽阔石质地面，寺庙台阶，红色立柱，传统中式建筑，兵器架，香炉，石灯，以及围绕院落的寺墙。整段动作始终发生在同一个室外院落中。\n\n如有需要，使用 @MASTER_REFERENCE 作为辅助观察者：一名年长少林师父，站在或坐在院落边缘，剃光头，神情平静，穿较深色传统僧袍，双手背在身后或手持佛珠，只观察考验，不参与打斗。\n\nSTRICT REFERENCE LOCK:\n全片必须只有1名来自 @SHAOLIN_HERO_REFERENCE 的主角少林弟子。\n\n全片必须正好有12名来自 @SHAOLIN_MONK_GROUP_REFERENCE 的少林武僧对手。\n\n不得增加或减少对手数量。\n每一名对手都必须是持木棍的武僧。\n\n如果出现 @MASTER_REFERENCE，则最多只能出现1名年长师父。\n\n在所有镜头中保持主角完全一致：\n剃光头、\n年轻面孔、\n精瘦运动员体型、\n浅灰色练功服、\n腰带、\n练功裤、\n绑腿、\n布鞋。\n\n保持12名对手的群体身份一致：\n剃光头、\n少林练功服、\n木棍、\n受过训练的武僧身份。\n\n禁止突然出现克隆人。\n禁止无缘无故消失的对手。\n禁止服装变化。\n禁止魔法或超自然能力。\n禁止除木棍以外的武器。\n禁止流血。\n禁止血腥画面。\n\n所有动作必须通过可信的武术身体机制完成：\n击打、\n格挡、\n下潜闪避、\n转身、\n扫腿、\n腾跃、\n夺棍、\n步法、\n借力、\n棍术动作。\n\nENVIRONMENT LOCK:\n整段视频始终发生在 @SHAOLIN_COURTYARD_REFERENCE 的同一个少林寺练功院中。\n\n保持相同的：\n石质地面、\n寺庙建筑、\n红柱、\n台阶、\n兵器架、\n院落布局。\n\n禁止瞬移到其他区域。\n\n如果出现师父，他始终留在直接战斗范围之外。\n\n12名对手只能在同一个院落内包围、冲入、被击退、重新调整站位。\n\nGLOBAL CONTINUITY LOCK:\n主角动作进程：\n被包围 → 立刻遭到攻击 → 高压防守 → 找到节奏 → 夺下第一根木棍 → 使用夺来的木棍反击 → 应对多个方向的连续进攻 → 短暂看似获胜 → 最后出现更大的挑战。\n\n对手动作进程：\n持棍包围 → 分批进攻 → 不断缩小包围圈 → 被主角打乱节奏 → 有人被夺棍或击倒 → 剩余武僧继续攻击 → 最终12人全部被制服或无法继续战斗。\n\n打斗必须从头到尾持续进行并不断升级。\n\n主角不得长时间静止。\n\n12名对手必须从不同方向错峰攻击，不能全部站着等主角一个个打。\n\n主角依靠速度、时机、技术和走位生存，而不是无敌。\n\n结尾设置反转：\n当主角击败12人后，他抬头发现更大的挑战正在出现——师父示意下一轮，或更多少林弟子从寺庙入口出现。\n\nSHOT 1 — 0–3秒 | 被包围\nANGLE 1 — 俯拍大全景：\n主角少林弟子独自站在院落中央。\n\n正好12名持木棍的少林武僧形成一个完整圆圈包围他。\n\n所有木棍都朝向中央。\n\nANGLE 2 — 主角面部近景：\n主角缓缓抬起双眼。\n\n他收紧身体，进入备战状态。\n\n表情冷静但高度警觉。\n\nANGLE 3 — 低机位环形视角：\n12名武僧同时向内迈进一步。\n\n木棍保持平举。\n\n包围圈缩小。\n\nSHOT 2 — 3–6秒 | 第一波\nANGLE 4 — 侧向跟拍：\n两名武僧从相反方向先发动攻击。\n\n一根木棍高速横扫。\n\n主角低头闪过第一棍。\n\n第二根木棍紧接着从另一侧扫来。\n\n主角旋身从下方避开。\n\nANGLE 5 — 低机位正面动作镜头：\n主角立刻用掌击打退第一名武僧。\n\n随后转身用肘击将第二名武僧撞退。\n\nANGLE 6 — 后方三分之四视角：\n第三名武僧从主角背后直刺木棍。\n\n主角在最后一刻扭腰侧身避开。\n\nSHOT 3 — 6–10秒 | 四面压力\nANGLE 7 — 手持中景：\n另外三名武僧几乎同时冲入。\n\n主角用前臂挡开第一根木棍。\n\n双手抓住第二根木棍并偏转方向。\n\n第三名武僧低扫。\n\n主角直接跃过低扫木棍。\n\nANGLE 8 — 脚部特写：\n主角落地。\n\n双脚刚接触石地就立刻换步。\n\nANGLE 9 — 快速侧面视角：\n主角转身扫腿。\n\n一名武僧失去支撑，摔倒在石地上。\n\nANGLE 10 — 包围全景：\n剩余武僧立刻重新压近。\n\n木棍重新抬起。\n\n包围圈再次缩紧。\n\nSHOT 4 — 10–14秒 | 第一次夺棍\nANGLE 11 — 紧凑双人镜头：\n一名武僧猛烈直刺木棍。\n\n主角侧身避开。\n\n用一只手臂夹住木棍。\n\n另一只手快速压住棍身。\n\n他扭腰、转肩、用杠杆力量把木棍夺下。\n\nANGLE 12 — 低机位夺棍镜头：\n木棍在主角手中快速翻转。\n\n主角立即调整握法。\n\nANGLE 13 — 主角旋棍视角：\n主角用夺来的木棍做一个紧凑快速的横扫。\n\n两名冲来的武僧被迫同时后退。\n\nSHOT 5 — 14–18秒 | 全面棍战\nANGLE 14 — 宽幅跟拍：\n主角开始带棍高速穿过人群。\n\n他击打第一名武僧手腕，使其木棍偏离。\n\n立刻架住第二名武僧的上劈。\n\n随后不回头地向后顶棍，击中第三名武僧腹部，让其退开。\n\nANGLE 15 — 低机位扫棍镜头：\n主角降低重心。\n\n木棍贴近地面横扫。\n\n两名武僧同时失去平衡倒地。\n\nANGLE 16 — 俯拍混战：\n整个院落进入高密度混战。\n\n数名武僧从不同方向进攻。\n\n主角在他们之间不断穿插。\n\n他通过拨棍、借力、侧步，使几名对手的攻击互相干扰。\n\nSHOT 6 — 18–23秒 | 连续猛攻\nANGLE 17 — 正面后退跟拍：\n主角朝镜头方向持续前进，同时不断战斗。\n\n他快速旋棍。\n\n挡住一次下劈。\n\n用棍杆横撞一名武僧。\n\n然后立即后踢击退从背后接近的另一名武僧。\n\nANGLE 18 — 快切师父反应：\n年长少林师父站在院落边缘。\n\n他完全没有表情变化。\n\n只是安静观察。\n\nANGLE 19 — 侧面冲击镜头：\n一名武僧从高处挥棍冲来。\n\n另一根木棍同时从低处扫向主角。\n\n主角跃过低扫。\n\n身体前移落地。\n\n随后用木棍横击高位攻击者肩部，把他击退。\n\nANGLE 20 — 主角面部紧凑特写：\n主角呼吸变重。\n\n但眼神完全进入状态。\n\n没有慌乱。\n\nSHOT 7 — 23–27秒 | 十二人倒下\nANGLE 21 — 主角居中大全景：\n主角发动最后一轮连续进攻。\n\n他在院落中央快速旋转移动。\n\n连续完成：\n拨开攻击 →\n横扫 →\n推棍 →\n击腕 →\n扫腿 →\n转身挡棍 →\n向侧面撞开最后几名对手。\n\n整个动作必须连贯，而不是逐个停顿。\n\nANGLE 22 — 快速步法特写：\n主角双脚不断重新定位。\n\n最后几名对手的阵型彻底崩溃。\n\nANGLE 23 — 院落结果大全景：\n主角站在中央。\n\n周围12名武僧全部已经：\n倒地、\n跪地、\n失去木棍、\n后退坐地、\n或明显无法继续进攻。\n\n所有12名对手都必须还能被清楚识别和计数。\n\n主角仍握着夺来的木棍。\n\nSHOT 8 — 27–30秒 | 反转结尾\nANGLE 24 — 主角呼吸中近景：\n主角终于抬头。\n\n他以为考验结束。\n\n身体略微放松。\n\nANGLE 25 — 师父反应：\n年长师父平静地抬起一只手，或做一个很轻的示意动作。\n\nANGLE 26 — 揭示大全景：\n寺庙入口或上方台阶处出现新的挑战。\n\n更多少林弟子开始走入院落，\n或者一名更强壮、更资深的武僧手持更重的长棍独自向前一步。\n\nANGLE 27 — 主角反应特写：\n主角脸上的放松瞬间消失。\n\n他露出难以置信的表情。\n\nANGLE 28 — 最终钩子画面：\n主角重新握紧木棍。\n\n双脚拉开。\n\n重新进入战斗姿态。\n\n新的挑战正在向他靠近。\n\n立即 CUT。\n\nMOTION LOCK:\n主角：\n中心站立 → 闪避 → 反击 → 多方向防守 → 夺棍 → 持棍反攻 → 高速连续战斗 → 击败12人 → 短暂放松 → 重新进入战斗姿态。\n\n对手：\n形成包围圈 → 第一波攻击 → 多角度压力 → 阵型缩紧 → 第一人被夺棍 → 不断有人倒下 → 阵型瓦解 → 12人全部失去战斗能力。\n\n师父：\n安静观察 → 不参与战斗 → 结尾轻微示意开启下一轮挑战。\n\n主角必须保持几乎持续运动。\n\n每隔几秒必须改变主要威胁方向：\n左侧、\n右侧、\n背后、\n高位、\n低位、\n双向夹击。\n\n不要连续重复相同的攻击、闪避或格挡。\n\n每个动作节拍都必须比前一个更激烈。\n\nCAMERA:\n30秒内使用约20–28个快速但有明确目的的镜头切换，包含约20种不同机位。\n\n重点使用：\n俯拍揭示包围、\n面部近景、\n低机位攻击镜头、\n侧向跟拍、\n脚部步法特写、\n群战大全景、\n背后突袭视角、\n夺棍特写、\n主角居中全景、\n最终反转揭示镜头。\n\n镜头通常每1–2秒切换一次。\n\n整体节奏必须非常快。\n\n不使用慢动作。\n\n不使用长时间静止镜头。\n\n即使快速切镜，也必须保持院落空间关系清晰，让观众理解主角、12名对手和寺庙位置。\n\nAUDIO:\n使用自然的少林寺院落环境音：\n\n风声，\n远处寺庙环境声，\n衣物摩擦，\n石地上的快速脚步声，\n频繁的木棍碰撞声，\n身体移动声，\n控制呼吸声，\n短促发力声，\n群体打斗反应声。\n\n12名武僧可以发出简短的中文攻击喊声或发力声。\n\n主角基本不说话。\n\n师父保持沉默。\n\n随着每一波攻击人数增加，声音节奏持续增强。\n\n木棍碰撞必须频繁、清脆、有节奏。\n\n武僧倒地和木棍掉落的声音必须清楚可辨。\n\n最后反转出现时，战斗声短暂下降。\n\n随后加入更多脚步接近的声音，或者多根木棍同时敲击地面的整齐声音。\n\n无旁白。\n无背景音乐。\n无字幕。\n无说明文字。\n无图形叠加。\n无任何画面文字。",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-geta-water-ring",
+      "category": "提示词",
+      "title": "木屐悬空一指宽再落地溅水圈",
+      "body": "黄昏湿石砖，镜头钉死在低机位特写。一只成人木屐先悬在同一块深色鹅卵石上方，刚好一指宽——没有水花，没有接触。后半段，木底压下去，细水圈从落点散开，鞋带绷紧。整段只有这一步，没有走路循环，没有第二脚，脸也不入画。\n\n作者用 Seedance 2.5 专门治 AI 视频「人会飘」：先写 miss（悬空失手），再写 weight（有重量的落地），再加「接触后不许继续漂」。背景虚一档，只把鞋底边缘、湿木纹和石面反光钉锐。日英双语帖强调就这三行关键约束，可复用到任何鞋底接地戏。\n\n所以呢：接地感三行就够——悬空、砸实、溅水圈。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/studiokagurajp/status/2101085053870858398"
+        }
+      ],
+      "prompt": "SCENE: Wet stone path at dusk, 16:9. Locked low close-up. An adult man's geta, thirties. Face out of frame. No second person. No readable writing.\n\nACTION: Two beats in one locked shot. First half: the geta hangs a finger's width above one dark wet cobble and stays there. No splash. No contact. Second half: the wooden sole meets the same cobble and holds. A thin water ring spreads from the contact. The strap tightens. No walk-cycle. No second step.\n\nFOCUS: Tack-sharp on the sole edge, the wet grain of the wood, and the stone sheen. Background path is one stop soft.\n\nPHYSICS: First half is the miss — the foot floats. Second half has weight. Water displaces. No ice-slide. No hover after contact.\n\nLIGHT: Cool dusk from the right, a small specular on the wet stone only.\n\nSTYLE: Photoreal cinematic, period Japan, worn wood and wet stone, soft grain. No anime. No text. No watermark. No logos. No split-screen graphic. No captions.\n\nAUDIO: Diegetic SFX only. No music. No score. No singing. No speech. No narration. Near-silence while the geta floats. On contact: one wet wood-on-stone plant and a small splash as the water ring spreads. No second step.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-indie-mercedes-mv",
+      "category": "提示词",
+      "title": "雾林白敞篷：十五秒忧郁独立片",
+      "body": "灰雾常青林里，一辆七十年代末的白色奔驰 R107 敞篷在双车道上滑。年轻男人白亚麻衬衫敞两颗扣，红皮座椅竖纹清晰；他先看空副驾，再从后视镜对上镜头，最后把半个身子探出车窗回头望。胶片颗粒、抬黑、去饱和的青绿树，像独立音乐 MV 撕下来的十五秒碎片。\n\nSeedance 2.5 在 Higgsfield 上把「人」和「车」双重锁死：同一张脸、同一辆白车红皮、同一条雾路。分镜含副驾空镜、后视镜眼神、引擎盖仰望、探窗回望。禁止现代车、禁止路人、禁止字幕，4:3 画幅贯穿始终。\n\n所以呢：情绪车片先锁角色和座驾，再谈分镜。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/rovvmut_/status/2101185227783913928"
+        }
+      ],
+      "prompt": "Cinematic 15-second music-video fragment. Melancholic indie mood, analog 35mm film look.\n\nCONSISTENCY LOCK (do not drift):\nOne young man, mid-20s, dark messy hair with well groomed beard and sunglasses. Wearing a slightly wrinkled white linen button-down shirt unbuttoned two buttons, silver watch on left wrist, dark trousers, black belt. Same face, hair, clothing, and body language in every shot.\nOne car only: late-1970s / early-1980s Mercedes-Benz R107 SL convertible, white exterior, chrome bumpers and side mirrors, red leather interior with vertical piping, cream headliner, black steering wheel with Mercedes star, three circular dash vents. Red door cards and seats stay consistent.\nSetting: overcast, misty evergreen forest (Pacific Northwest / dense pine and fir), two-lane asphalt road with faded yellow center lines, light fog hanging low, gravel pull-off. Muted teal-green trees, gray sky, no sun shafts.\nVisual style throughout: photorealistic cinematic, 35mm Kodak film stock, fine organic grain, slightly lifted blacks, rich burgundy reds in the interior, desaturated foggy greens outside, warm skin, shallow-to-medium depth of field, natural overcast daylight only. No modern cars, no extra people, no text, no subtitles, no logos except the Mercedes star on the wheel.\n\n0-3.5s:\nMedium interior shot from the passenger-side rear, slightly low. The man drives with his left hand on the upper rim of the steering wheel, right arm relaxed along the red leather seat or lower wheel. He first looks forward and then looks towards the front empty passenger seat, pensive, almost vacant. Forest and mist streak past the side windows with natural motion blur. Soft overcast light wraps his face and the white shirt. Camera holds mostly still with a faint handheld breath. Red leather and cream headliner fill the frame.\n\n3.5-4.5s:\nQuick cut to the front empty passenger-side red leather door panel and seat back, trees rushing past the window. Same interior palette and motion.\n\n4.5-7s:\nCut to a forward-looking framed view through the windshield / over the dash: long misty two-lane road receding into fog, tall evergreens lining both sides, yellow lines stretching to a vanishing point. Then cut to a rear-seat over-the-shoulder: we see the back of his head and shoulders, the red dash with three circular vents, his left hand on the wheel, and his eyes visible in the rearview mirror looking back toward camera. He leans slightly forward. Road and trees continue moving ahead.\n\n7-8s:\nFrom the rear seat, he opens the car door and gets out of the car; we see the back of the white shirt as he moves. The car isn't moving.\n\n8-10.5s:\nWide static shot on a gravel forest road. The white Mercedes is parked facing us, slightly off-center. Dense misty trees and a low hill behind. The man sits on the front hood, one leg bent, looking upward. Cut to a medium close-up: he sits on the white hood, head tilted back, eyes closed for a beat then opening as he looks off to his right with a quiet, wounded expression. Soft overcast light, shallow depth of field, trees softly out of focus behind him.\n\n10.5-15s:\nExterior shot at window height, slightly behind and to the side of the moving white convertible on the paved forest road. The man leans his head and upper torso out the open driver’s window, looking back over his shoulder toward camera with the same pensive, searching expression. Chrome side mirror sits in the foreground. Trees and the yellow-lined road recede behind the car. Gentle tracking or locked-off follow so the car and his face stay composed. Wind moves his hair and the open shirt slightly.\n\nAUDIO:\n\nSoft vintage-car engine drone, tire hiss on damp asphalt, light wind through the trees and open window. No extra score, no crowd, no dialogue besides the sung lines. Natural room tone inside the cabin. No background music\n\nGlobal constraints: 4:3 cinematic framing, photorealistic only, consistent character and car identity across every cut, analog film grain and color science held from first frame to last, no morphing between shots, no text overlays.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-shark-doc-trailer",
+      "category": "提示词",
+      "title": "大白鲨纪录片预告：要张力，不要跳吓",
+      "body": "日出海面航拍切开，水下巨大阴影掠过。旁白用英文念「数百万年来，这个剪影统治着洋缘」——不是恐怖片配乐，是自然史纪录片的口气。侧跟全长、眼与鳃、深潜海豹群下方、阳光柱里破水跃起，最后背鳍划过平静水面再消失，硬切黑场。\n\nSeedance 2.5 一口气跑三十秒预告，明确写：premium wildlife documentary、禁止 gore、禁止喂食特写、禁止廉价跳吓。每五秒一段旁白，把「规模与耐心」写进镜头单，可直接改成任何大型野生动物题材。\n\n所以呢：野生动物预告片靠科学口吻和时间轴，不靠吓唬人。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/CharaspowerAI/status/2101008442215264341"
+        }
+      ],
+      "prompt": "Ultra-realistic premium wildlife documentary trailer, 30 seconds, focused on the great white shark. High-end natural-history cinematography, underwater tracking, long-lens surface shots, slow-motion breaches, stabilized boat-level footage, deep blue water, bright daylight, realistic caustics, subtle film grain, elegant tension, scientifically grounded behavior, no horror styling.\n\nMain subject: one adult great white shark, massive but realistic proportions, natural scars, powerful tail movement, calm predatory behavior, consistent markings throughout.\n\nSecondary wildlife: seals, seabirds, small schooling fish. No humans in danger.\nCold open ocean near a rocky coastline, kelp edges, deep blue drop-offs, sunlit surface water, offshore island habitat.\n\n0-5s: Quiet opening\nWide aerial over a calm ocean at sunrise. Cut underwater: a huge shadow glides beneath the surface.\nEnglish voice-over: “For millions of years… this silhouette has ruled the edge of the ocean.”\n\n5-10s: First reveal\nSide tracking shot reveals the full great white moving silently through blue water. Close-up on eye, gill movement, tail rhythm and rows of teeth visible only naturally as the mouth opens slightly.\nVoice-over: “Not through speed alone… but through patience.”\n\n10-16s: Hunting behavior\nThe shark cruises below a distant seal colony, remaining deep and almost invisible. Schooling fish part around its body. Camera follows from behind and below.\nVoice-over: “Every movement is calculated.”\n\n16-22s: Power moment\nThe shark accelerates upward through shafts of sunlight. Cut to dramatic slow motion as it breaches clear of the surface in a huge wall of spray, then falls back into the ocean.\nVoice-over: “When the moment comes… power becomes precision.”\n\n22-27s: Majestic scale\nUnderwater wide shot: the shark passes through a kelp-lined blue corridor, then turns beneath the camera, revealing its enormous scale against tiny fish.\nVoice-over: “But behind the legend… is an animal perfectly built for its world.”\n\n27-30s: Final iconic reveal\nSurface-level shot at golden daylight. The dorsal fin crosses calm water, then disappears.\nVoice-over: “The great white shark… master of the blue.”\nHard cut to black.\n\nPhotorealistic shark anatomy, authentic swimming mechanics, realistic buoyancy and water physics, stable markings, premium documentary pacing, natural English narration, scientifically grounded behavior, no gore, no feeding close-up, no injury, no text, no logos.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-racing-trailer-trio",
+      "category": "提示词",
+      "title": "三车手夏日预告：封闭赛道群戏",
+      "body": "早晨光下三辆性能车并排点火。女车手对讲机问「Ready?」，男主角笑着回「Always」。他们在空荡林荫道齐发、停车场结构里同步漂移、港区越过特技坡、日落山顶停住说「不是谁先到，是谁并肩到」。最后隧道、桥面、冲向落日——黑场。\n\n这条三十秒好莱坞汽车拖车词把三人身份钉死：主驾沉稳、女驾俏皮精准、竞争者专注。赛道全部写成封闭测试场，禁止公共车流、禁止撞车伤人。对白旁白按秒嵌进分镜，黄金时段打光、车载低机位和速度坡道也写进提示词里，像一整份真预告片分镜单。\n\n所以呢：汽车群戏先锁封闭场地和三人化学，再堆烟火。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/CharaspowerAI/status/2100646024981143968"
+        }
+      ],
+      "prompt": "Ultra-realistic high-energy automotive action trailer, 30 seconds. Premium Hollywood blockbuster scale, ARRI Alexa 65, anamorphic lenses, low car-mounted tracking, wheel-level shots, aerial roadway reveals, aggressive push-ins, speed ramps, brief slow motion, tire smoke, sparks from controlled stunt surfaces, golden-hour sunlight and polished cinematic realism.\n\nMain driver: adult man, early 30s, charismatic, calm, highly skilled. Female driver: adult woman, late 20s, confident, precise, playful. Competitive driver: adult man, late 30s, composed, focused. Keep all three clearly distinct and consistent.\n\nClosed automotive test course built around a modern coastal city: empty boulevards, private parking structure, controlled harbor route, mountain road, closed bridge and professional stunt arena. No public traffic.\n\n0-5s: Hero car reveal Close-ups: ignition, steering wheel, hand on shifter, tires rolling onto clean asphalt. Three performance cars line up under bright morning light. Voice-over: “Some people see a road.”\n\n5-10s: Launch The cars accelerate together on a completely closed boulevard. Low tracking beside the wheels, reflections sliding across bodywork. Female driver over radio: “Ready?” Main driver smiles: “Always.”\n\n10-16s: Precision driving The three cars move through a controlled parking structure in perfect formation, sweeping around wide corners, then exit onto an empty elevated road. Smooth synchronized drifts, clean spacing, no collisions.\n\n16-22s: Big automotive set-piece At the harbor test zone, the cars weave between marked barriers, pass beneath cranes and accelerate across a wide open course. One car rides over a designed stunt crest and lands cleanly while the camera follows from above.\n\n22-27s: Emotional beat The cars stop on a mountain overlook at sunset. Female driver: “You still think this is about being first?” Main driver looks toward the city. “No. It’s about who finishes beside you.”\n\n27-30s: Final trailer hit Rapid montage: three cars sweeping through a tunnel, synchronized drift on a wide closed corner, aerial bridge shot, acceleration burst into sunset. Voice-over: “This summer… every road leads to the same team.” Hard cut to black.\n\nPhotorealistic vehicle physics, closed-course driving only, stable car continuity, premium automotive cinematography, realistic suspension and tire behavior, strong team chemistry, cinematic English dialogue, no public traffic, no collisions, no injuries, no logos, no readable text.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-gta-reyes-alley",
+      "category": "提示词",
+      "title": "GTA「又来了」：巷子里被扔下车的真人电影感",
+      "body": "洛杉矶棕榈街，一辆九〇年代黑白巡逻车缓缓拐进窄巷。后座男人被推出车门，摔在沙砾上，爬起来拍灰，用那句经典腔调说「Oh shit, here we go again」。镜头钉在他背后固定机位跟走，步态松垮，电台里还在喊 Pendelbury 倒地。\n\n在 Higgsfield 上用 Seedance 2.5 加参考图：LSPD 车门贴纸、角色脸、音频参考只负责那句台词的抑扬。变形镜头光学、七段对白原文锁死，禁止 UI、禁止野生动植物乱入。\n\n所以呢：游戏过场重制成电影，要把车牌、声音、步态拆成三个参考角色。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/maxescu/status/2100904265946407181"
+        }
+      ],
+      "prompt": "CHARACTERS\n\nReyes: Front-left driver, younger adult policeman, medium-brown skin, short black hair, angular clean-shaven face, dark navy uniform.\nOfficer: Front-right passenger seat policeman, mostly obscured, low mocking voice.\nAlex: Rear-right passenger seat, adult male defined by [CHARACTER REFERENCE] for face, complexion, brown-and-grey hair, and trimmed beard; wearing a white ribbed cotton tank top, loose blue jeans, black belt, and dark sneakers.\n\nSPINE A live-action crime-feature-film scene: two police officers drive Alex through a Los Angeles neighborhood, dump him into an alley, and leave him to rise and walk away with dry, familiar resignation. Every shot is extremely photoreal, physically photographed cinema with vintage 2x anamorphic optics, including the opening car and street views.\n\nPLATE One continuous late-afternoon route: a palm-lined residential street with weathered stucco houses and patched asphalt, a broad intersection, then a narrow alley bounded by tan block walls and sun-bleached wooden fences. A full-size practical black-and-white 1990s American patrol sedan has painted steel, real glass reflections, rubber tires, a roof lightbar and believable suspension weight. Its white side-door panels retain the original LSPD layout from [IMAGE REFERENCE]: bold black LS, the original round blue-and-silver police seal in the middle, then bold black PD. Four outer letters L S P D; the middle is the actual emblem. The marking is real paint/decal bonded to the body at the original door-panel scale and position, sharing its perspective, reflections and lighting in every car shot. Low oblique sun draws warm edges along the car and faces; cooler open-sky fill preserves shadow detail. Real timber grain, road grit, denim weave and individual skin texture remain readable. The same car follows the continuous route into the alley; the same sun direction holds throughout.\n\nCHARACTERS AND REFERENCE ROLE\n\nReyes is the front-left driver: a distinct younger adult policeman with medium-brown skin, short black hair, an angular clean-shaven face and dark navy uniform. His hands operate the steering wheel. Soft sky fill through the front window makes his separate face readable when that window is seen.\nOfficer is a different adult policeman in the front-right passenger seat, mostly obscured. He delivers the mocking lines with controlled, conversational confidence and a low human voice.\nAlex corresponds to <<<00cd7a2e-fb86-4515-85c7-30b04eaa1ebf>>> for his original face, complexion, brown-and-grey hair and trimmed beard only. Alex wears a white ribbed cotton tank top, loose blue jeans, black belt and dark sneakers. He occupies the rear-right passenger seat behind the B-pillar. His face becomes visible during the rear-door ejection and aftermath, especially the brief three-quarter get-up view. The reference defines Alex exclusively; the two front-seat officers retain their separate appearances.\nMATERIAL ROLES\n\n[IMAGE REFERENCE] defines only the car's flat LSPD lettering and central seal artwork, placement and colors. Render it as a crisp physical marking on the photoreal car; the film's materials, lighting and optics come from the cinematic description.\n[AUDIO REFERENCE] defines only Alex's ending-monologue delivery: its original cadence, pitch movement, emphasis, pronunciation and pause between the opening expletive and here we go again. Generate fresh cinematic dialogue using the written words and that performance pattern; the rest of the scene uses its specified native voices and location sounds.\nANAMORPHIC PHOTOGRAPHY The entire scene has the photographic character of an Arriflex 435 feature film through vintage 2x anamorphic primes: natural human and vehicle proportions, oval out-of-focus highlights, restrained horizontal optical flares when sunlight catches the glass, gentle edge softness, dimensional contrast and fine organic film grain. Controlled highlight rolloff retains real skin and painted-metal detail. The film image fills all four edges. Camera movement follows the physical car or actor; focus follows the subject rather than presenting everything as equally sharp.\n\n[Stage 1:0-3s] MWS, low parallel dolly tracking beside the sedan, 40mm anamorphic. The full-size car moves past real houses and palms, its body settling over road seams while reflections travel across the glass and paint. Reyes drives in the front-left seat; Alex remains obscured in the rear-right seat. English, Officer O.S. from the front passenger seat, casually cruel, deliberate conversational phrasing and a slight audible smile: {In the meantime, try not to gun down any more officers of the law.} The line continues across the next cut. <Engine, cabin faint hiss, resonance. tire weighted>\n\nHard cut.\n[Stage 2:3-7s] WS, elevated crane view, 50mm anamorphic. The same sedan crosses the real intersection at a steady pace. Its tires contact the road and its shadow slides over uneven asphalt. The officer completes the preceding line and gives one short, natural chuckle. Warm sun edges the car against cooler street shadows; the real neighborhood has scale and depth. <Engine chuckle. distant movement, officer's the traffic,>\nHard cut.\n[Stage 3:7-12s] MWS, low front-left three-quarter tracking, 40mm anamorphic. The sedan approaches its alley turn; Reyes stays at the wheel and the separate Alex stays behind him across the rear row. English, Alex O.S. from the rear seat, urgent protest, real breath pressure and rising concern: {Y'all can't leave me here. This Ballas country.} English, Officer O.S., dry and needling, brisk but controlled, stressing innocent: {I thought you said you was innocent, Carl? That you don't bang?} The question finishes over the following view. <Engine easing, scrub. settling, suspension tire>\nHard cut.\n[Stage 4:12-13s] WS, rear-quarter camera, 50mm anamorphic. The same sedan turns between the tan walls into the wooden-fence alley, its wheels steering and body following one connected curve. The officer finishes his question. Afternoon light streaks across the actual fence boards and the car's rear bodywork.\nHard cut.\n[Stage 5:13-16s] MWS, grounded rear-right three-quarter view, 40mm anamorphic. The slowly rolling car's rear-right door opens on its hinge. Alex visibly crosses the rear doorway, catches the dirt with forearm and hip, and rolls onto his hands and knees. The stunt carries real body weight and one continuous door-to-ground path. Reyes remains at the steering wheel as the same car pulls away. English, Officer O.S., dismissive amusement with a short laugh: {See you around, like a doughnut, Carl.} English, filtered police radio, clipped human delivery, naturally overlapping: {This is car 58...} English, radio/officer response: {Officer Pendelbury's down? We'll be right over.} The response can finish during Alex's rise. <Door away, body engine gravel impact, pulling radio scrape, squelch. swing,>\nHard cut.\n[Stage 6:16-18s] MCU, three-quarter face view at Alex's rising height, 65mm anamorphic. Alex braces a hand in the grit and pushes himself up. His approved face, short brown-grey hair and beard are clear. The impact has knocked his breath out; he exhales through a tightened jaw and looks toward the departing car, holding back anger. Restrained, truthful physical acting, with skin responding naturally to warm side light and cooler fill. Oval highlights soften the real alley behind him. <Winded and breath, cotton denim fading gravel, hand movement; on radio response.>\nHard cut.\n[Stage 7:18-21s] Begin the original-style continuous rear follow, 40mm anamorphic with photographic depth. The stabilized camera is directly behind Alex with a slight left offset, at chest-to-shoulder height and tilted gently downward. Match the original composition: Alex slightly right of center, framed from mid-thigh upward, head and shoulders at a constant screen scale. The distance, height, angle and focal length stay fixed through the entire walk. Alex walks at a steady casual pace, approximately one and a half steps per second, shoulders relaxed and slightly rounded, a small forward lean, loose hands and natural opposite-arm/opposite-leg swing. A small vertical body bob accompanies each step with minimal lateral sway; his gait is even and uninjured. The same real alley passes in stable parallax as the cruiser recedes with Reyes still driving. <Even ambience, city cloth, fading footsteps, low radio static.>\n[Stage 8:21-28s] Continue the SAME uninterrupted rear-follow shot with the SAME camera offset, height, distance, framing and pace. Alex maintains that relaxed original walking cycle, looking ahead. English, Alex, following the exact delivery pattern of [AUDIO REFERENCE]: weary, matter-of-fact resignation, a low opening expletive, the same short pause before here we go again and the original falling cadence. The words are {Oh shit, here we go again. Worst place in the world. Rollin' Heights Ballas country.} Match the reference's timing, stress and pronunciation in newly generated cinematic speech, with a clean natural voice consistent with Alex's earlier protest. Finish country naturally and keep walking in the unchanged original rear framing to the end. <Steady ambience, city cloth footsteps, grit low movement. original-paced>\nGRADE AND PERFORMANCE Warm sun, cool shadows, deep natural blacks; tactile feature-film realism throughout. Dialogue sounds like distinct human actors performing to scene partners in a finished crime film, with audible breath, expressive timing and natural consonants. Officer's cruelty stays relaxed; Alex's ending follows the original weary, matter-of-fact cadence in [AUDIO REFERENCE]. The radio has believable speaker distortion while the primary voices stay clear. Native dialogue and location sound form one coherent scene: engine, tires, door, body impact, cloth, shoes, city air and radio static.\n\nCONSISTENCY Reyes occupies the front-left driving position throughout. Officer occupies front-right. Alex occupies rear-right until the ejection, then remains the same man on the ground and walking. Alex's face-reference identity is exclusive to that role. Visible Alex faces during the opening exterior car journey: zero. One patrol sedan throughout; one Alex in the ejection and aftermath. Caption/title/UI overlays and border bands: zero. Visible wildlife: zero. The requested LS + central police seal + PD vehicle marking from [IMAGE REFERENCE] remains visible on the white door-side panels with the same layout in every car shot; other unrequested brand logos: zero. The ending is one uninterrupted fixed-offset rear follow with the original casual walking cycle and [AUDIO REFERENCE]'s delivery pattern. All seven dialogue lines retain their written words.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-jjk-maki-sakuga",
+      "category": "提示词",
+      "title": "咒术风线稿炸开：一刀斩成上色 sakuga",
+      "body": "分镜框里，禅院真希侧脸抬手打响指——素描瞬间裂成炭笔碎屑，废神社柱子的透视线歪斜炸开。镜头砸到仰拍：她蹬地砸出冲击波，拔出「裂魂刀」，汉字拟声跟着脚步抖。最后鱼眼一记斜斩，铅笔线稿猛地跳成浓艳赛璐璐：血点、钢光、深紫，定格在碎石上的落地姿。\n\nSeedance 2.5 在 Higgsfield 上把「线稿→成片」写成三段戏法，适合做前后对比切片。风格钉 genga 粗关键帧、透视扭曲、电子鼓点同步冲击格。二创发布时注意角色版权话术，可换成自有角色骨架。\n\n所以呢：sakuga 感来自「线稿突然上色」这一下，不是全程全彩。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Valora_Lab/status/2101102219340972128"
+        }
+      ],
+      "prompt": "High-octane keyframe sakuga 2D anime sequence inspired by rough storyboard layouts, featuring blueprint grid lines, technical aspect ratio frame guides, and explosive hand-drawn linework.\nScene 1 (The Trigger): Maki Zen'in stands in a sharp three-quarter profile inside an unshaded production frame. A single close-up catches the cold glare in her scarred face as she raises her hand, snapping her fingers. Instantly, an electric flash of cursed energy sparks across her silhouette, shattering the serene sketch into jagged, charcoal-textured debris. The background splits open into skewed perspective lines of ruined Japanese shrine pillars and concrete slabs.\nScene 2 (The Release & Charge): The camera plunges into an extreme worm’s-eye view. Maki kicks off the ground with monstrous physical force, creating a crater-like shockwave depicted in raw, hand-sketched black-and-crimson impact frames. Her short dark hair whips backward in high frame-rate motion blur as she unsheathes the Split Soul Katana. Stylized 3D Kanji sound effects burst out from behind her footsteps, vibrating with distortion to match a heavy, syncopated bass hit.\nScene 3 (The Kinetic Climax): In one continuous, sweeping fisheye cut, Maki leaps directly toward the viewer, blade held reverse-grip overhead. Geometric debris and slashed kinetic speedlines trail her motion. As her blade cuts the screen diagonally, the rough pencil linework abruptly snaps into rich, fully saturated flat cel colors—sharp crimson blood spatters, glaring metallic steel reflections, and deep purples—before freezing on a breathless, sharp-focus landing pose atop shattered stone.\nVisual Style & Technical Specs: Genga-style rough animation, dynamic perspective warping, raw loose keyframes shifting into polished cel shading, dramatic camera tracking, high kinetic impact frames synced to abrasive electronic beats.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-thirteenth-chime",
+      "category": "提示词",
+      "title": "第十三下钟声：六英寸迷你老人滚出钟面",
+      "body": "塞满钟表和地球仪的小店，所有钟同一秒敲响。中央大钟从十二猛跳到十三，门一样的表盘打开，一个六英寸高的迷你老人滚出来大喊：「别碰蓝色地球仪！」店主一转身——满屋全是蓝地球仪。一个滚下来他扑救，迷你人又喊「不是那个！」梯子、书雨、钟链踢球，最后地球仪弹出纸条：「千万别开那口钟」——而那口钟已经开着，黑场前再来一声 DONG。\n\nSeedance 2.5 按三十秒十二镜写完比例喜剧：对白短、道具多、指令含糊。参考图可用 Midjourney，台词可换成中文。\n\n所以呢：迷你人喜剧靠「指令含糊 + 道具过多」制造笑点。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/airina_xyz/status/2100981266300715515"
+        }
+      ],
+      "prompt": "0:00–0:02.5 — SHOT 1 Extreme wide shot of the impossibly cluttered clock-and-globe shop. Every clock suddenly strikes at exactly the same instant—DONG! The enormous central clock violently jumps from 12 to 13. The old man nearly drops his magnifying glass.\n0:02.5–0:05 — SHOT 2 Close-up: the central clock face swings open like a tiny door. A miniature elderly man identical to him, only six inches tall, tumbles out onto the shelf. MINI MAN: “Don’t touch the blue globe!”\n0:05–0:07.5 — SHOT 3 The old man slowly turns. Behind him, a huge pale-blue globe on the upper shelf begins wobbling by itself.OLD MAN: “…Which blue globe?”\n0:07.5–0:10 — SHOT 4 Wide shot reveals dozens of blue globes throughout the room. The miniature man slaps his forehead. MINI MAN: “Oh, brilliant.”\n0:10–0:12.5 — SHOT 5 One globe suddenly rolls off its shelf. The old man dives forward and catches it inches above the floor.\n0:12.5–0:15 — SHOT 6 Relieved, he grins—until the miniature man frantically points upward. MINI MAN: “Not that one!”\n0:15–0:17.5 — SHOT 7 Another blue globe rolls along the highest bookshelf like a bowling ball, knocking books and tiny clocks aside.\n0:17.5–0:20 — SHOT 8 The old man grabs a wooden ladder and scrambles upward while books rain around him.OLD MAN: “Why didn’t you label it?”\n0:20–0:22.5 — SHOT 9 The globe reaches the shelf edge. The miniature man swings from a dangling clock chain and kicks it backward at the last second.\n0:22.5–0:25 — SHOT 10 The old man catches it against his chest. A hidden brass hatch on the globe pops open with a CLICK.\n0:25–0:27.5 — SHOT 11 Inside is a tiny folded note. He opens it. Close-up: “DO NOT OPEN THE CLOCK.” Both men stare silently at the already-open central clock.\n0:27.5–0:30 — SHOT 12 A deep THUD comes from inside the clock. A gigantic shadow moves behind its tiny doorway. The miniature man slowly backs away. MINI MAN: “…That’s why I came.”CUT TO BLACK — DONG!",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-seedance-coat-pocket-express",
+      "category": "提示词",
+      "title": "大衣口袋特快车：手套去这儿找",
+      "body": "女孩把手伸进旧绿大衣口袋，一列迷你蒸汽火车喷着雪冲出来。老鼠列车长探头喊「末班车！」她数到第十七个口袋，里面是发光的蓝色雪隧道。她抓住末节车厢被拽进去，落进大衣里的迷你雪站——一只小鼠孩举着单只红手套跑来。她低头一看，自己口袋里正塞着配对的那只，笑着说：「原来丢失的手套都去这儿了。」\n\nSeedance 2.5 用绘本暖色光和三十秒时间戳，把「丢失的手套去哪了」讲成童话站台。风格钉死手绘故事书、琥珀灯笼光、可见笔触、轻雪；挂上参考图就能稳住衣服，适合亲子向连载。\n\n所以呢：亲子向短片先定暖色绘本风，再写口袋里的空间魔术。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/airina_xyz/status/2100899441842721097"
+        }
+      ],
+      "prompt": "Visual style: cozy hand-painted storybook illustration, warm amber lantern light, deep greens and rusty reds, visible brush texture, gentle snowfall, whimsical winter atmosphere.\n0:00–0:03 — Extreme close-up. The girl reaches into the pocket of an old green coat. Suddenly, a tiny steam locomotive blasts out of the pocket, spraying snow across her face.GIRL: “Oh!”\n0:03–0:05 — The miniature train screeches to a stop along the wooden coat rail. A mouse conductor leans from the engine.MOUSE: “Last train!”\n0:05–0:08 — The girl stares, then quickly opens her red coat pocket.GIRL: “To where?”\n0:08–0:10 — The mouse points urgently toward a row of hanging coats.MOUSE: “Pocket seventeen!”\n0:10–0:13 — She pushes through the coats, counting pockets with her finger: 14…15…16…\n0:13–0:15 — She opens pocket seventeen. Inside is an impossibly deep snowy tunnel glowing blue.\n0:15–0:18 — The tiny locomotive dives straight into the pocket. The girl hesitates—then grabs the last carriage.\n0:18–0:20 — WHOOSH! She is yanked completely inside, shoes disappearing last.\n0:20–0:23 — She lands in a miniature snowy railway station hidden inside the coat, surrounded by mice carrying tiny suitcases.\n0:23–0:25 — A worried mouse child runs toward her holding a single red mitten.MOUSE CHILD: “You found us!”\n0:25–0:28 — The girl looks down. The matching mitten is sticking from her own coat pocket. She pulls it out, surprised.\n0:28–0:30 — She hands it over. The mice cheer as the train whistles. The girl smiles.GIRL: “So that’s where lost mittens go.”",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-gpt-image-editorial-split-poster",
+      "category": "提示词",
+      "title": "目的地对半海报：实景叠纸雕",
+      "body": "竖版三比四海报从正中间切开：上半是杂志级实景照片，下半是同一主体的分层纸雕——象牙色卡纸、干净切边、浅接触阴影。英文主标题贴在纸缘或负空间里，旁边两三组小字像展览标签，不要年份。把「日本」「冰岛」或任何地点填进占位符就能连载一整季旅行海报。\n\nGPT Image 2.5 这条词强制精确五五开、纯文生图、不要参考图。色彩从地点自动抽成有限纸艺色板，禁止霓虹、禁止塑料光泽、禁止复杂渐变。编辑感来自摄影、纸艺、排版三合一，像限量设计杂志内页。连载时每周换一个城市名，系列感比单张海报强。\n\n所以呢：旅行海报系列先写死对半构图，再换地名量产。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Goodmanprotocol/status/2101180094316269616"
+        }
+      ],
+      "prompt": "Create one premium 3:4 vertical editorial poster for [COUNTRY / LOCATION / SUBJECT], divided into two exactly equal 50% sections.\n\nTEXT-TO-IMAGE GENERATION ONLY. Generate the complete artwork from [COUNTRY / LOCATION / SUBJECT] alone. No reference image or additional visual input is required.\n\nTOP 50% -PHOTOGRAPHIC SCENE\n\nCreate a highly realistic, cinematic photograph representing [COUNTRY / LOCATION / SUBJECT].\n\nAutomatically determine the most recognizable subject, pose, architecture, environment, colors, lighting, textures, atmosphere, and composition.\n\nGive the scene a subtle high-end editorial color grade, similar to an art magazine, independent publication, or exhibition photograph. Preserve natural lighting, realistic textures, authentic colors, and believable depth.\n\nThe environment may be naturally extended where appropriate, but keep the main subject realistic, correctly proportioned, and undistorted.\n\nBOTTOM 50% - LAYERED PAPER-CUT ART\n\nReinterpret the key subject from the upper scene as a refined layered paper-cut / handcrafted paper-art composition.\n\nPreserve its most recognizable silhouette, proportions, pose, structure, and spatial relationships, while simplifying unnecessary details.\n\nBuild the subject using carefully cut and folded paper layers with clear foreground, midground, and background separation. Use scale contrast, clean alignment, overlapping layers, and controlled negative space to create a sophisticated editorial composition.\n\nKeep one primary subject as the visual anchor and use only a few supporting environmental elements.\n\nCOLOR & MATERIAL\n\nAutomatically extract the most distinctive colors associated with [COUNTRY / LOCATION / SUBJECT] and reduce them into a limited, harmonious paper-art palette.\n\nUse warm ivory or light paper as the base, combined with a few stronger accent colors, darker structural tones, and subtle transitional shades.\n\nMake the material resemble premium matte cardstock, with fine paper fibers, crisp cut edges, layered thickness, and soft natural contact shadows.\n\nAvoid glossy plastic, excessive 3D effects, neon colors, muddy tones, and complex gradients.\n\nEDITORIAL TYPOGRAPHY\n\nCreate one short main English title inspired by the subject's identity, location, action, emotion, or symbolism.\n\nAdd 2–4 small groups of supporting English text, such as location details, object names, directional words, numbers, classification labels, material descriptions, or a short poetic phrase.\n\nDo not use any year or date.\n\nUse refined modern typography with a strong hierarchy. Integrate the text into the artwork by aligning it with paper edges, subject contours, geometric axes, or negative space.\n\nUse a mixture of horizontal, vertical, rotated, edge-aligned, and subtly overlapping typography where appropriate.\n\nThe main title may have a subtle paper-cut character, while supporting text should remain thin, precise, minimal, and editorial.\n\nFINAL AESTHETIC\n\nCreate a seamless combination of:\n\nrealistic photography × handcrafted layered paper art × sophisticated editorial typography × premium material design.\n\nThe final poster should feel tactile, elegant, contemporary, balanced, refined, and art-directed, like a limited-edition piece from a high-end design magazine or gallery.\n\nSTRICT 3:4 VERTICAL | EXACT 50/50 SPLIT | TEXT-ONLY GENERATION | PREMIUM EDITORIAL DESIGN | NO REFERENCE IMAGE REQUIRED.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "prompt-nano-banana-neon-lime-fashion",
+      "category": "提示词",
+      "title": "霓虹青柠高定：锁脸还故意压细节",
+      "body": "上传一张脸，蹲在黑色框玻璃门前：霓虹青柠长发过渡到水色，露肩毛衣巨大毛绒袖，混色针织短裙绣小字，亮蓝尖头鞋。镜头要求身份零变形——同一副骨骼、同一肤色毛孔、成人比例。奇怪的是，词里还写「压制额外细细节、故意加低频大气伪影」，用来减少像素爬行，画面更平滑不抖毛。\n\nNano Banana Pro 在 Higgsfield 上跑这条高定棚拍：两臂两腿、禁止娃娃脸、禁止透视薄纱、禁止额外文字水印。示范时用自己的参考图即可，不必点名人名。室内日光、全身竖构图，门框与戈雅画当背景锚点。\n\n所以呢：身份锁之外，有时要故意降频，画面才不抖毛。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/KeorUnreal/status/2101037044138922324"
+        }
+      ],
+      "prompt": "Use the uploaded photo as the exact character reference. Preserve the subject’s face and identity perfectly — same facial structure, eye shape and color, nose, lips, jawline, cheekbones, forehead, skin tone, pores, subtle skin texture, and unique facial proportions. Maintain exact face fidelity from the source image with zero morphing or alteration. Match the uploaded subject’s gender exactly. Adult proportions. Do not make the subject look teenage or doll-like. Do not stylize. Do not add extra fine details. Suppress extra fine details. Build in deliberate low-frequency atmospheric artifacts to create a smoother texture field and reduce pixel crawl. Ultra-photorealistic high-fashion indoor portrait. One person only. Exactly two arms. Exactly two legs. Pose:\nCrouching near a black-framed glass green door, both hands on thighs. Body angled slightly, looking at the camera. Hair and makeup:\nLong straight neon lime-green hair fading to aqua at the ends. Glam makeup, glossy lips. Outfit:\nAn opaque off-the-shoulder lime-green knit crop top with huge fuzzy lime-green statement sleeves. A fitted opaque knit mini skirt in mixed teal, aqua, and lime with a small sign 'Keor' embroidered on border. Bright blue pointed-toe pumps. Rings. Full fashion coverage. No sheer panels. Setting:\nModern indoor patio with black-framed glass doors, white floor, white curtain, a dark ceiling to floor goya painting. Camera:\nTall vertical full-body shot. Lighting:\nBright indoor daylight. Aesthetic:\nPhotorealistic high-fashion photography. No extra text, no logos, no watermarks. The face must remain an exact match to the uploaded photo at all times — perfect identity lock from beginning to end.",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "party-webgpu-particle-playground",
+      "category": "视觉尝试",
+      "title": "Party：浏览器里拧粒子开趴",
+      "body": "打开一个网页，满屏粒子开始互撞、聚成流体、被振荡器扯成轨迹。这是 Party——纯浏览器的 WebGPU 粒子物理游乐场。机器撑不住就自动切回 CPU，演示不容易当场翻车。你能刷上千粒子、开 SPH/FLIP 流体、挂关节、存一份会话，刷新后原样复现。\n\n镜头里适合全屏拧重力滑杆、开振荡器自动化参数：碰撞、轨迹和会话存档都能当场操作给观众看，比贴一张静态 shader 墙好看，也比只能看不能摸的 demo 更适合出镜。源码在 GitHub，也有 WebGPU 展柜页可跳。\n\n所以呢：要拍「物理玩具」，找能当场拧参数还不崩的网页。",
+      "links": [
+        {
+          "label": "在线 Demo",
+          "url": "https://caza.la/party"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cazala/party"
+        },
+        {
+          "label": "WebGPU 展柜",
+          "url": "https://www.webgpu.com/showcase/party-webgpu-particle-physics-playground/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "plume-three-webgpu-vfx",
+      "category": "视觉尝试",
+      "title": "Plume：拖节点就出烟花拖尾",
+      "body": "游戏引擎里的 Niagara 粒子图，现在搬进浏览器。Plume 是 Three.js 上的 WebGPU 粒子节点编辑器：拖发射器、力场、丝带拖尾、子发射器，粒子还能撞深度缓冲溅射，透明排序用 BitonicSort。预览满意就一键导出 TypeScript，贴进自己的 Three 场景。\n\n创作者镜头可以拍：打开 plume-editor → 拖 ribbon → 让粒子撞墙开花 → 导出 TS。npm 包名 three-plume，适合「节点一拖出烟花」这种可见过程。\n\n所以呢：网页特效不必手写 shader，节点图也能出游戏级拖尾。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/travisdmathis/plume"
+        },
+        {
+          "label": "npm three-plume",
+          "url": "https://www.npmjs.com/package/three-plume"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "shader-lab-basement-webgpu",
+      "category": "视觉尝试",
+      "title": "Shader Lab：像 PS 一样叠着色层",
+      "body": "Basement 工作室的 Shader Lab 把着色器当成图层：拖一段视频，叠 CRT、ASCII、像素排序、色差，再把参数绑到音频上跟着鼓点抖。构图能当 React / WebGPU 运行时导出，贴进真正的页面，不是冷冰冰的代码墙。\n\nGitHub 运行时星数约六百八十七，近期还在推。短视频适合拍「设计工具感」：拖层、拧参数、听声变色，最后导出 composition 塞进站点。Show HN 上也有讨论帖可跳。ASCII 和像素排序叠在一起，画面立刻有「地下实验室」气质。\n\n所以呢：着色器演示别只秀代码，叠成能导出的图层更像在做设计。",
+      "links": [
+        {
+          "label": "官网工具页",
+          "url": "https://eng.basement.studio/tools/shader-lab"
+        },
+        {
+          "label": "GitHub 运行时",
+          "url": "https://github.com/basementstudio/shader-lab"
+        },
+        {
+          "label": "Show HN",
+          "url": "https://news.ycombinator.com/item?id=47796759"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "supersplat-editor-3-webgpu",
+      "category": "视觉尝试",
+      "title": "SuperSplat 3.0：网页里修百万点云",
+      "body": "扫街得来的百万级高斯泼溅点云，以前在浏览器里一转就卡。PlayCanvas 把 SuperSplat 编辑器整机重写成 WebGPU：排序、选区、调色全扔到 GPU，堆内存从 GB 级砍到百 MB 量级。随机 Alpha 绕飞、球面笔刷刷选、只对选区调色温和饱和度——九月九日大版本。\n\n镜头：丢进大型 PLY → 开 Stochastic Alpha 飞一圈 → Sphere Brush 刷一块墙 → 改色温。编辑器地址 superspl.at，创作者可当面拍「扫街点云在网页里修」。\n\n所以呢：三维扫描修片终于能在网页里当面演示，不必回桌面软件。",
+      "links": [
+        {
+          "label": "官方博文",
+          "url": "https://blog.playcanvas.com/new-in-supersplat-editor-3-0-rebuilt-on-webgpu/"
+        },
+        {
+          "label": "在线编辑器",
+          "url": "https://superspl.at/editor"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/playcanvas/supersplat"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "three-ws-browser-3d-agent",
+      "category": "视觉尝试",
+      "title": "three.ws：一句话出 GLB 嵌进网页",
+      "body": "在 Forge 里打「蒸汽朋克猫头鹰」，几秒出一个能拖转的 GLB。挂上大模型当大脑，用网页组件嵌进任意站点，还能接 MCP 让外部代理指挥它开口。three.ws 是浏览器原生的三维 Agent 平台，仓库在 nirholas/three.ws，星约一百九十五，当天还在推。\n\n镜头叙事：Forge 出模 → 拖转互动 → 空白页贴上标签让它说话。免费草稿层够拍演示，适合「视觉加代理」双线内容，比纯聊天框更有画面。npm 上还有配套 MCP 包，方便把三维身体接到现有代理栈。\n\n所以呢：AI 助理不一定是对话框，也可以是嵌进页面的三维身体。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://three.ws/"
+        },
+        {
+          "label": "Forge 文生 3D",
+          "url": "https://three.ws/forge"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nirholas/three.ws"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "wonder-design-canvas-mcp",
+      "category": "小众工具",
+      "title": "Wonder MCP：代理在画布上直接落笔",
+      "body": "Cursor 或 Claude 连上 Wonder 的远程 MCP 之后，不再只是「看截图猜布局」。代理能在画布里画按钮、读设计系统、再把结果推回代码——看见即交付。免费档可用，OAuth 登录，也通 Codex、Lovable。产品猎上挂着公开 alpha。\n\n镜头：接上 MCP → 让代理画一屏 hero → 打开 Wonder 看实时落笔 → 再按 Tailwind 配置对齐间距与色板。官网文档把端点和权限写得很清楚，适合当面对照「截图转码」有多假。\n\n所以呢：设计到代码的闭环，关键是代理能读写同一块画布。",
+      "links": [
+        {
+          "label": "MCP 文档",
+          "url": "https://wonder.design/docs/mcp"
+        },
+        {
+          "label": "产品官网",
+          "url": "https://wonder.design/"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/wonder-public-alpha"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "gatewai-artifex-json-cli",
+      "category": "小众工具",
+      "title": "Artifex：JSON 节点图让代理自己出片",
+      "body": "人不点无限画布。代理写一份含 ImageGen、Compositor、Export 的 JSON 节点图，丢给 Gatewai Artifex 命令行：校验、构建、硬件加速跑完导出。npm 包 @gatewai.studio/artifex 约一点一版本，还带 agent skills，专为机器流水线设计。\n\n镜头对照很清楚：左边人在 GUI 里点，右边一条命令跑完。先看节点目录再投 spec，适合讲「人点一下 vs 代理跑流水线」。\n\n所以呢：媒体流水线要给代理用，接口就该是 JSON 和命令行，不是鼠标。",
+      "links": [
+        {
+          "label": "npm 包",
+          "url": "https://www.npmjs.com/package/@gatewai.studio/artifex"
+        },
+        {
+          "label": "Gatewai Studio",
+          "url": "https://gatewai.studio/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "lottiefiles-creator-mcp",
+      "category": "小众工具",
+      "title": "Lottie MCP：自然语言改关键帧配色",
+      "body": "LottieFiles Creator 开本地桥，代理就能进时间线：建层、打关键帧、改缓动、批量出深浅色变体。官方文档九月十一日更新，一条安装命令加上配套的 motion-design skill，手感比「只会读文档」的动画 MCP 实在得多——它真的在改你眼前的工程。\n\n镜头：Creator 开桥 →「做个加载 spinner」→ 改 easing → 一键出主题变体。适合当面演示营销动效怎么交给已经懂品牌的代理，而不是只生成一段空话让人再手工重做。\n\n所以呢：动效 MCP 要能改时间线，不能只聊天。",
+      "links": [
+        {
+          "label": "官方文档",
+          "url": "https://docs.lottiefiles.com/en/creator/13_ai-tools/lottie-creator-mcp"
+        },
+        {
+          "label": "npm",
+          "url": "https://www.npmjs.com/package/@lottiefiles/creator-mcp"
+        },
+        {
+          "label": "motion-design skill",
+          "url": "https://github.com/LottieFiles/motion-design-skill"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "svgator-mcp-animation",
+      "category": "小众工具",
+      "title": "SVGator MCP：一句话导出动效多格式",
+      "body": "把 SVGator 账号接到任意 MCP 客户端：浏览项目、改动画时间轴、导出 SVG / Lottie / MP4 / GIF，还附编辑器回跳链接。这是成熟商用动画 SaaS 的官方 MCP，导出面还覆盖 React Native 和 Flutter，适合营销落地页和 App 启动动效。\n\n镜头：让助手建循环 hero → 改颜色时序 → 导出透明 GIF 丢进落地页。短视频可讲「营销动效不用手搓关键帧」，人只负责审美把关。人只做审美把关，重复改色和导出交给对话完成。\n\n所以呢：品牌动效库一旦接上 MCP，改色出片可以变成对话。",
+      "links": [
+        {
+          "label": "MCP 说明",
+          "url": "https://www.svgator.com/help/svgator-mcp/what-is-the-svgator-mcp-server"
+        },
+        {
+          "label": "SVGator 官网",
+          "url": "https://www.svgator.com/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "inspo-mcp-design-taste",
+      "category": "小众工具",
+      "title": "Inspo MCP：先喂八百站再让代理画",
+      "body": "Hassan（Nutlope）做的设计灵感 MCP：按 brief 去搜真实网站截屏、色板、字体和 DESIGN.md，再塞给编码代理。九月十四日前后上线，X 上热闹，安装一句命令即可。目标很明确——减少「又一张通用 SaaS 脸」。\n\n镜头：按 brief 检索 → 展示真站截屏与设计系统 → 让代理按该品味重做同一屏，旁边放纯幻觉版对照。和 Lexington 同属「品味层」工具，一个找参考，一个发区块。检索结果带真实站点，代理抄的是味道而不是空模板。\n\n所以呢：代理 UI 难看，多半是没见过真网站；先喂品味再动手。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://inspomcp.dev/"
+        },
+        {
+          "label": "MCP 文档",
+          "url": "https://inspomcp.dev/mcp"
+        },
+        {
+          "label": "X 发布帖",
+          "url": "https://x.com/nutlope/status/2099547343112564921"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
+      "id": "lexington-mcp-sections",
+      "category": "小众工具",
+      "title": "Lexington：七百多成品区块喂代理",
+      "body": "别让代理从空白 div 瞎编导航。Lexington Themes 的远程 MCP 从四十五套主题里搜现成 section，连同设计指南一起塞进 Cursor 或 Claude——库存约七百六十二块。九月十八日刚宣布 live，Bearer 鉴权。和 Inspo 互补：一个找灵感截屏，一个发可粘贴区块。\n\n镜头：搜区块 → 拉设计指南 → 用真实 section 搭落地页，旁边放纯幻觉版对照，差异一眼能看懂。适合讲「为什么你的 agent 落地页永远长一张脸」。\n\n所以呢：落地页布局有现成库存，就别逼代理每次从零发明。",
+      "links": [
+        {
+          "label": "MCP 页",
+          "url": "https://lexingtonthemes.com/mcp"
+        },
+        {
+          "label": "Lexington Themes",
+          "url": "https://lexingtonthemes.com/"
+        },
+        {
+          "label": "X 宣布",
+          "url": "https://x.com/Mike_Andreuzza/status/2101044972245917897"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19"
+    },
+    {
       "id": "us-military-ai-hallucinated-china-ship",
       "category": "硬科技",
       "title": "聊天机器人拼出假情报，美军飞机都起飞了",
