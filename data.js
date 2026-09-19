@@ -1,6 +1,202 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-19",
+  "updated": "2026-09-19T18:00:08+08:00",
   "items": [
+    {
+      "id": "lidl-einride-cabless-germany",
+      "category": "跨行业",
+      "title": "德国黑森州马路上，一辆没驾驶室的卡车在给 Lidl 送货",
+      "body": "黑森州埃德明德镇，一辆没有驾驶室的电动卡车这周开上了公开道路。瑞典公司 Einride 和超市连锁 Lidl 说，这是德国联邦机动车管理局（KBA）首次给这种「无驾驶室、无人在车上」的四级自动驾驶货车发正式许可，现在它在配送中心和附近门店之间跑干货。\n\n车按 SAE Level 4 定义，在划定区域内全程自己开，人不用盯盘。货舱一次最多十五个欧标托盘，一天最多三趟，四个月试点要搬三千多个托盘。Einride 首席执行官鲁兹贝·查理说，德国审批是世界上最严的之一，过了这一关才谈得上扩规模；下一步想做成多站「牛奶跑」配送网，母公司 Schwarz 集团其他事业部也在谈。\n\n所以呢：超市巨头缺司机不是口号，是把驾驶室拆掉、拿监管批文上街——谁先把「最后几公里干货」跑成日常班次，谁就先摸到零售物流的真门槛。",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/einride-lidl-deploy-first-cab-less-autonomous-truck-germany-2026-09-15/"
+        },
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/next/2026/09/16/supermarket-deliveries-lidl-tests-autonomous-electric-lorry"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "antwerp-bruges-inceptio-container",
+      "category": "跨行业",
+      "title": "安特卫普港秋天要开跑：无人卡车昼夜搬箱子过河",
+      "body": "比利时安特卫普—布鲁日港九月十五到十七日开第二届自动驾驶峰会，主席约翰·克拉普斯说：去年秀技术，今年换挡——要上商业部署。秋天起，港口和 Inceptio Technology、物流商 Group-GTS 开首个商业试点：一辆装 Inceptio 自动驾驶系统的卡车，昼夜在左岸卡洛（Kallo）仓库和右岸多个集装箱码头之间运箱子。\n\n港口新闻稿写明目标：搞清楚无人卡车怎么嵌进日常物流、以后怎么扩规模；下一阶段可能伸向北海港和鹿特丹。比利时联邦交通大臣强调，试验要配上协调监管，比荷卢在谈统一法律框架。峰会上还有无安全员座位的 Zelostech 物流车，获准在比利时公开路上跑一年。\n\n所以呢：港口固定航线、车流密，成了欧洲无人货运的试金石——不是又一场演示日，是把「日夜搬箱子」写进合同的那一步。",
+      "links": [
+        {
+          "label": "Port of Antwerp-Bruges",
+          "url": "https://newsroom.portofantwerpbruges.com/en/press-releases/the-second-autonomous-summit-shifts-up-a-gear-for-autonomous-mobility-in-the-port"
+        },
+        {
+          "label": "Baird Maritime",
+          "url": "https://www.bairdmaritime.com/shipping/ports/antwerp-bruges-to-launch-commercial-autonomous-container-truck-trial"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "caterpillar-luck-stone-775-ahs",
+      "category": "跨行业",
+      "title": "弗吉尼亚采石场：卡特彼勒第一次把无人驾驶装上 775 矿卡",
+      "body": "弗吉尼亚州 Luck Stone 的 Bull Run 采石场，无人矿卡从二零二四年十一月开跑，十八个月里拉了超过三百五十万吨料。九月十六日，卡特彼勒和 Luck Stone 宣布：要把同一套自动驾驶运矿系统扩到另外两个场——Boscobel 和 Bealeton，而且第一次装在采石业常用的 Cat 775 卡车上。\n\nLuck Stone 工程副总裁特拉维斯·丘宁说，自动化让现场更安全、产量更稳，也给工人腾出学新技术的岗位。卡特彼勒资源产业集团总裁丹尼丝·约翰逊把客户合作说成「帮行业把方案打磨到能扩」。公司对外口径还提：自家无人卡车累计运过一百三十亿吨、安全行驶四点五五亿公里，无报告伤。\n\n所以呢：矿山自动驾驶不再只是巨型矿区的玩具——采石场也要上 775，说明「中型卡车 + 本地经销商」这条路开始量产。",
+      "links": [
+        {
+          "label": "International Mining",
+          "url": "https://im-mining.com/2026/09/16/caterpillar-to-deploy-ahs-on-775-trucks-for-first-time-as-part-of-expansion-with-luck-stone-to-two-more-sites/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "joby-autonomous-coast-to-coast",
+      "category": "跨行业",
+      "title": "Joby 一架改装塞斯纳，无人摸杆飞完三千二百英里美国",
+      "body": "九月十八日，Joby Aviation 宣布：一架装上自家自动驾驶系统的改装塞斯纳 Caravan（型号 J208），完成据称史上首次美国东西海岸无人驾驶飞行。全程三千一百九十九英里，机上安全员零次接管，滑行、起飞、巡航、降落全自动；加州圣克鲁斯和南卡罗来纳肖空军基地远程盯着，最远监督距离两千三百二十三英里。\n\n飞机从康科德出发，经凤凰城、沃斯堡、肖空军基地，落到北卡外滩群岛戴尔县机场，还在基蒂霍克莱特兄弟起飞纪念碑附近做了低空通过。途中绕过雷暴、挤进全美最忙通航机场之一的凤凰城鹿谷机场。公司说这套能力来自收购 Xwing 后的技术栈，已有四百多架次、八百多自动化飞行小时，并在军事演习里送过急件。\n\n所以呢：货运、急救、国防后勤要的不是更炫的空中出租车海报，是「认证机身 + 远程自动驾驶」能不能日复一日飞——这次是把美国地图当跑道跑了一遍。",
+      "links": [
+        {
+          "label": "Joby Aviation",
+          "url": "https://www.jobyaviation.com/news/joby-completes-first-ever-fully-autonomous-flight-across-the-united-states"
+        },
+        {
+          "label": "AVweb",
+          "url": "https://avweb.com/aviation-news/joby-flies-autonomous-caravan-coast-coast/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "samsung-smc-or-humanoid",
+      "category": "跨行业",
+      "title": "三星首尔医院演示：医生喊「拿止血夹」，人形机器人递工具",
+      "body": "九月十六日，首尔江南三星生命一院站大楼里，三星首尔医院第一次公开演示人形手术助手。主刀喊「Clipper, please」（止血夹），左边人形机从托盘认出器械递过去；用完再说「收回」，它找到手臂把工具拿回整理。另一台一手扶内窥镜、一手牵开组织，听到「follow」就跟着器械挪视野。桌上是羊肝，一台人和两台人形一起完成胆囊管夹闭切除的模拟。\n\n这是韩国版 ARPA-H「ORchestra」项目：政府五年半砸约一百三十八亿韩元，彩虹机器人做本体，Aden 做灵巧手，成均馆和首尔大学做 AI，目标二零二九年先做内窥镜辅助临床试验。实验室里五种器械抓取成功率百分之百、递交百分之九十八点七，指令两秒内开干。教授郑容基算账：一个手术室护士二十四小时要五人轮班，年薪各五千万韩元就是两亿五；机器人若能顶一人，一年回本。\n\n所以呢：手术室最先缺的不是会诊断的聊天框，是夜里还能递器械、扶镜子的助手——人形机先抢的是「巡回护士」这口苦活。",
+      "links": [
+        {
+          "label": "Asia Business Daily",
+          "url": "https://www.asiae.co.kr/en/article/2026091619043449029"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "wonder-infinite-makeline-nyc",
+      "category": "跨行业",
+      "title": "曼哈顿中城，Wonder 的传送带一小时能出五百碗",
+      "body": "曼哈顿 Midtown East 的 Wonder 门店，九月十四日亮出「Infinite Makeline」自动制碗线。碗在传送带上跑，上面料仓往下撒料，人只在末端收尾。机器能装六十八种食材，一小时最多五百碗，平均下单到出餐不到三分钟，公司称正常运行时间百分之九十九点九。\n\n这套东西来自 Wonder 去年花一点八六四亿美元从 Sweetgreen 买下的 Spyce 机器人技术。Wonder 把它从沙拉扩到六种自有品牌：皇家绿叶、Pop Salad、Limesalt、El Diez、Yasas、Hanu Poke。创始人马克·洛尔的 Wonder 已有一百五十多家店、三十个概念共用厨房，还握着 Grubhub 和 Blue Apron；明年计划把这条线扩到东北、首都圈和德州几十家店，并继续做酱汁和备料机器人。\n\n所以呢：连锁快餐要的不是「机器人炒菜秀」，是同一条线打三十个牌子——吞吐、一致性和更长营业时间，才是资本愿意砸一亿多美金买来的东西。",
+      "links": [
+        {
+          "label": "Nation's Restaurant News",
+          "url": "https://www.nrn.com/restaurant-technology/wonder-debuts-its-robotic-bowl-maker"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "japan-tokachi-driverless-tractor",
+      "category": "跨行业",
+      "title": "北海道十胜：无人拖拉机获准结队上路，驾驶室可以空着",
+      "body": "九月十日，日本内阁把北海道十胜十九个市町村（含带广市）划成国家战略特区，专门推「AI 农业」。现在起，无人拖拉机可以在公开道路上无人乘坐——条件是跟有人开的卡车等车辆结队走。以往从仓库到地头，每台自动驾驶拖拉机也得坐人，大田一次开好几台，省人效果就被吃光。\n\n特区还简化拖拉机上路手续、农药喷洒无人机审批，并放松无人作业需要的通信基建监管。内阁府说这是特区第一次专门盯 AI 农业；本月晚些启动调研演示，十一月在带广开座谈会。上士幌町长竹中贡说，想借特区短时间做出新农业形态，再推向全国和海外。\n\n所以呢：农业自动化卡在「地头能开、路上还得坐人」——十胜先把这段空白路权撕开，科技公司才有理由把整套田间机器人搬进日本粮仓。",
+      "links": [
+        {
+          "label": "Nation Thailand",
+          "url": "https://www.nationthailand.com/news/world/40070892"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "neuron-factory-suffolk-precon",
+      "category": "跨行业",
+      "title": "红木城创业公司把 Waymo 那套「依赖图」塞进美国大承包商图纸",
+      "body": "红木城的 Neuron Factory 九月十六日宣布，和年营收超百亿美元的美国总包商 Suffolk 加深设计合作：把自家 AI 知识图谱铺进大型项目的施工前阶段。图纸、规范、范围变更、修订史、团队聊天被吸进一张依赖图，专门揪「一张图改了、另一张还没跟上」这种最贵的错。\n\n创始人来自微软和 Waymo。Suffolk Tech 新兴技术高级助理麦克·拉什说，对方带着自动驾驶那种多变量依赖追踪的思维来盖楼。合作从 BOOST 加速器的试点长成，要往更复杂的活项目扩。投资方名单里有 Trimble Ventures、欧洲承包商 Cordeel。\n\n所以呢：工地亏钱往往不是「模型不够聪明」，是文件之间的关系没人盯——把自动驾驶的依赖图搬进施工前，比再做一个会画立面的聊天机器人更贴痛。",
+      "links": [
+        {
+          "label": "Disrupts",
+          "url": "https://disrupts.disruptsmedia.com/property/neuron-factory-and-suffolk-scale-ai-knowledge-graph-construction"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "lower-merion-edtech-optout-suit",
+      "category": "痛点",
+      "title": "费城郊区家长把学区告上联邦法院：孩子要能退出 Chromebook",
+      "body": "宾州下梅里恩学区（约八千六百名学生）七个家庭八月二十六日在费城联邦法院起诉：要求恢复退出校发联网设备的权利。原告说，Chromebook、iPad 把孩子拖进扑克、恐怖游戏和社媒；一位家长声明，儿子把平板拿走就激动攻击。心脏病学教授亚伊尔·列夫把电子设备叫作「偷走宝贵时间的贼」。\n\n学区曾有退出政策，家长组织「Pencils Over Pixels」壮大后，学监在政策仍有效时开始拒批退出，六月董事会干脆废掉旧规。家长律师援引第十四修正案父母抚养权，说这不是改课程，是管孩子暴露在什么里。教育周刊九月八日跟进：学区否认侵权，校董律师普遍觉得法院不会替学区定「科技安不安全」。\n\n所以呢：反 AI、反屏幕已经从家长群聊走进联邦诉状——下一场教育内容，可以拍「退出权」而不是又一条「学校禁手机」通稿。",
+      "links": [
+        {
+          "label": "Education Week",
+          "url": "https://www.edweek.org/policy-politics/these-parents-want-to-opt-their-kids-out-of-ed-tech-can-they-win-in-court/2026/09"
+        },
+        {
+          "label": "The Inquirer",
+          "url": "https://www.inquirer.com/education/lower-merion-schools-technology-policy-opt-out-lawsuit-20260827.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "dorchester-ai-grading-parents",
+      "category": "痛点",
+      "title": "南卡家长追问：AI 帮批改错了，学校居然不用提前通知",
+      "body": "南卡多切斯特第二学区，老师可以用 AI 做教案、辅助批改。九月十五日当地电视台报道：家长已经听到「孩子答对了却被 AI 判错」的故事。学区政策写着 AI 不能单独定成绩、不能替代老师判断，老师必须复核；可问题是，学区不追踪每位老师用了多少次 AI，常规使用也不必通知家长。\n\n家长组织 Schools Beyond Screens 分会负责人安娜·卢埃林说，正确答案不该总是「再上一点技术」，而是让孩子跟人说话、让老师自己改卷并讲错在哪。董事会成员贾斯汀·法恩斯沃思承认技术「光速变」，所以拉了家长、师生进 AI 工作组，一年至少开两次会。\n\n所以呢：课堂 AI 的真痛点不是禁不禁，是「错了谁负责、家长知不知道」——没有使用日志和告知义务，所谓「老师最终负责」只是事后补锅。",
+      "links": [
+        {
+          "label": "ABC News 4",
+          "url": "https://abcnews4.com/news/local/parents-question-ai-assisted-grading-safeguards-in-dorchester-district-two-classrooms-dorchester-county-education-south-carolina"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "greece-ai-voice-clone-scam",
+      "category": "痛点",
+      "title": "希腊警方端掉百万欧元团伙：先录亲人声音，再克隆回来骗你开门",
+      "body": "九月十八日，希腊警方公布一起 AI 声纹骗局：犯罪团伙先假装电力公司、手机或光纤客服打电话，让你「跟亲人确认」；再打给那位亲人，伪装成运营商套出几句话录音，用 AI 克隆成亲人的声音，回拨给你「确认」流程。然后有人上门收现金、首饰。\n\n阿提卡新伊奥尼亚金融犯罪分队抓了两名二十三、二十五岁的「收款员」，刚从一户人家拿走约三万欧元财物；另有四人涉案。警方估计非法所得超一百万欧元，至少五起同类案，还破获一辆作案用车。警方警告：熟悉的声音本身已经不能当身份证明，要自己回拨亲人和官方号码，事先约好安全词。\n\n所以呢：诈骗剧本从「陌生电话」升级成「你妈的声音」——内容角度不是恐吓，是教老人：听到熟人催你交钱，先挂断，自己打回去。",
+      "links": [
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/18/greece-police-bust-gang-using-ai-to-clone-relatives-voices-for-cash"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
+    {
+      "id": "taiyuan-robot-restaurant-80",
+      "category": "跨行业",
+      "title": "太原一家餐厅：八十多道菜，从抓料到炒菜上桌约五分钟",
+      "body": "山西太原一家机器人餐厅成了 CGTN 九月十四日的镜头主角：机器人抓原料、炒菜、上菜、送餐、收桌洗碗，菜单八十多道，还能做咖啡、冰淇淋和煎饼果子。片子说，从取料到上桌大概五分钟。\n\n画面不是封闭实验室，是营业中的店面。对中国观众这类店已不稀奇；对海外创作者，它仍是「标准中餐流水线」的直观演示。店方没公开故障率和人工备份比例，素材适合拍「能跑通什么」，不适合吹「厨师明天失业」。\n\n所以呢：中餐自动化卖的不是炫技翻勺，是把八十道菜压进五分钟——谁把口味波动和故障备份讲清楚，谁才有下一轮加盟故事。",
+      "links": [
+        {
+          "label": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-09-14/Robot-chefs-80-dishes-Inside-a-high-tech-restaurant-in-China-1Qr6rPv19PW/p.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-19",
+      "added": "2026-09-19T17:55:00+08:00"
+    },
     {
       "id": "prompt-seedance-mentos-coke-dashcam",
       "category": "提示词",
