@@ -1,6 +1,425 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-20T14:15:00+08:00",
+  "updated": "2026-09-20T18:40:00+08:00",
   "items": [
+    {
+      "id": "chatham-ai-retail-fraud-arrest",
+      "category": "痛点",
+      "title": "佐治亚县警局第一次抓到：沃尔玛门口用 AI 假配送单拖货",
+      "body": "九月十八到十九日，佐治亚州查塔姆县警方宣布：逮捕一名二十岁男子，他用 AI 生成的假 Spark 配送单，在沃尔玛冒充司机想拖走包括 Switch 在内的电子产品。警长说，这是本地第一次办成这种「AI 造假订单」零售诈骗。\n\n剧本不复杂：假单、假身份、真门口交接。过去伪造配送单要会 PS 或买黑产模板，现在提示词几分钟就能出一张「像真的」单子。警察把它定性为新地平线，是因为门槛塌了。\n\n所以呢：零售防损下一场内容，不是再骂小偷，是拍「假单长什么样、店员该看哪一栏」——AI 把诈骗工具箱摊开了。",
+      "links": [
+        {
+          "label": "WTOC",
+          "url": "https://www.wtoc.com/2026/09/19/whole-new-horizon-us-police-make-first-arrest-ai-driven-fraud-case-chatham-county/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:35:00+08:00"
+    },
+    {
+      "id": "nc-jackson-duke-datacenter-rate",
+      "category": "痛点",
+      "title": "北卡检察长点名 Duke：机房要单独电价档，别让邻居买单",
+      "body": "九月十九日，北卡罗来纳州检察长杰夫·杰克逊要求公用事业委员会给数据中心等超大用电户单独设费率档，防止机房扩容的电网成本摊进居民小账单。提案跟 Duke Energy 两套费率案并行，报道常提到约一百兆瓦量级门槛，并主张更密的负荷预测更新。\n\n这和众议院「费率保护」联邦票、内华达电力告机房商不是同一条线——是州检察长直接冲本州最大公用事业。AI 训练烧的是邻居的电表政治。\n\n所以呢：机房叙事从「带来就业」变成「谁的电费」——内容可拍检察长记者会，而不是又一座机柜航拍。",
+      "links": [
+        {
+          "label": "North State Journal",
+          "url": "https://nsjonline.com/article/2026/09/jackson-seeks-separate-duke-energy-rate-class-for-data-centers/"
+        },
+        {
+          "label": "RTO Insider",
+          "url": "https://www.rtoinsider.com/143725-north-carolina-ag-urges-creation-data-center-tariff/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:35:00+08:00"
+    },
+    {
+      "id": "ca-sb903-ai-therapy-newsom",
+      "category": "痛点",
+      "title": "加州几千名治疗师催纽森：别让聊天机器人挂牌当心理治疗",
+      "body": "九月十七日前后，加州数千名持证心理健康专业人士联名敦促州长纽森签署参议员帕迪亚主导的 SB 903：禁止把 AI 聊天机器人广告成「治疗」，并给精神健康场景设护栏。众议院此前七十一比四通过。背景是联邦层有人推「AI 治疗」叙事，持证群体要抢定义权。\n\n这和旧金山工会禁止凯撒用 AI 顶替治疗师是同一痛点的另一条线：一边是合同，一边是立法。聊天框可以说「我懂你」，但不能假装持证。\n\n所以呢：心理健康市场的红线是「能不能自称治疗」——内容角度拍联名信和广告词，比再骂一次陪伴机器人更准。",
+      "links": [
+        {
+          "label": "Padilla 新闻稿",
+          "url": "https://sd18.senate.ca.gov/news/trump-pushes-ai-therapy-bots-licensed-professionals-urge-newsom-sign-padillas-sb-903"
+        },
+        {
+          "label": "法案页",
+          "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB903"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:35:00+08:00"
+    },
+    {
+      "id": "tradezero-chatbot-breach-750k",
+      "category": "痛点",
+      "title": "马萨诸塞州罚经纪商七十五万：客服机器人成了客户资料入口",
+      "body": "九月十七日，马萨诸塞州证券监管部门与券商 TradeZero America 和解：因未充分审查的聊天机器人等相关安全漏洞，罚款七十五万美元，约一万五千名客户资料暴露。Law360 等报道把焦点放在「机器人上线前有没有人好好审」。\n\n客服机器人常被当成降本开关；一旦它能摸到账户信息，攻击面就从网页表单扩到对话层。罚款数字不大，但「机器人=入口」这句话够做一期风控内容。\n\n所以呢：上线聊天机器人前，先问它碰不碰客户数据——碰了就要按核心系统审，不能按营销插件放行。",
+      "links": [
+        {
+          "label": "Law360",
+          "url": "https://www.law360.com/articles/2526970/broker-tradezero-fined-over-data-breach-tied-to-chatbot"
+        },
+        {
+          "label": "CiVL",
+          "url": "https://civl.com/news/story/massachusetts-securities-division-fines-tradezero-america-750-000-for-data-breac-b386294e"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:35:00+08:00"
+    },
+    {
+      "id": "allina-doctors-strike-ai-dx",
+      "category": "痛点",
+      "title": "明尼苏达一百五十名医生罢工：病历 AI 已在建议诊断码",
+      "body": "九月十四到十六日，Allina Health 旗下 Mercy 与 Unity 医院约一百五十名医生罢工四天。薪资病假之外，医生明确担心电子病历里的 AI：从建议诊断码，滑向建议治疗。明尼苏达公共电台跟进了「AI 诊断」这条线；另有约六十名临终关怀护士同期行动。\n\n医生不是反对点鼠标提示，是怕建议变成默认路径，责任却仍落在签字人身上。一百五十人停工四天，说明这已经写进劳资谈判桌，不只是茶水间吐槽。\n\n所以呢：临床 AI 的下一场冲突，是「建议」和「决定」的边界——内容可拍罢工牌，而不是又一条病历效率通稿。",
+      "links": [
+        {
+          "label": "MPR News",
+          "url": "https://www.mprnews.org/story/2026/09/16/allina-healths-doctors-strike-takes-on-ai-diagnoses"
+        },
+        {
+          "label": "MPR 首日",
+          "url": "https://www.mprnews.org/story/2026/09/14/alina-doctors-strike-rally-for-contract-in-minnesota"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:35:00+08:00"
+    },
+    {
+      "id": "yandex-moscow-robotic-darkstore",
+      "category": "跨行业",
+      "title": "莫斯科暗仓划出机器人区：十二台车把货架推到人面前",
+      "body": "九月二十日，Yandex Robotics 和 Yandex Shop 宣布：莫斯科一家暗仓（只服务外卖、不对顾客开放的前置仓）划出占面积约百分之二十八的「机器人区」，十二台自主移动机器人配八十四组货架，把货架推到拣货员面前。整仓拣货提速超过三成，同面积大约多放百分之十五商品；机器人每天处理约四成品类，生鲜冷冻仍由人拿。\n\n订单来了，仓管系统拆单：耐存零食交给机器人调度系统算路，人专盯易腐。外卖侧的配送机器人已日送超一千单；公司计划二零二六年中再在莫斯科和圣彼得堡开五个自动化暗仓。\n\n所以呢：即时零售拼的不是再雇一班夜班拣货，是把「货找人」焊进暗仓——谁先把三成提速跑成日常班次，谁就先摸到前置仓的人力天花板。",
+      "links": [
+        {
+          "label": "Yandex / AKM",
+          "url": "https://www.akm.ru/eng/press/yandex-robotics-and-yandex-shop-have-launched-the-first-robotic-darkstore/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:20:00+08:00"
+    },
+    {
+      "id": "flytrex-dallas-rooftop-docks",
+      "category": "跨行业",
+      "title": "达拉斯餐厅屋顶：无人机先趴着等单，店员一挂钩就飞",
+      "body": "九月十六日，以色列无人机配送公司 Flytrex 在达拉斯—沃斯堡推出屋顶坞加 AI 预布点：系统根据历史订单、时段和位置，提前把飞机停在餐厅屋顶熄火；餐好了，员工把袋子往钩子上一挂，机器直飞顾客，不用再从中心场飞来「接货」。\n\n公司宣称配送成本可降六成、送达时间减半；美国已完成超过二十五万次配送，正往一百多个站点扩。CEO 阿米特·雷杰夫说，真正难的不是飞行，是厨房到飞机那几百英尺。Sky2 可载约八点八磅，大约两大披萨。\n\n所以呢：无人机送餐的瓶颈从来不是航线，是「谁把饭递到机腹」——把坞焊在屋顶、用预测代替跑腿，才像宣传里那张图。",
+      "links": [
+        {
+          "label": "DRONELIFE",
+          "url": "https://dronelife.com/2026/09/16/flytrex-rooftop-drone-docks-dallas/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:20:00+08:00"
+    },
+    {
+      "id": "avisomo-norway-lettuce-farm",
+      "category": "跨行业",
+      "title": "奥斯陆机场旁：生菜从播种到装袋，全程不经人手",
+      "body": "挪威 SINTEF 九月十七日报道：Himmelgrønt（超市 Coop 与科技公司 Avisomo 合资）在加勒穆恩机场附近的垂直农场，生菜从播种、生长到包装全程无人手碰，去年秋投运，今春上架。多层水培、灯温水自动调，最快两周多可收；无土无虫少农药，货架寿命从约两到四周拉到约十二周。\n\nSINTEF 研究员说，挪威缺这类劳动力，本地自产也关粮食安全。可他们也提醒：全机器人温室贵、植物不像螺丝钉，多数农户更适合先自动化物流和包装，而不是一步换光人。\n\n所以呢：北欧冬天进口生菜的账，正在被「无人碰过的货架期」改写——内容可拍货架十二周，而不是又一座霓虹垂直农场航拍。",
+      "links": [
+        {
+          "label": "SINTEF",
+          "url": "https://www.sintef.no/en/latest-news/2026/from-seed-to-packaging-a-robot-can-now-grow-food-year-round/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:20:00+08:00"
+    },
+    {
+      "id": "anymal-whitegate-power-badge",
+      "category": "跨行业",
+      "title": "爱尔兰电厂：机器狗刷门禁证，像同事一样自己进门",
+      "body": "九月十七至十八日，dormakaba、ANYbotics 和 LEGIC 在苏黎世会议上亮出爱尔兰科克郡 GE Vernova Whitegate 电厂试点：四足巡检机器人 ANYmal 带着数字门禁证，按电厂自己的门禁规则申请开门，连跑数周，不用人跟着刷卡。\n\nCEO 彼得·范克豪泽说，客户买的不是机器人，是少停机、少让人进危险区；每扇门禁门以前都是覆盖范围的硬边界，现在机器狗跟授权同事走同一套审计轨迹。三方打算做成全队可购附加能力，并试电梯和闸机。\n\n所以呢：工业机器人卡在「门打不开」比卡在「路不会走」更冤——谁先把厂牌发给机器，谁就先把巡检从演示区扩到整座厂。",
+      "links": [
+        {
+          "label": "SecurityInformed",
+          "url": "https://www.securityinformed.com/news/autonomous-robots-access-management-industry-co-1040-ga-co-14575-ga.1789711220.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:20:00+08:00"
+    },
+    {
+      "id": "tutor-cassie-sonny-classroom",
+      "category": "跨行业",
+      "title": "一百台「教室」机器人：Tutor 先练完再丢进客户仓",
+      "body": "九月十六日，Tutor Intelligence 发布第二代仓机器人 Cassie 与 Sonny。Cassie 是大臂加轮子，能举约五十磅、拖上千磅托盘；Sonny 双臂半人形，专干货架间小件拣选。CEO 乔什·格伦斯坦说，他们不想造「像人」的机器，只想造立刻能干活的形状。\n\n缺互联网级机器人数据，公司在 Data Factory 1 摆了一百台 Sonny 当「教室」：国际导师远程示教新任务，教室机群反复练、点赞点踩做后训练，再送进美国生产仓做拆码垛和电商拣货。Series A 曾融三千四百万美元。\n\n所以呢：人形秀场抢镜，Tutor 把一百台教室当数据工厂——下一场仓自动化内容，可以拍「先上课再上岗」，而不是又一场仿人手舞。",
+      "links": [
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/16/tutor-intelligence-launches-second-generation-intelligent-warehouse-robotics-with-a-classroom-to-teach-them/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:20:00+08:00"
+    },
+    {
+      "id": "ssen-hvdc-inspection-robots",
+      "category": "跨行业",
+      "title": "苏格兰高压直流站：人进不去的大厅，机器人自己巡检",
+      "body": "九月十六日前后，苏格兰输电公司 SSEN Transmission 在北部高压直流（把电从远距离大规模送过来的换流站）再部署七台巡检机器人，合计八台。带电大厅人进不去，机器人做热成像和紫外监测；未来十二个月预计超过五千次自主巡检、行程超一千七百公里，按五年「机器人即服务」合同推进。\n\n这不是概念片：在高压设备旁，少让人穿防护服进大厅，本身就是安全账。跟 Spot 去查泵是同一类故事——固定危险区交给会走路的传感器。\n\n所以呢：电网扩容的痛不只是电缆，还有「谁敢进带电大厅」——机器人先把眼睛送进去，人留在门外看数据。",
+      "links": [
+        {
+          "label": "Energy Live News",
+          "url": "https://www.energylivenews.com/2026/09/16/robots-take-over-scottish-network-monitoring/"
+        },
+        {
+          "label": "Project Scotland",
+          "url": "https://projectscot.com/2026/09/new-robots-rolled-out-as-ssen-transmission-expands-robotic-hvdc-inspection-programme/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:20:00+08:00"
+    },
+    {
+      "id": "ambi-agentic-sort-production",
+      "category": "跨行业",
+      "title": "分拣仓里，代理十小时修好工程师要几周才能改的放包姿势",
+      "body": "加州伯克利出身的 Ambi Robotics 在客户仓库里跑着 AmbiSort：机械臂抓快递、扫码，再按邮编丢进开口固定的袋子。问题出在毫米级——软袋子、纸质信封一耷拉，宽度就被低估，短边塞不进袋口，只好吐回重试。公司估算，这种边角情况每年每台机器大约少分三万一千件。\n\n九月十七日他们公开：用自家 AmbiOS「智能体机器人套件」（约束代理只能改现成技能图，先在仿真里回放五百条真实失败），Anthropic 的 Claude 代理十小时内提出三个改法，再丢进真实仓做 A/B。第三套假设每小时多出约四点二件，折合每年每台多一万五千多件；方案已铺到全美约三成在跑的机器，包括一家财富五十强包裹公司。\n\n所以呢：仓库自动化的下一幕不是再买一台臂，是让代理对着真实失败日志改策略——谁先把「修机器」从几周工程师活变成一夜批处理，谁就先摸到物流吞吐的新杠杆。",
+      "links": [
+        {
+          "label": "Ambi Robotics 官方博客",
+          "url": "https://www.ambirobotics.com/blog/agentic-robotics/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "geekplus-dusseldorf-lab",
+      "category": "跨行业",
+      "title": "杜塞尔多夫开了一间「先试再买」的欧洲仓机器人秀场",
+      "body": "九月十八日，极智嘉 Geekplus 在德国杜塞尔多夫打开欧洲首个创新实验室。一百五十多家物流公司到场——包括 GXO、DSV、LPP Logistics——看货架到人、料箱到人、托盘到人，还有人形机器人 Gino 1、RoboShuttle 和带机械臂的拣选站，外加他们叫「Geekplus Brain」的长程任务软件层。\n\n公司说这里每年预计接待一千多名参观者，让客户在真实仓布局里试跑，再决定要不要规模化上线。卖点不是又一场发布会：实体 AI 不能像软件那样远程一键升级，得看机器怎么跟货架、工人、现有流水线互相磕碰。\n\n所以呢：欧洲仓自动化卡在「演示好看、落地怕翻车」——谁先把试场搬到客户门口，谁就先把「敢不敢上机器人」从采购会辩论变成半天现场考试。",
+      "links": [
+        {
+          "label": "TechEdgeAI 报道",
+          "url": "https://techedgeai.com/geekplus-opens-european-innovation-lab-for-ai-powered-warehouse-robotics/"
+        },
+        {
+          "label": "Geekplus 新闻稿",
+          "url": "https://www.geekplus.com/resources/news/geekplus-opens-european-innovation-lab-in-d%C3%BCsseldorf-to-accelerate-ai-driven-robotics-across-europe"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "boston-dynamics-spot-orbit-52",
+      "category": "跨行业",
+      "title": "工厂震动传感器一响，Spot 自己跑去查泵",
+      "body": "过去，工业泵上的震动传感器一报警，工程师得看工单、找设备、再亲自走一趟。波士顿动力九月中旬放出 Spot 5.2 和舰队软件 Orbit 的新版：固定传感器或监控摄像头可以按业务规则直接派这只四足机器人去现场补证据——拍表、听局部放电、测二十多种气体、甚至用视觉放大肉眼难察的微振。\n\nOrbit 把巡检结果挂到「泵 P-104」「变压器 T2」这类资产树上，方便跟维修系统（CMMS）对齐；公司还说这套架构是给将来的 MCP 层打底——让工厂里的 AI 代理有朝一日能按逻辑派出 Spot，而不是人盯着巡检路线。眼前还没到「代理随便调机器人」：安全限制、权限和数据外发仍卡着。\n\n所以呢：工业 AI 一直只会读已有数据；Spot 变成「移动传感器」之后，软件第一次能主动出门补一张它还不知道的照片。",
+      "links": [
+        {
+          "label": "Highways Today 解读",
+          "url": "https://highways.today/2026/09/16/industrial-ai-robot-investigate/"
+        },
+        {
+          "label": "Boston Dynamics Orbit",
+          "url": "https://bostondynamics.com/products/orbit/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "oracle-health-nurse-voice-agent",
+      "category": "跨行业",
+      "title": "护士也能对着病历说话了：Oracle 把医生那套语音代理放开",
+      "body": "美国医院里，医生用「环境倾听」写病历已经卷了一阵，护士大多还在交班后补笔记。九月十九日前后，Oracle Health 把原本给医生的 Clinical AI Agent 正式开给住院护士：嵌在 Oracle 基础电子病历里，护士能语音翻病历、拉病史和现症，系统自动起草护理摘要，还能边干活边口授结构化记录，少回去电脑前「回忆刚才发生了什么」。\n\nOracle Health 负责人西玛·维尔马说，重复手写占掉护士太多班次。一份二零二六年爱思唯尔调查显示，护士职场 AI 使用率约百分之四十一，医生约百分之五十七，只有约一半护士说雇主给了工具。\n\n所以呢：临床 AI 下一张支票可能不是再卖一个医生席位，而是医院愿不愿意给护士也买一张——文档债从谁身上卸，谁的班次才真的松一点。",
+      "links": [
+        {
+          "label": "Medspark 报道",
+          "url": "https://medspark.ai/2026/09/19/oracle-health-gives-nurses-a-voice-ai-agent-inside-the-ehr/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "ferrovial-aguadilla-autonomous-rollers",
+      "category": "跨行业",
+      "title": "波多黎各机场不停航，三台无人压路机在修新跑道",
+      "body": "费罗维阿尔 Ferrovial 九月十八日说，他们第一次把自动驾驶施工机械用在机场跑道上：波多黎各阿瓜迪亚的拉斐尔·埃尔南德斯国际机场，二点三九亿美元新跑道项目，长度三千三百五十米、宽四十六米，还要保证机场照常起降。\n\n现场三台压实滚筒改装成可自动驾驶，按预设轨迹来回碾，一名操作员同时盯多台；机器装了 AI 视觉和障碍检测，人或车进作业区会自动停。公司把这事说成「人机协作」样板：不停航的机场工地，最怕的就是有人走错区域。\n\n所以呢：基建缺人不是口号，是把压路机改成「一人盯三台」——下一场工程内容，可以拍不停航跑道上的安全停机，而不是又一条「工地机器人概念片」。",
+      "links": [
+        {
+          "label": "Ferrovial / WebWire",
+          "url": "https://www.webwire.com/ViewPressRel.asp?aId=360700"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "telangana-robo-teacher-sircilla",
+      "category": "跨行业",
+      "title": "特伦甘纳公立中学家长会，人形机器人上台答疑",
+      "body": "九月十九日，印度特伦甘纳邦西里西拉地区 Geethanagar 公立中学（ZPHS）开家长会，主角不是校长讲话，是 Indus Labs 捐赠的一台人形「机器人教师」。家长当面提问孩子学业和前途，机器人当场作答；校方说这是该邦政府学校第一次部署人形教学机器人，地方议员 K.T. Rama Rao 站台，五名教师已受训把它嵌进互动课。\n\n场面热闹，父母兴奋。可它回答的是预设与生成内容，不是持证教师的判断；把它当「明星嘉宾」容易，当日常师资更难。\n\n所以呢：教育科技进村的第一幕往往是家长会秀场——内容角度别停在「机器人会讲话」，要问三个月后它还在不在课表里，还是只活在剪辑里。",
+      "links": [
+        {
+          "label": "Rajanna Sircilla 地方报道",
+          "url": "https://rajannasircilladistrict.com/telanganas-first-government-school-robo-teacher-debuts-at-zphs-geethanagar/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "kochi-cial-passenger-robot",
+      "category": "跨行业",
+      "title": "科钦机场艺术馆里，机器人会指路还会讲卡塔卡利",
+      "body": "九月十二日，印度科钦国际机场（CIAL）在国内安检后的 Kalangan 艺术馆上线一台乘客服务机器人：能欢迎旅客、指登机口、报实时航班，还能介绍喀拉拉邦的卡塔卡利、Ottanthullal 等传统艺术和馆内雕塑。机器由浦那 Kinetics Robotics 开发，机场总经理主持启用。\n\nCIAL 说这是面向旅客服务的第一阶段，下一步想放进值机大厅，并琢磨送餐送货的配送机器人。机场机器人常被拍成「会鞠躬的吉祥物」；科钦把文化讲解焊进导航，至少多了一层本地故事。\n\n所以呢：机场自动化下一场内容，可以拍「机器讲本地戏」而不是又一台会说话的导视牌——旅客愿不愿多停三十秒，才是它有没有用的验收。",
+      "links": [
+        {
+          "label": "Onmanorama",
+          "url": "https://www.onmanorama.com/news/kerala/2026/09/12/cial-deploys-robot-to-assist-passengers-at-kochi-airport-eyes-robotic-food-delivery-next.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "h5-mwerasandu-tin-agents",
+      "category": "跨行业",
+      "title": "乌干达锡矿自己养智能体：一天吃一千三百帧传感器",
+      "body": "西南乌干达 Ntungamo 的 Mwerasandu 锡矿，由 H5 Resources 在重建。九月十七日前后公司宣布成为 OpenAI Select Partner，但真正有画面的是矿上自己养的系统：二零二六年二月起，一台工业边缘代理托着物联网层，每天处理约一千三百帧传感器快照，断网时本地先存着；另有代理做运营情报、文档分析和受管的多模型工作流。\n\n锡是服务器焊接的关键矿物。CEO 伊戈尔·西尔贝鲁德说，矿上用智能体是因为市面上没有现成的矿业方案——他们既挖锡，又当自家 AI 的第一用户，想看哪些工具能单独产品化。\n\n所以呢：AI 机房越扩，越需要负责任开采的锡；把矿场传感器和代理焊在一起，是「算力上游」很少被拍到的那一截供应链。",
+      "links": [
+        {
+          "label": "CityAM / 新闻稿",
+          "url": "https://www.cityam.com/h5-resources-named-an-openai-select-partner/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "nj-a5494-ai-claim-denial",
+      "category": "痛点",
+      "title": "新泽西草案：房屋车险洪水险，算法不能直接说「拒赔」",
+      "body": "九月十四日，新泽西州议员克里斯·塔利提交 A5494：房屋、汽车、洪水这三类个人险，保险公司可以用 AI 做分诊、评估、反欺诈甚至批单，但不能让算法给出最终的「不赔」。九月十八日行业媒体跟进：违规最高每案罚款五千美元，按新泽西罚则简易程序收。\n\n条文卡的是「最后一枪谁扣」——AI 标红再交人签字，大概还算合规；系统自动寄拒赔信就不行。商险、寿险、健康险暂不在范围内，法案还在最早阶段，参议院也还没有配套。\n\n所以呢：州议会正在把「拒赔」单独圈出来当红线——内容可以拍理赔员的手，而不是又一篇「AI 审单更高效」通稿。",
+      "links": [
+        {
+          "label": "Insurance Business",
+          "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/new-jersey-bill-targets-aipowered-insurance-claim-denials-590341.aspx"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "virginia-data-center-accountability",
+      "category": "痛点",
+      "title": "弗吉尼亚动手了：二十五兆瓦以上机房不许再签封口协议",
+      "body": "全球机房最密的美国弗吉尼亚州，州长阿比盖尔·斯潘伯格九月十八日公布「数据中心问责框架」：二十五兆瓦及以上项目禁止用保密协议捂嘴；并推动清洁能源备用电源激励，少用天然气或柴油发电机。部分条款要明年交州议会批。\n\n她说社区在要行动。纽约、得州、宾州州长最近也在收紧机房扩张。机房是 AI 训练的物理外壳，邻居最先感受到的是电费、噪音和土地——政治反弹正在从地方听证会变成州长新闻发布会。\n\n所以呢：AI 叙事从「算力军备」落到「你家电费谁付」——下一场内容，拍封口协议被禁，比拍又一座巨型机柜更扎人。",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/us/virginia-tightens-data-center-restrictions-amid-political-backlash-2026-09-18/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "memphis-colossus-vicent-suit",
+      "category": "痛点",
+      "title": "孟菲斯 Colossus：上班第一天从夹层摔下，家属索赔三千万",
+      "body": "二零二五年八月，临时工亚历克西斯·维森特第一天走进埃隆·马斯克旗下孟菲斯 Colossus II 超算工地，从约二十五到三十英尺高的夹层摔到混凝土地面，次年二月在佛罗里达去世。二零二六年八月家属在田纳西州起诉，九月中下旬多家媒体跟进：索赔三千万美元（含两千万惩罚性赔偿），指夹层照明差、没有护栏、生命线、安全网和可用的防坠锚点，安全带无处可挂。\n\n田纳西职业安全部门曾认定夹层坠落防护不足。被告写的是 SpaceXAI——马斯克二零二六年五月把 xAI 并进 SpaceX 后的实体；维森特通过劳务派遣上班。工地还缠着排放诉讼、承包商上亿美元留置权和第三栋楼扩建。\n\n所以呢：AI 军备竞赛的工地，有人用命付了入场费——内容别停在「马斯克睡厂房」，要问临时工的安全带扣在哪。",
+      "links": [
+        {
+          "label": "Hoodline",
+          "url": "https://hoodline.com/2026/09/family-sues-musk-s-memphis-ai-site-for-30m-over-fatal-first-day-fall/"
+        },
+        {
+          "label": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/elon-musk-colossus-data-center-alexis-vicent-b3052634.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "wyoming-grok-csam-suit",
+      "category": "痛点",
+      "title": "怀俄明女子成集体诉讼原告：继父用童年照在 Grok 生成数千张色情图",
+      "body": "九月十八日，《牛仔州日报》详述一起针对 xAI 等公司的集体诉讼：一名现已成年的怀俄明女子（化名 Jane Doe）称，继父今年二月把她童年照片上传到 Grok，生成约七千张性剥削图像，面部可辨认。其中一张触发了向美国失踪与受剥削儿童中心（NCMEC）的 CyberTip；州网罪部门两周内破案，继父被捕后自杀。律师说她感到「童年被偷走」，每天担心图片还在流传。\n\n诉状还指控 xAI 在协查时拒绝提供用户 IP，拖慢办案。NCMEC 二零二三年才开始单列 AI 生成儿童色情举报，当年约四千七百条，二零二五年飙到四十万以上。联邦上诉法院最近有判决认为「非真实儿童」的 AI 色情私藏受言论自由保护，检察官说查真假已耗尽资源。\n\n所以呢：模型护栏松一寸，真实孩子的脸就可能被拖进犯罪现场——内容角度是执法与平台协作，而不是猎奇细节。",
+      "links": [
+        {
+          "label": "Cowboy State Daily",
+          "url": "https://cowboystatedaily.com/2026/09/18/lawsuit-claims-grok-used-wyoming-womans-photo-to-make-7-000-ai-child-porn-pics/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "protect-democracy-ai-release-foia",
+      "category": "痛点",
+      "title": "白宫「自愿审模」框架几乎不透明，公民组织起诉信息公开",
+      "body": "特朗普政府八月一日前后自称敲定一套「自愿」框架，要在先进闭源模型发布前做审查，但几乎不公开条文、参与公司和法律依据。九月一日，Protect Democracy 起诉白宫国家网络主任办公室、商务部、财政部和科技政策办公室，要求按信息自由法交出材料；九月十五日双方提交联合状态报告，压缩请求范围，机关须在十月三十日前交出文件或 Vaughn 索引。\n\n原告说：谁批准哪家模型上市，可能是本届政府最重要的科技政策题，却没有国会立法授权，也几乎没让外界专家看见规则。申报人包括加州州议员约什·贝克尔等人。\n\n所以呢：安全审查如果关在行政黑箱里，公众只能猜——内容可以拍「谁有权说不让发」，而不是又一篇模型跑分。",
+      "links": [
+        {
+          "label": "Protect Democracy",
+          "url": "https://protectdemocracy.org/work/uncovering-the-trump-administrations-secret-rules-for-ai-model-release/"
+        },
+        {
+          "label": "投诉书 PDF",
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Protect-Democracy-v-National-Cyber-Director-Complaint-9-1-26.pdf"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
+    {
+      "id": "ai-resistance-datacenter-playbook",
+      "category": "痛点",
+      "title": "一季度七十五个机房项目被挡：反对派已经学会打配合",
+      "body": "九月二十日，《国家报》英文版综述全球「反 AI」浪潮：从挡机房、大学罢工，到数据投毒和防识别花纹衣。硬数字来自 Data Center Watch（10a Labs 项目）和 NBC 早前报道——二零二六年一季度，美国至少七十五个数据中心项目被阻或推迟，投资额约一千三百亿美元，差不多等于二零二五年全年；活跃反对组织从二零二五年底约三百九十六个翻到三月的八百三十三个，覆盖四十九个州；十四个州出现全州暂停议案，缅因州差一票成全美首个全州禁令（后被州长否决）。\n\n作者写：动机可以是电费、房价、环境或末日叙事，但反对手册已经标准化，连「只是传闻要建机房」也能先动员起来。\n\n所以呢：AI 扩张的物理瓶颈不只是变压器，还有邻里组织——下一场趋势片，可以拍八百三十三个小团体，而不是又一座机柜航拍。",
+      "links": [
+        {
+          "label": "EL PAÍS English",
+          "url": "https://english.elpais.com/technology/2026-09-21/resistance-to-ai-gathers-strength.html"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/data-center-opposition-sharply-rising-2026-study-finds-rcna349728"
+        },
+        {
+          "label": "Data Center Watch Q1",
+          "url": "https://www.datacenterwatch.org/q1-2026"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-20T18:05:00+08:00"
+    },
     {
       "id": "prompt-seedance-venice-inception-run",
       "category": "提示词",
