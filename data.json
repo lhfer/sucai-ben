@@ -1,5 +1,602 @@
 [
   {
+    "id": "prompt-seedance-kasa-night-street",
+    "category": "提示词",
+    "title": "斗笠夜道：不让角色滑行",
+    "body": "雨夜木街，纸灯笼一排排往里缩。一个三十来岁的人戴着深斗笠、穿着深色和服，从画面右缘走进来，脸一直被帽檐挡住，一步步走到左边出画。日本创作者 @studiokagurajp 用 Seedance 2.5（字节系视频模型）在 Higgsfield 上跑通这条十五秒固定机位过场。\n\n提示词最狠的一行在 PHYSICS：身体要有重量，脚要踩到湿土，人不许滑行、不许飘。机位锁死在胸口高度，不摇不跟；没有第二个人，没有鸟居，没有可读店招；声效只留脚步、布料和夜气，不要配乐旁白。\n\n所以呢：要角色走路像真人，先写死「不滑行」，再锁机位和遮脸。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/studiokagurajp/status/2101801894410920335"
+      }
+    ],
+    "prompt": "SCENE: A narrow wooden street at night, 16:9. Locked camera, chest-height. Paper lanterns under eaves recede in depth. Wet packed earth, not asphalt. An adult, thirties, in a dark kimono and a deep kasa, starts at the right edge. Face hidden by the brim. No second person. No shrine gate. No readable shop signs.\n\nACTION: The figure walks left through the frame in one continuous pass and exits. The walk has weight. The kasa brim never lifts. Camera does not pan. No second figure. No look-back.\n\nFOCUS: Tack-sharp on the walking figure's shoulders and the nearest lantern paper. Far eaves are one stop soft.\n\nPHYSICS: The body has weight. Feet meet the wet ground. The person does not glide or hover. Cloth lags a little, then catches up.\n\nLIGHT: Warm lanterns only. Cool darkness between them. No modern streetlight. No beauty key on the face — the face is not seen.\n\nSTYLE: Photoreal cinematic, period Japan, wet wood and oil-paper lanterns, soft grain. No anime. No text. No watermark. No logos.\n\nAUDIO: Diegetic SFX only. No music. No score. No singing. No speech. No narration. Weighted footsteps on wet packed earth. Soft cloth. Night air between lanterns. The sound leaves with the figure.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-paper-craft-travel",
+    "category": "提示词",
+    "title": "半真半纸：旅行海报模板",
+    "body": "旅行海报上下一劈两半：上面是秋色草原红电车实拍，下面是同一构图的立体剪纸，奶油色纸底上压着衬线标题。@Sairah_0 放出 GPT Image（OpenAI 出图模型）填空模板——地点、光线、主体、标题、副标题全是方括号槽位，换城市就能出一套。\n\n上半要广角、鲜艳、指定光线；下半要求多层纸艺、可见纸边和阴影，背景统一暖米白；排版极简，主标题衬线、副标题无衬线靠侧。作者还附了京都竹林填空示例，方便直接套。\n\n所以呢：要系列旅行海报，用上下「实拍对纸艺」壳，只换方括号里的词。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Sairah_0/status/2101555686060536233"
+      }
+    ],
+    "prompt": "A vertical, split-panel travel poster featuring a photographic view on top and a 3D layered paper-craft illustration of the exact same scene on the bottom.\n\nTop Panel (Realistic Photography): A wide-angle, highly detailed, vibrant photograph of [INSERT LOCATION/SCENERY, e.g., a serene Swiss alpine valley with a modern blue train, a golden autumn forest, or a coastal village]. The lighting is [INSERT LIGHTING STYLE, e.g., warm golden hour light / crisp morning sunlight / bright daytime]. The composition shows [INSERT MAIN SUBJECT/ACTION, e.g., a train curving on tracks / a traveler walking with sheep / a boat sailing].\n\nBottom Panel (Paper-Craft Art): An intricate, multi-layered 3D paper-cut illustration re-creating the exact scene from the photo above. Hand-crafted dimensional paper layers create depth, with visible textured paper edges and shadows. Elements like the background mountains, trees, architecture, and subjects are constructed from distinct colored paper cutouts. The background paper behind the illustration is a warm, textured off-white cream color.\n\nTypography & Layout: Clean, minimalist travel poster design. Elegant dark serif typography for the main title: \"[INSERT TITLE, e.g., Alpine Journey]\". Smaller sans-serif text aligned to the right or side: \"[INSERT SUBTITLES, e.g., SCENIC ROUTE / NATURE / A BRIGHTER TOMORROW]\". Minimalist minimalist captions and thin alignment lines placed on the cream paper background.\n\nExample of how to fill it out:\nLocation/Scenery: a misty bamboo forest in Kyoto with a traditional wooden temple\nLighting Style: soft, diffused morning mist lighting\nMain Subject: a person in a red kimono walking along a stone pathway\nTitle: Bamboo Peace\nSubtitles: KYOTO FOREST / ANCIENT PATH / SERENITY\nThis structure ensures any modern AI image generator understands the split layout, the distinct contrast between the realism on top and the tactile paper-cut art on the bottom, and the specific aesthetic placement of travel typography.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-carriage13-livestream",
+    "category": "提示词",
+    "title": "末班车直播：车厢丧尸倒计时",
+    "body": "夜班车厢里，女孩举着手机开直播。鱼眼画面晃得厉害，电量、信号、时间戳都挂在角上。她随便扫过乘客，忽然发现有人剧烈咳嗽——灯灭了，手电一开，血丝眼眶和脖子上的黑血管扑面而来。@Harry_thingss 用 Seedance 2.5 把这段做成三十秒分段时间轴的「列车直播恐怖片」。\n\n写法是按秒切段：先发现、再扑袭、再堵门、再电量告急，最后信号掉到零、画面定格在她惊恐的脸上。故意保留丢帧、曝光乱跳和未解决的结尾，像真找到的手机残骸。\n\n所以呢：要拍「直播出事」，按秒写时间轴，把时间戳和信号条当成道具。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Harry_thingss/status/2101903802475696609"
+      }
+    ],
+    "prompt": "0–4s: Character A, matching the reference image, livestreams herself on a dark night train. Handheld fisheye distortion, shaky framing, timestamp/battery/signal icons visible. She casually pans across passengers before noticing one coughing violently.\n\n4–8s: She whip-pans toward him—pale, sweating, visibly sick. Lights flicker and blackout. Her phone flashlight snaps on, revealing him convulsing. Glitching, dropped frames, exposure shifts, and nervous breathing intensify the found-footage feel.\n\n8–13s: Flashlight reveals bloodshot eyes and dark veins spreading across his neck. He suddenly lunges at another passenger. The camera whips away, cracks/glitches, drops to the floor, then catches the newly bitten passenger convulsing and turning with clouded eyes before lunging again.\n\n13–18s: Chaos erupts. Passengers scramble through the train.  A runs down the aisle and escapes through the connecting door with survivors. They barricade it as infected hands claw through the gap and pounding shakes the door.\n\n18–24s: Phone battery drops dangerously low. She briefly films her terrified, sweaty face, then turns back to the violently shaking door. Survivors huddle together under the phone's harsh flashlight while impacts continue.\n\n24–30s: The pounding suddenly stops. Eerie silence. She slowly films the exhausted survivors. The timestamp keeps ticking, signal drops to zero, and the livestream freezes on her frightened face with a final glitch—raw, unresolved found-footage ending.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-banana-whiteboard-lab",
+    "category": "提示词",
+    "title": "校准黑板：字迹必须读得清",
+    "body": "夜里实验室白板正对镜头。顶行黑体手写「CALIBRATION RUN 7」加双下划线；左侧蓝笔四步清单；中间手绘漂移曲线，三个红叉数据点；右侧红圈「DO NOT ERASE」。托盘里五支马克笔，钟指向四点二十，灰毛衣女孩侧身看图。@guitaripod 用这条长描写对照模型文字能力——字迹必须读得清。\n\n构图对称、冷灰掺琥珀；灯管在板面拉出一道亮线。标题、编号步骤、坐标轴标签、勿擦提示全是可读文字压测，适合拿来比不同出图模型谁更能写字。\n\n所以呢：要测模型写字，别只写「白板」，把标题、步骤和图表轴标签逐条写死。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/guitaripod/status/2101698690117259745"
+      }
+    ],
+    "prompt": "The image is a wide realistic photograph of a research lab whiteboard at night, seen straight on, cool grey and amber palette. Across the top of the board, a bold black headline in hand-lettered capitals reads \"CALIBRATION RUN 7\", underlined twice. On the left side of the frame, a column of four numbered lines in blue marker reads \"1. warm the sensor\", \"2. zero the scale\", \"3. log the drift\", \"4. repeat at 40C\". In the centre of the board, a hand-drawn line chart on a faint grid rises from left to right, its x-axis labelled \"minutes\" and its y-axis labelled \"drift (mV)\", with three red data crosses on the line and a dashed tolerance band behind them. On the right side of the frame, a red circled note reads \"DO NOT ERASE\". In the lower-left corner, a smudged half-erased patch shows the ghost of earlier writing, too faint to read. Across the lower third, a steel tray holds five markers — two black, one blue, one red, one green — beside a chipped enamel mug with a teaspoon in it. In the upper-right of the frame, a wall clock reads twenty past four. Behind the board on the far right, a young woman in a grey knitted jumper stands in profile, looking at the chart, her face lit from below by a tablet she is holding. The lighting is a single hard overhead strip light, throwing a narrow specular streak across the board's gloss and a soft shadow under the tray. The overall composition is orderly and symmetrical, cool grey warmed by amber, quiet and clinical.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-runaway-train-aaa",
+    "category": "提示词",
+    "title": "AAA 失控列车：第三人称冲关",
+    "body": "暴雪山站里，年轻女冒险家顺着铁轨狂奔。脱轨的客车撞开月台，整节车厢往悬崖边滑。她扑上去抓住末节，在风雪和散落金属板之间往外爬，任务提示一条条跳出来：先登车、再活着滑下山、再去查地下铁路。@Diplomeme 用 Seedance 2.5 仿成「像真在玩 Unreal」的第三人称画面，而不是电影预告片。\n\n关键是机位一直跟在她斜后方，像玩家在操作；HUD（屏幕上的任务字）跟着关卡走；雪、玻璃、金属形变都要物理可信；不许慢镜英雄镜头、不许硬切片花感。人物脸、马尾、青绿冲锋衣和登山绳全程一致。\n\n所以呢：要「像真在玩」，写第三人称机位加 HUD，别写成预告片。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Diplomeme/status/2101885802565505205"
+      }
+    ],
+    "prompt": "Create a 30-second photorealistic AAA third-person open-world action-adventure gameplay video, 16 : 9, resembling real playable Unreal Engine 5 footage, not a cinematic trailer.\nYoung Korean female adventurer, mid-20s, exact same face, low dark ponytail, athletic build, dark teal weatherproof jacket, black shirt, brown cargo pants, rugged mountain boots, gloves, compact expedition backpack, climbing rope and metal compass bracelet throughout.\nUse a normal player-controlled third-person camera behind and slightly above her, with authentic movement, realistic physics, shadows, materials, animation and environmental interaction.\nShe runs through a remote mountain railway station during a violent snowstorm as an approaching passenger train suddenly derails on a damaged mountain track. HUD: “REACH THE LAST CARRIAGE.”\nThe train crashes through the station platform and begins sliding toward the edge of the mountain. She sprints after it, jumps across broken railway equipment and grabs the rear carriage just before it falls over the cliff. HUD: “BOARD THE RUNAWAY TRAIN.”\nShe climbs across the exterior of the moving train while heavy snow, shattered windows, loose metal panels and electrical cables whip around her. The train loses more carriages as it slides down the mountainside. She reaches the final intact carriage and pulls herself inside.\nThe carriage suddenly breaks away from the rest of the train and begins sliding uncontrollably down a steep mountain slope. She braces against the seats as luggage, broken glass and debris move through the carriage. HUD: “SURVIVE THE DESCENT.”\nThe carriage crashes through an abandoned railway tunnel entrance and continues deep underground. She climbs through the damaged carriage, jumps across a widening gap and uses her climbing rope to cross into the next section. The tunnel shakes violently as sections of the mountain collapse behind her.\nShe reaches the front of the carriage and discovers an enormous underground railway system hidden beneath the mountain, containing abandoned platforms, massive industrial machinery, suspended railway bridges and multiple railway lines disappearing into darkness. HUD: “INVESTIGATE THE UNDERGROUND RAILWAY.”\nA distant train horn suddenly echoes through the darkness. Headlights appear far down the tunnel and rapidly approach. She turns and runs as an enormous unmanned locomotive tears through the underground station, destroying platforms and sending debris across the tracks.\nShe jumps onto a moving maintenance platform and grabs a hanging chain as the locomotive passes beneath her. The platform collapses behind her and she lands on a surviving railway bridge above a gigantic underground chasm.\nShe looks across the chasm and sees an enormous ancient railway structure built directly into the mountain, extending toward a colossal sealed gateway. The HUD updates: “FOLLOW THE RAILWAY.”\nPhotorealistic Korean mountain UE5-quality gameplay, realistic train destruction and physics, physically accurate snow, debris, glass, metal deformation and environmental interaction, authentic third-person player-controlled camera movement, functional minimal HUD, strict character and equipment consistency, continuous real-time gameplay feel, no cinematic trailer look, no dramatic camera cuts, no slow-motion hero shots, no mobile-game graphics, no anime, no cartoon, no gore, no subtitles, no logos, no watermark.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-photo-geo-split",
+    "category": "提示词",
+    "title": "照片对几何：无标签前后对比",
+    "body": "同一张照片上下对折：上半原片几乎不动，下半变成硬边多边形色块。作者明确禁止写 Before / After、禁止加箭头边框，让画面自己说话。还是 @Sairah_0，3:4 竖版，给 GPT Image 用。\n\n下半只许从原片抽五六种色，略降饱和；背景暖米白；人物姿态左右要对齐，但不能发明原片没有的人、动物或动作；小字英文标题加编号 NO.023，像当代艺术书的一页。裁切规则也写细：宁肯补一点背景，也不要切掉主体。\n\n所以呢：要无标签的前后对比海报，上半守真、下半几何，别发明画面里没有的东西。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Sairah_0/status/2101888385627598947"
+      }
+    ],
+    "prompt": "Using the uploaded photo, create a vertical 3:4 “before-and-after” comparison poster. If multiple photos are uploaded, create one separate poster for each photo; do not mix different photos on the same page. The upper and lower sections should each occupy exactly half of the total height, with a seamless transition between them. Do not add borders, arrows, or “Before” / “After” labels.\n\n【TOP SECTION: ORIGINAL PHOTO】  \nThe top section should use the uploaded original photo, filling the full width of the canvas. Preserve the original subject, pose/action, scene, natural lighting, and dominant color palette. Only allow subtle overall color adjustments; do not change the atmosphere or add any filter effects. Maintain the photo’s original aspect ratio and do not stretch the subject. To fit the top section, you may crop unimportant edges; if cropping would remove the main subject, prioritize adding a small amount of background instead, but never invent or alter the subject or key elements of the scene.\n\n【BOTTOM SECTION: GEOMETRIC ABSTRACT】  \nUsing the same photo from the top section as the only reference, recreate the core subject and a few key environmental elements as a hard-edged, geometric, flat-style illustration. Do not add any people, animals, objects, or actions that were not present in the original photo. Preserve the core subject’s left/right position, pose, direction, interactions, and major occlusion relationships from the photo so that the top and bottom sections appear visually aligned at first glance; however, there is no need to reproduce the image pixel-for-pixel.\n\nRemove secondary background elements and insignificant details. The subject may be scaled down slightly to create generous negative space around it. Construct objects using a limited number of polygons of varying sizes, simplified curves, and solid color blocks. Preserve enough of the subject’s silhouette, movement, and defining characteristics so that it remains recognizable as the specific subject from the original photo; do not reduce it to a generic icon.\n\nUse adjacent color blocks of different shapes and brightness levels to define structure. Do not use gradients, outlines, 3D shadows, or realistic textures. Extract approximately 5–6 representative colors from the original photo and organize them into a cohesive palette with slightly reduced saturation. Use a warm off-white/beige tone as the background color for the lower section. Reserve the darkest tones for a few visual focal points, and retain one accent color that echoes the original photograph. Do not arbitrarily change the most recognizable colors of the core subject.\n\nKeep all geometric edges crisp and sharp. Add only an extremely subtle printed grain texture within the color blocks, with slight registration misalignment allowed on a few edges. Do not render the entire image with a rough paper texture or glitch-art effect.\n\n【TEXT】  \nAdd a small amount of archival-style typography to the lower section: automatically generate a short English title based on the content of the photo, accompanied by the small number “NO. 023”. Place the title in an area of negative space where it does not obstruct the subject, and position the number diagonally opposite the title to create visual balance.\n\nDo not fabricate real locations, dates, identities, or events, and do not add overly dense explanatory text. The overall composition should resemble a page from a contemporary art book: a rich, realistic photograph on top paired with a bold, highly simplified, orderly geometric interpretation beneath it.\n\nKeep the overall work restrained, gentle, and distinctive. Avoid cartoon-like faces, 3D effects, plastic-like materials, clashing neon colors, or random doodles.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-banana-townhouse-cutaway",
+    "category": "提示词",
+    "title": "三层联排剖面：十四号门牌",
+    "body": "三层窄联排屋把前墙拆掉，陶土色黏土质感，等距视角一眼看见每一层。一楼绿炉灶和铜壶，姜猫睡在一级台阶；二楼芥末沙发和半局象棋；阁楼儿童房挂纸星星，旁边爪足浴缸。花园门上黄铜牌写着 No.14。还是 @guitaripod，给 Nano Banana 的故事书剖面壳。\n\n下午阳光从右上进来，每间房拖出长软影。房间清单可以整段替换——换成咖啡馆、诊所或飞船舱都行，骨架仍是「打开一栋楼」。\n\n所以呢：要故事书剖面，按楼层列房间道具，门牌和光线收住全图。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/guitaripod/status/2101699428813819934"
+      }
+    ],
+    "prompt": "The image is a tall isometric 3D-rendered cutaway of a narrow three-storey townhouse, its front wall removed, standing on a small square of grass against a plain pale-cream background. The building is clay-textured in soft terracotta with a slate-grey tiled roof, and the cutaway faces the viewer at a gentle three-quarter angle so every floor is visible at once. On the ground floor, a kitchen fills the left half: a green enamel stove with a copper kettle on it, an open shelf of seven jars in graded sizes, and a wooden table with two mismatched chairs, one tucked in and one pulled out. To its right, a narrow hallway holds a staircase of eleven steps rising to the right, a coat hook with a yellow raincoat, and a ginger cat asleep on the bottom step. On the middle floor, a living room spans the full width: a mustard two-seat sofa facing away from the cutaway, a low table with a chessboard mid-game, a floor lamp leaning over the sofa's left arm, and a tall bookcase on the right whose shelves hold books in five colours. A small framed picture above the sofa shows a sailboat, no larger than a thumbnail. On the top floor, under the slope of the roof, a child's bedroom sits to the left with a bed under a round window, a mobile of three paper stars hanging over it, and a toy train circling a rug; to the right, a cramped bathroom shows a claw-foot tub and a mirror catching a sliver of the window's light. Across the lower edge of the frame, a brass plate on the garden gate reads \"No. 14\". The lighting is warm afternoon sun entering from the upper-right, laying long soft shadows to the left inside every room and a single bright pool on the living-room floor. The overall composition is a clean vertical stack of three lit rooms in terracotta, mustard and slate, tidy and storybook-calm.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-banana-night-market-ramen",
+    "category": "提示词",
+    "title": "雨夜拉面摊：霓虹拖进柏油",
+    "body": "雨夜小吃巷，平视浅景深。炒锅腾起一蓬火，四只虾还在空中；灰发师傅舀汤，蒸汽立成柱；塑料雨衣女孩侧对镜头，手机蓝光打在下颌。头顶红霓虹竖写「山田」，湿柏油把霓虹拖成一条红痕。@guitaripod 给 Nano Banana 写的第三条纪录片夜景提示。\n\n光是混的：摊位钨丝暖、霓虹硬红、手机冷蓝，不要补光，背景直接掉进黑。电缆、纸灯笼、半出画的自行车轮把前后层次钉死。整段像街拍纪录片，不靠滤镜堆氛围。\n\n所以呢：要城市夜食氛围，用三种实用光混打，让霓虹在湿地面积成条。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/guitaripod/status/2101699917685158114"
+      }
+    ],
+    "prompt": "The image is a square documentary-style photograph of a rain-soaked night market alley, shot at eye level with a shallow depth of field. In the centre of the frame, a food stall counter runs across at chest height, its stainless top scratched and beaded with water. Behind it, a cook in a white headband and a navy apron leans forward over a wok, both hands gripping its handle mid-toss, a burst of flame lit orange under the pan and four prawns caught in the air above it. To his left, a second cook with cropped grey hair ladles broth into a bowl, steam rising in a thick column that catches the light. On the right side of the frame, a young woman in a clear plastic poncho waits with her back three-quarters to the viewer, phone held low in one hand, its screen throwing a cold blue glow up onto her jaw. Above the stall, a red neon sign reads \"山田\" in vertical characters, and directly below it a smaller white sign reads \"RAMEN · 8PM–LATE\". Along the top edge of the frame, a tangle of black power cables crosses between buildings, and three paper lanterns hang in a row, the middle one unlit. Across the lower third, the wet asphalt mirrors the stall: the neon smears into a long red streak, the lanterns break into broken discs, and a single bicycle wheel stands at the far left edge, half out of frame. Fine rain streaks are visible where the light is hardest. The lighting is mixed and practical — warm tungsten from the stall, hard red from the neon, cold blue from the phone — with no fill, so the background falls into deep black between the signs. The overall composition is layered front to back, saturated red and amber against wet black, alive and close.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-zeroed-in-range",
+    "category": "提示词",
+    "title": "靶场心跳：隔音耳罩里的扳机",
+    "body": "室内靶场，金发女主等腰持枪，耳罩压住世界。镜头慢慢推到护目镜下那双不动的眼睛，汗珠顺着太阳穴滚。扳机一扣，枪口火花打在脸上，慢镜里弹壳旋转，纸靶中心被撕成十字。@bmx_ai13 用 Seedance 2.5 写了一条 John Wick 风三十秒：前段听觉隔离，中段连发特效，末段焦点拉到身后教练嘴里那句「你偏左了」。\n\n声画是一体的：耳罩闷掉环境音，只留心跳和呼吸；开火瞬间低音炸开，弹壳落地清脆；对白结束后闷音撤掉，远处其他靶位的枪声才涌回来。浅景深、冷灰调、分段时间轴都写死。\n\n所以呢：要枪战短片有压迫感，先闷掉环境音，再让开火把沉默砸碎。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/bmx_ai13/status/2101886307958141052"
+      }
+    ],
+    "prompt": "Visual Style & Aesthetic:High-budget Hollywood action thriller (reminiscent of John Wick or Sicario). Shot on anamorphic lenses with a very shallow depth of field, keeping the focus razor-sharp on the female lead while the background falls into a smooth, creamy blur. The color grading is cool and gritty—dominated by gunmetal greys, deep blacks, and the muted, sterile tungsten glow of overhead indoor range lights.\nSetting & Characters:An active, high-end indoor tactical shooting range.\n\nThe Protagonist (Foreground): A focused, lethal woman with tied-back blonde hair, wearing a black tactical shirt, protective eyewear, and heavy ear defenders. She holds a semi-automatic pistol in a perfect isosceles stance.\nThe Handler (Background): A blurred, older male figure in dark clothing, also holding a weapon, acting as her spotter/mentor.\n\nTimeline, Action & Dialogue Breakdown (30 Seconds)\n\n[0:00 - 0:10] The Hold — Tension Building:The camera starts exactly as the image: a medium close-up of the woman, dead still. The air is thick with anticipation. The camera slowly pushes in on her intense, unblinking eyes behind the safety glasses. A bead of sweat rolls down her temple.\nDialogue: (None)\nAudio/Sound Design: The audio is heavily muffled, simulating the auditory exclusion of wearing heavy ear protection. We hear only her slow, deep, rhythmic breathing and a heavy, thudding heartbeat.\n\n[0:10 - 0:22] The Engagement — VFX & High-Speed Action: Action: She squeezes the trigger in rapid succession—bang, bang, bang. VFX: Hyper-realistic muzzle flashes illuminate her face in sharp bursts of orange. The camera switches to high-speed slow motion for one of the shots: we see the slide rack back, a glowing brass casing ejecting and spinning through the air, and a trailing wisp of grey gunsmoke. The camera cuts quickly to a paper target 20 yards downrange being shredded dead center in the \"X-ring\".\nDialogue: (None)\nAudio/Sound Design: The muffled silence is shattered by heavy, bass-boosted, concussive THWACKS of the gunfire. The clinking of hot brass hitting the concrete floor rings out sharply.\n[0:22 - 0:30] The Assessment — Focus Shift: Action: Real-time speed resumes. The woman lowers the weapon slightly to a low-ready position, smoke gently rising from the barrel. She doesn't break her gaze from the target. The camera's focus pulls backward, bringing the bearded man in the background into sharp focus while she blurs slightly. He lowers his own weapon.\nDialogue (The Handler): (Gruff, authoritative, speaking over the ambient range noise) \"You're pulling slightly to the left.\"\nDialogue (The Protagonist): (Without turning around, voice cold and confident) \"Only when I'm bored.\"\nAudio/Sound Design: The muffled effect drops away, revealing the echoing, sharp cracks of other shooters in the distant background. A final metallic click as she engages the weapon's safety.\nVFX & Technical Notes:\n\nLighting VFX: Dynamic light interaction on her skin and safety glasses from the muzzle flashes.\n\nParticle Effects: Realistic gunsmoke dissipating quickly in the ventilated indoor air; tiny sparks and unburnt powder ejecting from the ejection port in slow motion.\n\nCamera Work: Steadicam push-in for the tension, snappy Bourne-style micro-pans during the firing sequence, and a precise rack focus for the final dialogue exchange.\n\n#DreaminaCPP",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-werewolf-pine-forest",
+    "category": "提示词",
+    "title": "松林变狼：同脸连续变身",
+    "body": "雾夜松林，男人双手抱头弯腰喘气。镜头推近，眼睛一点点换成琥珀色，皮毛从太阳穴、脸颊往脖子爬，耳朵变尖，身形拔高——整段连续变，没有瞬变、没有血腥。@AIwithWania 用 Seedance 2.5 做这条狼人变身，开篇就写死：同一张脸、同一发型、同一身份贯穿始终。\n\n按秒拆成捂头、眼睛亮起、毛皮蔓延、拉远成狼、抬头望月。风格要求真人电影感，皮毛和解剖要自然；声音是林风、喘息、低吼。明确禁止复制体、多肢、卡通变形。\n\n所以呢：要「人变兽」不崩脸，先锁同一身份，再按秒写连续变形。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/AIwithWania/status/2101908482073252349"
+      }
+    ],
+    "prompt": "Create a  cinematic dark-fantasy transformation in 16:9. A realistic adult man with short dark hair, light stubble and black clothes stands alone in a cold, foggy pine forest at night. Keep the SAME face, body, hairstyle and identity throughout.\n\n0–3s: Medium frontal shot. He bends forward slightly, holding both sides of his head, breathing heavily. Slow push-in. Blue-grey moonlight and drifting fog.\n\n3–6s: Tight close-up. His jaw clenches, expression intensifies and eyes gradually glow amber-orange. Fur appears around temples, cheeks and neck; ears slowly become pointed.\n\n6–10s: Continuous realistic transformation: face turns wolf-like, jaw extends, teeth sharpen, dark brown-grey fur spreads across head, shoulders, arms and torso. Body grows taller and more muscular. No instant morph, cuts, blood or gore.\n\n10–12s: Camera pulls back to reveal one fully transformed realistic werewolf with glowing amber eyes, thick fur, muscular body, clawed hands, wolf-like legs and a natural tail. Full moon behind the trees.\n\n12–15s: Dramatic full-body wide shot. The werewolf stands in fog, breathing heavily, fur moving in the wind, then slowly raises its head toward the moon.\n\nStyle: ultra-realistic live-action, cinematic VFX, volumetric moonlight, deep shadows, realistic fur, natural anatomy, depth of field, subtle motion blur and film grain. Sound: forest wind, heavy breathing, low bass rumble, transformation sounds and deep growl. Exactly ONE man transforms into ONE werewolf. No duplicates, extra creatures, extra limbs, cartoon look or deformed anatomy.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-volcano-evac-miniature",
+    "category": "提示词",
+    "title": "火山前抢建疏散城",
+    "body": "冒烟的火山蹲在画面深处。山谷里成百个小人挖土、浇混凝土、拧螺栓，一层层盖出一条疏散路、一排应急屋、地下避难所和通讯塔。最后特写一颗螺栓拧紧，镜头猛地拉升，整座缩微疏散城铺开。@RizwanAly07 用 Seedance 2.5 做竖屏三十秒延时，规矩很硬：每样东西必须被亲手建出来，不许魔法出现。\n\n每两秒要出现清晰的新建筑元件；工人始终密密麻麻在干活；比例统一，宏距景深，拒绝塑料玩具感。题材可换成任何「赶工期造城」。\n\n所以呢：要缩微建造片有说服力，写「亲手建、不许瞬出」，再按秒加新件。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/RizwanAly07/status/2101897414760411153"
+      }
+    ],
+    "prompt": "Create a 30-second vertical 9:16 ultra-photorealistic miniature construction time-lapse of hundreds of tiny workers rapidly building a protected emergency evacuation city in a volcanic valley.\n\nA massive smoking volcano remains visible in the background throughout. Hundreds of workers continuously perform realistic physical tasks: digging, carrying materials, pouring concrete, stacking blocks, bolting steel, operating cranes, installing pipes and building structures. Every object must be physically constructed—nothing magically appears.\n\n0–4s: Workers clear the barren volcanic valley, mark the safe zone and build the main evacuation road.\n\n4–8s: Teams dig foundations and construct multiple emergency houses layer-by-layer.\n\n8–12s: Workers install structural beams, roofs, windows, doors and a thick protective perimeter wall.\n\n12–16s: Build a reinforced underground shelter and emergency medical center with a small landing area.\n\n16–20s: Install water tanks, underground pipes, food-storage warehouse and supply crates.\n\n20–24s: Assemble a tall communication tower, evacuation tunnel, secondary road and observation towers.\n\n24–28s: Emergency trucks arrive while workers install lights, barriers, warning signs, rescue equipment, trees and small green spaces.\n\n28–30s: Start close on a worker tightening the final bolt, then rapidly pull upward to reveal the complete miniature evacuation city with dozens of shelters, roads, tunnel, medical center, towers, vehicles and hundreds of active workers. The enormous volcano smokes in the background with subtle distant lava glow.\n\nEvery 2 seconds must introduce a clearly visible new construction element. Keep workers densely visible and actively working throughout.\n\nSTRICT: No magical construction, instant appearance, teleportation, disappearing materials, floating workers, duplicated workers, giant humans, cartoon, toy/plastic look, fantasy architecture, CGI appearance, text or watermark. Maintain consistent scale, realistic physics, natural lighting, macro depth of field, 4K HDR, cinematic photorealism.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-orochi-figurine-duel",
+    "category": "提示词",
+    "title": "收藏级手办对决：八岐与影魔",
+    "body": "月下古庙庭院。黑曜石面具的影魔喷出红烟，对面站着石化木身的八岐英雄，橄榄绿技战衣和靛蓝袴随风。八个电影镜头从面具特写切到肩后反应、低机位对砍、长段连打，再到收刀整理衣襟。@itsPixieVerse 把 Seedance 写成收藏级手办格斗：材质要 PBR（按真实光影算的材质），布纹、氧化金属、树皮微结构都看得见。\n\n开篇就否定赛璐璐、廉价塑料玩具感和低模游戏资产。布料和绑带要跟着动量甩；二十四帧胶片快门感；长打戏中间不许停顿。\n\n所以呢：要手办打起来像电影，先否定廉价玩具感，再按镜头表写重量感动作。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/itsPixieVerse/status/2101905828047687879"
+      }
+    ],
+    "prompt": "Cinematic hyper-realistic 3D CGI collectible-figurine render: physically-based rendering (PBR), octane-render-quality lighting and materials, fabric with visible weave and natural drape, metal with realistic wear and oxidation, petrified wood with real bark micro-texture. Soft cinematic lighting with a subtle rim light, shallow depth of field, physically accurate shadows. NOT flat 2D, NO cel-shading, NO anime style, NO painterly brushwork, NO cartoon outlines. Also NOT cheap plastic-toy CGI, NOT low-poly game-asset look, NOT oversaturated fake-specular rendering. \n\nWORLD: Ancient overgrown temple courtyard at midnight, palette of moonlit silver and dark moss, glowing crimson accent from floating spectral leaves, layered depth of field. \n\nCHARACTERS: \n\n- OPPONENT: A massive, hulking shadow-woven demon with jagged obsidian armor, glowing blood-red eyes, and dark smoke billowing from its joints. \n\n- HERO: Orochi @[Image1], a tall humanoid entity of petrified pale ash wood, branch-like horns, void-slit face, elongated 9-heads-tall proportions. Wearing an olive-green techwear kimono jacket, nylon harness, dark indigo tech-hakama trousers. Ethereal green spirit-fire and crimson petals swirl around him. \n\nCINEMATIC SHOT DESIGN (8 Filmic Cuts with Expressions): \n\n• SHOT 1 (0–2s | Macro Close-up): Extreme close-up on the shadow-demon's jagged obsidian mask. Threatening menacing hiss, glowing red smoke exhaling from its jaws. \n\n• SHOT 2 (2–4s | Over-the-Shoulder & Reaction): OTS behind the shadow-demon, framing Orochi across the courtyard. Cut to Orochi's void-slit face: calm, unwavering, as phantom green light ignites within the slit. \n\n• SHOT 3 (4–6s | Wide Cinematic Clash): Wide low-angle cinematic shot. The demon lunges with a massive obsidian blade; Orochi perfectly parries with his katana. Blinding explosion of green spirit-fire and red sparks illuminates their clothes. \n\n• SHOT 4 (6–7s | Expression Reaction Cut): Rapid macro close-up of the demon's red eyes widening in shock as its weapon cracks. \n\n• SHOT 5 (7–8s | Dynamic Low-Angle Tracking): Low-angle tracking shot as Orochi fluidly slides under the demon's wild second swing, his olive canvas jacket whipping through glowing crimson petals with heavy momentum blur. \n\n• SHOT 6 (8–9s | Dissolve): Quick emotional close-up of the shadow-demon dissolving, its obsidian armor breaking apart into black ash, revealing defeated, fading red eyes. \n\n• SHOT 7 (9–22s | One Continuous long Fight): Opens mid-air as Orochi and the demon clash violently. No pauses. They land and immediately trade a rapid, brutal flurry of sword strikes. The demon tries to grab Orochi; Orochi severs its hand with a burst of green spirit-fire, steps inside its guard, and unleashes a blindingly fast sequence of six devastating katana slashes. In the final second, the demon shatters into ash.\n\n• SHOT 8 (22–27s | Heroic Landing): Low-angle hero framing of Orochi standing victorious. Slowly clicking his katana back into its scabbard, casually adjusting his kimono jacket, as glowing crimson petals gently settle around his wooden feet. \n\nWeighty natural character animation, fabric and straps reacting to momentum, filmic 24fps shutter, shallow depth of field. NOT flat 2D, no cel-shading, no anime style, no painterly brushwork, no cartoon outlines. Also not cheap plastic/game-asset CGI, not low-poly, not oversaturated fake-specular rendering.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-pharmacy-possession",
+    "category": "提示词",
+    "title": "深夜药房：身体被抽走",
+    "body": "深夜社区小药房。疲惫的女客把处方纸放上柜台，药剂师转身找药。扫码枪哔哔声忽然拉长，荧光灯管闪了两下——她的手指开始细抖，关节一点点锁死，身体猛地抽搐撞上柜台。安静片刻后，她以机械姿态从柜台后升起，肘关节反向折叠，朝药剂师扑过去。@john_my07 用 Seedance 写韩式超自然三十秒，吓人靠日常细节，不靠血浆。\n\n处方纸、灯管、关节锁定、灭火器白粉、结尾监控里一只药盒自己滑落——都写进连续一场戏。色调冷、手持晃，禁止花哨蒙太奇和字幕。\n\n所以呢：要短视频惊吓，选日常空间，用声音和关节反常比血腥更管用。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/john_my07/status/2101905901166989778"
+      }
+    ],
+    "prompt": "Create a 30-second ultra-realistic Korean horror sequence, set inside a cramped neighborhood pharmacy late at night. Cinematic live-action quality, unsettling atmosphere, practical horror effects, realistic human movement, and a continuous sequence that feels like a scene from a Korean supernatural horror film.\n\nA young Korean woman enters the dimly lit pharmacy, clutching a folded prescription. She looks exhausted, occasionally glancing toward the darkened aisles. Only the pharmacist is present. She places the prescription on the counter and quietly asks for her medication.\n\nThe pharmacist turns toward the shelves to locate the medicine. A barcode scanner beeps repeatedly. The sound becomes strangely prolonged as the overhead fluorescent tubes flicker. The woman suddenly stops breathing normally. Her hand tightens around the prescription, and her fingertips begin jerking in tiny, involuntary movements.\n\nThe pharmacist turns back. Her shoulders are trembling. Her fingers slowly curl inward, joints locking into unnatural positions. Without warning, her body snaps into violent spasms, slamming against the counter. Bottles tumble from nearby shelves. The pharmacist stumbles backward, visibly terrified.\n\nShe drops behind the counter. For a moment, everything goes quiet.\n\nThen her body rises in slow, mechanical movements. Her eyes remain wide and unfocused, her face expressionless. One shoulder hangs at an unnatural angle, while her arms appear stiff and distorted. She tilts her head sharply to one side and fixes her gaze on the pharmacist.\n\nHe retreats toward the store entrance.\n\nHer elbows suddenly fold backward with a disturbing, unnatural motion. Her jaw stretches open far beyond normal anatomy as a harsh, inhuman shriek fills the narrow pharmacy. She launches herself over the counter with sudden, explosive speed.\n\nThe pharmacist runs through the tight aisles. She follows with jerky, impossible movements, knocking medicine cartons and glass bottles onto the floor. A late-night customer pushes open the entrance door and freezes at the sight of her standing motionless between the shelves.\n\nShe slowly turns her head toward the newcomer.\n\nA sudden burst of movement. The customer flees, slips on a fallen basket, and scrambles toward the exit. The pharmacist grabs a fire extinguisher from the wall, pulls the safety pin with trembling hands, and sprays a thick cloud of white powder directly at her.\n\nShe staggers backward into a glass cabinet. The glass rattles violently. Through the powder, her silhouette gradually straightens. Her face is coated white, her eyes locked on the pharmacist.\n\nShe opens her mouth into another impossible scream and charges.\n\nThe pharmacist keeps spraying while retreating toward the entrance. She crashes through the glass storefront door, sending shards across the deserted street. Her twisted limbs jerk violently as she disappears into the darkness.\n\nThe pharmacist and customer remain frozen in silence.\n\nFinal shot: Interior CCTV footage. Empty aisles, flickering fluorescent lights, scattered medicine boxes, and a faint haze of extinguisher powder. The camera remains fixed. After several seconds, a single medicine carton slides slowly off a shelf and hits the floor.\n\nHard cut to black.\n\nVisual direction: Authentic Korean supernatural horror, grounded performances, physically believable environments, unsettling body-horror transformations, realistic practical effects, natural handheld camera movement, cold desaturated color palette, detailed pharmacy textures, dramatic sound design, no artificial-looking CGI, no montage, and no text overlays. Maintain continuity of character appearance, store layout, and lighting throughout the sequence.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-tsunami-skyline",
+    "category": "提示词",
+    "title": "海啸进城：货轮夹在楼宇间",
+    "body": "乌云压城。航拍先看到一道巨浪耸在天际线后面，再切到街道灌水、浪头推着碎屑狂奔——最荒诞的一帧是一艘货轮，被冲进摩天楼之间，像插错地方的玩具。@aiwithaayat 用 Seedance 2.5（字节系视频模型）做城市海啸灾难片，镜头语言从航拍到街景再到低角度跟踪，一气写完。\n\n提示词强调灰蓝光、厚云、真实水体物理和雾气连续；结尾几乎整城被水雾吞掉。货轮进城的尺度反差一眼就能当封面，比纯浪花堆砌更有记忆点。\n\n所以呢：要灾难片出片，先航拍定规模，再塞一个「不该在城里的庞然大物」。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/aiwithaayat/status/2101907970972119058"
+      }
+    ],
+    "prompt": "Created a cinematic videodisaster sequence showing a massive tsunami approaching a modern city under a dark, stormy sky. The video opens with a wide aerial view of the enormous wave towering behind the skyline, followed by intense street-level flooding and powerful water rushing through the city. A huge cargo ship is dramatically carried inland between skyscrapers, creating a surreal apocalyptic atmosphere. Cars, streets, buildings, and city structures become overwhelmed by violent waves, debris, mist, and flooding. The camera uses cinematic wide shots, low-angle perspectives, tracking movements, and dramatic close-ups to emphasize the scale of destruction. Moody gray-blue lighting, heavy clouds, realistic water physics, atmospheric fog, and detailed environmental effects create a photorealistic Hollywood disaster-film look. The sequence maintains strong visual continuity and realistic motion throughout, ending with the city almost completely engulfed by water and mist.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-beanie-obscured",
+    "category": "提示词",
+    "title": "配件几乎遮住脸的直拍",
+    "body": "直拍近景。黑色罗纹毛线帽、大墨镜、白色有线耳机、拉链拉到顶的白羽绒服——脸几乎被配件吃掉，只剩一点下颌线。工业风室内，顶光软、阴影浅，手机普通焦段。@weiinberg 用 GPT Image 2.5（OpenAI 出图模型）做这条「故意藏脸」的街头肖像。\n\nNike 肩标、反光镜片、羽绒服褶皱都点名；情绪写的是务实、隐身、略带未来感。身份一旦用参考图锁死，换帽子颜色或外套就能批量出穿搭变体，比露全脸更有品牌片态度。\n\n所以呢：要街头品牌片气质，用配件把脸挡严，比露全脸更有态度。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/weiinberg/status/2101884475106021421"
+      }
+    ],
+    "prompt": "A straight-on close-up shot features the woemn in reference, almost entirely obscured by practical outerwear accessories: a black ribbed knit beanie, large reflective black sunglasses, and white wired apple earphones, paired with a high-collared, white puffer jacket zipped to the top. The jacket bears the Nike logo in black embroidery on the left shoulder. The scene is set in a brightly-lit, industrial indoor environment, with part of a high, cream-colored ceiling visible and some glossy metallic or photographic posters in the background. The lighting is bright with soft, diffuse overhead fill, creating no harsh shadows and only faint highlights on the glossy surfaces. Dominant colors are black, and neutral, with a few muted synthetic colors from the surroundings. The shot is captured with a smartphone camera in normal lens perspective, and there is moderate digital sharpening but no significant noise. The mood is urban, pragmatic. and intentionally obscured, with a modestly futuristic, incognito vibe.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-mural-anime-self",
+    "category": "提示词",
+    "title": "真人靠墙，身后是自己的二次元壁画",
+    "body": "真人靠在彩绘墙上：淡紫宽松衬衫、白背心、米白束脚裤，脚踝交叉，一手扶墙一手插袋。身后墙上画着动漫版自己——同款穿搭坐在彩虹上，一只眼眨眼笑。@Techbyhani 让 GPT Image 做 3:4 合成：前景真人锁上传脸，背景赛璐璐壁画。\n\n要求真人肤发布料写实，壁画扁平上色；户外自然光，三十五毫米街拍感。云朵、纸飞机、星星、蝴蝶和笑脸太阳堆在壁画里，但真人五官、肤色、发型不许改。适合做「我与二次元我」系列封面。\n\n所以呢：要「我与二次元我」同框，真人锁脸，壁画画同款眨眼版。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Techbyhani/status/2101880698969751630"
+      }
+    ],
+    "prompt": "Create a 3:4 photorealistic + illustrated mural composite. Use my uploaded face reference exactly for the real woman preserve her identity, facial features, skin tone, and hair without alteration.\n\nShow her standing in front of a colorful cartoon street-art mural, legs crossed at the ankle, one hand touching the wall and the other in her cream jogger pocket. She wears an open periwinkle-blue oversized shirt, white crop top, cream joggers, white sneakers, and light-blue crossbody bag.\n\nBehind her, paint a large anime-style version of the same woman sitting on a rainbow, wearing the same outfit, with one eye winking and a cheerful smile. Add a cute cloud, paper airplanes, stars, flowers, butterfly, smiling sun, rainbow, green hills, and mountains.\n\nNatural outdoor daylight, realistic skin/hair/fabric texture on the woman, flat cel-shaded colorful mural, 35mm street photography, sharp foreground detail, clean composition, 3:4 ratio.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-aaa-prop-sheet",
+    "category": "提示词",
+    "title": "AAA 道具三视图填空表",
+    "body": "米白棚拍一张宽图。左边百分之六十摆同一道具的正面、侧面、背面；右边百分之四十两处大特写——上面是主机构，下面是握把或铰链。@meAsifAi 在 Higgsfield 的 GPT Image 2.5 上交出可填空的 AAA 游戏道具设定表。\n\n方括号槽位包括物体名、材质（枪铁、旧铜、牛皮等）和六成主色、三成辅色、一成点缀。表面要诚实磨损：刀痕、油渍、指纹包浆。整张图一张出完，研究图之间留干净空隙。\n\n所以呢：要游戏设定图母版，换物体名和材质槽，左三视图右两特写一次出。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/meAsifAi/status/2101762733679296944"
+      }
+    ],
+    "prompt": "Using the uploaded reference as the design source, create ONE original [OBJECT, e.g. ceremonial revolver / antique brass diving helmet] as an ultra-high-end AAA cinematic 3D game prop sheet on a clean neutral off-white studio background. Keep the reference object's exact shape language, proportions and defining details, rebuilt as a production-ready hard-surface asset. Materials: [dark gunmetal, aged bronze, worn oxblood leather, composite]. Palette of 60% [MAIN], 30% [SECONDARY], 10% [ACCENT]. Surfaces carry honest wear — machining grooves, edge polish, scratches, carbon residue, oil staining, fingerprint patina.\n\nCOMPOSITION — one single wide 16:9 image. Left 60%: front view, 90-degree side view, and back or three-quarter view of the exact same object, identical in every detail. Right 40%: two large close-up detail studies — upper right the primary mechanism or face of the object, lower right a secondary detail such as grip, hinge, engraving or interior. Clean professional spacing with empty background between studies.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-banana-pink-cube-fashion",
+    "category": "提示词",
+    "title": "粉墙白方块上的街潮坐姿",
+    "body": "尘粉色墙，窗影斜切下来。女孩盘腿坐在白色长方块上，水洗黑短卫衣配尘粉工装裤，白低帮鞋，双手枕在脑后，侧脸轻笑。碎发贴脸，小圈耳环和细金项链点一下即可。@AIwithZeeshi 用 Nano Banana Pro 做这条棚拍街潮肖像。\n\n暖侧光、自然肤质、布料纹理写实；构图极简竖版，景深浅、背景干净。姿势库很稳——换墙色、换卫衣或工装色就能批量出片，适合当穿搭系列母版反复套。\n\n所以呢：要批量街潮棚拍，锁「粉墙白方块坐姿」，只换颜色和单品。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/AIwithZeeshi/status/2101889893370573105"
+      }
+    ],
+    "prompt": "Ultra-realistic lifestyle fashion portrait of a young woman sitting casually on a white rectangular cube against a soft dusty-pink studio background. She has naturally tousled dark brown hair loosely tied up, with a few soft strands framing her face, subtle natural makeup, small hoop earrings and delicate layered gold necklaces. She wears an oversized washed-black cropped sweatshirt, relaxed dusty-pink cargo pants, and clean white low-top sneakers.\n\nShe sits cross-legged with both arms raised, hands gently resting behind her head, looking slightly to the side with a soft natural smile and relaxed expression. Warm sunlight enters from the side, creating realistic window-frame shadows on the pink wall and subtle shadows on the floor. Editorial streetwear aesthetic, soft warm lighting, natural skin texture, realistic fabric details, candid pose, 4K photorealism, shallow depth of field, clean minimalist composition, vertical portrait.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-banana-fir-bouquet-editorial",
+    "category": "提示词",
+    "title": "单脚站姿抱冷杉花束",
+    "body": "灰棚里，她单脚点地保持平衡，怀里是冷杉枝、红浆果和小红蝴蝶结扎成的节日花束。黑西装外套、红不透明丝袜、黑高跟；侧顶光在身后投下软影。@dreamydigiarts 用 Nano Banana 2 做这条节日编辑风棚拍。\n\n要求保留参考脸的所有细节；花束针叶、哑光包装纸、红点缀都要纹理清楚；八十五毫米、大光圈、景深落在人和花束上。姿势加道具清单完整，适合年末视觉专题直接套用。\n\n所以呢：要节日大片感，写单脚平衡加花束细节，再锁侧顶光灰棚。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/dreamydigiarts/status/2101695378072703157"
+      }
+    ],
+    "prompt": "A hyper-realistic studio photo of a stylish woman standing on one leg in a graceful, balanced pose, holding a festive bouquet of fir branches decorated with red berries and small red bows. She wears a black oversized blazer, red opaque tights, and black high heels. Her long hair is sleek and straight, with elegant makeup that preserves all facial details from the reference: natural skin texture, precise contouring, expressive eyes, and defined features. Lighting: dramatic studio spotlight from above and slightly to the side, creating a soft shadow behind her on a neutral grey background, with realistic falloff and natural reflections on fabric and skin. The bouquet has rich texture — detailed needles, matte paper wrap, vivid red accents. Ultra-realistic details, crisp textures, natural fabric folds, accurate cast shadows, smooth gradients, high-end fashion editorial style. Camera: 85mm lens, f/2.8, ISO 100, studio photography, sharp focus on the model and bouquet, shallow depth of field.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-kling-freedom-chains-sunburst",
+    "category": "提示词",
+    "title": "挣脱锁链走向金色破云",
+    "body": "暴风雨云忽然裂开，金色体积光砸下来。白衫黑裤的女孩张开双臂往前走，手腕上的断链拖在身后溅出火花，黑蝴蝶成群飞向天光，湿地倒映暖色。@AIwithMinal 放出完整 Kling 3.0（可灵视频模型）竖屏提示，一镜成型的情绪大片。\n\n符号很清楚：锁链、蝴蝶、破云金光。肤发写实、高反差、浅景深、九比十六竖构图，适合当短视频封面或片头定场，不必再加旁白和字幕。\n\n所以呢：要竖屏「挣脱」封面，锁链加破云金光加黑蝶，一镜写完别加旁白。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/AIwithMinal/status/2101542662621016421"
+      }
+    ],
+    "prompt": "Ultra-realistic cinematic scene of a beautiful young woman walking forward through a dark, dramatic landscape as massive golden sunlight breaks through stormy clouds behind her. She has long flowing dark hair, wearing a loose white shirt and fitted black pants, arms stretched wide in a powerful expression of freedom and transformation. Broken heavy chains fall away from her wrists and trail behind her, glowing sparks and dust particles floating in the air, black butterflies flying toward the radiant golden sky. Wet ground reflecting the warm light, dramatic clouds, volumetric sun rays, mystical atmosphere, emotional and empowering mood, photorealistic skin and hair details, cinematic lighting, high contrast, shallow depth of field, HDR, 8K, professional movie still, ultra-detailed, vertical 9:16 composition.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-kling-leather-bomber-i2v",
+    "category": "提示词",
+    "title": "酒店走廊：皮夹克入场（图生视频壳）",
+    "body": "米白棚拍全身：栗棕中发、棕皮轰炸机夹克敞着毛领，里面米白罗纹背心微露腰线，炭灰阔腿裤，双手插袋，重心偏一条腿。@PrometheanAIX 先用这份形象提示在 Kling 3.0 合作片里锁角色，再拿图去驱动「酒店走廊入场」的图生视频。\n\n强调可见毛孔、真实发丝、皮革高光，拒绝塑料磨皮脸。环境极简、无道具；服装和站姿写到口袋拉链和裤褶。视频本身靠 I2V（用图驱动视频），镜头表不在这条里——这条负责把人定死。\n\n所以呢：要走廊入场有电影感，先出这份全身形象图锁角色，再丢给 I2V。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/PrometheanAIX/status/2101655066029502899"
+      }
+    ],
+    "prompt": "Create an ultra-realistic full-body women's fashion portrait of a beautiful young woman with refined model-like features, natural skin texture, visible pores, realistic hair strands, and believable anatomy. She has shoulder-length chestnut-brown hair, a soft center part, and a calm, confident expression. Preserve authentic fabric textures, subtle imperfections, and the natural appearance of real fashion photography, avoiding plastic skin, artificial smoothing, or an overly polished AI-generated look.\n\nPhotography & Cinematography\nClean high-end studio fashion photography with full head-to-toe framing, an eye-level camera perspective, and a 50–70mm lens aesthetic. Soft, diffused studio lighting creates gentle shadows, natural skin tones, realistic leather highlights, and clear fabric detail. Subtle contrast, neutral color grading, and crisp editorial sharpness.\n\nEnvironment\nMinimal off-white studio backdrop with a light-gray concrete floor and a subtle horizontal transition between wall and floor. Keep the setting clean, understated, and free of props or distractions.\n\nPose\nShe stands facing the camera with a relaxed asymmetrical stance, both hands tucked casually into her trouser pockets. Her weight rests primarily on one leg while the opposite leg angles slightly outward. Shoulders relaxed, hips subtly shifted, direct gaze, and a calm, self-assured expression.\n\nOutfit\nA cropped medium-brown leather bomber jacket with a soft taupe faux-fur collar, structured shoulders, zip-front closure, two zippered chest pockets, and elasticated cuffs. Wear it open over a fitted ivory-white ribbed tank top with a slightly gathered hem that exposes a small section of her midriff.\n\nPair with high-waisted charcoal-black wide-leg tailored trousers, featuring front pleats, belt loops, and a loose silhouette that drapes naturally over black low-profile leather shoes. Keep accessories minimal, emphasizing the contrast between the rugged leather jacket and refined contemporary tailoring.",
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "colmap-browser-webgpu",
+    "category": "视觉尝试",
+    "title": "浏览器里跑完 COLMAP，照片不出门",
+    "body": "把一堆现场照片拖进标签页，几分钟后点云和相机位姿自己长出来。这是前谷歌工程师做的 OfflineTools：把摄影测量神器 COLMAP（从多张照片重建三维）搬进浏览器，用 WebGPU（浏览器直接调显卡）加速，照片和结果都不离开本机。还能导出标准位姿、稀疏点云和关键点，接到高斯泼溅也能用。作者台架上，有时比原生 COLMAP 还快一点。2026-09-15 上了 Show HN。创作者常卡在「装环境再上云」；数据敏感的场景更不想把原片扔出去。\n\n所以呢：要本地、能录屏的三维重建，浏览器里拖照片就够。",
+    "links": [
+      {
+        "label": "落地页",
+        "url": "https://offlinetools.io/colmap-landing/"
+      },
+      {
+        "label": "在线 Workspace",
+        "url": "https://offlinetools.io/colmap"
+      },
+      {
+        "label": "Show HN",
+        "url": "https://news.ycombinator.com/item?id=49715142"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "caffenol-darkroom-toy",
+    "category": "视觉尝试",
+    "title": "网页暗房：显影罐到手遮光板",
+    "body": "上传一张数码照，看它在模拟显影罐里泡成负片，再在红灯下用剪卡做闪曝和遮挡——节奏像在玩实体放大机。这就是 caffenol.app：用 WebGPU（浏览器直接调显卡）做的黑白暗房玩具，本地存图、不用注册。2026-09-11 上了 Show HN，浏览器得支持 WebGPU 才跑得动。它不是又一个滤镜滑杆，而是把「手感流程」做成可拍成片的交互：显影、放大、遮挡一步步来。适合讲模拟感，也适合怼一键成片的懒法。创作者拍流程片时，观众能跟着动手。\n\n所以呢：想拍反 AI 一键成片，先让观众亲手闪一次曝。",
+    "links": [
+      {
+        "label": "在线 Demo",
+        "url": "https://caffenol.app/"
+      },
+      {
+        "label": "Show HN",
+        "url": "https://whnex.com/items/49663827"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "kvyverse-browser-3d-mcp",
+    "category": "小众工具",
+    "title": "先做真编辑器，再挂 MCP：反 Three.js 史莱姆",
+    "body": "作者吐槽「纯提示生成的 three.js 根本改不动」，于是先做了浏览器里的真场景编辑器 Kvyverse，再挂上 MCP（让 AI 调外部工具）。代理能改层级、写脚本、截图，改动能立刻在视口里看见。示范是一条冬夜林道 sakha-winter-road：点物体、写行为，不是只会吐黑盒代码。npm 上的 @kvyverse/mcp 到 0.6.0，约五十六个工具；作者 2026-09-19 发了 X 帖。叙事是「工具优先、MCP 第二」——比又一个 vibe-code 脚手架更可写。\n\n所以呢：AI 三维想可维护，先给它一扇能看见的编辑器门。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://kvyverse.com/"
+      },
+      {
+        "label": "示范场景",
+        "url": "https://kvyverse.com/sakha-winter-road"
+      },
+      {
+        "label": "npm MCP",
+        "url": "https://www.npmjs.com/package/@kvyverse/mcp"
+      },
+      {
+        "label": "作者 X 帖",
+        "url": "https://x.com/vladkrutenyuk/status/2101339200536641994"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "blender-lab-mcp",
+    "category": "小众工具",
+    "title": "官方 Blender Lab MCP：用自然语言抠场景",
+    "body": "对着 Classroom 基准场景问「从相机看多边形最多却最小的物体」，它画出离群点图，指出远处的字母牌其实可以变成贴图。这是 Blender 官方 Lab 的轻量 MCP（让 AI 调外部工具）：连上后能查场景、改命名、给几何节点写注释。需要 Blender 5.1 以上、Lab 插件和独立 MCP 服务，和社区热门的 ahujasid 桥不是同一套。官方也提醒：会裸跑大模型写的代码，没有安全沙箱。官方下场比又一个两万星社区桥更有新闻点。\n\n所以呢：三维助手若要背书，先看官方愿不愿亲自挂 MCP。",
+    "links": [
+      {
+        "label": "Lab 页面",
+        "url": "https://www.blender.org/lab/mcp-server/"
+      },
+      {
+        "label": "源码",
+        "url": "https://projects.blender.org/lab/blender_mcp"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "xorcery-webgpu-bit-hacks",
+    "category": "视觉尝试",
+    "title": "让 GPU 自己挖出位运算黑科技",
+    "body": "给定一个目标函数和允许的操作，GPU 从短到长扫程序空间，再对全部约四十二亿种输入验一遍——像看着超级优化器在浏览器里挖矿。这是 Xorcery：用 WebGPU（浏览器直接调显卡）穷举最短直线程序，帮你「重新发现」经典 bit hack，还能导出 C、Rust、JS、WGSL。大约 2026-09-13 上了 HN。视觉上是「GPU 在思考」的戏感，内容上能讲算法考古和性能迷信：那些口口相传的位运算捷径，原来可以重新搜出来。适合硬核创作者向。\n\n所以呢：要拍 GPU 在想事儿，别只堆光效，让它挖出一行黑科技。",
+    "links": [
+      {
+        "label": "在线 Demo",
+        "url": "https://xorcery.vercel.app/"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "gpu-lexer-webgpu",
+    "category": "视觉尝试",
+    "title": "27KB 小模型，在 GPU 上猜语法高亮",
+    "body": "把十份 three.min.js 丢进页面，浏览器里量出比 Shiki 快一个数量级的高亮耗时，旁边还有和九十八种语言的一致率表。这是 Vercel Labs 的 gpu-lexer：不用语法表，一个约四万参数的 WebGPU（浏览器直接调显卡）模型给任意语言标 token 类型，体积大约二十七 KB。GitHub 仓库 vercel-labs/gpu-lexer，HN 2026-09-09 约一百二十一分，星标五十多。它把「模型当基础设施」做成可摸的微 demo。适合讲 WebGPU 不止于炫光效。\n\n所以呢：想证明小模型能当基建，先让它在浏览器里给代码涂色。",
+    "links": [
+      {
+        "label": "在线 Demo",
+        "url": "https://gpu-lexer.vercel.app/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/vercel-labs/gpu-lexer"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "speedball-gi-ddgi",
+    "category": "视觉尝试",
+    "title": "浏览器 DDGI：追着 Cycles 味道跑 60 帧",
+    "body": "打开 Sponza 演示，探针网格在场景里采样间接光，拖镜头时阴影边缘还带着离线渲染的味道。这是 Speedball GI：给 three.js 的 WebGPU（浏览器直接调显卡）加上 BVH 追踪的动态漫反射全局光（DDGI 大概就是这套说法），目标「看起来像离线、跑起来像实时」。作者在 X 上对比过 Blender Cycles。npm 包 speedball-gi 到 0.7.x，仓库约二十二星；2026-09-20 前后 DDGI 讨论又热了一波。创作者常问网页三维能不能有离线味——这是可点开的答案。\n\n所以呢：要拍网页全局光，找能拖着跑、还像 Cycles 的那种。",
+    "links": [
+      {
+        "label": "Sponza Demo",
+        "url": "https://cl0nazepamm.github.io/speedball/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/cl0nazepamm/speedball"
+      },
+      {
+        "label": "npm",
+        "url": "https://www.npmjs.com/package/speedball-gi"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "tsl-graph-editor",
+    "category": "视觉尝试",
+    "title": "给 TSL 做节点图：拖完导出 Three.js",
+    "body": "像在虚幻里拼材质，但目标后端是 Three.js 的 TSL（节点着色语言），拖完一键导出干净 JS。这是 TSL Graph：浏览器节点编辑器，二百多个节点、子图、MRT 后处理、分享链接都齐了，还能塞 Code 和 WGSL 节点，实时预览跟着变。地址 tsl-graph.xyz，仓库 bhushan6/tsl-editor 约三十四星。TSL 是 three 官方方向，节点编辑器降低「只会抄示例」的门槛。适合当教程片和对比片素材，也方便和别的开源节点器横评。\n\n所以呢：想让观众学会网页材质，先让他们拖一张能导出的节点图。",
+    "links": [
+      {
+        "label": "在线 Demo",
+        "url": "https://www.tsl-graph.xyz/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/bhushan6/tsl-editor"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "figma-ui-mcp-canvas",
+    "category": "小众工具",
+    "title": "不用 Figma API Key：本地画布双向 MCP",
+    "body": "对 Claude 或 Cursor 说「做一个设置页」，帧、文字、自动布局直接在 Figma Desktop 里长出来，还能再读回来当设计系统规则。这是 TranHoaiHung 的 figma-ui-mcp：通过桌面插件让代理在画布上直接画 UI，也能读结构、截图，全程走本机，不用官方 API Key。GitHub 约二百四十二星，工具含写、读、文档和规则。对比官方 Figma MCP（偏设计到代码），这边是「代理当设计师」的画布向。更适合自媒体演示。\n\n所以呢：想拍 AI 在 Figma 里动手，连本地画布比连云端 Key 更直观。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/TranHoaiHung/figma-ui-mcp"
+      },
+      {
+        "label": "npm",
+        "url": "https://www.npmjs.com/package/figma-ui-mcp"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "mcp-inkscape-tspi",
+    "category": "小众工具",
+    "title": "Inkscape MCP：代理和人共编同一张矢量海报",
+    "body": "同事懒得画科学海报，作者让代理在 A0 画布上排版，再人手挪标题——修订冲突用 revision 挡回去。这是 mcpInkscape：给代理类型化的画矩形、改字、导出能力，可选原生桥接到正开着的 Inkscape 窗口一起改。PyPI 上 mcpinkscape 0.0.2 于 2026-09-13 上传，还带 skill 与 review 工作流，演示了两张 A0 海报。重点是留下能继续改的 SVG，不是生成一张死 PNG。和 CAD 类 MCP 是同一逻辑。\n\n所以呢：交付物要还能改，就让代理写矢量，别只收一张位图。",
+    "links": [
+      {
+        "label": "长文",
+        "url": "https://www.tspi.at/2026/09/13/llminkscape.html"
+      },
+      {
+        "label": "PyPI",
+        "url": "https://pypi.org/project/mcpinkscape/"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "miri-gpu-playground",
+    "category": "视觉尝试",
+    "title": "写普通程序，编译成 WebGPU 粒子海",
+    "body": "旁边是源码，中间是流体、光线步进、神经网络在学习——你没写一行 WGSL，却看到 GPU 在动。这是 Miri 语言的 GPU Playground：同一段带 gpu 关键字的代码编译成 WGSL，页面上直接跑曼德布洛特到黑洞、虫洞。地址在 miri-lang.org/gpu-demos，还有单独的 Mandelbrot 页可点。语法里有 gpu var、forall、gpu frame，普通程序写法就能喂显卡。「不用写着色器也能玩 GPU」是很好的科普钩子。适合做系列短视频片头。\n\n所以呢：想带路人进显卡世界，先让普通代码自己长成粒子海。",
+    "links": [
+      {
+        "label": "Playground",
+        "url": "https://miri-lang.org/gpu-demos/"
+      },
+      {
+        "label": "Mandelbrot",
+        "url": "https://miri-lang.org/gpu-demos/mandelbrot/"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "krea-mcp-agent",
+    "category": "小众工具",
+    "title": "把整个 Krea 塞进 Claude / Cursor",
+    "body": "在 Claude 里说「做一支香水发布短片」，它选模型、生成分镜、再动画，结果回贴进同一条对话。这是 Krea 官方托管的 MCP（让 AI 调外部工具）：对话里直接出图、出视频、升到约二十二 K，还能跑你训练过的风格和多步工作流。页面约 2026-09-05 更新，支持 Claude、ChatGPT、Cursor、OpenClaw 等，走 OAuth。对自媒体是「少开一个标签页」的生产力钩。可对比开源画布 MCP 与云端创作 MCP 的分工：一个管本地画布，一个管整套工作室。\n\n所以呢：创作链路想少切窗口，就把整套工作室挂进对话。",
+    "links": [
+      {
+        "label": "MCP 页面",
+        "url": "https://www.krea.ai/mcp"
+      },
+      {
+        "label": "文档",
+        "url": "https://www.krea.ai/docs/developers/mcp"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "openshaders-registry",
+    "category": "视觉尝试",
+    "title": "抢用户名，先领一枚以名生成的着色器",
+    "body": "打开 explore，一排从用户名长出来的抽象图案；仓库挂着 WebGL 和 WebGPU（浏览器直接调显卡）徽章，约二百四十四星，平台却还写着 coming soon。这是 OpenShaders：想做网页着色器的开源大本营，先 claim 用户名，立刻得到一枚可复制的名生 shader。规划里有 live editor、React 组件、像 shadcn 那样的终端安装。大约 2026-09-10 前后推 claim 和 explore。「以名为种」的传播玩法很适合创作者互粉。也要盯着它会不会成为 shaders.com 之外的开源路。\n\n所以呢：社区还没成，先用用户名当种子把人拉进来。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://openshaders.com/"
+      },
+      {
+        "label": "Explore",
+        "url": "https://openshaders.com/explore"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/openshaders/openshaders"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
+    "id": "bandinopla-tsl-node-editor",
+    "category": "视觉尝试",
+    "title": "开源 TSL 可视化节点：GitHub Pages 就能玩",
+    "body": "打开 GitHub Pages，控制台可能先报错要刷新，但节点一连，three 材质预览跟着变。这是 bandinopla 的 three.js-visual-node-editor：把 TSL（Three.js 节点着色语言）材质图放在浏览器里拼，还是 alpha，仓库约六十七星，但能现场试错、也能 fork。和打磨更完整的 TSL Graph 形成「产品打磨 vs 开源可 fork」双镜头。适合工具横评短内容：一边讲易用，一边讲可改。创作者做对比片时，两条线都有得拍。\n\n所以呢：横评节点编辑器，记得带一个能 fork 的开源对照。",
+    "links": [
+      {
+        "label": "在线 Demo",
+        "url": "https://bandinopla.github.io/three.js-visual-node-editor/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/bandinopla/three.js-visual-node-editor"
+      }
+    ],
+    "prompt": null,
+    "date": "2026-09-21",
+    "added": "2026-09-21T14:20:00+08:00"
+  },
+  {
     "id": "chatgpt-obi-ad-cross-site",
     "category": "好玩AI",
     "title": "你在别的网站逛什么，ChatGPT 广告像素也跟着记",
