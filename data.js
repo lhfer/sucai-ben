@@ -1,6 +1,467 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-21T14:30:00+08:00",
+  "updated": "2026-09-21T18:55:00+08:00",
   "items": [
+    {
+      "id": "meta-glasses-kenya-intimate",
+      "category": "痛点",
+      "title": "浴室柜台上的智能眼镜：私密画面被送到肯尼亚给人标注",
+      "body": "加州用户把 Meta 智能眼镜搁在浴室柜台上，后来发现家人洗澡、如厕的照片出现在相册里。洛杉矶另一名用户在卧室私密时刻也误触了助手。九月十八日《洛杉矶时报》报道：七十多人把 Meta 告上北加州联邦法院，约两百三十页诉状称，说「Hey Meta」或误触，就会把洗澡、如厕、性爱、输密码的音视频送到肯尼亚承包商，给低薪工人给 AI 打标签。\n\n瑞典媒体二月曾访谈三十多名标注工与前 Meta 员工，有人说本该模糊的脸有时仍清晰可见。原告 Steven Beltran 说眼镜「一天误触两次」。律师 Tina Wolfson 的话更直白：以为酷炫的人，不知道每次开 AI 就把视频送去训模型。并行伊利诺伊州诉状还指控用公域脸书照片训人脸识别；Meta 称会过滤标识信息。\n\n所以呢：穿戴 AI 的隐私账，已经从「灯亮了吗」变成「有没有人在肯尼亚看过你洗澡」——自媒体可拍「眼镜搁哪才安全」。",
+      "links": [
+        {
+          "label": "Los Angeles Times",
+          "url": "https://www.latimes.com/business/story/2026-09-18/meta-glasses-captured-shared-intimate-images-without-users-consent-lawsuit-claims"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:55:00+08:00"
+    },
+    {
+      "id": "la-county-ai-datacenter-ban",
+      "category": "痛点",
+      "title": "洛杉矶县规划局长一纸备忘录：县属地先别盖 AI 机房",
+      "body": "圣盖博谷居民开会反对蒙特利公园旁的 Saturn Street 机房方案。九月十七日，洛杉矶县区域规划局长 Amy Bodek 发备忘录：未并入市的县属地区，立刻禁止新建大型 AI 数据中心，等区划改完再说。县监事会主席 Hilda Solis 说，四月动议回应居民对公共健康与环境的担忧，全票通过；下一步要把禁止写入区划条例。\n\n蒙特利公园市此前已对数据中心做过四十五天暂停并延长，六月选民通过 Measure NDC，直接禁止机房（除非日后公投废止），被报道称为加州首例。邻近的 Industry 市电池储能与商场地块争议、El Monte 与 Baldwin Park 一年期禁令，同属「No Data Centers SGV」联盟战场。\n\n所以呢：硅谷公司总部旁边的大城市县，用规划局长的笔尖先把铲子按住——不是等电费账单来了再吵，是先把「能不能盖」关掉。",
+      "links": [
+        {
+          "label": "ABC7",
+          "url": "https://abc7.com/post/la-county-issues-temporary-ban-data-centers-unincorporated-areas/19852541/"
+        },
+        {
+          "label": "MyNewsLA",
+          "url": "https://mynewsla.com/life/2026/09/17/la-county-issues-temporary-ban-on-data-centers-across-unincorporated-areas/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:53:00+08:00"
+    },
+    {
+      "id": "manhattan-bragg-deepfake-seize",
+      "category": "痛点",
+      "title": "曼哈顿检方扣下十二个明星深伪色情站：约一千二百名受害者",
+      "body": "网站首页换成黑底封条：THIS DOMAIN HAS BEEN SEIZED。九月十四日，曼哈顿地区检察官 Alvin Bragg 宣布：依据纽约州最高法院搜查令，扣押十二个域名——这些站售卖、传播约一千二百人（绝大多数是女性）的非自愿 AI 色情深伪，受害者含网红、演员、运动员、音乐人、政治人物。调查从一名受害者发现自己被深伪开始，检方呼吁更多人向网络犯罪局报案。\n\nWIRED 称这或为有记录以来最大规模有害深伪色情站执法行动。部分视频播放数万次；站点自称上线自二零一八年，大量内容疑似转载自已倒闭的 MrDeepFakes。至少两站给民选官员建档并挂操纵视频；研究者称站上出现五十六名欧洲政要提及或出镜。检方未公开站名，对站主与上传者的调查仍在进行；联邦 Take It Down Act 部分条款支持执法扣站。\n\n所以呢：从「呼吁平台删」到州检方直接拔域名——深伪色情第一次以「上千受害者、一打站点」进执法新闻，而不只是单人维权帖。",
+      "links": [
+        {
+          "label": "WIRED",
+          "url": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/"
+        },
+        {
+          "label": "Manhattan DA",
+          "url": "https://manhattanda.org/new-york-seizes-12-celebrity-deepfake-websites/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:51:00+08:00"
+    },
+    {
+      "id": "cape-town-equinix-water-challenge",
+      "category": "痛点",
+      "title": "开普敦住房社群告 Equinix：机房一年水够一万八千户",
+      "body": "Housing Assembly 主席 Kashiefa Achmat 对媒体说：社群成员排队等水、等电、等几十年才盼到像样住房——现在巨型机房想插队拿走土地、水与能源。九月十九日前后报道：开普敦住房社群与英国公益律所 Foxglove，把两座拟建 Equinix 机房告上人权程序，并请南非人权委员会调查，要求披露水电用量与社区回馈。\n\n团体估算拟议一百七十四兆瓦设施年用水逾四十四亿升，约等于一万八千户家庭一年用量。开普敦二零一八年几乎「Day Zero」断水，记忆还在。Equinix 称可持续设计是起点，但尚未公布与本地对手 Teraco 相当的用水效率数字；八月披露南非扩张预算约七十五亿兰特，开普敦与约翰内斯堡地块视需求再建。Achmat 呼吁全国暂停超大型机房。\n\n所以呢：全球南方第一次把「机房插队抢水」写进大陆级人权叙事——AI 基建冲突不再只是美欧郊区电费故事。",
+      "links": [
+        {
+          "label": "iAfrica",
+          "url": "https://iafrica.com/cape-town-groups-file-legal-challenge-against-equinix-data-centres-demand-national-moratorium/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:49:00+08:00"
+    },
+    {
+      "id": "effingham-openai-camellia-suit",
+      "category": "痛点",
+      "title": "佐治亚三居民告县政府：OpenAI 两千亿机房区划「闭门改」",
+      "body": "Port Wentworth 人行天桥上，Protect Effingham 志愿者 Evan Karp 把横幅拉链固定在四十英尺鹿网上，冲着二十一号公路晚高峰挥手要流量。法庭里，原告是医生 Michelle Finch-Mincey、Lehman Mincey Jr. 与 Raymond Carver。九月三日，三人在 Effingham 高等法院起诉县政府：给 OpenAI 约一千四百英亩 Project Camellia 改区划时，没按规定听证，还签了保密协议把居民蒙在鼓里。\n\n诉状称条例把「数据中心」等约四百五十项新用途塞进工业区许可，却跳过规划委员会与公开听证；县官员与 OpenAI 签 NDA、甚至提供居民私人信息，代理律师强调地方自治也是「人民主导」。项目报道口径约两百亿美元。OpenAI 与 Georgia Power 不是被告——居民先打的是「你偷偷改区划」这一仗。九月十六日前后，志愿者继续在天桥引流到网站汇集信息公开请求。\n\n所以呢：机房还没通电，程序合法性已经进法院——小镇反 AI 基建，第一枪往往打在听证桌上，不是机柜上。",
+      "links": [
+        {
+          "label": "GPB",
+          "url": "https://www.gpb.org/news/2026/09/03/residents-sue-effingham-county-over-illegal-zoning-practices-and-secret-dealmaking"
+        },
+        {
+          "label": "CBS Atlanta",
+          "url": "https://www.cbsnews.com/atlanta/news/effingham-county-residents-sue-over-zoning-change-tied-to-20-billion-openai-data-center/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:47:00+08:00"
+    },
+    {
+      "id": "anthropic-settlement-publisher-grab",
+      "category": "痛点",
+      "title": "Anthropic 十五亿和解开支票：出版社把作者该拿的份也勾走了",
+      "body": "作家打开和解门户「分歧页」，看见 HarperCollins 对自己九十年代已退权的小说仍宣称分成；有人发现素未谋面的「Stephen Edgington」对全部作品勾百分之百；David Pogue 的 For Dummies 被 Wiley 按「教育类」要走九成。九月初起，Anthropic 约十五亿美元盗版书训练和解进入分配阶段。\n\n规则本该简单：在印书作者与出版社五五开，自出版或二零二二年八月十日前已退权作者可拿全额。Writer Beware 持续更新：多家大社对退权书错误主张、对在印书误勾百分之百；部分已承认错误并请管理员回改，争议窗口从三十天延到六十天。Authors Guild 公开教作者登录纠错；另有经纪人被系统列成权利人、教育类出版社主张七成五到九成、甚至出现陌生人抢申。门户与税表故障频发。\n\n所以呢：打赢 AI 公司不等于钱到账——和解第二战场是出版社与骗子在表格上抢作者那一半。内容可讲「胜利支票上的第二巴掌」。",
+      "links": [
+        {
+          "label": "Writer Beware",
+          "url": "https://writerbeware.blog/2026/09/04/anthropic-copyright-settlement-publishers-are-making-incorrect-claims-on-authors-payouts/"
+        },
+        {
+          "label": "Authors Guild",
+          "url": "https://authorsguild.org/news/important-information-regarding-anthropic-copyright-settlement-claim-notices/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:45:00+08:00"
+    },
+    {
+      "id": "san-jose-datacenter-yin",
+      "category": "痛点",
+      "title": "硅谷最大城里居民反问：机房凭什么用我们的电和水",
+      "body": "圣何塞 Equinix SV11 机房门外，路透记者拍到机柜楼。草根联盟 I Love San Jose 带头人 Ellina Yin 说：公司须证明「为什么配得上我们的资源、怎么回馈社区」，并推动更严的公众审查与能源用水透明、健康环境影响研究。九月十七日路透报道：这座近百万人口的加州第三大城市，去年与 PG&E 签协议加快向数据中心等大用电户供电；市府估算每座新机房年税约三百万到六百万美元。\n\n市长 Matt Mahan 称答案不是全面叫停，但居民质疑电费、清水、生活质量「非常公平」。背景里，纽森待签多份州级机房成本与透明法案，湾区空气品质管理区也被生物多样中心联盟请愿加强柴油备用机监管；Data Center Coalition 则称法案不公平单挑机房。\n\n所以呢：AI 公司大本营门口的居民联盟，把「竞争力叙事」按回具体资源账单——这是硅谷自己的邻避，不是外州乡下。",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/silicon-valley-ai-data-center-boom-meets-local-resistance-2026-09-17/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:43:00+08:00"
+    },
+    {
+      "id": "texas-abbott-water-survey",
+      "category": "痛点",
+      "title": "德州州长动手罚：机房不报用水，环评许可直接不给",
+      "body": "德州刚喊停新机房接电网、要查清老板与税补之后，州长 Greg Abbott 办公室声明：「包括数据中心在内的主要用水户，似乎因未向水资源发展局提供法定用水信息而构成民事与刑事违法。」九月十四日路透报道：州长指示 Texas Water Development Board，对拒报用水细节的数据中心等大户追究民事甚至刑事责任。\n\nTWDB 正对机房做用水与预期消耗调查；逾期不交调查表，就不发或不续环境许可——报表变成拿不到环评的硬门槛。这叠在八月接电网暂停与 ERCOT 巨量排队审查之上：上次是卡电，这次是卡水。德州是全球 AI 基建增长最快区域之一，阿比林等地 OpenAI 相关机房曾被广泛报道。\n\n所以呢：先卡电、再卡水报表——州长把「你到底喝多少水」变成拿不到许可的硬门槛，比倡议书狠。",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/texas-moves-penalize-data-centers-water-violations-2026-09-14/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:41:00+08:00"
+    },
+    {
+      "id": "infopro-creteil-ai-editors",
+      "category": "痛点",
+      "title": "法国克雷泰伊法院急刹：AI 换掉文字编辑的裁员先停一部分",
+      "body": "专业媒体集团 Infopro Digital 要砍十九个记者编辑秘书岗、改设五个「带 AI 的主编」；约两百五十名记者春天已罢过工。九月十五日，克雷泰伊司法法院部分中止解雇计划中涉及八名在职记者的第一段——认为缺乏「真实情况」，继续推进对多类员工身心健康构成严重且明显风险。\n\n管理层五月向 Groupe Moniteur / Gisi 的职工代表委员会宣布裁员，覆盖约二十六份专业报刊；工会指集团业绩行业亮眼却仍要降薪资成本。欧洲记者联合会与 SNJ 等工会称，这是法国记者对抗「用 AI 当裁员借口」的首场法律胜仗；资方保留上诉权。六月巴黎等地逾千记者示威，Prisma-Media 等同步有减员计划。\n\n所以呢：AI 裁员在法国第一次被法院用「健康风险」急刹——不是禁 AI，是不许没试跑、没共商就拿生成式当裁人许可证。",
+      "links": [
+        {
+          "label": "EFJ",
+          "url": "https://europeanjournalists.org/blog/2026/09/17/france-first-legal-battle-won-for-journalists-of-the-infopro-digital-press-group-threatened-with-dismissal-in-favor-of-ai/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:39:00+08:00"
+    },
+    {
+      "id": "missouri-capitol-dc-moratorium",
+      "category": "痛点",
+      "title": "密苏里州议会大厅两百人举绿纸：全州先停超大型机房",
+      "body": "Festus 的 Gabe Cotton 说本镇选民已投票赶走挺机房的市议员；堪萨斯城教师 Clare Barclay 在台上说，孩子们感到环境、就业与民主的未来不确定，别为短期利润卖掉他们。九月十六日否决会周，约两百人挤进密苏里州议会圆形大厅，举绿纸象征「投赞成票通过暂停」，随后游行到州长官邸递请愿书；一名三十一岁堪萨斯城男子因不听劝离开车道被捕。\n\n诉求含全州暂停超大型数据中心、健康环境护栏、禁止税惠、透明与社区同意。州长 Mike Kehoe 多次宣传机房好处；州级去年仅一次相关听证，二零二七年会期是否立法未明。原定众院数据中心听证被取消。\n\n所以呢：地方先罢免挺机房市议员，再把战场抬进州议会大厅——反对派开始要「全州暂停键」，不只是个案邻避。",
+      "links": [
+        {
+          "label": "STLPR",
+          "url": "https://www.stlpr.org/government-politics-issues/2026-09-16/data-center-protesters-fill-missouri-capitol-seeking-a-statewide-construction-moratorium"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:37:00+08:00"
+    },
+    {
+      "id": "spartanburg-valara-halt-hearing",
+      "category": "痛点",
+      "title": "南卡斯巴达堡：居民告县府把三十亿机房当「小项目」躲听证",
+      "body": "机房两英里外住户 Evan Mulch 在 Humans First 全国反机房巴士巡演第六站发言：「这桩交易从一开始就见不得光。」州众议员 Thomas Beach 路过工地说尘土噪音大、水电与健康风险没人答。九月十七日前后，法官就是否在诉讼期间叫停 South Pine Street 沿线近三十亿美元 Valara 数据中心建设举行听证，宣布择期裁定，暂不立刻停工——工地仍在施工。\n\n争议核心：县把项目定为「次要开发」而非「主要开发」——后者须规划委员会与公众审查，前者走职员审批。Humans First 的 Data Center Revolt 巴士巡演三十五站，斯巴达堡为第六站；县议会拟对一年期数据中心暂停令投第三读。州众议员 April Cromer 等提案要求机房自负电力与供水基建成本，计划明年一月再提交。\n\n所以呢：全国巴士巡演停在工地门口的同一周，法庭在争 minor/major 分类——反机房已经学会同时打舆论、立法、程序诉讼三条线。",
+      "links": [
+        {
+          "label": "FOX Carolina",
+          "url": "https://www.foxcarolina.com/2026/09/17/judge-consider-halting-spartanburg-data-center-construction-thursday/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:35:00+08:00"
+    },
+    {
+      "id": "philly-thrive-dc-moratorium",
+      "category": "痛点",
+      "title": "费城市政厅外百人要三年暂停：炼油厂旧址别再变 AI 机房",
+      "body": "Philly Thrive 董事会主席 Sonya Sanders 与联合主任 Shawmar Pitts 对着镜头说：西南费城低收入黑人社区已为 PES 炼油厂付过健康代价，不能再让 AI 机房无规矩落地。九月十四日 WHYY 报道：No Data Centers in Philly 联盟约一百人在市政厅外集会，请愿签名已超两千四百，要求三年暂停直至严格地方法规到位。\n\n市规划委称东北机场附近市有地与前 PES 炼油厂 Bellwether District 两处「有潜力」承载 AI 机房，但尚无正式提案。州长 Josh Shapiro 上月签行政令缓释机房影响；费城本地尚无专门区划；市长 Cherelle Parker 称将签行政令正式化跨部门工作组写强制标准。Clean Air Council 警告尚无规则保护空气、用水与噪音；宾州公用事业委员会独立报告也曾警示大数据中心需求可能导致限电。\n\n所以呢：还没图纸就上街——环境正义社区把「潜力选址」当成警告，要的是三年暂停键而不是事后补救。",
+      "links": [
+        {
+          "label": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-protest-data-centers-city-hall/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:33:00+08:00"
+    },
+    {
+      "id": "chimelong-agibot-embodied-park",
+      "category": "跨行业",
+      "title": "珠海长隆：三百台智元机器人把游乐园变成具身智能试验场",
+      "body": "游客进园先碰到会茶艺的人形机器人，再看空中特技表演；酒店、导览、零售柜台到处是能对话能动手的机器人岗。九月二十日，智元机器人与长隆在珠海横琴「长隆太空飞船」乐园开园，称全球首个大规模具身智能主题园。开园日部署智元全系列超三百台机器人，一百多个互动点覆盖演艺、科教研学、导览购物、服务零售、智能伴游、酒店服务、体育竞技七大场景。\n\n乐园宣称首个 5G-A 赋能具身智能文旅规模应用，并上演首场大型人机共舞与机器人空中特技。开业以来接待超千万游客。行业观察称意义不在「机器人进乐园」本身，而在高频、复杂、突发的人机交互数据。\n\n所以呢：文旅不是玩具展，是具身智能最难的考试场——人多、突发、要好玩。内容角度：中国用主题公园给机器人「高考」。",
+      "links": [
+        {
+          "label": "Global Times",
+          "url": "https://www.globaltimes.cn/page/202609/1370949.shtml"
+        },
+        {
+          "label": "People's Daily",
+          "url": "http://en.people.cn/n3/2026/0921/c90000-20502063.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:32:00+08:00"
+    },
+    {
+      "id": "nigeria-rhv-telerobotic-nephrectomy",
+      "category": "跨行业",
+      "title": "尼日利亚：医生在数百公里外远程切掉癌肾",
+      "body": "手术室里病人躺着，主刀医生却在另一座城市对着控制台操作，记者在 Redeemer’s Health Village 电视墙上看直播。九月二十日，RHV 与 RoboMed Global、Nisa Premier Hospital 用 Toumai 控制台，完成尼日利亚据称首例远程机器人右肾癌根治术——患者在阿布贾，术式是远程辅助机器人右肾根治性切除（癌肿）。\n\n手术约三小时，期间短暂停机检查设备；患者术后状态良好，预计二十四小时内出院。RHV CEO 称此为西非首例远程手术，并计划建机器人学院，两年培训约一百五十名外科医生。非洲医疗长期依赖专家飞入或病人出国——这次方向反过来：专家坐镇控制台，病人就在本国病床上。\n\n所以呢：非洲医疗旅游的反向故事——专家不用飞过去，病人也不用出国。内容冲突点：「距离不该决定谁能做安全手术」。",
+      "links": [
+        {
+          "label": "Premium Times",
+          "url": "https://www.premiumtimesng.com/health/health-news/910970-nigerian-hospitals-collaborate-to-perform-tele-robotic-surgery.html"
+        },
+        {
+          "label": "Prime Post",
+          "url": "https://www.primepost.ng/2026/09/20/nigeria-records-first-tele-robotic-surgery-in-west-africa/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:30:00+08:00"
+    },
+    {
+      "id": "vx-shenzhen-metro-fresh-robots",
+      "category": "跨行业",
+      "title": "深圳地铁六十一站：补货机器人把生鲜塞进站内小店",
+      "body": "早高峰地铁站里，一台小车绕过乘客、过闸、坐电梯，把一箱还带着冷气的草莓送到站内便利店后门。九月十七日报道：顺丰系生鲜物流 VX Logistics 已把地铁站零售补货机器人扩到深圳六十一个站点，进入日常运营而非单点演示。\n\n机器人与 OTWB 管理平台、物联网冷链温控联动，覆盖入库、质检、运输到站内最后一公里。地铁站内部通道对货车不友好，机器人走乘客动线完成补给；鲜果货架期短，延误就是损耗。VX 称冷链网络覆盖二十九城、约五十个物流园、两百九十五万平方米、超一百八十万托盘位，并服务佳沛、Driscoll’s 等品牌。\n\n所以呢：不是「机器人送外卖」那种噱头——是城市基础设施本身变成冷链通道。内容角度：地铁不只运人，也开始运草莓。",
+      "links": [
+        {
+          "label": "IN Supply",
+          "url": "https://in-supply.co.uk/vx-logistics-scales-metro-delivery-robots-across-shenzhen/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:28:00+08:00"
+    },
+    {
+      "id": "lululemon-wuhan-sf-rfid-hub",
+      "category": "跨行业",
+      "title": "lululemon 武汉仓：货进门一秒建档，RFID 当整栋楼的神经系统",
+      "body": "一箱瑜伽裤过 RFID 隧道拱门，几秒内每件衣服都有唯一身份，后面的分拣、存储、退货全跟着这个身份跑。九月十八日 RFID News 报道：lululemon 武汉物流中心九月十六日开业，为中国第三仓，与顺丰合作。入库经 RFID 隧道读头批量识别电子产品码，无需人工扫码；配合体积称重扫描、卸载机器人与自动导引车。\n\n存储用 AirRob 立体系统，称密度约传统仓三倍、超四千箱每小时；退货一百六十多个工位高速分拣。开业时承担约一半中国履约，满载后拟主供十八省八十五店，电商区号称百分之九十九次日达。另有报道 X Square 的 QUANTA 人形开始入驻作业。\n\n所以呢：运动品牌的战争不在门店橱窗，在仓库门口那一秒读码。内容角度：RFID 不是标签，是整栋楼的「身份证系统」。",
+      "links": [
+        {
+          "label": "RFID News",
+          "url": "https://www.rfidnews.co.uk/2026/09/18/lululemons-wuhan-logistics-centre-opens-with-automation-and-end-to-end-rfid-for-footwear-and-apparel-supply-chain/"
+        },
+        {
+          "label": "SF Express",
+          "url": "https://www.sf-express.com/chn/sc/news/416"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:26:00+08:00"
+    },
+    {
+      "id": "eacon-1500-bev-mining-haul",
+      "category": "跨行业",
+      "title": "易控超一千五百台电动无人矿卡：充电也要自己排队",
+      "body": "准东露天煤矿，一百二十台电动无人矿卡围着二十八个充电位自己找空位对桩，充完电再回采掘面拉煤。九月三日 International Mining 报道：易控无人驾驶方案已装上超一千五百台纯电动矿卡，约占其无人车队百分之四十二；柴油混动百分之四十一、甲醇混动百分之十六、传统内燃机不到百分之一。\n\n二零二六年三月约八百台纯电，不到半年近乎翻倍。调度系统要兼顾电量、能耗预测、充电位与产量。紫金巨龙铜矿六十台三一电动矿卡高海拔出勤率超百分之九十；首钢水厂铁矿此前公布超一千一百万吨运量、再生制动回收约三十八点六万度电。\n\n所以呢：矿山电气化真正的难点不是「车能动」，是「一群车什么时候去充电还不耽误产量」。内容角度：自动驾驶成了充电调度员。",
+      "links": [
+        {
+          "label": "International Mining",
+          "url": "https://im-mining.com/2026/09/03/eacons-autonomous-solution-deployed-on-more-than-1500-battery-electric-mining-trucks/"
+        },
+        {
+          "label": "EACON",
+          "url": "https://www.eaconmining.com.au/content/details125_779.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:24:00+08:00"
+    },
+    {
+      "id": "westwell-khalifa-zero-gnss",
+      "category": "跨行业",
+      "title": "阿布扎比港：集装箱无人车关掉卫星也能开",
+      "body": "沙漠港口沙尘天，卫星信号糊成一团，无人集卡照样在岸桥和堆场之间拖箱子，不用等 GPS 恢复。九月三日 WorldCargo News 报道：西井科技称二零二六年三月已在哈利法港 CSP 阿布扎比码头，实现全队零 GNSS（全球导航卫星系统）正常自动驾驶作业。\n\n现役约十二台 Q-Truck 加六台 Q-Chassis 无人底盘车；用激光雷达、里程计、惯性测量单元维持定位，不依赖卫星。演示覆盖岸桥与堆场调度真实工作流。CSP 码头自二零一九年起与西井合作，二零二一年成中东首个无人集卡港，二零二五年加无人底盘车。中东高温、沙尘对卫星定位本就不友好——「没信号就趴窝」是港口自动化的老恐惧。\n\n所以呢：关掉卫星还能干活，才是沙漠港口敢把夜班交给机器的底气。内容角度：真正的无人港，考的是坏天气。",
+      "links": [
+        {
+          "label": "WorldCargo News",
+          "url": "https://www.worldcargonews.com/cargo-handling-equipment/2026/09/westwell-enables-gnss-independent-autonomous-operations-at-csp-abu-dhabi-terminal-in-khalifa-port/"
+        },
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.co.uk/news-releases/westwell-enables-gnss-independent-autonomous-operations-at-csp-abu-dhabi-terminal-in-khalifa-port-302871930.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:22:00+08:00"
+    },
+    {
+      "id": "deep-robotics-turpan-grape-dogs",
+      "category": "跨行业",
+      "title": "吐鲁番五十度葡萄园：机器狗帮果农少扛七成筐",
+      "body": "地表烫脚的葡萄架下，工人只管剪穗，一只轮足机器狗驮着三十五公斤果筐钻进五十厘米窄行，送去晾房。九月一日 FreshPlaza 报道：云深处科技的 Lynx M20S 在吐鲁番商业葡萄园运果筐、搬灌溉管、回传田间数据，公司称人力搬运工作量减少超百分之七十。\n\n八月地表温度可超五十摄氏度，缩短采摘到加工时间可减少脱水皱缩。单机负载三十五公斤，工作温域约五十度至零下三十度；前后肘膝对称设计可穿过约五十厘米窄道无需掉头。机载感知识别石块坑洼并调路径，减少颠簸掉果；也在测高温对电池与传感器的影响。\n\n所以呢：机器狗出圈不是做宠物，是替人扛烫脚的活。内容角度：新疆葡萄干背后，是五十度里少走几趟的体力账。",
+      "links": [
+        {
+          "label": "FreshPlaza",
+          "url": "https://www.freshplaza.com/north-america/article/9868321/robot-dogs-reduce-grape-harvest-workload-by-over-70-in-china/"
+        },
+        {
+          "label": "HortiDaily",
+          "url": "https://www.hortidaily.com/article/9868321/robot-dogs-reduce-grape-harvest-workload-by-over-70-in-china/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:20:00+08:00"
+    },
+    {
+      "id": "aigen-element-gen2-x4-weeding",
+      "category": "跨行业",
+      "title": "太阳能四臂除草机器人：不喷药，对着杂草下狠手",
+      "body": "玉米地里一群没人开的太阳能小车安静爬行，四只机械臂只掐杂草根，旁边喷药机闲着。九月十八日 Sugar Producer 报道：Aigen 推出 Element Gen 2 X4，四臂独立机械拔草，可处理行内与行间、最大约十二英寸叶径杂草。全太阳能加太阳能充电备用电池；边缘 AI 识别植株并实时指挥四臂；机队协同作业。\n\n公司称已造超一百台机器人、累计超一万五千自主田间小时；目标一万运行小时或八年寿命。已部署给财富五百强客户做除草与田间数据；二零二七年季机队开放预订，成本对标有机或高价化学除草方案。全球约两百七十五种抗药杂草逼得农民换思路。\n\n所以呢：除草剂失效的地里，太阳能机器人比人更像「手锄大队」。内容角度：不喷药也能清杂草，田埂上的故事比实验室更抓人。",
+      "links": [
+        {
+          "label": "Sugar Producer",
+          "url": "https://www.sugarproducer.com/2026/09/aigen-launches-element-gen-2"
+        },
+        {
+          "label": "Aigen",
+          "url": "https://aigen.io/agriculture"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:18:00+08:00"
+    },
+    {
+      "id": "robyns-leipzig-robot-kitchen",
+      "category": "跨行业",
+      "title": "莱比锡火车站：德国首家机器人现做餐厅开张",
+      "body": "玻璃窗后，钢臂抓锅、克级投料、在八个炉头上翻炒，两分钟后一碗 Kaiserschmarrn（奥地利皇帝煎饼）从出餐口滑出来。九月十六日，Robyn’s 在莱比锡火车总站开业，约六十平方米；创办人 Florian Schneider 称是德国首家无人灶台现做餐厅。菜单初定十四道——粥、沙拉、意面、亚洲菜等，触摸屏点餐，两到六分钟出餐。\n\n厨房机器人租自汉堡 goodBytz，产能约八十到一百二十碗每小时；另有瑞士机械臂做三十五种饮品。现场仅一名员工补料并帮客人；投资约十万欧元，日卖约一百五十份才盈亏平衡。车站快餐最缺的就是肯上夜班、肯洗碗的人手——机器人先顶上这一段。\n\n所以呢：餐饮缺人最狠的地方不是米其林，是车站快餐。内容角度：德国人第一次认真把「炒菜洗碗」外包给钢臂。",
+      "links": [
+        {
+          "label": "Die Sachsen",
+          "url": "https://www.diesachsen.de/en/leisure/today-the-robot-is-cooking-pilot-project-launches-in-leipzig-3179660"
+        },
+        {
+          "label": "Promenaden Leipzig",
+          "url": "https://www.promenaden-hauptbahnhof-leipzig.de/news/robyns-eroeffnet-frisch-gekocht-von-einem-roboter-n46179/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:16:00+08:00"
+    },
+    {
+      "id": "felixstowe-100-westwell-qtrucks",
+      "category": "跨行业",
+      "title": "费利克斯托港：欧洲最大百台无人集卡混跑码头",
+      "body": "英国东岸码头上，没驾驶室的电动集卡夹在传统拖车中间排队等岸桥，电池站几分钟换一块满电芯继续干活。七月六日，英国最大集装箱港费利克斯托宣布：第三批订单使西井 Q-Truck 无人集卡队达到一百台，被称为欧洲规模化混交通无人车部署领先者。\n\n新车配备一百二十八线激光雷达与增强相机；第二座自动换电站，换电约五到六分钟。依托港口大型工业私有 5G 网，连接无人车、控制系统与码头基础设施。全电动且用电来自可再生认证电源（自二零二三年四月），服务二零三五年净零 Scope1/2 目标。\n\n所以呢：不是封闭园区秀肌肉，是欧洲最忙港口之一把无人车塞进真人车流。内容角度：规模到了一百台，才叫「运营」，不叫试点。",
+      "links": [
+        {
+          "label": "Port of Felixstowe",
+          "url": "https://www.portoffelixstowe.co.uk/2026/07/06/port-of-felixstowe-expands-autonomous-truck-fleet-to-100-units/"
+        },
+        {
+          "label": "Ports Europe",
+          "url": "https://www.portseurope.com/felixstowe-completes-100-truck-autonomous-fleet-with-third-westwell-order/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:14:00+08:00"
+    },
+    {
+      "id": "erasmus-mc-freddy-dressing-trolley",
+      "category": "跨行业",
+      "title": "鹿特丹医院开机器人中心：换药车 Freddy 跟着护士跑",
+      "body": "肿瘤病房走廊，护士换药时一台叫 Freddy 的移动换药车默默跟在身后，递纱布和敷料，护士不用再冲回药房。九月十五日，Erasmus MC 与代尔夫特理工大学的机器人中心正式开幕，对接荷兰医护缺口——政策后仍约二十万全职当量缺口。\n\nNurture 研究筛出二十个护理痛点，短线优先：找物、报警过载、病历行政；已选供应商第一季度做病历笔记自动入库试点。Freddy（与 Dalco 合作）在肿瘤病房试点，主要收益是减少打断而非省时。中心还锁定活检运输、含核铅桶搬运、病区送物三大物流场景；药房机器人 Robbie 曾下线又重新结构化使用。\n\n所以呢：医院自动化最打动人的不是手术刀，是少让护士为了一卷纱布离开病人。内容角度：欧洲顶级医院把「问题优先于技术」写进机器人中心门牌。",
+      "links": [
+        {
+          "label": "Rockingrobots",
+          "url": "https://www.rockingrobots.com/erasmus-mc-opens-robotics-centre-robots-dont-take-jobs-they-give-us-time-back/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:12:00+08:00"
+    },
+    {
+      "id": "sqm-atacama-drone-iodine-inspect",
+      "category": "跨行业",
+      "title": "智利阿塔卡马：清晨无人机替工程师巡完六百七十八平方公里矿区",
+      "body": "日出前沙漠里机库自动放飞无人机，工程师八点半看仪表盘：哪段洒水干了、该先修哪个喷头。智利矿业巨头 SQM 与 Adentu 在约六百七十八平方公里北部矿区，部署大疆机库加 FlytBase 自主巡检，接 Azure 分析。每日两次完全自主任务——黎明与傍晚热对比最强；飞行完成后约九十分钟出异常仪表盘。\n\n巡检频率从约两周一次提到每天两次；任务可靠率超百分之九十五；碘提取效率据称提升约百分之二；系统投资约七到八万美元、一年内回本。现场文化拐点：作业队开始「没有早间仪表盘就不肯出门」；后续扩至安保二十四小时机库。\n\n所以呢：大矿最贵的不是无人机，是工程师在太阳底下走路找漏点。内容角度：自主巡检把「发现问题」从体力活变成上班第一杯咖啡。",
+      "links": [
+        {
+          "label": "FlytBase",
+          "url": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:10:00+08:00"
+    },
+    {
+      "id": "konecranes-1000-agv-maasvlakte",
+      "category": "跨行业",
+      "title": "鹿特丹马士基码头：科尼第一千台港口无人车交车",
+      "body": "鹿特丹港庆典上，一辆喷成金色的无人导引车被交到码头经理手里——背后是岸桥到堆场日夜不停的电动无人车队。九月十日科尼新闻稿：九月八日在 APM Terminals 马士基二期全自动码头，正式移交第一千台 AGV（自动导引车）。\n\n马士基二期按全自动加电气化设计，AGV 在岸桥与堆场间电动运箱，是码头自动化概念核心一环。双方称十余年协作持续迭代设备与流程；码头使用远程控制岸桥、可再生电力。里程碑强调安全、可靠与规模化，而非单点技术演示——港口无人化拼的是件数与班次，不是新闻稿里的一张合影。\n\n所以呢：第一千台金色 AGV，等于自动化已经从「项目」变成「流水线交货」。内容角度：交车仪式本身就是规模证明。",
+      "links": [
+        {
+          "label": "Konecranes",
+          "url": "https://www.konecranes.com/press-releases/konecranes-marks-1000th-agv-milestone-at-apm-terminals-maasvlakte-ii"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:08:00+08:00"
+    },
+    {
+      "id": "leonardo-vienna-luca-kitchen",
+      "category": "跨行业",
+      "title": "维也纳机场酒店：凌晨三点也能现做沙拉的厨房机器人",
+      "body": "红眼航班旅客凌晨落地，酒店前台旁一台厨房机器人自己切沙拉、装碗，不用叫醒夜班厨师。八月六日，goodBytz 与 Leonardo Hotels Central Europe 宣布战略合作，首站部署在约五百一十间房的 Leonardo Smart Vienna Airport。luca 自主厨房机器人现场制作新鲜沙拉与碗饭，每周七天、每天二十四小时可用，专门补传统厨房打烊后的空窗。\n\n酒店自称全球最大木结构酒店，已有二十四小时自助入住等数字服务；COO 称要给旅客最大灵活性。goodBytz 系统已用于企业食堂、医院、大学、零售与防务场景，此番切入酒店夜班——不是取代米其林主厨，是填「凌晨三点想吃点新鲜东西」的空白。\n\n所以呢：酒店夜班最贵的不是房间，是厨房。内容角度：机场酒店把深夜加餐交给机器人，而不是便利店三明治。",
+      "links": [
+        {
+          "label": "goodBytz",
+          "url": "https://www.goodbytz.com/press/goodbytz-expands-into-hospitality-leonardo-hotels-central-europe-deploys-autonomous-kitchen-robot"
+        },
+        {
+          "label": "Leonardo Hotels",
+          "url": "https://www.leonardo-hotels.com/press/fully-automated-cooking-robot-complements-24-7-service-offering-at-the-leonardo-smart-vienna-airport"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:06:00+08:00"
+    },
+    {
+      "id": "quanzhou-culinary-ai-chef-class",
+      "category": "跨行业",
+      "title": "泉州厨校课堂：学生不再炒勺，改当机器人操作员",
+      "body": "实训室里学生往转盘料盒里放姜鸭配料，点屏幕选菜，六轴臂自己淋油翻炒，五分钟端出一盘红烧鱼。九月八日 Boardor 报道：泉州商务与旅游学校引入 AI 全自动炒菜机器人进中餐实训，并办「未来厨房开放日」。约一点五米高半封闭灶体加六轴臂，可完成淋油、炒制、调味、装盘、自清洁；称约五分钟出菜、复刻约百分之七十「锅气」。\n\n已编超一百道菜谱，闽菜占比提升——红烧鱼、炒米粉、姜鸭等；支持二十四种烹调方法。招生就业办称上线一个多月开超三十班、指导超两百名学生；课程方向转向「传统手艺加智能设备运维」——学生练的不再只是颠勺手感，还有怎么给机器补料、改菜谱、排故障。\n\n所以呢：厨校教的不再只是颠勺，是怎么管一台会炒菜的机器。内容角度：非遗传承碰上数字菜谱，厨师岗位改名叫厨房经理。",
+      "links": [
+        {
+          "label": "Boardor",
+          "url": "https://boardor.com/blog/quanzhou-school-introduces-ai-cooking-robot-into-the-classroom"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-21T18:05:00+08:00"
+    },
     {
       "id": "prompt-seedance-kasa-night-street",
       "category": "提示词",
