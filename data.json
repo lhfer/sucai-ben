@@ -1,5 +1,535 @@
 [
   {
+    "id": "fargo-lipps-face-recog-10m",
+    "category": "痛点",
+    "title": "田纳西奶奶被AI认成北达科他劫匪，枪口下带走关半年",
+    "body": "阿巴拉契亚山脚，Angela Lipps正帮邻居带孩子，美国法警持枪冲进门。三个月后，她人生第一次坐飞机——以在押犯身份飞往从未踏足的北达科他。九月十五日她对法戈市与警探 Lucas Heck 提起一千万美元联邦民权诉讼：西法戈警察用 AI 人脸识别，把假军证上的盗刷嫌犯照「命中」到她社媒照片，当作逮捕铁证。\n\n诉状称警探未独立核验；假证照与监控里嫌犯的体型、五官、纹身都不符，而她案发时人在田纳西还有银行记录。羁押约三个月后引渡，Cass 县狱中再近三个月，十万保释金付不起；五十岁生日和感恩节都在牢里过，圣诞夜撤诉释放时口袋只剩四分钱。现任警察局长后来承认「错误假设」——监控照也被跑过识别；法戈已禁止单靠人脸识别抓人。\n\n所以呢：算法命中不等于真相，却能换来半年自由——创作者可对着「AI认人」幻象做人物故事，追问谁该为误认买单。",
+    "links": [
+      {
+        "label": "InForum",
+        "url": "https://www.inforum.com/news/fargo/woman-wrongly-jailed-for-months-files-10m-civil-rights-case-against-fargo-police-detective"
+      },
+      {
+        "label": "ABC News",
+        "url": "https://abcnews.com/US/grandmother-falsely-accused-bank-theft-after-alleged-ai/story?id=136536444"
+      },
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/sep/18/tennessee-woman-falsely-charged-bank-theft-lawsuit"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:55:00+08:00"
+  },
+  {
+    "id": "australia-yeates-deepfake-first",
+    "category": "痛点",
+    "title": "毕业照第一次出现在色情站：澳洲首例深度伪造定罪听证",
+    "body": "南澳地区法院里，十多名亲友围着一名十九岁女性。她当着被告 William Yeates 宣读影响陈述：人生第一次看见自己的毕业照，是在色情网站上，旁边挂着改脸视频，还写着全名和学校。今天是量刑前听证——他是澳洲依二零二四年联邦深度伪造新法被控的第一人，已承认两项未经同意制作或篡改亲密材料的罪名。\n\n犯行大约在二零二四年十月到二零二五年二月之间。被告道歉说伤害「并非故意」；辩方称他有自闭谱系与强迫性性行为障碍诊断，并称在 X 上「男圈」社区与 Andrew Tate 内容影响下，觉得分享女性裸体「正常」。联邦检察官反对非监禁刑，称动机含贬低羞辱，这是「极端阴险」的线上羞辱，最高可判七年，十月宣判。\n\n所以呢：深度伪造已经从热搜进了量刑听证——「假图真伤」长文有现场，可追问平台男圈文化与第一判例能不能震慑住年轻男性。",
+    "links": [
+      {
+        "label": "ABC News Australia",
+        "url": "https://www.abc.net.au/news/2026-09-22/survivor-of-first-australian-charged-under-deepfake-laws-speaks/107180484"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:54:00+08:00"
+  },
+  {
+    "id": "texas-abbott-tceq-dc-permit-halt",
+    "category": "痛点",
+    "title": "德州州长给环保局下令：数据中心新证先全停",
+    "body": "奥斯汀州府一封公函落到州环境质量委员会桌上：不管你是并网还是自建电厂，水和电的审计没做完，环保证先别盖章。九月二十一日，州长 Abbott 致函执行主任 Kelly Keel，要求暂停签发数据中心新环保许可，直到电网运营商 ERCOT 与水资源发展局完成审计——此前八月已停大型机房并网，如今连「绕开电网自己发电」的项目也卡住。\n\n据统计约九成新增用电申请来自数据中心，互联队列约四百七十四吉瓦。此前州强制用水调查应答率低到约百分之二十八，州长已要求对不报水耗的设施施加法律后果。他原话写得很硬：「简单说，德州人必须优先……在那之前，TCEQ 不为数据中心项目发证。」接近十一月连任投票，红州叙事急转弯。\n\n所以呢：从「要当 AI 心脏」变成全政府刹车——电网、水票与选票一起改写基建故事，可对比夏秋各州冻结潮做趋势稿。",
+    "links": [
+      {
+        "label": "Texas Tribune",
+        "url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/"
+      },
+      {
+        "label": "Utility Dive",
+        "url": "https://www.utilitydive.com/news/texas-hits-pause-data-center-interconnections/827046/"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/litigation/texas-moves-penalize-data-centers-water-violations-2026-09-14/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:53:00+08:00"
+  },
+  {
+    "id": "meta-oversight-uk-deepfakes",
+    "category": "痛点",
+    "title": "Meta「最高法院」下令撤片：女议员被AI说欢迎强奸犯",
+    "body": "苏格兰工党女议员口型对不上的假视频，仍被 Meta 判定不违规也不贴 AI 标签。九月十七日，监督委员会——外界常叫 Meta「最高法院」——裁定 Facebook 错误留下两段英国深度伪造：一段让她口出关于难民强奸的煽动言论，一段恶搞穆斯林月经健康倡导女性做荒诞运动、吃垃圾食品。委员会直接下令删除，并批评公司防护「一贯且根本不足」。\n\n第二案相关恶搞在 Meta 内外播放量达数千万级。共同主席 Pamela San Martin 点名：女性公共发言者不成比例地遭深度伪造骚扰。委员会提出九项政策建议，包括扩大高风险标签、降权、加重屡犯处罚、点开前警告屏等；其对 Meta 的决定具约束力。\n\n所以呢：平台自治法庭打脸自家审核——深度伪造已成针对女性公声的武器，可对比执法查封与平台自救做对照稿。",
+    "links": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/sep/17/meta-ordered-remove-deepfakes-oversight-board-inadequate-safeguards"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:52:00+08:00"
+  },
+  {
+    "id": "effingham-selc-open-meetings",
+    "category": "痛点",
+    "title": "佐治亚官员被录音：「我们不是民主」——OpenAI机房秘密成交后再诉",
+    "body": "离两所小学几百米、离住家不到一千英尺的地块上，要起东南最大机房；居民事后才知道议程上只写着代号「Project Gateway」。九月二十一日，南方环境法律中心代表居民与海岸保育组织再诉 Effingham 县工业发展局，指控其为 OpenAI 关联方 Octans GA 秘密谈成近九亿美元税减免与一千四百四十英亩地块，违反州公开会议与公开记录法。\n\n项目约三点二吉瓦、四百四十万平方英尺，总投资报道约二百亿美元。诉状称二零二五年十月签保密协议私下谈数月；七月会议临时改期未给法定一周通知；税减免闭门谈、公地出售未公开表决；八月拒交公开记录。发展局委员 Eric Johnson 被引原话：「要是放到公众面前，他们会说不要数据中心……我们不是民主。」五名原告住在拟址约一英里内，请求宣告税减免与土地买卖无效。\n\n所以呢：「不是民主」金句加秘密税单——AI 基建如何用闭门交易绕开邻避，可做成拆解短视频。",
+    "links": [
+      {
+        "label": "WTOC",
+        "url": "https://www.wtoc.com/2026/09/21/georgia-group-sues-over-openai-data-center-deal-effingham-county/"
+      },
+      {
+        "label": "SELC",
+        "url": "https://www.selc.org/press-release/residents-conservation-groups-sue-effingham-county-development-authority-over-secretive-approval-of-openai-data-center/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:51:00+08:00"
+  },
+  {
+    "id": "benton-mo-nsic6-tro-extend",
+    "category": "痛点",
+    "title": "密苏里小镇开发商：专门挑没规划的县建数据中心",
+    "body": "华沙镇法庭里，开发商 Trent Overhue 坦白挑县逻辑；反对居民 George Hall 站起来说：你这是剥夺纳税人说话的权利。九月二十一日，Benton 县法官延长临时禁令，继续卡住县府对数据中心的半年冻结令——焦点是开发商要不要先停工。\n\n九月八日法院已发临时限制令；Overhue 代表的 NSIC6 LLC 次日完成约十二英亩交割并开始清地，拟建两栋各约两万平方英尺机房。他作证称故意选择没有规划分区的 Benton 县；县长 Steve Daleske 称六月会谈后再无接触、不知新址。县府主张公司八月十三日才合法成立，晚于冻结令三天。同公司另诉 Springfield 市冻结令。法官敦促施工谨慎，未给最终裁决日。\n\n所以呢：农村县被当成「没规划就能硬上」的漏洞——AI 基建钻地方制度缝，邻避从来不是城市专利。",
+    "links": [
+      {
+        "label": "KY3",
+        "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:50:00+08:00"
+  },
+  {
+    "id": "workday-mobley-class-bid",
+    "category": "痛点",
+    "title": "求职者告Workday：AI筛简历几小时就拒，要认证四大全国子类",
+    "body": "Derek Mobley 说自己通过雇主的 Workday 系统投了一百多份工，常常几小时内被拒。九月二十一日前后，他与多名原告向加州北区法院申请把 Workday AI 招聘歧视案认证为集体诉讼，覆盖黑人、女性、四十岁以上与残障求职者四大子类，听证定于二零二七年三月九日。\n\n原告律师把 Fortune 500 里约三分之二在用的筛选黑箱拖上联邦法庭，主张即便「设计如常」，工具也会用历史劳动力数据产生不利差别影响；Workday 否认歧视，称评估的是资质而非受保护特征。二零二四年法官已裁：当客户把传统招聘职能外包时，Workday 可能构成雇主「代理人」。原告称证人证据显示二零二四年超三点五六亿份申请经 Workday Recruiting、超两千七百万录用。联邦平等就业机会委员会提交意见书支持：软件供应商可落入就业歧视法。\n\n所以呢：AI 招聘的责任落点——怪雇主还是怪供应商？可做成职场痛点专题，对接加州「禁止纯算法炒人」立法潮。",
+    "links": [
+      {
+        "label": "Lawyer Monthly",
+        "url": "https://www.lawyer-monthly.com/2026/09/workday-faces-class-bid-over-ai-hiring-bias-claims/"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/government/these-workers-say-an-ai-hiring-platform-discriminated-against-them-who-should-2026-09-21/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:49:00+08:00"
+  },
+  {
+    "id": "italy-decree-160-ai-ads-ban",
+    "category": "痛点",
+    "title": "意大利把高风险AI写进刑法：公司乱搞合成内容可被禁广告",
+    "body": "罗马公报一页纸，广告主突然发现：深度伪造不只是公关危机，还可能让整家公司在意大利市场闭嘴做广告。九月十五日，政府公报公布第160/2026号立法令，新增刑法437-bis：高风险 AI 缺安全措施或被篡改，可判最高十年；法人还可被裁禁止为自己的商品服务做广告，最长两年。\n\n具体阶梯：未采取规定的安全与人工监督措施且危及人身安全——一至五年；危及国家安全——二至八年；篡改系统——最高三至十年。专业部署者故意省略人工监督亦入罪。民事章更狠：法院可命令交出 AI 日志与风控文件；违反欧盟 AI 法案义务可推定因果关系；可直接诉保险人。警察实时生物识别需检察官授权，单次最长十五天；禁止用无差别抓取互联网人脸建库。\n\n所以呢：欧盟国家把合规「刑事化加禁广告」——合成内容从贴标签升级成牢狱与市场禁令，营销向创作者值得盯。",
+    "links": [
+      {
+        "label": "PPC Land",
+        "url": "https://ppc.land/italian-firms-face-ad-bans-over-ai-generated-content-offences/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:48:00+08:00"
+  },
+  {
+    "id": "montana-sb25-deepfake-injunction",
+    "category": "痛点",
+    "title": "蒙大拿禁选举深度伪造，法官说：夸人的AI假图可以、损人的不行？",
+    "body": "邮寄传单上，候选人被 AI 合成成举彩虹旗、别代词徽章。州竞选监察官先以「讽刺」撤案，保守派政治行动委员会仍打到联邦法庭要求彻底松绑。九月十七日，联邦法官 Susan Watters 对蒙大拿二零二五年选举深度伪造法发出初步禁令：该法按「伤害还是抬高候选人」区别对待同一类欺骗性合成媒体，很可能构成基于观点的违宪歧视。\n\nSB25 禁止距投票六十天内赞助或散发「知道或应知是深度伪造」的选举传播，讽刺戏仿除外，并设 AI 免责声明安全港。法官认定：同等欺骗媒体因意图伤害或抬高而不同待遇，就是观点歧视。禁令仅保护原告团体，未全州废法——最高法院已限制「全国一刀切」禁令。公共公民组织称三十多个州有类似法，加州与夏威夷相关法已被联邦法院拦下。\n\n所以呢：反深度伪造立法撞上第一修正案——「保护选举还是言论自由」不是单向加速，辩论素材现成。",
+    "links": [
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/government/us-judge-blocks-montana-enforcing-deepfake-election-ads-law-against-conservative-2026-09-17/"
+      },
+      {
+        "label": "Reason",
+        "url": "https://reason.com/2026/09/18/montanas-anti-deepfakes-law-just-hit-a-first-amendment-roadblock/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:47:00+08:00"
+  },
+  {
+    "id": "gary-in-melton-dc-pause",
+    "category": "痛点",
+    "title": "印第安纳加里市长：大风刮断电后，先把数据中心冻一年",
+    "body": "西北印第安纳刚被风暴打得全市停电户数区域最高，市长办公室却拿出一年冻结令：不是反科技，是怕永久决定押在还没搞清的电与水上。九月十六日前后，Gary 市长 Eddie Melton 签发行政令，一年内暂停新数据中心审批，并点名八月十一日 derecho 大停电后电网脆弱，以及公用事业公司 NIPSCO 服务亚马逊与谷歌机房的负荷压力。\n\n范围可延伸到城外但占用市属公用事业的机房；市界内目前无运营机房。市长明确挂钩风暴：Gary 停电户数区域最高。NIPSCO 母公司 NiSource 已签多吉瓦合同服务 Amazon 与 Google。同州印第安纳波利斯市-县议会此前二十三比一通过至二零二七年底绑定冻结；Elkhart 也暂停机房与储能申请。\n\n所以呢：风暴停电变成 AI 基建刹车扳机——电网脆弱城市为何最先举起冻结牌，短视频一句说得清。",
+    "links": [
+      {
+        "label": "Indiana Citizen",
+        "url": "https://indianacitizen.org/capital-b-gary-residents-opposition-leads-to-pause-on-new-data-centers/"
+      },
+      {
+        "label": "Chicago Crusader",
+        "url": "https://chicagocrusader.com/melton-halts-data-centers-for-one-year/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:46:00+08:00"
+  },
+  {
+    "id": "lake-county-il-dc-moratorium",
+    "category": "痛点",
+    "title": "伊利诺伊湖县：还没人递申请，先把乡下机房冻到2027",
+    "body": "县府会议室里上千条线上意见涌进来；八月一场 Grayslake 公听因网上威胁安全取消——居民还没见到蓝图，已经先打预防针。九月八日，伊利诺伊 Lake County 议会一致通过八个月冻结令：未建制区在二零二七年五月十一日前不得接受数据中心申请——全县至今零申请，却先立法抢时间。\n\n冻结仅覆盖未建制地区，市镇仍自管区划；可再延四个月。此前六月起一百二十天行政延期将于十月七日到期，此次投票刻意赶在到期前最后一次全会。过程收到一千二百至一千三百多条公众意见；规划委员会与区划上诉委员会均全票赞成。县规划主任称将跟踪州级 POWER 法案——保护水、电与电费缴纳人。\n\n所以呢：「零申请先冻结」说明痛点已从个案抗议升级成制度预演——地方政府学会抢立法时钟，可做趋势稿。",
+    "links": [
+      {
+        "label": "Shaw Local",
+        "url": "https://www.shawlocal.com/lake-county-journal/2026/09/08/lake-county-oks-temporary-moratorium-on-data-centers/"
+      },
+      {
+        "label": "DM News",
+        "url": "https://dmnews.com/dmn-lake-county-illinois-just-froze-data-center-applications-across-every-unincorporated-area-until-may-2027-and-the-board-did-it-before-a-single-developer-had-filed-a-proposal-with-the-county/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:45:00+08:00"
+  },
+  {
+    "id": "imperial-ceqa-rucci-halt",
+    "category": "痛点",
+    "title": "帝王谷法官叫停百万平方英尺机房：邻里门口不能免环评",
+    "body": "维多利亚牧场小区紧挨拟建机房、天然气发电机组与变电站；市镇厅公听会上居民听法官说：全县「滥用裁量权」。九月九日，加州 Imperial 县法官 Brooks Anderholt 裁定县府四月批准近百万平方英尺数据中心综合体时规避 CEQA——加州环境影响质量法——违法，命令重启完整环境影响评估。\n\n原告为 Imperial 市与塞拉俱乐部。开发商 Sebastian Rucci 的公司拟建约九十五万平方英尺 AI 校园，含大型电池、天然气发电机与新变电站。县监事会四月批准地块合并，并当「行政/ministerial」步骤规避环评；法官认定可能有显著环境影响。开发商称准备上诉；县府律师未反对暂定裁决。县分析曾估年增约一千二百万美元税收；居民与市府担心电网、水与空气。\n\n所以呢：沙漠邻里对上免环评捷径——CEQA 如何成为加州 AI 基建制动器，可对比同周另一法官打掉紧急冻结的拉锯。",
+    "links": [
+      {
+        "label": "KPBS",
+        "url": "https://www.kpbs.org/news/environment/2026/09/09/court-overturns-approval-of-imperial-county-data-center-orders-environmental-review"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:44:00+08:00"
+  },
+  {
+    "id": "imperial-moratorium-struck-jones",
+    "category": "痛点",
+    "title": "同一帝国县：居民争来的紧急冻结，被法官以程序打掉",
+    "body": "县府六月在漫长公听后匆匆冻结许可；开发商转身告上法庭，法官说：你们不能把「正在写的新规可能冲突」当成紧急威胁。九月十六日当地媒体报道，Imperial 县法官 Jeffrey B. Jones 已签发强制令，要求县府撤销两道紧急数据中心冻结条例——因未按加州法证明「当前立即威胁」。\n\n判决约九月四日，强制令十一日：撤销条例1616与1618，三十日内回报合规。项目规模约三百三十兆瓦、九十五万平方英尺，另有十六英亩变电站与八百六十二兆瓦时 Tesla Megapack。加州政府法典要求紧急中期条例必须认定当前立即威胁，且发证会直接导致该威胁；法官认定两条例均未满足。此胜不等于开工：同县另一案仍要求完整环境影响报告，区划与水争议未决。\n\n所以呢：社区工具箱里的「紧急冻结」被法院收紧——AI 邻避进入程序法战争，赢公听不等于赢法庭。",
+    "links": [
+      {
+        "label": "Desert Review",
+        "url": "https://www.thedesertreview.com/business/judge-strikes-down-county-freeze-on-data-center-approvals/article_e04f6dab-f223-497e-8f1f-3c8b48511d8c.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:43:00+08:00"
+  },
+  {
+    "id": "arizona-hobbs-rejects-dc-pause",
+    "category": "痛点",
+    "title": "亚利桑那州长拒绝全州冻结：AG喊停机房，她说继续建但要算账",
+    "body": "凤凰城州议会大厦外，一位民主党州长和一位民主党检察长公开唱反调：一边是科罗拉多河水与电价焦虑，一边是西谷就业与 Goodyear 机房园区。九月八至九日，州长 Katie Hobbs 公开拒绝检察长 Kris Mayes 提出的全州数据中心暂停令，称不认同州级冻结。\n\n州预算已自七月一日起三年内冻结新机房税收优惠申请——冻的是补贴不是建设。电网公司 APS 称因电网约束约两年半无法承诺服务新机房；费率案拟对机房涨约百分之四十五、住宅约百分之十四，微软已挑战机房费率结构。Mayes 定十月十四日在 Ahwatukee 开超大规模项目市政厅会。Goodyear 已有 Vantage、Compass 等大型园区；Maricopa 县近九百英亩区划框架允许潜在机房用途。\n\n所以呢：同党府院对撕加电价四成半——沙漠州 AI 基建政治分裂，水、电、税优惠谁说了算，短视频题材现成。",
+    "links": [
+      {
+        "label": "West Valley Post",
+        "url": "https://westvalleypost.com/arizona-data-center-moratorium-hobbs-mayes/"
+      },
+      {
+        "label": "Arizona's Family",
+        "url": "https://www.azfamily.com/2026/09/09/arizona-governor-rejects-data-center-moratorium-call-debate-escalates/"
+      },
+      {
+        "label": "KJZZ",
+        "url": "https://www.kjzz.org/business/2026-09-02/aps-says-it-cant-commit-to-new-data-centers-because-of-electric-grid-constraints"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:42:00+08:00"
+  },
+  {
+    "id": "yunji-up-100-hospital-runyi",
+    "category": "跨行业",
+    "title": "三甲医院走廊：百台送药机器人自己坐电梯",
+    "body": "医院药房门口，一台多层舱配送车自己刷门禁、等电梯，把一舱药送到科室护士站——医护不用再为送药来回跑半小时。九月十八日报道，云迹科技复合多态机器人 UP 以「润翼」方案首次百台级进入多家三甲医院，做药品、标本与耗材配送。\n\n专用方案由浙江爱达基于 UP 通用底盘定制，大容量多舱模块化，可并行送药、标本与耗材。首批在同济医院光谷院区、天津南开医院、余姚市中医医院上线。同济光谷公开数据：单次配送平均缩短至六分钟内；每日减少医护往返药房约三小时。UP 可自主乘梯、过门禁、动态避障；同一底盘从酒店场景复用到医疗。\n\n所以呢：医院物流机器人从几台演示跳到百台级——护士最缺的不是再学一个系统，是少跑几趟药房。",
+    "links": [
+      {
+        "label": "北京经开区",
+        "url": "https://kfqgw.beijing.gov.cn/cxyzkfq/cxcg/202609/t20260918_4870051.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:41:00+08:00"
+  },
+  {
+    "id": "ls-electric-spot-busan-transformers",
+    "category": "跨行业",
+    "title": "釜山变压器厂：两只机器狗半夜去闻泄漏的热",
+    "body": "变压器车间机声轰鸣，一台四腿机器狗停在真空干燥舱门口，热成像镜头扫过门封——热图上一条细细的热线，说明密封又开始漏了。九月二十二日，韩国 LS Electric 把两台波士顿动力 Spot 正式投进釜山超高压变压器厂日常巡检，不再是演示场。\n\n此前与现代 Autoever 从七月起试运行约两个月。Spot 用热成像检查气相干燥舱门封与热泄漏，并用传感器采集泵、电机、控制柜的热、噪声与振动做预测性维护；还会巡检温湿度设备、测试设备、冷水机与发电机，并进入人员受限或危险区域替人巡检。公司计划用釜山数据建 AI 分析模型，再扩到韩国及海外其他生产基地。\n\n所以呢：不是秀肌肉，是电网设备厂把机器狗当成固定班组成员——AI 机房越建越多，背后变压器厂先用四条腿去闻漏热。",
+    "links": [
+      {
+        "label": "Korea Times",
+        "url": "https://www.koreatimes.co.kr/business/companies/20260922/ls-electric-deploys-robotic-dogs-to-drive-smart-factory-automation-in-busan"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:40:00+08:00"
+  },
+  {
+    "id": "boston-dynamics-rmac-atlas-georgia",
+    "category": "跨行业",
+    "title": "佐治亚汽车厂旁：Atlas在「机器人学校」学排零件",
+    "body": "萨凡纳郊外的汽车超级工厂里，一台蓝色人形机器人弯腰把散落的汽车零件按装配顺序摆进料架，旁边没有工人扶手——这是正式开张的机器人学校。九月二十一日，波士顿动力在现代汽车集团美国 Metaplant 旁正式开张 RMAC——机器人应用中心，让 Atlas 在真产线环境里练物流分拣与零件排序。\n\n计划到二零三零年扩展到部件装配与负重搬运。现代汽车集团计划未来数年在现代与起亚全球工厂部署约两万五千台 Atlas，并在美国建年产三万台机器人的工厂。RMAC 此前六月试运行；明年将迁入新楼，规模扩约十倍。公司称正与 Spot、Stretch 客户讨论二零二七年向航空航天、半导体、物流、食品饮料、生命科学等行业扩展数据采集。\n\n所以呢：人形不是发布会走秀，是进了汽车厂的「职业学校」——工人还没被替换，机器人先在隔壁练排零件。",
+    "links": [
+      {
+        "label": "Boston Dynamics",
+        "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks/"
+      },
+      {
+        "label": "Asia Business Daily",
+        "url": "https://www.asiae.co.kr/en/article/2026092209161350139"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:39:00+08:00"
+  },
+  {
+    "id": "clearbot-pandan-singapore-river",
+    "category": "跨行业",
+    "title": "新加坡潘丹河：电动无人船每天捞漂浮垃圾",
+    "body": "都市河道清晨，一艘没人站在甲板上的电动小船贴着水面慢行，把塑料瓶和枯枝捞进舱里，岸上一个人盯着屏幕就能盯整条作业。九月二十二日，Clear Robotics 与 ReSustainability 在新加坡潘丹河部署纯电动半自主船只 Clearbot Class 2，进入日常商业运营。\n\n用途是拦截漂浮垃圾，防止进入开阔水域；单人可从岸上更安全地监督，减少船上作业人数。AI 后处理可对收集垃圾分类，并支持 ESG——环境、社会与治理——自动报告。公司走「机器人即服务」模式，参与新加坡 PIER71，获 SGInnovate 等支持；菲律宾马尼拉亦有亚洲开发银行相关清理试点。\n\n所以呢：跨行业不只工厂医院，河道环卫也开始用无人船——清河不再等于人站在油船上趴下去捞。",
+    "links": [
+      {
+        "label": "TechNode Global",
+        "url": "https://technode.global/2026/09/22/clear-robotics-resustainability-electric-autonomous-vessel-pandan-river-singapore/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:38:00+08:00"
+  },
+  {
+    "id": "mbody-mohegan-sun-casino",
+    "category": "跨行业",
+    "title": "康州赌场：机器人在赌桌区和会展厅转正",
+    "body": "凌晨的赌场地毯上，清洁与后勤机器人穿过老虎机阵列和会展厅，保洁主管不用再把整晚的重复体力活全压在夜班人手上。九月九日，MBody AI 宣布在北美大型娱乐度假村 Mohegan Sun 完成试点并转为付费商业部署，机器人覆盖赌桌区与会议中心。\n\nMohegan Sun 约五百五十万平方英尺、一千六百间客房、两座赌场、一万座竞技场，全年二十四小时运营。试点覆盖 gaming floor 与 conference center，承担重复与时敏任务，由 MBody AI Orchestrator 统一调度多品牌机群。保洁与环境服务总监 Melissa Benoit 公开称技术已改变日常运营；计划年内扩大订阅部署规模。\n\n所以呢：酒店机器人故事里少见的赌场真场景——体力活最脏最累的夜班，先被编排进机群订阅。",
+    "links": [
+      {
+        "label": "The Tech Standard",
+        "url": "https://thetechstandard.com/2026/09/mbody-ai-advances-ai-robotics-rollout-at-mohegan-sun/"
+      },
+      {
+        "label": "15m",
+        "url": "https://15m.com/news/mohegan-sun-moves-mbody-ai-robot-pilot-into-paid-deployment/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:37:00+08:00"
+  },
+  {
+    "id": "cemex-hausbots-rugby-kiln",
+    "category": "跨行业",
+    "title": "70米水泥窑外壁：爬墙机器人替人测厚度",
+    "body": "巨大的回转窑横卧在支架上，一台不靠磁吸、靠负压贴墙的爬壁机器人在窑壳上爬行，每隔一米打一个超声波测厚点——人不用再挂在半空。八月二十六日报道，HausBots 爬壁机器人 HB3 在 Cemex Rugby 水泥厂完成七十米回转窑全壳超声波测厚，省掉搭脚手架或绳降。\n\n窑长约七十米、直径约六米。传统方案需脚手架或绳降；HB3 用 AeroGrip 压差吸附，可在铁与非铁表面工作，按约一米乘一米网格采集厚度点读数。厂商称载荷至二十五公斤、可在最高约四十五英里每小时风力下工作。Sutro 技术总监称机器人几小时内即可上设备采数，显著改变工期与成本。\n\n所以呢：重工业巡检正在拆掉「先搭架子再干活」的默认流程——有些活机器人爬过去就够了，脚手架行业也要面对。",
+    "links": [
+      {
+        "label": "ScaffMag",
+        "url": "https://scaffmag.com/technology/robot-inspection-removes-need-for-scaffold-access-on-70m-cemex-kiln/"
+      },
+      {
+        "label": "BINDT",
+        "url": "https://www.bindt.org/News/july-2026/hausbots-and-sutro-group-complete-scaffolding-free-ut-inspection-at-cemex-facility/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:36:00+08:00"
+  },
+  {
+    "id": "spirit-moz1-catl-pack-plug",
+    "category": "跨行业",
+    "title": "宁德时代产线：人形去拔几百伏的测试插头",
+    "body": "电池 PACK 下线工位，工人原先要徒手插拔带着数百伏电压的测试接头；现在一台人形机器人自己对准接口、动态调力，插稳了再去做下一台。九月中旬报道，千寻智能——对外亦称 Spirit AI——人形「小莫 / Moz1」在宁德时代动力电池 PACK 产线规模化上岗，自主插拔高压测试连接器，成功率超百分之九十九。\n\n任务是出厂前功能测试中的高压连接器插拔与自主检测；多品种小批量柔性，传统硬自动化难覆盖。端到端视觉-语言-动作模型在插拔柔性线束时动态调力，节拍达熟练工人水平；间隙可切巡检模式。Pandaily 称 Moz1 已在 CATL 与京东产线部署；创始人高扬预期二零二七年中机器人「大脑」迎 GPT-3 时刻。\n\n所以呢：高压危险工位先交给人形——不是抢装配工饭碗，是把「不愿干、不敢干」的插头活拿走。",
+    "links": [
+      {
+        "label": "Boardor",
+        "url": "https://boardor.com/blog/the-worlds-first-haidians-humanoid-embodied-intelligent-robot-officially-operates-on-a-scaled-production-line"
+      },
+      {
+        "label": "Pandaily",
+        "url": "https://pandaily.com/spirit-ai-moz1-catl-jd-mid-2027-robot-brain"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:35:00+08:00"
+  },
+  {
+    "id": "zeals-d1-sakurajuji-care-home",
+    "category": "跨行业",
+    "title": "东京养老院：小人形自己倒茶、坐电梯送纸尿裤",
+    "body": "四层养老院走廊里，一台约一点三米高的小人形抱着一包纸尿裤走进电梯，到居室门口再把东西递出去；另一头它正把茶壶倾斜，看着杯里水位自己停手。九月十至十一日，ZEALS 把紧凑人形 D1 送进樱十字集团「ホスピタルメント文京千駄木」养老院，两天约十五小时验证引导、轻搬运与自主配茶。\n\n三项任务：电梯跨层馆内引导、轻量物——含纸尿裤与当日真实外卖——搬运、自主配茶（识别壶与杯、控倾角、倒完归位）。人接触与跌倒均为零；会与通行的入住者自然对话。D1 高约一百二十九点三厘米、底盘宽约四十八厘米，面向日本狭窄室内；此前八月在重工大须医院三十五小时验证五项院内业务。\n\n所以呢：养老院不是实验室，机器人得会坐电梯、倒茶、送当日外卖——护理缺口先从「非直接照护」的杂活开始啃。",
+    "links": [
+      {
+        "label": "PR Times",
+        "url": "https://prtimes.jp/main/html/rd/p/000000217.000019209.html"
+      },
+      {
+        "label": "樱十字",
+        "url": "https://sakurajuji.com/news/1806/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:34:00+08:00"
+  },
+  {
+    "id": "simbe-tally-3000-shelf-fleet",
+    "category": "跨行业",
+    "title": "超市货架间：三千台盘点机器人成了最大机群",
+    "body": "夜场超市过道里，一台瘦高的自主机器人贴着货架慢慢滑过，摄像头扫过价签和空位，店员早上打开手机就能看到哪一排又断货了。九月二十一日在 Groceryshop 上，Simbe 宣布 Tally 货架智能机器人签约规模突破三千台，覆盖近十二个国家、七十五个以上零售品牌，自称最大商业承诺机群。\n\n平台组合自主机器人、计算机视觉、RFID 与固定传感，持续采集库存、位置、价格、促销与陈列状态。它是首个也是唯一获 UL 3300 公共场所机器人认证的产品。公司称与 Tally 共事的门店经理中超过九成认为技术让工作更好。此前 HomeBase USA 等连锁已全店铺开；Kroger 网络曾达五百台里程碑。\n\n所以呢：零售物理 AI 已经不是试点段，是三千台级基础设施——断货和错价不再靠店员走一圈，机器先把货架读成数据。",
+    "links": [
+      {
+        "label": "Simbe",
+        "url": "https://www.simberobotics.com/about/newsroom/simbe-surpasses-3-000-units-marking-the-largest-autonomous-shelf-intelligence-fleet-in-retail"
+      },
+      {
+        "label": "Shelby Report",
+        "url": "https://theshelbyreport.com/2026/09/21/simbe-surpasses-3000-units-in-shelf-intelligence-fleet/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:33:00+08:00"
+  },
+  {
+    "id": "pace-centa-painter-india",
+    "category": "跨行业",
+    "title": "印度工地：油漆工自己开着机器人刷墙",
+    "body": "未完工的高层毛坯房里，一台涂装机器人贴着墙面自己刮腻子、打磨、喷底漆，旁边站着的不是工程师，是原来拿刷子的油漆工在盯屏幕。九月二十一日，印度 Pace Robotics 称 Centa Painter 已从演示进入真工地持续部署，半年订单约五千万卢比——约合五百五十万美元量级——来自开发商、承包商与涂料品牌，含复购。\n\nCenta Painter 可自主做腻子、打磨、底漆与墙面天花板涂装；宣称最高约十倍人工速度、人力最多减八成、成本可至约三倍节省。二零二五年十二月起进入真工地持续运营；二十多家开发商与施工方做过现场演示评估。公司强调不依赖预扫描完美环境，由现场油漆工操作监督，而非专职机器人工程师。\n\n所以呢：在人工极便宜的印度市场，涂装机器人还能靠复购活下来——真正落地标准不是 Demo 漂亮，是油漆工愿不愿意自己开。",
+    "links": [
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/in/news-releases/construction-robotics-gains-commercial-momentum-in-india-as-pace-robotics-scales-deployment-302884559.html"
+      },
+      {
+        "label": "RoboticsTomorrow",
+        "url": "https://www.roboticstomorrow.com/news/2026/09/21/construction-robotics-gains-commercial-momentum-in-india-as-pace-robotics-scales-deployment/27128"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:32:00+08:00"
+  },
+  {
+    "id": "flamy-nguyen-sieu-hanoi-school",
+    "category": "跨行业",
+    "title": "河内私立中学：门口机器人每天用越南语喊名字",
+    "body": "开学早晨校门口，一台前台机器人认出走来的学生，用越南语喊出名字打招呼，旁边同学围着让它讲谜语、放歌。九月十二日前后，河内 Nguyen Sieu 中学把 AI 前台机器人 Flamy 投入日常大厅值班——不是校庆摆设，是每天能摸到的活教具。\n\n零点五至一点五米距离识别问候；二维码自动签到；RFID 读学生与教职工卡；人脸记忆回头客并喊名。越南语自然对话——非机翻——可接课表系统与校园地图指路；可在指定区域自主移动广播。语音、校知识库与云端调度软件在越南本地开发，专为该校定制。\n\n所以呢：教育场景的具身智能先从「每天能摸到」开始——STEM 课不再只看视频，机器人就站在门口当活教具。",
+    "links": [
+      {
+        "label": "Vietnam.vn",
+        "url": "https://www.vietnam.vn/en/truong-pho-thong-tai-ha-noi-su-dung-robot-lam-le-tan-chao-don-hoc-sinh-moi-ngay"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:31:00+08:00"
+  },
+  {
+    "id": "jinbei-quantum-embodied-shenyang",
+    "category": "跨行业",
+    "title": "沈阳座椅厂：东北首台工业具身机器人戴上工牌",
+    "body": "汽车座椅与内饰车间发布会上，一台工业具身机器人胸口挂上工牌，旁边大屏亮起东北首批具身智能数据确权证书——工厂把自己变成训练场。九月二十一日，金杯股份在沈阳举行具身智能战略发布，「量子一号」戴上工牌成为零零一号机器人员工，并启动东北首个真场景数据工厂「金智变量」。\n\n金杯与自变量三月成立合资公司；机器人计划投放到分拣、搬运、质检、巡检等真实岗位训练。依托座椅与内饰等真产线采集数据，获北京国际大数据交易所东北首批具身智能数据确权证书。自变量物流分拣方案已在头部产线常态运行：双臂加标准夹爪实测一千九百一十一件每小时、准确率超百分之九十八，部署成本较海外方案约降七成。\n\n所以呢：传统汽车零部件厂反过来卖「场景加数据加本体」——东北工厂给机器人发工牌，本质是抢具身数据母港。",
+    "links": [
+      {
+        "label": "新浪财经",
+        "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inisspzm2143551.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:30:00+08:00"
+  },
+  {
+    "id": "figure-03-bmw-spartanburg-seq",
+    "category": "跨行业",
+    "title": "斯帕坦堡装配厅：人形从散筐里给零件排班",
+    "body": "汽车装配物流区，一台人形机器人双手从杂乱料箱里摸出薄壁零件，转身塞进排序小车的正确格位，必要时整个人连着车把料车拽走。六月三十日起，两台 Figure 03 在宝马美国斯帕坦堡工厂 Hall 52 做物流排序：从散装料箱抓零件，按装配顺序码进料车。\n\n前代 Figure 02 在二零二五年参与约三万辆车装配相关作业；新任务要求边走边抓、感知姿态变化并纠错，靠 Helix 02 视觉-语言-动作模型。智能转运机器人或牵引列车再把料送到工位，走准时排序逻辑。场景特点：零件朝向不固定、可能遮挡，传统硬编码六轴难覆盖；人形在为人设计的通道与料架间作业。\n\n所以呢：汽车厂人形从「焊装固定动作」迈到「乱箱子排序」——真正难的不是举铁板，是箱子里每件都不在同一位置。",
+    "links": [
+      {
+        "label": "Figure",
+        "url": "https://www.figure.ai/news/f-03-at-bmw"
+      },
+      {
+        "label": "Innovando",
+        "url": "https://en.innovando.news/BMW-brings-Figure-03-to-logistics--physical-AI-goes-online/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:29:00+08:00"
+  },
+  {
+    "id": "kibag-develon-realx-tuggen",
+    "category": "跨行业",
+    "title": "瑞士旧采石场：驾驶室空着，挖机自己挖三百米沟",
+    "body": "废弃采石场回填工地上，一台履带挖机驾驶室空空如也，却自己挖出一条约三百米长、六米宽、三米深的沟，技术监督员站在安全距离外看着。七月，瑞士建材巨头 KIBAG 在图根旧采石场把全球首台 Develon Real-X 自主履带挖机投入实际作业——驾驶室无人，也不靠遥控。\n\n机型 DX225LC-7X，与苏黎世联邦理工衍生公司 Gravis Robotics 合作；任务含挖沟、土方、装车，现场挖沟后用更好岩石料回填护坡脚。因公共场所法规未清，目前在 KIBAG 私有土地、技术监督下自主运行。Real-X 在 bauma 二零二五亮相；厂商称挖沟等场景可提升约三成绩效。\n\n所以呢：空驾驶室挖机从展会走进真采石场生态修复——建筑土方开始认真「没人坐进去」。",
+    "links": [
+      {
+        "label": "Develon Europe",
+        "url": "https://eu.develon-ce.com/en/news/2026-07-02-Develon-Reaches-New-Milestone-in-Autonomous-Earthmoving"
+      },
+      {
+        "label": "Insite Magazine",
+        "url": "https://insitemagazine.co.uk/develon-autonomous-excavator-enters-swiss-site-use/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:28:00+08:00"
+  },
+  {
+    "id": "vitibot-bakus-silverhand-kent",
+    "category": "跨行业",
+    "title": "肯特葡萄园：电动过藤机器人边除草边放人去绑枝",
+    "body": "有机葡萄园行间，一台电动过藤机器人跨在藤架上自己除草割草，操作员不再死坐驾驶室，而是走在旁边绑枝、看藤健康。八月报道，英国 Silverhand Estate 用 VitiBot Bakus P75L 在肯特葡萄园自主行间除草与割草，一人可监控多台，机器已覆盖六十多公顷。\n\n庄园葡萄园超四百公顷，半数以上有机；Bakus 是商业第三十七台，做行间与行内除草割草，减少压实与化学依赖。单人可监控多台，紧急停止距离约五百至九百米；满电工作约九至十一小时，快充约两小时；旺季可做到约七十小时轮班产出。已在多块地满负荷覆盖超六十公顷；庄园称还需再添两台；田块可预先测绘，新机直接上传地图接续作业。\n\n所以呢：再生农业最缺人手的机械除草，先交给过藤机器人——有机不等于更土，反而更需要自动化顶住人工。",
+    "links": [
+      {
+        "label": "Farm Contractor",
+        "url": "https://www.farmcontractormagazine.com/profiles/reader-profiles/robotics-brings-efficiency-boost-to-kent-vineyards.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:27:00+08:00"
+  },
+  {
+    "id": "heidelberg-spot-leimen-cement",
+    "category": "跨行业",
+    "title": "莱门水泥厂：机器狗四个半月跑完近万次巡检",
+    "body": "轰鸣的水泥粉磨车间，一台机器狗按时刻表爬楼层巡检，热成像里本该发红的部件突然变蓝——堵塞信号比停机早了好几天。六月海德堡材料披露，莱门水泥厂的 Spot 已覆盖一百七十多个巡检点，四个月内近一万次巡检、行走超九十公里，并提前数天发现旋风筒堵塞。\n\n巡检点与维修团队共同定义；采集热成像、声学泄漏、振动与高清影像。案例：热成像发现粉磨单元旋风筒堵塞征兆——温度异常变「蓝」——提前数天告警避免停机。公司强调机器人补标准化与早期发现，不替换人工判读与维修；下一步探索数字孪生、窑炉与无人机协同。\n\n所以呢：水泥这种又脏又吵的工厂，机器狗把「凭感觉摸温度」变成固定路线数据——跨行业巡检的 ROI 故事，一则堵塞预警就讲得清。",
+    "links": [
+      {
+        "label": "Heidelberg Materials",
+        "url": "https://www.heidelbergmaterials.com/en/digital/spot-the-robot-dog"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T18:26:00+08:00"
+  },
+  {
     "id": "prompt-seedance-rain-timestop-seraine",
     "category": "提示词",
     "title": "雨巷时停：剑光挂空再齐落",
