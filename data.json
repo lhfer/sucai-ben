@@ -1,5 +1,428 @@
 [
   {
+    "id": "prompt-seedance-rain-timestop-seraine",
+    "category": "提示词",
+    "title": "雨巷时停：剑光挂空再齐落",
+    "body": "雨夜里，银白短发的女骑士塞莱因被几具机械傀儡追进湿漉漉的哥特石巷。肩扛机跟着她跑，雨点砸镜头，符文灯把地面积水染成深蓝和暗金。盲区里骑士从两侧柱后扑出，她抬手放出深蓝时停场，雨滴冻成冰晶，斧头停在半空。机位钻进这几乎静止的一帧：她反手拔圣剑，金白剑弧一刀一刀挂在空里不散，闪烁穿梭只留下银灰残影。最后她松开时场，积蓄的时间同一刻砸下来，所有悬空剑弧齐落，傀儡沿刀口一起裂开。这是 Seedance 2.5（字节系视频模型）的提示词，把「时停」写成帧内物理规则——剑弧必须一直挂着、解冻必须同一帧齐落。拍动作片时，把角色和兵器换掉就能直接套。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Iancu_ai/status/2102224031080415612"
+      }
+    ],
+    "prompt": "Rain chase→blind spot ambush→time stop counter→collapse burst.\n\nCharacter reference, Seraine from @[image 1]: silver white tousled short hair, a side fringe covering half of one eye, grey blue eyes, a pale and severe face. She wears silver black plate armor, the breastplate and pauldrons covered in gilded scrollwork relief, a white quilted underlayer with a long skirt, a holy sword at her hip and a cross kite shield slung on her back. Keep her face, hair, armor patterning and sword design consistent for the whole shot.\n\nThe camera starts as a shoulder rig riding tight on Seraine and moves with her. A wet gothic stone alley on a rainy night, magic rune lamp signs hanging along both walls refracting through the rain into mottled patches of deep blue and dark gold, standing water on the ground reflecting broken light. Seraine, in her silver black gilded holy armor, is being run down from behind by several mechanical puppet knights, her stride fast and hard like a cheetah, the gilded runes in her armor joints flickering cold white light with every step. The shoulder rig bumps and shakes slightly with her pace, and raindrops hit the front of the lens and leave hazy water trails.\n\nSeveral mechanical puppet knights, iron cast faceplates with glowing dark red mana cores set into their chests, ambush at the same moment out of the visual blind spots thrown by the rune signs and from behind the thick stone pillars on both sides of the alley. The camera snaps back fast and runs a 360 degree orbit, sweeping across the silhouettes closing in from every side, and lands on a close up of Seraine's face. Rainwater runs off the tips of her silver white hair, her eyes cold and sharp, and she throws up a hand and releases a deep blue time field. Time stops dead in that instant and holds for only about 1 second. Raindrops hang and freeze into ice crystals, and a knight's arm raising a halberd locks rigid halfway up.\n\nThe camera then dives into that almost frozen space. Seraine draws the holy sword at her hip with a reverse grip, and the moment the blade clears the scabbard the gilded runes along its spine light up one by one from hilt to tip, the whole sword wrapped in a layer of flowing gold white holy light, fine cold blue arcs burning along the edge. She triggers the blink rune array in her armor and her body bursts apart into a blinding stream of cold white light, flickering at high frequency between the knights. Every blink pulls a strong directional motion blur trail behind her and leaves several silver grey translucent afterimages fading out, and each reappearance lands with a harsh white flash and scattering shards of light. The suspended ice crystal raindrops are smashed by the light stream into glittering points.\n\nDiagonal cut, horizontal slash and rising thrust run together in one combo, and every stroke leaves a gold white curved blade arc hanging in the frozen air instead of fading, strings of golden sparks bursting where the edge scrapes iron plate. Her left hand takes a knight by the throat in a reverse grip and drags him off the ground, a deep blue energy bolt gathering in her palm and shattering the mana core in his chest in midair. The combo is clean and decisive. Close ups catch the flowing rune light and arcs on the blade, the current flickering at the rune ports in her arm armor joints, and the mechanical rigidity of the knights' iron faceplates. The high speed blink section carries heavy motion blur and light trail smear throughout, while only the frozen raindrops and the knights stay sharp, for an extreme contrast between fast and slow.\n\nAfter the last knight is dealt with, Seraine stands in the middle of the alley with the holy sword angled down and presses the rune port on her arm armor to release the time field. The dammed flood of time pours down at once, every gold white blade arc hanging in the air falls at the same moment, and the knights she cut split apart along those cut lines together. The cores in their chests burst from the inside and collapse into a wide spray of mechanical debris and gilded iron plate scattering across the ground, and the light on the holy sword slowly draws back in.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-diner-freeze-bacon",
+    "category": "提示词",
+    "title": "diner时停广告：撞翻早餐只她能动",
+    "body": "一九九零年代美式 diner 里，红皮卡座、棋盘地砖、霓虹灯。黑长发女孩起身一转身，撞上端着早餐托盘的女侍应。鸡蛋、培根、咖啡瞬间飞起，时间在最乱那一帧冻住：盘子、液体、路人都悬在半空，只有她还能动。她先愣一下「我搞砸了」，然后随手捞走两根浮着的培根和一个荷包蛋，旁若无人地往门口走边吃。到门口时间猛地回弹，所有东西同一秒砸碎一地，她回头挑眉耸肩，一脸「就这样吧」。整条提示词按秒切成十五秒 Seedance 2.5（字节系视频模型）广告壳：食物液体物理逼真，只有主角能动。餐饮品牌换脸换菜就能拍成可重看的喜剧短片。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/ImaStudio_ai/status/2102236075259543657"
+      }
+    ],
+    "prompt": "Create a 15-second, 16:9, 24fps photorealistic cinematic video using Seedance 2.5.\n\nSet inside a richly detailed 1990s American diner with red vinyl booths, chrome details, neon signs, checkerboard floor, soft daylight mixed with warm practical lighting, subtle handheld realism, and heavy natural film grain.\n\nUse the provided reference image as the exact identity reference for the main girl. Keep her face, long jet-black hair, green-hazel eyes, winged eyeliner, deep maroon lipstick, skin texture, body proportions, and outfit perfectly consistent throughout.\n\n0–3s | Collision Hook\nMedium-wide shot. The girl rises from a red booth, turns quickly, and accidentally collides with a waitress carrying a breakfast tray filled with eggs, bacon, toast, plates, and coffee. The impact feels sudden, physical, and believable.\n3–7s | Freeze-Time Spectacle\nThe collision erupts into dramatic super slow motion. Plates, bacon, fried eggs, and coffee fly upward. Coffee forms suspended ribbons and droplets. The camera moves dynamically around the impact as time freezes completely at the peak of the chaos. The waitress, patrons, food, plates, and liquid remain perfectly suspended. Only the girl can still move. She reacts with a brief \"I messed up\" expression, then casually grabs two floating bacon strips and a fried egg.\n7–11s | Walking Through Frozen Time\nTracking shot. She walks calmly toward the diner exit while eating the bacon and egg. Everyone and everything around her remains perfectly frozen in mid-air. Keep the contrast funny and visually surreal.\n\n11–13.5s | Time Snaps Back\nAs she reaches the door, time suddenly resumes. All suspended objects crash down at once: plates, tray, eggs, bacon, and coffee hit the floor in chaotic real-time motion. The waitress and patrons react instantly.\n13.5–15s | Comedy Payoff\nMedium close-up. She pauses, glances back, raises her eyebrows, gives a small casual \"it is what it is\" shrug and half-smile, still holding the remaining food.\nPhotorealistic human motion, realistic object and liquid physics, stable identity, believable gravity, strong temporal coherence, cinematic lighting, controlled motion blur only on moving elements, no morphing, no duplicated people, no floating errors, no broken anatomy, no visual artifacts. The final result should feel like a polished cinematic commercial with strong comedy timing and high rewatch value.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-bus-highway-infect",
+    "category": "提示词",
+    "title": "高速巴士感染：司机乘务员抡扳手救人",
+    "body": "白天，一辆日本高速巴士塞满乘客。中排女人突然抽搐，脖子上红筋爬上脸，眼睛全红，一口咬住邻座。被咬的人也几秒变感染者，车厢尖叫，人从座位上往外爬。灰制服乘务员大喊「停巴士」，司机猛踩刹车，车歪在路肩。两人一个抄起千斤顶撬棍，一个拎着钢制扳手，先把门拉开让乘客往外涌，再冲到路肩抡工具清场。慢镜只留给最后两记砸倒，结尾是两人疲惫对视、旅客在天空下聚拢。Seedance 2.5（字节系视频模型）把三十秒写成秒级分镜：感染扩散有物理节奏，对白、刹车、金属撞击都写进声轨。适合当「一镜剧本」示范——换感染设定也能照着秒数填。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/auqibhabib/status/2102265619416768799"
+      }
+    ],
+    "prompt": "Cinematic horror-action short film set aboard a Japanese highway bus during the day, opens with an immediate strong hook, maximum dynamic camera work, grounded practical-effects style. Bus interior filled with passengers in every seat, a conductor in a gray uniform with a money pouch at his waist, a driver focused on the road ahead. Muted authentic color grading, natural diegetic sound throughout, tension score entering immediately.\n>\n> **[0-1s]** Hard cut: a woman mid-row suddenly jolts violently in her seat, gasping sharply.\n>\n> **[1-2s]** Close-up: her veins turn a deep red, spreading rapidly up her neck and across her face.\n>\n> **[2-3s]** Her eyes snap open, now fully red — she lunges instantly, biting into her seatmate's shoulder.\n>\n> **[3-4s]** He cries out, nearby passengers recoiling in shock, seats creaking as people scramble back.\n>\n> **[4-5s]** The bitten man convulses hard, veins spreading fast across his own neck and arms.\n>\n> **[5-6s]** He rises seconds later, eyes red, joining her, both turning toward the passengers around them.\n>\n> **[6-7s]** Panic spreads through the bus, passengers screaming, climbing over seats to get away.\n>\n> **[7-8s]** The conductor spots the chaos from the front, shouting urgently in Japanese: \"バスを止めて!\" (\"Stop the bus!\")\n>\n> **[8-9s]** The driver slams the brakes hard, the bus lurching to a stop on the highway shoulder.\n>\n> **[9-10s]** The conductor grabs a metal tire iron from beneath his seat, moving fast down the aisle.\n>\n> **[10-11s]** The driver grabs a heavy steel wheel wrench, following close behind him.\n>\n> **[11-12s]** They reach the folding door, wrenching it open, ushering panicked passengers out fast.\n>\n> **[12-13s]** Passengers pour out onto the highway shoulder, some stumbling, others sprinting clear.\n>\n> **[13-14s]** The two infected push through the fleeing crowd, lunging toward the nearest passenger outside.\n>\n> **[14-15s]** The conductor swings the tire iron hard, striking the first infected across the shoulder, sending it stumbling.\n>\n> **[15-16s]** The driver swings the wrench into the second infected, knocking it back against the bus.\n>\n> **[16-17s]** SLOW MOTION insert: the first infected lunges again, conductor sidestepping and striking it down with a solid blow.\n>\n> **[17-18s]** It collapses onto the gravel shoulder, motionless.\n>\n> **[18-19s]** The second infected recovers, charging the driver; he braces and swings the wrench in a wide arc.\n>\n> **[19-20s]** The impact connects hard, sending it sprawling against the guardrail.\n>\n> **[20-21s]** It tries to rise again; the conductor rushes over, delivering one final strike alongside the driver.\n>\n> **[21-22s]** It goes still, both men breathing hard, weapons still raised.\n>\n> **[22-24s]** Wide shot: passengers huddled together on the highway shoulder, shaken but safe, cars slowing on the opposite lane.\n>\n> **[24-26s]** The conductor lowers the tire iron, scanning the group to confirm everyone's accounted for.\n>\n> **[26-28s]** The driver checks the two motionless infected on the ground, cautious but confirming they're down.\n>\n> **[28-30s]** Final shot: the conductor and driver exchange an exhausted nod, passengers slowly regrouping behind them under the open sky. Cut to black.\n\nNatural diegetic sound throughout — gasping, screaming, bus brakes screeching, metal impacts, heavy breathing, distant highway traffic — layered with a tense instrumental score building through the chaos and easing into relief at the end. No text overlay, no watermark. Maximum dynamic camera variety — close-ups, wide shots, tracking shots, slow motion reserved only for the final takedown blows. Realistic shake only during physical impacts, natural daylight highway color grading.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-dv-camcorder-kite",
+    "category": "提示词",
+    "title": "DV手持假录像：放风筝喂羊的年代感",
+    "body": "巷子窄、电线乱、单层小屋门口趴着一只小羊，镜头故意晃得像朋友随手拍。东南亚或韩国女孩踮脚去够树杈上缠住的风筝线，线松了，风筝落下，她笑着接住，跑到街上放飞。风把线扯紧，她小跑两步稳住；又蹲下捧起飞进屋的小鸟，送到门外松手，遮着眼看它飞远。最后跪在羊旁边用奶瓶喂它，羊调皮顶她胳膊，她笑着推回去，自然看一眼镜头就切黑。提示词写给 Seedance 2.5（字节系视频模型），点名早期 DV 家用录像美学：手抖、追焦、曝光跳、压缩噪点、褪色低对比，禁止稳定器和电影调色。故意写「丑」，比假电影感更像真的旧磁带；换角色照样能拍出年代感旅行碎片。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/doctorwasif/status/2102263180500312349"
+      }
+    ],
+    "prompt": "image = Main Subject. Preserve her exact face, identity, hairstyle, facial features, skin tone, and body proportions throughout. Keep the reference outfit consistent.\n\nAuthentic Southeast Asian or Korean woman. Early-2000s residential neighborhood: narrow concrete alleyways, simple single-story homes, small terraces, potted plants, large trees, tangled overhead wires, and a small goat/lamb near the house. No shops, markets, vendors, or commercial activity.\n\nRAW EARLY-2000s DV CAMCORDER REALISM: handheld home-video footage, heavy organic camera shake, imperfect framing, frequent reframing, subject drifting near frame edges, autofocus hunting, lens breathing, exposure fluctuations, rolling shutter, natural motion blur, digital noise, compression artifacts, faded/desaturated colors, washed highlights, faded blacks, low contrast. Casual friend-recorded footage. No stabilization, posing, cinematic glamour, polished composition, or modern color grading.\n\n00:00–00:04\nUnder a large tree, she reaches up on tiptoe and gently frees a kite string tangled in the branches. Camera sways and framing drifts.\n\n00:04–00:07\nClose handheld shot as she frees the string, laughs, and catches the falling kite.\n\n00:07–00:10\nShe walks into the street, releases the string, and watches the kite rise in the wind, smiling.\n\n00:10–00:13\nShe jogs a few steps to control the kite as the wind pulls the string. Loose, imperfect handheld framing.\n\n00:13–00:16\nShe returns toward the house and crouches down, gently picking up a startled bird that flew inside.\n\n00:16–00:19\nClose handheld shot as she carries the bird outside in her cupped hands, speaking softly to calm it.\n\n00:19–00:22\nShe opens her hands and the bird flies away. She watches it with a warm smile, shielding her eyes from the sun.\n\n00:22–00:25\nShe kneels beside the goat/lamb and feeds it from a bottle.\n\n00:25–00:28\nClose shot of the goat drinking eagerly while she laughs and adjusts the bottle.\n\n00:28–00:30\nThe goat playfully nudges her arm. She laughs, gently pushes it back, then briefly looks toward the camera with a natural smile before cutting.\n\nAUDIO: Natural location sound only birds, breeze, leaves, distant motorcycles, kite string fluttering, bird chirps, and goat bleats. No music.\n\n16:9.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-scooby-desktop-icons",
+    "category": "提示词",
+    "title": "桌面追三明治：图标必须亲手摆回去",
+    "body": "电脑桌面当舞台：右边卡通少年举着巨型三明治跑，狗兴奋追，耳瓣乱甩。人被爆米花绊倒，三明治飞出去砸松三个图标，图标在空中打转，落在程序坞上方弹两下，原位空着。狗咬住三明治啃一口，两人看见掉下来的图标，面面相觑愣住。接下来必须亲手归位：人搬回第一个，狗搬回第二个，两个一起把第三个塞回原格，每次落下都有单独喀哒声。禁止瞬移、禁止自动吸附。最后狗躲到人背后偷看，人装无辜，一起盯着观众摆出心虚表情。Seedance 2.0（字节系视频模型）把桌面写成物理世界，图标只能手搬回去。互动 UI 梗、壁纸恶搞都能套这套「弄乱再收拾」的壳。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/itxabdullaa/status/2102239560914841864"
+      }
+    ],
+    "prompt": "Create a 10-second 16:9 animated video using the provided mystery-cartoon desktop image as the EXACT first frame and visual reference.\n\nPreserve the desktop exactly: room, furniture, wallpaper, system bar, app grid, dock, icons, labels, lighting, and layout. Keep the two cartoon characters unchanged in appearance, colors, expressions, proportions, clothing, and classic 2D style.\n\nCamera: Static front view, one continuous shot, no zoom, pan, tilt, or cuts.\n\n0–1.5s:\nOn the RIGHT side, the human runs with a giant sandwich while the dog chases excitedly. Classic cartoon motion, ear flaps, sliding paws, and bouncy clothing.\n\n1.5–2.5s:\nThe human trips over popcorn. The sandwich flies up and knocks 3 desktop icons loose. The icons spin through the air, land above the dock, and bounce. Their original grid spots remain empty.\n\n2.5–3.2s:\nThe dog catches the sandwich and takes a bite. Both characters notice the fallen icons, freeze, exchange worried looks, and pause awkwardly.\n\n3.2–7.8s:\nThey restore the icons one by one:\n\n- Human returns Icon 1.\n- Dog returns Icon 2.\n- Both return Icon 3.\n\nEach icon must visibly leave its position, fly, land, be picked up, carried, and manually placed back into its exact original location. Separate click sound for each restoration. No teleporting, snapping back, duplication, logo changes, or automatic restoration.\n\n7.8–10s:\nAfter restoring the last icon, the dog hides behind the human. The dog peeks out nervously while the human acts innocent. Both glance at the icons, then look at the viewer. Hold a guilty-comedic pose.\n\nDesktop Rules:\nOnly the 3 selected icons may move. Everything else remains perfectly unchanged and stationary.\n\nAudio:\nPlayful mystery-cartoon music, chase rhythm, stumble sound, sandwich impact whoosh, three landing sounds, three restoration clicks, brief silence during the shocked reaction, then music resumes. No dialogue, subtitles, or text overlays.\n\nStyle:\nPremium cinematic 2D cartoon animation, clean outlines, squash-and-stretch motion, consistent colors, subtle shadows, light floor reflections, realistic interaction with the desktop.\n\nFinal Frame:\nDesktop fully restored, all icons back in their original positions, characters on the RIGHT side, guilty-comedic expressions, no missing or duplicate icons, matching the reference image.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-lumina-kpop-plaza",
+    "category": "提示词",
+    "title": "LUMINA三连景：广场市场球场不断人",
+    "body": "虚构女团 LUMINA 五人加十二名伴舞，一共十七人锁死，不能多一个。同一条欧洲街区的夏日下午：先在有黄巴士的阳光广场跳开场齐舞，肩撞手点、小跳落地都写清。钴蓝色衬衫伴舞从镜头前擦过，揭开下一幕——明亮室内菜市场中央过道继续往前跳；米娜转身裙摆一糊，接到室外篮球场同方向同比例的转场。最后吊臂轻轻抬高，十七人定格，主唱纳里对镜头笑。Seedance 2.5（字节系视频模型）写满三十秒：人数锁定、场景连续、转场用衣服擦镜，路人绝不能跟着跳。拍长 MV 提示词时，「不加人、不换脸、方向不断」这三条写死，成片才不会散架。做团综式街头短片也能照抄这个三景骨架。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/im_shahid7/status/2102273080685121659"
+      }
+    ],
+    "prompt": "Using the supplied first frame as the exact opening image, generate a 30-second horizontal 4:3 photorealistic summer K-pop music video.\n\nCONCEPT\n\nThe five-member fictional K-pop girl group LUMINA performs with twelve international supporting dancers across three connected public locations in the same European neighborhood:\n\n1. Sunny city plaza\n2. Bright covered food market\n3. Outdoor community basketball court\n\nThe visual tone is joyful, energetic and communal. Camera transitions must make the three locations feel physically connected rather than unrelated scenes.\n\nCHARACTER COUNT LOCK\n\nUse exactly:\n- Five LUMINA members\n- Twelve supporting dancers\n\nNo additional dancers may appear.\n\nBackground pedestrians, market vendors and customers are civilians only. They remain clearly separated from the choreography and never copy the dance.\n\nKeep every LUMINA member consistent:\n- Same face\n- Same hairstyle\n- Same outfit\n- Same body proportions\n- Same accessories\n- Same role in the group\n\nDo not duplicate, merge, replace or transform any performer.\n\nCAMERA STYLE\n\nHorizontal 4:3.\nPolished live-action K-pop cinematography.\nUse a stabilized gimbal, short dolly movements and one gentle crane reveal.\n\nCamera movement should be energetic but readable:\n- Smooth forward pushes\n- Short lateral tracks\n- Motivated close-ups\n- Whip-pan transitions hidden by foreground objects\n- Continuous screen direction\n\nDo not use random camera teleportation, spinning camera, extreme shake or excessive cutting.\n\n0.0–4.0 SECONDS — OPENING GROUP CHOREOGRAPHY\n\nContinue directly from the first frame.\n\nNari drops her raised arm across her chest and initiates the first synchronized sequence.\n\nAll seventeen dancers perform:\n- Two grounded side steps\n- Alternating shoulder hits\n- One upward diagonal arm sweep\n- A clean hip-level hand cross\n- One synchronized head turn toward camera-right\n\nThe camera slowly pushes forward while preserving all five main members in frame.\n\nThe yellow bus remains parked behind them. Background pedestrians continue normal movement.\n\n4.0–7.0 SECONDS — NARI CENTER MOMENT\n\nThe other members step outward by half a meter, opening a clear center lane.\n\nNari advances two short steps toward the camera and performs:\n- Right-hand face frame\n- Quick wrist rotation\n- Chest accent\n- Half-turn\n- Immediate return to face the camera\n\nHer pleated skirt, hair and socks move naturally.\n\nTransition into a chest-up shot without cutting off her hands. She smiles directly into the lens for one beat.\n\nNo slow motion.\n\n7.0–10.0 SECONDS — FORMATION EXPANSION\n\nThe camera pulls back smoothly.\n\nMina and Jiyu move to Nari’s sides while Hana and Seoa close the rear line. The twelve supporting dancers expand outward into a wide semicircle.\n\nThe full group performs:\n- Two bouncing steps\n- Right-arm wave\n- Left-arm wave\n- Fast double hand point\n- One small synchronized jump\n- Clean wide-stance landing\n\nFeet maintain accurate contact with the stone pavement.\n\nThe city bus begins moving slowly out of the background in the correct traffic direction.\n\n10.0–12.0 SECONDS — MARKET TRANSITION\n\nA supporting dancer in a cobalt overshirt crosses close to the camera from left to right.\n\nHis shirt briefly fills the frame and creates a natural wipe transition.\n\nAs the blue fabric clears, reveal the same forward camera movement continuing inside a bright covered municipal food market.\n\nThe transition must preserve movement direction and rhythm.\n\n12.0–16.0 SECONDS — MOVING THROUGH THE MARKET\n\nThe five LUMINA members dance forward through a wide central market aisle.\n\nFormation:\n- Jiyu leads at center\n- Nari and Mina follow behind\n- Hana and Seoa occupy the outer positions\n- Supporting dancers trail in two organized lines\n\nEnvironment:\n- White and pale-blue market counters\n- Fresh fruit and vegetable stalls\n- Flower buckets\n- Closed glass seafood displays\n- Hanging international festival flags\n- Elderly vendors and ordinary shoppers standing safely outside the aisle\n- Bright skylight illumination\n- Clean, dry floor\n\nThe group performs walking choreography:\n- Rhythmic forward steps\n- Alternating elbow pulls\n- Shoulder rolls\n- Overhead hand waves\n- One synchronized direction change around a market column\n\nThe camera tracks backward at matching speed.\n\n16.0–19.0 SECONDS — MINA CLOSE-UP\n\nMina moves toward the front-left side of the formation.\n\nThe camera transitions into a smooth waist-up close-up as she performs:\n- Hand sweep beside her cheek\n- Elbow raised above shoulder level\n- Playful head tilt\n- Quick body roll\n- Direct smile into the lens\n\nNari and Jiyu remain visible behind her in softer focus, continuing simpler choreography.\n\nA row of colorful market flags passes above the frame.\n\n19.0–21.0 SECONDS — SECOND MATCH TRANSITION\n\nMina spins once to her left.\n\nHer pale blue-grey skirt creates a brief circular foreground blur.\n\nMatch the end of the spin with Seoa completing the same turn at an outdoor basketball court.\n\nThe rotation direction, body scale and camera height must remain consistent across the cut.\n\n21.0–25.0 SECONDS — BASKETBALL COURT CHORUS\n\nReveal a sunny outdoor community basketball court approximately one block from the market.\n\nEnvironment:\n- Blue and coral painted court\n- White boundary lines\n- Blue basketball backboard\n- Chain-link perimeter fence\n- Colorful city buildings in the distance\n- Green trees\n- Clear afternoon sky\n- No active basketball players inside the dance zone\n\nAll five LUMINA members return to the front row.\nThe twelve supporting dancers form two staggered rows behind them.\n\nThey perform a high-energy chorus:\n- Wide side step\n- Double forearm hit\n- Alternating knee lifts\n- Cross-body point\n- Fast shoulder bounce\n- Quarter-turn\n- Return to front\n\nThe camera tracks laterally from left to right while maintaining a stable horizon.\n\n25.0–28.0 SECONDS — ROTATING CENTER POSITIONS\n\nEach member receives a brief movement highlight without stopping the group choreography:\n\n- Hana performs a grounded two-count footwork accent\n- Seoa performs a bright arm circle\n- Jiyu performs a strong chest-and-shoulder hit\n- Mina performs a face-framing gesture\n- Nari returns to center with one clean pivot\n\nThe other performers stay in their assigned positions and use simplified supporting movements.\n\nNo member passes directly through another dancer’s path.\n\n28.0–30.0 SECONDS — FINAL GROUP POSE\n\nThe camera rises gently by approximately one meter while moving slightly backward, revealing the full court formation.\n\nAll seventeen dancers complete:\n- One synchronized upward arm throw\n- Small controlled jump\n- Stable landing\n- Final asymmetrical pose\n\nFinal positions:\n- Nari center front\n- Mina and Jiyu one step behind her\n- Hana and Seoa on the outer front diagonals\n- Twelve supporting dancers in a broad semicircle\n\nNari looks directly into the camera and gives a bright confident smile.\n\nHold the final pose for the last half-second.\n\nCHOREOGRAPHY QUALITY\n\n- Professional K-pop synchronization\n- Energetic but anatomically realistic movement\n- Clear preparation before every turn and jump\n- Accurate foot placement\n- Natural knee compression on landings\n- Realistic hair and fabric movement\n- No repeated movement loops\n- No performer colliding with another\n- No bodies passing through one another\n- No floating feet\n- No excessive motion blur\n\nSCENE CONTINUITY\n\nAll three locations exist in the same neighborhood and share the same afternoon weather.\n\nMaintain:\n- Consistent sunlight direction\n- Consistent performer identities\n- Consistent clothing\n- Consistent hair\n- Continuous movement direction during transitions\n- Realistic travel logic between scenes\n\nAUDIO\n\nCreate an original upbeat summer K-pop track:\n- Bright percussion\n- Clean bass line\n- Rhythmic handclaps\n- Light synth melody\n- Energetic chorus\n- Original non-lyrical vocal ad-libs\n\nMix in subtle location ambience:\n- Distant city traffic\n- Footsteps\n- Market room tone\n- Shoe contact on the basketball court\n- Light crowd reaction at the final pose\n\nNo recognizable copyrighted melody.\nNo spoken narration.\nNo loud artificial sound effects.\n\nREALISM\n\nThe video should feel like a high-budget K-pop video genuinely filmed in active public locations.\n\nUse:\n- Natural sunlight\n- Real human skin texture\n- Slight perspiration after dancing\n- Realistic clothing wrinkles\n- Physically correct shadows\n- Real architecture\n- Believable civilian reactions\n- Controlled professional camera operation\n\nNEGATIVE CONSTRAINTS\n\nNo extra dancers, missing members, cloned faces, duplicated bodies, identity drift, changing hairstyles, changing outfits, disappearing accessories, skirt transformation,wardrobe malfunction, excessive exposure, merged limbs, extra fingers, broken joints, floating shoes, sliding feet, dancers passing through each other, unstable buildings, duplicated buses, distorted market counters, changing basketball court lines, artificial crowd multiplication, excessive saturation, blown highlights, plastic skin, slow motion, speed ramps, spinning camera, random aerial shot, anime, cartoon, CGI look, subtitles, captions, logos or watermark.\n\nFINAL OUTPUT\n\n30 seconds.\nHorizontal 4:3.\nPhotorealistic live-action K-pop music video.\nFive original adult female group members.\nTwelve adult supporting dancers.\nBright summer European city.\nCity plaza, covered market and outdoor basketball court.\nSmooth match transitions.\nEnergetic synchronized choreography.\nNatural daylight and realistic public environments.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-summer-handpaint-travel",
+    "category": "提示词",
+    "title": "手绘夏日公路片：吊床到海边一串转场",
+    "body": "一条土路通向闪光的蓝海，路边立着「Summer Vacation」旧牌子。旅人躺进大树下的吊床，阳光从叶缝漏下来；接着湖边钓鱼、苔藓洞穴、金黄麦田骑车，再切到山谷日落野餐、彩色阳台街边咖啡，木屋里三个孩子啃西瓜，园丁收菜，最后停在白墙花街尽头那片青绿海。全程要求手绘动画感、角色发型衣服比例锁定，风吹草动、水面反光都要有，禁止写实、禁止突然换画风。这是 Seedance 2.5（字节系视频模型）的「动画旅行 vlog」模板：一串温柔转场串成夏天记忆，没有旁白字幕。换旅人形象就能批量做怀旧公路片短视频，适合做旅行账号的片头或情绪串烧。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/aynellex/status/2102242876038218087"
+      }
+    ],
+    "prompt": "Create a cinematic hand-painted animated summer travel story following a young traveler through a peaceful countryside and coastal getaway. Begin with a sunlit dirt path leading toward a sparkling blue sea, surrounded by green hills, wildflowers, and a rustic \"Summer Vacation\" sign. Transition to a cozy countryside house where the traveler relaxes in a hammock beneath a huge leafy tree, with warm sunlight filtering through the branches.\n\nContinue with peaceful nature scenes: the traveler fishing beside a reflective lake surrounded by willow trees, exploring a mysterious moss-covered forest cave, and riding a bicycle along a narrow path through endless golden wheat fields with distant mountains and a bright blue sky.\n\nMove into warm sunset moments overlooking a beautiful valley, followed by a quiet picnic beside a lake surrounded by lush green hills. Transition to charming European-style streets with colorful buildings, outdoor cafés, flower-covered balconies, and the traveler enjoying a peaceful meal beneath a large umbrella.\n\nInclude cozy countryside moments inside a traditional wooden home, where three children happily eat watermelon together. Follow with a gardener harvesting fresh vegetables in a vibrant summer garden. End on a bright coastal village street lined with white buildings, colorful flowers, and a breathtaking view of the turquoise ocean in the distance.\n\nMaintain consistent character design, hairstyle, clothing, proportions, and visual style throughout. Use beautiful hand-painted backgrounds, rich natural colors, soft sunlight, atmospheric depth, gentle wind, moving grass and leaves, realistic water reflections, subtle character animation, and smooth cinematic transitions.\n\nCreate a nostalgic, peaceful, wholesome summer atmosphere with the feeling of freedom, travel, childhood memories, and discovering beautiful places. Use slow camera pans, gentle tracking shots, wide establishing views, intimate medium shots, and smooth transitions between locations.\n\nKeep animation fluid and natural with believable walking, cycling, fishing, eating, gardening, hammock movement, flowing clothing, moving hair, swaying grass, rippling water, drifting clouds, and subtle environmental motion. No dialogue, no narration, no subtitles, no logos, no watermark, no distorted characters, no inconsistent designs, no sudden style changes, no photorealism, and no artificial-looking motion.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-cherry-tulip-cub",
+    "category": "提示词",
+    "title": "樱花下的白团子：举郁金香对镜头眨眼",
+    "body": "樱花小径上，一只圆滚滚的白色小动物捧着一支粉郁金香，站在镜头正中。它毛密、眼大、脸颊粉粉的，金黄时刻阳光穿过花枝，背景虚成软粉光斑，石板路上落满花瓣。它轻轻眨眼、歪头、耳朵微动，中段突然露出一点点「哦」的惊讶，又笑回去。机位平视、缓慢往前推一点点，竖屏九比十六，毛发和花瓣在风里轻晃，细节都要留住。Seedance 2.5（字节系视频模型）这条提示词短、稳、对镜头，是「萌宠对镜头」壳的典型写法。换毛色、换手里那支花，就能批量出竖屏封面和短循环；账号置顶、表情包底片、节日问候卡，改两个词就够出片了。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Zarnab_with_Ai/status/2102218121881014697"
+      }
+    ],
+    "prompt": "Create an ultra-cute cinematic 3D animated video of a tiny fluffy white baby animal with a round chubby body, soft dense white fur, huge glossy black eyes, tiny pink nose, rosy cheeks, and adorable innocent facial expressions.\n\nThe character is standing in a beautiful dreamy spring garden beneath blooming pink cherry blossom trees, surrounded by soft pink flowers and petals scattered across a warm stone pathway. Golden-hour sunlight shines through the branches, creating a magical warm glow and soft cinematic bokeh in the background.\n\nThe cute character gently holds a single fresh pink tulip in one paw, looks directly at the camera, and makes subtle adorable movements: gently blinking, slightly tilting its head, softly moving its ears and body, and giving a sweet innocent smile. Around the middle of the video, it makes a tiny surprised \"ooh\" expression before returning to a cute smile.\n\nCamera remains at the character's eye level with a slow subtle cinematic push-in. Soft depth of field, realistic fluffy fur detail, delicate flower petals moving gently in the breeze, warm volumetric sunlight, dreamy atmosphere, polished high-end 3D animation, charming fairytale aesthetic, smooth natural motion, consistent character appearance throughout.\n\nVertical 9:16 composition, centered character, close-to-medium shot, cinematic lighting, ultra-detailed, adorable, magical, high quality, smooth animation.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-supercar-editorial",
+    "category": "提示词",
+    "title": "俯视超跑海报：黑底只留一抹撞色",
+    "body": "俯视一辆棱角锋利的超跑，停在近乎全黑的未来城市上空构图里。沥青、玻璃楼、路标线都压成炭黑底，只留一抹撞色——电橙、霓虹黄或品红——落在车漆、标线和少量建筑细节上。巨大加粗字体铺在车后环境里，一半被车身挡住，制造前后景深度；再加细技术线和极简赛车几何。整体像奢侈车广告混潮牌海报，不是普通实拍。写给 GPT Image 2.5（OpenAI 出图模型）的竖版四比五编辑海报壳：双色板、字体压车后是核心。汽车、潮牌换车换撞色就能出一套统一视觉，品牌主视觉和发售预告图也能直接套上这套壳。发帖时把撞色换成品牌色，系列感立刻出来。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/harboriis/status/2102262476142506146"
+      }
+    ],
+    "prompt": "Create a premium futuristic automotive editorial poster featuring a high-performance sports car, designed in the same visual language as a luxury car campaign and modern streetwear graphic poster.\nFORMAT:\nVertical 4:5 portrait composition, ultra-high resolution, highly polished commercial artwork. Use a dramatic rotated composition where the car and environment create strong diagonal movement. The image should feel intentionally designed like a premium automotive poster, not like a normal photograph.\nCAR:\nA sleek exotic supercar viewed from a dramatic high-angle top-down perspective, with the entire vehicle clearly visible. Aggressive aerodynamic bodywork, sharp LED headlights, sculpted panels, detailed wheels, low stance, realistic tires, glossy paint, precise reflections and realistic materials. The car should be the main focal point.\nVISUAL STYLE:\nBlend photorealistic automotive design with sophisticated digital illustration. Extremely clean edges, simplified geometric surfaces, subtle cel-shading, controlled gradients, crisp highlights, realistic reflections, detailed mechanical elements, and slightly stylized architectural forms. Premium fashion-editorial poster aesthetic.\nENVIRONMENT:\nDark futuristic city architecture viewed from above, black asphalt, geometric buildings, glass surfaces, road markings, cables, windows, structural lines and subtle reflections. Keep the environment mostly black and charcoal so the vehicle stands out strongly.\nCOLOR PALETTE:\nUse a strict two-tone palette: deep black and charcoal as the base, with one strong accent color such as electric orange, neon yellow, hot pink, cyan, or red. The accent color should appear on the car, road markings, architectural details and selected graphic elements.\nGRAPHIC DESIGN:\nAdd huge bold condensed typography integrated into the environment behind the car. The typography should be partially hidden by the vehicle, creating depth. Use oversized white or light-gray letters with clean geometric forms. Add thin technical lines, subtle grids, minimal racing-inspired markings and abstract graphic shapes.\nLIGHTING:\nDramatic directional lighting, strong rim lighting around the car, subtle neon reflections, deep shadows, controlled highlights and cinematic contrast. No excessive glow.\nCOMPOSITION:\nKeep the car large and dominant in the frame. Use negative space around it, strong diagonal lines and architectural perspective. Make the composition feel like a professionally designed automotive campaign poster.\nQUALITY:\nExtremely detailed, sharp, clean, premium, sophisticated, realistic materials, polished surfaces, precise geometry, high-end automotive advertising, editorial art direction, 8K quality.\nIMPORTANT:\nNo people, no random objects, no clutter, no excessive text, no distorted car proportions, no extra wheels, no malformed geometry, no blurry details, no cheap cartoon appearance. Keep the vehicle recognizable and physically believable.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-claw-arcade-product",
+    "category": "提示词",
+    "title": "黄金爪子抓货：把产品名填进娃娃机",
+    "body": "画面上方，一只抛光的黄金娃娃机爪子垂下来，关节、齿轮、卷线都看得清，正夹起一件真实造型的产品，悬在上半画面中央。下三分之二堆成山：同款产品自然散落叠压，接触阴影、反射、透视都要站得住。暖色无缝棚拍背景，柔光打出高级商业片质感，玩味的抓娃娃梗却不廉价。提示词里留下 [PRODUCT] 占位，交给 GPT Image 2.5（OpenAI 出图模型），换品名、换包装颜色就能出片。电商主图、众筹海报、新品首发图把品牌货填进去，一套壳打穿品类，比每次从零写场景省事得多。护肤、数码、零食换进去都能用。博主可以直接抄走改。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Goodmanprotocol/status/2102257393216463021"
+      }
+    ],
+    "prompt": "Create a hyper-realistic premium editorial product photograph for [PRODUCT], inspired by a luxury claw/crane arcade machine, in a vertical 4:5 composition.\n\nA polished gold/brass metallic claw descends from the top of the frame, gripping and lifting one [PRODUCT] in the upper-center. Accurately visualize the product's real-world shape, materials, packaging, colors, branding, and distinctive design.\n\nBelow the claw, create a massive overflowing pile of identical [PRODUCT] items, naturally scattered and stacked across the lower two-thirds of the frame. Make every object physically believable with realistic scale, perspective, contact shadows, reflections, and depth.\n\nThe claw mechanism features detailed articulated joints, gears, bolts, mechanical components, and a visible coiled cable extending upward, constructed from polished gold/brass metal with realistic reflections.\n\nUse a seamless warm studio background with a muted tone that naturally complements the product's colors. Apply soft cinematic studio lighting, subtle warm highlights, realistic shadows, controlled reflections, and premium commercial photography aesthetics.\n\nThe composition should instantly communicate a playful claw-machine concept while maintaining a sophisticated luxury advertising look. Sharp details, photorealistic materials, vibrant yet cohesive colors, realistic depth, clean framing, high-end editorial quality.\n\nPreserve the recognizable identity of [PRODUCT]. Do not invent unrelated packaging, alter its core design, add unnecessary text, or introduce extra branding.\n\nNo text overlays, no watermark, no distorted objects, no malformed products.\n\nAspect Ratio: 4:5\nStyle: Hyper-realistic premium commercial product photography",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-knit-bow-outfit",
+    "category": "提示词",
+    "title": "奶白针织+黑蝴蝶结：中文穿搭词条",
+    "body": "上装写死：米白粗麻花针织开衫，圆领一排扣，领口正下方一枚黑丝绒小蝴蝶结。下装只露一点边的白色超短裤，配白色薄透长筒袜，袜口蕾丝，两条细吊袜带吊着。鞋是黑色露趾高跟穆勒，鞋面一颗水钻方扣。整条就是 GPT Image（OpenAI 出图模型）的中文穿搭词条，没有废话场景，部件清单短到能直接复制粘贴。做穿搭库时按「上装—下装—鞋」三条存，改颜色改面料就能扩成一整排造型卡。博主截图发帖也够清楚：读者一眼知道今天穿什么层次，比长篇英文描写更好改、更好记。当穿搭词条库的一条就很顺手。博主可以直接抄走改。博主可以直接抄走改。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/winbbry/status/2102273922175758358"
+      }
+    ],
+    "prompt": "上装：米白粗麻花针织开衫，圆领，前襟一排扣，领口正下方一枚黑色丝绒小蝴蝶结\n下装：白色超短裤只露一点边；白色薄透长筒袜，袜口蕾丝花边，两条吊袜带细带\n鞋：黑色露趾高跟穆勒鞋，鞋面水钻方扣",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-nano-banana-seaside-cafe-triad",
+    "category": "提示词",
+    "title": "海边咖啡馆同题：三家模型同提示词",
+    "body": "海边木屋咖啡馆露台，小麦色印度女孩双手撑在前景长椅上，上身微微前倾看镜头。左后方是亮蓝海和沙滩，头顶竹茅屋顶挂藤编灯，右侧木吧台和白墙。象牙罗纹吊带开襟上衣配抽绳短裤，硬质正午光从海面一侧打出发丝轮廓光，脸上有柔和反光。竖幅三比四，胸高广角，手被裁在画框底边，焦点钉在脸上。同一条提示词被拿去跑 ChatGPT Image 2、Grok Imagine 和 Nano Banana 2（谷歌系出图）并排对比。适合做「谁更像真阳光」测评帖：姿势锁死，比的是光影和皮肤谁更像实拍，读者一眼就能看出差别。博主可以直接抄走改。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/punkhuri1/status/2102265387413127198"
+      }
+    ],
+    "prompt": "Subject:\nSunlight at a Seaside Café\n\nMain Subject:\nAt the center of the frame, a young fair wheatish Indian woman stands on the terrace of a simple wooden café facing the sea. She places both hands on a wooden bench in the foreground and leans her upper body slightly toward the camera. In the far left background, a bright blue sea and sandy beach are visible. Above her is a bamboo-thatched roof with rattan lighting fixtures, while a wooden counter and chairs occupy the right background.\n\nPerson & Expression:\nHer light brown hair falls to just below her chest and is swept over her right shoulder, with wispy bangs lightly touching her forehead and eyes. She has large bright brown eyes, long eyelashes, softly peach-toned cheeks, and full glossy pink lips. She tilts her face slightly to the left, raises her right shoulder slightly, and looks directly into the camera with a soft, relaxed expression.\n\nClothing & Pose:\nShe wears an ivory-colored ribbed knit top with thin shoulder straps and front buttons, featuring an asymmetrical design that opens from the left side of the chest toward the hem. She pairs it with short ivory drawstring shorts. With her hips positioned slightly backward and her upper body leaning forward, she extends both arms straight downward and places both hands on the bench.\n\nBackground & Lighting:\nThe background is a seaside café with dark wooden furniture and white-painted walls on the right, while tropical plants and the blue ocean extend across the left side. Hard midday natural sunlight enters primarily from the ocean side in the upper-left background, creating bright rim lighting along her hair and shoulders, soft reflected light across her face, and crisp shadows on the floor.\n\nComposition & Camera:\n3:4 vertical composition, photographed with a relatively wide-angle camera positioned approximately at chest height, capturing a large portrait from the top of her head to her thighs. Place the woman centrally, while retaining the ocean in the left background and the café interior on the right in a diagonal composition. Her hands are cropped at the bottom edge of the frame. Keep sharp focus on her face with a moderate depth of field in the background.\n\nTexture & Style:\nPhotorealistic live-action photography. Fine strands of hair moving naturally in the sea breeze, sunlit natural skin texture, detailed ivory rib-knit fabric, weathered wooden textures, strong reflections across the surface of the sea, and vivid summery colors combining rich blues with warm tones.\n\nNegative Prompt:\nDo not change the seaside café into an indoor setting without the ocean; do not change the front-button ivory top or the forward-leaning pose; preserve the bright blue sea, sandy beach, bamboo-thatched roof, wooden furniture, tropical plants, and strong midday sunlight.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-kling-icy-fantasy-portrait",
+    "category": "提示词",
+    "title": "冰蓝银发肖像：Kling竖屏幻想",
+    "body": "银白长发女孩直视镜头，水晶蓝眼睛，冰蓝礼服绣着细银线，边缘隐隐发光。背后是深蓝魔法空间，漂浮光粒子和奶油般虚化光斑，冷色轮廓光勾出发丝。肤质、发丝写实，景深深，像八十五毫米大光圈棚拍，竖屏九比十六。写给 Kling 3.0（快手系视频/图像模型）的短幻想肖像壳，信息完整却不啰嗦。做角色卡、封面定妆时换发色礼服就能快速出一套统一人设图。短视频封面、小说角色立绘、游戏 NPC 头像也能直接拿这条当底稿，省得每次重写光影和镜头参数。幻想人设定妆图一条就够起步。博主可以直接抄走改。博主可以直接抄走改。博主可以直接抄走改。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/AIwithMinal/status/2102273743989219798"
+      }
+    ],
+    "prompt": "Ultra-realistic cinematic fantasy portrait of a beautiful young woman with long flowing icy-white/silver hair, striking crystal-blue eyes, delicate facial features, soft natural pink lips, and luminous fair skin. She wears an elegant futuristic icy-blue dress with intricate silver embroidery and subtle glowing details. Dark magical blue background filled with floating luminous particles and dreamy bokeh lights, cool ethereal lighting, soft rim light highlighting her hair, intense eye contact with the camera, highly detailed hair strands and realistic skin texture, elegant fantasy atmosphere, shallow depth of field, creamy bokeh, professional editorial photography, 85mm lens, f/1.4, HDR, 8K, photorealistic, vertical 9:16 composition.",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "prompt-kling-infinity-city-planet",
+    "category": "提示词",
+    "title": "∞形迷你星球：四个城市填空格",
+    "body": "一张一比一的二乘二网格，四个格子各塞一座名城。城市被拧成 ∞ 形迷你星球：真实地理关系、地标、水道、路网都要对上，航拍微距质感，还带一层云，不要标签。把 CITY 列表填进去就能批量出四城海报，再丢给 Kling（快手系模型）做成缓慢旋转的动画。真正的模板向提示词——一行占位，海报工厂就能开工。旅游号、城市系列封面换四个名字就能连更，不用每次重写构图；这周东京大阪，下周纽约伦敦，读者一眼认出是同一套视觉栏目。城市系列栏目可以靠它周更。博主可以直接抄走改。博主可以直接抄走改。博主可以直接抄走改。博主可以直接抄走改。",
+    "links": [
+      {
+        "label": "X 原帖（完整提示词）",
+        "url": "https://x.com/Gdgtify/status/2102155915763794329"
+      }
+    ],
+    "prompt": "2x2 grid, 1:1 do this for 4 famous cities {CITY = [input]  TOPOLOGY = infinity loop GEOGRAPHY = real LANDMARKS = accurate WATERWAYS = accurate ROAD_NETWORK = accurate  Render a photoreal infinity-shaped tiny planet of CITY using real geographic relationships with continuous looping city structure aerial drone macro photography cloud layer environment, no labels}",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "html-in-canvas-cracks",
+    "category": "视觉尝试",
+    "title": "网页被点裂：真 DOM 当贴图坠入代码隧道",
+    "body": "先滚动确认这是真网页，再连点几下——画面裂成三维碎片，往下坠入代码隧道。作者 felixturner 的 html-in-canvas-cracks 刚推上 GitHub Pages：用 Chrome 实验接口 drawElement，把可滚动的真实 HTML 画成 canvas 纹理，再经 three.js 的 WebGPURenderer（浏览器直接调显卡）和 TSL 合成。底层 DOM 还在，照样能点、能滚；表面却已是 GPU 贴图。要开 chrome://flags/#canvas-draw-element 才跑得动。反常识点在于：页面不是最终画面，而是碎裂素材。创作者拍「点一下官网就碎掉飘进代码」，比再发一张 shader 截图更有冲突感。\n\n所以呢：想让官网变可拍的特效戏，先把真网页当贴图扔进 GPU。",
+    "links": [
+      {
+        "label": "在线演示",
+        "url": "https://felixturner.github.io/html-in-canvas-cracks/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/felixturner/html-in-canvas-cracks"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "canvasui-shatter-webgpu",
+    "category": "视觉尝试",
+    "title": "光标扫过，页面抬成玻璃浮片",
+    "body": "文档页上，鼠标一靠近，照片和正文就抬起来，像折射玻璃碎片。这是 Canvas UI 的 Shatter 组件：一行 npx shadcn add @canvas-ui/shatter-react 就能装进项目，支持 WebGL / WebGPU（浏览器直接调显卡），同样吃 html-in-canvas 那套把真 DOM 当纹理。文档页本身就是 live demo，不用另找样板站。和上面炸隧道的实验玩具对照：一个是拍片用的炸裂戏，一个是能落地的 UI 组件。拍「终端跑安装→页面立刻碎」对工具向观众很杀。别再只会截一张毛玻璃静态图。\n\n所以呢：要让落地页会碎，装一个组件比自己写 shader 快。",
+    "links": [
+      {
+        "label": "组件文档（含演示）",
+        "url": "https://canvasui.dev/docs/components/shatter"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "webgcm-browser-climate",
+    "category": "视觉尝试",
+    "title": "标签页里跑全球气候：风温雨冰都能切",
+    "body": "打开一个网页，就能跟急流和墨西哥湾流——不是粒子海壁纸，是真在算。WebGCM（gcm.echorelay.net）把静水大气二十七层、双层风驱海洋，加上海冰、雪土，约四万一千个网格全塞进 WebGPU（浏览器直接调显卡）。可按风速、温度、气压、降水、云、冰、洋流上色，还能跟粒子追风。没 WebGPU 会掉到慢速 CPU。2026-09-21 刚上 Show HN。超级计算机项目缩进标签页，科学可视化也能当视觉素材：切图层、跟洋流，录屏比再堆一次噪声球更意外。\n\n所以呢：要拍「科学也能当玩具」，先让观众在浏览器里追一场急流。",
+    "links": [
+      {
+        "label": "在线演示",
+        "url": "https://gcm.echorelay.net/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49793545"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "snowflow-procedural-webgpu",
+    "category": "视觉尝试",
+    "title": "零素材滑雪场：雪坑和法术全靠 GPU 现算",
+    "body": "角色踩过雪地留下坑，水系法术砸出浪花——画面很满，打开 GitHub 却空空如也。frankchangshow 的 SNOWFLOW 用 Babylon.js 加手写 WGSL（给显卡写的着色语言），把地形、压雪形变、程序角色、布料、浪花、水系法术、大气与后处理全在 GPU 上现算。仓库里没有贴图、网格、HDRI、动画资产。桌面 Chrome 打开 demo 就能走、能放法术。punchline 是「资产管线可以被算出来」。适合拍给做 3D / 游戏的创作者：先晃文件树，再切回满屏雪场。\n\n所以呢：想证明不用囤素材也能出片，先让仓库空、画面满。",
+    "links": [
+      {
+        "label": "在线演示",
+        "url": "https://snowflow-lilac.vercel.app/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/frankchangshow/snowflow_demo"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "doop-agent-design-canvas",
+    "category": "小众工具",
+    "title": "Doop：多个代理在同一画布上直播改设计",
+    "body": "你看着 Claude 和 Codex 同时改同一张海报，还能互相留言评审——不是各吐一张图交差。Kevin Goedecke 的 Doop（doop.design）是开源多智能体无限画布：代理经 MCP（让 AI 调外部工具）加 OAuth 以你的身份进画布，边画边互评，共享设计记忆（markdown 规则加知识图谱）。自带订阅进场，不另收模型税。约 2026-09-02 上了 Product Hunt。冲突点是「多人代理同场直播」，共享记忆也想解决「代理忘掉审美」这个痛。拍连上 MCP、下任务画定价页、画布留言触发评审，比再秀一次单图生成更有戏。\n\n所以呢：AI 设计想像协作，先让几只代理在同一张画布上吵起来。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://doop.design/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/kgoedecke/doop"
+      },
+      {
+        "label": "Product Hunt",
+        "url": "https://www.producthunt.com/products/doop"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "comfy-mcp-official",
+    "category": "小众工具",
+    "title": "官方 Comfy MCP：聊天框接管整条出图产线",
+    "body": "以前打开节点图自己点；现在跟 Cursor 说一句话，就能批量出分镜、统一风格、再推到竖屏动画。Comfy-Org 官方把 ComfyUI 全能力做成 MCP（让 AI 调外部工具）：云端 URL 一键 OAuth，或本地 pip install comfy-mcp。代理可搜模型、节点、模板，跑工作流，批量出图、视频、音频、三维，对接 Seedance、Kling、Flux、GPT-Image 等。对做短视频和广告的人，这是真能上手的小众刚需——战役级批量不必再手点节点。拍「口头下单八张分镜→切到 Comfy 画布看同一次 run」就够硬。\n\n所以呢：节点图若嫌手累，先让官方 MCP 替你点战役。",
+    "links": [
+      {
+        "label": "官方介绍",
+        "url": "https://comfy.org/mcp/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Comfy-Org/comfy-mcp"
+      },
+      {
+        "label": "文档",
+        "url": "https://docs.comfy.org/agent-tools/mcp.md"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "fudge-mcp-design-taste",
+    "category": "小众工具",
+    "title": "Fudge：别写 premium modern，让代理抄真站审美",
+    "body": "同一句「做个高级落地页」，有没有真站参考，气质能差一截。Fudge MCP（design.withfudge.com）是本地 MCP（让 AI 调外部工具）加 Chrome 扩展：按字体、颜色、组件、布局、页面类型、视觉相似，搜近万真实站点，抽出 palette、字体栈、DESIGN.md、Tailwind、tokens，丢给 coding agent 当设计参考引擎。直接打「形容词设计」的脸。在 Cursor 里问「找三个 SaaS pricing 参考并提取配色」，能看到真站截图和对比度检查，再据此改自己的页。拍前后对比最狠。\n\n所以呢：嫌 AI 页面像模板，先喂它真网站，别再堆形容词。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://design.withfudge.com/"
+      },
+      {
+        "label": "Product Hunt",
+        "url": "https://www.producthunt.com/products/fudge-mcp"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "brilliant-vector-mcp-canvas",
+    "category": "小众工具",
+    "title": "Brilliant：代理动的是真矢量，不是 HTML 壳",
+    "body": "首页那条液态玻璃材质条是真 GPU 填充，不是预览截图糊弄人。Brilliant（brilliant.design）赌另一条路：代理编辑的是矢量节点、布尔、自动布局、着色器材质，可挂无限 MCP（让 AI 调外部工具），设计存成可读的 YAML .design，还支持和 Figma 往返。行业里多数 AI 设计工具赌 HTML/CSS 画布；它赌「设计是代码之上的契约」。2026-09-01 前后又有一波 Show HN，自称 agent's favorite canvas。拍 agent 改组件再手工点节点证明可编辑，再导出 SVG / MP4，比又一个「生成预览框」更站得住。\n\n所以呢：AI 设计要能继续改，先让它动真矢量，别只吐网页壳。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://brilliant.design/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=47935328"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "diffui-diffusion-ui-tool",
+    "category": "小众工具",
+    "title": "前 Figma 员工做 Diffui：扩散探视觉，LLM 当施工",
+    "body": "上传自家截图，大约五十秒吐出九个方向，再抽 tokens、生成可交付代码，顺手挂 MCP（让 AI 调外部工具）丢给 coding agent。Diffui 自称离开 Figma 去做：扩散模型当设计师探视觉，大模型当施工队落地。Show HN 大约八十分，口号 against slop。人设冲突强——从做设计工具的公司出来，用扩散对抗「AI 一键垃圾屏」。卡片法线、深度还能跟鼠标互动，适合顺手拍一段交互片头。上传截图→打开 build plan→丢给 Claude，一条片子就能讲完分工。\n\n所以呢：嫌界面像 slop，先让扩散多探几条路，再让 LLM 施工。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://diffui.ai/"
+      },
+      {
+        "label": "Show HN 博文",
+        "url": "https://diffui.ai/blog/show-hn"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=48995754"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "scenario-mcp-creative",
+    "category": "小众工具",
+    "title": "Scenario MCP：八十六个工具塞进代理一条龙",
+    "body": "连上 Cursor 或 Claude，让代理 plan 一条「耳机爆炸视图广告」，再跑模型出图、过质检、入库——不必自己挑几十个模型页面。Scenario 的托管 MCP（mcp.scenario.com，让 AI 调外部工具）宣称八十六个工具、六百五十多个模型，覆盖生成、检索、管线规划、质量控制、资源管理，还能训自己的风格模型。不是又一个单模型 wrapper，而是把「选模型→多步管线→质检→入库」做成工具目录。适合拍产品图爆炸视图一镜到底：口头下单，屏幕里工具和 inline 资源跟着跳。\n\n所以呢：创意代理若要能打仗，先给它一整柜工具，别只塞一个出图按钮。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://mcp.scenario.com/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
+    "id": "figma-kiwi-wire-mcp",
+    "category": "小众工具",
+    "title": "逆向 Figma 线协议：不碰 REST 也能抠场景图",
+    "body": "官方 MCP 还在 429，旁边工具已经从已打开的文件抽出干净 SVG。allan-simon 的 figma-kiwi-protocol 用 Chrome DevTools 抓 Figma WebSocket 上的 Kiwi 二进制帧，解码 scenegraph、SVG path、vector network，做成 JS 库、CLI、MCP（让 AI 调外部工具）和 Claude Code 插件。动机是绕开 REST 限流和官方 MCP 要付费的 Dev Mode。合规自述是互操作；争议本身就能当片头。仓库里有 .ksy 规格文件，强调是协议解码，不是抄客户端代码。边缘又好拍：官方要钱还限流，有人直接读浏览器里的线。\n\n所以呢：嫌官方接口卡又贵，有人已在读线协议——片子先讲清楚争议再演示。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/allan-simon/figma-kiwi-protocol"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=47607324"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-22T14:30:00+08:00"
+  },
+  {
     "id": "xiaomi-mimo-v26-opensource",
     "category": "硬科技",
     "title": "小米把旗舰大脑开源了：一万亿参数，强化学习六天花掉约三百四十七万美元",
