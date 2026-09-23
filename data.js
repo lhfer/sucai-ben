@@ -1,6 +1,472 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-23T10:50:00+08:00",
+  "updated": "2026-09-23T14:30:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-front-row-girl-concert",
+      "category": "提示词",
+      "title": "前排女孩演唱会：自拍一翻就对上眼神",
+      "body": "她贴着护栏站在巨蛋前排，手机举起来先自拍，对着镜头大喊「I’M SO CLOSE！」下一秒翻到后摄，虚构男歌手朝台沿走，红光爆开，曝光乱跳，别人的手机挡进画面。她又翻回自拍笑到发抖，再翻回去数字放大、失焦、对上焦——歌手好像朝她这边看了一眼，她愣半秒然后尖叫。三十秒里灯灭、万人开手电筒、再炸红光，最后画面歪着、手挡着、她一跳手机掉半截，录像戛然而止。Seedance 2.5（字节系视频模型）故意写成真粉丝手机片：手抖、裁脸、滚动快门、麦克风破音，不许电影机。所以呢：要演唱会 UGC 感，写死前摄后摄来回翻，把「对视那一下」当高潮。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Diplomeme/status/2102613869365772296"
+        }
+      ],
+      "prompt": "“FRONT ROW GIRL”\n30 SECONDS | 9:16 | PHOTOREALISTIC SMARTPHONE CONCERT VIDEO | SEEDANCE 2.5 | MULTISHOT\nCAMERA\nThe entire video is captured on a modern smartphone by a beautiful young adult woman standing directly against the front-row barricade at a massive sold-out concert featuring a fictional male singer.\nIt feels like authentic personal phone footage uploaded immediately after the concert.\nFront-facing selfie camera mixed with quick flips to the rear camera.\nNatural arm movement.\nHandheld shake.\nImperfect framing.\nOccasional face cropping.\nAutofocus hunting.\nExposure pumping from intense stage lights.\nDigital sharpening.\nHigh-ISO noise in dark areas.\nRolling-shutter distortion during fast movement.\nAccidental fingers near the lens.\nNo professional camera.\nNo cinematic gimbal.\nNo drone.\nNo polished concert-film cinematography.\nCHARACTER\nYOUNG WOMAN:\nBeautiful adult woman in her 20s.\nLong dark hair.\nNatural attractive facial features.\nMinimal glamorous concert makeup.\nGold hoop earrings.\nSimple necklace.\nFitted black concert outfit with a stylish leather jacket.\nShe looks like a real concertgoer, not a professional model.\nNatural skin texture.\nSlight perspiration from the heat and crowd.\nHer hair becomes increasingly messy as she moves and dances.\nShe is genuinely excited to be seeing the fictional headliner from the front row.\nFICTIONAL HEADLINER:\nOriginal male singer in his late 20s.\nDark curly hair.\nShort beard.\nBlack layered stage outfit.\nDistinctive but completely original appearance.\nHandheld microphone.\nConfident live-performance presence.\nHe performs directly toward the front-row audience.\nDo not resemble any real-world singer or celebrity.\nSETTING\nMassive sold-out stadium concert at night.\nShe is standing directly against the barricade.\nThe stage is only a few meters away.\nThe fictional singer is performing directly in front of her.\nThousands of fans behind her.\nHands and smartphones constantly entering the frame.\nSecurity personnel between the barricade and stage.\nHuge LED screens.\nDeep red stage lighting.\nWhite spotlights.\nHeavy atmospheric haze.\nSmoke drifting through the stage lights.\nThe entire environment feels loud, crowded and physically overwhelming.\nSTORY\n00:00–00:02.5 — SELFIE\nFront-facing smartphone camera.\nShe is already in the front row, smiling directly into the camera.\nHer hair moves from the crowd and stage fans.\nShe raises one arm and screams excitedly:\n“I’M SO CLOSE!”\nThe stage is visible behind her.\n\n00:02.5–00:05 — THE SINGER APPEARS\nShe quickly flips the camera to the rear camera.\nThe fictional singer walks toward the front of the stage.\nMassive red lights illuminate him.\nThe phone struggles to expose the scene.\nHer hand shakes from excitement.\nSeveral fans’ phones appear in front of the lens.\n\n00:05–00:07.5 — CLOSE\nShe digitally zooms toward the fictional singer.\nHe approaches the edge of the stage.\nThe camera briefly loses focus.\nIt locks back onto him.\nHe is only a few meters away.\nThe woman screams off-camera.\n\n00:07.5–00:10 — BACK TO SELFIE\nThe phone flips back to her face.\nShe is laughing and screaming.\nHer eyes are wide with excitement.\nThe crowd behind her is jumping.\nShe turns the camera slightly sideways, trying to fit herself and the stage into the same frame.\n\n00:10–00:12.5 — THE PERFORMANCE\nRear camera again.\nThe fictional singer performs directly toward the front row.\nHe holds the microphone toward the audience.\nThe crowd sings along.\nThe phone shakes heavily as she jumps.\nA raised arm briefly blocks the entire frame.\n\n00:12.5–00:15 — EYE CONTACT\nShe moves the phone around the obstruction.\nThe fictional singer becomes visible again.\nHe looks directly toward the front-row section.\nFor a brief moment, he appears to make eye contact with her.\nThe phone becomes surprisingly steady.\nShe freezes for half a second.\nThen screams.\n\n00:15–00:17.5 — CHAOS\nFront-facing camera.\nShe turns the camera back toward herself.\nShe is laughing uncontrollably.\nHer hair is messy.\nRed stage light illuminates one side of her face.\nShe shouts:\n“NO WAY!”\nThe camera shakes violently.\n\n00:17.5–00:20 — LIGHTS OUT\nRear camera.\nThe stage suddenly goes dark.\nThousands of phone flashlights appear throughout the stadium.\nThe camera slowly moves across the audience.\nFans are singing together.\nHer breathing and laughter are audible close to the microphone.\n\n00:20–00:22.5 — LIGHT EXPLOSION\nThe stage suddenly erupts in intense red and white light.\nThe fictional singer appears at the front of the stage.\nThe crowd explodes.\nShe raises her phone higher.\nThe image briefly becomes overexposed.\n\n00:22.5–00:25 — FRONT ROW\nThe fictional singer walks directly along the edge of the stage.\nThe camera follows him.\nFans reach toward him.\nSecurity is visible below.\nHer phone struggles to focus between hands, phones and the performer.\nNatural motion blur.\n\n00:25–00:27.5 — SELFIE REACTION\nThe phone flips back to her.\nShe is completely overwhelmed, laughing and shouting while trying to catch her breath.\nHer friends are visible behind her.\nEveryone is screaming.\nThe stage remains visible over her shoulder.\n\n00:27.5–00:30 — FINAL RECORDING\nRear camera.\nThe fictional singer stands beneath enormous red lights.\nThousands of phones glow behind the barricade.\nThe woman holds her phone as high as possible.\nThe frame is tilted.\nHands partially block the performer.\nThe crowd screams.\nThe phone suddenly drops slightly as she jumps.\nThe recording ends abruptly.\nLIGHTING\nAuthentic live-concert lighting.\nDeep red dominant lighting.\nWhite spotlights.\nDark shadows.\nLED screen illumination.\nStrong backlighting.\nStage haze.\nOccasional lens flare.\nBright lights causing temporary smartphone exposure clipping.\nNatural skin tones whenever lighting allows.\nNo beauty lighting.\nHUMAN PERFORMANCE\nThe woman must behave like a genuine excited fan.\nShe laughs.\nShe screams.\nShe dances.\nShe loses her framing.\nShe forgets the camera is recording.\nShe reacts naturally to the fictional singer.\nShe does not constantly pose.\nShe does not behave like an influencer filming an advertisement.\nThe surrounding crowd behaves independently.\nAUDIO\nRAW SMARTPHONE AUDIO.\nMassive crowd screaming.\nFans singing.\nThe fictional singer’s amplified voice.\nHeavy bass distortion.\nMicrophone clipping.\nNearby fans shouting.\nThe woman’s laughter and screaming close to the microphone.\nOccasional muffled audio when the phone moves against clothing or another person.\nNo studio-quality vocals.\nNo added soundtrack.\nNo cinematic sound design.\nVISUAL CHARACTER\nPhotorealistic modern smartphone footage.\nNatural smartphone HDR.\nHigh-ISO noise.\nDigital sharpening.\nSubtle compression artifacts.\nRolling-shutter distortion.\nAutofocus hunting.\nExposure pumping.\nNatural motion blur.\nOccasional blown highlights.\nRealistic skin texture.\nRealistic hair movement.\nNo beauty-filter smoothing.\nNo plastic skin.\nNo perfect framing.\nNo professional camera look.\nThe footage should look indistinguishable from a real fan’s concert video.\nCONTINUITY\nSame woman throughout.\nSame hairstyle.\nSame outfit.\nSame jewelry.\nSame concert.\nSame front-row position.\nThe phone remains the only recording device.\nThe fictional singer remains consistent.\nSelfie camera and rear camera transitions must feel physically motivated by the woman flipping her phone.\nThe crowd becomes progressively more chaotic as the performance intensifies.\nThe woman’s hair and clothing become naturally more disheveled from dancing and crowd movement.\nNO MUSIC VIDEO.\nNO PROFESSIONAL CONCERT FILM.\nNO MODEL POSES.\nNO STAGED REACTIONS.\nNO PERFECT CAMERA MOVEMENT.\nNO AI-SLOP.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-souvenir-box-country",
+      "category": "提示词",
+      "title": "纪念品盒子：填国家名就出一套收藏海报",
+      "body": "打开一只复古硬纸旅行箱，里面刚好十件当地纪念品：一件主打大件、两三件配角、剩下是小零碎。还要叠四张纸件：折好的手绘地图、打孔旧机票、异形目的地贴纸，再加一张当地纸艺。背景是暖色纤维纸，「国家名」用做旧大字压在箱子后面，底下写着那句 COLLECT MEMORIES NOT THINGS。GPT Image 2.5（图像生成模型）把这套做成可批量的「Souvenir Box」系列：你只填 [COUNTRY]，配色跟着当地风光和手工艺走。层级写死：国名→主纪念品→配角→小件→邮票标签，缩略图也要一眼能认。所以呢：要做旅行系列封面，填国家名就行，十件物加四纸件别乱改数。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Goodmanprotocol/status/2102630540293837041"
+        }
+      ],
+      "prompt": "Create a premium 4:5 vertical Instagram travel poster for [COUNTRY], designed as part of a cohesive collectible “Souvenir Box” series.\n\nShow an open vintage cardboard travel box containing exactly 10 culturally authentic souvenirs from [COUNTRY]: 1 hero object, 2–3 supporting objects, and additional smaller keepsakes. Choose objects with varied materials, sizes, shapes, and cultural significance.\n\nInclude exactly 4 paper elements:\n\n- A folded illustrated map showing 4 different destinations\n- A perforated vintage travel ticket\n- A die-cut [COUNTRY] destination sticker\n- One culturally appropriate paper-craft element\n\nUse a warm textured-paper background with subtle fibers and imperfections. Place huge distressed condensed “[COUNTRY]” typography behind the box.\n\nDevelop a unique color palette inspired by the country's landscape, architecture, traditional crafts, and culture, using a dominant tone, secondary tone, warm neutral, accent, and dark text color.\n\nStyle\n\nPremium tactile 3D collectible illustration + vintage international travel poster + editorial magazine cover + nostalgic packaging design. Use soft studio lighting, realistic contact shadows, subtle ambient occlusion, material grain, paper texture, and handmade imperfections. Keep it sophisticated and tactile rather than glossy CGI.\n\nAdd restrained travel ephemera: 4–7 stamps/badges/labels, an arrival mark, postage details, route arrows, coordinates, small travel metadata, a culturally appropriate local-language phrase, and:\n\n“COLLECT MEMORIES NOT THINGS.”\n\nMaintain a clear hierarchy:\n\nCOUNTRY title → hero souvenir → supporting objects → remaining keepsakes → graphic details.\n\nUse strong negative space, balanced composition, rich but controlled detail, and excellent thumbnail readability.\n\nEvery country must receive a fresh, original composition based on its own cultural identity. Never copy another reference's layout, objects, typography arrangement, or visual composition.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-safari-tourist-doc",
+      "category": "提示词",
+      "title": "野生动物纪录片：游客不拿相机的第二机位",
+      "body": "非洲草地上，一个三十来岁的美国游客戴着棒球帽站在观景安全距离外。他手里没有相机。镜头是旁边那个「看不见的同伴」拍的：先拍到羚羊群，再看见灌木里豹子低身出现。游客眼睛瞪大，小声说「Bro… look at that」，然后豹子冲出去，羊群扬尘四散。他往后缩半步大喊 Oh my God，镜头跟着晃、偶尔被草挡住，最后切到他脸部特写：「That was insane…」Seedance 2.5（字节系视频模型）要求全程像真实纪录片：游客不演戏、操作员身体永不入镜、动物动作要物理可信，也不许配乐和慢镜。所以呢：要「偶遇猎杀」感，锁住第二机位，别让主角自己举着相机。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/john_my07/status/2102635625904251200"
+        }
+      ],
+      "prompt": "Create a 30-second, 1080p, ultra-photorealistic wildlife documentary video using Seedance 2.5. The footage must look like an authentic, spontaneously captured wildlife encounter in an African safari reserve, recorded by an unseen camera operator standing close to an American male tourist. The tourist does NOT hold a camera. The entire video is filmed from the perspective of a second person whose body and camera are never visible. Make it feel like genuine documentary footage accidentally capturing a once-in-a-lifetime predator encounter, with absolutely no obvious AI-generated appearance.\n\nVIDEO SPECIFICATIONS:\nDuration: 30 seconds\nResolution: 1080p\nAspect ratio: 16:9\nStyle: Raw, naturalistic, observational wildlife documentary\nCamera: Unseen human camera operator, handheld, realistic movement\nLighting: Natural African daylight\nAudio: Live environmental sound, natural human dialogue, no background music\n\nSETTING & CHARACTER:\n\nAn African woodland safari reserve with tall dry grass, scattered trees, dense bushes, and a narrow safari track. A seemingly American man in his early 30s wears a dusty beige safari shirt, neutral outdoor trousers, and a baseball cap. He is standing near the edge of the safari track, positioned at a safe observation distance from the animals, approximately 15–25 meters away from the herd and well away from the leopard's path.\n\nThe unseen camera operator stands beside or slightly behind him, filming both the man's clearly visible facial expressions and the unfolding wildlife encounter. The tourist is not posing for the camera. He is focused entirely on the animals, occasionally turning toward the unseen camera operator to speak in genuine excitement. His facial expressions must remain highly detailed and natural: wide eyes, raised eyebrows, astonishment, nervous breathing, and spontaneous reactions.\n\nCONTINUOUS 30-SECOND ACTION — ONE UNBROKEN TAKE:\n\n0–5 SECONDS — THE DISCOVERY:\nThe video opens with a medium-wide shot of the man standing in the grass near the safari track, watching a herd of antelope grazing and moving naturally through the vegetation. The unseen camera operator captures his side profile and the herd in the same frame. Subtle movement appears in the bushes approximately 15–25 meters away. A leopard slowly emerges from cover, crouching low and observing the herd. The man notices it and suddenly freezes. His eyes widen, and he quietly says to the unseen camera operator, \"Bro... look at that. Look at that!\" The camera remains focused on the man and the wildlife rather than becoming a perfect cinematic shot.\n\n5–10 SECONDS — THE STALK:\nThe leopard moves stealthily through the tall grass, gradually approaching a single antelope at the edge of the herd. The animals remain unaware for a few moments. The man watches intensely, leaning slightly forward without stepping toward the animals. His expression shows disbelief and nervous excitement. He turns his head briefly toward the unseen camera operator and whispers, \"Are you seeing this?\" The camera naturally shifts between his face and the leopard, preserving the feeling of a real person documenting the moment.\n\n10–20 SECONDS — THE CHASE:\nThe leopard suddenly accelerates, launching a rapid pursuit of one antelope. The herd scatters in multiple directions, hooves kicking up dust as the animals run through the grass. The camera operator instinctively follows the action, producing realistic handheld movement, slight framing errors, natural motion blur, and brief obstructions from tall grass. The man remains safely behind the observation area, startled but not running toward the predator. He steps back slightly, looks at the chase, and exclaims, \"Oh my God! Oh my God!\" He briefly turns toward the unseen camera operator in complete shock before looking back at the animals. The chase must obey realistic animal movement and physics, with no exaggerated speed or unnatural motion.\n\n20–26 SECONDS — THE HUNT:\nThe leopard catches the antelope in a natural, non-graphic predation moment, partially obscured by tall grass and dust. The camera struggles to maintain a clear view as vegetation blocks portions of the action. No gore, excessive violence, or unnatural animal behavior. The man watches from a safe distance, visibly stunned and breathing heavily. He says to the unseen camera operator, \"There's no way... we're actually watching this!\" His reaction should feel spontaneous, not scripted or exaggerated for entertainment.\n\n26–30 SECONDS — THE REACTION:\nThe camera shifts into a close medium shot of the man's face while keeping the wildlife area partially visible in the background. His eyes remain wide, his mouth slightly open, and his expression reflects genuine disbelief at having witnessed the hunt. He looks toward the animals, then back toward the unseen camera operator and says, \"That was insane...\" The camera holds on his authentic reaction for the final seconds as distant wildlife sounds and his breathing continue naturally.\n\nCAMERA & REALISM RULES:\n\n- The camera operator remains completely invisible throughout the video. No hands, camera, phone, reflection, shadow, or body parts.\n- The man never holds a camera or pretends to record the scene.\n- Use realistic handheld documentary framing, with occasional medium shots, close-ups of the man's face, and wider views of the wildlife.\n- Maintain spatial continuity: the man remains in a safe observation position, while the leopard and antelope move through the vegetation at a believable distance.\n- Natural autofocus shifts, exposure adjustments, imperfect framing, subtle camera shake, and realistic motion blur.\n- The man must keep watching the wildlife, occasionally speaking directly to the unseen camera operator.\n- Genuine human reactions rather than theatrical acting or exaggerated facial expressions.\n- Accurate leopard anatomy, antelope anatomy, animal behavior, dust, grass movement, and environmental physics.\n- No cuts, no time jumps, no slow motion, no cinematic soundtrack, no dramatic color grading, no CGI appearance, no text overlays, no subtitles, no watermarks.\n\nFINAL CREATIVE GOAL:\n\nMake the video feel like an authentic wildlife documentary clip that unexpectedly captures an extraordinary predator encounter. The unseen camera operator is physically close to the man, allowing his face and emotional reaction to remain visible while the unfolding hunt is observed naturally. The footage should feel raw, spontaneous, imperfect, and genuinely real—not a staged wildlife production or an AI-generated sequence.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-kling-motion-bans-walk",
+      "category": "提示词",
+      "title": "Kling 防漂浮：六条运镜禁令只许往前走",
+      "body": "你让角色沿直线往前走，结果镜头开始绕圈、慢镜、猛推、定格，人脚像漂在地上。法国创作者 @CLEMENTAIEXPERT 给 Kling（可灵视频模型）贴了一张运镜禁令清单：只许持续向前走，不要慢镜、不要环绕、不要戏剧性推进、不要定格、不要转身看镜头。风格只留脚踏实地、地平线锁死、自然步速；负面词直接点名漂浮、肢体变形、镜头乱转。用法很简单：先写一行镜头说明，再把这六条禁令原样贴在后面，等于给模型加了一道「不许炫技」的安全带。走姿一稳，后面再叠场景和服装也不容易脚滑。所以呢：镜头一漂，先禁掉花活，只留「往前走」这一条动作。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/CLEMENTAIEXPERT/status/2102526658641072294"
+        }
+      ],
+      "prompt": "[SHOT]: subject walks continuously forward along a straight path.\n\nMOTION BANS (paste after the shot line):\n1. Continuous forward walk only.\n2. No slow motion.\n3. No orbit.\n4. No dramatic push-in.\n5. No freeze.\n6. Do not turn to camera.\n\nCORE STYLE: grounded footsteps, locked horizon, natural pace.\nNEGATIVE: floaty drift, morphing limbs, camera swirl, telephoto punch-in.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-mall-zombie-trashbin",
+      "category": "提示词",
+      "title": "商场僵尸：垃圾桶盖一掀就咬人",
+      "body": "商场里灯亮、人多，一个男人掀开垃圾桶盖想扔包装纸。盖子刚开，僵尸整个人弹出来，一口咬住他脖子，血溅到桶壁上。下一个人路过也被拖倒，人群往出口狂奔，孩子哭，包散一地。有人从维修车旁抄起铁棍，躲到柱后，等僵尸拐弯冲过来，连抡三下，最后一击才把它砸趴。结尾是远处警笛，他喘着气站在尸体前，几个幸存者小心走近。这是 Seedance 2.5（字节系视频模型）的三十秒秒级分镜：开场零铺垫，垃圾桶当惊吓钩子，慢镜只留给砸倒那几下，商场日常声和紧张配乐叠在一起。所以呢：要都市惊吓短片，别慢热，第一秒就让日常物件里蹦出怪物。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/auqibhabib/status/2102638557697646985"
+        }
+      ],
+      "prompt": "Cinematic horror-action short film set in a busy shopping mall, opens with instant attack, no slow build, maximum dynamic camera work, grounded practical-effects style. Mall filled with storefronts, escalators, trash bins, shoppers going about their day, bright commercial lighting. Muted authentic color grading, natural diegetic sound throughout, tension score entering immediately.\n\n[0-1s] Hard cut: a man opens a trash bin lid to toss in a wrapper — a zombie bursts out violently, seizing him instantly.\n\n[1-2s] It sinks into his neck, blood spraying across the bin's surface as he collapses.\n\n[2-3s] He drops to the floor, motionless, blood pooling beneath him.\n\n[3-4s] The zombie turns fast, lunging at the nearest woman walking past.\n\n[4-5s] She screams, falling back as it seizes her arm, dragging her down too.\n\n[5-6s] Horror spreads through the mall — shoppers scream, sprinting toward the exits in a panicked crowd.\n\n[6-7s] A mother pulls her crying child close, both stumbling away from the chaos.\n\n[7-8s] The zombie moves through the crowd fast, attacking one person after another, each falling in its path.\n\n[8-9s] Wide shot: bodies down near the escalator, bags and belongings scattered across the floor.\n\n[9-10s] A man spots a long iron rod near a maintenance cart, grabbing it quickly.\n\n[10-11s] He ducks behind a support wall, gripping the rod tight, breathing hard, watching for the zombie's approach.\n\n[11-12s] Close-up: his knuckles white on the rod, eyes tracking movement through the chaos ahead.\n\n[12-13s] The zombie turns the corner, moving directly toward his position, unaware he's waiting.\n\n[13-14s] He steps out fast, swinging the rod hard into its side.\n\n[14-15s] It staggers, falling against a store railing, but starts pushing itself back up.\n\n[15-16s] SLOW MOTION insert: he raises the rod again, expression fierce and focused.\n\n[16-17s] He brings it down hard a second time across its shoulder, it crumples further.\n\n[17-18s] It reaches weakly toward him, still trying to attack despite the damage.\n\n[18-19s] He swings a third time, connecting solidly, finally dropping it motionless to the floor.\n\n[19-21s] Wide shot: he stands over it, chest heaving, rod still gripped tight in both hands.\n\n[21-23s] He scans the wrecked mall — overturned bags, fallen bystanders, survivors emerging cautiously from cover.\n\n[23-25s] A few survivors approach him carefully, relief and fear mixed on their faces.\n\n[25-27s] He lowers the rod slowly, nodding at them, exhausted but steady.\n\n[27-30s] Final shot: distant sirens approaching outside, he stands guard over the motionless zombie as others gather behind him. \n\nCut to black.Natural diegetic sound throughout — bin lid creaking, screaming, blood splatter, crying, metal impacts, distant sirens, heavy breathing — layered with a tense instrumental score building through the chaos and easing into wary calm at the end. No text overlay, no watermark. Maximum dynamic camera variety — close-ups, wide shots, tracking shots, slow motion reserved only for the takedown moments. Realistic shake only during physical impacts, bright commercial mall lighting., 30 seconds.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-coffee-superhero-rescue",
+      "category": "提示词",
+      "title": "街头喝咖啡：红能一闪就拦住车",
+      "body": "城市街边，女人端着咖啡慢慢喝，造型跟参考图一模一样：脸、衣服、发型和背景都不许改。下一帧表情突然变狠，红色超能力气场从身上冒出来，杯子悬在空中不掉。一辆车冲过来，她双手一推，红能爆开把车硬生生刹住。特写里眼睛也在发红光。能量散掉后，她若无其事捡起同一只杯子继续喝，转过身平静走开，像什么都没发生过。Seedance 2.5（字节系视频模型）的关键是参考图锁死加八场无缝切换：日常→爆发→再日常，杯子全程不能丢，不许翻镜头也不许换脸。所以呢：要变身救人梗，先锁参考图，再写能量爆发，结尾必须回到喝咖啡。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/itsSaira_1/status/2102633835376906341"
+        }
+      ],
+      "prompt": "Use the provided reference image as the EXACT visual reference for every scene. Recreate the subject, face, outfit, hairstyle, accessories, body proportions, environment and visual style exactly as shown in the reference image. Do not redesign or replace anything.\n\nSCENE 1: Match the reference image exactly. Woman calmly drinks coffee in the city street.\n\nSCENE 2: Continue from the exact previous frame. Her expression suddenly becomes intense as red supernatural energy appears around her.\n\nSCENE 3: Continue seamlessly. The coffee cup floats in front of her while red energy grows stronger.\n\nSCENE 4: She stands in the street as a car approaches. Keep the reference appearance and environment unchanged.\n\nSCENE 5: She extends both hands toward the approaching car. Powerful red energy bursts from her body and stops the car.\n\nSCENE 6: Close-up of her face with intense red glowing eyes and supernatural energy.\n\nSCENE 7: The energy fades. She calmly picks up the same coffee cup and drinks again.\n\nSCENE 8: She lowers the cup, turns around and calmly walks away. End naturally.\n\nCONTINUITY: Every scene starts exactly from the previous scene’s final frame. Use the provided reference image as the primary visual source. Preserve identity, clothing, proportions, objects, lighting, camera direction and environment. Only perform the actions described above.\n\nNEGATIVE: no redesign, no face change, no outfit change, no missing cup, no extra people, no extra limbs, no distortion, no camera flip, no reverse motion, no text, no logo, no watermark.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-bike-courier-city",
+      "category": "提示词",
+      "title": "外卖骑手穿城：低机位冲镜再追拍",
+      "body": "镜头先贴在马路牙子上，仰拍高楼、黄出租车、行人。一个戴黑头盔、穿橙外套、背大红保温箱的年轻骑手直接朝镜头冲过来。接着机位跟到他身后，车轮、身体平衡、路面摩擦都要像真骑车；侧拍过路口时车流带出自然运动模糊。他抬前轮上人行道，行人自然让开，再切高机位、侧跟，最后广角英雄镜头：他在前景骑过，午后阳光和长影落在摩天楼之间。Seedance 2.5（字节系视频模型）用十五秒做城市运动片壳，人物脸、衣服、自行车全程一致，负向词盯住飘车和换脸。所以呢：要拍穿城送单，先低机位让骑手冲镜，再追拍，别一上来就航拍大全景。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Elvorya/status/2102622012351131832"
+        }
+      ],
+      "prompt": "Create a 15-second photorealistic cinematic animated urban adventure sequence following a young bicycle courier navigating a busy modern city during a fast-paced delivery run.\n\nBegin with a low-angle street-level establishing shot of a dense downtown avenue surrounded by towering skyscrapers, yellow taxis, city buses, cars, traffic lights, pedestrians, street signs, and realistic urban details → smoothly reveal the young male courier riding directly toward the camera through traffic, wearing a black bicycle helmet, orange short-sleeve delivery jacket, dark pants, gloves, and a large red insulated delivery backpack, maintaining the exact same character design, face, clothing, bicycle, and proportions throughout every shot → transition into a dynamic rear tracking shot as he weaves carefully between moving vehicles, with realistic wheel rotation, body balance, road friction, suspension movement, and subtle handheld camera motion → cut to a dramatic side-angle shot as traffic rushes past him while he accelerates through the intersection, creating natural cinematic motion blur → transition into a wider urban shot as he approaches the sidewalk and smoothly lifts the front wheel, riding up toward the curb while pedestrians react naturally → follow with a dynamic low-angle tracking shot as he rides along the busy sidewalk, passing pedestrians, street furniture, storefronts, and city infrastructure with believable depth and scale → cut to a dramatic elevated angle as he crosses back toward the street and continues the delivery route through the dense downtown environment → transition into a fast cinematic side-tracking shot showing the courier cycling confidently beneath massive skyscrapers while vehicles move around him → final shot becomes a heroic wide-angle cinematic frame with the courier riding across the foreground beneath towering city buildings, warm afternoon sunlight reflecting between skyscrapers, long realistic shadows, atmospheric depth, and the city continuing to move naturally behind him.\n\nVisual style: photorealistic high-end animated-film cinematography, cinematic urban adventure, realistic character animation, expressive but natural facial expressions, believable human anatomy, physically accurate bicycle movement, realistic road interaction, detailed vehicles, natural pedestrian behavior, dynamic camera choreography, smooth tracking shots, low-angle perspective, subtle motion blur, shallow depth of field, realistic reflections, volumetric sunlight, atmospheric city haze, detailed skyscraper architecture, cinematic depth, natural shadows, polished lighting, strong sense of scale, immersive downtown atmosphere, energetic pacing, seamless shot transitions, premium feature-film quality.\n\nCharacter consistency: same young courier throughout the entire sequence, identical face, hairstyle, helmet, orange jacket, dark pants, red delivery backpack, bicycle design, body proportions, and accessories in every shot. Maintain perfect continuity between scenes.\n\nNegative prompt: no subtitles, no text, no logos, no watermark, no distorted face, no identity changes, no extra fingers, no malformed hands, no duplicated people, no duplicate bicycle, no inconsistent clothing, no changing backpack, no warped wheels, no floating bicycle, no broken physics, no impossible vehicle movement, no disappearing pedestrians, no flickering, no jitter, no teleportation, no rubbery animation, no unnatural body movement, no deformed anatomy, no flat lighting, no cheap CGI, no low-detail buildings, no blurry character, no random objects, no camera glitches, no frame tearing.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-marcus-cat-corp",
+      "category": "提示词",
+      "title": "橘猫上班：Cat Corp 瞳孔里的公司招牌",
+      "body": "暖色小家里，拟人橘猫马库斯等主人出门，自己穿上白衬衫、条纹领带，拎起小公文包。他走进玻璃幕墙的 Cat Corp，蓝冷光办公室里桌椅电脑一排排，他端着咖啡走过。白猫女同事过来交文件，表情一本正经；夜里他站在灰猫老板豪华办公室对面，城市灯火映在窗外。回家伸手摸门锁时他停住，镜头推到他眼睛特写——瞳孔里映着发光的 Cat Corp 招牌，像还有更大的事要发生。Seedance 2.5（字节系视频模型）把职场童话写成无声悬疑短片：毛色、红项圈、领带全程锁死，结尾用眼睛做钩子。所以呢：要拟人职场短片，锁角色造型，用「瞳孔反射公司招牌」收尾最抓人。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/aynellex/status/2102604800341000457"
+        }
+      ],
+      "prompt": "Create a cinematic, ultra-detailed animated short film following an anthropomorphic orange tabby cat named Marcus as he begins an unexpected journey into the corporate world. Open inside a warm, cozy home where Marcus sits patiently in the living room while his owner leaves through the front door. Show Marcus preparing for his day, wearing a formal white shirt, dark striped tie, business trousers, and carrying a small briefcase.\n\nTransition to Marcus arriving at a massive modern corporate office called Cat Corp. Show an impressive glass-and-steel workplace filled with desks, computer screens, employees, cool blue lighting, and a large illuminated Cat Corp sign. Follow Marcus walking confidently through the office while holding his briefcase and coffee cup, looking slightly serious and determined.\n\nContinue with Marcus sitting at his desk surrounded by paperwork, documents, computers, and office supplies. Introduce a sophisticated white female cat colleague joining him for an important business discussion. Show natural interactions, serious expressions, exchanged documents, and subtle gestures as they work together.\n\nMove into a dramatic executive office where Marcus stands across from a large gray cat boss sitting behind a luxurious desk. Create a tense corporate atmosphere with nighttime city lights visible through the windows. Show Marcus listening carefully before leaving the office with a more determined expression.\n\nBuild toward a mysterious ending: Marcus returns home at night, reaches for the door lock, and pauses. Cut to an extreme close-up of his expressive eye reflecting the glowing Cat Corp office, suggesting that something much bigger is about to happen.\n\nMaintain strict character consistency throughout: same orange tabby fur pattern, face, eyes, body proportions, red collar, white shirt, striped tie, and business outfit. Preserve the same visual identity for every character across all scenes.\n\nUse cinematic 3D animation with realistic fur, detailed facial expressions, believable cat anatomy and movement, realistic office environments, dramatic blue-and-warm lighting contrast, atmospheric depth, soft reflections, polished cinematic textures, and premium animated-film quality.\n\nUse smooth tracking shots, wide establishing shots, medium character shots, over-the-shoulder compositions, slow push-ins, dramatic close-ups, and an extreme eye close-up for the final reveal. Include natural walking, tail movement, blinking, ear movement, subtle facial expressions, paper handling, coffee movement, door opening, realistic lighting changes, and believable environmental motion.\n\nCreate a mysterious, emotional, slightly humorous corporate atmosphere with the feeling of an animated thriller or workplace adventure. Keep the storytelling continuous and cinematic from beginning to end. No dialogue, no narration, no subtitles, no distorted characters, no inconsistent designs, no sudden style changes, no extra limbs, no flickering, no artificial motion, and no watermark.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-pinkhair-skyscraper-fall",
+      "category": "提示词",
+      "title": "粉发坠落摩天楼：俯拍一转金瞳冲镜",
+      "body": "夜里，粉发动漫女孩从未来玻璃摩天楼里往下坠，周围全是反光和灯带拖出的运动模糊。镜头俯拍跟着她转，忽然切到暗场特写：她表情冷静，粉色衣服、握紧的手、飘起的头发一帧帧交代。张力攒够后，她金瞳亮起，带着翼状能量往镜头飞扑过来，暖光和风把头发往后掀。Seedance 2.0（字节系视频模型）用很短的三段转场：坠落→冷静特写→冲镜爆发，角色造型全程一致，像预告片里最狠那三秒。适合当动漫能量短片的开场钩子，换发色换城市也能套，节奏比长剧本更好记。所以呢：要短而狠的动漫能量片，先俯拍坠落攒势，再用金瞳冲镜收。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Aiwithmaha/status/2102572922674225517"
+        }
+      ],
+      "prompt": "Created a dramatic top-down shot of a pink-haired anime-style girl falling through a futuristic glass skyscraper at night, surrounded by reflections, lights, and intense motion blur. The camera rapidly rotates and follows her descent, then cut to a dark close-up where she looks calm and mysterious. Show detailed shots of her pink outfit, clenched hand, and flowing hair. Build tension with cinematic lighting and deep shadows, then transition into a powerful final shot where she flies forward toward the camera with glowing golden eyes, wind blowing through her hair, bright warm light and wings-like energy behind her. Ultra-detailed 3D anime cinematic style, realistic motion, smooth camera movement, dramatic depth of field, high-quality lighting, dynamic action, consistent character design, epic cinematic atmosphere.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-train-window-portrait",
+      "category": "提示词",
+      "title": "火车窗边：过道机位锁住窗反射",
+      "body": "你站在过道里，镜头从她前面那排座椅后面斜着望过去。前景座椅糊成一大块，红铜色头发的女孩靠窗坐着，卫衣帽子松垮地搭在肩上，一脸发呆地望向你。窗玻璃上必须能认出她的脸和上半身倒影，外面风景因为车在开而糊掉。GPT Image 2.5（图像生成模型）把这条写成写真物理题：过道机位、前景虚化、窗反射可读、皮肤毛孔和碎发都要真，负向词还点名禁止错误反射和美颜磨皮。光线从右侧车窗进来，暖在她脸上，车厢里反而偏暗，像欧洲城际列车里抓到的 candid 一瞬。所以呢：要拍列车肖像，先把「反射必须认得出来」写死，再谈妆发。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/harboriis/status/2102635863893307394"
+        }
+      ],
+      "prompt": "Create a photorealistic cinematic portrait photograph of a young adult woman sitting alone by the window of a modern intercity train.\n\nCOMPOSITION:\nVertical 9:16 portrait frame. Camera positioned from the aisle, slightly behind the seat in front of her, looking diagonally toward the window seat. A large blurred train seat dominates the lower-left foreground, creating strong depth and framing the subject. The woman is positioned in the center-right of the frame, partially hidden behind the foreground seat. Her reflection is clearly visible in the train window on the right.\n\nSUBJECT:\nYoung adult woman with fair skin, natural freckles, soft facial features, medium-length copper-red hair with messy natural bangs falling across her forehead. Her hair is slightly tousled and imperfect, with individual strands visible. She has light blue-gray eyes, natural eyebrows, subtle eyelashes, soft pink natural lips and a completely natural face with no heavy makeup.\n\nShe is wearing a loose beige/taupe hoodie with the hood resting around the back of her head and shoulders. The hoodie has realistic soft fabric texture and natural folds.\n\nPOSE AND EXPRESSION:\nShe is sitting beside the window, leaning slightly toward the aisle and looking directly toward the camera with a quiet, tired, introspective expression. Her head is tilted slightly downward and toward the foreground seat. Relaxed posture, lips gently closed, subtle melancholy mood. Natural candid moment, not posing for the camera.\n\nTRAIN INTERIOR:\nRealistic modern European-style train interior. Dark charcoal-gray fabric seats with small scattered red geometric patterns. Multiple rows of seats extend into the background. The foreground seat is very close to the camera and heavily out of focus. Another passenger is barely visible far in the background, also heavily blurred.\n\nWINDOW:\nLarge train window immediately beside the woman. The glass has subtle reflections and slight smudges. Her face and upper body appear as a soft but recognizable reflection in the window. Outside the window is an indistinct muted urban/rural landscape, completely blurred because of the moving train.\n\nLIGHTING:\nSoft natural daylight entering through the train window from the right side. Warm, slightly golden daylight illuminates her face and copper hair while the train interior remains darker and subdued. Gentle cinematic contrast, soft shadows, realistic skin highlights, subtle reflected light from the window.\n\nCAMERA:\nProfessional cinematic photography, 50mm lens, approximately f/1.8, shallow depth of field. Focus precisely on the woman's eyes and face. Foreground seat and background passenger strongly blurred. Natural perspective, realistic optical depth, subtle lens compression.\n\nCOLOR AND MOOD:\nMuted cinematic color grading with warm copper/orange tones in the hair and beige hoodie contrasted against cool dark blue-gray train seats and window tones. Soft filmic contrast, slightly desaturated colors, natural skin tones, subtle grain, atmospheric and intimate feeling.\n\nREALISM:\nUltra-photorealistic, authentic candid photography, realistic skin pores and freckles, individual hair strands, realistic fabric texture, physically accurate reflections in glass, natural imperfections, realistic train materials, true photographic depth of field, no artificial beauty retouching.\n\nNEGATIVE PROMPT:\ncartoon, anime, illustration, CGI, 3D render, plastic skin, excessive makeup, perfect skin, beauty filter, oversharpening, unrealistic eyes, distorted face, extra fingers, deformed hands, duplicate person, duplicated reflection, incorrect reflection, artificial hair, glossy skin, studio lighting, fantasy train, text, watermark, logo, low resolution, excessive HDR, oversaturated colors",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-romantic-kitchen-couple",
+      "category": "提示词",
+      "title": "厨房亲热：一边亲太阳穴一边打蛋",
+      "body": "阳光厨房里，女人穿露肩奶油针织衫站在料理台前，闭着眼微微笑。男人从后面环住她的腰，低头亲在她太阳穴外侧，白 T 恤贴在她背上。她一只手握着金属打蛋器搅碗，另一只手扶住碗沿——亲密归亲密，手的位置要解剖正确，两人身体重叠也不能糊成一坨。GPT Image 2.5（图像生成模型）要求上传双人参考图锁脸：两人五官比例全程不许换，金小时光从左侧窗户打进来，背景花瓶和灯虚成暖色。这不是摆拍拥抱，是「做饭中途的亲热」那一帧，负向词盯住换脸、烂手和过度磨皮。所以呢：要双人亲密照，先锁两张脸，再写手里还得端着打蛋器。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/imGopalTiwari/status/2102611992741843312"
+        }
+      ],
+      "prompt": "Hyper-realistic IMAX-level Netflix-style cinematic portrait, 9:16 vertical. Use the uploaded image as the primary visual reference and preserve both subjects’ exact facial identities, proportions, and defining features. A romantic couple shares a warm, affectionate moment while preparing food together in a cozy, sunlit kitchen. The woman stands in front of the man at the kitchen counter, her body facing slightly toward the camera. She wears a loose, cream-colored off-the-shoulder knitted sweater, exposing one shoulder, with long, voluminous auburn-brown hair styled in soft, natural waves cascading over her chest. Her head tilts gently toward the man, eyes softly closed, eyebrows relaxed, and lips delicately closed with a faint, contented smile. Her relaxed cheeks and peaceful facial expression convey comfort, trust, and quiet happiness as she enjoys his affection. The man stands closely behind her, wearing a plain white T-shirt, his upper body leaning forward and his head tilted down as he gently kisses her temple near the outer forehead. His eyes are lowered or closed, with a soft, affectionate expression and relaxed facial muscles. His arms wrap naturally around her waist, creating a close embrace while they cook together. The woman holds a metal whisk in one hand, stirring a large cream-colored mixing bowl on the counter, while her other hand steadies the bowl. Preserve the natural positioning of their hands and the intimate overlap of their bodies. Fair luminous porcelain skin with a bright ivory to light beige tone and a neutral-cool undertone, with natural realistic skin texture and soft highlights, balanced to retain lifelike warmth. The kitchen features a tall window on the left, softly blurred flowers on the counter, wooden shelves with plants and kitchenware, and a warmly glowing table lamp on the right. Golden-hour sunlight streams through the window, creating a beautiful amber rim light along the woman's auburn hair and soft, warm highlights across their faces and clothing. Apply warm, honey-gold and creamy beige colour grading, subtle caramel midtones, gentle brown shadows, and softly lifted highlights. Maintain natural skin tones, rich yet muted warmth, and a dreamy cinematic depth, with the couple in sharp focus against a softly blurred background.\nNegative prompt: changed identity, distorted face, deformed hands, bad anatomy, unnatural pose, excessive smoothing, text, watermark.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-boardwalk-ccd-outfit",
+      "category": "提示词",
+      "title": "雨后栈道 CCD：中文词条改色改裙",
+      "body": "滨水木栈道上，细雨刚停，空气里只有极轻的水雾。女孩穿鼠尾草绿方领针织短袖配浅石蓝牛仔 A 字短裙，手插口袋，身体微侧，回眸看镜头，发丝被风掀起一点。远处是浅灰金属栏杆和极简玻璃幕墙，水面和栏杆有微弱反光。整条提示词是中文模块化词条：场景、服装、气质、镜头、滤镜分开写，CCD（早期数码相机那种清亮生活照）绿白高光，颗粒要极轻。特别叮嘱：雾只能很轻，人物和衣服边缘必须锐利，别做成梦幻大雾；半身到大腿的画幅方便竖屏发帖，改一个词就能换色换裙。所以呢：要雨后穿搭照，用中文槽位改色改裙，记住「雾必须很轻」。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Andy4aicreate/status/2102605505390878738"
+        }
+      ],
+      "prompt": "摄影风格：日间清亮高光CCD生活照风 写真方向：都市互动生活写真 场景方向：滨水木栈道 / 细雨形成的极轻水雾 / 浅灰金属栏杆 / 远处极简玻璃幕墙 服装方向：鼠尾草绿修身方领短袖针织上衣 + 浅石蓝低腰牛仔A字短裙 气质标签：清爽、松弛、俏皮、雨后空气感 五官方向：元气初恋脸 身形方向：轻盈纤细 线条强调：强 镜头方向：半身到大腿 姿态动作：站在栈道中间，双手自然插在短裙口袋，身体微侧，头部回眸看镜头，发丝被微风轻轻掀起 光线氛围：雨后薄云透光 + 水面与栏杆微弱反光 + 极细水雾形成少量高亮点 滤镜效果：高亮清晰绿白CCD色彩 + 干净白色高光 + 清楚中间调 + 极轻颗粒 画幅比例：9:16 补充要求：水雾必须很轻，不能做成梦幻雾化效果；人物和服装边缘保持锐利清楚，整体是雨后夏日城市生活照",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-landmark-watercolor-split",
+      "category": "提示词",
+      "title": "地标上下分：上半真照片下半水彩记忆",
+      "body": "一张竖版旅行海报被干净地切成上下两半。上半几乎是原片：地标建筑、光影、比例都保留，只加一点电影感调色和细颗粒。下半把同一座地标画成水彩加墨线：轮廓还认得出来，但笔触松、颜料会洇、边缘不完美，像旅行日记里凭记忆画的那一张。中间留暖象牙色空隙，底下用很小的手写字填短诗句、城市名、年份或坐标。GPT Image 2.5（图像生成模型）的槽位是 [LANDMARK / COUNTRY] 加三行手写文案——换地标就能批量做系列，别把下半画成另一座建筑。所以呢：要旅行记忆海报，上半真照片、下半同题水彩，轮廓必须对得上。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Naiknelofar788/status/2102603463305904375"
+        }
+      ],
+      "prompt": "Create a sophisticated minimalist editorial travel-art poster based on the provided reference photograph of [LANDMARK / COUNTRY ].\n\nTOP SECTION — REAL PHOTOGRAPH:\nPreserve the original photograph as faithfully as possible. Keep the exact subject, recognizable architecture or facial features, proportions, pose, clothing, surroundings, perspective, lighting, and important environmental details. Enhance it with a cinematic yet natural color grade, atmospheric depth, subtle film grain, and beautiful soft lighting. The photograph should feel authentic, premium, calm, and emotionally evocative.\n\nBOTTOM SECTION — HAND-PAINTED MEMORY:\nRecreate the same subject and scene as a delicate handcrafted watercolor and ink illustration. Preserve the recognizable silhouette, composition, proportions, and defining details, but simplify them into elegant artistic brushwork. Use loose watercolor washes, fine ink outlines, subtle paper texture, soft bleeding pigments, imperfect hand-painted edges, and minimal architectural/environmental details.\n\nThe illustrated version should feel like a beautiful travel sketch painted from memory, not a completely different scene. Keep the main subject immediately recognizable.\n\nCOMPOSITION:\nUse a clean vertical 4:5 poster format with the realistic photograph occupying the upper portion and the watercolor interpretation occupying the lower portion. Separate the two sections with a subtle clean transition and generous warm ivory/off-white negative space.\n\nBACKGROUND:\nWarm textured handmade paper, subtle natural grain, minimal and uncluttered. Use a restrained color palette derived from the original photograph and the location.\n\nTYPOGRAPHY:\nAdd small elegant handwritten/editorial typography beneath the illustration:\n\n[SHORT PHRASE / POETIC LINE]\n[CITY / COUNTRY / PERSON / PLACE]\n[YEAR / COORDINATES / SHORT DESCRIPTION]\n\nTypography should be tiny, refined, widely spaced, understated, and slightly imperfect like handwritten travel-journal lettering.\n\nAESTHETIC: Recreate the landmark as a delicate architectural watercolor sketch, preserving its exact silhouette, proportions, distinctive structural details, surrounding landscape, and recognizable character.",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "softedge-painting-sculpt",
+      "category": "视觉尝试",
+      "title": "笔画可再雕塑：画完还能改粗细颜色位置",
+      "body": "先在浏览器里甩一笔粗墨，抬手后别急着存——拖滑条，那一笔当场变细、换色，甚至整条挪到别处。Soft Edge 的技术演示（Show HN）把笔触存成可编辑数据，每帧用 Rust 编成 WASM（浏览器里跑接近原生速度的代码）再经 WebGPU（浏览器直接调显卡）实时栅格化。普通绘画软件一落笔就冻住；这里笔画像游戏引擎里的活物件，还能继续「雕塑」。拍法很直：先画一笔→拖粗细/挪位置→切到 Photoshop 液化对比局限。金句就一句：画完还能改笔触本身。\n\n所以呢：想拍「绘画软件反常识」，先让观众看见一笔墨被当场捏成另一笔。",
+      "links": [
+        {
+          "label": "在线演示",
+          "url": "https://softedge-techdemo.jign.workers.dev/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49299300"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "runboli-halo-campaign-site",
+      "category": "视觉尝试",
+      "title": "个人站做成 Halo 3 关卡：Guardian 里藏人生彩蛋",
+      "body": "点开 runboli.com，你不是在看简历列表——你掉进了 Halo 3 的 Guardian 地图，浏览器里能走、能跳、能绕柱子找路。Runbo Li 把关卡做成可玩个人站，沿路藏寻宝式人生故事，非商业粉丝项目，却比作品集链接更抓人；HN 上大约二十八分。拍法现成：进站→走走停停捡隐藏物件→弹出作者故事。金句只有一句：个人站其实是一张可玩地图。浏览器直接可录，不用装游戏客户端，镜头感比滚动作品集强一整档，也适合当「反作品集」选题的开场。\n\n所以呢：个人介绍若嫌无聊，先把站点做成一张能打的关卡。",
+      "links": [
+        {
+          "label": "可玩站点",
+          "url": "https://runboli.com/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49732259"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "diffusionstudio-agent-editor",
+      "category": "小众工具",
+      "title": "Diffusion Studio：剪辑操作落成代码，代理可读可改",
+      "body": "你在时间线上拖一下，磁盘上多出一段真实代码；Codex 或 Claude 打开项目，看到的永远是最新时间线。Diffusion Studio（YC F24）把视频编辑器做成代理可读的代码世界：去语气词、字幕、调色、动态图形、生成素材合成都能做，另有 headless；GitHub 约三千星。金句：剪辑等于代码提交。和已归档 Remotion MCP「从代码写片子」对照——这里是 GUI 剪完也是代码。拍丢素材文件夹→让代理出竖屏切片→时间线代码 diff 一闪。\n\n所以呢：剪辑工作流若想交给代理，先让每次操作都落成可读代码。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/diffusionstudio/editor"
+        },
+        {
+          "label": "在线应用",
+          "url": "https://app.diffusion.studio"
+        },
+        {
+          "label": "官网",
+          "url": "https://diffusion.studio"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49257843"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "mixar-blender-agents",
+      "category": "小众工具",
+      "title": "Mixar：开源 Blender 分叉，场景里养多个 3D 代理",
+      "body": "打开的不是遥控插件，是基于 Blender 5.0 的开源分叉：场景里住着 Mixie 代理，能建模、贴图、UV，宣称一物体一代理可并行，每步要你审批。Mixar-AI 还支持 BYOK / OpenRouter，图层式贴图画笔加文生 3D。和「再做一个 Blender MCP 桥」不同——代理住在编辑器里。拍提问建模→审一步批一步→同场景多代理。金句：不是遥控 Blender，是 Blender 长出聊天框。与已归档 blender-lab-mcp 角度分开讲。\n\n所以呢：3D 想让 AI 上手，先试在分叉编辑器里养几只要审批的代理。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://www.mixar.app/"
+        },
+        {
+          "label": "Blender Agent 介绍",
+          "url": "https://www.mixar.app/blender-agent"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Mixar-AI/mixar-app"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49171258"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "shaders-com-mcp-presets",
+      "category": "小众工具",
+      "title": "Shaders.com MCP：代理直接装 WebGPU 特效预设",
+      "body": "在 Claude 里加一条 MCP（让 AI 调外部工具），搜 glass、aurora，特效预设连同框架代码直接进项目——不是再丢你一份文档让自己抄。Shaders.com 免费 npm 包提供可组合 WebGPU（浏览器直接调显卡）组件，吃 React、Vue、Svelte、Solid；Pro 开可视化编辑器和 MCP，还能从 SVG 生成 SDF。冲突点：特效库终于给代理「装上」。拍 `claude mcp add … shaders` → 搜预设 → 一键进项目。别跟已归档的 openshaders-registry、shader-lab 混题。\n\n所以呢：背景特效若还靠手抄 shader，先让代理经 MCP 直接装预设。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://shaders.com/"
+        },
+        {
+          "label": "MCP 文档",
+          "url": "https://shaders.com/docs/guide/mcp"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "toolcraft-ai-design-kit",
+      "category": "小众工具",
+      "title": "Toolcraft：给 AI 一套真设计应用骨架",
+      "body": "跟 Claude 或 Cursor 说「给我做一个霓虹 CRT 小工具」，吐出来的不是散组件，而是带画布、图层、时间轴、关键帧和滑条的可拖应用。Pixel Point 的 Alex Barashkov 开源了 Toolcraft：starter 加 UI 库，专给 AI 生成「能用的设计小工具」。设计师开始用 AI「造工具」而不只是出图。gallery 里已有墨流等可演示。拍一句提示生成粒子轨迹小工具→拖滑条出片，对比「从零跟 AI 聊 Figma」的挫败更有戏。\n\n所以呢：AI 设计若总卡在出静图，先给它一套真应用骨架再开口。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://toolcraft.sh/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/pixel-point/toolcraft"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49658747"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "pngine-sjon-webgpu",
+      "category": "视觉尝试",
+      "title": "PNGine：把 WebGPU 程序塞进一张 PNG",
+      "body": "终端跑完一行命令，磁盘上多出一张 PNG；丢进浏览器，它自己动起来——着色器动画就嵌在这张「图」里。Hugo Daniel 的 PNGine 用跟 WebGPU 规格一对一的 S 表达式（叫 SJON）声明式写 GPU 程序，编成几百字节字节码，连同运行时塞进 PNG。冲突点很硬：分享作品等于分享一张图，图片文件同时是可执行的 GPU 艺术。拍法：终端 `pngine art.sjon` → 弹出 PNG → 浏览器打开在动。别跟同周的 Otion 动效着色器混题，这边的钩子是「文件格式本身」。\n\n所以呢：想让观众记住「图也能跑程序」，先拍一张 PNG 自己活过来。",
+      "links": [
+        {
+          "label": "项目页",
+          "url": "https://hugodaniel.com/pages/pngine/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49381489"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "infinite-shaders-shaderfrog",
+      "category": "视觉尝试",
+      "title": "Infinite Shaders：无尽程序化着色器长廊",
+      "body": "打开页面一路往下滚，流体、噪声、光带不停长出来，像走在一条永远没尽头的视觉长廊。ShaderFrog 的 Infinite Shaders 在浏览器里无限探索程序化 GLSL/WebGL 着色器；背后是 hybrid graph，把着色器节点拼成可编辑的「配方图」，不是一张贴图。适合做静音长镜头：滑 Infinite 当 ASMR 片头，再切到节点图解释「画面是配方煮出来的」。对做视觉向短视频的人，这比再截一张 shader 静帧更有节奏感，也方便当片头循环素材。\n\n所以呢：要找能滚不停的片头素材，先滑这条无尽着色器长廊。",
+      "links": [
+        {
+          "label": "Infinite 演示",
+          "url": "https://shaderfrog.com/infinite"
+        },
+        {
+          "label": "ShaderFrog",
+          "url": "https://shaderfrog.com/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49712314"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "suminagashi-toolcraft-studio",
+      "category": "视觉尝试",
+      "title": "墨流定格：浮世绘墨水流体画完会自己停",
+      "body": "湿笔在画面上乱划，墨自己漂开、搅成大理石纹；过几秒，速度场被清掉，颜料安静定住，像宣纸上的墨流被按了暂停。Alex Barashkov 用 Toolcraft 搭的 Suminagashi Studio：抬笔后流体再算一小段，再只留颜料；Wetness、Settle、Taper 控制乱流何时收束，叠色走吸收模型。多数流体 demo 停不下来，这里故意给流体装刹车。拍「乱画→自漂→Settle 后纹丝不动再换纸纹」，东方美学加 WebGL 很适合竖屏短片。\n\n所以呢：想拍会呼吸的墨水，先找一个知道何时停住的流体工具。",
+      "links": [
+        {
+          "label": "画廊演示",
+          "url": "https://toolcraft.sh/gallery/suminagashi-studio"
+        },
+        {
+          "label": "Toolcraft",
+          "url": "https://toolcraft.sh/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "scriptspool-code-anim",
+      "category": "视觉尝试",
+      "title": "代码打字动画：浏览器导出 60fps MP4/GIF",
+      "body": "粘一段源码，点导出，浏览器本地吐出 60 帧的打字动效 MP4 或 GIF，还能出 2x/3x 高清 PNG、SVG 代码截图。ScriptSpool（Pixzens）是纯前端工具，素材不出本机，不用开 After Effects 也能做教程片头和 Shorts 入场。口播里「代码自己打出来」是刚需，这里把流程压成一页。拍法：粘一段提示词→一键导出打字 MP4→叠到口播轨。金句：不用开 AE 也能出代码动效。比再录一次屏幕打字干净得多。\n\n所以呢：下一条教程要代码入场，先在浏览器里导出那段打字动画。",
+      "links": [
+        {
+          "label": "在线工具",
+          "url": "https://scriptspool.pixzens.com/en"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49505146"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "figmaboy-codex-canvas",
+      "category": "小众工具",
+      "title": "Figmaboy：本机 Figma 味画布，Codex 直接改图层",
+      "body": "选中一个 Frame，用自然语言说改圆角、换配色，旁边 Codex CLI 动手——图层树还在，事后仍可手抠。0xmiki 的 Figmaboy 是本地优先 Tauri 设计画布，嵌 Codex，用已有 ChatGPT 登录，不必另买 API；示例 Sonic 电台 UI 一百八十三层仍可编辑，还支持 /evolve 旁路重生。多数 AI 设计工具一生成就压平；这里改完还能继续手改。开源，跨 Win/Mac/Linux。拍选中 Frame→自然语言改→图层树仍活着，对比 Figma AI 插件「改完不好抠」。\n\n所以呢：AI 出稿若总被压成一张图，先找能保住图层树的本机画布。",
+      "links": [
+        {
+          "label": "项目页",
+          "url": "https://0xmiki.github.io/figmaboy/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48923497"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "comfy-pilot-embedded-claude",
+      "category": "小众工具",
+      "title": "Comfy Pilot：ComfyUI 里嵌 Claude 终端改节点图",
+      "body": "节点图画布右上角弹出终端，口述「加 ControlNet」，节点自己长出来；Claude 还能看 Preview / Save Image 再调参。ConstantineB6 的 Comfy Pilot 是自定义节点：内嵌 xterm.js 跑 Claude Code 加 MCP（让 AI 调外部工具），可批量增删连线跑图、装节点、下模型。和官方云端 Comfy MCP（已归档）互补——这边是「工作流画布里直播改图」。画面冲突：节点地狱对右上角对话框。拍口述改图→节点生长→看预览再调。金句：代理住进 Comfy 画布。\n\n所以呢：Comfy 若嫌手点节点累，先让 Claude 终端嵌进同一张画布。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ConstantineB6/comfy-pilot"
+        },
+        {
+          "label": "Comfy 注册表",
+          "url": "https://registry.comfy.org/publishers/constantine/nodes/comfy-pilot"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
+    {
+      "id": "shinygen-godot-browser-mcp",
+      "category": "小众工具",
+      "title": "Shiny Gen：浏览器里跑 Godot，托管 MCP 让代理改游戏",
+      "body": "标签页里跑的是定制 Godot（经 WebGPU/WASM），不是 Three.js 玩具；描述一句就能生成可玩小游戏和美术。Shiny Gen 还托管 MCP（mcp.shinygen.ai），让 Claude / ChatGPT 读写项目、出图出音、当场试玩。示例有纸质电车自折叠、花园即乐谱等强视觉小品。引擎页还列 GBA、GBC、N64。拍点开 Paper Tram 自折叠→让代理改一关→立刻玩。金句：游戏引擎变成网页按钮。适合「AI 做游戏」题材，但不走融资新闻。\n\n所以呢：想拍 AI 改关卡当场可玩，先打开浏览器里的真引擎再喊代理。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://shinygen.ai/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dwalter/shinygen"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-23T14:30:00+08:00"
+    },
     {
       "id": "claude-opus-55",
       "category": "硬科技",
