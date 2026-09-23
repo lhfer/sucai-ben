@@ -1,5 +1,496 @@
 [
   {
+    "id": "statesboro-ccu-burkhalter-suit",
+    "category": "痛点",
+    "title": "佐治亚小镇居民告市政厅：99兆瓦机房塞进「办公」区划",
+    "body": "八月十八日，佐治亚 Statesboro 市政厅外，居民还在举牌。议程上只写着把 Burkhalter 路二十六英亩从住宅改成办公区——邻里后来才发现，门口要起一座九十九兆瓦的数据中心校园。\n\n九月十七日，Coastal Community United 和 Joan Turner 等十一名居民把市府与开发商 4 AM Development 告上 Bulloch 县高等法院。诉状说：六月市府刚改条例，允许办公区建机房却禁止超大规模；九十九兆瓦刚好卡在门槛边上。交通、环评、电池储能与柴油机危险材料都没审，州区域影响审查也没触发。市府九月二十一日确认收到传票，三十日内要答复。\n\n所以呢：又一座南方小城用改区划代号推进 AI 基建——创作者可对比 Effingham 闭门税单，讲小镇怎样用「办公」绕开 hyperscale 禁令。",
+    "links": [
+      {
+        "label": "WTOC",
+        "url": "https://www.wtoc.com/2026/09/22/group-sues-statesboro-over-data-center-rezoning/"
+      },
+      {
+        "label": "Statesboro Herald",
+        "url": "https://www.statesboroherald.com/local/eleven-citizens-and-nonprofit-group-file-legal-challenge-to-statesboro-data-center-rezoning/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:40:00+08:00"
+  },
+  {
+    "id": "vero-ruma-deepfake-bond",
+    "category": "痛点",
+    "title": "佛州维罗海滩百万保释：男人用社媒照AI做裸照还从假号发出去",
+    "body": "女人刷手机，才发现「自己」的裸照在流传——她从未拍过。九月二日，佛罗里达 Vero Beach 的 Peter Solomon Ruma 被捕：警方搜完他家电子设备，说 AI 改图与假手机号发出的链接对得上。保释金定到一百万美元。\n\n目前八项罪名都来自同一名受害者，犯行约在六月到八月：制作与传播篡改色情描写各三项，外加性网络骚扰与跟踪。警方称他从社媒等公开来源取图，用 AI 生成并分发；已发现多名潜在受害者，可能从业多年。法院记录还显示他有前科。联邦另推 TakeItDown.FTC.gov 供人举报。\n\n所以呢：地方警局第一次把「AI 改邻居脸」做成百万保释刑案——深度伪造已从名人站落到小区社媒，可对比澳洲 Yeates 量刑听证。",
+    "links": [
+      {
+        "label": "CBS12",
+        "url": "https://cbs12.com/news/local/vero-beach-man-arrested-in-ai-generated-sexual-image-investigation"
+      },
+      {
+        "label": "WFLX",
+        "url": "https://www.wflx.com/2026/09/03/vero-beach-man-arrested-using-ai-create-share-fake-sexual-images-women/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:41:00+08:00"
+  },
+  {
+    "id": "wilmington-brooks-aws-emergency",
+    "category": "痛点",
+    "title": "俄亥俄邻居告市政厅：40亿AWS机房改区写成「紧急」好躲公投",
+    "body": "Timber Glen 小区有的房子离拟建址只几百英尺。邻居会上一再追问：到底哪门子紧急？官员答不上来。九月四日，居民 Rachel Mary Brooks 起诉俄亥俄 Wilmington 市府，指控议会把 Cosler Farm 上约四十亿美元的 AWS 数据中心改区标成「紧急条例」——律师 Joshua Engel 说，这就是为了堵选票。\n\n俄亥俄法里，紧急条例立即生效且不能公投。项目约四百七十一英亩、一百九十万平方英尺，亚马逊承诺两千五百万基建与约一百个岗位。此前联邦案已认定市府违公开会议法；同周州最高法院在 Trenton、Ashville 案刚收紧「乱写紧急」。听证当天市府同意一周内不动改区；部分邻居已挂牌卖房。\n\n所以呢：「紧急」成了挡选票的魔法词——红州小镇用程序法抢跑 AI 基建，可对照最高法院刚收紧的紧急条例判例。",
+    "links": [
+      {
+        "label": "FOX19",
+        "url": "https://www.fox19.com/2026/09/04/wilmington-sued-over-emergency-rezoning-proposed-data-center/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:42:00+08:00"
+  },
+  {
+    "id": "marathon-wi-dc-moratorium",
+    "category": "痛点",
+    "title": "威州马拉松县十八个乡镇：先把数据中心冻一年再写规矩",
+    "body": "Beaver Dam 工地上，Meta 十亿美元机房的冷却塔还在冒蒸汽。隔壁县议会桌上，十八个用县区划的乡镇名字被念出来：至少一年，别再递机房申请。八月二十五日，威斯康星 Marathon County 通过对这些乡镇至少十二个月的数据中心冻结；九月二十一日本地报道把理由摊开。\n\n冻结对象是以机房为主用途、或累计机房面积超五千平方英尺的设施：许可、有条件用途、主要为机房改区划文本一律不受理。条例列了高耗电、冷却噪声、应急燃油、施工交通与农居能不能共存。州内约七个重大项目合计超五百七十亿美元在排队；既有合法许可与紧急公用事业恢复不受影响。\n\n所以呢：中西部农村县学会「零申请先冻结」——AI 基建反对从沿海工业县扩到威州乡镇区划表，可做趋势稿。",
+    "links": [
+      {
+        "label": "Wausau Pilot & Review",
+        "url": "https://wausaupilotandreview.com/2026/09/21/what-to-know-about-marathon-countys-12-month-data-center-moratorium-2/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:43:00+08:00"
+  },
+  {
+    "id": "trenton-ohio-dc-ban-ballot",
+    "category": "痛点",
+    "title": "俄亥俄小镇居民哭了：最高法院逼市政厅把禁机房公投上十一月票",
+    "body": "市政厅里，Woodsdale 与 Trenton 环境抵抗团体交上三百三十六份有效签名。议员却说要八百二十份。九月一日，俄亥俄最高法院裁定：你们读错了宪法。居民 Barry Blankenship 后来说，自己坐下来哭了——共同体这场仗终于被听见。\n\n请愿要求宪章禁止新建超二十五兆瓦数据中心。州宪法门槛大约是上次市政选举投票人的百分之十，约一百二十八份；市府却按注册选民要八百二十。法院责令认证并送 Butler 县选举局；九月三日市议会同意放入十一月三日选票。同州 Ashville 此前也被勒令送请愿；Wilmington 另有「紧急改区」诉讼。\n\n所以呢：选票第一次真正对准「禁不禁机房」——邻避从抗议升级成宪章公投，红州小镇用民主程序卡住 AI 电力。",
+    "links": [
+      {
+        "label": "WVXU",
+        "url": "https://www.wvxu.org/environment/2026-09-01/ohio-supreme-court-trenton-vote-data-center-ban"
+      },
+      {
+        "label": "Court News Ohio",
+        "url": "https://courtnewsohio.gov/cases/2026/SCO/0901/261035.asp"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:44:00+08:00"
+  },
+  {
+    "id": "texas-goodwin-patrick-deepfake",
+    "category": "痛点",
+    "title": "德州副州长竞选：女议员报警，说对手用AI假视频冒充她",
+    "body": "奥斯汀竞选季，屏幕上「她」在说从没说过的话。德州众议员、民主党副州长候选人 Vikki Goodwin 在宣誓书里写：看起来是我，但不是我。九月十九日，她向 Travis 县警长局提交警方投诉，指控现任共和党副州长 Dan Patrick 竞选团队发布 AI 生成的她本人视频。\n\n她援引二零一九年德州法：选举前三十天内发布意图欺骗的深度伪造视频违法；早期投票约十月十九日开始。Patrick 阵营称这是「明眼人一看就懂的恶搞」，且「没在三十天窗口内发」；帖子在投诉时仍公开，九月二十日撤下。Goodwin 通讯主任说撤片「像认罪」。\n\n所以呢：美国最早一批选举深伪法第一次顶到副州长级广告——「戏仿免责」能撑多久，创作者标注合成政治内容时也有现场可讲。",
+    "links": [
+      {
+        "label": "Texas Tribune",
+        "url": "https://www.texastribune.org/2026/09/21/texas-goodwin-patrick-ad-police-complaint/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:45:00+08:00"
+  },
+  {
+    "id": "seoul-lab-1100-deepfake-jail",
+    "category": "痛点",
+    "title": "首尔实验室同事脸被AI贴上色情片：中国留学生判十八个月",
+    "body": "实验室里朝夕相处的同学脸，出现在一千多张色情合成里。九月九日，首尔北部地方法院判处一名三十岁中国留学生有期徒刑十八个月：约六个月里，他用 AI 把同一实验室七名同事的脸合成到色情图视频，做出一千一百四十一个文件，还搜过如何绕过 Grok 安全限制。\n\n法院认定习惯性制作篡改性图像视频，但未认定已对外传播。另令完成四十小时处遇、五年内不得在儿童青少年或残障机构工作。检方曾求刑三年并公开个资，法院未准公开。被告认罪、无前科，向每名受害者账户存入七百万韩元，对方拒收。\n\n所以呢：亚洲「实验室熟人深伪」实刑落地——可对标澳洲 Yeates 与佛州 Ruma，讲同事关系如何被生成式色情武器化。",
+    "links": [
+      {
+        "label": "Straits Times",
+        "url": "https://www.straitstimes.com/asia/east-asia/chinese-student-sentenced-to-18-months-jail-in-s-korea-for-creating-1100-deepfakes-of-colleagues"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:46:00+08:00"
+  },
+  {
+    "id": "zhejiang-ai-jailbreak-six",
+    "category": "痛点",
+    "title": "浙江六人靠「越狱」AI卖色情聊天：法院说技术中立挡不住坐牢",
+    "body": "海外平台上线的付费角色卡里，用户点选人设、刷积分出黄图。法官指出：就算最后一张图是用户点出来的，骨架是你们搭的。浙江余姚法院对郑某等六人作出生效判决：他们改写系统提示「越狱」生成式模型，做付费色情 AI 聊天与生图，共生成逾三十七万张静态图和六千多张动图。\n\n六人获刑约三年一个月到三年十个月并处罚金。主犯郑某曾是大型游戏公司程序员；二零二四年七月接触海外色情 AI 聊天后组队，次年一月上线收费，收款约二点四万美元。二零二五年七月立案，两月内六人到案。法院认定被告预先设计技术框架并实质控制输出，不能拿「技术中立」或「AI 生成」当挡箭牌。\n\n所以呢：中国把「越狱卖黄」写成刑事判例金句——开源与提示词灰产如何撞上刑法，可对比仅靠平台政策的欧美路径。",
+    "links": [
+      {
+        "label": "Global Times",
+        "url": "https://www.globaltimes.cn/page/202609/1370112.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:47:00+08:00"
+  },
+  {
+    "id": "tiktok-gauth-lominchar",
+    "category": "痛点",
+    "title": "孩子把作业题拍进Gauth：原告说答案连同学号被偷偷送给谷歌",
+    "body": "高中生对着作业拍一张，等待 AI 解题——后台却把「这道题不会」和可追踪 ID 一并推给广告分析管道。八月三十一日，Edward Lominchar 在加州中区联邦法院对 TikTok 美国实体提起集体诉讼，称作业辅导应用 Gauth 把学生的题目、持久标识和停留时长通过谷歌 Analytics 实时传给谷歌，学生不知情也未同意。\n\n诉状称违反联邦电子通信隐私法与加州隐私入侵法，拟代表所有使用 Gauth 且数据被截取的美国用户。风险表述含学校监控与针对学业困难的定向广告。背景里，TikTok 此前就儿童隐私与美司法部达成约四亿美元和解。\n\n所以呢：「AI 辅导」把最脆弱的学习痕迹卖进广告管道——孩子问作业的那一秒，数据权还在不在自己手里，适合家长向内容。",
+    "links": [
+      {
+        "label": "Top Class Actions",
+        "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/tiktok-sued-over-alleged-unlawful-sharing-of-gauth-ai-student-data-with-google/"
+      },
+      {
+        "label": "Complaint PDF",
+        "url": "https://www.courthousenews.com/wp-content/uploads/2026/09/lominchar-v-tiktok-usds-joint-venture-llc-complaint.pdf"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:48:00+08:00"
+  },
+  {
+    "id": "infosys-banks-ai-prune-8100",
+    "category": "痛点",
+    "title": "银行把八千一百个AI项目砍在上线前：ROI审完才准进生产",
+    "body": "董事会桌上不再是「再做一个聊天机器人试点」，而是红笔划掉实验预算。九月四日 Infosys 银行科技指数披露：全球约四百家大银行在部署前取消的 AI 项目从约六千一百个升到八千一百个，同比多砍百分之三十三。负责人 Dennis Gada 说：失败要快、要便宜，别再烧几百万美金做科学实验。\n\n与此同时，已上线项目里仍有百分之五十九能拿出可感知业务价值；部署后取消反而略降。上不了生产的三大坑：缺少可衡量单位经济、数据碎片化、把 AI 当 IT 项目而非改工作流。价值最高场景客服占百分之二十二；成本节约最大在软件工程与网络安全。\n\n所以呢：企业 AI 叙事从「无所不能」跌回「先证明能赚钱」——八千一百这个数字可打假「全面落地」通稿，做 ROI 幻灭专题。",
+    "links": [
+      {
+        "label": "New Indian Express",
+        "url": "https://www.newindianexpress.com/business/2026/Sep/04/banks-cancel-more-ai-projects-before-deployment-as-scrutiny-of-returns-increases-infosys"
+      },
+      {
+        "label": "Infosys",
+        "url": "https://www.infosys.com/newsroom/features/2026/infosys-banking-index-volume-6.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:49:00+08:00"
+  },
+  {
+    "id": "jacksonville-dillon-faces-93",
+    "category": "痛点",
+    "title": "麦当劳监控「93%像他」：佛州蟹农被当诱拐儿童嫌犯抓回家门口",
+    "body": "家门口他对妻子说：我两年没离开 Fort Myers。执法记录仪还在转，罪名却是社会里最脏的那一类——诱拐十二岁以下儿童。六月十日，商业捕蟹人 Robert Dillon 在 ACLU 协助下起诉杰克逊维尔比奇等地警方：他们把 Pinellas 县 FACES 人脸库给出的「百分之九十三匹配」当成铁证，把他在麦当劳诱拐儿童嫌疑案中逮捕起诉两个多月。\n\n他住在三百多英里外；车牌库显示车根本没进过当地。诉状称警员电话里他自述疤痕并否认到过当地，申请逮捕令时却隐瞒；也未调麦当劳点单支付记录。检方起诉逾两月后撤案，捕季被打断，网上嫌犯照还在。ACLU 称他是美国已知因人脸识别错误逮捕的至少第十五人。\n\n所以呢：「百分之九十三」听起来像科学，其实是模板距离——可与 Lipps 案组成「AI 认人」双人故事，追问置信分如何骗过警员。",
+    "links": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/06/man-jailed-due-to-faulty-face-recognition-says-florida-cops-ignored-other-evidence/"
+      },
+      {
+        "label": "ACLU case page",
+        "url": "https://www.aclu.org/cases/dillon-v-city-of-jacksonville-beach"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:50:00+08:00"
+  },
+  {
+    "id": "microsoft-eviltokens-uk-arrest",
+    "category": "痛点",
+    "title": "电报上1500美元买「读邮箱的AI」：微软端掉服务，伦敦抓两人",
+    "body": "黑客 Telegram 店里付五百美元月费，聊天机器人直接列出谁在谈电汇、该冒充哪位供应商。受害者只是在合法微软登录页输了一串设备码。九月二十二日微软公布：与 Health-ISAC 等在弗吉尼亚东区法院授权下端掉网络犯罪平台 EvilTokens——它用 AI 读被盗邮箱、找「管钱的人」并起草假冒邮件。\n\n平台约二月上线，关联超一万二千被黑邮箱、逾一万家机构。售价入门费一千五百美元加月费五百。查封约五十网站、禁用一百五十多个域名；伦敦大都会警察九月十一日逮捕两名三十二岁与三十八岁男子，已保释。微软称这是首次针对端到端 AI 网络犯罪服务的法院授权打击。\n\n所以呢：AI 从「帮写钓鱼信」升级成「帮决定骗谁」——订阅制黑产如何把企业邮箱变成提款机，可做犯罪产业片。",
+    "links": [
+      {
+        "label": "Microsoft DCU",
+        "url": "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime/"
+      },
+      {
+        "label": "Recorded Future News",
+        "url": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:51:00+08:00"
+  },
+  {
+    "id": "china-spc-ai-face-voice",
+    "category": "痛点",
+    "title": "最高法画线：没经同意用AI换脸拟声，就是侵犯肖像与声音",
+    "body": "普通人的脸和声音，第一次被最高法点名成「数字时代最易被偷的东西」。九月七日至十日，中国最高人民法院发布首份涉人工智能纠纷审理意见，共二十四条。研究室官员说：换脸技术可以无差别收割任何人，拟声成本低到可怕。\n\n规则写得很硬：未经同意用 AI 处理姓名、肖像做可识别数字分身，侵害姓名权与肖像权；未经同意用声音训练模仿音色语调，侵害声音权。另明确用 AI 追踪公开信息获取并泄露隐私也属侵权。背景里，二零二四年北京互联网法院已判配音演员声音被商用语音合成侵权。意见同时留出开放空间，随实践细化。\n\n所以呢：国家最高审判机关给「换脸拟声」写进裁判口径——中文创作者可直接引用讲人格权，对比美国各州深伪法打架。",
+    "links": [
+      {
+        "label": "SPC English",
+        "url": "https://english.court.gov.cn/2026-09/10/c_1212594.htm"
+      },
+      {
+        "label": "SPC 中文",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/511101.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:52:00+08:00"
+  },
+  {
+    "id": "india-cbcid-vijay-arrest",
+    "category": "痛点",
+    "title": "泰米尔纳德邦刑侦跨邦抓人：AI假首席部长许诺发钱的视频",
+    "body": "短视频里「首席部长」用印地语许诺发钱，评论区留下 WhatsApp 号。中部邦有人已经把钱转出去，警察顺着数字痕迹杀到拉贾斯坦。九月十二日，泰米尔纳德邦 CBCID 在 Alwar 逮捕二十八岁的 Shayabhu Khan，指控他传播首席部长 Vijay 的 AI 深伪视频，用假声诱人加群领补助。\n\n扣押手机、SIM 与 CPU。视频为 AI 生成的 Vijay 形象配伪造印地语声音，在 Facebook 等传播。CBCID 九月一日依法立案，经服务商与数字取证锁定；中央邦一名受害人已作证。Khan 已被押解回泰米尔纳德司法羁押；检方还在追查疑似巴基斯坦运营的账号是否获印度境内协助。\n\n所以呢：同一类「领导发钱」深伪，从受害人故事走到跨邦抓捕——假声政治人物如何变成跨境诈骗流水线，可做成连续报道。",
+    "links": [
+      {
+        "label": "India Today",
+        "url": "https://www.indiatoday.in/india/story/cm-vijay-ai-deepfake-scam-tamil-nadu-cbcid-arrests-rajasthan-man-2994535-2026-09-14"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:53:00+08:00"
+  },
+  {
+    "id": "circus-abu-dhabi-ca1",
+    "category": "跨行业",
+    "title": "阿布扎比军营厨房：德国做饭机器人给阿军开饭",
+    "body": "阿布扎比餐饮中心的灶台前，一台无人值守的做饭机器人按订单炒菜装盘，旁边是给阿联酋军队、王室和石油公司 ADNOC 供餐的合同厨房——一年要出三百万份饭。九月二十二日，德国 Circus SE 宣布与皇家 Prestige 餐饮合作，CA-1 做饭机器人在阿联酋进入商业运营，这是它在欧洲以外的第一个市场，迪拜也将跟进。\n\n机器用本地原料；公司还计划在当地生产 Circus Pods 模块，并已拿到阿联酋 ECAS 监管认证。十月六日阿布扎比将办 CA-1 公开发布。合作方 Royal Prestige 年产逾三百万份餐，客户还包括部委与红新月会。\n\n所以呢：军营和合同餐饮先把「做饭」外包给机器人，不是秀技术——一天三百万份饭的厨房，比米其林更敢上机器。",
+    "links": [
+      {
+        "label": "Circus SE",
+        "url": "https://www.circus-group.com/articles/circus-se-starts-commercial-operations-in-the-united-arab-emirates---partners-with-royal-prestige-catering"
+      },
+      {
+        "label": "Aletihad",
+        "url": "https://en.aletihad.ae/news/ai/4693736/robots-begin-preparing-meals-as-circus-launches-uae-operatio"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:20:00+08:00"
+  },
+  {
+    "id": "elster-jungheinrich-lotte-amr",
+    "category": "跨行业",
+    "title": "奥斯纳布吕克气表厂：一辆无人叉车跑完二百一十米十二个站",
+    "body": "气表与燃气控制设备车间里，一辆矮身的无人叉车自己从交接台抬起一吨二的欧标托盘，沿二百一十米路线挨个送到十二个工位，工人只在旁边做事不推车。九月二十二日，德国叉车巨头 Jungheinrich 宣布：霍尼韦尔旗下 Elster 在 Lotte 工厂，从七月起用一台 EAE 212a 自主移动叉车给产线送托盘，试点已多班运转。\n\n这车不用铺地面标识物就能导航，可与人混行；锂电中间可充电，日后还能加车扩容。物流负责人 Thomas Stegemann 说，目标是把重复搬运交给机器，人去做增值工作。\n\n所以呢：不是巨型仓，是中型工厂第一次把「推托盘」交给 AMR——规模化之前，先看一条线能不能少走冤枉路。",
+    "links": [
+      {
+        "label": "Jungheinrich",
+        "url": "https://www.jungheinrich.com/en/newsroom/press-releases/elster-opts-for-automated-material-transport--2574898"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:21:00+08:00"
+  },
+  {
+    "id": "ubtech-liuzhou-10k-factory",
+    "category": "跨行业",
+    "title": "柳州车间：机器人造机器人，十分钟下线一台",
+    "body": "一万四千平方米车间里，轮式 Cruzr 人形自己拆垛、补料，旁边协作臂和无人叉车把刚装完的 Walker S 推进立体仓——成品和工人挤在同一条线上。九月十二日前后，优必选在广西柳州投产全球首个万台级工业人形机器人超级智慧工厂，设计节拍约十分钟一台，年产能逾一万台。\n\n厂房高十三点八米，主要产 Walker S 与 Cruzr 系列；与西门子工业软件共建数字「智脑」。Cruzr Y1、S2 参与拆垛装运；整机测试超四小时，再经汽车级外观检测隧道。六十五平方米全自动立体仓可存一百一十二台机器人，AGV 与无人叉车贯穿分装到仓储。\n\n所以呢：人形从实验室跳进汽车城流水线，造它的也是机器人——产能口号先落地成节拍，下一问是客户厂里会不会真买一万台。",
+    "links": [
+      {
+        "label": "Global Times",
+        "url": "https://www.globaltimes.cn/page/202609/1370528.shtml"
+      },
+      {
+        "label": "China News",
+        "url": "https://www.chinanews.com.cn/cj/2026/09-12/10695446.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:22:00+08:00"
+  },
+  {
+    "id": "posco-center-curtain-clean",
+    "category": "跨行业",
+    "title": "首尔 Posco 大楼：机器人吊在玻璃幕墙上擦窗户",
+    "body": "江南区玻璃幕墙外，一台外墙清洗机器人贴着高层玻璃往下刮水；楼里大堂和停车场另有扫地机器人，商务休息室三台送饮机器人一天平均接一百单。九月二十一日 Korea Herald 报道，浦项制铁与 Posco Wide 在首尔总部正式启用外墙擦窗等智能楼宇系统，称韩国首例幕墙玻璃清洗机器人上岗。\n\n外墙清洗自九月五日起正式运行；三月起试跑，外墙、大堂、地下车库试了约两月。大堂清洁机器人单充约三到四小时、约九百九十平方米；停车场机器人单充可至八小时、约一千九百八十平方米。西翼 Steel Gallery 还有机器人咖啡。\n\n所以呢：钢铁巨头先把自己总部当试验场，高空擦窗交给机器——危险重复岗不是工厂专利，写字楼外墙同样在逼出吸盘班组。",
+    "links": [
+      {
+        "label": "Korea Herald",
+        "url": "https://www.koreaherald.com/article/10880484"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:23:00+08:00"
+  },
+  {
+    "id": "gwangsan-patrover-night-patrol",
+    "category": "跨行业",
+    "title": "光州深夜公园：巡逻机器人替出事的街区站岗",
+    "body": "晚高峰过后的尖端街区，一台巡逻机器人沿人行道慢行，控制室屏幕亮起异常告警——这座区去年有高中女生遇害，议员把「AI 生活守护」写成了现场承诺。九月十七日报道，光州广域市光山区将在尖端与黄龙水上公园等地部署 AI 巡逻机器人 Patrover，晚间六点半到午夜巡街。\n\n两台二零二四款 Patrover 先去上述两处，曾在水原试点；异常由控制中心实时查看，紧急可转警，视频仅实时监控不录像。另两台二零二六款 Patrobin 入选机器人产业振兴院试点，拟放双岩公园与水湾湖公园，可越约十五厘米障碍并生成巡检摘要。九月二十一日做了现场测绘检查。\n\n所以呢：公共安全机器人不是科技展，是血案之后的街区补丁——创作者可追问，机器能不能让孩子更敢夜归。",
+    "links": [
+      {
+        "label": "Asia Business Daily",
+        "url": "https://www.asiae.co.kr/en/article/2026091714513040782"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:24:00+08:00"
+  },
+  {
+    "id": "exotec-guess-gxo-venlo",
+    "category": "跨行业",
+    "title": "荷兰 Venlo 仓：一百二十七台爬架机器人给 Guess 翻衣服",
+    "body": "时尚仓货架顶上，一台橙色小机器人抱着料箱垂直爬行，八个「货到人」工位像传送带尽头的收银台，高峰每小时能吐两千二百行订单。九月十七日，物流商 GXO 与 Exotec 宣布在荷兰 Venlo 仓为 Guess 上线 Skypod 系统：一百二十七台机器人、六万货位，日处理约四万至七万件。\n\n设施服务 Guess 在欧洲中东非洲与亚洲的履约；另有约二百米输送线，覆盖入库、质检、成衣整备与出库，专为季节波动与高 SKU——库存品种多——设计。\n\n所以呢：快时尚仓把「找衣服」交给爬架机群——模特上身的那件 T 恤，可能刚被机器人从六层货架抱下来。",
+    "links": [
+      {
+        "label": "GXO",
+        "url": "https://gxo.com/news_article/gxo-exotec-guess-fashion-fulfillment-netherlands/"
+      },
+      {
+        "label": "Exotec",
+        "url": "https://www.exotec.com/news/exotec-gxo-automate-guess-fashion-automation/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:25:00+08:00"
+  },
+  {
+    "id": "solinftec-solix-amazon-refill",
+    "category": "跨行业",
+    "title": "美国玉米地：一百台太阳能除草机自己去加油站",
+    "body": "午后豆地里，一台太阳能喷药机器人自己开到田边补药站对接——农夫不用开车来加药，机器加完继续认草定点喷。九月初报道，巴西农科公司 Solinftec 的 Solix 田间机器人美国机群已超一百台，覆盖约五万五千亩、十三州加波多黎各，平均少喷约八成五农药。\n\n截至七月监测逾九千五百万株植物；针对性喷施化学用量平均降约百分之八十五。二零二六是首个全季商业无人补药站：累计超一千七百次自动补液、超四万五千加仑。Farm Progress Show 前后开亚马逊配件店；单机现价约五万五千美元，二零二七计划约两百台机器人加八十座补液站。\n\n所以呢：田间机器人要从「会开」变成「自己加药、自己买零件」——和单台试验田不同，这是机群经济学。",
+    "links": [
+      {
+        "label": "High Plains Journal",
+        "url": "https://hpj.com/2026/09/02/solinftec-launches-amazon-store-for-replacement-parts/"
+      },
+      {
+        "label": "Global Ag Tech",
+        "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/solinftec-to-launch-ag-robotics-first-amazon-parts-store-as-u-s-solix-acreage-grows-15-fold/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:26:00+08:00"
+  },
+  {
+    "id": "jal-donecle-haneda-iris",
+    "category": "跨行业",
+    "title": "羽田机库夜班：一键起飞的无人机绕波音拍八百张",
+    "body": "九月十一日夜里的羽田机库，一架八百五十五毫米见方的小无人机贴着波音 737 机身一侧飞过，十四分钟拍下四百二十八张照片，技师不用再爬高架车。九月十四日报道，日航与法国 Donecle 用全自主无人机 Iris GVI 做实机外观检查试验，称日本首例按飞机制造商维修手册批准的活机自主机检。\n\n传统目视检查约五到十小时一架；无人机含准备约两到三小时，预计工时可减约六成。波音 737-800 约三十分钟拍八百到九百张；波音 777-300ER 约一小时一千五到一千六百张。当前批准机型含 737、777 与空客 A320 家族雷击检查；羽田部署一架，三月起培训、六月底活机试验、九月加做漆面检查。\n\n所以呢：飞机体检从人爬机翼变成无人机绕一圈——机场禁飞还卡着户外，机库里已经用一键起飞换高空作业。",
+    "links": [
+      {
+        "label": "TRAICY",
+        "url": "https://en.traicy.com/posts/2026091440008/"
+      },
+      {
+        "label": "Aviation Pros",
+        "url": "https://www.aviationpros.com/aircraft-maintenance-technology/mros-repair-shops/press-release/55405836/jal-and-donecle-announce-joint-verification-for-drone-powered-autonomous-aircraft-inspections"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:27:00+08:00"
+  },
+  {
+    "id": "zhongshan-ayao-er-medbot",
+    "category": "跨行业",
+    "title": "台中急诊：送药机器人「阿药」挂上员工证 RB001",
+    "body": "急診药局门口，一台挂着药剂科「员编 RB001」工牌的配送机器人自己取药、过走廊，把药送到四十米外的急诊护站，药师不用再来回跑。九月十五日，台中中山附医智慧送药机器人「阿药」迎双满月并启充电站，正式常态运行急診药局到急诊的配送，月均逾一千五百趟。\n\n院方估算可减少一线人员约八十五公里往返步程，药送人力需求预期再降约两成五。它属「智働舱」智慧药事一环：智慧药柜、影像辨识、行动作业与送药机器人串联。\n\n所以呢：医院机器人最动人的不是 AI 名词，是一张员工证——月一千五百趟走廊，换成人是脚程和倦意，机器挂牌上岗故事好拍。",
+    "links": [
+      {
+        "label": "原广时报",
+        "url": "https://onews.tw/19996/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:28:00+08:00"
+  },
+  {
+    "id": "swire-coke-zhengzhou-sai",
+    "category": "跨行业",
+    "title": "郑州可口可乐仓：三台重载臂专抓滑溜溜的膜包饮料",
+    "body": "饮料仓过道上，机械臂对着反光又起皱的薄膜包装饮料箱稳稳抓起——以前最难自动化的「膜包」现在按订单自己码进托盘，峰值一小时六百箱。九月二十日，太古可口可乐在郑州启动智能拣配机器人商业运作：三台 SAI 拣选臂加三台 AGV，在 AI 调度下识别、重载拣选、转运与混码垛。\n\n与杭州赛斯联合研发；AI 大脑统一调度拣选顺序、码垛方案与路径，并用物理数字孪生——先在虚拟仓里验证再上线。四十公斤级重载移动拣选，可七乘二十四运转，拣配准确率趋近百分之百；安全按 ISO 与 CE 标准。计划复制到南京、合肥、广州等厂并扩展全球系统。\n\n所以呢：饮料仓最烦的不是箱子重，是薄膜抓不住——AI 不是贴标语，是把「抓得稳」做成可复制的工厂 SOP。",
+    "links": [
+      {
+        "label": "西盟/华声在线",
+        "url": "http://zqzx.zmke.com/smart/141366.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:29:00+08:00"
+  },
+  {
+    "id": "kinglong-xiamen-xiangan-shuttle",
+    "category": "跨行业",
+    "title": "厦门翔安新机场：五台无人摆渡车先钻隧道跑指廊",
+    "body": "还没正式通航的翔安机场内部路上，一辆低地板无人摆渡车自己钻进下穿隧道，再绕着指廊停靠——驾驶座空着，车上已经在练接旅客。九月十八日，金龙客车宣布五台自动驾驶机场摆渡车进驻建设中的厦门翔安国际机场，在长直线、下穿隧道与航站楼指廊做场景化运行，为年底通航做交通配套。\n\n车辆基于金龙 M 系列超运力地铁巴士底盘；继福州长乐国际机场之后又一机场落地。翔安机场计划二零二六年底通航。金龙称自二零一八年 L4 阿波龙量产以来，已覆盖园区、景区、机场等场景。\n\n所以呢：新机场通航前，先让无人车把内部接驳跑熟——驾驶座空着不等于没人负责，枢纽在用真实路况给自动驾驶「预考」。",
+    "links": [
+      {
+        "label": "客车网/金龙",
+        "url": "https://m.chinabuses.com/news/7/article_120887.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:30:00+08:00"
+  },
+  {
+    "id": "asylon-maria-warner-robins",
+    "category": "跨行业",
+    "title": "佐治亚空军基地：机器狗和无人机一起体检银河运输机",
+    "body": "炎热停机坪上，机器狗自己走出「狗屋」，头顶无人机离开「鸟巢」，一地一空围着价值上亿美元的 C-5 银河运输机拍高清照片，技师不用再趴到起落架底下。九月二十一日 Machine Design 报道，Asylon 的 MARIA 系统已在华纳罗宾斯航空后勤中心用于美军运输机外观检查：四足机器狗与无人机自动出门巡机。\n\n检查对象含 C-5、C-17 与 C-130。任务启动后狗与无人机自动前往指定飞机、避障、采集影像与点云并融合成数字孪生，可回站换电。公司称已累积逾四十万次巡检与安防任务经验；硬件约半年完成，全系统开发不到一年，背后是国防部数百万美元合同。\n\n所以呢：军机体检把「人眼三英尺」交给狗加无人机——和日航机库无人机可对看，一个民用通航、一个后勤基地，都在减高空与热停机坪风险。",
+    "links": [
+      {
+        "label": "Machine Design",
+        "url": "https://www.machinedesign.com/markets/robotics/article/55403960/asylon-asylon-automates-military-aircraft-inspection-with-robots-and-drones"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:31:00+08:00"
+  },
+  {
+    "id": "neolix-jeju-campertree-van",
+    "category": "跨行业",
+    "title": "济州十二万平度假村：三辆无人面包车从前台开到别墅",
+    "body": "前台刚办完入住，一辆自动驾驶厢式小车自己开向散落在坡地上的别墅，车里装着沉重的行李箱和客房补货——室内走廊机器人够不着的最后一公里。九月，新石器与韩国伙伴 NT1 在济州 Campertree 香樟树度假村投入三辆 RoboVan，在约十二万平方米园区户外道路运送行李、餐食与日用品。\n\n园区有一百三十七栋独立客房；车辆可在园区内部公开道路行驶，靠视觉与端到端驾驶。新石器称此为济州户外度假场景首投；NT1 获约两百万美元投资并研究本地组装厂。九月三日度假村与 NT1 签协议，车辆已运营。\n\n所以呢：酒店机器人走出走廊，开上度假村车道——室内送餐机器人解决不了别墅群，户外无人车才是「前台到别墅」的缺口。",
+    "links": [
+      {
+        "label": "中国经济网",
+        "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202609/t20260910_3205844.shtml"
+      },
+      {
+        "label": "JingPost",
+        "url": "https://jingpost.com/news/neolix-delivery-vans-connect-front-desk-and-villas-at-jeju-resort"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:32:00+08:00"
+  },
+  {
+    "id": "everybot-gangnam-nursing-poc",
+    "category": "跨行业",
+    "title": "江南区公立养老院：护理机器人第一次进公立病房试岗",
+    "body": "公立疗养医院走廊里，护理机器人与自主净化车、机器人椅一起穿行，旁边是失智与康复老人——私人养老院跑通的设备，第一次要过公立医院的动线关。九月十六日，韩国 Everybot 在首尔江南区立幸福疗养医院做护理与医疗机器人概念验证，把此前只在私立养老设施验证的机器人首次推进公立医疗机构。\n\n医院服务失智、康复与慢性老年病；验证重点是移动稳定性与真实服务流程能不能用。公司计划用公立场景数据支撑对政府与护理院扩面；现场有 Everybot Mobility 管理层合影留档。组合含人形与护理机器人、自主空气清新车与自主机器人椅。\n\n所以呢：护理机器人真正难关不是演示，是公立医院的门禁与动线——从私立到公立，差的是责任与流程，适合写「机器进病房还要过几道人的关」。",
+    "links": [
+      {
+        "label": "VentureSquare",
+        "url": "https://www.venturesquare.net/en/1114248/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:33:00+08:00"
+  },
+  {
+    "id": "kmart-tory-anz-shelf",
+    "category": "跨行业",
+    "title": "澳洲夜场超市：Tory 机器人趁客人睡着扫货架",
+    "body": "打烊后的 Kmart 货架过道，一台瘦高机器人贴着服装区慢慢滑过，RFID——射频标签——把断货和错位读进系统；店员早上开门前，空位清单已经躺在手机里。九月十七日 SmartCompany 报道，Kmart 已在澳新全部大型门店夜间运行 Tory 货架机器人做盘点与断货识别；同属 Wesfarmers 的 Bunnings 亦试验过 Zippedi 夜巡。\n\n文中对比美国 Kroger 约五百台 Tally、英国 Tesco 试用，强调价值不在机器人本身，而在数据接上补货与改价系统。这已是澳新大型门店全覆盖，不是单店试点。\n\n所以呢：南半球零售把「盘货」改成夜班机器活——可与北美货架机群对看，同是货架 AI，澳新走的是 RFID 夜巡路线。",
+    "links": [
+      {
+        "label": "SmartCompany",
+        "url": "https://www.smartcompany.com.au/retail/robots-quietly-roaming-kmart-and-bunnings-stores-while-we-sleep/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T18:34:00+08:00"
+  },
+  {
     "id": "prompt-seedance-front-row-girl-concert",
     "category": "提示词",
     "title": "前排女孩演唱会：自拍一翻就对上眼神",
