@@ -1,5 +1,476 @@
 [
   {
+    "id": "claude-opus-55",
+    "category": "硬科技",
+    "title": "Anthropic 出 Opus 5.5：对齐审计第一，还比上一代便宜四成",
+    "body": "Anthropic 九月二十二日扔出 Claude Opus 5.5，自称是喊「放慢前沿」之后的第一枪。\n\n官方说法很直：多数活干得跟自家顶尖的 Fable 5.1 差不多，可跑起来比旧 Opus 5 大约便宜四成。价签也跟着降——输入每百万代币四美元、输出二十美元，缓存读取只要零点二美元，比上一代缓存便宜六成，输出还快三成以上。早期测试里，有人用它一天内挪完约六十八万行代码；网页加速任务四十次里成功三十九次。行为审计分数自称史上最高，可生物和网络安全能力又摸到 Mythos 级别，于是套上跟 Fable 一样的核验门槛。Sonnet 和 Haiku 的 5.5 说好随后几周到。\n\n所以呢：一边公开谈 pacing，一边用更便宜的旗舰把日常代理账单打下来。创作者可以问一句——慢的是发布节奏，还是你的发票？",
+    "links": [
+      {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/"
+      },
+      {
+        "label": "Artificial Analysis",
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49803892"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "gpt6-sol-luna",
+    "category": "硬科技",
+    "title": "OpenAI 把 GPT-6 拆成太阳和月亮：Astra 之下，价钱砍半",
+    "body": "旗舰 GPT-6 Astra 刚秀完肌肉，OpenAI 九月二十二日又把 GPT-6 家族铺开：Sol 和 Luna 正式上车。\n\n博客写得很清楚：最难的活仍交给 Astra；Sol、Luna 用相近方法训练，主打把能力摊进日常预算。API 价相对原先 GPT-5.6 促销档再砍一半——Sol 变成输入两美元、输出十美元；Luna 变成零点一美元和零点五美元。官方还点名：Sol 在业务工作流测试 AutomationBench 上，高努力档能以 Opus 5 大约百分之九的成本胜过 Opus 5 的满档。Hacker News 置顶冲过一千一百票。\n\n所以呢：改用户真金白银的往往不是最贵那一档，而是中间档换上去的那一夜。代理流水线会先问：Sol 够不够用？",
+    "links": [
+      {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+      },
+      {
+        "label": "AA Sol",
+        "url": "https://artificialanalysis.ai/models/gpt-6-sol"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49805509"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "astra-enigma-mvueh",
+    "category": "硬科技",
+    "title": "GPT-6 Astra 自己解开了卡了二十年的恩尼格玛密报",
+    "body": "一九四一年七月十日，德国陆军发出一条呼号 2ny 的恩尼格玛电报，档案号 MVUEH。从二〇〇五年起，密码爱好者盯了它二十年，没人解开。\n\n九月十五日，Carter Leffer 把 GPT-6 Astra 指向 Crypto Cellar 网站上那些未破报文，让它自己挑。模型选中 MVUEH，怀疑它和当天已破的 SIPVX 明文有关，抓住重复地名 ROSENOW 当 crib，写出 Python，最后交出完全不同的轮序密钥——253，而当天其它报文多用 512。站点主人当场认账：密钥对、明文对；抄写错误和左轮罕见翻转，大概拖住了人工破译。人几乎只做一件事：指一下列表。\n\n所以呢：这不是又一张榜单截图，是模型自己当起了业余密码破译员。画面清楚，适合做成「AI 破译现场」长文。",
+    "links": [
+      {
+        "label": "Crypto Cellar",
+        "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49801324"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "meta-muse-openclaw-inspired",
+    "category": "好玩AI",
+    "title": "Meta 承认了：Muse 重度借鉴 OpenClaw，连灵魂文件都长得像",
+    "body": "用过 Meta 新代理人 Muse 的人，最近在网上对线：这不就是开源项目 OpenClaw 换了件消费级外壳吗？\n\n九月二十二日，TechCrunch 报道了这场对线的结果。Meta 超级智能实验室的产品负责人 Nat Friedman 在 X 上回应说，Muse「作为产品确实重度受 OpenClaw 启发」，但他强调代码是「从零写的」。团队当初迷上 OpenClaw，想做「某种能铺到几十亿人手里的 OpenClaw」。\n\n导火索是创业者 Ansh Nanda 的帖子。他写道 Muse「简直就是给普通人用的 OpenClaw」，还贴出跟 Muse 的对话：模型自己承认，工作区文件和 OpenClaw 相似「不是巧合，是匹配」。有人接着翻出两边都有一份叫 SOUL.md 的纯文本，用来规定性格、语气和边界；文件名一样，内容也几乎一样。OpenClaw 本是开源，作者 Peter Steinberger 今年早些时候还被 OpenAI 挖走。\n\n所以呢：大厂可以坚称「从零实现」，用户盯的是灵魂文件有没有换皮。开源代理火了之后，抄的是产品感觉，连配置文件的名字都可能一起抄走。",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49809945"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:30:00+08:00"
+  },
+  {
+    "id": "zuckoff-meta-glasses",
+    "category": "好玩AI",
+    "title": "先发现房间里的 Meta 眼镜：波兰人做了个叫 ZuckOff 的 App",
+    "body": "你走进咖啡厅，不确定邻桌那副雷朋是不是在录——波兰开发者 Pawel Szydlowski 说，让手机先闻一闻蓝牙。\n\n他的免费 App 名叫 ZuckOff。它扫描附近广播，对照自己买来录下的厂商指纹，认出雷朋 Meta、Oakley Meta 和 Snap Spectacles。WIRED 中东版九月报道：上线月 App Store 下载据称超过五千。Hacker News 帖子冲过六百票。它能估距离，却看不出对方有没有按下录像，也不能指认是谁在戴。基础扫描免费，Pro 才有后台提醒和历史导出。\n\n所以呢：可穿戴摄像进了客厅之后，防御产品先卖「房间里有没有这种设备」，而不是「它正在录」。隐私焦虑被做成了一个开关。",
+    "links": [
+      {
+        "label": "ZuckOff",
+        "url": "https://zuckoff.app/"
+      },
+      {
+        "label": "WIRED ME",
+        "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49785429"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "pentagon-iran-school-ai",
+    "category": "硬科技",
+    "title": "五角大楼自查：过度依赖 AI，导弹打到了伊朗一所学校",
+    "body": "目标名单从数小时压到数分钟——代价写在一所学校的废墟上。\n\n彭博社图文与 Hacker News 热帖（约四百三十票）援引五角大楼相关调查：对伊朗 Minab 一处建筑的打击里，过时数据把它标成革命卫队设施，再喂进 Maven 一类目标系统。调查认为美方未能尽一切可行手段核实那是军事目标，属于鲁莽。同期被拿来对照的，还有近失事件：一份大模型生成的情报虚构中国货船细节，飞机已经升空，才被分析员拦下。评论区有人提醒：民用防护编制也被大幅裁掉，验证环节比模型更先消失。\n\n所以呢：代理加速的另一面，是谁还在检查。口号里的「人在回路」，编制表上可能只剩一个人。",
+    "links": [
+      {
+        "label": "Bloomberg",
+        "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49806430"
+      },
+      {
+        "label": "Near-miss ship",
+        "url": "https://top10.dev/story/the-pentagon-almost-shot-at-a-ship-an-llm-made-up-1922"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "unreal-agent-async",
+    "category": "硬科技",
+    "title": "Unreal Agent：别让模型自己管排队，异步工具能省四成账",
+    "body": "代理最贵的时间，常常耗在干等工具回消息。Unreal Labs 九月二十二日公开 Unreal Agent，想把这笔账砍掉。\n\n他们的运行时把工具调用做成全异步：等待、轮询、心跳不再塞进模型脑子里。人可以在工具没跑完时继续改口；模型两次开口之间，还能塞进更多有用的工具活。官方称相对 Codex 最高约省四成成本，相对另一套 Pi 约省两成。仓库 unreallabsai/unreal-agent 很快过千星。博客顺手点名：大厂 SDK 常按本地命令行假设来，搬到线上就得自己补生命周期。\n\n所以呢：下一轮军备不一定比谁模型更大，而比谁替模型管好工具的排队。",
+    "links": [
+      {
+        "label": "Unreal Labs",
+        "url": "https://unreallabs.ai/blog/unreal-agent/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unreallabsai/unreal-agent"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49805748"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "gzip-as-language-model",
+    "category": "好玩AI",
+    "title": "不用神经网络：有人拿系统自带的 gzip 续写莎士比亚",
+    "body": "工程师 Nathan Barry 问了个几乎像玩笑的问题：操作系统里的 gzip，能不能当语言模型？\n\n他的文章借「语言建模就是压缩」这个老观点，用束搜索去找「让压缩更好」的后续字节。给它小小莎士比亚语料，再丢一句 MENENIUS:，gzip 居然挤出带角色名的半通顺对白——当然远谈不上流畅，但比「纯随机」知道的多得多。没有权重，没有训练，只有系统自带的压缩器。九月二十二日文章在 Hacker News 再火，约三百七十票；旁支项目 Ziplm 也跟着露脸。\n\n所以呢：大模型神话可以先拆开一层——预测本来就会压缩。适合做一集十分钟的科普演示。",
+    "links": [
+      {
+        "label": "Essay",
+        "url": "https://nathan.rs/posts/gzip-lm/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49797323"
+      },
+      {
+        "label": "Ziplm",
+        "url": "https://github.com/Futrell/ziplm"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "google-cc-families",
+    "category": "好玩AI",
+    "title": "谷歌把 CC 做成家庭代理人：它自己还有谷歌账号",
+    "body": "家长群里的烂事——谁接娃、哪张表还没填——谷歌 Labs 想交给一个叫 CC 的代理人。\n\n九月二十二日博客写：CC 扩到家庭与群组。成员加进来后，它能推「今日行程」简报，把共享信息收进家庭日历和待办；经你允许，还能填权限单 PDF、列学校用品、做一周菜谱。缺信息会追问，并写入群体记忆。更刺眼的一句是：CC 现在有自己的「已验证谷歌账号」，在互动里会以这个身份出现。\n\n所以呢：代理人从写代码走进了家长群。值得聊的不是功能清单，而是它开始拥有独立身份。",
+    "links": [
+      {
+        "label": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49809806"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "jev-chat-jarvis-wechat",
+    "category": "好玩AI",
+    "title": "微信旁边挂了个副驾：只读屏幕，用决策模型给候选回复",
+    "body": "聊天框还在你手指上，旁边却多了一层「副驾」。开源项目 jev-chat-jarvis 不做注入、不改微信安装包，只靠截屏和本地识别把对方的话读进来。\n\n它先用小型决策模型判断意图和风险，再吐出几条候选回复，一键填进输入框。发不发仍由你点。GitHub 上同名仓库几天内冲到大约三千九百星，还有 Windows 和 Mac 变体，专门盯着微信窗口干活。这套东西踩在近两周爆火的 Jev 路线上：模型不写长文，只吐「下一步该怎么决定」。\n\n所以呢：社交软件里最值钱的不是又一个自动回复机器人，而是把「系统一」决策塞进你拇指够得到的地方，同时把发送权留在人类手里。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jev-chat/jev-chat-jarvis"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:30:00+08:00"
+  },
+  {
+    "id": "heretic-llm-unrestrict",
+    "category": "硬科技",
+    "title": "Heretic：一条命令拆掉语言模型的拒答护栏",
+    "body": "终端里两条命令：先 pip 安装 heretic-llm，再对着 Hugging Face 上的模型名跑 heretic。官网自称——去掉限制，让模型始终听你的。\n\n项目叫 Heretic，九月前后冲上 Hacker News，约二百七十票。作者 Philipp Emanuel Weidmann 一带，许可证是 AGPLv3。演示直接点名 Qwen3.5-4B 之类开源权重。它不跟你辩论对齐哲学，只把「可改装权」做成最短路径。\n\n所以呢：护栏越厚，拆护栏的工具越短。本地生态里，假装看不见改装器，已经越来越难。",
+    "links": [
+      {
+        "label": "Heretic",
+        "url": "https://heretic-project.org/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49783101"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "mini-agi-8gb-continual",
+    "category": "好玩AI",
+    "title": "8G 显存上的迷你 AGI：边读边长，权重先住硬盘",
+    "body": "一张八吉字节显存的消费级显卡，能不能养一个「边读边学」的小模型？GitHub 用户 volotat 的答案是：先当玩具，认真做。\n\nShow HN 项目 mini-AGI 大约二百七十票。它是字节级语言模型，训练中自己长出专家、剪掉用不上的部分；权重以普通文件躺在硬盘，用时再分页进显卡，所以参数量先看磁盘空闲而不是显存天花板。作者写明：现在仍是 toy，权重还没公开，首遍语料还要读几周。仪表盘上已有约四亿字符、一百七十多个专家。\n\n所以呢：这是在打「只有数据中心能玩持续学习」的脸。故事性在诚实的玩具声明，和那块还在涨的进度条。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/volotat/mini-AGI/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49783133"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "openai-fast-follow-jev",
+    "category": "硬科技",
+    "title": "有人断言：OpenAI 最快会吃掉 Jev 的午饭",
+    "body": "TypeSafe 的 Jev 最近很火：模型不写长文，只对「真/假」或选项吐概率。Arcturus Labs 九月二十一日发文问：OpenAI 会不会很快把它的午饭吃掉？\n\n作者的论点是——大厂早就把语言模型当隐形分类器，只是没单独包装成产品。Jev 对状态和问题取下一 token 概率：noul 题看 true/false，选择题看选项字母。一旦训练复现，就能快跟，并塞进模型路由、安全护栏和降本。真正的护城河，他觉得在 TypeSafe 的数据和流程，不在「只会吐一个 token」这个点子本身。Hacker News 约二百六十票。\n\n所以呢：别只追开源仿制品。更刺激的问题是，巨头会不会把「只吐决定」内置进旗舰。",
+    "links": [
+      {
+        "label": "Arcturus",
+        "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49802161"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "coverage-cat-agent-insurance",
+    "category": "好玩AI",
+    "title": "保险公司给代理人开了前门：Coverage Cat 挂上 MCP",
+    "body": "买伞险的人还在点网页，机器人已经走侧门进来了。\n\nCoverage Cat 是持牌保险经纪，Launch HN 挂在 YC S22 名下。站点写明：人类走普通比价；代理人请走 MCP 和开发者门户。根目录放着 .well-known/mcp.json，还有给冷启动用的 umbrella_consumer_prefill，以及 /agents.txt、/llms.txt 这类「写给机器人看的说明书」。它强调不卖线索，真实经纪在线。\n\n所以呢：「给代理人读的网站」正在变成新品类。谁先把发现文件写清楚，谁先被别人的代理找到。",
+    "links": [
+      {
+        "label": "Coverage Cat",
+        "url": "https://www.coveragecat.com/"
+      },
+      {
+        "label": "HN Launch",
+        "url": "https://news.ycombinator.com/item?id=49804931"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "trump-ai-super-intelligence-rename",
+    "category": "好玩AI",
+    "title": "特朗普在联大改口：以后美国把 AI 叫做「超级智能」",
+    "body": "联合国相关场合里，特朗普又抛出一句口号式政策：从今往后，美国要把人工智能改称作「超级智能」。\n\n路透社、Axios、华盛顿邮报九月二十二日都报了这件事。说法很短，没有配套的技术定义，也没有解释「超级」到底比「人工」多了哪一层。Hacker News 上很快堆起低分热帖，有人当笑话，有人担心监管文件里的用词也会跟着换皮。\n\n科技圈这几年已经习惯新词轰炸：通用人工智能、超级智能、人工超级智能轮番登场。这次不同的是，换词的人坐在国家元首的位置上，媒体标题会直接带着新名字冲进推送。\n\n所以呢：命名权也是叙事权。产品文案、投资路演、监管草案，都可能被迫跟一句联大口号对齐——哪怕工程师听了只想翻白眼。",
+    "links": [
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/government/trump-says-us-will-henceforth-call-ai-super-intelligence-2026-09-22/"
+      },
+      {
+        "label": "Axios",
+        "url": "https://www.axios.com/2026/09/22/trump-ai-super-intelligence-rebrand"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:30:00+08:00"
+  },
+  {
+    "id": "claudisms-ai-dev-fatigue",
+    "category": "好玩AI",
+    "title": "工程师怒写：我受够 Claudism 了",
+    "body": "有人给那种随时冒出来的「AI 味」起了个名字：Claudism。\n\n九月二十二日前后，博文《I'm sick of Claudisms》在开发者圈传开。作者抱怨被 Claude 带出来的句式、客套和结构，正在渗进代码评审、设计文档和团队聊天。读起来整齐，却像没人真正写过。这和前几天那句「别让我读你没写过的东西」是同一条情绪线，只不过这次把锅点名到了具体助手腔。\n\n所以呢：工具越强，团队越需要「人味过滤器」。下次你觉得一段话光滑得可疑，也许不是自己矫情，而是 Claudism 上门了。",
+    "links": [
+      {
+        "label": "Essay",
+        "url": "https://www.polso.info/im-sick-of-claudisms-future-ai-software-development"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:30:00+08:00"
+  },
+  {
+    "id": "lexical-superstition-code-llm",
+    "category": "硬科技",
+    "title": "论文拆穿：大模型读代码时，其实在迷信变量名",
+    "body": "你把函数里的变量从 totalPrice 改成 x1，模型突然就不会了——这不是玄学，一篇九月二十二日挂上 arXiv 的论文管它叫「词汇迷信」。\n\n作者重测大模型的代码理解能力，发现它们过度依赖标识符名字带来的统计线索。真实代码里，好名字确实携带信息；可一旦名字被替换或打乱，模型对程序行为的判断就会塌。论文标题写得很直：On the Lexical Superstition of Large Language Models for Code Comprehension。\n\n所以呢：代码助手翻车现场，很多不是「不会推理」，而是「在背单词」。评测和产品演示若只拿漂亮命名的仓库，分数会被名字抬着走。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.26388"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:30:00+08:00"
+  },
+  {
+    "id": "structure-detect-ai-web",
+    "category": "好玩AI",
+    "title": "不看文字看骨架：模型只凭网页结构认出 AI 站",
+    "body": "内容农场换皮越来越快，有人决定连句子都不读了。\n\nShow HN 挂出一项研究：训练模型只凭网页结构特征，分辨站点是不是 AI 批量生成。论文在 arXiv 编号 2609.15369。思路很刁：措辞可以同义改写，可是导航层级、模块重复方式、版式骨架更难装成「人手一页一页搭」。\n\n所以呢：打假从查抄袭句，转向查骨架。以后识别 AI 站，也许先看它长得像不像同一套模板克隆出来的城市。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.15369"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49800566"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:30:00+08:00"
+  },
+  {
+    "id": "ai-rete-rag-auditable",
+    "category": "硬科技",
+    "title": "规则引擎拍板，RAG 只负责解释：给 AI 决定装黑匣子",
+    "body": "自动化一出问题，最怕的是「模型自己也说不清为什么」。Show HN 项目 AI·rete·RAG 把活拆成两段。\n\n拍板的是老派 Rete 规则引擎，检索增强生成只负责事后解释。站点 ai-rete-rag.com 九月二十二日露面，票数不多，但方向反潮流：不追更大模型，先让决定路径能被审计。规则写下的是硬逻辑，故事留给 RAG 去讲。\n\n所以呢：下一次有人问「AI 为什么拒保/为什么放行」，你也许得先问——决定权到底在规则里，还是在生成腔调里。",
+    "links": [
+      {
+        "label": "Site",
+        "url": "https://ai-rete-rag.com/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49803683"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "openmcp-code-first-fork",
+    "category": "硬科技",
+    "title": "OpenMCP：有人把模型上下文协议叉成代码优先分支",
+    "body": "Model Context Protocol 热了之后，有人嫌它太「配置味」。Show HN 出现了 OpenMCP：一个代码优先的开源分支。\n\n仓库 enclawed/omcp 主张用更像普通代码的方式描述工具，而不是再堆一份声明文件。九月二十二日挂上 Hacker News，讨论还早，却标出一个信号——标准一火，生态就会分裂出「我想用代码写」的人。\n\n所以呢：协议战争的下一幕，不一定是功能多少，而是描述工具时像不像你日常提交的代码。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/enclawed/omcp"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49802776"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "game-llm-reviewer-bias",
+    "category": "好玩AI",
+    "title": "跟 LLM 审稿人博弈：意思不变，专治模型偏见",
+    "body": "论文被大模型审稿人错杀，怎么办？有人开源了一套「合法折腾」流程。\n\nGitHub 项目 game-the-llm-reviewer 的口号是：用意思不变的改写，对抗带偏见的 LLM 审稿。它不教你造假数据，而是在表述层绕开模型的刻板触发器，把本来站得住的研究捞回讨论桌。荒诞，但画面清楚——学术流水线自动化之后，攻防变成了改写术。\n\n所以呢：当审稿人是模型，作者开始研究模型的口味。这不是进步喜报，是新的军备。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "hysparse2-agent-kv",
+    "category": "硬科技",
+    "title": "HySparse2：代理上下文越啃越长，两级 KV 共享来救命",
+    "body": "代理跑得越久，观察文本越堆越高，显存账单比模型本身还可怕。九月二十二日 arXiv 论文 HySparse2 冲着这件事来。\n\n场景很典型：动作短、工具返回的观察长。作者用混合稀疏注意力，再加两级键值缓存共享，想把长程多轮对话的预填充和缓存压住。名字里的 Sparse 和 KV Sharing，说白了就是——别把每一轮观察都当同等重要的记忆。\n\n所以呢：代理产品的隐形成本常在 KV 缓存。创作者若聊「为什么代理越用越贵」，可以从这里下手。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.26368"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "disaggregated-quant-prefill-decode",
+    "category": "硬科技",
+    "title": "预填充和生成别共用一套量化：论文主张拆开专精",
+    "body": "大模型服务分成两段：先吞提示（预填充），再一个字一个字吐（生成）。一篇新论文说，这两段不该共用同一套量化策略。\n\narXiv 2609.26333 标题直译就是「解耦量化」。预填充更吃低精度算术加速，生成更吃紧凑权重省显存带宽。硬套一种方案，往往一段赚了、另一段亏。九月二十二日挂出。\n\n所以呢：推理栈下一刀可能切在 serving 分工，不是又一个「总参数又大了」的新闻。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.26333"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "gitscholar-github-impact",
+    "category": "好玩AI",
+    "title": "GitScholar：用 GitHub 热度提前赌哪篇 AI 论文会火",
+    "body": "每天上百篇 AI 论文，谁还读得完？有人做了数据集 GitScholar，想靠论文对应仓库的 GitHub 互动，预测哪些研究会真正产生影响。\n\narXiv 2609.26361 九月二十二日上线。逻辑简单粗暴：引用量来得慢，star、issue、PR 来得快。过滤器用社区手脚投票，而不是等期刊周期。\n\n所以呢：影响力信号正在前移。研究者时间不够时，GitHub 热度成了粗糙但即时的过滤器——也带偏见，但比纯标题党强。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.26361"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:40:00+08:00"
+  },
+  {
+    "id": "hack-hn-block-ai-posts",
+    "category": "好玩AI",
+    "title": "Hacker News 客户端加了开关：一键屏蔽 AI 帖",
+    "body": "刷 Hacker News 刷到烦的人，终于等到一个很粗暴的按钮。\n\n九月二十二日，移动客户端 Hack 的作者在 Show HN 里说：现在可以屏蔽所有 AI 相关帖子。不是又做一个摘要机器人，而是直接让那类标题从时间线消失。分数不高，画面却清楚——当「AI」本身变成噪音，产品解法可以是过滤器。\n\n所以呢：信息过载的下一站不一定是更聪明的推荐，也可能是用户亲手关掉一整类关键词。",
+    "links": [
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49802005"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-23T10:30:00+08:00"
+  },
+  {
     "id": "fargo-lipps-face-recog-10m",
     "category": "痛点",
     "title": "田纳西奶奶被AI认成北达科他劫匪，枪口下带走关半年",
