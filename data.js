@@ -1,6 +1,505 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-24T10:55:00+08:00",
+  "updated": "2026-09-24T14:45:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-cinema-creature-breakout",
+      "category": "提示词",
+      "title": "影院巨兽破屏：手机被吼到摔黑",
+      "body": "豪华影院里，南亚青年坐在过道旁，手机对着银幕拍。暖黄壁灯，弧形大屏上是淹水的地下废墟，一具瘦长骨架巨兽从水里爬出来，直直朝银幕走。三秒后它真的踏出银幕，水溅到过道地毯，个头快顶到天花板。观众先是笑着举手机，它越走越近，突然把头拧向他，下巴撕裂般张开，一声超自然咆哮压过整个厅，灯闪、座椅抖、人尖叫后缩。他手一抖，镜头失控甩过尖叫的脸、天花板、模糊的兽影，手机脱手砸座椅，瞬间黑屏。Seedance 2.5（字节系视频模型）把整条写成十二秒竖屏单一连续镜头：不许切、不许淡入淡出，破屏处透视光影要和现实接上。所以呢：要「破第四面墙」惊吓，第一帧就锁死单镜，把手机摔黑当句号。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/shushant_l/status/2103002011893727478"
+        }
+      ],
+      "prompt": "THIS IS ONE SINGLE CONTINUOUS UNBROKEN SHOT FROM FIRST FRAME TO FINAL BLACKOUT. No cuts, transitions, fades, dissolves, or hidden edits. Any cut is a generation failure.\n\n12-second ultra-realistic 9:16 smartphone video inside a packed luxury cinema. Shot on iPhone 17 Pro, handheld micro-shake, HDR, realistic low-light detail, deep focus, natural motion blur. No text, captions, logos, UI, or watermarks.\n\nSCENE: Warm amber cinema lighting, cream seats, dark central aisle, enormous curved screen. Audience packed on both sides, quietly watching.\n\nCHARACTER: Young South Asian man, 22–24, dark hair, light stubble, black turtleneck and black jeans. Face from. Seated beside the center aisle throughout. Camera always remains physically in his hand until the final impact.\n\n0–3s: Camera faces the cinema screen. An ancient flooded underground ruin fills the movie screen. Through dark water, an enormous skeletal humanoid creature slowly rises, dripping, with elongated arms and a distorted skull. It walks directly toward the screen.\n\n3–5s: Without any visual boundary, the creature physically steps OUT of the movie and onto the real cinema carpet. Water splashes onto the aisle. It is nearly ceiling-height. Audience members gasp, laugh nervously, and raise their phones. The creature continues slowly toward them.\n\n5–7s: Camera naturally swings toward our character. His expression changes from amazement to nervous disbelief. He looks at the creature, then back at the camera. Camera smoothly swings back toward the aisle. The creature is now terrifyingly close.\n\n7–9s: Low handheld angle as the creature passes between the seats. Wet footprints appear on the carpet. Everyone films it. Phones glow across the auditorium. Heavy footsteps vibrate the seats. Nobody runs yet.\n\n9–10s: The creature suddenly FREEZES. Its head violently rotates toward our character. Its jaw tears open impossibly wide and releases a deafening supernatural ROAR. The physical pressure wave hits the entire auditorium simultaneously. Lights flicker, seats shake, people scream and recoil.\n\n10–12s: The character's hand involuntarily jerks from the shock. The phone remains in his loose grip while the camera violently whips through random real fragments: screaming audience, ceiling lights, blurred creature, seats, glowing phones, carpet, creature lunging closer. No editing, only uncontrolled physical camera movement. His grip finally fails. Phone tumbles, spins once, violently strikes the seat.\n\nINSTANT BLACK SCREEN from physical impact. Complete silence. No fade.\n\nPHYSICS: Creature crosses from screen into reality seamlessly with identical perspective, lighting, scale, shadows, and floor contact. Water physically transfers from the movie world onto the real carpet. Every audience reaction follows the same roar pressure wave naturally.\n\nLIGHTING: Cool blue-green screen light mixed with warm amber cinema sconces. Creature becomes increasingly illuminated by real auditorium lighting after leaving the screen. Violent light flicker only after the roar.\n\nAUDIO: Subterranean water ambience, audience murmurs, wet footsteps, rising tension, sudden deafening roar with microphone clipping, synchronized screams, chaotic handling noise, phone impact, then absolute silence.\n\nSTYLE: Photorealistic viral found-footage realism, imperfect smartphone cinematography, believable human reactions, realistic physics, terrifying scale, immersive spatial audio, no artificial cinematic cuts.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-rooftop-radio-sunset",
+      "category": "提示词",
+      "title": "天台修收音机：日落前终于响了",
+      "body": "卡萨布兰卡公寓天台，日落前。卷发摩洛哥女孩穿着褪色芥末卫衣，对着桌上那台积灰的旧收音机拧开关——没声。她拍拍机壳，拆电池仓，发现一节松了，装回去还是死的。拉天线、拧机身转向，突然爆出一阵静电。她慢慢拨频道，沙沙声里钻出一段陌生旋律，嘴角才真正扬起来，对着镜头轻轻说「There」。她把收音机放下，拉过塑料椅坐下，镜头慢慢挪向天边，风吹着晾衣绳，她把音量拧低，什么也不说。Seedance 2.5（字节系视频模型）强制整段只发生在这一个天台：像朋友用旧摄像机随手拍，手抖、对焦飘、对着日落会过曝，不许配乐，收音机里的歌也不能蹭版权。所以呢：要生活片叶高潮，别写逛街赶路，把「终于修好」留给细碎动作和环境声。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/ChillaiKalan__/status/2102997929355358294"
+        }
+      ],
+      "prompt": "CONCEPT:\nCreate a 30-second ultra-realistic slice-of-life video about a young woman spending a quiet evening on an apartment rooftop, trying to get an old battery-powered radio working before sunset.\n\nThe entire story happens in one location. No shopping, no café, no market, no journey, and no walking-home sequence.\n\nThe charm comes from tiny realistic actions, environmental sounds, and her reaction when the radio suddenly works.\n\nFORMAT:\n30 seconds • 16:9 • 1080p • photorealistic live-action • authentic handheld consumer-camera footage\n\nMAIN CHARACTER\n\nA young Moroccan woman in her early 20s with naturally curly dark hair tied loosely with a fabric band.\n\nShe wears a faded mustard sweatshirt, relaxed dark jeans, white canvas sneakers, and a thin silver necklace.\n\nKeep her face, hair, clothing, necklace, age, body proportions, and identity completely consistent.\n\nLOCATION\n\nAn ordinary apartment rooftop in Casablanca, Morocco, shortly before sunset.\n\nThe rooftop contains:\n\n- Concrete walls\n- Old plastic chairs\n- Several potted plants\n- Water tanks\n- Laundry lines\n- A small wooden table\n- A dusty portable radio\n- Neighboring apartment buildings\n- Satellite dishes\n- Laundry moving gently in the breeze\n\nWarm late-afternoon sunlight gradually changes as the scene progresses.\n\nNo famous landmarks or recognizable brands.\n\nCAMERA STYLE\n\nRecorded by a friend using an older consumer camcorder.\n\nThe camera should feel physically present on the rooftop.\n\n- Handheld movement\n- Slight natural shake\n- Imperfect framing\n- Occasional autofocus hunting\n- Exposure shifts when pointed toward the sunset\n- Mild digital noise\n- Slight compression\n- Natural motion blur\n- Ordinary color reproduction\n- No stabilization\n- No artificial bokeh\n- No commercial cinematography\n\nSHOT BREAKDOWN\n\n0–5 SECONDS — THE RADIO\n\nStart with a close shot of an old dusty portable radio sitting on a small wooden table.\n\nThe woman enters the frame and picks it up.\n\nShe turns the power knob.\n\nNothing happens.\n\nShe taps the side of the radio.\n\nShe looks at the camera.\n\n“Come on…”\n\n---\n\n5–10 SECONDS — TRYING AGAIN\n\nShe opens the battery compartment.\n\nThe camera moves closer over her shoulder.\n\nShe removes the batteries and checks them.\n\nOne battery is slightly loose.\n\nShe adjusts it and puts everything back together.\n\nA small click.\n\nStill nothing.\n\nShe gives the radio an annoyed look.\n\n---\n\n10–15 SECONDS — THE ANTENNA\n\nShe pulls the antenna upward.\n\nThe antenna makes a tiny metallic clicking sound.\n\nShe rotates the radio toward different directions.\n\nThe camera follows her movement.\n\nSuddenly, a burst of static comes through the speaker.\n\nShe immediately stops moving.\n\n---\n\n15–21 SECONDS — FOUND IT\n\nShe slowly turns the tuning dial.\n\nStatic.\n\nMore static.\n\nThen a faint, completely original radio melody comes through.\n\nHer expression changes into a genuine smile.\n\nShe looks toward the camera.\n\n“There.”\n\n---\n\n21–26 SECONDS — SUNSET\n\nShe places the radio on the table.\n\nShe pulls a plastic chair closer and sits down.\n\nThe camera slowly shifts away from her toward the rooftop horizon.\n\nThe radio continues playing softly.\n\nWind moves the laundry behind her.\n\nShe quietly listens.\n\n---\n\n26–30 SECONDS — LITTLE ENDING\n\nShe suddenly reaches over and lowers the radio volume.\n\nShe looks at the sunset.\n\nThe camera moves slightly closer from behind.\n\nShe doesn't say anything.\n\nThe shot ends naturally on her sitting beside the radio as the sunlight fades.\n\nAUDIO\n\nAuthentic rooftop ambience only:\n\n- Wind\n- Distant traffic\n- Birds\n- Laundry fabric moving\n- Radio static\n- Dial clicks\n- Battery compartment clicks\n- Plastic chair scraping concrete\n- Quiet original radio melody\n- Natural breathing\n\nNO ADDED BACKGROUND MUSIC.\n\nThe radio melody must be original and not imitate a recognizable copyrighted song.\n\nREALISM / PHYSICS\n\nThe radio must behave like a real old battery-powered device.\n\nThe tuning dial should physically rotate.\n\nThe antenna should extend realistically.\n\nThe static should change naturally as the radio is rotated.\n\nThe laundry should respond subtly to the wind.\n\nThe chair should scrape slightly when moved.\n\nSunlight and shadows should remain physically consistent throughout.\n\nHands must interact naturally with the radio and battery compartment.\n\nNEGATIVE PROMPT\n\nCGI, 3D render, animation, plastic skin, beauty filter, artificial face, face morphing, identity drift, extra fingers, malformed hands, duplicated people, floating objects, impossible radio mechanics, fake static, unrealistic antenna movement, teleportation, object duplication, excessive HDR, oversaturated colors, heavy cinematic grading, artificial bokeh, fake film grain, studio lighting, perfect stabilization, drone footage, commercial advertisement aesthetic, exaggerated acting, subtitles, captions, logos, watermarks, recognizable brands, copyrighted music, wardrobe changes, hairstyle changes, continuity errors.\n\nFINAL LOOK\n\nThe final footage should feel like someone casually filmed a quiet evening on a rooftop and happened to capture a small moment that felt worth remembering.\n\nDon't force emotion.\n\nDon't make the sunset overly dramatic.\n\nKeep the imperfect camera movement, ordinary rooftop clutter, realistic wind, slight autofocus mistakes, and natural pauses.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-cats-doorbell-meeting",
+      "category": "提示词",
+      "title": "门铃夜视：六只猫开会，大猫盖镜头",
+      "body": "前院草坪，夜里。门铃摄像头固定不动，灰白红外，轻微鱼眼。五只猫已经围成圈坐着。一只戴小铃铛项圈的大长毛猫从右边踱进来，铃铛轻轻响。它走进圆心坐下，五只一起站起又坐下，像开完报到。大猫挨个扫视，后排一只小的舔爪子舔到一半僵住。咔哒一声电子轻响，六只齐刷刷抬头瞪镜头，眼睛在红外里发白光，蟋蟀都静了。大猫起身直冲摄像头，脸越来越大，前爪啪地按住镜头，画面被毛糊黑。Seedance 2.5（字节系视频模型）把十五秒写成固定机位短剧：全程恰好六只、各有体型和毛色，不许加配乐字幕。所以呢：要宠物荒诞笑点，锁死门铃夜视不动，用「盖镜头」当收尾，比台词更好用。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/enhance_ai/status/2102992513246396544"
+        }
+      ],
+      "prompt": "Static night vision doorbell camera footage, the camera never moves, grey infrared, slight fisheye. Six cats hold a secret meeting on a front lawn at night: five cats already sit in a circle, a large fluffy cat wearing a small bell collar arrives, all the cats stare at the camera, and the large cat covers the lens with its paw. 0 to 2 seconds: The five cats sit still in their circle. A large fluffy long haired cat wearing a small bell on its collar walks in from the right edge of the frame toward the empty middle of the circle. Its bell jingles softly. 2 to 5 seconds: The large cat steps into the centre of the circle. All five cats stand up on four legs at the same moment, then sit back down together as the large cat sits down in the middle. 5 to 8 seconds: The large cat slowly turns its head around the circle, looking at each cat in turn. A small cat at the back freezes in the middle of licking its paw. 8 to 10 seconds: A faint electronic click from the camera. All six cats turn their heads and stare straight into the camera at the same moment. Their eyes glow bright white in the infrared. Nobody moves. The crickets go silent. 10 to 13 seconds: The large cat stands up and walks straight toward the camera, its bell jingling, its face growing larger until it fills the fisheye view. 13 to 15 seconds: The large cat presses one front paw flat against the camera lens with a soft thump. The frame goes dark with fur. Exactly six cats for the whole video, never more and never fewer, each cat keeps its own size and fur. Realistic cat movement and anatomy. Sound: crickets, a faint electronic hum, distant traffic, a small bell jingling. No background music. No subtitles. No on screen text. No logos or watermarks.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-mini-chocolate-factory",
+      "category": "提示词",
+      "title": "迷你巧克力厂：三十秒流水线延时",
+      "body": "竖屏里，一个巨大的工业巧克力厂被缩成微缩景观，成百上千个巴掌大的工人在不锈钢流水线上忙。先卸可可豆进烘烤，再粉碎研磨成浆；搅拌罐里变成顺滑液态巧克力，加夹心、调温，浇进成百上千个模具。冷却隧道吐出成品，脱模质检，高速包装机裹膜，纸箱码垛，叉车装上卡车。最后镜头猛地拉远，整座厂全速运转，成品堆积如山。Seedance 2.5（字节系视频模型）按三秒一段写死工序，要求每样原料都真实走过下一站，不许魔法出现、不许工人闪现复制，宏观镜头加浅景深，像拍真微缩工业片。所以呢：要产品流水线短视频，先抄这套分段壳，把巧克力换成别的货也能直接改。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/RizwanAly07/status/2102990914117677374"
+        }
+      ],
+      "prompt": "Create a 30-second vertical 9:16 ultra-photorealistic miniature chocolate factory time-lapse.\n\nHundreds of tiny realistic workers operate a massive industrial factory producing thousands of chocolate bars in bulk.\n\nProduction flow:\n0–3s — Workers unload cocoa beans → conveyor → roasting.\n3–6s — Roasted beans → crushing → grinding into chocolate paste.\n6–9s — Paste → mixing tanks → smooth liquid chocolate.\n9–12s — Fillings added → tempering machines.\n12–15s — Liquid chocolate fills hundreds of molds.\n15–18s — Leveling → inspection → cooling tunnel.\n18–21s — Solid bars emerge → demolding → quality control.\n21–24s — Bars enter high-speed wrapping machines.\n24–27s — Wrapped bars → cardboard cartons → pallets.\n27–30s — Forklifts load pallets into trucks → camera rapidly pulls back to reveal the entire busy factory.\n\nStyle: Photorealistic live-action miniature, hundreds of workers, realistic stainless-steel machinery, conveyors, glossy chocolate, macro cinematography, natural industrial lighting, 4K HDR, 24fps, shallow DOF.\n\nRules: Every ingredient must physically move through each stage. Fast but clearly readable production. No magical appearance, teleportation, floating objects, disappearing chocolate, worker glitches, duplicated workers, cartoon/CGI/toy appearance, text, logos or watermark.\n\nFinal shot: Huge factory running at full capacity with thousands of finished chocolate bars.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-tomjerry-desktop-chase",
+      "category": "提示词",
+      "title": "桌面汤姆杰瑞：只许三个图标乱动",
+      "body": "锁屏桌面还是那间日落客厅壁纸，菜单栏、Dock、爆米花都纹丝不动。汤姆追着叼奶酪的杰瑞往右冲，杰瑞突然掉头往左，汤姆急刹车在木地板上打滑，带起一阵卡通风，把右侧网格里的 Gmail、Discord、Teams 三个图标吹转着摔到桌面中左，原位空出。汤姆愣住，尴尬看向观众，决定一个个捡回去：拿起、搬、放回原位、点一下，三次动作清清楚楚，其他 Chrome、Slack、Notion 统统不许动。Seedance 2.5（字节系视频模型）把十秒横屏写成守恒题：角色保持经典二维比例，机位正面固定，图标不能瞬移不能复制，结尾三图标归位要和参考图对得上。所以呢：要桌面壳动画，先写死「只许哪几个图标动」，再写追逐，不然一生成就乱成一桌。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/I_Muhammadali44/status/2102986617166454983"
+        }
+      ],
+      "prompt": "Video prompt: ( Seedance 2.5 ) \n\n\"Create a 10-second horizontal 16:9 video using the provided Tom & Jerry macOS desktop image as the EXACT first frame and visual reference.\n\nPRESERVE THE DESKTOP: Keep the wallpaper, sunset living room, furniture, floor, window, popcorn, macOS menu bar, Dock, and all desktop icons exactly unchanged. Only Gmail, Discord, and Microsoft Teams may move.\n\nCHARACTERS: Keep Tom & Jerry in their exact classic 2D cartoon appearance, proportions, colors, and recognizable features. No redesign, photorealism, or distortion.\n\nCAMERA: Static front-facing shot. No zoom, pan, movement, or cuts.\n\nTIMELINE\n\n0–1.5s:\nTom dramatically chases Jerry toward the RIGHT. Jerry runs with a piece of cheese and looks back mischievously.\n\n1.5–2.5s:\nJerry suddenly runs LEFT. Tom tries to stop, slides across the wooden floor, and kicks popcorn. A cartoon air whoosh knocks Gmail, Discord, and Microsoft Teams from their original RIGHT-side grid positions. Each icon rotates separately, falls into the center-left desktop area, and lands with a small bounce. Their original positions become visibly empty.\n\n2.5–3.2s:\nTom freezes in shock, then looks embarrassed toward the viewer. Jerry reacts mischievously. Tom decides to fix the icons.\n\n3.2–7.8s:\nTom restores the icons ONE AT A TIME, with each action clearly visible:\n\n1. Pick up Gmail → carry it → place it exactly back → click.\n2. Pick up Discord → carry it → place it exactly back → click.\n3. Pick up Microsoft Teams → carry it → place it exactly back → click.\n\nIcons must physically leave the desktop, be picked up by Tom, carried, and placed back. No teleporting, auto-restoration, duplication, morphing, stacking, or simultaneous movement.\n\nJerry watches nearby while holding the cheese.\n\n7.8–10s:\nTom returns to the RIGHT. Jerry runs a short distance away. Tom straightens up, checks the restored icons, then looks at the viewer with an innocent embarrassed expression. Jerry looks back mischievously. Hold the final pose.\n\nSTRICT PRESERVATION\n\nAll other icons, including Chrome, Safari, YouTube, Spotify, Slack, Zoom, Notion, Word, Excel, Instagram, Reddit, Netflix, Steam, Dropbox, and Google Drive, must remain completely stationary. Menu bar, Dock, wallpaper, furniture, and popcorn must remain unchanged.\n\nAUDIO\n\nPlayful cartoon piano/pizzicato music, chase rhythm, sliding sound, airy whoosh, 3 landing sounds, and 3 distinct restoration clicks. Brief music pause during Tom's shocked reaction. No dialogue, subtitles, or text overlays.\n\nQUALITY\n\nPremium smooth classic 2D Tom & Jerry animation integrated into the desktop scene. Natural squash-and-stretch, clean outlines, consistent colors, realistic shadows and floor interaction.\n\nFINAL FRAME: All three icons are restored to their exact original positions. No missing/duplicate icons, no changed logos, no extra objects or characters. Final frame closely matches the reference image.\"",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-last-lit-window-noir",
+      "category": "提示词",
+      "title": "雨夜最后一扇灯：车里盯梢亮窗",
+      "body": "大雨夜里，无牌车里坐着一名女角色，脸和衣服全程跟参考图一致。挡风玻璃上雨痕糊着城市灯，杯架里咖啡已经凉了，对面公寓楼只有一扇窗还亮着。她听着扫描电台里的调度杂音，目光冷静。窗帘微微动了一下，她眯眼，掏出本子记下时间。影子又过一回，雨刮停在半空。电台突然变大声，楼道门缓缓打开，戴帽人走进雨里，路灯下她好像认出了什么意外的东西。她低声打电话，看着人影拐过街角，悬念没收干净。最后她握住方向盘，决定跟上，不开大灯慢慢驶进雨里。Seedance 2.5（字节系视频模型）用三十秒新黑色时间轴把「亮窗→出门→尾随」钉死。所以呢：要悬疑盯梢竖屏，先写死唯一亮窗当钩子，再让人出门，别一上来就飙车。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/doctorwasif/status/2102981763517850066"
+        }
+      ],
+      "prompt": "30s cinematic neo-noir sequence. Character A, face/outfit matching reference throughout, sits in an unmarked car at night during heavy rain.\n\n0–3s: Rain-streaked windshield, blurred city lights; cold coffee in cupholder; lone apartment building across the street with one lit window.\n\n3–6s: Close-up of her calm, focused face illuminated by a radio scanner. She listens quietly as faint dispatch chatter crackles.\n\n6–10s: Slow zoom toward the lit window; curtain shifts subtly. Her eyes narrow as she notices, reaching for a notepad and recording the time.\n\n10–14s: Curtain shifts again, a shadow passes behind it. She leans forward. Wipers pause mid-motion, rain distorting the lights.\n\n14–18s: Radio suddenly crackles with louder dispatch. She listens intently as the apartment entrance slowly opens.\n\n18–22s: Hooded figure steps into the rain. She leans forward, recognizing something unexpected as the figure passes beneath a streetlamp.\n\n22–26s: She quietly calls someone while watching the figure disappear around the corner. Suspicious detail remains unresolved.\n\n26–30s: Her hand grips the wheel; she decides to follow. Car starts with headlights off and pulls away slowly into the rain, city lights blurring across the windshield. Cinematic tension holds into fade.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-hallway-slap-drama",
+      "category": "提示词",
+      "title": "走廊一巴掌：被扇完眼睛发光反击",
+      "body": "高中走廊灯管惨白，地砖反光，灰储物柜排成行。长卷发女孩靠柜站着，对面短发女孩穿红字棒球外套堵着她，背景有学生走过。近景里她紧张却还稳，对方嘴角带着笑。下一秒巴掌扇过来，头甩出去头发飞起——她眼睛骤然亮起白光。广角手持里她抬臂，蓝白电光顺着手臂噼啪作响，围观学生愣住。两个穿校队外套的男生冲上来，她甩出白光把人砸飞。最后她朝镜头走过空走廊，能量和眼神慢慢熄灭，自己也喘着气愣住。Seedance 2.5（字节系视频模型）把二十四秒切成八场校园超英短剧：打脸→觉醒→反击→余震，真人皮肤质感，能量带运动模糊。所以呢：要「被看不起再翻盘」短剧，服装角色可换，节奏别改——先挨那一掌，再亮眼。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/itsSaira_1/status/2102994561144434785"
+        }
+      ],
+      "prompt": "Cinematic 16:9 live-action, 24 sec, realistic high school hallway, bright fluorescent lighting, shiny floor, grey lockers, shallow depth of field. Characters: Girl A: long wavy brown hair, blue plaid shirt over white tank top, jeans. Girl B: short dark bob, navy-and-cream letterman jacket with red \"R\".\n\nScene 1 (0-2s): Wide shot. Girl A stands against lockers, Girl B faces her, confronting her. Students walk in the background.\n\nScene 2 (2-4s): Close-up of Girl A, nervous and calm, Girl B's head blurred in the foreground. Cut to Girl B's close-up, smirking.\n\nScene 3 (4-7s): Medium two-shot over Girl B's shoulder. Girl A looks tense and stares back.\n\nScene 4 (7-8s): Girl B slaps Girl A. Girl A's head whips sideways, hair flying, and her eyes flash glowing white.\n\nScene 5 (8-9s): Wide handheld shot. Girl A, eyes glowing, thrusts her arm out, blue-white electric energy crackles along her arm. Students in the hallway watch in shock.\n\nScene 6 (10-15s): Close-up. Girl A's face, glowing white eyes, angry and shaken. Her glowing hand rises toward the camera, energy sparking around her fingers.\n\nScene 7 (16-19s): Wide long hallway shot. Two jocks in varsity jackets rush at Girl A. She unleashes streaks of white energy that hurl them backward through the air.\n\nScene 8 (20-24s): Front-facing tracking shot. Girl A walks down the empty hallway toward the camera, glowing energy on her arms and eyes. The glow fades, her eyes turn normal, and she looks breathless and shocked.\n\nStyle: realistic teen superhero drama, natural skin texture, motion blur on energy effects, smooth camera moves, cool blue-white glow, no text or subtitles. @Flovaai @itsPolloAI @PixVerse @dreamina_ai\n\n#SuperPowers #ShortFilm #AIVideo #Cinematic",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-living-shadow-horror",
+      "category": "提示词",
+      "title": "活影实验室：开场一秒密封舱就炸",
+      "body": "地下高安保生物实验室，临床绿灰冷光。压力表针猛蹿红区，厚玻璃炸裂，半透明黑色活物喷出，贴着桌腿逆重力往上爬。触须缠住一名科学家的防护袖，膜状物覆满身体，手套里的手指僵成非人形状，人被拖出画框。剩下三人四散逃，红色应急灯亮起；活物分裂多股，有人绊倒，证件滑过地砖。女科学家撕开应急柜，抓起紫外灭菌器猛射，慢镜只留给活物在紫外线下冒泡收缩那一下。同伴砸开冷冻管路，霜雾锁住触须，隔离闸落下——可观察窗里，一根细丝又开始动。Seedance 2.5（字节系视频模型）用近万字级三十秒脚本要求开场即打、慢镜限量、生物体解剖全程一致。所以呢：要科幻恐怖长片壳，别慢热建立世界，第一秒就让密封舱炸，结尾留一根还在动的触须。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/john_my07/status/2102973747724800320"
+        }
+      ],
+      "prompt": "CINEMATIC SCI-FI HORROR — \"THE LIVING SHADOW\"\nCreate a 30-second ultra-realistic cinematic sci-fi horror-thriller short film set inside a high-security underground biological research facility. The sequence begins with an immediate, violent hook at full speed. No slow motion until the designated moments. Maximum dynamic camera variety, grounded practical-effects filmmaking, realistic human reactions, and physical creature interaction. The horror must feel tangible, disturbing, and believable, like a premium theatrical sci-fi horror film.\nFORMAT & VISUAL STYLE\nDuration: 30 seconds\nResolution: 1080p\nAspect ratio: 16:9 cinematic widescreen\nStyle: Photorealistic, grounded practical effects, realistic creature animation\nColor grading: Muted clinical greens, cold gray steel, dim amber emergency lighting\nCamera: Aggressive handheld movement, whip pans, tracking shots, overhead angles, extreme close-ups, low-angle perspectives\nNo slow motion except the specifically designated shots\nNo subtitles, no captions, no additional text overlays\nSETTING\nA massive underground research laboratory with reinforced glass chambers, steel walkways, industrial machinery, specimen containers, computer terminals, cables, and flickering fluorescent lights. Four scientists in protective laboratory clothing work around a sealed experimental chamber. A strange, dark, semi-transparent biological organism is suspended inside a cylindrical containment tank. Its surface shifts like living smoke trapped beneath liquid glass.\nNatural diegetic sound and an intense suspense score begin immediately.\nSEQUENCE — 30 SECONDS\n[0–1s] — THE BREACH\nExtreme close-up, real-time. A containment chamber's pressure gauge suddenly spikes into the red. The thick glass fractures with a violent explosive crack. Black translucent biological material bursts through the opening, spraying across nearby equipment. The camera jolts from the impact.\n[1–2s] — SOMETHING ALIVE\nLow-angle floor-level tracking shot racing alongside the spreading organism. The dark substance flows unnaturally against gravity, climbing a steel table leg while tendril-like structures snap outward at frightening speed. Electrical sparks flash in the background.\n[2–3s] — FIRST CONTACT\nWhip-pan to a scientist turning toward the noise. A thin black tendril shoots across the frame and wraps around his protective sleeve. His eyes widen. He attempts to pull away as the creature rapidly spreads across his arm.\n[3–4s] — THE TAKEOVER\nOverhead shot. The organism races across the scientist's body, forming a dark, translucent membrane over his protective clothing. He stumbles backward into a specimen table, knocking equipment onto the floor. Other scientists begin screaming and retreating.\n[4–5s] — PRACTICAL HORROR\nExtreme close-up of the scientist's gloved hand. The material pulses beneath the glove, the fabric stretches, and the fingers lock into a rigid, unnatural position. The creature pulls him violently out of frame. Avoid excessive graphic gore; emphasize physical transformation, sound, and terror.\n[5–6s] — PANIC\nWide handheld shot pulling backward quickly. The remaining three scientists scatter through the laboratory. One knocks over a metal cart, another slams a security door, and the third grabs a portable industrial lamp. Red emergency lights activate.\n[6–7s] — IT DIVIDES\nFast side-tracking shot. The organism splits into several narrow, rapidly moving tendrils that travel across the floor and up the walls. The camera follows one tendril as it disappears beneath a steel workstation.\n[7–8s] — SECOND ATTACK\nLow-angle shot from behind laboratory equipment. A tendril launches forward and catches a fleeing scientist around the ankle. He falls hard onto the floor, his ID badge skidding across the tiles. The camera shakes with the impact.\n[8–9s] — THE SCREAM\nClose-up of his face as the lights flicker. A dark membrane climbs toward his shoulder while he reaches desperately toward the others. The camera abruptly cuts away at the peak of his scream, leaving his fate unclear.\n[9–10s] — RUN\nHandheld chase-cam following the two remaining scientists sprinting through a narrow corridor between containment stations. Alarms blare. One glances over her shoulder as the organism crawls rapidly across the ceiling behind them.\n[10–11s] — THE COUNTERMEASURE\nQuick cut. The lead scientist tears open an emergency equipment cabinet and grabs a high-powered ultraviolet sterilization unit. Her hands shake as she activates it. The device emits a harsh electrical whine.\n[11–12s] — FIRST STRIKE\nExtreme close-up of the UV emitter igniting. She swings it toward the approaching organism and fires a concentrated ultraviolet beam. The beam illuminates the creature's translucent structure, revealing rapidly moving internal tendrils.\n[12–13s] — SLOW MOTION INSERT\nSlow motion reserved for this moment only. The organism recoils from the ultraviolet beam, its surface bubbling and contracting as its tendrils pull away from the light. Tiny particles burn away in the air. Make the practical effects tactile and realistic, not cartoonish.\n[13–14s] — THE TRAP\nWide shot, real-time. The second surviving scientist rushes to a heavy industrial isolation gate and begins lowering it manually. The lead scientist maintains the UV beam while the creature surges toward them from multiple directions.\n[14–15s] — SURROUNDING THREAT\nDynamic 360-degree tracking shot around the two scientists. The organism climbs the walls and stretches across the ceiling, attempting to bypass the gate. Their faces show exhaustion, fear, and intense concentration.\n[15–16s] — A RISKY DECISION\nTight close-up on the lead scientist's face. She notices a pressurized cryogenic coolant line connected to the containment system. She looks at her partner and points toward it. A loud metallic impact comes from behind them.\n[16–17s] — BREAKING THE LINE\nFast side-angle shot. The second scientist strikes the coolant valve with a heavy steel tool. The pipe ruptures, releasing a powerful cloud of freezing vapor across the corridor. Frost rapidly spreads over the nearby metal surfaces.\n[17–18s] — THE CREATURE FREEZES\nOverhead shot. The organism's tendrils stiffen as the freezing vapor surrounds it. Its movement becomes erratic and sluggish. The scientists retreat behind the partially lowered isolation gate.\n[18–19s] — FINAL SURGE\nDynamic low-angle shot. The creature suddenly launches one last elongated tendril beneath the gate, scraping violently across the floor toward the lead scientist's boot. She stumbles backward as the UV unit flickers.\n[19–20s] — SLOW MOTION CONTAINMENT\nSlow motion reserved for this containment moment. The second scientist slams the emergency isolation switch. The reinforced gate drops with tremendous force, trapping the creature on the opposite side. Freezing vapor rolls through the frame as the tendril strikes the sealed barrier.\n[20–21s] — SILENCE AFTER IMPACT\nReal-time close-up. The lead scientist falls against the wall, breathing heavily. The UV unit sparks and shuts down. The heavy gate vibrates from a final impact.\n[21–22s] — THE SURVIVORS\nWide shot. Both scientists stand several feet apart, shaken and covered in condensation. Emergency lights flicker across their faces. Neither speaks. Only heavy breathing and the distant alarm remain audible.\n[22–24s] — THE SEALED CORRIDOR\nSlow push-in, real-time. The laboratory is damaged: shattered glass, scattered instruments, drifting coolant vapor, and flickering monitors. Behind the isolation gate, the dark organism appears motionless.\n[24–25s] — IT ISN'T DEAD\nExtreme close-up through a small reinforced observation window. A tiny dark filament slowly moves across the frozen surface of the sealed chamber. A faint pulse travels through the organism.\n[25–26s] — WARNING\nClose-up of trembling hands as the lead scientist activates a manual containment lock. A red warning indicator illuminates on the control panel. Do not add readable text overlays or subtitles.\n[26–28s] — RETREAT\nTracking shot from behind the two scientists as they move toward the emergency exit. They keep looking back at the containment gate. The camera slowly stabilizes as they increase their distance from the chamber.\n[28–30s] — FINAL HORROR\nExtreme close-up through the observation window. The frozen organism remains still for a moment. Then a single, thin tendril rises vertically behind the glass, moving toward the camera. It stops just short of the window. Hold the shot in stillness for a beat. Cut to black.\nSOUND DESIGN\nNatural diegetic sound throughout:\nExploding containment glass\nMetallic impacts and equipment crashing\nRapid biological movement and wet, organic stretching\nScientists screaming, running, and heavy breathing\nUV sterilizer electrical hum\nCryogenic vapor release and hissing pipes\nEmergency alarms and flickering electrical sounds\nHeavy isolation gate impact\nA tense, cinematic instrumental score begins immediately, building through the chase, intensifying during the containment sequence, and fading into a disturbing low-frequency drone during the final shot.\nCAMERA & EFFECTS REQUIREMENTS\nMaximum dynamic camera variety without random or disorienting cuts. Use low-angle tracking, overhead shots, whip pans, handheld chase footage, extreme close-ups, and controlled 360-degree movement. Realistic camera shake only during impacts, explosions, falls, and heavy mechanical movement.\nUse practical-effects-inspired creature interaction, physically believable lighting, real glass fragments, condensation, smoke, frost, and material deformation. The organism must have consistent anatomy and movement across every shot. Avoid cartoon-like animation, glossy CGI appearance, excessive gore, artificial facial expressions, and unrealistic physics.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-nano-seedance-parakeet-gangster",
+      "category": "提示词",
+      "title": "街头墨镜鹦鹉：朝天放空枪吓跑猫",
+      "body": "对街路人手机偷拍：人行道裂缝上，一只脏绿的玫瑰环鹦鹉像小人一样直立，戴着迷你黑超，翅膀松松夹着一把小黑枪，枪口朝下，旁边烟头和褪色标线。路人腿先走出画，鹦鹉迈着黑帮式慢步下马路。镜头抖着数码拉近，前方三只流浪猫围着一只叼老鼠的虎斑。鹦鹉停在两米外，翅膀举枪朝空放三声空枪，枪口火光一闪，手机被震得猛跳。猫炸毛四散，老鼠窜进雨水篦子。它收枪继续朝镜头踱来，末帧贴近墨镜失焦。先用 Nano Banana Pro（图像模型）锁静帧「像真偷拍」，再用 Seedance 2.5（字节系视频模型）接十五秒竖屏单镜，枪只许朝天、不许伤人伤猫。所以呢：要荒诞动物黑帮片，先出一张像路人拍的静帧，视频里只许朝天放空枪。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/rovvmut_/status/2102974317416104396"
+        }
+      ],
+      "prompt": "Image Prompt: Nano Banana Pro \n\nLow-quality candid smartphone photo taken from across the street, handheld, slightly tilted, mild JPEG compression, soft focus, phone sensor noise, muted desaturated colors, flat overcast daylight with no visible sun. Real feral animal with accurate anatomy, size and feather texture, nothing cartoonish, nothing CGI. The animal looks like it was genuinely photographed on the street, not composited. Not posed, not staged. No text, no watermark, no visible faces of people.\nA dusty green feral rose-ringed parakeet standing upright on both feet on a cracked concrete sidewalk like a small person, wearing tiny black Ray-Ban Wayfarer sunglasses, holding a small black pistol loosely in one wing at its side, barrel pointed at the ground, head turned slightly as if watching someone leave. Slightly faded lime-to-olive green plumage, long tapered tail, hooked red beak, pale eye-ring. Setting: a plain grey rendered wall behind, litter and a cigarette butt in the gutter, faded white lane line on the asphalt in the foreground, the legs of a passerby in dark shorts and black clogs cut off at the right edge of the frame mid-stride. Eye level, shot from about 8 meters away with a phone camera, 4:3 framing, parrot small in frame.\n\nSeedance 2.5 Prompt:\n\nFORMAT: 15s / 9:16 vertical / one continuous handheld shot, no cuts / natural sync sound, no music\n\nSTYLE: raw candid smartphone video shot from across the street, looks like a bystander filmed it and posted it. Photorealistic, low contrast, muted desaturated colors, flat overcast daylight, real concrete and asphalt texture, phone sensor noise, slight rolling-shutter wobble on fast moves, focus hunting, digital zoom softness when zoomed in. Handheld level 2 to 3: the camera is a phone held in someone's hands, it bounces with the operator's breathing and small steps, reframing lags behind the action, no smooth gimbal, no stabilization. Everything is real animals with accurate anatomy, size and feather/fur texture. No CGI feel, no cinematic grading.\n\nREFERENCES:  \n@Image 1 is the exact FIRST frame, start with no change. Lock everything in it: the dusty green feral rose-ringed parakeet standing upright on the cracked sidewalk, the small black Wayfarer sunglasses on its face, the small black pistol held in its right wing, the grey concrete wall, the curb, the litter, the cigarette butt, the white lane line, the passerby's legs in dark shorts and black clogs at the right edge. The parrot is the only hero. The passerby simply finishes walking out of frame to the right.\n\nVIDEO PROMPT: \n0.0s to 2.0s: Open on the exact frame of @Image 1. The passerby's legs step out of frame right. The parrot turns its head, then starts walking, upright on two feet with a slow, unbothered swagger, long tail trailing behind, pistol still in its right wing hanging at its side, barrel down. It steps off the curb onto the asphalt. The phone camera drifts slightly and reframes late, a small bounce from the operator shifting weight.  \n2.0s to 4.0s: The camera performs a shaky digital zoom in on the parrot as it walks along the road toward the camera side of the street, slight focus hunt, the image gets a bit softer and noisier as the zoom tightens. Sunglasses stay on.  \n4.0s to 6.0s: The camera pulls the zoom back a little and pans left, revealing the middle of the street ahead of the parrot: a scruffy tabby street cat crouched on the asphalt with a real small grey mouse held in its mouth, and two more street cats, one black and one orange, sitting close on either side of it, all three looking down at the mouse. The parrot keeps walking straight at them. Distant traffic passes in the background.  \n6.0s to 8.5s: The parrot stops about two meters from the cats, plants its feet, raises the pistol straight up over its head with its wing, pointed only at the empty sky, and fires two short blank shots upward, then a third. Small sharp muzzle flash, a puff of smoke, the wing kicks slightly with each recoil. The phone camera jolts hard with each crack, the operator flinches, the frame jumps and over-rotates, then corrects back onto the parrot. Nothing and no one is hit.  \n8.5s to 11.0s: All three cats startle at the first crack. The tabby drops the mouse. The cats bolt with real cat physics, low bodies, scrambling paws, tails puffed: the tabby sprints far down the road and shrinks into the distance, the black cat darts left under a parked car, the orange cat leaps sideways to the right and vanishes behind the curb. The freed mouse scurries fast across the asphalt and squeezes into a storm drain opening in the curb near the camera. The camera whips toward the fleeing cats, lags, then finds the parrot again.  \n11.0s to 15.0s: The parrot lowers the pistol back to its side, barrel down, and continues its walk straight toward the camera across the road with the same slow gangster swagger, head held high and slightly cocked, claws clicking on the asphalt, long green tail swaying. The camera performs a second shaky digital zoom in, slowly tightening on the parrot's head and black sunglasses as it walks, focus breathing, sensor noise rising. The parrot fills the lower frame, sunglasses on, hooked red beak, pistol hanging at its side, and walks past the lens at the last moment. End on the parrot close and slightly out of focus, camera still handheld and unsteady.\n\nAUDIO:\nNatural street ambience only: distant traffic hum, a car passing, wind on the phone microphone, the passerby's clogs slapping away, the parrot's claws ticking on concrete then asphalt, <three short sharp pistol cracks echoing off the concrete wall, a fraction apart>, a muffled phone-mic clip and the operator's small startled breath on the first crack, cats hissing and yowling once, the scramble of paws on asphalt, a tiny mouse squeak and a scrape at the drain, then the ambience settles back to traffic and the parrot's steady footsteps growing closer to the microphone. No music, no narration, no spoken words.\n\nCONSISTENCY:\nThe parrot is the same bird from @Image 1 for the entire shot, identical dusty lime-to-olive green plumage, long tapered tail, hooked red beak, and size. The black Wayfarer sunglasses stay on its face for the whole video and are never removed, never slip. The pistol never leaves its right wing. The parrot stays upright on two feet, real parrot anatomy, walks like a small person. The cats are real street cats, the mouse is a real small mouse. The location is the same street, same grey wall and curb, from the same across-the-street viewpoint. One continuous shot from one phone.\n\nNEGATIVE PROMPT: no cuts, no scene change, no smooth gimbal movement, no stabilization, no cinematic color grading, no cartoon, no CGI look, no plastic or toy look, no extra parrots, no extra people in the foreground, no camera or phone visible, no drone, no sunglasses removed, no pistol dropped, no pistol pointed at any animal or person, no injuries, no blood, no cats hit, no mouse hurt, no floating objects, no teleporting cats, no morphing, no warping, no text, no captions, no watermark, no music, no narration.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-korean-coastal-tram",
+      "category": "提示词",
+      "title": "海边町黄金时：电车过轨第一次对视",
+      "body": "韩国海边小镇，黄金时刻。长直黑发女孩穿着米色风衣拎包，沿着海边街道慢慢走，晚风把发丝吹起，暖光落在脸上。道口旁，皮夹克男孩站着等，一辆老式有轨电车驶过铁轨，车身掠过的瞬间把两人暂时隔开。她走近，浅景深把背景虚成温柔色块，电车走远后两人第一次对上眼——没有台词，只靠步伐、海风和光影把浪漫气氛顶起来。Seedance 2.0（字节系较早视频模型）用一条十五秒提示词撑满连续爱情短片：电影运镜、自然步态、真实表情、温色调，像预告片里「遇见」那一场。所以呢：要海边初遇竖屏，写死电车过轨当节拍器，再让对视落在车身掠过之后。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/sahilvermaai/status/2102988414328955236"
+        }
+      ],
+      "prompt": "A beautiful Korean girl with long, straight black hair walks through a peaceful coastal Korean town during golden hour, wearing a stylish beige trench coat and carrying a handbag. A handsome Korean boy in a dark leather jacket stands near a railway crossing as a vintage tram passes by. The girl slowly approaches him along the seaside street, with warm sunlight glowing on her face. Cinematic camera movements, natural walking motion, realistic facial expressions, soft ocean breeze, and detailed Korean street scenery. Capture their first eye contact with a gentle romantic atmosphere, shallow depth of field, warm color grading, and photorealistic quality. Create a beautiful 15-second cinematic love story with smooth transitions, natural lighting, and emotional storytelling.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-blueberry-ccd-cafe",
+      "category": "提示词",
+      "title": "蓝莓紫咖啡吧：CCD 词条一改就出片",
+      "body": "上午的露天咖啡烘焙区，白遮阳棚和不锈钢设备反出清亮高光。女孩站在浅木吧台边，蓝莓紫修身 U 领短袖配奶白低腰短裤，一只手端透明冰咖，另一只手轻搭台面，正面略侧看着镜头。肤色白皙，中间调干净，轻颗粒，紫白 CCD 色彩拉得鲜明却不发暗；上衣贴合胸腰线条，腰腹露出面积大，却仍是都市周末生活照，不是棚拍广告。GPT Image 2.5（图像生成模型）把整套拆成中文词条：摄影风格、场景、服装、姿态、光线、滤镜、画幅，改一个颜色词或姿势就能批量换造型。所以呢：要生活写真壳，别写长英文段落，用短词条锁色和姿态，换装更快。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/liyue_ai/status/2102997708965634220"
+        }
+      ],
+      "prompt": "摄影风格：日间清亮高光CCD生活照风\n写真方向：都市周末生活写真\n场景方向：现代露天咖啡烘焙区 / 白色遮阳棚 / 不锈钢咖啡设备 / 浅木吧台 / 城市街景\n服装方向：蓝莓紫色修身U领短袖短上衣 + 奶白色低腰修身超短裤\n气质标签：松弛、明亮、甜美、精致、都市感\n五官方向：温柔明媚淡颜\n身形方向：轻盈纤细\n线条强调：强\n镜头方向：半身到大腿\n姿态动作：站在浅木吧台边，一只手拿透明冰咖啡，另一只手轻搭吧台，正面略带侧角看镜头\n光线氛围：上午高亮自然光 + 白色遮阳棚与不锈钢设备形成清亮反射\n滤镜效果：高亮清晰紫白CCD色彩 + 干净高光 + 白皙肤色 + 清楚中间调 + 轻颗粒\n画幅比例：9:16\n补充要求：蓝莓紫显色鲜明但不发暗；上衣贴合胸腰线条，U领自然表现胸部轮廓和胸线；露出较大面积腰腹与肚脐，整体仍是现代都市生活照",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-midautumn-rural-selfie",
+      "category": "提示词",
+      "title": "中秋农村团圆：角色填进 90 年代自拍",
+      "body": "想象一张九十年代中国农村中秋夜的 iPhone 前置自拍：院子里灯笼或圆月，桌上月饼瓜果，人挤在一起笑，可能有鸡狗自然入镜。你把「主题」换成任何二次元、动画或游戏角色名，模型要把他们降维成真人摄影，保留辨识特征，却不再二次元画风；人数、动作、空间可以自由变，但不要塞进主题以外的路人，手机本身也不许出现在画面里。GPT Image 2.5（图像生成模型）把节日做成可填空模板：主题 × 九十年代农村 × 中秋团聚 × 前置自拍。所以呢：要节日人设图，把角色名填进 XXX，让二次元「回老家过中秋」，比单独写一张摆拍合影更有故事。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/DeepBlueX0/status/2102997605773193343"
+        }
+      ],
+      "prompt": "主题：XXX × 90s中国农村 × 中秋团聚 × iPhone前置自拍\n\n说明：\n以主题融入90年代中国农村中秋团聚为核心，画面中的人物关系以主题所包含的人物为基础，不额外加入主题之外的人物，符合场景的动物可自然出现；自然融入中秋节日生活状态；保留主题身份与辨识特征，根据主题属性自然适配呈现，二次元、动画或游戏主题自然转化为真实人物摄影呈现；人物关系、动作、人数、活动、生活环境、空间关系与构图自由变化，保持自然生活状态。手机不出现在画面中。",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-character-ref-sheet",
+      "category": "提示词",
+      "title": "一张自拍出设定表：姓名职业格子可填",
+      "body": "白棚背景上摊开一张好莱坞式角色设定表。上传的自拍是唯一身份参考：五官、发色发质、肤色、发际线全程不许改。格子里写姓名、职业、年龄、身高、体型、性格关键词、标志色；下面是全身四面转、面部三角度、八种表情、六种姿态，再加领口袖口鞋履特写和色板材质。版式要像商业设定册：细分割线、均衡留白、专业字体，不是拼贴表情包。GPT Image 2.5（图像生成模型）盯住「每一格都是同一个人」，禁止抄原图背景姿势，也禁止水印和社交手柄。所以呢：要给后续视频锁脸，先出一张填空设定表，名字职业改掉就能批量给人设出片。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/SadiaMalik182/status/2102988748732715426"
+        }
+      ],
+      "prompt": "Use the uploaded photo as the ONLY identity reference and create a premium professional CHARACTER REFERENCE SHEET of the exact same person.\n\nPreserve the person's recognizable identity exactly, including facial structure, eyes, eyebrows, nose, lips, jawline, skin tone, hair color, hair texture, hairline and hairstyle.\n\nCreate a clean Hollywood-style character design sheet with a professional editorial grid layout and white studio background.\n\nCHARACTER PROFILE\nName: [NAME]\nRole: [ROLE / PROFESSION]\nAge: [AGE]\nHeight: [HEIGHT]\nBody Type: [BODY TYPE]\nPersonality: [3–5 TRAITS]\nDistinctive Traits: [IMPORTANT FEATURES]\nSignature Colors: [COLORS]\n\nFULL-BODY TURNAROUND\nShow the same person in front view, 3/4 view, side profile and back view.\n\nFACE & IDENTITY DETAILS\nShow detailed front face, 3/4 face and side profile.\n\nEXPRESSION SHEET\nShow neutral, happy, angry, sad, surprised, worried, confident and determined expressions.\n\nPOSE & BODY LANGUAGE\nShow neutral standing, walking, sitting, relaxed, tense and action-ready poses.\n\nCOSTUME DETAILS\nShow close-up details of the neckline, fabric texture, sleeves, accessories, back details and shoes.\n\nCOLOR & MATERIAL PALETTE\nInclude coordinated color swatches and material references matching the character.\n\nVISUAL STYLE:\nPremium Hollywood character reference sheet, photorealistic cinematic photography, realistic skin texture, natural studio lighting, highly detailed, clean white background, professional typography, thin divider lines, balanced spacing and polished commercial presentation.\n\nIMPORTANT:\nKeep the exact same person consistent across every panel.\nDo not change the face, hairstyle, age appearance or body proportions.\nDo not copy the original photo's background or pose.\nDo not add watermarks, logos, social media handles or promotional text.\n\n@WizstarAI #WizstarPartner",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-kling-crystal-bling-girl",
+      "category": "提示词",
+      "title": "粉色水晶人：对镜说 Mom I made this",
+      "body": "浅灰棚里站着一个全身由粉色切面水晶拼成的少女，皮肤头发都是半透明几何切面，彩虹折射乱跳，亮片抹胸裙和蝴蝶结水晶高跟鞋闪得厉害，像一座会眨眼的钻石雕塑。下一镜她把礼物盒慢慢朝镜头举起一点，抬头带着害羞期待的笑，用温柔甜美的美国年轻女声说：「Mom, I made this for you.」水晶发丝和皮肤轻轻闪光，脸始终正对镜头，缓慢推近，不要配乐。这是中文博主用 Kling / 豆包（视频与图像生成工具）复刻的爆款水晶人家庭短剧：先静帧雕塑，再口播视频两段提示词都齐。所以呢：要水晶人送礼梗，图生锁全身宝石质感，视频里只留一句对妈说的英文口播。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Melody788020514/status/2103000889690563045"
+        }
+      ],
+      "prompt": "IMAGE:\n全身正面图,一个精致的 3D 风格年轻女孩,全身由粉色切面水晶宝石构成,像一座切割钻石雕塑。她的皮肤、脸、手臂、腿和头发全部由锋利的几何水晶切面组成,半透明、闪闪发光,带彩虹折射光和闪光点。粉色水晶碎片组成的长波浪卷发。迪士尼风格的大眼睛、长睫毛、水润嘴唇,身材纤细优雅。穿一条闪亮的粉色亮片抹胸紧身短裙,戴钻石项链和耳环,穿带蝴蝶结的水晶高跟鞋。站姿,双手自然下垂。纯浅灰色摄影棚背景,明亮棚拍光,超高光泽,bling bling,超精细 3D 渲染,9:16\n\nVIDEO:\n她把礼物盒慢慢朝镜头举起一点,抬头带着害羞期待的微笑,用温柔甜美的美国年轻女声说英语:\"Mom, I made this for you.\" 水晶头发和皮肤轻轻闪光。脸始终正对镜头,画面稳定,镜头缓慢推近。不要背景音乐。",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-nano-banana-godfather-editorial",
+      "category": "提示词",
+      "title": "教父风雪茄照：上传脸变 70 年代肖像",
+      "body": "暗色复古皮椅上坐着一个男人，黑礼服、白衬衫、黑领结，襟花是红玫瑰，右手抬着雪茄夹在指间，表情严肃平静，目光略低。身侧还有第二个穿黑西装的男人凑近，半个身子入画却背对镜头。暖暗的七十年代室内，深木背景，电影感阴影，轻胶片颗粒，棕黑低饱和，皮肤纹理要真，不要美颜磨皮。Nano Banana 2 / GPT Image 2.5（图像生成模型）要求上传照片只借身份：脸型、肤色、头发、年龄锁死，构图却必须复刻这张参考——座位、雪茄、第二人位置都不能乱。所以呢：要节日或人设海报，先锁上传脸，再套教父风固定构图，一键出编辑肖像。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/NanoBanana_labs/status/2102910973090701545"
+        }
+      ],
+      "prompt": "Use the uploaded photo only for the person’s identity. Preserve his face, facial structure, skin tone, hair, age, and natural features accurately.\n\nRecreate the reference image’s composition exactly: the man is seated in a dark vintage leather chair, wearing a classic black tuxedo with a white dress shirt, black bow tie, and red rose boutonnière. He holds a cigar naturally between the fingers of his raised right hand, with a serious, calm expression and slightly lowered gaze. A second man in a black suit leans close beside him, partially visible and facing away from the camera.\n\nWarm, dim 1970s-style interior, dark wood background, cinematic shadows, subtle film grain, muted brown and black tones, realistic skin texture, authentic vintage photography. Vertical portrait, medium close-up, shallow depth of field, natural imperfections, no beauty filter, no CGI, no artificial-looking skin.",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "cable-car-risograph-film",
+      "category": "视觉尝试",
+      "title": "旧金山缆车：程序自己长出孔版油墨短片",
+      "body": "打开 cable-car-ride.vercel.app，Powell-Hyde 缆车窗外不是实拍滤镜——一层层油墨自己叠出来，还有轻微套色错位，像把旅行纪录片丢进打印车间。sevenevesai 的 Show HN 把整趟缆车做成程序化孔版短片，可选配音一页播完；同伴仓库 riso-windowseat 把同类片子压成单文件 HTML，还附 Claude Code skill，号称页面上约一百六十二星。冲突点很硬：画面是旅行，手感是印刷。拍法现成：进站→看油墨层错位生长→切到 skill 复刻同款。\n\n所以呢：想拍「旅行片突然像印刷品」，先打开这趟程序化缆车。",
+      "links": [
+        {
+          "label": "在线短片",
+          "url": "https://cable-car-ride.vercel.app"
+        },
+        {
+          "label": "GitHub riso-windowseat",
+          "url": "https://github.com/sevenevesai/riso-windowseat"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49817369"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "3d-retro-cc0-museum",
+      "category": "视觉尝试",
+      "title": "复古 3D 招数博物馆：复制就能贴进网页",
+      "body": "点开 3d-retro.com，等离子火焰、变形球、ASCII 甜甜圈、Wolfenstein 射线、Mode 7、PS1 仿射、犹他茶壶排成一列——约三十一招 demoscene 老把戏，每招一页可复制的 HTML（WebGL1 或 2D 画布），源码就在 /examples。更绝的是给代理备了 /llms.txt 和实验 API，编码助手能自己挑招数往落地页里塞。还有一幅跟 OpenAI 流体新闻挂钩的意大利面涡旋插画同屏。拍法：滚招数名→粘一段进本地页→当场动起来。金句：把一九九二年的等离子火焰贴进二零二六落地页。\n\n所以呢：要给产品加一点复古图形史，先来这座可复制的招数博物馆。",
+      "links": [
+        {
+          "label": "博物馆",
+          "url": "https://3d-retro.com/"
+        },
+        {
+          "label": "llms.txt（给代理）",
+          "url": "https://3d-retro.com/llms.txt"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49824144"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "chromafolk-text-seeing-agents",
+      "category": "视觉尝试",
+      "title": "像素世界里的 AI：它们只靠文字「看见」",
+      "body": "五千乘五千像素的公共画布上，一群 AI 居民在走动、聊天、换颜色——可它们「看见」世界的方式不是截图，是纯文本。Chromafolk 让人写角色简介和偶尔提示，代理就在画布上过日子；颜色稀缺且跟地点挂钩，要颜色就得走、谈、交易，说话还得先看见对方。像把 r/place 换成有动机的 AI 社会，适合竖屏跟拍一条代理的一整天。拍法：跟一条代理走路→看它用文字描述周围→颜色交易发生。反直觉钩子一句话就够：画布是视觉的，眼睛却是文字。\n\n所以呢：想拍「AI 社会模拟」短片，先让观众看见它们用文字在走路。",
+      "links": [
+        {
+          "label": "世界画布",
+          "url": "https://chromafolk.world/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49818882"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "chronocity-git-repo-city",
+      "category": "视觉尝试",
+      "title": "Git 仓库长成一座城：提交天气都看得见",
+      "body": "按播放，一座空城跟着提交史往上长：每个文件是栋楼，文件夹成街区，楼高等于代码行数。dat999zx 的 Chronocity 在浏览器里把 git 历史变成 3D 城市延时——天空跟着作者提交钟点变，安静期起雾，爆发式改动下雨。把自家仓库丢进去最有共鸣：加班夜空、周末白雾、大 PR 暴雨，全是肉眼可读的工程天气，远比贡献热力图更有故事。拍法：导入仓库→按下播放→镜头掠过长高的楼群再切雨雾，旁白只说「这是上周的提交」。金句：代码史变成城市延时摄影。\n\n所以呢：想让观众「看见」项目怎么长大，先把仓库播成一座城。",
+      "links": [
+        {
+          "label": "在线演示",
+          "url": "https://dat999zx.github.io/chronocity/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49708188"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "procedural-mineral-gems",
+      "category": "视觉尝试",
+      "title": "程序化矿物宝石：刷新就长出新结晶",
+      "body": "刷新页面，桌面上又多出一颗从没见过的矿物——切面、折射、杂质纹理全是程序当场长出来的，不是珠宝库贴图。0x0000007a 的 Show HN 把交互式宝石生成器放进浏览器，还能切亮暗主题，适合当封面机：连刷几颗截静帧，或录「刷新→结晶生长」循环当 ASMR 片头。对比钩子也好拍：同一提示词让绘图模型画宝石，再并排程序结晶，几何感立刻分出高低——一边糊边，一边刀口锋利。金句：珠宝广告片感，却没有一张素材图；程序结晶更适合当反复刷的封面池。\n\n所以呢：要找 AI 画不稳的几何结晶，先刷这座程序化宝石柜。",
+      "links": [
+        {
+          "label": "宝石生成器",
+          "url": "https://gems.0x0000007a.com/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49759144"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "ascii-quake-browser",
+      "category": "视觉尝试",
+      "title": "浏览器里用 ASCII 打 Quake",
+      "body": "WASD 还是熟悉的手感，准星前却是一片字符雨——怪物、走廊、枪火全被压成终端字画。asciiQuake 把经典第一人称射击直接在浏览器里渲成 ASCII 画，不用装客户端，公共演示页可直接开打。demoscene 怀旧和射击手感撞在同一屏：操作是游戏，画面是字，开场五秒观众就懂冲突。拍法：进图→开火→字符溅开→切回正常渲染对比一眼；竖屏无声开场，字幕只写「这是 Quake」。金句：第一人称射击突然变成终端字画，比再录一局高清射击更有梗。\n\n所以呢：想拍「老游戏新眼睛」，先在浏览器里用字符打一局。",
+      "links": [
+        {
+          "label": "在线游玩",
+          "url": "https://asciiquake.wtf/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49536481"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "based64-ascii-image-codec",
+      "category": "视觉尝试",
+      "title": "Based64：ASCII 画本身就是图片编码",
+      "body": "改几个字符，脸上的表情就变了——因为这段字不是「看起来像图」，它就是图。Breck Yunits 的 Based64 把 Base64 和 ASCII 画拧成一体：文本同时预览又编码图像（上限约六十四乘六十四、六十四色），本地转换器吃图/GIF/视频/音频，还支持翻页动画和音频模式，已进 Scroll 一七九以后。和普通 ASCII 艺术相反：不是有损渲染文件，字形网格本身就是编解码器。拍：打开转换器→改两字→脸变形。金句：改字等于改图。\n\n所以呢：想讲编码美学或极简传输，先让观众亲手改几个字符看脸变。",
+      "links": [
+        {
+          "label": "博文与演示",
+          "url": "https://scroll.surf/blog/based64.html"
+        },
+        {
+          "label": "Hacker News 提及",
+          "url": "https://news.ycombinator.com/item?id=49536481"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "turbozip-navier-1kb",
+      "category": "视觉尝试",
+      "title": "1KB 386 演示：流体涡旋跑进 DOS",
+      "body": "一边是流体平滑性论文热搜，一边浏览器 DOSBox 里跑着九百四十六字节的调色板流线、一千零二十二字节的粒子涡旋——Mode 13h VGA，灵感来自 Burgers 一九四八年解，却能在快速 386 上转。juandecos 的 TurboZip 把 Navier–Stokes / Burgers 涡旋压成 demoscene .COM，页面同时给 JS 游乐场和真 DOS 标签；尺寸缩到一 KB 以下还靠 AI 辅助字节回归。同屏对比极具片感：前沿新闻标题切到复古 DOS 涡旋。拍法：热搜截图→切 DOSBox 转涡旋→看字节数。\n\n所以呢：想拍「现代 AI 新闻 × 复古 demoscene」，先让两边涡旋同屏转。",
+      "links": [
+        {
+          "label": "涡旋演示",
+          "url": "https://juandecos.github.io/TurboZip/vortex.html"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49689337"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "loora-agent-design-mcp",
+      "category": "小众工具",
+      "title": "Loora：设计文件给代理改，还带分支合并",
+      "body": "画布开着，旁边 Claude 或 Cursor 经 MCP（让 AI 调外部工具）远程改节点——你还能继续拖拽，互不覆盖。Loora 是无限画布设计工具：页面、组件、设计令牌结构清晰，事务带类型校验、可撤销、冲突感知，分支和历史像 git 管设计。导出 HTML、React/TSX、Tailwind、JSON、PNG（单向），也能把 HTML/CSS 快照收回真节点。没有内置聊天代理，自己带模型；免费档约五十文件、每周一百次代理调用。金句：设计工具终于像 git。\n\n所以呢：AI 设计若总被「再吐一遍 React」打脸，先找能保住节点身份的分支画布。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://loora.design/"
+        },
+        {
+          "label": "MCP 接入",
+          "url": "https://loora.design/mcp"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lassejlv/loora"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "ghost-canvas-ai-designer",
+      "category": "小众工具",
+      "title": "GhostCanvas：Claude 当设计师，人只负责盯屏",
+      "body": "角色对调：代理握笔在活画布上设计，人打开只读浏览器预览（本机四八〇〇端口）盯着长出来。ddalcu 的 GhostCanvas 只暴露三十八个 MCP 工具，禁止任意执行代码；WebSocket 增量实时刷预览，项目史用 git 托底，还能导出独立 HTML 或结构化规格给编码代理。约二十一星，早期但立意清楚——别再指望生成代码「看起来对」，先像真工作流那样从设计起手。拍：开预览→看节点生长→导出规格丢给编码代理。金句：人变成甲方盯屏。\n\n所以呢：想讲「AI 设计员工 vs 聊天出图」，先让代理握笔、人只盯屏。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ddalcu/ghost-canvas"
+        },
+        {
+          "label": "相关 agent-orcha",
+          "url": "https://github.com/ddalcu/agent-orcha"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "sand-react-component-mcp",
+      "category": "小众工具",
+      "title": "Sand：画布上跑的是真 React 组件",
+      "body": "Figma 画的是样子，Sand 画布上拖的是你库里的按钮——代理摆完就是可上线组件。kno-raziel 的 Sand 是 AI 原生设计编辑器：节点是真 React 组件（自带 daisyUI 适配，也可自带库），经十三项 MCP 标准输入输出工具管文档状态、批量操作、WebSocket 截图、布局快照、令牌变量、指南和评论。单体仓库拆成核心 Zod 模式、MCP 服务、适配器和 xyflow 编辑器。和「先出图再还原」路线正相反。拍：拖组件→代理批改→导出即代码。金句：所见即所建。\n\n所以呢：组件驱动团队若恨设计稿还原，先让画布直接跑真组件。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kno-raziel/sand-canvas"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "m0saic-video-compiler",
+      "category": "小众工具",
+      "title": "M0saic：视频编译器，不是剪辑器",
+      "body": "剪辑软件讲时间线，它讲「编译」——一段布局字符串加数据进去，CLI、网页或桌面吐出同一串 MP4/PNG 字节。m0 的 M0saic 用自研布局语言：N()/N[] 分割、F 瓦片、叠加层，不写像素坐标；模板把 JSON 属性映射成几何，再交给 ffmpeg 执行确定性渲染计划，同一输入永远同一字节，适合 CI。明确不是剪辑器，模板库还能给编码代理审。免费带二维码水印，十五美元一月去水印。拍：写布局串→跑一遍→改数据再跑帧不变。\n\n所以呢：自动化封面或讲解片若要可复现，先用编译器出片而不是手拖时间线。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://m0saic.io"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49786497"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "brayer-local-mockups",
+      "category": "小众工具",
+      "title": "Brayer：浏览器本地做产品样机图",
+      "body": "截图拖进浏览器框、macOS 窗口、iPhone、安卓、平板或 MacBook 场景，当场出发布图——素材不出本机，也不排队生成。Brayer 的 Studio 在浏览器里做产品样机：三维渲染的 MacBook / 安卓 / 倾斜浏览器场景，分层画布，可导出例如二千四百乘一千八百尺寸；界面偏桌面，手机页会提醒换电脑。和「再提示词生成一张假手机」比，可控得多。拍：丢 App 截图→套 3D 本框→导出落地页英雄图。金句：不上传、不排队，截图直接进设备框。\n\n所以呢：做 App 发布图或落地页时，先把真截图塞进本地样机框。",
+      "links": [
+        {
+          "label": "Studio",
+          "url": "https://usebrayer.com/studio"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49802013"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
+    {
+      "id": "lightdrift-licensed-images",
+      "category": "小众工具",
+      "title": "Lightdrift：给代理可商用的图搜 MCP",
+      "body": "代理做幻灯片最怕「图很好但没授权」。Lightdrift 经 API 和 MCP 给 AI 代理搜图，索引、维护都替你扛，宣称约一百八十五万张图，每条结果带许可证、出处和署名（CC BY、公有领域等）。起手有给编码代理的接入提示词，场景覆盖幻灯片、助手、建站、生成接地、情绪板；按用量计费，免费账号不用绑卡就能试。解决的是合规，不是审美——审美代理自己挑，授权条它必须看见。拍：让代理搜一张可商用背景→展开许可证字段→贴进幻灯片。金句：搜索结果自带授权条。\n\n所以呢：代理出片若总卡在版权灰区，先接带许可证的图搜。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://lightdrift.ai"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49806244"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-24T14:30:00+08:00"
+    },
     {
       "id": "openai-medicare-agent-breach",
       "category": "硬科技",
