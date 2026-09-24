@@ -1,5 +1,380 @@
 [
   {
+    "id": "nl-noordholland-74-deepfake-amalia",
+    "category": "痛点",
+    "title": "荷兰74岁退休老头：一人深伪六十名女星政客，公主阿玛莉亚也在名单里",
+    "body": "北荷兰一名七十四岁退休老头，收到检方通知：你要上庭了。九月二十日前后，荷兰公诉机关宣布，经一年多调查，将起诉他制作并传播约六十名知名荷兰女性的色情深度伪造视频。名单里有公主阿玛莉亚、节目主持人 Hélène Hendriks、前警方发言人 Ellie Lust，还有乌得勒支市长 Sharon Dijksma——检方说，他把她们的脸换到色情表演者身上，发到一度月访约一千三百万的加拿大站 MrDeepFakes。\n\n检方称他是荷兰境内迄今最活跃的用户，举报里绝大部分非法视频与他有关；目前已告知本人，尚未羁押。若传播罪名成立，最高可判两年。网站创办人在加拿大未被起诉——当地法律未必认这违法——站点先被屏蔽后下线。\n\n所以呢：作案者不是黑客团伙，是养老金年龄的老头——深伪把「数字性侵」门槛降到退休生活，公主、女主播、女市长第一次同框进同一案卷。",
+    "links": [
+      {
+        "label": "Welingelichte Kringen",
+        "url": "https://www.welingelichtekringen.nl/beroemd-2/om-vervolgt-74-jarige-om-deepfake-seksvideos-van-amalia-en-tientallen-andere-bekende-vrouwen"
+      },
+      {
+        "label": "NOS",
+        "url": "https://nos.nl/artikel/2631746-om-gaat-74-jarige-man-vervolgen-voor-maken-deepfakeporno-van-bn-ers"
+      },
+      {
+        "label": "Headlines24",
+        "url": "https://www.headlines24.nl/nieuwsartikel/8919814/202609/gepensioneerde-man-(74)-wordt-vervolgd-voor-maken-deepfake-seksvideo%E2%80%99s-van-zestig-bn%E2%80%99ers"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-20",
+    "added": "2026-09-24T18:40:00+08:00"
+  },
+  {
+    "id": "ohio-strahler-take-it-down-15y",
+    "category": "痛点",
+    "title": "哥伦布男人装24个AI：假色情勒索前女友母亲，全美首例Take It Down Act判十五年",
+    "body": "哥伦布联邦法庭上，法官 Sarah Morrison 落槌：一百八十个月。九月八日，三十七岁的 James Strahler II 因网络跟踪、制作淫秽儿童性描写，以及按二零二五年 Take It Down Act（美国联邦禁止AI裸照勒索法）发布数字伪造，被判十五年——司法部称这是该法全美首例定罪。\n\n手机里装着二十四个以上 AI 平台和上百个网页模型。他对至少六名成年女性发送真实与 AI 裸照，把一名受害者与其父亲的假色情合成发给同事，还向受害者母亲实施勒索；另把社区男童面孔合成进性内容，向儿童色情站上传逾七百张，设备上又检出两千四百多张。四月他已认罪；检方把本案写成对该法的「示警一枪」。\n\n所以呢：新法第一次真正落锤，不是象征性罚金，是十五年——创作者可以说，联邦已经开始用刑期给深度伪造定价。",
+    "links": [
+      {
+        "label": "Meigs Independent Press / DOJ",
+        "url": "https://meigsindypress.com/2026/09/09/columbus-man-sentenced-to-15-years-for-cyberstalking-creating-ai-generated-obscene-material/"
+      },
+      {
+        "label": "Highland County Press (DOJ PR)",
+        "url": "https://highlandcountypress.com/headlines/columbus-man-sentenced-15-years-prison-cyberstalking-exes-creating-ai-generated-obscene"
+      },
+      {
+        "label": "WLWT",
+        "url": "https://www.wlwt.com/article/ohio-man-first-in-nation-convicted-ai-deepfakes-law-sentenced/73645490"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-08",
+    "added": "2026-09-24T18:41:00+08:00"
+  },
+  {
+    "id": "mn-xai-nudify-pi-denied",
+    "category": "痛点",
+    "title": "明尼苏达法官驳回xAI禁令：「脱衣」法继续生效，马斯克再打第八巡回上诉",
+    "body": "明尼苏达联邦法官 Donovan Frank 的裁定桌上，xAI 的紧急禁令申请被划掉。九月四日，他驳回马斯克旗下 xAI 对州「反脱衣」法 H.F. 1606 的初步禁令请求——该法八月一日生效，每次违规最高可罚五十万美元民事金；州检察长 Keith Ellison 力主保住它。\n\n法官写：公司拖了近三个月才来求禁，没证明不可挽回损害，而制止非自愿亲密 AI 图像符合公共利益；宪法争议留到以后审。xAI 已在明尼苏达地理封锁相关工具，九月中旬又向第八巡回上诉法院申请上诉期间禁令。裁定还点到多起 Grok Imagine 涉儿童色情诉讼，以及 SpaceX 上市文件里对「Spicy / Unhinged」模式的风险披露。\n\n所以呢：州法第一次在联邦法院扛住 xAI 的紧急叫停——不是赢了宪法战，是法官说你拖太久、伤害站不住；监管赛跑里，州先赢一局。",
+    "links": [
+      {
+        "label": "Courthouse News order PDF",
+        "url": "https://www.courthousenews.com/wp-content/uploads/2026/09/Judge-denies-xAIs-preliminary-injunction-against-Minnesotas-ban.pdf"
+      },
+      {
+        "label": "Inside AI (8th Cir ask)",
+        "url": "https://insideai.news/news/ai-policy-and-regulation/xai-minnesota-ai-nudification-law/11848/"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/litigation/musks-xai-fails-to-block-minnesotas-ai-nudification-law"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-04",
+    "added": "2026-09-24T18:42:00+08:00"
+  },
+  {
+    "id": "chatham-nc-eco-tip-moratorium-bypass",
+    "category": "痛点",
+    "title": "北卡法官拆掉一年机房冻结：开发商说县府冻结是为了专门卡我这一家",
+    "body": "北卡 Chatham 县 Moncure，数据中心工地上的开发商终于松了口气。九月十八日，高等法院法官 John Morris 对 Eco TIP West 作出简易判决：尽管县府二零二六年二月起设了一年机房冻结，项目仍可继续推进。\n\n公司说已砸约一千一百万美元，按重工区「当然用途」早有既得权利，官员从二零二五年十月就知情；还指控冻结条例是仓促专门卡这一家。县府辩称没有既得权利、冻结合法；法院站开发商一边，损害赔偿与律师费另议。州内约三十个地方政府都做过类似暂停——这份裁定成了拆冻结的模板。\n\n所以呢：居民用冻结挡机房，法院用「既得权利」拆掉冻结——讲机房战时不能只写抗议，也要写开发商怎么打赢这一局。",
+    "links": [
+      {
+        "label": "Carolina Journal",
+        "url": "https://www.carolinajournal.com/judge-allows-chatham-data-center-to-proceed-despite-moratorium/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-18",
+    "added": "2026-09-24T18:43:00+08:00"
+  },
+  {
+    "id": "lausd-ai-device-ban-surprise",
+    "category": "痛点",
+    "title": "洛杉矶统一学区临时会：灯光一关，三十七万学生平板上的ChatGPT全被挡",
+    "body": "洛杉矶统一学区会议室里，新成立的 AI 委员会刚开会，委员脸上的表情被记者写进了稿。九月二日至三日，学区披露：过滤系统已在学区 Chromebook 和平板上屏蔽全部生成式 AI 网站与应用——在场委员和家长事先不知道。\n\n这牵涉约三十七万八千名学生；私人手机平板不受同等限制，除非登录学区账号。此前政策允许十三岁以上在上完数字公民课后、有人监督地使用；六月屏幕时间新规只建了委员会，并未要求立刻暂停。同一天纽约市也宣布大范围学生生成式 AI 冻结——全美最大的两所学区同日踩刹车。\n\n所以呢：不是议会表决，是 IT 过滤先落地——「惊喜式禁令」本身就是素材：工具关不关，有时委员是最后一个知道的人。",
+    "links": [
+      {
+        "label": "LAist",
+        "url": "https://laist.com/news/education/lausd-students-barred-artificial-intelligence-tools"
+      },
+      {
+        "label": "LA Times",
+        "url": "https://www.latimes.com/california/story/2026-09-02/lausd-student-ai-ban-policy"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-02",
+    "added": "2026-09-24T18:44:00+08:00"
+  },
+  {
+    "id": "tesla-mendoza-autopilot-settle",
+    "category": "痛点",
+    "title": "特斯拉凌晨七十迈撞上停路消防车：和解撤案，免得陪审团听马斯克怎么吹自动驾驶",
+    "body": "加州 I-680 凌晨，一辆开着 Autopilot 的二零一四款 Model S 以约七十英里时速撞上停在路上的消防车。司机 Genesis Mendoza Martinez 身亡，弟弟 Caleb 受伤。九月二日报道：特斯拉就这起二零二三年二月十八日致死案达成保密和解，撤掉即将开审的错致死诉。\n\n法官 Vince Chhabria 此前已放行欺诈性虚假陈述主张：他说「Autopilot」这个名字可能误导，马斯克「大概比人类司机更好」之类言论有可诉性；原定十月二十六日开庭。和解让马斯克的自动驾驶营销话术不必再摆到陪审团面前，金额未公开——这和佛州两亿四千三百万美元判决之后、特斯拉频频庭前和解的节奏一致。\n\n所以呢：真正的痛点不是又一起车祸，是公司花钱买掉陪审团——产品叫 Autopilot，却怕陪审团听 CEO 原话，叙事是不是已经破产？",
+    "links": [
+      {
+        "label": "Electrek",
+        "url": "https://electrek.co/2026/09/02/tesla-settles-autopilot-fire-truck-death-lawsuit/"
+      },
+      {
+        "label": "Hoodline",
+        "url": "https://hoodline.com/2026/09/tesla-settles-contra-costa-autopilot-death-suit-days-before-trial-date/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-02",
+    "added": "2026-09-24T18:45:00+08:00"
+  },
+  {
+    "id": "meta-nametag-instagram-bipa",
+    "category": "痛点",
+    "title": "伊利诺伊家长告Meta：Instagram照片被扫成脸纹，给未上线的智能眼镜NameTag练兵",
+    "body": "伊利诺伊家长翻旧相册时，律师告诉他们：这些 Instagram、Facebook 自拍，可能已经被扫成脸的几何纹路。九月十八日前后报道显示，四名原告（含两名未成年人）在北伊利诺伊联邦法院提起集体诉讼，指控 Meta 在未按 BIPA（伊利诺伊生物识别隐私法）取得同意的情况下，把脸纹用于尚未上线的智能眼镜人脸识别功能 NameTag，以及生成式图像模型 Emu、Muse。\n\nWIRED 早前在数千万部手机的 Meta AI 伴侣应用里发现休眠的 NameTag 代码；Meta 称功能未发布，报道后拆掉主要组件。诉状核心：普通照片不等于生物识别，但脸部几何扫描算；诉求覆盖伊利诺伊、加州及全国集体。Meta 二零二一年关过大规模脸书人脸识别，还向德州付过十四亿美元生物识别和解——历史被当背景，不是定责证明。\n\n所以呢：十年前发的自拍，可能正在训练一副能在街上认人的眼镜——旧相册变成新硬件的人脸库，这是创作者能一口说清的隐私账。",
+    "links": [
+      {
+        "label": "Stack Chronicle",
+        "url": "https://www.stackchronicle.com/2026/09/18/meta-instagram-photos-nametag-facial-recognition-lawsuit/"
+      },
+      {
+        "label": "RECAP complaint",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.507320/gov.uscourts.ilnd.507320.1.0.pdf"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-18",
+    "added": "2026-09-24T18:46:00+08:00"
+  },
+  {
+    "id": "frederick-gemini-chromebook-cheat",
+    "category": "痛点",
+    "title": "马里兰学区委员怒了：谷歌Gemini塞进Chromebook关不掉，老师说「每点一下都在催作弊」",
+    "body": "马里兰 Frederick 县教育委员会听证会上，Urbana 高中教师 Aubrey Lynch 站起来说：Gemini 嵌进 Docs 和幻灯片，老师关不掉——「如果控制不了，它就不是工具」。九月二十二日本地报回看：中学高中 Chromebook 在教师许可下启用了谷歌 Gemini，其他 AI 被挡；多名委员公开要求先关掉，等正式 AI 政策通过——州截止日期十月二十二日。\n\n委员 Colt Black 说，成人居然敢以为学生会用 Gemini 干别的，而不是作弊；扬言干脆丢掉 Chromebook。学区辩称 Gemini 是唯一满足马里兰安全与隐私标准的工具，默认「假定不用 AI」，除非教师主动打开；学生委员调查显示多数人反对课堂 AI。\n\n所以呢：场景比抽象禁令更适合短视频——工具一旦嵌进交作业的软件，就不再是可选插件，而是关不掉的作弊催促。",
+    "links": [
+      {
+        "label": "GovTech / Frederick News-Post",
+        "url": "https://www.govtech.com/education/k-12/frederick-county-school-board-questions-google-gemini-on-student-devices"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-24T18:47:00+08:00"
+  },
+  {
+    "id": "pitpro-kaltire-calgary",
+    "category": "跨行业",
+    "title": "卡尔加里轮胎店：两台烤箱大小的机器人十五分钟换完四条胎",
+    "body": "卡尔加里一家 Kal Tire 店里，两台烤箱大小的龙门机器人同时对着四个轮位拧螺丝、扒胎——十五分钟内，三吨以下小车四条胎全换完，还是原来那个工位，没挖地基。九月二十三日，加拿大 PitPro Automation 宣布：这套自动换胎系统在卡尔加里门店进入量产使用，从试点变成日常开单。\n\nKal Tire 在加拿大有两百八十多家店、约七千名员工；入冬换雪胎是高峰，更多门店已排到二〇二六年秋天安装。公司高管说，机器人是给技工加力，不是替人——累活、招人难的活先交给机器。\n\n所以呢：换胎这种最脏最累的店面活，第一次在加拿大连锁店里交给机器人——冬天雪胎潮，比实验室更适合拍给普通人看。",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/23/pitpros-first-tire-changing-robot-goes-live-in-canada/"
+      },
+      {
+        "label": "Business Wire via Financial Post",
+        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/pitpro-automation-announces-first-production-deployment-of-its-automated-tire-changing-system-at-kal-tire-in-calgary"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-24T18:20:00+08:00"
+  },
+  {
+    "id": "deep-robotics-haining-leather",
+    "category": "跨行业",
+    "title": "海宁皮革城夜巡：机器狗打着探照灯闻烟味、找明火",
+    "body": "浙江海宁皮革城夜里，几只机器狗打着探照灯在廊道走，鼻子对着空气闻烟味、镜头扫明火——一百三十万平方米、六千多家商户的皮货城，高峰日进六万人，安保摸不到的死角交给它们。九月二十三日，云深处 DEEP Robotics 宣布，巡逻与消防机器狗已在这里上岗。\n\n狗身上挂激光雷达、摄像头和五G，把画面和传感器警报推到控制室与消防台；夜间用探照灯加双光谱云台，烟雾明火识别从约一米拉到三到五米。多气体传感器闻到违规抽烟会当场喊话，巡逻约三小时自动回充。\n\n所以呢：不是实验室秀场，是皮货城半夜用机器狗当「不眠眼睛」——零售安保从人扛手电，变成机器闻烟。",
+    "links": [
+      {
+        "label": "ACCESS Newswire / FinancialContent",
+        "url": "https://www.financialcontent.com/article/accwirecq-2026-9-23-new-sentinels-on-patrol-deep-robotics-robot-dogs-deployed-at-haining-leather-city"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-24T18:21:00+08:00"
+  },
+  {
+    "id": "robotcom-grubhub-campuses",
+    "category": "跨行业",
+    "title": "美国校园食堂：Robot.com再加十校，南印大已送出两万五千单",
+    "body": "美国校园里，学生还是在 Grubhub 点餐，门口来接单的是轮子——Robot.com 的送餐机器人。九月二十三日双方宣布：再签三年，二零二六到二七学年再加十所高校；全国已上线的校园点超二十处。\n\n南印第安纳大学那一队已送出两万五千单；洛杉矶洛约拉马利蒙特大学一季度订单约涨七成、活跃用户约涨三成。公司称整体有五百多台机器人、二百五十万次任务，覆盖美加与中东；扩展还带上机器人车身广告，调度仍走自家 REMI 平台。十所新校名单暂未公布。\n\n所以呢：校园机器人外卖从「好玩」变成续约三年的基础设施——学生不用下新App，送餐的却换成了轮子。",
+    "links": [
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/robotcom-and-grubhub-expand-autonomous-delivery-to-10-new-campuses-302886798.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-24T18:22:00+08:00"
+  },
+  {
+    "id": "jevons-boddington-artev1000",
+    "category": "跨行业",
+    "title": "西澳博丁顿金矿：无人车替人往高帮炮眼里塞炸药",
+    "body": "西澳 Newmont 博丁顿露天金矿的高帮边上，一吨重的电池无人车自己找炮眼、对齐、把预裂炸药包塞进去并卡住——人待在远处控制室，不再爬到崖边手工装填。九月二十三日，澳大利亚 Jevons Robotics 发布电池电动 ARTEV1000 预裂系统，博丁顿是全球首个部署点。\n\n同一底盘还能换上自动测孔、爆破孔质检模块，让一台车覆盖更多凿岩爆破工序。公司客户名单里还有 Dyno Nobel、Orica 等爆破药企；目标写得很直：把人从高帮和手工接触炸药里撤出来，而不是再加一台柴油车。\n\n所以呢：矿上最危险的「往崖边塞炸药」第一次交给电池无人车——比无人矿卡更刺眼，因为活本身就是要命的。",
+    "links": [
+      {
+        "label": "International Mining",
+        "url": "https://im-mining.com/2026/09/23/jevons-robotics-launches-battery-electric-artev1000-pre-split-system/"
+      },
+      {
+        "label": "Global Mining Review",
+        "url": "https://www.globalminingreview.com/mining/23092026/jevons-robotics-launches-artev1000-pre-split-system/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-24T18:23:00+08:00"
+  },
+  {
+    "id": "cimcorp-penske-illinois-bakery",
+    "category": "跨行业",
+    "title": "伊利诺伊面包仓：机械臂替人去够两米高面包托盘",
+    "body": "伊利诺伊一家 Penske Logistics 面包配送中心里，龙门式 MultiPick 机械臂伸向两米多高的面包托盘——以前靠人卸车、码垛、拣货，现在连仓库控制系统一起上线，托盘级订单自称全对。九月二十二日前后，芬兰 Cimcorp 与 WorldBakers 报道称这套烘焙履约自动化已投产。\n\n公司称人力需求约砍一半，店面补货更快，新鲜面包保质期也能拉长。Cimcorp 此前做过 Martin's、Kwik Trip、Fazer 等面包仓；Penske 副总裁 Steve Chambers 强调的是安全和吞吐，不是炫技。具体城市和机械臂台数未公布。\n\n所以呢：面包仓最伤腰的「够两米高托盘」交给龙门机械臂——普通人听得懂的物流自动化，比「智慧供应链」口号好讲。",
+    "links": [
+      {
+        "label": "Cimcorp",
+        "url": "https://cimcorp.com/customers/penske-logistics-and-cimcorp-set-a-new-standard-in-bakery-supply-chain-efficiency/"
+      },
+      {
+        "label": "WorldBakers",
+        "url": "https://www.worldbakers.com/process/cimcorps-bakery-automation-solution-goes-live-at-penske-logistics/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-24T18:24:00+08:00"
+  },
+  {
+    "id": "zipline-cote-divoire-10-hubs",
+    "category": "跨行业",
+    "title": "科特迪瓦卫生部拍板：无人机药站从一座扩到十座，覆盖一千二百万人",
+    "body": "科特迪瓦卫生部把八年公私合作合同签下来：无人机医药物流从达洛亚一座配送中心，扩到全国十座枢纽。九月二十一日 Zipline 在阿比让宣布；满建后预计覆盖两千二百多家卫生机构、一千两百万人以上。\n\n美国国务院一亿五千万美元按效付费奖支撑基建，科特迪瓦付日常运营。自二〇二三年达洛亚开站以来，已向五个大区两百二十多家机构送出逾三百五十五万件医疗物资——约两百万剂疫苗、两万零五百单位血液，公司称相当于救回约两千零五十八条生命。每座枢纽把仓储、冷链、库存、无人配送和数字追踪捆在一起。\n\n所以呢：不是又一家「要上无人机」的新闻，是国家卫生部签了八年合同把救命药网铺满——非洲医疗物流，先于电商物流规模化。",
+    "links": [
+      {
+        "label": "Zipline",
+        "url": "https://www.zipline.com/newsroom/cote-d-ivoire-and-zipline-to-expand-ai-powered-health-logistics-infrastructure-to-10-distribution-hubs-reaching-12-million-people"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-21",
+    "added": "2026-09-24T18:25:00+08:00"
+  },
+  {
+    "id": "tld-robotics-airport-gse",
+    "category": "跨行业",
+    "title": "慕尼黑成田行李车：EasyMile并进TLD，无人地勤站到五万次任务之后",
+    "body": "慕尼黑机场、成田机场的行李拖车自己在停机坪跑——GSE（地面保障设备）不用司机。九月十八日，ALVEST 集团把 EasyMile、TractEasy 和 TLD 无人地勤收成一个品牌 TLD Robotics，CEO 是 Richard Reno。\n\n公司称十个国家三十五处运营、累计逾五万次自主任务，不少现场二十四小时跑，车队自称每年翻三倍。点名客户还有汉莎货运、Dnata，以及宝马丁戈芬、戴姆勒卡车、博世、约翰迪尔等厂区。卖点是车、车载软件、XOPS 车队监管加 TLD 十二家工厂制造捆在一起卖——本质是并购换牌，不是新开一座机场。\n\n所以呢：机场行李拖车无人化从合资品牌收成一家——地勤缺人时，先动的是拖行李的车，不是客舱。",
+    "links": [
+      {
+        "label": "Robotics 24/7",
+        "url": "https://www.robotics247.com/article/tld-robotics-launches-as-alvest-group-acquires-easymile-and-tracteasy"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-18",
+    "added": "2026-09-24T18:26:00+08:00"
+  },
+  {
+    "id": "sentry-ai-solarguard-100",
+    "category": "跨行业",
+    "title": "美国工地门口：第一百台太阳能安防拖车自己盯铜线小偷",
+    "body": "美国某工地门口又立起一台不接电的太阳能安防拖车——摄像头加云端 AI，二十四小时盯铜线、电缆和工具有没有人偷。九月十七日，桑尼维尔公司 Sentry AI 宣布第第一百台 SolarGuard 已部署上工地。\n\n警报先过远程坐席核实，必要时再叫警察；公司称每个点每周约四起可疑事件被实时处理，客户董事说成本大约是传统驻场保安的五分之一。Sentry AI 第十一版软件与 SolarGuard 已向新建与存量工地客户开放，主打防盗和防破坏。第一百台具体地址未公布。\n\n所以呢：工地不接电也能架一台会报警的太阳能拖车——铜线小偷逼出来的安防 AI，比「智慧城市」更落地。",
+    "links": [
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/sentry-ai-deploys-100th-solarguard-mobile-security-unit-stopping-theft-at-construction-sites-302882353.html"
+      },
+      {
+        "label": "Security Today",
+        "url": "https://securitytoday.com/articles/2026/09/21/sentry-ai-deploys-100th-solarguard-security-unit.aspx"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-17",
+    "added": "2026-09-24T18:27:00+08:00"
+  },
+  {
+    "id": "zoomlion-factory-humanoids",
+    "category": "跨行业",
+    "title": "中联重科自家厂：几十台人形在绑线束、装反光镜",
+    "body": "中联重科智能工厂的产线上，几十台自家造的人形机器人在干活：双足 Z01 用模仿学习整理乱放零件、绑线束；轮式 Z03 做精密预装，比如给工业设备装反光镜。九月十六日公司发稿，称分拣、线束、预装、精装、巡检、巡逻都已上岗。\n\n背后是三百多条智能产线、两千多台工业机器人，现场数据再喂回模型。新闻还配了世界人形机器人运动会的跳高百米跳远表演当压力测试——真正落点仍是自家厂，具体城市和台数只写「几十台」。\n\n所以呢：工程机械巨头先让人形在自家产线绑线束——不是秀跳高，是把产线数据喂回算法；创作者可对比「只比运动会」的空壳稿。",
+    "links": [
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/zoomlions-full-stack-humanoid-robots-compete-at-world-humanoid-robot-games-302880073.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-24T18:28:00+08:00"
+  },
+  {
+    "id": "pony-verne-zagreb-driverless",
+    "category": "跨行业",
+    "title": "萨格勒布机场线：欧洲第一次乘客坐无人出租车，驾驶座空着",
+    "body": "克罗地亚萨格勒布，受邀乘客坐进一辆驾驶座空着的出租车——二十二公里公共道路，从 Verne 总部、主商务区开到 Franjo Tuđman 机场，车上没有安全员，远程只监控不握方向盘。九月十日，Rimac 旗下 Verne 与小马智行 Pony.ai 称这是欧洲首次「空舱」载客路试。\n\n四月起带车上操作员的商业 Robotaxi 已跑逾二十万自动驾驶公里、数千单付费、评分四点七、覆盖逾一百平方公里。内饰改过：副驾座位拆掉，腾给行李和屏幕；Uber 是平台合作方。仍是受邀测试加原型许可，还没对公众全面开放真无人服务。\n\n所以呢：欧洲商业 Robotaxi 开了五个月，现在才敢让乘客坐进「驾驶座没人」的车——真无人比「有安全员」难一个数量级。",
+    "links": [
+      {
+        "label": "Verne",
+        "url": "https://www.letsverne.com/news-grid/verne-and-pony.ai-begin-fully-driverless-test-rides-with-passengers-on-public-roads-in-zagreb"
+      },
+      {
+        "label": "PR Newswire APAC",
+        "url": "https://www.prnewswire.com/apac/news-releases/ponyai-and-verne-kick-off-fully-driverless-robotaxi-test-rides-in-zagreb-302874877.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-10",
+    "added": "2026-09-24T18:29:00+08:00"
+  },
+  {
+    "id": "neolix-tokyo-trc-l4",
+    "category": "跨行业",
+    "title": "东京流通中心楼顶：新石器三辆无人面包车开始日本L4路试",
+    "body": "东京平和岛流通中心屋顶车道上，三辆新石器 Xolra 无人面包车开始跑——日本第一次做 L4（高度自动驾驶）封闭场验证，八月三十一日到货，九月十日正式开测。先测停车区和 A 栋配送楼屋顶路，计划十辆分批到齐。\n\n车型混装：Xolra 3 载三点立方米、五百二十公斤；Xolra 6 载六立方米、约一吨。公司称轻地图自动驾驶可把建图成本砍到约一成；TRC 日进逾一万辆卡车、二十四小时运转。新石器自称全球约两万七千台、三百二十多城、十五国、逾两亿三千万自动驾驶公里——东京这一站考的是左舵、楼内坡道和屋顶路。\n\n所以呢：日本左舵、楼内坡道、屋顶路——新石器拿东京流通中心当考场，跨境无人配送比「中国跑通」难在本地化。",
+    "links": [
+      {
+        "label": "PR Newswire",
+        "url": "https://www.prnewswire.com/apac/news-releases/neolix-worlds-leading-autonomous-delivery-fleet-operator-begins-first-l4-testing-in-tokyo-302875210.html"
+      },
+      {
+        "label": "LNEWS",
+        "url": "https://en.lnews.jp/2026/09/s0914604.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-10",
+    "added": "2026-09-24T18:30:00+08:00"
+  },
+  {
+    "id": "chambishi-nfca-autonomous-loco",
+    "category": "跨行业",
+    "title": "赞比亚谦比希铜矿五百米井下：非洲首套无人电机车正式验收",
+    "body": "赞比亚谦比希铜矿主矿体与西矿体五百米中段，两列无人电机车在井下对开：每列两台电机车加十节矿车，远程装矿、自动卸矿——人不用跟车下井跑运矿。八月二十日验收，九月一日中国有色非洲矿业 NFCA 宣布：非洲首套井下无人电机车运矿项目进入日常运行。\n\n七月起已双列常规跑；相对传统方式，公司称作业效率约高两成五、运矿人员约少一半。地面数字中控管无线、调度、防护和供电；改造自二〇二五年十月在边生产边改的前提下重启，十一个月完工。\n\n所以呢：非洲井下第一次把运矿电机车交给无人系统——铜矿五百米深处，人少下井比「智能矿山」口号更硬。",
+    "links": [
+      {
+        "label": "NFCA / CNMC",
+        "url": "https://nfca.cnmc.com.cn/ysen/NewsCenter%20%20/CNMCNews/2026/9/I1544283966264049664.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-01",
+    "added": "2026-09-24T18:31:00+08:00"
+  },
+  {
+    "id": "robotera-sf-chinapost-hubs",
+    "category": "跨行业",
+    "title": "顺丰邮政分拣线：千台级人形站传送带旁，一小时一千二百件",
+    "body": "中国南北东十多个顺丰与中国邮政分拣中心，传送带旁站着星动纪元 Robotera 人形：双足 L7 从移动皮带抓件投进目的口，固定式上半身 M7 一小时最多处理一千二百件包裹。The Robotics Media 九月二十日更新稿称已在真实产线分拣；二季度出货到千台级，营收环比自称涨超三倍，部分中心效率约达人的八成五。\n\n背后是顺丰集团领投逾二十亿元人民币（约两亿八千万美元）——客户又是股东。主文七月五日首发，九月只是刷新；具体枢纽名未列全。\n\n所以呢：快递巨头又当客户又当股东，把人形塞进分拣线——中国物流人形不是秀场，是传送带旁的计件工。",
+    "links": [
+      {
+        "label": "The Robotics Media",
+        "url": "https://theroboticsmedia.com/article/robotera-china-post-sf-group-humanoid-logistics-deployment"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-20",
+    "added": "2026-09-24T18:32:00+08:00"
+  },
+  {
     "id": "prompt-seedance-cinema-creature-breakout",
     "category": "提示词",
     "title": "影院巨兽破屏：手机被吼到摔黑",
