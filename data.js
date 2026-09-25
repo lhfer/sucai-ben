@@ -1,6 +1,516 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-25T10:10:44+08:00",
+  "updated": "2026-09-25T14:15:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-mentos-cola-rocket",
+      "category": "提示词",
+      "title": "公路人肉曼妥思火箭",
+      "body": "有人坐在副驾一路拍，把可乐喷泉当成了发射台。雨天高速上，一辆红色可乐罐车侧壁撕开，深棕色汽水正往外喷，旁边停着满载曼妥思的厢式货车。镜头全程锁在车里，透过前挡风玻璃往前拍，故意留下手抖、对焦乱跑和玻璃上的雨点。男人从右侧走进可乐湖，先把空桶怼进喷口灌到起泡溢出，再仰头猛灌，最后拉开货车后门把整箱薄荷糖倒进汽水。泡沫瞬间炸成巨型喷泉，人被顶飞，越飞越小，消失在地平线。提示词把「空桶变满」「糖先碰汽水再反应」「一镜到底不许切」写死了。所以呢：你要的不是炫技分镜，是把中学化学实验拍成公路灾难片。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/shushant_l/status/2103363936028602773"
+        }
+      ],
+      "prompt": "[FORMAT + CAMERA]\n\n25-second vertical 9:16 ultra-photoreal smartphone video. ONE CONTINUOUS UNBROKEN TAKE from first frame to final frame. NO cuts, transitions, montage, fades, or angle changes.\n\nCamera stays INSIDE a moving car from the passenger seat, filming forward through the windshield. Natural handheld breathing shake, windshield edges and A-pillar visible, small slice of dashboard/hood at bottom, occasional finger edge. Rain droplets on glass, autofocus hunting, exposure breathing, rolling shutter, realistic motion blur, compression artifacts and occasional microphone clipping. Digital pinch-zooms ONLY.\n\nOvercast daylight. Wet highway. Realistic consumer-phone footage, not polished cinema footage.\n\n[REFERENCE]\n\n= CHARACTER IDENTITY ONLY.\n\nLock the man's face, hairstyle, skin tone and recognizable facial structure exactly to throughout every visible frame.\n\nDo NOT copy's background, pose, clothing, lighting, framing, or environment.\n\n[SCENE]\n\nAhead on the wet highway is a huge red Coca-Cola tanker with a violently torn hole in its tank. Pressurized dark-brown cola is already blasting sideways from the rupture and spreading across the asphalt into a massive fizzy brown lake.\n\nBeside it sits a Mentos delivery box truck. Its rear doors are CLOSED initially.\n\nThe highway continues beyond both trucks toward a clearly visible distant vanishing point.\n\n[CHARACTER]\n\nONE young South Asian man matching exactly.\n\nSlim-athletic body. Cream open-collar linen shirt with rolled sleeves, thin gold chain, khaki chinos and white low-top sneakers.\n\nHe enters the windshield view FROM THE RIGHT already walking on foot. He NEVER exits any vehicle.\n\nHe carries ONE giant transparent 2-gallon clear plastic soda jug in his RIGHT hand. Wide open mouth, molded handle, cap removed.\n\nJug begins COMPLETELY EMPTY and transparent.\n\n[TIMELINE]\n\n0–3s | ARRIVAL\n\nCar moves toward the tanker and Mentos truck.\n\nCola is already violently blasting from the tanker.\n\nCamera digitally zooms into the pressurized brown stream hitting the wet asphalt.\n\nCar brakes and comes completely to a stop.\n\n3–6s | CHARACTER ENTERS\n\nDigital zoom pulls slightly wider.\n\nThe man enters FROM THE RIGHT already walking, holding the visibly empty transparent jug.\n\nHe steps into the shallow cola lake and approaches the tanker rupture.\n\n6–10s | FILL THE JUG\n\nHe places the jug's wide open mouth directly into the pressurized cola stream.\n\nHold this action clearly.\n\nBrown cola violently spirals inside the transparent jug and visibly rises from EMPTY to FULL.\n\nTan foam erupts over the rim and covers his hand and forearm.\n\nThe jug becomes visibly heavier as it fills. His arm gradually drops under its weight.\n\nHe finally pulls the completely full, dripping jug away.\n\n10–13s | CHUG\n\nHe raises the enormous jug to his mouth and aggressively drinks.\n\nHis throat visibly works through huge gulps.\n\nCola spills down his chin and chest, soaking the cream shirt dark.\n\nHe drinks roughly 80%, lowers the jug and gasps.\n\n13–17s | MENTOS TRUCK\n\nHe quickly moves to the Mentos truck.\n\nHe grabs BOTH rear-door handles and opens both doors ONCE.\n\nReveal floor-to-ceiling pallets filled with Mentos cases, rolls and white mint candies.\n\nHe grabs ONE large case, pulls it to the edge and violently dumps it into the flooded cola.\n\nHundreds of Mentos rolls and loose white mints cascade downward like a waterfall.\n\nDigital zoom punches into the mints hitting the brown cola.\n\n17–20s | MASSIVE ERUPTION\n\nINSTANT reaction.\n\nThousands of visible nucleation points erupt simultaneously.\n\nThe entire cola lake violently transforms into thick white foam.\n\nA gigantic roaring foam column explodes upward DIRECTLY beneath the man.\n\nThe physical force catches his body from below.\n\nHis feet violently leave the asphalt.\n\nThe remaining jug is ripped from his hand.\n\nHe shoots upward like a human Mentos rocket, arms and legs reacting naturally to the acceleration.\n\nCamera jerks upward trying to follow him.\n\n20–23s | HUMAN ROCKET\n\nHe rides the enormous white foam geyser high above the highway and begins traveling downrange toward the horizon.\n\nHe spins ONCE naturally from the force.\n\nFoam violently splashes across the windshield.\n\nCamera remains inside the car.\n\nAutofocus hunts between windshield droplets, foam and the airborne man.\n\nDigital zoom struggles to keep his rapidly shrinking body visible.\n\nHis silhouette must remain recognizably consistent with.\n\n23–25s | DISAPPEAR\n\nCamera pulls slightly wider through the foam-covered windshield.\n\nHe is now a tiny airborne figure flying toward the distant vanishing point with a white spray trail behind him.\n\nDigital zoom punches toward his shrinking silhouette.\n\nHe becomes a tiny speck and completely disappears into the horizon haze.\n\nHold briefly on the EMPTY highway horizon where he vanished.\n\nThe tanker is still spraying cola.\n\nThe Mentos truck doors remain open.\n\nThe enormous foam geyser continues roaring.\n\nFinal tiny digital zoom toward the empty vanishing point.\n\n[AUDIO]\n\nDIEGETIC AUDIO ONLY.\n\nWet road and tire noise during arrival.\n\nEngine and braking sounds.\n\nPressurized cola hiss and splashing.\n\nHeavy gulping and breathing.\n\nMetal truck-door clanks.\n\nMentos packages crashing.\n\nSudden explosive foam eruption.\n\nMassive geyser roar.\n\nDistant Doppler scream as the man rockets away.\n\nRealistic smartphone microphone distortion and clipping during the loudest eruption.\n\nNO music. NO narration. NO dialogue. NO subtitles.\n\n[PHYSICS + CONTINUITY]\n\nPhotoreal live-action physics throughout.\n\nRealistic cola viscosity, carbonation, splashes and transparency.\n\nRealistic foam nucleation and expansion.\n\nReal gravity, momentum, acceleration, body weight and inertia.\n\nJug visibly progresses EMPTY → FILLING → FULL → MOSTLY DRAINED.\n\nHis arm must physically react to the increasing jug weight.\n\nMentos must physically contact the cola BEFORE the reaction begins.\n\nFoam must physically erupt underneath and strike his body BEFORE he launches.\n\nMaintain identical truck positions and continuous highway geography for all 25 seconds.\n\n[STRICT NEGATIVES]\n\nNO cuts.  NO montage.  NO transitions.  NO time jumps.  NO camera teleportation. NO third-person shots. NO drone shots. NO second character. NO duplicate man. NO identity drift. NO extra vehicles. NO character exiting a vehicle. NO duplicated jug. NO duplicated Mentos. NO premature eruption. NO floating before foam impact. NO weightless body physics. NO random explosions. NO fire. NO impossible prop disappearance. NO text overlays or subtitles. NO changing weather. NO changing truck positions.\nEvery major action happens exactly ONCE.\n\ncontrols CHARACTER IDENTITY ONLY.\n\nMaintain's facial identity consistently whenever his face is visible.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-museum-wraith-security",
+      "category": "提示词",
+      "title": "博物馆幽影破柜",
+      "body": "展柜玻璃一裂，幽影就冲进人群。片子开在博物馆大厅：游客还在看外星标本和神话雕像，一块玻璃突然炸开，半透明红眼怪物扑倒第一个人。保安冲进来开枪，它却钻进展柜阴影里玩猫鼠，手电筒只扫到一闪而过的红光。后半段灯找、慢镜对射、怪物化成黑烟，收在对讲机呼叫增援。整段三十秒按秒写死，声音只要碎玻璃、尖叫、枪声和喘息，不要字幕水印。所以呢：要做恐怖短片，先学会用「展柜裂开」这一下抓住前两秒。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/auqibhabib/status/2103363732965556355"
+        }
+      ],
+      "prompt": "Cinematic horror-action short film set in a museum exhibit hall, opens with an immediate strong hook, maximum dynamic camera work, grounded practical-effects style. Museum filled with glass display cases containing various creature exhibits — alien figures, preserved specimens, mythical beings — visitors walking through admiring the displays under dramatic exhibit lighting. Muted authentic color grading, natural diegetic sound throughout, tension score entering immediately.\n>\n> **[0-1s]** Hard cut: one glass display case cracks violently, then shatters outward.\n>\n> **[1-2s]** A shadow-wraith creature emerges — translucent, smoke-like form, clawed limbs, glowing red eyes.\n>\n> **[2-3s]** It lunges at the nearest visitor with unnatural speed, closing the distance instantly.\n>\n> **[3-4s]** He's knocked down hard, collapsing to the floor motionless.\n>\n> **[4-5s]** Nearby visitors scream, scrambling back from the exhibit.\n>\n> **[5-6s]** The creature turns fast, striking down a second visitor just as quickly.\n>\n> **[6-7s]** Panic spreads through the hall, people sprinting toward the exits.\n>\n> **[7-8s]** Two security guards rush in, weapons drawn, scanning the chaos.\n>\n> **[8-9s]** They open fire toward the creature's position, but it moves in an unnatural burst of speed.\n>\n> **[9-10s]** The shots miss entirely, striking a display case behind where it stood.\n>\n> **[10-11s]** The creature vanishes into the shadows between exhibits, gone from sight.\n>\n> **[11-12s]** Wide shot: visitors hide behind pillars and display cases, guards fanning out cautiously.\n>\n> **[12-14s]** More security guards arrive, forming a slow, careful search line through the hall.\n>\n> **[14-16s]** Tracking shot: they move deliberately between exhibits, weapons raised, scanning every shadow.\n>\n> **[16-17s]** A guard's flashlight catches a brief glimpse of red eyes in a dark corner.\n>\n> **[17-18s]** The creature bursts out suddenly, striking down two guards in rapid succession.\n>\n> **[18-19s]** The remaining guards scramble back, regrouping fast near a central display.\n>\n> **[19-20s]** SLOW MOTION insert: the creature turns toward the lead guard, lunging forward.\n>\n> **[20-21s]** He holds his ground, tracking its movement carefully despite the danger.\n>\n> **[21-22s]** He fires a precise, well-aimed shot just as it closes in.\n>\n> **[22-23s]** The shot connects solidly, the creature's form flickering violently.\n>\n> **[23-24s]** It staggers, its translucent body destabilizing rapidly.\n>\n> **[24-25s]** It collapses to the floor, form dissolving into wisps of dark smoke.\n>\n> **[25-27s]** Wide shot: the hall falls silent, guards lowering their weapons slowly, breathing hard.\n>\n> **[27-29s]** They check on the fallen visitors and guards, some beginning to stir, shaken but alive.\n>\n> **[29-30s]** Final shot: the lead guard stands over the dissolved remains, radio crackling as backup arrives.\n\n>Natural diegetic sound throughout — glass shattering, screaming, gunfire, radio chatter, heavy breathing — layered with a tense instrumental score building through the search and easing into relief at the end. No text overlay, no watermark. Maximum dynamic camera variety — low angles, wide shots, tracking shots, slow motion reserved for the final takedown. Realistic shake only during physical impacts, dramatic museum exhibit lighting throughout.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:31:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-zombie-dog-memory",
+      "category": "提示词",
+      "title": "感染狗与麦田回忆",
+      "body": "她怕的不是怪物，是亲手放弃那只狗。废弃农舍厨房里，韩国女幸存者跪在地上，头发乱、额角有干血，对面是毛发打结、眼睛发白的感染狗。她伸手要抱，狗却扑上来咬住手臂。画面硬切到麦田日落：同一人同一狗在金色草地奔跑、捡球、并肩坐下。现在又冷又脏，回忆又暖又亮，中间不靠台词，靠对比本身。所以呢：恐怖片最狠的不是扑脸，是让观众先心疼再害怕。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Diplomeme/status/2103363517801980346"
+        }
+      ],
+      "prompt": "Create a short 16 9 photorealistic Korean cinematic zombie-horror scene in an abandoned farmhouse kitchen. A crying female survivor from Korea with messy dark hair, dried blood on her forehead, and a dirty olive-green hooded anorak kneels on the floor, staring at her infected dog. She is trembling, tears running down her face, but cannot bring herself to leave him behind.\n\nThe infected dog has matted dark fur, pale cloudy eyes, dark veins visible beneath damaged skin, torn and dirty fur, saliva around his mouth, and an increasingly feral expression. He growls loudly and barks directly at her, pacing aggressively across the kitchen. She slowly reaches toward him, lowers herself to the floor, and opens her arms toward him. He suddenly lets out another violent growl, lunges forward, and aggressively grabs onto her arm.\n\nHard smash-cut to warm golden-hour memories of the same woman and her dog happily together in a vast wheat field — running through the golden grass, playing fetch, lying together in the field, and sitting beside each other beneath the sunset. Make the contrast between the cold present and beautiful memories emotionally powerful.\n\nPhotorealistic live-action cinema, natural skin and tears, realistic infected eyes and animal facial expressions, handheld camera, practical-effects horror, 35mm film grain, believable animal movement and lighting. No gore, no dialogue, no slow motion, no extra plot, no CGI look, no animation, no distorted anatomy, no duplicate characters, no subtitles, no text, no watermark.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:32:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-torii-anime-duel",
+      "category": "提示词",
+      "title": "鸟居落日一刀斩",
+      "body": "白发剑士站在鸟居下，对面是冒烟的黑影魔。十秒赛璐璐决斗：先大全景对峙，再推到发光红眼，然后闪电对砍，火花和冲击波撕开画面。一刀干净收尾，魔散成黑烟红烬，剑士背对巨大落日站定，风还在吹衣袂。提示词锁死红橙落日、线稿一致和sakuga流动感，不要旁人不要字幕不要水印。所以呢：要演示「飒」，鸟居加落日比堆特效更管用。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/AIwithWania/status/2103355707487600728"
+        }
+      ],
+      "prompt": "Create a cinematic anime battle sequence, 16:9, with premium hand-drawn cel animation and ultra-fluid sakuga-style movement.\n\nAt a ruined ancient Japanese torii gate during a blazing crimson sunset, a white-haired swordsman in a torn white haori stands facing a towering shadow-black demonic warrior with glowing red eyes and smoky tendrils.\n\n0–2s: Wide dramatic shot. Both warriors face each other beneath the giant torii gate, dust and debris floating through the air, huge orange sun directly behind them.\n\n2–4s: Fast cinematic push-in to the white-haired swordsman’s face. His eyes glow intense red as he tightly grips his black katana. Wind moves his hair and clothing.\n\n4–7s: He suddenly launches forward at extreme speed and clashes swords with the demon. Explosive white-blue lightning, sparks, shockwaves and a brilliant curved energy slash tear across the frame. Dynamic anime camera movement and strong motion lines.\n\n7–8s: The swordsman completes one clean finishing slash. The demon breaks apart into swirling black smoke, glowing red embers and particles.\n\n8–10s: Final wide rear shot: the swordsman stands completely still with his katana lowered, facing the enormous setting sun beneath the torii gate while the remaining dark particles disappear into the sky.\n\nVisual lock: dramatic red-orange sunset palette, deep black shadows, sharp anime linework, cinematic contrast, fluid 2D animation, consistent character design throughout, realistic cloth and hair motion, powerful impact frames, no extra characters, no character duplication, no text, no subtitles, no watermark.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:33:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-atm-forgotten-card",
+      "category": "提示词",
+      "title": "ATM忘拔卡",
+      "body": "取完钱一转身，卡还插在机器里。女孩进干净银行取现，钱到手就往外走，神情轻松得像办完一件小事。镜头故意给ATM一个特写：卡还在。门外她翻钱包，脸色瞬间垮掉，又往回跑，银行玻璃门还开着。十五秒竖屏，动作生活、惊吓靠表情，不靠鬼怪，银行环境要真实，光要自然。所以呢：最容易拍火的短片，往往是人人都干过的蠢事。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Sharjeelai_786/status/2103355302955606073"
+        }
+      ],
+      "prompt": "A young woman in casual modern clothes enters a clean, realistic bank and approaches an ATM. 0–4 sec: She inserts her ATM card, enters her PIN, and withdraws cash. 4–8 sec: She quickly takes the money and walks away from the ATM toward the bank exit, looking relieved and distracted. 8–11 sec: Close-up of the ATM showing her card still inserted in the machine, forgotten. 11–15 sec: Outside the bank, she suddenly checks her wallet and realizes the ATM card is missing. Her expression changes to shock and worry as she turns back toward the bank. Cinematic camera movement, realistic acting, natural lighting, detailed bank environment, smooth motion, dramatic storytelling, 4K, vertical 9:16.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:34:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-cold-case-board",
+      "category": "提示词",
+      "title": "冷案红线收网",
+      "body": "夜里警局，她把两张无关照片用红线钉在一起。三十秒程序悬疑：钉板、放大镜、笔迹比对、时间戳对不上，电话一响整盘改写。她突然看见两张本来不该有关系的照片，红线一连，熟悉的脸出现在证据堆里。结尾她抓起外套冲出去，镜头慢慢推到那张被忽略的脸。角色脸和衣服全程锁参考图，气氛靠台灯和乱线，不要枪战。所以呢：悬疑短片不必追车爆炸，一张钉板也能把观众钉住。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/doctorwasif/status/2103339014225096868"
+        }
+      ],
+      "prompt": "30-second cinematic procedural mystery sequence. Character A, matching the reference face/outfit throughout, investigates a dim precinct office at night.\n0–3s: She pins a photo onto a cluttered case board covered in evidence and tangled red string.\n3–6s: She studies an old grainy photograph through a magnifying glass; a blurred background figure looks strangely familiar.\n6–9s: Her phone buzzes. She ignores it, comparing handwriting samples and noticing a suspicious match.\n9–12s: She cross-checks two old documents and discovers a timestamp discrepancy.\n12–15s: Her phone rings; she answers, listening intensely as new information changes everything.\n15–18s: She turns sharply toward the board, spotting two previously unrelated photographs.\n18–21s: She connects them with red string, revealing a hidden pattern and a familiar face among the evidence.\n21–24s: Her eyes widen as she realizes the culprit has been in plain sight all along.\n24–27s: She urgently grabs her phone and jacket and rushes out, leaving the illuminated board behind.\n27–30s: Slow push-in on the newly connected evidence and overlooked photograph, ending on a quiet, ominous procedural-mystery reveal.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:35:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-laowang-out-of-mountain",
+      "category": "提示词",
+      "title": "老王出山踩鼓点",
+      "body": "中年男人先穿马甲走街，硬切后变成红领巾西装。二十八秒中文超长壳：身份、胡须、服装分段、机位禁推拉、嘴不许张，全部写死。前半深蓝立领马甲酒红袖，后半米白西装加深紫灰墨镜，只在十四秒多硬切一次换装。音轨按一百四十四拍踩挑眉、响指、脚步，还有俯拍宫殿—球场—游艇—雨广场的四连瞬移。加拿大国旗也写进约束，背景招牌必须虚焦。所以呢：华语创作者终于有一份能直接改脸、改鼓点的「出山」模板。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/john87445528/status/2103314365948506510"
+        }
+      ],
+      "prompt": "image 1 为本片唯一主角的外貌参考，同时作为前半段服装参考。时长 28 秒。影片严格按照以下文字分镜生成，不依赖任何参考视频。 【身份锁定·最高优先级】 主角为一名中国中年男子，面孔严格参考\n。所有镜头、每一帧中，保持相同的面部结构、五官、年龄、肤色、发际线、发型、胡须与体型。 黑色短发向上、向后梳起，顶部蓬松，两侧较短；下唇下方至下巴保留参考图中的小撮胡须，不生成浓密全脸络腮胡。 人物身份在快速动作、运动模糊、侧脸、背身回头、光线变化、镜头切换以及首尾帧中均不得漂移。每个新镜头都重新严格匹配 image1 的身份特征，但表情与头部朝向按照分镜自然变化，不复制成静止照片。 【服装锁定·前半段 0.00—14.80 秒】 严格参考 image1\n的上半身服装： 深藏蓝色无袖立领拉链马甲，面料厚实，略带蓬松感，中央拉链与立领结构保持一致；内搭酒红色长袖上衣。 仅允许参考服装自带的胸前刺绣，刺绣位置、大小、颜色与图案参考 image1，不添加任何额外 Logo、品牌标志或装饰文字。 参考图未展示的下半身统一设定为深色直筒长裤、黑色简洁皮鞋，前半段始终不变。 前半段不戴墨镜，不出现米白西装、红色领巾或红色腰封。 【服装锁定·后半段 14.80—28.00 秒】 仅在 14.80 秒的硬切处更换一次服装： 米白色修身西装外套与同色西裤；白色开领衬衫；鲜红色丝质领巾；宽大的红色丝质腰封；白色系带正装皮鞋，鞋底边缘为细黑色。 佩戴小巧的圆形细金框墨镜，镜片固定为深紫灰色。灯光反射可以从镜片表面滑过，但镜片底色不得变化，不得变透明。 换装只通过镜头硬切完成，不出现穿衣过程、服装渐变或变身特效。人物仍然是同一名中国中年男子，脸、短发、下巴胡须、年龄和体型完全不变。 后半段服装不添加任何 Logo。 【人物尺寸与唯一性】 每个镜头都必须有主角，而且只有一个主角。不得出现空镜、分身或复制人物。 人物始终位于画面中央，每一帧中的人物高度不小于画面高度的三分之一。脸部与手部动作应尽可能清晰，不能让人物被环境吞没。 体型与身体比例全片一致，不缩小身体，不缩短双腿，不因更换场景而改变人物尺度。 【这是活动影像，不是照片】 每个镜头都是持续发生的动作。第一帧人物已经在迈步、转头、抬手或进行其他动作，最后一帧仍然在动。 步态连续，重心自然转移，肩膀随步伐起伏，胸口随呼吸运动，眼神与面部肌肉存在细微变化。 前半段马甲下缘、酒红色衣袖与裤腿随动作产生自然褶皱；后半段西装下摆、衣袖、领巾与腰封随动作摆动。 短发只产生符合长度与发型的轻微运动，不变成长发。节奏舒缓时动作放慢，但不停止，不使用冻结帧或慢速播放。 【环境运动】 每个镜头都包含自然环境运动，例如雨滴、车辆、树叶、远处行人、蒸汽、旗帜或变化的灯光倒影。 背景招牌文字模糊、虚焦，不可辨认。路人始终位于远处，不进入前景，不与主角互动，不遮挡主角。 【镜头语言】 每个镜头内，机位完全固定在三脚架上。 不推、不拉、不摇、不移、不环绕、不变焦。不使用数字缩放、数字平移或静态照片上的“肯·伯恩斯”效果。 镜头之间全部采用干净利落的硬切。除指定俯拍瞬移段落外，每次硬切都更换机位角度。 以 14—16mm 超广角为主，近距离形成明显广角透视，但人物身份与五官结构仍须稳定。机位包含极近脸部、贴地仰拍、高处俯拍、背面肩后视角，可用虚化前景框住画面。 固定荷兰角指摄影机预先倾斜后保持不动，不在镜头内旋转。 禁止溶解、淡入淡出、划像、叠化、闪白、黑场与其他转场特效。 【色彩与质感】 全片采用干净、自然、统一的色彩，不照搬原片滤镜，不使用风格化重度调色。 肤色真实自然，白平衡稳定、曝光合理，高光保留细节，暗部具有层次。米白西装、深藏蓝马甲与酒红色衣袖在不同场景中保持可辨认的真实颜色。 霓虹、街灯与室内灯光可以产生符合现场的局部色彩影响，但不能让整张脸或整套服装被强烈染色。 不添加人为胶片颗粒、复古滤镜、褪色效果、重度青橙调色或过度 HDR。保留真实皮肤与布料纹理，9:16 竖屏。 【音画同步】 audio1 是唯一音轨，时长 28 秒，节拍约为 144 BPM。按以下时间表组织分镜，剪辑切点以 audio1 对应鼓点为准。 挑眉、打响指、耸肩、抬下巴、整理衣领、触碰墨镜与脚步落地等动作重音踩在鼓点上。 5.52—8.05 秒与 12.27—14.80 秒为舒缓段落，人物主动放慢动作，保持连续表演。 【嘴部与表演】 主角全片不说话、不唱歌、不对口型。 嘴唇始终闭合，只允许单侧嘴角上扬与闭嘴半笑，不露齿，不张嘴。 人物从容、自信，带一点戏谑的松弛感。步伐自然带摇摆，手势干脆，动作完成后身体继续流动，不停下来摆造型。 【国旗】 全片任何国旗均为加拿大国旗：左右红色竖条，中央白底红色十一角枫叶，旗面比例为 2:1。 旗帜随风自然展开与折叠，不出现其他国家的国旗或混合图案。 ━━━━━━━━━━━━━━━━━━ 【分镜表】 0.00—1.32｜14mm 超广角，极近脸部 他穿深藏蓝立领马甲与酒红色长袖上衣，不戴墨镜。第一帧已在画面中央迈步，随后一步踏近镜头，头微微前探，下巴收紧，双眼强烈凝视镜头，嘴唇闭合，胸口自然起伏。 霓虹夜街，身后招牌轻微闪烁，现场光线从脸颊与马甲表面滑过，肤色保持自然。 1.32—3.01｜贴地低角度广角 他从中景距离大步走向镜头，越走越近。雨水落在马甲肩部与酒红色衣袖上，马甲下缘和裤腿随步伐运动。走近时挑起一侧眉毛，黑色皮鞋落地踩在鼓点上。 雨中的斑马线，雨滴持续落下，积水中的车灯倒影被脚步踩碎。 3.01—5.52｜站台中景 他的上半身、马甲与裤腰完整入画。他沿站台安全线内侧走向镜头，边走边抬手比出手指枪，手腕在鼓点上一抖，随后把手插回裤袋继续走，闭合嘴角向一侧扬起。 一列地铁在身后驶过，车窗灯光连续掠过，气流轻轻带动短发与衣摆。 5.52—8.05｜固定荷兰角中景 前景有一根虚化路灯杆。节奏放缓，他放慢脚步继续走，缓缓抬手，用指尖轻触马甲立领，沿领缘滑下，顺势抚平拉链旁的一道褶皱。头微微侧转，眼神自然移向镜头。 傍晚城市人行道，街灯逐渐亮起，远处行人虚焦地经过，晚风轻拂短发。 8.05—9.74｜背面四分之三肩后视角 他背对镜头向前走，马甲背部随肩膀运动产生褶皱。走到一半回头侧脸一瞥，肩膀在鼓点上轻松一耸，脚步始终继续。 阳光斑驳的公园小径，树叶摇动，光斑在马甲背部移动。人物始终保持足够大的画面占比。 9.74—12.27｜天花板高处俯拍 他占据画面中央主要部分，走过一排空车位。边走边用手指整理马甲立领，捋平拉链上端两侧的布料，随后抬头看向镜头，闭合嘴角扬起半笑。 地下停车场，一排冷白顶灯，其中一盏轻微闪烁。酒红色衣袖随抬手动作自然收褶。 12.27—14.80｜侧面低角度中景 节奏放缓。他沿栏杆缓步走，一只手在身前缓缓划出优雅的花式手势，手指展开又收拢。风轻轻吹动短发、马甲下缘与衣袖，他的头慢慢转向镜头。 城市楼顶步道，傍晚天际线，远处灯光逐渐亮起。一面加拿大国旗在背景旗杆上随风展开，红白配色与中央红枫叶清楚可辨。 14.80—16.50｜极低角度仰拍·唯一换装切点 硬切后，同一名中国中年男子已穿米白西装、白色开领衬衫、红色领巾、红色腰封与白色皮鞋，佩戴圆形细金框深紫灰色墨镜。 他大步走向镜头，每一步都带着分量。走到画面中央时猛地抬起下巴，短发轻微晃动，西装下摆与腰封继续摆动。 夜晚地下通道，头顶昏黄灯管连续排列，远处车灯掠过。脸部身份与前半段完全一致。 16.50—18.18｜斜侧面中景 前景有一根虚化柱子。他边走边在鼓点上打一个响指，随即手指指向镜头，身体随节拍轻晃，继续前行。 机场航站楼，巨大玻璃窗外一架飞机正在滑行，远处旅客拖着行李走过。 18.18—19.89｜正面中景 他在摄影闪光灯中走向镜头，闪光在脸部与米白西装表面交替出现。他挑起一侧眉毛，用一根手指推正墨镜，手放下后仍继续迈步。 红毯入场处，两侧远处的摄影师保持虚焦。闪光只产生现场照明变化，不形成全屏闪白。 【19.89—23.27｜瞬移段落·全片唯一的瞬移】 四个镜头均采用正上方垂直俯拍。机位、景别、人物位置与大小完全一致，只有脚下环境与相应光照通过硬切变化。 人物保持米白西装、红色领巾、红色腰封与圆形墨镜。外貌和服装不变。 他的头从低垂逐渐抬起，动作跨越四个镜头连续进行。三次硬切均精确承接上一镜头的动作位置，不重置、不倒退。最后完全仰头看向镜头，闭合嘴角扬起半笑。 **19.89—20.72：**大理石宫殿大厅，繁复彩色拼花地面。他低着头，开始向上抬起，肩膀与胸口保持自然运动。 **20.72—21.57：**体育场绿色草坪与白色场地线。他的头继续抬起一些，草叶随风轻动。 **21.57—22.40：**豪华游艇柚木甲板，条状木纹清晰。他继续抬头，水面反射的光轻微掠过衣服。 **22.40—23.27：**雨中湿透的石板广场，积水映着灯光，雨滴形成涟漪。他完全仰头直视镜头，闭嘴半笑。 23.27—24.74｜侧面低角度中景 他快步走过小巷，到画面中央时头部猛地一偏，墨镜表面掠过一道反光，形成锐利侧目，步伐不中断。 东京霓虹小巷，雨后地面反射现场灯光，普通红灯笼随风摇晃。整体色彩自然，不使用强烈霓虹滤镜。 24.74—26.45｜贴地蚂蚁视角仰拍 他从通道内的强光中大步走出，第一帧人物已足够大。剪影逐渐显出米白西装与红色配饰的细节。他一直走到镜头近前，抬起下巴，身体仍随步伐运动。 体育场球员通道，身后球场灯光明亮，光束中有飘动薄雾，高光不过曝。 26.45—28.00｜14mm 超广角，极近脸部 构图呼应开场。他一步走近镜头，用一根手指把墨镜向下拨一点，露出镜框上方的眼睛，眨一下眼，闭合嘴角扬起半笑。墨镜仍戴在鼻梁上，不摘下。 短发与红色领巾轻轻运动，胸口随呼吸起伏，头部与身体持续细微运动直到最后一帧。 电影院大堂，暖色实景照明，身后霓虹招牌闪烁，面部肤色真实自然。 ━━━━━━━━━━━━━━━━━━ 【负面提示词】 换脸，身份漂移，五官变化，年龄变化，肤色漂移，发型改变，下巴胡须消失，生成浓密络腮胡，体型改变，腿部缩短，人物缩小，首尾帧出现其他人物； 前半段出现西装、红色领巾、红色腰封或墨镜，马甲颜色改变，酒红色衣袖改变，参考服装胸前刺绣漂移，添加额外 Logo；后半段穿回马甲，西装变色，领巾或腰封消失；非指定时间换装，衣服渐变，变身特效； 墨镜镜片变色、透明、款式变化，摘下墨镜； 加拿大以外的国旗，国旗图案混合，枫叶缺失，枫叶变成星星，国旗配色错误； 静态照片，幻灯片，海报，定格，冻结帧，动作僵硬，没有呼吸，背景不动，衣物完全不动； 数字缩放，数字平移，肯·伯恩斯效果，镜头内推拉摇移，环绕，变焦，手持晃动，甩镜头； 人物太小，人物出画，偏离中心，空镜，分身，复制人物，额外主角，前景路人遮挡主角； 瞬移段落机位改变，人物位置或大小改变，抬头动作重置、倒退或跳跃； 张嘴，说话，唱歌，对口型，露齿大笑，嘴唇随歌词开合； 替换 audio1，额外配乐，额外人声，旁白，对白，环境音效，动作与节拍脱节； 溶解，淡入淡出，划像，叠化，闪白转场，黑场，慢速播放，快进，跳帧； 重度滤镜，照搬原片调色，青橙调色，复古褪色，人为胶片颗粒，肤色失真，过饱和，过度 HDR，过曝，过度锐化，塑料皮肤； 二维码，网页界面，新闻字幕，屏幕边框，水印，字幕，悬浮文字，参考服装自带胸前刺绣之外的额外 Logo； 手部畸形，多余手指，肢体断裂，卡通，动漫，CGI 塑料质感。",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:36:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-chili-lizard-crew",
+      "category": "提示词",
+      "title": "辣椒苗边的小蜥蜴",
+      "body": "河边一棵小辣椒，绿皮宝宝越看越来气。竖屏家庭动画气质：绿蜥蜴先盯辣椒眨眼睛，橘红小家伙入场斗表情，河狸从河边凑近看热闹。三人坐在沙岸上对辣椒做鬼脸，光是暖金色。结尾突然冒出一群黑毛小球围观，笑点靠加角色不加台词。镜头从中景推近再切特写，大约三十秒。所以呢：做可爱向，别急着讲大故事，先让角色一个个挤进画面。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Zarnab_with_Ai/status/2103312349574947142"
+        }
+      ],
+      "prompt": "Create a cinematic 3D animated short film in a cute, high-quality family-animation style, vertical 9:16.\n\nScene: A small adorable green baby lizard-like creature sits beside a tiny chili pepper plant on a warm sandy riverbank. The character has soft rounded features, expressive sleepy eyes, tiny hands and feet, and a cute slightly grumpy expression. The environment is lush and natural, with tall grass, a calm blue-green river, rocks, and warm golden sunlight.\n\nThe little green creature gently looks at the chili peppers growing on the plant, blinking slowly and reacting with subtle facial expressions. Use detailed soft fur/skin textures, realistic shadows, beautiful cinematic lighting, shallow depth of field, and a warm magical atmosphere.\n\nGradually introduce a cute orange-red baby creature that joins the green character. They sit together near the chili plant and interact with funny, expressive reactions. Their expressions should feel playful and comedic, with natural blinking, head movements, small gestures, and exaggerated animated facial expressions.\n\nThen reveal a cute brown beaver/otter-like character approaching from the riverside. Show a close-up of its adorable face, big nose, round cheeks, prominent front teeth, and expressive eyes. It looks curiously at the chili plant and the other characters.\n\nThe characters begin reacting to each other and laughing together. Keep the animation charming and humorous, with natural body movement and expressive eyes.\n\nNear the end, several tiny black fluffy creatures suddenly appear around the chili plant and riverbank. They stare curiously at the group, creating a funny unexpected ending.\n\nCamera direction:\nStart with a medium close-up of the green character and chili plant, slowly push in toward the character, then cut to close-ups of the orange character and the beaver. Use smooth cinematic camera movements, gentle pans, subtle handheld-style motion, and shallow depth of field.\n\nVisual style:\nHigh-end 3D animated movie quality, adorable stylized characters, detailed textures, soft volumetric sunlight, cinematic depth of field, realistic environmental lighting, vibrant natural colors, polished character animation, expressive facial acting, whimsical comedy, family-friendly atmosphere, ultra-detailed, 4K.\n\nMotion:\nNatural blinking, subtle breathing, head turns, small hand movements, gentle body motion, realistic character interaction, expressive reactions, smooth transitions, cinematic timing.\n\nAspect ratio: 9:16 vertical.\nDuration: approximately 30 seconds.\nNo text, no subtitles, no watermark.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:37:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-bankai-ocean-slash",
+      "category": "提示词",
+      "title": "黑海Bankai一刀",
+      "body": "光头武士站在齐踝黑海里，喊完BANGKIT就只砍一刀。提示词用两张参考分别锁「常服」和「瓷白化身」，禁止长角长鳞长翅膀。三十秒从平静海面到变身、蓄力、唯一横斩、粉碎远岛、回风定格。海水要被气压推开露出海床，能量必须从刀刃长出，不许乱放魔法光柱，人物脸始终要看得见。所以呢：动作片最难的是「只许一刀」——约束越狠，画面越像正式预告。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/junwatu/status/2103308757950492715"
+        }
+      ],
+      "prompt": "Seedance 2.5 for video, 720p.\n\n30 second cinematic action sequence, 16:9 widescreen, Unreal Engine 5, MetaHuman quality realistic CG, hyper realistic cinematic fantasy action, physically based materials, realistic porcelain skin, detailed fabric, individual hair strands, realistic water simulation, volumetric mist, dramatic storm lighting, AAA game cinematic quality, 24fps.\n\nREFERENCE ANCHORS: Use exactly two attached visual references for the entire sequence. @[Baldy] Baldy identity anchor defines Baldy's identity, face, bald head, facial structure, body proportions, muscular anatomy, normal outfit, forearm wraps, sandals, and katana. @[bankai] Bankai design anchor defines his transformed Bankai appearance, including the porcelain white skin, white torn robes, dark inner garments, luminous markings, pale eyes, and transformed silhouette. Lock both references as persistent anchors for the entire video. Do not reproduce their backgrounds, studio setup, framing, or character sheet layout. Baldy remains the same person throughout the entire sequence. His facial identity, anatomy, body proportions, and katana remain consistent while his appearance transitions from the normal state into the Bankai state. No character morphing, identity drift, face replacement, anatomy changes, extra limbs, or disappearing/reappearing objects.\n\nCHARACTER TRANSFORMATION: The transformation should feel like a simple but profound evolution of the same warrior. Normal state: dark black and gold samurai clothing, natural human skin, restrained appearance. Bankai state: smooth porcelain white skin, predominantly white torn robes, dark inner garments, subtle metallic gold details, luminous white markings, pale supernatural eyes, concentrated white energy. The transformed state should feel elegant, unnatural, powerful, and frightening without becoming monstrous. No dragon features, horns, scales, wings, armor, summoned creatures, giant accessories, or complicated mutations. The katana remains the same physical weapon throughout the entire sequence.\n\nENVIRONMENT: A vast black ocean beneath an enormous stormy sky. Baldo stands alone ankle deep in perfectly still shallow seawater, far from civilization. The ocean stretches toward a huge dark horizon. Distant jagged black rock formations and small volcanic islands are barely visible through atmospheric mist. The water is extremely reflective and dark blue black, creating a mirror like reflection of Baldy and the storm clouds. Massive layered storm clouds cover the sky. Occasional distant lightning illuminates the horizon without becoming the primary light source. The environment feels empty, ancient, and enormous. No battlefield, ruins, buildings, army, debris field, or random objects. The simplicity of the environment keeps Baldy and the transformation visually dominant. The ocean reacts physically to his power throughout the sequence. Ripples begin subtly and become increasingly violent as the Bankai activates. Wind pushes mist and surface water horizontally. Energy, wind, spray, and water must interact with believable physical force.\n\nBANKAI ENERGY: The Bankai produces a concentrated white supernatural aura closely connected to Baldy and his katana. The energy behaves like dense white plasma combined with silk like flowing energy, electrical filaments, atmospheric distortion, and luminous vapor. It must feel dense and powerful rather than like generic magical smoke. Keep Baldy's face, body, clothing, and sword clearly visible at all times. Do not hide him behind excessive particles. Energy intensity produces corresponding physical reactions in the surrounding water and atmosphere.\n\nTIMELINE. 00:00 to 00:05, the calm before: Begin with an enormous wide cinematic shot of the black ocean. The sea is almost perfectly still. Baldy stands alone ankle deep in shallow water, extremely small against the vast ocean and storm filled sky. His reflection stretches across the dark surface. Distant black rock formations emerge through the mist. The camera slowly approaches him from behind. His dark robes move gently in the wind. The water around his feet remains almost completely still. Only distant thunder, wind, and soft waves are heard. Baldy slowly turns his head toward the horizon. He remains completely calm.\n\n00:05 to 00:10, Bankai concentration: Cut to a low angle medium shot facing Baldy. He slowly raises his katana vertically in front of his body. His hands tighten around the hilt. His breathing becomes slower and more controlled. Perfectly circular ripples begin spreading from his feet. The wind gradually changes direction and begins flowing toward him. His dark clothing remains clearly readable. Small droplets of seawater lift from the surface and briefly hover around him. The atmospheric pressure visibly increases. Slowly push toward his face. His expression remains calm.\n\n00:10 to 00:14, Bankai declaration: Perform an extreme cinematic push toward Baldy's face. He looks toward the horizon. The transformation begins. His natural skin gradually becomes smooth porcelain white while retaining realistic human skin detail, pores, muscles, and believable specular highlights. Luminous white markings emerge beneath the skin across his face and neck. His dark robes rapidly transform into layered, torn white fabric while dark inner garments remain visible underneath. White energy begins flowing around his shoulders and arms. The ocean reacts violently, water rises around his feet and circular waves expand outward. Baldy forcefully declares, \"BANGKIT!\" Immediately after the declaration, the transformation completes. His exposed skin is now porcelain white. His robes are predominantly white and torn. The luminous markings intensify. His eyes become pale and supernatural while retaining his recognizable facial identity. White energy erupts outward from his body. A massive circular pressure wave spreads across the ocean. Water is pushed away from him in every direction. The transformation happens immediately after the declaration.\n\n00:14 to 00:19, full Bankai reveal: Reveal Baldy in a dramatic three quarter low angle shot. His Bankai form is now fully established. Porcelain white skin, torn white robes, dark inner garments, subtle metallic gold details, luminous markings, pale glowing eyes, and concentrated white energy. The white fabric streams violently behind him in the storm wind. A dense white aura coils around his body. The surrounding ocean forms a huge circular depression as water is pushed away by the pressure. The exposed seabed becomes briefly visible around his feet. Water rises into slow walls around the outer edge of the pressure circle. Baldy remains perfectly still. The camera slowly circles around him. His reflection remains visible in the disturbed water. The white energy illuminates the storm clouds and creates bright reflections across the ocean. He slowly lowers the katana into a horizontal stance.\n\n00:19 to 00:22, Bankai charge: Baldy grips the katana with both hands. His body lowers into a powerful horizontal stance. His right foot presses firmly into the submerged ground. The physical blade remains clearly visible. Dense white energy concentrates along its edge, forming a thin supernatural extension around the blade while leaving the original steel visible. The luminous markings intensify. Water begins rotating in a huge circular pattern around him. Mist and spray are pulled toward the sword. The ocean directly in front of him becomes unnaturally flat. A long horizontal path of disturbed water stretches toward the horizon. Move the camera behind his shoulder, keeping Baldy and the distant black rock formations in the same composition. He exhales once. Everything becomes almost completely silent.\n\n00:22 to 00:23, one Bankai slash: Baldy performs exactly one enormous horizontal sword slash from right to left. Extremely fast, clean, and decisive. No spinning. No combo. No second slash. No unnecessary movement. At the exact moment of the slash, the concentrated white energy erupts directly from the katana. A gigantic horizontal wave of compressed white energy races across the ocean. It behaves like an enormous blade of compressed supernatural pressure, not a generic magical beam. The ocean is violently displaced beneath it. Massive walls of water rise on both sides of its path. The camera briefly tracks beside the katana, then immediately follows behind the energy wave. Use intense directional motion blur only during the release.\n\n00:23 to 00:27, ocean destruction: The energy wave travels across the ocean toward the distant black rock formations. It strikes the largest formation with overwhelming force. Do not split the rock neatly in half. The impact pulverizes the formation. Black rock fragments explode outward. Water erupts vertically around the impact. A gigantic circular shockwave expands across the ocean. Huge waves radiate from the impact point. Mist and seawater fill the atmosphere. White energy flashes through the expanding spray. The shockwave travels back toward Baldy. The entire ocean surface rises and falls in massive concentric waves. Water, rock, pressure, debris, mist, and energy must interact with convincing physical weight. Baldy remains grounded in the foreground. His white robes and fabric strips whip violently in the returning pressure wave. He does not move from his position.\n\n00:27 to 00:30, final Bankai image: Transition into an enormous aerial shot. The black ocean is covered with massive concentric waves. The distant rock formation has been devastated into scattered black fragments surrounded by violent white surf and mist. The storm clouds begin opening slightly. Soft light breaks through and reflects across the ocean. Residual white energy slowly fades through the atmosphere. The camera rapidly descends toward Baldy. End on a powerful three quarter low angle shot. Baldy stands alone in the shallow black water. His porcelain white skin contrasts strongly against the dark ocean. His torn white robes move in the returning wind. Dark inner garments provide contrast. Luminous markings remain visible across his face, neck, and arms. His pale eyes glow intensely. His katana hangs naturally beside his body. Residual white energy coils around his shoulders and blade. The ocean slowly settles. His reflection becomes visible again. Baldy remains completely calm and in control. Hold on his face for the final moment.\n\nFINAL VISUAL RULES: Maintain the established character identity and transformation design throughout. Prioritize consistent facial identity, realistic human anatomy, porcelain white skin, torn white robes, dark inner clothing, luminous white markings, pale supernatural eyes, unchanged katana, dark reflective ocean, physically believable water and energy interaction, strong visual contrast between Baldy and the environment, elegant supernatural power rather than monstrous mutation, and clear cinematic action. Exactly one horizontal slash. The energy originates directly from the katana. No dragon features. No horns. No scales. No wings. No summoned creature. No armor. No generic magical beam. No excessive particles obscuring Baldy. No random objects. No repetitive attack loops. No random camera cuts. No subtitles. No UI. No text on screen.\n\nAUDIO DESIGN: No background music. Begin with distant ocean waves, deep wind, distant thunder, subtle water movement, and controlled breathing. As concentration begins, introduce a low frequency atmospheric pressure tone and subtle metallic katana resonance. During transformation, add deep sub bass pressure, rising energy hum, electrical crackling, fabric movement, water displacement, and violent atmospheric wind. Baldy's declaration, \"BANGKIT!\", must be clear, powerful, and isolated. Immediately afterward, the sound explodes into a dense white energy surge, massive water displacement, and expanding pressure wave. During the slash, use one extremely sharp metallic sword release followed by a massive compressed air explosion and deep energy impact. The destruction contains realistic water impacts, rock fragmentation, crashing waves, distant thunder, and expanding shockwaves. End with falling water, distant rock impacts, fading white energy, gentle wind, and the ocean gradually returning to a calmer state.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:38:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-seoul-friday-dv",
+      "category": "提示词",
+      "title": "首尔周五DV漫游",
+      "body": "她出门洗脸、买棒棒糖，路过小学生喊一声Hello。三十秒故意拍成两千年代初家用DV：手抖、曝光乱跳、对焦乱跑、偶尔尴尬变焦。路线是老住宅区水龙头、小店、报摊，她边走边舔糖，结尾对着镜头说Happy Friday。人脸发型衣服全程锁参考，环境声只要脚步、流水、小孩说话和蝉。所以呢：想做城市vlog壳，先把「太干净」的电影感关掉。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/AIwithkhan/status/2103329257149898940"
+        }
+      ],
+      "prompt": "Create a 30-second ultra-realistic personal home-video of a young Korean woman enjoying a relaxed Friday morning in an older Seoul residential neighborhood. Use the attached image as the character reference and keep her face, long black messy side ponytail, pastel-blue fitted top, loose cream pants, black sneakers, silver necklace, and overall appearance perfectly consistent.\n\nShe leaves her home with a cheerful expression and walks casually through the quiet neighborhood. She reaches a nearby outdoor water tap, stops, splashes cool water onto her face, wipes her face with her hands, smiles and continues walking.\n\nShe arrives at a small neighborhood shop and buys a colorful lollipop for herself. She unwraps it immediately, puts it in her mouth and happily enjoys the candy while walking through the street.\n\nA few school children pass by carrying their backpacks. She smiles, waves at them and casually says, “Hello!” as they walk past.\n\nShe then approaches a newspaper seller outside a small local shop, picks up a newspaper, gives him a few coins, thanks him with a smile and starts walking back toward home while holding the newspaper.\n\nNear the end, she looks toward the camera with a happy smile, still enjoying her lollipop, and says, “Happy Friday!” before continuing home.\n\nUse raw early-2000s consumer DV-camera footage: handheld shake, imperfect framing, autofocus hunting, exposure shifts, soft digital detail, mild digital noise, natural motion blur, occasional awkward zooms and authentic home-video imperfections. Natural Seoul neighborhood ambience only — footsteps, running water, children talking, shop sounds, newspaper rustling, distant traffic, birds and summer insects. No music, no narration, no subtitles, no polished commercial cinematography, no beauty-filter skin, no CGI look, no duplicate characters, no changing face, hairstyle or outfit.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:39:00+08:00"
+    },
+    {
+      "id": "prompt-kling-album-shoot-josh-riley",
+      "category": "提示词",
+      "title": "专辑外拍破功",
+      "body": "他在镜头前臭着脸，她一走近就破功笑了。Kling十五秒：肩后近景看他怒，她走近嘴角松动；切双人正面，他瞥向摄影师又想板回来，快门响一声；她贴上去，他低头吻颈，摆拍彻底失败。服装灯光锁静帧，只留风声、草步和一次快门，不要配乐。所以呢：情侣短片最好笑的，是「摆拍失败」那一秒。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Jenny_MommaLion/status/2103181549143494658"
+        }
+      ],
+      "prompt": "Overall Vibe & Audio Warm, playful, tender. Golden hour field. Soft wind in dry grass. Diegetic only: breeze, footsteps in grass, one camera shutter. No music. Scene Same field and light as the attached still. Attached image is the strongest pose, lighting, andwardrobe lock. Characters Josh ( use as character reference) and Riley (Use as character reference)  from the attached still. Same faces, tattoos, white v-neck, white tube top, jeans, boots. Clothing lock Outfits stay exactly as in the still. No wardrobe shift. Timeline 0s–4s Over Riley’s shoulder, close on Josh’s face. She walks toward him. He is brooding and annoyed. 4s–8s Hold over her shoulder. As she gets closer his mouth breaks. Small real smile just for her. He is not looking at the camera. 8s–11s Cut to front two-shot. He glances off-screen toward the photographer. The scowl tries to come back. One shutter click. 11s–15sRiley steps into him. He drops the pose. Looks down at her. She is already smiling at him. He leans to kiss her neck. Consistency Same faces. Same field. Hands anatomically correct.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:40:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-auto-editorial-poster",
+      "category": "提示词",
+      "title": "赛车编辑海报壳",
+      "body": "换年份、车型、颜色、场景，就能印一张海报。GPT Image模板要求低机位三分之四构图，车要像真的在冲，笔触要有丝网印颗粒和飞溅墨点。标题、副标题、品牌Logo位置写死，占位符用方括号标好，方便批量替换。风格是复古赛车报混现代编辑设计，不要糊成一张普通车图。所以呢：做汽车内容，先有一张能量产的海报壳，再谈下一辆车。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Goodmanprotocol/status/2103361503881838850"
+        }
+      ],
+      "prompt": "Create a premium 4:5 vertical automotive editorial poster featuring a [YEAR] [CAR] in [COLOR], captured from an aggressive low three-quarter perspective as it speeds through [SCENERY]. Emphasize the car’s authentic proportions, distinctive body lines, aerodynamic surfaces, wheels, headlights, grille, reflections, and mechanical details while maintaining a dynamic sense of forward motion.\n\nBuild the artwork around expressive hand-painted brush strokes, sweeping diagonal marks, controlled ink splashes, dry-brush textures, screen-printed grain, subtle halftone patterns, bold graphic shadows, and layered atmospheric shapes. Add directional motion trails, subtle environmental blur, dust or road particles, and energetic background strokes that reinforce speed without obscuring the vehicle.\n\nUse a sophisticated high-contrast palette of [COLORS], with carefully balanced highlights, deep shadows, and selective accent tones. Keep the composition bold but refined, combining vintage motorsport graphics with contemporary automotive editorial design.\n\nPlace the large, clean geometric sans-serif title “[TITLE]” prominently at the top, with the bold editorial headline “[HEADLINE]” integrated naturally into the artwork. Position the authentic [BRAND] logo cleanly at the bottom, maintaining accurate proportions and strong visual hierarchy.\n\nCrisp illustrated vehicle detailing, dramatic perspective, tactile print texture, refined typography, balanced negative space, premium poster composition, energetic retro racing aesthetic, sophisticated editorial finish, highly polished 4:5 vertical format.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:41:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-paper-boat-kite",
+      "category": "提示词",
+      "title": "纸船放风筝",
+      "body": "姑娘坐在巨型折纸船上，手里扯着风筝线看天。JSON提示词写清：鼠尾草绿泡袖裙、草帽绿缎带、奶油球鞋，日落海面，低机位留大片天空。风筝是哑光绿菱形，缎带拖得很长，海面要有真实反光，光线只要黄金时段，颜色锁青绿和暖金。所以呢：奇想竖图不怕假，就怕假得不统一——衣服、船、风筝要同一场梦。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/hey_am_cherry/status/2103336650290176205"
+        }
+      ],
+      "prompt": "{\n  \"aspect_ratio\": \"9:16\",\n  \"subject\": \"young woman with long wavy brown hair\",\n  \"outfit\": \"sage green vintage puff-sleeve dress, straw hat with green ribbons, cream sneakers\",\n  \"pose\": \"seated sideways in a large origami paper boat, one hand holding the kite string, looking upward\",\n  \"concept\": \"dreamy whimsical woman flying a kite from a paper boat\",\n  \"setting\": \"calm ocean at sunset\",\n  \"kite\": \"large muted green diamond kite with long flowing ribbons\",\n  \"lighting\": \"warm golden-hour sunlight\",\n  \"composition\": \"full-body, low water-level perspective, spacious sky, cinematic framing\",\n  \"style\": \"ultra-photorealistic, dreamy cinematic fantasy, detailed textures, natural water reflections\",\n  \"colors\": \"sage green, teal, warm gold, soft blue\"\n}",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:42:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-fashion-from-object",
+      "category": "提示词",
+      "title": "物体变时装",
+      "body": "月饼礼盒、胶带、化肥袋、烟盒，都能被抽成一套能穿的衣服。中文通用句只要三步：提主体辨识特征，转成面料结构和细节，拍成真时装片。禁止直接贴原物、禁止堆装饰，材质纹理要站得住，光影要像棚拍。作者给了四张接地气示例，换主体就能再出一套lookbook。所以呢：下次逛超市，货架上的包装都可能是下一套Look。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/DeepBlueX0/status/2103335668391031035"
+        }
+      ],
+      "prompt": "主体：XX × 核心特征提取 × 时装设计重构\n\n提取主体最具辨识度的材质、纹理、色彩、形态与结构特征，将其重新转化为完整的时装设计语言。通过合理的面料组织、服装结构与细节设计完成自然转译，使最终服装能够清晰体现主体特征，同时保持真实、合理、可穿着的服装形态。整体采用真实时装摄影质感，材质自然，纹理清晰，结构明确，光影真实，避免直接复制主体形态、简单拼贴、复杂堆叠、过度装饰与人为制造的视觉效果。\n\n（示例主体：月饼礼盒、黄色胶带、尿素化肥袋、烟盒）",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:43:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-character-sheets-fighters",
+      "category": "提示词",
+      "title": "无描边格斗角色表",
+      "body": "白底上摆三个角色：红发ogre、铁腕黑帮、独眼广播员。提示词禁止一切线稿、标注、网格和说明文字，只许角落一个名字。风格锁参考图的水粉色块，十头身肌肉或九头身梯形体，转面、表情、动作、零件特写一次排齐。三份角色说明可拆开单独用，适合做设定集连发。所以呢：做设定集别先画线，先学会用色块把人「切」出来。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/itsPixieVerse/status/2103345380725514642"
+        }
+      ],
+      "prompt": "GPT Image 2.5 Character Sheets Prompt:\n\nCrimson Ogre:\nCreate a premium, organic studio CHARACTER CONCEPT DESIGN SHEET in a 16:9 widescreen layout on a pure solid white background. THE ATTACHED REFERENCE IMAGE DEFINES THE ART STYLE — treat it as a strict style bible and reproduce its exact rendering technique in every figure on this sheet.\n\n[STYLE — MIRROR THE REFERENCE EXACTLY]: Replicate the reference image's rendering verbatim: painterly matte digital gouache with flat posterized color blocks, shapes defined purely by value and color cuts with NO outlines and NO lineart of any kind, hard-edged brush shapes, muted desaturated palette identical to the reference, identical overall brightness and contrast.\n\n[STYLE PROHIBITIONS — ABSOLUTE]: no outlines, no ink lines, no graphite lines, no cel-shading, no anime style, no 3D render look, no soft volumetric shading, no glossy highlights, no photorealism.\n\n[TEXT & UI PROHIBITIONS — STRICT]: ABSOLUTELY ZERO METADATA BLOCKS, ZERO DESCRIPTIVE TEXT, ZERO HANDWRITTEN LABELS, ZERO ANNOTATIONS, ZERO CAPTIONS, ZERO NUMBERED BULLETS, ZERO PANEL BORDERS, ZERO FRAMING BOXES, ZERO GRID LINES. The background must be completely seamless pure white. The ONLY text allowed on the entire sheet is the character's Name \"THE CRIMSON OGRE\" in clean, bold typography in one corner.\n\n[PROPORTIONS]: Match the reference's exact body proportions across all figures — 10 heads tall, massive striated muscular build, tiny head, small waist.\n\n[SUBJECT_DESCRIPTION]: Giant male martial artist with wild crimson spiky hair and feral grin. Bare muscular torso, black pleated hakama trousers, draped red coat, brass cuffs. Turnarounds on left (neutral and rear view showing dorsal muscle flow). Top area features three close-up head studies: teeth bared in fury, chilling deadpan glare, wild laughing combat profile. Center and right showcase dynamic combat poses: explosive low sweep kick, brutal mid-air axe-kick with painted dust shockwave, iron-wall counter block. Isolated floating detail cutouts on the right: close-up of brass wrist cuffs, scarred hand clenched in iron fist, woven slip-on shoes.\n\n-----\n\nIron Tycoon:\nCreate a premium, organic studio CHARACTER CONCEPT DESIGN SHEET in a 16:9 widescreen layout on a pure solid white background. THE ATTACHED REFERENCE IMAGE DEFINES THE ART STYLE — treat it as a strict style bible and reproduce its exact rendering technique in every figure on this sheet.\n\n[STYLE — MIRROR THE REFERENCE EXACTLY]: Replicate the reference image's rendering verbatim: painterly matte digital gouache with flat posterized color blocks, shapes defined purely by value and color cuts with NO outlines and NO lineart of any kind, hard-edged brush shapes, muted desaturated palette identical to the reference, identical overall brightness and contrast (light, airy, pure white background — do NOT darken). Every study — the centerpiece, turnarounds, dynamic action poses, head studies, and floating detail cutouts — must look like it was painted by the same artist, in the same file, as the reference image.\n\n[STYLE PROHIBITIONS — ABSOLUTE]: no outlines, no ink lines, no graphite lines, no cel-shading, no anime style, no 3D render look, no soft volumetric shading, no glossy highlights, no photorealism.\n\n[TEXT & UI PROHIBITIONS — STRICT]: ABSOLUTELY ZERO METADATA BLOCKS, ZERO DESCRIPTIVE TEXT, ZERO HANDWRITTEN LABELS, ZERO ANNOTATIONS, ZERO CAPTIONS, ZERO NUMBERED BULLETS, ZERO PANEL BORDERS, ZERO FRAMING BOXES, ZERO GRID LINES. The background must be completely seamless pure white. The ONLY text allowed on the entire sheet is the character's Name \"THE IRON TYCOON\" in clean, bold typography in one corner. Nothing else.\n\n[PROPORTIONS]: Match the reference's exact body proportions across all figures — monolithic trapezoidal build, 9 heads tall, massive broad shoulders, thick neck, heavy angular jaw.\n\n[SUBJECT_DESCRIPTION]: Giant male mob brawler and crime boss. Slicked black hair with widow's peak, broken nose, left cheek scar, stubble. Wears unbuttoned off-white collared shirt, baggy charcoal pleated dress trousers, massive boxy dark-grey suit jacket draped over shoulders with hanging empty sleeves, gold signet rings, oxblood loafers. Turnarounds on left (neutral front and full back view showing boxy coat drape and shoulder width). Top area features three painterly head studies: cold deadpan downward stare, savage grimace with split lip, clenched jaw profile. Center and right showcase dynamic combat poses: explosive straight lead punch shattering the air, iron cross-arm defensive guard absorbing an impact, brutal forward stride ripping the jacket off shoulders. Floating isolated detail cutouts on the far right: close-up of thick knuckles wearing chunky gold signet rings, oxblood loafers with chalk dust scuffs, unbuttoned collar showing scarred clavicle.\n\n-----\n\nAnnouncer Gouzo:\nCreate a premium, organic studio CHARACTER CONCEPT DESIGN SHEET in a 16:9 widescreen layout on a pure solid white background. THE ATTACHED REFERENCE IMAGE DEFINES THE ART STYLE — treat it as a strict style bible and reproduce its exact rendering technique in every figure on this sheet.\n\n[STYLE — MIRROR THE REFERENCE EXACTLY]: Replicate the reference image's rendering verbatim: painterly matte digital gouache with flat posterized color blocks, shapes defined purely by value and color cuts with NO outlines and NO lineart of any kind, hard-edged brush shapes, muted desaturated palette identical to the reference, identical overall brightness and contrast (light, airy, pure white background — do NOT darken).\n\n[STYLE PROHIBITIONS — ABSOLUTE]: no outlines, no ink lines, no graphite lines, no cel-shading, no anime style, no 3D render look, no soft volumetric shading, no glossy highlights, no photorealism.\n\n[TEXT & UI PROHIBITIONS — STRICT]: ABSOLUTELY ZERO METADATA BLOCKS, ZERO DESCRIPTIVE TEXT, ZERO HANDWRITTEN LABELS, ZERO ANNOTATIONS, ZERO CAPTIONS, ZERO NUMBERED BULLETS, ZERO PANEL BORDERS, ZERO FRAMING BOXES, ZERO GRID LINES. Seamless pure white ground. The ONLY text allowed is the name \"GOUZO\" in clean bold typography in one corner.\n\n[PROPORTIONS]: Match reference's body proportions — elderly hunched barrel-chested build, 8 heads tall, thick neck, wide heavy hands.\n\n[SUBJECT_DESCRIPTION]: Elderly underground fight announcer with shaved head, brass monocular eye shutter, and shouting mouth. Draped saffron-amber coat over black split trousers. Turnarounds on left (hunched neutral stance and rear view showing coat drape and coiled battery cord). Top area features three head studies: screaming at top of lungs into brass horn, grimacing deadpan stare, side profile baring gold molars. Center and right showcase dynamic poses: leaning out over arena chains bellowing into megaphone, slamming flat hand onto canvas to signal a match, arms raised high hyping the crowd. Isolated floating detail cutouts on the right: battered brass cone megaphone, brass eye shutter mechanism, wrapped straw sandals.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:44:00+08:00"
+    },
+    {
+      "id": "prompt-nano-sunflower-bed-sunrise",
+      "category": "提示词",
+      "title": "花田里的铁床",
+      "body": "一张古董铁床被抬进向日葵田，女孩在日出里睡着。竖构图把床放在前景，花茎伸进被角，远景是雾气山谷和层层田野。睡衣是奶油色蕾丝，床单要有真实皱褶，皮肤保留毛孔，不要磨皮滤镜。同一提示词可拿去跑 Nano Banana、GPT Image、Grok Imagine 做三模型同题对比。所以呢：超现实静帧要美，先把「睡姿像真的在睡」拍住。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/punkhuri1/status/2103311673977446791"
+        }
+      ],
+      "prompt": "Create an ultra-realistic cinematic vertical photograph, 9:16, depicting a beautiful young adult woman peacefully sleeping in an antique bed placed impossibly in the middle of an enormous field of golden wildflowers at sunrise. The scene should feel dreamlike yet photorealistic, combining romantic pastoral imagery, quiet solitude, and the magical warmth of an early summer morning.\n\nComposition and environment:\nPlace an ornate antique wrought-iron bed in the foreground and lower half of the frame, surrounded on every side by a dense meadow of golden-yellow wildflowers resembling black-eyed Susans and small countryside daisies. Flowers should grow naturally beside the mattress, with several stems reaching into the immediate foreground and partially overlapping the bedding.\n\nThe bed is positioned on a gentle hill overlooking an enormous countryside valley. Beyond the flowers, reveal rolling green-and-golden hills, scattered trees, winding fields and layers of soft morning mist collecting in the valleys.\n\nThe horizon should sit relatively high in the composition so the landscape stretches far into the distance.\n\nWoman:\nA young adult woman is peacefully asleep on the bed. She has long, thick, naturally wavy dark brunette hair, slightly tousled from sleep and spread loosely across the cream pillow around her face and shoulders.\n\nHer face has delicate, naturally feminine features: softly defined brows, closed eyes with natural lashes, a straight delicate nose, subtle cheekbones and naturally full lips. Her expression is completely peaceful and relaxed.\n\nKeep her skin realistic, with subtle pores, tonal variation and the gentle warmth produced by sunrise. Avoid artificial beauty-filter perfection.\n\nPose:\nShe sleeps naturally on her side/back at a slight diagonal across the bed, her head resting against a large rumpled pillow.\n\nOne arm is bent upward beside her head, with her hand relaxed near the pillow and partly underneath her hair. Her other arm rests loosely across the bedding, with the hand naturally falling over the folds of the duvet.\n\nHer posture should look genuinely asleep rather than deliberately posed.\n\nClothing:\nShe wears a delicate cream or pale-beige sleeveless nightdress with subtle lace detailing along the neckline and straps. Only the upper portion should be visible because most of her body is covered by the bedding.\n\nThe clothing should feel timeless and romantic rather than modern or glamorous.\n\nBed and fabrics:\nUse an old-fashioned dark bronze or weathered brass wrought-iron headboard with elegant Victorian-inspired scrollwork, floral curves and decorative finials.\n\nThe bed is covered with abundant ivory, champagne and warm cream linen bedding. Include oversized pillows, crumpled sheets and an enormous soft duvet cascading toward the bottom-right corner.\n\nMake the bedding beautifully imperfect: deep natural folds, wrinkles, compressed areas around her body and thin translucent edges catching the sunlight. The fabrics should have tactile linen and cotton textures rather than appearing silky or digitally smooth.\n\nSunrise:\nA magnificent golden sunrise dominates the upper-right portion of the image. The sun sits just above the distant hills, glowing through layers of broken clouds.\n\nThe sky transitions through honey gold, pale amber, soft peach and muted cream, with illuminated cloud edges and atmospheric haze.\n\nLong, low-angle sunlight streams across the meadow and bed, creating warm highlights along individual flower petals, strands of her hair, her cheek, shoulder, hands and the highest folds of the duvet.\n\nUse realistic volumetric atmosphere rather than obvious artificial light rays.",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:45:00+08:00"
+    },
+    {
+      "id": "koi-rest-shared-pond",
+      "category": "视觉尝试",
+      "title": "共享锦鲤池：陌生人一起安静看鱼",
+      "body": "打开 koi.rest，屏幕上是一池安静游动的锦鲤，背景有轻微水声——你看到的每一条鱼，都代表此刻也在池边的另一个访客。失业开发者 Paul 用 AI 写完自己不会的 JavaScript，把阳台禅园做成了公共网页：人多鱼就多，人走鱼淡出，几乎没有聊天按钮。一百六十分的 Show HN 里，大家聊的是数字第三空间，而不是功能清单。拍法现成：静帧三秒→鱼影闪进闪出→切到 About 读他那句「不想再让完美挡住做好」。冲突点一句话够用：这是社交产品，却故意不让你说话。\n\n所以呢：想拍「互联网还能有多安静」，先带观众进这口共享锦鲤池。",
+      "links": [
+        {
+          "label": "锦鲤池",
+          "url": "https://koi.rest"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49837006"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "bastardica-cursed-fonts",
+      "category": "视觉尝试",
+      "title": "Bastardica：把两款字体搅成「诅咒体」",
+      "body": "点开 bastardica.mitpit.com，选一款基底字体，再丢进第二款当调料——按步幅混字形、拉伸、压扁、上下错位，浏览器里当场吐出可下载的 OpenType。灵感来自著名的 Times New Bastard：每个词里嵌怪字，读起来像排版在搞鬼。全部用 Pyodide 和 fontTools 本地跑，字体不上云。五百多分的 Show HN 证明：古怪字型本身就是短视频素材。拍法：打一行普通标题→开混字→导出装进 Canva→同句前后对比。金句：合法 OpenType，观感却像恶作剧。\n\n所以呢：封面标题想「看起来不对劲」，先本地搅一版诅咒体。",
+      "links": [
+        {
+          "label": "在线搅字体",
+          "url": "https://bastardica.mitpit.com"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49823738"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "reotoi-voice-into-art",
+      "category": "视觉尝试",
+      "title": "对着麦克风说话，声音长成一张画",
+      "body": "打开 reotoi.vercel.app，用麦克风录最多三十秒，或者丢一段音频——它抽出你的「声音 DNA」，再按主题生成一张画面。不是卡拉 OK 歌词字幕，是声纹当种子的生成艺术：同一个人换语气、换情绪，画面色温和结构也会偏。Show HN 标题就四个词：Turn Your Voice into Art，演示页三步写得很清楚：Speak → Analyze → Create。拍法适合竖屏：先出波形→切到分析过程→定格成品，旁白只说「这是我刚说的那句话」。冲突点清楚：输入是耳朵的，输出是眼睛的。\n\n所以呢：想做一期「用嗓子画画」互动，先让观众对着网页说一句。",
+      "links": [
+        {
+          "label": "在线试玩",
+          "url": "https://reotoi.vercel.app"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49836811"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "ascii-city-live",
+      "category": "视觉尝试",
+      "title": "ASCII CITY：整座城用字符当监控画面",
+      "body": "asciicity.live 一开，不是实景航拍，是一整座用 ASCII 字符拼出来的活城：行人、车流、天气、单轨都在字符里动，界面故意做成 CCTV 监控台——坐标、方位、雨天、人口可见。切 OVERLAY、开 SOUND，像在看黑客电影里的城市仪表盘；横屏更宽，竖屏也能跟一辆地面出租车。十八分的 HN 帖把「字符城市」从静态截图推成可逛的直播感。拍法：广角滚过街区→切监控面板读数→跟一辆出租车穿巷。钩子：监控画面全是字符，城市却还在呼吸。\n\n所以呢：赛博城市 B 卷素材，先去这座字符 CCTV 城里晃一圈。",
+      "links": [
+        {
+          "label": "ASCII 城市",
+          "url": "https://asciicity.live/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49736077"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "relativity-park-c5",
+      "category": "视觉尝试",
+      "title": "相对论公园：光速只有五公里每小时",
+      "body": "Rivendell 的 Relativity Park 把光速调成五公里每小时——差不多快步走的速度。你按上键加速，前方视野挤窄发蓝，回头看身后拉红拉长；路边灯柱按世界时间一秒闪一次，你靠近它就闪得更快。摩天轮、穿梭车以零点七五倍光速转，长度收缩和 Terrell 旋转肉眼可见。六百多分的 Show HN 问：如果光速只有五公里每小时会怎样？答案不是公式，是一座可走进去的公园。拍法：从静止起步→抬头看法线压缩→转身看红移→特写「你的表」和「世界钟」分叉。\n\n所以呢：想讲相对论又不想念公式，先带观众在这座慢光速公园里走一圈。",
+      "links": [
+        {
+          "label": "相对论公园",
+          "url": "https://rivendell.dmitrybrant.com/relativity/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49637385"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "q3-firestation-office",
+      "category": "视觉尝试",
+      "title": "把旧消防局办公室建成 Quake III 地图",
+      "body": "sajarin.com/q3inc 不是复古游戏怀旧帖——有人把自己公司以前的消防局办公室，一比一建成可浏览器开玩的 Quake III 地图。走廊、工位、楼梯全在火箭筒视角里，像把上班记忆塞进死亡竞赛。Show HN 标题自带画面：I rebuilt my company's old fire-station office as a Quake III map。拍法：先放真人办公室照片→硬切游戏中同角度→跟着火箭弹冲过茶水间。金句：离职纪念不一定是相册，也可以是一张死亡竞赛图。\n\n所以呢：想拍「空间记忆怎么变成可玩的东西」，先冲进这座消防局办公室图。",
+      "links": [
+        {
+          "label": "浏览器开玩",
+          "url": "https://sajarin.com/q3inc/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49836856"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "low-fps-spinners",
+      "category": "视觉尝试",
+      "title": "别用丝滑转圈：低帧率加载更有「在干活」感",
+      "body": "nh2.me 这篇演示直接跟主流 UI 反着来：丝滑六十帧转圈看起来像卡住，低帧率、一下一下跳的转圈反而像机器真在啃任务。页面上并排对比，眼睛自己投票。作者把「感知进度」当成视觉实验，不是又一篇无障碍清单——他还暗示：关键按钮旁边如果转得太顺，用户会怀疑是不是假进度。对做 AI 产品的人尤其刺耳：生成越快，加载动画越容易骗人。拍法很短：同页左右对照→让观众举手选哪个更像「还在跑」→再叠一句旁白。冲突点硬：更流畅不等于更可信。\n\n所以呢：下次做加载动画，先问问观众信哪一种转圈。",
+      "links": [
+        {
+          "label": "低帧率转圈演示",
+          "url": "https://nh2.me/low-fps-spinners/low-fps-spinners.html"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49839672"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "radix-agentic-visual-ui",
+      "category": "小众工具",
+      "title": "Radix：让代理边写代码边长出可视化小工具",
+      "body": "radix-os.com 的想法很直：跟编程代理聊天时，别只收 Markdown——让它生出持久的本地 React 小工具：色板、火焰图、状态机、限流器实验台，侧边栏列着你攒下的工作区。消息栈沉到底部，主界面是工具本身。作者说 Claude Artifacts 一关就没了，Radix 把产物落在磁盘上，还能手工改。当前版本免费，要一把 key 只为统计人数，无遥测。拍法：让代理做一个调色盘→拖滑块改代码→侧栏收藏。金句：跟代理协作的主界面，不该是聊天泡泡。\n\n所以呢：嫌 Artifacts 一关就丢，先让代理在 Radix 里给你留工具。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://radix-os.com"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49834964"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "drawcms-animated-diagrams",
+      "category": "小众工具",
+      "title": "DrawCMS：代理画的架构图会自己动起来",
+      "body": "普通架构图是死的，DrawCMS 在画布上加了一层时间轴：请求怎么走、部署怎么滚、事故怎么处置，都能按步骤播。装一行 npx skills add drawcms/drawcms-skill -g，Claude Code / Codex / Cursor 就能直接在编辑器里建节点、加动效；也支持 WebMCP，让 ChatGPT 在浏览器画布上改。能从 draw.io / Excalidraw 导入，再导出 GIF、MP4 给文档和视频。本地开源可自托管，Cloud 负责分享链接。拍法：一句「画出结账请求链路」→看连接线动起来→导出成短视频素材。\n\n所以呢：下期技术讲解别再贴静图，让代理直接给你可播的图。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://drawcms.com"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/drawcms/drawcms"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49834430"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "sitcom-flavour-claude",
+      "category": "小众工具",
+      "title": "Sitcom Flavour：让 Claude Code 偶尔甩一句情景喜剧",
+      "body": "ada.tools/sitcom-flavour 是个 Claude Code 插件：十五部剧、一百六十七条手挑台词，按「情境」而不是按角色匹配——测试全绿、修不好的 bug、云账单来了，才甩一句 Noice 或 Holt 式吐槽。纯 bash、不联网，台词永远不进你的代码。Install 演示页像情景喜剧分镜，本身就能截屏做封面。拍法：跑一遍测试→绿条出现→Claude 甩一句→切到插件说明「从不碰代码」。好玩点：正经工具链里，故意留一点客厅笑声。\n\n所以呢：想给编程直播加一点喜剧节奏，先给 Claude 装上情景喜剧调味料。",
+      "links": [
+        {
+          "label": "插件页",
+          "url": "https://ada.tools/sitcom-flavour/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49840365"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "framesmith-mcp-quality",
+      "category": "小众工具",
+      "title": "Framesmith：代理出图前先过「品味质检」",
+      "body": "多数 MCP 设计画布只管让代理画 HTML；Framesmith 多了一步死磕：内置十一套过测的页面原型，代理必须改写它们，再用六维评分和「陈词滥调检测」卡关，不到 READY 不给你看。画布是 HTML/CSS 场景图，无头 Chromium 渲成 PNG，设计以开源 JSON 落进仓库，可回导入已上线页面对照。浏览器里有质量检查器和设计系统面板。跟「再来一个 Agent 画板」不同的是：它先防 AI 审美垃圾。拍法：展示 NOT READY 红灯→自动修订→READY 才进审。\n\n所以呢：怕代理出一张一看就假的落地页，先给它接上带质检的 Framesmith。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vicmaster/framesmith"
+        },
+        {
+          "label": "MindPattern 摘要",
+          "url": "https://mindpattern.ai/f/23661"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "comfyui-old-time-radio",
+      "category": "小众工具",
+      "title": "ComfyUI 老式广播剧：本地工作流自己演一整集",
+      "body": "ComfyUI-OldTimeRadio 不是又一个文生视频节点包——它是一整条本地广播剧流水线：写台本、分角色、配乐音效，最后吐出 mp4。扩展管理器搜 old time radio 安装，模板里开 otr_canonical，首次大约下十二 GB。关键开关在 OTR_LedgerScriptWriter：填 custom_premise 和角色情节，它就演你的故事；留空则自己滚新闻、公版书或莎士比亚场面。支持多语言包括中文。拍法：输入一句「雨夜侦探找猫」→看节点跑→耳机听成片开头。金句：Comfy 不只出图，还能本地演广播剧。\n\n所以呢：想做有声内容又不想串联十个 SaaS，先跑这条老广播剧工作流。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jbrick2070/ComfyUI-OldTimeRadio"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49780559"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "app-preview-craft-skill",
+      "category": "小众工具",
+      "title": "App Preview Craft：代理技能一键出商店图和宣传片",
+      "body": "imshaikot 的 App Preview Craft 是 Agent Skill：把 App 截图和录屏丢给它，本地用无头 Chrome、three.js、ffmpeg 渲出 App Store / Play 商店图、社交卡片、三维机模和宣传短片。不靠云端美图工厂，落地页预览里直接有 trio、desk 等三维场景。适合「刚写完 App、还没美工」的独立开发者，也适合内容创作者批量出封面变体。拍法：一张手机截图→技能跑完→同屏对比商店风格帧和三维桌面摆拍。钩子：商店素材也变成可复用的代理技能。\n\n所以呢：下架前赶宣传图，先让代理技能在本地渲一版。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/imshaikot/app-preview-craft-skill"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49739407"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
+    {
+      "id": "lini-text-diagrams",
+      "category": "小众工具",
+      "title": "Lini：一种纯文本，画出图、表、原理图",
+      "body": "lini.rs 想统一「从文字到图」：流程图、思维导图、图表、时序、ER、工程图、平面图、电路原理图，都用同一种小语言，编译成可换肤的干净 SVG。Rust 写、开源、浏览器可玩。跟 Mermaid 抢的不是「能不能画框」，而是「一张语言能不能从脑图一路画到蓝图」——演示页改几行源码，主题和版式当场变。Show HN 刚上几天，适合技术博主当「图种太杂」的解药。拍法：同一段源码→切主题→从流程图跳到示意图。金句：一种语法，从头脑风暴画到施工图。\n\n所以呢：文档里图种太杂时，先看 Lini 能不能收成一种文本。",
+      "links": [
+        {
+          "label": "官网 / 试玩",
+          "url": "https://lini.rs/"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49835704"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-25T14:30:00+08:00"
+    },
     {
       "id": "transluce-urlquery-agent-swarm",
       "category": "硬科技",
