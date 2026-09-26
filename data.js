@@ -1,6 +1,477 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-26T10:10:50+08:00",
+  "updated": "2026-09-26T14:20:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-giantess-ice-satin",
+      "category": "提示词",
+      "title": "冰山蓝旗袍：小人滑板冲上去",
+      "body": "冰山上躺着一个几乎填满画面的女人，蜂蜜色长卷发，蓝缎旗袍在晚霞里一层一层反光。她几乎没抬头，脚边却有个正常人大小的男人踩着滑板，从晒到光的大腿一路冲过腰线，像在爬一座会呼吸的坡。提示词把旗袍金绣、白靴、黑铆钉腕带、木杖，以及「她相对他像山」写死，还规定十秒跟拍、一镜跟完、不许切景。滑板男的衣服和斜挎包也钉了颜色，免得模型中途换装。整段要像在巨大布景里拍动作短片，而不是贴图放大。所以呢：巨人片要的不是堆特效，是尺度对照——观众一眼就知道谁是山、谁是蚂蚁，故事才站得住。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Harry_thingss/status/2103724102150488168"
+        }
+      ],
+      "prompt": "A cinematic 10-second tracking shot on a vast ice mountain at late golden hour. A giant young woman with long wavy honey-blonde hair, olive-tan skin, sharp dark brows, and glossy lips lies on her side across a snowy ridge, filling most of the frame. She wears a royal-blue satin qipao with gold trim, high collar, puffy short sleeves with gold swirl embroidery, structured gold-edged chest panels, a wide white sash with silver dragon-and-wave embroidery, a high thigh slit, black spiked wristbands, and white boots. A long flowing blue robe-like hem drapes over her hips and legs like frozen fabric hills. One arm is bent, hand near her cheek; the other rests on a long smooth wooden staff lying in the snow.\nA tiny man (normal human scale relative to her) skateboards along her body. He has short dark hair, a dark gray t-shirt, beige trousers, black sneakers, and a small olive-green crossbody bag. He starts on her sunlit olive-tan thigh and rides up the curve of her hip and the blue satin fabric toward her midriff and chest.\nCamera is extremely low and close, starting at her legs and tracking forward and slightly upward with the skateboarder. Strong motion blur on the nearest skin, satin, and snow in the foreground. Shallow depth of field, warm rim light on her face and blonde hair against cold blue ice, slight wind in her hair and the dress hem. Distant jagged ice peaks and a pale peach-lavender sky. Photorealistic, high-end commercial look, 9:16 vertical, smooth continuous camera move, no cuts.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-seoul-witch-kitten",
+      "category": "提示词",
+      "title": "首尔女巫带小猫夜飞汉江",
+      "body": "黄昏的韩屋巷里，女孩戴着宽檐女巫帽，帽沿一枚小金月牙，怀里是一只金瞳小黑猫。她先冲镜头浅笑，再侧头看猫，然后跨上木扫帚，帚尾拖出金色火星，低飞掠过瓦顶与石板路。接着镜头拉开：汉江暮色、桥灯倒影、远处公寓楼，再落到霓虹夜市的人群缝里。提示词把三十秒拆成巷口特写、起飞、江面、夜市落地，还要求女孩和猫在每一段都是同一张脸、同一只猫，光也要从黄昏推到夜里。所以呢：旅行片不一定要航拍城市名片，把「同一个人带着同一种陪伴」串起来，观众才会愿意跟着飞完这一趟。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Zyrellix/status/2103717493517021693"
+        }
+      ],
+      "prompt": "Cinematic magical realism short film, 30 seconds, photorealistic yet slightly dreamy, dusk-to-night golden-blue hour in Seoul.\nA beautiful young East Asian woman with long flowing dark hair, wearing a wide-brimmed brown witch hat with a small gold crescent moon emblem, maroon/red cape over a cream ribbed sweater and dark blue skirt, holding a tiny adorable black kitten with huge round golden eyes and a small gold collar. Soft gentle smile, warm skin, cinematic close-ups.\nSequence:\n0-4s: Intimate close-up of the girl and kitten in a traditional Korean hanok village alley at dusk, wooden houses with curved grey tiled roofs, she smiles softly at camera then looks aside.\n4-8s: She mounts a wooden broomstick and takes off down the narrow stone-paved hanok street; golden sparkling magic trail streams from the broom tail as she flies low between the traditional houses.\n8-15s: Wide and medium shots flying over a wide calm river at twilight (Han River style), city skyline and illuminated apartment blocks and a bridge in the background, water reflecting lights; intercut close-ups of her smiling and the kitten looking around with big eyes.\n15-22s: She weaves between modern glass skyscrapers at dusk, sparkle trail glowing against the buildings, then flies toward a hill with a distinctive illuminated tower (N Seoul Tower / Namsan style) against a purple-blue sky.\n22-27s: Close-up of her looking upward with an excited, joyful open-mouthed smile, kitten still in her arms.\n27-30s: Wide establishing shot — she flies toward a giant full moon in the night sky; the moon has a cute white rabbit face wearing a grey knit beanie; a long glittering sparkle trail follows the broom. City lights and the tower visible below. Soft magical atmosphere, no text, no logos, no company names.\nMood: warm, whimsical, festive, gentle wonder. Smooth camera movement, shallow depth of field on close-ups, beautiful lighting, high production value, 24fps cinematic look. No Korean text, no Chinese text, no watermarks, no end cards with names. Silent or very light ambient wind and subtle magical sparkle sounds only. If any on-screen words appear they must be in English and minimal.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-porthole-meteor-heart",
+      "category": "提示词",
+      "title": "舷窗比心时流星砸地球",
+      "body": "太空站舷窗只有脸盆那么大，女孩白帽贴在内侧扮鬼脸；窗外宇航员被安全带拴着，站灯把他照得很亮，地球夜侧和城市灯火垫在背后。他们隔着玻璃互耍，一颗流星掠过他身后。她突然砸玻璃想让他回头，他却先比了个心，慢慢转身——还没转完，流星已经砸进大气层。她只掉了一滴泪。提示词把「舷窗必须小」「内外两个机位来回切」「流星必须在他半转时命中」写成硬规矩，还附了整份场景地图，连窗框螺栓颜色都写到了。所以呢：科幻短片的刺点往往不在爆炸，而在你刚好错过一秒钟的互视。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/alexwtlf/status/2103715287468069275"
+        }
+      ],
+      "prompt": "seedance 2.5 prompt\n\nSCENE CONTEXT\nNight side of the Earth. A space station in orbit; 📷@mila is inside at a small round porthole, 📷@astronaut floats outside it on a tether, lit by the station's floodlight against black space and the dark Earth with its city lights. They clown for each other through the glass; a meteor flies into the sky behind him and crosses toward the Earth; she hammers the glass and screams to make him turn, and he answers with a heart; he begins a slow turn and the meteor hits while he is halfway round; she watches the impact with one tear. 25 seconds, seven cuts between two camera positions: OUTSIDE, looking at the window from space, and INSIDE, her own eyes looking out through the porthole.\n\nLOCATION MAP\nTHE WINDOW IS SMALL: a porthole about 50 cm across. Her head in its white cap takes up half of its diameter and her shoulders are wider than it; the astronaut's helmet alone is two thirds of its width; the whole window is a quarter of his height. A porthole, not a dome, not a bay window, one small circle in a huge wall of hull.\nTHE SHIP, INSIDE: the porthole set in a wall of white padded panels. Its inner ring is dark grey bolted metal with red-and-white striped segments at the lower left and lower right; a warm LED strip runs along the top of the ring inside. The interior is dim, blue-grey, a few small status lights, cable runs and a handrail at the edge of frame. The glass is thick and clear.\nTHE SHIP, OUTSIDE: the same porthole from space, a raised dark metal collar with bolts set into a white hull of quilted insulation panels with grey seams, many panels tall, dwarfing the window; a small white floodlight on a short stalk above the window, aimed down across the glass and out toward the astronaut; the interior glows warm through the glass, and the same red-and-white segments of the inner ring show through it.\nTHE EARTH: night side, black-blue, city lights in gold clusters and threads across the dark continents, a thin blue-green airglow line along the limb, stars above the limb. No sun, no daylight anywhere in the film.\nINSIDE view: the ring fills the edges of the frame. The Earth is not a ball: it is a huge gentle arc, its night surface filling the lower 65% of the window, the limb a shallow curve running above the centre of the window, lower on the left and higher on the right, with a thin blue-green airglow line along it and black star field above. The exact CENTRE of the window is dark Earth surface with city lights, just below the limb: that is where the impact lands. The astronaut floats at the LEFT edge of the window, upper-left, within the left third, about 3 m away, against the black sky and the limb, facing the window; he never crosses into the centre. The meteor crosses the black upper right and comes down-left to the centre. Her right gloved hand enters from the bottom-right edge.\nOUTSIDE view, close: 📷@mila behind the glass, the dim interior behind her; no Earth in frame; the Earth and the meteor are behind the camera, to screen left, and appear only as faint reflections on the glass.\nOUTSIDE view, wide (CUT 1 only): the camera 9 m away, almost side-on, 70 degrees off the window's axis. The hull is a wall on the LEFT third of the frame, top to bottom, seen nearly edge-on; the porthole in it at middle height, seen as an upright narrow oval, her face in profile through the glass; the astronaut in the CENTRE-RIGHT of the frame, in profile, facing the window on the left, four times the height of the window; the night Earth in the bottom third, black space and stars above.\nGeometry, fixed for the whole film: from outside, her right hand is on the screen-LEFT side, the astronaut is on the screen-RIGHT side, and the meteor and its impact are behind the outside camera to screen left, never in frame from outside.\n\nFIRST FRAME / BLOCKING\nOUTSIDE, wide, 9:16, the side view. Already in motion: both of 📷@astronaut's gloves are on the hull either side of the window's collar, his body straight out from the hull, his visor 30 cm from the glass; inside, 📷@mila's face is pressed to the glass, nose flattened against it, cheeks puffed, both palms flat on the glass either side of her face, laughing. Neither looks toward the camera; they look only at each other.\n\nFORMAT MODE\nSeven cuts.\n\nCUT 1, 0:00 to 0:03, OUTSIDE, wide side view:\nAt 0:00.5 he pushes off the hull with both hands, gently, and drifts straight back from the window toward screen right, slowly, at a constant speed, about 1.5 m over the cut, no further, his feet trailing, his body rolling a few degrees, the white tether uncoiling in a short lazy loop between his hip and the hull. He raises his right glove into a thumbs-up toward her and holds it. Inside, she pulls her face off the glass laughing, waves at him with one hand in the small window, wiggles her shoulders in a little dance, then puffs her cheeks again and presses her nose back to the glass. Her eyes stay on him. NO meteor in this cut; nothing in the sky but stars. Last frame: he hangs 1.5 m from the window, thumbs-up raised, facing her; her face fills the small window, laughing at him.\n\nCUT 2, 0:03 to 0:06, INSIDE, her eyes:\nThe porthole's circle fills the width; he is at the left edge of the window, about 3 m out, facing us, his thumbs-up opening into a slow wave, the wave rolling his body a few degrees; her right gloved hand is already mid-wave at the bottom-right edge, back of the hand to camera. At 0:03.5 the meteor FLIES INTO the frame at the top-right corner of the window, far behind him, entering from the side on a diagonal aimed at the centre of the window, at the pace of a slow aircraft across the sky. It looks like real orbital footage of a bolide: a bright white head about the size of his helmet, and behind it a long smooth tail of light, a continuous soft-edged ribbon ten helmet-widths long, white near the head fading through pale orange to nothing, brightest at the head and dimming evenly along its length. The tail is pure light, like a long-exposure streak: no sparks, no embers, no particles, no flames, no flicker, no trailing debris. The head is never larger than his helmet. He does not see it. Her hand waves twice more; at the end of the cut it stops mid-wave and freezes.\n\nCUT 3, 0:06 to 0:08, OUTSIDE, close on her face through the glass:\nHer face fills the window from the top of the cap to the neck ring, the ring cutting the left and right edges. First frame: she is still smiling, her right gloved hand up beside her face on the screen-left side, frozen mid-wave. Her eyes shift to screen left and up, toward the meteor behind the camera. The smile goes; she swallows; the lips close; the hand lowers. On the glass, faint: the gold specks of the city lights reflected across the lower third, and the meteor as a thin bright line reflected in the upper-left, creeping slowly; both faint, never over her eyes. Two seconds, nothing else moves.\n\nCUT 4, 0:08 to 0:12, INSIDE:\nFor the first second nothing changes but the meteor: it reaches the Earth's limb just above the centre of the window and enters the air; the head brightens to a hard white point and the tail lengthens smoothly, and behind it, along the limb, a faint glowing trail of lit air lingers for a moment and fades. Still no sparks, no particles: a head and a smooth ribbon of light. Her hand hangs still at the bottom right. The astronaut keeps moving: he drifts slowly up and down along the left edge of the window, rolling a few degrees, one arm floating up to chest height, still facing us, warm, never leaving the left third. Then her hand closes and raps the glass three times with the knuckles and she shouts \"Hey! HEY!\"; the hand opens into a point, index finger extended toward the meteor at the centre of the window, arm straight, the glove shaking. The astronaut reads nothing. He brings both gloves together in front of his chest, fingers curved, thumbs down, into a heart shape, holds it for a full second toward her, the gesture rolling him slightly, then lets his hands float apart and drifts on. The camera leans 10 cm toward the glass.\n\nCUT 5, 0:12 to 0:15, OUTSIDE, over the astronaut's shoulder:\nForeground lower right, out of focus: the back of 📷@astronaut's helmet and the top of his backpack, 1 m from camera, drifting slowly across the corner of the frame. Behind the glass, her from the waist up: she slams the glass four times with the flat right palm, fast, her left hand gripping the inner rim to brace, her body recoiling after each hit; between slams the right arm shoots out and the index finger jabs to screen LEFT, away from him, twice. She screams \"BEHIND YOU!\" and then \"TURN AROUND!\", the second louder, her eyes shining wet, no tear yet, her eyes going from him to where she points and back. On the glass, faint reflections of the city lights below and the meteor's bright line upper-left, never over her eyes. He does not turn; he drifts, facing the window, for the whole cut.\n\nCUT 6, 0:15 to 0:21, INSIDE, exactly the framing CUT 4 ended on:\nHer right palm is flat on the glass at the bottom right, fingers spread. The astronaut, at the left edge of the window, is still drifting and rolling, facing us; his helmet tilts toward her pointing arm. At 0:16 he begins to turn around on the spot, slowly and smoothly: his whole body rotates to his left, screen right, the suit's momentum carrying him, the tether swinging after him, his position staying at the left edge. At 0:17, when he is halfway through the turn, side-on to us, the meteor reaches the ground at the exact CENTRE of the window, well to the right of him, with clear sky and dark Earth between him and the strike; its tail fades out behind it in half a second.\nThe impact is SMALL and SLOW, seen from 400 km up. At 0:17 it is a pinpoint of white light at the centre, smaller than his glove, like one city light flaring. Over the next second it swells into a glowing orange dot the size of his glove, and a thin bright ring appears around it, the size of his helmet. The ring expands slowly and evenly, visibly slower than the meteor moved: two helmet-widths across at 0:19, three helmet-widths across at 0:21, and no larger; its edge is a thin bright line, the ground inside it a dull orange glow, the city lights inside it going out one by one as the ring passes them. Everything outside the ring is unchanged: the rest of the planet stays dark with its city lights on, the limb, the airglow and the stars exactly as before. At the centre a thin column of smoke begins to rise, no taller than his helmet by the end of the cut, its top just starting to spread and lit faintly orange from below. The glow is brighter than the city lights but never washes out the frame and never lights up the whole planet.\nHe keeps turning at the same slow speed, until by 0:19 his back is fully to us, his backpack toward the window, and he faces the Earth and the small fire. He never overlaps the impact: it sits at the centre, he stays a dark silhouette at the left edge, a faint orange rim on the right side of his suit and helmet, hanging there, drifting slowly, not turning back. She breathes \"no\". Her hand slides 5 cm down the glass and stops.\n\nCUT 7, 0:21 to 0:25, OUTSIDE, EXACTLY the framing of CUT 3:\nHer face centred in the window, her right palm flat on the glass at the lower left, her eyes turned screen left and down, wide, unblinking. A soft orange glow rises from screen lower-left, slowly, over two seconds, never a flash: onto the glass and her palm first, a faint orange reflection of the distant fire in the lower-left of the glass, then onto her face from below, the chin, the underside of the nose, the lower lids, warm and steady, a little brighter than the LED strip above her. She does not blink. Her lower lids fill. One tear breaks from her right eye, screen left, and runs down the cheek to the jaw, catching the orange light. Her mouth stays closed; the lower lip presses once. Hold on her face to the end; the glow holds.\n\nOPTICS\nCUT 1: about 35 mm equivalent, deep focus, the hull, the window, her profile and the astronaut all sharp, the Earth below slightly soft. INSIDE cuts: wide, about 24 mm equivalent, deep focus, the ring, the astronaut and the Earth all sharp, the glove close to the lens slightly soft. OUTSIDE close cuts: about 50 mm equivalent, shallow depth, her face sharp behind the glass, the ring soft; CUT 5 about 40 mm with the helmet soft in the foreground.\n\nCAMERA\nEvery camera position is locked with a slow zero-gravity drift of a few pixels. INSIDE is her eyes: in CUT 4 it leans 10 cm toward the glass as she knocks; each palm slam in CUT 5 and the hand on the glass in CUT 6 give the frame a small shake that settles within half a second. No handheld wobble otherwise, no zoom, no move.\n\nACTION\n📷@astronaut is NEVER still, in any cut: he floats in zero gravity, always drifting, always rolling a few degrees, his legs trailing, his free arm floating at chest height between gestures, the tether coiling and uncoiling; every gesture moves his body, a thumbs-up pushes him back a little, a wave rolls him, the heart rolls him. In CUT 1 one gentle push with both hands, then pure drift at a constant speed, under 1 km/h, no second push, no flailing, staying within 1.5 m of the hull. From CUT 2 on his drift stays within the left third of the window in every INSIDE cut. He moves like a man in a pressurised suit under water, under 2 km/h, arms from the shoulder, the helmet turning with the torso. He never stands, never hangs frozen in one spot. His one big movement is the slow 180-degree turn on the spot in CUT 6, which starts one second before the impact and is halfway through when it lands. The meteor enters at the top-right corner at 0:03.5, moves on one straight diagonal at a constant speed to the centre of the window, never changing direction, never accelerating, its head never larger than his helmet, a head and a smooth ribbon of light with nothing flying off it. The impact grows slowly: pinpoint, glove, helmet, two helmets, three helmets, over four seconds, and nothing beyond the ring changes. Her movements are fast and human; nose to glass, palms on glass, waving, knocking, slamming; the glove never passes through the glass.\n\nPERFORMANCE\nHer arc: clowning, playful, noticing, still, alarmed, frantic, watching, defeated. Clowning: a girl goofing for someone she loves, nose flattened on the glass, puffed cheeks, a shoulder dance, unguarded, laughing, eyes on him, never on the lens. Playful: a bouncing wave. Noticing: the smile goes out of the face before the hand knows it, the eyes move first, a swallow. Alarmed: knuckles, a straight pointing arm, the glove shaking, a shout. Frantic: the whole forearm behind the slams, the body recoiling, brows up, mouth wide on the screamed words, eyes shining, breath fast. Watching: the mouth opens for one whispered word. Defeated: nothing on the face moves except the eyes filling and the one tear; the stillness is the performance. No sob, no scrunched face, no blinking, no head shake in CUT 7.\nThe astronaut's arc: warm, warm, loving, turning, silhouetted. All suit, slow and rounded; he never rushes. The push-off in CUT 1 is a man stepping back from a doorway to look at her; the heart is sincere and unhurried, a man who thinks he is being flirted with.\n\nPHYSICS\nZero gravity throughout: outside, the astronaut drifts and rotates continuously, the tether floats; inside, she braces on the rim to strike and recoils after each slam; nothing hangs, nothing falls. The glass is thick and clear, never flexes, never cracks, never fogs; her nose and palms flatten against it in CUT 1; from outside it reflects faintly what is behind the camera, the city lights and the meteor's line, and from CUT 7 the faint orange of the distant fire. The meteor is a body far away, seen as a bright head with a smooth luminous trail; the trail is glowing air, not particles, and it fades evenly. The impact is a real, distant event seen from orbit: a small fire on the ground, a ring of shock that expands at a steady, slow, visible pace, a column of smoke that rises slowly; it is a real light source but a small one, lighting the ground around it, the right edge of his suit faintly, and her face softly. His gold visor is a curved mirror: while he faces the window it reflects the porthole as a small warm circle of light with the LED strip along its top, the station floodlight as a bright point, and her as a small dark silhouette inside that reflected window, no facial features. Nothing is ever visible behind the visor.\n\nLIGHTING\nNight. Key on the astronaut: the station floodlight above the porthole, hard white, 5600 K, from above, deep unfilled shadow under his arms and on his lower body. Fill: faint gold glow from the city lights below, 2800 K. His helmet lamps are off. Key on her face from outside: the warm LED strip along the top of the ring inside, 3200 K, soft, from above and in front; fill: cool blue-grey cabin light from screen right, 6500 K, faint. From 0:17 a second source, orange, 2400 K, small and rising slowly: from inside it comes from the centre of the window, to his right, a faint rim on the right side of his suit; from outside it comes from screen lower-left, from below, a soft glow that by CUT 7 is a little brighter than the LED strip on her face, never a flash, never blinding.\n\nAUDIO\nOne sound bed for the whole film, INSIDE the station, under every cut including the outside ones: a low ventilation hum. At 0:00.3 her laugh, close; the squeak of her palms and nose on the glass; a soft dull thud through the hull as his gloves push off. CUT 2: the rustle of the glove, her breath. CUT 3: her breath stops, a swallow. CUT 4: three dull knuckle knocks on thick glass with a short structural ring after each; \"Hey! HEY!\", close and loud. CUT 5: four flat palm slams, louder, a deep ring; \"BEHIND YOU!\", \"TURN AROUND!\", screamed, her breath ragged between them. CUT 6: the impact makes no sound, only the hum; \"no\", whispered; the glove squeaking down the glass. CUT 7: one long exhale, then the hum alone. Outside the glass there is vacuum: nothing she says reaches him. No music, no boom, no rumble.\n\nSTYLE\nPhotoreal live-action, modern digital cinema, clean sensor, no grain, deep clean blacks in the space and the night Earth. Hard single-source light with deep shadow, matching the project Look. No AI gloss, no glow particles anywhere, no sparks, no lens flare over her face. The meteor and the impact look like real orbital footage, not visual-effects fireballs.\n\nPOSITIVE LOCKS\n- THE WINDOW IS SMALL: about 50 cm across, a quarter of the astronaut's height, his helmet two thirds of its width, her head in the cap half of its diameter, her shoulders wider than it. Never a large window, never a dome.\n- 📷@mila 100% matches her reference sheet: face, white cap, white suit, neck ring, white gloves with grey fingertips. Sheet background and layout NOT inherited. No helmet on her, ever. She never looks at the camera.\n- 📷@astronaut 100% matches his reference sheet: the white EVA suit, the backpack, the gold mirrored visor down, the US flag on his left shoulder and the black patch with the green infinity symbol on his chest, exactly as on the sheet. No face inside the helmet and no face reflected on the visor, ever: the visor shows only the reflected window, the floodlight and her dark silhouette. Sheet background and layout NOT inherited. He never looks at the camera.\n- CUT 1: side view, 70 degrees off the window's axis, 9 m away, hull on the left, astronaut on the right facing the window; he starts directly in front of the window with his gloves on the hull, pushes off at 0:00.5, drifts right no more than 1.5 m. NO meteor in CUT 1.\n- Night for the whole film: black space, the night Earth with city lights, no sun, no daylight, no blue daytime Earth.\n- The Earth is a huge gentle arc filling the lower 65% of the window in INSIDE cuts, never a full ball, never a small planet in the distance.\n- The meteor is a bright head about the size of his helmet with a smooth continuous ribbon of light behind it. NO sparks, NO embers, NO particles, NO flames, NO debris, NO flicker, ever. The head is never larger than his helmet.\n- The impact is SMALL and SLOW: a pinpoint at 0:17, a ring the size of his helmet at 0:18, two helmet-widths at 0:19, three helmet-widths at 0:21, never larger. Nothing outside the ring changes; the rest of the planet keeps its city lights; the planet is never covered in fire, never washed out, never destroyed. No instant flash across the Earth.\n- The impact is at the exact centre of the window. The astronaut stays within the left third of the window in every INSIDE cut and never overlaps the impact or the smoke.\n- INSIDE cuts: the same porthole, same ring with its red-and-white segments, same Earth, same glove at the bottom right. CUT 6 returns to exactly the framing CUT 4 ended on.\n- OUTSIDE close cuts: CUT 7 is exactly the framing of CUT 3. From outside no Earth, no meteor, no impact are ever directly in frame, only their faint reflections on the glass and the impact's soft light.\n- Reflections on the glass are faint and never cover her eyes; her face is always sharp and readable.\n- The sky is empty until 0:03.5; the meteor enters at the top-right corner at 0:03.5 and never disappears until impact. One meteor only, no meteor shower.\n- Two people only: her inside, the astronaut outside. In CUT 5 he is seen from BEHIND only and never turns toward the camera. No second hand, no reflection of any person on the window glass.\n- The astronaut faces the window and keeps drifting until 0:16; he begins his slow turn at 0:16, is side-on to us when the impact lands at 0:17, and from 0:19 to the end of CUT 6 his back is to us. He never looks at the meteor before the turn. He is never frozen: he drifts in every cut.\n- One tear, from one eye, in CUT 7 only. No tears before that. No sobbing, no red nose, no open mouth in CUT 7.\n- The glass stays whole: no cracks, no fog, no frost. No text, no letters, no numbers anywhere. The only markings in the film are the US flag on the astronaut's left shoulder and the green infinity patch on his chest, as on his sheet.\n- No blood, no gore, no people on the ground. No title, no fade, no black frames.\n- No theatrical eyebrows, no lip biting, no exaggerated gestures; nothing outside the glass moves fast.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-seal-milwaukee-exfil",
+      "category": "提示词",
+      "title": "密尔沃基白天接人撤离",
+      "body": "密尔沃基工业区的红砖仓库、窄巷和装卸台，时间是大上午，阳光很正面。四个人的小队贴着墙走，去接一个被困的情报员。镜头故意拍得像贴身纪录片：脚步有重量，电线杆会挡路，动作不炫、不转圈开枪。提示词开场就写明这是「虚构演绎」，并把「不要像动作片编排」写进负面约束，连多镜头也要求像嵌入式现场素材，环境一直在制造阻碍。所以呢：军事短片想让人信，先丢掉慢镜转身开火，留下汗味、真实走位，和白天户外那种无处可藏的紧张。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Diplomeme/status/2103708734489014482"
+        }
+      ],
+      "prompt": "30 SECONDS | 16:9 | PREMIUM MILITARY DOCUMENTARY | COMMERCIAL GRADE | SEEDANCE 2.5 | MULTISHOT\n\nFICTIONAL DRAMATIZATION\n\nA fictional special-operations extraction staged in Milwaukee, Wisconsin. This is an original cinematic documentary reconstruction, not a depiction of an actual military operation.\n\nCORE CONCEPT\n\nA four-person special-operations team moves through an industrial district in broad daylight to extract a stranded intelligence operative.\n\nThe film begins observational and controlled, gradually increasing urgency as the team reaches the extraction point.\n\nThe visual language combines premium documentary cinematography with authentic embedded-field footage.\n\nNothing feels choreographed for an action movie.\n\nEvery movement has physical weight, environmental consequence and documentary imperfection.\n\nSETTING\n\nMilwaukee, Wisconsin.\n\nLate morning.\n\nA realistic industrial neighborhood featuring old red-brick warehouses, narrow service alleys, concrete loading areas, parked vehicles, utility poles, overhead cables, mature street trees and distant Milwaukee skyline elements.\n\nThe environment feels lived-in rather than abandoned.\n\nLight traffic exists in the background.\n\nPedestrians are distant and naturally integrated into the environment without becoming part of the operation.\n\nCHARACTERS\n\nFOUR FICTIONAL SPECIAL-OPERATIONS OPERATORS:\n\nContemporary tactical uniforms, helmets, plate carriers, gloves, backpacks and realistic field equipment.\n\nEach operator has a distinct face, body type and movement style.\n\nONE CIVILIAN INTELLIGENCE OPERATIVE:\n\nAdult male, civilian clothing, dusty appearance, visibly exhausted after remaining inside the warehouse.\n\nNo real military insignia.\n\nNo identifiable real-world unit.\n\nNo real-world operation.\n\nSTORY\n\n[00:00–00:02.5] — ESTABLISHING\n\nHigh but physically plausible documentary viewpoint overlooking a Milwaukee industrial district.\n\nThe city is calm.\n\nFour operators appear small in the frame, moving quickly between parked vehicles.\n\nA helicopter can be heard approaching before it becomes visible.\n\n[00:02.5–00:05] — MOVEMENT\n\nCut to handheld ground-level footage.\n\nThe camera operator follows behind the team.\n\nBoots strike cracked pavement.\n\nEquipment moves naturally against their bodies.\n\nOne operator briefly looks over his shoulder.\n\n[00:05–00:07.5] — OBSERVATION\n\nLong-lens documentary shot from across the street.\n\nThe team takes cover behind a concrete loading barrier.\n\nAn old brick warehouse dominates the background.\n\nThe team leader studies the building before giving a subtle hand signal.\n\n[00:07.5–00:10] — APPROACH\n\n35mm handheld camera follows as the team crosses a narrow alley.\n\nBright sunlight transitions into the warehouse’s darker entrance.\n\nThe camera’s exposure briefly adjusts.\n\nNatural autofocus behavior.\n\n[00:10–00:12.5] — ENTRY\n\nInside the warehouse.\n\nDust floats through shafts of daylight entering from broken upper windows.\n\nThe team moves through a service corridor.\n\nThe documentary camera remains slightly behind them.\n\n[00:12.5–00:15] — CONTACT\n\nThey discover the civilian operative waiting inside.\n\nHe immediately stands.\n\nOne operator communicates quietly over radio.\n\nThe atmosphere remains controlled but tense.\n\n[00:15–00:17.5] — CHANGE\n\nA distant metallic sound comes from outside.\n\nEveryone stops.\n\nThe team leader looks toward the entrance.\n\nNo dramatic music cue.\n\nOnly natural environmental sound.\n\n[00:17.5–00:20] — EXTRACTION\n\nThe team moves rapidly back through the warehouse with the civilian.\n\nHandheld camera movement becomes noticeably less stable as the operator tries to keep up.\n\n[00:20–00:22.5] — HELICOPTER\n\nThe team exits into bright daylight.\n\nA helicopter passes low between the surrounding buildings.\n\nRotor wash begins moving leaves, paper and dust across the street.\n\n[00:22.5–00:25] — LANDING ZONE\n\nThe helicopter settles into the extraction area.\n\nPowerful downwash pushes clothing and equipment.\n\nOperators shield their faces naturally.\n\nThe civilian struggles slightly against the wind.\n\n[00:25–00:27.5] — EXTRACTION\n\nThe civilian boards.\n\nThe operators follow immediately.\n\nThe camera remains outside, partially obscured by blowing dust.\n\nThe helicopter begins lifting.\n\n[00:27.5–00:30] — DEPARTURE\n\nWide documentary shot.\n\nThe helicopter rises above the industrial district and moves toward the Milwaukee skyline.\n\nThe camera remains stationary.\n\nDust slowly settles across the empty street.\n\nCut to black.\n\nCAMERA\n\nPremium documentary cinema camera operated entirely handheld.\n\n24mm for environmental establishing shots.\n\n35mm for close observational movement.\n\n50mm for human interaction.\n\n70–200mm for distant surveillance-style shots.\n\nNatural handheld micro-shake.\n\nSubtle operator breathing movement.\n\nOccasional imperfect framing.\n\nRealistic autofocus transitions.\n\nNatural exposure adaptation.\n\nPhysical camera inertia.\n\nNo robotic camera movement.\n\nNo impossible drone movement.\n\nNo slow-motion photography.\n\nNo music-video camera choreography.\n\nLIGHTING\n\nNatural late-morning Milwaukee sunlight.\n\nHard directional sunlight across streets and warehouse exteriors.\n\nDeep natural shadows between buildings.\n\nSoft ambient skylight inside the warehouse.\n\nRealistic exposure transition between exterior and interior.\n\nHelicopter rotor wash interacts visibly with sunlight, dust and airborne debris.\n\nNo artificial neon.\n\nNo exaggerated cinematic lighting.\n\nPHYSICS\n\nRealistic human weight and momentum.\n\nCorrect interaction between boots and pavement.\n\nNatural equipment movement.\n\nDust responds to footsteps and helicopter rotor wash.\n\nLeaves and paper move with changing wind pressure.\n\nClothing and straps react naturally to helicopter downwash.\n\nHelicopter maintains realistic flight behavior.\n\nNo floating objects.\n\nNo weightless movement.\n\nNo impossible tactical choreography.\n\nHUMAN PERFORMANCE\n\nOperators communicate primarily through subtle gestures and brief radio transmissions.\n\nControlled breathing.\n\nNatural head movement.\n\nRealistic situational awareness.\n\nNo theatrical shouting.\n\nNo exaggerated facial expressions.\n\nThe civilian appears physically tired and disoriented but remains believable.\n\nEveryone behaves like trained adults operating under pressure rather than action-movie characters.\n\nAUDIO\n\nAuthentic location sound.\n\nDistant Milwaukee traffic.\n\nWind between buildings.\n\nFootsteps on concrete.\n\nTactical equipment movement.\n\nQuiet radio communication.\n\nWarehouse ambience.\n\nDistant industrial machinery.\n\nHelicopter rotor gradually increasing in volume.\n\nHeavy rotor wash during extraction.\n\nNo heroic orchestral score.\n\nNo artificial cinematic impacts.\n\nNo exaggerated sound effects.\n\nVISUAL CHARACTER\n\nPremium 2026 documentary cinematography.\n\nPhotorealistic live-action appearance.\n\nHigh dynamic range.\n\nNatural skin texture.\n\nReal fabric texture.\n\nSubtle sensor grain.\n\nNatural highlight rolloff.\n\nControlled contrast.\n\nMuted documentary color palette.\n\nWarm sunlight against neutral concrete and red brick.\n\nRealistic atmospheric depth.\n\nThe footage should feel like an expensive international documentary production that happened to capture an extraordinary military operation.\n\nNOT a Hollywood action movie.\n\nNOT a video game.\n\nNOT a music video.\n\nCONTINUITY\n\nThe same four operators remain visually identical across every shot.\n\nThe same civilian operative remains consistent.\n\nUniforms, helmets, equipment and backpacks never change.\n\nThe Milwaukee industrial environment remains geographically consistent.\n\nSun direction remains consistent throughout.\n\nThe helicopter maintains consistent design, scale and physical behavior.\n\nAll events occur during the same late-morning operation.\n\nNEGATIVE CONSTRAINTS\n\nNo real military units.\n\nNo real military insignia.\n\nNo real-world operation.\n\nNo identifiable real soldiers.\n\nNo copyrighted characters.\n\nNo graphic gore.\n\nNo excessive explosions.\n\nNo futuristic weapons.\n\nNo videogame HUD.\n\nNo tactical overlays.\n\nNo artificial CGI appearance.\n\nNo plastic skin.\n\nNo excessive sharpening.\n\nNo impossible physics.\n\nNo duplicated people.\n\nNo distorted hands.\n\nNo changing faces.\n\nNo changing uniforms.\n\nNo random logos.\n\nNo watermarks.\n\nFINAL VISUAL INTENT\n\nThe viewer should feel as though they are watching footage captured by a professional documentary crew embedded with a fictional special-operations team in Milwaukee.\n\nThe operation is tense because of realistic human behavior, environmental pressure, camera imperfection and escalating urgency, not because of exaggerated action.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-giant-tree-village",
+      "category": "提示词",
+      "title": "巨树上的村庄延时盖完",
+      "body": "一棵巨树占满竖屏，几百个巴掌高的工人围着树根挖地基、抬梁、盖瓦。树干上架起平台，树屋里伸出木桥和螺旋梯，树下又摆开集市摊位，石板路和花箱一块块铺上去。提示词规定每两秒必须出现新的施工阶段，房子得看得见从地基到屋顶，不许魔法瞬成，也不许工人复制粘贴成一片。收尾是金色小时镜头后拉升高，整座多层村庄围着古树现身。所以呢：延时建造片要好看，靠的是「人还在搬砖」——观众爱的是过程，不是突然完工的空镜。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/RizwanAly07/status/2103399820824289472"
+        }
+      ],
+      "prompt": "Create a 30-second vertical 9:16 ultra-photorealistic miniature construction time-lapse: a spectacular village physically built around ONE enormous ancient tree. Hundreds of tiny realistic adult workers are visible continuously, working simultaneously with tools, ladders, ropes, carts and miniature cranes. Fast but readable construction, macro cinematic photography, natural sunlight, realistic wood, stone, soil, moss and vegetation, 4K HDR, live-action realism.\n\n0–2s: Workers clear the ground, mark foundations and dig around the giant tree roots.\n\n2–4s: Foundation stones and wooden floor beams are placed; workers erect the first timber posts.\n\n4–6s: Wall panels, floorboards and support beams are assembled piece-by-piece.\n\n6–8s: Workers lift rafters, build pitched roofs and place wooden shingles one-by-one.\n\n8–10s: Teams climb the trunk and construct elevated platforms around the massive branches.\n\n10–12s: Treehouses rise as workers install walls, windows, doors, balconies and roofs.\n\n12–14s: Workers build wooden bridges and spiral staircases connecting the treehouses.\n\n14–16s: More cottages are physically constructed outward from the giant tree, foundation-to-roof.\n\n16–18s: Hundreds of workers lay stone pathways, fences and a small wooden stream bridge.\n\n18–20s: A marketplace is assembled beneath the tree with stalls, counters and storage huts.\n\n20–22s: Higher platforms, balconies and connected treehouses expand through the branches.\n\n22–24s: Workers install railings, ladders, rope bridges, lantern posts and flower boxes.\n\n24–26s: Teams place stones, plant flowers and trees, create gardens and finish winding paths.\n\n26–28s: Final construction details are secured while hundreds of workers continue moving materials and working across the entire village.\n\n28–30s: Golden-hour reveal. Tiny villagers cross bridges and paths as the camera smoothly pulls backward and rises, revealing the enormous ancient tree surrounded by the completed multi-level village.\n\nKEY RULE: Every 2 seconds introduces a NEW visible construction stage while previous teams continue working. Buildings must visibly progress foundation → beams → walls → roof → details. No instant completion.\n\nNEGATIVE: cartoon, toy, plastic, CGI look, magical construction, instant appearance, morphing, teleportation, floating objects, disappearing materials, duplicated workers, giant humans, children, anatomy glitches, changing tree, inconsistent architecture, empty scenes, text, logos, watermark.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-washroom-zombie-attack",
+      "category": "提示词",
+      "title": "公厕镜子里的丧尸扑人",
+      "body": "昏暗公厕里，女孩低头洗手，镜子里却有另一张脸在盯她：肤色发青、青筋暴起、手指抽动、眼睛全黑。她被按到湿瓷砖墙上，逃到门口又被拖回；脖子上爬出黑纹，自己也站起来成了感染者。灯管闪了两下，两人一动不动看向镜头，像在等下一个推门进来的人。提示词写明「不要血腥特写」，却把传染链条、逼仄空间和手持晃动钉死，还要求丧尸脸锁定参考图。所以呢：恐怖片不一定靠喷血，封闭卫生间加上「下一个会是你」就够让人起鸡皮疙瘩。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/AIwithSynthia/status/2103091393145282775"
+        }
+      ],
+      "prompt": "Create an ultra-realistic Korean zombie-horror sequence inside a dim public washroom. Use << < image >>> as the exact reference for the zombie woman and keep her face, hair, body proportions and outfit consistent.\n\nA young woman enters the washroom and washes her hands, unaware that the zombie woman is watching her through the mirror. The zombie slowly reveals pale skin, dark veins, twitching fingers and completely black eyes before suddenly attacking her. She grabs the victim, pins her against the tiled wall, and chases her when she escapes toward the exit.\n\nThe victim struggles to escape, but the zombie catches her again. Dark veins spread across the victim's neck and face as she convulses and collapses. Her eyes turn milky white and then black as she rises, now infected. The two infected women turn toward another person entering the washroom and suddenly charge at them.\n\nEnd with the washroom lights flickering as the infected women stand motionless beneath the fluorescent lights, staring directly into the camera.\n\nStyle: photorealistic Korean zombie horror, claustrophobic tiled washroom, wet surfaces, cold fluorescent lighting, realistic skin, dark veins, terrifying eyes, unnatural but believable movements, handheld camera, practical-effects feel, natural reactions, no gore, no graphic injuries, no CGI look, no morphing, no duplicate characters, no distorted anatomy, no subtitles, no text, no watermark.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-giant-cat-pigeon",
+      "category": "提示词",
+      "title": "巨猫进城只为追一只鸽子",
+      "body": "大街上，一只几层楼高的毛猫从车缝里迈步，行人全挤到人行道仰头看。它突然盯上摩天楼檐上的一只鸽子，耳朵向前、歪头，然后笨拙地扒墙往上爬，窗户被爪子压裂。到了屋顶一爪拍空，天线和通风机被扫倒；鸽子轻松飞走，它跟丢了，最后蹲在楼顶若无其事舔爪子。提示词强调：猫要像好奇的家猫，破坏是失手不是蓄意拆城，也禁止卡通弹跳。所以呢：灾难喜剧的笑点，是把你家猫追鸟的坏习惯放大到城市尺度。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/apiframe_hq/status/2103161790976651447"
+        }
+      ],
+      "prompt": "Create a 30-second photorealistic cinematic comedy-disaster video using the provided image as the primary reference.\n\nCHARACTER CONSISTENCY:\nPreserve the exact same giant fluffy cat from the reference image. Maintain its fur color, markings, facial features, eye color, body proportions, and realistic fur physics. The cat must remain enormous, several stories tall compared with the surrounding buildings. Do not redesign, shrink, duplicate, or transform the cat.\n\nVISUAL STYLE:\nPhotorealistic live-action blockbuster aesthetic with realistic animal movement, physically believable destruction, detailed fur, natural lighting, atmospheric dust, cinematic camera movement, and realistic urban scale. Vertical 9:16. The destruction is non-graphic and caused accidentally by the cat's movements. The cat should behave like a curious, slightly confused house cat.\n\nSEQUENCE:\n\n1. CITY ARRIVAL (0–4s)\n   Open with a low-angle street-level shot as the giant cat calmly walks through a dense downtown avenue. Its paws step between cars, forcing traffic to stop. People run onto sidewalks and look upward in disbelief. The cat casually looks around, flicks its tail, and continues walking.\n\n2. THE PIGEON (4–8s)\n   The cat suddenly notices a small pigeon perched on a skyscraper ledge. Its ears point forward and its eyes lock onto the bird. The cat slowly crouches and tilts its head, becoming intensely curious. The pigeon remains completely unaware.\n\n3. CLIMBING THE BUILDING (8–13s)\n   The cat jumps and places its massive front paws against the side of the skyscraper. Windows crack and some exterior panels break under the pressure. The cat begins climbing awkwardly, gripping the building with its claws while trying to reach the pigeon. Small pieces of facade fall onto the empty street below.\n\n4. ROOFTOP CHAOS (13–18s)\n   The cat reaches the rooftop and stretches one enormous paw toward the pigeon. The pigeon suddenly flies away. The cat misses and accidentally knocks over rooftop antennas, satellite dishes, signs, and ventilation equipment. It quickly turns its head and tries to follow the bird across nearby rooftops.\n\n5. THE CHASE (18–24s)\n   Use a wide aerial shot as the cat carefully moves between skyscrapers, trying to follow the pigeon. Its tail sweeps across rooftop equipment, sending lightweight objects sliding and falling. The pigeon effortlessly stays ahead. The cat becomes increasingly confused, stopping to look around before spotting the bird again.\n\n6. COMEDIC ENDING (24–30s)\n   The pigeon flies away into the distance. The cat finally gives up and sits on top of a skyscraper. It looks down at the chaotic streets, then begins calmly grooming its enormous paw as if nothing happened. Its tail curls around its body. End with a slow cinematic pullback revealing the giant cat sitting peacefully above the damaged city.\n\nEnsure continuous movement, consistent city geography, realistic weight and gravity, natural feline behavior, believable building interactions, and clear cause-and-effect. Use varied low-angle, tracking, rooftop, aerial, and close-up shots. Avoid cartoon animation, exaggerated bouncing, teleportation, duplicated animals, inconsistent cat appearance, floating debris, repetitive destruction, injuries, gore, text, logos, and watermarks.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-lab-vacuum-breach",
+      "category": "提示词",
+      "title": "实验室黑泥泄漏：真空管收官",
+      "body": "试管碎了，黑色黏液贴着地砖冲向最近的人，几秒后地上只剩空外套和鞋。女科学家和同事冲出门外放雾，玻璃墙却炸开，黏液在走廊里又吞了一个人。她抓起推车上的工业吸尘器，慢镜头里对准喷口，把整团黑泥吸进罐子再锁死，最后滑坐在墙边抱着罐子喘气。提示词把「开场就要全速」「慢镜只留给两次收服瞬间」写死，还细到每一秒的机位。所以呢：科幻惊吓也可以土办法收场——吸尘器比激光剑更让人记得住，也更好学着写。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/auqibhabib/status/2103097300105269571"
+        }
+      ],
+      "prompt": "Cinematic sci-fi horror-thriller short film set in a research laboratory, opens with an immediate strong hook at full speed, no slow motion until later in the sequence, maximum dynamic camera work, grounded practical-effects style. Lab filled with steel equipment, a mirrored glass containment wall, monitors, specimen tables, harsh fluorescent lighting. A female lead scientist and two male colleagues work at various stations. Muted authentic color grading, natural diegetic sound throughout, tension score entering immediately.\n>\n> **[0-1s]** Extreme close-up, real-time: a glass tube shatters violently, a thick black substance spilling out fast onto the floor.\n>\n> **[1-2s]** Low-angle tracking shot along the floor: it surges fast across the tiles like living liquid, heading straight for the nearest scientist.\n>\n> **[2-3s]** Whip-pan to his face — eyes widening in horror as it reaches his feet.\n>\n> **[3-4s]** Overhead top-down shot: it engulfs him rapidly, dark mass consuming him in seconds.\n>\n> **[4-5s]** Wide shot: where he stood, only his empty coat and shoes remain on the stained floor.\n>\n> **[5-6s]** The female lead and second scientist scream, backing away fast toward the exit.\n>\n> **[6-7s]** They sprint through the lab door together, slamming it shut hard behind them.\n>\n> **[7-8s]** The creature slams against the door from inside, unable to break through immediately.\n>\n> **[8-9s]** Outside, the second scientist presses a control panel button, releasing a thick fog into the sealed lab.\n>\n> **[9-10s]** Through the observation window, the fog fills the room, obscuring the creature's shape entirely.\n>\n> **[10-11s]** They watch tensely, the second scientist murmuring, \"It should be stable now.\"\n>\n> **[11-12s]** A beat of silence — then the mirrored glass wall shatters violently outward.\n>\n> **[12-13s]** The creature bursts through into the corridor where they're standing.\n>\n> **[13-14s]** It surges over the second scientist instantly, engulfing him before he can react.\n>\n> **[14-15s]** The female lead stumbles back, alone now, breathing hard.\n>\n> **[15-16s]** It turns and surges toward her fast across the corridor floor.\n>\n> **[16-17s]** She spots an industrial vacuum unit mounted on a nearby cart and grabs the hose.\n>\n> **[17-18s]** SLOW MOTION insert: she swings the nozzle toward the advancing mass just as it reaches her.\n>\n> **[18-19s]** The substance gets pulled rapidly into the vacuum's intake, swirling and vanishing inside.\n>\n> **[19-20s]** SLOW MOTION: the last of it disappears into the machine, the hose falling still.\n>\n> **[20-21s]** She quickly seals the vacuum's canister shut with a latch, hands trembling.\n>\n> **[21-23s]** Wide shot: the corridor wrecked, fog still drifting from the shattered wall behind her.\n>\n> **[23-25s]** She backs against the wall, chest heaving, sweat soaking through her lab coat.\n>\n> **[25-27s]** Close-up on her face — tension slowly easing into exhausted relief.\n>\n> **[27-29s]** She looks down at the sealed canister in her hands, steadying her breathing.\n>\n> **[29-30s]** Final shot: she slides down the wall to sit on the floor, canister held tight, silence settling around her. Cut to black.\n\nAdd a very small, WHITE subtle watermark text \"AUQIB\"  in backstabber font in the DOWN bottom right corner of the frame, visible throughout the entire video.\n\n>\n> Natural diegetic sound throughout — glass shattering, liquid rushing, screaming, door slamming, fog hissing, vacuum motor whirring, heavy breathing — layered with a tense instrumental score building through the chase and easing into wary stillness at the end. No text overlay, no watermark. Maximum dynamic camera variety — low angles, overhead shots, whip pans, tracking shots, extreme close-ups, with slow motion reserved only for the two containment moments. Realistic shake only during physical impacts, muted clinical color grading with a dark metallic sheen on the creature. 9:16 vertical, 30 seconds. @SocialSight",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-dust-veil-trailer",
+      "category": "提示词",
+      "title": "沙城预告片：沙漠并未废弃",
+      "body": "红月挂在沙尘里，半埋的摩天楼像沉船。女主角关掉手电，贴着柱子屏住呼吸，细长人形从暗处经过；它突然停住转头，她狂奔钻过铁门，门后传来猛撞。屋顶上，沙海下面忽然亮起成千上万盏灯，巨大结构正往上顶。她低声说：这里不是废弃的。黑屏打出标题 Dust Veil。提示词要求原创生物、锁住上传角色的脸，并规定先潜行后追逐的节奏。所以呢：游戏预告片要的不是技能展示，是一句让人想点进商店页的结尾。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/aniyaintel/status/2102983491210432726"
+        }
+      ],
+      "prompt": "SEEDANCE 2.5 — 30 SECOND CINEMATIC GAME TRAILER\n\nUse the uploaded female character image as the strict visual identity reference for the protagonist. Preserve her exact facial identity, facial proportions, skin tone, eyes, eyebrows, nose, lips, jawline, and long dark-brown hair throughout the entire video. Do not change her appearance or make her look like a different person.\n\nCreate an ORIGINAL AAA stealth-horror survival game set in a vast abandoned desert megacity at night. 16:9 LANDSCAPE, 30 seconds, photorealistic cinematic game-trailer quality.\n\nSTYLE:\nDark cinematic stealth horror, realistic AAA game graphics, oppressive atmosphere, volumetric moonlight, blowing desert sand, deep shadows, subtle film grain, realistic skin and fabric, dramatic handheld camera, high-detail environments, suspenseful pacing, no cartoon style, no existing game or movie IP.\n\nSTORY:\n\n0–5 SEC:\nExtreme wide establishing shot of an enormous abandoned desert city buried beneath sand dunes. Half-collapsed skyscrapers disappear into the darkness. A giant red moon hangs through dust clouds. Wind pushes sand across empty streets. The camera slowly moves toward the female protagonist standing alone beside an abandoned military vehicle.\n\n5–10 SEC:\nSlow cinematic push-in. She wears a dusty tactical outfit, lightweight desert jacket, cargo pants, boots, tactical backpack and a small flashlight. Her long dark-brown hair moves naturally in the wind. She silently checks a compact weapon and switches off the flashlight as distant movement appears between ruined buildings.\n\n10–15 SEC:\nFIRST-PERSON STEALTH SEQUENCE. The protagonist moves silently through a narrow ruined corridor inside an abandoned desert facility. She hides behind a broken concrete pillar as a terrifying humanoid creature slowly passes through the darkness. The creature should feel original and unsettling: extremely thin silhouette, elongated limbs, irregular movements, reflective eyes, partially obscured by dust and darkness. She holds her breath and remains completely still.\n\n15–20 SEC:\nThe creature suddenly stops. Its head slowly turns toward her hiding place. Close-up on her eyes as she realizes she has been detected. She quietly moves backward while avoiding debris. The camera tracks her from behind with subtle handheld movement. A distant metallic scraping sound grows louder.\n\n20–25 SEC:\nThe stealth sequence erupts into a tense chase. She sprints through the ruined facility as the creature rapidly pursues her through clouds of dust. Emergency lights flicker. She slides beneath a collapsing metal doorway and narrowly escapes. The creature violently slams into the door behind her.\n\n25–30 SEC:\nSilence.\n\nShe emerges onto a massive rooftop overlooking the desert city. The camera slowly circles around her as she looks toward thousands of distant lights suddenly turning on beneath the sand. A gigantic unknown structure begins rising from the desert in the distance.\n\nShe whispers:\n“It's not abandoned.”\n\nCUT TO BLACK.\n\nTITLE CARD:\n“DUST VEIL”\n\nSUBTITLE:\n“THE DESERT IS WATCHING.”\n\nCAMERA:\nSmooth cinematic establishing shots → slow push-ins → claustrophobic handheld stealth shots → first-person perspective → rapid chase tracking → dramatic final wide shot.\n\nSOUND:\nHowling desert wind, distant metal creaks, footsteps on sand, subtle breathing, low-frequency horror ambience, creature scraping sounds, heartbeat during detection, sudden silence before the final reveal. Deep cinematic impact on the title card.\n\nIMPORTANT:\nMaintain perfect facial and character consistency throughout. Natural realistic motion, realistic hands and anatomy, accurate weapon handling, believable running physics, realistic hair movement and cloth simulation. No face morphing, no identity changes, no duplicate characters, no extra limbs, no distorted hands, no random costume changes, no text glitches. Original stealth-horror game concept, not based on any existing franchise.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-travel-storybook",
+      "category": "提示词",
+      "title": "填地名就出手绘旅行故事书",
+      "body": "打开提示词，把方括号里的国家、城市或主题换成你想去的地方，就会得到一页竖版复古手绘旅行故事书插画：像儿童读物和旅行手账混在一起，允许笨拙比例、手作痕迹和温暖纸色。它写明只要文字、不要参考图，整页构图从主题名自己长出来。适合做系列封面，也适合当礼物卡片底图。所以呢：旅行海报不一定要实拍风光大片，填一个地名就能开一本你自己的故事书，门槛低到可以当天发朋友圈。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Goodmanprotocol/status/2103710396704240066"
+        }
+      ],
+      "prompt": "Create a premium 4:5 vertical vintage hand-drawn travel storybook illustration for [COUNTRY / CITY / LOCATION / SUBJECT].\n\nTEXT-TO-IMAGE ONLY — generate the entire composition creatively from [COUNTRY / CITY / LOCATION / SUBJECT] alone. No reference image required.\n\nCONCEPT\nCreate a nostalgic imagined travel memory inspired by 1950s–1960s European city storybooks. It should feel like a warmly remembered journey rather than a map, postcard, or literal architectural study.\n\nSCENE\nAutomatically select:\n• 1 unmistakable primary landmark, slightly off-center\n• 1 secondary local landmark\n• 1 smaller distant partially hidden landmark\n• 1 authentic local transportation vehicle\n• 3–5 charming everyday environmental details\n• 5–6 ordinary local residents naturally performing simple daily activities\n\nCompress everything into one whimsical imagined street scene while keeping the landmarks recognizable and geographically believable.\n\nDRAWING STYLE\nUse loose charcoal and deep navy ink lines with trembling contours, slightly crooked architecture, sparse windows, simplified silhouettes, and minimal linework. Embrace charming imperfections, awkward proportions, handmade marks, and subtle visual humor.\n\nCHARACTERS\nDraw ordinary local people with oversized heads, thin legs, narrow bodies, tiny faces, slightly crooked accessories, and simple readable gestures. Show authentic everyday life rather than celebrities, heroic poses, or staged characters.\n\nCOLOR & MATERIAL\nUse a restrained palette of 6–7 colors naturally associated with [COUNTRY / CITY / LOCATION / SUBJECT]. Apply muted gouache-like flat color with uneven brush edges, tiny unpainted gaps, slight registration misalignment, and visible handmade imperfections. Leave large areas of the sky almost completely uncolored so the warm paper remains visible.\n\nFINAL AESTHETIC\nNostalgic European travel storybook × loose charcoal sketch × navy ink drawing × muted gouache × naïve handmade illustration × warm everyday city life.\n\nThe artwork should feel imperfect, gentle, witty, intimate, and beautifully handmade rather than polished or digitally precise.\n\nTYPOGRAPHY\nAdd only the exact location name of [COUNTRY / CITY / LOCATION / SUBJECT] as a small handwritten caption at the bottom.\n\nAvoid photorealism, precise cartography, aerial views, gradients, 3D rendering, realistic photography, polished vector art, hyper-detailed watercolor, excessive linework, heavy vintage effects, clutter, logos, watermarks, or modern graphic-design styling.\n\nFORMAT: 4:5 vertical, single unified illustration, generous negative space.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-kiss-beyond-canvas",
+      "category": "提示词",
+      "title": "画室里吻出画布的金光",
+      "body": "画室里，一幅未完成的画正在发光。画里的人探出画框，和站在画外的人接了一个金晖亲吻，像把梦吻进现实，又像把现实拉进画里。提示词要求上传参考图锁住脸，竖构图，超现实却又像影院剧照，还强调身份不能漂。你可以把「画中人」换成自己或情侣，让海报一眼就有故事钩子。所以呢：恋爱海报可以不拍咖啡店对视，让「画里的自己」先动起来，观众立刻懂这是关于谁的故事。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/imGopalTiwari/status/2103711165033619952"
+        }
+      ],
+      "prompt": "Hyper-realistic IMAX-level Netflix-style surreal cinematic artist studio portrait, 9:16 vertical. Use the uploaded image as the primary visual reference and preserve the exact facial identity, proportions, and defining features. Create a couple in an artist studio, the man wearing a loose off-white paint-stained shirt with rolled sleeves and dark paint-splattered trousers, holding a large paint-covered wooden palette in his left hand and a thin brush in his right hand. The woman is physically emerging from the large painted canvas behind her: everything from her lower body up to the area below her chest remains completely submerged within the painted surface, while her upper torso, shoulders, neck and head visibly break through and project outward from the canvas; she leans naturally toward the man and they share a gentle kiss, creating the illusion that she has come alive from the painting. The man stands close to the canvas facing her, slightly leaning forward toward her emerging upper body. The woman has a loose messy reddish-copper low bun with abundant natural texture, irregular flyaway strands, soft wisps around the forehead and temples, loose strands around the ears and neck, and slightly damp-looking separated strands that blend into the painted texture around her shoulders. The man has thick medium-length dark-brown curly hair with dense uneven curls, natural volume and loose strands around the forehead and ears. The man’s eyes are gently closed with a soft affectionate expression and relaxed jaw; the woman’s eyes are also closed, her lips softly meeting his, chin slightly raised, eyebrows relaxed and facial muscles calm, creating a quiet intimate expression. Fair luminous porcelain skin with a bright ivory to light beige tone and a neutral-cool undertone, with natural realistic texture and subtle warm highlights where the studio light touches the emerging figure. The canvas behind her is covered with expressive layered brushwork, with her submerged lower form visually dissolving into the surrounding paint while the emerging upper body transitions naturally from painted texture into realistic three-dimensional form. Strong golden sunlight enters from the large window on the left, striking the man, the woman’s emerging face and shoulders, and selected areas of the canvas, while the opposite sides remain in deep soft shadow, creating dramatic directional chiaroscuro and a clear transition between light and darkness. Warm amber, burnt umber, copper, creamy white and muted blue-gray colour grading, luminous golden highlights, deep textured shadows, controlled contrast, slightly warm white balance, restrained saturation, natural skin tones, subtle film grain and rich painterly cinematic depth. \nNegative prompt: changed identity, distorted face, deformed hands, bad anatomy, extra limbs, incorrect canvas integration, floating body, harsh cutout edges, flat lighting, plastic skin, text, watermark.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-memory-sketch-bulb",
+      "category": "提示词",
+      "title": "真人与墙上铅笔记忆共处",
+      "body": "年轻卷发男人戴方框眼镜坐在右下角，表情有点抽离。身后老墙上是同一张脸的铅笔素描：更年轻，正摘眼镜捂住一只眼。两人之间吊着一盏暖黄爱迪生灯泡，影子被拉到墙的右侧，像过去和现在共用一盏灯。提示词把灯泡位置、构图三分和「现在与记忆」的对照写死，并要求上传参考图锁脸。所以呢：怀旧不一定靠滤镜泛黄，让记忆以素描形式站在你背后，一张图就能讲完「我变成了谁」。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/OrhanGhazi65942/status/2103697771891196215"
+        }
+      ],
+      "prompt": "Use the uploaded image as the primary visual reference. Recreate the same composition and cinematic storytelling: a young curly-haired man wearing rectangular glasses, a dark jacket over a light shirt, sitting in the lower-right foreground with a quiet, emotionally distant expression. Behind him, on an aged textured wall, is a large hand-drawn pencil-sketch version of the same person, appearing younger and holding/removing his glasses while covering one eye, creating a visual contrast between his present self and his memories.\n\nA single warm vintage Edison bulb hangs from the ceiling exactly between the real subject and the sketch, acting as the main practical light source. The bulb casts warm amber illumination across the face and wall while creating a large, soft, haunting shadow on the right side.\n\nCamera position: eye-level camera positioned slightly in front of and to the right of the subject, medium-close portrait framing, with the subject occupying the lower-right third and the sketch dominating the left background. Keep the hanging bulb near the central vertical axis. Slightly compressed perspective, natural depth, subtle foreground/background separation.\n\nAtmosphere: melancholic, nostalgic, mysterious, introspective, slightly surreal. Photorealistic subject combined with hand-drawn graphite artwork, making the sketch feel physically integrated into the old wall rather than digitally pasted on.\n\nLighting: low-key cinematic lighting, warm tungsten glow from the bulb, deep surrounding shadows, subtle falloff, realistic skin highlights, detailed curly hair, natural reflections on glasses.\n\nColor palette: muted olive-brown, aged beige, charcoal black, warm amber and subtle skin tones. Add realistic wall cracks, stains, pencil texture, film grain and gentle atmospheric imperfections.\n\nComposition must closely preserve the reference image, including the subject placement, sketch placement, hanging bulb, shadow, lighting direction, and emotional contrast. Vertical 9:16, cinematic editorial photography, ultra-detailed, photorealistic, 4K.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-world-inside-shadow",
+      "category": "提示词",
+      "title": "影子里藏着一整座世界",
+      "body": "象牙纸色背景上，人物、地标或城市像博物馆展品一样安静站着，却拖出一条异常长的影子。影子里不是空的：街道、小人、建筑和回忆往远处越画越细，像平行宇宙藏在轮廓里。提示词让你把方括号换成任意主题，主体保持克制写实，细节全塞进影子。适合做城市海报、人物特刊封面，也适合做「一城一影」系列。所以呢：海报金句可以只有一句——真正的故事，住在影子里。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/Naiknelofar788/status/2103693304538038645"
+        }
+      ],
+      "prompt": "Create a breathtaking, surreal editorial artwork based on [PERSON / LANDMARK / OBJECT / CITY], built around the concept “THE WORLD INSIDE A SHADOW.”\n\nShow the main subject as a refined, almost museum-quality object or scene against a vast warm ivory paper background. The subject casts an unusually long, sharply defined shadow.\n\nBut instead of being empty, the shadow contains an entire hidden world connected to the subject.\n\nInside the shadow, reveal miniature scenes, architecture, landscapes, people, streets, memories, symbols, objects, and cultural details associated with [PERSON / LANDMARK / CITY / COUNTRY]. The shadow should feel like a secret parallel universe — as if the true story of the subject exists inside its silhouette.\n\nThe actual subject remains elegant, minimal, realistic and recognizable, while the shadow becomes increasingly detailed, surreal and dreamlike toward its farthest edge.\n\nCreate a seamless transition from realistic materials into delicate hand-drawn ink, architectural linework, tiny paper-cut elements, vintage engraving textures, subtle halftone dots and miniature painted details.\n\nUse extreme visual storytelling and micro-details that reward close inspection.\n\nComposition:\n\nsophisticated editorial art direction\nstrong central silhouette\nenormous flowing shadow extending diagonally across the canvas\ngenerous negative space\nvisual hierarchy from simple subject → complex hidden world\nno unnecessary objects\nno clutter\n\nMaterial language:\nfine art paper, ink, graphite, engraved textures, subtle embossing, handmade print imperfections, delicate paper fibers, restrained collage elements.\n\nColor palette:\nwarm ivory, charcoal, faded black, muted stone, dusty beige, with one controlled signature color inspired by [COUNTRY / CITY / SUBJECT].\n\nLighting:\nsoft museum lighting, subtle natural shadow, cinematic but understated.\n\nMood:\nmysterious, intelligent, poetic, luxurious, slightly surreal, timeless.\n\nAdd extremely minimal typography:\n[NAME]\nsmall refined serif type placed away from the artwork, like a museum exhibition label.\n\nNo generic fantasy aesthetic, no excessive glow, no neon, no random decorative objects, no cheesy symbolism, no overcrowding.\n\n4:5 vertical — premium contemporary art poster — museum exhibition quality — surreal editorial photography fused with handcrafted fine art — ultra-detailed — sophisticated and original.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-nano-snow-catch-cat-hat",
+      "category": "提示词",
+      "title": "猫耳帽女孩林中接雪",
+      "body": "夜里的树林在下雪，闪光灯把女孩轮廓打成剪影。她穿亮面白色短款羽绒服，戴一顶带猫耳的白帽子，抬头伸手去接雪，雪片在逆光里像碎玻璃。提示词很短，但把「极近半身」「逆光」「闪光灯」「抬头看」钉死了，动作清楚到几乎不需要再改。适合当冬日封面，也适合练「短提示词是否够用」。所以呢：出片不一定靠长篇形容词，四个动作词叠在一起，画面自己会站稳。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/dreamydigiarts/status/2103703611007992002"
+        }
+      ],
+      "prompt": "A girl catching snow with her hand in a forest, extremely close-up waist-up shot. Her silhouette is backlit, it is snowing at night. Flash photography. She is wearing a white cropped glossy winter jacket and a white winter hat with cat ears. She is looking up.",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-nano-waffle-rugby-collage",
+      "category": "提示词",
+      "title": "华夫饼双帧：挤奶油那一下",
+      "body": "一张方图里叠着两个相框：雀斑女孩穿着宽大的黑白橄榄球衫，卡其短裤配橙色棒球帽，手里举着华夫筒。一帧在挤鲜奶油，另一帧她正舔到奶油、一脸好笑。提示词用 JSON 写清服装、双帧构图、九十年代日系快照质感，以及「不要塑料皮广告感」。负向词连多手指和服装穿模都写上了。所以呢：时尚片要态度，不如给她一个具体的小动作——奶油比空喊「高级感」好使多了。",
+      "links": [
+        {
+          "label": "X 原帖（完整提示词）",
+          "url": "https://x.com/hey_am_cherry/status/2103701446399324221"
+        }
+      ],
+      "prompt": "{\n\n  \"type\": \"retro fashion photo collage\",\n\n  \"aspect_ratio\": \"1:1\",\n\n  \"composition\": \"two overlapping photographic frames with different zoom levels\",\n\n  \"subject\": \"young freckled woman, long messy wavy dark-brown hair, soft bangs, spontaneous playful mood\",\n\n  \"outfit\": \"oversized black and off-white rugby pullover with lime panels, loose khaki bermuda cargos, olive socks, brown chunky sneakers, orange graphic baseball cap, colorful clip accessories\",\n\n  \"action\": \"holding a waffle cone while squeezing whipped cream onto it; second frame captures her licking the cream with an amused expression\",\n\n  \"setting\": \"simple warm-gray studio floor and backdrop\",\n\n  \"lighting\": \"soft overhead diffused light with gentle shadows\",\n\n  \"style\": \"90s-inspired Japanese youth editorial, candid snapshot aesthetic, muted colors, subtle analog grain, imperfect natural poses\",\n\n  \"negative\": \"perfect commercial photography, plastic skin, cinematic lighting, anatomy errors, extra fingers, malformed hands, duplicate objects, face distortion, clothing glitches, text, watermark, logos\"\n\n}",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "inflight-passenger-sim",
+      "category": "视觉尝试",
+      "title": "飞行模拟器：你只能当乘客看窗外",
+      "body": "有人在浏览器里做了一款飞行模拟器，但方向盘不给你——你只能当乘客。作者 Robert Kotcher 说，自己最爱十四小时长途里盯着窗外发呆，于是把这种「什么都不用开、只负责系安全带」的体验做成了 InFlight Simulator。你选一条航线，飞机自己起飞、巡航、落地；窗外是程序拼出来的地形、卫星图和天气，太阳位置还会跟着真实时间走。无聊了还能解安全带、起身去厕所——最新版居然补上了腿。航线会在后台继续飞，你关掉标签页再回来，飞机可能已经飞到半路；多人也行，最多五个朋友挤进同一间客舱，各管各的座位。Hacker News 上一天四百多个赞，评论区全在开玩笑要哭闹婴儿扩展包。所以呢：创作者拍「反直觉产品」时，这是现成金句——不是更强的驾驶舱，而是故意拿走控制权，只留下窗外那片安静。",
+      "links": [
+        {
+          "label": "InFlight Simulator 演示",
+          "url": "https://inflightsimulator.com"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49693971"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "dinosaurs-last-day-painting",
+      "category": "视觉尝试",
+      "title": "恐龙末日：一张会动的油画里看小行星砸下来",
+      "body": "打开页面，你掉进一幅白垩纪河畔的油画里。echohive 的实验项目 The Last Day，把六千六百万年前那个金黄色傍晚做成可互动的分层画：鼠标一挪，镜头就在画里探头；滚轮拉近，能看见河岸与生物细节；倒计时走到零，小行星砸进画面，闪白、晃镜、巨响一起上来。作者写明这是 Echo、Opus 5.5 和 Grok 4.6 的协作，场景设定在 Hell Creek——化石迷都知道，那里是恐龙时代的尾声。它不是纪录片切片，而是「一幅会呼吸的灾难画」：声音开着、全屏看着，冲击感比静态插画狠得多。所以呢：讲「AI 协作做视觉」时，别只秀生成图——让观众亲手把镜头推进末日前最后一分钟，故事自己会咬住人。",
+      "links": [
+        {
+          "label": "The Last Day 互动画",
+          "url": "https://www.echohive.ai/experiments/dinosaurs"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49841912"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "text-goes-boom-particles",
+      "category": "视觉尝试",
+      "title": "打一行字，二十万粒子被你用手炸开",
+      "body": "在演示页打一句口号，点 Rebuild，字瞬间变成密密麻麻的霓虹粒子；再按住鼠标一拖，整行字像烟花一样炸开，松手又弹回字形。作者 Sylwia 做的 Text Goes Boom，底层是浏览器里的 WebGPU（网页直接用显卡算）加一段 Rust 编成的 WebAssembly：先把文字画成像素，算出每个点离笔画边缘的距离，再在字形内部撒最多约二十万个粒子；每帧用着色器做弹簧拉回和鼠标斥力，颜色从边缘的热粉一路烧到内部的靛蓝。面板上还能对比「同样算法用 WASM 和纯 JS 谁更快」。所以呢：这不是又一个粒子库广告，而是三秒就能拍的「字会炸」反差——标题党素材自己长在交互里。",
+      "links": [
+        {
+          "label": "在线演示",
+          "url": "https://sylwia-lask.github.io/text-goes-boom/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sylwia-lask/text-goes-boom"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "aiscii-ascii-runtime",
+      "category": "视觉尝试",
+      "title": "一句话生成 ASCII 动画，每个格子都是小着色器",
+      "body": "Ossama Chaib 做了个叫 aiscii 的浏览器运行时：屏幕上每个字符格每帧自己决定「显示哪个字符、什么颜色」——像给文字网格写小着色器。演示站上一堆效果都是一句自然语言喊出来的：等离子雾、呼吸圆环、海浪、黑客帝国雨、还眨眼睛的独角兽。它还带 Claude Code 插件：你说「做一条霓虹虫洞隧道」，技能会写出程序文件；或者把 GIF、视频丢进去，转成可循环的 ASCII 节目。作者的脾气很明确——大模型写代码便宜，ASCII 动画本身就是代码，比直接生成视频省得多。所以呢：想拍「字符也能很炫」的短视频，打开演示页切换效果就够；想自己做，一句话比手搓帧便宜。",
+      "links": [
+        {
+          "label": "演示廊",
+          "url": "https://ossama.is/aiscii"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ossa-ma/aiscii"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "wave-gradient-generator",
+      "category": "视觉尝试",
+      "title": "免费波浪渐变背景：随机一下就够发帖用",
+      "body": "做社媒封面和落地页的人，常卡在「背景太平、又懒得开设计软件」。有人把解决办法做成免费网页 Wave：整屏一张用 Three.js 着色器画的波浪渐变，不是生硬的 SVG 条纹——阴影软、模糊顺，还能做出一点点玻璃感。点随机，形状和配色一起换；觉得差一点，再用向量工具微调；设计能存进浏览器本地，也能导出成图片或视频，直接丢进帖子或片头。作者自己在 Show HN 里说，一开始以为这是「随便做做」的小工具，结果为了柔和才上了全屏片段着色器。所以呢：不用订阅设计站，三十秒导出一片能发帖的浪——讲「小工具也要手感」时，这页本身就是演示。",
+      "links": [
+        {
+          "label": "Wave 生成器",
+          "url": "https://wave.subworkflow.ai/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "roads-about-theme",
+      "category": "视觉尝试",
+      "title": "美国公路按主题筛：辛普森角色也能铺满地图",
+      "body": "有人把维基数据和 OpenStreetMap 的路名对在一起，做出一千多个「主题滤镜」。打开 Roads about…，你可以只看以辛普森角色命名的路、以云的种类命名的路、以 Nina Simone 歌名命名的路，甚至「汉堡种类」「芭比娃娃」——页面写着已经映射一千零六十八个主题，有的主题挂着上万条路。作者在 Hacker News 上轻描淡写：交互数据可视化，把热门词条和美国道路交叉引用。点进去的感觉却很荒唐又认真：原来路名库本身就是一座怪博物馆。所以呢：拍「数据也能好玩」别堆柱状图，让观众自己点一个离谱主题，看整张美国被同一种梗铺满。",
+      "links": [
+        {
+          "label": "Roads about…",
+          "url": "https://road-about-a-theme.pinedesk.biz/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49846409"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "farseer-universe-fly",
+      "category": "视觉尝试",
+      "title": "浏览器里飞进漩涡星系：真数据不够就程序补",
+      "body": "想体验 SpaceEngine 那种「在宇宙里乱飞」，却不想被绑在 Windows 桌面软件上？farseer.space 把类似路径搬进浏览器：有真实天文数据的地方就用真的，没有的就用程序生成补上。作者举例——你可以飞到漩涡星系，先看见真实影像，再钻进按影像特征长出来的三维模型，去拜访里面一颗颗恒星；星云和其他天体也是同一套路。页面上有飞行、巡航、搜地点、拨时间，像一架轻量宇宙观光船。所以呢：讲「程序化世界」时，观众要的不是参数表，而是自己把镜头从星系照片推进去、看见星星在脚底下长出来的那一下。",
+      "links": [
+        {
+          "label": "Farseer 演示",
+          "url": "https://farseer.space/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49717936"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "rokz-ascii-kroz",
+      "category": "视觉尝试",
+      "title": "一九九〇年的 ASCII 地牢，原汁原味跑进浏览器",
+      "body": "Kroz 是 Apogee 公司最早的文字模式地牢游戏，一九八七年起步；二〇〇九年他们把 Turbo Pascal 源码以 GPL 公开。有人把一九九〇年那一集 Lost Adventures of Kroz 原样搬进浏览器，起名 Rokz，纯 TypeScript、无依赖。好玩的细节在「钟」：游戏时间其实靠音效里的静音段推进——脚步是八毫秒响一下、一百二十毫秒安静、再响一下，那段安静就是一回合。你狂按键也跑不快，因为每一步都要付声音的时长。地图砖来自开源地牢素材，关卡数据从当年源码里抠出来。所以呢：怀旧不只是像素滤镜——把「声音即时钟」这种老机关讲清楚，观众会觉得自己摸到了历史的齿轮。",
+      "links": [
+        {
+          "label": "Rokz 畅玩",
+          "url": "https://taler.pl/rokz/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "pulp-html-agent-canvas",
+      "category": "小众工具",
+      "title": "Pulp：代理画的是真 HTML，不是一张假图",
+      "body": "很多「AI 设计画布」最后给你的是截图感的图层，导出一改就碎。Pulp 反过来：无限画布上每一帧都是浏览器真在排的 HTML 和 CSS，人和编程代理改的是同一份文档。Claude、Codex 之类通过十八个 MCP 工具读写场景；你也可以手改，撤销历史共用。本地优先——工作区自动存浏览器，还能导出 PNG、SVG、HTML、幻灯片或 PDF；核心场景图用 Rust 编成 WebAssembly，静态页就能部署。GitHub Pages 上有可点的演示，拖拽平移就能感到它是真 DOM。所以呢：嫌代理只会出「看起来像设计」的图时，可以试试让它直接改真网页——导出不翻车，人也能接着抠。",
+      "links": [
+        {
+          "label": "浏览器演示",
+          "url": "https://nipunbatra.github.io/pulp/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nipunbatra/pulp"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "agent-sidecar-clickback",
+      "category": "小众工具",
+      "title": "Agent Sidecar：代理画出选项，你一点就回对话里",
+      "body": "编码代理最烦的环节之一：它在终端问「三个布局你要哪个」，你只能打字回答，还容易说不清。Agent Sidecar 把回答变成点击——它是一个 MCP 服务加本机画布：代理用工具丢出完整 HTML（报价页三选一、表单、预览都行），浏览器打开沙箱页面；你点其中一个，选择经长轮询回到对话，代理接着干。支持 Claude Code 插件，也吃 Cursor、Codex 等任何 MCP 客户端；一台机器一个画布服务，多个会话挂在侧边栏切换。官网演示页此刻打不开，但 npm 包和仓库 README 齐全，本地 npx 就能起。所以呢：别再逼观众「用文字描述偏好」——让代理把选项画出来，手指点一下，流程就顺了。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/smarchetti/agent-sidecar"
+        },
+        {
+          "label": "npm",
+          "url": "https://www.npmjs.com/package/agent-sidecar"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "race-term-infinite-canvas",
+      "category": "小众工具",
+      "title": "RACE：终端不砌格子，摊在无限画布上",
+      "body": "传统终端复用器（把多个命令行窗口拼在一个屏幕里的工具）爱用瓷砖网格，窗口一多就像格子间，录屏也像监控墙。RACE 把终端做成可平移、缩放的无限画布：窗口是你随手放、随手拉大的卡片，缩出去能看见整场会话，再扎进某一个 shell。官网上有一段一分钟实录——镜子雨、矩阵字符、水族箱和几个代理终端挤在同一张画里。macOS 有试用（画布上最多五个终端、三个画布），Linux 也在公测。名字拆开是 Run Anything Agents Apps in Canvas Environment。所以呢：同时盯好几个代理时，画布比格子更像「工作台照片」——录屏更好看，脑子也更好切换。",
+      "links": [
+        {
+          "label": "RACE 官网",
+          "url": "https://race-term.com/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "typeshade-ts-wgsl",
+      "category": "小众工具",
+      "title": "TypeShade：用 TypeScript 写法写着色器",
+      "body": "写 WebGPU 着色器通常要啃 WGSL，编辑器补全和类型检查都别扭，代理一改更容易写飞。TypeShade 让你在 TypeScript 文件顶上写一句 \"use typeshade\"，然后用熟悉的函数、类型和模块来写着色器；编译器降到中间表示，再吐出 WebGPU 用的 WGSL，或 WebGL2 用的 GLSL ES 3.00。资源绑定、入口函数签名都能反射出来，错字段名会在进 GPU 之前被 TypeScript 拦住。它不自带渲染引擎——管线怎么建仍由你的应用负责，但示例站和文档把「第一支着色器」铺平了。所以呢：想让代理或同事改特效时，给 TypeScript 比给一坨着色器方言更不容易写飞。",
+      "links": [
+        {
+          "label": "TypeShade 文档",
+          "url": "https://typeshade.dev/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/typeshade/typeshade"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "threejs-agent-skills",
+      "category": "小众工具",
+      "title": "二十四项 Three.js 技能包，代理少踩 3D 坑",
+      "body": "让编码代理「随便做个 Three.js 页面」，常见翻车是模型加载、着色器、React Three Fiber 和性能一锅粥，返工比写代码还久。社区仓库 threejs-skills 按 Agent Skills 格式收了二十四项技能：建场景、加载模型、写着色器、接 R3F、无障碍与交付检查都拆开。一条命令就能装进 Claude Code、Cursor 或 Codex；也可只挑 threejs-r3f 这类单项。项目声明独立于 Three.js 官方。所以呢：不是又一个示例站，而是把「代理做 3D 网页」的常见坑收成可安装技能——录教程时，安装过程本身就能拍十秒。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cesartevisual/threejs-skills"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
+    {
+      "id": "pipefitter-tube-joints",
+      "category": "小众工具",
+      "title": "Pipe Fitter：浏览器里拧两根管子的接头",
+      "body": "建模软件太重，只想给两根管子配个弯头、再导出去做三维打印怎么办？Dave Mankoff 做了网页版 Pipe Fitter：参数化拧接头——左右管径、弯角、材料外观（钢、树脂、铜、黏土、线框）都能调，实时三维预览，最后下载 STL 或 3MF 去切片。单位可切毫米和英寸，视图还能剖切看弯折平面，像把 CAD 里最烦的那一小步单独抠出来。没有账号墙，打开浏览器就能拧，调完直接带走文件。创作者录一分钟拧参数的过程就够一条短视频。所以呢：这是「小众到具体」的典范——不讲平台梦想，只解决一个会让人骂娘的小问题，录屏却意外好看。",
+      "links": [
+        {
+          "label": "Pipe Fitter",
+          "url": "https://mankyd.github.io/pipefitter/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-09-26T14:30:00+08:00"
+    },
     {
       "id": "swarmtraces-openai-hf-loot",
       "category": "硬科技",
