@@ -1,5 +1,473 @@
 [
   {
+    "id": "swanson-tn-ai-csam-30y",
+    "category": "痛点",
+    "title": "田纳西波特兰：男人用AI把儿童脸贴上色情图，再跟加拿大人换真虐待片，判三十年不得假释",
+    "body": "田纳西波特兰，三十岁的 Patrick Swanson 周五被萨姆纳县刑事法院判了三十年。检方说，他用 AI 把儿童的脸贴到裸体与性行为画面上，再把这些合成图跟一名加拿大人交换真实的儿童性虐待材料。\n\n案子从加拿大先破：当地抓到对方，翻出与 Swanson 的聊天和文件，再通知美国。波特兰警方、国土安全、FBI 与田纳西调查局联手搜查时，还发现他在警察进门前删过文件，多了一条毁灭证据罪。法官 Dee David Gay 宣判：按州法，这三十年没有缓刑、假释或提前释放。\n\n所以呢：不是「假图就不算」，是 AI 假图成了换真虐待片的硬通货——法官直接锁死出狱口。",
+    "links": [
+      {
+        "label": "WSMV",
+        "url": "https://www.wsmv.com/2026/09/25/middle-tennessee-man-sentenced-30-years-using-ai-create-trade-child-pornography/"
+      },
+      {
+        "label": "FOX17",
+        "url": "https://fox17.com/news/local/tennessee-sumner-county-man-gets-30-years-for-trading-ai-generated-child-abuse-images-with-canadian-man"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-25",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "westlake-circle-t-hoa-suit",
+    "category": "痛点",
+    "title": "德州西湖镇：邻居告市政厅把百万平尺机房写进议程却不提「数据中心」三字",
+    "body": "北德州西湖镇，规划中的 Circle T 机房占地约一百一十万平方英尺。隔壁凯勒市的 Lakes of Marshall Ridge 业主协会和市政府一起告上法庭：说西湖镇改区划时议程通知里故意不写「data center」，还想把楼高从四十五英尺改到八十英尺，并砍掉离住宅区法定的一百五十英尺退距。\n\n九月二十五日，Tarrant 县法官 Kimberly Fitzpatrick 撤掉临时禁令，说材料太多，十月二十三日再开庭。业主代表 Kevin Myers 点名州长 Abbott：既然说机房不能伤邻里，就该把「伤」写清楚。\n\n所以呢：邻居争的不是抽象 AI，是议程标题敢不敢老实写三个字。",
+    "links": [
+      {
+        "label": "CBS Texas",
+        "url": "https://www.cbsnews.com/texas/news/westlake-data-center-court-hearing-tarrant-county-september-2026/"
+      },
+      {
+        "label": "FOX4",
+        "url": "https://www.fox4news.com/news/westlake-data-center-temporary-restraining-order-expires"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-25",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "nye-pahrump-manse-ban-suit",
+    "category": "痛点",
+    "title": "内华达沙漠帕朗普：水权纸面透支三倍，县府禁机房，开发商反告要法官拆禁令",
+    "body": "内华达奈县帕朗普谷，水文盆地 162 的水权纸面承诺已经超过年补给量三倍还多。县府据此禁掉这个沙漠盆地上的数据中心。开发商 Sean Dalesandro 的 Manse Technology Campus 九月二十五日递状，要法官推翻禁令、放行项目，并索赔律师费。\n\n他在声明里说：投资时靠的是区划和县府流程，区划说撤就撤，产权就变成「特权」。提出禁令的县委员 Ian Bayne 当天在脸书回怼：对禁令信心满满，请开发商别再吓唬居民。这片地七月已有过百人沿公路示威。\n\n所以呢：机房大战打到沙漠地下水账本上——水不够，禁令就成了邻居唯一的闸。",
+    "links": [
+      {
+        "label": "Las Vegas Review-Journal",
+        "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/developer-asks-judge-to-toss-pahrump-data-center-ban-amid-water-fight-3891110/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-25",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "aurora-trident-gvr-blindsided",
+    "category": "痛点",
+    "title": "科罗拉多奥罗拉：百名邻居举手「谁早听说过」——无人举手，州内最大机房贴着退休社区",
+    "body": "奥罗拉 Green Valley Ranch，九月二十二日晚约一百名邻居挤进会议室。主持人问谁早听说过旁边要建的 Trident 机房，没人举手。Vantage 申报的两层楼、一百零八英亩、约一百五十万平方英尺项目，若获批将是科州按面积最大的数据中心，却落在工业区「行政审批」通道——可以没有邻里听证会。\n\n居民说至少六十台柴油备用发电机，担心粉尘、氮氧化物和低频噪音；有人卖房时买家第一句就问离机房多远。市政会下周还要表决蒸发冷却禁令，但项目本身已走到第三轮城市审查。\n\n所以呢：最大的机房可以贴着退休社区推进，邻居却是九月才知道——程序合法，观感像偷袭。",
+    "links": [
+      {
+        "label": "Denver Gazette",
+        "url": "https://www.denvergazette.com/2026/09/23/aurora-residents-gather-to-share-data-center-concerns/"
+      },
+      {
+        "label": "Hoodline",
+        "url": "https://hoodline.com/2026/09/aurora-neighbors-blindsided-by-massive-trident-data-center-near-e-470/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "zoox-atlanta-toxic-gas",
+    "category": "痛点",
+    "title": "亚特兰大：Zoox安全员车里吐了，公司换一辆又派出去——OSHA介入后测试车队停运",
+    "body": "亚特兰大西北部，亚马逊旗下 Zoox 的安全员 Jay Davis 八月中旬和同事坐测试 SUV。车里忽然安静，有人问「你们是不是也觉得不对劲」。停车去吃早餐，一名同事当场呕吐。他们回到基地，以为能歇班，却被塞进另一辆测试车继续上路，下午他又吐了。\n\nDavis 向 OSHA 投诉。信里写：多达四十名工人可能接触过车厢内不明气体。Zoox 说检出二氧化碳，换过十二伏电池，并在九月把亚特兰大测试车队停运。公司称电动量产机器人出租车未受影响。\n\n所以呢：无人车故事里少见的一幕——吐完还得再开一班，工人先成了传感器。",
+    "links": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/23/zoox-grounds-atlanta-test-fleet-after-workers-report-toxic-gas-exposure-symptoms/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "daejon-love-ai-overview-nfl",
+    "category": "痛点",
+    "title": "假49ers接球手拿Google AI Overview当证件：FBI说受害妇女从二十六人扩到六十多",
+    "body": "爱达荷博伊西机场，八月底联邦特工从白色跑车里拖出穿红色 49ers 队服的男人。FBI 指控 Daejon Labrayae Love 在交友软件上扮演旧金山 49ers 未选中却「杀进名单」的外接手，伙同所谓「理财顾问」Taylor Chan，至少骗走二十六名妇女约一百三十万美元。\n\n九月二十三日更新更刺眼：又有三十五名女性现身，受害名单冲过六十。Love 在 Instagram 晒出 Google AI Overview 截图——摘要白纸黑字写他是 49ers 外接手——他对着镜头说「那是 Google，不是我编的」。刷帖刷到搜索摘要也跟着认，假身份就多了一层「官方」壳。\n\n所以呢：不是 AI 主动骗人，是骗子喂饱搜索，再拿 AI 摘要当身份证。",
+    "links": [
+      {
+        "label": "Los Angeles Times",
+        "url": "https://www.latimes.com/sports/story/2026-09-23/daejon-love-fraud-49ers-imposter-more-alleged-victims-boise-airport-arrest-ai-manipulation"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "arkansas-entergy-google-rider",
+    "category": "痛点",
+    "title": "阿肯色参议员当场掏电费单：多出来的22.81美元，给Google数据中心的太阳能电站垫钱",
+    "body": "小石城联合能源委员会，共和党参议员 Mark Johnson 掏出自己的 Entergy 电费单：多了一笔二十二点八一美元的 rider（附加费）。这笔钱来自二零二五年《创造阿肯色就业法》，允许电力公司在发电厂还没建成时就向居民预收成本。三座新厂之一 Cypress Solar，正是为 Google 西孟菲斯约四十亿美元数据中心配套。\n\n同事 Matt McKee 追问：公司嘴上说 Fair Share Plus、机房自付，为什么太阳能电站还要普通用户先垫？Entergy 说是为了赶上工期和税收抵免。Google 另签二十年约二十一亿美元购电，但不直接打到这座电站账上。\n\n所以呢：机房来了，居民先在月账单上看到一行说不清的附加费。",
+    "links": [
+      {
+        "label": "Arkansas Advocate / Conduit",
+        "url": "https://conduitnews.com/2026/09/23/arkansas-lawmakers-question-utility-on-data-center-projects-impact-on-ratepayers/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-15",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "denton-dc-90day-hearing",
+    "category": "痛点",
+    "title": "德州丹顿听证：台下无人替机房说话，Core Scientific还想再租公地扩GPU超算",
+    "body": "丹顿市议会临时会，九月二十二日晚挤满人。议题是九十天新机房冻结，好让议员弄清法律上能禁到哪一步。市长 Chris Watts 说：大家今晚把话讲清楚了——那种扩容谈话，我们现在不想开。会上无人发言支持数据中心。\n\n与此同时，城里最大机房运营商 Core Scientific 已找市营电力公司商量，再租公地往南扩。二〇二四年它刚拿下近四十八英亩，自称要建北美最大 GPU 超算之一；购电协议上限三百九十一兆瓦，且没有电价飙升时减载的「调光开关」。下次听证十月二十七日。\n\n所以呢：一边是居民喊停，一边是超算还在盯公地——冻结只是抢时间。",
+    "links": [
+      {
+        "label": "KERA / Denton RC",
+        "url": "https://www.keranews.org/news/2026-09-24/denton-holds-first-hearing-on-a-data-center-moratorium-as-core-scientific-eyes-more-land"
+      },
+      {
+        "label": "CBS Texas",
+        "url": "https://www.cbsnews.com/texas/news/denton-data-center-moratorium-public-hearing-september-2026/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "austin-cosmos-stealth-dc",
+    "category": "痛点",
+    "title": "奥斯汀西北郊：邻居被承诺「不是数据中心」，债券文件写着五十兆瓦高性能机房",
+    "body": "河岸社区住了二十六年的 Linda Bailey，九月八日再和 SB Energy 见面。代表仍不肯说 data center 三个字，只承认「沟通有缺口」。可联邦证券与近十亿美元债券文件写得很直白：Cosmos 园区是高性能计算数据中心，关键 IT 负载可达五十兆瓦——大约够四万户住宅。\n\n地块原是 3M 研发园，靠一九八年代站点协议拿许可，市府难事后改区划。邻居 Marc Duchen 说，搞不清最终规模本身就吓人。州长 Abbott 已要求审计二十五兆瓦以上新机房，但在建项目是否算进名单，州里还没说清。\n\n所以呢：镇上听的是实验室故事，华尔街读的是机房招股书。",
+    "links": [
+      {
+        "label": "Hoodline / Austin Free Press",
+        "url": "https://hoodline.com/2026/09/northwest-austin-data-center-rises-as-neighbors-say-they-were-kept-in-the-dark/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "ohio-dc-ballot-wave-38",
+    "category": "痛点",
+    "title": "Ballotpedia点名：全美三十八项机房公投，俄亥俄一州就扛了二十项",
+    "body": "九月二十一日 Ballotpedia 盘点：二零二六年全美八个州三十五个辖区，共三十八项与数据中心有关的地方公投。俄亥俄独占二十项、十七个辖区，超过一半；伊利诺伊七项，威州、堪萨斯各三。八成二由市民联署推上选票，八成九排在十一月三日大选。\n\n内容从全面禁止、限期冻结，到改区划、推翻开发协议、强制以后再公投。今年已投完的四项，结果都偏向更严。Hubbard 要全市禁机房，Ashville 要公投推翻 EdgeConneX 协议摘要，Trenton 禁令也在十一月票上。\n\n所以呢：国会还在扯皮时，俄亥俄小镇选票已经先开打——机房战争下沉到镇公所。",
+    "links": [
+      {
+        "label": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2026/09/21/ohio-leads-states-in-number-of-local-ballot-measures-on-data-centers-for-2026/"
+      },
+      {
+        "label": "MultiState",
+        "url": "https://www.multistate.us/insider/2026/9/24/voters-in-six-states-will-decide-future-of-data-center-construction"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-21",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "pacific-power-dc-full-cost",
+    "category": "痛点",
+    "title": "俄勒冈太平洋电力签字：机房电费自付、十年锁约，Meta曾骂这是「歧视数据中心」",
+    "body": "俄勒冈第二大私有电力公司 Pacific Power 本月同意一套新规：新建大型数据中心的发电、输电和市场上买电成本，全部记到机房自己账上；服务它们的新电源还得零排放；合同至少十年，早退要交违约金，还可能被要求交押金。超过一百兆瓦的，每度电再掏一美分，专款给低收入住户修房节能。\n\n消费者联盟说这比波特兰通用电气早先的方案更硬。Meta 顾问七月曾书面反对，称对机房客户「集体歧视」；Meta 与亚马逊对终稿未再公开反对，但它们所在的数据中心联盟仍表示异议。公用事业委员会下月审议。\n\n所以呢：邻居争的不是「要不要 AI」，是凭什么让我家电费给机房买单。",
+    "links": [
+      {
+        "label": "The Oregonian",
+        "url": "https://www.oregonlive.com/silicon-forest/2026/09/pacific-power-oks-plan-to-make-sure-data-centers-pay-their-own-way.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "taiwan-huang-ai-voice-900m",
+    "category": "痛点",
+    "title": "台北检方起诉五十七人：AI变声扮二十二名女员工，两万多人被杀猪盘逾九亿台币",
+    "body": "台北地检署九月二日起诉五十七人。检方指黄建豪、许湘琦夫妇自二零二二年起经营恋爱诈骗集团：约二十二名女员工的声音拿去训练 AI 变声软件，话务员电话里就能「变成她」。两万多名受害人被诱导买鱼油、充电宝，再升级到家电、医美债和生活费，金额至少九亿台币。\n\n流程拆成获客、新客、公关见面、回流客。公关女员工有时真去约会甚至发生关系，礼物交回公司。完不成业绩的员工，检方称遭电击蝇拍等虐待。检方对黄求刑二十五年、对许十八年，并查扣法拉利、迈凯伦和四十七只名表。\n\n所以呢：杀猪盘配上 AI 变声，电话那头的「她」可以流水线复制。",
+    "links": [
+      {
+        "label": "Focus Taiwan",
+        "url": "https://focustaiwan.tw/society/202609020019"
+      },
+      {
+        "label": "Taipei Times",
+        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863569"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-02",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "rotondo-brisbane-deepfake-2y",
+    "category": "痛点",
+    "title": "布里斯班：男人对着警察说「每个女人都该怕摄像头」，深伪私校女生照寄回学校后判两年",
+    "body": "布里斯班地方法院，五十六岁的 Antonio Rotondo 九月二日被判两年。陪审团认定他十一项跟踪、五项传播私密影像、一项传播儿童剥削材料：他把昆士兰私立中学公开照片和时装周模特照，用 AI 改成裸露或性化图像，再电邮回学校与主办方邮箱。\n\n一名十三岁女孩的母亲在受害陈述里说，女儿还没见过那张图，她却要决定何时开口。Rotondo 对警察说过：做深伪「好玩」，像有 X 光眼镜；「每个女人都该怕摄像头」。法官 John Allen 说他毫无悔意与共情。\n\n所以呢：不是技术中立口号能挡的——他把恐惧写进笔录，法院按恐惧量刑。",
+    "links": [
+      {
+        "label": "Brisbane Times",
+        "url": "https://www.brisbanetimes.com.au/national/queensland/jail-time-for-man-who-made-deepfake-images-of-schoolgirls-20260902-p60tuy.html"
+      },
+      {
+        "label": "ACS Information Age",
+        "url": "https://ia.acs.org.au/article/2026/deepfake-creator-jailed-over-sexualised-images.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-02",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "caleb-mills-hailey-catfish",
+    "category": "痛点",
+    "title": "佐治亚雅典：男人用AI变声扮女警长「未婚妻」，受害者换车给钱还被反告骚扰",
+    "body": "雅典-克拉克县警方说，二十五岁南卡罗来纳男子 Caleb Mills 捏造了一个叫 Hailey Morello 的女警长身份：照片偷自佛罗里达真警官，电话、AI 与变声器一起上。一名受害者信了几个月，以为自己订了婚，交出一笔钱，甚至和对方换了车。\n\n更荒诞的是，Mills 还以「Hailey」身份向警方报案，声称受害者亲戚在骚扰她。侦探顺着假报案往下查，才撕开整场猫钓鱼。他面临身份欺诈、假冒公职等罪名；获释后仍被指继续行骗，可能加控。\n\n所以呢：AI 变声不只骗转账，还能让骗子反过来报警——假未婚妻成了盾牌。",
+    "links": [
+      {
+        "label": "KTRE / Gray News",
+        "url": "https://www.ktre.com/2026/09/08/man-accused-catfishing-victim-into-getting-engaged-by-using-ai-voice-changing-tech/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-08",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "champaign-secs-dc-rally",
+    "category": "痛点",
+    "title": "伊利诺伊香槟：大学生从主四边形游行到校友铜像，喊机房一年冻结别写成纸老虎",
+    "body": "伊利诺伊大学香槟分校，九月二十五日，学生环保组织 SECS 从 Foellinger 礼堂旁集合，穿过主四边形，走到 Alma Mater 铜像下。会长 Gabi DalSanto 对学生说：董事会和 CEO 的无知是我们的优势。县里四月起对超大型机房冻结一年，任务组正在改条例，但学生嫌能耗与再生能源门槛太软。\n\nResist AI Data Centers 联合创始人 Antonia Herbstreit 提醒：别把机房当成「必然到来」。州级 POWER 法案春天未过关，学生们点名本区参议员还没联署。十月七日任务组再开会。\n\n所以呢：冻结写在纸上不够——学生上街，是怕到期那天条例比机房还软。",
+    "links": [
+      {
+        "label": "The Daily Illini",
+        "url": "https://dailyillini.com/news-stories/university-news/protests-strikes/2026/09/25/anti-data-center-protest/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-25",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "amazon-loveland-den9-6700",
+    "category": "跨行业",
+    "title": "科罗拉多洛夫兰：亚马逊新仓六千七百台机器人终于开张",
+    "body": "科罗拉多洛夫兰的Byrd Drive上，空了三年的大壳子终于开始吐包裹了。九月四日，亚马逊DEN9履约中心剪彩：三点五百万平方英尺、约四百亿投资，楼里跑着六千七百多台机器人，其中二百多台Proteus无人车会用发光「眼睛」告诉旁边的人「我看见你了」。\n\n包裹其实从七月就开始过机，剪彩时现场约一千一百名员工每周分拣数百万件，三十英里传送带把货从楼上机器人拣货区送到出货码头。总经理恩说起步时薪约二十三美元；市长抱怨市里收不到过仓商品的销售税，但建设期税钱已经进账。\n\n所以呢：不是又一个「将要开」的仓，是美国山区真开张的机器人仓——六千七百台机器加人，很适合讲电商履约怎么把人挪到地面、把货交给楼上机器人。",
+    "links": [
+      {
+        "label": "Construction Review Online",
+        "url": "https://constructionreviewonline.com/amazon-opens-400-million-loveland-fulfillment-center-three-years-after-shell-was-finished/"
+      },
+      {
+        "label": "BizWest",
+        "url": "https://bizwest.com/2026/09/04/amazon-delivers-loveland-distribution-center/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-04",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "migros-regensdorf-knapp-online",
+    "category": "跨行业",
+    "title": "苏黎世旁雷根斯多夫：米格罗网上超市仓二百四十台穿梭车开工",
+    "body": "苏黎世郊外雷根斯多夫，四层楼里小穿梭车满场跑。九月九日前后，瑞士零售商米格罗把网上超市新仓亮给媒体：三点八万平方米，二百四十台穿梭车、三万三千个料箱，满负荷一天最多七千五百单，大约五百人上班。\n\n这套货到人系统来自奥地利Knapp，十二个货到人站、六十一处灯光拣选，机器人只干倒空箱、塞冷媒包这类窄活，人也还在。它要逐步接替巴塞尔附近Pratteln和布伦加滕两座老仓，普雷特恩六月已停，布伦加滕计划二〇二七年春关掉；屋顶一千六百块光伏一年发约六十五万度电。\n\n所以呢：瑞士最大零售商把网上买菜押在一座机器人仓上——一天七千五百单的画面，很适合讲生鲜电商怎么换仓换手。",
+    "links": [
+      {
+        "label": "Züriunterland24",
+        "url": "https://zu24.ch/articles/404717-7500-bestellungen-pro-tag-migros-online-baut-regensdorf-zum-logistikzentrum-aus"
+      },
+      {
+        "label": "Supply News",
+        "url": "https://supply-news.com/2026/09/11/migros-automated-online-grocery-warehouse-zurich/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-09",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "dexing-huituo-autonomous-haul",
+    "category": "跨行业",
+    "title": "江西德兴铜矿：八台无人电动轮编组过验收，效率摸到人工九成",
+    "body": "亚洲超大型露天铜矿德兴的采场里，电铲旁边的电动轮矿卡驾驶室空着。九月二十日前后，中科慧拓与江铜合作的无人编组运输项目通过阶段性验收：八台NTE240电动轮完成无人化改造，和电铲一起跑装车、拉矿、卸料、返程闭环，早班中班都接得住。\n\n验收说，标准工况下无人单车单趟效率达到人工的百分之九十以上，轨迹误差五厘米内、卸料定位误差低于十厘米。系统叫愚公YUKON，负责调度车铲配比；陡坡、扬尘、多车交叉这些脏活，实测也过了。下一步还要加车、拉长到全天班。\n\n所以呢：不是展厅矿卡，是亚洲大铜矿早中班真在拉矿——「效率摸到人工九成」这句话，很适合讲矿山少人化怎么落地。",
+    "links": [
+      {
+        "label": "铁甲工程机械网 / 中科慧拓",
+        "url": "https://www.cehome.com/news/20260920/393387.shtml"
+      },
+      {
+        "label": "改造进展（8台）",
+        "url": "https://www.cehome.com/news/20251030/360963.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-20",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "changi-whill-autonomous-wheelchair",
+    "category": "跨行业",
+    "title": "樟宜T2/T3：十八台自动驾驶轮椅接转机乘客",
+    "body": "樟宜过境区里，轮椅自己找路了。机场集团和地勤商SATS把日本WHILL的自动驾驶轮椅推进T2、T3过境区：第一阶段各九台、共十八台，按航班时刻派到到达口，把行动不便的转机旅客送到特殊服务休息室，再送去下一登机口。\n\n樟宜每天约两千三百次轮椅协助请求，八成来自转机客；试运行从二〇二五年三月跑到二〇二六年六月，一万三千多名旅客坐过。轮椅最高三点五公里每小时，系好安全带才走，控制中心有人盯，座舱行李篮限重十公斤。厂商说这是目前全球机场里最大规模的自动驾驶轮椅部署。\n\n所以呢：不是概念车，是亚洲第一枢纽把轮椅交给自动驾驶——「一天两千三百次请求」的现场感，很适合讲老龄化机场怎么腾人手。",
+    "links": [
+      {
+        "label": "WHILL press",
+        "url": "https://whill.inc/us/whill-autonomous-service-launches-at-singapores-changi-airport-building-on-a-global-track-record-of-one-million-rides/"
+      },
+      {
+        "label": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/changi-airport-autonomous-wheelchairs-transit-area-terminal-2-and-3-6297516"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-08-31",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "consum-murcia-autostore",
+    "category": "跨行业",
+    "title": "西班牙穆尔西亚：Consum超市仓六十台爬架机器人专啃慢销货",
+    "body": "穆尔西亚附近Las Torres de Cotillas，西班牙合作社Consum的一点九万平方米新仓里，AutoStore格子架上爬着六十台小机器人。九月十五日前后报道说系统已接通：两万七千一百个料箱、八个拣货站，覆盖约三千个慢销干货SKU，一天跑十八小时。\n\n这批货以前在瓦伦西亚仓靠人走拣，搬到货到人之后，慢销干货拣货效率涨了约百分之四十。格子架由Smartlog搭在一千一百四十平方米上，投资约六百四十万欧元，接在早先四千万欧元高架立库后面；自动打包机收尾。货要供大约三百家门店。\n\n所以呢：超市最讨厌的「走不动的慢销货」交给爬架机器人——百分之四十效率跃升，很适合讲零售仓哪里最该先自动化。",
+    "links": [
+      {
+        "label": "Supply News",
+        "url": "https://supply-news.com/2026/09/15/autostore-consum-picking-productivity-spain/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-15",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "nanjing-jianye-drone-pharmacy",
+    "category": "跨行业",
+    "title": "南京建邺：社区卫生中心无人机「空中药房」双航线规模化",
+    "body": "南京建邺莲花社区卫生服务中心屋顶，药箱挂上无人机就飞。九月三日区政府通报：无人机送药进入规模化运营，两条专属航线同时跑——西药、中成药、代煎中药都能送，一号线到清荷北园家医工作室最快六分钟，二号线到海峡城社区卫生服务中心八分钟内。\n\n硬件是「一个主起降场加两个标准降落点」，获批二百米适飞空域。项目从二〇二四年试点，累计三百零三天、八百三十二航次、两千六百三十八人次；二〇二六年五月起双航线扩面，重点给慢病老人和行动不便者。海峡城一位王女士说，以前代煎汤药要第二天，现在当天就能喝上。\n\n所以呢：不是表演飞行，是基层卫生院把药房搬上天——「当天喝上代煎汤药」，很适合讲低空经济怎么落到取药这件事。",
+    "links": [
+      {
+        "label": "南京市建邺区政府",
+        "url": "https://www.nanjing.gov.cn/zt/njdzdkjjcygd/dkxmcgzs/202609/t20260903_5904786.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-03",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "fuzhou-changle-t2-hantcloud",
+    "category": "跨行业",
+    "title": "福州长乐T2：十多台「榕小递」机器人送行李、帮海关",
+    "body": "福州长乐国际机场刚投运的T2航站楼里，「榕小递」开始送行李了。九月十九日当地报道，福州企业汉特云把十多台「笨笨同学」家族机器人送进新楼：旅客区覆盖行李配送、超规寄送、遗失物递送和导览问询；另有两类海关机器人，一个帮卫监做店铺卫生核查，一个把退运或异常物品送到登机口或查验间。\n\n自去年底起，汉特云已在长乐机场陆续投放二十余台服务机器人，累计服务超万人次。人力从扛箱子、跑腿里腾出来，关员也能先看AI判断再决定要不要亲自下场。\n\n所以呢：新航站楼一开张就配上本地造服务机器人——「送行李加帮海关」两条线，很适合讲智慧机场怎么从扫地扩到执法辅助。",
+    "links": [
+      {
+        "label": "福州新闻网 / 福州晚报",
+        "url": "https://news.fznews.com.cn/fzyw/20260919/6aadd22b0a1ef.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-19",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "sonepar-wallisellen-autostore",
+    "category": "跨行业",
+    "title": "瑞士瓦利塞伦：电气批发仓五万五千格AutoStore满负荷",
+    "body": "苏黎世旁瓦利塞伦，电气分销巨头Sonepar的国家仓扩完了。九月七日行业报道：一万平方米设施进入满负荷，AutoStore里五万五千个料箱、七十台机器人，再加六千个自动高架托盘位，小件和托盘货各走各的自动化。\n\n这座仓从二〇二〇年就开着，边营业边扩建，木材结构和屋顶光伏一起留下。电气批发SKU又碎又杂，从螺丝到大包装设备都有，所以格子架管小件、高架管托盘，免得一种系统硬扛全部货型。下一步比的是开机率、准单率和能不能扛住需求波动。\n\n所以呢：不是绿场新仓，是边干活边扩满的国家仓——七一台机器人加六千托盘位，很适合讲B2B电气物流怎么叠两套自动化。",
+    "links": [
+      {
+        "label": "IN Supply",
+        "url": "https://in-supply.co.uk/sonepar-completes-automated-swiss-distribution-centre/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-07",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "scotmid-gausium-phantas-14",
+    "category": "跨行业",
+    "title": "苏格兰合作社：十四家门店开始用Gausium拖地机器人",
+    "body": "苏格兰合作社Scotmid的门店里，拖地的不一定是人了。九月十七日，Scotmid和保洁商Spotless宣布：在去年试验之后，Gausium Phantas Pro清洁机器人开始在十四家门店铺开，负责日常地面擦洗，人和机器一起上班。\n\n采购经理罗伯逊说，试验里同事很快觉得有用——机器人盯住常规地面，人就能去帮顾客、处理泼洒、盯需要人眼的地方。Spotless再签三年合约，机器由他们操作维护。机器人能在人流里躲固定障碍和走动的人。\n\n所以呢：不是一家旗舰店摆拍，是十四家社区超市真铺开——「人去盯泼洒、机器去拖地」，很适合讲零售保洁怎么换班。",
+    "links": [
+      {
+        "label": "Talking Retail",
+        "url": "https://www.talkingretail.com/news/industry-news/scotmid-begins-robotic-cleaner-rollout-at-stores-following-trial-17-09-2026/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-17",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "trusco-nakayama-exotec-nagoya",
+    "category": "跨行业",
+    "title": "名古屋工具仓：Trusco新仓三十七台Exotec爬架机器人上线",
+    "body": "本州名古屋附近，日本工具批发商Trusco Nakayama最大的新仓亮了灯。九月四日报道：近九万平方米的第二十九座配送中心里，Exotec Skypod已接通——三万一千七十五个料箱位、三十七台机器人、四个拣货站，由IHI物流机械集成。\n\nTrusco要把目录从六十三万SKU冲向一百万种，靠人满仓走拣不现实。货到人把库存送到固定工位，员工不用在货架间狂奔。Exotec说压力来自品类膨胀和网上订单；名古屋仓成了检验穿梭自动化能不能扛住百万SKU的试验场。\n\n所以呢：工具批发商用爬架机器人扛百万SKU野心——三十七台机器人的现场，很适合讲B2B仓怎么被电商卷进自动化。",
+    "links": [
+      {
+        "label": "Supply News",
+        "url": "https://supply-news.com/2026/09/04/trusco-nakayama-exotec-skypod-warehouse/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-04",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "shinjuku-cartken-robot-bins",
+    "category": "跨行业",
+    "title": "东京新宿站：三台会走路的垃圾桶在全球最忙车站试岗",
+    "body": "全球乘客最多的火车站里，垃圾桶自己挪窝了。九月八日起，JR东日本在新宿站付费区B1层放了三台高约一米的移动式垃圾桶机器人，工作日上午十点到下午五点巡逻，试到十一月下旬；速度只有每秒二十厘米，好让人边走边扔。\n\n新宿每天超二百七十万乘客，JR东段垃圾箱一天要人工清空十多次以上，箱位还因安全和整洁逐年减少。机器人由三菱电机相关方运营，任务是把垃圾送到保洁员手里，并测试能不能在人潮里被接受。德国火车司机游客说「眼睛很可爱」；日本大学生说边走边扔更省事。\n\n所以呢：不是工厂AGV，是世界最忙车站让垃圾桶来找人——三台慢悠悠的机器人，很适合讲公共空间机器人怎么先讨好人。",
+    "links": [
+      {
+        "label": "Japan Times / AFP",
+        "url": "https://www.japantimes.co.jp/news/2026/09/18/japan/society/robot-bins-shinjuku-station/"
+      },
+      {
+        "label": "鉄道コム",
+        "url": "https://www.tetsudo.com/news/4194/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-08",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "tianjin-binhai-sweep-robots",
+    "category": "跨行业",
+    "title": "天津滨海机场：四台无人清扫车接管停车场保洁",
+    "body": "天津滨海机场的社会停车场里，清扫车没人坐。八月十日机场投放四台智能无人清扫机器人，主攻社会公共停车场和VIP停车场等公共区；中国民航网八月十四日报道，单台效率约六千平方米每小时，相当于两三名全职保洁，续航六到八小时。\n\n机器人能自动回充、补水、倒垃圾，靠感知避障做路面清扫和浮尘清理，还带循环语音做文明提示。机场说场区面积大、人车流大，纯靠人轮班品质难统一；人机协同后，人去盯重点区和突发状况，机器扛日常覆盖。\n\n所以呢：机场保洁从航站楼「大白」扩到停车场无人车——四台机器换两三个人的活，很适合讲智慧机场最接地气的一层。",
+    "links": [
+      {
+        "label": "中国民航网",
+        "url": "http://www.caacnews.com.cn/1/5/202608/t20260814_1396737.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-08-10",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
+    "id": "muse-armo-foodcellar-nyc",
+    "category": "跨行业",
+    "title": "纽约长岛市：日本Armo超市机器人首次在美国店里拉货",
+    "body": "皇后区长岛市的Foodcellar Market里，推重货的不再只是店员。八月二十五日，东京机器人公司MUSE宣布其Armo One首次在美国门店上岗：机器人在真实营业的社区超市里运送满载商品的推车，减轻店员来回搬货的体力活。\n\n店方联合创始人说，零售劳动力紧张，每一小时都珍贵，技术该扛重复的重活，人去陪顾客。MUSE去年在拉斯维加斯Groceryshop拿过创业赛第一，正与多家美国大型零售商谈下一步；这次从展台走进日常营业，是美区扩张的第一脚。\n\n所以呢：不是贸易展演示，是纽约社区超市真让机器人拉货——「美国首店」四个字，很适合讲日本零售机器人怎么过海。",
+    "links": [
+      {
+        "label": "MUSE press",
+        "url": "https://www.muse-gr.com/en/post/pressrelease_20260825"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-08-25",
+    "added": "2026-09-26T18:30:00+08:00"
+  },
+  {
     "id": "prompt-seedance-giantess-ice-satin",
     "category": "提示词",
     "title": "冰山蓝旗袍：小人滑板冲上去",
