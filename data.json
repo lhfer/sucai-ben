@@ -1,5 +1,440 @@
 [
   {
+    "id": "butte-mt-dc-ballot-vacated",
+    "category": "痛点",
+    "title": "蒙大拿比尤特：最高法院四十八小时内自己拆掉禁令，机房公投选票已经寄出去了",
+    "body": "蒙大拿比尤特—银弓县，居民想把数据中心限制写进十一月选票。周二，州最高法院刚下临时禁令，逼县府别把倡议踢掉；周四，同一法院又把自己的禁令撤了——因为选票已经印好寄出，有人甚至投完了。\n\n法官在五页裁定里写：要是早知道选票已寄，「当初就不会发禁令」。他们还点名批评：倡议方的紧急动议暗示选票还没印，县府明明知情却「不吱声」。倡议方提议另发一张只印这一条的补充票，法院说选举法里没这套流程，已投票的人也没法重投。上诉本身还在审，但十一月那一栏已经没了。\n\n所以呢：邻居想用选票拦机房，却被「票已经上路」绊倒——法院都承认局面「完全可以避免」。",
+    "links": [
+      {
+        "label": "Montana Free Press",
+        "url": "https://montanafreepress.org/2026/09/24/butte-silver-bow-data-center-initiative-will-miss-november-ballot/"
+      },
+      {
+        "label": "KBZK",
+        "url": "https://www.kbzk.com/news/montana-supreme-court-reverses-course-on-butte-data-center-ballot-initiative"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-24",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "salem-luzerne-4000ac-yes",
+    "category": "痛点",
+    "title": "宾州塞勒姆镇：两百多户穿绿衬衫卖地，邻座邻居说「我的社区可能从此没了」",
+    "body": "宾州卢泽恩县塞勒姆镇，规划委员会把会开进 Berwick 的神召会教堂。台上问的是：要不要改区划，让 4-3 Glenbrook Group 拿下约四千英亩做数据中心园区。台下一半多穿同款绿衫，背后印着「OVERLAY AMENDMENT YES!」——两百多户已签了开发商买断。\n\n土地主 Peter Onisick 说卖地是为了还清房贷、给孩子付大学；邻居 Teri Barren 站起来反对：买断把邻里撕成两派，「我不想别的社区也变成这样，我的社区可能从今天起就没了。」委员会最终通过，还设了一千五百英尺退距和六十五英尺限高。这片地上暂时还没有具体机房进驻，却已是本地第三块过关的机房园区——亚马逊 AWS 与 QTS 的项目已经在动工。\n\n所以呢：机房大战打到教堂里，一边是绿衫买断支票，一边是邻居眼睁睁看社区变色。",
+    "links": [
+      {
+        "label": "FOX56 / WOLF",
+        "url": "https://fox56.com/news/local/public-split-as-salem-township-approves-4000-acre-data-center-campus"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-24",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "bangkok-ai-fake-police",
+    "category": "痛点",
+    "title": "曼谷别墅月租九十万泰铢：二楼改成「派出所」，AI换脸视频通话骗日本受害人",
+    "body": "曼谷 Bang Bon 区，移民警察闯进一栋两层别墅：邻居报警，说外国人进出太密。现场抓了十五人，含中国、日本、台湾籍嫌疑人；警方称中方人员控场，一年里每月付九十万泰铢房租。\n\n二楼几间房被布置成日本派出所模样，堆着假警服、假证件、假徽章和日文话术本；一楼还有卡拉 OK 与扑克间。东京 NHK 随后报道，查扣电脑里装有能实时改脸的 AI 软件——视频通话时，骗子能把自己换成另一张脸，再套上「日本警察」身份，逼受害人转账「配合调查」。一位泰国办案人员对 NHK 说：用上 AI，「受害人更容易相信」，这类手法只会更精。\n\n所以呢：假警服还不够，还要 AI 脸——信任是被算法一层层焊上去的。",
+    "links": [
+      {
+        "label": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/thailand/general/3321190/scammers-rented-bangkok-mansion-for-b900000-a-month"
+      },
+      {
+        "label": "Tokyo Reporter",
+        "url": "https://www.tokyoreporter.com/international/four-japanese-among-14-busted-in-bangkok-over-ai-driven-fake-police-video-scams/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "sonbhadra-digital-arrest-236",
+    "category": "痛点",
+    "title": "印度索纳巴德拉：退休干部被「数字逮捕」转走两亿多卢比，主犯用AI深伪恐吓",
+    "body": "北方邦索纳巴德拉，九月二十二日，一家印度国家银行分行经理报警：一名退休干部反复大额转账，神色像被逼着。警察赶到时人已离开；后来受害人说，骗子把他软禁在「数字逮捕」里，自称高等法院与政府部门，逼他继续打钱。\n\n警方指控，受害人陆续转出约二点三六亿卢比到三个账户。九月二十六日，网警在普拉亚格拉杰抓获主嫌 Arun Kumar Dubey（三十二岁），另逮捕其未婚妻与岳母；冻结或扣押约七千五百万卢比，还起获一辆疑用赃款买的 Tata Harrier、现金与假高等法院律师证。警方称 Dubey 用 AI 制作深伪图像和假文件恐吓受害人。\n\n所以呢：不是电话吓人，是假文件加深伪脸一起压——银行柜员先听见了异常。",
+    "links": [
+      {
+        "label": "Times of India",
+        "url": "https://timesofindia.indiatimes.com/city/lucknow/retd-official-duped-of-2-36cr-in-deepfake-backed-digital-arrest-racket-mastermind-held/articleshow/134492122.cms"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-26",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "flavio-tse-ai-lulinha",
+    "category": "痛点",
+    "title": "巴西高等选举法院：贴了「AI生成」标签照样违禁，弗拉维奥深伪片二十四小时内下架",
+    "body": "巴西利亚，九月二十二日，高等选举法院院长 Kassio Nunes Marques 下令：总统候选人弗拉维奥·博尔索纳罗 Instagram 上那条 AI 视频，二十四小时内必须下架。片子名叫「任务：找到 Lulinha」，把他演成战斗机飞行员去抓卢拉的儿子，还把卢拉和第一夫人的画面改过，指控对方偷了老人的养老金。\n\nPT 等党组成的联盟指控这是用深伪做提前竞选宣传。Nunes Marques 写明：片子虽然标了「人工智能制作」，符合披露条款，但「不能当作缩写第 9-C 条禁止深伪的例外」。他还禁止弗拉维奥再发，Instagram 要向法院证明已执行。\n\n所以呢：贴个 AI 水印不等于合法——选举法庭要的是别用假画面伤对手。",
+    "links": [
+      {
+        "label": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/nunes-marques-manda-flavio-retirar-video-com-ia-sobre-lulinha-e-inss/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "tsuda-tiktok-voice-clone",
+    "category": "痛点",
+    "title": "东京：《咒术回战》声优告TikTok，法庭本周判「这把低音是不是他的」",
+    "body": "东京地方法院，五十五岁声优津田健次郎把 TikTok 告上法庭。他说平台上有一批都市传说、阴谋论视频，旁白是那把「又深又有光泽」的嗓子——只能是他的；账号头像还像他配音的《咒术回战》角色，一度二十多万粉，原告估算月入五十万日元以上。\n\nTikTok 在庭上辩称那是「普通男声」，像不像全凭主观。日本俳优连合会专务佐佐木优子说：嗓子是「多年训练砸出来的」，法院该承认「声音所有权是基本权利」。这被认为是日本首例个人声纹对抗 AI 克隆的诉讼；法务省八月才出过非约束性指南，把声音纳入肖像与公开权保护。宣判定在九月三十日星期三。\n\n所以呢：角色能火，嗓子却可能被账号白嫖——声优这回是把「这是不是我」交给法官。",
+    "links": [
+      {
+        "label": "AFP / France24",
+        "url": "https://www.france24.com/en/live-news/20260927-japanese-anime-actor-fights-tiktok-over-ai-voice-cloning"
+      },
+      {
+        "label": "Straits Times",
+        "url": "https://www.straitstimes.com/asia/east-asia/japanese-anime-actor-fights-tiktok-over-ai-voice-cloning"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "richardson-gilmer-ai-40y",
+    "category": "痛点",
+    "title": "佐治亚吉尔默：给高中补货的汽水贩，用AI把一百五十多名未成年人照片做成色情图，判四十年",
+    "body": "佐治亚吉尔默县，四十九岁的 Ronald Richardson 以前在吉尔默高中补汽水机。一名学生报告：他在社交软件上要她发照片，还经常塞免费饮料。警方搜查后指控，他把公开社交照片丢进 AI，改成儿童性虐待材料；检方称受害者超过一百五十名未成年人，许多是本县学生，也有外州。\n\n科布县资深法官 G. Grant Brantley 八月判他一百一十八项儿童性剥削罪名成立。九月二日在埃利杰宣判：六十年刑期里坐四十年，余下缓刑，出狱须登记性犯罪者。法庭上宣读了十九份受害人影响陈述。警长说，这是县里第一次碰到用 AI 做这类材料。\n\n所以呢：不是陌生人从网上下载，是补货的熟人把校园脸变成「假货硬通货」——法官用四十年把门关上。",
+    "links": [
+      {
+        "label": "AJC",
+        "url": "https://www.ajc.com/news/2026/09/georgia-man-sentenced-to-decades-in-prison-in-ai-child-sex-abuse-materials-case/"
+      },
+      {
+        "label": "Hoodline",
+        "url": "https://hoodline.com/2026/09/gilmer-county-vending-vendor-gets-40-years-for-ai-child-abuse-images/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-02",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "duke-fl-psc-redact-billions",
+    "category": "痛点",
+    "title": "佛州监管委把机房成本涂成黑条：律师只能说「差好几十亿」，却不能说出具体数字",
+    "body": "塔拉哈西，佛州公共服务委员会审 Duke Energy 的「大负荷电价」方案。新法 SB484 写明：数据中心增量输配电成本不能转嫁给居民。消费者团体 Florida Rising 的律师 Jordan Luebkemann 拿到 Duke 内部测算后写进诉状——却被委员会要求把关键数字打成黑条。\n\n他对电视台说：公开只能讲「差好几十亿」，具体多少亿说不出口；那些钱若落下，会砸在其他电费户头上。分析称一座超大型机房用电约等于五十万户住宅。Duke 声明自己是首家按新法交计划、目前佛州还没有大负荷客户，并强调九月三日刚申请过降价。委员会十一月三日表决。\n\n所以呢：法律说「别让邻居买单」，听证会却把账单涂黑——居民连差多少都看不见。",
+    "links": [
+      {
+        "label": "WFTV",
+        "url": "https://www.wftv.com/news/local/florida-filing-questions-whether-billions-data-center-costs-could-fall-duke-energy-customers/7HMYUKC66VERNCBK35YTAGAUAI/"
+      },
+      {
+        "label": "Food & Water Watch",
+        "url": "https://www.foodandwaterwatch.org/2026/09/16/fl-psc-will-not-publicize-electricity-costs-in-duke-data-center-case/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "hirevue-bipa-video-interview",
+    "category": "痛点",
+    "title": "伊利诺伊求职视频面试：AI扫脸扫声纹没书面同意，HireVue三千七百五十万和解要十月十三日前领",
+    "body": "伊利诺伊莱克县，视频面试平台 HireVue 同意掏三千七百五十万美元和解。原告说：公司在伊州用 AI 面试时采集脸部与声纹生物信息，却没按《生物识别信息隐私法》给书面告知和同意。法院六月二十五日初步批准，结算类约九万一千人，有效索赔估约一百五十美元；十月十三日截止，十月二十八日终审听证会。\n\n官网 VideoInterviewBIPASettlement.com 接受登记。没收到通知的人也可申，但要证明自己在二〇一七年一月二十七日至二〇二六年六月二十五日期间做过 HireVue 面试。HireVue 未承认违法。\n\n所以呢：找工作对着摄像头答题，脸和嗓子可能已经进了模型——伊州用支票提醒「先问再采」。",
+    "links": [
+      {
+        "label": "ClassAction.org",
+        "url": "https://www.classaction.org/news/3.75m-hirevue-settlement-wraps-up-class-action-lawsuit-over-alleged-biometric-info-violations"
+      },
+      {
+        "label": "Settlement site",
+        "url": "https://videointerviewbipasettlement.com/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "smotrich-ai-judges-drag",
+    "category": "痛点",
+    "title": "以色列：财政部长竞选片用AI把大法官从高速上拖走，律师协会要报警并上选举委员会",
+    "body": "耶路撒冷，九月十五日左右，宗教犹太复国主义党放出一支 AI 竞选片：最高法院院长 Isaac Amit、大法官 Daphne Barak-Erez、总检察长 Gali Baharav-Miara，被穿黑衣反光背心的人从阿亚隆高速示威现场强行拖走。九月十七日，以色列律师协会主席 Amit Becher 发警告函，要求立刻下架，否则就向中央选举委员会申请紧急禁令，并推动警方立案。\n\nBecher 写道：片子把法官与总检察长画成「人民公敌」，「像黑暗政权上台前清掉法律代表」。反对党 Yashar 另发函，称这可能构成「藐视法庭」，最高可判三年，并要求当天下午三点前停止传播。\n\n所以呢：竞选可以骂司法，但不能用 AI 伪造「拖法官」的画面——律师协会把这当成对法治的恐吓。",
+    "links": [
+      {
+        "label": "Jerusalem Post",
+        "url": "https://www.jpost.com/israel-election-2026/article-908986"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-17",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "gujarat-dholakia-old-coin",
+    "category": "痛点",
+    "title": "古吉拉特苏拉特：骗子用议员深伪片收「古币鉴定费」，跨邦九起投诉涉近一亿卢比",
+    "body": "苏拉特网警九月十六日宣布，在哈里亚纳抓获 Parvez（二十五岁）与 Irsad（三十岁）。警方指控：他们盗用上院议员 Govind Dholakia 的照片，做假脸书、Instagram 与「Govind Bhai」WhatsApp，再用 ChatGPT 等工具做深伪或篡改视频，让议员「本人」出来宣传旧币旧钞能换巨款。\n\n受害人联系后，对方以登记费、核验费、央行手续费、快递费为名要钱。两人账户流水合计约七十八万卢比；关联十个账户里，国家网络犯罪门户上有九起投诉，涉案约九点六四亿卢比。案件按《印度刑法》与《信息技术法》多项条款立案。\n\n所以呢：熟人脸加「官方口吻」还不够，深伪议员亲自吆喝——古币骗局升级成名人脸诈骗。",
+    "links": [
+      {
+        "label": "asiaPOST / IANS",
+        "url": "https://asiapost.in/fake-profiles-deepfake-video-of-gujarat-mp-used-to-dupe-victims-in-old-coin-scam-two-held/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "baltimore-dc-8500-ban",
+    "category": "痛点",
+    "title": "巴尔的摩市政厅：居民喊「我们不需要」，八千五百人联署要全面禁机房",
+    "body": "巴尔的摩市议会九月二十四日听证 Bill 26-0174。提出人议员 Phylicia Porter 想给数据中心加「有条件使用」许可，并做一点五英里半径内的健康公平评估。她说愿意把「披露责任」推给开发商，也欢迎有人提出全面禁令——但目前桌上没有禁令草案。\n\n台下居民连珠炮：「AI 机房会威胁我们的孩子」「只会加重热岛和噪音」。人民绿色解放联盟创始人 Hillary Gonzalez 说请愿已近八千五百个本市选民签名，要的是全市禁建；她还要延长现有冻结，「让研究做完再听选民」。议员 Mark Conway 反对该案，称条文里「重大公共利益」可压过社区健康负担，「等于给机房开后门」。当天未表决。\n\n所以呢：市政厅想用评估管机房，居民要的是禁令——八千五百个签名写的是「Dismiss it」。",
+    "links": [
+      {
+        "label": "CBS Baltimore",
+        "url": "https://www.cbsnews.com/baltimore/news/baltimore-residents-push-back-proposed-data-center-bill/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-24",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "roaring-spring-terrawatt-laugh",
+    "category": "痛点",
+    "title": "宾州咆哮泉：镇长说机房能让电费下降，台下一片哄笑；邻居问「要戴耳罩吗」",
+    "body": "咆哮泉旁的泰勒镇市政楼，九月初挤满人。主席 Jerome Dodson 说 TerraWatt 在打听废弃 Appvion 纸厂附近林地能不能建机房，尚未递计划。他转述公司说法：风冷、不吵，电费还会下降——话音刚落，全场哄笑。他只好补一句：「这个我不知道。」\n\n居民 Hilary Stiffey 说全面支持纸厂旧址合理再开发，但巨型机房跟小镇气质冲突，附近有 YMCA、小学和运动场。Devin Baker 问：「咆哮泉的人是不是都得戴耳罩？」还说当地电网本来就不稳。学校董事会成员 Troy Wright 反过来劝大家别只看坏消息：纸厂、瓶装厂都走了，「我们很疼。」九月二十四日州议员又在县城办说明会；十月八日镇里将就机房条例听证。\n\n所以呢：开发商画的「电费下降」被笑声打回——邻居争的是耳朵和账单，不是抽象 AI。",
+    "links": [
+      {
+        "label": "Altoona Mirror",
+        "url": "https://www.altoonamirror.com/news/local-news/2026/09/taylortwp-supervisors-datacenter-appvion-site-proposal-quizzed/"
+      },
+      {
+        "label": "WPSU",
+        "url": "https://radio.wpsu.org/2026-09-25/blair-county-state-representatives-host-data-center-meeting-as-public-concern-grows"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-08",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "zoox-vegas-strip-crash",
+    "category": "痛点",
+    "title": "拉斯维加斯大道：亚马逊旗下Zoox无人车撞上日产，对方司机送医",
+    "body": "九月二十五日早上九点零一分，拉斯维加斯大道南向与四季大道交叉口，内华达高速巡警赶到一起伤人事故：一辆银色日产 Murano 与一辆亚马逊旗下 Zoox 自动驾驶车相撞。警方称 Murano 司机被送往当地医院，伤势非致命；双方谁有错仍在调查，当地律所已开始讨论「没方向盘的车撞了人谁赔」。\n\nZoox 在拉斯维加斯机场一带已跑全无人出租车。同一周，亚特兰大测试车队刚因有毒气体症状停运并引来 OSHA——那条已另档。这条出事点更直白：观光主干道上，没有方向盘的车与真人司机撞在一起。\n\n所以呢：Robotaxi 的广告停在航站楼，冲突画面却停在大道上——谁赔、谁有错，还得等交警写完。",
+    "links": [
+      {
+        "label": "Las Vegas Review-Journal",
+        "url": "https://www.reviewjournal.com/local/local-las-vegas/zoox-autonomous-vehicle-involved-in-crash-on-las-vegas-strip-3891088/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-25",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "warren-cat-autostore-midland",
+    "category": "跨行业",
+    "title": "德州米德兰：卡特经销商仓里二十台爬架机器人替技师找零件",
+    "body": "德州米德兰的卡特彼勒经销商门店里，技师再也不用推着推车在货架间找螺栓了。九月二十五日前后，北美大型卡特经销商Warren CAT在Store 05仓把一套AutoStore货到人系统推上日常：两万零八百五十二个料箱塞进约五千六百平方英尺，二十台R5机器人在铝架顶上跑，三个旋转出货口、两个入货口。\n\n这仓把店面、发动机车间和零件仓挤在一起，订单乱得很——有人店里等着自提，有人要给网络仓补货，有人发动机车间急着要件。Kardex按九万三千多笔历史订单把优先级写进软件，系统一天按设计能扛三千六百多行拣货。零件直接送到人面前，走道变安静了。\n\n所以呢：不是又一个电商仓刷屏，是重型设备经销商把「技师别等零件」押在二十台爬架机器人上——很适合讲线下服务行业怎么把机器人塞进自己的旧仓。",
+    "links": [
+      {
+        "label": "Automated Warehouse",
+        "url": "https://www.automatedwarehouseonline.com/warren-cat-deploys-autostore-system-to-handle-parts-fulfillment/"
+      },
+      {
+        "label": "Kardex 案例",
+        "url": "https://www.kardex.com/en/autostore-case-studies/warren-cat"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-25",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "aldi-bardon-produce-cimcorp",
+    "category": "跨行业",
+    "title": "莱斯特郡巴登：奥乐齐自动化仓开始吞吐生姜和牛油果",
+    "body": "英国莱斯特郡巴登，一百三十万平方英尺的奥乐齐新仓里，九月十六日第一批生鲜托盘进门：生姜、牛油果。第二天第一批出库托盘开走。五月仓已经开始跑货，这一步是把果蔬正式塞进英国自称「最大自动化超市仓」。\n\n整仓投资逾五亿英镑，屋顶一万九千块光伏。果蔬区有三个温区，还有专门香蕉房；冷库里托盘先抬进高架，要发店时无人穿梭车再把货调下来。合作方Cimcorp负责这套温控搬运。满负荷时高峰一天要过一百五十万公斤果蔬、六千多个托盘出门，服务近三百五十家门店——那是二〇二七年的目标，现在还在爬坡。\n\n所以呢：折扣超市不是在PPT里「将要自动化」，是生姜真的进了机器人仓——很适合讲生鲜物流怎么把温控和自动化绑在一起。",
+    "links": [
+      {
+        "label": "Aldi UK 新闻稿",
+        "url": "https://www.aldipresscentre.co.uk/business-news/aldi-begins-fresh-produce-operations-at-uks-largest-automated-supermarket-warehouse/"
+      },
+      {
+        "label": "Retail Gazette",
+        "url": "https://www.retailgazette.co.uk/blog/2026/09/aldi-ramps-up-operations-at-500m-automated-warehouse/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "st-logistics-clementi-14-shuttles",
+    "category": "跨行业",
+    "title": "新加坡金文泰：十四台穿梭车替警察找制服和贝雷帽",
+    "body": "新加坡金文泰，ST Logistics仓里以前开叉车满场找货的人，现在多半坐在工位上。九月二十三日公司把新系统亮给媒体：二十八米高、二十三层货架、十四台自主穿梭车钻进货架底下顶托盘，八月已投运，取代原先三台巷道吊车。\n\n这仓存的是警察和民防部队的制服、皮鞋、贝雷帽。去掉吊车占的巷道后，两千平方米里多塞了两成货，最多能放一万零六百个托盘；每小时搬托盘从大约十个跳到七十多个。联想提供调度软件，用AI把常出货的托盘往前排。公司说投了至少一千万新元，并已培训约四十名老员工改学排障和软件。\n\n所以呢：不是网红电商仓，是给国家队发制服的仓换成十四台穿梭车——很适合讲「机器人来了，人改行修机器人」这条落地故事。",
+    "links": [
+      {
+        "label": "The Straits Times",
+        "url": "https://www.straitstimes.com/tech/st-logistics-trains-workers-for-new-roles-as-it-ramps-up-warehouse-automation"
+      },
+      {
+        "label": "ChinaTechNews 转载",
+        "url": "https://www.chinatechnews.com/2026/09/23/129668-st-logistics-trains-workers-for-new-roles-as-it-ramps-up-warehouse-automation"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "best-buy-langley-autostore",
+    "category": "跨行业",
+    "title": "温哥华旁兰利：百思买西岸仓爬架机器人开跑",
+    "body": "大温哥华的兰利，百思买加拿大西岸配送中心九月下旬把AutoStore网格推上线：料箱叠在铝架里，机器人在顶上跑，把货送到拣货台。当地工业地价贵得离谱，于是同一栋楼里塞更多SKU，比单纯省人工更要紧。\n\n这不是百思买第一次玩这套。安大略布兰普顿仓已经上过AutoStore，还顺手把电商履约收回自家仓、换上Blue Yonder的仓库管理系统。兰利这一步，等于把西岸也拽进同一套货到人节奏：人站在工位拣货补货，机器人负责在高密度货格里翻箱。\n\n所以呢：加拿大零售商不是在欧洲看热闹，是西岸仓真开了爬架机器人——很适合讲「地贵就往天上堆货」怎么变成日常画面。",
+    "links": [
+      {
+        "label": "Warehouse Automation Canada",
+        "url": "https://www.warehouseautomation.ca/autostore/best-buy-goes-live-with-autostore-in-vancouver"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "guangzhou-nansha-netease-loaders",
+    "category": "跨行业",
+    "title": "广州南沙粮码头：四台装载机进船舱，人坐办公室铲余粮",
+    "body": "广州港南沙粮食通用码头，船舱底曾经最脏最危险的一截，九月下旬换了玩法：四台经网易灵动改造的电动装载机下舱清余粮，司机却坐在岸上集控中心。卸船、转运、入库本来已经自动化，唯独舱底余粮还得人钻进密闭粉尘舱——这块短板被补上了。\n\n港区5G专网把延迟压到约一百五十毫秒内，操纵杆、脚踏按原车布局复刻，六路防尘摄像头把盲区摊在屏幕上；毫米波雷达、行人识别、断网停机一起上。电池约三百五十七度电，单次连续干六个多小时。完全无人自主清舱还在测试，眼下已经是「人远控、人不下舱」。\n\n所以呢：港口无人化拼到最后一截往往是脏活——四台装载机让人离开粉尘舱，很适合拍「办公室开铲车」的短视频。",
+    "links": [
+      {
+        "label": "机器人网 / 网易灵动",
+        "url": "https://robot.xwboo.com/news/263100.html"
+      },
+      {
+        "label": "物流技术网",
+        "url": "https://www.56js.com/news/detail/30858.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "amazon-prime-air-north-randall",
+    "category": "跨行业",
+    "title": "俄亥俄北兰德尔：亚马逊二十一架无人机开俄亥俄首送",
+    "body": "克利夫兰东南郊北兰德尔，原来的兰德尔公园商场旧址上，亚马逊CLE2履约中心九月二十四日放出二十一架MK30六旋翼无人机。这是俄亥俄州第一个Prime Air站点，首单送出去的是一个电动自行车充电器，服务半径约十二公里、七点五英里，只飞白天、单件五磅以内。\n\n同一片天上，大约三英里外克利夫兰诊所的Zipline已经在八月用绳降送处方药，每周大约二十单。亚马逊这边按会员门槛收费，大使说还能加五十五个岗位。两套无人机在同一片东郊上空各送各的——药和充电器，画面叠在一起特别刺眼。\n\n所以呢：不是概念飞行秀，是二十一架真机开俄亥俄首送——很适合拿「药和充电器同时过屋顶」讲无人机配送到底先解决谁的痛。",
+    "links": [
+      {
+        "label": "DroneXL",
+        "url": "https://dronexl.co/2026/09/25/amazon-prime-air-cleveland-north-randall-ohio-launch/"
+      },
+      {
+        "label": "CiVL / 地方报道",
+        "url": "https://civl.com/news/story/amazon-launches-first-drone-deliveries-in-ohio-from-north-randall-c64c9057"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-24",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "yintong-owl-chicken-patrol",
+    "category": "跨行业",
+    "title": "嘉兴一百五十万羽蛋鸡场：猫头鹰机器人进鸡舍数鸡找死鸡",
+    "body": "浙江嘉兴秀洲新塍镇，银彤蛋业一百五十万羽蛋鸡智慧牧场里，九月下旬迎来承乾智能的「猫头鹰」巡检机器人。鸡舍不再只靠人逐栋走：机器人带着可见光和红外夜视自己巡，能数鸡、数蛋、测环境，厂商称死鸡识别率超过百分之九十九，数据进「蛋管家」手机应用。\n\n牧场方面说已经在乘乘体系下订了八台。规模化鸡场最怕的是漏检和夜班漏看，机器人白天晚上都能跑，人从「巡栋员」变成看手机告警的人。承乾背靠蛋品供应链平台乘乘，讲的是把真实鸡舍当成训练场，而不是展厅演示。\n\n所以呢：一百五十万羽鸡的场把巡检交给猫头鹰机器人——很适合讲农业AI什么时候才算「真下地」，而不是又一场智慧农业发布会。",
+    "links": [
+      {
+        "label": "南方网 / 河北青年报",
+        "url": "https://economy.southcn.com/node_71505a4d28/1dc9bbff29.shtml"
+      },
+      {
+        "label": "资讯转载",
+        "url": "https://www.xyxww.com.cn/jhtml/chanj/94236.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-24",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "yusen-northampton-4way-shuttle",
+    "category": "跨行业",
+    "title": "北安普敦：邮船物流两亿英镑仓开业，英国最大四向穿梭车阵",
+    "body": "英格兰物流「金三角」里的北安普敦，邮船物流（Yusen）九月二十五日敲开清酒桶，给两亿英镑新仓办开业仪式。场地大约一百一十万平方英尺量级，二十三万六千个托盘位，其中约九万个进了自动化立库；公司称四向穿梭车规模是英国最大一档。\n\nBBC报道说，货到人加四向输送这套组合此前主要在中国跑，这是欧洲首个同款部署，人一次可对着多达八个订单拣货。现场已有约一百五十人，扩到满负荷可能五到九百人；四分之一面积做药品温控，屋顶预留光伏，还想接附近铁路货运枢纽。自动化被写成「换工种」而不是裁员故事。\n\n所以呢：日本货代把中国仓里那套搬到英国金三角并剪彩——很适合讲「物流自动化从哪抄作业」的跨国画面。",
+    "links": [
+      {
+        "label": "Motor Transport",
+        "url": "https://motortransport.co.uk/operator-news/yusen-logistics-opens-200m-automated-distribution-centre-in-northampton/91163.article"
+      },
+      {
+        "label": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqm27gl9mv1po"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-25",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "guangxi-guizhong-wind-robots",
+    "category": "跨行业",
+    "title": "广西城厢风电升压站：机器狗、轨道车、轮式车组队巡检",
+    "body": "广西城厢（鲲鹏）风电场升压站，九月上旬广投桂中新能源把三类巡检机器人编成一队：两台轨道机器人趴在继电保护室和开关室顶部滑，一台轮式车在站内大面积转，一台四足机器狗去啃草地、碎石和楼梯。六小时一轮自主巡检，雷雨天也能跑。\n\n机器狗带热成像、可见光和声学成像，听局部放电、看变压器温度；轨道车做毫米级定位和局放检测；轮式车用UWB定位读表计。平台把多源数据揉成缺陷报告。公司算账：每天大约替代四人次巡检，单次时长从一小时压到半小时，一年约省三十六万元人工，人进高压区的次数明显下降。\n\n所以呢：不是单台机器狗摆拍，是风电场把三种形态编成常态班组——很适合讲新能源运维「少人值守」到底长什么样。",
+    "links": [
+      {
+        "label": "新浪财经 / 广西能源集团",
+        "url": "https://finance.sina.com.cn/roll/2026-09-08/doc-inircmes6056820.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-08",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "renjie-saudi-pif2-4894",
+    "category": "跨行业",
+    "title": "沙特西部荒漠：四千八百九十四台光伏清扫机器人每晚列队出仓",
+    "body": "沙特西部荒漠四十平方公里光伏板上，每天傍晚七点半，四千八百九十四台仁洁清扫机器人准时出仓，沿跟踪支架列队走三小时，扫完约四百零二万片组件再归仓。这是PIF2项目、约二点零六吉瓦阵列，厂商称单体项目部署规模刷新纪录。\n\n四月项目走完CET、SAT、RRT验收；九月稿件回看现场：地表七十摄氏度、盐雾、风沙，机器人要过C4防腐和IP65。LoRaWAN组网后整场OTA升级两到三小时搞定，清洁效率称保持在百分之九十九点五以上、出仓率百分之九十九点六以上。一道远程指令，近五千台自己出仓扫板。\n\n所以呢：不是几台样机在展台晃，是荒漠里每晚近五千台列队扫灰——很适合用「机器人军队」画面讲光伏运维规模化。",
+    "links": [
+      {
+        "label": "IICNET / 仁洁",
+        "url": "https://iicnet.cn/article/9924"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-04-15",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
+    "id": "vale-salobo-komatsu-19",
+    "category": "跨行业",
+    "title": "巴西帕拉萨洛博铜矿：十九台小松无人矿卡开跑",
+    "body": "巴西帕拉州萨洛博铜矿采场上，十九台小松930E矿卡驾驶室空着，八月中下旬起用FrontRunner自动驾驶系统拉矿。Vale把这套无人编组挂在扩产计划上：总运量目标大约再抬百分之七，给萨洛博三期粗颗粒浮选扩能喂料。\n\n矿上还有有人驾驶的其他型号矿卡，无人车和有人车要在同一套交通规则里混跑。控制员改坐调度室，安全叙事从「人别坐驾驶室」变成「路网、通信、回收故障车」整套规程。铜矿工况比标准化铁矿更碎，业内盯着这十九台能不能稳住循环时间。\n\n所以呢：铜矿也开始把超大型矿卡交给系统开——很适合讲「铁矿学会的无人化，铜矿能不能抄作业」。",
+    "links": [
+      {
+        "label": "Skillings Mining",
+        "url": "https://www.skillings.net/vale-salobo-autonomous-copper-haulage-fleet-goes-live/"
+      },
+      {
+        "label": "MMPI 转述",
+        "url": "https://www.metalsmineralspublication.org/autonomous-komatsu-930e-fleet-goes-live-at-vales-salobo-copper-mine/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-08-21",
+    "added": "2026-09-27T18:30:00+08:00"
+  },
+  {
     "id": "prompt-seedance-backrooms-subway",
     "category": "提示词",
     "title": "晚高峰地铁一镜冲进后室",
