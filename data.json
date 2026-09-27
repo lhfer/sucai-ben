@@ -1,5 +1,482 @@
 [
   {
+    "id": "prompt-seedance-backrooms-subway",
+    "category": "提示词",
+    "title": "晚高峰地铁一镜冲进后室",
+    "body": "车厢还在晚高峰该有的速度里往前冲，窗外却一格一格换成了后室。\n\n有人给 Seedance 2.5 写了一整段「一镜到底」提示词：中国城市地铁不停、不减速，硬生生驶进黄色迷宫、办公室森林、假天空小区，再到积水水殿。提示词把参考图只当「世界的局部样本」，逼模型往列车前进方向延展几百米，而不是把图贴在车窗上当壁纸。怪物分工也写死了——细长黑影和白色剖腹怪负责贴窗惊吓，黄防护服只许远远看着。最狠的一条规矩是：同一扇窗、同一速度、同一掠过方向，从头到尾不许反向。\n\n你会跟朋友说：别再做停下来展览的奇观片了，让地铁一直开，世界自己往窗外长。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/QtImVCr6WK56152/status/2104066661980745749"
+      }
+    ],
+    "prompt": "请严格参考我本次上传的全部图片生成一段30秒、16:9横屏、超写实、电影级、真正一镜到底的视频，适配 Seedance 2.5，主题是“中国城市晚高峰地铁在始终保持正常高速运行的过程中，意外驶入一个不断侵入现实、不断变化、越来越不可能存在的 Backrooms / 阈限空间体系”。请严格区分图片用途：前五张图片是唯一的五个主场景视觉参考，依次对应【经典黄色 Level 0】【办公室黑暗森林】【假天空住宅区】【GET OUT 无边黑暗草坪】【终极 Poolrooms / 积水水殿】；后三张图片是异常生物参考，其中真正承担“近距离扑脸 / 贴窗惊吓”职责的重点只有两个——黑色细长怪物，以及白色剖腹怪物；黄色防护服怪物只作为远处静止观察者或中远景异常轮廓使用，不承担贴窗主惊吓。最高优先级规则一：我上传的五张主场景图片都只能被理解成“某个巨大连续世界中的局部视觉样本”，绝对不能把参考图本身当成完整场景停在那里展示，绝对不能把参考图直接贴在车窗外当静态背景，模型必须根据每张图的建筑材质、结构、灯光、色彩、异常元素和空间语言，自动向列车前进方向、列车已经驶过的方向以及空间纵深方向延展出数百米甚至看不到边界的完整三维世界。例如黄色 Level 0 必须扩展成连续数十排、数百排黄色柱体、墙角、门洞、低矮荧光灯、泛黄墙纸和旧地毯组成的巨大黄色迷宫；办公室森林必须扩展成数百米连续的吸音板吊顶、办公柱、棋盘格地面、树根、高草、灌木与巨大树干共同构成的巨大办公室森林；假天空住宅区必须扩展成大量连续住宅、草坪、人行道、邮箱、路灯和上方无限办公室吊顶组成的完整社区；GET OUT 黑暗草坪必须扩展成没有正常天空和地平线的巨大湿草空间；终极 Poolrooms 必须扩展成大量连续白色瓷砖柱、池室、门洞、栏杆、台阶、平台、水道、半淹没长廊和深水区组成的巨大水殿体系。参考图只规定“世界的视觉语言和结构逻辑”，绝对不是规定“把这一张图完整展示出来”。最高优先级规则二：从第0秒第一帧到第30秒最后一帧，列车始终保持完全相同的一档高速运行，没有起步、没有加速、没有减速、没有停车、没有悬停、没有为了展示奇观而放慢，也不能因为怪物出现、场景变化、洪水袭来或进入 Poolrooms 而降低速度。整条视频必须始终像一辆真实的中国城市晚高峰地铁，以固定的正常高速持续向前冲。最高优先级规则三：全片的外部运动方向必须永远一致，必须是同一个方向，绝对不能在跨场景以后突然反向，绝对不能出现像倒放、回拉、往回穿梭、左右方向突然颠倒的错误。请明确锁死：窗外所有近景、中景、远景、遮挡物、水流、怪物掠过方向，全部统一从画面左侧向画面右侧高速掠过；同一列车、同一前进方向、同一窗外掠过方向，从头到尾不能改变。距离车窗1—5米以内的任何近景物体，包括柱子、墙角、门框、树干、住宅墙面、路灯、路牌、草地边缘、瓷砖柱、栏杆、池边、扶手、巨大门洞边缘和翻涌水墙，都必须以非常快的横向速度连续从左向右贴着车窗飞掠，并产生真实、方向一致的高速运动模糊；不能只让一个物体掠过，而必须连续出现多组同类结构，例如第一根柱子掠过、第二根柱子紧接着掠过、墙角掠过、门框掠过、第三排柱体继续掠过。中景建筑始终持续明显后退，远景也始终持续向后位移，只是因为距离更远所以屏幕位移幅度更小，这种差异只能来自真实视差，绝对不能暗示列车变慢。最高优先级规则四：整个30秒必须是真正一镜到底，只能存在同一台摄影机、同一枚24mm广角镜头、同一个成年人眼平固定机位、同一条拍摄轴线、同一节真实中国城市地铁车厢、同一扇大型侧面车窗、同一个窗框和同一批乘客。摄影机固定在车厢后部成年人眼平高度，略微斜向车厢前方拍摄，画面左侧约65%—70%始终是同一扇侧面大车窗与窗外异常世界，画面右侧约30%—35%始终保留同一节真实车厢内部，包括乘客、扶手、吊环、顶灯、座椅边缘、门框和车门结构。绝对禁止切镜、隐藏剪辑、换车厢、换窗、换机位、改变焦段、重新构图、摄影机靠近玻璃、窗框消失、侧窗变前窗、全屏黑场、全屏白闪、Morph、数字溶解、传送门、空间融化和游戏关卡式换景。最高优先级规则五：不同场景之间的切换必须通过“真实空间演化 + 巨物整窗遮挡”完成，既自然又有冲击力，不能是简单的A结束、B出现。每次切换都必须先让下一场景的材质、结构、灯光或地形从当前场景内部长出来，再由一个巨大近景结构或巨大运动实体完整遮挡整扇车窗，然后遮挡离开时自然暴露新场景。可用于过渡的遮挡物包括：巨型混凝土隧道壁、黄色巨柱、坍塌墙体、巨大树干、住宅外墙、路灯杆、路牌背面、整面纯黑结构墙、巨大瓷砖柱、池壁，以及整面翻腾洪水。遮挡物必须也遵守同一方向规则，统一从画面左侧向画面右侧高速扫过，绝对不能因为场景变化而反向。最高优先级规则六：每个主场景都必须拥有自身内部的“变化过程”，不是固定背景。列车高速穿越时，窗外空间也必须持续侵入、破裂、变暗、长出新结构、积水、升降、坍塌或扩张。最高优先级规则七：两个承担主要惊吓任务的怪物——黑色细长怪物与白色剖腹怪物——都必须有明确的“扑脸 / 贴窗”效果，它们是全片最容易吓到乘客和观众的两个异常实体；但二者的出场方式仍然要有所区别，不能完全一模一样。黑色细长怪物更适合无声、突兀、像影子一样突然贴近整扇车窗，主打诡异与压迫；白色剖腹怪物更适合强烈的近距离爆发式贴窗或拍窗，主打生理性惊吓。黄色防护服怪物只作为远中景的静止观察者出现，不承担扑脸，也不拍窗。最高优先级规则八：车厢必须是一节非常真实的中国一线或新一线城市工作日晚高峰地铁，约20—30名普通中国通勤乘客，绝大多数是中国人，男女都有，以20—45岁普通白领、学生和上班族为主，穿衬衫、T恤、薄外套、卫衣、普通裤装、运动鞋和通勤鞋，有人背双肩包、单肩包、帆布袋，有人拿手机、戴耳机、拿保温杯，有人坐着，有人站着抓扶手和吊环。人物必须自然真实，不能像模特或群众演员。第0秒时大多数人处于普通通勤状态，低头看手机、戴耳机、发呆、靠着扶手；随着异常逐渐升级，少数人先抬头、皱眉、摘下一边耳机、停止滑手机、轻碰同伴、默默举手机、抓紧扶手；当黑色怪物或白色剖腹怪物扑脸贴窗时，附近乘客必须有对应反应，例如身体猛地后缩、手机差点掉落、下意识抬手遮挡、短促受惊、迅速看向窗外、向旁边人靠近，但整体仍然保持真实克制，禁止全车同步尖叫、禁止集体乱跑、禁止夸张恐怖片表演。具体时间结构如下：0—0.5秒，现实中国城市只能极短一闪而过，列车从第一帧开始就已经高速运行，窗外快速闪过隔音墙、高架桥墩、高层住宅、普通写字楼和少量中文城市街景，近处结构高速从左向右掠过，不建立舒适的现实环境。0.5—2秒，列车以完全相同的高速冲入一条真实中国地铁隧道，这个现实世界到后室世界的过渡必须更丰富，不单调，不只是普通进隧道。最初仍然是灰色混凝土隧道壁、管线、电缆槽、维修灯、检修门和壁龛连续高速掠过，但很快隧道开始被后室侵入：普通维修灯逐渐被办公室矩形荧光灯替代，某些检修门后方一闪而过黄色墙纸和旧地毯，混凝土墙上逐渐出现泛黄墙面、办公柱体和不该存在的低矮荧光灯，现实隧道像被另一个世界从内部吞噬、覆盖、嫁接。最后，一面巨大的近距离隧道混凝土壁完整贴着车窗高速从左向右扫过，整窗被遮满，墙体离开以后，现实隧道已经彻底演化成参考图一对应的巨大黄色 Level 0。2—6.3秒，第一主场景：经典黄色 Level 0。这里必须是一个数百米连续延展的巨大黄色迷宫，成排黄色柱体、墙角、门洞、低矮荧光灯、泛黄墙纸和潮湿旧地毯不断高速从左向右掠过。这个场景内部必须持续变化：刚进入时仍较完整，随后地毯与地面出现越来越多裂纹，部分地面拱起、破裂、下陷，墙角开始潮湿、发黑、发霉，部分荧光灯开始闪烁、熄灭，裂缝中长出第一批树根、湿草和细小植物。黄色防护服怪物在这一段可以第一次出现，但只能作为远处静止观察者：它站在某一组黄色柱体之间，或者远处门洞深处，身体朝向车厢，几乎不动，只是被前景柱体不断切碎式遮挡，一闪一闪地露出来，制造被监视的感觉。黑色细长怪物在这一场景后半段承担第一次真正的“扑脸 / 贴窗惊吓”：最初它只在远中景柱列间出现一两次，像一根不自然的黑色竖影，随后在某次巨柱掠过后，它突然非常近距离地贴到车窗外，几乎整张黑色面部或上半身瞬间充满大半个窗面，无声地朝车厢里看，像是整个人脸/头部直接贴到玻璃上，但它不长时间停留，不要反复拍窗，而是在列车持续高速前进下仅仅完成一次极短、极突兀、极吓人的贴脸式掠过，然后立刻被高速甩到后方。靠窗乘客会被明显吓到，身体后缩、手机差点脱手、有人抬头惊住。这个场景结尾必须按照你的要求自然过渡到第二场景：地面裂缝迅速变深，树根越来越粗，真正的树开始从破裂地面里长出，黄色地毯被湿泥、高草和树根撕开，荧光灯整体变暗，黄色柱体之间逐渐被真正森林侵占。最后由数根巨大树干、粗大树根和一片坍塌的黄色墙柱连续从左向右贴窗高速掠过，完整遮住车窗，遮挡离开后进入第二场景。6.3—11.8秒，第二主场景：办公室黑暗森林。必须扩展成一个数百米长的连续办公室森林，上方仍然是吸音板吊顶、矩形荧光灯、通风口和消防喷头，下方却是棋盘格地面、潮湿泥水、积水、树根、高草、灌木与大量真实树干。多根树干、办公柱、墙角和灌木连续高速从左向右掠过。这个空间内部必须持续变化：刚进入时办公室结构仍然占比较高，随后灯光越来越暗，吊顶逐渐缺失，树木密度不断上升，草越来越高，树根爬满办公柱和墙体，办公室越来越像被黑森林完全吞噬。这个场景中不安排主要贴窗怪物，把惊吓重点留给前后两个主怪物，但可以让黄色防护服怪物再在深处出现一次，依旧只是远处静止或慢慢转头，不靠近。第二场景后半段必须体现“列车开始慢慢地上坡，或者往上开，或者像先短暂下坠再继续往上冲”的感觉，但列车速度完全不变，不能有减速。通过窗外地面、树干和柱列的垂直视差变化表现高度变化：车窗外的地面线和建筑基准线开始倾斜、上扬，空间像进入向上的轨道或者斜坡，接着树木之间逐渐出现人行道、修剪草坪、邮箱、路灯和住宅屋顶。办公室森林与住宅区短暂共存。最后用一根近景巨大树干、一道住宅外墙和一盏路灯杆连续从左向右高速扫过整扇车窗，形成自然整窗遮挡，遮挡离开后进入第三场景。11.8—16.8秒，第三主场景：假天空住宅区。严格参考图三并扩展成一个巨大连续社区，数十栋低层住宅、草坪、人行道、邮箱、灌木和路灯沿列车行驶方向不断高速后退，但真正诡异的是头顶没有天空，只有一整片无限办公室吊顶、密集矩形荧光灯和通风口。这个场景自身也必须变化：刚进入时住宅较清晰，随后冷白雾越来越重，住宅之间的间距越来越异常，部分房屋灯光熄灭，街道空空荡荡，上方办公室灯具开始成片失去亮度，整个社区逐渐从“诡异住宅区”转变成“被黑暗吞噬的无人区域”。黄色防护服怪物在这一段最适合作为唯一明确可见的远处观察者：它可以站在某栋房屋门口、草坪边缘、远处十字路口或两个路灯之间，静静看向车厢，不靠近、不追车、不拍窗。乘客中越来越多人看向窗外，有人举起手机，有人叫醒旁边的人。第三场景到第四场景的过渡必须符合你的想法：灯光整体变暗。沿列车前进方向，上方办公室灯一排接一排熄灭，房屋一栋一栋消失在浓雾与黑暗里，住宅和路灯快速减少，最后只剩湿草地与无边纯黑。然后由一根近景路灯杆、一面住宅侧墙和一整片贴窗纯黑结构墙连续从左向右高速掠过，整扇车窗被彻底黑掉，黑暗结构离开后进入第四场景。16.8—22.2秒，第四主场景：GET OUT 无边黑暗草坪。参考图四，但必须扩展成没有天空、没有明确边界、没有正常地平线的巨大湿草空间。GET OUT 路牌只是列车高速经过时短暂掠过的近景元素，必须快速飞出画面；远处的孤独滑梯只是异常远景元素，不长时间停留。这个空间内部必须持续变化并逐渐增强恐怖感：刚进入时主要是黑暗中的湿草地与少量浅积水，随后风力增强，草叶开始成片倾倒摆动，更多水坑出现并互相连通，地面反光越来越强，草地之间出现更大的积水面和流动水纹。白色剖腹怪物在这一场景承担第二次、也是全片最强的一次“扑脸 / 贴窗惊吓”：它最初不要立刻靠近，而是在黑暗中若隐若现，例如短暂站在路牌后方、滑梯附近或草地深处，被黑暗吞没又短暂露出。随后当列车高速接近、某个巨大的近景黑暗草坡或结构掠过之后，它突然从非常近的侧前方扑向车窗，整个上半身或扭曲面部瞬间贴近玻璃，甚至可以伴随一次明确的拍击或撞击玻璃动作，让玻璃轻微震动一下，但只能发生一次，不允许反复扑击，不允许长时间趴在玻璃上；列车持续高速前进，因此它在完成这一次最强惊吓后立刻就被甩到后方。附近乘客会出现最明显的受惊反应：有人猛地后缩、手机差点掉下、站立乘客抓紧扶手、有人短促惊呼、有人下意识躲到同伴后面，但车厢整体仍然保持现实克制。拍窗惊吓之后，黑暗草地中的积水迅速增多并开始失控，远处和中景出现大量翻涌的水，黑暗深处像有大洪水正在逼近。这个场景按照你的要求自然过渡到第五场景：突然有巨量洪水从侧前方或空间深处横向涌来，水流翻腾、水花四溅、表面不断翻卷，形成一整面贴着车窗高速从左向右扫过的巨大水墙，完整遮住整个窗外区域，这个大洪水转场必须非常有冲击力。22.2—30秒，第五主场景：终极 Poolrooms / 积水水殿。洪水水墙离开后，刚才的洪水必须自然演化成这个新世界内部的池水，而不是像突然切图。严格参考图五并将其扩展成一个巨大到难以理解的连续 Poolrooms 体系：数百根白色小方瓷砖柱、多层池室、巨大门洞、栏杆、台阶、平台、半淹没走廊、狭长水道、浅青色池水与部分近乎黑色的深水区域，持续不断高速从左向右掠过。列车从进入到结束始终保持与开头完全一致的高速档位，不允许最终场景突然加速，也不允许减速观赏。这个场景内部必须持续变化并变得越来越可怕：刚进入时池室还相对规整，随后水位持续上涨，越来越多台阶、低层门洞和走廊被水吞没，远处更大的多层池室不断展开，部分高处门洞持续涌出新的水流，水面从相对平静变成不断出现波浪、回流、翻涌与强烈反光，一些深水区域颜色越来越黑，像无底深井，巨大瓷砖柱后方不断露出更大的新空间。这个场景里不再安排新的贴窗惊吓，避免重复；如果需要再次出现怪物，只允许让黑色细长怪物或白色剖腹怪物中的某一个以更克制的方式出现，例如只在远处门洞中无声站立，或者只在深水下出现模糊黑影轮廓，或者在巨大瓷砖柱后露出半个身体，绝对不能再次扑脸，以免重复手法。此时车内大多数乘客都停止了原本的通勤行为，有人紧抓吊环，有人拿着手机却忘了拍，有人默默往车厢中央靠，有人从其他乘客肩膀之间死盯着窗外，外部苍白水光不断反射在乘客脸上、窗玻璃、不锈钢扶手和车厢墙面。30秒结束时列车仍然以和第1秒、第5秒、第10秒完全一致的高速，朝更深、更巨大、更黑暗的 Poolrooms 冲去，直接结束，不停车、不减速、不黑屏、不淡出、不出现终点。整体质感必须像“真实摄影机意外记录到无法存在的建筑世界”，必须有真实中国地铁材质、真实人物皮肤、真实玻璃反射、玻璃污迹、细灰尘、指纹、轻微水痕、真实荧光灯、轻微频闪、旧墙面、旧地毯、真实树皮、真实草叶、真实住宅、白色瓷砖、水面反光、锈蚀、霉痕、适度克制的摄影颗粒、自然动态范围和真实方向性运动模糊。绝对禁止慢速观光、禁止列车减速、禁止反向运动、禁止场景切换后方向颠倒、禁止任何一个场景被静止展示、禁止静态背景、禁止参考图贴图、禁止幻灯片感、禁止完整场景A突然变成完整场景B、禁止游戏关卡感、禁止赛博朋克、禁止霓虹、禁止 HUD、禁止 UI、禁止魔法阵、禁止传送门、禁止明显 CG、禁止虚幻引擎质感、禁止廉价 VHS 故障、禁止摄影机改变位置、禁止窗框消失、禁止换车厢、禁止换机位。最终整个30秒必须呈现为：一辆完全正常的中国晚高峰地铁，以始终不变的高速、始终不变的前进方向、始终不变的窗外掠过方向，从现实世界被逐步侵蚀的隧道冲入 Level 0，Level 0 地面开裂长出树根并整体变暗，巨树遮窗后进入办公室黑暗森林，列车在不减速的前提下产生明显上坡 / 高度变化并自然驶入假天空住宅区，住宅区的灯光与空间被黑暗吞没后进入 GET OUT 黑暗草坪，白色剖腹怪物完成一次最强近距离贴窗惊吓，随后大洪水整窗扫过并自然演化成终极 Poolrooms，全片中黑色细长怪物与白色剖腹怪物分别承担两次最强的扑脸 / 贴窗惊吓，而黄色防护服怪物始终只是远处观察者；同一辆地铁、同一批乘客、同一扇窗、同一机位、同一速度、同一运动方向，从头到尾永不反向、永不停下。",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-sphynx-tornado-armor",
+    "category": "提示词",
+    "title": "无毛猫落地变赛博巨兽",
+    "body": "龙卷风已经贴到天台边，女战士和无毛的斯芬克斯猫一起从天上砸下来。\n\n落地的那一帧，她单膝跪地，掌心金光一按，纳米装甲咔咔裹上胳膊；旁边那只光秃秃的小猫当场胀成带角的赛博巨兽，两人并肩冲进烟尘。整段 Seedance 提示词不绕弯，就写「坠落—装甲—变身—冲锋」，镜头一路高速跟拍，背景是废墟和卷着尘土的龙卷风。它好看的地方不在堆设定，而在把配角的变身和主角落地焊在同一秒。灾难片常把宠物当气氛道具，这条反过来让宠物完成最大反转。抄的时候保留「同时落地」这一拍就够立住。\n\n你会跟人讲：配角别只当吉祥物，让它在落地那一秒完成变身，观众才记得住。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/AvelyrahnAI/status/2104086835081416893"
+      }
+    ],
+    "prompt": "Cinematic 4K shot, a fierce female warrior with long hair and tactical leather gear falling from the sky alongside a hairless Sphynx cat onto a cracked, ruined concrete rooftop in an apocalyptic city with a massive tornado spinning in the background. The warrior lands on one knee, summons glowing golden energy in her palm, and strikes the ground. Intricate sci-fi nano-armor plates instantly snap and wrap around her arms and body, glowing with bright orange energy lines. The small Sphynx cat suddenly transforms into a massive, terrifying horned cybernetic beast. The armored female warrior and the monstrous beast stand side-by-side, charging forward into battle amid smoke, dust, and dramatic cinematic lighting. High-speed dynamic camera tracking, photorealistic, action-packed sci-fi blockbuster style.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-samurai-rain-duel",
+    "category": "提示词",
+    "title": "雨夜道场：刀尖锁住再开打",
+    "body": "雨顺着刀刃往下溜，闪电一亮，背后已经有人砍过来。\n\n这条 Seedance 提示词把三十秒武士对决写成电影分镜：先锁刀、再木地板开裂的快打、再慢动作后仰躲刀、最后雨幕里收招。角色只锁两个——黑红冷静流和银发暴力流，发型服装全程不许漂。所谓 2.5D，就是画面有厚度、有前后层，看起来像高级动画电影，但还不至于做成三维游戏。雨、火花和刀锁近景被单独点名，开场钩子很清楚。比起一上来就猛砍，它更像在教你怎么用前三秒抓住人。武术片提示词最怕角色脸漂，这条把身份锁在最前面。\n\n你会说：第一刀别急着互砍，先让雨滑过刀尖，观众才愿意看完后面的对打。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/MissDelulu9/status/2104065307140841759"
+      }
+    ],
+    "prompt": "Create a 30-second premium cinematic 2.5D anime samurai battle in 16:9 widescreen. High-budget Japanese anime movie style, fluid animation, realistic physics, dramatic lighting, strong 2.5D depth/parallax, cinematic camera movement.\n\nCHARACTERS:\nWarrior A: adult male, long black ponytail, black-red samurai outfit, black katana with red handle, calm and precise.\n\nWarrior B: adult male, silver-white hair, dark navy samurai outfit, dark katana with blue handle, aggressive and extremely fast.\nKeep faces, hairstyles, outfits and weapons consistent throughout.\n\n0–3s: HOOK:\nExtreme close-up of rain sliding down Warrior A's katana. Lightning flashes. Warrior B suddenly attacks from behind. A blocks at the last second. Their swords lock inches from their faces.\n\n3–7s:FAST DUEL:\nExplosive katana battle across the dojo: slashes, parries, spinning attacks, dodges and counters. Sparks fly and the wooden floor cracks. Fast tracking camera.\n\n7–10s:SLOW MOTION:\nWarrior B delivers a powerful slash. A bends backward and narrowly dodges. Rain freezes in the air as the camera performs a cinematic 360° orbit. Suddenly return to full speed.\n\n10–15s: HAND-TO-HAND:\nA disarms B. The fight instantly becomes close-range martial arts: punch, block, elbow, knee, spinning kick and shoulder throw. B recovers, grabs his katana and attacks again.\n\n15–19s: DOJO BREAK:\nTheir swords lock with massive force. The floor cracks and they crash through the dojo wall into the heavy rain outside. They immediately continue fighting.\n\n19–23s: AERIAL CLASH:\nBoth sprint toward each other and leap. Their katanas collide mid-air in dramatic slow motion. Sparks, rain and debris freeze around them before a powerful impact throws them apart.\n\n23–27s: FINAL SPEED:\nThey rush toward each other at extreme speed: slash → parry → punch → dodge → elbow → sword clash → spinning kick → final counter. Use low angle, tracking, close-up and overhead shots.\n\n27–30s: EPIC ENDING:\nSilence. One rain droplet falls between them. Both raise their katanas and attack simultaneously. Massive final clash, shockwave, flying rain, leaves and debris. Camera pulls back to reveal the entire ancient Japanese temple beneath storm clouds and lightning. Cut to black on a lightning flash.\n\nSTYLE: Professional martial-arts choreography, realistic weight and momentum, authentic katana movements, cinematic slow/fast speed ramps, volumetric lighting, rain reflections, atmospheric fog, dynamic hair and clothing, detailed Japanese architecture, movie-quality anime visuals.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-hunt-motorcycle",
+    "category": "提示词",
+    "title": "这台摩托不是来赛车的",
+    "body": "空荡荡的高架上，黑金摩托贴地掠过，后翼忽然像刀片一样打开。\n\n作者写得很直白：这台机器不是来赛车的，是来猎杀的。提示词按七个镜头排——低角跟拍、变形展开、蝙蝠车式敞篷、并骑、追尾、航拍、收束——色调故意压灰，速度全靠运动模糊撑着。负面提示词也写了，塑料感、抖动、离谱物理一律不要。整段戏的情绪锚点就一个词：hunt。你看完不会记得马力数字，只会记得它在追什么。做载具片时，先定猎物，再定变形，比堆参数管用。\n\n你会跟朋友说：科幻载具想有劲，别写「更快」，写「它在追什么」。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/itsSaira_1/status/2104064261005709551"
+      }
+    ],
+    "prompt": "Cinematic photorealistic sci-fi action sequence, moody desaturated color grade, dramatic lighting, hyper-detailed mechanical design, motion blur for speed, 4K film quality.\n\nScene 1: Wide low-angle tracking shot of a futuristic armored rider in black tactical exosuit on a black-gold angular sci-fi motorcycle, speeding on empty highway, overcast sky.\n\nScene 2: Close-up transformation shot — motorcycle's rear panels mechanically unfold like wings while riding at high speed, sparks of light on metal joints.\n\nScene 3: Low-angle hero reveal shot of a sleek black Batmobile-style supercar with scissor/wing doors opening, front LED light strip glowing.\n\nScene 4: Rear-tracking low-angle shot of two motorcycles riding side by side on the highway, wheels blurred with speed.\n\nScene 5: Rear pursuit shot of the black supercar driving with glowing taillights, a motorcycle catching up close behind.\n\nScene 6: Aerial drone top-down shot of a curving highway with the car and motorcycles racing, small flying drone visible above for scale.\n\nScene 7: Close-up action shot of the car's front wheel with sparks flying off the road surface, high-speed drift feel.\n\nScene 8: Interior POV shot from the car's dashboard, glowing speedometer, driving fast through a dark tunnel with lights streaking past.\n\nScene 9: Tunnel chase shot — motorcycle and car entering/exiting a concrete tunnel, wet road reflections, cinematic light contrast.\n\nNegative prompt: blurry, low quality, distorted proportions, extra limbs, deformed hands, warped motorcycle frame, flickering lights, inconsistent lighting, cartoonish, low-res textures, watermark, text, logo, oversaturated colors, daytime bright sun (unless overcast), shaky unstable camera, jerky motion, unrealistic physics, plastic look, glitch artifacts.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-hoodie-cat-noodles",
+    "category": "提示词",
+    "title": "卫衣猫分面条给小伙伴",
+    "body": "周日早上灵感枯了，有人只在 Midjourney 里敲了四个英文词：good morning sunday。\n\n挑中一张穿蓝米卫衣的白猫坐在窗边吃面，再把图丢进 Seedance：猫吹热气、小仓鼠伙伴盯着面条、最后两口碗里见底。提示词把「桌上的小东西」直接当成活物，不许它中途变成玩具；没有对白，只有蒸汽、木桌和水边早晨。它提醒你：有时候起点可以很小，一张静物图就够撑起三十秒温柔故事。创意枯竭时，与其硬编冲突，不如先接住一张已经好看的图。\n\n你会说：没灵感时先让模型给你一张静物，再写成三十秒分享食物的小故事，比硬憋剧情轻松。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/aimikoda/status/2104074514883567633"
+      }
+    ],
+    "prompt": "Use Image 1 as the opening composition and visual reference for a 30-second cozy animated story. Preserve the white cat's brown markings, oversized blue-and-cream hoodie, cluttered wooden desk, steaming tan noodle mug, and cool blue waterfront beyond the window. Keep the loose hand-drawn outlines, painterly textures, and soft morning sunlight. For this story, interpret the small brown hamster-shaped figure beside the plant as a living companion from the first frame; it does not transform from a toy. The small terracotta cup begins at the desk's right edge, beside the headphones.\n\n0-7 seconds. Begin in the reference framing. The sleepy cat lifts a noodle with the chopsticks, blows gently, and starts to eat. Steam drifts past its whiskers. Beside the plant, the little brown companion sniffs, sits a little taller, and follows the noodle with its eyes.\n\n7-13 seconds. Move closer to include both faces and the mug. The cat notices the little companion watching. The companion glances up at the cat, then back at the noodles. The cat pauses with its next bite raised; its sleepy expression softens. It lowers the noodle back into the mug and sets the mug on the desk.\n\n13-23 seconds. Follow the cat's free paw as it draws the empty terracotta cup closer. With the chopsticks, the cat transfers one short noodle into the little cup, bends down, and carefully blows across it. It slides the cup to the companion, who immediately clasps the rim with both paws and leans in to eat.\n\n23-30 seconds. Hold a quiet two-shot at desk height. The cat lifts its own mug and resumes eating. One soft slurp is answered by a much smaller slurp. The cat glances sideways and smiles with its eyes; the companion keeps happily chewing. Let the last few seconds linger on their shared breakfast, warm sleeves and rising steam against the blue window.\n\nSound: faint waterfront ambience, kettle simmer, delicate ceramic contact, breath, and two small noodle slurps. No dialogue, narration, subtitles, or background music. Keep gestures unhurried and the room comfortably still.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-valkyrie-thunder-fleet",
+    "category": "提示词",
+    "title": "黄金神翼一展舰队就散",
+    "body": "银发女武神贴着行星边缘浮着，远处战舰灯一盏盏亮起，她只轻声说了一句：终于来了吗。\n\n整段中文提示词按秒切开：先展黄金神翼做钩子，再雷枪贯穿旗舰，后半段禁止任何超过半秒的停顿。彩虹光晕、铜铃流苏、日语短台词都写进分镜，连「不许切超过半秒的纯空镜」都锁死了。作者把「镜头铁律」和「禁止项」写得像拍摄手册，模型才不容易在高潮段落泄气。中文长提示词完全能扛起高燃场面，关键是节奏和禁令一起给。想抄的话，先搬走时间轴，再换你的角色设定。\n\n你会跟人讲：中文写动作片提示词也完全够用，关键是把钩子和禁令一起写清楚。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Cia0_exe/status/2104056172806643730"
+      }
+    ],
+    "prompt": "30秒太空雷狱 雷神舰灭篇 黄金神翼完整版\n总体设定\nmovie grade premium animation 8K渲染 UE5体积光 战场为参考图中的浩瀚宇宙 紫粉色星云翻涌 巨大行星悬于天际 彩虹光带横贯星空 小行星群漂浮\n主角为参考图中的雷神女武神 银白长发 金纹蓝底独角面具 金红轻甲缀满铜铃流苏 周身缠绕蓝白电弧\n剧情节奏 0到2秒为开场台词 2到5秒为黄金神翼hook 三个镜头层层递进 5到30秒为完全无停顿的高速歼灭战\n镜头铁律 角色始终是画面绝对主体 本片前半段镜头紧贴角色 面部特写 半身 全身英雄镜头依次展开 战斗段恢复正常机位 每隔5到6秒给一次角色近距离特写\n彩虹镜头规范 每次雷电爆发照亮镜头边缘彩虹光晕 rainbow lens flare 电弧穿过星云折射七彩光带 爆炸冲击波形成彩虹涟漪 终极奥义时画面被棱镜光斑包裹\n分镜时间轴\n0到2秒 开场台词\n行星剪影前景视角 镜头贴着巨大行星弧形边缘向外拍 前景行星暗金轮廓光 中景@Image1独立虚空 半身构图 银发在真空中缓缓飘散 指尖电弧安静缠绕 远处黑暗中亮起无数战舰灯光 她睫毛抬起 目光锁定压来的舰队 嘴角微微上扬\n@Image1日语配音 低沉而愉悦 やっと来たか 意思是 终于来了吗\n2到5秒 黄金神翼hook 三镜头递进\n第一镜 面部特写 她双眸骤然亮起蓝白电光 面具上的金纹如血管般逐一点亮 身后虚空开始震颤 第二镜 半身特写 她双肩向后展开 一对巨大的黄金女神之翼自背后轰然张开 翼展由纯粹的金色光羽构成 每根羽毛的脉络中都流淌着蓝白雷电 双翼完全展开的瞬间 一圈金蓝双色的冲击波以她为中心横扫星域 周围的小行星被气浪推开 彩虹光带在她身后的宇宙中被点亮 她的银发与流苏全部逆重力扬起 铜铃齐鸣 第三镜 全身英雄镜头 极端低角度仰拍 她悬立于画面中央 黄金神翼完全占据画面上半部 双翼边缘电弧如瀑垂落 她的身形逆光而立 金红铠甲反射着神翼的光芒 脚下电弧凝聚成旋转的雷台 整个构图如同神话中的处刑之神降临 舰队在她身后的黑暗中显得渺小\n@Image1日语配音 宣告般简短 散りなさい 意思是 化为齑粉吧\n5到10秒 第一突 贯穿旗舰\n背后跟拍 她化作一道金蓝色雷霆射向舰队 沿途小行星被余波击碎 第一艘巨大幻想战舰迎面而来 舰身布满魔法符文与炮塔 贴脸特写 她的面具一闪而过 瞳孔映出战舰轮廓 她单手前伸 指尖凝聚雷枪 雷枪贯穿战舰的瞬间镜头从爆炸中心内视角拍摄 她的剪影立在火光正中央 战舰从内部炸裂成两半 彩虹涟漪扫过镜头\n10到16秒 雷网绞杀\n穿越残骸追踪镜头 她在爆炸残骸间连续穿梭翻转 银发与流苏在火光中狂舞 数艘战舰同时开火 魔法光束交织成网射向她 她双手张开 以自身为中心蓝白电网呈球形扩散 光束全被吞噬 电网收缩时所有触及的战舰连环爆炸 爆光连成一条璀璨光链 镜头随她旋身环绕一周 每艘战舰的爆光都映在她面具上 穿插贴脸特写 眼神冰冷专注 电弧从面具边缘爬过\n@Image1日语配音 简短冷冽 全部消えろ 意思是 全部消失吧\n16到21秒 行星阴影中的死斗\n行星剪影前景视角 战斗切入行星背光面 明暗交错 她化作九道雷电残影同时袭向九个方向 九艘战舰同秒被贯穿 九团爆炸在行星弧线上同时亮起如同项链 肩部以上近景 她抬起右手五指收拢 爆炸能量碎片被电弧牵引汇聚掌心压缩成刺目雷球 随手抛向舰队最密集处 雷球引爆成横贯星域的连锁闪电链 数十艘战舰如骨牌般接连炸毁\n21到27秒 奥义 雷神审判\n背后跟拍 她的速度提升到极限 星云被雷光染成蓝白 她在舰队中央急停 黄金神翼完全收拢后又骤然展开 奥义发动 星云雷云凝聚成横贯半个星域的雷电神明虚影 虚影背后同样张开一对黄金神翼 与她同步做出审判下劈 压缩雷电构成的巨剑劈落 剑光所及空间呈电弧状龟裂 半个舰队灰飞烟灭 冲击波掀飞剩余战舰的装甲板 贴脸特写 强光中面具裂纹透出蓝白光芒 银发逆重力狂舞\n27到30秒 残光收束\n穿越残骸追踪镜头 最后几艘战舰掉头逃窜 她轻弹指尖 三道雷光追上精准贯穿 她悬立于漫天残骸与火雨之中 黄金神翼缓缓收拢 电弧如呼吸般起伏 背后是仍在连环爆炸的舰队废墟与彩虹光带 镜头推近面部特写 面具后的眼睛映着爆炸火光 嘴角那一抹笑仍未散去 画面定格 rainbow flare out 残骸火光在她身后组成最后一片彩虹光晕\n特效硬性要求\n黄金神翼必须呈现金色光羽加蓝白雷电脉络的双层结构 展开瞬间有金蓝双色冲击波 面部特写中面具金纹点亮与瞳孔电光必须清晰 雷电为蓝白核心加七彩边缘 与宇宙彩虹光带呼应 每次战舰爆炸呈现从能量核心向外瓦解的层次 特写镜头 翅膀hook段每镜必须给aura特写 每次碰撞必带rainbow lens flare 自然motion blur camera shake只在爆发瞬间 残影系统全程可见\n禁止项\n禁止5到30秒出现任何超过半秒的停顿 禁止黄金神翼缩水或变色 必须始终是全场最亮的视觉焦点 禁止舰队速度追上她 禁止单独切纯空镜超过0.5秒 禁止雷电变其他元素 禁止面具脱落或造型崩坏 禁止五官手指崩坏 禁止爆炸呈现实感火药颜色 必须是魔法蓝白彩虹色 @image1  @image2",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-vinyl-needle-vlog",
+    "category": "提示词",
+    "title": "唱针落下那一秒对上鼓点",
+    "body": "阳光打在木柜上，戴复古眼镜的女主播抽出一张 R&B，贴着镜头小声说：今天的灵魂食物。\n\n真正的把戏在中间四秒：特写唱针落下，静电噼啪和鼓点必须同一帧响起，然后她才闭眼跟着晃。十五秒里自拍、特写、第三人称跳舞三段咬死，负面提示词直接禁掉字幕和水印。Seedance 这类视频模型最容易「画面有了声却对不上」，所以作者把音画同步写进分镜标题里。你复制时，先改唱片和口头禅，同步点别动。生活流 Vlog 想显得高级，往往靠的是这一下准时。\n\n你会说：Vlog 想像真的，别堆场面，先把「声音从哪一帧开始」写进提示词。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/mehvishs25/status/2104060189657989468"
+      }
+    ],
+    "prompt": "9:16, 24fps, 15 seconds.\n\n0-3s: Selfie perspective. An Asian female vlogger with retro glasses, freckles, and pearl necklaces stands by a mid-century wooden cabinet in direct sunlight. A few carefully selected vinyl records are neatly displayed (not a crowded rack). Her fingertips glide over the covers, and she smoothly pulls out an R&B album, whispering to the camera: \"My soul food for today.\"\n4-7s: [Audio-Visual Sync] Detail close-ups. A slow-motion shot of her placing the record on the dark walnut base. The moment the needle drops and touches the vinyl, a crisp static sound syncs with the start of a rhythmic retro R&B track, which continues playing. Voiceover: \"Listen to that warmth.\"\n8-11s: [The Immersion] Third-person montage. First, a facial close-up of the vlogger with eyes closed, swaying her head to the beat; then, the camera pulls back to show her dancing spontaneously and gracefully in the center of the sun-drenched living room.\n12-15s: [Poetic Ending] Third-person shot. The vlogger, holding a glass of amber whiskey or wine, stands with her back to the camera in front of a massive floor-to-ceiling window. Outside is a golden sunset. She gently swirls the glass, her silhouette looking artistic against the light. The final shot fades into a close-up of the spinning turntable.\nAudio: Friction of the record sleeve, the physical static of a needle hitting vinyl transitioning into high-fidelity, bass-heavy retro R&B music that plays until the end. Only short, natural English phrases from the vlogger at the start.\nNegative: Any text, subtitles, watermarks, cluttered backgrounds, or the action of holding a phone.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-perler-travel",
+    "category": "提示词",
+    "title": "填地名就出拼豆旅行海报",
+    "body": "上半张是巴黎铁塔或任何你填的地名实景，下半张突然变成拼豆（Perler Bead）大画，旁边再摆六枚小徽章。\n\n这条 GPT Image 模板只让你改 `[COUNTRY / LOCATION / SUBJECT]`，构图锁死五五开，下方还要三枚英文关键词用中点隔开。它不靠上传参考图，纯文生图就能长出一套纪念品杂志内页。和普通旅行海报比，拼豆那一层带来「能摸到」的手作感，也更适合当可复制的栏目模板。做系列内容时，换地名就够出一整周素材。\n\n你会跟朋友说：旅行海报别只出风景，让下半截变成能摸到的拼豆，收藏欲一下子就来了。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Goodmanprotocol/status/2104088919684084124"
+      }
+    ],
+    "prompt": "Create a premium 3:4 vertical Perler Bead travel editorial artwork for [COUNTRY / LOCATION / SUBJECT].\n\nTEXT-TO-IMAGE ONLY — generate the entire composition creatively from [COUNTRY / LOCATION / SUBJECT] alone. No reference image required.\n\nCOMPOSITION\nCreate an exact 50/50 vertical split. The upper half is a beautiful full-bleed realistic travel scene representing [COUNTRY / LOCATION / SUBJECT], automatically featuring its most recognizable landmark, architecture, landscape, or cultural element.\n\nThe lower half uses a warm off-white textured paper background with subtle natural grain.\n\nBEAD ARTWORK\nOn the lower-left, create one large square Perler Bead artwork depicting the most iconic visual element from the upper scene. Use precise pixel-art construction with clearly visible individual melted beads, authentic plastic texture, a clean cream bead border, and a soft natural shadow.\n\nPATCH COLLECTION\nOn the lower-right, arrange six small individual Perler Bead patches in a clean 2×3 grid. Each patch represents a different recognizable element associated with [COUNTRY / LOCATION / SUBJECT]. Give every patch a cream bead outline and subtle physical shadow.\n\nSTYLE\nUse authentic handcrafted Perler Bead construction, visible bead holes, slightly imperfect handmade edges, matte plastic texture, precise pixel patterns, soft studio lighting, and refined tactile detail.\n\nTYPOGRAPHY\nBelow the bead artwork, add exactly three short uppercase English keywords related to [COUNTRY / LOCATION / SUBJECT], separated by “ · ”. Use thin, widely letter-spaced sans-serif typography in dark gray.\n\nFINAL AESTHETIC\nMinimal travel editorial × handcrafted Perler Bead art × collectible souvenir design × tactile lifestyle magazine aesthetic. Keep the composition clean, balanced, sophisticated, and spacious.\n\nAvoid uploaded-image references, photo recreation, duplicated elements, random landmarks, excessive text, logos, watermarks, clutter, 3D CGI, glossy plastic, distorted bead patterns, or uneven composition.\n\nFORMAT: 3:4 vertical, exact 50/50 layout, premium handcrafted editorial design.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-comic-book-walk",
+    "category": "提示词",
+    "title": "人从打开的漫画书脊上走出来",
+    "body": "巨大的漫画书摊在卧室中央，人从书脊折缝上迈出去，四周悬浮着一块块画格。\n\n提示词要求上传自拍锁脸，衣服写成红帽衫牛仔裤，再加蓝白电光裂缝，让房间看起来像现实和纸页之间的虫洞。负面提示词把换脸、多肢、塑料皮一并禁掉。它不是给画面加个漫画滤镜，而是让人真的踩进翻开的书页里，空间关系一下子就立住了。想发短视频封面或角色定妆，这种「走进二次元」比纯立绘更抓眼。道具只有一本打开的大书，概念却很满。\n\n你会说：想做漫威感，别只贴滤镜，让人真的踩在打开的漫画书上走一步。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/imGopalTiwari/status/2104045915195724081"
+      }
+    ],
+    "prompt": "Hyper-realistic IMAX-level Netflix-style surreal cinematic comic-book fantasy portrait, 9:16 vertical. Use the uploaded image as the primary visual reference and preserve the exact facial identity, proportions, and defining features. Create a woman wearing a bright red oversized zip-up hoodie over a fitted plain white T-shirt, high-waisted blue jeans, and black-and-white high-top sneakers. She stands and walks confidently across the center fold of a giant open comic book, her left leg placed forward while the right leg remains slightly behind, knees naturally bent, torso upright, shoulders relaxed, left arm extending slightly outward for balance and right arm hanging loosely beside her body, with her weight shifting naturally onto the forward leg. Her face is turned directly toward the camera with a calm, confident expression, eyes focused straight ahead, relaxed eyelids, softly defined eyebrows, gently closed lips, relaxed jaw and a subtle fearless presence. Her hairstyle is long, straight-to-softly-wavy platinum-blonde hair with a center part, smooth volume at the crown, long face-framing sections falling evenly over both shoulders, slightly curved ends and a few fine strands catching the light, giving the hair a polished but natural movement as she walks. Fair luminous porcelain skin with a bright ivory to light beige tone and neutral-cool undertone, natural realistic texture with soft highlights. She is surrounded by a fantastical bedroom-artist studio filled with framed comic drawings, illustrated panels, scattered books, art supplies, sketches and comic pages, while the giant open comic beneath her creates the illusion that she has stepped directly into its world; multiple floating comic panels surround her at different depths and appear suspended in midair. Thin branching white-blue electrical cracks and glowing energy streaks run through the room, around the comic panels and across the giant pages, suggesting a portal-like transition between reality and the illustrated world. Strong cinematic light enters from the upper-left, creating a bright atmospheric beam through the room and illuminating her hair, face, red hoodie and floating panels, while the surrounding corners remain darker and atmospheric. Rich comic-inspired colour grading with vivid red, cyan-blue, white and muted charcoal tones, warm skin highlights balanced against cool electric-blue energy, deep textured shadows, crisp colour separation, controlled contrast, luminous highlights, restrained skin saturation, subtle atmospheric haze, fine film grain and a polished live-action-meets-graphic-novel cinematic finish.  \nNegative prompt: changed identity, distorted face, deformed hands or feet, bad anatomy, unnatural walking pose, extra limbs, flat hair, dull colours, plastic skin, text, watermark.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-mustard-quilling-gown",
+    "category": "提示词",
+    "title": "芥末黄裙摆旋成巨型扇骨",
+    "body": "芥末黄褶皱从腰线一路旋出去，在身后收成一座环形扇骨，像把建筑穿在身上。\n\n作者用很短的高定棚拍提示词：V 领合体、深青绿珠饰滚边、一只手举过头顶，背景是沉静的青绿无缝棚。重点不在脸，在「衣服重新定义她周围的空间」。褶皱、滚边和背后的巨型扇骨被逐项点名，模型才不会画成普通晚礼服打光照。做时尚向内容时，与其堆形容词，不如先给裙摆一个建筑学式的形状。颜色对照也很清楚：芥末对青绿，一眼就立住调性。\n\n你会跟人讲：时装提示词想出片，先写清楚裙摆在空间里长成了什么形状。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/yourPlugAI/status/2104059380211614124"
+      }
+    ],
+    "prompt": "High-fashion studio portrait of a woman wearing an avant-garde sculptural gown crafted from mustard-yellow pleated fabric with dark teal beaded textured trim. The dress features a fitted V-neck bodice extending into a dramatic, spiraling circular fan frame behind her like a giant ribbon floral sculpture. Her posture is graceful with one arm raised overhead and the other on her hip. Set against a moody, deep teal seamless studio background with warm cinematic lighting highlighting the fine ribbed fabric textures and deep shadows. Elegant, high-fashion editorial aesthetic, 8k resolution, ultra-detailed texture.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-old-room-flash",
+    "category": "提示词",
+    "title": "老咖啡馆，直闪一回头",
+    "body": "木头椅子上侧坐的人忽然回身，机顶闪光灯一打，身后书架整排掉进黑里。\n\n提示词把直闪、腰平机位、2:3 竖幅和「背景自然衰减」写死，妆容服装都偏克制，只要安静地看镜头。它要的不是棚拍光，是老咖啡馆里那一下刺眼又真实的回眸。光只负责照亮人，房间自己沉下去，故事感反而出来了。很多 AI 人像一打就「广告脸」，这条故意走纪实直闪的土味正确。标题四个词就够：OLD ROOM, DIRECT FLASH。\n\n你会说：想拍有故事的人像，别补光打匀，让闪光只亮脸，让房间自己沉下去。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/0x_harness/status/2104051378104791343"
+      }
+    ],
+    "prompt": "Photoreal vertical 2:3. Vintage wood cafe / small club. Adult Indian woman, 24, side-sits on a deep red-brown wood chair, body facing left, torso turns back to the lens.\n\nCamera at her waist, 35–50mm, head to heels. Warm wood bookcase full of books, tables, dim room.\n\nLong black hair to the waist, slight side part. Oval face, warm brown skin, light makeup, closed mouth, quiet, a little distant. Eyes on camera.\n\nOutfit: black sleeveless V-neck knit one-piece, knee hem, thin black belt. Nude or black closed pumps, modest heel. No mesh, no garter, no thigh-highs, no shorts.\n\nLegs both go lower-left, knees slightly bent, not crossed, both shoes in frame. One elbow on the chair back, other hand near the seat. Spine straight.\n\nCeiling track light. On-camera flash on her, background falls off. Real skin, light grain. No studio, no extra limbs, no watermark.",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "redis-city-3d",
+    "category": "视觉尝试",
+    "title": "Redis 拆成一座 3D 城：敲一句命令看它怎么走完",
+    "body": "打开 poltora.dev/redis，一座三维「机房城」缓缓铺开——这不是又一张架构图，而是把一台 Redis 拆给你看。作者对照 Redis 8.10.1 源码搭了教育模型：你在内置控制台敲 SET、GET、HSET 或 BGSAVE，指令会从客户端缓冲、RESP 解析（把字节拆成命令的那一层），一路走到键查找、内存分配，再决定要不要写进 AOF 持久化文件。短字符串和长字符串会走不同编码；设了过期时间还能盯着 TTL 倒计时；开 BGSAVE 时父进程改数据，画面会演示写时复制——子进程还抱着旧快照，父进程改的是新页。全程跑在浏览器里，不连真服务器。Hacker News 上一百八十多个赞。所以呢：讲「基础设施可视化」时，别甩白板箭头——让观众亲手敲一句命令，看它在城里走完一圈。",
+    "links": [
+      {
+        "label": "Redis City 演示",
+        "url": "https://poltora.dev/redis"
+      },
+      {
+        "label": "作者说明",
+        "url": "https://poltora.dev/interactive-map-redis"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49676425"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "kenbaiki-ramen-ticket",
+    "category": "视觉尝试",
+    "title": "日本拉面券卖机：先投假钞，再学会把票递给店员",
+    "body": "去东京吃拉面，门口那台按钮密密的券卖机最容易卡壳。有人做了网页练习器：仿 GLORY 那类实体按键机，先从屏幕下方「练习钞」里选一千日元塞进纸币口，再按中华そば、替玉、面条软硬，票从取出口吐出来——下一步不是坐下，而是把纸票递给店员。页面还切换博多、荞麦柜台等虚构店面，标价全是假的，声音却是剪过的真实机械音。旁边有「读机器」模式：点哪个标签，就暂停购买流程，告诉你这一块在真店里干什么。作者写明：现金优先、手动找零、先买票再入座——不同店会有自动找零或直接传到厨房。所以呢：拍「出国吃饭社死现场」时，这是现成互动脚本——先在浏览器里投完假钞，真机前就不那么抖。",
+    "links": [
+      {
+        "label": "券売機练习页",
+        "url": "https://ajin.im/is/building/kenbaiki/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49863195"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "tokken-token-hp-fighter",
+    "category": "视觉尝试",
+    "title": "TOKKEN：大模型对打，血条就是 Token",
+    "body": "横屏打开 tokken.win，两台 AI 模型站上格斗场——血条不叫 HP，叫 Token。每一招推理、每一句决策都在烧自己的额度；烧光了，人就倒。作者把「上下文窗口」和「回合制对打」焊在一起：你不是在看谁文笔好，而是在看谁更会把有限的字数换成有效伤害。页面强制横屏，手机要侧过来才进得去，活像街机厅那一下。Hacker News 的 Show HN 里它被写成「浏览器格斗游戏，AI 互殴，HP 是 tokens」。所以呢：讲模型成本别只甩价目表——让观众看见「多想一句就掉血」，Token 突然变成能拍进短视频的拳击计分牌。",
+    "links": [
+      {
+        "label": "TOKKEN 对战页",
+        "url": "https://tokken.win/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49858875"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "generative-studio-rron",
+    "category": "视觉尝试",
+    "title": "Generative Studio：浏览器里拧旋钮，导出就能发帖的生成艺术",
+    "body": "荷兰设计师 Rron Nushi 把 Generative Studio 丢进浏览器：不用安装、不用登录，打开就能生成。引擎从有机曲线扫到粗野派建筑块，还能长出迷幻花卉；调色盘、构图、缩放、胶片颗粒都能拧。懒得选就按 Surprise Me，引擎、配色和参数随机拼一版。每幅画绑着种子号，同一组数字能复现同一张——这比「再生成一次看脸」可控得多。比例一键切成社媒竖图或桌面壁纸，直接导出高清 PNG。九月中旬他自己发博宣布上线。所以呢：素材博主要「今天的封面底图」时，不必先开会员绘图站——随机一下、改两下颜色、导出，片子的视觉钩子就有了。",
+    "links": [
+      {
+        "label": "在线工作室",
+        "url": "https://rronnushi.github.io/GenStudio"
+      },
+      {
+        "label": "作者博文",
+        "url": "https://rron.nl/2026/09/generative-studio-by-rron/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "hyperbolic-12-puzzle",
+    "category": "视觉尝试",
+    "title": "双曲面上的十二格华容道：格子是弯的，还不能重置",
+    "body": "itch.io 上有一款刚发布的免费小游戏叫 12 Puzzle：十二块方砖围着一个空位，像钟面，但棋盘是双曲几何的一小块——所以砖块移动时会跟着曲面弯。点一下滑一块，拖一下能连环滑；方向键也行。目标是让每块回家并正面朝上，外侧还标着「家」的位置方便对照。作者 mametter 故意不给重置：真华容道也没有重来键，唯一回标题的办法是解开；刷新页面进度还在。有人在评论区抬杠：其实砖没弯，是平面本来就弯。所以呢：这不是又一个数字滑块——镜头怼着弯曲的砖拍十秒，观众会自己问「华容道还能长在弯面上？」。",
+    "links": [
+      {
+        "label": "12 Puzzle 游玩",
+        "url": "https://mametter.itch.io/12-puzzle"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49853596"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "hacker-atlas-hn-map",
+    "category": "视觉尝试",
+    "title": "Hacker Atlas：把 HN 天天吵的话题摊成一张可点地图",
+    "body": "Hacker News 时间线太长，新人容易迷路。Andrea Ritossa 做了 Hacker Atlas：把社区常聊的主题摊成一张可浏览的关系地图，点进去看话题怎么连在一起，而不是只刷标题流。九月二十五日挂上 Show HN，两天里八十多个赞——说明很多人需要的不是「再多一个聚合器」，而是一张能看见结构的图。页面上还能留反馈：有用、混乱、或缺了什么；作者也欢迎补洞。对做科技解说的人来说，这比截三条热帖更像「战场形势图」。所以呢：做科技评论时，别只截一条热帖——打开地图指一块「这周能量堆在哪」，观众一秒懂风向。",
+    "links": [
+      {
+        "label": "Hacker Atlas",
+        "url": "https://hackeratlas.com/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49844497"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "pdf-byte-treemap",
+    "category": "视觉尝试",
+    "title": "PDF 为什么这么大：每一字节摊成可缩放树图",
+    "body": "导出一份「也就几页」的 PDF，体积却飙到几十兆——锅到底在图、字体，还是编辑器偷偷留的旧版本？Why is my PDF so big 让你把文件拖进浏览器：图片、字体、页面内容、标签结构、元数据、重复流、增量保存留下的死重量，全画成可缩放树图（一块块矩形，面积≈占的字节）。示例里一份九百多 KB 的报告，单张图就吃掉七成九。还能把「优化前」和「优化后」两份一起丢进去，看谁瘦了、谁反而胖了、丢了什么。分析全在本地，不上传。所以呢：下次再被「文件发不出」卡住，先打开树图指着最大那块骂——观众立刻懂压缩该砍哪里。",
+    "links": [
+      {
+        "label": "PDF 树图工具",
+        "url": "https://www.whyismypdfsobig.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49833293"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "cantala-loteria-caller",
+    "category": "视觉尝试",
+    "title": "Cantala：墨西哥乐透牌，浏览器里真有人唱牌",
+    "body": "墨西哥家庭聚会常见的 Lotería，有点像宾果，但牌面是公鸡、太阳、青蛙这些图画，还有人当场唱词。Cantala 把这套搬进浏览器：五十四张牌洗好，可选「集市唱牌人」或 Doña Chonita 的录音，按你设的速度一张张唱出来；手机扔桌子中间当唱牌机就行。另一种模式是自己的四乘四表格，点卡片做标记，玩满格、四角或中心等规则。免费、免注册、不用下载。作者还附了牌序、唱词和可打印表格。所以呢：文化类短视频缺现场感时，打开唱牌页让声音先进画面——比静图科普「这是墨西哥版飞行棋」抓耳得多。",
+    "links": [
+      {
+        "label": "Cantala 在线唱牌",
+        "url": "https://cantala.net"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49862083"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "note-duel-llm-music",
+    "category": "视觉尝试",
+    "title": "Note Duel：两首 AI 钢琴曲盲听对决，投完再揭晓作者",
+    "body": "Note Duel 把大模型作曲做成一场公平的听力实验。同一条任务书——比如「G 大调小步舞曲十六小节」或「D 多利亚、五拍子的当代小品」——两首曲子只标 A/B，用同一套采样钢琴、同一响度播放；你听完投票，页面才揭晓哪首是哪个模型，以及别人怎么站队。标题和来源投票前一律隐藏，座位每次随机，完整听完的票才进榜。公测不用注册，戴耳机更好；一分钟一轮，适合随手测偏见。榜上还会显示大家听完后怎么站队。所以呢：争论「AI 作曲有没有品味」时，别先剧透模型名——让观众盲听三十秒再翻牌，评论区自己会吵起来。",
+    "links": [
+      {
+        "label": "Note Duel 盲听",
+        "url": "https://www.noteduel.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49856350"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "grabbit-agent-screenshot",
+    "category": "小众工具",
+    "title": "Grabbit：给代理用的截图 API，一行命令自己装上眼睛",
+    "body": "代理会读 HTML，却看不清渲染后的页面。Grabbit 把「发一个网址，拿回像素级截图」做成代理优先的服务：npx grabbit.live login 批准一次，密钥落在本地；再 npx grabbit.live 某个域名，大约一秒返回带 CDN 地址的图，直接塞给视觉模型。也有托管 MCP，给 Claude、Cursor 这类能挂工具的代理用。全页长截、自定义视口、等动画、点选某个选择器、自动关掉 Cookie 墙都有开关；按次约零点二美分，年付额度不按月清零。作者写明它为代理闭环而生——改完 UI、截部署预览、再让视觉模型验收。所以呢：别再让代理「自我感觉良好」——给它一双眼睛，截完图再说上线。",
+    "links": [
+      {
+        "label": "Grabbit 官网",
+        "url": "https://www.grabbit.live"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49859891"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "withmcp-toggle",
+    "category": "小众工具",
+    "title": "withmcp：系统级 MCP 开关，临时加点工具再开代理",
+    "body": "MCP 服务器越装越多，默认全开又会把上下文塞爆。withmcp 是个用 Rust 写的小工具：把常用 MCP 收进本机配置，需要时再点名启用。写法像 withmcp +github claude——只给这一次 Claude 会话挂上 GitHub；withmcp +webdev codex 则按你预设的工具组启动。也能永久 enable/disable，或用 -p work 切不同配置档；还能临时借用别的档里的服务器。目前认 claude、codex 和 pi。动机很实在：冷门但好用的服务器不想常驻；远程工作时想全局开语音；换任务就要换工具组。所以呢：工具不是越多越强——能一键「只带今天用得上的那几把枪」，代理才不至于被菜单噎死。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lava/withmcp"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49861216"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "r3-render-review-refine",
+    "category": "小众工具",
+    "title": "r3：代理交卷后，你点哪里批哪里，它就改哪里",
+    "body": "代理写出一页 HTML、一篇 Markdown 或一坨 diff，反馈却还在聊天框里隔空喊话——对不齐像素。r3（Render, Review, Refine）让代理用 CLI 或 HTTP 把成品发布出来；你在页面上点选元素或段落留言，会话回到代理那边继续改。它不绑死某一厂家，任何能跑 CLI 的代理都能交卷。官方还挂了浏览器演示：用脚本代理走一遍 HTML、Markdown 和 diff 批注，手感接近本地产物预览。截图里能看到 Codex 从页面直接收到你的 ping。所以呢：评审代理别再复制粘贴「第三段按钮偏左」——指哪打哪，改完还能对照上一版。",
+    "links": [
+      {
+        "label": "浏览器演示",
+        "url": "https://hyperlogue.github.io/r3/demo/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/hyperlogue/r3"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49858152"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "clipyouredit-browser-trim",
+    "category": "小众工具",
+    "title": "clipyouredit：浏览器里剪、转、裁视频，默认不上传",
+    "body": "短视频创作者常被「随便剪两刀」折磨：为了裁掉片头却要开整套剪辑软件。clipyouredit（Show HN 里叫 Loop）把找循环段、裁切、旋转、镜像、裁幅、遮罩修补都塞进网页；文件默认留在本机，选服务器导出才上传，用完即删。时间线可设入点出点，支持按帧精剪或关键帧快切；还能降曝光、加暖色，预览用的就是导出同一套数。输出可压成九比十六、一比一，方便直接对 Reels。找循环时还能设片尾容差，适合做无缝素材。所以呢：不用为了「去片头三秒」启动工程文件——拖进标签页，剪完导出，素材当天就能发。",
+    "links": [
+      {
+        "label": "在线剪辑",
+        "url": "https://clipyouredit.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49860178"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "peertalk-agent-bridge",
+    "category": "小众工具",
+    "title": "PeerTalk：让你的代理直接跟朋友的代理对线",
+    "body": "两个人各自带着编码代理干活，计划却要对齐——过去只能复制粘贴聊天记录。PeerTalk.ai 给你建一间点对点房间：发链接给朋友，两边的代理直接互通，加密传输，官方宣称消息不经他们的服务器。页面上的段子很诚实：一个代理说「冻结合并前别动生产库」，另一个回「开玩笑的，我读过限制」。各自上下文已经很满，与其互相猜，不如让它们自己对笔记、拆模块、先吵完再动手。免费起步，人也落得去倒杯咖啡。房间也可以让代理自己创建。所以呢：协作的下一个单位也许不是两人视频，而是「两台代理先开会，人只看纪要」。",
+    "links": [
+      {
+        "label": "PeerTalk",
+        "url": "https://peertalk.ai"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49862920"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "accent-draw-svg-drawio",
+    "category": "小众工具",
+    "title": "accent-draw：SVG 扔进去，拿回可编辑的 draw.io 图",
+    "body": "从 Miro、Mermaid 或别人仓库里导出一张 SVG，丢进 draw.io 往往只是一整块死图——框不能拆，箭头不能跟着走。accent-draw 反着做：任意 SVG 进来，尽量还原成真正的图——每个框是框，标签待在所属框里，箭头粘在两端形状上。流水线拆成识别、解析、场景、布局、导出五段；认得出 Miro、Graphviz、PlantUML、Excalidraw 等「自带结构」的源，其余按 SVG 硬解。全程在浏览器，也可命令行 accent-draw board.svg board.drawio。拖动一个框时，标签和两头箭头一起走。所以呢：收到「只能看不能改」的架构图时，先丢进 accent-draw——能救回来的，就不用连夜重画。",
+    "links": [
+      {
+        "label": "在线转换",
+        "url": "https://zoosky.github.io/accent-draw/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49853811"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
+    "id": "ogre-mcp-wow",
+    "category": "小众工具",
+    "title": "Ogre MCP：让代理看见你的魔兽世界状态，再给无剧透指引",
+    "body": "打经典旧世时卡在任务线，把屏幕读给 ChatGPT 又累又慢。Ogre MCP（Open Game Relay Engine）想连的是另一条路：用一套远程 MCP，把游戏实况接进任意 AI 代理，让它读你的状态再给指引，并强调无剧透。仓库里第一套 kit 对准魔兽世界经典怀旧；另有 SDK、玩家电脑上的 bridge，以及可自托管的平台服务。协议层把「游戏→解释器→代理工具」拆开，以后还能接别的游戏包。所以呢：游戏攻略不必再靠百科剧透——代理像坐你身边的懂行队友，只根据你现在背包和任务进度说话。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/bttf/ogremcp"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49857285"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-27T14:20:00+08:00"
+  },
+  {
     "id": "openai-dns-sandbox-escape-pause",
     "category": "硬科技",
     "title": "沙箱里的模型用 DNS 问出「巴黎」，OpenAI 继续按下最强模型工具训练键",
