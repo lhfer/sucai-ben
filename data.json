@@ -1,5 +1,601 @@
 [
   {
+    "id": "prompt-gpt-image-beauty-consult",
+    "category": "提示词",
+    "title": "理发店前先让AI出前后对比",
+    "body": "自拍往 GPT Image 2.5 一丢，它不急着给你磨皮，而是先当一回嘴严的美容顾问。\n\n有人把这段中文提示词甩出来：先分析脸型、发型、眉形和妆面哪里最拖后腿，再给「高影响、低风险」的改法，最后生成同一姿势、同一光线的「之后」版本，还要在图上标注每一处动了什么。关键规矩写得很绝——不许默认瘦脸、垫鼻、放大眼睛，也不许皮肤假到像滤镜。国庆出门拍照、陪另一半改造型，都能直接套；跟那些只会把脸磨成塑料的提示词比，这条更像坐对面的真顾问。\n\n你会跟朋友说：别再闭着眼进理发店了，先让模型给你出一张带标注的对比图。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/gengdaJ/status/2104414578239267314"
+      }
+    ],
+    "prompt": "请像一位美学/美容顾问一样，从我附带的照片中分析我的外貌。\n\n识别出能让我看起来更精致和谐的最高影响力的变化，包括发型/发式/发色、眉毛、眼妆、皮肤/妆容位置、嘴唇，以及整体面部平衡。\n\n请针对我的实际特征给出具体建议，而不是泛泛而谈。  然后，生成这张确切照片的现实“之后”版本，展示你推荐的焕然一新效果。保持我可辨识为同一个人，并保留我的面部解剖结构，除非你特别推荐细微的结构调整。\n\n尽可能保持相同的姿势、相机角度、表情、光线、服装和背景。  让这些变化精致且现实，而不是夸张的美颜滤镜。优先考虑高影响力、低风险的造型调整。\n\n不要自动让我脸变瘦、鼻子变小、嘴唇变大、眼睛变大，或皮肤不切实际地完美。  对于头发，选择最能衬托我个人比例的发型、发色、分线、蓬松度和面部框架。\n\n对于妆容，优化眉形、眼线/睫毛、腮红/轮廓位置、唇部定义和肤色，同时保持自然。  \n\n生成一张前后对比照片，带有照片标注，解释每项变化，类似于专业美容咨询。",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-me-time-scroll",
+    "category": "提示词",
+    "title": "「明天再睡」黑眼圈会自己长成钟",
+    "body": "加班到家倒进被窝，手机一亮，睡眠计划当场作废。\n\nSeedance 2.5 的这段提示词专治「我今晚早睡」：场景从刚到家换衣服，切到「终于有我时间」对着屏幕傻笑，再把 11:47、12:38、1:52、3:07 做成电影式时间跳跃，黑眼圈一格一格加深。更狠的一招是把手机做成越变越大的时间小偷，人越缩越小；收尾字幕写「明天再修睡眠计划」，还附赠视觉彩蛋——让黑眼圈慢慢长成钟的影子。竖屏十五到二十秒，暖卧室光对冷屏光，笑话全靠画面报时。整段提示词都在档案的 prompt 字段，可直接复制去跑。\n\n你会跟朋友说：别只拍有人刷手机，让黑眼圈自己报时，笑话才站得住。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Naiknelofar788/status/2103770487117713631"
+      }
+    ],
+    "prompt": "Create a short cinematic, humorous lifestyle video about a young woman who refuses to sleep because she finally has time for herself after work.\nScene 1 — After Work\nLate evening. A tired young woman arrives home after a long workday, drops her bag, changes into comfortable clothes and finally collapses onto her bed. Warm, cozy bedroom lighting. She looks exhausted but relieved.\nScene 2 — “Finally, Me Time”\nShe picks up her phone and smiles. The room becomes darker and quieter while the phone screen illuminates her face. She scrolls through videos, messages, memes and social media.\nAdd subtle on-screen text:\n“Me: I should sleep early tonight.”\nShe checks the time: 11:47 PM.\nShe shrugs and keeps scrolling.\nScene 3 — The Time Thief\nTime passes rapidly through a cinematic time-lapse.\n11:47 PM → 12:38 AM → 1:52 AM → 3:07 AM\nWith every time jump, make her eyes slightly more tired and the dark circles underneath them progressively darker.\nThe phone remains perfectly bright and addictive.\nOn-screen text:\n“But I didn’t get enough ME TIME today.”\nScene 4 — Visual Metaphor\nMake the concept surreal and funny: the phone slowly grows larger while she becomes smaller, as if the phone is consuming the night.\nHer dark circles become exaggerated like soft ink shadows beneath her eyes.\nShe looks at herself in the mirror.\nShe is exhausted, hair slightly messy, huge dark circles under her eyes.\nShe looks at the phone.\nThen back at herself.\nThen immediately unlocks the phone again.\nScene 5 — The Punchline\nClose-up of her face glowing from the phone at 3:47 AM.\nShe whispers:\n“Tomorrow I’ll fix my sleep schedule.”\nCut to black.\nText appears:\n“Tomorrow’s problem.”\nTiny final text:\n“Me time: 4 hours\nSleep: 3 hours\nRegrets: loading…”\nStyle: cinematic realistic lifestyle film, relatable internet humor, warm bedroom lighting mixed with cool phone light, subtle exaggerated dark circles, expressive facial acting, smooth camera movements, realistic skin and fabric, shallow depth of field, natural handheld moments, tasteful comedy, premium social-media reel aesthetic, 9:16 vertical, 15–20 seconds, seamless time transitions, highly polished visual storytelling.\nExtra visual trick: make the dark circles progressively resemble a clock shadow under her eyes. It makes the joke more visually unique instead of just showing someone looking tired.",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-mini-car-restore",
+    "category": "提示词",
+    "title": "小人车间把锈车修成深红色",
+    "body": "锈迹斑斑的老爷车停在迷你车间里，几百个巴掌大的工人围着它拆、磨、喷、装。\n\n有人给 Seedance 2.5 写了三十秒竖屏延时：每两秒换一道真工序——拆轮、除锈、焊钣金、喷深红漆、装发动机，最后整车开出车间。提示词死死卡住「同一辆车、同一车间、同一比例」，禁止瞬移变干净、禁止物体漂浮、禁止卡通塑料感。工人要一直在画面里同时搬运、打磨、拧螺丝，复原过程像小人国纪录片，而不是魔术变装前后对比。整段提示词都在档案的 prompt 字段，可直接复制去跑。\n\n你会跟朋友说：别再一键新旧对比了，让工人一步步把锈啃掉。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/RizwanAly07/status/2104420688983634217"
+      }
+    ],
+    "prompt": "Create a 30-second vertical 9:16 ultra-photorealistic miniature vintage car restoration time-lapse. A rusty abandoned classic car is restored by hundreds of tiny realistic adult workers inside the SAME miniature workshop. Extreme macro cinematography, shallow depth of field, warm cinematic lighting, realistic metal, paint, leather, glass, dust and tools.\n\nEvery 2 seconds, show a NEW physical restoration stage:\n\n0–2s: Inspect and dismantle rusty parts.\n2–4s: Remove wheels, panels, lights and bumpers.\n4–6s: Sand and remove rust.\n6–8s: Weld dents and repair body panels.\n8–10s: Clean and prepare the metal.\n10–12s: Apply primer.\n12–14s: Spray glossy deep-red paint.\n14–16s: Polish the fresh paint.\n16–18s: Rebuild and install engine.\n18–20s: Install suspension, brakes and wheels.\n20–22s: Install grille, bumpers, lights and chrome parts.\n22–24s: Restore seats, dashboard and interior.\n24–26s: Install windows and final details.\n26–28s: Start engine, test lights and polish the car.\n28–30s: Finished vintage car drives out of the workshop.\n\nHundreds of tiny workers must remain continuously visible, performing different tasks simultaneously—carrying, lifting, sanding, welding, painting, polishing, tightening and installing. Every transformation must happen physically and step-by-step. Same car, workshop, scale and lighting throughout. No instant appearance, morphing, teleportation, floating objects, CGI, cartoon, plastic look, duplicated workers, text, logos or watermark.",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-shibuya-rabbit-skate",
+    "category": "提示词",
+    "title": "雨后涩谷：兔耳滑板手一路贴地冲",
+    "body": "雨刚停的涩谷，湿柏油倒映霓虹，一只戴兔耳连帽、黑面发光 X 眼的角色踩着滑板贴地冲进人群。\n\n作者把完整 Seedance 2.5 提示词放在回复里：角色锁定左青右粉 X 眼、拼色外套和同一块板；环境锁在真实东京雨后，而不是厚重赛博幻想；镜头几乎全程贴轮子追，带鞭甩和速度曲线。段落从步行区穿伞缝，跳上马路贴出租车，再冲高架与夜景天际线。负面词写满不许变成人脸、不许漂浮、不许换滑板，优先保证角色一致和地点推进。整段提示词都在档案的 prompt 字段，可直接复制去跑。\n\n你会跟朋友说：角色表只负责长相，真正出片靠的是贴地速度和地点推进。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/tokyo_Valentine/status/2104407403831894427"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/tokyo_Valentine/status/2104407407355134378"
+      }
+    ],
+    "prompt": "[FORMAT]\nDuration: 15 sec\nAspect Ratio: 16:9\nStyle: cinematic photorealism, premium live-action commercial\nLocation: Shibuya, Tokyo at night, just after rain\nPacing: extremely fast, fluid, energetic\nNo dialogue, subtitles, logos, UI, text or watermarks.\n\n[CHARACTER]\nUse the attached character sheet ONLY as the appearance reference.\nKeep the same character throughout:\n- oversized white rabbit-ear hood with long floppy ears\n- glossy black digital face\n- glowing X eyes: left cyan, right hot pink\n- oversized colorful patchwork jacket\n- loose light gray pants\n- colorful white sneakers\n- small compact proportions\n\nDo not copy the sheet background, labels or pose.\nThe character rides the SAME skateboard for the entire video.\nNever change outfit, body proportions, hood, ears, face, eye colors, shoes or skateboard.\n\n[ENVIRONMENT]\nPhotorealistic modern Tokyo after rainfall.\nWet asphalt and glass reflect cyan, magenta, amber and white city lights.\nShibuya: LED billboards, Japanese signs, taxis, umbrellas, glass buildings and elevated railways.\nReal-world Tokyo, not fantasy or heavy cyberpunk.\n\n[CAMERA]\nHigh-speed cinematic chase.\nUse ultra-low skateboard-level tracking, rear chase, side tracking, 18mm wide-angle shots, rapid parallax, whip pans, speed ramps, close passes and controlled motion blur.\nWheels spin rapidly and remain grounded.\nBody reacts naturally to turns, jumps and landings.\nRabbit ears and jacket flap strongly in the wind.\nNo slow-motion floating.\n\n[SEQUENCE]\n\n0–3 sec — SHIBUYA CROWD\nOpen instantly in a crowded Shibuya pedestrian area.\nThe character is already skateboarding at high speed.\nLow camera skims above wet pavement as the character carves between pedestrians with transparent umbrellas.\nPeople move aside naturally.\nThe board cuts through puddles, spraying water.\nNeon lights streak behind and wet reflections stretch into light trails.\nThe character crouches and accelerates toward the roadway.\n\n3–6 sec — ROADWAY\nThe character jumps continuously from the sidewalk onto a busy Tokyo road. No teleportation.\nCamera drops behind the skateboard.\nThe character weaves between taxis and cars, passing extremely close to one vehicle.\nWater sprays from tires, headlights streak across wet asphalt.\nThe character uses a small road barrier as a ramp and launches toward the railway.\n\n6–9 sec — RAILWAY\nThe skateboard lands onto a railway track and races forward at extreme but convincing speed.\nA Tokyo commuter train rushes past on the neighboring track.\nThe wheels briefly grind along the rail, producing sparks.\nSide tracking shot with strong train motion blur.\nThe character crouches deeply and performs a powerful ollie toward an elevated structure.\n\n9–12 sec — EXPRESSWAY\nThe character lands smoothly on an elevated Tokyo expressway and accelerates.\nReveal a breathtaking Tokyo skyline with towers, elevated roads and traffic below.\nCamera swings from rear chase to front-side tracking.\nThe character races beside cars at extreme speed as street lamps flash overhead.\nAhead is a tall residential tower.\nThe expressway rises near it and the character aims toward the building.\n\n12–15 sec — HIGH-RISE HOME\nAt full speed, the character launches from the elevated edge.\nPull back briefly to reveal the character flying above Tokyo, with Shibuya lights, traffic, railways and wet streets below.\nThe character flies toward an upper-floor balcony of a high-rise apartment with the doors already open.\nThe skateboard lands perfectly on the wet balcony.\nThe character NEVER gets off the skateboard and rolls directly inside.\nCamera follows behind.\nTransition from cool neon exterior light to a warm contemporary Japanese interior with wooden floors and floor-to-ceiling windows.\nThe character performs a small powerslide and stops sideways.\nFinal shot: cyan and pink X eyes glow softly, rabbit ears settle, huge Tokyo skyline behind.\nHold for 0.5 sec.\n\n[REQUIREMENTS]\nPhotorealistic global illumination.\nRealistic wet reflections, city haze, cloth motion, skateboard physics, wheel rotation, vehicles and landing impacts.\nSharp character with controlled background motion blur.\nThe entire video must feel like ONE continuous journey:\ncrowd → roadway → railway → expressway → high-rise apartment.\nEvery transition must come from the character's physical movement.\nNo random cuts or teleportation.\n\n[NEGATIVE]\nDo not redesign or duplicate the character.\nDo not change cyan left X / pink right X.\nNo human face or visible skin.\nDo not remove rabbit ears.\nDo not change jacket, shoes or skateboard.\nNo extra limbs, deformed hands/feet or disappearing wheels.\nNo floating or running.\nCharacter stays on the skateboard for the entire journey.\nNo anime, fantasy city, heavy cyberpunk, captions, logos, UI or watermarks.\n\n[PRIORITY]\n1. Character consistency\n2. Clear location progression\n3. Extreme speed\n4. Photorealistic Tokyo night\n5. Convincing skateboard physics\n6. Spectacular final skyline",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-kling-ossuary-bell",
+    "category": "提示词",
+    "title": "背着破铜钟的骑士趟过黑水骨堂",
+    "body": "脚踝深的黑水里，一个背着裂开铜钟的苦修骑士一脚一脚往前踩，水面像镜子。\n\n作者先用 Midjourney 锁住骨堂构图与盐蚀铠甲，再把 Kling 3.0 拆成多段运镜：膝高跟靴踩水、过肩看钟链晃、面甲缝里喷出灰白呼吸、石门裂开后俯瞰深渊根桥。每一段都写死月白色斜光从破窗切下来，保证跨镜头光位一致。这不是一句「电影感」能糊弄的，是把分镜、时长和物理细节直接写进提示词。整段提示词都在档案的 prompt 字段，可直接复制去跑。\n\n你会跟朋友说：Kling 要的不是形容词堆，是脚踩水花、钟链叮当那种能听见的动作。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/itsPixieVerse/status/2104268382451511772"
+      },
+      {
+        "label": "完整分镜提示词",
+        "url": "https://x.com/itsPixieVerse/status/2104268388638032197"
+      }
+    ],
+    "prompt": "Midjourney Prompt:\nHigh-angle chiaroscuro composition in a flooded gothic ossuary. A hulking penitent knight in pitted, salt-encrusted steel armor and tattered charcoal wool wades through ankle-deep, mirror-black water. On the knight's back hangs a massive cracked bronze bell lashed with heavy rusted chains. In the foreground, jagged submerged gravestones break the water's surface. In the background, towering ribbed pillars recede into cold volumetric dust and suffocating shadow. A harsh, bone-white lunar beam cuts down diagonally from a ruptured clerestory window on the upper right, casting sharp, elongated charcoal shadows across wet stone. Cinematic film grain, muted desaturated palette of bone white, oxidized bronze, cold ash, and abyssal black.\n\nKling 3.0 & Omni 3.0 Prompts:\n\n#1:\nShot1 2s: Low-angle tracking shot moving forward at knee level. Foreground: jagged broken tombstones slice through the lower left frame. Subject: Corroded iron sabatons stomp heavily through ankle-deep black water, kicking up churning foam and ripples. Background: colossal fluted stone pillars receding into dense cold haze. A harsh, bone-white lunar beam cuts down diagonally from a ruptured clerestory window on the upper right, casting sharp, elongated charcoal shadows across wet stone. The camera pushes forward with loose micro-shake, cutting on the heavy downward crash of the right boot. \n\nShot2 2s: Close over-the-shoulder tracking shot. Foreground: the ragged edge of a soaked black cowl lashing violently in drafts. Subject: The knight's hunched back carrying a massive cracked bronze bell; the iron lashings clink and swing heavily with every step. Background: infinite spiral stone stairs vanishing into dark cavern walls. A harsh, bone-white lunar beam cuts down diagonally from a ruptured clerestory window on the upper right, casting sharp, elongated charcoal shadows across wet stone. The camera tracks forward at matching walking speed, cutting abruptly as the figure halts.\nShot3 2s: Tight close-up facing the helm. Foreground: heavy rusted chain links dangling into the left frame. Subject: Pitted visor slit revealing total darkness within; plumes of thick gray breath vent violently from perforation holes, and water droplets roll down weathered iron. Background: blurred stone vaults lost in charcoal gloom. A harsh, bone-white lunar beam cuts down diagonally from a ruptured clerestory window on the upper right, casting sharp, elongated charcoal shadows across wet stone. The knight's head jerks upward toward the rafters; camera recoils backward with a sudden handheld jolt, cutting on the movement.\nShot4 9s: Ultra-wide reveal. Foreground: dark silhouettes of carved weeping gargoyles looming along the lower frame edge. Subject: The knight stands minute as a speck on a flooded circular dais at screen center. Background: high above, a titanic fossilized ribcage impaled to the ceiling vaults by colossal black iron stakes, weeping dark sap down into the pool. A harsh, bone-white lunar beam cuts down diagonally from a ruptured clerestory window on the upper right, casting sharp, elongated charcoal shadows across wet stone. The knight unslings the colossal bronze bell and drops it into the black water, sending a massive circular shockwave across the mirrored floor; camera cranes steadily upward while tilting downward to emphasize the crushing vertical scale.\n\n#2:\nAnimate the attached frame Image1. Do not redesign the character Image2, palette or rendering.\n[Shot 1 - 3.0s] The black water within the circular dais begins to violently boil and bubble outward. Foreground: dark rippling water and broken stone balustrades. Subject: The knight draws a notched broadsword in both hands, taking three measured steps backward with boots splashing. Background: the massive suspended ribcage begins to tremble violently, shedding clouds of pale fossilized dust. A harsh, bone-white lunar beam cuts down diagonally from the ruptured fissure, casting sharp, elongated charcoal shadows across wet stone. The camera tracks steadily backward with slight handheld shudder. Cut on the sudden snap of an iron chain.\n[Shot 2 - 2.0s] Close-up tracking the knight. Foreground: the blade edge reflecting the harsh lunar light. Subject: The knight raises the sword to a high guard; water spray lashes across the rusted helm as a sudden violent subterranean draft whips their tattered tabard forward toward the altar. Background: the cracked pillars behind them. A harsh, bone-white lunar beam cuts down diagonally from the ruptured fissure, casting sharp, elongated charcoal shadows across wet stone. The camera jolts with a heavy micro-shake as an unseen tremor hits the floor. Cut on the sudden plunge of darkness.\n[Shot 3 - 5.0s] Wide hero payoff. Foreground: water churning violently around the circular ring. Subject: The minute knight stands braced at the edge of the circle. Background: the colossal skull and ribcage rip free from the ceiling beams with tearing metal shrieks, plunging down into the center of the dais and halting abruptly feet above the water on thick taut chains; twin burning embers ignite deep inside the skull's empty eye sockets. A harsh, bone-white lunar beam cuts down diagonally from the ruptured fissure, casting sharp, elongated charcoal shadows across wet stone. The camera cranes slowly upward while tilting sharply down, holding the suffocating confrontation as black mist billows from the shattered altar.\n\n#3:\nUse the start frame Image2and Animate it. Do not redesign the character Image3Image1, palette or rendering.\n[Shot 1 - 3.0s] Foreground: heavy rusted chain links vibrating and shedding flakes of corroded iron across the upper frame. Subject: The giant skull lowers the final inches and locks into the flooded dais with a dull, heavy stone impact; its burning ember eyes flare brightly, casting deep orange reflections across the dark water. The knight turns their body to face the massive sealed archway directly ahead. Background: the monolithic carved stone wall straight in front of the platform. A harsh, bone-white lunar beam cuts down diagonally from the ruptured fissure, casting sharp, elongated charcoal shadows across wet stone. The camera cranes slowly down from the skull to settle behind the knight's shoulder, cutting on a deep subterranean thud.\n[Shot 2 - 3.0s] Low-angle tracking shot moving forward behind the knight. Foreground: dark water splashing and rippling against corroded iron boots. Subject: The knight takes three heavy, deliberate steps toward the far wall as the colossal cyclopean stone door directly ahead fractures down its center seam, grinding open slowly inward like massive sliding slabs. Background: ancient mortar and sheets of stone dust cascading from the door header into the water. A harsh, bone-white lunar beam cuts down diagonally from the ruptured fissure, casting sharp, elongated charcoal shadows across wet stone. The camera tracks steadily forward through the churning water with slight handheld micro-shake, cutting on the sound of parting masonry.\n[Shot 3 - 4.5s] Wide hero reveal. Foreground: the massive vertical edges of the split stone door framing the left and right sides of the composition. Subject: The knight stands as a minute dark silhouette centered in the massive newly opened doorway. Background: beyond the threshold lies a bottomless subterranean chasm spanned by a narrow petrified root bridge, with dense cold gray fog drifting over distant sunken towers. A harsh, bone-white lunar beam cuts down diagonally from the ruptured fissure, casting sharp, elongated charcoal shadows across wet stone. Water from the rotunda floor spills over the stone threshold like a thin waterfall into the black abyss; ancient pressurized fog rolls into the chamber past the knight's legs; the camera cranes upward while tilting down to capture the terrifying sheer drop ahead.",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-pattern-storyboard",
+    "category": "提示词",
+    "title": "头像一丢变波普九宫格故事板",
+    "body": "把主页截图或角色照丢进 Google Flow，选 Nano Banana 2，吐出来的是一张真人走进平面杂志页的九宫格。\n\n烤妹把流程拆成两步：先生 3×3 拼贴——真人五官、发型锁定，背景改成条纹、波点、棋盘的扁平波普拼贴；再拿九宫格去跑图生视频，按格子顺序切近景、走路、伸手、英雄仰拍。颜色只准两主色加黑白，画面上的大标题必须是英文。适合小红书置顶和 IP 人设开场，也提醒你先锁「同一个人」再谈花活。整段提示词都在档案的 prompt 字段，可直接复制去跑。\n\n你会跟朋友说：别让模型自己乱出九张不同的脸，先把「同一个人」写进格子里。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/CrazyKaomei/status/2104377802577281427"
+      },
+      {
+        "label": "提示词步骤回复",
+        "url": "https://x.com/CrazyKaomei/status/2104377804183798238"
+      }
+    ],
+    "prompt": "【Nano Banana 2 九宫格生图】\n16:9 wide editorial graphic, 3×3 grid 9-in-1 collage artwork, photorealistic human character, keep the character's facial features, hairstyle, hair color, bangs, blue bear hood hat, body proportion and figure consistent across all 9 panels, same person in every frame, do NOT make 9 different people. Do NOT copy original outfit, background or poses from reference.\nTheme: PATTERN COLLAGE POP. Character is photorealistic real human style, retain realistic skin texture, no plastic fake CGI look. Background, props, patterns, typography and decorations are flat minimalist 2D graphic design, reduce 3D depth and realistic material texture, sharp clean flat magazine layout.\nCombine classic geometric patterns: stripes, polka dots, checkerboard, grids, zigzag lines, borders, concentric circles, triangles, circles, squares. Patterns applied in multiple forms: zoomed partial pattern, paper-cut fragment shapes, partial background pattern blocks, overlapping color planes behind character, geometric frame shapes, large patterns spanning panels. Collage aesthetic with cut-and-paste color blocks, overlapping layers, slight offset, negative space, bold cropping. Clean high-end magazine design, avoid rough handmade messy texture.\nColor palette: select 2 main colors matching the character’s visual style, white and black as auxiliary accent colors, limited color palette, harmonious unified color scheme.\n9 panels with distinct shot types and poses, no repeated framing, distance or expressions: face close-up, extreme macro close-up, full body shot, sitting pose, squatting pose, walking pose, turning back pose, wide shot with reaching hands, low angle hero portrait.\nAll typography text on artwork is ENGLISH ONLY. Large bold typography integrated with geometric patterns and color blocks. NAME as primary headline typography, KEYWORDS_EN as secondary text, repeating text and decorative labels. Text varies in size, position, rotation, design and color in each panel.\nOverall visual: photorealistic character stepping into a pop flat graphic magazine page composed of boldly cut classic geometric pattern collages.\n\n【Omni 图生视频（可选后续）】\n16:9 widescreen CG animation video, smooth continuous motion, storyboard reference is a 3×3 9-in-1 pattern collage pop graphic editorial board, blue bear hat girl character, keep the character's facial features, light blue hair, bear hood hat, character identity consistent throughout the whole video, do not change the character into different people.\nFlat sharp 2D graphic collage background, classic geometric patterns: checkerboard, polka dots, zigzag stripes, concentric circles, grid, triangles, squares. Patterns use partial zoom-in, paper cut fragments, partial background coverage, overlapping color blocks, geometric frame, cross-panel large pattern layout. Clean high-design collage aesthetic, subtle paper-cut offset, negative space, bold cropping, no rough handmade texture.\nMain color palette: bright royal blue + white, black as auxiliary color, limited color count. Large bold typography integrated with graphic patterns, text changes size, position, rotation and color dynamically along the timeline, text keywords: CrazyKaomei, AI_STRATEGY, CONTENT CREATION, WORKFLOW, SOP_GUIDE, CYBER_IDOL, POP TECH, DIGITAL EXPLORER.\nCamera sequence follows the 3×3 storyboard panel order:\n1. Close-up face shot\n2. Medium shot, character sitting pose\n3. Extreme close-up facial detail\n4. Full body walking shot\n5. Medium shot, character stretching hands towards camera\n6. Close-up eye detail\n7. Medium shot, character leaning pose\n8. Medium shot, character standing waving\n9. Hero portrait shot\nSmooth camera transition between each shot, slow pan, subtle zoom, fluid character movement, clean CG cel rendering style, flat graphic background does not have heavy 3D texture, graphic patterns animate gently, typography animates in/out, sharp edges, high contrast, pop fashion editorial vibe, cinematic, 24fps",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-arch-postcard",
+    "category": "提示词",
+    "title": "填地名就出建筑线稿旅行明信片",
+    "body": "只写一个城市名，GPT Image 2.5 会自己挑出那座最认得出的建筑，用钢笔线稿画成博物馆商店里那种明信片。\n\n提示词规定：建筑占画面六成以上，只上两到四种跟目的地有关的扁平色；背景是象牙纸，悄悄叠一点旧地图、坐标和手写批注。构图要不对称、留白足，文字小而精，明确躲开水彩风景和游客纪念品俗套。跟拼豆海报、故事书封面不是一路——这是建筑师速写本遇上编辑部排版，适合做成系列收藏。整段提示词都在档案的 prompt 字段，可直接复制去跑。\n\n你会跟朋友说：填东京或里斯本，别堆五个地标，让一座楼当主角就够了。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Goodmanprotocol/status/2104446409424753088"
+      }
+    ],
+    "prompt": "Create a premium 2:3 vertical architectural travel postcard for [COUNTRY / CITY / LOCATION / SUBJECT].\n\nTEXT-TO-IMAGE ONLY — generate the entire artwork creatively from [COUNTRY / CITY / LOCATION / SUBJECT] alone. No reference image required.\n\nCORE CONCEPT\nCreate a sophisticated collectible postcard centered around ONE unmistakable architectural landmark from [COUNTRY / CITY / LOCATION / SUBJECT]. Automatically select the most iconic building, monument, street façade, or structure and make it the sole visual hero.\n\nARCHITECTURAL ART\nRender the landmark as an exceptionally detailed hand-drawn architectural ink illustration using fine black or graphite lines, precise proportions, delicate hatching, tiny windows, façade details, columns, roofs, cornices, and subtle handmade imperfections.\n\nShow the architecture from a slightly dramatic but believable low or three-quarter perspective. Allow tasteful cropping when it strengthens the composition.\n\nCOLOR\nKeep most of the landmark as exposed linework and introduce only 2–4 sophisticated colors naturally associated with the destination. Use restrained flat color with muted but clean tones. No gradients or glossy digital rendering.\n\nBACKGROUND\nUse a refined light ivory paper background. Subtly integrate faded archival elements related to the destination: fragments of maps, street plans, contour lines, architectural diagrams, coordinates, handwritten annotations, measurement marks, and restrained local-language details.\n\nKeep these elements secondary, delicate, and partially faded so the architecture remains dominant.\n\nCOMPOSITION\nUse an asymmetric editorial layout with generous breathing room and the landmark occupying roughly 60–75% of the artwork. Add only a few tiny contextual details such as pedestrians, bicycles, street lamps, trees, tram wires, or local street elements when appropriate.\n\nTYPOGRAPHY\nAdd the destination name and, if appropriate, its local-language name in small refined editorial typography. Include a minimal archival-style information strip near the bottom with subtle location or architectural details.\n\nFINAL AESTHETIC\nArchitectural sketchbook × museum-shop postcard × archival city document × contemporary editorial design. Intelligent, cultured, collectible, precise, and quietly sophisticated rather than a conventional tourist souvenir.\n\nAvoid landmark collages, generic watercolor, cartoon architecture, photorealism, giant typography, souvenir clichés, excessive decoration, heavy sepia filters, muddy colors, random landmarks, excessive distressing, or overly symmetrical layouts.\n\nFORMAT: 2:3 vertical, single architectural subject, premium collectible travel postcard.",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-linen-embroider",
+    "category": "提示词",
+    "title": "照片整张变成亚麻布上的刺绣",
+    "body": "同一张照片，表面却变成亚麻布上的手工刺绣：缎针铺色块，法式结做质感，细回针勾轮廓。\n\n这段 Nano Banana Pro 提示词写得很抠：颜色只能像染色线那样一块一块换，不许渐变；最浅处露出布纹；角落还要有木绣绷的影子和几根松线头；线要略毛、随形体走方向。构图、姿势一律不许动，变的只是「这张图是怎么被缝出来的」。自拍、静物、街拍都能套，差别一眼看出来。整段提示词都在档案的 prompt 字段，可直接复制去跑。线头和布纹写进词里，才不像贴了层滤镜。\n\n你会跟朋友说：滤镜是涂层，刺绣是把像素换成线——差别一眼就看出来。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/0xaceon_x/status/2104282903085457555"
+      }
+    ],
+    "prompt": "Transform this photograph into a hand-embroidered panel on natural linen. The whole image is stitched: long satin stitch across smooth areas, dense French knots for texture, fine backstitch outlining every shape, with the thread direction following the form. Individual floss strands are visible and slightly fuzzy, catching light differently along their length. Colour is limited to what a dyed-thread palette allows: flat blocks of solid colour, no gradients, every tonal shift made by changing thread rather than blending. Bare linen shows through as the lightest value with its weave clearly visible. A few loose thread ends trail, the fabric puckers slightly where the stitching pulls it, and the shadow of a wooden hoop edge crosses one corner. Keep the subject, pose, framing and composition exactly as they are.",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-chicken-chase",
+    "category": "提示词",
+    "title": "乡下散步被突然冲出的鸡带跑",
+    "body": "日本乡下的午后本来该安静走路，木门缝里却窜出一只鸡，女孩和农夫立刻变成追鸡二人组。\n\nSeedance 2.5 提示词要求家用机手持感：对焦晃一下、鸡头点点、突然变向、翅扑棱，最后三人笑着把鸡送回园子。只许环境音——鸡叫、脚步、远处自行车铃——不许配乐。负面词把塑料皮肤、瞬移鸡、多余手指都禁了，逼模型把动物行为和人体平衡写实。三十秒切片生活，钩子全在那只会跑的鸡，而不是旁白讲笑话。整段提示词都在档案的 prompt 字段，可直接复制去跑。门一响、鸡一窜，整段节奏就起来了。\n\n你会跟朋友说：生活片的笑点不靠旁白，靠一只真会跑的鸡。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/nawalsehar/status/2104438109949628826"
+      }
+    ],
+    "prompt": "Create a 30-second ultra-photorealistic Japanese rural slice-of-life home video following a young Japanese woman on a peaceful afternoon walk. A chicken suddenly escapes through a wooden gate, turning her quiet stroll into an unexpected chase with a local farmer.\n\nUse authentic handheld consumer-camera footage with imperfect framing, subtle shake, autofocus hunting, natural motion blur, warm afternoon light and realistic village details.\n\nShow believable chicken behavior—quick steps, head bobbing, sudden direction changes and natural wing movement. The girl and farmer react spontaneously with realistic balance, momentum, friction and human biomechanics as they work together to safely catch it.\n\nAfter finally catching the chicken, they laugh, exchange a few words, and she continues her walk while the farmer returns it to the garden.\n\nNatural audio only: chicken clucks, footsteps, laughter, wing flaps, wind, birds, gate creaks, distant bicycle bells and casual dialogue. No music or narration.\n\nNegative prompt: No anime, CGI, plastic skin, robotic movement, impossible physics, floating objects, teleportation, distorted hands, extra fingers, duplicated people or chickens, chicken morphing, changing faces or outfits, exaggerated camera movement, commercial look, subtitles, logos or watermark.",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-flower-bike",
+    "category": "提示词",
+    "title": "巨花花园里骑车回头的时尚片",
+    "body": "薄荷色小路上，人骑着米色老式自行车往前冲，路边的花却大得像雕塑，一片花瓣就能挡住半个画面。\n\n作者用 JSON 把 GPT Image 玩法写死：低机位英雄视角、全身入镜、花只放几朵但要夸张比例，留白要干净。衣服是亮橙短外套配荧光绿阔腿裤——颜色先抢戏，再让花来抢第二层。适合演示「尺度反转」比堆细节更抓眼，也适合当竖版时尚封面模板；换发型或外套颜色就能连发一组。整段提示词都在档案的 prompt 字段，可直接复制去跑。尺度一反，封面感就站稳了。\n\n你会跟朋友说：花不用多，够大、够疏，人就能被衬成杂志封面。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/hey_am_cherry/status/2104415546079142275"
+      }
+    ],
+    "prompt": "{\n  \"aspect_ratio\": \"9:16\",\n  \"style\": \"surreal colorful high-fashion editorial\",\n  \"subject\": {\n    \"character\": \"beautiful young European blonde woman\",\n    \"expression\": \"confident, playful\",\n    \"accessories\": \"elegant sunglasses\",\n    \"outfit\": \"bright orange cropped jacket, lime-green wide-leg trousers, cream sneakers\"\n  },\n  \"action\": \"riding a cream vintage bicycle through a surreal fantasy garden\",\n  \"pose\": \"dynamic three-quarter rear view, leaning naturally into the ride while turning her head toward the camera\",\n  \"bicycle\": \"cream-colored vintage bicycle with a small minimal flower basket\",\n  \"environment\": {\n    \"setting\": \"open surreal garden\",\n    \"flowers\": \"few enormous sculptural flowers placed far apart, oversized orange, yellow and turquoise petals\",\n    \"ground\": \"pale mint pathway with generous empty space\"\n  },\n  \"composition\": {\n    \"camera\": \"dramatic low-angle hero shot\",\n    \"framing\": \"full bicycle and full character visible\",\n    \"foreground\": \"one giant flower subtly framing the edge\",\n    \"negative_space\": \"strong, clean, uncluttered\"\n  },\n  \"lighting\": \"warm golden daylight with cinematic shadows\",\n  \"mood\": \"wild, playful, bizarre, luxurious, dreamlike\",\n  \"visual_quality\": \"exaggerated scale, vibrant color harmony, crisp textures, unconventional fashion editorial energy, striking visual impact\"\n}",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-kling-face-collage",
+    "category": "提示词",
+    "title": "同事头像切成拼贴再固定镜头晃",
+    "body": "Slack 里头像还在，脸已经变成黑底上的超现实拼贴：脖子削掉，一只眼、嘴唇和鼻子被放大错位，再潦草几笔品牌色圆圈。\n\nMagnific 团队把给 Claude 的原话公开了：先做成照片拼贴，再用 Kling 做五秒，首尾同帧、镜头锁定，不许说话、不许转头、不许变回正常人脸。办公室恶搞和品牌动态头像都能套这套「先切再晃」。动效故意克制，反而比乱转头、乱变形更吓人，也更像展览里的动态肖像。整段提示词都在档案的 prompt 字段，可直接复制去跑。\n\n你会跟朋友说：动效别贪多，固定机位让拼贴自己轻微呼吸就够吓人。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/magnific/status/2104224662041600374"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/magnific/status/2104224678328029671"
+      }
+    ],
+    "prompt": "Turn each attached portrait into a surreal photographic collage, then animate it.\n\nLandscape 16:9, pure black background. One centered, floating face. Remove the neck, shoulders and body completely. Preserve the person’s recognizable features. Enlarge one eye, the lips and the nose. Create visible photographic cutouts, slightly shifted, tilted and overlapping.\n\nAdd a few bold, hand-drawn circles and scribbles in the Magnific color.\n\nUse Magnific with Kling 2.5 to create a 5-second clip. Use the collage as both the first and last frame.  Keep the camera fixed and the person’s identity consistent. No talking, head turns or morphing back into a normal face.",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-last-soldier",
+    "category": "提示词",
+    "title": "废厂里最后一名士兵撑蓝盾",
+    "body": "灰蓝色阴天，锈塔和烟囱之间，一名面罩发琥珀光的士兵被一群四旋翼无人机围住。\n\nSeedance 2.5 提示词按秒切开：推近面罩、肩甲甩镜头、掩体后开火、手腕充能、蓝盾炸开，最后大远景只剩一个小点。要求参考图人物全程一致，色调去饱和，只用手持和胶片颗粒，负面词禁卡通和脸漂。适合练「十五秒里讲完一场小战役」，也适合当多镜头时间表的范本：每两秒一个节拍，比堆爆炸更清楚。整段提示词都在档案的 prompt 字段，可直接复制去跑。时间表写细，镜头才有呼吸。\n\n你会跟朋友说：战争片别靠爆炸堆时长，靠每一次抬头和充能的节拍。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/itsSaira_1/status/2104432266235851168"
+      }
+    ],
+    "prompt": "Ultra-realistic cinematic sci-fi war film, 15 seconds, 16:9, 60fps, handheld camera, desaturated gray-blue color grade, overcast sky, film grain. Keep the character from the reference image identical in every shot: same face, same weathered gray-green armor with clear visor helmet and glowing amber visor trim. Location: ruined industrial wasteland, rusted factory towers, smoking chimneys, scrap piles, small fires, puddles. Enemies: small hovering quad-drones with glowing blue eyes, one with a red eye.\n\n0-2s: Close-up of the soldier's face behind the visor, tense, dirt on face, drones flying behind him. Camera slowly pushes in.\n2-4s: Tight shot, he ducks and turns fast, armor shoulder fills the frame, red-eyed drone above.\n4-6s: Low wide shot, he crouches behind a concrete barrier, explosion and smoke in the background, blue light glowing on his wrist.\n6-8s: Side shot, he rises and fires a plasma rifle at a drone, sparks burst from the drone.\n8-10s: Wide shot, a hit drone flips and spins away through the air, he stands in firing stance, more drones circling.\n10-12s: Medium shot, he swings his arm with a glowing blue wrist gauntlet, then a close-up of the blue energy charging in his fist, face determined.\n12-13s: Wide shot, blue energy dome shield erupts around him at the barrier, drones fly around.\n13-15s: Camera slowly pulls back to a huge wide shot, tiny soldier in the center of the wrecked factory field, smoke and flames, drones in the sky.\n\nNegative prompt: face change, different character, armor change, cartoon, anime, CGI look, plastic skin, blur, low quality, distorted hands, extra limbs, deformed helmet, flicker, warping, text, watermark, logo, subtitles, oversaturated colors, bright daylight, morphing, inconsistent lighting\n\n#AIVideo #SciFi #CinematicAI #AIArt #FutureWar #Cinematic #AIFilm",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-bamboo-curtain",
+    "category": "提示词",
+    "title": "竹帘一卷，露一块宝石蓝天空",
+    "body": "白墙前，人站在竹帘旁边，一只手轻轻往上卷一截——帘外突然露出一块干净的宝石蓝天空，阳光是柠檬黄的几何光斑。\n\n这段给 GPT Image 2.5 的中文提示词按「主题／风格／主体／情绪／色彩」拆开写：9:16 竖版，人在下三分之一，上方留标题区；蓝和黄只许点在帘外和投影上，不准糊到脸上和白墙。东方禅意但不做复杂中式陈设，画面要高明度、低灰度，适合当壁纸或封面，也适合当「少即是多」的配色课。整段提示词都在档案的 prompt 字段，可直接复制去跑。\n\n你会跟朋友说：东方感不一定靠红木家具，一块帘外的蓝就够了。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/liyue_ai/status/2104417507801199089"
+      }
+    ],
+    "prompt": "主题方向：东方禅意极简高传播封面\n风格分支：女性审美清亮型\n主体内容：一位女子站在极简竹帘旁，一只手轻轻将竹帘向上卷起\n情绪母题：打开、明朗、清晨新意\n场景与意象：大片白墙、竹帘、宝石蓝外部天空、柠檬黄色阳光色块、女子\n构图与空间：9:16竖版，竹帘形成一条纵向结构，女子位于下方三分之一，帘外宝石蓝色块形成视觉窗口，上方保留标题区\n色彩控制：珍珠白为主要背景，宝石蓝只用于帘外天空，柠檬黄用于阳光投影和极少局部点睛，竹帘保持浅竹木本色；避免蓝黄覆盖人物和墙面\n光线与质感：明亮上午硬柔结合自然光，竹帘投下清晰而简洁的几何光影\n画幅比例：9:16\n补充要求：画面一定要高明度、低灰度，蓝黄对比鲜明，结构极简，不做传统室内复杂陈设，画面留白处配上合适的文字",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-era-guess",
+    "category": "提示词",
+    "title": "只看脸，模型把你丢进哪个年代",
+    "body": "一张自拍丢进去，不问你喜欢哪个年代，模型只根据五官气质判断「你长得像哪段历史」，再生成那个时代的装束合照。\n\n提示词只有一句英文：Based only on this photo, put me in the historical era I look like I belong in and generate the image。发帖的人被判进了《布里奇顿》那种摄政时期。玩法轻、出片快，适合做互动话题：先让模型猜，再让评论区投票对不对。越短越敢丢，越容易带起二创和合集。\n\n你会跟朋友说：别自己点复古滤镜，让模型先给你「判个朝代」。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/debirah_chi/status/2104434821351256440"
+      }
+    ],
+    "prompt": "Based only on this photo, put me in the historical era I look like I belong in and generate the image.",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "lofi-cities-pixel-nights",
+    "category": "视觉尝试",
+    "title": "Lofi Cities：像素城夜景开着，浏览器当场合成背景音乐",
+    "body": "打开 loficities.com，巴黎阁楼窗外先下起雨——船、车、行人在像素夜景里慢慢挪，耳机里却不是预录播单，而是 Web Audio 在你这台机器上现编的 lofi。东京、纽约、香港、悉尼、旧金山等城可以轮巡，也可以跟「当地凌晨一点」走；天气还能另选雨、雪、落叶，雨声会跟着变。作者说画面用 AI 辅助做了循环素材，音乐则完全在浏览器里合成，不用登录。HN 上两百多个赞，也有人嫌广告牌和像素抖动太「生成感」，但拿来当桌面墙纸（macOS 的 Plash 加 ?obs）时，沉浸感一下就回来了。所以呢：别再丢一张静态壁纸充氛围——让城市自己动，让节拍在本机长出来。",
+    "links": [
+      {
+        "label": "Lofi Cities 演示",
+        "url": "https://loficities.com/"
+      },
+      {
+        "label": "东京墙纸参数示例",
+        "url": "https://loficities.com/tokyo/?obs&weather=leaves"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49869574"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "maniac-mansion-3d-walk",
+    "category": "视觉尝试",
+    "title": "疯狂大厦变可走 3D：原版 EGA 房间被拆开重铺",
+    "body": "八十年代经典冒险游戏 Maniac Mansion 的房间，本来只能从一个固定机位看。有人把那些刺眼的 EGA 背景当成「扫描素材」，在浏览器里重建成连通的三维宅邸：从门廊上台阶推开正门，图书馆、厨房、天文台、地窖实验室一共三十多个空间能走进去；泳池还能放水，再爬进池底。颜色、家具、怪细节都尽量留着，只是你终于能扭头看见原先画框外的墙。作者先用类似方法从照片「长」出真实椅子，才想到对游戏场景下手；演示页一开就能走，不用装客户端。所以呢：怀旧不一定是像素滤镜——把死背景拆成能走的空间，观众才会真正「进屋」。",
+    "links": [
+      {
+        "label": "进宅邸演示",
+        "url": "https://s-macke.github.io/maniac-mansion-3d/"
+      },
+      {
+        "label": "GitHub 说明",
+        "url": "https://github.com/s-macke/maniac-mansion-3d"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49864738"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "xhtml-html-tcg",
+    "category": "视觉尝试",
+    "title": "XHTML：像抽宝可梦卡一样抽 HTML 标签去建站对战",
+    "body": "xhtml.es 把建网页变成卡牌对决：每天开一包，里面是 HTML 标签、属性、CSS 碎片，你得用手里这点「牌」拼出能上阵的页面，再跟别的开发者比谁用得巧。作者说灵感就是把宝可梦集换式卡牌的收集欲，搬到「专家级 HTML」上——不是拖组件生成站，而是牌库限制逼你想布局。缺一张 flex 或缺一个定位属性时，那种「差一张牌」的焦虑特别真实，比看文档记得牢。页面本身也能点开玩，不用先装编辑器。开包、组牌、交卷，三步循环很像日更小游戏。所以呢：教前端别再只贴文档——让人先为了一张标签卡吵架，语法自然就记住了。",
+    "links": [
+      {
+        "label": "XHTML 开玩",
+        "url": "https://xhtml.es/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49829179"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "choreoglyphs-swipe-shapes",
+    "category": "视觉尝试",
+    "title": "Choreoglyphs：滑键盘写下的「隐形笔画」被画出来了",
+    "body": "手写时代，字母形状指挥手指怎么走；滑键盘时代，一个词变成指尖连线——作者管这叫 choreoglyphs，字面就是「舞谱文字」。打开 choreoglyphs.com，选英语或法、德、西等十几种语言，输入单词，屏幕上出现那条你平时看不见的轨迹；还能藏掉原文只看曲线，或让笔画自己动起来。同一个词在不同语言键盘布局下，舞步完全不一样，适合当短视频开场钩子。它不是又一个字体生成器，而是把「输入方式」本身当成书写系统来展览。点开就能玩，不用注册。所以呢：聊手机打字别只骂纠错——让观众看见每个词在拇指下跳过的舞步。",
+    "links": [
+      {
+        "label": "Choreoglyphs 演示",
+        "url": "https://choreoglyphs.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49846223"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "trail-one-line-puzzle",
+    "category": "视觉尝试",
+    "title": "Trail：一笔连完每一格，关卡会自己变难",
+    "body": "trail.franzai.com 规则极短：画一条不断的线，踩过网格里每一块地，一块只能踩一次；有数字的格子还得按从小到大的顺序碰到。关卡是生成的，过一关就再难一点，鼠标或手指拖着走，走错了可以退。作者用类似骑士巡游的启发式保证至少有一条解，再把墙砌在「不是解」的边上，所以卡关多半是你自己绕死，不是题目坏了。整站几乎没有教程页——规则写在标题旁那一行就够开玩，三十多个赞也说明门槛够低。适合手机上随手开一局。多看一眼细节会更有话说。所以呢：别再堆教程关——一句规则加永续生成，才像能发朋友圈的解谜。",
+    "links": [
+      {
+        "label": "Trail 开玩",
+        "url": "https://trail.franzai.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49864105"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "fonts-over-time-crawl",
+    "category": "视觉尝试",
+    "title": "Fonts Over Time：每周真开浏览器，看一万个首页在用啥字体",
+    "body": "fontsovertime.com 不是设计师晒灵感板，而是一台每周跑一遍的爬虫：用真浏览器打开大约一万个首页，记下正文和标题字体，再摊成排行、类别、谁换过字体的动态。免费字体用它自己的字形显示，商业字体只能灰名占位；还能看 Inter、system-ui、Geist 这类近年热门的走势线。最近一次爬是 2026-09-23。方法页把采样和历史估算写得很清楚，数据也能下，适合当「设计圈年度字体」话题的硬材料。首页趋势一目了然。多看一眼细节会更有话说。所以呢：聊「网上长什么样」别凭印象——让一万个首页用脚投票。",
+    "links": [
+      {
+        "label": "Fonts Over Time",
+        "url": "https://fontsovertime.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49831000"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "unspin-fake-news-daily",
+    "category": "视觉尝试",
+    "title": "Unspin：像玩 Wordle 一样，每天拆一条假新闻",
+    "body": "unspin.app 把自己定位成「媒体素养版 Wordle」：每天给你一批标题或模因味帖子，你要判断哪些是糊弄人的、哪些站得住，再看它怎样误导——夸大因果、偷换图、半真半假那一类。免费、偏短局，作者说自己就是想练辨假才动手做的。玩完有点像拆穿朋友圈谣言，但节奏卡在一天一关，适合当日更互动帖而不是长文转发。它不是又一个资讯聚合，而是把「你会上当的那一下」做成可重复的小游戏，点错一次比读完辟谣更难忘。规则一眼能懂。多看一眼细节会更有话说。多看一眼细节会更有话说。所以呢：科普别只转发辟谣长文——让人先点错一次，印象才深。",
+    "links": [
+      {
+        "label": "Unspin 今日关",
+        "url": "https://unspin.app/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49851776"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "c3-playground-voxel-synth",
+    "category": "视觉尝试",
+    "title": "C3 Playground：浏览器里编译 C3，还能跑体素合成波演示",
+    "body": "多数语言在线沙箱停在「编译加打印一行字」。C3 的 playground 更贪心：整套编译器进 WebAssembly，示例一键切到 voxelspace_synthwave——屏幕上是能互动的声画程序，不是文本回显。改源码、加编译参数、看控制台，全在同一个标签页完成，不用装本地工具链。贡献者想证明：新语言要让人愿意试，得先让人「看见」它能做什么——这比五十页手册更能说服人「这门语言好玩」。示例库里还有更多可点。所以呢：推一门语言别只贴 Hello World——塞一个会动的小世界，比文档首页更管用。",
+    "links": [
+      {
+        "label": "体素合成波示例",
+        "url": "https://play.c3-lang.org/?example=voxelspace_synthwave"
+      },
+      {
+        "label": "Playground 首页",
+        "url": "https://play.c3-lang.org/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49828605"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "qbasic-11-browser",
+    "category": "视觉尝试",
+    "title": "QBasic 1.1 整套搬进浏览器：编译器、虚拟机、IDE 都是重写的",
+    "body": "不是 DOSBox 套一层皮肤。作者用 TypeScript 独立重做了 QBasic 1.1 的编译器、虚拟机和 IDE，前端用 Svelte 5，全部跑在浏览器里：敲 BASIC、跑起来、改错，流程接近当年蓝底编辑器，却不用装虚拟机镜像。界面一开就能写，适合给从没见过九十年代编程的人「摸」一下那段历史，而不是只看截图怀旧。HN 上有人直接当成「给孩子的第一门语言博物馆」。蓝底界面本身就是梗。多看一眼细节会更有话说。多看一眼细节会更有话说。所以呢：怀旧模拟器可以很懒——真把语言语义搬进网页，才叫可玩的史料。",
+    "links": [
+      {
+        "label": "QBasic Web Editor",
+        "url": "https://www.vahidyousefzadeh.com/qbasic/app"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49821937"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "cartopolis-3d-world",
+    "category": "视觉尝试",
+    "title": "Cartopolis：用 Rust 和 Bevy 铺开的联网三维地球村",
+    "body": "cartopolis.org 不是又一张可拖地图，而是一个联网的三维世界：引擎是 Rust 加 Bevy，着色有 WGSL，仓库自己也挂着「球体尺度」的野心——人在里面走、社交、看地图层，而不是只看平面标注。代码在 garage44 上开源，带着联邦宇宙、测绘相关标签。HN Show 链到源码页，站点本身就是入口；打开就能摸到在线世界，而不是先看一页融资故事。源码和站点入口都公开。多看一眼细节会更有话说。多看一眼细节会更有话说。多看一眼细节会更有话说。所以呢：讲「元宇宙」别先放 PPT——先丢一个能走进去的球。",
+    "links": [
+      {
+        "label": "Cartopolis 世界",
+        "url": "https://cartopolis.org"
+      },
+      {
+        "label": "源码仓库",
+        "url": "https://code.garage44.eu/jeroen/cartopolis"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49870394"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "most-hated-tools-vote",
+    "category": "小众工具",
+    "title": "Most Hated Tools：两个里删一个，票选出全网最讨厌的软件",
+    "body": "mosthatedtools.app 不做客观评测，只问一句：这两个工具，你更想从生活里删掉哪个？Jira 对 Outlook、Teams 对 Slack，点一下就进排行榜；还能开滚动模式，盯着同一个冤家连战到你受够为止。分类从 AI 助手、办公到运维都有，榜首常被 Meta AI、Grok 之类占着——完全不科学，但上头。适合当话题引子而不是采购依据——你丢进群里，十分钟内就会有人开始为 Outlook 辩护。榜单实时刷新。多看一眼细节会更有话说。所以呢：吐槽工具别只发表情包——让观众当场站队，评论区自己吵起来。",
+    "links": [
+      {
+        "label": "Most Hated Tools",
+        "url": "https://www.mosthatedtools.app/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49832080"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "tui2web-agent-phone",
+    "category": "小众工具",
+    "title": "tui2web：代理继续在电脑跑，手机打开加密链接就能盯梢",
+    "body": "你刚把 Claude Code 或 Codex 甩起来就想去散步——tui2web 把任意 TUI 挂到一个私有加密网页上，手机浏览器打开就能看输出、回答提问，人不用钉在桌前。一行 npm i -g tui2web，再 tui2web claude；加 --tailscale 时流量只走你自己的 Tailscale，不经作者服务器。免费开源，作者说以前靠 VPS 加 Termius 出差续命，掉线太多才写了这个。它不是又一个云 IDE，而是「终端跟着人走」的细缝工具。所以呢：别让代理因为你去倒杯咖啡就空转——给终端一条跟得上你的腿。",
+    "links": [
+      {
+        "label": "tui2web 官网",
+        "url": "https://tui2web.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49846613"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "stepgate-yaml-gates",
+    "category": "小众工具",
+    "title": "Stepgate：一份 YAML 卡住代理，机械检查过了才能走下一步",
+    "body": "代理最爱「自我感觉良好」地跳步。Stepgate 把流程写成一个可随身带的 stepfile：声明输入、能碰的 API 与 MCP，以及每一步必须交出的产出；每步挂上 gate，检查不过就不能往下。它本身是个 MCP 服务，Claude Code、Cursor 或自写代理都能挂；文件不绑模型、不绑框架，拷走就能跑。不是靠提示词求它听话，而是靠检查点咬住；作者原话很冲：Agents can't skip steps。一份文件拷走就能跑。多看一眼细节会更有话说。所以呢：流程别写在提示词童话里——写成会咬人的检查点。",
+    "links": [
+      {
+        "label": "Stepgate 仓库",
+        "url": "https://github.com/Chaarangan/stepgate"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49872350"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "gutcheck-semantic-grep",
+    "category": "小众工具",
+    "title": "gutcheck：用本地小模型当「语义版 grep」",
+    "body": "普通 grep 只认字符串。gutcheck 让你拿一句人话问每一行、每一段或每一个 diff 块：「这是报错吗？」「这里像不像泄露密钥？」结果在终端里实时刷，能调阈值、排序、再追问。一个二进制，跑在你自己的 CPU 上，不需 API Key，数据不离机；首次会拉大约 1.3GB 模型到缓存。装法有 curl 脚本、Homebrew 或 cargo，适合扫日志和工单这种「说得清但搜不准」的材料。第一次跑会下载模型。多看一眼细节会更有话说。所以呢：日志和工单别再纯关键字盲搜——先问一句「这像不像我要找的那种」。",
+    "links": [
+      {
+        "label": "gutcheck 仓库",
+        "url": "https://github.com/sfmqrb/gutcheck"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49853451"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "paper-docx-agent-safe",
+    "category": "小众工具",
+    "title": "paper-docx：给代理用的 python-docx 硬分叉，少毁文档",
+    "body": "代理写 Word 时最吓人的不是慢，是默默把 docx 写坏。paper-docx 是 python-docx 的硬分叉：保持 import docx 兼容和对象模型，但按「代理会乱改 XML」的场景加固，作者宣称文档损坏类失败大约少百分之七十八。装上就能当日常库用，不必改调用习惯。专门伺候会胡写的自动化：代理改样式、插表格时少踩 XML 暗坑，交稿前少一次返工。它不是又一个「AI 写周报」套壳，而是把文件格式这层坑垫平。API 习惯几乎不用改。所以呢：让代理交 Word 之前，先换一把不容易砸脚的锤子。",
+    "links": [
+      {
+        "label": "paper-docx 仓库",
+        "url": "https://github.com/paper-instruments/paper-docx"
+      },
+      {
+        "label": "PyPI",
+        "url": "https://pypi.org/project/paper-docx/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49848598"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "agentmcp-studio-wasm",
+    "category": "小众工具",
+    "title": "Agent MCP Studio：一个标签页里用 WASM 搭多代理，再导出真服务器",
+    "body": "agentmcp.studio 声称整站没有后端：工具编写、多代理编排、DuckDB-WASM 做 SQL、Transformers.js 做本地向量，全在浏览器里靠 Pyodide 沙箱跑。你用自然语言描述工具，它生成代码并做语法树校验；把工具芯片拖到人格节点上就组成团队；还可经 Node 桥把当前标签页变成 Claude Desktop 能连的 MCP。导出时给你真正的 Python 服务端、Dockerfile 和项目包，原型和上线不再是两套故事。所以呢：原型别一上来就租容器——先在标签页里把拓扑跑通，再一键带走。",
+    "links": [
+      {
+        "label": "Agent MCP Studio",
+        "url": "https://agentmcp.studio"
+      },
+      {
+        "label": "介绍博文",
+        "url": "https://runany.dev/blog/agentmcp-studio/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "shotcandy-share-ready",
+    "category": "小众工具",
+    "title": "Shotcandy：截图丢进去，浏览器里变成能发的封面图",
+    "body": "产品截图原图发群里总显寒酸。Shotcandy 让你在 shotcandy.app 粘贴或拖入截图，几秒内加背景、阴影、动效，导出分享向的图或短视频；全程浏览器本地处理，不建账号、不上传、不加水印，MIT 开源。作者把它说成 paste a screenshot, get something lovely——服务的就是「这一张要好看」，不是剪一整条片子。跟要把视频上传云端的工具比，隐私边界清楚很多——截图不出本机，发帖却够体面。开源可自托管改样式。所以呢：发更新别再贴裸窗截图——先让像素穿件出门衣服。",
+    "links": [
+      {
+        "label": "Shotcandy 试用",
+        "url": "https://shotcandy.app"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/btahir/shotcandy"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49871097"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
+    "id": "cms-sfx-self-decrypt-html",
+    "category": "小众工具",
+    "title": "自解密 HTML：加密文件打成一页，断网也能打开",
+    "body": "想分享敏感文件又不想让对方装客户端？Apeleg 的思路是：把密文和解密逻辑打进单个 HTML，对方双击用浏览器打开、输入口令即可还原，演示在 cms-sfx-demo.apeleg.com，源码仓库是 ApelegHQ/ts-cms-ep-sfx。目标场景包括气隙机——不依赖应用商店、不依赖「先下一个 App」，灵感来自当年的自解压包。HN 上近百赞，讨论集中在密钥与可信前端边界；用之前要想清楚信任模型——你信的是那一页 HTML，不是某个云盘账号。所以呢：加密交付别默认云盘链接——有时一页能自解的 HTML 更省事。",
+    "links": [
+      {
+        "label": "演示页",
+        "url": "https://cms-sfx-demo.apeleg.com/"
+      },
+      {
+        "label": "源码仓库",
+        "url": "https://github.com/ApelegHQ/ts-cms-ep-sfx"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49827375"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-28T14:20:00+08:00"
+  },
+  {
     "id": "authors-guild-openai-libgen-briefs",
     "category": "硬科技",
     "title": "作家协会解密简报：OpenAI 高管早知 LibGen 盗版违法，还曾想用 GPT「补完」冰与火之歌",
