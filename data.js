@@ -1,6 +1,487 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-28T14:20:00+08:00",
+  "updated": "2026-09-28T18:30:00+08:00",
   "items": [
+    {
+      "id": "palm-beach-dc-50mw-moratorium",
+      "category": "痛点",
+      "title": "佛州棕榈滩县全票冻机房一年：前科技高管委员说「别装听不见嗡嗡声」",
+      "body": "佛州棕榈滩县委会场，前科技高管出身的委员 Gregg Weiss 开口就怼：别装听不见嗡嗡声。他点名隔壁 Arden 社区差点把超大规模机房贴到 Saddle View 小学旁边——那个叫 Project Tango 的扩建，县里已经否过一次，居民还记着那次惊魂。\n\n九月二十四日，委员会以六比零通过一年期冻结：峰值负荷五十兆瓦及以上的新建数据中心，到二〇二七年九月二十四日前先别申请。这段时间县府要写永久规矩，管水、电、噪音和基建；委员还说，禁止开发商把一个项目拆成多块地绕过门槛。居民 Sergey Kelley 提醒：一年过得很快，五十兆瓦的门槛还是太大，若只冻「最大的」，中等规模照样可能贴到社区边上。\n\n所以呢：特朗普老家所在县也对 AI 机房按下暂停——连「欢迎创新」的人，也开始先写规矩再谈欢迎。",
+      "links": [
+        {
+          "label": "WFLX",
+          "url": "https://www.wflx.com/2026/09/24/palm-beach-county-commissioners-unanimously-approve-moratorium-new-hyperscale-ai-data-centers/"
+        },
+        {
+          "label": "WPBF",
+          "url": "https://www.wpbf.com/article/palm-beach-county-data-center-moratorium-vote/73870397"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "tva-dc-rate-10pct-fee",
+      "category": "痛点",
+      "title": "田纳西河谷管理局给机房单独涨价一成：还要先交扩容定金",
+      "body": "阿拉巴马亨茨维尔市议会上，田纳西河谷管理局（TVA）和当地电力公司把新费率写进城市账本。有人当场点名北亨茨维尔工业园的 Meta 机房：电是直连 TVA，水却由市政供——居民担心电价账单之外，水管和污水处理也会被一起扯紧。\n\nTVA 获批对数据中心客户单独开批发价，约十月一日生效，费率上调约一成；新扩容负荷还要先付一笔「容量承诺金」—— upfront capacity commitment charge，说白了就是扩容定金，新建和既有设施扩容都要面对这一套。发言人 Robby Jones 称，目的是保护居民与既有用户电价，也保障电网可靠；背景报道写过，若不单独开账，机房扩容成本容易摊到普通用户头上。市议会把条款念进会议记录，等于把「机房专属价」写进地方账本。\n\n所以呢：公用事业开始给 AI 机房单独开账单——不是「电涨了」，是「谁用电谁先付钱」正在变成政策。",
+      "links": [
+        {
+          "label": "WAFF",
+          "url": "https://www.waff.com/2026/09/25/tva-raises-rates-data-centers-adding-upfront-fee-new-existing-facilities/"
+        },
+        {
+          "label": "Times Free Press (background)",
+          "url": "https://www.timesfreepress.com/news/2026/aug/20/tva-to-charge-data-centers-more-for-power-under/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "upper-merion-oneill-dc-suit",
+      "category": "痛点",
+      "title": "宾州普鲁士王镇：开发商反告镇府「先说机房算仓库，居民一喊就翻脸」",
+      "body": "宾州 Upper Merion（普鲁士王镇），八月十三日镇府会上居民举着橙牌子挤满会场。Change.org 联署约一万八千人，反对声从 King of Prussia 几处地块一路传到监事会。开发商 Brian O'Neill / MLP Ventures 那片约四百六十万平方英尺、五处地块的机房方案，当天被监事会全票否决。会场里有人举牌喊：别拿仓库当幌子来混过区划。\n\n九月中旬，O'Neill 一方把镇府告进 Montgomery 县法院：要求推翻否决、给初步批准，还要法院派独立「裁判」主持后续听证。律师 Marc Kaplin 事后说，镇府先前发函认定数据中心属仓库用途，居民轰炸后一百八十度转弯；镇府则称方案缺消防等细节、不符区划，否决有据。两边争的不是「要不要 AI」，而是「当初那封区划信还算不算数」。\n\n所以呢：邻避不是口号，是「区划信」被收回去——AI 基建的第一战场，往往是「这算不算仓库」。",
+      "links": [
+        {
+          "label": "Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/news/pennsylvania/data-centers-upper-merion-township-lawsuit-20260918.html"
+        },
+        {
+          "label": "Philadelphia Business Journal",
+          "url": "https://www.bizjournals.com/philadelphia/news/2026/09/17/mlp-ventures-data-centers-lawsuits-upper-merion.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "birmingham-nebius-oxmoor-suits",
+      "category": "痛点",
+      "title": "伯明翰Oxmoor山谷：机房工地六天连轴转，人道协会和邻居一起告",
+      "body": "阿拉巴马伯明翰 Oxmoor 山谷，退休夫妇 Rob 与 Gail Sansome 说，震动吵得没法享受新房，白天夜里都能感到工地在抖。隔壁本想建创伤动物医疗中心的人道协会也坐不住；居民 Terri Michal 另告工业发展局「躲在阴影里送走三十二亿美元税优惠」。\n\n九月中旬，Jefferson 县法官把三起针对 Nebius 机房的诉讼并案，下次听证排到二〇二七年三月八日。工地约八十英亩，施工六天、每天约十二小时，计划二〇二八年完工。另案指控市工业发展局在五月特别会上批出约三十年、三十二亿美元税减免且公告不足；Regions 股东案称同一日三笔交易把地价抬高约六千六百万美元——噪音、动物医院、税单和土地连环倒卖，四条线缠在同一片山谷。\n\n所以呢：机房还没开张，税、地、噪音、动物医院已经一起进法庭——AI 基建冲突不只是「电费」，是整套地方财政被撬开。",
+      "links": [
+        {
+          "label": "WBHM",
+          "url": "https://www.wbhm.org/local-news/2026-09-18/action-picks-up-in-lawsuits-targeting-birmingham-data-center"
+        },
+        {
+          "label": "AL.com tax abatement suit",
+          "url": "https://www.al.com/business/2026/09/data-center-company-birmingham-development-board-hit-with-lawsuit-over-tax-breaks.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "intesa-fideuram-ai-voice-95m",
+      "category": "痛点",
+      "title": "意大利最大银行私行被AI声纹骗走九千五百万欧元：老板WhatsApp一条就开闸",
+      "body": "二月，意大利 Intesa Sanpaolo 旗下私行 Fideuram 时任主席 Paolo Molesini 收到一条 WhatsApp：署名像集团 CEO Carlo Messina，口气很急，像真老板在催。接着一通电话里，「知名律所合伙人」用克隆嗓音盖章确认——审批闸门就这样被声音打开，钱主要流向中国和香港账户。\n\n报道称共转移约九千五百万欧元（约合一点零八亿美元）。跨国协作追回约五千三百万，仍有约三千六百万经海外账户转入加密货币失踪。米兰检方调查一名境外外国籍嫌疑人涉嫌计算机诈骗；Molesini 本人未遭调查，三月以个人原因为由辞职。九月二十五日前后 Reuters 等多家媒体披露此案，把「听着像老板」这件事推到台前。骗子先发文字再打电话，两道关都靠声音过。\n\n所以呢：「听着像老板」已经不够——大银行都被一条 WhatsApp 加克隆嗓音打穿，普通人更别拿声音当身份证。",
+      "links": [
+        {
+          "label": "Gulf News",
+          "url": "https://gulfnews.com/world/europe/ai-voice-cloning-scam-hits-italian-bank-fake-executives-trigger-95m-overseas-transfers-1.500688692"
+        },
+        {
+          "label": "Trending Topics",
+          "url": "https://www.trendingtopics.eu/intesa-sanpaolo-deepfake-95-million/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "milano-ai-bank-voice-24m",
+      "category": "痛点",
+      "title": "米兰检方又挖出两起银行AI声纹骗局：一单二千四百万欧元",
+      "body": "米兰，银行经理打开邮箱，以为在跟「同事」说话。邮件口吻很熟，电话里的嗓音也对得上——直到钱被拆去西班牙、新加坡、香港、巴林。检方后来在巴塞罗那银行冻结了部分资金，才把故事从「内部转账」撕开。\n\n九月二十五日，意大利通讯社 ANSA 报道：米兰检方至少另查两起与 Fideuram 案手法相似的 AI 声纹银行诈骗。一案约二千四百万欧元（操作约两千三百八十万），部分在巴塞罗那被扣；另一较小机构案约二百万欧元，部分在克罗地亚追回。检方强调目前案卷彼此独立，但剧本一样：消息、邮件、AI、voice cloning——五月前后那起大单，说明骗子已经会批量复用同一套声音剧本。三起案子加起来，风控再也说不出口「只是偶发」。\n\n所以呢：不是「一次倒霉」，是同一套剧本连打三家——银行风控若还靠「听着熟」，会被批量复制。",
+      "links": [
+        {
+          "label": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/25/i-pm-milano-indagano-su-altre-due-truffe-a-banche-con-ia-una-da-24-milioni_4ea49569-2968-4fc8-9a4e-dfd277f0b8f6.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "amazon-hamlet-nc-649-diesel",
+      "category": "痛点",
+      "title": "北卡哈姆雷特：亚马逊机房六百四十九台柴油机被拆成两张「小许可」告上庭",
+      "body": "北卡罗来纳 Richmond 县哈姆雷特一带，联合创始人 Shaun Ingram 问：这里已经有人揣着哮喘泵和氧气罐，「全球最有钱的公司凭什么再往空气里喷烟？」一英里半径儿童比例偏高，Richmond County Coalition 把社区健康写进诉状核心。\n\n九月二十五日，南方环境法律中心（SELC）向州行政听证办公室提交两份诉状，挑战亚马逊与 Duke Energy 的次要源空气许可。同一块亚马逊地产上共六百四十九台柴油发电机——亚马逊约五百九十二台应急，Duke 约五十七台临时主电。项目号称北卡在建最大机房，投资约一百亿美元，最终约二十一栋、近八百英亩。原告称合并排放应触发更严的 major source 审查；亚马逊称分许可反映真实所有权结构。\n\n所以呢：「乐高式许可」——AI 机房的排污战场，有时先赢在把大烟囱拆成两张小纸。",
+      "links": [
+        {
+          "label": "SELC press release",
+          "url": "https://www.selc.org/press-release/n-c-air-permits-for-649-diesel-fired-generators-at-amazon-data-center-challenged-in-court/"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/27/datacenter-developers-us-pollution-rules"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "huseman-mo-ai-csam-18y",
+      "category": "痛点",
+      "title": "密苏里曼彻斯特：两万二千份虐童文件含四百多份AI生成，判十八年",
+      "body": "圣路易斯联邦法庭，法官 Stephen R. Clark 落槌：三十二岁曼彻斯特男子 Michael A. Huseman，联邦监禁十八年，并向五名已确认受害者合计赔偿二点三万美元。判决落在九月十六日前后，当地多家媒体同步报了刑期。\n\n检方称，两部手机与两台笔记本共逾两万二千份儿童性虐待材料；另有约六千份动漫类文件，以及逾四百份 AI 生成同类材料。约二百零一份涉及执法已识别的真实受害者。六月他已就接收儿童色情一罪认罪；另被指控曾指使他人删掉近五千条社媒消息。当地媒体报道刑期为十八年，与部分误传的十四年不符——量刑按整案材料与已确认受害者计算，不因部分文件为 AI 生成而减免。\n\n所以呢：「AI 生成算不算」在联邦量刑里已经变成十八年——合成图不是免罪符，法院按真伤害定价。",
+      "links": [
+        {
+          "label": "KTTN",
+          "url": "https://www.kttn.com/missouri-man-gets-18-years-for-child-sexual-abuse-files-ai-material/"
+        },
+        {
+          "label": "First Alert 4",
+          "url": "https://www.firstalert4.com/2026/09/16/man-sentenced-18-years-after-having-ai-generated-child-sexual-abuse-material/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "nhtsa-cybercab-special-order",
+      "category": "痛点",
+      "title": "NHTSA逼特斯拉宣誓：没方向盘没踏板的Cybercab凭什么合法上路卖",
+      "body": "得州奥斯汀刚开商业 Cybercab 服务几天，联邦公路安全局（NHTSA）先开审计查询，再升级特别令。法规写着「行车制动须用脚控」，车上却没有脚控——Amazon Zoox 走了豁免申请，特斯拉选择自我认证直接收费载客，把冲突摊到台面上。\n\n九月三日开 Audit Query AQ26002；十日发特别令，约二十一项追问，由首席法律顾问签署，要求九月三十日前宣誓作答：无方向盘、无踏板的车如何符合写给人开的联邦机动车安全标准（FMVSS）。未如实答复最高可面临约一点三九亿美元级民事罚金；虚假陈述另可涉刑事责任。Zoox 此前获 Part 555 临时豁免，覆盖脚刹、后视镜等条款，年产量上限两千五百至二〇二八年——同赛道里，一张豁免纸决定谁能合法卖票。\n\n所以呢：「先上路再改规矩」撞上「规矩还没改」——无人车合法与否，不看发布会，看有没有豁免纸。",
+      "links": [
+        {
+          "label": "Electrek",
+          "url": "https://electrek.co/2026/09/15/nhtsa-tesla-cybercab-special-order-fmvss-certification/"
+        },
+        {
+          "label": "NHTSA OVSC resume PDF",
+          "url": "https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-15",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "project-jupiter-nm-supreme-lift",
+      "category": "痛点",
+      "title": "新墨西哥最高法院解开禁令：Project Jupiter工地又能从井里抽水",
+      "body": "圣达菲环境部门门口，民众举牌反对超大规模 AI 机房。环保律师说州工程师「橡皮图章」批淡水——公开记录显示新井自四月已抽约一亿零三百万加仑，沙漠州里每一加仑都吵得响，牌子上写着别再抽井。\n\n九月十七日前后，新墨西哥最高法院驳回 Center for Biological Diversity 与 New Energy Economy 两项紧急请愿，解除暂停。Santa Teresa 约一千四百英亩工地可再从现场井取水；空气许可听证将重派听证官，程序重新往前走。Oracle 等项目方称将继续配合州环境部（NMED）；反对方称抗争不会停，下一场仗要从最高法院门口挪回听证桌——谁拿得出用水与排放证据，谁才站得住。禁令一解，抽水泵又能响，听证桌上的纸才刚摊开。\n\n所以呢：沙漠州法院说程序可以继续——反机房不一定赢在最高法院，真正的仗还在听证桌上抢证据。",
+      "links": [
+        {
+          "label": "Searchlight New Mexico",
+          "url": "https://searchlightnm.org/new-mexico-supreme-court-allows-project-jupiter-permit-proceedings-to-advance/"
+        },
+        {
+          "label": "KANW water resume",
+          "url": "https://www.kanw.org/new-mexico-news/2026-09-23/water-can-flow-again-for-construction-of-massive-project-jupiter-data-center"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "secaucus-equinix-diesel-meeting",
+      "category": "痛点",
+      "title": "新泽西锡考克斯镇会爆骂：Equinix说「曼哈顿金融命脉在这儿」，居民骂「建你家后院」",
+      "body": "新泽西锡考克斯市政会上，Equinix 对外事务总监 Rey Cheatham Banks 读稿：「一天有以 T 计的金融交易流过我们锡考克斯楼。」一名居民冲出门喊：Yeah, put the data center in your backyard……镇长坚持信州环保部说法——柴油「没有进河」，会场火药味一下就浓了。有人拍桌子，有人直接离场，麦克风里还在念金融命脉。\n\n九月十一日前后，Equinix 机房约五千到五千五百加仑柴油泄漏，流入通往 Hackensack 河的溪流。二十二日这场镇会火药味十足，Patch 事后写居民当场爆粗离场。镇内已有约九座机房，另有两座在审批；镇长称百分之八十八土地属 Meadowlands 区划，市政否决权有限——居民骂归骂，镇府手里能拦的牌其实不多，于是冲突更像情绪对公关话术硬碰硬。\n\n所以呢：「全球金融命脉」对上「柴油进了我家附近的溪」——机房公关话术越宏大，镇会越容易炸。",
+      "links": [
+        {
+          "label": "Secaucus Patch",
+          "url": "https://patch.com/new-jersey/secaucus/woman-curses-data-center-spokeswoman-volatile-secaucus-town-meeting"
+        },
+        {
+          "label": "Secaucus Scoop committee",
+          "url": "https://secaucusscoop.com/2026/09/digital-dilemma-secaucus-creates-data-center-committee-following-uproar/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-22",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "wilmington-ohio-sc-ballot-block",
+      "category": "痛点",
+      "title": "俄亥俄最高法院拦下选票：邻居想用公投给四十亿AWS机房加「私人起诉权」失败",
+      "body": "俄亥俄威尔明顿，克林顿县选举委员会本已核验签名够数，倡议方以为十一月三日选票稳了。居民想把机房噪音、灯光、排放、发电机测试、用水排水与发热规矩写进选票，还附私人起诉权——邻近居民可日罚至一万美元、暂停运营等。市法律顾问一指「私人起诉权」就越权，整张条例被卡在选票门外。\n\n九月十八日，州最高法院拒强制把条例放上选票，认定创设新诉因超出市镇立法权。正义官 Fischer 少数意见：该不该合法，应等票后再由法院判，不该先抽走投票机会。AWS 拟在约四百七十一英亩建九栋、投资约四十亿美元的园区；联邦另案仍限制规划委在条例重颁前批场地平面图——公投被拦，工地审批线也没完全松开。\n\n所以呢：选票够了，诉因不够——反机房公投要赢，光有签名还不够，条款写错会被法院整张抽走。",
+      "links": [
+        {
+          "label": "Local12/WKRC",
+          "url": "https://local12.com/news/local/ohio-supreme-court-wilmington-data-center-ballot-measure-ruling"
+        },
+        {
+          "label": "ENR",
+          "url": "https://www.enr.com/articles/63684-ohio-supreme-court-blocks-ballot-measure-targeting-4b-aws-data-center"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "waymo-sf-ghost-gun-snitch",
+      "category": "痛点",
+      "title": "旧金山Waymo自己靠边停车报警：后座少年带着上膛「幽灵枪」",
+      "body": "旧金山，无人出租车自己停住，叫来警察。两名少年因携带上膛 AR 式「幽灵枪」（无序列号枪支）被捕。Waymo 对《洛杉矶时报》确认：检测到「涉及枪支的服务条款违规」后靠边并通知当局——不是乘客按了求助，是车自己报了警，后座监控先于方向盘做了决定。警察到场时，车还停在路边。\n\n《The Verge》九月十三日报道此事。公司对内有摄像头与 AI 监控，用来执行武器、违禁品等安全条款。早些时候还有少年在车里喝酒、朝窗外开玩具枪，Waymo 曾「假装机械故障」靠边的先例——同一套逻辑：车不只是交通工具，还是移动监控舱。隐私跟进报道追问：乘客后座到底被录了多少，报警阈值谁定、谁审，乘客有没有被告知。\n\n所以呢：机器人出租车会「告状」——自动驾驶不只是方向盘没了，后座也被当成监控舱。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/transportation/994405/waymo-pulls-over-calls-cops-on-riders-with-a-ghost-gun"
+        },
+        {
+          "label": "The Verge privacy follow",
+          "url": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-13",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "irvington-dcblox-school-suit",
+      "category": "痛点",
+      "title": "印第安纳波利斯Irvington：小学八百五十英尺外要建DC BLOX，校长站后院望过去",
+      "body": "印第安纳波利斯 Irvington，特许小学 Irvington Community Elementary 校长 Katie Welch 和 CEO Rachel Maldonado 站在校园后院，望向 Pennsy Trail 对面拟建地。校内刻意让孩子少碰屏幕、多写本子；窗外却可能响起发电机低嗡。\n\n九月十一日前后报道：校方为原告之一，诉状称拟建 DC BLOX 两栋约二十亿美元项目，最多约三十一台发电机，距校约八百五十英尺。原址是福特汽车厂棕地，土壤与地下水仍有污染物记录。市府全面冻结新机房申请至二〇二七年前，该项目已获批属「可继续」的少数之一。校方曾参观亚特兰大同品牌机房：CEO 称约七百英尺外能听见发电机启动，担心影响学习与哮喘学生——八月中旬起诉，九月教育角度把校门与机房门的距离推到台前。\n\n所以呢：「少给孩子看屏幕」的学校，八百英尺外却要竖服务器墙——AI 基建冲突最刺的画面，往往是校门与机房门的距离。",
+      "links": [
+        {
+          "label": "WISH-TV / Chalkbeat",
+          "url": "https://www.wishtv.com/news/education/irvington-elementary-data-center-lawsuit/"
+        },
+        {
+          "label": "Mirror Indy",
+          "url": "https://mirrorindy.org/dc-blox-data-center-irvington-east-side-indianapolis-judicial-review/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-11",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "datang-xilinhot-shengli-160",
+      "category": "跨行业",
+      "title": "锡林浩特胜利东二号：一百六十台纯电无人矿卡边跑边换电",
+      "body": "内蒙古锡林浩特胜利东二号露天煤矿坑里，百吨级纯电矿卡列队进出，驾驶室空着。截至九月二十二日前后，大唐国际锡林浩特矿业这边常态跑着大约一百六十台新能源无人矿卡，计划年末扩到约三百台，想顶掉矿区大约一半传统柴油矿卡。北疆新闻做了现场报道。\n\n卖点叫「双无人」：车自己开，没电了自己开进无人换电站，大约八分钟换完电池再上排土场。厂商侧信息指向伯镭科技电牛系列百吨级车型。企业称运行效率能到人工驾驶百分之九十五以上，累计减员约三百二十人，日均少烧柴油约十一万两千五百升，少排二氧化碳约二百九十六吨。柴油坑正在被换电流水线一点点替换。\n\n所以呢：不是PPT里的「智慧矿山」，是一百六十台真在坑里换电跑货的无人矿卡——很适合讲「双无人」（开+换电）怎么把柴油坑改成电动流水线。",
+      "links": [
+        {
+          "label": "北疆新闻现场报道",
+          "url": "http://www.imline.cn/news/jingji/2026/092422J002026.html"
+        },
+        {
+          "label": "国际充换电网（双无人换电）",
+          "url": "https://chd.in-en.com/html/chd-2449073.shtml"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-22",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "lowes-matthews-wing-door-dash",
+      "category": "跨行业",
+      "title": "北卡马修斯劳氏店：无人机二十分钟把胶带送到工地",
+      "body": "北卡罗来纳马修斯镇劳氏五金店上空，九月二十四日前后开始飞Wing无人机。顾客在DoorDash里点「Lowe's by Drone」，螺丝刀、美纹纸胶带、填缝胶、电池、清洁剂这类轻量家装耗材，装进大约两磅半以内的小包，宣称最快约二十分钟送到五英里半径内的后院或工地门口。\n\n劳氏和DoorDash、Alphabet旗下Wing一起做试点，SKU超过一百种。公司自称这是家装零售领域首个无人机配送试点，看顾客反馈再决定要不要扩到更多门店。画面不是送披萨的网红秀，是装修半路发现少了一卷胶带、少了一把螺丝刀时的救急——线下五金店在抢那几分钟的冲动订单，把最后一公里直接塞进工地门口。\n\n所以呢：不是又一家外卖无人机，是五金店在抢「半路少胶带」的瞬间——很适合讲线下零售怎么把最后一公里塞进装修现场。",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/24/lowes-drones-delivery-doordash-alphabet.html"
+        },
+        {
+          "label": "Supply Chain Dive",
+          "url": "https://www.supplychaindive.com/news/lowes-debuts-drone-delivery-pilot-with-wing-doordash/831162/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "volvo-bronnoy-garpenberg-3mt",
+      "category": "跨行业",
+      "title": "挪威布伦岛石灰石场：九台沃尔沃无人铰接卡车运满三百万吨",
+      "body": "挪威中部海岸Bronnoy Kalk石灰石场，九台没司机的铰接卡车钻出大约五公里含长隧道、陡坡的运矿路，把石头送到海边破碎站。九月二十四日沃尔沃无人解决方案宣布：Autona无人铰接卡车累计运量突破三百万吨，距此前一百万吨里程碑大约十五个月。场地从二〇二三年起就在无人运矿。\n\n第二块场地在瑞典Boliden Garpenberg——欧洲持续开采最久的矿山之一，无人车在给尾矿坝加固运料。合计大约七万五千车次没人坐驾驶舱。卡特、小松常在超大型刚性矿卡上刷屏，沃尔沃这边啃的是欧洲「铰接+隧道」小矿坑，场面不大却很扎实。公司说四季度还要公布新客户，并继续推进Boliden北欧管线。\n\n所以呢：欧洲小矿坑也悄悄跑到三百万吨——很适合讲无人矿卡不止智利巴西那种巨坑。",
+      "links": [
+        {
+          "label": "The Robotics Media",
+          "url": "https://theroboticsmedia.com/article/volvo-autonomous-solutions-3-million-tonnes-driverless-bronnoy-kalk-boliden-garpenberg-september-24-2026"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "hangzhou-hangjing-zhixing-15",
+      "category": "跨行业",
+      "title": "杭州西湖边：十五台「杭警智行」钢铁交警能自己绕路口巡逻",
+      "body": "杭州西湖景区路口，灰白交通管理机器人对着非机动车喊停线，屏幕上还能显示导航和天气。杭州市交警「杭警智行」十五台小队，五一假期起全面上路；九月十五日前后完成升级：全景运动控制、多模态定位，能自主规划路线、动态避障、过斑马线时服从信号灯。\n\n以前基本定点盯一个方向，现在转向区域自主巡逻，可按现场秩序调整巡逻时长。入役四个多月：日均执勤超九小时，公共服务超一万一千次，交通违法提醒超二十三万次。秋游旺季主要布在西湖周边，按人流车流调度。游客用中英文问路，它还会追问一句把问题问清楚。\n\n所以呢：不是商场导览机器人，是真在西湖路口劝非机动车别冲灯的钢铁交警——很适合讲市政机器人从「站岗拍照」进化到「自己巡逻」。",
+      "links": [
+        {
+          "label": "China Daily",
+          "url": "https://www.chinadaily.com.cn/a/202609/15/WS6aa8fa47e4b06d4aa055e21a.html"
+        },
+        {
+          "label": "Wake Up Singapore",
+          "url": "https://wakeup.sg/chinas-robot-cops-return/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-15",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "pickr-veso-apotek-stavanger",
+      "category": "跨行业",
+      "title": "挪威斯塔万格：兽药批发仓货架边装上会爬轨的拣货手臂",
+      "body": "挪威斯塔万格一家兽药批发仓，旧货架没拆。九月二十三日前后，本土公司Pickr.AI公开首个商业客户Veso Apotek：系统叫PickrMate，一条轨骑在货架旁，机械臂用三维视觉从双侧流利架抓取大约两公斤、二十五厘米以内的药盒，再送到拣货位。仓还是原来那座仓，只是货架边多了一条轨。\n\n卖点不是推倒重建那种AutoStore级绿场仓——绿场就是空地重盖一整套自动化——而是嵌进现有货架；垂直升降模块、方仓、分区拣货都能兼顾。CEO Roald Valen出身ABB机器人与Capgemini，和埃因霍温、雷克雅未克、斯塔万格几所大学有学术合作。兽药仓这种中等规模、不敢砸整仓的地方，终于有人卖「货架边加一条轨」的方案。\n\n所以呢：中等仓也能先上一只爬轨手臂——很适合讲自动化不只是电商巨仓的游戏。",
+      "links": [
+        {
+          "label": "The Robotics Media",
+          "url": "https://theroboticsmedia.com/article/pickr-ai-pickrmate-modular-3d-picking-warehouse-stavanger-september-23-2026"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "maxima-utrecht-riva-1m",
+      "category": "跨行业",
+      "title": "乌得勒支公主马克西玛儿童肿瘤中心：两台配药机器人攒出一百万针",
+      "body": "荷兰乌得勒支Prinses Máxima Centrum配药室里，两台ARxIUM的RIVA机器人在无菌环境下按患儿处方一剂一剂配静脉注射药，药师盯流程而不是手摇针筒。九月二十一日公司宣布：自二〇一八年专用配制药房启用起，累计配制患者专用无菌制剂突破一百万剂。\n\n这里是欧洲最大儿童肿瘤中心，治疗日程碎、剂量严，药学总监Dr. Lidwien Hanff强调的是复杂日程下的质量和效率，不是「即将上线」的演示稿。两台机器干了八年，一百万针堆出来——数字比口号硬，也比「又签了一家医院」的新闻稿更站得住脚，天天都得稳住高危儿科用药。\n\n所以呢：不是又一台「即将上线」的药房机器人，是八年一百万针的实打实里程碑——很适合讲医院自动化比拼的是能不能天天稳住高危儿科肿瘤用药。",
+      "links": [
+        {
+          "label": "ARxIUM / EIN Presswire",
+          "url": "https://www.einpresswire.com/article/941213431/arxium-and-prinses-m-xima-centrum-mark-more-than-one-million-sterile-doses-compounded-using-riva"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "zhangjiajie-ezhan-hospital-amr",
+      "category": "跨行业",
+      "title": "张家界市人民医院：送药机器人自己叫电梯跨楼送标本",
+      "body": "张家界市人民医院走廊上，易站（Ezhan）的医用配送机器人带着密封仓穿梭：遇人绕开，到电梯口自己呼叫，跨楼层把药、耗材和化验标本送到点位，再亮灯提醒护士取件。九月十四日公司宣布在这家区域核心综合医院批量交付部署，用途覆盖药品、耗材、标本和医用物资院内运输。\n\n底盘是AMR自主导航——AMR就是会自己找路的移动机器人——自动避障、多密封仓、任务到点提醒、自充对接，宣称支持七乘二十四小时。定位写成湘西北医用配送机器人标杆，不是北上广三甲样板间。旅游城市总医院把「护士推车送药」换成机器人叫电梯，故事落在地级市。\n\n所以呢：医院物流机器人正在往地级市铺——很适合讲智慧医院不只是一线城市的面子工程。",
+      "links": [
+        {
+          "label": "Ezhan 新闻稿",
+          "url": "https://www.ezhanrobot.com/news/batch-deployed-ezhan-medical-delivery-robots-l-85638203.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-14",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "lishui-yiqing-robot-dog",
+      "category": "跨行业",
+      "title": "浙江丽水油泵厂：机器狗巡场，乱停车和垃圾它会停下来拍照",
+      "body": "丽水莲都一家油泵厂区里，浙江一擎科技的机器狗按设定路线走，身上挂着红外热成像和三维激光雷达。发现违停非机动车或垃圾，它会停住拍照、标记位置。中国日报网浙江频道九月十六日报道：这是丽水首台巡检机器狗落地，首站就在油泵厂。\n\n高温天原先人工巡检要三到四小时，机器狗可压到一小时内；公司称可替代三到五名巡检员。高速配电房场景里，两人三到四小时的活一小时做完；农业巡检效率大约抬三成、数据采集翻倍、人力成本降超一半。气体检测、消防、机械臂还能模块化挂载，不是只会走路的展品。\n\n所以呢：机器狗不在实验室秀楼梯，是在油泵厂拍乱停车——很适合讲工业巡检机器人怎么从「能走」变成「真替人出汗」。",
+      "links": [
+        {
+          "label": "China Daily Zhejiang / ezhejiang",
+          "url": "https://www.ezhejiang.gov.cn/2026-09/16/c_1213963.htm"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "hengqin-qinbao-substation-dog",
+      "category": "跨行业",
+      "title": "横琴琴韵变电站：机器狗「琴宝」钻进高压缝隙替人巡检",
+      "body": "粤澳深度合作区二百二十千伏琴韵变电站里，灰白四足机器狗「琴宝」走在参观团前头，过复杂地面、钻设备间隙。羊城晚报PEARL九月三日至四日报道：南方电网智能巡检装备展示现场，外媒参访团跟着它进站；人难达的高危区，它先走一步探路。\n\n公开演示还含拉力展示，报道称大约两吨，现场能跟三个人拔河。场景是变电站设备巡检和导览，不是玩具展，也不是实验室楼梯秀。能源巡检机器狗又一次出现在镜头前，但这回落点是横琴真站——可和广西风电升压站那组机器狗、轨道车、轮式车对照看，看电网「狗替人进高压区」是不是越来越常态。\n\n所以呢：电网巡检机器狗正在从样机走到真站——很适合跟风电升压站那组对照，讲高压区少人值守长什么样。",
+      "links": [
+        {
+          "label": "羊城晚报 PEARL",
+          "url": "https://ysln.ycwb.com/content/2026-09/04/content_54287907.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-03",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "vale-carajas-n4ws-cat8",
+      "category": "跨行业",
+      "title": "巴西卡拉雅斯N4WS铁矿：八台卡特无人矿卡九月开跑",
+      "body": "巴西帕拉州Serra Norte的N4WS铁矿坑，九月一日起八台卡特矿卡驾驶室空着上路。CKS Online独家报道：车型是Cat 797和Cat 794，跑的是Cat MineStar Command for hauling调度系统，合作方含经销商Sotreq。控制室里人盯系统，坑里车自己按路线跑。\n\n节奏写得很满：九月八台，十月再加十三，十一月加两台，十二月加十二，年底目标三十五台。同区N4矿已有大约二十台小松无人矿卡在跑；淡水河谷北系统长期目标大约九十台无人矿卡，覆盖Serra Norte和Serra Sul到二〇二八年。公司称无人经验可带来至多约百分之十五作业产出、约百分之七点五油耗下降，逾二百六十人接受相关岗位培训。萨洛博铜矿刚刷过小松十九台，铁矿这边又把卡特推上坑。\n\n所以呢：同一家矿企在不同矿种上「小松坑+卡特坑」双线扩无人——很适合讲巨矿怎么同时养两套无人编组。",
+      "links": [
+        {
+          "label": "CKS Online",
+          "url": "https://cksonline.com.br/carajas-da-novo-salto-na-mineracao-8-caminhoes-autonomos-comecam-a-operar-nesta-terca-feira-1/"
+        },
+        {
+          "label": "CKS 现场图",
+          "url": "https://cksonline.com.br/cks-online-tem-acesso-as-primeiras-imagens-dos-novos-caminhoes-autonomos-em-operacao-em-carajas/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-01",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "porr-wltr-kladno-walter",
+      "category": "跨行业",
+      "title": "捷克克拉德诺：两吨半砌墙机器人「Walter」抱五十二公斤砖上工",
+      "body": "布拉格旁克拉德诺的Kladno Living工地，奥地利承包商PORR把一台叫Walter的砌墙机器人写进正式流程。八月六日新闻稿：项目五栋楼、三百七十一套公寓加车库；二点五吨重的WLTR伸出三点五米臂展，抱起最重五十二公斤的隔音砖，按BIM建筑信息模型毫米级落位，砌承重墙和分户隔墙。\n\n产能大约每小时七点五平方米，峰值约十；两人盯场备料，机器人干最累的搬砖；功耗大约一点五千瓦。PORR自二〇二五年起测试，强调不替代工人、减轻重体力，自项目开工起就纳入工期。欧洲大承包商把砌墙机器人写进正式新闻稿，还是三百多户真住宅工地，不是展会砌两面墙的表演。\n\n所以呢：建筑机器人从「展会砌两面墙」走到「进住宅项目排工期」——很适合讲工地重体力怎么先交给机器。",
+      "links": [
+        {
+          "label": "PORR 新闻稿",
+          "url": "https://www.porr-group.com/en/press/press-releases/detail/porr-deploys-bricklaying-robot-at-construction-site"
+        },
+        {
+          "label": "CIJ.World",
+          "url": "https://cij.world/porr-tests-bricklaying-robot-on-czech-residential-development/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-08-06",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "nowaste-helsingborg-autocase",
+      "category": "跨行业",
+      "title": "瑞典服装仓：全球首个AutoCase把整箱亚洲货直接塞进爬架网格",
+      "body": "瑞典物流商Nowaste的服装仓里，亚洲来的整箱衣服不用先拆到托盘高架。九月上旬Swisslog和AutoStore宣布：Nowaste成为全球首家装上AutoCase的客户——端口把整箱纸箱直接送进AutoStore格子里囤着，旺季再整箱出，或开箱转到拣货口拆零。设施落在赫尔辛堡、延雪平、斯德哥尔摩那一套仓网里。\n\n季节款服装常提前数周入库、最长大约六个月缓冲；以往靠托盘高架人工倒货，旺季再手忙脚乱。系统二〇二六年夏安装，正对不同纸箱规格测试，尚未宣称全面满负荷生产。AutoStore一直擅长小料箱货到人，这次是「整箱时装」直接进网格——慢周转的季前囤货也被机器人改写了一截。\n\n所以呢：服装季前囤货这种慢周转场景也被机器人改写——很适合讲爬架不只会拣小件，还能整箱吃进季货。",
+      "links": [
+        {
+          "label": "PR Newswire / Swisslog",
+          "url": "https://www.prnewswire.com/apac/news-releases/nowaste-logistics-becomes-the-worlds-first-company-to-implement-autocase-from-autostore-delivered-by-swisslog-302869712.html"
+        },
+        {
+          "label": "Automated Warehouse",
+          "url": "https://www.automatedwarehouseonline.com/nowaste-logistics-becomes-the-first-to-deploy-autostores-autocase/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-09",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
+    {
+      "id": "nero-riyadh-alfalah",
+      "category": "跨行业",
+      "title": "利雅得Al-Falah社区：沙特本土创业公司无人配送车开进真小区",
+      "body": "利雅得Al-Falah住宅区街道上，沙特创业公司Nero的无人配送车在行人、社会车辆和多个投递点之间跑最后一公里。Entarabi九月二十四日报道：公司从受限测试环境转入开放居民区运营，并称这是给沙特本土公司的首例同类公共街区许可——车开进真有人过马路的街区，而不只是围起来的测试场。\n\n创始人Mohamed Al-Baiti、Muhannad Al-Qurashi，公司二〇二五年末成立；沙特交通总署二〇二五年曾在指定环境试跑无人配送。车队规模和服务半径尚未披露，材料偏薄，但许可本身比机型更稀缺。中东无人配送常是大厂演示，这回是本土小公司先拿到街区入场券，故事从测试场挪到了真小区。\n\n所以呢：监管许可怎么比机器人本身更稀缺——很适合讲中东无人配送从测试场挪到真小区的那一步。",
+      "links": [
+        {
+          "label": "Entarabi",
+          "url": "https://entarabi.com/en/2026/09/from-trials-to-live-operations-saudi-startup-nero/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-28T18:30:00+08:00"
+    },
     {
       "id": "prompt-gpt-image-beauty-consult",
       "category": "提示词",
