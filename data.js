@@ -1,6 +1,487 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-29T14:20:00+08:00",
+  "updated": "2026-09-29T18:30:00+08:00",
   "items": [
+    {
+      "id": "san-antonio-vantage-voltagrid-suit",
+      "category": "痛点",
+      "title": "圣安东尼奥西区：邻居抱着一岁女儿问「安全吗」，环保组织告机房自建电厂拆成小许可",
+      "body": "圣安东尼奥远西区马路对面，David Thompson抱着刚满一岁的女儿对本地台问：这对我们安全吗？他家对面，两座数据中心校园各自竖起燃气电厂，夜里还能闻到工业区的味道。\n\n九月二十一日，环境诚信项目、塞拉俱乐部和公民组织Public Citizen把丹佛的Vantage和休斯敦的VoltaGrid告上西德州联邦法院。诉状说，两边加起来大约四百零五兆瓦燃气发电，再加一百五十一台柴油备用机，差不多又能顶四百五十五兆瓦——却走了德州给「次要污染源」开的快速通道，躲过联邦《清洁空气法》要求的最佳治污技术和公众听证。贝萨尔县已被联邦环保署标成臭氧「严重」超标区；原告还点名甲醛漏算、柴油机当主电源跑等细节。同一天，州长Abbott下令州环保局先停发机房相关新许可，可这两处已经拿到证，所以邻居只能靠诉讼叫停。\n\n所以呢：机房说「我们自带电、不抢电网」，不等于空气账清了——拆成小许可的电厂，正在变成新战场。",
+      "links": [
+        {
+          "label": "Environmental Integrity Project",
+          "url": "https://environmentalintegrity.org/news/environmental-groups-sue-illegal-data-center-power-plant-projects-in-san-antonio/"
+        },
+        {
+          "label": "The Texas Dispatch",
+          "url": "https://thetexasdispatch.com/san-antonio-data-center-lawsuit-vantage-voltagrid-air-permits/"
+        },
+        {
+          "label": "San Antonio Current",
+          "url": "https://www.sacurrent.com/news/environmental-groups-sue-over-san-antonio-data-centers/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "delhi-hc-modi-deepfake-cjp",
+      "category": "痛点",
+      "title": "德里高院给Meta二十四小时：女人被AI合成与总理同框淫秽图后收到死亡威胁",
+      "body": "德里高院周五，法官Girish Kathpalia当着警察说：这不只是一个女人的事，还关乎这个国家的总理。一名女子指控「蟑螂人民党」几名活跃分子把她和莫迪总理合成淫秽图像，在抗议活动期间满网传，她随后收到死亡威胁，并称这是用深伪技术做的协同网暴和人格谋杀。\n\n周四她已向德里网警报了案，可内容还在转。周五法院发通知给被点名的Saurav Das、Abhijit Dipke等人，要求德里警察一周内交侦查进度；更狠的是当场勒令Meta「立即」撤帖，时限不超过二十四小时，并命令辖区警局当天就给她安排全面保护——她得当庭把住址交给到场警员。法官承认这类事本有别的法律渠道，可因为牵扯总理，他选择「非常规」插手。\n\n所以呢：深伪色情不再只打名人本人——普通人被拖进「与权力者同框」的合成图，法院用总理之名按下加速键。",
+      "links": [
+        {
+          "label": "Indian Express",
+          "url": "https://indianexpress.com/article/legal-news/delhi-high-court-cjp-police-protection-woman-pm-modi-deepfake-meta-takedown-order-10893935/"
+        },
+        {
+          "label": "Bar and Bench",
+          "url": "https://www.barandbench.com/news/matter-not-of-one-lady-but-about-pm-delhi-hc-orders-takedown-of-explicit-ai-photo-of-woman-with-pm-modi-during-cjp-protest"
+        },
+        {
+          "label": "LiveLaw",
+          "url": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-police-protection-cjp-leaders-pm-modi-morphed-image-551821"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "utah-marsh-ai-csam-5y",
+      "category": "痛点",
+      "title": "犹他圣乔治：男人用AI把亲戚朋友家孩童照改成全裸，联邦判五年加终身监管",
+      "body": "圣克拉拉警察本来在查一桩成人偷拍。他们打开四十九岁男子Jared Marsh的手机，却翻出大约二十张十二到十七岁孩子的照片——被数字技术改成全裸，其中还有亲戚和朋友家的孩子。\n\n今年五月他在联邦法院对持有儿童色情材料认罪。九月十六日，法官Ann Marie McIff Allen判他六十年份里的五年监禁，出狱后还要终身监管、登记性犯罪者，并按缓刑官要求接受测谎。美国检察官Melissa Holyoak说得干脆：用技术把儿童影像改成色情，一样违法，零容忍。当地报道还写到，这些改图出现在他偷窥轻罪缓刑刚结束之后；州里曾叠过十几项重罪指控，后来并进联邦案。\n\n所以呢：「脱衣」按钮对着亲戚相册一点，法庭按虐童材料持有来判——熟人圈子比陌生色情站更近、也更狠。",
+      "links": [
+        {
+          "label": "stgeorgeutah.com",
+          "url": "https://www.stgeorgeutah.com/news/st-george-man-sentenced-after-ai-altered-images-of-children-found-on-electronic-devices/article_e9dab0dd-1811-48f4-8870-d64b90ff2a25.html"
+        },
+        {
+          "label": "ABC4",
+          "url": "https://www.abc4.com/news/crimes-against-children/man-sentenced-possessing-ai-child-sexual-abuse-material/"
+        },
+        {
+          "label": "KSL",
+          "url": "https://www.ksl.com/article/51625912/southern-utah-man-given-5-years-for-using-ai-to-make-photos-of-children-explicit"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "salem-or-dc-120day-verrus",
+      "category": "痛点",
+      "title": "俄勒冈塞勒姆全票冻机房一百二十天：水库要大放水，五十一亿Verrus工地先停建",
+      "body": "塞勒姆市议会九月二十一日一致举手，场内立刻响起掌声。一百二十天冻结当场生效，管到明年一月十九日——主用途机房，以及超过两兆瓦的附属机房，这段时间别想动工。\n\n市律师Dan Atchison写进报告的理由很直白：底特律水库即将深度放水，大约二十二万用户的饮用水能力会被掐紧，高耗水项目可能造成「不可挽回的公共损害」。Verrus老板七月底已为米尔溪园区递交约六十万平方英尺机房申请，市律师当众澄清：州法一般按递件时规则审材料，但冻结期内施工可以被禁止。隔壁伍德本市十四日也刚冻了一百二十天；州长Kotek则在州层面喊要更长的停顿。\n\n所以呢：干旱年先保水龙头再谈算力——已经递件的五十一亿项目，施工权照样能被冻住。",
+      "links": [
+        {
+          "label": "Statesman Journal",
+          "url": "https://www.statesmanjournal.com/story/news/local/2026/09/21/salem-unanimously-passes-moratorium-on-data-centers/91875871007/"
+        },
+        {
+          "label": "Salem Reporter",
+          "url": "https://www.salemreporter.com/2026/09/22/city-attorney-salem-data-center-moratorium-means-verrus-cant-build-until-it-expires/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "ottawa-ks-lightfield-kill",
+      "category": "痛点",
+      "title": "堪萨斯渥太华五比零撕掉机房卖地合同：居民说「让选票先说话」",
+      "body": "渥太华市政厅里，委员Emily Allen一句话定调：他们没时间了，该往前走了。九月二十三日，市政委员会五比零终止与Lightfield Energy的土地销售合同——南城那片约三百英亩的Proximity Park，本来要建数据中心加天然气电厂。\n\n市律师Blaine Finch说，开发商多次延期后仍没交出开发协议，十月三十日前也很难赶完审查。市长Zach Clayton补刀：我们手里没有成交所需材料。台下居民Michael Lewis属于推动禁令的Ottawa United，他敦促选举前别再动机房；他希望园区留给仓储或住房，而不是未知的水和空气冲击。十一月三日，禁止超二十五兆瓦超大规模机房的公投已经上票——九月初法官刚裁定必须让市民投票。县里富兰克林县委会更早一步，把未建制区机房冻到二〇二八年底。\n\n所以呢：合同到期、公投未决——小镇先用「撕合同」把机房从议程上拿掉。",
+      "links": [
+        {
+          "label": "KSHB 41",
+          "url": "https://www.kshb.com/news/local-news/data-centers/out-of-time-ottawa-ends-data-center-contract-as-ballot-fight-continues"
+        },
+        {
+          "label": "KOFO",
+          "url": "https://kofo.com/2026/09/24/ottawa-terminates-lightfield-contract/"
+        },
+        {
+          "label": "Ballotpedia",
+          "url": "https://ballotpedia.org/Ottawa,_Kansas,_Prohibit_Data_Centers_Initiative_(November_2026)"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "raritan-nj-dc-ban",
+      "category": "痛点",
+      "title": "新泽西拉里坦镇全区禁机房：仓库和研究楼里也不能塞服务器农场",
+      "body": "亨特登县拉里坦镇把「数据中心」三个字写进全区禁止用途清单。不是缓建，是直接不许建——所有区划一律禁止，连仓库、弹性空间、研究设施里夹带机房也不行。\n\n镇委会修订土地开发条例时，市长Brad Perry与全体委员站在同一边。官员说，这是土地规划的一部分，要让规则跟社区长远目标对齐。条例留了一条窄门：真正服务主业的附属服务器室还可以，但必须待在主建筑里，面积不得超过建筑毛面积的一成或两千平方英尺，取较小那个。换句话说，办公室里放机柜给自家用还行，打着仓库招牌开服务器农场不行。本地电台WRNJ九月二十一日报出这条。\n\n所以呢：有的镇写九十天冻结，有的镇直接写进禁令——「挂羊头卖服务器」的口子也被堵上了。",
+      "links": [
+        {
+          "label": "WRNJ",
+          "url": "https://wrnjradio.com/raritan-township-adopts-ordinance-banning-data-centers/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "springhill-pa-dc-ordinances",
+      "category": "痛点",
+      "title": "宾州春山镇居民塞满社区中心：八百英亩购地权一露头，条例连化石燃料电厂一起卡",
+      "body": "费耶特县南部乡下，Appalachian Community Center一连几个月被居民塞满。他们反复提的是灰尘、灯光、噪音、震动和水污染——还没有一纸正式机房申请。二月镇里就开始酝酿条文，真正加速是在六月。\n\n独立电力商Nadara对镇委会说，已与Fay-Penn经济委员会就Gans附近约八百英亩达成购地权协议。春山镇随即启动六个月暂停窗口写规矩。九月七日因州公示程序没走完，表决被迫延期；十七日三个监事全票通过两条条例，分别卡住数据中心和配套化石燃料发电设施。副镇长Damon Helen说，目标就是保护全体居民的健康、安全与福利；镇律师对照全州同类文本写稿，居民邮件和会上提问里，九成问题都绕着这些民生点打转。\n\n所以呢：开发商还没递申请，八百英亩「意向」就够让小镇连夜立法。",
+      "links": [
+        {
+          "label": "Herald-Standard",
+          "url": "https://www.heraldstandard.com/news/local_news/2026/sep/19/springhill-township-adopts-data-center-power-generation-ordinances/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "kearney-ne-tech-one-368",
+      "category": "痛点",
+      "title": "内布拉斯加卡尼站着听完会：三百六十八兆瓦机房批了，用电超过三个城市总和",
+      "body": "卡尼市政厅九月八日站着听完会。市议会五比零一边通过全市首份机房区划细则，一边批下Tech One Crossing的条件使用许可——满建约三百六十八兆瓦，要替换场地上那座约一百兆瓦的比特币矿。本地台算过一笔账：这个数将超过卡尼、大岛和黑斯廷斯三个城市加起来的用电。\n\n开发方强调闭式冷却、景观年用水约两百万加仑，还甩出社区学院、STEM和热餐项目的支票式承诺。居民Ellery Butterfield仍追问：跟这种财团打官司，市里扛得住吗？市长Jonathan Nikkila的态度是：立法官的活是定公平规矩，不是替合法生意做道德审判。与此同时，内布拉斯加至少十二个县选择冻结；卡尼选择「批但严管」。\n\n所以呢：不是每座城都喊停——有的城先写严规矩再开门，电账本仍可能比三个邻居加起来还大。",
+      "links": [
+        {
+          "label": "KSNB",
+          "url": "https://www.ksnblocal4.com/2026/09/09/kearney-city-council-approves-code-permit-massive-tech-one-crossing-data-center/"
+        },
+        {
+          "label": "Central Nebraska Today",
+          "url": "https://www.centralnebraskatoday.com/2026/09/09/data-center-project-gets-approval-from-kearney-city-council-with-new-stricter-regulations/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-08",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "levy-fl-floridan-aquifer",
+      "category": "痛点",
+      "title": "佛州利维县冻一年五十兆瓦级机房：佛罗里达含水层先写进条例",
+      "body": "布朗森县委会九月八日通过Ordinance 2026-05：从十月一日起，到明年九月三十日，未建制区里数据中心、大规模机房和「大负荷用户设施」一律先别递件、别受理、别批。县里目前没有专门对着机房写的综合规划条款，也缺土地开发细则。\n\n门槛写得很硬——单点预计月峰值负荷五十兆瓦及以上就算大负荷；定义里点名云计算、人工智能训练、高性能计算，连挖矿也算。条例特别点出：利维县靠佛罗里达含水层地下水过日子，县府得趁冻结窗口研究供水、含水层、冷却、污水、节水与干旱。普通机房小房间、公共服务设施和已批且不需重大改动的项目可以豁免。职员最晚要在二〇二七年八月底交出永久规章草案。\n\n所以呢：佛州不是只有棕榈滩——靠含水层过日子的县，先把五十兆瓦门槛写进冻结令。",
+      "links": [
+        {
+          "label": "Citrus County Chronicle",
+          "url": "https://www.chronicleonline.com/news/local/levy-county-approves-moratorium-on-data-centers/article_177dad48-7ddc-55b8-a945-cedb2a3a0013.html"
+        },
+        {
+          "label": "WCJB",
+          "url": "https://www.wcjb.com/2026/09/09/levy-county-commission-passes-moratorium-large-scale-data-centers/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-08",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "christiansburg-va-cup",
+      "category": "痛点",
+      "title": "弗吉尼亚克里斯琴斯堡六比零：工业区机房不再「自动能建」",
+      "body": "克里斯琴斯堡镇议会九月八日六比零举手。此前，一般工业区里数据中心可以「按权建设」——开发商符合区划就能往前走，邻居少有法定发言席。现在改了：每一宗都要条件使用许可，多一道规划审查，也多一轮公众意见。\n\n镇长Mike Barber说，今晚这一步会让事情慢下来，甚至刹停。规划局长Retta Jackson在工作会上摊开州审计报告：机房能带来房产和设备税，可建成后长期岗位少、耗电大，还可能把电费压力摊到居民头上，也不适合贴着住宅区。镇律师Reid Broughton说，条件许可是「澄清怎么管」的第一步。议员Johana Hicks更冲：她现在就反对机房，想尽快改定义，免得定义不对被人钻空子。北边亨利县刚写下距住宅一千英尺退界。\n\n所以呢：「工业区自动能建」这扇门一关，邻居才第一次坐上听证席。",
+      "links": [
+        {
+          "label": "Cardinal News",
+          "url": "https://cardinalnews.org/2026/09/10/christiansburg-ups-requirements-for-any-future-data-center/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-08",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "woodburn-or-dc-120day",
+      "category": "痛点",
+      "title": "俄勒冈伍德本一百二十天不接机房件：目前一件申请都没有，先写规矩",
+      "body": "伍德本市议会九月十四日开完公听会，投下一百二十天冻结：新的数据存储、处理与信息技术中心，这段时间暂停受理、审查和批准。市府特地说明——别的工业开发不受影响，城里目前也没有任何在办或有效的机房申请。\n\n冻结窗口是用来重看区划、公用事业承载力、选址标准，以及水、电、噪声和环境冲击，再补上未来怎么评项目的流程。市府网页挂出常见问答，把时间表和材料摊开给居民查。一周后，省会塞勒姆用几乎同一套时间尺度全票跟进，还点名底特律水库放水威胁饮水；州长Kotek也在州议会外支持更长停顿的讨论。俄勒冈这一周的地方动作，像是在给州立法暖场。\n\n所以呢：没有申请也要先冻——怕的是规矩没写完时，申请突然涌进来。",
+      "links": [
+        {
+          "label": "KYKN",
+          "url": "https://kykn.com/2026/09/15/woodburn-declares-a-120-day-data-center-moratorium/"
+        },
+        {
+          "label": "City of Woodburn",
+          "url": "https://woodburn-or.gov/1133/Data-Center-Moratorium"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-14",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "franklin-ks-dc-to-2028",
+      "category": "痛点",
+      "title": "堪萨斯富兰克林县把机房冻到二〇二八年底：先研究再让人递申请",
+      "body": "富兰克林县委会九月二日一致举手：未建制区里，数据中心的规划、建设和特殊使用许可申请先全部暂停，一直管到二〇二八年十二月三十一日。县行政官Derek Brown对本地电台说，机房话题冒出来好几年了，显然该做严肃研究、把政策和程序写清楚，再让开发商递件。\n\n三年空窗比常见的九十天、一年冻结长得多——等于明确告诉业界：先别排队。县内渥太华市同期正撕掉Lightfield卖地合同，并把十一月禁超大规模机房的公推上票；上下两层政府用不同工具踩同一条刹车。对想在堪萨斯中部抢地的开发商来说，这不是「再等一个季度」，而是整段商业计划要重排。\n\n所以呢：有的地方冻一季，有的地方直接空出到二〇二八——时间本身就是谈判筹码。",
+      "links": [
+        {
+          "label": "KOFO",
+          "url": "https://kofo.com/2026/09/03/franklin-county-places-moratorium-on-data-centers/"
+        },
+        {
+          "label": "Ranson Financial summary",
+          "url": "https://ransonfinancial.com/2026/09/10/data-center-moratorium-declared-by-county/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-02",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "hidalgo-nm-dc-special-use",
+      "category": "痛点",
+      "title": "新墨西哥伊达尔戈县沙漠边：五千瓦以上或用水冷却的机房都要专项审批",
+      "body": "格兰特县Hachita附近冒出一份空气质量许可意向公告，申请人Site Layer 1几乎不露面，居民最先慌的是水。地方组织把线索追到纽约投资机构，州环境部长还写信抱怨社区沟通不够。隔着县界的伊达尔戈县九月九日先动手：县委会通过条例，大型数据中心必须拿到特别使用批准才能往下走。\n\n多大算大？建筑面积超过两万五千平方英尺，或者用电超过五兆瓦，或者用蒸发、水冷——三条沾一条就进门槛。申请材料要带场地平面、运行说明、应急预案、噪声研究、水文地质影响评估、用水计划和退役计划，还要守噪声、灯光、危化品和地下水保护标准。州议员和国会议员随后也为格兰特县一年冻结站台；州议会二〇二七年还可能讨论全州停顿。\n\n所以呢：沙漠县不问「欢迎不欢迎创新」，先问「水够不够、谁签字」。",
+      "links": [
+        {
+          "label": "Silver City Daily Press",
+          "url": "https://www.scdailypress.com/2026/09/22/elected-officials-line-behind-data-center-moratorium/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-09",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "zeeland-mi-dc-energy-year",
+      "category": "痛点",
+      "title": "密歇根泽兰镇一年冻结机房和能源设施：一边告州法抢地方审批权",
+      "body": "泽兰镇监事会九月初一致举手：废掉三月那道旧冻结，换成覆盖数据中心与能源设施的一年新令。监事Kerri Bosma说，眼下并没有机房申请压在桌上，正好趁空修订总体规划，别等大项目顶到门口再临时抱佛脚。她强调目标不是一刀切拒绝发展，而是先把地方规划工具准备齐。\n\n同一条战线上，镇府七月起诉挑战密歇根公共法第二百三十三条——该法削弱地方对部分大型能源项目的否决权。太阳能开发商RWE Americas的Silver Maple项目申请已在州公用事业委员会暂停，公司还试图把官司拖进联邦法院，镇里则申请打回地方法院。机房冻结和「州法是不是抢走地方嗓门」，被写进同一张地方议程。\n\n所以呢：争的不只是某一座机房，而是谁还有权在自家地图上写「不」。",
+      "links": [
+        {
+          "label": "yourNEWS",
+          "url": "https://yournews.com/2026/09/04/7186538/zeeland-township-approves-year-long-moratorium-on-data-centers-and-energy/"
+        },
+        {
+          "label": "SAVRN tracker",
+          "url": "https://savrn.com/data-center-moratorium-tracker/michigan"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-01",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "evri-barnsley-biped-delivery",
+      "category": "跨行业",
+      "title": "英国巴恩斯利：欧洲首台双腿快递机器人帮人送包裹上楼",
+      "body": "英国约克郡巴恩斯利的居民区门口，一台两条腿的快递机器人从货车里迈下来，怀里抱着最多十五公斤的包裹，准备爬上台阶。九月二十八日，英国包裹巨头 Evri 宣布，和日本 Refined Robotics 合作，在这里开启欧洲首个双腿自主配送机器人试点。巴恩斯利是英国首个政府背书的「科技镇」，也是 Evri 超级枢纽所在地。\n\n轮式配送机器人最怕台阶、草坪坎和货车踏板。这台双腿机专啃这些：时速最高约六公里，能爬楼梯、过不平路面，还能进出货车；可以自己跑，也可以远程有人盯着；支持当面签收，也能放到指定位置。Evri 强调快递员仍是核心，机器人是补最后几步的选项，不是替人下岗。\n\n所以呢：轮式机器人怕台阶，双腿第一次挤进真快递网——很适合讲最后一公里真正卡住的，常常是那三级楼梯。",
+      "links": [
+        {
+          "label": "Evri 官方新闻稿",
+          "url": "https://www.evri.com/press/evri-launches-europes-first-two-legged-delivery-robot"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-28",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "agibot-asd-100-lingxi",
+      "category": "跨行业",
+      "title": "爱仕达百家锅具店：一百台灵犀人形当促销员开播三天",
+      "body": "九月二十八日上午十点，温岭、上海、无锡的爱仕达锅具店里，一百台半尺寸人形机器人「灵犀 X2」同时上岗。智元和爱仕达宣布：一百台机器人进驻全国一百家门店，当「门店促销员」。三天三城直播里，它们迎宾、问家里几口人、讲锅、推荐、带路，复杂问题再转给真人导购。\n\n半尺寸身子是为了钻货架和收银台之间的窄道，企业称可在大约三十秒内按家庭规模、烹饪习惯和预算推锅具。这不是单店秀场，而是百家店同一天进真人流、接真任务、攒真运营数据——智元想用这场持续十小时班次的直播，把「零售部署态」从试点推向可复制的门店方案。锅铲货架旁站着铁同事，导购只接手真正要谈的单。\n\n所以呢：人形不再只在工厂直播拧螺丝，是站到卖煎锅的货架旁——很适合讲具身智能第一次按门店数论规模。",
+      "links": [
+        {
+          "label": "界面新闻",
+          "url": "https://www.jiemian.com/article/15147478.html"
+        },
+        {
+          "label": "中国经营报（新浪）",
+          "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initktnv8484648.shtml"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-28",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "eacon-zijinshan-tunnel-ahs",
+      "category": "跨行业",
+      "title": "紫金山铜金矿：无人矿卡钻进四百米山体隧道照样开",
+      "body": "福建上杭紫金山铜金矿的山体里，有一段连续超过四百米的运输隧道。宽大约七米，弯道半径紧到二十七米。驾驶室空着的无人矿卡钻进去时，卫星定位和网络信号一起断掉——可车还得知道自己在哪，还不能蹭到洞壁。\n\n九月二十八日前后，易控智驾披露：他们在紫金矿业这座矿验证了隧道段无人驾驶。车靠同步定位建图和激光里程计做相对定位，拿实时看到的洞壁当地图；直道大约十二到十五公里每小时，窄出口大约六公里，和企业称的有人车同条件速度相当甚至更快。露天无人矿卡会开只是及格，会进洞才算整圈闭环。\n\n所以呢：卫星信号一断就趴窝的无人矿卡，还没真正跑完一趟货——很适合讲矿山自动化卡在「看不见天」的那几百米。",
+      "links": [
+        {
+          "label": "International Mining",
+          "url": "https://im-mining.com/2026/09/28/eacon-validates-ahs-in-extended-tunnel-sections-at-zijinshan-mine/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-28",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "galbot-shanghai-laobaixing",
+      "category": "跨行业",
+      "title": "上海徐汇老百姓大药房：机器人九十秒拣完药放进取货柜",
+      "body": "上海徐汇虹漕路的老百姓大药房里，货架上密密排着盒装药、铝箔泡罩和玻璃瓶糖浆。线上单进来，银河通用的 Galbot G1 认位置、伸手抓、用眼睛核一遍，再塞进智能取货柜。骑手到店输手机尾号，柜门开，走人。九月二十八日，新京报报道这家店已常态化跑起来。\n\n企业称从接单到出货平均约九十秒，机器人单均作业约六十八秒，日均四百到五百单，拣货准确率百分之百——这些是厂家数，还得继续看。难处在包装：反光塑封、易破泡罩、异形器械，力度和抓点都不一样。机器人扛重复拣选和核对，药师把时间腾给药事咨询；北京海王星辰也有同类应用，企业称二十四小时值守后人手投入减少一半以上。\n\n所以呢：药店自动化不是转瓶子炫技，是把骑手干等的一分半交给铁臂——很适合讲即时零售里「药柜最后一米」。",
+      "links": [
+        {
+          "label": "新京报（新浪）",
+          "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initkxuz3526255.shtml"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-28",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "haikou-meilan-meituan-wasp",
+      "category": "跨行业",
+      "title": "海口美兰机场：小黄蜂机器人十分钟把肯德基送到登机口",
+      "body": "海口美兰国际机场二号航站楼出发大厅里，旅客不用再拖着行李折返找吃的。手机点开美团机场频道或扫个码，肯德基、星巴克、罗森、冰哥豌豆面，可以由美团「小黄蜂」配送机器人直接送到登机口。民航资源网九月二十四日前后报道：美兰联合美团上线这项服务，号称海南自贸港首家这样干的机场。\n\n现场测试说最快约十分钟到闸口。机器人带着多传感器，厘米级定位，会规划路径、躲人、主动让行——机场人多、安检严，乱撞一次就全完。首月还砸出约两百万元餐饮券，满三十八减十八、满六十减三十二，先把旅客养成「坐着等餐」的习惯。\n\n所以呢：登机口前那趟来回找吃的，第一次可以交给小黄车——很适合讲机场最后一百米怎么变成服务。",
+      "links": [
+        {
+          "label": "民航资源网（Flylight转）",
+          "url": "https://www.shflylight.com/news/food-deliveries-can-reach-the-boarding-gate-in-85652035.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "kunshan-xinghaitu-hospital",
+      "category": "跨行业",
+      "title": "昆山市一院：五台机器人替人运术后污染器械",
+      "body": "昆山市第一人民医院手术室门口，术后刚卸下的污染器械不再总是由人推进去。昆数星启联合星海图、鹿明，把五台机器人塞进真实院感流程：星海图 R1 Pro 轮式双臂负责精细对接，鹿明 MOS 重载轮臂扛分量，自动乘电梯、跨楼层，把脏器械从手术室送到处理区。每日经济九月二十九日报道。\n\n企业称转运时效压在一小时内；八月底到九月底已累计完成七十九次任务。接下来一个月还要扩到污染包布和医废，覆盖约二十间手术室、日均约一百三十台手术。病房巡查也能干，单次连续跑六小时以上。医院机器人常被写成送药萌宠，这里干的是高风险脏活。\n\n所以呢：不是走廊里晃悠的吉祥物，是替护士进污染区——很适合讲院感防控里那只真正肯脏手的铁手臂。",
+      "links": [
+        {
+          "label": "每日经济",
+          "url": "https://cn.dailyeconomic.com/2026/09/29/157445.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "shanghai-xuhui-meituan-drone",
+      "category": "跨行业",
+      "title": "徐汇西岸：全国首条滨水低空配送航网全面商用",
+      "body": "上海徐汇滨江，骑完车、滑完板、搭完帐篷，想买口吃的，过去得绕出好远。九月二十一日，美团在上海的第一张低空航网——西岸低空航网——全面进入商用，劳动报称这是全国首条滨水低空配送航网。西岸梦中心、滨江公园、模速空间、麦当劳龙腾大道店前广场连成点位。\n\n下单后，驻地骑手把餐送到最近的智能接驳机场，机械臂装卸，四代无人机取袋沿规划航线飞，最快约十分钟。试运营周末单日订单已超过一百单；近二十家连锁接入，年内目标四十多家。滨江纵深大、地面常绕行，无人机直接抄近路，有的点位已超出骑手最远配送圈。\n\n所以呢：滨江露营垫旁的外卖，第一次合法从天上掉下来——很适合讲低空经济什么时候才算摸得到。",
+      "links": [
+        {
+          "label": "劳动报",
+          "url": "https://www.51ldb.com/shsldb/cj/content/01a0c39f32fcc001000066d533acd97d.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "urumqi-dabancheng-postal-neolix",
+      "category": "跨行业",
+      "title": "乌鲁木齐达坂城：邮政首辆无人车两小时半干完三人上午活",
+      "body": "九月二十四日，乌鲁木齐达坂城邮政支局门口，一辆四米长、一点五吨载重的九识无人快递车装上快件开走。它不是小区里那种小白车，而是大中型城配货厢：十立方米容积，十一颗摄像头，直线约五十厘米障碍会停。乌鲁木齐融媒体报道，这是该市邮政首辆上路的快递无人车。\n\n两条线：一条往返新疆能源技术学院驿站，约四公里十五分钟；一条串东沟、阿克苏、西沟三个乡的邮政所，单趟约五十八点七公里、约五十分钟。时速最高四十公里，充一次电能跑约两天。支局负责人说，两个半小时能干完三名快递员一上午的活——乡与乡距离远，固定线路最吃人力。\n\n所以呢：不是秀无人概念，是把三个乡的邮路交给货厢自己跑——很适合讲城乡快递真正费人的，是那条固定长线。",
+      "links": [
+        {
+          "label": "乌鲁木齐融媒体（凤凰）",
+          "url": "https://feng.ifeng.com/c/8wn7aPjleyl"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "kawasaki-forro-mass-prod",
+      "category": "跨行业",
+      "title": "川崎重工量产医院送药机器人：横滨两台一年替人跑两千七百小时",
+      "body": "日本医院夜班里，护士抱着采血管冲向地下检验科的画面太常见。川崎重工九月开始量产室内配送机器人 FORRO——带锁的货舱、会自己乘电梯、能跨楼栋跑长距离。日经报道，横滨市立港红十字医院两台跑了大约一年，一年替人扛下约两千七百小时配送，差不多等于一名全职员工干一整年。\n\n货舱约一百四十升、最多三十公斤，IC 卡才能开锁，血液和药不会在半路被随手摸。它走 LTE 和机载传感器，不用专门铺 Wi-Fi、不用在天花板贴标记；电梯可以和人挤同一台。二〇二六年已扩到神户大学病院、西神户医疗中心、中京病院、浅之川、千叶北总等多家——量产意味着报价和交期开始像产品，不像定制项目。\n\n所以呢：饭店送餐机器人没有锁、不会爬楼，进不了医院——很适合讲护士夜班最耗腿的那趟送检，为啥必须用专用机。",
+      "links": [
+        {
+          "label": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/business/health-care/kawasaki-heavy-s-hospital-robots-save-2-700-hours-of-work-in-japan"
+        },
+        {
+          "label": "日经まとめ详报",
+          "url": "https://nikkeimatome.com/?p=80497"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-28",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "xsquare-quanta-lululemon-wuhan",
+      "category": "跨行业",
+      "title": "lululemon武汉仓：轮式双臂人形上分拣线抓异形包裹",
+      "body": "lululemon 九月十六日新开的武汉物流中心里，RFID 一秒建档、AGV 满场跑的同时，又多了一个新同事：深圳具身智能创业公司 X Square 的轮式双臂人形 QUANTA X1 Pro。九月二十日前后披露，它站上真分拣线，专啃固定传送带不好咬的不规则包裹。\n\n武汉是品牌中国第三仓，年底打算撑起十八个省大约八十五家店的主仓角色。固定自动化吃标准件，人形吃长尾——企业早前内部试验报过一千八百一十六件、成功率逾百分之九十八，现场台数和干预率还没公开。同一座仓里，建档靠射频标签，抓怪形状靠双手，两条线并着跑，很像零售物流正在成型的分工：钢轨道负责通量，灵活手臂负责例外。\n\n所以呢：RFID 管「知道货在哪」，人形管「怪包裹谁来拿」——很适合讲一座现代仓为什么还需要一双会应变的手。",
+      "links": [
+        {
+          "label": "RobotToday",
+          "url": "https://robottoday.com/industry-briefing/x-square-s-quanta-x1-pro-begins-operations-at-lululemon-s-wuhan-distribution-center/13748"
+        },
+        {
+          "label": "The Robotics Media",
+          "url": "https://theroboticsmedia.com/article/x-square-quanta-x1-pro-lululemon-wuhan-warehouse-september-2026"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "qcraft-shahe-robovan",
+      "category": "跨行业",
+      "title": "广州沙河服装城：无人物流车挤进最乱的批发巷",
+      "body": "凌晨四点的广州天河沙河服装批发市场，喇叭、刹车、装卸工吆喝搅成一团。近三十栋批发楼靠数千辆改装电动板车倒货，旺季堵死、噪音扰民。七月起，轻舟智航的 L4 级 Robovan 车队在这里试运行；九月二十二日行业媒体跟进：这是它「运力即服务」模式下华南首个规模化落地，立项到验收大约一周。\n\n场景比园区难数倍：没车道线、人车混行、多家物业收费闸机、老巷道信号差，货包从几斤到几百斤。车规级正向开发，把乘用车量产里攒下的数据复用到载货 L4，靠无图方案硬啃；目前已打通装货点过闸再到卸货点。芜湖、金华也有落地，沙河是最刺的那根刺。\n\n所以呢：封闭园区会开不算数，收费闸机和板车巷才算——很适合讲物理 AI 敢不敢进中国最乱的批发街之一。",
+      "links": [
+        {
+          "label": "第一电动",
+          "url": "https://www.d1ev.com/news/shichang/313023"
+        },
+        {
+          "label": "中国商用汽车网",
+          "url": "http://cv.ce.cn/news/202609/t20260922_3229585.shtml"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-22",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "liugong-conch-dw105ae",
+      "category": "跨行业",
+      "title": "海螺华南矿山：柳工纯电无人宽体车批量进场",
+      "body": "九月十四日，海螺水泥华南地区某矿山坑口，一批柳工 DW105AE 纯电动无人驾驶宽体车批量进驻。驾驶室空着，云控平台派活，车自己完成铲装、运输、卸料和避障。柳工官方和路面机械行业媒体报道，这是双方从燃油设备、油改电，走到「纯电加无人」的又一步，服务海螺的「全电矿山」目标。\n\n宽体车用线控底盘，方便挂无人系统；精准感知、定位、协同作业是厂家列的卖点。具体台数和矿名没有公开，但画面清楚：水泥厂自己的原料矿，也开始按无人编队运石头。建材矿山节奏稳、线路重复，往往比金属露天矿更早算得过账。\n\n所以呢：不是又一个演示矿坑，是水泥巨头把自己的山交给空驾驶室——很适合讲建材矿如何从油改电跨到无人班组。",
+      "links": [
+        {
+          "label": "中国路面机械网",
+          "url": "https://news.lmjx.net/2026/202609/2026091615283626.shtml"
+        },
+        {
+          "label": "行业转载",
+          "url": "https://iicnet.cn/article/9999"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-14",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
+    {
+      "id": "kargobot-qipanjing-100",
+      "category": "跨行业",
+      "title": "鄂尔多斯棋盘井：卡尔动力近百台无人重卡开规模化运输网",
+      "body": "内蒙古鄂尔多斯棋盘井的干线上，接近一百台卡尔动力的 L4 自动驾驶卡车在跑大宗货。九月二十二日，公司在这里启动「规模化 AI 运输网络」。每日经济新闻现场报道：模式是混合智能编队——有人车带着无人车，一人盯多车，人力成本往下砍；企业称较传统人工毛利大约高百分之十到十八，折旧、维修、保险都算进去了。\n\n五年前第一条编队线路落地，如今命题变了：不是车会不会开，而是售后、调度、跨省复制能不能跟上。业务已伸到陕西、山西、甘肃、新疆；后台 KargoCloud 按淡旺季预测运力再派车。北方能源带的高速、国道、矿区路，被他们当成可复制样板，下一步还想摸快递快运。\n\n所以呢：无人重卡下一关是百台网上的真账——很适合讲干线货运从「会开」走到「算得过」。",
+      "links": [
+        {
+          "label": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-09-23/4590277.html"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-22",
+      "added": "2026-09-29T18:30:00+08:00"
+    },
     {
       "id": "prompt-seedance-seaside-melonpan-dv",
       "category": "提示词",
