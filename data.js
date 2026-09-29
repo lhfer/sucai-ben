@@ -1,6 +1,597 @@
 window.INTEL_DATA = {
-  "updated": "2026-09-29T10:30:00+08:00",
+  "updated": "2026-09-29T14:20:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-seaside-melonpan-dv",
+      "category": "提示词",
+      "title": "海边下午买个蜜瓜包再跟猫说再见",
+      "body": "她从老房子推开拉门，相机晃了一下，像谁随手拿起家里那台旧 DV。\n\n有人给 Seedance 2.5 写了一整段「日本海边老街区下午」提示词：浅蓝上衣、奶油裙、白球鞋，先去街角面包店买刚出炉的蜜瓜包，再蹲下来摸路边流浪猫，最后坐在海边长椅上咬一口面包，朝镜头挥手说再见。狠活在后半段——硬要早期两千年代家用摄像机的脏感：手持抖动、自动对焦乱跑、曝光忽明忽暗，还明确禁止配乐和商业调色。连小风车玩具、海风吹发、店员道谢都被写进时间轴，逼模型别把日常拍成旅拍广告。于是画面不像宣传片，更像亲戚硬盘里翻出来的家庭录像。\n\n面包店门铃和海浪声也被点名，现场感才立得住。\n\n你会跟朋友说：想拍日常，别先追求电影感，先把相机弄得像会出错的旧机器。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Itswsm105f/status/2104801171886281026"
+        }
+      ],
+      "prompt": "Create a 30-second ultra-realistic personal home-video of a young Japanese woman spending a peaceful, slightly playful afternoon in an older Japanese seaside neighborhood. Use the attached image as the character reference and keep her face, hairstyle, body proportions, and overall appearance consistent throughout the entire video.\n\nShe has long dark hair tied loosely with a simple ribbon and wears a light blue fitted summer top, a cream-colored knee-length skirt, simple white sneakers, and a small shoulder bag.\n\nShe steps out of a small traditional Japanese house, gently closes the sliding door behind her, smiles at the camera and starts walking through a quiet residential street. She passes old wooden houses, small gardens, bicycles, utility poles, vending machines, and narrow streets with soft afternoon sunlight.\n\nShe stops at a small local bakery, looks through the window, then enters and buys a freshly baked melon pan. She thanks the shopkeeper, places the bread inside a small paper bag, and walks back outside.\n\nA few moments later, she reaches a quiet seaside walkway and notices a small stray cat sitting beside a low wall. She crouches down, smiles warmly, gently pets the cat, and watches it walk away. She laughs softly and continues toward the beach.\n\nNear the water, she finds a small colorful windmill toy stuck beside a bench. She picks it up, spins it with her fingers, smiles as the wind catches it, then places it carefully back on the bench.\n\nShe sits down for a moment, opens the paper bag, takes a bite of the melon pan, looks toward the ocean, and smiles naturally. A gentle sea breeze moves her hair and clothes.\n\nNear the end, she stands up and walks slowly along the seaside path while eating the bread. She suddenly turns toward the camera, gives a small playful wave and says, “Bye bye!” before turning around and walking away.\n\nUse raw early-2000s consumer DV-camera footage: handheld shake, imperfect framing, autofocus hunting, exposure shifts, soft digital detail, mild digital noise, natural motion blur, occasional awkward zooms, slight overexposure in bright areas, realistic skin texture, authentic facial expressions, and imperfect home-video camera movement.\n\nNatural Japanese neighborhood ambience only — footsteps, bicycle sounds, distant train noise, ocean waves, sea breeze, birds, occasional cars, shop sounds, soft street conversations, and natural environmental sounds.\n\nNo music, no narration, no subtitles, no text overlays, no beauty filter, no polished commercial cinematography, no cinematic color grading, no CGI look, no artificial slow motion.\n\nThe entire video should feel like a genuine personal family video recorded on a consumer MiniDV/DV camera in Japan in the early 2000s.",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-airport-magic-pen",
+      "category": "提示词",
+      "title": "机场一镜：马克笔一点，行李箱变二次元",
+      "body": "镜头跟着一只拿马克笔的手走进韩国机场，人还在现实里，行李已经长出了漫画描边。\n\n作者把 Seedance 2.5 提示词拆成「真人机场加平面二次元贴纸」：每点一次目标就喊一声，蓝线缠上去，行李箱、行李车、航班屏、窗外飞机依次变成保留真实体积和运动轨迹的扁平动画角色；最后一笔把玻璃顶外的天空涂成手绘云，还留下结束涂鸦。规矩写得很死——全程一镜、手机后置手持、变形物体不许被真实灯光重新打亮，所以观众一眼看出贴纸贴在真实机场上。它好玩的地方不是全屏变身，而是现实一半、贴纸一半，两种材质一直互相打架。完整提示词就在原帖回复里，可直接复制。\n\n马克笔手部特写贯穿全片，变身规则才看得懂。\n\n你会跟朋友说：别做全屏变身特效了，让一半世界继续是现实，另一半只当贴纸贴上去。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Strength04_X/status/2104794578952011784"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/Strength04_X/status/2104794817477972434"
+        }
+      ],
+      "prompt": "Magic Pen Airport Vlog · 20 Seconds · Vertical 9:16\n\n[STYLE]\nLive-action + flat 2D anime sticker compositing, first-person airport magic vlog. 8K photorealistic detail with the authentic look of a real smartphone rear-camera recording. Strong visual contrast between the photorealistic airport and flat cartoon objects. One continuous handheld smartphone shot. No cuts. No scene transitions.\n\n[CAMERA]\nRaw, unstabilized handheld smartphone footage throughout: natural walking shake, subtle arm movement, occasional autofocus hunting, realistic exposure shifts between bright terminal lighting and window sunlight, and slight rolling-shutter jelly during fast pans. Natural smartphone HDR colors with soft realistic tones. The camera quickly whip-pans to follow the marker and each target.\n\n[LIGHTING]\nBright natural daylight enters through large airport windows, mixed with soft indoor lighting. Every real object and animated character maintains soft contact shadows matching the environment.\n\n[SETTING]\nOne continuous walk through a modern Korean airport terminal. Large glass windows, check-in counters, luggage carts, digital displays, passengers, and polished floors create a premium realistic environment. Background travelers move naturally.\n\n[PEN — MAGIC RULES]\nThe vlogger's real hand, with photorealistic skin and visible pores, holds a black marker and remains visible throughout the entire video.\n\nEvery transformation follows the exact same sequence:\n\nMarker points → Vlogger says “Biu!” → blue hand-drawn sketch lines wrap around the target → ink spreads → the target transforms into a lively flat 2D cel-shaded anime character with bold cartoon outlines.\n\nThe transformed target preserves its exact size, position, speed, direction, and perspective, remaining perfectly anchored in the real airport environment. Characters retain flat sticker-style shading and are never relit by the real-world lighting.\n\n[00:00–00:04]\n\nFirst-person view walking through the airport terminal. The vlogger raises the marker and points toward a large rolling suitcase beside a traveler.\n\n“Biu!”\n\nBlue sketch lines wrap around the suitcase. It transforms into a lively flat 2D anime suitcase while keeping its exact size and position.\n\nIt rolls forward a few steps.\n\nSFX: Airport ambience + rolling wheels + marker whoosh.\n\n[00:04–00:08]\n\nThe marker quickly swings toward an airport luggage cart moving through the terminal.\n\n“Biu!”\n\nThe cart transforms into a flat 2D anime luggage cart while maintaining its exact size, speed, direction, and perspective.\n\nIts wheels spin rapidly as it continues moving.\n\nSFX: Wheel movement + metallic rolling sound.\n\n[00:08–00:12]\n\nThe marker follows toward a large digital departure display.\n\n“Biu!”\n\nThe display transforms into a flat 2D anime screen. Its visual elements become animated hand-drawn symbols that move across the screen.\n\nSFX: Electronic beeps + sketching sound.\n\n[00:12–00:16]\n\nThe marker swings toward an airplane visible through the terminal window.\n\n“Biu!”\n\nBlue sketch lines wrap around the airplane. It transforms into a giant flat 2D anime airplane while preserving its exact size, position, direction, and perspective.\n\nIt slowly moves across the distant runway.\n\nSFX: Distant aircraft engine + magical ink transition.\n\n[00:16–00:20]\n\nThe vlogger stops and gives one final louder:\n\n“Biu—!”\n\nThe marker spins upward toward the airport glass ceiling. A blue ink spiral spreads across the glass, transforming the visible sky outside into a hand-drawn anime sky while the airport terminal remains completely photorealistic.\n\nA small handwritten “THE END!” doodle appears among the illustrated clouds.\n\nFreeze frame.\n\nSFX: Sharp throwing whoosh + spreading watercolor bloom + felt-tip squeak writing “THE END!”",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-rain-station-creature",
+      "category": "提示词",
+      "title": "雨夜小站：红雨靴男孩分面包给绿帽小怪",
+      "body": "雨砸在空荡荡的铁轨上，黄雨衣男孩站在乡下小站棚下，红雨靴边的水坑映着一盏暖灯。\n\n有人用 Seedance 2.5 写了一段十五秒奇幻日常：镜头从湿漉漉的多轨铁路拉到男孩，再钻到木长椅底下——一只有尖帽子的绿色小生物探出头。男孩先是一愣，再微笑，掏出布袋里的面包掰给它；远处车灯亮起，他上车前回头看一眼。提示词把每个镜头写成建立、特写、关系、离站的分镜链，雨、灯、车头光的冷暖对比都锁死了。没有大战，没有旁白，只有一块面包把人和怪物连在一起。这种片子适合当短视频开场，也适合讲「最小奇幻」。\n\n列车到站的暖光和雨夜冷调对打，情绪一下就抬起来。\n\n你会跟朋友说：奇幻不一定要开打，一个雨夜小站、一块面包，就够人记住一个画面。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Elvorya/status/2104799320558256490"
+        }
+      ],
+      "prompt": "Create a 15-second cinematic fantasy slice-of-life sequence following a young boy waiting alone at a quiet rural railway station on a rainy evening. Begin with a wide establishing shot across multiple wet railway tracks, slowly revealing a small countryside station surrounded by endless green fields, distant mountains, utility poles, and a dark cloudy sky → reveal the young boy standing beneath the station shelter, wearing a bright yellow raincoat, white shorts, and vivid red rain boots, quietly waiting for his train as heavy rain falls around him → transition to a low-angle cinematic close-up of his red rain boots standing beside a shallow rain puddle, with the warm reflection of a small station lantern shimmering across the wet ground → cut to a side profile shot of the boy sitting alone on a wooden railway bench, looking quietly toward the empty tracks while rain falls in the background → transition to a mysterious close-up beneath the wooden bench as a tiny strange green creature wearing an oversized pointed green hat slowly peeks out from the shadows, watching the boy with large curious eyes → cut to a cinematic close-up of the boy's face as he notices the mysterious creature, his expression changing naturally from surprise to gentle curiosity and a warm smile → transition to a detailed close-up of the boy opening a small cloth lunch bag and taking out a piece of bread while sitting on the bench → cut to the tiny green creature watching the food from beneath the bench, cautiously moving closer with innocent curiosity → transition to a medium shot as the boy gently places a piece of bread on the bench for the little creature, creating a quiet emotional connection between them → cut to a wide cinematic shot of the empty railway tracks stretching into the rainy countryside as a distant train headlight slowly appears on the horizon → transition into a dramatic forward tracking shot along the wet railway tracks, the approaching train becoming brighter as rain continues falling and its warm headlights reflect across the rails → cut back to the station as the train arrives and stops beside the platform, its warm interior lights glowing against the cold blue rainy atmosphere → final shot becomes a cinematic medium-wide shot of the young boy stepping into the warmly illuminated train while briefly looking back toward the tiny green creature near the bench, as rain continues falling outside and the train prepares to leave the quiet countryside station",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-korea-first-date-dv",
+      "category": "提示词",
+      "title": "两千年代初恋约会：家用机拍的韩国晚饭",
+      "body": "她走进一家旧式韩餐店，桌上已经坐着等她的男生，画面有点晃，像朋友帮忙拍的。\n\n这段 Seedance 2.5 提示词把韩国初约会钉在早期两千年代：同一张脸、同一套衣服贯穿三十秒，从街上到入座、点菜、说笑、上菜、一起离开，全程家用摄像机质感——自动对焦乱跳、轻微噪点、偶尔笨拙变焦。最重要的禁令写在最后：不许出现智能手机、现代内饰、无线耳机，连车和发型都要像那个年代。于是它不是网红探店，更像谁家里翻出来的第一次约会录像。时间轴还把点菜、上菜、离店拆开，避免模型把五分钟剧情糊成同一张桌子。\n\n菜单、菜色和街景都要像那个年代，现代装修就塞不进来。\n\n你会跟朋友说：想拍记忆感，先把现代电子产品从画面里全部赶走。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/saniaspeaks_/status/2104793575900770357"
+        }
+      ],
+      "prompt": "Create a 30-second ultra-realistic Korean first-date vlog set in South Korea in the early 2000s, filmed on an authentic consumer DV camcorder. Keep the SAME young Korean woman visually consistent throughout: identical face, hair, body proportions, outfit and accessories.\n\n0–5s — ARRIVING: She walks through an authentic early-2000s Korean street and arrives at a cozy Korean restaurant. Inside, the same young Korean man is already waiting at a table.\n\n5–9s — MEETING: She enters, notices him, smiles naturally and walks over. They greet each other casually, then sit together at the table.\n\n9–13s — ORDERING: A waitress approaches with a notepad and takes their order. They briefly look at the menu and order naturally.\n\n13–19s — TALKING: While waiting for the food, they casually talk and laugh, making natural eye contact and small gestures. The DV camera captures candid moments from a friend’s handheld perspective.\n\n19–24s — FOOD + EATING: Their Korean food arrives. They react naturally, begin eating and continue chatting casually.\n\n24–30s — LEAVING: After finishing, they stand up, leave the restaurant together and walk down the Korean street, continuing their conversation as the camera follows them.\n\nEverything must authentically belong to the early 2000s: Korean fashion, hairstyles, restaurant interior, menu, dishes, furniture, streets, cars and technology. No smartphones, modern interiors, modern cars, laptops, AirPods, influencer styling or modern lighting.\n\nUse raw early-2000s DV footage with subtle handheld shake, imperfect framing, autofocus hunting, exposure shifts, soft digital detail, mild CCD/DV noise, natural motion blur and occasional awkward zooms. Keep expressions, movement and interactions spontaneous and realistic. No identity drift, outfit changes, duplicated people, warped hands, disappearing objects or teleporting between locations.",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-seoul-bubble-street",
+      "category": "提示词",
+      "title": "首尔街角泡沫机：她跳起来戳破一颗",
+      "body": "酒红色宽松卫衣、帆布包，她走在首尔老街区，路边摊忽然吹出一大片肥皂泡。\n\n作者给 Seedance 2.5 写了四十五秒家庭录像时间表：先跟拍走路，再发现泡泡、看摊主、伸手指、笑着连戳几颗，最后小跳一下戳破头顶那颗，朝镜头挥挥手走开。提示词反复强调——要真的开心，不要演戏；要家用摄像机的褪色和抖动，不要电影级稳定器。泡泡的物理、发丝和衣服的摆动也被单独写进运动要求，避免卡顿和停格感。它像在教模型：日常片的高潮可以只是跳起来戳破一颗泡，而且必须像偶然拍到的。\n\n摊主和小孩笑声写进环境音，泡泡才不像无声特效。这一点很关键。 真的能直接拿去跑。\n\n你会跟朋友说：最好的日常片，往往是刚好路过，而不是精心摆拍。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/iamahmedfaraz66/status/2104782369072754937"
+        }
+      ],
+      "prompt": "**Subject:** Young Korean woman, 24, naturally attractive, realistic skin, minimal makeup, long dark hair loosely down. Oversized maroon hoodie, loose casual pants, simple canvas shoulder bag. Preserve exact identity, facial features, hairstyle and body proportions throughout.\n\n**Setting:** Lively but cozy older Seoul neighborhood street on a pleasant late morning. Low-rise buildings, small shops, bicycles, trees and pedestrians. A small street vendor operates a portable bubble machine producing large floating soap bubbles.\n\n**Look:** Ultra-realistic early-2000s Sony MiniDV home video filmed by another person. Candid, unstaged handheld footage with subtle camera shake, imperfect framing, gentle reframing, occasional autofocus hunting, mild exposure shifts, faded colors, soft contrast, authentic DV compression and subtle digital noise. Happy natural daylight, soft shadows and slightly warm muted colors. No cinematic stabilization.\n\n**00:00–00:07:** She casually walks down the sidewalk, bag over one shoulder. Camera follows naturally from behind and slightly to the side.\n\n**00:07–00:12:** Large bubbles suddenly drift across her path. She notices them, slows down and looks toward their source with genuine curiosity.\n\n**00:12–00:17:** She sees the bubble vendor and stops to watch. Dozens of bubbles float around her. Her face lights up with a natural smile.\n\n**00:17–00:23:** A large bubble approaches. She reaches out with one finger, but it pops just before she touches it. She laughs and tries another.\n\n**00:23–00:29:** More bubbles surround her. She playfully pops several with her fingertips, moving naturally between them.\n\n**00:29–00:34:** A large bubble floats above her. She makes a small playful jump and successfully pops it, landing naturally and laughing.\n\n**00:34–00:39:** She notices children nearby enjoying the bubbles and steps aside, watching them with a warm smile.\n\n**00:39–00:45:** She smiles toward the vendor, then notices the camcorder and gives a tiny playful wave before walking away. A final bubble floats beside her; she reaches back and pops it without stopping.\n\n**Audio:** Natural street ambience, footsteps, distant traffic, bicycle sounds, children laughing, faint bubble-machine noise and her natural laughter. No music or added effects.\n\n**Motion:** Smooth continuous real-time motion. Realistic bubbles drifting with the breeze, natural hair/clothing movement and physically believable small jump. No stuttering, judder, frame skipping, duplicated frames, stop-motion, excessive motion blur or low-frame-rate look.\n\n**Camera:** Casual family-camcorder behavior. Slightly imperfect framing, natural following, occasional autofocus between her and bubbles, subtle exposure adjustment when moving between backgrounds.\n\n**Important:** Genuine spontaneous happiness, not exaggerated acting. It should feel like a happy ordinary moment accidentally captured on an old family MiniDV camera.\n\n**Output:** 45 seconds, 16:9, 1280×720 (720p).",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-highway-apocalypse-bike",
+      "category": "提示词",
+      "title": "末世公路：摩托飞跃后再火海起身",
+      "body": "灰色天空下，装甲摩托冲过燃烧的公路，远处黑色外星战舰正在开炮。\n\n有人把 Seedance 2.5 提示词拆成十七个精确到秒的镜头：英雄脸特写、炮口光束、火球里的小身影、皮衣女枪手举枪、断桥飞跃慢动作、落地滑跪、火墙前起身定格。卷发肌肉女、橄榄绿背心和摩托外形被反复锁死，负向提示词专门防多出来的轮子和脸变形。它像在给模型下分镜表，而不是丢一句拍个酷炫末世。看完你会明白：长提示词真正有用的部分，是每一秒相机在哪、人在干什么，而不是堆多少酷炫形容词。\n\n火墙前起身那一帧很像预告片海报，方便截图二次使用。这一点很关键。 真的能直接拿去跑。\n\n你会跟朋友说：动作片提示词的胜负手，是把每一刀都写成可执行镜头。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/itsSaira_1/status/2104789066562547945"
+        }
+      ],
+      "prompt": "CINEMATIC SHORT FILM, 46 sec, 16:9, photorealistic Hollywood sci-fi action, dystopian highway apocalypse. Cold steel-grey sky, burning orange explosions, volumetric god rays, anamorphic lens, film grain. HERO: muscular woman, curly dark hair, olive tank top, black jeans and boots, fierce expression. BIKE: matte-black futuristic armored motorcycle, twin fat front wheels, white glowing headlights, mounted cannon.\n\n1 (0-2s): Low-angle front tracking, hero races toward camera on a wrecked highway, burning car and black smoke behind.\n2 (2-4s): Side-front tracking, bike leans through a curve under an overpass, headlights flaring.\n3 (5-6s): Extreme close-up of the bike's armored cannon and engine, her hand on the handlebar, motion blur.\n4 (7-9s): Tight close-up of her face low over the bike, intense eyes, wind-blown curls, shallow depth of field.\n5 (10-11s): Wide low-angle, giant black alien warship over the highway fires an orange beam, ground explosion.\n6 (12-14s): Huge fireball erupts, hero's tiny silhouette speeds away, yellow car blurs past.\n7 (15-16s): Side close-up, hero crouched on the bike, engulfed in orange fire and smoke.\n8 (17-18s): Ground-level shot of rusted abandoned cars, open doors, a boot flies through the frame.\n9 (19-21s): Blonde woman in black leather jacket aims a heavy sci-fi rifle at camera, burning wreckage behind.\n10 (22-23s): Frontal tracking, hero bursts out from under a dark overpass, smoke columns behind.\n11 (24-26s): Driver POV down the highway, collapsed overpass and debris ahead, lone black car in the lane.\n12 (27-28s): Wide side shot, bike launches off a broken concrete slab, front wheel high.\n13 (29-33s): Slow-motion low-angle, hero and bike airborne against dramatic clouds and god rays, red taillight glowing.\n14 (34-36s): Close-up, rear wheel hits a broken slab and explodes in a fireball, sparks and debris, slow motion.\n15 (37-38s): Wide ground-level, debris-covered highway, overturned burning car, tiny hero falling through the sky.\n16 (39-42s): Hero lands and skids into a low crouch, one knee and hand down, fire behind her.\n17 (43-46s): Medium close-up, she rises, fierce eyes, wall of orange fire exploding behind her, freeze on hero pose.\n\nMOTION: fast tracking, whip pans, slow-motion airborne beat, handheld shake on explosions, realistic physics, consistent character and bike design.\n\nNEGATIVE PROMPT: cartoon, anime, CGI look, plastic skin, deformed face, bad hands, extra limbs, extra wheels, changing bike design, inconsistent character, blurry, low resolution, flicker, morphing, warped anatomy, text, subtitles, watermark, logo, oversaturated, duplicate characters, unnatural motion",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-elf-armor-lightning",
+      "category": "提示词",
+      "title": "浮岛精灵醒来：贴身镜头穿上雷电铠甲",
+      "body": "赤脚踩上湿草地，银白长发精灵睁开眼，云海之上的浮岛还在起雾。\n\n这是一条中文 Seedance 2.5 提示词，规矩很凶：镜头全程贴着角色，只许局部特写和半身，绝不拉成大全景；风景只能从虚化背景和瞳孔倒影里漏出来。她按固定顺序戴上颈饰、肩甲、臂环和角兽面具，再从指尖电弧升级到冲天雷柱，日语台词和口型也写进时间轴。彩虹镜头光晕被要求全片持续出现，所以画面一直带着一点梦幻漏光。穿装备的顺序写死了，模型就不容易把铠甲凭空变出来。对喜欢奇幻开场的人，这是一份很完整的中文分镜稿。\n\n日语台词跟口型写在时间轴上，配音不会和画面各说各的。\n\n你会跟朋友说：奇幻开场别先秀世界，先让观众贴在角色皮肤上，世界自己从背景渗出来。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Cia0_exe/status/2104805579202154746"
+        }
+      ],
+      "prompt": "【整体设定】\n电影级超写实3D动画短片，总时长30秒，2.39:1宽银幕，电影调色（青蓝阴影+金色高光），浅景深，轻微胶片颗粒，24fps，高帧率慢动作与正常速度自然混合。动作自然、放松、从容，不夸张、不僵硬。\n角色：@Image1 中的银白色长发精灵少女，面部、雀斑、灰绿色眼睛、身形全程一致；起始服装为米白色抹胸上衣与短裤。\n装备：@Image3 中的全套装备——淡青蓝色带金色裂纹与金属铆钉的角兽面具头饰、卷曲羊角、深色羽饰、金色螺旋耳饰、金色环形颈饰、金色抹胸铠、红黑相间披肩肩甲（金色尖刺与铜球）、金色臂环与黄铜机关装置。穿戴完成后造型必须与@Image3 完全一致。\n场景：@Image2 中云海之上的空中浮岛，绿色梯田、古石塔、石拱桥、蓝天与阳光。\n镜头总原则：镜头全程贴近角色，只在\"局部特写／半身／面部特写／手部微距\"之间切换，绝不拉远，不出现远景或大全景。风景只通过背景虚化、瞳孔倒影、越肩视角呈现。全片持续出现真实的彩虹镜头光晕（rainbow lens flare）与柔和光斑，随光源移动而变化。\n\n【0-3秒｜苏醒】\n超低机位贴地：@Image1 赤脚特写，脚趾轻触湿润草地，草叶弯曲，露珠滑落。镜头缓慢上摇（tilt up）经小腿、膝盖升至半身。她缓缓睁眼，睫毛轻颤，长发被高空风吹起。逆光，彩虹光晕从镜头一角滑入。\n配音（日语，轻声带呼吸）：「……ここは……」\n\n【3-6秒｜发现装备】\n头部右后方贴近越肩镜头（close over-the-shoulder）：@Image1 转头，看见身旁草地上整齐摆放的@Image3 全套装备，金属在阳光下反光。切到面部侧面近景，眼神由茫然变为好奇，指尖轻抚肩甲上的金色铆钉。\n配音（日语，低声）：「私の……ための……？」\n\n【6-13秒｜穿戴装备】\n紧凑的近景与微距镜头，动作悠闲、有质感，顺序固定，不得混乱：\n1. 手部微距：拿起金色环形颈饰扣上，\"咔\"一声轻响，镜头由下颌摇至锁骨。\n2. 左侧45度近景：披上红黑披肩肩甲，布料与金色尖刺随动作摆动，她缓缓耸肩调整。\n3. 低角度手臂特写（腰至肩）：右臂套上金色臂环，黄铜机关装置转动咬合。\n4. 头顶斜上方俯拍近景：双手举起角兽面具头饰缓缓戴上，遮住上半脸，羊角与羽饰展开，金色螺旋耳饰归位，面具裂纹里闪过一线金光。\n背景始终是虚化的云海与彩虹光晕。\n配音（日语，轻声满意）：「……ぴったり。」\n\n【13-16秒｜眼神点亮】\n极近面部特写，只露出下半脸与嘴唇，面具阴影下灰绿色眼睛亮起淡蓝电光，风吹起发丝，金色微尘漂浮。此刻起角色外观与@Image3 完全一致。\n\n【16-30秒｜雷电技能测试（重点高潮）】\n按五个层次逐步升级，每个镜头都贴近角色：\n- 16-19秒｜手部特写（微距）：指尖先冒出细小蓝白电弧，噼啪作响，照亮指节与金色臂环。她慢慢张开手指。\n- 19-22秒｜低角度斜仰拍（Dutch angle）：电弧沿手臂蜿蜒而上，缠绕肩甲，铜球与金色尖刺依次点亮，黄铜机关装置高速旋转蓄能，头发被静电托起漂浮。\n- 22-25秒｜左侧头部斜后方近景：她握拳再张开，掌心凝聚旋转的雷光球，脚下草地被气流压出圆形涟漪，花瓣与光粒被卷起。她轻轻侧头看向掌心，神情专注而带一点兴奋。\n- 25-28秒｜环绕镜头（slow orbit，半身）：她将雷光球向上一托，一道粗大的蓝白闪电冲天而起，雷电沿披肩、羽饰与羊角蔓延，面具金色裂纹发出强光，电光与彩虹镜头光晕相互交映。全部保持克制，不遮挡面部细节。\n  配音（日语，清冷带兴奋）：「雷よ……応えて。」\n- 28-30秒｜最终极近面部特写（extreme close-up）：@Image3 造型的角色直视镜头，面具下目光冷静自信，嘴角浮现浅笑，静电电弧在脸侧与发丝间跳动，背景是虚化的浮岛、云海与彩虹光晕。画面缓缓定格，光晕渐强，轻微淡出。\n  配音（日语，低沉威严）：「さあ……伝説の幕開けよ。」\n\n【画面与音频要求】\n体积光，丁达尔效应，HDR，高细节的皮肤、发丝、金属反光、布料纹理、面具裂纹与羽毛质感。\n背景音乐：空灵管弦乐与合唱，随雷电渐强至高潮；环境音：风声、草叶声、金属扣合声、电流噼啪声、远处雷鸣；日语配音清晰，口型同步。\n\n【禁止事项】\n不要换脸或改变角色外观；不要远景或大全景；镜头不得远离角色；不要动作僵硬或夸张；不要文字、字幕、水印；不要多余人物；不要肢体畸形、手指错误；不要装备顺序混乱或凭空出现；不要电光遮挡面部；不要雷电过度杂乱。",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-kling-rain-sky-break",
+      "category": "提示词",
+      "title": "嫌雨烦：哥特时装女一抬手把天掰晴",
+      "body": "夜雨里，黑衣女人撑伞走在哥特风街道上，表情淡得像在赶下一场秀。\n\n日本创作者给 Kling 四代闪速版写了一整份十五秒竖屏高级时装片提示词：先建立潮湿、冷感、板着脸的幽默，再让她对雨产生一点点嫌弃——于是天色被掰成晴空，湿沥青和积水在同一镜头里改写天气。提示词用角色设定表锁脸和服装，并明确不要对白、字幕、水印，只要奢侈品广告级的布料和雨水物理。短片转折够狠：不是她喊咒语，是世界先被她的嫌弃说服。完整英文提示词放在原帖回复里，可直接复制粘贴。\n\n竖屏比例锁死了，发短视频时不用再二次裁切。这一点很关键。 真的能直接拿去跑。\n\n你会跟朋友说：最好笑的超自然，不是喊着放魔法，是人物嫌麻烦，世界只好配合。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/tokyo_Valentine/status/2104810060811833710"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/tokyo_Valentine/status/2104810064750239987"
+        }
+      ],
+      "prompt": "[FORMAT]\n\nDuration: 15 seconds\nAspect Ratio: 9:16\nStyle: premium cinematic photorealism, live-action fashion film, neo-gothic realism\nMood: cool, elegant, mysterious, deadpan comedy, subtle supernatural atmosphere\nVisual quality: high-end luxury fashion commercial, realistic skin, realistic fabric, realistic rain and weather physics\n\nNo dialogue.\nNo subtitles.\nNo text.\nNo logos.\nNo watermark.\n\n[CHARACTER REFERENCE]\n\nUse the attached character sheet as the ONLY appearance reference for the female character.\n\nPreserve her exact identity throughout the entire video.\n\nCHARACTER APPEARANCE:\n\n- young woman\n- delicate pale skin\n- refined symmetrical facial structure\n- warm brown eyes\n- short white bob haircut\n- straight blunt bangs across the forehead\n- white hair forming a clean rounded bob silhouette\n- soft pink underlayer visible around the lower back and sides of the hair\n- pink hair must remain subtle and positioned underneath the white outer layer\n- slim natural body proportions\n- elegant restrained posture\n\nOUTFIT:\n\n- fitted black gothic school-inspired dress\n- white pointed collar\n- narrow black necktie\n- structured slightly puffed shoulders\n- long black sleeves\n- fitted waist\n- pleated black skirt\n- black knee-high lace-up leather boots\n\nMaintain exactly the same:\nface,\nage,\nhair length,\nwhite hair color,\npink underlayer,\nbangs,\nbody proportions,\noutfit,\nboots,\nfacial identity.\n\nThe character sheet defines ONLY the girl's physical identity, hairstyle, clothing and body proportions.\n\nDo NOT reproduce:\nthe white character-sheet background,\nmultiple character views,\nreference labels,\nstudio layout,\ncharacter-sheet typography.\n\n[WORLD / LOCATION]\n\nLocation:\n\nA quiet neo-gothic fashion district in Tokyo during blue hour, immediately after sunset.\n\nThe architecture combines:\ndark stone facades,\nminimal contemporary Japanese architecture,\nnarrow pedestrian streets,\nlarge dark glass windows,\nsubtle warm architectural lights.\n\nThe environment should feel sophisticated rather than futuristic.\n\nAvoid excessive cyberpunk imagery.\n\nNo giant neon signs.\nNo colorful advertisements.\nNo readable text.\n\nThe street is covered with rainwater.\n\nWet black pavement produces beautiful reflections.\n\nCool blue-gray ambient lighting dominates the scene.\n\nVery subtle pale pink reflections appear occasionally on the wet pavement,\nvisually complementing the girl's pink hair underlayer.\n\nThe environment should feel:\nexpensive,\nminimal,\nquiet,\ncinematic,\nslightly surreal.\n\n[CORE STORY]\n\nThe girl is calmly walking through heavy rain without an umbrella.\n\nA single raindrop lands directly on her cheek.\n\nShe quietly becomes mildly annoyed.\n\nShe looks upward at the storm clouds.\n\nWithout making any magical gesture,\nthe entire storm above the city is suddenly blown away by an invisible supernatural force.\n\nThe rain stops.\n\nThe sky clears.\n\nShe casually continues walking as though this is completely normal.\n\nThe humor comes entirely from the contrast:\n\nEXTREMELY dramatic supernatural weather phenomenon\n\nversus\n\nalmost zero emotional reaction from the girl.\n\n[SHOT 1 — 0.0 to 3.2 sec]\n\nCinematic full-body front tracking shot.\n\nThe girl walks slowly toward the camera through heavy rain.\n\nThe camera smoothly tracks backward in front of her.\n\nHer posture is elegant and confident.\n\nShe walks like a fashion model,\nbut naturally,\nnot exaggerated.\n\nShe carries NO umbrella.\n\nShe does not hurry.\n\nShe does not protect herself from the rain.\n\nHer face is neutral.\n\nRain falls heavily around her.\n\nWater splashes subtly beneath her leather boots.\n\nThe wet pavement reflects cool city lights.\n\nHer white bob haircut becomes slightly damp,\nbut its exact shape and hairstyle remain recognizable.\n\nThe pink underlayer becomes subtly visible when the hair moves.\n\nHer black dress moves gently in the wind.\n\nKeep her movements graceful and minimal.\n\n[SHOT 2 — 3.2 to 5.7 sec]\n\nSmooth transition into a medium close-up.\n\nOne visible raindrop lands on her cheek.\n\nShe immediately stops walking.\n\nDo not exaggerate the impact.\n\nShe remains silent.\n\nA very subtle change occurs in her expression:\n\nher eyes narrow almost imperceptibly.\n\nHer lips remain relaxed.\n\nShe does NOT frown dramatically.\n\nShe slowly lifts one hand.\n\nUsing only the tip of her index finger,\nshe gently touches the raindrop on her cheek.\n\nShe looks briefly at the moisture on her fingertip.\n\nHer expression communicates:\n\n\"Seriously?\"\n\nbut without exaggerated emotion.\n\nVery subtle deadpan irritation.\n\nAfter a short pause,\nshe slowly lowers her hand.\n\n[SHOT 3 — 5.7 to 7.5 sec]\n\nTight cinematic close-up.\n\nShe slowly raises her chin.\n\nHer brown eyes move upward first.\n\nThen her head follows.\n\nShe looks directly toward the stormy sky.\n\nNo hand gesture.\n\nNo spellcasting pose.\n\nNo dramatic movement.\n\nShe simply stares upward.\n\nA soft gust of wind begins.\n\nHer white bob moves subtly.\n\nThe pink lower layer of her hair briefly becomes more visible.\n\nThe soundless visual tension increases.\n\nRain begins bending slightly sideways.\n\nHer expression stays cool and almost emotionless.\n\n[SHOT 4 — 7.5 to 11.0 sec]\n\nThe camera smoothly tilts upward from the girl's face toward the sky.\n\nMassive dark storm clouds fill the sky above the city.\n\nThe clouds begin rotating slowly.\n\nThen the motion rapidly intensifies.\n\nA perfectly circular opening begins forming directly above the girl.\n\nSuddenly,\n\nan enormous invisible atmospheric force erupts outward from the center.\n\nThe storm clouds are violently pushed away in every direction.\n\nThe cloud layer races toward the horizon.\n\nCreate a spectacular gigantic circular clearing effect across the sky.\n\nThe scale should feel enormous.\n\nThe entire city atmosphere changes within seconds.\n\nRain instantly becomes lighter.\n\nThen stops completely.\n\nImportant:\n\nThere is NO visible magic.\n\nNo magical energy.\n\nNo beam.\n\nNo lightning attack.\n\nNo fire.\n\nNo explosion.\n\nNo glowing aura.\n\nNo supernatural symbols.\n\nIt should look as though the atmosphere itself obeyed her silent annoyance.\n\n[SHOT 5 — 11.0 to 13.0 sec]\n\nEpic cinematic wide shot.\n\nThe storm is completely gone.\n\nA vast clear sky appears above Tokyo.\n\nSoft golden sunlight breaks through.\n\nCool rainy blue lighting transitions into gentle warm sunlight.\n\nThe wet pavement catches beautiful golden reflections.\n\nWater continues dripping from rooftops.\n\nSmall droplets fall from her hair and dress.\n\nThe girl's white hair glows softly in the sunlight.\n\nHer pale pink underlayer catches a very subtle warm highlight.\n\nShe stands motionless for one moment.\n\nShe looks at the clear sky.\n\nNo smile.\n\nNo satisfaction.\n\nNo dramatic reaction.\n\nJust a tiny relaxed blink.\n\nThen she lowers her gaze.\n\n[SHOT 6 — 13.0 to 15.0 sec]\n\nMedium frontal tracking shot.\n\nShe casually begins walking again.\n\nHer body language communicates:\n\nproblem solved.\n\nShe does not look back.\n\nShe does not acknowledge what happened.\n\nCamera smoothly moves backward as she approaches.\n\nFINAL VISUAL JOKE:\n\nA single leftover raindrop falls from the edge of a building directly toward the top of her white hair.\n\nJust before it touches her,\n\na tiny invisible gust of wind pushes the raindrop sideways.\n\nThe droplet completely misses her.\n\nShe does not even notice.\n\nShe continues walking.\n\nFinal frame:\n\nbeautiful medium close-up.\n\nCalm expression.\n\nWhite bob haircut with subtle pink underlayer.\n\nClear sky behind her.\n\nWarm sunlight illuminating one edge of her face.\n\nShe looks directly past the camera,\n\ncompletely uninterested in the supernatural event she just caused.\n\nCut.\n\n[CHARACTER PERFORMANCE]\n\nExtremely important:\n\nThe girl is NOT angry.\n\nShe is NOT scary.\n\nShe is NOT theatrical.\n\nHer personality should feel:\n\ncool,\nelegant,\nemotionally restrained,\nslightly spoiled,\nquietly powerful,\nnaturally confident.\n\nUse micro-expressions rather than obvious facial expressions.\n\nHer strongest emotional reaction in the entire video should only be:\n\na tiny narrowing of her eyes\nafter the raindrop touches her cheek.\n\nAvoid smiling.\n\nAvoid dramatic eyebrow movement.\n\nAvoid exaggerated head movement.\n\nAvoid aggressive gestures.\n\n[GESTURE DESIGN]\n\nAll gestures should be slow, refined and minimal.\n\nWalking:\nstraight posture,\nrelaxed shoulders,\ncontrolled pace,\nsmall natural arm movement.\n\nRaindrop reaction:\nstop walking,\nsmall pause,\nraise one hand,\ntouch cheek delicately with one fingertip,\nbriefly inspect fingertip.\n\nLooking at sky:\neyes move upward first,\nslight chin raise afterward.\n\nWeather transformation:\ngirl remains nearly motionless.\n\nAfter sky clears:\none relaxed blink,\nslightly lower chin,\nresume walking immediately.\n\n[CAMERA LANGUAGE]\n\nPremium fashion-film cinematography.\n\nUse:\n\nsmooth tracking camera,\nslow cinematic push-in,\nmedium close-ups,\nshallow depth of field,\nclean facial close-up,\ndramatic upward tilt,\none epic wide environmental shot.\n\nAvoid excessive editing.\n\nAvoid fast random cuts.\n\nAvoid aggressive handheld motion.\n\nAvoid orbiting camera.\n\nAvoid fisheye lens.\n\nAvoid excessive zooming.\n\nThe girl's identity must remain clearly visible throughout.\n\n[LIGHTING]\n\nBEGINNING:\n\ncool blue-gray storm lighting,\nsoft diffused overcast illumination,\nwet skin highlights,\nsubtle architectural lights,\ndeep black clothing,\nsoft pale pink reflections.\n\nAFTER WEATHER CLEARS:\n\nwarm natural sunlight,\nsoft golden rim light,\nbright neutral skin tones,\nsubtle shine on white hair,\nslightly illuminated pink underlayer,\nwet pavement reflecting sunlight.\n\nDo not oversaturate the image.\n\n[HAIR CONSISTENCY]\n\nExtremely important.\n\nKeep the hairstyle consistent throughout the entire video.\n\nShort white rounded bob.\n\nStraight blunt bangs.\n\nPink underlayer ONLY underneath the white hair,\nmainly visible near the back and lower sides.\n\nDo NOT turn the entire hair pink.\n\nDo NOT remove the pink layer.\n\nDo NOT make the hair long.\n\nDo NOT create a ponytail.\n\nDo NOT create braids.\n\nDo NOT change the bangs.\n\nWind may move the hair,\nbut the hairstyle must return naturally to its original form.\n\n[ENVIRONMENT CONSISTENCY]\n\nMaintain the exact same street throughout the sequence.\n\nNo location change.\n\nNo teleportation.\n\nNo sudden architecture change.\n\nOnly the weather and lighting change.\n\nKeep background pedestrians extremely limited.\n\nThe girl must remain the clear visual focus.\n\n[NEGATIVE PROMPT]\n\nanime,\ncartoon,\nillustration,\n2D,\nCG character,\ndifferent woman,\ndifferent face,\nface morphing,\nidentity change,\nolder woman,\nchild,\nlong hair,\nbraids,\nponytail,\nblack hair,\nblonde hair,\nfully pink hair,\nmissing pink underlayer,\ndifferent haircut,\nuneven bob haircut,\ndifferent bangs,\ndifferent clothing,\ncolorful clothing,\numbrella,\nraincoat,\nhat,\ngloves,\njewelry,\nsmiling,\nlaughing,\ncrying,\nscreaming,\nangry face,\nexaggerated expression,\ndramatic acting,\nmagic wand,\nspellcasting,\nhand magic,\nmagic circle,\nglowing eyes,\nenergy beam,\nenergy aura,\nsuperhero pose,\nlightning attack,\nfire,\nexplosion,\ncity destruction,\nlevitation,\nflying,\nmultiple girls,\nduplicate character,\nextra arms,\nextra legs,\nextra fingers,\nmalformed hands,\ndeformed anatomy,\ndistorted face,\nwarped body,\ncharacter sheet,\nsplit screen,\ntext,\nsubtitles,\nlogo,\nwatermark,\nexcessive cyberpunk,\ngiant neon signs,\nrandom camera shake,\nflickering,\nframe instability",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-kling-rainfall-requiem",
+      "category": "提示词",
+      "title": "暴雨巷战：爆炸后滑铲再抄起钢管",
+      "body": "胡子糙汉冲过积水的工业小巷，身后装甲车炸开，雨水混着火花打在镜头上。\n\n作者用 Kling 三代写了一段按秒切开的动作提示词：前两秒低机位倒退跟拍，接着滑铲躲弹、翻滚抄金属管，后面继续用雨、枪火和湿水泥地面把节奏往上推。它不靠长篇世界观，只靠手持、低角度、衣摆狂甩、爆炸不塌特效，把一条巷子打成预告片。对想试动作戏的人很友好——提示词不长，但每一秒都交代镜头怎么动、人怎么躲、环境怎么溅。看完可以直接改角色和巷子材质再跑一版。\n\n雨水混火花打镜头写得很具体，爆炸才不容易糊成光团。这一点很关键。 真的能直接拿去跑。\n\n你会跟朋友说：动作提示词可以很短，可每一秒都得写清楚相机和身体各自在干什么。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/iamrealsnow/status/2104788524310688210"
+        }
+      ],
+      "prompt": "A rugged bearded action hero sprints through a rain-soaked industrial alley at night as a massive armored vehicle explodes behind him. 0–2 sec: handheld low-angle tracking shot racing backward in front of him, rain and sparks flying through the lens, intense facial expression, coat whipping violently in the wind. 2–4 sec: he suddenly slides beneath a burst of gunfire, rolls across the wet concrete, grabs a metal pipe and uses it to knock an attacking enemy off balance. 4–6 sec: explosive close-quarters fight — one brutal punch, spinning elbow, rapid camera whip-pan, shattered glass and sparks filling the frame. 6–7 sec: he rises into a powerful hero stance as the burning vehicle erupts behind him, camera rapidly pushes toward his face, rain dripping from his beard.\n\nFast choreography, continuous physical momentum, realistic body mechanics, dynamic handheld camera, aggressive camera movement, dramatic lighting, volumetric smoke, flying debris, realistic rain, cinematic motion blur, sharp facial detail, natural cloth physics, high contrast, premium action-film cinematography. No slow motion, no static shots, no unnecessary cuts, no text, no logos.",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-food-editorial-poster",
+      "category": "提示词",
+      "title": "上传一张食物照，下半截长成艺术海报",
+      "body": "上半截还是杂志里的真实料理，下半截却开始长出插画、肌理和编辑排版。\n\n有人给 GPT Image 写了食物照片转竖版艺术海报的提示词：以上传的食物为主参考，保留主菜外观、颜色和可辨细节；上半保持高端生活方式摄影，下半再做艺术化延展，整体像一张能挂在咖啡馆的编辑海报。关键不在重新生成一道菜，而在同一盘食物跨过摄影和插画的边界。暖光、胶片颗粒和杂志感氛围也被写进上半区，避免模型直接把整张图画成插画。做餐饮账号或菜单周边时，这条很实用。\n\n竖版比例也写进要求，做手机信息流封面更省事。这一点很关键。 真的能直接拿去跑。\n\n你会跟朋友说：别只会美化食物照片，让下半截继续讲故事，海报才有卖相。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Sairah_0/status/2104804306348056830"
+        }
+      ],
+      "prompt": "Use the uploaded food photograph as the primary reference and transform it into a vertical 3:4 editorial art poster while preserving the main food, its appearance, composition, colors, textures, and recognizable details.\n\nKeep the upper half photorealistic, styled like a premium lifestyle/food magazine photograph: natural warm light, soft realistic shadows, elegant composition, authentic food textures, subtle film grain, vintage photography atmosphere, and a sophisticated cozy aesthetic.\n\nIn the lower half, seamlessly transform the main food or a visually important element from the photograph into a whimsical hand-drawn scene or surreal miniature world related to the food. Extend, reshape, or reinterpret the food naturally as part of the illustration. Add one or two tiny human figures interacting with it in a charming, imaginative way. Use delicate imperfect ink linework, minimal vintage sketch style, subtle botanical/details, warm ivory paper texture, and plenty of negative space.\n\nCreate a smooth, creative transition between the realistic photograph and the illustration so they feel like one continuous artwork rather than two separate images. The illustrated scene should tell a simple visual story based on the food and its characteristics.\n\nAdd a short, witty handwritten caption that relates specifically to the food and the illustrated concept. Use small, understated handwritten typography that feels naturally drawn onto the paper.\n\nOverall style: premium editorial food photography + whimsical conceptual illustration + vintage storybook aesthetic + minimalist art direction + warm nostalgic mood.\n\nComposition: vertical 3:4, balanced negative space, realistic upper section, illustrated lower section, seamless transition, refined visual hierarchy.\n\nAvoid: changing the identity of the food, excessive decoration, clutter, large typography, borders, frames, logos, watermarks, harsh dividing lines, cartoonish 3D graphics, overly saturated colors, or an artificial AI-generated appearance.",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-ink-wash-split",
+      "category": "提示词",
+      "title": "半张真人半张水墨：中间那条缝要对齐",
+      "body": "一张竖图被严格切成上下两半：上面还是摄影棚，下面已经洇成当代水墨。\n\n这条 GPT Image 提示词名叫对半水墨重构——竖构图严格对半，上区锁定人物身份和真实材质，下区改成笔墨、留白和东方当代审美，分界处要求结构对齐，不能各画各的。它像在考模型：同一个人能不能同时存在于照片和水墨里，还看起来是一张设计完稿。比起普通加水墨滤镜，这种对半重构更适合做封面和海报实验，也适合讲「一个人活在两种美学里」。\n\n上区轻微高端调色，下区才不会和照片反差过头。这一点很关键。 真的能直接拿去跑。 真的能直接拿去跑。 真的能直接拿去跑。\n\n你会跟朋友说：分屏特效的难点不是滤镜，是那条缝上的鼻子和肩膀还连不连得上。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/harboriis/status/2104799948072161492"
+        }
+      ],
+      "prompt": "Split-Frame Ink Wash Reconstruction\n3:4 vertical composition · photo / ink wash split · contemporary Eastern aesthetic\nThe image is in a 3:4 vertical composition, divided into two regions, with a strict 1:1 ratio, each taking up 50% of the image.\nUpper Region — Original Photo Shoot Area\nPreserves the subject's identity, structure, perspective, and true material, natural light, and original color atmosphere, with only slight high-end color grading and image purification, presenting it with the texture of art magazines or exhibition photography. It allows for a moderate expansion of the background to fit the screen size, but does not stretch, distort, or reshape the subject, without changing the subject's structure, posture, and core composition.\nLower Region — Minimalist Ink Wash Reconstruction Area\nFirst, refine the subject with the most memorable details, such as the outline, structure, trend, perspective, rhythm, and atmosphere, and then reconstruct the same scene into a minimalist ink wash material landscape. Do not copy the photo details, do not make a realistic copy, only preserve the most recognizable structure and charm, allowing people to recognize the corresponding relationship between the upper region and the original photo at first glance.\nThe overall base of the lower half is milky white, warm white or paper white, with delicate paper fiber and natural texture. The main body is reconstructed in ink wash blending, dry-wet interplay, flying white, seepage, ink accumulation, and white space, forming a quiet, restrained, and poetic Eastern visual. Removing secondary details, only retaining the most distinctive contours, structural turns, spatial layers, and breath, not pursuing realistic completeness, but rather summarizing, refining, and leaving a lingering impression. The use of ink in black, gray, and light ink tones, layered and progressing, with varying intensities and rhythms.\nThe most vibrant colors can be extracted from the original image to create a few spots of dyeing or coloring, without mechanically replicating the color values. The colors can be transformed locally into clear blue-gray, distant blue, soft gold, warm yellow, vermilion red, light cyan, etc., to emphasize the main focus and emotional rhythm, but the overall composition is still dominated by ink tones and negative space. Avoiding dull, heavy, old brown, excessive decoration, and vulgar color combinations.\nThe main core areas should be more refined and concentrated, with edges gradually loosening, breaking away, disappearing, and scattering, forming a sense of breathing with the large negative space. The lower half of the composition should account for about 30%–45%, with the rest reserved for large negative spaces. The composition can be biased, framed, suspended, or slightly cut, but must maintain an asymmetrical balance and a high-end editorial feel. Negative space is not blank, but an important component of the visual structure. It is better to reduce information than to fill the entire image, so that the main focus looks like an ink seal or an oriental material work displayed on a page.\nText Treatment\nText is only allowed a very small amount of editing intervention, without preset titles and numbers. A small number of words or short sentences can be extracted from the subject, location, time, action, emotion, or metaphor, and quietly placed in the blank area or the edge of the subject. The text should be restrained, sparse, and have a sense of breathing, not noisy or dominant.\nOverall Presentation\nContemporary Eastern aesthetics, minimalist ink wash reconstruction, large-scale art blank, small-scale seal impression, quiet editing layout and exhibition poster style. Avoid complex backgrounds, piled-up real details, overly decorative, excessive text, template layout and filled composition.",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-crayon-travel-poster",
+      "category": "提示词",
+      "title": "蜡笔旅行海报：像记得住却画歪一点的城市",
+      "body": "象牙色纸上，色铅笔和蜡笔叠出一座城市，笔画发颤，却一下子能认出是哪。\n\n这条 GPT Image 提示词留了地标占位符：要求像极有才华的人凭记忆手绘——比例认得出来，但要有交叉线、叠色、可见笔触和一点点画歪了的手感，整体是手工旅行艺术海报，不是卫星图级精确插画。换地名就能量产，却仍保留手作温度。它和精密建筑线稿海报不是一路：这边要的是记忆和笔触，不是测绘精度。适合做城市系列封面，也适合当旅行日记头图。\n\n暖象牙色纸底让整组城市海报有统一纸感。这一点很关键。 真的能直接拿去跑。 真的能直接拿去跑。 真的能直接拿去跑。\n\n你会跟朋友说：旅行海报不必像导游图，记得住轮廓、看得出笔触，就比精修更想被贴上墙。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Naiknelofar788/status/2104795155782148399"
+        }
+      ],
+      "prompt": "Create a sophisticated handcrafted travel-art poster of [LANDMARK / CITY / COUNTRY], illustrated entirely with colored pencils and wax crayons on warm ivory paper.\n\nDepict [LANDMARK / CITY / COUNTRY] as if it has been drawn from memory by an exceptionally talented artist — recognizable architecture and proportions, but expressed through energetic imperfect pencil strokes, layered wax-crayon marks, loose cross-hatching, scribbled shading, overlapping colors, and visible hand pressure.\n\nInstead of filling the landmark with flat color, let hundreds of expressive pencil strokes build its form. Allow certain strokes to extend beyond the architectural edges, creating a sense of movement and imagination. Add tiny hand-drawn visual memories around and within the composition: local patterns, plants, birds, windows, streets, clouds, cultural motifs, landscape elements and subtle symbols associated with the place.\n\nUse a limited but vibrant destination-inspired palette: [COLORS]. Keep some areas intentionally unfinished, allowing the ivory paper to remain visible.\n\nAdd small imperfect handwritten-style typography:\n[COUNTRY / CITY]\n[LANDMARK NAME]\n[COORDINATES OR SHORT PHRASE]\n\nThe result should feel like a rare artist’s sketchbook page transformed into a premium contemporary travel poster — playful, tactile, nostalgic, artistic and highly detailed.\n\nVisible colored-pencil grain, wax-crayon texture, imperfect outlines, layered strokes, subtle paper fibers, hand-drawn imperfections, sophisticated composition, strong negative space, no photorealism, no 3D rendering, no glossy digital effects, no people, 4:5 vertical.\n\nAn even more unique variation: “Pencil Explosion”\n\nThe landmark stays recognizable in the center, but its colors and pencil strokes progressively break apart into tiny illustrated memories of the city — almost like the drawing is coming alive.\n\nThat would preserve the exact crayon/pencil aesthetic of your reference while giving it a much more original concept.",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-studio-fashion-idlock",
+      "category": "提示词",
+      "title": "棚拍高定肖像：先锁脸再谈气场",
+      "body": "胸以上的棚拍近景里，她下巴微抬，表情冷静，灯光却把皮肤纹理留得很老实。\n\n有人给 GPT Image 写了严格身份锁定的高定时装肖像：不许美化、不许改五官不对称，先保住参考图的脸，再谈头微仰、气场和专业棚光。这类提示词的价值很实在——很多人不是不会写氛围词，而是一生成脸就漂走。把身份锁定放在最前面，模型才知道什么不能动。适合做个人形象、妆造对比，以及还是我本人的棚拍实验。原帖互动也不错，说明锁脸需求是真痛点。\n\n胸以上近景写死了，模型就不容易画出全身跑焦。这一点很关键。 真的能直接拿去跑。 真的能直接拿去跑。 真的能直接拿去跑。\n\n你会跟朋友说：想让人工智能拍还是我，第一句不该是滤镜，而该是不许改脸。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/TheVirtualMuse/status/2104436331413995857"
+        }
+      ],
+      "prompt": "Create a high-fashion professional studio portrait of the woman from my reference image. Strict identity lock: preserve her exact face, facial structure, eyes, nose, lips, skin tone, natural asymmetry, and overall identity. Do not beautify, reshape, or change her facial features.\n\nFrame her in a tight chest-up portrait, facing the camera with her head slightly tilted back and chin subtly raised. Expression calm, serious, confident and effortlessly stylish. Give her long, straight, glossy dark hair, naturally flowing around her shoulders with a gentle studio-fan effect.\n\nShe is wearing oversized transparent yellow rectangular sunglasses with warm amber/yellow lenses, with her eyes naturally visible through the lenses. Keep the glasses clean with minimal reflections. Outfit should be modest and sophisticated: a premium structured black blazer over a fully covering black top with a normal neckline — no cleavage, no revealing clothing. Add a very delicate gold necklace with a tiny pendant and minimal stud earrings.\n\nMakeup should remain elegant and realistic: naturally defined brows, subtle black eyeliner, long lashes, soft warm blush, realistic skin texture and muted terracotta/nude lips. No excessive makeup, no plastic skin, no beauty-filter effect.\n\nBackground: completely seamless vibrant mustard-yellow / golden-orange studio backdrop, smooth and evenly saturated. Use professional beauty-editorial lighting with a large softbox/beauty dish slightly above and in front of her, producing soft dimensional shadows, natural catchlights and beautiful separation between her dark hair and the yellow background.\n\nCamera: professional full-frame camera, 85mm portrait lens, f/2.0–f/2.8, ISO 100, 1/200s. Focus locked precisely on the eyes and glasses, flattering natural lens compression, shallow depth of field, no wide-angle distortion.\n\nIMAGE QUALITY: ultra-photorealistic 8K editorial photography, true human skin pores and micro-texture, individual hair strands, realistic fabric texture, natural optical softness, subtle organic film grain, high dynamic range, premium fashion-magazine color grading. 100% real human appearance — absolutely no AI look, CGI, illustration, excessive sharpening, waxy skin or artificial facial perfection.",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-nano-paris-cafe-editorial",
+      "category": "提示词",
+      "title": "巴黎街头咖啡馆：黑西装墨镜的竖版大片",
+      "body": "户外圆桌、黑西装、方框墨镜，她坐在巴黎咖啡馆外，银表在手腕上轻轻反光。\n\nNano Banana 二代的这条提示词把高端生活方式编辑肖像写得很满：竖构图、单色黑衣、自然微乱的深棕长发、经典欧式户外座椅与街景层次，连坐姿都要求挺直而松弛。它不靠奇幻元素，只靠服装、道具和光把一张咖啡桌拍成时尚杂志内页。同类美女提示词很多，这条胜在把材质和构图写满，复制粘贴也能稳出片。想练产品级人像时，可以先跑这条当基准。\n\n银表和墨镜的材质层次写清，黑衣才不会糊成死黑。这一点很关键。 真的能直接拿去跑。 真的能直接拿去跑。 真的能直接拿去跑。\n\n你会跟朋友说：有时候最稳的出片，是把衣服、坐姿和背景材质写清楚，比堆十个滤镜词管用。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AiwithLariab/status/2104780408802173430"
+        }
+      ],
+      "prompt": "Photorealistic high-end Parisian café lifestyle editorial portrait, vertical 4:5 composition. A stylish young woman with long, naturally tousled dark brown hair sits at an elegant outdoor European café table. She wears a sharp tailored black blazer over a modest matte black full-sleeve top with black trousers, creating a sophisticated monochrome look. She wears classic black rectangular wayfarer sunglasses and a refined silver wristwatch.\nShe is seated upright on a classic woven rattan bistro chair with a black-and-cream checkerboard pattern. Her body faces slightly toward the camera while her head is turned clearly toward the left side of the frame, looking away from the camera with a calm, composed expression. She holds an open copy of The New York Times naturally with both hands as if casually reading it.\nIn front of her is a round black café table with a polished gold/brass rim. On the table: a white ceramic cappuccino cup with subtle heart-shaped latte art, a clear glass of water, an elegant printed menu, and a pair of round black sunglasses placed naturally on the tabletop.\nThe setting is an elegant Parisian-style outdoor café, with a large cream/off-white stucco wall behind her and tall white-framed multi-pane windows revealing a softly blurred warm café interior. Additional woven café chairs are visible around her. The background should feel authentic, refined and naturally lived-in rather than staged.\nComposition: medium-to-full body lifestyle shot, subject positioned slightly right of center, generous environmental background, table visible in the foreground, natural perspective, realistic proportions, subtle candid feeling.\nLighting: soft diffused natural daylight, gentle highlights on the hair and face, balanced exposure, warm interior glow visible through the windows, no harsh artificial lighting.\nPhotography: premium fashion magazine editorial photography, authentic candid street-style aesthetic, 85mm lens look, shallow depth of field, soft creamy background bokeh, sharp focus on subject, realistic environmental reflections, natural skin texture, realistic fabric and hair detail, subtle cinematic color grading, high dynamic range, ultra-detailed photorealism, professional DSLR photography.\nImportant: preserve natural anatomy, realistic hands and fingers, realistic newspaper proportions, physically accurate objects and shadows, no excessive retouching, no plastic skin, no cartoon or CGI appearance.",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "destroy-stickman-smash",
+      "category": "视觉尝试",
+      "title": "火柴人砸网站：把任意网址拆成积木再轰平",
+      "body": "打开 destroy.spritefusion.com，先随便丢进一个网址——Wikipedia、自家官网都行。页面立刻被拆成一块块可踩的平台，你变成会飞的火柴人冲上去。方向键跑跳，按住空格起飞，鼠标开火，右键扔手雷，数字键还能换武器。墙皮一块块掉下来，进度条爬到百分之百就算「摧毁完成」。还能开房间联机，几个人一起轰同一页；也可以把这段嵌进自己的站点，让访客来砸你的首页。整套用 Sprite Fusion 搭出来，桌面浏览器才能玩得顺，手机上手感会差一截。Hacker News 一天冲到一百二十多个赞，评论区都在晒自己砸了哪些站、砸到第几关。这不是又一个冷冰冰的「点击即跳转」演示页，而是把作品集变成可拆的玩具。观众亲手拆过一遍，印象比看十秒录屏深得多。所以呢：别再做静态作品集——让观众亲手拆掉页面，他们才会记住你做的东西。",
+      "links": [
+        {
+          "label": "在线玩",
+          "url": "https://destroy.spritefusion.com/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49880601"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "scissor-studio-browser",
+      "category": "视觉尝试",
+      "title": "Scissor：浏览器里的免费矢量像素工作室，文件不离机",
+      "body": "打开 scissor.studio，没有注册页，也没有把文件上传到别人服务器那一步。钢笔、曲率、铅笔、形状工具都能画；贝塞尔路径能改，文字能沿路径排，OpenType 特性也能开。图层、蒙版、裁切、渐变、网格、图案、实时阴影与扭曲都在工具栏里，做封面够用。还能把位图描成矢量，或在像素层上直接涂，矢量像素两条线都能走。格子不止正交——等距、六边、斜交、黄金分割、透视都有，做图标或封面很省事。能打开 SVG、PDF、EPS、AI、PSD，导出 SVG、PDF、PNG、JPEG、WebP。可离线装成应用，画布默认只留在本机，隐私压力小很多，适合不敢把客户稿上传的场景。作者把它摆成「对付设计巨头的免费替代」，Show HN 一百一十多个赞。下次赶封面或图标，先在这里画完再决定要不要开订阅。所以呢：下次要做封面或图标，先别掏订阅——浏览器里就能从零画完并带走文件。",
+      "links": [
+        {
+          "label": "Scissor 打开即用",
+          "url": "https://scissor.studio/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49875308"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "hn-watch-explainers",
+      "category": "视觉尝试",
+      "title": "HN.watch：头条旁边多一颗「视频解说」按钮",
+      "body": "Hacker News 首页故事多，标题又冷，外行扫一眼就滑走。Scrimba 做的 hn.watch 把同一张榜挂出来，每条旁边多一颗 video 按钮。点开是一段短解说，跟文章列表同步刷新，不用另装浏览器扩展。你仍能跳原文、看评论数，但入场方式变了——先听人把「这事在吵什么」讲清楚，再决定要不要深读。前端几乎就是熟悉的橙站布局，负担很低，适合当晨间雷达的第二屏。列表会跟官方榜同步，不会出现昨天的旧头条还挂在那里。上线当天冲到一百四十多个赞，内容创作者特别眼红这种形态。硬核新闻的门槛，往往卡在第一句人话，而不是技术本身。给每条硬核新闻配三十秒人话开场，完播和点击都会肉眼可见。所以呢：做科技内容时，别假设观众会啃标题党——先用人话开场，他们才愿意点进去。",
+      "links": [
+        {
+          "label": "HN.watch",
+          "url": "https://hn.watch/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49879401"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "skinlab-3d-derm",
+      "category": "视觉尝试",
+      "title": "皮肤科医生手搓 3D 皮肤块：刀、激光、酸都能试",
+      "body": "皮肤科医生 Magnus Lynch 用「氛围编程」搭了 SkinLab。浏览器里一块约四十毫米见方的皮肤体素，可旋转、按压、读层。工具栏有手术刀、打孔、烧蚀、点阵激光，还有 TCA 点刺——真临床上用来抬凹陷疤痕的酸。激光能量与密度照真实设备刻度走，不是随便滑个进度条糊弄观众。酸涂上去会先「结霜」，再把时间拨到数周后，看胶原把坑底慢慢顶起来。鼠标悬停能读出层次与毫米深度，病人问「切多深」时能指着画面讲。他说这不是游戏，而是给病人解释「我准备在你脸上做什么」的教具，打开就能转着看。Show HN 一出来，评论区医生和工程师都在围观这种教具思路。讲医疗或硬科技时，剖面示意图常常让人更慌，亲手划一下反而懂。所以呢：讲医疗或硬科技，别甩剖面示意图——让观众自己拿「刀」划一下，恐惧和好奇会同时到位。",
+      "links": [
+        {
+          "label": "SkinLab 演示",
+          "url": "https://www.drmagnuslynch.com/skin"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49881201"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "lightspeed-time-dilation",
+      "category": "视觉尝试",
+      "title": "LightSpeed：拖到接近光速，看十年地球只剩你多少秒",
+      "body": "打开 lightspeed.webland.pl，二十四段旅程从静止滑到接近光速。你拖场景或推滑条加速，左边地球走过十年，右边「你」的钟明显慢下来。速度用光速百分比标注，单位可切公里与英里，界面也有中文，科普账号直接能用。全程没有公式墙，只有一个画面：越快，你的时间越「便宜」。作者 Web LAND 把它做成互动展板，二十四关像闯关，适合随手丢进科普短视频当片头钩子。不用先懂洛伦兹变换，也能看见「十年地球、船上几天」到底有多夸张。Hacker News 以 Show HN 形式贴出，评论区在讨论怎么把这种演示塞进课堂。相对论最难的不是公式，是让人信「时间真的会变慢」。先让粉丝亲手把速度条拉满，再问一句「十年只剩几天，你还敢上这艘船吗」。所以呢：相对论别从公式开讲——先让他们看见画面，他们会记住这个对比。",
+      "links": [
+        {
+          "label": "LightSpeed 演示",
+          "url": "https://lightspeed.webland.pl/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49886039"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "shaped-cursor-trail",
+      "category": "视觉尝试",
+      "title": "光标拖尾换笔刷：Three.js + WebGPU 把圆斑改成任意形",
+      "body": "多数网站的光标拖尾是同一个径向圆斑把像素推开，看多了就腻。开发者 Bautista Berto 在 Codrops 示范另一条路。用一张网格记住光标走过的位置和速度，着色器再决定画什么。真正换风格的只有「盖章」那十几行——把笔刷从圆换成星形、条带或自定义蒙版，整条尾巴跟着变脸。技术栈是 Three.js、WebGPU 与节点式着色语言 TSL，演示页跑得起来就能抄。演示页与 GitHub 源码都公开，可直接嵌进作品集站，十分钟就能换一版笔刷。教程把「网格采样」和「笔刷形状」拆开讲，抄作业门槛很低，设计师也能跟。互动站最怕长得像模板主题——观众滑两下就觉得眼熟，立刻划走。改笔刷形状，比再加一层光晕更像「这是你的站」。所以呢：互动效果别再抄同款光晕——改笔刷形状，观众一眼认出这是你的站，而不是又一个模板主题。",
+      "links": [
+        {
+          "label": "在线演示",
+          "url": "https://tympanus.net/Demos/CustomShapedCursorTrail/"
+        },
+        {
+          "label": "教程原文",
+          "url": "https://tympanus.net/codrops/2026/09/24/custom-shaped-cursor-trail/"
+        },
+        {
+          "label": "源码",
+          "url": "https://github.com/BertovDev/cursor-shader-trail"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "nucleon-webgpu-chem",
+      "category": "视觉尝试",
+      "title": "Nucleon：浏览器里的落沙化学台，粘合能当经验值",
+      "body": "打开 itch 上的 Nucleon，在支持 WebGPU 的 Chrome 或 Firefox 里，一盘落沙实验室铺开。十七种可涂元素，点「步进」看键合成、反应放出能量，像把化学实验台塞进标签页。研究树解锁更大画布、更粗笔刷和更快模拟，玩法像轻量肉鸽，越玩越想刷图鉴。图鉴记下氢气、水、酸和合成气等二十多条发现，背景音乐还跟数列挂钩。全程 WGSL 计算着色器在本地跑，不上传服务器，隐私和延迟都省心。作者写明仍是原型，Safari 暂不支持，Chrome 里最稳，分享时要提一句浏览器要求。这比「AI 帮我生成一张贴图」更有说服力——粉丝会自己刷图鉴刷到停不下来。讲「AI 辅助做游戏」时，能玩的沙盘比概念视频值钱，也更好剪短视频。所以呢：别只秀生成贴图——丢一个能玩的化学沙盘，粉丝会自己刷图鉴刷到停不下来。",
+      "links": [
+        {
+          "label": "itch 页面",
+          "url": "https://xanderpatch.itch.io/nucleon"
+        },
+        {
+          "label": "直接游玩",
+          "url": "https://html-classic.itch.zone/html/17789645/index.html?v=1782555733"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "reef-relay-ocean",
+      "category": "视觉尝试",
+      "title": "Reef Relay：拧黄铜海流，把鱼送回家，礁石跟着长",
+      "body": "Reef Relay 是一款不限时的海洋解谜，浏览器里拧几下就能上手。拧场上的黄铜海流标记，引一条橙鱼吃完金色种子再游回家；每条成功航线都会让礁石多长一点。从安静海湾两步转弯练起，再到交错海流与海带林，最后一关叫 Homewater。没有生命值、没有倒计时；音效可关，也有减少动态选项，完成进度存在浏览器里。作者写明整关卡与文案由 Codex（Astra）代理生成并自测，游玩时不再调用任何 AI。九月游戏 jam「海洋」主题作品，浏览器即开，itch 与 HTML5 直链都有，方便直接投屏。人只负责拧海流，代理负责把关卡和文案搭到可玩——这才叫「做完能玩」而不是「生成清单」。想谈「AI 独立做出可玩小品」，这比又一份提示词截图更有说服力。所以呢：下次拍「代理做游戏」别只晒聊天记录——让观众自己拧海流把鱼送回家，画面比截图硬。",
+      "links": [
+        {
+          "label": "itch 游玩",
+          "url": "https://alvinhastra-web.itch.io/reef-relay"
+        },
+        {
+          "label": "HTML5 直链",
+          "url": "https://html-classic.itch.zone/html/19157866/index.html?v=1788889760"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "xequence-browser-daw",
+      "category": "视觉尝试",
+      "title": "Xequence：整台数字音乐工作站塞进标签页，只用原生日",
+      "body": "打开 Xequence 演示页，菜单里是剪辑、量化、多轨、鼓垫、MIDI 导入导出——一眼就是数字音频工作站的骨架，不是又一个玩具节拍器。作者强调：没有第三方音频插件栈，全靠浏览器自带的 Web Audio 节点把声音跑起来。你能画音符、调速度与拍号、拆控制器到单独轨道，再导出 MIDI 或音频。对想快速试编曲的人，够用且零安装，桌面浏览器就能开，不用先下一堆宿主软件。Hacker News 以「纯 WebAudio、零插件」作卖点贴出 Show HN，评论区在聊延迟和导出质量。做音乐或 ASMR 教程时，安装门槛一降，完播率往往跟着上来。评论区也会开始交作业，而不是先问「去哪下载破解版」。先让粉丝在标签页里摆两条轨，他们才愿意把你的教程跟做到底。所以呢：做音乐教程先降安装门槛——标签页里能摆轨，粉丝才跟得动。",
+      "links": [
+        {
+          "label": "浏览器演示",
+          "url": "https://seven.systems/xequence2/demo/demo-deploy/www/index.html"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49867275"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "phaistos-disc-lab",
+      "category": "视觉尝试",
+      "title": "费斯托斯圆盘工作台：转着泥盘做统计，不宣称破译",
+      "body": "克里特岛出土的费斯托斯圆盘两面螺旋戳满符号，一百年来破译噱头不断。这个开源工作台把圆盘做成可转的交互件，打开就能上手转。螺旋视图、提词器式逐符阅读、音频与统计面板都能开，适合当科普道具。图像来自维基共享与哈吉亚·特里亚达实物裁切，授权写在仓库里，转载也放心。作者反复声明：这是研究预览，不是破译宣言，宗教或文类解读只当假说。源码在 GitHub，GitHub Pages 上可直接点开把玩，不用装任何东西。你可以自己转盘看符号分布，而不是被标题党带着走「已经破译了」。碰到「古代谜题被 AI 破解」这类标题时，这个工作台是很好的对照物。让观众自己转盘看分布，比又一条「已破译」新闻干净得多。所以呢：别转述结论——让观众自己转盘看分布，比又一条「已破译」新闻干净得多。",
+      "links": [
+        {
+          "label": "交互工作台",
+          "url": "https://lessthanzero.github.io/phaistos-disk/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49866163"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "public-browser-mcp",
+      "category": "小众工具",
+      "title": "Public Browser：让代理开真 Chrome，代币少三分之一",
+      "body": "代理控浏览器常踩坑：步骤碎、回传又臭又长，一会话烧掉几百万 token。Public Browser 是挂在 MCP 上的服务，经 Chrome 开发者协议直连真浏览器，可多标签并行。一条 run_plan 能串多步并带变量，不用每点一下就往回灌整棵 DOM 树。作者用同一套三十题盲测、五轮取中位数做对照，数字写进 README，不是口头吹。相对 agent-browser，会话 token 约少百分之三十三、费用同降、耗时约快一半，三十题全过。安装一行 npx，Claude Code 与 Cursor 都能挂，门槛低到当天就能试。它不复制你的登录态那套是弱项，作者自己写进对比表，没有藏拙，选型时心里有数。账单和耐心往往死在「点一下看一整页树」这种粗粒度上，长流程一跑就炸预算。换更密的步骤，账单和耐心一起省，代理才跑得起端到端任务。所以呢：别再让代理「点一下看一整页树」——换更密的步骤，账单和耐心一起省。",
+      "links": [
+        {
+          "label": "GitHub / 发布",
+          "url": "https://github.com/Silbercue/public-browser"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49836880"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "geneva-html-video-cli",
+      "category": "小众工具",
+      "title": "Geneva：用 HTML/CSS 写字幕条，一条命令合成视频",
+      "body": "剪视频常卡在滤镜图和无头浏览器那一层，代理一改画面就崩，人还得接手。Geneva 是 Rust 写的单一二进制：底层仍用熟悉的编解码库，上面却换成「时间线 JSON + 原生排版引擎」。字幕、名牌、遮罩用普通 HTML 与 CSS 写，动画关键帧直接跑，不必再开 Playwright 去「假装浏览」。日常命令像 trim、concat、烧字幕、按场景转码，都先变成可检查的 JSON 再渲染，出问题能对表。作者演示：代理只喊 whisper 转写加一条 geneva，第一轮就做出带滑入名牌的成片。Linux、Apple 芯片 Mac、Windows 都有安装脚本，门槛不高，适合塞进自动流水线。给代理剪短视频时，八行 ffmpeg 滤镜往往改不动画面细节，字幕位置一调就整段重写。让它改 HTML，字幕位置和动画才像人在调，返工少一截，也更好做模板复用。所以呢：给代理剪短视频时，别再拼八行 ffmpeg 滤镜——让它改 HTML，画面才改得动。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/geneva-render/geneva"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49877953"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "papermono-eink-fridge",
+      "category": "小众工具",
+      "title": "PaperMono：墨水屏冰箱贴购物清单，手机网页同步",
+      "body": "M5Stack PaperMono 是一块带墨水屏触摸的 ESP32 小板，往冰箱门上一贴就有画面。作者用约两千四百行 C++ 做成冰箱购物清单：按货架分区显示，点一下勾掉，家人谁都能用。Wi-Fi 只在同步时短暂打开，平时离线也能改，改动先存闪存，不怕家里网晃两下。手机打开配套网页加菜、调货架顺序；服务端可选让 Claude 给新菜名归架，你手改过的归类会记住。他说固件几乎全由 Claude Code「氛围」出来，家里已经天天在用，不是只拍一段演示交差。Hacker News 一百三十多个赞，评论区在聊墨水屏刷新、耗电和「氛围写固件」能不能上生产。谈「AI 写固件」最怕停在闪灯 Demo——厨房里每天用的东西才硬，也更好拍短视频。贴一张会同步的冰箱清单，说服力比又一段终端录屏强。所以呢：谈「AI 写固件」别停在闪灯——贴一张会同步的冰箱清单，说服力在厨房里。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/seamusc/papermono-shopping-list"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49875801"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "openappa-flow-guards",
+      "category": "小众工具",
+      "title": "OpenAPPA：盯数据流的确定性护栏，不靠第二模型审批",
+      "body": "代理一多，有人用第二个模型当「审批员」，既费钱又仍可能被提示词骗过。OpenAPPA 走另一条路：开源、MIT、厂商无关，不绑某一家聊天模型。它按数据在工具之间怎么流来拦泄露，而不是黑名单拼正则硬挡命令名。作者给的对照里，任务完成率接近 Claude 自动模式，成功攻击次数却报到零。同时批评纯命令黑名单——你禁了 rm，模型改写一行 Python 照样删，黑名单挡不住换写法。文档里有策略配置、观测与报告接口，也能挂到 Claude Code 一类常见编程代理上。护栏要看得见数据能流到哪，团队才敢放开手脚让代理多碰工具，而不靠口头「小心点」。再加一个「会审判」的模型，往往只是把成本换了个名字，漏洞还在数据流里。所以呢：护栏别再赌「再加一个会审判的模型」——先画清楚数据能流到哪，漏洞才看得见。",
+      "links": [
+        {
+          "label": "官网 / 文档",
+          "url": "https://www.openappa.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49877515"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "inkvec-studio-wasm",
+      "category": "小众工具",
+      "title": "InkVec Studio：标志位图变 SVG，Rust 编成 WASM 本地跑",
+      "body": "把糊 logo 描成可编辑矢量，以前常要上传到在线转换站，客户文件先出境再说。InkVec Studio 把整套描图器塞进浏览器：Rust 实现编译成 WebAssembly，图不离开这台电脑。作者强调用最短描述长度思路收几何与共边，减少常见缝隙和错位，路径更好改、更好交给设计师。Hugging Face 静态页即开，Apache-2.0，也有 npm 包给开发者嵌进自己的流水线。Show HN 标题直接写「浏览器里的 SOTA 矢量化」，打开即用，不用注册，也不用排队。做品牌物料或图标清理时，本地描一版，隐私在，改路径也快，返工不用再传一轮文件。还不用把客户文件丢给陌生人的服务器，合规压力小一截，甲方也更放心。在线转换站方便，但文件出境那一步经常拦项目，本地跑更稳。所以呢：做品牌物料或图标清理时，先本地描一版——隐私在，改路径也快，还不用把客户文件丢给陌生人。",
+      "links": [
+        {
+          "label": "Studio 打开即用",
+          "url": "https://logolabs-inkvec.static.hf.space/studio/index.html"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/logolabs/inkvec"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49871070"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "grev-jev-unix",
+      "category": "小众工具",
+      "title": "grev：Unix 管道上的「语义 grep」，问的是意思不是正则",
+      "body": "经典 grep 要你写对正则，写错一行就漏告警。grev 一族反过来：管道喂文本，用一句话问「哪些是素食」「哪行说上游超时」。底下是 TypeSafe 的 Jev 决策模型——只吐标定好的概率，不生成长文。所以输出仍是你的原行，标签要显式加列才出现，管道不会被聊天废话弄脏。套件里还有按意思排序、去重、切栏、守卫提交（缓存差分像不像密钥）等过滤器。作者称几千行只要几美分、几秒级，适合嵌进夜里跑的告警脚本。接口长得像 grep、sort、cut，方便嵌进现有 shell 脚本和告警流水线，学习成本低。日志和工单别再只靠关键字——过滤器听懂人话，管道却还能接着往下跑。运维夜里少接一通电话，往往就差这一层「听懂意思」的过滤。所以呢：日志和工单别再只靠关键字——让过滤器听懂人话，运维夜里少接一通电话。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/aurorainfra/grev"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49837132"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "kern-rootless-sandbox",
+      "category": "小众工具",
+      "title": "kern：无守护进程的根容器沙箱，给没读过的代码一人一盒",
+      "body": "代理一跑 shell，你就会担心它乱装包、乱听端口、把宿主机弄脏。kern 自称快速、无守护进程、始终无根的容器运行时，专给这种「还没审完就想跑」的代码用。一个静态二进制，用内核真正的容器隔离去跑工作负载，包括模型刚写出来、你还没审完的代码。作者的卖点是「便宜到每次都能新开一盒」，不用为一次试跑起整套编排或云沙箱账单。Linux 原生；Windows 走 WSL2，Mac 需先起 Linux 虚拟机再装同一套，文档写得很直白。文档单独开了 sandbox 指南，强调无云、无后台常驻进程，装完就能在终端里试。炸了也只炸盒子，宿主机还能继续干活，适合给代理一人一盒、一事一清。别让代理的命令直接砸在宿主机上——那是把整台机器当试验田。所以呢：别让代理的命令直接砸在宿主机上——一人一盒，炸了也只炸盒子，宿主机还能继续干活。",
+      "links": [
+        {
+          "label": "Sandbox 指南",
+          "url": "https://getkern.dev/guide/sandbox.html"
+        },
+        {
+          "label": "官网",
+          "url": "https://getkern.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49877284"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "onesie-jev-pipe",
+      "category": "小众工具",
+      "title": "onesie：一行管道问 Jev，用退出码决定放行还是拦住",
+      "body": "把一行日志塞进 onesie，问「这有多紧急」，回来的是可脚本化的分数，不是一段聊天理由。配上 -q，退出码直接当闸门，shell 里 if 一下就能分流放行或拦住，接到现有脚本不费劲。作者给的 shell-safety 例子：git status 放行，rm -rf ~ 拦住，写笔记这种模棱两可则返回「去问人」。背后仍是 Jev 或兼容的 System One 决策模型，不靠聊天模型编理由，输出好接脚本、也好对账。能 brew 装，也有校验校验和的安装脚本，并带 Claude Code 插件，当天就能挂进工作流。还有 calibrate：用你标过的样本看阈值怎么切才稳，避免一刀切误杀正常命令。代理要跑命令前，先让管道投一票，比又一段「我觉得可以」干净，也更适合自动化。退出码能进脚本，聊天段落进不了——闸门要的是数字，不是语气。所以呢：代理要跑命令前，先让管道投一票——退出码比又一段「我觉得可以」干净。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/frodi-karlsson/onesie"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49876472"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
+    {
+      "id": "corral-agent-reap",
+      "category": "小众工具",
+      "title": "corral：代理跑完命令后，保证子进程一棵不剩",
+      "body": "编程代理和 CI 最烦这种事：命令表面上退出了，后台却还占着端口，下一轮全红。普通杀进程组会漏——守护进程双 fork 进新会话、子进程死死占着管道、有人无视 SIGTERM。corral 专治这个：限时跑一条命令，返回前确认整棵进程树已死，不留「幽灵」占资源。有 cgroup v2 时一刀写 kill，没有则当子进程收尸人，靠 pidfd 清扫。证不了就退出码一百二十，脚本能立刻知道没清干净，好重试或告警，而不是假装成功。作者写明：这不是安全沙箱，不管文件和网络权限，需要较新的 Linux 内核才能吃满强制模式。给代理加超时别只杀父进程——杀不干净，下一轮必踩雷，端口冲突还会悄悄拖垮整晚跑批。白天还不好复现，夜里才爆，排查成本翻倍。所以呢：给代理加超时别只杀父进程——杀不干净，下一轮必踩雷，端口冲突会悄悄拖垮整晚。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Cardinal44/corral"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49886422"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-09-29T14:20:00+08:00"
+    },
     {
       "id": "nvidia-openshell-sentry",
       "category": "硬科技",
