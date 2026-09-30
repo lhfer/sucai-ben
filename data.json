@@ -1,5 +1,644 @@
 [
   {
+    "id": "prompt-gpt-image-emoji-golden-week",
+    "category": "提示词",
+    "title": "黄金周人海：脸全是立体 Emoji",
+    "body": "国庆人山人海，DeepBlue 不想再拍一张普通到站照。他把地点丢进 GPT Image 2.5，加了一句狠的：身体、衣服、动作都按真人写，只有脸变成立体 Emoji。\n\n提示词很短，却把「禁止贴纸、禁止悬浮黄脸、禁止普通真人脸大量混入」写死了。于是挤出来的不是表情包贴图，而是一张像 iPhone 抓拍的人海——近大远小、互相挡脸，表情随机重复。人太多会出现小 bug，他的态度是多开几次盲盒，你就不在意了。换成故宫、外滩或任何景点，公式照样能跑，竖版 9:16 直接适合发短视频封面。\n\n所以呢：别再只骂黄金周人多，直接让人脸变成表情包，朋友一眼就懂你有多 crowding。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/DeepBlueX0/status/2105169318598365366"
+      }
+    ],
+    "prompt": "国庆黄金周 × 【地点】 × 😆😂😱😵‍💫🥵😩😎🤩😴🤪🥳😤🤔😭😮‍💨 × 超高密度立体 Emoji 式人脸人海 × iPhone抓拍\n\n说明：\n国庆黄金周真实现场，超高密度人潮，前中远景均被人群填满。人群身体、四肢、手部、服装、发型与动作保持真实人类形态，只有脸部呈立体 Emoji 式表情，与真人头部自然融合；表情随机重复、密集分布，人物自然遮挡、出框，近大远小。禁止 Emoji 贴纸、平面贴图、悬浮 Emoji、独立黄色圆脸、普通真人脸大量混入，9:16竖版。",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-popcorn-screen-leap",
+    "category": "提示词",
+    "title": "爆米花还没吃完，银幕反派跳进观众席",
+    "body": "影厅还黑着，一位亚洲女孩捧着爆米花看科幻大片。下一秒，红眼半机械反派从银幕里蹦出来，整间影院碎成废墟庭院，动作戏当场开打。\n\nAvelyrah 把这段交给 Seedance 2.5：先锁「看电影」的日常，再写环境硬切成古遗址，镜头强制跟动作走。笑点不在特效堆料，而在零食还没吃完，世界线已经崩了——观众席和银幕之间那层膜，被提示词一脚踹开。绿上衣、长黑发这些身份细节也写死了，免得模型中途换人。四分钟写完就能演示：日常一口，奇观一口。 演示时停在「手还举着爆米花」那一帧最好笑。\n\n所以呢：想拍「日常被电影吞掉」的短片，别从爆炸开场，从一个还在嚼爆米花的人开场。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/AvelyrahnAI/status/2105158267437548020"
+      }
+    ],
+    "prompt": "Cinematic 4K action sequence in a dark movie theater. A young Asian woman with long black hair and a green long-sleeve top is eating popcorn, watching a sci-fi blockbuster on screen. Suddenly, a robotic cyborg villain with glowing red eyes leaps out of the movie screen into the theater. The environment instantly shatters and transitions into an epic ancient ruin courtyard with stone columns under a stormy sky. Dynamic camera movement tracking intense hand-to-hand combat between the woman wielding swirling green magical energy and the metallic cyborg casting purple spell circles. High-budget Hollywood blockbuster aesthetics, dramatic lighting, particle effects, slow-motion impacts, and hyper-realistic textures.\n\n#Flovaai #Flovacpp",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-coffee-prehistoric",
+    "category": "提示词",
+    "title": "晨间咖啡一口，掉进史前世界",
+    "body": "金光里的写字楼、黄出租车、通勤西装——Elvorya 先把「普通早上」拍实了，再让 Seedance 2.5 把那杯咖啡变成单程票：人一转角，玻璃幕墙换成原始丛林，暴龙掠过树冠。\n\n整段三十秒写死了跟踪镜头、城市细节和「突然穿越」的衔接，不是幻灯片换景，而是同一个人还拎着咖啡走进不可能的世界。西装褶皱和恐龙鳞片被放进同一条时间线里，违和感本身就是笑点。观众会先笑「这也太突然」，再倒回去看他是怎么走进去的；博主演示时最容易停在转角那一帧。 穿越前后用同机位跟拍，违和感才立得住。\n\n所以呢：科幻不用从飞船起飞，一杯没喝完的咖啡就够把观众踹出日常。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Elvorya/status/2105171530703413334"
+      }
+    ],
+    "prompt": "Create a 30-second photorealistic cinematic fantasy adventure sequence following a sharply dressed businessman through an ordinary morning in a busy modern city. Begin with a warm golden-hour tracking shot moving through a downtown street surrounded by towering glass skyscrapers, yellow taxis, pedestrians, and long cinematic shadows → reveal the businessman wearing a dark navy suit, white shirt, and tie, calmly walking through the crowd while holding a takeaway coffee and papers → transition to a dynamic street-level shot as a woman accidentally bumps into him, causing papers, coffee, sunglasses, and pigeons to scatter dramatically through the air → cut to a cinematic close-up as he reaches toward the floating coffee cup while strange golden magical particles begin appearing around him → suddenly reveal the coffee cup surrounded by glowing blue magical energy as the entire city begins filling with swirling particles → transition into a dramatic low-angle shot looking upward between enormous skyscrapers as the atmosphere transforms into a powerful vortex of golden dust and blue energy → cut to a spectacular portal sequence as a huge glowing blue circular gateway opens and pulls the businessman through the air, his suit and tie reacting naturally to the force while he desperately holds onto his coffee → transition through the blue portal into a mysterious ancient rainforest filled with enormous trees, dense ferns, mist, moss-covered ground, and shafts of soft sunlight → reveal the businessman crashing onto the forest floor, still holding his coffee, then slowly standing up in confusion → suddenly cut to an intense close-up of a gigantic realistic T-Rex-like dinosaur emerging from the dense jungle and roaring directly toward him → transition into a fast dynamic tracking shot as the businessman runs across a massive fallen tree while the dinosaur charges aggressively behind him → cut to a spectacular wide shot of him sprinting across a rope suspension bridge above a raging jungle river as the enormous dinosaur follows him → transition into an action close-up as he grabs a hanging jungle vine and swings dramatically beside a massive waterfall while the dinosaur leaps across the gap behind him → final shot becomes a heroic cinematic wide-angle view of the businessman standing on a moss-covered rock in the prehistoric forest, calmly drinking his coffee while a brilliant glowing blue portal opens behind him, surrounded by mist, waterfalls, enormous trees, floating magical particles, and dramatic sunlight breaking through the canopy.\n\nVisual style: ultra-photorealistic live-action fantasy adventure, premium Hollywood cinematography, realistic human character, realistic dinosaur creature, natural skin texture, physically accurate motion, cinematic depth of field, anamorphic lens, volumetric lighting, atmospheric fog, realistic water and particle effects, dramatic scale, smooth camera movement, high-detail environments, immersive cinematic realism, 4K quality.\n\nCharacter continuity: keep the exact same businessman throughout the entire sequence, identical face, hairstyle, age, body proportions, navy suit, white shirt, tie, black shoes, and coffee cup; no identity drift, no wardrobe changes, no character redesign.\n\nNegative prompt: cartoon, animation, stylized CGI, plastic skin, fake-looking human, identity drift, changing face, changing clothes, duplicate character, extra people appearing suddenly, deformed hands, extra fingers, extra limbs, distorted body, unrealistic dinosaur anatomy, floating objects, broken physics, jittery motion, excessive motion blur, warped buildings, artificial environment, low detail, oversaturated colors, text, subtitles, logos, watermark, UI elements.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-park-size-shift",
+    "category": "提示词",
+    "title": "公园一跳缩成易拉罐，骑蜜蜂穿人群",
+    "body": "树干上一蹲就跳，落地前身体缩成易拉罐大小，野餐垫瞬间变成巨型三明治山谷。Saul Goodman 这段 Seedance 2.5 分镜把缩放写成连续物理过程：先跑食物丛林，再跳上蜜蜂，从行人腿间穿过，水气球慢镜炸开，最后变回真人扑进同学怀里眨眼定格。\n\n狠的是每一段都标了秒数和镜头感觉，模型不容易「忽然变大又忽然变糊」。蜜蜂被写成「像车一样冲过来」的载具，鞋子落地则是移动障碍。三十秒里完成一次完整冒险，而不是停在「哇好小」的惊叹号上；适合当缩物片的标准作业模板。\n\n所以呢：缩物片别只拍「哇好小」，要写清怎么小、骑什么、从谁的腿边擦过去。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Goodmanprotocol/status/2104941537813536925"
+      }
+    ],
+    "prompt": "Create a 30-second photorealistic cinematic action short on a bright summer day in a Japanese park. A young adult Japanese woman wearing a school-style uniform moves through a surreal size-changing adventure. Realistic physics, high-speed movement, seamless scale transitions, dynamic camera work, natural sunlight, detailed environments, cinematic 4K. No text, subtitles, logos, or watermarks.\n\n[0–5s] — THE JUMP\nShe crouches confidently on a thick tree branch in a sunny park, focused and fearless. Without hesitation, she jumps forward. The camera dives rapidly alongside her as she falls toward a picnic table below.\n\n[5–9s] — THE SIZE SHIFT\nJust before landing on the picnic table, her body suddenly shrinks to the size of a soda can. The tabletop transforms into a gigantic landscape filled with oversized sandwiches, fruit, chips, and drinks. She immediately starts running between the giant food items.\n\n[9–13s] — THE BEE\nA bee suddenly races past her like a speeding vehicle. She jumps onto its back and grabs onto its body. During the movement, another seamless scale transition makes her roughly the same size as the bee. The bee rapidly takes flight.\n\n[13–18s] — HIGH-SPEED FLIGHT\nThe bee weaves through the park at incredible speed. She holds tightly onto its back as they race between pedestrians' legs. Giant shoes hit the ground around them like moving obstacles. Strong wind blows her hair and clothing backward while the camera tracks them at ground level.\n\n[18–22s] — WATER BALLOON CHAOS\nThey fly through a group of children having a water-balloon fight. Time suddenly shifts into dramatic slow motion. Water balloons burst around her, with thousands of sparkling droplets suspended in the sunlight. She looks both nervous and thrilled as the bee narrowly avoids the explosions.\n\n[22–25s] — HUMAN TUNNEL\nSpeed instantly returns to normal. The bee darts through a line of cheerleaders standing side by side. Their legs and colorful pom-poms create a rhythmic tunnel around the tiny rider. The camera races alongside them with energetic tracking movement.\n\n[25–27s] — THE TRANSFORMATION\nShe jumps from the bee. While falling, her body rapidly expands back to normal human size in one seamless visual transition. A young adult male student nearby opens his arms and catches her safely.\n\n[27–30s] — FINAL MOMENT\nBoth are now normal-sized. She briefly hugs him, then turns toward the camera with a playful smile and a quick wink. He looks surprised and delighted. Freeze briefly on the charming final frame.\n\nSTYLE: photorealistic cinematic action, realistic human anatomy, natural facial expressions, physically believable movement, seamless scale transformations, bright summer sunlight, realistic shadows, detailed park environment, dynamic FPV-style camera movement, controlled motion blur during high-speed transitions, slow-motion water droplets, cinematic depth of field, 4K HDR.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-prewritten-duel",
+    "category": "提示词",
+    "title": "决斗还没开始，记事先生结局写好了",
+    "body": "Soran 用 Seedance 玩古风仙侠，却不让人先砍一刀。敌方剑客太自信，专程请来一位「客观记录」的江湖记事先生；结果两位女侠发现——最后怎么写，人家早就付过钱了。\n\n提示词要求默片式反应、港式铺垫回收、三拍递进，庄严挑战撞上元喜剧。人物身份锁参考图，环境要先融合成同一套江湖 DNA，再开打。记事先生只许一本正经地当道具，年长师父负责最后补刀。你第一遍就能看懂笑点：决斗还没开始，结局已经排好版。这种「元叙事」武侠，评论区最好聊。 英式一本正经和港式回收被写进同一条喜剧主线。\n\n所以呢：武侠段子不一定靠剑光，靠「胜利宣言提前排版」就够好笑。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Soranlan/status/2105156705260868087"
+      }
+    ],
+    "prompt": "电影级写实质感，纯古风中国仙侠美学。\n\n把真正庄严的高手挑战，与 “提前包装江湖名声” 的元喜剧进行碰撞。\n吸收：\n默片式反应节奏\n\n英式一本正经逻辑\n港式喜剧快速铺垫与回收\n经典“三拍递进”结构\n采用：\n\nArri Alexa 电影机质感\n\n稳定清晰的面部微细节\n细腻胶片颗粒\n自然体积光\n核心喜剧主线\n\n整段只保留一条第一遍就能立即看懂的喜剧主线：\n\n一个极其自信的敌方剑客，为了证明自己即将获得一场传奇胜利，专门带来一名江湖记事先生“客观记录”；结果真正的决斗还没开始，图一图二两名女子就发现——敌人连最后怎么写都已经提前花钱定好了。\n\n角色功能原则\n\n记事先生始终只承担一本正经的辅助角色\n\n年长师父只负责最后一次补刀\n参考与环境\n将 @图片 1 和 @图片 2 严格作为人物身份锚点。\n\n本轮新上传的所有背景与地点参考图，共同决定同一套环境 DNA。\n正式构图前，无声整合能够互相兼容的：\n\n真实地形\n\n建筑语言\n\n材质年代\n植被\n\n水体\n天气\n山雾\n主光方向\n反光关系\n空气纵深\n人物真实可行走路线\n再重新规划成本轮独有、完整统一的新空间。\n背景原则\n背景中的以下元素始终持续自然鲜活，但在叙事上绝对中立：\n自然风\n\n水体\n\n植被\n云层\n\n远处普通弟子\n空间环境声\n角色设定\n角色 ID A｜剑仙师姐\n始终是同一个 @图片 1 剑仙师姐：\n25–30 岁东亚女性\n\n身材高挑纤细\n\n椭圆脸\n\n深色杏眼\n黑色长发半挽，以白玉簪固定\n\n始终穿同一套白色刺绣真丝汉服\n银色腰封\n玉佩\n白色布靴\n持唯一一柄银色长剑\n角色 ID B｜小师妹\n始终是同一个 @图片 2 小师妹：\n20–25 岁东亚女性\n身形娇小\n圆润灵动的脸\n\n黑发编辫\n始终穿同一套青绿色亚麻汉服\n\n深色腰带\n木簪\n黑色布鞋\n持唯一一柄深色钢剑\n其他角色\n敌方剑客\n气势十足\n极其自信\n非常在意自己的江湖名声\n\n江湖记事先生\n\n唯一一名中年记事先生\n手中只有毛笔和一卷没有任何可读文字的素色纸卷\n始终一本正经、职业化、认真执行自己的“记录工作”\n年长师父\n\n始终沉稳\n只在最后完成一次一本正经的补刀\n分段结构\n0–5s｜全景或远景\n\n一名气势十足的敌方剑客进入根据本轮参考图自然形成的开放区域，身旁跟着唯一一名中年江湖记事先生。\n记事先生手中只有毛笔和一卷没有任何可读文字的素色纸卷。\n敌人拔剑，非常郑重地宣布：\n\n“今日请先生作证，免得有人输了不认。”\n\n同一个小师妹看了一眼旁边的记事先生，平静评价：\n\n“还挺正式。”\n\n同一个白衣剑仙从头到尾保持冷静。\n\n5–10s｜中景或牛仔景\n\n保持：\n\n同样人物\n\n同样服装\n\n同样长剑\n\n同一个记事先生\n\n同一卷纸\n\n完全一致的地理空间\n\n真正决斗还没有开始，记事先生突然非常职业化地稍微靠近敌人，小声确认：\n\n“公子，还是按‘十招大胜’记？”\n全场绝对安静半拍。\n敌人的身体当场僵住，立刻压低声音恼火反问：\n“不是说打完再写吗？”\n记事先生一本正经回答：\n“定金付的是这个结局。”\n\n同一个小师妹非常缓慢地把眼神从记事先生移到敌人脸上，难以置信地问：\n\n“结局都买好了？”\n\n同一个剑仙师姐什么都没说，只极轻微地抬起一侧眉毛，第一次产生真正兴趣。\n\n整个背景从头到尾持续自然运行，却完全不参与笑点。\n\n10–15s｜特写或极近特写\n\n同一个白衣剑仙非常认真地问记事先生：\n\n“若他输了呢？”\n\n同一个记事先生几乎零停顿回答：\n\n“补银子，可改成‘虽败犹荣’。”\n\n敌人瞬间恼羞成怒：\n\n“我不会输！”\n\n镜头焦点转移到两人数步后方自然存在的同一个年长师父。\n\n师父从头到尾保持绝对一本正经，只淡淡说道：\n\n“那先替他记一句：未开打，先改稿。”\n\n同一个记事先生非常职业化地点一下头，立即抬起毛笔准备继续记录。\n\n敌人这一次真正慌了，马上喊道：\n\n“这句别记！”\n\n记事先生停顿半拍，看着他认真评价：\n\n“这句也挺好。”\n\n极近特写：\n\n同一个小师妹迅速转开脸，肩膀出现极轻微颤动，拼命忍住笑\n\n同一个剑仙师姐则依旧保持真正高手的庄重表情，非常礼貌地向敌人做出一个继续比武的手势：\n\n“现在能打了吗？”\n\n敌人先看看记事先生，再看看自己手中的剑，最后又看看后方师父，突然意识到现在真正岌岌可危的已经不是自己的身体，而是自己苦心经营的江湖名声。\n\n在他回答之前精准切黑。\n\n喜剧节奏原则\n\n整段必须符合清楚的“三拍递进”：\n\n第一拍\n\n敌人郑重带着记事先生上场，像要见证一场传奇胜利。\n第二拍\n\n记事先生职业化暴露：胜负文案已经提前付费定好。\n\n第三拍\n\n师父一本正经补刀，记事先生准备如实记下，敌人终于发现真正危险的是自己的名声。\n\n表演原则\n\n敌方剑客\n\n不是丑角表演\n\n不是故意滑稽\n必须认真维护自己的排场和体面\n\n喜剧感只能来自他越想保住名声，越暴露自己提前包装结果\n记事先生\n\n必须极端职业化\n一本正经\n\n逻辑清楚\n\n完全不觉得自己荒唐\n\n他的喜剧感来自“过度认真”\n剑仙师姐\n全程冷静\n不嘲讽\n不抢台词\n\n后半段才因为事情的荒谬性，第一次表现出真正兴趣\n小师妹\n反应要自然\n不夸张大笑\n重点是“忍笑”\n年长师父\n\n必须绝对平静\n那句“未开打，先改稿”要像陈述事实，而不是故意抖包袱\n硬性要求\n严格总时长 15 秒\n16:9 横屏\n\n三个连续清晰镜头\n原生同步普通话对白\n精准口型\n明确的喜剧停顿\n\n针对 Seedance 2.0 Mini 强化多参考人物身份连续性\n人物面部全程稳定\n发型全程稳定\n\n服装全程稳定\n\n长剑全程稳定\n\n记事先生道具全程稳定\n配角位置全程稳定\n地理空间全程稳定\n人物走位简单清楚\n真丝衣料和头发物理效果真实\n前景、中景、远景保持自然视差与真实空间环境声\n不生成字幕\nNegative\nblurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, background shift, glitching cuts, disappearing props",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-shibuya-sword-comedy",
+    "category": "提示词",
+    "title": "涩谷街景里，二次元双女主砍穿敌军",
+    "body": "真实涩谷的街和光还在，两个参考图锁定的动漫女主却在人群里挥刀开路。tokyo_Valentine 把 Seedance 2.5 写成「参考画风角色进真实城市」：脸、发型、服装不许漂，对白、配乐、特效还要对上节拍。\n\n笑点在反差——霓虹和人流是实拍质感，砍人的节奏是动作喜剧。提示词把敌兵设计也锁死，避免每刀换一张脸；还要求选好画幅比例，方便直接发竖屏或横屏。作者原话就很直：动画角色在现实世界闹事，画面真的合拍。适合演示「角色锁图 + 真实场景」怎么写才不漂。\n\n所以呢：二次元进现实别做成 PPT 贴图，要逼模型在真实街道里把动作打满。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/tokyo_Valentine/status/2105172518453527010"
+      }
+    ],
+    "prompt": "Create a 30-second Japanese sword-action comedy: reference-style 2D anime characters composited into photorealistic Shibuya. Synchronized dialogue, music and effects. Use the selected aspect ratio.\n\nREFERENCES\nA = black-haired heroine from @Image 1; her voice uses @Audio 1.\nB = white-haired heroine from @Image 2; her voice uses @Audio 2.\nAll enemies use the design from @Image 3.\nPreserve exact faces, hair, costumes, accessories, proportions and reference art styles. Images define identity, not poses or sheet layouts. Equal heroine heights, excluding ornaments. A and B are allies; ONE of each. Replicate only enemies.\nAudio references define timbre and natural pitch, not scripts. Never replay recorded words or swap voices. Enemies are silent.\nSTYLE AND LOCATION\nA, B and enemies retain their reference illustrated styles, clean lines and cel shading. Never turn them into live-action people or 3D figurines.\n\nPhotorealistic Shibuya Scramble Crossing at night after rain: diagonal zebra stripes, station frontage, curved commercial buildings, LED screens, wet asphalt and realistic glass, concrete and steel. Screens show abstract colors, no readable brands.\n\nIntegrate the illustrated characters through matching light direction, soft contact shadows, wet-road reflections and colored light on their cel shading. Keep their faces and linework sharp. Buildings, airborne debris, dust and destruction have realistic materials, weight and lighting. Sword energy remains vivid anime-style light.\n\nOnly heroes and enemies occupy the streets; no civilians or moving traffic. Establish Shibuya in the first frame before the destruction.\nOPENING SPECTACLE AND CONTINUITY\nBegin directly with a combined ultimate attack; no title or long setup. Both swords are already charged in the first frame.\n\nTEN THOUSAND enemies fill the crossing and roads in deep layered ranks. A's teal slash and B's violet slash visibly merge into ONE gigantic crescent, expanding into a pressure wave that blasts enemies AND buildings outward.\n\nEach heroine has one right-hand silver katana and a waist scabbard. Left hands may support the grip. Keep blades rigid and clear of each other.\n\nShow contact before displacement. Enemies stay down. Close combat uses three to six attackers, preserving @Image 3. Sparks and knockdowns; no blood or exposed wounds.\n\nSHOT 1 — COMBINED ULTIMATE ATTACK, 0–3 seconds\nLow wide view across the crossing: A left, B right, side by side, facing a vast enemy formation. Their charged blades and wet road reflections glow teal and violet.\nA slashes diagonally upward, B downward, in separate spaces. Energy trails cross ahead and fuse into one white-gold crescent. Bodies and blades never collide.\n\nAround 0.1–0.8 seconds, A uses @Audio 1 and says:\n「いくよ！」\n\nAround 0.9–1.6 seconds, B uses @Audio 2 and replies:\n「あわせる！」\n\nThese are the only lines; accurate lip sync. At 1.6 seconds the crescent launches the front ranks. Show merger and impact clearly.\n\nSHOT 2 — TEN THOUSAND BLOWN AWAY, 3–8 seconds\nHigh oblique view over the crossing and roads. Both heroines stay grounded at the origin; debris flies away from them.\nThe pressure front lifts successive enemy ranks and drives thousands of silhouettes backward with spinning weapons. It also strikes buildings along both roadsides, blasting them away from the heroes.\n\nShow a traveling chain reaction, not an instant disappearance. At wave contact, windows shatter, signs tear away, and buildings rip from their foundations and fragment. Huge concrete sections and steel frames fly OUTWARD with the army. Show collapse spreading building by building, never an unrelated explosion.\n\nBriefly slow the airborne peak, then resume speed. Illustrated enemies and photorealistic building fragments fill the sky. Keep silhouettes readable through dust.\nSHOT 3 — BACK-TO-BACK GUARD, 8–11 seconds\nLow medium-wide: the heroines slide back-to-back, feet grounded. The army stays down. Keep buildings ruined throughout.\n\nA fresh @Image 3 squad enters over distant rubble; show their arrival, no respawning. The heroines exchange a glance and face them.\nSHOT 4 — LOW/HIGH TEAMWORK, 11–16 seconds\nFull-body lateral tracking. A advances into three attackers, ducks an incoming sword and sweeps low. Show blade contact, sparks and the attackers losing balance.\n\nB leaps above A's crouched shoulder, clearly separated, and strikes another attacker. Show contact and its backward fall. B lands ahead as A rises.\n\nHold leap and landing continuously, keeping blade paths distinct.\nSHOT 5 — MUTUAL PROTECTION, 16–22 seconds\nWider three-quarter view. An enemy attacks A's rear. B steps in and visibly parries above A's shoulder. A pivots beneath the clash and strikes the attacker approaching B's side.\n\nThey turn back-to-back and simultaneously slash outward into opposite sectors. A short teal-and-violet shockwave knocks down the remaining close attackers. This follow-up is smaller than the opening ultimate attack.\n\nDust clears. The main army remains down, the reinforcements are defeated, and ONE last enemy is standing several meters ahead. Both heroines lower their blades.\n\nSHOT 6 — TOO POLITE TO FINISH, 22–27 seconds\nStable wide three-shot on the crossing: A left, B right, last enemy ahead. Stop the action music.\n\nA offers the last enemy with her empty left palm, right-hand katana lowered. B returns the gesture. Both stay serious, looking at each other.\nThe enemy quietly lays its sword on a zebra stripe, backs away and runs out of frame. Show this continuously.\n\nA and B turn back together and discover only the abandoned sword. Hold an awkward pause. No dialogue explains the joke.\n\nSHOT 7 — THE FAMILIAR FACE, 27–30 seconds\nFrontal close-up of anime A against a blurred photorealistic ruined Shibuya skyline. Preserve her exact face and hair. Wide eyes, small pupils, raised brows and lips slightly parted once, then held still: her familiar stunned, uncomprehending expression.\nA looks toward camera. Push in; hold the final full second, sword out of crop. No blush, crying or speech. End on A.\n\nSOUND AND MUSIC\nAfter the two opening lines, no dialogue, narration, grunts, gasps, screams, laughter or vocal breaths from anyone.\n\nInstrumental drums, strings and brass drive combat. Synchronize swords, impacts, collapses and landings. Opening: huge bass impact and cascading crashes.\n\nCut music at Shot 6. Hear the sword, retreating steps, settling debris and wind. No choir, vocals, comedy sting or canned laughter.\nNo text, subtitles, logos, watermarks, HUD, hero clones, mixed identities, extra limbs, fused bodies, morphing swords, costume changes, persistent afterimages, uncontrolled camera spins, realistic human faces, 3D character redesign or chibi.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-spider-lily-dance",
+    "category": "提示词",
+    "title": "彼岸花雨里跳一场暗黑祭舞",
+    "body": "雨打湿石阶，红彼岸花铺满废神社。子丹把 Midjourney 出的角色丢进 Seedance，十五秒提示词按时间表写死：先静止推镜，鼓点落下就绕拍肩击与手势，再手持跟拍、旋转带雾，最后音乐放慢，人缩成花海剪影，一片花瓣掠过镜头。\n\n衣服袖子和头发要跟动作走，环境也要「被舞带动」——花晃、雾跟、雨溅。负向提示还禁了夜店、街拍和喜剧脸，逼气氛停在优雅恐怖。冷蓝光撞血红花，像一场被雨淋湿的告别仪式。分镜细到「哪一秒特写眼睛、哪一秒拉远」，抄作业很顺。 花瓣掠过镜头的收尾，比再加一个旋转更干净。\n\n所以呢：跳舞短片别只写「好看的舞」，要把镜头和情绪的起伏写成时间表。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/liluocheng13/status/2105097476273545558"
+      }
+    ],
+    "prompt": "Subject & Character: A mysterious and beautiful young East Asian woman standing in a ruined ancient shrine surrounded by endless red spider lilies under a dark stormy sky. She wears an elegant black gothic traditional-inspired dress with red accents, long flowing sleeves, and dark fabric moving naturally with her body. Her expression is cold, melancholic, and hypnotic — a mixture of sadness, loneliness, and quiet confidence. Maintain the original character appearance, face, hairstyle, outfit design, and cinematic atmosphere. ⸻ Action & Choreography: 15-second intense cinematic dance performance. The woman performs a powerful fusion of dark contemporary dance, gothic choreography, and sharp hip-hop inspired movements. Her movements are elegant but explosive: * sudden shoulder hits * sharp arm waves * dramatic body isolations * fast hand gestures like a ritual dance * powerful spins * flowing sleeve movements * low crouching movements * sudden freezes matching the rhythm Her long sleeves and hair follow every movement with realistic physics. The dance feels like a lonely ghost performing a final ritual in a forgotten world. She moves from stillness into explosive motion, expressing grief, anger, and acceptance. ⸻ Camera Direction: Vertical cinematic video 9:16 Use dynamic movie-style camera language: 0-3 seconds * Start with a slow cinematic push-in from a wide shot. * Woman stands motionless in the middle of the spider lily field. * Wind moves her hair and dress. * Rain droplets fall. 3-6 seconds * Sudden beat drop. * Camera rapidly circles around her. * She begins sharp dance movements. * Fast shoulder hits and arm movements. * Red spider lilies shake violently around her. 6-10 seconds * Dynamic handheld camera following her movement. * Low-angle shots showing power and elegance. * Quick cinematic cuts: * close-up of her eyes * close-up of hands * flowing black fabric * footsteps stepping through wet ground 10-13 seconds * She performs a powerful spin. * Camera rotates with her. * Hair and sleeves create a circular motion. * Fog swirls around her like a supernatural force. 13-15 seconds * Music suddenly slows. * She stops moving. * Camera pulls far away. * She becomes a lonely silhouette surrounded by endless red flowers. * A single red spider lily petal falls in front of the lens. ⸻ Environment & Lighting: Dark abandoned Japanese-inspired shrine ruins. Heavy rain, wet stone ground, dense fog. Cold blue cinematic lighting mixed with deep crimson highlights from spider lilies. The atmosphere is: * beautiful * tragic * mysterious * supernatural * elegant horror The environment itself reacts to her dance: * flowers sway with her movements * fog follows her motion * rain splashes with footsteps * shadows move subtly on the walls ⸻ Camera Style: IMAX cinematic photography. Dynamic camera movement: * orbit camera * low-angle tracking shot * fast dolly movement * smooth handheld realism * dramatic close-ups * slow motion moments High-quality cinematic dance film aesthetic. Realistic human motion, natural body physics, detailed fabric movement. ⸻ Visual Style: Silent Hill f inspired atmosphere. Dark Japanese gothic fantasy. Cinematic realism. Cold blue and blood-red color palette. Ultra realistic skin texture. 35mm film grain. High contrast lighting. Moody, emotional, haunting beauty. ⸻ Negative Prompt: static image, boring movement, stiff body, robotic dance, bad anatomy, distorted face, extra limbs, unrealistic physics, cartoon style, excessive visual effects, bright colors, modern nightclub, casual streetwear, comedy expression, low quality, frame interpolation artifacts, watermark, text, logo.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-mech-bike-transform",
+    "category": "提示词",
+    "title": "十秒：摩托贴地冲，当场变形蝙蝠车",
+    "body": "Povi 把一段十秒变形戏写成可复制菜谱：全局锁一镜到底、向前冲、同一骑士同一载具；0–3 秒贴地压迫，3–7 秒尾甲展开、轮距外扩、座舱下沉成哑光蝙蝠车，7–10 秒尾焰喷进隧道。\n\n音效也按段写了引擎、金属咬合、尾焰。模型指向 Seedance / 豆包视频，16:9 横屏。短，但每秒都有事做，还不让镜头乱切糊弄变形过程。作者直接说「复制就能跑」，适合当变形戏练手模板；中文分镜也让国内工具更好喂。 冷色工业风一镜到底，变形过程不允许用切镜作弊。\n\n所以呢：变形别写成「然后它变了」，要写清哪块装甲先动、车身往哪沉。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/ProofOfVibe_HQ/status/2104768971681804500"
+      }
+    ],
+    "prompt": "【10秒机械变形·实测出片分镜提示词开源】👇\n\n模型：Seedance 2.0 / 豆包视频（16:9 横屏）\n\n【全局设定】\n4K电影质感，冷色调工业风，低角度背视跟拍，连续镜头一镜到底。\n约束：同一骑士与载具，行驶方向严格向前，变形过程机械连续，不做镜头切换；无文字、无闪烁、无多余肢体。\n\n【分段动作与音效】\n▪️ 0-3秒（高速压迫感）：\n全黑外骨骼装甲骑士驾驶黑金科技摩托贴地狂飙，低角度镜头伴随速度残影。\n音效：高亢引擎轰鸣、轮胎摩擦声。\n\n▪️ 3-7秒（连续机械变形）：\n尾部装甲展开，机械悬挂与后轮横向外扩着地，座舱下沉重组为全黑哑光低趴蝙蝠车，金属关节放电。\n音效：金属咔哒咬合声、电火花声、重型机械变形声。\n\n▪️ 7-10秒（冲刺收束）：\n车身红色尾灯亮起，中置喷口喷射幽蓝尾焰剧烈加速，车头擦出火花冲入黑暗隧道。\n音效：引擎咆哮、尾焰爆鸣、隧道空间回声。\n\n直接复制喂给模型即可跑出同款，欢迎实测交作业！🔥",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-fold-city-chase",
+    "category": "提示词",
+    "title": "折叠城市里追打：路会竖起来挡你",
+    "body": "街道左右卷起变成墙和天花板，前方路面弯成竖直坡——李思源把「空间本身当对手」写进 Seedance 提示词。被追的人穿海军蓝夹克，追的人寸头皮夹克，参考图锁身份；另有一段白模视频只负责告诉模型「城市怎么折」，不许抄白模材质。\n\n三十秒戏剧线钉死：追赶—截击—反击—暂时脱身。镜头约四段，跟拍、弧线拉开、交手中全景，结尾两人分处不同高度，逃只是暂时的。重力跟着各自脚下的路面变，腾空落地都要演清楚。这是少见的「把空间语法讲明白」的长提示词。 素材引用示例编号也写清了，方便别人复用绑定。\n\n所以呢：奇幻追逐别只加飞天特效，让地面和建筑改路线，观众才觉得跑得险。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/CosmoThinks/status/2104646843955343482"
+      }
+    ],
+    "prompt": "导演一条完整的30秒、16:9横屏、720p写实奇幻动作电影片段。两位成年男子在层层折叠的镜像城市中追逐并近身交锋。空间变化要改变他们的路线、攻守和脱身机会。摄影具有强烈的速度、重量、纵深和临场感，表演清楚有力，形成一次完整的“追赶—截击—反击—暂时脱身”。\n\n【素材分工】\n@图片1与@图片2定义被追者A：黑发、海军蓝织物短夹克、低帮鞋。@图片3与@图片4定义追击者B：花白寸头、胡茬、炭灰皮夹克、棕色内领、高帮靴。分别保持两人的脸、发型、服装和体型一致，重新设计表情与动作。\n@图片5提供城市主美术，@图片6提供倒悬空间的建筑与光影想象，@图片7补充近处地面、栏杆与建筑材质。这些场景图负责电影质感；可自由重组具体布局，不复制构图或其中的站姿。\n@视频1只定义已确认的空间变化逻辑：身处街道内部，左右连续城市先后卷起成为侧墙与头顶，部分建筑分层错位，前方道路连续弯成竖直路面。保留多个城市区域之间的相对变化与完整体积，自主设计更丰富的空间结构。这个12秒视频不是成片时长、动作或摄影模板；蓝橙标记不是演员与运动捕捉数据。忽略标记的外形和滑行，不复制白模的慢推、低细节建筑、重复窗格、灰色材质和照明。\n\n【30秒内的戏剧推进与动作】\n开场就处在追赶中：A沿街冲刺，B迅速逼近；两侧城市开始收拢，宽阔逃跑路线变窄。A看到前方道路抬升，被迫沿正在弯折的街面转向侧墙；B辨认出相邻街巷的近路，切近并抢到A前面。短暂看清B的近路如何接入A的路线，使截击有连续的位置依据。让两人的选择由可见地形造成。\n中段在同一局部支撑面上进入一场紧凑的徒手攻防，双方重心方向一致：B先压迫A，A闪避防守、不断失去退路；一次近身接触使双方位置反转，A打出有分量的反击，B踉跄后重新追上。具体招式由你编排，保留准备、接触、身体反应与恢复平衡，攻击要引出真实回应。用少量清楚有效的交手制造强弱起伏，不做轮流摆姿势的表演。\n最后，错位的两段街道出现短暂接近的窗口。A抓住时机摆脱纠缠，跃向正在升起的道路并落地继续跑；B追到连接处时道路已再次错开，他急停在下方边缘。结尾同时看清上下分隔的两人和连接关系，明确A只是暂时逃脱。\n局部重力随各自支撑面变化；把踏上新支撑面、蹬地、腾空和落地的过渡演清楚，避免人物在空中任意改变方向。步态、重心、接触、衣物惯性与双方反应由你根据速度和距离组织。仅这两位主要角色，徒手交锋，不新增传送门或武器。\n\n【电影摄影与剪辑】\n以约四个有动机的镜头段组织30秒，具体切点、段落时长和运镜组合可按表演取舍，优先保留路线建立、关键接触和落地结果；不用强行一镜到底，也不必为完成全部运镜而赶动作。\n追击段从膝部附近的低机位贴近跟拍，机位跟随加速，路面、路灯与建筑转角产生明显前后视差；顺势升至腰肩高度，交代追击距离和A寻找出路的反应。\n城市翻折时，摄影机从跟拍向外侧作弧线运动，拉开到能同时看见两人、稳定的近处街面、正在卷起的城市和即将封堵的去路。镜头始终在城市内部，保持方向参照；摄影机的倾斜和绕转不能代替建筑自身变形。\n截击与近身交手以中全景为主，侧向跟移或短弧绕行，保留双方完整发力链和接触位置。关键接触给足可读时间，用克制的惯性和轻微震动承接冲击，随攻守反转重新构图；避免频繁切碎、无意义甩镜或持续晃动遮住动作。\n跨越时先让观众看清落脚面，再贴随A越过断口并看到落地，随后沿弧线向后上方拉开，揭示A与B已经分处不同高度、街道仍在继续折叠。收尾有明确的空间结果，而不是无人机绕模型展示。由你选择合适焦距和对焦，追逐与空间建立使用有纵深的广角感，交手保持人物比例自然，禁止数字变焦冒充摄影机位移。\n\n【完成质感】\n电影实拍人物与可信城市视效：建筑有侧面、屋顶、结构厚度和真实尺度；近中远景保留视差、遮挡及空气透视。采用场景图的冷蓝暮色与暖窗光，人物和环境共享方向一致的光照、接触阴影与反射。材质、运动模糊、景深和颗粒克制自然，清楚看见人物表演与空间变化。同步脚步、呼吸、衣料、交手和城市结构移动的声音，不需要对白或解说。无字幕、标志、界面和白模标记。",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-wuxia-red-lantern",
+    "category": "提示词",
+    "title": "红灯笼夜巷，女侠一拔剑整街亮了",
+    "body": "木楼、石板桥、满街红灯笼。Maha 给 Seedance 写三十秒写实武侠：红衣汉服女子走在夜巷，拔剑时剑身发光，雾山与灯火一起醒过来。\n\n重点在氛围递进——先安静走，再力量觉醒，夜景材质和灯笼要经得起特写。提示词不搞字幕水印，逼模型用光讲故事，而不是用花字告诉你「觉醒了」。安静的巷子、发光的剑、一点点雾，就够撑起预告片感；刀还没交，气势已经先到了。适合当「少对白、重光影」的武侠示范。 红灯笼与夜雾写进环境，人物走位要比打斗先成立。\n\n所以呢：武侠不一定靠对打开场，一把发光的剑就能把整条巷子点亮。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Aiwithmaha/status/2105162931847807476"
+      }
+    ],
+    "prompt": "Create a 30-second cinematic, ultra-realistic wuxia-style video set at night in an ancient Chinese village, with traditional wooden buildings, a stone-paved street, a small arched bridge, misty mountains in the background, and many glowing red lanterns hanging along the street. A beautiful young woman in an elegant flowing red traditional Chinese Hanfu walks calmly toward the camera, with long dark hair styled traditionally and a serious, confident expression. As she moves closer, the camera slowly pushes in and follows her naturally, capturing the lantern light, fabric movement, atmospheric mist, and realistic footsteps. Around the middle of the scene, she suddenly stops and confidently draws a glowing red magical sword, holding it horizontally in front of her while her expression becomes focused and powerful. The camera moves into a dramatic close-up of her face and sword, showing realistic skin texture, detailed hair, glowing reflections, and cinematic depth of field. Several mysterious black-clothed attackers appear around her, rushing toward her from different directions, creating a tense martial-arts atmosphere. She swiftly turns and performs powerful choreographed sword movements, blocking and striking the attackers with fast but believable movements while the glowing sword leaves subtle red light trails. The attackers are knocked down onto the stone street around her, while she remains standing confidently in the center with her sword raised, surrounded by red lanterns and light mist. End with a wide cinematic shot slowly pulling back to reveal the woman standing alone among the fallen attackers, ancient village buildings and mountains behind her, maintaining consistent character appearance, realistic motion, cinematic lighting, detailed textures, dramatic atmosphere, smooth camera movement, 16:9 aspect ratio, 30 seconds, no text, no watermark.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-gta-carwash-mission",
+    "category": "提示词",
+    "title": "像 GTA 支线：洗车任务水花拍到发亮",
+    "body": "第三人称跟车，再切第一人称拿工具搓泡沫——Frog 把 Seedance 2.0 提示词写成 AAA 沙盒实机感：水物理、湿地面反射、轻微手柄抖动、HUD 细节都写进去，目标是「像泄露的下一作实机」。\n\n题材偏偏是洗车支线。笑点在把最不起眼的任务拍得像预告片：故事板一张喂进去，水花和泡沫自己负责炫，玩家还真会想停下做任务。开放世界感不一定要枪林弹雨，光把泡沫写细就够。拿来讲「游戏感镜头语言」比空谈电影感更具体。 水珠、泡沫和车漆反光被写成戏眼，比枪战更抓镜头。\n\n所以呢：游戏感短片不一定要枪战，把洗车泡沫写细，也像真在玩。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Frogai_/status/2105164776519454776"
+      }
+    ],
+    "prompt": "**Style:**\nUltra-realistic AAA open-world gameplay footage. Inspired by modern crime-action sandbox titles. Mix of third-person follow camera with smooth first-person tool interaction moments. Realistic physics, cinematic yet grounded lighting, dynamic water reflections, ray-traced wet surfaces, high-fidelity water simulation, authentic 60 FPS gameplay feel, detailed in-game HUD elements, subtle controller input imperfections. Everything must feel like raw leaked next-gen console gameplay recording.\n\n**Video Length:**\n28-38 seconds\n\n**Scene 1 (Mission Activation)**\nPlayer controls the female protagonist walking casually toward a vibrant urban car wash station. Camera follows from a natural third-person angle with slight handheld gameplay sway. A side mission popup appears cleanly:\n\n**SIDE MISSION UNLOCKED**\n**VEHICLE DETAILING**\n\"Make the client's ride spotless.\"\nReward: $750 + Street Cred\n\nMini-map, cash counter, objective marker, and standard gameplay HUD visible at all times.\n\n**Audio:**\nRich open-world city sounds — distant sirens, traffic hum, birds, chatter from pedestrians, wet footsteps on concrete.\n**Music:** Subtle low-volume synthwave/electronic GTA-inspired background track.\n\n**Scene 2 (Power Wash Phase)**\nProtagonist picks up the pressure washer wand. Free aiming with natural player hand sway. Powerful water jets blast away layers of dirt and grime. Realistic water splash physics and soap suds starting to form.\n\n**Audio:** Intense high-pressure spray, water impacting body panels, splashing puddles, mechanical trigger sounds.\n\n**Scene 3 (Foam & Scrub)**\nSwitch to sponge/brush tool. Close-up gameplay shots of circular scrubbing motions across hood, sides, and windows. Thick foam builds and drips naturally with gravity.\n\n**Audio:** Wet sponge on paint, squishing foam, dripping water, subtle hand movement sounds.\n\n**Scene 4 (Rinse Cycle)**\nFull vehicle rinse with pressure washer again. Soap cascades off the body, revealing shiny paint underneath. Sunlight creates beautiful specular highlights on clean wet surfaces.\n\n**Audio:** Continuous heavy water flow, draining sounds, splashing runoff.\n\n**Scene 5 (Wheel & Tire Detail)**\nCamera naturally zooms/pans toward wheels. Player cleans rims thoroughly then applies tire dressing. Tires instantly gain deep glossy shine.\n\n**Audio:** Stiff brush on rubber, aerosol spray hiss, metallic clinks, tiny droplets.\n\n**Scene 6 (Final Wipe)**\nMicrofiber towel used to remove remaining beads of water. Hand-following camera shows mirror-like reflections forming on the paint.\n\n**Audio:** Soft cloth wiping, gentle squeaks, fabric movement.\n\n**Scene 7 (Walk-Around Check)**\nPlayer circles the finished vehicle with natural joystick-style camera movement. Mission progress hits 100%.\n\n**Audio:** Footsteps on wet ground, ambient city noise, satisfying UI completion chime.\n\n**Scene 8 (Mission Success)**\nSatisfied customer approaches, hands over payment. Classic mission complete screen appears:\n\n**MISSION COMPLETE**\n**VEHICLE DETAILING**\n+$750\n+300 Respect\n\nCash counter ticks up.\n\n**Audio:** Triumphant mission jingle, cash handover sound, NPC voice line: \"Damn, it looks brand new!\"\n\n**Scene 9 (Drive Off)**\nProtagonist hops into the pristine car. Engine roars to life, reverse lights glow. She pulls out smoothly into the bustling street traffic. Camera stays in authentic third-person gameplay position.\n\n**Audio:** Door sounds, seat shift, powerful engine start, exhaust rumble, tires on wet asphalt, merging traffic ambience.\n\n**Gameplay Camera Rules:**\n- Realistic controller drift and micro-corrections\n- Natural acceleration curves\n- Smooth but imperfect third-person tracking\n- HUD always present and functional\n- No movie-style cuts — pure gameplay feel\n\n**Quality Settings:**\n4K photorealistic, ultra-detailed textures, advanced water & fluid simulation, dynamic global illumination, motion blur on fast movements, high-quality ambient occlusion, physically-based rendering, next-gen console graphics fidelity. Must look like genuine leaked gameplay footage.\n\n---\n\n**Key changes made:**\n- Slightly altered mission name/rewards\n- Changed some scene timings and details\n- Varied audio descriptions and camera behaviors\n- Tweaked style keywords and structure\n- Minor rephrasing throughout for originality",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-kling-gouache-dragon-bond",
+    "category": "提示词",
+    "title": "水粉风峡谷：少年伸手，黑龙低头贴掌",
+    "body": "PIXEL 不要真人 CG，他要「会动的水粉概念画」：可见笔触、色块硬边、禁止描边卡通和塑料皮。火山盐壳峡谷里，锈橙发少年 Kip 遇见黑曜石巨龙 Ignis-Vael——四刀切镜写进 Kling 4.0 Flash：跟拍走路、巨龙落地、伸手贴鼻、低机位展翅海报帧。\n\n负向提示把写实、虚幻引擎、互殴全干掉，情感线是结盟不是开打。二十秒里最打动人的，是龙把鼻子贴进人掌心那一下。Flash 模型还能稳住画风，本身就值得拿来当对比素材；也适合讲「风格锁死比堆形容词更管用」。\n\n所以呢：短视频也可以长得像一张在动的设定画，不一定要像实拍广告。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/itsPixieVerse/status/2105140025784738231"
+      }
+    ],
+    "prompt": "Cinematic 2.5D animation in the style of fully painterly rendering, characters and environments look like gouache concept-art paintings in motion, visible brush texture on skin, cloth and buildings, flat posterized color blocks with hard-edged light shapes, matte finish, soft filmic volumetric lighting, shallow depth of field. NOT flat 2D cartoon, NO bold black outlines, NO cel-shading, NOT glossy CGI, NOT Unreal Engine, NO photorealism, no plastic skin.\n\nENVIRONMENT / WORLD :Ash-rift volcanic canyon with cracked white salt-rime ground, towering dark basalt pinnacles, glowing molten fissure seams, ancient ruined stone viaduct arches in midground, and a smoldering amber caldera sky dissolved in heat mist. \nCHARACTERS: \nKip : Slender scout, rust-orange hair, freckles, draped charcoal mantle, olive vest, burnt-sienna trousers, heavy chestnut mechanical gauntlet. \n\nIgnis-Vael : Colossal obsidian dragon, faceted black scales, crimson wing membranes, swept-back horns, amber eyes. Bonded allies.\n\nMULTI-CUT SEQUENCE (20 SECONDS TOTAL):[CUT 1 | 00:00–04:00 | WIDE TRACKING]: Low tracking move along the salt-rime canyon floor. Kip strides past dark basalt crags, ruined stone arches in distant haze. He stops and looks to the sky.[CUT 2 | 04:00–08:50 | IMPACT WIDE]: Hard cut to low angle. Ignis-Vael drops through orange smoke, slamming talons into frozen earth, scattering ash. Kip turns smoothly with a calm smirk, mantle flaring.[CUT 3 | 08:50–14:50 | MEDIUM CLOSE-UP]: Hard cut. Kip extends his mechanical gauntlet; the giant dragon lowers its horned head and presses its snout into his palm. Amber throat-glow lights Kip's face as steam vents from nostrils.[CUT 4 | 14:50–20:00 | HERO POSTER FRAME]: Hard cut to low-angle tableau. Kip stands beside the towering beast as it spreads massive crimson wings against the burning caldera sky, venting smoke upward. Hold frame. \nLIGHTING & ATMOSPHERE:Low amber magma under-glow, rear caldera rim-light, cool slate shadow fill. Volumetric heat haze and drifting ash flakes.\n\nNEGATIVE:photorealism, glossy CGI, 3D render, plastic textures, anime, flat cartoon lineart, cel-shaded outlines, fighting each other, fear, weapons drawn, text, watermark",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-catch-ginkgo",
+    "category": "提示词",
+    "title": "白墙前抬手，刚好接住一片银杏",
+    "body": "竖版 9:16，白墙占掉三分之二留白，人在左下，银杏枝从右上斜进来，树影铺在墙上。李岳把「接住秋天」拆成主题、构图、色彩、光线：金黄叶、少量橙柿点睛，禁止整图染成土黄色滤镜。\n\n手掌向上自然接叶，标题区留在左上——像封面不是像壁纸。人物衣服保持浅米白，树影用中性灰，秋日明媚却不俗。秋叶数量还要克制，枝头柿子只留少量点睛，呼吸感留给留白。这种「东方极简封面」模板，改标题就能连更一整周。 女性向高传播封面感写进补充要求，返图也友好。 一张图讲清「接住秋天」四个字就够。\n\n所以呢：秋日海报别堆落叶，留大块白，让一片叶子够用。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/liyue_ai/status/2105172484677091829"
+      }
+    ],
+    "prompt": "主题方向： 东方禅意极简秋日封面海报\n风格分支： 女性审美明亮秋日型\n主体内容： 一位古风女子缓慢经过一面明亮白墙，抬起一只手轻轻接住从树梢飘落的一片银杏叶\n情绪母题： 清朗、从容、治愈、秋日明媚感\n场景与意象： 奶油白墙面、金黄色银杏枝叶、少量橙红秋柿、飘落银杏叶、女子、清晰树影\n构图与空间： 9:16 竖版，白墙占画面约三分之二作为主要负空间，人物位于下方偏左，秋枝从右上方斜向进入，巨大树影铺展在右侧墙面，左上方保留完整标题区\n色彩控制： 奶油白作为高明度墙面与空间基底，银杏金黄用于主要秋叶，少量柿子橙红作为第二视觉点，人物服装保持浅米白与珍珠白，树影使用自然中性灰；避免整图土黄化、橙化或套暖色滤镜\n光线与质感： 晴朗秋日下午侧光，明亮通透，树影轮廓清晰，墙面保留细腻浅纸感与自然纹理，边缘干净，不使用雾化和旧纸颗粒\n画幅比例： 9:16\n补充要求： 秋叶数量克制，枝头柿子只保留少量点睛；人物比例自然纤细、姿态轻盈，手掌向上自然接叶；整体高明度、鲜活而不俗，保留大面积呼吸感与女性向高传播封面感；留白处可配置东方书法标题与少量现代宋体小字",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-noble-beige-autumn",
+    "category": "提示词",
+    "title": "填地名，出一幅贵族米色秋日插画",
+    "body": "Saul Goodman 又放了一套「只填 [地点]」的 GPT Image 2.5 词：不要参考图，模型自己想人物、服装、树叶。整幅锁在贵族米色——象牙、燕麦、驼色，禁止大红大橙的俗气秋色；人物衣着写成意大利安静奢华的羊绒羊毛。\n\n画面边缘像水粉淡出纸面，几片叶子可以伸出画心，落到大片留白里。感觉不是「又一张旅行照」，更像艺术书里那一页被撕下来的秋。换城市名就能批量做系列，适合当模板库存；和大红枫叶帖摆一起，审美差异一眼能讲清。 负空间当主角，叶子只是点缀。\n\n所以呢：秋日感不一定靠红叶爆炸，靠「贵一点的米色」也能让人想收藏。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Goodmanprotocol/status/2105170431577870682"
+      }
+    ],
+    "prompt": "Create a premium 4:5 vertical noble-beige autumn editorial artwork for [COUNTRY / LOCATION / SUBJECT].\n\nTEXT-TO-IMAGE ONLY — generate the entire artwork creatively from [COUNTRY / LOCATION / SUBJECT] alone. No reference image required.\n\nCORE CONCEPT\nCreate a small, intimate autumn moment surrounded by generous warm ivory negative space, as if a precious fragment of an autumn memory has been painted onto a luxury art-book page. Automatically determine the most fitting human figure, setting, foliage, atmosphere, and seasonal details associated with [COUNTRY / LOCATION / SUBJECT].\n\nSUBJECT & WARDROBE\nPlace one elegant human figure within the scene, wearing understated Italian quiet-luxury autumn clothing: soft cashmere, fine wool, brushed suede, or refined natural fabrics with relaxed tailoring.\n\nUse a sophisticated tonal wardrobe of ivory, cream, oatmeal, sand, camel, cappuccino, taupe, and soft greige. Keep the styling effortless, timeless, minimal, and free of visible branding or logos.\n\nARTISTIC STYLE\nRender the scene as delicate soft gouache and sophisticated dry-brush painting with subtle handmade texture, translucent tonal transitions, softly unfinished edges, and gentle color fading into the surrounding ivory paper.\n\nKeep the human figure more refined and visually defined than the surrounding painterly environment, while maintaining a natural, understated appearance.\n\nCOLOR PALETTE\nBuild the entire artwork around noble beige and warm neutral tones: warm ivory, ecru, parchment, cashmere beige, oatmeal, sand, biscuit, light camel, mushroom, greige, and warm taupe.\n\nUse only restrained accents of muted chocolate, dusty olive, or softly browned foliage. Avoid strong orange, red, yellow, or rustic autumn colors.\n\nAUTUMN DETAILS\nAdd only a few delicate autumn leaves and understated foliage. Let several pale beige or muted ochre leaves subtly extend beyond the painted scene into the surrounding negative space.\n\nLIGHTING\nUse soft diffused creamy light with a slightly luminous quality, gentle contrast, and no harsh shadows. Emphasize tactile natural fabrics, quiet atmosphere, and sophisticated tonal harmony.\n\nFINAL AESTHETIC\nLuxury art-book page × noble beige autumn painting × soft gouache × Italian quiet luxury × cashmere-like tonal harmony × minimalist editorial composition.\n\nThe result should feel serene, intimate, expensive, tactile, collectible, and timeless.\n\nAvoid photorealism, saturated autumn colors, rustic styling, excessive foliage, harsh contrast, heavy shadows, excessive accessories, busy backgrounds, collage layouts, hard frames, logos, text, watermarks, or artificial 3D rendering.\n\nFORMAT: 4:5 vertical, generous warm-ivory negative space, refined minimalist composition.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-memory-split-scene",
+    "category": "提示词",
+    "title": "上半实拍地标，下半变成蜡笔童年记忆",
+    "body": "填地标名就行。上半截黄金时段实拍，建筑和街道要认得出；下半截故意画歪——蜡笔、不均匀描边、纸纹。中间一条奶油色撕纸，手写一句短情绪。\n\n作者把钩子写死了：两半构图必须同一，观众一秒看懂「这是孩子记忆里的同一个地方」。禁止干净矢量插画和油亮 3D，瑕疵本身就是情怀。地点换成巴黎或重庆都行，情绪句自己填。做旅行 vlog 封面或「回乡」题材时，比单纯滤镜更有故事。 撕纸上的短句自己填，情绪钩子比景点清单更重要。 上下半构图锁死后，观众不用读字也能懂。\n\n所以呢：旅行海报可以不酷炫，酷的是让实景忽然变成小时候画歪的那张。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Naiknelofar788/status/2105146737359024184"
+      }
+    ],
+    "prompt": "Create a visually striking split-scene artwork showing [LANDMARK / CITY / COUNTRY] in two artistic worlds.\n\nTop half: a cinematic, photorealistic view of [LANDMARK], captured during a beautiful [morning/golden-hour/evening], with authentic architecture, local people, atmosphere, street details, natural lighting, realistic textures, and strong cinematic depth. Include recognizable cultural details that immediately establish the location.\n\nBottom half: the exact same scene reimagined as a handmade child’s drawing, created with rough colored pencils, wax crayons, imperfect strokes, scribbled textures, uneven outlines, innocent proportions, visible paper grain, playful colors, and charming imperfections. Keep the important landmarks and visual elements recognizable but make them feel lovingly drawn from memory.\n\nBetween the two worlds, place a small torn piece of cream paper with handwritten text: “[SHORT EMOTIONAL PHRASE]”.\n\nThe transition should feel like reality turning into a childhood memory. Warm nostalgic atmosphere, tactile paper texture, subtle imperfections, editorial composition, emotionally charming, highly detailed, artistic but believable. No clean digital illustration, no glossy 3D render, no overly polished cartoon.\nThe strongest visual hook is keeping the same composition in both halves so the viewer immediately recognizes that the crayon drawing is the child’s imaginative/memory version of the real place.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-skyline-type-poster",
+    "category": "提示词",
+    "title": "超大城名藏在天际线后面",
+    "body": "暖象牙底，建筑基本单色摄影感，只留一个目的地强调色给大字和前景小物件。提示词要求自动挑最出名地标当中心，再围三四座真建筑，低机位往中间挤；城名超大超窄、部分被楼挡住，像长在画面里，不是贴上去的标题。\n\n有人拿去换 Kyiv 实测，大字在天际线后头仍然成立。这套模板适合批量做「城市系列」收藏海报，也适合当封面图母版反复改地名。讲排版时你可以只问一句：字是浮在楼上，还是被楼吃进去了？ 单色建筑加一个目的地强调色，系列感一下子出来。 字被建筑吃进去，比加描边标题高级得多。\n\n所以呢：城市海报先决定字怎么被楼挡住，比堆多少景点更重要。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Goodmanprotocol/status/2104164709255770576"
+      }
+    ],
+    "prompt": "Create a premium 4:5 vertical cinematic travel poster for [COUNTRY / CITY / LOCATION / SUBJECT].\n\nTEXT-TO-IMAGE ONLY — generate the entire composition creatively from [COUNTRY / CITY / LOCATION / SUBJECT] alone. No reference image required.\n\nCORE CONCEPT\nCreate a dramatic editorial collage that merges multiple iconic views of [COUNTRY / CITY / LOCATION / SUBJECT] into one cohesive architectural composition. Use a warm ivory background with enormous condensed typography of the location name stretching vertically behind the architecture. The typography should act as a major graphic element, partially hidden and naturally overlapped by the landmarks.\n\nARCHITECTURE\nAutomatically select the most recognizable landmark as the dominant central subject, then surround it with 3–5 additional authentic landmarks from the same destination. Arrange them from different low-angle perspectives so buildings rise inward from the edges and create a powerful visual frame around the central landmark.\n\nKeep the architecture highly recognizable and structurally accurate. Allow controlled cropping at the edges for a dramatic editorial composition.\n\nCOLOR SYSTEM\nUse a mostly monochromatic photographic treatment for the architecture—warm charcoal, stone gray, cream, and subtle sepia—combined with ONE strong destination-specific accent color.\n\nApply that accent selectively to the oversized location typography and a few culturally recognizable foreground elements such as transportation, flowers, flags, lights, or architectural details.\n\nTYPOGRAPHY\nPlace the exact location name in huge, ultra-condensed uppercase lettering behind the landmarks. Make it tall, bold, tightly spaced, and partially concealed by the architecture. The letters should feel physically integrated into the composition rather than sitting on top as a normal title.\n\nAdd no unnecessary text.\n\nFOREGROUND\nInclude one or two small contextual foreground elements associated with the destination—such as a taxi, bus, tram, bicycle, street lamp, flowers, pedestrians, or street detail—slightly out of focus to create cinematic depth.\n\nLIGHTING & TEXTURE\nUse dramatic natural daylight with subtle atmospheric haze, realistic architectural shadows, selective depth of field, and a slightly nostalgic photographic finish. Add restrained vintage print grain, fine paper texture, and subtle imperfections without making the artwork look artificially aged.\n\nFINAL AESTHETIC\nLuxury travel editorial × cinematic city photography × oversized typography × architectural collage × vintage European poster design. Sophisticated, dramatic, recognizable, highly detailed, and visually balanced.\n\nAvoid random landmarks, incorrect architecture, excessive text, cartoon styling, 3D rendering, flat vector graphics, excessive saturation, distorted buildings, duplicated landmarks, clutter, logos, watermarks, or generic city imagery.\n\nFORMAT: 4:5 vertical, premium editorial travel poster, cinematic low-angle perspective, high detail.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-chess-maze-editorial",
+    "category": "提示词",
+    "title": "走进巨型象棋迷宫，回头看镜头",
+    "body": "Cherry 把整段提示词写成结构化 JSON，喂给 Nano Banana：9:16、超现实高定摄影、红车白象蓝马砌成迷宫墙，小棋子散在路上像线索。人物白 T 橙熊印花、金属细框眼镜，低机位广角，人物偏下、棋子建筑往上长。\n\n负向提示禁塑料脸、广告感、重复棋子。策略感不靠拿剑，靠「走进一盘活棋」——回眸那一下，像刚算完下一步。湿地面反光把巨大棋子映成另一座城市。JSON 结构也方便改：换衣服、换主色，不用重写整段散文。 钴蓝天空和湿石地面把时尚片抬成超现实场景。\n\n所以呢：时尚片可以不靠礼服，靠把棋子放大成建筑，人就有戏了。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/hey_am_cherry/status/2105147902712816118"
+      }
+    ],
+    "prompt": "{\n  \"prompt\": {\n    \"format\": {\n      \"aspect_ratio\": \"9:16\",\n      \"orientation\": \"vertical\",\n      \"style\": \"surreal high-fashion editorial photography\",\n      \"quality\": \"ultra detailed, photorealistic\"\n    },\n    \"concept\": \"A fashion editorial portraying strategy as a surreal journey through an enormous living chess maze.\",\n    \"subject\": {\n      \"description\": \"A young woman walking through a gigantic maze constructed from oversized chess pieces, turning her head toward the camera with a confident mysterious expression.\",\n      \"appearance\": {\n        \"hair\": \"long wavy blonde hair flowing naturally behind her\",\n        \"eyes\": \"light-colored eyes\",\n        \"face\": \"natural youthful facial features with authentic skin texture\",\n        \"eyewear\": \"thin metallic oval glasses\"\n      },\n      \"clothing\": {\n        \"top\": \"oversized white T-shirt\",\n        \"graphic\": \"small orange bear graphic on the left chest\"\n      },\n      \"pose\": {\n        \"position\": \"walking naturally through the maze\",\n        \"gaze\": \"looking back toward the camera\",\n        \"expression\": \"focused, composed, quietly powerful\"\n      }\n    },\n    \"surreal_environment\": {\n      \"main_element\": \"gigantic chess pieces transformed into architectural walls and pillars\",\n      \"architecture\": \"enormous red rooks, white bishops and dark blue knights arranged like a futuristic maze\",\n      \"scale\": \"chess pieces are several times taller than the woman\",\n      \"ground\": \"wet reflective stone surface\",\n      \"additional_detail\": \"tiny ordinary chess pieces scattered along the pathway like clues\"\n    },\n    \"background\": {\n      \"setting\": \"open surreal landscape beneath a dramatic cobalt-blue sky\",\n      \"depth\": \"maze continues far into the background and gradually disappears into mist\",\n      \"atmosphere\": \"soft fog between the giant chess structures\"\n    },\n    \"composition\": {\n      \"camera_angle\": \"low-angle tracking-style fashion photograph\",\n      \"lens\": \"24mm wide-angle\",\n      \"framing\": \"woman placed slightly below center while enormous chess architecture rises around her\",\n      \"perspective\": \"strong vertical scale emphasizing the gigantic structures\",\n      \"visual_hierarchy\": [\n        \"woman\",\n        \"giant chess architecture\",\n        \"reflective ground\",\n        \"distant maze\"\n      ]\n    },\n    \"lighting\": {\n      \"type\": \"dramatic natural daylight\",\n      \"direction\": \"sunlight breaking through clouds from one side\",\n      \"shadows\": \"long realistic architectural shadows\",\n      \"highlights\": \"subtle highlights on wet ground and glossy chess surfaces\"\n    },\n    \"color_palette\": {\n      \"dominant\": [\"deep cobalt blue\", \"crimson red\", \"ivory white\", \"charcoal\", \"warm skin tones\"]\n    },\n    \"photography\": {\n      \"camera\": \"full-frame professional camera\",\n      \"depth_of_field\": \"moderate\",\n      \"focus\": \"woman sharply detailed with gradual environmental depth\",\n      \"texture\": \"real skin pores, natural hair strands, cotton fabric, wet stone and painted chess surfaces\",\n      \"finish\": \"luxury fashion editorial, cinematic realism without looking like a commercial\"\n    },\n    \"mood\": [\n      \"mysterious\",\n      \"strategic\",\n      \"intelligent\",\n      \"powerful\",\n      \"surreal\"\n    ],\n    \"negative_prompt\": [\n      \"extra fingers\",\n      \"deformed hands\",\n      \"duplicate woman\",\n      \"duplicate chess pieces\",\n      \"floating objects\",\n      \"distorted face\",\n      \"warped glasses\",\n      \"plastic skin\",\n      \"AI-looking face\",\n      \"cartoon\",\n      \"3D render\",\n      \"text\",\n      \"watermark\",\n      \"logo\",\n      \"unrealistic anatomy\",\n      \"cheap commercial advertising look\"\n    ]\n  }\n}",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-nano-product-ad-bakeoff",
+    "category": "提示词",
+    "title": "同一句产品广告词，四模型盲测谁稳",
+    "body": "daniel 把提示词原样公开：参考图锁瓶形标签盖子，夜卧室床头灯，顶部一行白字 Melatonin-free. Made for 3am. 禁止别的字。然后四个模型各跑一轮、不重试，记下时间和价钱。\n\nNano Banana 又快又稳；Seedream 最便宜却自作主张盖了「AI generated」章；Flux 盖和标签印串成深紫。这不是审美帖，是可复现的小实验，博主拿去讲「带字广告图谁更听话」正好。一句词、四个模型、一次过，比空谈参数有用；评论区也更容易吵起来。\n\n所以呢：选生图模型别只看样张好看，拿同一句带字广告词盲测一次更管用。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/buildingadlicio/status/2105055663600685294"
+      }
+    ],
+    "prompt": "Create a square 1:1 Meta feed ad using the product in the reference image. Keep this exact bottle unchanged: same shape, white label, lavender cap and label text. Place it on a wooden nightstand in a dark bedroom at night, lit by the soft warm glow of a bedside lamp, with a blurred bed in the background. At the top of the image, add the headline \"Melatonin-free. Made for 3am.\" in clean white sans-serif type. No other text anywhere. It should look like a real photo.",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "space-bl2-asteroid-scare",
+    "category": "视觉尝试",
+    "title": "开小行星带像 jump scare：五十多万颗小行星 + 地球人造环",
+    "body": "打开 space.bl2.net，先是安静的太阳系。作者把 JPL 小天体库和 CelesTrak 卫星目录灌进浏览器：WebGL2 负责画面，轨道在后台工人线程里推算，时间轴还能倒放，卫星会按发射日期出现又消失。真正吓人的是勾上「小行星」——五十多万颗一起亮起来，评论区有人说像 jump scare。再把镜头拉远看地球：同步轨道上的垃圾和卫星围成一圈，像土星环，材质却是人造物；活跃卫星里大约四分之三是星链。点欧罗巴快船，能看到它正朝地球飞来做借力。全程不装软件。Hacker News 半天一百八十多个赞。所以呢：讲太空别再只贴一张示意图——让观众自己打开小行星开关，吓一跳之后才记得住「天上有多挤」。",
+    "links": [
+      {
+        "label": "现场演示",
+        "url": "https://space.bl2.net/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49898778"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "enigma-3d-machine",
+    "category": "视觉尝试",
+    "title": "能真敲的恩尼格玛：日密钥、插线板、摩尔斯一步步教你加密",
+    "body": "打开 enigma.design，不是又一篇二战密码史，而是一台能上手的三维恩尼格玛。你先按德军当天的密钥表设转子顺序、环位和插线板——表上还印着「不许带上飞机」那种红色警告。点字母键，电流沿转子走完一圈，灯板亮出密文字母；旁边的摩尔斯键再用大约十二词每分钟的节奏把灯号打出去，提醒你：机器本身不发报，发报是另一道工序。作者把操作拆成可点的教学步，键盘直接对应实体键，适合课堂投影也适合自己玩。Hacker News 五十多个赞。所以呢：讲加密史别只甩原理图——让观众亲手拧一天密钥，他们才懂「流程漏洞」往往比数学更致命。",
+    "links": [
+      {
+        "label": "3D 恩尼格玛",
+        "url": "https://enigma.design/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49896757"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "fractr-webgpu-fly",
+    "category": "视觉尝试",
+    "title": "Fractr：WebGPU 里开飞船飞十九种三维分形",
+    "body": "打开 shinigami92.github.io/Fractr，标题画面像游戏，进去却是数学洞穴。Mandelbulb、Menger 海绵、四元数 Julia 等十九种分形任你挑；WASD 飞，鼠标看，Q/E 还能侧滚，像开六自由度飞船。按住 R、C、V 会弹出轮盘，快速换渲染模式、着色和分形种类——柔影、反射、路径追踪都有。帧率掉了它会自动降分辨率，作者也在手机上试过。整套跑在浏览器 WebGPU 上，不用下载客户端。所以呢：分形别再做成壁纸幻灯片——让人开飞船钻进去，抽象公式才变成能转发的体验。",
+    "links": [
+      {
+        "label": "在线飞",
+        "url": "https://shinigami92.github.io/Fractr/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Shinigami92/Fractr"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "cursor-monarchs-flock",
+    "category": "视觉尝试",
+    "title": "光标一停，帝王蝶自己绕路落成一小撮秋叶",
+    "body": "打开 Matt Cool 的 Cursor Monarchs 页，鼠标或手指点一下，一群帝王蝶就朝那个落点飞。它们不跟光标锁死：各自绕弯、限速、先后着陆，翅膀收起来像一小撮秋叶；你再点别处，它们又张开翅膀起飞。旁侧按钮能改数量和体型，点蝴蝶图标可暂停。作者用 Astra 把一张帝王蝶照片拆成程序化翅膀，整页没下模型库，gzip 后大约一百六十一 KB。系统开了「减少动态效果」就直接关掉蝴蝶，手机上点一下定目的地，滑页仍能滚动。所以呢：光标特效别只会拖尾——给指针一群会晚点抵达的小生命，页面立刻有呼吸感。",
+    "links": [
+      {
+        "label": "现场实验",
+        "url": "https://mattcool.tech/posts/cursor-monarchs/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "dice-physics-browser",
+    "category": "视觉尝试",
+    "title": "物理骰子：拖拽甩出去，手机还能倾斜桌面",
+    "body": "打开 dice.jswidler.com，桌上就是几颗真会碰的骰子。点击或按空格会掷；按住拖再甩，骰子沿你的轨迹飞出去撞边。打开手机倾斜，桌面像托盘，骰子会跟着滑。它不是随机数生成器贴贴图，而是用物理引擎在浏览器里滚完再读朝上那面——碰撞、弹起、停下，全程看得到。桌面、手机都能玩，零安装；想改点数或清场，刷新即可重来，适合随手发给朋友比谁手气好。Show HN 标题还拼成了「Phyics」，人却一眼懂要干嘛。所以呢：做桌游或概率演示时，别只弹一个数字——让观众亲手甩一颗会撞桌子的骰子，可信感会跟着响一声。",
+    "links": [
+      {
+        "label": "在线掷骰",
+        "url": "https://dice.jswidler.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49900760"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "emotive-elemental-8",
+    "category": "视觉尝试",
+    "title": "八种元素着色器：点一个手势，吉祥物就着火结冰放电",
+    "body": "打开 Emotive Engine 的元素手势页，点一个动作，三维吉祥物身上就叠上火、冰、电、水、土、自然、光或虚空。作者说他不是缺效果才写八套，而是想验证同一套工厂模板能不能复用：每套都有自己的片段着色器、实例化模型和氛围层。冰做折射色散，电是多层三维 Voronoi 边缘，火把颜色和透明度拆开以免叠爆。一百六十多个手势从十来个原型拼出来；按 G 能开 GPU 监视器，点 shuffle 还能乱序试手势。npm 一装就能嵌进自己的角色。所以呢：做虚拟形象别堆贴图——先证明一套着色器骨架能换皮八次，产能才跟得上灵感。",
+    "links": [
+      {
+        "label": "元素手势演示",
+        "url": "https://joshtol.github.io/emotive-engine/examples/3d/elemental-gestures.html"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/joshtol/emotive-engine"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "museum-of-numbers",
+    "category": "视觉尝试",
+    "title": "数字博物馆：把 2147483647 当成展品标签来讲故事",
+    "body": "打开 numbermuseum.com 的 2147483647 展厅，标题不是公式，是「电脑装不下的那个数」。展签写明它是有符号三十二位整数的上限：二的三十一次方减一。正文讲二零一四年一首歌把视频网站播放量顶穿，计数器像被戳破的气球——不是黑客攻破，是流行文化把整数天花板撞出了名。整站按数学怪癖、物理常数、计算上限、历史数字、日常巧合分柜，每条都是短故事，不要求你先会微积分。Show HN 三十多个赞，作者自称写给不考试的好奇人。所以呢：科普别一上来堆公式——先把数字当成展品，观众才会想走进隔壁柜子。",
+    "links": [
+      {
+        "label": "2147483647 展厅",
+        "url": "https://numbermuseum.com/2147483647"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49858756"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "joha-drawing-playground",
+    "category": "视觉尝试",
+    "title": "Joha：浏览器里的生成形状游乐场，点拖就出波浪星尘",
+    "body": "打开 joha-app.pages.dev，没有图层面板，只有一排预设形状工具。点一下、拖一下，波浪、星形、粒子和纹理就长在画布上。作者用 Vue 和 p5.js 把它做成「先玩构图、再谈矢量精修」的场地：免费、免安装，适合在灵感还没定格时快速铺画面。Reddit 生成艺术区有人拿它当热身；Hacker News 上也有 Show。它不是取代 Illustrator，而是把「乱划两笔看看气氛」的成本压到打开标签页。所以呢：卡壳时别先开重型设计软件——先在 Joha 里扔一阵形状，氛围对了再精细画。",
+    "links": [
+      {
+        "label": "在线画",
+        "url": "https://joha-app.pages.dev/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=47295151"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "points-webgpu-gallery",
+    "category": "视觉尝试",
+    "title": "POINTS：少写样板代码，WebGPU 生成艺术示例一页点开",
+    "body": "打开 absulit.github.io/points/examples，一排 WebGPU 小品等你点：粒子、多层渲染通道、基础三维都有。作者把 POINTS 做成生成艺术库，目标是让人少碰设备初始化，专心写着色器和通道怎么接力。缓冲区、纹理、视频一设好，绑定自动就绪；渲染通道能把上一关的结果喂给下一关。每个示例旁都能跳到源码，改完刷新就能对比；还有人用它做本地音乐可视化。浏览器需支持 WebGPU。示例页本身就是说明书。所以呢：想试着色器别先搭三天脚手架——先点开示例改一行，乐趣比文档目录来得快。",
+    "links": [
+      {
+        "label": "示例画廊",
+        "url": "https://absulit.github.io/points/examples/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Absulit/points"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "netwasm-browser-compiler",
+    "category": "视觉尝试",
+    "title": "NetWasm 游乐场：在浏览器里把 C# 编成独立 Wasm，Hello 仅八十二 KB",
+    "body": "打开 playground.netwasm.com，左侧写 C#，右侧是独立的 WebAssembly 运行时——不是微软官方那条链，而是作者重做的编译器加 CoreLib。Show HN 强调 Hello World 编完大约八十二点五 KB，编译在你这台机器的标签页里跑，源码不用上传。第一次可能要等几十秒，等的是本机编译，不是云排队；你能亲眼看见「瘦身」到底瘦到哪。它更像把「.NET 能否进 Wasm」摊开给你摸。所以呢：争论运行时胖瘦时，别只甩基准表——打开游乐场编一个 Hello，体积自己会说话。",
+    "links": [
+      {
+        "label": "浏览器游乐场",
+        "url": "https://playground.netwasm.com/"
+      },
+      {
+        "label": "项目站",
+        "url": "https://www.netwasm.com/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "trycli-disposable-terminal",
+    "category": "小众工具",
+    "title": "Try CLI：点开就进一次性云终端，装都不用装先试 bun",
+    "body": "打开 agentclash.dev/try，Claude Code、Codex、Bun、ripgrep、Ruff 都摆成按钮。点 Open terminal 就进一次性云端终端，不用注册，本机也不用先装。作者还给 CLI 作者准备了三步：用 npx 初始化配置、发布徽章，读者点徽章就是真终端。背后用 E2B 沙箱加 xterm，会话用完即弃，适合在 README 里写「先别 clone，点这里摸一下」。对怕装污染环境的人特别友好。所以呢：工具主页别只贴安装命令——给一条能当场敲的终端链接，好奇才会变成试用。",
+    "links": [
+      {
+        "label": "试用大厅",
+        "url": "https://www.agentclash.dev/try"
+      },
+      {
+        "label": "文档",
+        "url": "https://www.agentclash.dev/docs/concepts/try-cli"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "nsl-wsl-for-linux",
+    "category": "小众工具",
+    "title": "NSL：给 Linux 自己用的「WSL」——七个签名发行版进容器机",
+    "body": "在已经是 Linux 的机器上，你也可能不想把开发依赖直接糊进宿主机。Frostyard 的 nsl 学 WSL：一条 nsl create debian 拉起带签名校验的发行版机器，Debian、Ubuntu、Fedora、Arch、openSUSE 等七个可选，镜像每周重建。nsl 在当前目录开壳，文件经 /mnt/host 回宿主机，端口能转到 127.0.0.1，图形走 Waypipe。不信任的软件可加 --isolated，单独虚拟机且摸不到你的文件。仍是预发布，作者标明测过的主机组合。所以呢：原子化主机别靠「再装一层桌面」——给每个项目一台可丢的 Linux 机器，宿主机才能保持干净。",
+    "links": [
+      {
+        "label": "文档与上手",
+        "url": "https://frostyard.github.io/nsl/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49894351"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "ledge-runnable-notes",
+    "category": "小众工具",
+    "title": "Ledge：Markdown 笔记里的代码块，按一下就在本机跑起来",
+    "body": "Ledge 把笔记写成会干活的本子：光标放在代码块上按命令回车，输出就流进块下方。每个笔记自带持久 shell，cd 和导出的环境变量会带到下一块；frontmatter 能指定远程 host，同一段命令经 ssh 在服务器跑。密钥放进本机 profile，笔记里只留名字，方便同步又不泄密。还自带 MCP，代理能按标题读写笔记，但没有删除工具，上锁的笔记对代理封身。有桌面和手机窗口，笔记文件仍是普通文件夹，可用 git 或网盘同步。所以呢：运维备忘别再「复制到终端」——让笔记自己跑完，回看时输出还躺在原文下面。",
+    "links": [
+      {
+        "label": "Ledge 官网",
+        "url": "https://ledge.sh/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49902382"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "ctxfw-token-firewall",
+    "category": "小众工具",
+    "title": "Ctxfw：按语法树修剪依赖，自称砍掉七成代理上下文",
+    "body": "代理改一个文件时，常把半个仓库糊进提示词。Ctxfw 做成 MCP 防火墙：用 Tree-sitter 把周边文件收成接口签名和类型桩，目标文件保留全文，号称上下文能减到原来两成多。支持 Python、TypeScript、Go、Java；pip 安装后在 Cursor 或 Claude 桌面配置里挂上 ctxfw mcp。还有一条「公理筛」：规格里缺少否定不变量等要素就直接拒跑。本地执行、零遥测是卖点。Show HN 分数不高，但对烧 token 的人很实在。所以呢：别先怪模型记性差——先把无关实现砍成桩，账单和注意力都会轻一截。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/heuristicolab/ctxfw"
+      },
+      {
+        "label": "PyPI",
+        "url": "https://pypi.org/project/ctxfw/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49803977"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "jevstiller-local-bound",
+    "category": "小众工具",
+    "title": "Jevstiller：把 Jev 蒸馏成本地小模型，还带「意见不一致」上限",
+    "body": "Jev 每次分类都要打网，大约三百毫秒，代理循环里会吃光预算。Jevstiller 坐在前面：用 Jev 的回答训练一个很小的本地头，够确信就十五毫秒内本地答，不够确信再回云端。关键不是「差不多准」，而是你可设百分之九十八这类约定——在校准集上用统计界保证整体分歧不超预算；上线后还留百分之二流量永久对照，老师改口会自动降温重训。状态页会打印界是否守住，以及审计窗口量到的真实分歧；克隆仓库还能无密钥复现基准数字。作者把复现脚本和对比表写进文章，方便你自己验。所以呢：级联小模型别只报准确率——先写清「和老师吵嘴」允许占多少，系统才敢真省钱。",
+    "links": [
+      {
+        "label": "保证说明",
+        "url": "https://jevstiller.pages.dev/posts/the-guarantee/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/tomerglick57/Jevstiller"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49891769"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "sezwhere-document-cite",
+    "category": "小众工具",
+    "title": "Sez Where：用人话问合同「哪里写的」，它标出原句",
+    "body": "把条款贴进 sezwhere.com，或上传文件，再用大白话问：「我不续费会怎样？」它不生成长篇总结，而是在原文里标出相关段落，哪怕措辞和你问的不一致。演示里问锁定套餐，会指到「选择不续约、当前账期结束后失效」那几句。按文档长度计费，缓存过的问答免费；公开分享的问答会挂三十天。作者把它接在 Jev 一类决策检索上，面向「要出处、不要雄辩」的阅读，适合创作者核对赞助合同、平台条款这种怕漏一行的材料。粘贴即问，不必先搭检索栈。所以呢：审合同别只要 AI 复述——逼它指出原句，你才知道自己签的是哪一行。",
+    "links": [
+      {
+        "label": "Sez Where",
+        "url": "https://sezwhere.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49894301"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "treepeat-ast-clone",
+    "category": "小众工具",
+    "title": "treepeat：按语法树找重复代码，不是按行数对拍",
+    "body": "pip install treepeat 之后，对着仓库跑 detect。它用 Tree-sitter 拆出函数和类，再做局部敏感哈希：ruleset none 找真重复，default 忽略空白和名字噪音，loose 还能揪「结构一样、变量全换」的近亲。可调相似度、最小行数，--diff 并排看，--format sarif 喂给 CI。目前覆盖 TypeScript、Python、Rust、Go 等十几种语言，作者自称仍是可 PR 的雏形。Show HN 七十多分。所以呢：查拷贝别先上全文哈希——先让语法树说话，改名逃课的重复才会露馅。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/dsummersl/treepeat"
+      },
+      {
+        "label": "PyPI",
+        "url": "https://pypi.org/project/treepeat/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49804359"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "agentrun-workflow-dsl",
+    "category": "小众工具",
+    "title": "AgentRun：给现有代理加可检查工作流，Jev 判完再决定要不要深挖",
+    "body": "npm install 后跑 npx agentrun demo，票务分流示例不用密钥就能看：先工具搜索帮助，再用 Jev 做「够不够格」的判定；够就直接回复，不够才叫代理调查，再不够就升级人工。工作流写成 JSON 或 TypeScript 构建器，节点含调用、判定、并行和有界循环。你的工具、模型额度、权限仍留在自家应用里，AgentRun 只当可检查的步骤说明书。也有 Pi 扩展，用斜杠命令让代理帮你搭流程。所以呢：代理别只靠一段超长系统提示——把「先判再查」写进可重跑的流程，出了事才知道卡在哪一步。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Parcha-ai/agentrun"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49821438"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
+    "id": "hntui-hacker-news",
+    "category": "小众工具",
+    "title": "hntui：终端里刷 HN，还自带霹雳游侠式扫描动画",
+    "body": "一条安装脚本或 bunx，敲 hntui，Top、New、Best、Ask、Show、Jobs 六个栏都在。j/k 移动，回车进评论树，空格折叠楼中楼，s 收藏，o 用浏览器打开链接；鼠标也能点。主题一键在深色和「像官网那样的橙白」之间切。加载时有一段霹雳游侠式扫描条，作者特意写进 README。数据走公开 Firebase API，二进制无额外依赖，收藏存在本机配置文件。一百三十多个星，Show HN 过百赞。所以呢：资讯流不一定要开浏览器——给习惯键盘的人一台像样的 TUI，他们才会天天回来。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmd-sh/hntui"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49876760"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T14:20:00+08:00"
+  },
+  {
     "id": "gpt-61-sol-fifth-astra",
     "category": "硬科技",
     "title": "砍掉 6.1 Astra 的第二天：OpenAI 放出「五分之一价钱的近旗舰」Sol",
