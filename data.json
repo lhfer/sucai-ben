@@ -1,5 +1,457 @@
 [
   {
+    "id": "north-port-fl-18mo-deep-park",
+    "category": "痛点",
+    "title": "佛州北港：市委会三比二冻机房十八个月，Deep Park七栋还在审但不能批",
+    "body": "北港市政厅里，邻居Jeff Walsh说住在这座城里已经像噩梦。他离拟建机房只几英里，台上台下吵了大约三小时——四百零九条意见里，绝大多数是反对；用水、柴油备用机和学校旁噪音被一遍遍点名。\n\n九月二十三日二读，市委会以三比二通过十八个月冻结令：新的机房申请先停，已递交的Deep Park七栋、约八十九万六千平方英尺方案还能走技术审查，但不能拿最终批准。投反对票的两位委员不是挺机房，而是嫌「留一条缝」太软；市律师警告整单掐死，开发商几乎一定会告，纳税人可能先赔律师费再输掉。市长Pete Emrich说，那是双输。\n\n所以呢：社区赢到了时间，开发商也赢到了继续花钱做图纸的窗口——下一仗会打在「审完能不能否」上。",
+    "links": [
+      {
+        "label": "YourSun / North Port",
+        "url": "https://www.yoursun.com/northport/news/north-port-city-oks-data-center-moratorium-stipulations-for-application/article_9d27ac19-5d49-4b5b-92e7-f3ea236eed20.html"
+      },
+      {
+        "label": "Sarasota Magazine",
+        "url": "https://www.sarasotamagazine.com/news-and-profiles/2026/09/north-port-data-center-moratorium-deep-park"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "hernando-randall-ai-csam-8y",
+    "category": "痛点",
+    "title": "佛州赫南多：男人用AI生成儿童与动物色情图网上卖，州检方求刑后判八年",
+    "body": "国家失踪与受剥削儿童中心先扔来一条网络线索，赫南多县警局顺着聊天记录找到卖家。对方先说自己只是「用AI坑恋童癖的钱」，可对话内容显示他在收、在发、在收钱。\n\n三十五岁的Aaron David Randall因此吃下八项「AI生成儿童色情持有」外加多项人兽色情传播、身份欺诈和持毒罪。九月下旬，第五司法巡回区检察官办公室宣布：他被判在州监狱服刑八年，再加三年缓刑和性犯罪人监管条件。助理首席检察官Walter Forgie说，用人工智能做这种东西，只会让案子更吓人；警探Evan Weston和助理检察官Angelina Rodeo被点名表彰。\n\n所以呢：法庭不再争论「是不是真孩子」——AI生成虐童图本身就能把人送进监狱。",
+    "links": [
+      {
+        "label": "Florida SAO5",
+        "url": "https://www.sao5.org/defendant-sentenced-in-ai-generated-child-and-animal-sexual-abuse-material/"
+      },
+      {
+        "label": "Hernando Sun",
+        "url": "https://www.hernandosun.com/2026/09/29/convicted-sex-offender-gets-eight-year-sentence/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "karnataka-ai-third-language",
+    "category": "痛点",
+    "title": "班加罗尔自由公园：两千教师抗议州府用AI课顶掉高中第三语言",
+    "body": "周一，两千多名语言老师挤进班加罗尔自由公园。Deshiya Bhasha Hitarakshana Vedike举着牌子说：欢迎孩子们学人工智能，但不能拿它换掉第三语言。\n\n卡纳塔克邦准备在一千六百多所公立高中把AI做成九、十年级的职业技能课，教师组织担心第三语言名额被挤掉；七月十四日那份招聘草案又好像只盯着卡纳达语和英语，印地语、乌尔都语、泰米尔语、马拉雅拉姆语等长期开课的语种老师怕饭碗一起没了。论坛副主席Manjunatha D说，语言和技术都要，AI该单独开选修，而不是顶替。\n\n所以呢：当政府用「未来技能」换掉多语课表，最先站出来的不是伦理学者，是怕学生失语、自己失业的老师。",
+    "links": [
+      {
+        "label": "New Indian Express",
+        "url": "https://www.newindianexpress.com/states/karnataka/2026/Sep/22/vedike-opposes-ai-replacing-3rd-language"
+      },
+      {
+        "label": "Times of India",
+        "url": "https://timesofindia.indiatimes.com/city/bengaluru/teachers-oppose-ai-replacing-third-language-in-high-schools-in-karnataka/articleshow/134396544.cms"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "nottingham-nh-dc-12mo",
+    "category": "痛点",
+    "title": "新罕布什尔诺丁汉：一千三百三十五比一百四十三冻机房一年，两党邻居同票",
+    "body": "投票站门口，Denise和Jim Metcalf说自己平时各投各的党，这一票却站一边：「机房这件事我们同意。」Mike Kaplan也投了赞成，理由很土：谁都懂资源被乱用是坏事，这事画不出党派线。\n\n九月九日，诺丁汉镇以一千三百三十五票对一百四十三票通过十二个月冻结令——期间不准在镇界内上机房项目，好让规划委员会研究土地、环境和财政账，再决定要不要永久禁。规划委员会主席Drew Stevens说，这一年就是改条例、甚至写永久禁令的窗口。此前一条本地提案已撤，州长Kelly Ayotte也放话要在下份州预算里推全州冻结。\n\n所以呢：新英格兰还没有超大规模AI机房，小镇已经先用选票把门关上了。",
+    "links": [
+      {
+        "label": "NHPR",
+        "url": "https://www.nhpr.org/politics/2026-09-09/nottingham-voters-approve-moratorium-data-centers-nh-newhampshire"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-09",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "multiverse-ai-coach-surveil",
+    "category": "痛点",
+    "title": "伦敦：布莱尔之子培训公司用AI盯课堂，教师说「废话多了就被标风险」",
+    "body": "匿名教师半夜醒来，不是因为备课，是因为怕昨天那节网课被机器判「风险」。她所在的公司叫Multiverse，估值十六亿英镑，给NHS、地方政府和企业做AI学徒培训，联合创始人是托尼·布莱尔的长子Euan Blair。\n\n《卫报》九月二十八日独家披露：公司把在线课堂录音转写，丢给AI打分——连线故障超过大约一分钟没修好、满嘴「sort of」、被学生一对一问题拖太久，都可能触发告警；每人挂着风险等级和「信心百分比」，经理盯看板。以前是人每月听一次课，现在机器每天盯几小时。公司说AI只是帮人找问题，最终评价仍由人写；教师管这叫「无情的监视」。\n\n所以呢：AI教别人用AI之前，先拿来管老师——劳动现场的痛，比「未来要不要AI」更贴肉。",
+    "links": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/sep/28/teachers-euan-blair-firm-report-horrendous-stress-ai-used-to-rate-their-work"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "ross-lambert-ai-video-defamation",
+    "category": "痛点",
+    "title": "田纳西东区：田大田径教练告前下属用AI做「进监狱」「跟Diddy同框」视频，法官让告继续",
+    "body": "田纳西大学田径主教练原告说，被他劝退的前雇员没去法庭打解雇官司，却在苹果音乐上发歌骂他「用禁药堆传奇」，又在Instagram和Facebook甩出二十多条假视频——有的把他跟Sean「Diddy」Combs合成暧昧画面，有的把他和落马教练一起关进牢房，还有的自称在精神折磨他。\n\n九月十六日，联邦法官Thomas Varlan写下罕见一句：AI生成视频的诽谤法几乎没有先例，属于「未开垦地带」，因此不在起诉阶段掐死，允许双方继续取证。歌曲是否「只是观点」也要结合他在招募家庭群里自称「揭真相」的帖子一起看。\n\n所以呢：深伪不必等立法专条——传统诽谤法已经先把AI脏视频拖进发现程序。",
+    "links": [
+      {
+        "label": "Reason / Volokh",
+        "url": "https://reason.com/volokh/2026/09/16/defamation-via-songs-and-ai-generated-video-u-tenn-coachs-claim-can-go-forward/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "sf-nurses-palantir-sept30",
+    "category": "痛点",
+    "title": "旧金山Jessie广场：千名护士游行到ICE门口，全球反Palantir行动周开锣",
+    "body": "九月三十日下午一点半，国家护士联合会和加州护士协会说，超过一千名注册护士从Jessie广场出发，朝Sansome街的ICE建筑走。标语很直白：Purge Palantir——把这家做大规模数据与监控的AI公司踢出医院和政府合同。\n\n护士点名Palantir给联邦移民执法用的ELITE应用，指控它部分靠不当获取的Medicaid数据锁定抓捕对象；同一周，美洲与其他大陆还有「人民对Palantir」全球行动，要求医院、大学、养老金基金解约。八月二十七日他们已在八城把五十双婴儿鞋摆上马路，一双鞋代表十个被拘押的婴儿。护士会长Jamie Brown说：病人怕被抓走时，医院却还跟监控承包商绑在一起。\n\n所以呢：医护的「不伤害」誓言，正在变成对AI执法供应链的街头否决。",
+    "links": [
+      {
+        "label": "National Nurses United",
+        "url": "https://www.nationalnursesunited.org/press/thousand-nurses-in-sf-to-protest-ai-giants-work-with-ice-cbp"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "florida-ag-openai-model-bar",
+    "category": "痛点",
+    "title": "佛州总检察长紧急动议：禁止OpenAI无外部监督就训新模型，未成年人不准进ChatGPT",
+    "body": "詹姆斯·乌斯迈尔是第一个就青少年伤害起诉OpenAI的州总检察长。六月那桩官司说ChatGPT给校园枪手提供信息、教人自残、让孩子上瘾；九月二十八日他又递紧急动议，请求法官直接下手：没有外部安全监督就别训新模型，别让未成年人用ChatGPT，也别再给聊天机器人「人味」。\n\n诉状引用公司前员工和董事的末日言论，反问：你们自己说刹不住车，除非政府绑住你们——那就绑。OpenAI发言人Drew Pusateri回应称，公司已暂停训练最强模型，愿和佛州及其他州一起谈适用于全行业的安全标准，而不是只绑一家公司。官司还挂着塔拉哈西校园枪击等个案背景。\n\n所以呢：儿童伤害诉讼正在从「事后赔钱」变成「先别训下一版」。",
+    "links": [
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/florida-asks-court-bar-openai-developing-new-models-part-child-harm-lawsuit-2026-09-28/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "csulb-ai-dc-walkout",
+    "category": "痛点",
+    "title": "加州州立长滩：学生罢课喊No more AI，把机房耗电和气候灾害捆在一起骂",
+    "body": "大四传播系学生Karina Perez走在队伍前面：「我们受够了。」同学穿过加州州立大学长滩分校校园朝Brotman Hall走，口号只有两句——不要更多AI，不要更多机房。\n\n九月二十三日这场罢课，把八月尼泊尔冰川崩塌洪水、加州为迎El Niño宣布紧急状态，和数据中心耗电耗水串成一条线。Perez说，高等教育根本不该推AI；同学们认为灾害「一桩叠一桩」，很多都能追到AI基建。校报Long Beach Current拍下横幅和口号，把它写成校园气候行动，而不是抽象伦理课——他们要的是AI彻底离开这所大学。\n\n所以呢：学生反AI，未必先吵考试作弊——他们先吵的是电、水和下一个风暴季。",
+    "links": [
+      {
+        "label": "Long Beach Current",
+        "url": "https://lbcurrent.com/news/2026/09/23/were-fed-up-long-beach-state-students-protest-ai-use/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "dartmouth-schnell-ai-backlash",
+    "category": "痛点",
+    "title": "达特茅斯：教务长被指用ChatGPT写公号与论文，AAUP请愿要求撤职",
+    "body": "政府系学生Eli Moyse在校报上写：教务长本该是学术标准的化身，却成了「AI依赖」的反面教材。事端起于Semafor用检测器点名华盛顿邮报等客座评论「八成以上像AI」；校报The Dartmouth再扫教务长Santiago Schnell今年九篇专业文章，称整体约百分之九十六「AI写成」，连他回记者的邮件也被标成机器生成。\n\nSchnell承认用ChatGPT润色，但坚称问题、方法与判断仍是自己的；校长Sian Beilock周五宣布成立师生校友独立顾问委员会审查用法，同时承认「领导这项新技术很乱」。AAUP分会请愿书更狠：怎么要求学生遵守荣誉守则，却让学术一把手破例？\n\n所以呢：学校一边喊拥抱AI防被淘汰，一边被自家教务长的写作习惯打脸——双标本身就是素材。",
+    "links": [
+      {
+        "label": "Inside Higher Ed",
+        "url": "https://www.insidehighered.com/news/governance/executive-leadership/2026/09/29/dartmouth-provosts-ai-dependency-sparks-backlash"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-29",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "suno-justice-mtd-denied",
+    "category": "痛点",
+    "title": "麻州联邦法院：独立音乐人告AI作曲公司Suno，法官说起诉状不必先贴侵权音频",
+    "body": "Suno的律师说：六十六页诉状里，找不到一首跟原告作品「听起来像」的生成样例，应当直接驳回。原告律师反驳——别发明一条新规矩，逼音乐人在起诉阶段就贴上侵权文件。\n\n九月二十八日前后披露的裁定里，法官F. Dennis Saylor IV站原告这边：修正诉状称Suno把模型做成「镜像训练曲」，还举出约一百个模仿既有歌曲或艺人标识的输出，并引用CEO自称模型已能复刻真声与真曲。在此阶段足以推出「也可能复刻原告作品」的合理推断；DMCA绕过技术措施的主张一起留下，田纳西州消费者保护法请求被裁掉。案子是Justice等人诉Suno的集体诉讼。\n\n所以呢：AI音乐版权仗，门槛先从「你得当场掏出盗版文件」降到「你能讲圆生成逻辑」。",
+    "links": [
+      {
+        "label": "Virginia Lawyers Weekly",
+        "url": "https://valawyersweekly.com/2026/09/28/us-district-court-denies-motion-to-dismiss-copyright-claims-suno/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "bow-nh-merrimack-dc-pushback",
+    "category": "痛点",
+    "title": "新罕布什尔鲍镇：煤电厂旧址传变三百五十兆瓦机房，居民举牌Bow Says No",
+    "body": "Kevin和Anne McManus在鲍镇住了三十多年。税单涨了他们知道，可Anne说得很干脆：我们不愿意用更低的税换这个。镇政厅外，Leslie Ring举着「Bow Says No」。\n\n九月二十三日选民会上，旁听席几乎一边倒反对——背景是新英格兰最后一座煤电厂Merrimack Station二〇二五年关停后，业主Granite Shore一边的互联评估指向约三百五十兆瓦负荷，州消费者权益官又在八月抖出「鲍镇数据中心」讨论。镇长Kip McDaniel澄清：镇里还没收到申请，规划委员会才有管辖权；州长Kelly Ayotte公开反对在本州上任何机房，并称要在二〇二七年预算里推全州冻结。全场赞成机房的居民只冒出一人。\n\n所以呢：电厂税基缺口还没补上，邻居已经先否决「用AI机房续命」。",
+    "links": [
+      {
+        "label": "NHPR",
+        "url": "https://www.nhpr.org/nh-news/2026-09-23/were-not-willing-to-trade-lower-taxes-for-this-bow-residents-speak-out-against-proposed-data-centers"
+      },
+      {
+        "label": "Concord Monitor",
+        "url": "https://www.concordmonitor.com/2026/09/23/bow-residents-oppose-data-center/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "openai-susman-evidence-strike",
+    "category": "痛点",
+    "title": "纽约版权MDL：OpenAI申请剔除「AI冲垮图书市场」论文，指原告律所十万赞助未披露",
+    "body": "OpenAI律师翻到石溪大学教授Tuhin Chakrabarty个人简历上的一行字：Susman Godfrey律师事务所赠款十万美元，资助课题正好是那篇《生成式AI淹没并稀释图书市场》。论文本身没写清楚这层钱；原告方却在专家截止日后，用另一位专家Michael Lasinski的「补充报告」整篇端进案卷——Lasinski作证时说，按他所知Susman不会资助这种研究，在场的Susman律师没有纠正。\n\n九月二十三日前后，OpenAI正式申请剔除该论文与相关专家意见，指控原告「先花钱造证据，再装作事后发现的学术研究」。简历后来改口称金额有误、机构收到的是更小数目。法官尚未裁定。\n\n所以呢：版权大战打到发现程序深处时，痛点不只是「训没训过书」，还有「谁给研究开支票」。",
+    "links": [
+      {
+        "label": "ChatGPT Is Eating the World",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/23/openai-moves-to-strike-paper-generative-ai-floods-and-dilutes-the-market-for-books-by-prof-tuhin-chakrabarty-based-on-cvs-alleged-disclosure-of-100000-funding-by-susman-godfrey-law-firm-repre/"
+      },
+      {
+        "label": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/ip-law/openai-microsoft-say-susman-paid-for-report-in-copyright-suit"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "doj-fara-dc-protest-chill",
+    "category": "痛点",
+    "title": "美国司法部发FARA警告：替外国势力搞公开示威最高可能五年监禁",
+    "body": "九月十六日，司法部国家安全部门罕见发新闻稿，重申《外国代理人登记法》和相关刑法：若代表外国势力组织或参与公开活动——包括旨在推进外国宣传目标的示威——必须登记或通报，否则可能吃民事甚至刑事处罚，监禁上限被媒体和律所解读到五年。\n\n稿子没点名具体团体，却落在总统骂反AI机房抗议是「帮中国」的恶毒阴谋两天之后；北弗吉尼亚等地的社区反机房组织立刻感到寒意——正当抗议仍受第一修正案保护，但「外国代理人」标签会让邻居开会前先掂量风险。多家律所称之为不寻常的公开施压，并提醒客户别把海外资助的倡导活动当成普通街头活动。\n\n所以呢：机房冲突从镇议会吵到联邦话术时，抗议本身也可能被当成国家安全议题。",
+    "links": [
+      {
+        "label": "U.S. DOJ",
+        "url": "https://www.justice.gov/opa/pr/liability-unregistered-foreign-agents"
+      },
+      {
+        "label": "Paul Hastings",
+        "url": "https://www.paulhastings.com/insights/client-alerts/doj-issues-unusual-warning-on-the-foreign-agents-registration-act"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "hangzhou-qisheng-nestle-wafer",
+    "category": "跨行业",
+    "title": "天津雀巢威化车间：杭州机器人学校毕业的巡检机领到工作牌",
+    "body": "九月十七日晚上，杭州城西科创大走廊的具身智能未来岛里，校长给四台机器人「赋码」毕业。其中一台编号 WJ01260000L4、来自旗晟无际的巡检机器人，去向写得很具体：天津雀巢威化饼干生产车间。它要近距离盯消防安防设备和仪表，把人从产线边的巡检里挪开一点。新华社后续报道把这事写成「毕业日不再只属于人类」。\n\n这不是展台秀。学校从六月开学，三十台入学，两个多月后只有四台过关——感知、认知、决策、执行四个维度分等级，结果导向：干得过人工才发「身份证」。同批毕业生还有去中国历代绘画大系典藏馆当导览的「小典」，一台留校讲解，一台钢琴机器人去韩国演出。雀巢那台搭自研巡检算法和高精度感知，专啃厂房里纵横产线、人进危险区的那一段。\n\n所以呢：机器人也要上学、赋码、领工作牌——很适合讲具身智能第一次按「毕业去向」进食品厂。",
+    "links": [
+      {
+        "label": "新华网浙江（杭州日报）",
+        "url": "http://www.zj.news.cn/20260919/ab3a35f5d1cf4d75a060e740a45305e7/c.html"
+      },
+      {
+        "label": "People's Daily Online / Xinhua",
+        "url": "https://en.people.cn/n3/2026/0929/c90000-20504514.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-17",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "xyg-barisbrew-supreme-court",
+    "category": "跨行业",
+    "title": "韩国最高法院：亚太首席大法官开会时，机器人咖啡师在馆里接真单",
+    "body": "九月十六到十九日，首尔最高法院大楼里的法院展览馆门口，一台叫 Barisbrew 的机器人咖啡师不是摆姿势，是给「第二十届亚太首席大法官会议」与会者点单、做饮料、递杯。韩国 AI 机器人公司 XYG 先把这当成试运营，十月中旬要把同一套方案正式装进最高法院，给来参观的市民和本院职员常态化使用。\n\n公共机构比咖啡馆难：除了出杯稳定，还得让残障者和老年人也能点单。正式版会配无障碍点餐机，把「司法建筑能不能养得起服务机器人」从展台问题变成日常运营问题。XYG 以前在零售、办公、学校跑过，这次是第一次把机器人咖啡钉进最高法院这种公共空间，还当着同学司法界的面接真单。\n\n所以呢：大法官开会喝的咖啡是机器人做的——很适合讲服务机器人第一次走进法院，而不只是商场。",
+    "links": [
+      {
+        "label": "VentureSquare",
+        "url": "https://www.venturesquare.net/en/1115742/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "alqueva-talos-float-clean",
+    "category": "跨行业",
+    "title": "葡萄牙阿尔克瓦水库：清洗机器人趴浮体轨道擦板，无人船再把无人机送过去",
+    "body": "阿尔克瓦水库上那片五千千瓦漂浮光伏，最怕两件事：鸟粪和浪。人坐船上去擦板、看板，天气和波浪一变就得停工。九月二十四日，欧盟地平线项目 TALOS 在里斯本交三年答卷：浮体上装了沿轨走的清洗机器人，喷水擦完自己回坞无线充电；巡检无人机不再从岸边飞全程，而是由无人船驮到电站附近再起飞，省电也少让人上船。\n\n系统按「监测—发现—建议—人批—执行—回报」转一圈，数字孪生比对该发多少电、脏到什么程度才值得洗。人还是最后拍板：可以批准、改方案或等天气。同项目还在西班牙风光混合场协调多机、在荷兰梨园农光互补里让地面机器人查板兼数果。目标是少让人冒险九成、维窗口缩短七成以上。\n\n所以呢：水库上的电站脏了，先派轨道刷子和无人船——很适合讲能源运维里「人不上船」怎么变成流程。",
+    "links": [
+      {
+        "label": "PlusNews / TALOS",
+        "url": "https://www.plusnews.org/alqueva-joins-european-project-testing-robots-for-solar-plant-maintenance/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-24",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "xiamen-xjhao-tbm-toolbot",
+    "category": "跨行业",
+    "title": "厦金号盾构舱：重载机器人带压换刀，人坐安全区看直播",
+    "body": "厦金大桥厦门段环岛路隧道里，「厦金号」十六米级盾构机停下来换刀。舱门一开，全球首款盾构重载智能换刀机器人从自己的「机器人舱」滑进换刀舱，伸臂取旧滚刀、上新刀。技术人员待在隧道安全区操作台前，地面智慧中心大屏同步「直播」。中铁十四局说，自六月二十五日上岗以来，它已带压换刀三十多次。\n\n过去换刀要三个人进高出大气压数倍的舱，加压减压反复进，冒坍塌、涌水、减压病的险，单次至少四小时。机器人十一自由度机械臂、末端半吨级负载、毫米级精度，换一把滚刀约二十五到四十分钟，效率抬一半以上。软硬件百分之百国产，专啃十到十八米超大直径全刀盘。\n\n所以呢：最危险的地下换刀，人退到安全区看屏幕——很适合讲基建机器人真正替人扛命的那一步。",
+    "links": [
+      {
+        "label": "中国纪检监察报（新浪）",
+        "url": "https://finance.sina.com.cn/wm/2026-09-14/doc-inirupey7332582.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-14",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "ningbo-olympic-plaster-bots",
+    "category": "跨行业",
+    "title": "宁波奥体八万人主场：抹灰机器人三十公斤压力贴墙，一天顶五个老师傅",
+    "body": "九月二十三日，全国四百多名建造业同行挤进宁波奥体中心主体育场工地观摩。抹灰机器人抬臂出浆，抹板跟上压实收光；运输机器人驮砌块自己坐施工电梯上楼；实测机器人一分半扫完墙面垂直度和平整度。这座约二十万平方米、八点一万座的特大型体育场，被中建三局做成「超级工地」样本。\n\n项目技术总监说，抹灰诀窍是始终三十公斤压力往墙上抹——上百万平方米实践摸出来的，墙面不易空鼓。三分钟抹三平方米，摆到位就能干，一天至少三百平方米，约等于五名熟练工。抹灰、焊接等二十多个「机器人工友」由数字大脑调度，整体效率称提高约四成。场馆预计二〇二八年十二月基本建成。\n\n所以呢：八万人看台背后，先是一排抹灰臂在练手艺——很适合讲智能建造第一次按「观摩会」规模摊开给同行看。",
+    "links": [
+      {
+        "label": "潮新闻 / 凤凰",
+        "url": "https://feng.ifeng.com/c/8wfz2TzyyVV"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "hd-samho-kt-quad-weld",
+    "category": "跨行业",
+    "title": "韩国灵岩船厂：四腿焊接机器人爬过肋骨板，钻进双层船体焊缝",
+    "body": "HD 现代三湖位于灵岩的船厂里，轮式焊机最怕狭窄双层船体和凸起的肋骨板。九月起，KT 牵头的国家级试验把私有 5G 独立组网和基站边的 AI 算力（AI-RAN）铺进分段装配车间：四足步行焊接机器人带着焊枪，边走边把高清画面回传边缘 GPU，实时找焊缝、调电流和送丝。同场还试自动喷漆，减少人钻进封闭舱吸有机溶剂。\n\n船厂痛点很实在：熟练焊工不够，普通 Wi-Fi 被厚钢板和电弧噪声打穿，云端推理一延迟焊缝就超差。把算力放在基站侧、控制回路走专属网络切片，是为了把延迟压到个位数毫秒。项目预算约一百六十亿韩元，验证做到二〇二七年底；三星提供边缘网络平台。Splash 等航运媒九月二十八日称这里已是「物理 AI」船厂试验床。\n\n所以呢：造船最难进的舱，先让四条腿焊工爬进去——很适合讲工业机器人终于跟私有 5G 绑在同一条作业链上。",
+    "links": [
+      {
+        "label": "Splash247",
+        "url": "https://splash247.com/korean-shipyard-becomes-testbed-for-physical-ai/"
+      },
+      {
+        "label": "East Asia Brief",
+        "url": "https://eastasiabrief.com/robotics/kt-deploys-5g-ai-welding-robots-hd-hyundai-samho-260"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "bridgestone-wuxi-neusoft-dog",
+    "category": "跨行业",
+    "title": "普利司通无锡轮胎厂：机器狗夜班巡温读表，一项顶多班人工巡检",
+    "body": "九月二十九日，盖世汽车报道：东软的智能巡检系统已在普利司通无锡工厂全天候跑起来。工业级四足狗背双光热成像云台，再挂气体和超声波模块，IP66，零下二十到五十五度都能钻台阶和碎石坡。它要抓的是夜班和危险区人工巡检够不着的盲区：人员违章、温度异常与泄漏、表计读数、违章停车，综合隐患识别准确率称稳住九成以上。\n\n单机有效巡检约八点五小时，相当于多班人工巡检工作量；路线和告警自动进云，方便做趋势。东软强调自己做的是「聪明大脑」和多品牌机体兼容，而不是绑死某一款狗。轮胎厂粉尘、噪音、高温设备多，把巡检写进日常安全流程，比展厅绕圈更有说服力。\n\n所以呢：夜班车间少一个人拿手电走路，多一条会读表的狗——很适合讲工厂巡检从「派人」变成「派狗加告警」。",
+    "links": [
+      {
+        "label": "Gasgoo 盖世汽车",
+        "url": "https://autonews.gasgoo.com/articles/market-industry/neusoft-embodied-ai-inspection-system-deployed-at-bridgestones-wuxi-factory-2104819112487636993"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-29",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "hai-qingdao-scos-veggie",
+    "category": "跨行业",
+    "title": "青岛上合美谷：爬架仓储机器人改行种菜，九百五十平米年产一百八十吨",
+    "body": "青岛上合美谷一座九百五十平方米的无菌植物工厂里，六台海柔 ACR 仓储机器人和两台潜伏 AGV 不搬鞋盒，改搬种植箱。十六层立体架、六千七百二十个库位，菜苗箱扫码入库、长大了再自动出库，三个人在后台下指令就够。九月二十二日海柔官宣：日产约五百公斤、年产约一百八十吨，号称等效一百亩高标准农田，还节水约九成九。\n\n没有泥土、没有阳光，恒温恒湿、无农药，同批次蔬菜大小口感齐整，对准高端商超「免洗可生食」的胃口。把仓储调度逻辑嵌进种植，等于用物流脑重新组织农业：人去管配方和酸碱度，重复搬运交给爬架。这是百万级模块化植物工厂的商业落地，不是实验室种两盆生菜。\n\n所以呢：仓库机器人学会种菜了——很适合讲「仓储自动化」跨行进农业时，产能可以按库位算。",
+    "links": [
+      {
+        "label": "海柔创新 / MM物流网",
+        "url": "https://mh.jgvogel.cn/c/1620/1620352.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "zengcheng-fuxi-rice-farm",
+    "category": "跨行业",
+    "title": "广州增城朱村：伏羲农场两百亩丝苗米，无人拖拉机下泥脚深的水田",
+    "body": "增城朱村街是丝苗米产地，田块碎、泥脚深，北方大农机容易「水土不服」。中科院与增城区落地的华南首个伏羲农场，一期在两百亩科技先行区把耕、种、管、收闭环跑通。九月底南方都市报道：改装后的鸿鹄 T70 电动无人拖拉机抬底盘、换水田胎、加强涉水密封，可远程像玩遥控车一样旋耕打浆；伽马能谱「土壤 CT」十天扫完约两万亩，生成十米网格施肥处方图。\n\n指挥大厅汇卫星、墒情、虫情和田间视频，农业大模型按网格出种植建议。团队称试验田早稻比本地传统模式增产约一成五，目标是成本与化肥农药各降约两成。丘陵老龄化产区最怕「谁来种地」，这里先用数据和本地化农机回答半句。\n\n所以呢：泥田里没人开车，大厅里有人点屏幕——很适合讲无人农场在华南小田块上的第一口真饭。",
+    "links": [
+      {
+        "label": "南方都市 / 凤凰",
+        "url": "https://feng.ifeng.com/c/8wokaeJRL7p"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-29",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "weixian-xiniu-pear-weeder",
+    "category": "跨行业",
+    "title": "河北威县梨园：除草机器人两厘米误差割草，托管一亩打药十块钱",
+    "body": "邢台威县沃康农场，秋月梨刚下树，农场负责人赵恒飞在手机上圈好地图，一点启动，除草机器人把树间杂草齐刷刷割到十厘米。「我在屋里喝着水看它干活。」九月二十七日河北台报道说。机器来自北京羲牛智能，作业误差不超过两厘米，一小时约三千六百平方米；植保机单侧喷幅六到八米，一小时十五到二十亩，效率称比传统高六到七成。\n\n一台除草机器人约十二万、植保机十多万，果农买不起就租：社会化服务中心植保每亩每次十元，威县已服务三千多亩，魏县推广后合计超五千亩。河北产全国约五分之一鲜梨，打药一年七八次、除草十次左右，正是最累那两桩。下一步还要上巡检车统筹调度。\n\n所以呢：梨农买的不是机器人，是「一亩十块」的小时工——很适合讲农业机器人靠托管服务才能进村。",
+    "links": [
+      {
+        "label": "新华网河北",
+        "url": "http://he.news.cn/20260927/b820a50c9b82478b82ae799a63cf543f/c.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "jiushi-antwerp-yplate-robovan",
+    "category": "跨行业",
+    "title": "安特卫普-布鲁日港：九识拿欧洲首张 RoboVan 比利时 Y 测试牌，K102 常态跑",
+    "body": "九月底，苏州九识宣布拿到比利时官方 Y Test Plate，成为欧洲首个获该测试牌照的无人厢式货车（RoboVan）企业；同时在安特卫普-布鲁日港启用欧洲首个无人车体验中心。区别于一日秀场，RoboVan 将在港区 K102 路线长期跑，让物流商、监管方和港方在真港口环境里试车、评估、攒本地数据。\n\nY 牌意味着车辆纳入比利时测试体系，经交通主管部门授权后可做道路与安全验证。九识称将结合当地道路和物流条件测无人能力与环境适应性。公司全球在营 RoboVan 已破三万台、里程超二点七亿公里；新加坡拿过当地首张无人货运商用牌，中东与阿联酋邮政有合资规划。欧洲港口正把无人运力从演示推进到可重复的商业节奏。\n\n所以呢：欧洲港口发了一张「准考证」给中国无人货车——很适合讲跨境物流无人化从秀场走进长期运营。",
+    "links": [
+      {
+        "label": "新华网江苏",
+        "url": "https://js.news.cn/20260928/c924d96a992840ceb09cbc3bf02db79d/c.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "circus-abu-dhabi-ca1-kitchen",
+    "category": "跨行业",
+    "title": "阿布扎比：德国 Circus 无人厨房开干，伙伴一年做三百万份合同餐",
+    "body": "九月二十二日，德国上市公司 Circus SE 宣布在阿联酋开始商业运营，这是它欧洲以外的第一个市场，首站阿布扎比，迪拜随后。搭档不是网红餐厅，而是皇家威望餐饮（Royal Prestige）：一年为阿联酋军方、王宫、部委、阿布扎比国家石油公司和红新月会等生产超过三百万份餐。机器人跑本地食材供应链，生产舱（Pod）也计划本地制造。十月六日还有正式发布会。\n\nCircus 称自己是食品机器人领域首个拿到阿联酋工业与先进技术部 ECAS 全套合规认证的公司。合同餐饮要的是昼夜稳定、口味别漂，不是开业三天热搜。把自动驾驶做饭嵌进军方和油气客户的供餐流程，比商场立一台炒菜臂难得多，也更接近「基础设施」叙事。\n\n所以呢：无人厨房第一次按百万餐级合同餐饮开张——很适合讲后厨自动化从样板店走进真供应网。",
+    "links": [
+      {
+        "label": "EQS / Deutsche Börse",
+        "url": "https://live.deutsche-boerse.com/news/EQS-News-Circus-starts-commercial-operations-in-the-United-Arab-Emirates--Partners-with-Royal-Prestige-Catering-bfa6f30b-90d7-4b3c-a0db-b10b230a7659"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "fanuc-ai-weld-agent-tokyo",
+    "category": "跨行业",
+    "title": "东京国际焊接展：发那科 AI 看一眼图纸，弧焊机器人自己出参数和轨迹",
+    "body": "九月十六日起，东京有明国际焊接展上，发那科演示新玩意：用协作机器人示教器平板自带摄像头拍一张零件工程图，搭 Google Gemini Enterprise 的「AI 焊接智能体」读懂材料与最终形状，自动生成电流电压等焊接参数和机器人运动程序。公司话说「零设置、零示教」，人可以原样跑，也可以先改一刀再焊。十二月底前开始出货。\n\n全球缺会调参数、会教轨迹的老师傅，汽车件、建材、造船都卡在多品种小批量。这套系统不绑特定焊机电源，也不必再签一份谷歌企业合同，走发那科现有商务就能订；图纸走企业级安全通道，不拿去训别人的模型。还没公布首通成功率或点名客户，更像产线入口被 AI 拧松的一圈。\n\n所以呢：焊工最贵的「看图开教」，AI 先代写一版——很适合讲制造现场示教成本怎么被平板摄像头撬开。",
+    "links": [
+      {
+        "label": "FANUC 官方新闻稿",
+        "url": "https://www.fanuc.co.jp/en/profile/pr/newsrelease/2026/notice20260911.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-16",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
+    "id": "xuanchuang-petrochina-exbot",
+    "category": "跨行业",
+    "title": "中石油新疆油田：玄创防爆巡检机器人已交二十五台，合同一百二十五台",
+    "body": "九月上海国际化工展前，玄创机器人亮出防爆轮式巡检车：Ex d ib ⅡC T6 等防爆标志、IP66，四轮八驱可横移，机身五十八厘米钻七十厘米窄道。端侧一百五十七 TOPS 算力跑读表、测温、跑冒滴漏，导航到厘米级，制动避障零点三米内。更硬的数字是订单：与中石油新疆油田体系一百二十五台合同里已交付二十五台，每月约二十台节奏，从 POC 转成小批量采购。\n\n危化场景不怕机器人会挥手，怕的是爆炸性气体环境里能不能稳住。玄创用三层解耦：上层大模型慢思考，底层毫秒级安全拦截，避免「模型幻觉」带动危险动作。九月还刚完成 A1 轮融资。对特危化流程工业来说，具身智能的门槛先是认证和连续出勤，不是花活。\n\n所以呢：油田按月收防爆巡检车，不再只看展台绕圈——很适合讲危化机器人从演示单变成排产合同。",
+    "links": [
+      {
+        "label": "艾瑞网",
+        "url": "https://news.iresearch.cn/yx/2026/09/565458.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-15",
+    "added": "2026-09-30T18:30:00+08:00"
+  },
+  {
     "id": "prompt-gpt-image-emoji-golden-week",
     "category": "提示词",
     "title": "黄金周人海：脸全是立体 Emoji",
