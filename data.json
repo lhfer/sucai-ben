@@ -1,5 +1,722 @@
 [
   {
+    "id": "prompt-seedance-fanblade-outfit-swap",
+    "category": "提示词",
+    "title": "吊扇扫过，同一姿势连换五套衣服",
+    "body": "粉色辫子女孩仰面躺在红地毯上，镜头从正上方锁死。一片吊扇叶片慢慢扫过，把她整个人挡住零点三秒——叶片离开时，白上衣灰裤子已经变成红缎短裙。\n\nZentrix 把这招叫「把换景藏进镜头里」：别求 Seedance 2.5 当场变形，先给模型一个自然遮挡点。提示词按两秒一块写，每块只换一套衣服，并写死「只有叶片完全挡住身体时才允许换装」。姿态、地毯花纹、发型、脸必须前后对齐，布料还要求又密又不透，免得模型乱发明。十秒竖屏、零切镜、五套造型，靠的是遮挡而不是魔法溶解。\n\n演示时最好停在叶片刚好挡住整个人那一帧，下一秒衣服变了，观众才会反应过来：原来遮挡才是剪辑点。\n\n所以呢：想一镜连换造型，先找个会挡镜头的东西，别硬让衣服在眼前融化。",
+    "links": [
+      {
+        "label": "X 原帖（技巧说明）",
+        "url": "https://x.com/ZentrixHQ/status/2105534201797701820"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/ZentrixHQ/status/2105536414368579926"
+      }
+    ],
+    "prompt": "A young woman with pink braided hair lies on her back on a red Persian carpet, filmed from directly above, while a slowly rotating wooden ceiling fan in the foreground hides her for a moment each time a blade passes, and every time she reappears she is wearing a different outfit in the exact same pose. Duration: 10 seconds, vertical 9:16, one continuous locked-off overhead shot with no cuts. The first frame is already in motion, a blade sweeping past the lens. The shot ends on the fifth outfit, her eyes looking up into the camera with a small smile, the fan blade just leaving the frame.\n\nMAIN SUBJECT\nUse @image1 as the face and hair reference. Woman, about 25 years old, light blue eyes, light freckles across her nose and cheeks, soft natural makeup with rosy lips, warm sun-kissed skin. Hair: pastel pink, centre parting, styled in TWO long thick braids lying on the carpet beside her shoulders, a few loose face-framing strands. Athletic, toned, natural proportions. She lies diagonally on the carpet, head at the upper left, feet toward the lower right, left arm relaxed along her body, right hand resting near her hip. The pose never changes between outfits. All outfits are made of DENSE, OPAQUE fabric that stays in place, with elegant necklines that are stylish and tasteful, never revealing.\nOUTFIT 1: fitted white ribbed-knit top with a V-neckline, high-waisted light grey wide trousers, white sneakers.\nOUTFIT 2: red satin mini dress with a sweetheart neckline and short puff sleeves, black lace tights, black ankle boots.\nOUTFIT 3: black velvet wrap top with a V-neckline, black leather mini skirt, black sheer tights, knee-high black boots.\nOUTFIT 4: emerald green knit mini dress with a wide off-the-shoulder neckline and long sleeves, brown suede knee-high boots.\nOUTFIT 5: soft pink satin dress with halter straps and a V-neckline, knee length, white heeled sandals.\n\nLOCATION AND HEIGHT\nA living room floor seen from directly above. The camera is fixed about 2.6 metres above the floor, pointing straight down. Background layer: a large red Persian carpet with an ornate cream-and-navy medallion pattern and a dark border, filling the whole frame. Middle layer: the woman lying on the carpet, about 2.4 metres from the lens. Foreground layer: a wooden ceiling fan with THREE wide dark-brown blades and a brass hub, mounted about 0.3 metres below the camera, hub in the lower centre of the frame, so each blade is large, close and softly out of focus. At the very bottom edge of the frame, the top of a red velvet sofa is visible.\n\nCAMERA AND LOOK\nRealistic overhead lifestyle footage, a cinema camera with a 35mm lens, locked off on a tripod, sharp focus on the woman and the carpet, the fan softly blurred with clear motion blur on the blade edges. Fine film-like grain, mild bloom, muted warm colour, gentle contrast. Single light source: soft warm indoor light from above, soft shadows on the carpet, natural skin tone. No glossy beauty lighting, no artificial rim light, no heavy grading. The camera and the operator never appear in frame.\n\nTIMELINE (CONTINUOUS STORY)\n00:00-00:02 OUTFIT 1\nShe lies in OUTFIT 1 and looks up into the lens with a calm expression, one slow blink. The fan rotates clockwise at a steady slow speed. At the end of the block a blade sweeps in from the left and fully covers her body for about 0.3 seconds.\n\n00:02-00:04 OUTFIT 2\nThe blade moves away and she is wearing OUTFIT 2, same pose, same position. Her lips form a soft smile, her eyes stay on the camera, her chest rises with one gentle breath. A second blade sweeps across and covers her completely.\n\n00:04-00:06 OUTFIT 3\nThe blade passes and she is in OUTFIT 3. She tilts her head slightly toward her left shoulder, the braids shift a little on the carpet, then she looks back to the camera. A third blade covers her completely.\n\n00:06-00:08 OUTFIT 4\nShe appears in OUTFIT 4. Her right hand lifts a few centimetres and lightly taps the carpet, her eyes narrow with a playful smile. The next blade covers her completely.\n\n00:08-00:10 OUTFIT 5\nShe appears in OUTFIT 5, the same pose. She gives a relaxed smile, one slow blink, her eyes fixed on the lens. The last blade leaves the frame and the shot ends there.\n\nSOUND\nOnly natural sound tied to events: a low steady motor hum, a soft repeating whoosh of air each time a blade passes the lens, light fabric rustle on the carpet right after each blade passes, her quiet breath. No music, narration, laugh track.\n\nESSENTIAL CONTINUITY\nThe order of outfits is fixed: 1 grey and white, 2 red satin, 3 black velvet, 4 emerald green, 5 pink satin. The outfit changes ONLY while a fan blade fully covers her body, never while she is visible, with no morphing, dissolve or flicker on the clothes. Before and after every blade pass her position, pose, braids and the carpet pattern are identical. The fan always rotates in the SAME direction at the SAME speed, the blades never pass through her or change shape. The camera stays still. The same face, freckles, pink braided hair, blue eyes, light and carpet in every shot. Preserve her face, hair, body proportions throughout.\n\nNo repeated attempts, slow motion, teleportation, duplicated people, visible clothing morph, CGI appearance, captions, subtitles, scoreboard overlays, watermarks, recording interface.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-time-freeze-ii",
+    "category": "提示词",
+    "title": "一镜到底：整条街突然定格，只剩她还能动",
+    "body": "女孩还在街上走着，路人、车流、落叶忽然全部卡住。只有她还能抬手、转身，像误入别人按下暂停的世界。\n\nMayz（Kiki）把角色设定表丢给 GPT Image 2，再把一整段二十秒横屏提示词交给 Seedance 2.5：强制一镜到底，禁止切镜、转场、蒙太奇；角色锁定参考图，场景里写清谁冻住、谁还能动、镜头怎么绕开定格人群。时间冻结不是贴一张静止滤镜，而是把「其他人停、主角不停」写进动作时间表里。收藏两千多，说明这套「先定角色、再定规则」很好抄。\n\n博主演示时可以先播「全世界停住」那一秒，再倒回去讲角色表是怎么锁脸的；观众最容易记住「只有她还在动」这一条规矩。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n所以呢：要拍时间停止，先写清谁被冻结、谁还能动，别只丢一个 freeze 单词。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Mayz1169/status/2105241124717957283"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/Mayz1169/status/2105241490083782745"
+      }
+    ],
+    "prompt": "Create an approximately 20-second horizontal 16:9 anime video as ONE CONTINUOUS UNBROKEN SHOT. No cuts, transitions, hidden edits, or montage.\n\nCHARACTER LOCK\nUse the supplied character reference sheet as the sole visual authority for the heroine. All views on the sheet depict ONE character, not multiple people. Use the sheet only as a design reference; do not reproduce its layout, borders, labels, or typography.\n\nPreserve her exact facial identity, body proportions, silhouette, hairstyle, outfit, accessories, and prop designs throughout.\n\nShe is a cheerful, energetic heart-themed anime heroine with short pink hair, blue-tipped side strands, large golden-amber eyes, a white-and-pink visor with a heart emblem, and the distinctive oversized bow and decorative hair accessories shown in the reference. Her hair must remain short: no long ponytail or new hairstyle.\n\nPreserve her exact pink-and-white ruffled cropped top, chest bow and heart ornament, layered pink-and-white short skirt, blue accent details, decorative arm accessories, asymmetric leg accessories, and chunky heart-decorated platform sneakers. Preserve the heart-shaped accessory on her back and the long pink-and-blue ribbon-like elements shown in the reference.\n\nUse the reference heart-shaped wand and its ribbon-like cord as her main handheld prop. Preserve its recognizable heart outline, handle, colors, and proportions. It is not a tennis racquet.\n\nThe only added accessory is a small white-and-pink zippered pouch attached at her hip, visually secondary to her existing outfit. It contains a few heart-shaped trinkets and small instant-photo prints.\n\nVISUAL STYLE\nPremium Japanese anime with clean expressive linework, polished cel shading, lively facial animation, and fluid movement. Match the reference illustration’s proportions and visual aesthetic. Saturated pink, warm white, magenta, and small cyan-blue accents define the heroine.\n\nNo photorealism, live-action rendering, or 3D game-character appearance.\n\nLOCATION\nA crowded Shibuya street in Tokyo on a bright summer late afternoon. Pedestrians fill the sidewalks and crossing. Storefronts, vending machines, traffic lights, taxis, buses, and bicycles create a dense urban background.\n\nWarm sunlight catches her pink hair, glossy heart ornaments, layered skirt, and colorful ribbons. Her pink-and-white silhouette remains clearly readable against the busy city.\n\nOPENING CAMERA — Y2K ANIME HANDYCAM\nThe footage feels as if a friend is running beside her with an early-2000s MiniDV camcorder, translated into anime.\n\nUse irregular handheld shake, imperfect framing, slight exposure changes, subtle highlight bloom, mild chromatic fringing, and gentle tape-era softness. Keep faces and character details readable. The opening feels spontaneous and physically human, not like a stabilized commercial.\n\n0–6 SECONDS — RUNNING THROUGH SHIBUYA\nThe unseen camera operator runs beside the heroine, struggling to keep her between waist-up and full-body framing.\n\nShe hurries through the crowded sidewalk, holding her heart-shaped wand in one hand and a small pink heart charm in the other. Her hip pouch bounces with her steps. Her short pink hair, blue-tipped strands, bows, and long ribbon elements react naturally to her movement.\n\nShe slips between pedestrians, dodges a bicycle, and steps around someone carrying shopping bags. A passing pedestrian briefly obstructs part of the frame without concealing a cut.\n\nShe is clearly late, but still playful and full of energy. She glances back toward her friend while running, laughs breathlessly, and calls:\n\n“Hurry! We’re gonna be late!”\n\nShe faces forward again and accelerates.\n\n6–8 SECONDS — THE ACCIDENT\nThe camera moves slightly ahead into a front three-quarter angle, still shaking as the operator runs backward.\n\nThe heroine briefly tosses the small heart charm a few centimeters above her palm. Distracted, she fails to notice a low curb.\n\nThe thick sole of her platform sneaker catches the edge.\n\nHer expression snaps from cheerful confidence to wide-eyed shock. Her body pitches forward. The heart-shaped wand slips from her fingers, and the small heart charm flies toward the foreground.\n\nThe sudden movement flips open her loosely fastened hip pouch. A few heart-shaped trinkets and four or five instant-photo prints spill into the air. Her long ribbon elements sweep into broad open curves around her.\n\nAt the exact instant before she reaches the pavement:\n\nTIME STOPS COMPLETELY.\n\nShe hangs halfway through the fall, both arms reaching forward, one knee bent and the opposite leg extended behind her. Her startled expression is perfectly frozen.\n\nThe wand hangs nearby, its heart-shaped opening clearly visible. The small heart charm remains close to the camera. The scattered trinkets, photographs, ribbon loops, hair strands, and clothing are locked in midair.\n\nEvery pedestrian and vehicle stops at the same instant.\n\nOnly the camera continues moving.\n\n8–17 SECONDS — CONTINUOUS FROZEN-TIME FLIGHT\nThere is NO transition and NO replacement camera.\n\nThe same viewpoint continues from its existing position. Its handheld instability smoothly evolves into a fast, precise FPV-style flight through the frozen three-dimensional scene.\n\nFollow one coherent, uninterrupted route:\n\nFirst, rise just above the heroine and reveal the frozen crossing around her: pedestrians suspended mid-step, a taxi stopped in the intersection, and shopping bags hanging motionless.\n\nImmediately curve back down toward her face. Pass close enough to see her wide golden-amber eyes, pink fringe, blue-tipped side strands, and the heart emblem on her visor. Move around the outside of her hair and bow without intersecting them.\n\nContinue past her shoulder and outstretched hand, revealing the layered outfit, heart ornaments, and a platform sneaker hanging just above the pavement. Keep the framing action-focused and never look beneath her skirt.\n\nBank toward the suspended heart-shaped wand. Briefly arc around its glossy pink outline, then fly through the clearly open center of the heart without touching the frame.\n\nContinue through one large, stationary loop formed by her pink-and-blue ribbon. The ribbon does not move or open to accommodate the camera.\n\nPass the foreground heart charm and fly between the scattered trinkets and instant-photo prints, creating strong depth and foreground parallax.\n\nThe photographs show small casual anime snapshots of the same heroine with friends, colorful city outings, summer skies, and playful everyday moments. They have plain borders with no captions or readable text.\n\nBank around the edge of the final photograph to reveal the heroine’s entire frozen pose again.\n\nKeep this flight quick but visually legible. Maintain stable geography and prioritize a continuous camera path over adding extra maneuvers.\n\n17–20 SECONDS — RETURN, TIME RESUMES, COMIC PAYOFF\nMake one fast sweeping arc around the frozen heroine, briefly showing the whole suspended arrangement: her startled pose, floating wand, heart charm, scattered photographs, and curved ribbon elements, surrounded by the motionless Shibuya crowd.\n\nDescend to street level and physically return to approximately the same handheld side angle and camera height used before the freeze.\n\nThe moment the camera reaches that position:\n\nTIME RESUMES.\n\nNo flash, transition, pulse, or cut.\n\nEvery person and object continues from its exact suspended position.\n\nThe heroine completes the fall but catches herself with one palm against the pavement, landing awkwardly on one knee without injury.\n\nThe wand clatters beside her. The heart charm and small trinkets bounce across the ground. The photographs flutter down. Her ribbons, short hair, and skirt settle naturally.\n\nPedestrians resume walking as though nothing unusual happened.\n\nAt the same instant, the precise camera movement returns to imperfect human handheld shake. Her friend instinctively lowers the camera toward her.\n\nStill crouched, she quickly picks up the nearest heart charm and looks up at the camera. Her embarrassment lasts only a beat before she adopts a mock-stern, playfully defensive expression.\n\nShe holds the charm toward her friend and says:\n\n“You saw nothing!”\n\nShe immediately reaches for her fallen wand.\n\nEnd while the handheld camera is still shaking.\n\nCAMERA CONTINUITY\nOne viewpoint, one uninterrupted spatial path, one continuous shot. No teleportation, lens jumps, hidden wipes, or full-frame obstructions used to disguise edits.\n\nThe camera becomes freely mobile only during frozen time, then returns to the original street-level filming position before handheld movement resumes.\n\nFROZEN-TIME PHYSICS\nDuring the frozen interval, absolutely nothing except the camera moves. No blinking, breathing, drifting hair, fluttering ribbons, rotating props, falling photographs, moving pedestrians, or vehicles.\n\nMaintain true three-dimensional parallax around stationary subjects. This must not look like a flat freeze-frame image being zoomed or warped.\n\nThe freeze is an unexplained cinematic event, not a spell cast by the heroine. No transformation sequence, magical blast, or new costume.\n\nCHARACTER AND PROP CONTINUITY\nKeep the same face, short pink hair with blue tips, visor, bows, heart accessories, pink-and-white outfit, platform sneakers, and reference wand in every frame.\n\nAll props must be present before the freeze and remain in consistent positions during it. No duplicated heroine, extra limbs, newly appearing objects, or changing ribbon attachments.\n\nAUDIO\nOpening: lively street ambience, running footsteps, breathless dialogue, and light accessory rattles.\nFrozen time: street ambience abruptly drops away; restrained camera-flight sound emphasizes the movement.\nTime resumes: city sound returns immediately with the landing, prop impacts, and final dialogue.\n\nOVERALL FEEL\nBright, chaotic, playful summer anime energy. A heart-themed pink heroine rushing through Shibuya becomes the center of an impossible frozen-time camera flight, then returns to an embarrassing everyday mishap.\n\nNo slow motion before the freeze. No cuts. No black frames. No outfit changes. No tennis equipment. No orange-haired replacement character. No smartphone interface. No subtitles, promotional overlays, reference-sheet text, logos, or watermarks.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-cats-coming-babe",
+    "category": "提示词",
+    "title": "两只猫在天台吐槽女友，五分钟后回「来了宝贝」",
+    "body": "夜色里，一只胖橘猫和一只瘦 tuxedo 猫并排蹲在天台边缘。它们先用拟人腔吐槽「她又发消息了」，镜头一晃，又一本正经回：「来了，宝贝。」\n\niamrealsnow 给 Seedance 2.5 写了三十秒喜剧短片：城市虚化背景、暖橙加冷蓝灯光、伪纪录片口吻。提示词把两只猫的体型、毛色、对话节奏和「嘴硬转软」的转折写死，笑点不靠字幕硬塞，而靠动物表情配人类社死台词。演示时停在回消息那一秒最稳。\n\n把两只猫的体型差写成视觉笑点：胖橘负责叹苦，瘦 tuxedo 负责打脸回消息，节奏比堆旁白字幕更干净。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：社死段子不一定要真人出镜，写清楚动物角色和那句打脸台词就够。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/iamrealsnow/status/2105521454255337944"
+      }
+    ],
+    "prompt": "30-second comedy short. Two realistic house cats, a chunky orange tabby and a skinny black-and-white tuxedo cat, sit side by side on a dim rooftop ledge at night, city lights blurred behind them. Warm orange and blue lighting, shallow depth of field, mockumentary-style camera with sudden zoom-ins for comedic timing. Their mouths move naturally in sync with speech. They whisper in sad-angry, deadpan voices like two exhausted men at a bar, constantly glancing over their shoulders. Burned-in white English subtitles at the bottom of the frame, synced to speech.\n\n0-5s: Close-up of the orange tabby, ears flat, one eye twitching. Long, dramatic sigh.\nOrange (whisper): \"Bro... she woke me up at 5 AM to ask if I love her.\"\nSubtitle: \"Bro... she woke me up at 5 AM to ask if I love her.\"\nQuick zoom-in on his tired face.\n\n5-10s: Cut to the tuxedo, tail whipping, slowly shaking his head.\nTuxedo (whisper): \"Mine knocked a glass off the table, looked me dead in the eye, and blamed ME.\"\nSubtitle: \"Mine knocked a glass off the table, looked me dead in the eye, and blamed ME.\"\nOrange nods slowly in the background: \"Classic.\"\n\n10-15s: Two-shot, both staring at the skyline.\nOrange (whisper): \"She says I never listen. I'm a CAT. I don't listen to anybody.\"\nSubtitle: \"She says I never listen. I'm a CAT. I don't listen to anybody.\"\nTuxedo: \"Respect the honesty, though.\"\n\n15-20s: Tuxedo leans in, furious whisper, eyes wide.\nTuxedo (whisper): \"She told me to 'use my words.' I HAVE four words. All of them are 'feed me' and 'move.'\"\nSubtitle: \"She told me to 'use my words.' I HAVE four words. All of them are 'feed me' and 'move.'\"\nOrange wheezes silently, shoulders shaking.\n\n20-25s: Both go quiet. Orange stares into the distance.\nOrange (whisper): \"That's it. I'm done. Tonight I'm leaving her.\"\nTuxedo (whisper): \"Finally. Say it again, louder.\"\nOrange (louder, voice cracking): \"I'M LEAVING HER!\"\nSubtitles match.\n\n25-30s: A distant female voice calls out: \"Dinnerrr!\" Both cats' ears shoot up instantly. They stare at each other, then bolt off the ledge in opposite directions. Cut to the empty ledge, one tiny \"meow\" echoes.\nOrange (off-screen): \"Coming, babe!\"\nTuxedo (off-screen): \"Coming, honey!\"\nSubtitles match. Fade to black.\n\nStyle: photorealistic, 4K, cinematic color grade, subtle city ambience, light comedic sound effects (record scratch on the \"four words\" line, tiny whoosh on the bolt-off). No cartoon look, no text other than subtitles.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-pelican-fish-heist",
+    "category": "提示词",
+    "title": "男孩刚钓上大鱼，鹈鹕空中劫走",
+    "body": "海港清晨，卷发小男孩拎起刚钓到的大鱼，笑得合不拢嘴。下一秒，一只鹈鹕俯冲过来，鱼在空中易主，孩子愣在码头上。\n\naniyaintel 把整段写成十五秒家庭向三维动画：先建彩色港口、木栈桥、灯塔和海鸥，再按「展示大鱼→鹈鹕劫走→表情反应」推进。提示词强调友好喜剧而不是惊吓，动作因果清楚，适合竖屏一口气看完。笑点在「得意和失落只隔一帧」。\n\n港口颜色写得越暖，被抢那一下就越像卡通恶作剧而不是惊悚；家庭向短片就靠这种温差。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：短喜剧就写三拍——得意、被抢、愣住，别把故事摊成五分钟。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/aniyaintel/status/2105526422949523691"
+      }
+    ],
+    "prompt": "Create a 15-second high-quality 3D animated family-friendly comedy sequence set in a cozy seaside fishing harbor town on a bright, breezy morning. Begin with a wide establishing shot of a colorful harbor lined with pastel houses, wooden docks, little fishing boats, hanging lanterns, crates of fish, lighthouse on the hill, and seagulls gliding overhead → reveal a cheerful curly-haired little boy in a yellow raincoat and blue boots sitting on a dock beside a giant silver fish on a wooden crate, while a jolly old fisherman with a big white beard and a captain's hat proudly shows off his catch of the day → transition into a smooth tracking shot along the busy dock as the boy skips between nets and barrels, the fisherman strolling behind him, townspeople waving and laughing → suddenly cut to a dynamic side shot as a mischievous baby pelican snatches a fish and waddles-flaps down the dock, past stacked crates and coiled ropes → transition to a fast playful chase as the boy and fisherman dash after the pelican across the harbor, dodging barrels and fishing nets while fishmongers and sailors turn to watch in amusement → cut to a dramatic low-angle shot of the fisherman tripping over a rope and spinning comically, the giant fish flying overhead against a bright sky of boats and flags → transition back to the dock where the boy sits happily on the crate, the pelican perched beside him, sheepishly holding the fish, as flags and laundry lines sway in the sea breeze → final shot becomes a warm wide-angle view of the boy and fisherman laughing together with the pelican between them, as the harbor, boats, lighthouse, and townspeople create a joyful, sun-drenched ending.\n\nVisual style: polished high-end 3D animated feature-film quality, expressive stylized characters, detailed facial expressions, realistic cloth, beard, and hair movement, vibrant seaside environment, soft golden morning light, sparkling water reflections, playful physical comedy, smooth character animation, detailed wood and fish textures, natural depth of field, dynamic camera movement, clean rendering, consistent characters and proportions throughout, family-friendly adventure-comedy atmosphere, 4K quality, no text, no subtitles, no watermark.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-corinthian-reflection",
+    "category": "提示词",
+    "title": "他走开了，镜子里的自己没走",
+    "body": "西装墨镜的暗黑人物背对镜子走开。玻璃里的那一张脸没有跟着离开，还在原处看着镜头。\n\nnonameoasis 给 Seedance 2.5 写了三十秒横屏：参考图锁死角色五官与西装剪影，禁止模型擅自改脸、改发、改墨镜。整段不要廉价跳吓，只要「倒影不再是你」这一种不安。提示词把视觉风格和参考图绑定，连续镜头里反复确认倒影与实体不同步。适合演示「角色一致性 + 超现实规则」怎么一起写。\n\n若倒影中途开始跟走路，整段恐怖感会立刻塌掉，所以提示词里反复写「不同步」比写血腥细节更重要。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：拍镜中异变，先锁真人长相，再写倒影哪里不听话。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/nonameoasis/status/2105456513984958557"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/nonameoasis/status/2105456687654256721"
+      }
+    ],
+    "prompt": "30 SECONDS — 16:9 — 720P\n\nREFERENCE IMAGE:\n@image1 is the ABSOLUTE SOURCE OF TRUTH for the main character.\n\nTHE CORINTHIAN must remain visually identical to @image1 throughout the entire video.\n\nDo NOT redesign him.\nDo NOT reinterpret him.\nDo NOT modernize him.\nDo NOT change his face, hair, sunglasses, suit, proportions, silhouette, colors or artistic style.\n\nVISUAL STYLE — MUST MATCH IMAGE1:\n\nDark fantasy concept art translated directly into cinematic motion.\n\nMaintain the exact visual language of the reference:\nrough painterly oil brushstrokes,\nvisible painted texture,\ndark fantasy illustration,\ndramatic directional lighting,\nhigh contrast,\ndeep shadows,\ncinematic atmosphere,\nsubtle nightmare mist,\nshattered mirror imagery,\nethereal supernatural details.\n\nThe finished video must look like the original painted artwork has come alive.\n\nNOT photorealistic.\nNOT live action.\nNOT glossy 3D CGI.\nNOT anime.\nNOT clean digital animation.\nNOT Pixar.\nNOT realistic skin rendering.\n\nPreserve the hand-painted concept-art feeling in every frame.\n\nCHARACTER:\nThe Corinthian from @image1.\n\nHis platinum-blond hair, elegant handsome face, dark sunglasses, immaculate off-white tailored suit, sinister charisma and supernatural eye-socket mouths must remain exactly as established in the reference image.\n\nThe tiny rows of sharp human teeth inside his eye sockets must remain consistent.\n\nHis eerie nightmare mist and distorted floating-eye effect remain part of his visual identity.\n\nMOVEMENT:\nElegant.\nControlled.\nPredatory.\nNever frantic.\nHe moves with unnatural confidence, as though he already knows exactly how the scene will end.\n\nSETTING:\n\nA rain-soaked abandoned luxury hotel at night.\n\nLong dark corridor.\nOld wallpaper.\nWet black marble.\nDim practical lamps.\nBroken mirrors.\nDeep shadows.\nThin nightmare mist close to the floor.\n\nThe environment should feel real enough to touch, but subtly wrong.\n\nCORE DIRECTING RULE:\n\nEvery major action must visually trigger the next shot.\n\nUse motivated match cuts, reflections, foreground wipes and camera movements.\n\nNo arbitrary cuts.\nNo random teleportation.\nNo unexplained changes in position.\n\nThe Corinthian's position must always remain spatially understandable.\n\n30-SECOND SEQUENCE:\n\n0-4 SECONDS — THE REFLECTION\n\nOpen on an extreme close-up of a cracked hotel mirror.\n\nNothing appears in the corridor.\n\nRain can be heard.\n\nA faint shadow slowly crosses the reflection.\n\nThe camera moves sideways.\n\nThe Corinthian is suddenly visible in the mirror behind the viewer.\n\nHe stands perfectly still.\n\nBlack sunglasses.\nImmaculate off-white suit.\nSubtle sinister smile.\n\nHe slowly tilts his head.\n\nThe camera WHIPS toward him—\n\n4-8 SECONDS — EMPTY CORRIDOR\n\n—but the corridor is empty.\n\nOnly a thin layer of nightmare mist remains.\n\nA frightened HUMAN MAN appears at the far end of the corridor, running toward camera.\n\nHe looks behind him.\n\nHe sees nothing.\n\nHe keeps running.\n\nSuddenly The Corinthian is standing directly behind him.\n\nThe man stops.\n\nSilence.\n\nThe Corinthian quietly says:\n\n“Did you really think you could hide?”\n\nNo subtitle unless necessary.\n\n8-12 SECONDS — THE EYE\n\nThe man turns around.\n\nExtreme close-up of The Corinthian's sunglasses.\n\nHe slowly removes them.\n\nReveal the eye sockets:\n\ninstead of eyes, small living rows of sharp human teeth move subtly inside the sockets.\n\nThe teeth open and close like tiny mouths.\n\nThe human realizes what he is seeing.\n\nHis expression changes from fear to absolute terror.\n\nA whisper.\n\n“No…”\n\nThe Corinthian smiles.\n\n12-16 SECONDS — THE ATTACK\n\nThe Corinthian moves forward with impossible speed.\n\nNO chaotic fighting.\n\nOne elegant predatory movement.\n\nHe grabs the man's face and pulls him toward one of the mouth-filled eye sockets.\n\nThe supernatural mouths open.\n\nCUT BEFORE excessive gore.\n\nThe sound design sells the horror.\n\nThe surrounding mirrors suddenly crack simultaneously.\n\n16-20 SECONDS — MEMORY\n\nThe shattered mirrors reflect fragments of the victim's memories:\n\nchildhood bedroom,\na woman crying,\na crime scene,\na knife,\nrunning through rain,\nhis own terrified face.\n\nThese memories flicker across the broken glass.\n\nThe Corinthian stands motionless in the center.\n\nThe nightmare mist becomes thicker.\n\nThe ethereal floating eyes from @image1 appear around him, subtly drifting through the darkness.\n\nThe memories suddenly disappear.\n\n20-24 SECONDS — THE CORINTHIAN'S REVELATION\n\nClose-up.\n\nThe Corinthian puts his sunglasses back on.\n\nHis expression is calm.\n\nA faint trace of blood is visible around one side of his mouth-like eye socket.\n\nHe looks directly toward camera.\n\nHe knows we are watching.\n\nHe gives the smallest possible sinister smile.\n\nBehind him, the victim is no longer visible.\n\nOnly his abandoned coat lies on the wet floor.\n\n24-27 SECONDS — WRONG REFLECTION\n\nThe Corinthian walks away down the corridor.\n\nThe camera remains behind.\n\nHe passes a large intact mirror.\n\nHis real body keeps walking.\n\nBut his reflection stops.\n\nThe reflection slowly turns toward camera.\n\nThe Corinthian himself does NOT turn.\n\nOnly the reflection looks directly at us.\n\nThe reflection removes its sunglasses.\n\nThe mouths inside the eye sockets open.\n\n27-30 SECONDS — FINAL IMAGE\n\nThe real Corinthian continues walking into the darkness.\n\nHis reflection remains behind.\n\nThe reflection leans closer to the glass.\n\nA final whisper:\n\n“Dream well.”\n\nCUT TO BLACK.\n\nAUDIO:\n\nNo music during the first 5 seconds.\n\nOnly rain,\ndistant building ambience,\nfootsteps,\nfabric movement,\nsubtle breathing,\nmirror creaks.\n\nIntroduce an extremely low dark ambient drone when the sunglasses are removed.\n\nLayer:\nglass cracking,\nwet footsteps,\nlow supernatural resonance,\nwhispers,\nsubtle teeth movement,\ndistorted memory fragments.\n\nThe final “Dream well” should sound calm and intimate.\n\nCAMERA:\n\nSlow cinematic movements during suspense.\n\nExtreme close-ups for the sunglasses and eye-socket mouths.\n\nElegant tracking shots.\n\nControlled whip-pan transitions.\n\nNo shaky action-camera footage.\n\nNo random zooms.\n\nNo excessive slow motion.\n\nThe camera should feel like a horror film observing a predator.\n\nCOLOR / LIGHTING:\n\nMaintain the palette and grading from @image1.\n\nOff-white suit against extremely dark environments.\n\nMuted blacks.\nCold gray.\nDirty blue.\nSubtle desaturated green.\nSmall supernatural crimson accents.\n\nNo bright saturated colors.\n\nThe painterly lighting from the original artwork must remain visible.\n\nCRITICAL CONSISTENCY RULE:\n\nimage1 is more important than every textual description in this prompt.\n\nWhen text and reference image conflict, FOLLOW THE REFERENCE IMAGE.\n\nPreserve the exact:\nface,\nhair,\nsunglasses,\nsuit,\nbody proportions,\nsilhouette,\nart style,\nbrushwork,\ncolor palette,\nlighting character,\nnightmare effects.\n\nSTRICT NEGATIVE CONSTRAINTS:\n\nNo character redesign.\nNo face drift.\nNo hairstyle changes.\nNo clothing changes.\nNo body-proportion changes.\nNo extra versions of The Corinthian.\nNo duplicate character.\nNo transformation into another creature.\nNo photorealistic rendering.\nNo anime.\nNo CGI look.\nNo clean vector art.\nNo glossy fantasy style.\nNo comedy.\nNo exaggerated superhero movement.\nNo random weapons.\nNo unnecessary combat choreography.\nNo sudden location changes.\nNo teleportation without visual transition.\nNo daylight.\nNo bright cheerful lighting.\nNo text or logos.\n\nThe final result should feel like:\nA dark fantasy painting that has suddenly become alive.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-korean-chicken",
+    "category": "提示词",
+    "title": "三十秒拍完韩式炸鸡从切到上桌",
+    "body": "案板上生鸡块被切成一口大小，不锈钢碗里裹上奶白色腌料，热油里炸到外壳起泡，最后浇上亮晶晶的韩式甜辣酱。\n\naynellex 把完整流程写成三十秒写实美食片：从俯拍切菜，平滑接到拌料、下锅、出锅淋酱，厨房暖光和不锈钢反光都写进提示词。重点不是炫技运镜，而是让观众跟着闻到那一层脆壳。适合做「一条提示词搞定美食广告」的演示。\n\n出锅淋酱那几秒最适合做封面定格：外壳反光和酱汁拉丝比任何「美味」形容词都有说服力。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：美食短片按真实工序写时间线，比堆空泛美味词有用得多。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/aynellex/status/2105532781258571918"
+      }
+    ],
+    "prompt": "Create a cinematic, ultra-realistic 30-second live-action food sequence showing the complete preparation of crispy Korean-style glazed chicken in a warm home kitchen. Begin with an overhead close-up of raw chicken pieces being carefully cut into bite-sized chunks on a wooden cutting board. Transition smoothly to a stainless-steel bowl as the chicken is coated with a creamy white seasoned mixture, showing realistic hand movements and detailed food textures.\n\nMove into a dynamic close-up of the coated chicken being lowered into hot oil. Capture the bubbling oil, golden batter, steam, sizzling particles, and gradual transformation as the pieces become deeply golden and crispy. Use macro shots to emphasize the crunchy exterior and realistic frying physics.\n\nCut to a dark pan as thick glossy red Korean-style sauce is poured in, followed by finely chopped garlic. Show the sauce slowly heating and bubbling, becoming rich, sticky, and glossy. Add the crispy fried chicken into the pan and toss it repeatedly with chopsticks until every piece is evenly coated in the vibrant red glaze.\n\nEnd with a beautiful close-up of the finished crispy chicken arranged on a white ceramic plate, covered in shiny red sauce and topped with sliced green onions and sesame seeds. Slowly push the camera toward the dish as the glaze catches the warm kitchen light, emphasizing the crunchy texture and appetizing details.\n\nUltra-photorealistic cinematic live-action food commercial, realistic human hands, authentic Korean-style cooking, detailed food textures, crispy batter, bubbling hot oil, realistic steam and heat, glossy sauce, natural kitchen lighting, warm wooden surfaces, macro food photography, shallow depth of field, smooth camera movement, overhead shots, close-ups, realistic frying physics, rich colors, subtle film grain, appetizing presentation, physically accurate ingredients, 30 seconds, widescreen 16:9, no text, no logos, no watermark, no cartoon look, no plastic CGI appearance, no distorted hands, no artificial food textures.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-festival-keg-drone",
+    "category": "提示词",
+    "title": "音乐节上抓住啤酒桶，无人机把人吊上天",
+    "body": "乡村音乐节人潮里，无人机吊着金属啤酒桶从头顶掠过。女孩一把抓住桶沿，整个人被吊离地面，人群在脚下变成色块。\n\nPhotoGPT 先用 GPT Image 2.5 做角色设定和写实定妆，再把十七秒竖屏提示词交给 Seedance 2.5：强制手持手机感、一镜到底、正常速度，并写明「假设无人机有足够拉力」。参考图锁脸与服装，动作只围绕抓桶—升空—俯瞰展开。又野又好笑，适合做户外奇观演示。\n\n手持手机感写进提示词之后，升空才像偶发事故，而不是预告片吊威亚；这种「差点真的」最适合二创。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：奇观动作先锁人物长相，再写清道具怎么把人带走。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/itsphotogptai/status/2104994617859125435"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/itsphotogptai/status/2104994619662762376"
+      }
+    ],
+    "prompt": "Generate a 17-second, 3:4 portrait video resembling authentic handheld phone footage from inside a crowded outdoor country-music festival. One continuous take at normal speed.\nAn airborne drone carries a suspended metal beer keg above the crowd. A woman grabs the keg and holds on as the drone lifts her high above the festival. Assume the drone has sufficient lifting capacity. Render the event with convincing gravity, bodily weight, contact, inertia, rotor airflow and material behavior.\nIMAGE REFERENCES\nImage 1 establishes the festival environment, afternoon sunlight, concert stage, crowd, drone, suspension straps and stainless-steel PhotoGPT keg. Reconstruct this as a moving, three-dimensional scene.\nImage 2 depicts ONE adult woman from multiple angles. Preserve her tall proportions, long dark wavy hair, backward black cap, fitted white PhotoGPT T-shirt, black denim miniskirt and white sneakers. Preserve the small chest symbol and large back logo. Give her a consistent, natural adult face; the facial blur, measurement labels and white background belong only to the reference sheet.\n0–3 SECONDS — KEG ABOVE THE CROWD\nThe camera is held at head height within a tightly packed crowd. Cowboy hats, raised arms and clear plastic beer cups partially obstruct the foreground. The concert stage stands in the distance beneath a bright blue sky.\nA drone hovers overhead, its spinning rotors blurred. A stainless-steel PhotoGPT keg hangs beneath it from taut straps, with its tap facing the camera-right side. The camera edges closer beneath the keg as festivalgoers raise their cups. Beer pours into a raised cup, building a foamy head. The keg sways slightly; its metal reflects moving people and bright sunlight.\n3–6 SECONDS — SHE REACHES UP\nThe camera eases back enough to reveal the drone and keg together. The woman pushes into the opening beneath it, looking upward. Nearby people shift aside.\nShe reaches up with both arms, catches the sides of the keg and pulls it against her upper chest. One forearm wraps around its body while the other hand secures a grip near the side handle. Show her hands establishing contact before her weight transfers to them.\nHer pull tilts and rotates the suspended keg slightly. Beer spills from the open tap in a brief outward splash, then falls through the air in broken streams and droplets. People recoil, laugh and raise their cups.\n6–9 SECONDS — WEIGHT TRANSFER AND LIFT-OFF\nShe tightens her embrace around the keg. The drone begins rising and the straps straighten fully under tension.\nHer shoulders lift first, followed by her torso. Her hips and feet briefly lag behind through inertia. Both knees bend as her sneakers clear the crowd; she then hangs with her body below the keg. Her face shows surprise and effort, with tightened lips and a brief downward glance.\nHer arms remain wrapped around the same parts of the keg. Her forearms press against the metal, her shoulders carry her weight, and the cotton across her upper back stretches into tension folds. The keg tips toward her slightly before the suspended assembly settles into its ascent.\nThe handheld camera tilts upward to keep her in view. Raised hands reach after her from below without catching her.\n9–13 SECONDS — ASCENT ABOVE THE FESTIVAL\nThe drone carries the keg and woman steadily upward. Her bent legs gradually lengthen beneath her under gravity, one knee remaining slightly more flexed than the other. Her feet swing through a small, slow arc as her body settles. The keg and woman sway together beneath the suspension point.\nThe camera operator leans back and follows their ascent with an imperfect upward tilt. The stage and crowd drop toward the bottom of the frame. The woman, keg and drone become progressively smaller against the sky.\nThe sun passes behind them, producing strong backlighting, partial silhouette, a brief lens flare and a natural phone-camera exposure adjustment. Her grip remains continuous and visible where the angle permits.\n13–17 SECONDS — SKY TO CROWD\nThe drone continues away overhead, with the woman still hanging beneath the keg and her legs dangling.\nThe camera briefly struggles to keep the receding group centered, then swings downward and toward the right. A large American flag enters the upper-right frame, followed by the cheering crowd, raised cups and cowboy hats. End amid the spectators with natural motion blur from the quick handheld turn.\nROTOR AIRFLOW AND CLOTHING\nEstablish strong downward airflow beneath the drone. As the woman approaches the keg, loose strands of her hair and the free edges of her shirt already react. The effect intensifies when she moves directly beneath it.\nHer fitted cotton T-shirt remains fitted through the torso while its sleeves and lower hem flutter vigorously. Rapid, irregular ripples travel through the available loose fabric. Gusts press the shirt against her body, then allow small folds to billow away. Fabric stretched across her raised shoulders and back stays taut; sleeve openings and the free hem move much more.\nAir flows predominantly downward, spreading outward around the keg, shoulders and torso. Local turbulence produces brief sideways flutters. Keep these movements fast, uneven and responsive to her changing orientation. The shirt remains opaque and securely worn.\nHer long hair streams downward and outward in separated strands, buffeting around her shoulders. Some strands catch against the shirt before lifting free. Her cap stays fitted to her head.\nThe denim miniskirt behaves as a heavier, stiffer material: restrained hem vibration and structured folds around the hips. It retains its shape and coverage. Her sneakers carry visible weight at the ends of her swinging legs.\nNearby hair, shirt sleeves and loose hats respond to the same gusts when the drone is close. Loose dust disperses outward beneath it.\nPHYSICAL CONTINUITY\nGravity pulls her body, loose clothing and spilled liquid downward. Her ascent is transmitted through the drone, taut straps, keg and her continuous grip. Her body never rises independently of those connections.\nHands maintain their established contact points. Arms overlap the keg correctly. Shoulder tension, compressed fabric and contact shadows convey her weight. Acceleration produces delayed movement in her legs and hair; changes in motion settle gradually.\nBeer leaves the spout as a stream, breaks into droplets when disturbed and follows downward-curving paths. Rotor turbulence deflects the spray sideways while gravity continues pulling it down.\nLIVE-ACTION FINISH AND AUDIO\nUse hard afternoon sunlight, naturally exposed skin, subtle perspiration, flyaway hair, creased cotton, textured denim and brushed metal with small scuffs. Preserve consistent light direction, body proportions, wardrobe and PhotoGPT branding throughout.\nUse believable phone-camera perspective, normal-speed motion, moderate depth of field, natural motion blur and small operator corrections. Keep the airborne subject progressively smaller as distance increases.\nSound: loud rotor buzz, festival crowd chatter, distant amplified country-rock music, liquid splashing, then spontaneous cheers and surprised shouts as she rises. Rotor sound becomes more distant during the ascent. No scripted dialogue, narration, subtitles or added cuts.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-luxe-streetwear-mv",
+    "category": "提示词",
+    "title": "十五秒潮牌 MV：一拍一换装还带平面排版",
+    "body": "宽景英雄镜头一出，标题字卡砸进来，接着是妆容特写、走位剪影，最后定格成签名式海报帧。衣服一套接一套，节奏像跟鼓点咬死。\n\nitxabdullaa 在 PixVerse 上跑 Seedance 2.5，提示词把时长、画幅和结构写死：宽景英雄镜头、图形揭示、妆容特写、动态角度、最终签名帧。角色与服装变化按段落分配，强调奢侈街头感而不是随机乱切。适合演示「短 MV 结构」怎么当成提示词骨架。\n\n字卡和换装最好卡在同一鼓点上，观众才会觉得这是 MV，而不是五张时尚静帧硬接。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：时装短片先写五段结构，再往每段里填衣服，别一股脑堆形容词。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/itxabdullaa/status/2105517564277436767"
+      }
+    ],
+    "prompt": "DURATION: 15s | FORMAT: 16:9\n\nCreate a 15-second luxury streetwear fashion film combining rapid outfit changes, premium editorial layouts, and beat-synced graphic transitions.\n\nCore Structure:\nWide Hero Shot → Graphic Reveal → Beauty Close-Up → Dynamic Fashion Angles → Final Signature Frame\n\nCharacter Lock:\n- Same female model throughout entire video\n- Maintain identical face, skin tone, body proportions, hairstyle identity, and appearance\n- Keep character near center frame at all times\n- No facial drift or character replacement\n\n0.0–1.5s\nMinimal gray concrete studio.\nModel stands confidently at center frame.\nCamera locked.\nMassive metallic text \"NO LIMITS\" expands behind her.\nEditorial elements appear:\nGeometric lines, serial numbers, frame guides, measurement marks, catalog graphics.\nStudio transforms into a luxury campaign cover.\n\n1.5–3.0s\nQuick push-in to beauty close-up.\nModel slowly raises chin toward camera.\nNatural eye contact.\nHair moves gently.\nBackground becomes monochrome silver editorial texture with glossy magazine reflections.\n\n3.0–4.5s\nLOOK 01.\nOversized luxury streetwear outfit.\nFull-body fashion pose.\nBackground changes into futuristic editorial layout with giant typography and campaign graphics.\n\n4.5–6.0s\nLOOK 02.\nStructured denim couture outfit.\nMedium shot.\nModel takes a smooth side step.\nTypography slides rapidly across frame.\nSilver, charcoal, and electric blue dominate.\n\n6.0–7.5s\nLOOK 03.\nModern monochrome sportswear.\nModel turns naturally.\nHair follows with realistic motion.\nBackground becomes layered graphic panels with coordinates, technical markings, and oversized numbers.\n\n7.5–9.0s\nLOOK 04.\nContemporary athleisure outfit.\nLow-angle shot.\nModel places one hand in pocket.\nSubtle confident smile.\nLarge chrome typography animates with the beat.\n\n9.0–10.5s\nLOOK 05.\nAvant-garde runway outfit.\nStylish fashion pose.\nRapid camera push-in.\nBackground fully restructures into a fresh editorial composition.\n\n10.5–12.0s\nLOOK 06.\nLuxury varsity-inspired outfit.\nCamera pulls back slightly.\nModel stands tall.\nWhite jacket with metallic details.\nLong platinum silver hair.\nElegant grayscale editorial graphics behind her.\n\n12.0–13.5s\nLOOK 07.\nSharp contemporary power suit.\nModel walks confidently toward camera.\nPace increases.\nBackground becomes dark charcoal and silver magazine design.\nLarge titles, frame guides, serial numbers, and graphic elements animate rapidly.\n\n13.5–15.0s\nFINAL HERO SHOT.\nSleek futuristic black fashion outfit.\nModel stands confidently at center frame.\nClean medium shot.\nBackground simplifies.\nOnly elegant editorial graphics remain.\nFinal campaign signature appears.\nFreeze frame on final beat.\n\nSTYLE:\nLuxury streetwear campaign.\nPremium fashion photography.\nFuturistic editorial magazine design.\nHigh-end commercial advertising.\nGrayscale base with silver and electric blue accents.\nOversized typography.\nTechnical graphics.\nGeometric grids.\nThin frame lines.\nSubtle photographic texture.\nNew outfit and layout every 1–1.5 seconds.\nBeat-synced transitions.\nControlled camera movement.\nPremium studio lighting.\n\nAVOID:\nFace changes.\nIdentity drift.\nCharacter replacement.\nBody deformation.\nExtra limbs.\nHand distortions.\nProportion inconsistencies.\nMessy typography.\nExcessive camera shake.\nRandom backgrounds.\nCartoon style.\nLow-quality CGI.\nWatermarks.\nSubtitles.\nVisual glitches.\n\nFinal result should feel like a luxury streetwear campaign, futuristic fashion editorial, premium commercial photoshoot, and rhythm-driven fashion music video.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-nfs-v2v-restyle",
+    "category": "提示词",
+    "title": "原车位不动，整座城被刷成手绘狂飙风",
+    "body": "两辆车还在原来的车道上飙，镜头剪辑、转弯时机一点儿没变。变的是整座城：墙面、天空、车漆全被刷成厚涂手绘竞速片质感。\n\nitsPixieVerse 先用 Midjourney 和三维预演搭好竞速片风分镜，再交给 Seedance 2.5 做视频重绘。提示词核心只有一句规矩：运动、剪辑、道路几何、两车位置速度朝向必须原样，只许改表面材质。把「参考视频管运动、参考图管皮肤」拆开写，比让模型从头发明追逐戏稳得多。\n\n先保留真实车流时序，再刷手绘皮，比让模型重新发明弯道更不容易车穿模、镜头乱跳。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：想换皮保留运镜，先写死哪些绝对不能动，再谈画风。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/itsPixieVerse/status/2105518921336103355"
+      },
+      {
+        "label": "V2V 完整提示词",
+        "url": "https://x.com/itsPixieVerse/status/2105518931293434053"
+      }
+    ],
+    "prompt": "Restyle @[Video1], keeping its camera motion, cuts, timing, road geometry, traffic positions and the position, scale, speed and heading of both cars exactly as they are. Only the surfaces change. The world is built from @[Image3] , the hero car is @[Image1] and the rival car is @[Image2] .Cinematic 2.5D animation in the style of fully painterly rendering, characters and environments look like gouache concept-art paintings in motion, visible brush texture on skin, cloth and buildings, flat posterized color blocks with hard-edged light shapes, matte finish, soft filmic volumetric lighting, shallow depth of field. NOT flat 2D cartoon, NO bold black outlines, NO cel-shading, NOT glossy CGI, NOT Unreal Engine, NO photorealism, no plastic skin. \n\nWHAT IS LOCKED: every camera path, lens, shake, whip and cut of @[Video1] ; the 4-lane highway, overpasses, drift curve and tunnel geometry; every car's lane position, speed, overtake and drift angle; light positions. Nothing is added or removed.\n\nWORLD MATERIALS (from @[Image3]): towers of dark blue-black glass and soot-grey stone with a grid of warm amber office windows, painted as loose rectangular dabs of cream and orange, some windows dark. Distant skyscrapers dissolve into flat slate-blue silhouettes in haze. Weathered grey concrete overpasses with stained undersides and chunky pillars. A black steel sign gantry with blank dark sign plates. Round holographic billboards on the tower faces: a red disc inside a glowing white-cyan ring. The asphalt is soaked, a dark mirror cut with long vertical orange streaks from the lamps, and the lane paint is worn off-white. Concrete jersey barriers are edged with amber reflector strips. Orange sodium lamps are on tall poles. Dark tree masses frame the edges of the road. Traffic is weathered sedans, vans and box trucks in muted grey, beige and faded paint. The tunnel is stained concrete, the colour of raw umber, lit by rows of cold white ceiling strips.\n\nATMOSPHERE & LIGHT: blue-hour night, with a pale cold slate-blue sky glowing between the towers. Key light is the orange sodium lamps overhead. Fill is the cold blue haze from the sky. Fine rain mist catches the sodium light. Depth recedes in layers of blue haze. Emissive things are painted pigment, with the headlights as flat cream shapes and the tail lights as flat red dabs.\n\nPROXY REPLACEMENT:\n\nThe lime-green car with black stripes, a rear wing and a cyan underglow is @[Image1] : a 1970s Datsun 240Z-style long-hood fastback coupe in weathered slate-blue-grey paint, with rust-brown bolt-on fender flares, polished deep-dish chrome wheels with black centres, round headlamps, chrome fender mirrors, a thin chrome front bumper over a patchy primer-tan valance, and an amber indicator. It has no wing. It replaces the green proxy exactly in position, scale and motion. No lime green appears in the output.\n\nThe blue car with white stripes, a big wing and a magenta underglow is @[Image2] : a Lancia Stratos-style wedge rally car. The nose and front half are burnt orange-red, with twin round headlamps in square pods and a black mesh grille. The rear half and roof are black, and orange flame-shaped paint bleeds across the door. It has solid bronze-gold dish wheels, a low black rear spoiler, a louvred rear window, and dust scuffs along the sills. It replaces the blue proxy exactly. No blue body paint, white stripes or big wing.\n\nThe pink and magenta edge strips on the barriers and overpass fascias become amber reflector strips. Underglows become plain wet-road reflections of the sodium lamps. The white flame cones become short orange-yellow painted exhaust flame bursts with grey tyre-smoke plumes, like the smoke in @[Image1] and @[Image2]. The pale peach block at the drift corner becomes a sodium-lit concrete roof. The purple panels become red ring billboards. The green truck cab and the yellow taxi become muted grey traffic.\n\n| 1 | 0:00–0:00.8 | Extreme macro on the hero's grille, 72 mm | Headlights flick on, rain beads on the paint, the engine revs. |\n\n| 2 | 0:00.8–0:01.7 | Low rear shot, staged, 28 mm | Both cars side by side on the start line with red start lights, tail lights glowing and exhausts smoking. |\n\n| 3 | 0:01.7–0:03.6 | Side tracking shot on the hero, 24 mm | Keeping pace beside the hero. The wheels blur and the city streaks behind. The rival edges ahead. |\n\n| 4 | 0:03.6–0:04.19 | Static shot from overpass A, 35 mm | Both cars roar underneath toward the camera, with light trails. |\n\n| 5 | 0:04.19–0:05.25 | Bumper cam on the hero, 24 mm | Low and shaking. The road rushes under the lens and the rival's tail lights are just ahead. |\n\n| 6 | 0:05.25–0:07.15 | Chase cam, 28 mm | The overtake: the hero swerves out and slingshots past the rival, missing a truck by inches. |\n\n| 7 | 0:07.15–0:08.29 | Top-down from overpass B, 28 mm | Bird's-eye view of the hero now leading, both weaving between lanes of traffic. |\n\n| 8 | 0:08.29–0:10.18 | Wheel-mounted rig on the rival, 22 mm | Spinning rim, sparks and spray. The rival is chasing hard. |\n\n| 9 | 0:10.18–0:13.17 | Crane shot at the drift corner, 55 mm | A sweeping 90° bend. Both cars drift sideways with tyre smoke and neon reflections. The rival takes the inside line. |\n\n| 10 | 0:13.17–0:15.07 | Rear shot on the rival's nitro, 20 mm | The rival hits nitro out of the corner, flames blasting, and retakes the lead. |\n\n| 11 | 0:15.07–0:16.04 | Hood cam on the hero, 20 mm | The hero's point of view, locked on the rival ahead. |\n\n| 12 | 0:16.04-0:17.02 | Ground-level / Ultra-low angle, 18mm |  Positioned inches off the wet asphalt, looking slightly upward, hero car follows the camera. |\n\n| 13 | 0:17.02-0:17.28 | High angle, 35mm | Positioned well above eye level and angled downward at roughly 30° to 45°, revealing the road lanes, the spatial gap between both vehicles, car chase, and the roadside barrier.\n\n| 14 | 0:17.28-0:18.23 | Low-angle / Bumper-to-hood height, 20mm | Positioned slightly below standard eye level, tilted subtly upward toward the tunnel mouth to capture both the wet asphalt reflections and the overhead city structures.\n\n| 15 | 0:18.23–0:20.05 | Static shot inside the tunnel, 24 mm | Both cars rush into a tunnel lit by strips of ceiling lights. Strobing light flashes across the cars. |\n\n| 16 | 0:20.05–0:23.17 | Reverse shot facing the hero, 35 mm | The hero pulls away. The rival shrinks in the background and the hero bursts out of the tunnel. |\n\n| 17 | 0:23.3–0:24.27 | Static shot at the finish, 18 mm | The hero blasts across the finish line well ahead of the rival. Final light streak. Hard cut to black. |SOUND: a wet-tyre hiss and rain bed. The coupe is a raspy straight-six, the rival a high screaming V6. Turbo whoosh and exhaust crackle on each flame, a tyre shriek through the drift, and a booming tunnel reverb from 0:18.23. The engine note fades into the distance over the empty street.\n\n| 18 | 0:24.27-0:25.00 | black screen\n\nNegative field:\n\nlime green car, blue car, white racing stripes, large rear wing, magenta, pink neon, cyan underglow, neon strips, chroma proxy, greybox, clay render, flat untextured surfaces, glossy CGI, Unreal Engine, photorealism, cel-shading, bold black outlines, flat 2D cartoon, daytime, dry road, warped cars, extra wheels, melting geometry, cars changing colour or shape between shots, camera path changes, geometry changes, extra cuts, fade to black, crash, text, readable signage, logos, badges, license plates, watermark",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-kling-bank-hostage-comedy",
+    "category": "提示词",
+    "title": "Kling 初尝试：银行劫案拍成动作喜剧",
+    "body": "大理石银行大厅里，人质靠墙跪着，蒙面劫匪挥枪推搡。镜头手持晃动，青橙色调和胶片颗粒一层层叠上来，节奏却带着点黑色幽默。\n\nMayorKingAI 自称这是 Kling 4.0 Flash 文生视频的第一次正经尝试。提示词按秒切开：紧张广角、对峙、突发动作，每段写清机位和人物状态。不是让模型「拍个劫案」，而是把剪辑表直接写进提示词。适合对比 Seedance 之外的另一条动作模型路线。\n\n青橙调加上人质低头，紧张感先立住，后面的黑色幽默才有地方落；顺序反了就只剩闹剧。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：动作片提示词按镜头秒数列清单，比写一大段气氛形容更听话。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/MayorKingAI/status/2104974096513872227"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/MayorKingAI/status/2104974109050535941"
+      }
+    ],
+    "prompt": "High-octane cinematic action-comedy, gritty realistic thriller look, teal & orange grade,\nsubtle film grain, fast-paced editing.\nInterior of a modern bank, polished marble and glass, cold fluorescent + window light.\nTerrified hostages kneeling with hands behind their heads, heads bowed against the wall.\n\nShot 1 (0-4s): wide handheld shot, tense. Three masked robbers wave guns and shove people.\nRobber 1 (shouting): \"Nobody moves! Fill the bag, now!\"\nRobber 2 (kicking a chair): \"Down! Stay down!\"\n\nShot 2 (4-8s): slow dolly-in on a thin old Chinese janitor calmly mopping, unbothered.\nHe mutters: \"So much noise for a Tuesday.\" His eyes narrow — calculation.\nHe flicks the wet mop; water splashes across a robber's visor.\n\nShot 3 (8-9s): whip-pan. Robber 3 spins: \"Sit down, gramp—\"\nThe mop handle cracks across his jaw mid-word. Impact freeze, bass hit.\n\nShot 4 (9-16s): explosive continuous martial-arts sequence, escalating. He vaults over\nthe counter, disarms Robber 1 with a spinning mop strike, sends the gun sliding across\nmarble. Hand-to-hand blur: elbow, sweep, a robber crashes through a glass partition\nin slow-motion shards. He kicks a rolling office chair into the third, springboards off\nthe desk, and takes him down in a fast combo. Orbiting dynamic camera, quick cuts,\nsnap-zooms, brief slow-mo on each impact, debris and papers flying.\n\nShot 5 (16-18s): the three robbers groaning, sprawled among broken glass and scattered cash.\nWide low-angle hero shot, the janitor standing calm, mop over his shoulder.\n\nShot 6 (18-20s): he wrings out the mop and resumes cleaning.\nOld man (deadpan): \"Now I have to mop again.\" Static medium shot. Camera settles.\n\nLighting: cold realistic base, rim light on the janitor during the fight, hard shadows,\nsparks and dust catching the light.\nAudio: fearful murmurs, tense silence before the first hit, bone-crunch impacts, whooshes,\nglass shatter, driving percussive music surging through the fight.\nConstraints: no watermark, no on-screen text, no logos, keep the janitor's face and\noutfit consistent across shots.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-kling-boxing-120fps",
+    "category": "提示词",
+    "title": "二十秒拳台：踢反击、绳索回弹、汗珠飞",
+    "body": "拳台上，重量级拳手和韩国踢击手对峙。身体踢反击、撞绳回弹、一百二十帧慢镜里汗珠飞出去，动作一环扣一环还不换人。\n\nyourPlugAI 用「引擎指令」开头，要求 Kling 4.0 Flash 单镜头连续二十秒，严格吃角色设定表。提示词把两位拳手的发型、短裤颜色、手套和招式顺序写死，强调运动电影感而不是游戏回放。有人评论说物理和身份稳定性少见地干净——这正是把资产表和动作时间表绑在一起的结果。\n\n招式顺序写进提示词，等于把分镜表交给模型执行；少一次「随机乱打」，多一次能复述的组合拳。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：打戏先锁两个人长什么样，再按秒写谁出哪一拳。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/yourPlugAI/status/2105512991940546704"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/yourPlugAI/status/2105513272434671745"
+      }
+    ],
+    "prompt": "[ENGINE DIRECTIVE]\nGenerate a single continuous 20-second hyper-realistic 35mm sports-cinema action sequence using Kling 4.0 Flash at 120fps ultra-realism in 16:9 widescreen format. Maintain 100% strict visual consistency with the provided asset sheets: \"Marcus Vane\" (Heavyweight boxer, buzz cut, black-and-gold satin trunks, red gloves) and \"Tae-Hyun Park\" (Korean striker, undercut, crimson-and-silver shorts, MMA gloves). Setting strictly follows \"Championship Boxing Arena\". Style: Pay-per-view broadcast cinematography, real impact physics, zero 3D/anime look, zero floating props or mouthguards. Dynamic speed ramping from 100% real-time to 120fps super slow-motion.\n\n[AUDIO DIRECTIVE]\n• MUSIC: High-tempo, aggressive cinematic bass-heavy hip-hop / dark electronic hybrid beat with booming sub-bass, heavy 808 kick drums, synth risers, and metallic percussion.\n• SOUND DESIGN: Deep thudding glove impacts, canvas boot squeaks, crowd roaring, camera flash shutter clicks, high-pitched ringing impact sound during slow-motion beats.\n\n[TIMELINE BREAKDOWN]\n\n00:00 - 00:03 | OPENING COMBINATION & BODY KICK COUNTER\n• VISUAL: Ringside low-angle tracking shot in the center ring under blinding spotlights.\n• ACTION: Heavy bass beat drops. Marcus fires a rapid double jab; Tae-Hyun slips both punches cleanly and counters with a swift body kick that connects against Marcus's ribs with a heavy thud, sending sweat spraying into the air.\n• CAMERA & SOUND: Handheld tracking shot with subtle camera vibration. Deep kick thud on ribs, squeaking boots on canvas, and roaring crowd ambiance.\n\n00:03 - 00:06 | ROPE REBOUND & FLYING ROUNDHOUSE ABSORPTION\n• VISUAL: Medium wide shot framing both fighters against the four red ring ropes.\n• ACTION: Marcus rebounds off the elastic red ring ropes, pressing forward with heavy pressure. Tae-Hyun leaps into a dynamic flying roundhouse kick; Marcus raises his red leather gloves to absorb the impact, absorbing the force with his legs.\n• CAMERA & SOUND: Fast-tracking pan following the jump. Heavy glove-on-shin impact sound, snapping rope tension, and camera shutter clicks.\n\n00:06 - 00:10 | ULTRA SLOW-MOTION OVERHAND RIGHT & IMPACT SHOCKWAVE\n• VISUAL: Extreme close-up crash zoom on impact. Playback speed drops to 120fps super slow-motion.\n• ACTION: Music filters down to a deep pulsing bass drop and high-pitched ringing. Marcus steps inside and lands a massive overhand right punch directly onto Tae-Hyun's jaw. Tae-Hyun's cheek deforms heavily under physical impact, sending a violent shockwave through his jawline as a burst of sweat and spit droplets explodes outward into the bright spotlight beams.\n• CAMERA & SOUND: Super slow-motion push-in. High-pitched ringing sound, deep sub-bass impact thud, suspended particle audio, and muffled crowd noise.\n\n00:10 - 00:13 | REAL-TIME RECOVERY & SLIP COUNTER\n• VISUAL: Medium tracking shot as playback speed ramps instantly back to 100% real-time.\n• ACTION: Full music beat drops back in with maximum energy. Tae-Hyun snaps his head back, bounces off the ropes, and ducks beneath Marcus's follow-up left hook.\n• CAMERA & SOUND: Rapid speed ramp acceleration. Loud synth riser, booming 808 kick drum, and swooshing glove wind rushes.\n\n00:13 - 00:17 | SHORT-RANGE FLURRY & RINGSIDE FLASHBULBS\n• VISUAL: Dynamic tight ringside camera pan tracking rapid exchanges.\n• ACTION: Aggressive short-range flurry: Tae-Hyun lands a rapid spinning back-fist, and Marcus immediately counters with a heavy body uppercut. Thousands of flashbulbs pop continuously in the dark, blurred crowd background.\n• CAMERA & SOUND: Fast handheld side-to-side tracking. Rapid glove impacts, continuous camera shutter clicks, and swelling crowd cheers.\n\n00:17 - 00:20 | FINAL CHARGE & MID-AIR COLLISION FREEZE\n• VISUAL: Straight-on center-ring framing settling into a high-impact final freeze-frame.\n• ACTION: Both fighters retreat two steps, sweat dripping off their brows, reset stances, and launch forward into a final explosive exchange down the center line. Marcus's red glove and Tae-Hyun's flying kick collide simultaneously in center frame as the shot freezes. Sweat droplets, spotlight beams, and flashbulbs are suspended at peak tension.\n• CAMERA & SOUND: Fast push-in stabilizing on the final frame. Booming final sub-bass impact drop, ringing echo, followed by static crowd roar.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-perfume-moss",
+    "category": "提示词",
+    "title": "香水瓶里封着一座苔藓山谷",
+    "body": "淡绿色透明香水瓶圆得像小行星，瓶里却封着微缩苔藓山谷、古树和细瀑布。瓶子立在积水的清水混凝土空间里，一边冷天光，一边暖夕阳轮廓。\n\nplex233 说关键不是堆「masterpiece、cinematic」，而是写清光源方向、材质怎么响应光、镜头怎么看主体。这段中文提示词把折射、焦散、水滴、倒影和低机位留白一次写全，还明确禁止 Logo 和塑料 CGI 感。短、硬、可直接复制进 GPT Image。\n\n冷暖双光源一写死，玻璃里的苔藓山谷才有纵深；只喊透明感，瓶子很容易变成塑料玩具。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：产品图少喊高级感，多写光从哪边打、材质怎么回话。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/plex233/status/2104727282690748464"
+      }
+    ],
+    "prompt": "巨型圆润的淡绿色透明玻璃香水瓶，内部封存一座微缩苔藓山谷、盆景古树、岩石与细小瀑布。置于被水覆盖的粗野主义清水混凝土空间，左上方冷色天光穿过建筑开口，右后方夕阳形成暖色轮廓光；玻璃产生真实折射、焦散、微小水滴与高光畸变，水面形成自然倒影。低机位产品摄影，主体偏右构图，大面积负空间，真实光学景深，高端香氛广告质感，无文字、无 Logo、无塑料 CGI 感。",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-oriental-museum",
+    "category": "提示词",
+    "title": "改一个主题，整张东方博物馆海报自己长出来",
+    "body": "九比十六竖版画面里大面积留白，一件器物或标本成为主结构，旁边叠着档案标签、材质说明和克制字体。整张像当代美术馆主视觉，而不是大红金中国风模板。\n\nDeepBlue 感谢原作者后做了简化：使用者只需把「主题：【XXX】」换成自己的词，其余构图、材质、色彩、信息层级交给模型。提示词禁止装饰堆砌、主体死居中、过度做旧和塑料 CG。适合批量做「展览感」封面，也适合当博主的提示词模版课案例。\n\n把主题词换成「宣纸」「青铜爵」或「旧车票」试一轮，就能看出模版有没有真的自己分配留白和档案层。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n所以呢：通用模版只留一个填空位，其余规矩写死，比每次从头描写更稳。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/DeepBlueX0/status/2105509698409730249"
+      }
+    ],
+    "prompt": "主题：【XXX】\n\n围绕主题自主完成东方博物馆编辑视觉设计，自动决定主体、材质、色彩、字体、档案、构图与信息层级。\n\n9:16竖版，极简、克制、大面积留白。以主题为核心，让主体成为主要视觉结构；建立前景、中景、远景空间关系，以裁切、叠层、悬浮、透光、虚焦、斜向进入或超出画面形成自然空间深度。\n\n主体、留白、材质与文字构成非对称编辑网格；辅助档案作为第二视觉层，与主体形成明确的尺度、清晰度和空间差异。\n\n自动选择适合主题的材质、色彩与档案形式，保持真实材质、自然光影与纸张或展览空间的空气感。文字简洁，形成大标题、中型说明与微型档案信息层级。\n\n整体呈当代美术馆展览主视觉或高级艺术出版物：安静、克制、有空间感、材质感与知识性。\n\n避免复杂堆叠、装饰化、传统中国风模板、商业广告感、主体完整居中、过度做旧、CG塑料感、无意义文字。",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-camera-path",
+    "category": "提示词",
+    "title": "先在静帧上画黄线，再交给视频模型当运镜",
+    "body": "角色姿势、背景、颜色一动不动。画面上只多了一条细黄线：从脚尖顺着腿、髋、躯干往上走，像给摄影机画的路书。\n\nScenario 明确要求：不要重画原图，只叠加路径引导。这条线给后续视频模型看「镜头该怎么爬」，比口头说推进、环绕更直观。提示词后半还衔接视频侧怎么吃这张引导图。适合演示「静帧工具给视频工具写分镜」。\n\n黄线只是说明书，不是新元素：原图必须原样保留，视频模型才知道该沿着哪条曲线爬镜头。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：运镜说不清时，先让图像模型把路径画在图上。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Scenario_gg/status/2105395304900256081"
+      },
+      {
+        "label": "路径引导提示词",
+        "url": "https://x.com/Scenario_gg/status/2105395612204368163"
+      }
+    ],
+    "prompt": "Turn this image into a camera path guide for a video generator. Do not redraw or change the original image at all — keep the character, pose, background, composition, and colors exactly the same. Only overlay a single thin yellow line that starts at her feet (in the foreground) and flows smoothly up along her legs, hip, and torso, following the natural curve of her body. Add small arrowheads along the line indicating the direction of travel, and small numbered dots marking waypoints in order: 1 at her feet, 2 at her lower leg, 3 at her hip/thigh area, 4 landing exactly on the puppy's face/head resting on her chest, then continuing up to 5 at her own face. Keep the line thin and elegant, and position the numbers so they don't obscure the puppy's face or her face. This is purely a camera-motion reference diagram overlaid on the original artwork.\n\nFor the video (seedance 2.5):\nPrompt: @image1 A cinematic drone camera shot in three distinct staged movements following the numbered yellow guide path on the reference image, in this exact order: STAGE 1 — starting low near her feet, the camera tracks/dollies smoothly across and up along her leg toward her hip, a clear traveling crossing motion along the length of the leg. STAGE 2 — once reaching her hip/torso area, the camera performs a deliberate zoom-in push toward the puppy's face resting on her chest, settling in close on the puppy. STAGE 3 — the camera then pans sideways/upward from the puppy's face over to her own face, ending in a close-up on her relaxed sleeping expression. Each stage should feel like its own distinct camera move (track, then zoom, then pan), not one uniform blended motion. Shallow depth of field, warm golden-hour lighting, cozy living room atmosphere. The scene, character, outfit, and background must exactly match the reference image. IMPORTANT: the rendered video must NOT show any yellow lines, arrows, numbers, dots, or overlay graphics at any point, including the first frame — those markings are only a camera-path reference and must be completely invisible in the output.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-2x2-semantic",
+    "category": "提示词",
+    "title": "丢一个主题词，GPT Image 自己推理出四格故事",
+    "body": "提示词长得像程序注释：先从 SUBJECT 推断角色原型和情绪关键词，再生成二乘二网格，四格各自承担不同叙事功能。十六比九画幅里，侦探、孩子、乐手之类会自己长出来。\n\nGadgetify 把这套语义推理骨架丢给 GPT Image 2.5，风格让人想起以前在 Midjourney 里做的故事板，但约束写得更像可复用函数。你不用写满四段场景，只要换输入词。适合做「提示词也可以工程化」的教程素材。\n\n把 SUBJECT 换成「雨夜邮差」或「退休宇航员」各跑一次，四格功能位通常还在，只是角色和情绪换皮。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：想批量出四格，把推理步骤写进提示词，比手写四次场景省事。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Gdgtify/status/2105399536478797879"
+      }
+    ],
+    "prompt": "2x2 grid, 16:9, AI picks subjects: INPUT: $ SUBJECT\n\n// ── SEMANTIC INFERENCE ──────────────────────────────────────────\nARCHETYPE     = infer_subject_archetype($ SUBJECT)        // detective, child, musician, dancer, animal, messenger\nMOOD_KEY      = infer_emotional_tone($ SUBJECT)           // melancholic, defiant, whimsical, longing, solemn\nSTAGE         = infer_storybook_setting($ SUBJECT)        // rain-slick street, foggy forest, train platform, ballroom\nLIGHT_SOURCE  = infer_primary_light($ SUBJECT)            // window slats, streetlamp, projector beam, moon\nHAZE          = infer_atmospheric_element($ SUBJECT)      // smoke, fog, mist, dust, rain, steam\nSYMBOLS       = infer_symbolic_objects($ SUBJECT, 3..5)   // clocks, birds, keys, doors, branches, letters\nFRAME_ELEMENT = infer_framing_device($ SUBJECT)           // doorway, arch, window, mirror, stage proscenium\nSILHOUETTES   = infer_background_figures($ SUJECT, 1..3)  // distant witness, mirror-self, shadow-self\nACCENT_COLOR  = infer_single_accent($ SUBJECT)            // red, blue, yellow, ember orange, none\nPALETTE       = { black, deep charcoal, graphite, silver-gray, paper white, one accent }\nTEXTURE_MIX   = { film_grain, ink_wash, paper_fiber, smoke_haze, wet_reflection }\n\n// ── COMPOSITION FIELD ──────────────────────────────────────────\n// Subject anchors the center; light rays and reflections radiate outward.\nP(x,y) = subject_gravity(ARCHETYPE) + beam_pressure(LIGHT_SOURCE)\nF = ∇P                    // primary light ray direction, floor reflection angle\nCurl = ∇×P                // smoke curls, water ripples, cloud shape, decorative scrollwork\nDiv  = ∇·F                // density of symbolic objects, background figures, poster elements\n\n// ── SUBJECT LAYER ──────────────────────────────────────────────\nSUBJECT_RENDER = monochrome_figure(\n    archetype   := ARCHETYPE,\n    pose        := staged_contrapposto or dramatic_gesture,\n    silhouette  := clean, readable, theatrical,\n    facial_tone := partial shadow — features half-lit, half-dissolved\n)\n// Subject faces a light source; one side is silver-gray, the other black.\n// No full-face realism — expression implied through silhouette and gesture.\n\n// ── LIGHTING SYSTEM ────────────────────────────────────────────\nKEY       : single directional beam from LIGHT_SOURCE\n            — window slats casting parallel shadows\n            — streetlamp halo pooling on wet floor\n            — projector cone slicing through haze\n            — moonburst through foliage\nFILL      : minimal, deep shadow dominant\nRIM       : reflective highlight on the floor, silver edge on subject's silhouette\nBEAMS     : volumetric light shafts through haze; sharp or diffuse depending on genre\nREFLECTIONS: wet floor, mirrored pool, polished surface, glass\n\n// ── ATMOSPHERE ─────────────────────────────────────────────────\nHAZE_LAYER = volumetric field from HAZE:\n    density  : gradient from subject outward\n    motion   : drifting, curling, thinning\n    interaction: haze brightens in beam, darkens in shadow\n    treatment: silver streaks, mist ribbons, ink-wash blots\n\n// ── STORYBOOK FRAMING ──────────────────────────────────────────\nFRAME_DEVICE = FRAME_ELEMENT rendered in strong graphic style\n    — arch, doorway, window, mirror: purely architectural silhouette\n    — acts as a threshold the subject either stands within, moves through, or faces\nDECORATIVE_DETAILS around edges:\n    — scrollwork corners, hanging vines, tiny stars, floating leaves\n    — restrained, not cluttering; each traces to $ SUBJECT's world\n\n// ── SYMBOLIC OBJECTS ───────────────────────────────────────────\nfor each symbol in SYMBOLS:\n    placed at a Div-maximum point\n    rendered as silhouette or outlined icon\n    some act as foreground depth cues (feet of a statue, top of a clock)\n    some act as background narrative cues (distant figure, hanging sign)\n    none compete with subject silhouette\n\n// ── STAGED BACKGROUND ──────────────────────────────────────────\nBACKGROUND = layered stage geometry\n    LAYER 1 (nearest): frame element + foreground props\n    LAYER 2 (mid): subject + symbolic objects\n    LAYER 3 (far): distant architecture, silhouettes, glowing windows\n    LAYER 4 (deepest): fog banks, moon, horizon haze\nEvery layer separated by tone and haze; no layer fully resolved.\n\n// ── ACCENT COLOR ───────────────────────────────────────────────\nACCENT = single hue applied to one element only:\n    — a scarf, a lit window, an eye highlight, a blossom, a lantern\n    — maximum 3% of frame area\n    — if subject suggests no accent, palette stays pure monochrome\n\n// ── TEXTURE PASS ───────────────────────────────────────────────\nComposite pass: film grain overlay (subtle, organic)\nInk wash diffusion on flat tone regions\nPaper fiber visible in highlights\nWet reflections rendered with sharp silver streak highlights\nSmoke rendered as soft diffusion, no hard edges\n\n// ── CAMERA & FINISH ────────────────────────────────────────────\nFraming   : subject slightly off-center, framed by stage geometry\nFormat    : 4:5 or 2:3\nResolution: 8K\nFinish    : filmic black-and-white, no color, no bloom, no vignette beyond natural falloff\nText      : none\n\n// ── VALIDATION ─────────────────────────────────────────────────\nverify: subject silhouette reads at 200px thumbnail\nverify: primary light source creates consistent shadows across all layers\nverify: accent color (if present) appears on exactly one element\nverify: no color beyond palette + single accent\nverify: no logos, no watermarks, no captions\nverify: image reads as a poster, not a photograph\nOutput: one 8K monochrome noir storybook poster.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-food-spaghetti-macro",
+    "category": "提示词",
+    "title": "意面在半空旋转，肉丸自己裹进面条里",
+    "body": "黑暗影棚里，煮熟的意面拧成竖直螺旋悬浮着。肉丸、番茄酱、罗勒和蒜片一起旋转，面条主动缠上肉丸，最后整组食物落到冒热气的白盘上。\n\nMaya 给出主提示词，并附上 Midjourney 关键帧与视频运动词，方便「先出图再出片」。九比十六竖屏、慢镜微距、商业美食质感都写清楚。一条词就能演示食物广告里的物理秀。\n\n从悬浮到落盘要写清重力方向，否则面条会在半空盘旋不落地，广告收束就断了。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：食物大片先写清谁在飞、谁缠谁、最后落到哪，别只写美味两个字。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/MayaAiCreator/status/2105219279951897079"
+      }
+    ],
+    "prompt": "Slow-motion macro shot, dark studio background, vertical 9:16 aspect ratio. A dynamic swirling spiral of cooked spaghetti noodles levitating in mid-air. Juicy cooked meatballs, vibrant red tomato sauce splashes, fresh basil leaves, red chili slices, garlic cloves, and salt flakes floating and swirling together. The spaghetti noodles twist and wrap tightly around each meatball into neat pasta-wrapped meatballs as they fall downward. The food neatly lands onto a clean white plate, steaming hot, topped with tomato sauce and a basil leaf garnish. Cinematic lighting, ultra-realistic food commercial quality, highly detailed, 4k resolution.\n  \n​Step-by-Step Prompts (Best for Image + Video Workflows)\n​If you are using an image generator (like Midjourney) to generate keyframes first, use these prompts:\n​Keyframe 1: Swirling Spaghetti & Ingredients\n​Midjourney / Image Prompt: Commercial food photography, studio dark background, high-speed macro action shot. Swirling vertical spiral of cooked spaghetti pasta floating in mid-air surrounded by splashing red tomato sauce droplets, fresh basil leaves, garlic cloves, and chili flakes. Dramatic rim lighting, ultra-detailed, 8k --ar 9:16.\n  \n​Keyframe 2: Pasta Wrapped Around Meatballs\n​Midjourney / Image Prompt: Commercial food photography, studio dark background, high-speed macro action shot. Juicy cooked meatballs each wrapped tightly in a nest of cooked spaghetti noodles, floating vertically mid-air with falling salt particles and oregano flakes. Cinematic lighting, 8k --ar 9:16.\n  \n​Video Motion Prompt (for Luma / Runway / Pika):\n​Motion Prompt: High-speed slow motion, ingredients swirling and falling downward, pasta smoothly wrapping around meatballs, landing gently onto a white ceramic plate with rising steam.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-70s-shampoo",
+    "category": "提示词",
+    "title": "七十年代未来感洗发水广告，瓶子会发光",
+    "body": "洗发水瓶在发光底座上缓慢旋转，怪异光泡漂过瓶身，走廊灯一明一暗。整段像从旧磁带里挖出来的未来感电视广告。\n\nCaptainHaHaa 用 Seedance 制作，并注明 Kling 也可替换。提示词强调旧式运镜语法、慢变焦、胶片颗粒，以及「豪华但奇怪」的语气。不是清爽日化片，而是怀旧科幻小品，适合做风格反差演示。\n\n走廊灯脉动和胶片颗粒一起写，年代感才立得住；只写「复古」两个字，模型常会滑向普通电商棚拍。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：复古广告要写年代语法和奇怪细节，光写产品发亮会变成普通电商片。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/CaptainHaHaa/status/2105445270670516695"
+      },
+      {
+        "label": "视频提示词回复",
+        "url": "https://x.com/CaptainHaHaa/status/2105445275112194228"
+      }
+    ],
+    "prompt": "The clip should still feel like a real 1970s futuristic shampoo commercial, with old-school camera grammar, slow zooms, film grain, and a luxurious but strange tone.\nBegin with a close-up beauty shot of the STAR SILK shampoo bottle rotating dramatically on its glowing pedestal. Strange glowing bubbles drift around it, chrome reflections shimmer across the bottle, and the corridor lights pulse softly in the background. Then cut to a glamorous stylized beauty-commercial moment where the man uses the shampoo in a surreal ad-style reveal, not in a normal bathroom, but in the corridor itself, surrounded by glowing mist and soft backlight. He runs his hands through his hair and turns toward camera as his hair now looks thicker, softer, smoother, and more radiant.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-dragon-egg-chase",
+    "category": "提示词",
+    "title": "兔子和龙蛋女孩在森林里追小偷",
+    "body": "女孩抱着龙蛋和兔子旅人走在彩色密林里。小生物突然抢走蛋，兔子追、女孩抄近路滑了一下，蛋在空中落下又被稳稳接住，最后蛋自己开始晃动裂开。\n\nApiframe 要求两张参考图全程锁角色，禁止改设定。提示词把故事、动作、手绘冒险片风格和运镜变化写成一条可复制长词：追踪、藤蔓摆荡、慢镜接蛋、收在破壳暖光。没有对白，靠动作因果推故事。\n\n慢镜只留给接蛋那一下，前面追逐保持正常速度，节奏才像冒险短片而不是全片升格。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：双角色短片先锁两张设定图，再按「抢—追—接—惊喜」写动作链。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/apiframe_hq/status/2105319007306092763"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/apiframe_hq/status/2105319012200767652"
+      }
+    ],
+    "prompt": "Create a fast-paced cinematic fantasy adventure animation using the TWO uploaded character references.\n\nKeep both characters completely consistent with their reference designs, including faces, proportions, colors, clothing, accessories, and signature items. Do not redesign them.\n\nSTORY:\nThe rabbit adventurer and the young dragon keeper are traveling through a colorful enchanted forest when their dragon egg suddenly gets stolen by a tiny mischievous forest creature.\n\nACTION:\nStart immediately with the girl carefully carrying the dragon egg while walking beside the rabbit.\n\nA tiny creature suddenly darts across the path, grabs the dragon egg from its holder, and runs away.\n\nThe girl freezes in shock.\n\nThe rabbit immediately chases after it.\n\nFast tracking shot as the rabbit runs through the forest, ears bouncing and backpack swinging. The girl follows closely behind.\n\nThe creature leaps onto a fallen tree and races across it while carrying the egg.\n\nThe rabbit jumps onto the log after it.\n\nThe girl takes a shortcut between the trees and nearly slips on the moss, catching herself at the last second.\n\nThe creature jumps from the log onto a large mushroom, launching itself upward.\n\nThe rabbit grabs a hanging vine and swings after it.\n\nThe girl reaches the clearing below and looks up just as the rabbit and creature fly across the frame.\n\nThe creature accidentally drops the egg.\n\nSlow-motion moment as the egg falls through the air.\n\nThe girl dives forward and catches it safely against her chest.\n\nThe rabbit lands beside her dramatically.\n\nBoth characters look relieved.\n\nThen the egg suddenly wiggles.\n\nThey look down.\n\nThe egg wiggles again much harder.\n\nBoth characters stare at each other in surprise.\n\nEND on a close-up of the egg cracking slightly, followed by a sudden burst of warm magical light.\n\nVISUAL STYLE:\nHand-drawn animated fantasy adventure film aesthetic matching the uploaded character references. Clean expressive linework, textured brushwork, appealing stylized proportions, natural colors, controlled painterly and cel-style shading, detailed but believable materials. Charming, energetic, polished animation rather than generic AI imagery.\n\nCAMERA:\nFast varied cinematic shots: wide establishing shot, close character reactions, low-angle chase shots, tracking shots, overhead forest shot, dynamic swinging shot, brief slow motion during the falling egg, then close-up ending. Strong sense of movement and physical cause-and-effect.\n\nANIMATION:\nNatural expressive character movement. Rabbit ears, cape, hair, clothing, backpack straps and accessories move with momentum. Clear readable actions and reactions. Keep both main characters recognizable throughout.\n\nNo dialogue, no subtitles, no text, no logos, no watermark, no photorealism, no glossy 3D render, no plastic textures, no excessive glow, no additional human characters, no character redesigns.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "prompt-flux-shinjuku-rain",
+    "category": "提示词",
+    "title": "新宿雨夜斑马线：Portra 胶片直出感",
+    "body": "午夜新宿十字路口，雨点砸在斑马线上，霓虹倒进伞面和地面积水。蒸汽从井盖冒出来，镜头带着生猛的运动模糊和胶片颗粒。\n\nelio_ia 在 Picsart 里用同一句提示词跑 Flux 2 Pro 和 GPT Image 2.5，明确写成 Kodak Portra 800、三十五毫米街拍、零 CGI。短词却把胶片、天气、城市元素钉死，适合做「模型同题对比」素材，也适合直接拿去出图。\n\n同一句词丢给两个模型，并排看雨夜反光和颗粒，比空口争论「谁更真实」更适合做成对比帖。\n\n整段提示词都公开可复制，博主能直接粘贴复现，再按自己的角色或产品改几个名词。\n\n抄的时候保留时间码和禁止项，只改角色名或产品名，成功率通常更高。\n\n所以呢：街拍风少写空泛电影感，多写胶卷型号、雨和霓虹怎么沾在地面上。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/elio_ia/status/2105073171372048603"
+      }
+    ],
+    "prompt": "Candid 35mm street photography shot on Kodak Portra 800, a rainy midnight crosswalk in Shinjuku, authentic motion blur, neon signs reflecting off wet pavement and umbrellas, steam rising from street grates, raw lens flare, film grain, unpolished realistic aesthetic, zero CGI.",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "domolition-destructible-web",
+    "category": "视觉尝试",
+    "title": "DOMolition：任意网页变成可拆毁的像素平台跳跃",
+    "body": "打开 domolition.chirkut.xyz，你正站在一篇网页标题上——不是截图贴图，而是真页面被读成关卡。A/D 跑、W 跳，鼠标开枪：子弹、散弹、火箭、激光七种武器轮着切，字会碎成字母往下掉，洞口后面露出像素城市或黄昏山丘。你站的那条标题被轰掉就会掉下去，角落里还显示这页被拆了多少。演示页直接玩，Chrome 扩展能对任意标签页开打，按 Esc 页面立刻复原，作者说不收集浏览数据。所以呢：讲「网页可交互」别只会滚动视差——让观众亲手把一篇文章打穿，他们才记得 DOM 是真能当物理世界玩的。",
+    "links": [
+      {
+        "label": "在线试玩",
+        "url": "https://domolition.chirkut.xyz/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49917399"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "blackhole-raytrace-realtime",
+    "category": "视觉尝试",
+    "title": "真按测地线光追：拖一圈看爱因斯坦环绕黑洞弯",
+    "body": "打开 rivendell.dmitrybrant.com/blackhole，拖拽就能绕史瓦西黑洞转。作者 Dmitry Brant 说这不是贴一张扭曲贴图，而是按广义相对论简化解，让光线沿测地线走完再成像。勾上吸积盘、恒星、反光球或玻璃球，把某颗球转到黑洞正后方，会出现爱因斯坦环；曲率滑条能故意减弱弯曲，对比「若不弯时空会怎样」。质量从低到超高可选，W/S 还能加速靠近。全程浏览器 GPU，2026 年刚交稿。所以呢：讲引力透镜别甩公式墙——让观众自己把一颗星球挪到黑洞背后，看见光被拧成一圈。",
+    "links": [
+      {
+        "label": "黑洞光追",
+        "url": "https://rivendell.dmitrybrant.com/blackhole/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49914648"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "halfspace-sdf-ide",
+    "category": "视觉尝试",
+    "title": "Halfspace：把距离场推到前台的实体建模实验 IDE",
+    "body": "打开 Matt Keeter 的 Halfspace，像进了一间给隐式曲面用的小 IDE。球、盒、平移缩放都有，也能手写脚本；关键是界面不藏距离场——颜色标内外，细线像等高线标场值，锯齿波形那种「跳变不连续」一眼能看出来，对应网格法线才会歪。底层是他自己磨多年的 Fidget 核，光栅和后处理已搬到 GPU，网页版和本机版同栈，导出可出图或三角网格。作者特意写明这不是 vibe coding，从 2025 年春天手写到现在。HN 一百多个赞。所以呢：讲 CAD 或 3D 打印内核，别只秀最终模型——让观众看见场本身好不好，才能懂为什么有的模型一打就裂。",
+    "links": [
+      {
+        "label": "项目页 / 演示",
+        "url": "https://mattkeeter.com/projects/halfspace/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mkeeter/halfspace"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49913350"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "dialup-56k-rip",
+    "category": "视觉尝试",
+    "title": "56k.rip：拨号握手二十秒，网页真按字节预算慢慢来",
+    "body": "打开 56k.rip，先到一桌面，再开拨号网络：摘机声、按键音、二十秒握手，选 14.4、28.8 或 56k，同一页真的会按你拨的速率慢慢出来——不是假装进度条，而是按字节预算投递。照片一行行变清晰，下载经常失败，家里有人拿起分机还会把线掐断。背后是一整套 1996 小网站：钓鱼页、留言簿、连环网、分类广告、电视节目表，还有邮件、聊天室、扫雷和画图。声音多半在浏览器里合成，握手用了真调制解调器录音，图压成 216 色网页安全色板。所以呢：讲「网速变快」别只报测速数字——让观众亲手拨一次 14.4，他们才体会等待本身就是当年的交互。",
+    "links": [
+      {
+        "label": "拨号体验",
+        "url": "https://56k.rip/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49915126"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "skymap-webgpu-galaxies",
+    "category": "视觉尝试",
+    "title": "Skymap：WebGPU 里从地球飞到星系表边缘",
+    "body": "打开 skymap.rulkens.com，荷兰设计师 Alexander Rulkens 用一个周末搭出可飞的宇宙。SDSS、2MRS、GLADE 等真实星系表灌进 WebGPU：远看是点，凑近淡入程序化盘面，再近才换成巡天切图；还有 DisPerSE 离线算好的宇宙网细丝罩在点场上。能搜著名星系，切赤道/银道坐标系，开超星系团或空洞标注，时间轴还能拨。需要较新的 Chrome 或 Edge。代码 MIT 开源。所以呢：讲天文数据别再贴静态星图——让观众自己飞进一亿颗点里，科学目录才变成能转发的沉浸体验。",
+    "links": [
+      {
+        "label": "在线飞",
+        "url": "https://skymap.rulkens.com/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/rulkens/skymap"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49910400"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "clearwater-tornado-webgpu",
+    "category": "视觉尝试",
+    "title": "Clearwater：点「Start tornado」，海浪云雾一起被卷进涡旋",
+    "body": "打开 samg-coder.github.io/clearwater，先是望不到边的海面，再点天气面板里的风暴。作者 SamG 用 CUDA 写水核，再经 CUDA WebShader 转成 WGSL 跑在 WebGPU 上：多层 FFT 海浪、局地三维湿气流、云传输和浪花全在 GPU 里推。龙卷风一起，风场会改波浪方向，云被扯进涡旋，水花从海面抬起来——不是贴一张龙卷风视频，而是仿真在动。滑条还能拧风速、雨量和云量。源码在 GitHub。所以呢：讲「物理在浏览器里跑」别只秀粒子烟花——让观众亲手拧一场龙卷风，看海和天怎么互相拽。",
+    "links": [
+      {
+        "label": "Clearwater 演示",
+        "url": "https://samg-coder.github.io/clearwater/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/SamG-Coder/clearwater"
+      },
+      {
+        "label": "作者 X",
+        "url": "https://x.com/SamGCoder/status/2104887766224105816"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "coltrane-tone-circle",
+    "category": "视觉尝试",
+    "title": "科川音圈可点：Giant Steps 三个调正好是个三角形",
+    "body": "打开 jtomschroeder.com 上的 Tone Circle，不是又一张五度圈海报，而是可旋转的交互件。外圈是四度链，中间小音爬半音；箭头换调，圆会转，音级标签留在原位。点 C°7 出现减七和弦的正方形，点增三和弦出现三角形——「Giant Steps」那三个调 B、G、E♭ 正好落在增三和弦顶点上。二五一、三全音替代、调式窗口都能在圆上点亮。文章顺着科川留给 Yusef Lateef 的手绘一路拆开，HN 四十多个赞。所以呢：讲爵士和声别堆罗马数字——让观众在圆上亲手点出 Giant Steps 的三角，抽象进行才变成看得见的形状。",
+    "links": [
+      {
+        "label": "交互音圈",
+        "url": "https://jtomschroeder.com/blog/tone-circle/"
+      },
+      {
+        "label": "HN",
+        "url": "https://news.ycombinator.com/item?id=49909908"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "asmbots-corewar-8086",
+    "category": "视觉尝试",
+    "title": "ASM Bots：Core War 不用虚拟机，直接打真 8086 机器码",
+    "body": "打开 asmbots.io，战场不是抽象汇编玩具，而是真 8086 机器码在 arena 里互撕。经典 Core War 用 Redcode 虚拟机；这里作者 Pedram Amini 让玩家写或加载真实指令，程序在共享内存里互相覆盖、跳转、抢占，像极早期黑客文化里的「代码决斗」。适合投影给观众看：屏幕上字节在动，胜负取决于你对指令长度和寻址有多狠，而不是皮肤特效。刚上 Show HN，浏览器直接进场，零安装。所以呢：讲低级语言别只念寄存器名——让两段真机器码在网页里掐架，观众才会感到「位」是能当武器用的。",
+    "links": [
+      {
+        "label": "ASM Bots",
+        "url": "https://asmbots.io/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49916764"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "birthday-traffic-rank",
+    "category": "视觉尝试",
+    "title": "Birthday Traffic：用 8570 万美国出生记录排你生日有多稀",
+    "body": "打开 birthdaytraffic.com，点一个日期，立刻看到它在全美出生日历里排第几。作者 Adrianna 吃进约八千五百七十万条美国出生数据，回答一个每个人都会点的八卦：你的生日到底算不算稀有？还能横向逛别的日子，顺带脑补九个月前发生过什么——评论区已经开始比谁更「冷门」。上线第一周三万多人玩过，Show HN 当天还在涨。交互很轻：选日期、看排名、比稀疏，但视觉叙事清楚，适合当短视频片头钩子。所以呢：讲数据可视化别一上来就仪表盘——先问一个每个人都想点的问题，排名本身就是最好讲的故事。",
+    "links": [
+      {
+        "label": "查生日稀有度",
+        "url": "https://birthdaytraffic.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49916709"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "kanmaps-skill-tree-roadmap",
+    "category": "视觉尝试",
+    "title": "Kanmaps：产品路线图长成魔兽天赋树，代理也能顺着点",
+    "body": "打开 kanmaps.com，路线图不再是看板里一排焦虑卡片，而像游戏技能树：节点有先后、有分支、有「点了 A 才能点 B」。作者 Pasha 从魔兽天赋、帝国时代科技树和最终幻想能力球长出来，说看板给人压迫，树给人进度和希望。他还给一张 kanmap 挂了 MCP，代理能对照代码库画出当前树，再提议下一个合理节点，甚至有代理正在做树上的下一格。Show HN 有讨论，创作者画内容矩阵也能用同一种形状。所以呢：给团队或粉丝讲产品规划时，别只甩里程碑表格——画成能点的技能树，人和代理都更愿意往前推。",
+    "links": [
+      {
+        "label": "Kanmaps 演示",
+        "url": "https://kanmaps.com/show"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49916539"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "perspica-semantic-diff",
+    "category": "小众工具",
+    "title": "Perspica：按「改了啥事」审 AI 大 PR，标出代理自作主张",
+    "body": "代理甩来上千行 diff，人在 GitHub 上容易眼睛一花就点通过。Perspica 换一种看法：用 LLM（也可只用 tree-sitter）把改动按语义捆成几组，告诉你先看哪一捆、这一捆在干什么。若 PR 出自你自己的 Claude Code 或 Codex 会话，它还会读你的提示，标出哪些是你点名要的、哪些是代理自己加戏的——提交前先验收。作者说自己半年来靠它啃别人的大 AI PR。有演示视频，支持类似 Perforce 的并排视图。所以呢：审代理代码别再从第一行死磕——先按意图分组，再抓「我没让你改却改了」的那几处。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/sshah03/perspica"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49914005"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "smartly-english-shell",
+    "category": "小众工具",
+    "title": "Smartly：对终端说白话，吐出一条知 GNU/BSD 差异的命令",
+    "body": "你知道要「按大小列隐藏文件」，却老记混 ls 标志。Smartly 吃一句英语，校验模型只回一条可执行命令，再按你的模式跑：默认自动执行，也可全程确认、只对危险命令确认，或 --dry-run 只打印。它会侦测本机 sed/date 是 GNU 还是 BSD，Mac 上写出 sed -i ''，Linux 上换对应写法；还能读当前目录和 git 分支，让「删掉已合并进 main 的分支」对着真仓库解析。可用 API Key，或挂你已登录的 claude/codex CLI 订阅。--learn 会拆解每个标志。所以呢：别再在聊天窗和终端之间来回粘贴——让壳自己听懂结果，你只负责点确认。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://smartlycli.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49916747"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "whisper-dictate-offline",
+    "category": "小众工具",
+    "title": "Whisper Dictate：按住热键说话，字落在光标处，音频不上云",
+    "body": "写代码的人常觉得嘴比键盘快。Whisper Dictate 在 Windows 和 macOS 上本地跑 NVIDIA 流式语音模型（Mac 走 Apple GPU）：按住快捷键说，松手后润色过的文字贴进当前应用——终端、编辑器、邮件都行。会去掉 um/uh，把「句号」「逗号」收成标点；说 scratch that 可作废刚说的一段；另有命令模式直接「全选」「撤销」。首次按语言下载约 2.4 GB 模型，之后完全离线，作者对比云端听写强调无隐私架构。十四天试用，年费约四十欧元。所以呢：口授工作流别默认交给云——先给手指一个本地热键，敏感草稿才敢说出口。",
+    "links": [
+      {
+        "label": "下载页",
+        "url": "https://whisperdictate.vercel.app"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49912691"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "audiodrop-stem-wasm",
+    "category": "小众工具",
+    "title": "AudioDrop：浏览器里分人声鼓贝斯，歌文件从不上传",
+    "body": "创作者拆伴奏常被「免费网站」逼着上传整首歌。AudioDrop 反过来：Rust 编成 WASM，分离模型在你设备上跑，页面写明没有上传接口。拖进一首歌，先秒出预览分轨，再由约一百六十六 MB 的 HTDemucs 精修成人声、鼓、贝斯和其他；还能变速变调、转格式、估 BPM 与调性，全部本机完成。四分钟歌在 M 系 Mac 大约二十秒级，核显会慢些。无账号、无水印、无每日次数限制。Show HN 刚挂出来。所以呢：做二创或练习轨时，别把母带交给陌生服务器——打开标签页本地拆，隐私和速度可以同时有。",
+    "links": [
+      {
+        "label": "AudioDrop",
+        "url": "https://www.audiodrop.app/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49910673"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "compress-codex-tokens",
+    "category": "小众工具",
+    "title": "compress：给 Codex 工具输出瘦身，作者测大约省三成 token",
+    "body": "代理烧钱常常烧在工具回传太胖：读文件、搜仓库，整段原文又灌回上下文。Everest 的 Yolanda 和 Spencer 做了个免费 CLI：用代理包住本地 Codex，细调过的压缩模型在工具结果回模型前删冗长，尽量不动 KV 缓存轨迹。他们自称在重上下文任务上大约砍百分之二十九到三十，安装脚本一键，可用 codex --uncompress 临时关掉。强调为编码代理优化，不是闲聊机器人；隐私上走本地代理加零数据保留声明。所以呢：额度见底时别先怪模型贵——先给工具输出加一道瘦身闸，往往比换套餐更立竿见影。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/spenmcke/compress"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49911910"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "pdfcn-shadcn-pdf",
+    "category": "小众工具",
+    "title": "pdfcn：像搭 shadcn 界面一样拼 PDF，主题组件可复用",
+    "body": "做年报、报价单、作品集 PDF，很多人还在 Word 和设计软件之间来回熬。pdfcn 把 PDF 拆成和 shadcn/ui 同思路的组件库：十多套主题、四十多个块，用 Takumi 加 Forme 渲染，文档带 llms.txt 和 agent skill，方便代理直接读。X 上 shadcnlabs 账号放出后转发很猛，定位是「像搭 UI 一样搭 PDF」，开源免费。创作者可把同一套设计语言从网站延到可打印页，少开一个排版软件。所以呢：交付物别只会导出长截图——用同一套组件语言生成 PDF，品牌和效率都更整齐。",
+    "links": [
+      {
+        "label": "pdfcn 文档",
+        "url": "https://www.pdfcn.dev/"
+      },
+      {
+        "label": "发布帖",
+        "url": "https://x.com/shadcnlabs/status/2104840500847263794"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "dotbot-directory-chatgpt",
+    "category": "小众工具",
+    "title": "DotBotDirectory：ChatGPT 常驻 Dot 的指令和规则一键抄走",
+    "body": "OpenAI 的 Dots 是挂在后台的常驻代理：连应用、写指令，更关键的是 Custom Rules——允许、要批准、还是拦截。作者 Demetrius 找遍网上却几乎没人公开自己的规则表，于是做了 DotBotDirectory：每条条目含职责、指令、已连应用，以及三份规则列表，一键复制粘进你的 Dot。目前约二十六条起步模板，标明尚未在真 Dot 上测过，复制计数从零开始，不装热度。免费且与 OpenAI 无关。所以呢：玩常驻代理别只抄人设段子——先抄别人的批准与拦截表，出事边界比文案更值钱。",
+    "links": [
+      {
+        "label": "目录站",
+        "url": "https://dotbotdirectory.com"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49916870"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "dragomand-linux-translate",
+    "category": "小众工具",
+    "title": "DragomanD：Linux 上共享的本机翻译守护进程，走 D-Bus",
+    "body": "Firefox 能本机翻译，但别的应用各嵌一份模型就浪费内存。DragomanD 做成每用户一个守护进程：跑 Mozilla Bergamot/Marian（和 Firefox Translations 同源），经 D-Bus 给编辑器、剪贴板、KRunner、GNOME Shell、LibreOffice 同一套接口。模型按需下载并校验哈希，空闲退出；dragomanctl 一行命令就能 bg→en。0.1.0 已带 Kate 插件和 LibreOffice 扩展，保加利亚语与英语先打通，Mozilla 发布的语言对都在范围里。文本不离机。所以呢：桌面翻译别再开网页粘贴——让全桌面共用一个本地引擎，隐私和内存能一起省。",
+    "links": [
+      {
+        "label": "项目页",
+        "url": "https://dragomand.l10n-bg.dev/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49914804"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "hedwig-cold-email-mcp",
+    "category": "小众工具",
+    "title": "Hedwig：开源冷邮件战役台，自带 MCP 给 Claude 管发送",
+    "body": "冷邮件 SaaS 常按线索收很贵的订阅。Hedwig 做成开源替代：从你自己的邮箱发，看打开率和回复，支持多发件箱分摊，还能给回复分类、自动起草回信。作者强调自带 MCP 服务器，整场战役可以交给 Claude 或 Codex 调度，而不是只在网页上人手点按钮。有托管版，也欢迎自建；刚上 Show HN。对要做商务开发、合作邀约或社群触达的创作者来说，这就是一层「代理可操作」的邮件工具，不是又一个只能人手点的仪表盘。所以呢：外联别只买座席数——找一个代理能直接调用的发送面，人和模型才能轮班盯回复。",
+    "links": [
+      {
+        "label": "Hedwig",
+        "url": "https://flyhedwig.com"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49912846"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
+    "id": "ciao-phone-agents",
+    "category": "小众工具",
+    "title": "Ciao：本机装守护进程，手机扫码遥控编码代理",
+    "body": "人在外面，代理还在家里电脑跑——SSH 密钥换机烦，VPN 每次重配也烦。Ciao 的流程是 curl 装守护进程、ciao pair、手机扫二维码，用 iroh 做无账号端到端加密连接，可选中继也加密。作者想抽象掉 Claude Code、Codex 或下一个新套件的差异，在一个 App 里看所有已连机器上的代理，终端模式和原生聊天模式可切换。针对「云代理推得凶、我想吃本地订阅额度」的人。iOS 应用已上架，HN 有说明帖。所以呢：代理舰队别锁死在桌前——给手机一双眼睛和控制权，排队任务才能在地铁上推一把。",
+    "links": [
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/us/app/ciaooo-claude-code-codex/id6793695487"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49912618"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-01T14:20:00+08:00"
+  },
+  {
     "id": "gemini-4-argon-fairwind-cyber",
     "category": "硬科技",
     "title": "谷歌最强模型先不卖：只给「可信网安队」，还拆掉网络护栏",
