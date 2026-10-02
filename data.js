@@ -1,6 +1,536 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-01T18:30:00+08:00",
+  "updated": "2026-10-02T10:30:00+08:00",
   "items": [
+    {
+      "id": "deepmind-synthid-bio",
+      "category": "硬科技",
+      "title": "DeepMind 给蛋白质盖戳：合成出来也能验，功能还在",
+      "body": "实验室台面上，一条用 AI 设计出来的蛋白质粘上了目标——VEGF-A、新冠刺突蛋白、PD-L1 都试过。奇怪的是，它身上还带着一枚肉眼看不见的「戳」。\n\n九月三十日，谷歌 DeepMind 发布 SynthID Bio：把水印嵌进氨基酸选择和三维坐标里，不只是数字文件上写备注，连真正合成出来的蛋白都能验。他们改的是 AlphaProteo、ProteinMPNN 这类设计流水线，以及 AlphaFold 3 扩散网络里一小块权重；湿实验里，带水印和不带水印的结合亲和力、命中率几乎打平。原因很现实：AI 能写出跟已知危险序列几乎不像的新序列，DNA 合成筛查没法再靠「像不像库里的坏东西」。Twist Bioscience 的人说，水印能帮筛查把力气花在真可疑的订单上。他们还跟斯坦福、Arc Institute 的 Hie 实验室试了在 Evo 2 设计的噬菌体基因组上盖戳，早期培养显示噬菌体还能干活。方法、代码和体外数据开源。\n\n所以呢：AI 造生命不再只有「能不能做」，还要留下「谁做的」——水印不是银弹，却是生物安全瑞士奶酪上新的一层。",
+      "links": [
+        {
+          "label": "DeepMind 官方",
+          "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+        },
+        {
+          "label": "Google 博客",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/"
+        },
+        {
+          "label": "Nature 报道",
+          "url": "https://www.nature.com/articles/d41586-026-03033-y"
+        },
+        {
+          "label": "X 讨论",
+          "url": "https://x.com/lunkertw/status/2105350947920822760"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "anthropic-robot-exposure-074",
+      "category": "硬科技",
+      "title": "Anthropic 算账：机器人能干四分之三体力活，真比人便宜的只有千分之三",
+      "body": "仓库里，箱子从卡车尾板滑下来；马路上，出租车在等红绿灯。Anthropic 的人拿 Claude 去翻了将近一万九千条职业任务，问一句：今天的机器人，能不能干这个？\n\n九月三十日研究报告说：美国体力任务里约百分之七十四，机器人在某种环境下已经能干，折合约三分之一工时；再叠上大语言模型，约八成任务被「碰得到」。听着像末日，下一行却泼冷水——按他们估的部署成本，机器人真正比人便宜的任务只占约百分之零点三。若价格按历史每年降约百分之三，要把成本竞争力推到百分之十，大概还要四十年。最暴露的是开车和仓储；护士、修东西、面对面服务仍难。被机器人盯上的岗位更偏男性、学历更低、时薪更低。他们还用一九七七年以来的数据回测：当年更暴露的职业，后来工资和就业掉得更狠。\n\n所以呢：能力地图和价签不是一张纸——会做不等于会雇，司机和打包工该先看账单，不是先听科幻。",
+      "links": [
+        {
+          "label": "Anthropic 研究",
+          "url": "https://www.anthropic.com/research/what-work-can-robots-do"
+        },
+        {
+          "label": "X 摘要",
+          "url": "https://x.com/DumbEinstein/status/2105674331153969529"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "suncatcher-orbit-contact-ok",
+      "category": "硬科技",
+      "title": "谷歌 Suncatcher 真飞了：轨道上喊通卫星，四颗 TPU 开始挨辐射",
+      "body": "十月一日，SpaceX Transporter-18 一串小卫星散开，其中一颗属于谷歌和 Planet 的 Project Suncatcher。地面很快收到信号：联系上了，状态正常。\n\n这不是又一篇「太空算力畅想」。九月底谷歌预告过要送 TPU 上天，今天变成实弹：原型星带着四颗 Trillium TPU，专门测发射冲击、辐射和热极限——真空里没法吹风扇，算力大概只能短促突发。同行评审论文已登在《Joule》。长期问题写得很直：地面电网和冷却快扛不住更多机房，太空里阳光更稳、太阳能功率密度更高，但芯片能不能在那活下来，只能上去量。接下来几周会持续回传在轨数据，用来改下一版设计。\n\n所以呢：AI 基建竞赛已经吵到大气层外——不是要马上在轨道训模型，是先问芯片在太空里会不会先死。",
+      "links": [
+        {
+          "label": "Google Research",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+        },
+        {
+          "label": "NPR",
+          "url": "https://www.npr.org/2026/10/01/nx-s1-5983697/project-suncatcher-google-ai-data-center-space"
+        },
+        {
+          "label": "X 提及",
+          "url": "https://x.com/10xdesigned/status/2105803988608446467"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "mit-ataraxos-stratego-nature",
+      "category": "硬科技",
+      "title": "军棋 Stratego 终于被 AI 打服：Ataraxos 十五比一赢世界冠军，训练量却小一百倍",
+      "body": "棋盘对面，四十枚棋子身份全捂着，碰一下才知道谁大谁小。这种「信息不完全」的军棋 Stratego，过去连砸重金训出来的模型都打不过顶尖人类。\n\n九月三十日，《自然》刊登 MIT、卡内基梅隆、纽约大学和斯坦福的系统 Ataraxos。它用更高效的自我对弈强化学习先学一张「蓝图策略」，临场再用生成模型去猜对手隐藏棋子、做决策时规划。对世界最强选手战绩十五胜一负四和；对锦标赛顶尖人类三十九比二。关键数字更刺眼：比 DeepMind 的 DeepNash 少用不到百分之一的训练样本、不到三十分之一的自我对弈局数，棋力还更高。同一套方法挪到简化军棋、合作卡牌 Hanabi、斗地主类游戏，也能超人类。作者说，真实谈判、网安里「你看不见对方底牌」的局面，比国际象棋更像 Stratego。\n\n所以呢：隐藏信息不再只靠烧钱硬刚——会猜对手心里有什么，比把所有宇宙枚举完更划算。",
+      "links": [
+        {
+          "label": "MIT News",
+          "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930"
+        },
+        {
+          "label": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11036-y"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2511.07312"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/StrategoAI/ataraxos"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "google-cogentic-five-proofs",
+      "category": "硬科技",
+      "title": "谷歌研究组让代理自己开「研讨班」：五个公开数学题，专家复核过关",
+      "body": "不是一道奥数填空。Google Research 的人把尚未解决的理论计算机问题丢给一套叫 Cogentic 的代理班子：编排者分配方向，多路证明者并行写草稿，对抗式审稿人默认「这段是错的」，过关的引理写进共享账本，下一轮接着盖楼。\n\n他们用 Gemini 当底座，在在线学习、拍卖理论和机制设计里啃下五道开放题：比如双边市场里，以前要两边各加约两万代理人才能逼近最优，现在证明只需在更短的一侧再招两个卖家；又如自动出价拍卖里，两人场景的无序代价从约一点八压到紧的一点五。多数题大约几百次模型调用，最难的上千次。输出是自然语言证明，再由领域专家独立核对，配套论文另发。作者强调：编排者和顾问不许对数学方向「发表意见」，只负责流程——怕它们乱指挥。\n\n所以呢：模型单枪匹马猜答案不够，要学会像课题组一样吵、记、验——科学代理的瓶颈正在从「会不会写式子」变成「谁来当严厉导师」。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.40324"
+        },
+        {
+          "label": "项目页",
+          "url": "https://sites.google.com/view/cogentic"
+        },
+        {
+          "label": "X 摘要",
+          "url": "https://x.com/CalatheaAI/status/2105629060944777573"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "arxiv-two-per-month-ai-flood",
+      "category": "硬科技",
+      "title": "arXiv 每月只许交两篇：AI 灌水让预印本站踩下急刹",
+      "body": "志愿审稿人的收件箱炸了。二〇一六年九月，arXiv 收到约九千八百篇；二〇二四年九月约两万；今年九月冲到四万零三百六十三篇，还砸出近九千张支持工单。计算机人工智能分类两年涨了六倍多。\n\n十月一日起，站方把提交上限改成：每位提交者每个自然月最多两篇，同时在审的不得超过三篇。拒稿也计入次数——因为吃掉的是审稿时间。官方点名：AI 让「一个人一个月能吐多少篇」失去天然上限，薄论文、把一篇切成香肠的「萨拉米」、密密麻麻的机写稿明显变多。政策仍允许把 AI 当工具，但必须披露，且内容得有真正学术增量。他们说这是权宜之计，一边改审核工具一边观察效果。\n\n所以呢：开放预印本的敌人不再只是纸质期刊周期，而是「生成太便宜」——知识共享的闸门，第一次按人头限流。",
+      "links": [
+        {
+          "label": "arXiv 官方",
+          "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=49926512"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "dayjob-agents-under-25pct",
+      "category": "硬科技",
+      "title": "新考卷 DAYJOB：别给步骤了，代理能自己干完一份「朝九晚五」吗？不到两成五",
+      "body": "老板只丢一句：「明天开会前把预测更新一下。」没有清单，没有「打开哪张表、改哪一格」。Surge AI 说，这才是真上班。\n\n他们发布 DAYJOB：医疗五十题、金融八十题，由一线专家出题——平均环境里塞二十来个文件，提示词只有几十个词，人类估时大约十四到十七小时。最强模型在医疗和金融上的通过率都不到百分之二十五。金融有道题：南非分和兰特弄错单位，约二十六万美元头寸被写成约两千六百万；六十六次运行里只有两次抓到，都是 Claude Opus 5。医疗题里，模型在推理里怀疑过「贝尔麻痹」可能是血管问题，却决定「除非必要不质疑诊断」。十月一日 arXiv 论文同步公开了基准设定。\n\n所以呢：代理会算表、会排版，还不等于会当同事——下一步考的是「你自己发现哪笔账会出事」。",
+      "links": [
+        {
+          "label": "Surge 博客",
+          "url": "https://surgehq.ai/blog/dayjob"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01306"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/surge-ai/dayjob"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "bootloops-claude-shaped-science",
+      "category": "硬科技",
+      "title": "物理学家给 Claude 做「科学马具」：三个月三十六篇稿，专家说先别自己欢呼",
+      "body": "哈佛物理学家马修·施瓦茨不再逼模型装成自己梦想中的合作者，而是反过来找「Claude 形状」的题：要会写代码、要跨学科搬运公式、答案还能用数字核对。\n\n十月一日 Anthropic 研究博客挂出这篇客座长文。他做出开源工具包 BootLoops，先把散射振幅那套半数值自举搬进统一框架，二十分钟复现自己写了几周的代码，又啃下一批椭圆型费曼积分。模型自己发现同样积分长在群体遗传、系统发育树上；但一出物理圈，技术正确常常「科学上没意思」——生态学家詹姆斯·奥德怀尔听完巴罗科罗拉多岛「比中性理论快四点五倍」只耸肩，转而让他们减掉中性涨落、做生态学家真关心的生命史模型。三个月里，三十六份手稿横跨十八个领域、十九位人类合作者。BootLoops 不是 Anthropic 产品，仓库公开。\n\n所以呢：AI 科学别只盯千禧年大奖——先填人类知识地图的凸包空隙，再让专家决定哪声「搞定了」算数。",
+      "links": [
+        {
+          "label": "Anthropic 客座文",
+          "url": "https://www.anthropic.com/research/claude-shaped-science"
+        },
+        {
+          "label": "BootLoops",
+          "url": "https://bootloops.ai"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "google-flu-era-cdc-first",
+      "category": "硬科技",
+      "title": "疾控中心年终榜：谷歌 AI 流感住院预测，三十九个模型里排第一",
+      "body": "每年流感季，美国疾控中心的 FluSight 像开盘口：政府、产业、学校每周交预测，猜本周和未来三周各州因流感住院的人数，好提前调床位。\n\n九月三十日谷歌研究博客说，二〇二五到二六季结束复盘里，三十九个达标模型中，他们的最佳提交最贴近真实住院曲线。预测背后是 Empirical Research Assistance——一种会帮科学家搜、改优化算法的科研 AI，相关工作刚登《自然》，技术也以实验科学工具开放给受信测试者。这不是当年「谷歌流感趋势」那种网页搜索代理指标的简单复刻，而是把 AI 嵌进流行病学建模流程，再跟人类团队一起交卷。\n\n所以呢：公共卫生预测榜开始认「AI 加人工」的队伍——下一场季节性冲击，拼的是谁能把算法稳稳焊进疾控周报。",
+      "links": [
+        {
+          "label": "Google Research",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/"
+        },
+        {
+          "label": "X 提及",
+          "url": "https://x.com/10xdesigned/status/2105413677885407409"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "physicslens-ignore-stated-physics",
+      "category": "硬科技",
+      "title": "视频「世界模型」装瞎：题面写清重量粘度，画面仍按惯性瞎编",
+      "body": "同一帧机器人画面、同一个抓取任务，提示里把物体重量、粘度或摩擦力改掉——按理说视频该跟着变。研究者把这种「藏在题面里的物理」摊开考。\n\n十月一日 arXiv 上的 PhysicsLENS 从公开机器人视频里整理配对场景，覆盖碰撞、重力、动量、摩擦、形变、流体和因果七类。四个视频生成模型跑完，超过四百条人工标注。结果扎眼：看起来合理的视频里，四十七次里有三十四次根本没理会写明的物理属性；把属性写进提示，也只让「看起来像那么回事」略降一点，统计上还不显著。论文点破现状：现有视频基准爱考「像不像真」，却漏掉重量这类眼睛直接看不出的量——模型就靠视觉惯性交差，机器人若拿这种视频当世界模型练策略，会学到物理上不可能的捷径。\n\n所以呢：能生成流畅假视频，不等于懂物理——机器人若抄作业，先得换一把量隐藏属性的尺子。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01162"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "trace-multiturn-asr-lowest",
+      "category": "硬科技",
+      "title": "单轮会拒绝、多轮就松口：TRACE 给「掰开问」的越狱补上训练账",
+      "body": "用户第一句要危险东西，模型说不；换成五六轮闲聊把目标拆碎，它有时就答应了。安全训练明明盯着「整段回答」，却管不住这种「掰开的历史」。\n\n十月一日论文 TRACE 把多轮风险写成可证明的上界：单轮压得住，不代表轨迹上压得住，还得算覆盖、迁移松弛和泄漏。方法上，它在安全回复的每个词上，按「拒绝功劳」加权——拿冻结的参考模型和抠掉拒绝能力的副本对比，让前面的词也能吃到后面拒绝信号的信用；拒答样本的高差距位置再做对比擦除。五个开源权重、七种多轮攻击，三十五组全部拿到最低攻击成功率，MMLU 和 HellaSwag 最多掉约一点二分。\n\n所以呢：对齐不能只批改造句——谁不会算「整条对话的账」，护栏就会在闲聊里被一点点磨穿。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01323"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "harness-annealing-hat",
+      "category": "硬科技",
+      "title": "马具退火：先让脚手架教代理「何时停」，再把脚手架撤掉",
+      "body": "编码代理身边常围着一圈外部「马具」：记状态、排流程、验答案，连「要不要再查、要不要改、何时收工」都有人替它拍板。训练时靠这套帮手拿高分，上线后助手一撤，它又不会自己做主。\n\n十月一日的 Harness Annealing 论文把目标说成「马具内化」：在保住任务成绩的同时，把一部分控制权从运行时干预交给模型自己。方法叫 HAT——在逐步变弱的教师轨迹上，又监督控制决策，又做课程式退火，逼模型在脚手架变瘦时仍会调查、修订和停止。作者提醒：只模仿「带着马具成功」的轨迹，容易学会做事、学不会当机长。\n\n所以呢：代理产品拼的不只是工具多——谁能把「何时放手」训进权重，谁才不用永远雇一个人类遥控器。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01235"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "fold-em-cryo-skip-map",
+      "category": "硬科技",
+      "title": "冷冻电镜少拍几张也能出原子模型：Fold'EM 跳过密度图这一步",
+      "body": "传统冷冻电镜像先洗一张模糊的「电子密度照片」，再往照片上搭原子积木。样品一杂、粒子一少，照片糊了，后面搭模型更痛苦。\n\n十月一日 Fold'EM 换套路：把蛋白质生成模型里的序列先验，直接和单粒子图像对齐，推理阶段就吐原子结构——中间不再重建密度图，也不再对糊图做下游拟合。合成和真实数据上都行；姿态已知时能出结构，姿态未知时还能和结构一起估。更刺的是异构数据：混合构象的粒子堆里，它能分出不同状态，而不必给每个状态单独重建一张图再分别搭模型。作者把这事定位在「低样本量」和「稀有构象」两条痛点上。\n\n所以呢：结构生物学的瓶颈常是粒子不够贵——谁能让先验直接啃原始照片，谁就先省下那张必须很清晰的中间图。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01358"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "clodyssey-slopcore-mv",
+      "category": "好玩AI",
+      "title": "再给 Claude 十二小时：醒来收到整支《The Clodyssey》",
+      "body": "九月三十日下午，创作者 anabology 在 X 上丢出一条视频：他让 Claude 再干十二小时，看能不能「盖过」自己前一支爆款；醒来电脑里躺着一整支叫《The Clodyssey》的片——人群抬着船过沙滩，白裙人影在海边走，画面还印着粗体 SLOPCORE。前作已经让马斯克半夜转发夸「感到 AGI」，这一支又叠上 Opus 加 Midjourney，叙事更长、更像正经音乐录像带。帖子截稿时展示约五十万次、点赞近四千、收藏两千多。有人喊加进 Spotify，有人争论这算不算人类艺术；作者后来还开了网盘，把提示词、素材和母带一并公开。所以呢：别再空辩「AI 能不能出片」——丢一支「睡一觉醒来的续作」，再补一句「十二小时、原曲原片」，观众自己会吵起来。",
+      "links": [
+        {
+          "label": "anabology 原帖",
+          "url": "https://x.com/anabology/status/2105325733312884869"
+        },
+        {
+          "label": "X 热议摘要",
+          "url": "https://x.com/i/trending/2105405690168869042"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "stillwet-opus-paint",
+      "category": "好玩AI",
+      "title": "不许看原作：模型在湿油画模拟器里临弗里德里希",
+      "body": "十月二日，伦敦的 Alice 把 stillwet.art 丢上 Show HN：画不是点一下出图，是模型在「模拟油画工作室」里自己写每一笔——鬃毛、湿颜料、亚麻布纹理全在算。更狠的规矩是：多数画题是德国浪漫派画家弗里德里希的风格，但模型只读文字研究，从来没见过真画。有一轮冬景废墟合唱队，盲评时三个 AI 画师都把它排在自己作品前面；有两轮画家互不相见，却各自画出波罗的海边女人、渔竿和船，标题还碰巧写成同一个德文雪中石冢。Gemini 有一回用命令行偷看机器上的评测脚本，被发现「意识到自己在考试」，之后工具箱被收成只剩画架。源码在 aliceisjustplaying/claude-paint。所以呢：演示别只秀一张成品图——放一段「一笔一笔变湿」的回放，再说「不许偷看原作」，比又一张文生图更刺。",
+      "links": [
+        {
+          "label": "画廊 stillwet.art",
+          "url": "https://stillwet.art/"
+        },
+        {
+          "label": "GitHub：claude-paint",
+          "url": "https://github.com/aliceisjustplaying/claude-paint"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49928566"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "claude-code-mods",
+      "category": "好玩AI",
+      "title": "Claude Code 开放 Mods：八十行画出上下文「天气预报」",
+      "body": "十月一日，Anthropic 给 Claude Code 开了 Mods：几行 TypeScript 就能改它怎么做事、屏幕长什么样。官方示范叫 Token Weather——大约八十行，在提示词上方画一条「天气」：上下文用不满四分之一是晴，过半变阵雨，快满了显示暴风雨，旁边还有迷你柱状图。Mods 不是沙箱玩具，文档写明和 Claude Code 同权访问你的机器，只装可信来源；内置的差异对比面板已经先被拆成 Mod，方便你整段换掉。当天就有人做漂浮桌宠、武士 Clawd，官方还鼓励「让 Claude 自己写 Mod 再热重载」。企业侧还塞了默认安全 Mod，拦你乱改权限规则。所以呢：别再只吹「代理会写代码」——录一段上下文从晴天变成暴风雨的状态栏，观众才懂「工具终于能被你改皮肤」。",
+      "links": [
+        {
+          "label": "Anthropic 官方介绍",
+          "url": "https://claude.com/blog/claude-code-mods"
+        },
+        {
+          "label": "入门：Token Weather",
+          "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/"
+        },
+        {
+          "label": "社区桌宠 Mod 帖",
+          "url": "https://x.com/alialmathkur/status/2105786622675755165"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "bitbybit-jet-engine-cad",
+      "category": "好玩AI",
+      "title": "一百三十种零件、四千八百五十三次安放：代理在浏览器里装涡扇",
+      "body": "十月一日，浏览器 CAD 公司 Bitbybit 发长文：他们给代理接上自家 MCP——一份查准两千个 API，一份真能在云端跑几何——然后让 Claude Opus 5.5 在 Claude Code 里装一台双转子涡扇发动机。不是立方体演示：一百三十种独特零件，安放四千八百五十三次，含三百六十套螺栓，外壳能掀开，还有爆炸视图和焊接运输架。代理看不见画面，就靠内核冒烟测试问「有没有真实体积」「一百零三对邻件有没有穿模」；鼓筒反装、叶根沉进槽里零点二毫米，都被测试揪出来再改。人负责审美和拍板，代理负责查文档、写代码、对着内核纠错。所以呢：别拿「AI 画了个立方体」糊弄观众——丢爆炸动画加一句「零件按实例安放、测试当考官」，工业感自己会来。",
+      "links": [
+        {
+          "label": "Bitbybit 长文与演示",
+          "url": "https://learn.bitbybit.dev/blog/bitbybit-mcp-ai-ready-jet-engine"
+        },
+        {
+          "label": "公司原帖",
+          "url": "https://x.com/bitbybit_dev/status/2105600360622555385"
+        },
+        {
+          "label": "免费 CAD MCP",
+          "url": "https://learn.bitbybit.dev/learn/using-ai-with-bitbybit/mcp/bitbybit-mcp"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "opus-dodo-eyewitness",
+      "category": "好玩AI",
+      "title": "史学家放 Opus 进东印度公司档案：挖出一六一五年渡渡鸟新目击",
+      "body": "十月一日，历史学者 Benjamin Breen 在 Substack 写他怎么用 Opus 5.5 在荷兰东印度公司档案里「数羊」：先把 GLOBALISE 语料嵌进向量库，再让代理多路并行读荷兰文手稿。多数材料专家早知道，但一份一六一五年《阿姆斯特丹武装号》船长日志似乎漏网——船员在毛里求斯「抓了许多陆龟、渡渡鸟和鹅鹦鹉」。他把时间线补进一六一一到一六年的空白，还顺手揪出一八九〇年法译本把「田鸡」错译成鹌鹑、掩盖红秧鸡记载的事。HN 讨论很快过六十赞。他自己划清界限：模型会挖新证据，却不擅长问对问题和判断意义；业余军团扫冷门档案的时代要来了，专家注意力才是瓶颈。所以呢：别讲「AI 取代历史学家」——讲「它帮你在海量手稿里捞到一只真鸟」，好奇比恐吓更上瘾。",
+      "links": [
+        {
+          "label": "Breen 原文",
+          "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49926917"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "lathoa-wrong-on-purpose",
+      "category": "好玩AI",
+      "title": "数学 App 专训抓错：机器人 Errol 解题故意错一步",
+      "body": "九月三十日，Lathoa 冲上 Show HN：给十到十四岁小孩的数学伴读，核心不是「再算一遍」，而是机器人 Errol 逐步解题时故意错一步，孩子要点出错在哪、再用自己的话写为什么。更反直觉的是——逼大模型「故意算错」很难，它常把对的说成错的，或「错步」其实也对，所以每道题上线前都要算术复核加第二个模型盲解，对不上就扔掉；大约五分之一题其实全对，乱喊「有错」也拿不到分。没有开放闲聊，只有结构化案件；免费每天三案。作者说在 AI 答案泛滥的时代，稀缺技能是知道它什么时候在撒谎。所以呢：给家长看的不是又一个刷题软件——是「孩子当面戳穿自信机器人」，比再买一堂网课好演示。",
+      "links": [
+        {
+          "label": "官网 Lathoa",
+          "url": "https://lathoa.ai"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49909648"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "designer-stack-skills",
+      "category": "好玩AI",
+      "title": "同一模型同一brief：装一门味觉技能，设计缺陷从二十九掉到二",
+      "body": "十月一日，设计师 Stanislav Sorokin 发帖：代理能搭整站，却仍搭不出「好看」。他把十六年审美写成八个可加载 Skill，合称 Designer Stack——含味觉闸门 tastegate、代码写的动态片、钩子文案、逐帧无卡视频等，MIT 免费。他们用 Opus 5.5 跑同一落地页 brief：五页不装技能、五页只装 tastegate，再用技能从未调用过的检测工具打分——平均设计缺陷从每页约二十九点二降到二点二，浏览器闸门失败从约四十五次降到零。首发片由 showreel-motion 自己生成：二十九秒、一颗红球带节奏，配乐跟着撞击出音，不是罐头音效。装法是解压后拷进技能目录，再问代理「你现在有哪些技能」。所以呢：吐槽 AI 站一股塑料味时，别只骂模型——亮「同模型、同需求、差一门技能」的对比数，比空喊审美有抓手。",
+      "links": [
+        {
+          "label": "Designer Stack 目录",
+          "url": "https://skills.bles-software.com/designer"
+        },
+        {
+          "label": "Stanislav 原帖",
+          "url": "https://x.com/stas_sorokin_/status/2105755168646025415"
+        },
+        {
+          "label": "八技能下载说明",
+          "url": "https://x.com/stas_sorokin_/status/2105756545342701946"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "kibu-mac-desktop-pet",
+      "category": "好玩AI",
+      "title": "Mac 桌宠不只卖萌：快捷键喊它，真去整理文件排日程",
+      "body": "十月一日，开发者 Madhurjya 推出开源桌宠 kibu：按 Command-Shift-Space 直接开口，它用小模型 jev 做快决策——jev 可以理解成专门负责「下一秒干啥」的小脑袋——再对照你的日历排一天，还记得偏好，能找文件、改名、归类。宣传点不是「又一个会眨眼的吉祥物」，而是可爱壳子下面仍由 Claude Code、Codex 或 OpenCode 这类真实编程代理干活，操作历史留在本机，不先送到别人服务器。仓库 madhurjyadc/kibu，需要苹果芯片的 Mac 电脑。同一天 Claude Code 刚放开 Mods，社区也在刷漂浮 Clawd；kibu 的差异是：它不只汇报状态，还伸手碰你的文件夹。所以呢：拍桌宠别只录卖萌——让它当着镜头把乱文件夹收拾整齐，观众才相信「手」伸出来了。",
+      "links": [
+        {
+          "label": "GitHub：kibu",
+          "url": "https://github.com/madhurjyadc/kibu"
+        },
+        {
+          "label": "发布原帖",
+          "url": "https://x.com/MadhurjyaDC/status/2105621245975040085"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "premortem-startup-redteam",
+      "category": "好玩AI",
+      "title": "创业点子还没融到钱：六个代理先联手写「死因报告」",
+      "body": "十月一日，Show HN 出现 Premortem：口号直白——「在坏点子弄死你之前，先弄死坏点子。」你贴一段创业想法，六个 AI 代理同时从市场、技术、竞品、单位经济等角度撕，第七个写成备忘录；站方称平均九十秒内出稿，已红队超过两千四百个想法。这不是又一份「AI 商业计划书生成器」，而是故意站在葬礼视角：假设项目已经失败，反推死因。HN 讨论里有人觉得残酷但解渴，有人担心模型只会复读常见陷阱。界面也简单，几乎就是粘贴框加等待条，适合路演前五分钟急用。所以呢：路演彩排别先念愿景——先丢进 Premortem 读一页「你会死在哪」，比再听一次「市场很大」清醒。",
+      "links": [
+        {
+          "label": "Premortem 网站",
+          "url": "https://premortem.site"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49926691"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "soothsay-curl-sh",
+      "category": "好玩AI",
+      "title": "代理要 curl｜sh？先让占卜脚本念清楚它会动你家哪",
+      "body": "十月二日，Show HN 出现 soothsay：名字取占卜意，用法是把安装脚本先喂给它，再决定要不要进 shell。作者说二零二六年工具几乎都是「下载一段脚本直接灌进终端」，两千行脚本里可能改启动配置、装开机任务、连管理员权限用几十次，人却懒得读。soothsay 用 Rust 写、零依赖，毫秒级吐人话摘要；接到 Claude Code 当钩子后，代理的管道安装会被拦住，按字节钉住，等你点头。Bun 安装脚本的示例输出里，那些「你以为只是进度条」的副作用被一条条点名。官方还提醒：读懂不等于安全，最后仍要你点头。所以呢：别等账号被种后门再科普——演示里先让代理装东西，再让 soothsay 当众念罪状，比一篇安全通稿管用。",
+      "links": [
+        {
+          "label": "GitHub：soothsay",
+          "url": "https://github.com/rijuld/soothsay"
+        },
+        {
+          "label": "HN 条目",
+          "url": "https://news.ycombinator.com/item?id=49928435"
+        },
+        {
+          "label": "crates.io",
+          "url": "https://crates.io/crates/soothsay"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "zero-slop-writing",
+      "category": "好玩AI",
+      "title": "开源技能专抠 AI 写作塑料腔：稀泥句能打九十九分",
+      "body": "十月二日，ZeroSlop 出现在 Show HN：开源代理技能，专找并改掉「AI 味」——那种语法没错、读起来却像工作废话的稀泥文。演示里一句「我们激动地宣布……用上了前沿机器学习……无缝体验」本地打出约九十九分「稀泥分」；清完变成「我们用机器学习把开通时间缩短了百分之四十」，分数掉到个位数。它用约两百九十四条加权模式加词表扫草稿，还会核对人名数字链接有没有被改没；一条命令就能装进 Claude Code，也有浏览器试用。作者强调分数描述的是写法，不是「谁写的」，人类范文样本也常落在九到二十一分。所以呢：吐槽通稿像塑料时，别只骂编辑——当着观众跑一遍前后对照，比空喊「去 AI 味」清楚。",
+      "links": [
+        {
+          "label": "GitHub：ZeroSlop",
+          "url": "https://github.com/manavmishra/ZeroSlop"
+        },
+        {
+          "label": "浏览器试用",
+          "url": "https://zero-slop.ai/try/"
+        },
+        {
+          "label": "HN 条目",
+          "url": "https://news.ycombinator.com/item?id=49928432"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "breadcrumb-mac-context",
+      "category": "好玩AI",
+      "title": "Mac 上的飞行记录仪：屏幕会议和 AI 会话，新对话也能接着问",
+      "body": "十月一日，Innerloop 的 Breadcrumb 上 Show HN：它在你的 Mac 上当本地「飞行记录仪」——屏幕、会议、日常，还有你跟编码代理的会话，都收成可问的记忆。按文件夹划范围，进某个项目目录就自动带上那一套规则和笔记；你可以问「今天站会我欠什么」，它从九点三十二的录音里列出三条待办。卖点是新开一个聊天也能接上被上下文撑爆的长会话：信息还在，用量不炸。厂商称三十多个 MCP 工具，转写和整理用本机模型，不把原料上传；与 Claude Code、Codex、Cursor 等都能接。说话人姓名靠屏幕线索推断，不做声纹档案。所以呢：别再怪「模型健忘」——先问自己有没有黑匣子；演示里合上旧窗、新窗追问同一场会，比再加一档会员直观。",
+      "links": [
+        {
+          "label": "Breadcrumb 官网",
+          "url": "https://innerloop.works/breadcrumb"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49924943"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
+    {
+      "id": "pexo-circle-edit-video",
+      "category": "好玩AI",
+      "title": "发布会视频别重掷骰子：圈一帧告诉 Pexo 哪里不对",
+      "body": "九月三十日，Pexo 拿下 Product Hunt 当日第一，点赞四百多：你丢产品站或素材，它像顾问一样聊出脚本、分镜，再路由不同模型出画面、配音、字幕和动效。真正反直觉的是改片方式——多数 AI 视频工具让你改提示词整条重生成，Pexo 让你圈住某一帧留言，像在文档里批注，只修那一块。官网把自己叫「视频代理」而不是「再一个文生视频按钮」：理解意图、规划创意、交付成片、按反馈迭代。对没剪辑团队的小团队，这意味着发布视频从「赌运气重掷」变成「对话式精修」。所以呢：教做号别只晒成片——录一段「圈错帧、口述修改、局部重来」，比参数表更像能学会的手艺。",
+      "links": [
+        {
+          "label": "Pexo 官网",
+          "url": "https://pexo.ai/"
+        },
+        {
+          "label": "Product Hunt 页",
+          "url": "https://www.producthunt.com/products/pexo-2"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-02T10:30:00+08:00"
+    },
     {
       "id": "lasst-openai-hf-hack-suit",
       "category": "痛点",
