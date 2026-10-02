@@ -1,5 +1,430 @@
 [
   {
+    "id": "thomson-reuters-ross-3cir",
+    "category": "痛点",
+    "title": "费城上诉庭：用Westlaw摘要训竞品法律AI，不算合理使用",
+    "body": "法官写得很直白：别拿「人工智能未来」吓人，这案子本质就是普通版权纠纷。\n\n九月三十日，美国第三巡回上诉法院维持汤森路透胜诉。已倒闭的创业公司ROSS Intelligence曾通过第三方拿到Westlaw两千二百多条headnotes——律师编辑写在判决书前头的短摘要——拿去训练自家法律检索AI，想跟Westlaw抢饭碗。ROSS辩称这是合理使用、摘要跟判决差不多。合议庭说不对：编辑挑什么、怎么写，有「创造火花」；拿去训一个直接抢市场的工具，转化性极弱，还会伤到西法摘要本身的授权市场。ROSS律师放话要申最高法院。\n\n所以呢：训练数据是不是白嫖，法院开始按「你是不是在抄对手的饭碗」来判，不是按模型够不够炫。",
+    "links": [
+      "https://www.courthousenews.com/ai-training-of-copyrighted-material-not-fair-use-third-circuit/",
+      "https://www.musicbusinessworldwide.com/us-appeals-court-rejects-fair-use-defense-over-ai-training-as-thomson-reuters-wins-copyright-case-backed-by-riaa-and-nmpa/"
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "samantha-bombay-hc-deepfake",
+    "category": "痛点",
+    "title": "孟买高院：萨曼莎脸、声、名不许被AI乱抠，先下令全网撤",
+    "body": "十月一日，孟买高院给女演员萨曼莎·露丝·帕布下了一道临时护身符：名字、脸和声音，谁都不能再未经授权拿去喂AI、做换脸或恶搞图；已经散出去的内容，先撤掉。\n\n法官马达夫·贾姆达尔说，材料初步显示她的人格权、公开权被非自愿深伪和合成片侵害，还点到宪法里的言论自由、隐私尊严，以及版权法里表演者的精神权利。诉状列了十八个被告，从不知名的「约翰·多」到平台、AI开发商、电商和媒体都在名单里，十二月十日再开庭。她人在孟买有业务和商誉，却要跨辖区追那些服务器不在印度的被告。\n\n所以呢：印度一线女星不用再一张张自己举报——法院先把「脸和声音」当成能下禁令的东西。",
+    "links": [
+      "https://www.indiatoday.in/movies/regional-cinema/story/samantha-ruth-prabhu-ai-deepfake-case-bombay-high-court-restrains-misuse-of-name-image-and-voice-3007527-2026-10-01",
+      "https://www.barandbench.com/news/litigation/bombay-high-court-orders-takedown-of-ai-deepfakes-derogatory-content-against-actress-samantha-ruth-prabhu"
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "ypsilanti-um-lanl-townhall",
+    "category": "痛点",
+    "title": "伊普西兰蒂市政厅：镇长起立鼓掌，求密歇根大学别建洛斯阿拉莫斯机房",
+    "body": "十月一日晚上，安娜堡万豪宴会厅里排着麦克风。密歇根大学第二次办镇民说明会，讲伊普西兰蒂镇那片跟洛斯阿拉莫斯国家实验室合作的十多亿美元计算中心。有人喊「环境种族主义」，有人问你们自己敢不敢住旁边。\n\n镇长布伦达·斯通博一上台，全场起立鼓掌。她说伤害、眼泪和恐惧没法量，已经求过了，现在要一直打下去。校方说选址看中工业区和高压线，不用休伦河水，也不会推高居民电费；可镇里已经用一百八十天电力基建冻结、一年停供机房水电，把能卡的阀门先拧上。国会议员丁格尔也写信要透明度。\n\n所以呢：公立大学说这是科研，邻居听见的是军用机房压在镇上空——下一仗看谁能真的叫停。",
+    "links": [
+      "https://www.michiganpublic.org/transportation-infrastructure/2026-10-01/less-jeering-just-as-much-emotion-at-second-um-townhall-on-proposed-computing-center",
+      "https://planetdetroit.org/2026/09/data-center-news-dingell-um-ypsilanti/"
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "wayne-cannoli-veto-override",
+    "category": "痛点",
+    "title": "韦恩县：县长否了谷歌机房减税，议会十三比零当场翻盘",
+    "body": "九月二十五日，韦恩县行政长官沃伦·埃文斯一笔否决：给范布伦镇谷歌「意式奶油卷」机房项目的社区福利和税收优惠，他嫌程序太赶、公众没吃透。十月一日，县议会开会，十三比零推翻否决。有人强调——这不是批建厂房，只是把钱和福利包装推回去。\n\n镇上二月已经五比二放行约二百三十英亩超大机房，北靠九十四号州际公路。支持者说工会有活干、水费还可能被大户摊薄；反对者盯着耗电、湿地和谁最终买单。埃文斯会后声明：制衡就是这样，他仍觉得不妥，但县里得一起扛。\n\n所以呢：一吉瓦级谷歌机房还没竖起来，减税票已经否了又复活——地方「要不要贴钱请服务器」撕得比图纸更快。",
+    "links": [
+      "https://www.fox2detroit.com/news/wayne-county-overrides-evans-veto-tax-breaks-van-buren-data-center",
+      "https://www.cbsnews.com/detroit/news/wayne-county-commissioners-warren-evans-data-center-tax-incentives/"
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "dearborn-dc-6mo",
+    "category": "痛点",
+    "title": "迪尔伯恩：六个月不批新机房，东南密歇根先踩刹车",
+    "body": "迪尔伯恩市议会跟在规划委员会全票建议后面，推进半年冻结：新机房申请十月起可先收件，但直接丢给法务，书面告知要等永久标准出来再重报，暂停期预计撑到二〇二七年三月底。\n\n时机不巧也不巧——伊普西兰蒂和范布伦镇居民刚上街吵水、电和空气，谷歌一吉瓦级项目和密大计算中心把整个东南密歇根点燃。迪尔伯恩官员说，先把「数据中心」写进区划定义，研究清楚再谈规矩；同州加菲尔德镇、威克瑟姆等地也在用冻结换时间。州里一边有销售税减免到二〇五〇，一边有人推限水、废免税。\n\n所以呢：不是反科技口号，是小镇发现区划里「数据处理」几乎裸奔——先停笔，再写规则。",
+    "links": [
+      "https://hoodline.com/2026/09/dearborn-moves-to-freeze-new-data-centers-as-ai-boom-sparks-regional-backlash/",
+      "https://savrn.com/blog/data-center-moratorium-tracker-update-2026-09-28"
+    ],
+    "prompt": "",
+    "date": "2026-09-09",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "cleveland-hyperscale-extend",
+    "category": "痛点",
+    "title": "克利夫兰市政厅：禁令十月二十日到期，居民举手说再延",
+    "body": "九月三十日晚上，约五十人挤进克利夫兰市议会厅。十三选区议员布莱恩·卡齐办说明会：本市对超大规模机房的三个月暂停十月二十日日落，听完大家要不要延。\n\n发言几乎一边倒。有人问俄亥俄已经两百多家机房，克利夫兰干嘛还拿伊利湖水和电网去换税收优惠；有人怕建成空壳，像老工业区废楼；还有人回头问——这屋里有谁认识因AI丢工作的？十几只手举起来。卡齐提醒：市议会能管市属电力公司，管不住跨州的PJM电网，维吉尼亚一抽风，俄亥俄也可能跟着抖。十一月全州还有十八个城市把机房禁令放上选票。\n\n所以呢：禁令倒计时二十天，居民要的不是PPT，是把「先别建」再锁一截。",
+    "links": [
+      "https://www.clevescene.com/news/cleveland-news/in-town-hall-clevelanders-ask-council-to-extend-ban-on-hyperscale-data-centers/",
+      "https://www.cleveland19.com/2026/09/29/cleveland-residents-invited-2nd-hearing-data-centers/"
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "connexai-dk-law-autorenew",
+    "category": "痛点",
+    "title": "加州律所告英国AI电话商：系统常挂线，合同却自动续费",
+    "body": "销售讲得天花乱坠：电话、短信、WhatsApp打通，Athena AI还能做情绪分析、实体识别，西班牙语转写「一个字都不会漏」。加州人身伤害律所DK Law买了一年，结果发现电话常掉、WhatsApp几乎废、西语转写根本不能用，英语稿也时有时无。对方还派工程师和CTO飞过来修，修好又坏。\n\n二〇二五年十月到期前，律所CTO明确说不续约。发票却还在寄。ConnexAI美国公司先在纽约告欠费，咬定自动续约；DK Law反手在加州告欺诈和履约失败，并搬出纽约州要求自动续约须书面通知的规定。加州法官最近先冻结本州案子，等纽约打完。\n\n所以呢：AI没帮上忙，账单先帮上了——企业采购最怕的「用不了还续费」，已经打到联邦法院。",
+    "links": [
+      "https://artificialunintelligence.co.uk/ai-vendor-connexai-faces-us-lawsuit-over-software-that-allegedly-didn-t-work-and-a-contract-renewal-nobody-asked-for"
+    ],
+    "prompt": "",
+    "date": "2026-09-05",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "nj-educators-before-ai",
+    "category": "痛点",
+    "title": "新泽西：「教师优先于AI」法案要写明，公校岗位必须是真人",
+    "body": "州众议员希瑟·西蒙斯九月下旬抛出《教师优先于AI法》：公立学校雇员得是人，不能用人工智能顶掉教室里的老师。她说AI可以当教具，但不能取代能给孩子共情和判断的成年人；州里虽还没真发生「机器老师上岗」，得趁早钉护栏。\n\n家长和助教对着镜头点头：社交技能不能只靠屏幕练；有孩子在公校的助教说，想象不出没有真人的教室。与此同时，麦迪逊德鲁大学校园里一所私立新校正试自适应学习，却仍配真人教练——恰好成了法案辩论的背景板。法案已进众议院，还要继续走程序。\n\n所以呢：教育口的痛点从「会不会用ChatGPT作弊」，推到「法律要不要先写死：讲台后必须站个人」。",
+    "links": [
+      "https://longisland.news12.com/2026/09/24/nj-bill-would-prohibit-ai-from-replacing-teachers-in-public-school-classrooms/6VV82EvoiCsagueCO80AxL"
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "apple-applecare-5k-hold",
+    "category": "痛点",
+    "title": "苹果：五千AppleCare用AI顶掉的方案搁置，电话里AI却已上岗",
+    "body": "彭博社透露，苹果内部算过一笔账：大约五千名AppleCare支持岗位，能否交给AI电话和网页代理。九月底消息说，这刀暂时无限期收起，公司「目前不打算」真裁。\n\n可用户侧已经碰见新接线员。美国和加拿大打AppleCare，会被分到生成式AI助手：能答常见问题、一步步排障，搞不定或你喊「转人工」再接真人。评论区有人夸比按键菜单客气，也有人说绕半天还得重来；有人抱怨苹果一向当金字招牌的客服，正被悄悄「普通化」。管理层另有小规模中层调整，但五千客服那刀悬着没落。\n\n所以呢：AI先坐进电话线，人还在编制里——裁员只是被按了暂停，不是被取消。",
+    "links": [
+      "https://www.macrumors.com/2026/09/29/apple-reportedly-planned-5000-applecare-layoffs/"
+    ],
+    "prompt": "",
+    "date": "2026-09-29",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "anthropic-max-billing-class",
+    "category": "痛点",
+    "title": "旧金山：用户告Anthropic，一百美金Max套餐「五倍用量」像加油限流",
+    "body": "广告图画着：每月一百美元买Pro的五倍用量，两百美元买二十倍。有人点进细字才发现——那是五个小时滑动窗口里的倍数，外面还有周限额。Reddit有人打比方：油箱给你加大了，加油枪却五小时只准加一加仑。\n\n前联邦贸易委员会律师领衔的集体诉讼九月扩写起诉状，说营销让人误以为买到了大幅扩容，实际上手才撞墙；有人正干活被限流，冲动升级，付完更气。Anthropic辩称点开超链接就能看见说明，像翻产品背面。原告律师说消费者没法审计黑箱，只能信广告。驳回动议排在十一月六日听证。\n\n所以呢：最贵档订阅的痛点不是模型笨，是「标着二十倍，用起来像限流阀」。",
+    "links": [
+      "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+      "https://www.plainsite.org/courts/california-northern-district-court/kahn-v-anthropic-pbc/67ch1clhp/"
+    ],
+    "prompt": "",
+    "date": "2026-09-08",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "alexandria-plaza500-march",
+    "category": "痛点",
+    "title": "亚历山大港十月十日游行：从啤酒厂走到变电站，要弗州停批机房",
+    "body": "组织者把日历钉在十月十日中午：从亚历山大西区阿斯林啤酒厂走到林肯尼亚Plaza 500一带，抗议费尔法克斯县Edsall路变电站和机房扩建，并加入「弗吉尼亚暂停运动」两周串联。\n\nSave Bren Mar联盟喊了好几年：星木资本那片机房按区划几乎「天然能建」，可Dominion能源的变电站必须过公共设施审查；州公司委员会已批了近一英里新输电线路。州长斯潘伯格抛出噪声、备用电源和电网可靠性框架，真标准要推到二〇二七年议会；变电站听证会从九月挪到十二月二日。市长、市议会和联邦众议员拜尔等人站在反对阵营。\n\n所以呢：数据中心之都的邻居，选择用脚步去堵变电站——先停，再谈规矩。",
+    "links": [
+      "https://www.alxnow.com/2026/09/23/march-starting-in-alexandria-to-rally-for-virginia-data-center-moratorium/"
+    ],
+    "prompt": "",
+    "date": "2026-09-23",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "greece-ai-voice-clone-gang",
+    "category": "痛点",
+    "title": "雅典：诈骗团伙先偷亲戚嗓音，再打回电话骗走一百万欧元",
+    "body": "希腊警方九月端掉一个分工清楚的团伙：有人管事，有人主叫，有人上门收赃。手法是先装电力或光纤公司打电话，忽悠事主「找亲戚确认」；拿到亲戚号码后短聊几句，用AI克隆那人的嗓音，再打回事主——听着就像家里人点头。\n\n两个二十三岁、二十五岁的「收账员」在雅典新城爱奥尼亚被抓，刚从一户人家搬出约三万欧元财物；另有四人入卷，警方估计非法所得超过一百万欧元，并顺带破获一辆作案用车。官方警告：熟人嗓音不再等于真人，老人尤其危险；真检修从不让你交出金饰现金。\n\n所以呢：深伪受害者不一定是明星——可能是接到「亲戚」电话的隔壁大爷。",
+    "links": [
+      "https://www.euronews.com/2026/09/18/greece-police-bust-gang-using-ai-to-clone-relatives-voices-for-cash",
+      "https://greekreporter.com/2026/09/19/ai-voice-cloning-sophisticated-one-million-euro-phone-scam-greece/"
+    ],
+    "prompt": "",
+    "date": "2026-09-18",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "ofcom-ncii-hash-deadline",
+    "category": "痛点",
+    "title": "伦敦：Ofcom亲密图像截止日到了，平台得用指纹技术拦住AI脱衣图",
+    "body": "九月三十日，英国通信管理局Ofcom给的期限落地：大型平台必须拿出办法，主动发现并拦住非自愿亲密图像，包括露骨的AI生成深伪；优先推荐「哈希匹配」——给已知受害图做数字指纹，上传时对上就拦，不必等当事人一张张举报。\n\n不用哈希也行，但得证明替代方案一样管用。Ofcom已启动执法观察，并与StopNCII.org合作：成年人可在自己手机上生成指纹，原图不出设备。违反在线安全法，理论上可罚全球年营收百分之十。活动人士乔治娅·哈里森同周在工党大会上说，互联网已成「最大课堂」，不该把女性身体当内容教材。\n\n所以呢：深伪受害从「事后删帖」推进到「上传前就该被机器拦住」——监管开始按天计时。",
+    "links": [
+      "https://swgfl.org.uk/magazine/ofcoms-deadline-for-platforms-to-tackle-intimate-image-abuse-has-arrived/",
+      "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/platforms-should-use-detection-technology-to-stop-spread-of-illegal-intimate-images-online-under-strengthened-ofcom-codes"
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "openai-contractors-ai-fired",
+    "category": "痛点",
+    "title": "外包标工被炒：帮OpenAI训模型，自己用AI写标注反而违规",
+    "body": "OpenAI养着成千上万外包，读真实用户对话、改回复、给人味儿——公司叙事是「人在环里」。四〇四媒体九月曝光：多名承包商因为用AI帮自己完成标注被开除。有人说这是最快被踢的原因之一，大组里被抓到的「一堆」。\n\n讽刺摆在桌上：同一家公司对外鼓吹职场用AI提效，对内训练流水线却严禁用AI；而学界还在担心「模型崩塌」——用AI文本再训AI会越训越糊。被雇来防止糊掉的人，有的正用AI糊弄交差。时薪不高、产量压力大，捷径和禁令撞在一起。\n\n所以呢：AI劳工的规矩是双标——你训练它可以用，你用它训练你自己不行。",
+    "links": [
+      "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/"
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "riverbank-dc-45day",
+    "category": "痛点",
+    "title": "里弗班克：四十五天冻机房，前陆军弹药厂也想改服务器农场",
+    "body": "九月九日，加州斯坦尼斯劳斯县里弗班克市议会全票按下暂停键：四十五天内不批新数据中心，先摸清水电和规矩，必要时可再延到两年。导火索是大约五家开发商同时来问——其中包括在前陆军弹药厂「里弗班克工业综合体」上做文章的可再生能源公司Aemetis，想把旧厂房改成模块化机房，声称用赫奇赫奇电力和厂区回用水。\n\n小镇突然发现「数据中心」三个字变得刺耳：一边是就业和税基叙事，一边是怕变成下一个被服务器挤占的河谷镇。十月上旬议会还要再碰这议题。\n\n所以呢：连弹药厂旧址都排上AI算力队伍时，小城选择的第一反应是——先停，再谈。",
+    "links": [
+      "https://www.kcra.com/article/riverbank-approves-45-day-moratorium-data-centers/73659564",
+      "https://news.theregistrysf.com/riverbank-freezes-data-center-rush-with-45-day-moratorium-as-aemetis-pitches-clean-energy-project-on-former-army-munitions-site/"
+    ],
+    "prompt": "",
+    "date": "2026-09-09",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "westwell-nansha-qchassis-20",
+    "category": "跨行业",
+    "title": "广州南沙二期：二十台无人集卡挤进有人码头混跑",
+    "body": "九月底，广州港南沙二期堆场里多了一群不需要磁钉的四轴八轮车：西井科技首批二十台Q-Chassis（重载无人水平运输车，行业里叫IGV）通过验收，开始和人工集卡在同一条主干道上抢路口。\n\n南沙二期不是新建的全自动码头，港机、人开车、临时任务全搅在一起。车辆靠5G、北斗和多传感器自己避障，场内停车精度宣称正负三十毫米，跟门机对位成功率超过百分之九十五。市国资委披露目标是二〇二七年滚到六十台。隔壁南沙四期早就铺了一百五十八台无人导引车——那边是新码头封闭跑，这边硬挤进旧码头混行。\n\n所以呢：港口无人化的硬仗，已经从「建一座新码头」变成「旧码头里敢不敢跟卡车司机抢道」——很适合讲混行比空场演示值钱。",
+    "links": [
+      {
+        "label": "盖世汽车",
+        "url": "https://auto.gasgoo.com/news/202609/28I70473513C601.shtml"
+      },
+      {
+        "label": "凤凰网汽车",
+        "url": "https://auto.ifeng.com/c/8wnAY9rCQX2"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "finite-ontario-apple-thinner",
+    "category": "跨行业",
+    "title": "安大略十四座苹果园：六只机械臂一秒决定十颗果留不留",
+    "body": "疏果季节，安大略高密度苹果园里出现一辆太阳能推车：Finite Robotics做的机器带着六只臂，看见偏小的果子就「剪、吸、吐」，一小时能摘掉大约一千颗多余果。二〇二六年它跑进十四座商业果园，白天干十到十三个小时，备用发电机几乎没动过。\n\n果农过去靠人爬梯子数果、掐果，药渣还没散完时人又不能上手。机器人一秒能做十次去留判断，认得出该单独留下的果，但还看不出畸形和虫眼——下一季计划扩到二十只臂，峰值一天扫十八英亩。公司总裁Matt Stevens说，大理石大小的果子人很难数到一百八十，机器能。\n\n所以呢：苹果价钱二十年没涨、人工却涨成大头时，疏果先被机器人盯上了——很适合讲「果园最烦的掐果活」已经在加拿大商业园里量产试跑。",
+    "links": [
+      {
+        "label": "FreshPlaza",
+        "url": "https://www.freshplaza.com/north-america/article/9863218/ontario-robot-advances-automated-apple-thinning/"
+      },
+      {
+        "label": "Finite Robotics",
+        "url": "https://www.finiterobotics.com/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-08-14",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "cssc-tianjin-cobot-weld",
+    "category": "跨行业",
+    "title": "大船天津分段车间：协作机器人八月焊出一万二千米缝",
+    "body": "天津经济技术开发区里，中船大连造船大船天津的分段车间里，协作机器人不再只是试点海报。天津日报九月报道：八月单月焊接物量已经爬到一万二千米，效率大约是传统手工焊的三倍。\n\n项目从年初打磨到规模化，现场改了线缆长度、加了快速插头和无线模块，让机械臂在分段里信号不断；班组重新培训新人，还画了专用焊接图纸，规定哪些焊缝归机器、哪些还得人盯。船厂分段制造最怕的是节奏不稳——机器人把重复直线缝吃掉后，师傅腾出手处理难焊位置。\n\n所以呢：造船不一定先上四腿爬壁机，协作臂先把分段焊缝按米数堆起来——很适合讲船厂智能化已经从演示切到「按月计米」的产量账。",
+    "links": [
+      {
+        "label": "天津经开区官网",
+        "url": "https://www.teda.gov.cn/contents/26/114373.html"
+      },
+      {
+        "label": "新黄河转载天津日报",
+        "url": "https://www.jinantimes.com.cn/news-87-10939280.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-04",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "dahongliutan-50-ev-trucks",
+    "category": "跨行业",
+    "title": "海拔五千二百米大红柳滩：五十台纯电无人矿卡挖运弃闭环",
+    "body": "九月二十一日，新疆大红柳滩矿区第三批二十台纯电无人矿卡并入编队，加上此前两批，五十台车全部进入常态化无人驾驶。矿区海拔超过五千二百米，氧气和气压不到平原一半，人在这儿开车本身就是冒险。\n\n鸿达爆破运营的这套系统把无人挖掘机、无人钻机和无人矿卡串成「挖—运—弃」闭环：装载、运输、卸料到排土场，路径规划和车队调度由现场智能系统统一派。团队说他们攻过双侧装载、弃土区精准对位、道路压实和自动避障；二〇二五年底先跑通十台，再分批发到五十台。\n\n所以呢：生命禁区里先撤走的是驾驶室里的人——很适合讲高海拔矿山无人化不是PPT，已经用五十台纯电矿卡把整条挖运链合上了。",
+    "links": [
+      {
+        "label": "中自科技报道",
+        "url": "https://chs.cnauto.vip/article-hot-news/dahongliutan-unmanned-mining-system-sep-29.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-21",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "tangshan-jingtang-75",
+    "category": "跨行业",
+    "title": "唐山京唐港：七十五辆无人集卡日夜往返，岸桥工改在屋里抓娃娃",
+    "body": "九月二十五日，一百四十米长的「营海77」靠上唐山港京唐港区集装箱码头。岸桥抓箱放到无人集卡上，车自己开去堆场卸完再折返——指挥员却在一公里外的智慧中心里推摇杆，岸桥操作员李先飞说，以前每天爬四十多米高空对锁扣，现在像在屋里抓娃娃。\n\n河北日报写道，码头已经铺开七十五辆无人集卡，用卫星、激光和视觉融合定位，路口用「虚拟红绿灯」排通行顺序，制动误差压在厘米级。平均作业效率做到传统人工码头的百分之一百二十，每万标箱综合能耗比国家标准先进值低两成多，一年约省七百三十万元。全球首台自动化穿越式双小车岸桥也在这儿，综合作业效率再提五成。\n\n所以呢：河北第一座全自动集装箱码头，已经用七十五辆没驾驶室的集卡把「爬高空」换成「盯屏幕」——很适合讲港口改造不是只换岸桥，车队规模才是日常。",
+    "links": [
+      {
+        "label": "环渤海新闻网/河北日报",
+        "url": "https://tangshan.huanbohainews.com.cn/2026-09/28/content_50553568.html"
+      },
+      {
+        "label": "凤凰网河北",
+        "url": "https://hebei.ifeng.com/c/8wk3FBMJoGW"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-28",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "daxiao-kunlun-convenience",
+    "category": "跨行业",
+    "title": "上海加油站便利店：机器人在七十五厘米窄道里给美团单拣货",
+    "body": "上海一座昆仑好客便利店里，顾客在美团下单后，订单进中国石油数智平台，大晓机器人在七十五厘米宽通道、两米高货架之间自己拣货、搬运、打包。这是国内首个加油站便利店具身智能全闭环试运营项目，九月下旬进入试运行。\n\n加油站店正在变成即时零售节点：SKU变多、夜间补货、线上波峰，人在窄道里来回理货最累。大晓由商汤联合创始人王晓刚任董事长，方案覆盖从前置仓到门店的仓储、分拣、上架和履约；机器人不用改土建，先在首店验证多SKU、柔性包装和高峰订单，再往上海销售公司其他便利店复制。全国大约十一万座加油站，布局比家庭和商场标准得多。\n\n所以呢：加油顺手买瓶水的小店，正在变成机器人练即时零售的考场——很适合讲「通道只有七十五厘米」的真实约束，比开阔展厅有说服力。",
+    "links": [
+      {
+        "label": "机器人大讲堂",
+        "url": "https://leaderobot.com/news/9801"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "guotou-security-1000",
+    "category": "跨行业",
+    "title": "厦门国投智能：保安机器人从一百台试点跳到千台量产",
+    "body": "九月下旬，国投智能在厦门宣布千台保安机器人量产启动。七月刚把首批一百台送进产业园、校园、写字楼和码头做实战验证，两个月后产线目标直接拉到一千台，现场还向厦门铁路公安处交付了机器，口号是「三年万台」。\n\n安防巡检路线相对固定，是检验机器人能不能天天跑、能不能算过账的切口。同场厦门企业也在交成绩：瑞为技术的晓蚁行李转运机器人已进千万级客流机场常态化商用，宣称「八成标准行李机器扛、两成异形人接手」；小鹭智能的导购机器人进了安踏门店。保安岗从试点到千台，供应链和运维体系第一次被市场按量压测。\n\n所以呢：机器人「会巡逻」不再是发布会口号，厦门这边已经用千台量产订单来摊薄成本——很适合讲安防场景先规模化，再往更难的开放环境走。",
+    "links": [
+      {
+        "label": "凤凰网厦门报道",
+        "url": "https://feng.ifeng.com/c/8woIJOtdXwU"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-29",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "realman-silicon-duty-pd",
+    "category": "跨行业",
+    "title": "京津配电室：机器人代持证电工跑现场，二百多座站远程合闸",
+    "body": "九月二十二日，睿尔曼和筑欣物联把电力运维品牌定名叫「硅基值守」。告警从EMS微电网平台弹出来后，调度中心派单授权，常驻配电室的RealBOT机器人自己走到开关柜前对准按钮；持证电工在遥操室看多路画面，点头确认后机器人才分合闸、抄表、采温湿度——关键操作仍是「人判断、人确认、机器人执行」。\n\n筑欣在管配电室二百余座、落地项目一百七十多个，京津十五个运维基地覆盖北京七区、天津三区。机器人不用改土建，插插座就能充，平时休眠、有单才醒。过去无人值守只能「看见报警」，人还得开车赶去按一下；现在专业能力可以一台分身盯多站。\n\n所以呢：城市用电末梢终于不用每次派人钻进配电室——很适合讲具身智能在民生电力上，先把「最后一趟路」替掉。",
+    "links": [
+      {
+        "label": "光明网",
+        "url": "https://tech.gmw.cn/2026-09/23/content_39016698.htm"
+      },
+      {
+        "label": "央广网",
+        "url": "https://tech.cnr.cn/techgd/20260928/t20260928_527827763.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "taishan-nuclear-dive-robot",
+    "category": "跨行业",
+    "title": "台山核电海水库：潜水机器人替人查十米深拦污网",
+    "body": "台山核电海水库里，冷源运维团队遥控一台专用潜水机器人下潜约十米，镜头对准拦污网网体和构件做预防性检查。机器今年三月十二日首次下水，到九月已替代人工完成数十次水下检查，通信和姿态在高泥沙、强流里还能稳住。\n\n冷源拦污网关系到机组取水安全，高风险期几乎每周要查。过去靠潜水员：要办一级高风险作业许可，明渠还受风浪限制，窗口经常被海况关掉。通用潜水机器人扛不住台山取水区的浊度和缠绕，团队按流速、浪涌实测改了推进、补光和抗流控制，才把人从水里撤出来。\n\n所以呢：核电站最不愿意让人反复钻的地方，先交给耐脏的潜水机器人——很适合讲能源运维「本质安全」不是口号，是少让潜水员下一次水。",
+    "links": [
+      {
+        "label": "中国核能行业协会转载",
+        "url": "https://www.cinie.net/article/64499.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-07",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "atlas-kodiak-permian-28",
+    "category": "跨行业",
+    "title": "二叠纪油田：二十八台无人重卡一天送出一百七十六车压裂砂",
+    "body": "德州和墨西哥州交界的二叠纪盆地里，Atlas Energy的压裂砂不再全靠人开长途。截至二〇二六年三月底，二十八台挂着Kodiak Driver的无人重卡跑在十五条专用路上，累计大约七千车次、四十五万多短吨砂；七月二十日单日送到一百七十六车，创十八个月新高。\n\n七月底双方宣布再开第二个装车点，德克萨斯和新墨西哥两处同时发车，目标二〇二七年中扩到一百台，并争取上公共道路。车队已经试过一车拖三节挂车、总重超过一百三十五短吨。砂晚到一小时，压裂队就在烧钱——无人车先把最重复的那截油砂物流吃掉。\n\n所以呢：全球最大无人重卡商业车队，此刻不在州际公路上刷存在感，而在油田砂道上按吨计——很适合讲自动驾驶「先赚脏活的钱」。",
+    "links": [
+      {
+        "label": "Kodiak 官方",
+        "url": "https://kodiak.ai/news/atlas-driverless-permian-expansion"
+      },
+      {
+        "label": "FreightWaves",
+        "url": "https://www.freightwaves.com/news/atlas-kodiak-driverless-truck-fleet"
+      },
+      {
+        "label": "Atlas IR",
+        "url": "https://ir.atlas.energy/news-events/press-releases/detail/74/atlas-energy-solutions-expands-ai-enabled-digital"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-07-31",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "zhijian-i7pro-cnc-wuzhong",
+    "category": "跨行业",
+    "title": "苏州吴中车间：机器人操作工三十六步开关机床门装夹",
+    "body": "苏州吴中区车间里，至简动力的i7 Pro自己从料架夹起零件，走到数控机床前开门、送进卡盘、关门启动，加工完再取件放到下一台——人类操作工眼中的一套动作，拆成三十六步，装夹误差要压在零点五毫米内。九月当地报道它已正式上岗；七月公司刚在吴中完成首批一百台交付，并竖起CNC智能化具身产线。\n\n移动底盘会把手臂带抖，团队在第三版才压住机身振动；底层控制一千赫兹微调，上层模型十赫兹下指令，远距离可以快走，插零件时主动减速。一台机床开跑，机器人就转去伺候下一台，吃加工时间差。工人从跟机床节奏重复上下料，改成盯质量、调工艺。\n\n所以呢：通用人形臂进厂，先证明自己会开关机床门——很适合讲具身智能「操作工」已经按百台交付，而不是只会挥手迎宾。",
+    "links": [
+      {
+        "label": "凤凰网吴中发布",
+        "url": "https://feng.ifeng.com/c/8wlV3DMzjhl"
+      },
+      {
+        "label": "第一财经",
+        "url": "https://www.yicai.com/news/103262645.html"
+      },
+      {
+        "label": "中国日报网",
+        "url": "https://js.chinadaily.com.cn/a/202607/07/WS6a4caf30a310d709c2fbc42b.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-27",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "qinzhou-sea-rail-igv",
+    "category": "跨行业",
+    "title": "北部湾钦州港：集装箱下车即上船，海铁中转压到一点七小时",
+    "body": "钦州自动化集装箱码头后方，铁路中心站几乎贴着堆场。交通运输部八月通报：这里是全国首个海铁联运无缝衔接的全自动化码头，箱子「下车即上船、下船即上车」，海铁中转不超过一点七小时每车次，公海转运约十二点五分钟。\n\n码头全球首创U形堆场，外集卡二〇二五年平均作业十五分钟内；拆掉与海关之间的围网后，单次转运少跑近一公里。复合导航IGV（智能导引运输车）要在自动化码头、人工码头和铁路站之间跨场域跑，与轮胎吊对位成功率超百分之九十五，停车精度约五厘米，避障成功率号称百分之九十九点九。港铁作业数据分钟级互通，给车船箱一起调度。\n\n所以呢：西部陆海新通道的箱子，正在用IGV把「倒运三次」收成一次贴靠——很适合讲港口自动化的胜负手是联运衔接，不只是桥吊会自己抓箱。",
+    "links": [
+      {
+        "label": "交通运输部",
+        "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202608/t20260821_4222830.html"
+      },
+      {
+        "label": "钦州市交通运输局",
+        "url": "http://jtj.qinzhou.gov.cn/jtjs/t28058008.shtml"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-08-21",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
+    "id": "ants-logiant-bangbu",
+    "category": "跨行业",
+    "title": "安徽蚌埠汽配厂：室外无人牵引车和室内叉车AGV自动接力",
+    "body": "安徽蚌埠一座汽车零部件基地里，仓到车间的长距离转运不再靠人开牵引车。蚂蚁机器人LOGIANT九月披露：室外无人驾驶牵引车扛跨厂房运输，室内叉车AGV做出入库和托盘上下架，两边在接驳点自动交接；客户MOM系统下单，混场调度平台拆任务、排路径，宣称七乘二十四小时不用人跟车。\n\n以前入库上架靠人工叉车，车间之间靠人开车拉，错运和台账对不上是常态，高位货架还有磕碰风险。室内车定位精度说到正负五毫米；室外车要在行人、车辆混行的厂区路上日晒雨淋照跑。对汽配厂来说，节拍不稳比多雇几个叉车工更要命。\n\n所以呢：工厂物流自动化的门槛，已经从「室内会躲人」升级到「室内外一单接力」——很适合讲混场调度比单车聪明更值钱。",
+    "links": [
+      {
+        "label": "中国AGV网",
+        "url": "https://www.chinaagv.com/news/detail/202609/37062.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-07",
+    "added": "2026-10-02T18:30:00+08:00"
+  },
+  {
     "id": "prompt-kling-pizza-cat-delivery",
     "category": "提示词",
     "title": "外卖猫偷吃一片，骑车飞吻跑路",
