@@ -1,6 +1,714 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-02T10:30:00+08:00",
+  "updated": "2026-10-02T14:20:00+08:00",
   "items": [
+    {
+      "id": "prompt-kling-pizza-cat-delivery",
+      "category": "提示词",
+      "title": "外卖猫偷吃一片，骑车飞吻跑路",
+      "body": "猫穿着披萨店外套，在店里亲手把饼放进盒、关袋、骑上小摩托出门。到客户门口时，嘴角已经沾着酱和芝士——盒子一开，少了一片，另一片还有牙印。客户刚喊「我的那片呢」，猫已经发动摩托，回头丢了一个飞吻。\n\n有人用最新视频模型写了二十秒「物理喜剧」提示词：装箱、关袋、按门铃、递盒子，每一步都要亲手完成，不许道具突然出现或消失。门铃必须先按再开门，缺的那片不能在镜头里凭空蒸发，飞吻必须在逃离途中甩出。整段像用手机随手拍，却把因果顺序锁死。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：好笑不是靠梗图，是靠把「不许偷懒」写进提示词里。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Strength04_X/status/2105889942958440671"
+        }
+      ],
+      "prompt": "Create an exactly 20 second ultra-realistic live-action comedy video, filmed as if recorded on an iPhone 18 Pro Max. Vertical 16:9, 1080×1920, 24fps.\n\nEverything must look like authentic real-world smartphone footage. The cat is a completely realistic domestic cat with natural fur, realistic anatomy, whiskers, eyes, paws, and believable movement.\n\nThe cat wears only a realistic pizza-company delivery jacket. No pants, shoes, hat, or other clothing.\n\nSCENE 1 — 0.0–3.5s — PACKING THE PIZZA\n\nInside a realistic neighborhood pizza shop.\n\nThe cat stands at the preparation counter.\n\nThe cat physically takes the freshly prepared pizza and places it into a pizza box.\n\nThe cat then manually closes the pizza box.\n\nThe cat picks up the closed pizza box and physically places it inside the pizza delivery bag.\n\nThe cat then manually closes the delivery bag.\n\nEvery action must be clearly visible and happen in the correct order.\n\nPizza → pizza box → close pizza box → place box inside delivery bag → close delivery bag.\n\nNothing appears or disappears automatically.\n\nSCENE 2 — 3.5–6.5s — SCOOTER AND DRIVING\n\nThe cat carries the closed delivery bag to its scooter.\n\nThe cat physically places the delivery bag onto the scooter, secures it, climbs onto the scooter, starts the engine, and rides away.\n\nCut to a front-facing camera angle showing the cat and scooter driving toward the camera.\n\nThe cat drives naturally through a realistic neighborhood road.\n\nThe cat's face is normal and clean during the driving sequence.\n\nNatural iPhone handheld movement, autofocus, exposure changes, motion blur, realistic road movement, scooter engine and street ambience.\n\nSCENE 3 — 6.5–10.0s — ARRIVING AND TAKING THE PIZZA\n\nThe cat arrives outside the customer's house.\n\nIt stops the scooter and physically puts the scooter on its stand.\n\nThe cat gets off and walks to the delivery bag.\n\nThe cat manually opens the delivery bag, reaches inside, grips the closed pizza box, and physically pulls the pizza box completely out of the bag.\n\nThe cat then closes the delivery bag.\n\nThe cat carries the pizza box toward the customer's front door.\n\nAs the cat approaches the house, clearly show a small amount of pizza sauce and a little melted cheese around its mouth, making it obvious that the cat has secretly eaten some pizza.\n\nThe pizza residue must not appear suddenly. It must remain naturally visible.\n\nSCENE 4 — 10.0–12.0s — DOORBELL FIRST\n\nThe cat reaches the front door while holding the pizza box.\n\nThe door is completely closed.\n\nThe cat raises its paw and physically presses the doorbell.\n\nOnly after the doorbell is pressed, the customer opens the door.\n\nStrict order:\n\nCat reaches closed door → cat presses doorbell → door opens.\n\nThe door must NOT open before the bell is pressed.\n\nSCENE 5 — 12.0–14.5s — HANDING OVER THE PIZZA\n\nAfter the door opens, use a camera angle facing the cat from the customer's side.\n\nDo not show the customer's face or body. Only the cat should be visible.\n\nThe cat holds the pizza box forward and says:\n\nCat: \"Here is your pizza.\"\n\nThe cat physically hands the pizza box to the customer.\n\nThe pizza box must visibly transfer from the cat's paws into the customer's hands.\n\nThe pizza residue around the cat's mouth remains clearly visible.\n\nSCENE 6 — 14.5–17.0s — THE MISSING PIZZA\n\nCut to the customer's POV.\n\nThe customer is physically holding the same pizza box.\n\nThe customer manually opens the pizza box.\n\nThe cat is standing behind the open box and becomes naturally hidden by the box.\n\nInside the box:\n\n- One pizza slice is missing.\n- Another remaining slice has a small realistic bite taken from it.\n- All other pizza remains physically present.\n- Nothing disappears during the shot.\n\nThe customer looks shocked and says:\n\nCustomer: \"Where is my missing slice?\"\n\nThe customer manually closes the pizza box and looks toward the road.\n\nSCENE 7 — 17.0–20.0s — ESCAPE AND FLYING KISS\n\nThe cat is already moving toward its scooter.\n\nThe cat climbs onto the scooter, starts it, and physically rides away down the road.\n\nThe customer runs out toward the road and shouts:\n\nCustomer: \"Stop! Stop!\"\n\nThe cat keeps riding farther away.\n\nWhile actively riding away, the cat turns its head back toward the customer and raises one paw, clearly making a flying-kiss gesture directly toward the customer.\n\nThe flying kiss must happen mid-ride while the cat is moving away, not before riding away and not after stopping.\n\nThe cat then faces forward and continues riding farther down the road.\n\nEnd naturally with the cat getting smaller in the distance while the customer remains on the road.\n\nSTRICT PHYSICAL CONTINUITY\n\nEvery action must happen physically and in logical order.\n\nNothing may appear automatically. Nothing may disappear automatically.\n\nNo teleportation, morphing, object replacement, duplicated objects, or sudden prop changes.\n\nThe exact pizza box used in the shop must remain the same pizza box throughout the entire video.\n\nThe exact delivery bag must remain the same bag throughout.\n\nThe pizza must be physically packed into the box, the box physically placed into the bag, the bag physically placed on the scooter, the box physically removed from the bag, and the box physically handed to the customer.\n\nThe door must remain closed until the cat physically presses the doorbell.\n\nThe customer must physically open and close the pizza box.\n\nThe missing pizza slice must simply not be present when the box is opened; it must not disappear during the shot.\n\nREALISM REQUIREMENTS\n\n- Exactly 20.0 seconds\n- 9:16 vertical\n- 1080×1920\n- 24fps\n- iPhone 18 Pro Max realistic footage\n- Realistic domestic cat\n- Realistic fur and anatomy\n- Only pizza-company delivery jacket\n- Realistic scooter physics\n- Natural handheld camera movement\n- Natural autofocus and exposure\n- Realistic shadows and reflections\n- Realistic road and house\n- Natural environmental audio\n- No CGI appearance\n- No cartoon style\n- No animation\n- No exaggerated expressions\n- No extra limbs\n- No distorted paws\n- No morphing\n- No teleportation\n- No automatic object movement\n- No subtitles \n- No text overlays\n- No watermark",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-kling-sumo-pairs-skating",
+      "category": "提示词",
+      "title": "两个相扑选手在花滑场上优雅抛接",
+      "body": "冰场灯光很亮，两个身穿围裙、顶着发髻的相扑选手手牵手滑进来。一人单臂把另一个举过头顶旋转，再抛出三周跳——落地一声闷响，冰面裂开，两人仍以花滑结束姿张开双臂，背景裁判举着分牌。\n\n作者给竖屏手持镜头写了短提示词：一镜到底，不加字幕，浪漫管弦乐配上刀刃刮冰声和那一记沉重落地。短短几句就把「巨大」和「优雅」拧在一起，观众不用解说也懂反差在哪里。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：反差梗不用解说，让模型把重量感砸在冰上就行。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/techhalla/status/2105808684680945905"
+        }
+      ],
+      "prompt": "Realistic vertical handheld phone footage at a bright indoor ice rink during a figure skating competition, no text or captions on screen. Two enormous sumo wrestlers in mawashi loincloths and top-knots perform a graceful pairs figure skating routine: gliding hand in hand, one lifts the other high overhead with one arm and spins, then throws him into a triple jump that lands with a thud that cracks the ice, both finishing with elegant arms out while judges in the background hold up score cards. Single continuous shot, no cuts, romantic orchestral music, scraping blades and a heavy thud.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-kling-gouache-astra-sky",
+      "category": "提示词",
+      "title": "水粉笔触女英雄从空中砸穿战舰",
+      "body": "银白长发的女英雄捏紧绿护腕，拳头里先炸出一道白金光柱，再膝滑擦过湿滑铜质跑道，炮弹在身后把栈桥炸掉。她纵身跳进雷暴云海，镜头追着自由落体，一拳砸进空中战舰舰桥，冲击波把乌云劈开，最后三点着地定格成海报。\n\n作者把整套「水粉概念画在动」写进提示词：不许描边卡通，不许游戏引擎塑料皮，只要扁平色块和可见笔触。二十秒六刀，风格禁令比形容词还重要。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：风格不是形容词堆砌，先把「不要什么」写死，画面才站得住。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/itsPixieVerse/status/2105697908624617880"
+        }
+      ],
+      "prompt": "STYLE: Cinematic 2.5D animation in the style of fully painterly rendering, characters and environments look like gouache concept-art paintings in motion, visible brush texture on skin, cloth and buildings, flat posterized color blocks with hard-edged light shapes, matte finish, soft filmic volumetric lighting, shallow depth of field. NOT flat 2D cartoon, NO bold black outlines, NO cel-shading, NOT glossy CGI, NOT Unreal Engine, NO photorealism, no plastic skin. \n\nWORLD & ENVIRONMENT: The Stratos Basin of Sol-Vara. Monumental cantilevered brass runways and suspension pylons floating at 15,000 feet above an endless boiling sea of thunderheads. Heavy wind gusts, rain squalls, and blinding sun shafts breaking through dark storm clouds. \n\nCHARACTER : Astra from the Stratos Basin of Sol-Vara. An athletic adult woman with long windswept silver-white hair, glowing emerald-green eyes, confident smirk, wearing a cropped white athletic top, billowing slate-blue hooded mantle with a circular eclipse crest, dark slate-blue short bottoms, tan utility pouch belt, forest-green gauntlets with brass cuffs, and black thigh-high boots, with a vertical beam of white-gold light blazing from her fist, elongated stylized tall proportions (10 heads tall), painterly matte skin with chunky brush-stroke shading. \n\nCINEMATIC TIMELINE (20 SECONDS / 6 DYNAMIC CUTS):\n- 00:00 to 00:03 (Cut 1 | In Medias Res Hook - Macro Threat): Extreme macro close-up on Astra's clenched forest-green gauntlet; a blinding pillar of white-gold celestial energy erupts vertically from her knuckles with a deafening sonic crack. Sparks of raw light scatter outward, reflecting violently in her vibrant emerald-green eyes.\n- 00:03 to 00:06 (Cut 2 | Evasion & Kinetic Slide): Low-angle tracking shot; Astra executes a high-speed knee slide along the rain-slick brass platform edge at mach speed. An incoming cluster of heavy artillery shells demolishes the catwalk inches behind her; her slate-blue capelet and silver hair whip violently through smoke and flying debris.\n- 00:06 to 00:09 (Cut 3 | Smirk & Leap): Fast push-in on Astra's face as she vaults off the destroyed platform into empty space; unblinking emerald eyes, cocky grin, zero hesitation. She dives headfirst into the open sky between colossal floating battle-cruisers.\n- 00:09 to 00:13 (Cut 4 | FPV Freefall Pursuit): Fast FPV drone chase diving at supersonic terminal velocity directly behind Astra as she freefalls through swirling storm clouds. She cocks her right arm back, pulling loose lightning and sunbeams directly into her fist, turning it into a miniature sun.\n- 00:13 to 00:17 (Cut 5 | Celestial Strike & Hull Detonation): Low-angle wide clash; Astra slams her charged fist directly into the armored bridge of a colossal iron sky-dreadnought. An immense flat-painted shockwave of pure white-gold light explodes in a 360-degree ring, shearing the dreadnought's hull in two and parting the storm clouds across the entire horizon.\n- 00:17 to 00:20 (Cut 6 | Climax Hero Poster Frame): Low-angle three-quarter hero shot; Astra lands gracefully in a three-point stance on a narrow suspension cable, rising tall with effortless swagger. Her slate-blue cloak billows against the newly opened golden sky; her gauntlet smokes with fading amber sparks as she looks dead into the camera with a lethal smirk. Hold static hero frame to freeze.\n\nLIGHTING, DEPTH & PHYSICS: High-altitude stormy rim light, blinding vertical white-gold key flashes from her fist, cool slate shadow fill; strict three-layer depth separation in every frame; \n\nweighty natural character animation, cloth and hair reacting to high-speed wind shears, follow-through and explosive momentum recoil.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-elevator-zombie",
+      "category": "提示词",
+      "title": "电梯到十二楼，镜子里的她没出来",
+      "body": "女人提着购物袋进老旧电梯，灯一闪，楼层跳到不存在的十三。镜子里先出现一个黑影，皮肤发白、眼睛发乳、青筋爬上脸，接着一只感染的手从镜面裂口伸出来。门开向虚无的暗层，她刚逃掉；电梯到十二楼，她走出去——镜子里的自己却留在里面，笑一下，朝镜头扑来，切黑。\n\n作者用视频模型写了这段韩式丧尸密闭戏，负向提示禁止夸张血腥和乱反射。戏核不是血浆，是「人走了，倒影还在」。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：吓人别靠血浆，靠电梯这种日常空间突然不对劲。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AIwithSynthia/status/2105862212422074725"
+        }
+      ],
+      "prompt": "The Last Elevator Ride 🧟‍♀️\n\nMade with Seedance 2.5 on @wavespeed_ai\n\nPrompt :\n\nCreate an ultra-realistic Korean zombie-horror sequence inside an old apartment elevator at night. A woman in a long golden light-cream one-piece dress enters alone, carrying a shopping bag. The elevator stops between floors, the lights flicker, and the floor indicator glitches to 13. A dark figure appears only in the mirror, whose reflection slowly becomes infected with pale skin, milky eyes, and dark veins. The mirror cracks as an infected hand reaches through. The doors open to a nonexistent dark floor where infected silhouettes rush toward her. She barely escapes as the doors slam shut. When the elevator reaches the 12th floor, she exits—but her reflection stays behind, smiles, then suddenly lunges toward the camera. Cut to black.\n\nStyle: Ultra-realistic Korean zombie horror, claustrophobic elevator, cinematic handheld camera, flickering fluorescent lights, photorealistic skin, realistic reflections, tense atmosphere, dark shadows, natural facial expressions.\n\nNegative prompt: Cartoon, anime, stylized CGI, exaggerated gore, distorted anatomy, extra limbs, inconsistent face, unrealistic reflections, floating objects, text, subtitles, watermark.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-osaka-laundromat-memory",
+      "category": "提示词",
+      "title": "凌晨洗衣店，烘干机里转着旧日回忆",
+      "body": "大阪凌晨三点，二十四小时自助洗衣店空无一人。穿灰大衣的女人坐在塑料凳上，六台前开式烘干机排在左侧——玻璃窗里不是衣服，是一段段暖色记忆。先盯着三号机转，切到滚筒里孩子生日蜡烛像衣物翻滚；再切到她眼角一滴泪；四号机里是车站牵手。最后烘干机一台台停暗，她自己的倒影轻轻笑一下。\n\n提示词像小剧场分镜：硬切、浅景深、空间地图和坐姿都写死了，忧郁却不故作玄虚。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：道具别当背景，让它替角色「放电影」。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Aqsahere_/status/2105842121043587493"
+        }
+      ],
+      "prompt": "SCENE CONTEXT: Empty 24-hour coin laundromat in Osaka, 3am. A woman in an oversized grey coat sits alone. Each dryer window shows a different warm memory of her life instead of clothes. Photorealistic, melancholic, cinematic.\n\nACTIVE REFERENCES: Woman (consistent face, black bob, grey coat).\n\nLOCATION MAP: Row of 6 front-load dryers left, folding table center, flickering fluorescent tube overhead, rainy glass door behind camera.\n\nFIRST FRAME / SPATIAL BLOCKING: Woman seated center-right on plastic bench, hands in pockets, facing the dryers 2m away. Dryer 3 glowing amber.\n\nFORMAT MODE: 9:16, 15 seconds, hard cuts only.\n\nOPTICS: 50mm, shallow DOF, soft halation on light sources.\n\nCAMERA: Handheld, slow drift, subtle breathing sway.\n\nACTION TIMING:\n0.0–2.5s | Wide: fluorescent flicker, she stares at a spinning dryer\n2.5–5.0s | Hard cut, macro inside dryer 3: a child's birthday candle scene tumbles like laundry, warm light\n5.0–7.0s | Hard cut, tight on her eyes, amber light reflecting, a tear forms\n7.0–9.5s | Hard cut, she stands and walks to dryer 4, it glows with a different memory (hands holding at a train station)\n9.5–12.0s | Hard cut, palm on the glass, light shifts across her face, her breathing slows\n12.0–15.0s | Hard cut, all dryers stop one by one, windows go dark, her reflection smiles slightly",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-haribo-candyland",
+      "category": "提示词",
+      "title": "撕开软糖袋，镜头直接钻进糖果宇宙",
+      "body": "红发双马尾女孩站在巨大透明软糖熊建筑中心，举起一包彩色软糖，下一秒撕开包装——镜头从袋口冲进去，软糖慢动作擦过镜头。接着是一串快切：软糖挡眼、咬一口、泡泡胀破转场，最后产品包稳稳落在糖果粉台上，女孩站在巨型软糖熊轮廓里收尾。\n\n作者写了十五秒糖果广告时间轴：每两秒一个视觉节拍，并把「人脸别漂」「包装别变形」写进硬约束。骨架换个产品也能复用。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：做品牌短片，先锁产品和脸，再玩转场才不会翻车。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AIwithNatalia/status/2105850711833760195"
+        }
+      ],
+      "prompt": "0:00–0:03 — Candyland Hero Entrance\nOpen immediately inside an extravagant surreal candy universe inspired by the reference image: enormous translucent gummy-bear architecture, glossy jelly surfaces, floating gummy bears, colorful hard candies, lollipops, sparkling sugar crystals and tiny metallic confetti suspended in the air. Everything feels edible, glossy, oversized and playful.\nThe female model from the provided face reference stands confidently inside the center opening of a massive transparent gummy bear structure, almost as if she is living inside the candy itself. Preserve her facial identity accurately. She is a glamorous red-haired baddie with two sleek high side ponytails, sharp glossy makeup, long colorful candy-inspired nails and a fitted high-fashion pink/red candy-inspired outfit.\n\nStart with a dramatic ultra-wide low-angle shot, then rapidly PUSH IN toward her. She looks directly into camera with a mischievous expression and raises the Haribo Goldbears packet beside her face. The package must remain recognizable and visually consistent with the supplied product reference.\n\n0:03–0:06 — Pack → Gummy Explosion\nFast whip transition into an extreme product close-up. She grabs both upper corners of the Haribo packet and rips it open toward camera.\n\nOn the exact tearing motion, transition through the opening of the packet as though the camera physically dives inside it.\nBOOM — dozens of colorful gummy bears burst outward in beautiful controlled slow motion, flying directly past the lens. Red, green, yellow, orange and translucent gummies rotate through the air while sugar crystals sparkle around them.\n\nCamera performs a fast macro orbit through the flying candy before revealing the girl again.\n\n0:06–0:10 — Playful Candy Beauty Shots\nRapid rhythmic beauty montage synchronized to energetic pop beats:\n\nMacro shot of a red gummy bear between her colorful manicured fingers.\n\nCUT.\nShe playfully holds it directly in front of one eye while staring through it at camera.\n\nCUT.\n\nExtreme close-up of her lips as she brings the gummy toward them.\n\nCUT.\n\nShe bites the gummy bear with a cheeky smile.\n\nImmediately create a playful bubble-pop transition: a glossy translucent pink candy bubble expands from the center of frame until it completely covers the lens, then POPS into the next shot.\n\n0:10–0:13 — Giant Gummy Interaction\nReveal her leaning against the enormous transparent gummy-bear structure while hundreds of candies tumble through its clear body like a candy machine.\n\nShe throws several gummies upward. Camera follows them with a rapid upward tilt; as they fall toward the lens, one gummy completely fills frame and becomes a seamless gummy-shaped match cut.\n\nReveal the model laughing confidently as colorful gummies rain around her.\n\nFast dolly-in toward her face. She gives the camera a playful wink.\n0:13–0:15 — PRODUCT HERO ENDING\nA gummy bear flies directly toward lens and becomes the transition into a polished studio product shot.\n\nThe Haribo Goldbears packet lands upright in the center foreground on a glossy candy-pink surface. Colorful gummy bears bounce and scatter naturally around the package.\n\nBehind it stands the enormous translucent gummy bear glowing with pink, cyan and golden reflections.\n\nThe girl appears slightly behind the product, framed symmetrically inside the giant bear silhouette, holding one gummy beside her lips.\n\nFinish with a rapid cinematic push toward the product package while confetti and tiny gummy bears float through frame.\nVISUAL DIRECTION: extremely colorful luxury candy commercial, surreal pop-fashion editorial, glossy translucent materials, candyland fantasy, saturated pink/red/yellow/cyan palette, macro food photography mixed with fashion cinematography, polished skin, sparkling highlights, dreamy bloom, crisp product photography, playful feminine energy, energetic camera movement, seamless match cuts, whip transitions, bubble-pop transitions, gummy wipes, rhythmic editing.\n\nPACING: Very fast, playful and punchy. New visual beat approximately every 1–2 seconds, but transitions must remain physically motivated and fluid rather than random hard cuts.\n\nIMPORTANT: Preserve the supplied girl's exact facial identity. Keep her red hair and two side ponytails consistent throughout. Keep the same outfit throughout. Maintain one consistent candyland environment. The Haribo packet must not morph, duplicate or randomly change design. Gummies must remain recognizable gummy bears. No distorted hands, no extra fingers, no warped face, no random text generation, no floating package, no identity drift, no sudden wardrobe changes, no unrelated backgrounds.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-stirfry-greens",
+      "category": "提示词",
+      "title": "十七秒把一棵青菜炒到油亮出锅",
+      "body": "俯拍陶碗里洗菜，水珠跳；木板上刀起刀落；黑锅坐上蓝色煤气火，蒜片先响，青菜入锅还保持翠绿。金属锅铲反复翻炒，油光裹上菜梗，再切到宽一点的家常厨房，最后装白瓷盘，镜头慢慢推近热气。\n\n作者写了十七秒竖屏美食全流程，从洗到装盘一条因果链。负向里专门禁止塑料手和假食物质感，连蒸汽和煤气火颜色都点名。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：美食片别只拍成品，把「水、刀、火、油」四步写全，食欲自己来。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/aynellex/status/2105869869216342141"
+        }
+      ],
+      "prompt": "A simple bunch of greens turns into a beautifully glossy, restaurant-style stir-fry. 🌿🔥\n\nCreated on Seedance 2.5\n\nPrompt: Create a cinematic, ultra-realistic 17-second live-action food sequence showing the complete preparation of glossy stir-fried Chinese greens in a warm, rustic home kitchen. Begin with an overhead close-up of fresh leafy greens being washed thoroughly in a large ceramic bowl filled with water. Capture realistic water movement, droplets, crisp green leaves, and natural hand movements.\n\nTransition smoothly to a wooden cutting board as the greens are arranged and chopped into neat bite-sized pieces with a sharp kitchen knife. Show detailed vegetable textures, realistic knife movement, and small pieces falling naturally onto the board.\n\nCut to a black wok heating over a strong blue gas flame. Add sliced garlic and the chopped greens into the hot wok. Capture the sizzling oil, rising steam, subtle smoke, and realistic heat reactions as the vegetables begin to soften while maintaining their vibrant green color.\n\nUse dynamic close-ups as the greens are tossed and stirred repeatedly with a metal spatula. Show glossy oil coating the stems and leaves, garlic pieces moving naturally through the wok, and authentic cooking physics. Include a wider cinematic shot revealing the cook working in the warm, lived-in kitchen.\n\nEnd with a beautiful macro close-up of the finished stir-fried greens arranged neatly on a white ceramic plate, topped with golden garlic slices and surrounded by a light glossy sauce. Slowly push the camera toward the dish as steam rises gently and the fresh green texture catches the warm kitchen light.\n\nUltra-photorealistic cinematic live-action food commercial, authentic Asian home cooking, realistic human hands, fresh leafy greens, detailed vegetable textures, natural water droplets, sharp knife movement, sizzling wok, blue gas flame, realistic steam and heat, glossy vegetables, garlic slices, physically accurate cooking physics, warm rustic kitchen lighting, wooden surfaces, macro food photography, shallow depth of field, smooth camera movement, overhead shots, close-ups, natural motion, subtle film grain, appetizing presentation, 17 seconds, vertical 9:16, no text, no logos, no watermark, no cartoon look, no plastic CGI appearance, no distorted hands, no artificial food textures.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-milk-barefoot",
+      "category": "提示词",
+      "title": "出门只为买牛奶，光着脚走回来",
+      "body": "两千年代初的韩国巷子，朋友拿着家用摄像机跟拍：她穿着拖鞋去便利店买一盒牛奶，路上跟小学生问好；回来时右脚带子松了，修了又松，最后干脆两只鞋拎在手里光脚走，还对镜头说「我只是出来买牛奶」。\n\n作者把「凉鞋何时能离脚」写成最高优先级——前半段鞋只能在脚上，手里只许有布袋。孩子们前后出现两次，断带只发生一次。禁止现代手机和发光招牌，要的是真家用录像带味道。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：好笑的结局要靠前面把规则写死，模型才不会提前光脚。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AiWithSaira/status/2105846669942350216"
+        }
+      ],
+      "prompt": "Went out for milk, came back barefoot 😭\n\nGENERATED With Seedance 2.5\n\nPrompt: 👇\n\nCreate a 30-second ultra-realistic Korean summer-morning vlog set in South Korea in the early 2000s, filmed casually by a friend on an authentic consumer DV camcorder. It must feel like genuine home-video footage, not a modern video with a retro filter.\n\nCHARACTER: The same young Korean woman in her early 20s throughout. Natural appearance, black wavy hair in a loose messy side ponytail, fitted pastel-blue short top, loose white pajama pants, simple silver necklace, casual flat sandals. Realistic skin texture, minimal makeup, natural expressions and movement.\n\nLOCATION: A peaceful Korean residential neighborhood on a warm early-summer morning. Narrow concrete lane, small old houses, weathered concrete walls, potted plants, bicycles, utility poles, overhead wires, laundry hanging outside, and a small neighborhood convenience store.\n\nCRITICAL SANDAL RULE (highest priority): From 0s until 17s, BOTH sandals are worn on her feet, properly on both feet, and she holds NO footwear in either hand at any point. Her only hand-held item before 17s is the cloth shopping bag (and later the milk inside it). The sandals come off her feet ONLY at the end of the FINAL ATTEMPT scene (around 21–23s). Before that moment, no sandal may appear in her hand, under her arm, or anywhere except on her feet.\n\nEXACT ORDER, 6 SCENES:\n\n0–4s, LEAVING HOME: She steps out of her house wearing both sandals on her feet, holding only a small cloth shopping bag. She locks the door and starts walking down the narrow lane. Both feet in sandals, hands free of footwear.\n\n4–8s, SCHOOL CHILDREN: A few school children with backpacks walk past her. She smiles, waves and says \"Good morning!\" The children wave back happily and continue ahead toward school. She is still wearing both sandals normally.\n\n8–12s, STORE: She enters the small convenience store (door chime), buys one carton of milk, puts it carefully in her bag and walks back out. Both sandals still on her feet, nothing in her hands except the bag.\n\n12–17s, SANDAL TROUBLE: Walking home through the same lane, she suddenly stops and looks down. The strap of her right sandal has come loose, but the sandal is still on her foot. She pushes the strap back with her fingers and it slips out again. She crouches and tries another way to fix it while the sandal stays on her foot, but it won't stay.\n\n17–23s, FINAL ATTEMPT: The friend zooms in awkwardly. She laughs, makes one last attempt, and the strap pops loose again. Only now, she gives up, takes off both sandals and holds them together in one hand, with the milk bag in the other hand. This is the FIRST moment any sandal is in her hand.\n\n23–30s, BAREFOOT WALK: She walks barefoot down the sunny lane, sandals in one hand, milk bag in the other. The same school children, now farther ahead, notice her sandals and smile, and she laughs and waves. She turns to the camera and says, \"I only went out for milk.\" She keeps walking as the camera follows slowly from behind.\n\nCONTINUITY: Same woman, outfit, hair, bag, milk carton and the same right sandal throughout. The same children appear in both scenes. No teleporting, no prop changes, no reordered actions. The strap breaks once and stays broken. Footwear timeline: sandals on feet (0–21s) → sandals in hand and barefoot (21–30s). Never reversed, never early.\n\nERA: Everything is authentically early-2000s Korean: clothing, signs, store interior, milk carton design, bicycles, old small cars. No smartphones, modern cars, LED signs or contemporary buildings.\n\nCAMERA: Raw consumer DV camcorder footage with strong natural handheld shake, drifting framing, autofocus hunting, faded colors, soft digital detail, exposure shifts, motion blur, compression noise and occasional awkward zooms. No cinematic stabilization, 4K sharpness, beauty filters or professional filmmaking.\n\nAUDIO: Birds, footsteps on concrete, bicycle bells, distant children, soft traffic, store door chime, light neighborhood ambience. Only the on-camera spoken lines. No music, no voiceover.\n\nAVOID: holding sandals or shoes in hand before 17s, barefoot before 21s, carrying footwear while leaving home, walking to the store, or walking with the children, any sandal in hand during scenes 1–3.\n\nFINAL FEEL: A genuine, funny Korean summer-morning memory from the early 2000s, with every action clearly shown in the exact order requested.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-tokyo-dvd-night",
+      "category": "提示词",
+      "title": "租一张影碟，回到老电视前啃零食",
+      "body": "傍晚东京巷子，女孩走进老式影碟出租店，比封面、付现金、出门；再去便利店买零食饮料，回家开显像管电视、推进托盘、坐下开吃。全程没有智能手机，也没有平板电视，连日元找零都要拍清楚。\n\n作者写了三十秒「二零零三到零四年日本」编年史式提示词：十五个步骤每个都要做完才准切。身份、发型、肩包全程锁死，像真的家用磁带机拍出来的。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：怀旧不是加滤镜，是把现代物件从世界里删干净。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/saniaspeaks_/status/2105880772636966992"
+        }
+      ],
+      "prompt": "Create a highly photorealistic 30-second early-2000s Tokyo evening vlog filmed on an authentic consumer MiniDV/DV camcorder. Use exactly ONE young Japanese woman throughout the entire video, based on the provided character reference. Her face, facial features, hairstyle, hair length, body proportions, outfit, shoes, shoulder bag and overall appearance must remain IDENTICAL from the first frame to the last frame. NO identity drift, NO outfit change, NO hairstyle change. Everything visible must authentically belong to approximately 2003–2004 Japan: old Tokyo streets, period-accurate DVD rental shop, physical DVD cases, printed posters, cash register, Japanese yen, early-2000s convenience store, period snack packaging, modest Japanese apartment, CRT television and standalone DVD player. Absolutely NO smartphones, modern streaming devices, modern flat-screen TVs, modern cars, wireless earbuds, LED screens or contemporary objects. The entire story must follow this EXACT chronological order with every action visibly completed before the next one begins: FIRST — WALK TO DVD SHOP: the girl walks alone along a quiet Tokyo evening street carrying her shoulder bag, reaches a small old-fashioned DVD rental shop, stops at the entrance and physically opens the door; SECOND — ENTER SHOP: she walks completely inside and the camera follows her into the DVD store; THIRD — BROWSE MOVIES: she slowly walks along the DVD shelves, examines several physical DVD cases one by one, picks up two different movies, looks at their covers and compares them; FOURTH — CHOOSE DVD: she makes her final choice, clearly holds ONE selected DVD case in her hand and walks toward the cashier; FIFTH — PAY: she places the selected DVD on the counter, the shopkeeper processes the rental, she hands over Japanese cash, receives the rented DVD back in its rental case, and puts it safely into her shoulder bag; SIXTH — LEAVE DVD SHOP: she turns away from the counter, walks to the entrance, opens the door and physically exits the DVD shop onto the Tokyo sidewalk; show her completely outside before changing locations; SEVENTH — WALK TO CONVENIENCE STORE: she walks down the same street carrying her shoulder bag, then reaches a nearby early-2000s convenience store and enters through its door; EIGHTH — CHOOSE SNACKS: inside the convenience store, she takes a small basket, walks through the snack aisle, examines several period-accurate snacks, chooses two or three snacks and ONE bottled drink, and places them inside the basket; NINTH — PAY FOR SNACKS: she walks to the cashier, places every item on the counter, pays with Japanese cash, receives her change and a small shopping bag containing the snacks and drink; TENTH — WALK HOME: she leaves the convenience store through the entrance, is clearly outside again, carries the shopping bag while walking through the evening Tokyo neighborhood toward home; ELEVENTH — ENTER APARTMENT: she reaches her modest early-2000s Japanese apartment, unlocks the door with a physical key, opens the door, walks completely inside and closes the door behind her; TWELFTH — PREPARE DVD: inside the apartment she puts the shopping bag down, takes the rented DVD out of her shoulder bag, holds it briefly, then walks over to the CRT television and DVD player; THIRTEENTH — INSERT DVD: she switches on the CRT television, turns on the standalone DVD player, opens the DVD tray, physically places the selected DVD inside the tray, closes the tray and waits for the movie to start; FOURTEENTH — MOVIE STARTS: the CRT television displays the beginning of the movie with believable early-2000s DVD playback; the girl turns toward the screen and sits down on the sofa; FIFTEENTH — SNACKS & MOVIE: she opens the shopping bag, takes out the snacks and bottled drink, places them beside her on the sofa or small table, opens a snack and begins eating while watching the movie, naturally relaxing and occasionally.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-mall-mannequin-escape",
+      "category": "提示词",
+      "title": "商场假人活了，他用纸板立牌救人",
+      "body": "女人凑近看衣服，模特突然转头，走下台把她拖出画面。走廊里四具假人跟着动起来，顾客四散。三十多岁的男人把人塞进库房，从镜子里看见远处还有三人藏在柱后；他推开一条门缝，用真人尺寸纸板立牌引开假人，再溜出去接人。结尾门开，黑影追近，切黑。\n\n作者写了三十秒逐秒动作表：镜子当情报窗，纸板立牌当诱饵，惊悚短片像闯关。自然商场灯光和紧张配乐也写进约束。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：恐怖片也能像游戏关卡一样写——先藏、再侦察、再诱饵。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/auqibhabib/status/2105876547332911149"
+        }
+      ],
+      "prompt": "CHARACTER LOCK: the main character is a man in his 30s, dark casual jacket, , short dark hair — consistent into Part 2. Muted color grading, natural sound throughout, tension score entering early. \n\n[0-1s] A woman leans close to a mannequin to inspect an outfit — its head turns toward her unexpectedly. \n[1-2s] It steps off its stand and reaches for her, pulling her out of frame. \n[2-3s] Wide shot: the four other mannequins nearby begin moving too, stepping down from their platforms. [3-4s] They move toward nearby shoppers with quick, unnatural motion. \n[4-5s] People scatter and call out in alarm through the section. \n[5-6s] One figure reaches a shopper near a clothing rack, pulling him off balance. [6-7s] Wide shot: concern spreads through the main corridor, people moving quickly away. \n[7-8s] The main character ducks behind a support pillar, assessing the situation. \n[8-9s] He spots a storage room nearby and waves urgently for others to follow. \n[9-10s] A group of shoppers hurries toward him and into the room. \n[10-11s] He pulls the last few inside and shuts the door firmly. \n[11-12s] Interior: the room full of worried people, some holding each other close. \n[12-13s] He leans against the door, then notices a wall mirror reflecting the corridor. [13-14s] Through the mirror he sees one figure standing still over a man on the floor. \n[14-15s] Close-up: his expression tightens with concern. \n[15-16s] He spots three more people hiding behind a distant pillar through the mirror. \n[16-17s] He glances at the room, then carefully opens the door a crack. \n[17-18s] The sound draws a nearby figure's attention toward the doorway. \n[18-19s] He grabs a life-size cardboard standee and sets it out in the corridor. \n[19-20s] The figure moves toward the standee instead, momentarily distracted. \n[20-21s] He slips out and moves low along the wall, away from it. \n[21-22s] Tracking shot: he hurries toward the three people behind the pillar. \n[22-23s] Close-up: their worried faces as he reaches them, signaling quiet. \n[23-24s] He motions for them to follow, checking the corridor both ways. \n[24-25s] Wide shot: the four of them move quickly back toward the storage room. \n[25-26s] Behind them, another figure's attention turns toward the movement. \n[26-27s] It begins following, picking up speed. \n[27-28s] He urges the group to move faster, glancing back. \n[28-29s] They reach the storage room door, hands on the handle. \n[29-30s]: the door swings open, light spilling out, the figure closing the distance behind them. Cut to black. Natural sound throughout — fabric movement, calls of alarm, footsteps, door sounds, breathing — with a tense instrumental score building steadily. No text overlay, no watermark. Varied camera work — close-ups, wide shots, mirror reflections, tracking shots. Natural retail lighting.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-ember-fracture",
+      "category": "提示词",
+      "title": "她被打醒后，拳头在空气里砸出玻璃裂纹",
+      "body": "便利店后巷，湿地面映着粉青色霓虹。小个子女孩被混混扇了一巴掌，下一秒身体自己接招——闪头、挡、转身一拳，空气里短暂裂开玻璃蛛网状的折光，霓虹被撕成碎片又消散。她看着发抖的手，半是恐惧半是惊奇，平静走进蒸汽，不回头。\n\n作者写了三十秒一镜：特效只许热扭曲和撞击裂纹，禁火禁瞬移；台词是韩语现场声，没有背景音乐。动作可读优先于混乱。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：炫技特效要先设禁令，否则模型只会往你画面里塞火花。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/doctorwasif/status/2105899591078191172"
+        }
+      ],
+      "prompt": "EMBER FRACTURE — AWAKENING Image SO-YEON | 30s | 16:9 | one continuous generation.\n\nLIVE-ACTION ONLY: Ultra-photorealistic AAA supernatural martial arts. <<<image_1>>> locks SO-YEON's exact identity; same single woman throughout. Small 160cm build, messy black hair, black hoodie/pants/Converse. Real skin, pores, hair, eyes and biomechanics. Never CGI/digital double.\n\nALLEY: Wet narrow convenience-store alley at night, red/pink/teal neon, puddles, crates, dumpster, vending machine, steam. 5 unarmed male delinquents attack aggressively, never taking turns.\n\nAUDIO: Korean dialogue, diegetic impacts/traffic/ambience only. No BGM/subtitles.\n\nAWAKENED COMBAT: Her body takes over automatically; unarmed Taekwondo × Karate × Pencak Silat, extremely fast, fluid chained movement with no reset poses.\n\nVFX LOCK: Acceleration = physical movement + subtle heat-shimmer/refractive distortion only. No fire, flames, embers, orange particles, beams, plasma or teleportation. Every strong physical impact creates a brief glass-like spiderweb fracture in the air, splitting neon light, then silently disappearing; realistic steam/dust/debris from impact.\nIMPACT → FRACTURE WEB → NEON REFRACTION → DISSIPATION.\n\n00–03: So-Yeon cowers against wall. Leader smacks her head. She slowly glares through bangs. {어쭈? 이 년 봐라? 많이 컸다?}\n\n03–06: Fear returns; she flinches: {아…! 미안…}. Leader swings again.\n\n06–09: 0.3s slow-mo: automatic head-slip → Silat parry → pivot → body punch. Fracture flash. Leader crashes into crates.\n\n09–12: She stares at trembling hand in disbelief. {저 년이?!} Four rush simultaneously.\n\n12–17: Heat-shimmer dash through two: parry → redirect → elbow → sweep → side kick. Impact fracture + steam. Continue instantly.\n\n17–22: Two attack together: diagonal dash → duck → shoulder redirect → roundhouse. Wide fracture-web splits pink/teal neon.\n\n22–27: Final attacker from behind. Maximum physical dash; camera lags/whip-pans. Evade → parry → jab → body punch → low kick → spinning back kick. 0.25s slow-mo; dense fracture-web across wall.\n\n27–30: Largest fracture lattice spreads across alley, neon reflections split, debris/crates fly, enemy slides away. Fracture hits lens → brief refracted distortion. So-Yeon studies her hands, then calmly walks through steam, half frightened/half amazed, hair falling over eyes. Never looks back. CUT.\n\nCAMERA: Close, kinetic handheld pursuit; tracking, whip-pans, low angles, OTS, facial inserts, rapid focus. Camera reacts slightly late to acceleration. Impact shake only on physical contact. Readable action > chaos.\n\nHARD LOCK: Real human + real environment + VFX in same frame. No duplicate So-Yeon. No teleportation. Every VFX effect must originate from visible physical contact.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-forest-thorn-comedy",
+      "category": "提示词",
+      "title": "小助手撬掉巨兽牙缝木刺，被舔成乱毛",
+      "body": "蓝树林里，白发蓝眼的小守护者举着过大的剑，对巨兽说「把嘴张开啦」。牙缝里有一根弯木刺，她侧剑撬进去，巨兽紧张要合嘴，她挑眉警告「绝对不许关上」。刺一弹出，她翻进花丛；巨兽感激地舔她一口，白毛贴平，她笑着说「不用谢」。\n\n作者把提示词写成肢体喜剧剧本：表情必须整身表演，不能只靠眨眼和飘发；刺只剔一次、舔一次，禁止慢动作和长时间对视，三条日语对白锁死。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：绘本风短片的核心不是美，是把因果关系演给人看。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/GlitterPixely/status/2105509624107425940"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/GlitterPixely/status/2105509626254942427"
+        }
+      ],
+      "prompt": "Use @ Image1 to define the guardian’s identity, white hair, blue eyes, facial markings, white-and-blue fur silhouette, clothing, and single oversized sword, and the enormous creature’s dark fur, face, teeth, and relative scale. Preserve the blue woodland, flowers, soft light, and textured painted style, but do not inherit the guardian’s fixed serious expression or freeze either character in the reference pose. She is a cheerful, mischievous forest helper who enjoys solving this ridiculous problem. Her face and whole body must visibly act, not merely blink while her hair moves.  Play the encounter as brisk, buoyant physical comedy at natural action speed. Begin with movement already developing from the reference: the creature’s breath buffets her hair and bends the flowers, and she leans into it with a delighted squint and an asymmetrical grin. She looks up into its eye, raises her eyebrows, and beckons with her free hand, saying in Japanese with bright, teasing insistence, 「口、開けてってば。」 Its nervous head movement sweeps a tusk toward her; she reacts with a quick wide-eyed surprise, ducks, and turns the dodge into a springy sidestep toward its mouth. Her surprise immediately becomes an amused smile at the successful escape. Keep her feet, shoulders, gaze, and sword moving with purpose; let the camera follow the action rather than use a slow push-in to simulate activity.  Reveal one hooked wooden thorn between the creature’s lower teeth as she finds her opening. Her gaze snaps to it, her eyebrows lift in recognition, and a confident little grin leads straight into the attempt. She turns the sword sideways and works its tip under the thorn, adjusting her footing in response to the creature’s wobbling jaw. The creature nervously starts closing its mouth. She catches the movement, raises one eyebrow in exaggerated mock sternness, and says in Japanese, firmly but playfully, 「絶対、閉じないでよ。」 It immediately holds its mouth open. Her expression softens into an encouraging smile before she puts her weight into the lever. Show a readable contact, a short effort with scrunched brows and puffed cheeks, then the thorn popping free. Do not stretch the effort into a prolonged static strain.  The release sends the thorn into the grass and tips her backward. She tumbles once through the flowers, drops the sword beside her, and promptly pushes herself upright, surprised but unharmed. Surprise breaks into an open, joyful grin as she sees the creature testing its comfortable jaw. She retrieves the same sword and straightens with a pleased shoulder bounce. Before she can finish celebrating, the creature lowers its head and gives her one big grateful lick, flattening her white hair. Her eyes squeeze shut on contact, then open wide in comic disbelief. Allow only a brief beat before her cheeks lift, her eyes crinkle, and she breaks into a warm laugh. Looking affectionately up at the creature, she says in Japanese with smiling, playful pride, 「どういたしまして。」 She pats its muzzle with her free hand while holding the sword safely lowered, and it leans into the touch. Finish on their shared happiness, with her flattened hair preserving the joke, not an offended stare or a frozen closing portrait.  Let the exact choreography and camera choices remain flexible while preserving this single causal progression. Use lively medium views that show face and body together, brief closer views when a discovery or expression changes the story, and wider framing when their size difference makes the action funny. Motivated cuts are welcome. Carry motion through transitions, overlap settling flowers with the next reaction, and keep expressions responding to visible events. Prioritize her acting over decorative scenery. No slow motion, languid camera drift, prolonged staring, or idle holds. Reveal and remove the thorn once, tumble once, and give one grateful lick; never restart the treatment or replay an earlier action. The thorn remains on the ground after removal. Neither character is injured, and no tooth is extracted.  Keep the painted texture and expressive character shapes rather than converting the artwork into glossy three-dimensional rendering. Audio follows the physical rhythm: lively footfalls, rustling flowers, gusting breath, nervous creature rumbles, the sword scraping the wooden thorn, its release, the tumble, the lick, and her brief joyful laugh. Only she speaks, using exactly the three specified Japanese lines with natural Japanese delivery and the same bright, expressive voice throughout. The creature communicates through movement and nonverbal sounds. No English speech, additional spoken lines, narration, music, subtitles, or on-screen text.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-90s-sitcom-reno",
+      "category": "提示词",
+      "title": "他说装修很快，她一秒变情景喜剧怒脸",
+      "body": "黄昏郊区小楼，小孩骑车掠过。丈夫在铺着塑料布的装修房里满意点头，关灯掀帘走进厨房，轻松一句「进展挺快」。背对水槽的妻子慢慢转身，双臂交叉——镜头猛地怼到她怒张的眼睛和夸张下撇嘴，像九十年代情景喜剧定格。\n\n作者专门模仿多机位喜剧语法：固定机位、不许轨道推镜，两刀硬切，没有罐头笑声。道具桌摆着油漆桶、水平仪和咖啡，时代感靠暖布光和饱和色。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：喜剧不必配笑声音轨，把「轻松一句」和「夸张脸」剪在一起就够。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/ArtGainz/status/2105855786635161770"
+        }
+      ],
+      "prompt": "Live-action 1990s sitcom look: bright, even, warm multi-camera lighting, slightly soft focus, saturated colors. 16:9. Fixed camera positions, no tracking, no dolly. One continuous scene, 26 seconds, with two hard cuts.\nLocations are shown in @Image1 (the house exterior), @Image2 (the renovation room) and @Image3 (the kitchen). The husband is the man from @Image4 : mid 20s, broad-shouldered, short dark brown hair, clean-shaven, composed face, clean white collared shirt with a tie, grey trousers. The wife is the woman from @Image5 : early 20s, slim, expressive face, dark brown hair tied up in a red kerchief, a splotch of paint on her cheek, denim overalls with one strap undone over a white paint-stained T-shirt. Keep both faces and outfits exactly as in their images.\n0:00-0:04 (static wide shot) The house from @Image1 at dusk, calm and suburban, porch light on, lit kitchen window at frame-right. A kid on a bicycle rides past in front of the house, left to right across the frame, along the street. Dusk birdsong and the soft tick of bicycle wheels.\nHARD CUT.\n0:04-0:12 (medium-wide shot of the room in @Image2 , then a slow pan to the right from a fixed position) The husband stands at frame-left near the stepladder and slowly looks around at the plastic on the floor, the ladder, the work table, the paint cans and the paint rollers. He nods in satisfaction. He walks toward the plastic-draped doorway at frame-right. At the doorframe he flips the light switch on the wall beside it: a click, and the room goes dark behind him. He pushes through the plastic sheeting and exits. The camera pans right with him. Sound of the switch click and rustling plastic.\nHARD CUT.\n0:12-0:24 (one uncut take, static medium-wide shot of the kitchen in @Image3 , widening to a static long shot feel) The wife stands at the sink at frame-left with her back to the room. The husband pushes through the plastic-draped doorframe on the back-right wall and walks toward the kitchen island at center-right. He says, easy and casual: \"It's coming along quickly.\" He keeps crossing toward the right side of the island. The wife slowly turns around to face him, arms crossed. On the kitchen island sit a paint can, a clean paintbrush, a carpenter's level, a hammer, a box of nails and a cup of coffee.\n0:24-0:26 (same camera, super-fast aggressive zoom in on the wife's eyes) Her eyes grow wide and her nostrils flare. She makes a comical, exaggerated sitcom frown, brows knitted, mouth turned sharply down, indignant. Hold on her face.\nAudio: dusk birdsong and soft tick of bicycle wheels outside, quiet room tone inside, soft rustle of plastic, one switch click. The husband's voice is low, easy and casual. No music, no score, no background music, no singing, no laugh track. No on-screen text, no subtitles.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-fridge-earring",
+      "category": "提示词",
+      "title": "耳环是台小冰箱，门一开全是迷你快餐",
+      "body": "镜头贴着耳垂：薄荷绿迷你冰箱耳环，金色金属亮得像真首饰。冰箱门慢慢打开，里面竟是蛋糕、汉堡、薯条和彩色汽水罐，像一座可以戴在耳朵上的零食橱窗。浅景深、暖棚灯光，动作就落在「开门揭示」这一下。\n\n作者写了竖屏微距产品片，商业广告质感，短而好记。换个颜色或换成迷你洗衣机，也能直接复用这套揭示结构。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：产品片可以荒诞，但揭示只要一个清楚动作。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/DuaFatimaAi/status/2105824252318351479"
+        }
+      ],
+      "prompt": "Macro luxury product video of a woman wearing a whimsical miniature mint-green refrigerator earring. Extreme close-up of her ear and earring, highly detailed realistic skin and glossy gold metal. The tiny refrigerator door slowly opens, revealing miniature cakes, burger, fries, colorful soda cans and bottles inside. Smooth cinematic camera movement, shallow depth of field, soft warm studio lighting, photorealistic textures, adorable surreal fashion concept, satisfying reveal, premium commercial aesthetic, 4K, vertical 9:16",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-16grid-pose-hidden",
+      "category": "提示词",
+      "title": "十六格姿势拼出一张藏起来的侧脸",
+      "body": "不做姿势参考图，直接让图像模型吐一张竖版十六宫格：同一人十六种跪、卧、撑，差异必须来自身体支撑，不能靠换角度糊弄。背景是低饱和渐变，还要拼出一张低对比的四十五度侧脸轮廓——单格看不清，整张才辨认得出。\n\n作者把十六个姿势编号写死，主帖三十万浏览，完整提示词放在评论区公开。视觉层级写得很清楚：姿势第一，背景第二，藏图第三。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：宫格玩法可以叠两层，姿势是一层，藏图是另一层。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/DeepBlueX0/status/2105558855522676883"
+        },
+        {
+          "label": "完整提示词评论",
+          "url": "https://x.com/DeepBlueX0/status/2105563464903356751"
+        }
+      ],
+      "prompt": "通用🔵 GPT image 2.5 Prompt:\n\n16宫格姿势图×Editorial人像摄影×主体：【XXX】\n\n生成1张完整的9:16竖版4×4人物姿势图，共16个独立画面。\n\n最高优先级：16格身体结构严格对应01至16，不能仅通过镜头角度、人物朝向、表情或裁切制造差异；差异必须来自身体结构，每格使用不同的身体支撑、腿部或躯干结构。\n\n一、主体一致性\n16格保持同一主体的身份、外貌、体型、发型、发色、服装、配饰与核心视觉特征一致；头发、衣摆、褶皱可随动作自然变化。主体始终为第一视觉主体。主体身份、服装与视觉特征不得因姿势变化而漂移。\n\n二、16种姿势\n01后方跪坐式\n双膝着地，臀部向后靠近脚跟，身体背向镜头，上身保持直立，形成明确的后方人物轮廓。\n\n02侧展腿跪坐式\n双膝着地，一条腿向身体侧方展开，另一条腿保持弯曲，上身直立，形成明显的侧向腿部线条。\n\n03四足斜向跪姿式\n双手与双膝着地，形成明确四点支撑，身体呈明显斜向结构，一侧腿向侧前方展开。\n\n04俯卧单腿抬起式\n身体完整俯卧，上身由前臂支撑，一条腿向后上方弯曲抬起，另一条腿保持伸展。\n\n05纯侧卧伸腿式\n身体完整侧卧，一侧手臂支撑上身，双腿沿身体方向伸展，形成清晰的纯侧面轮廓。\n\n06侧坐后撑伸腿式\n坐姿，一条腿向前伸展，另一条腿弯曲收拢，身体向后倾，一只手在身后撑地承担重量。\n\n07正面展开跪坐式\n双膝着地，身体正对镜头，双腿向左右两侧大幅展开，双手自然放置。\n\n08单臂抬手坐姿式\n坐姿，一条腿弯曲收拢，另一条腿自然展开，一只手向上延伸，另一只手支撑或保持身体平衡。\n\n09俯卧前伸式\n身体完整俯卧，双腿向后伸展，双臂向身体前方充分伸直，形成明显的纵深方向。\n\n10后方侧跪伸腿式\n身体背向或侧背向镜头，双膝着地，一条腿向身体侧后方充分伸展，上身保持直立。\n\n11仰卧屈膝式\n身体完整仰卧，背部贴地，双膝向上弯曲，双脚靠近地面，头部与肩部保持贴地。\n\n12极低位后方四足式\n双手与双脚着地，臀部明显抬高，身体形成紧凑的倒V形结构，呈高臀低身的四足结构，从后方低机位观察。\n\n13坐姿环抱腿式\n坐姿，双腿向身体前方收拢并交叠，双臂环抱双腿，上身略微向前收缩。\n\n14侧卧托头屈腿式\n身体完整侧卧，一只手托住头部，双腿同时弯曲并向身体方向收拢。\n\n15仰卧抬腿式\n身体完整仰卧，双腿明显抬离地面并向上弯曲，形成突出的纵向腿部结构。\n\n16后撑侧坐收腿式\n坐姿，双腿完全收拢并向身体一侧折叠，身体明显后倾，一只手在身后撑地，另一只手自然放置，形成紧凑的侧向轮廓。\n\n16个姿势必须有明确身体结构差异，严格按01至16执行，不交换、不重复、不遗漏。\n\n三、宫格构成\n严格排列：\n01 02 03 04\n05 06 07 08\n09 10 11 12\n13 14 15 16\n\n每格仅呈现一个完整主体和对应姿势。统一Editorial人像摄影语言、人物尺度、服装系统与背景逻辑。人物完整入镜，身体结构、手脚膝肘及支撑关系清晰。格间边界清晰，不重叠、不串格、不交换姿势、不遗漏、不重复。\n\n四、背景系统\n根据主体服装、发色、代表色与视觉身份提取主色及邻近色，最多两种核心色相，生成低饱和、低对比度极简渐变背景。\n仅使用大面积纯净色彩与缓慢渐变，不添加环境、道具、纹理、复杂光影或装饰元素。\n16格共享同一渐变逻辑，保持统一、干净、连续，并保留大面积负空间。背景不得形成具体场景。\n\n五、16宫格隐藏视觉\n将16个背景视为连续的大型渐变平面。\n固定隐藏视觉：主体本身的低对比度45度侧脸轮廓。\n根据主体脸部特征、发型与核心视觉特征生成轮廓，以极弱明暗变化融入背景，并连续拆分为16个片段，按4×4自然衔接。\n隐藏轮廓仅使用当前主体特征，不引入其他人物；保持低对比、低饱和、弱可见，仅存在于背景负空间。\n仅表现抽象连续的明暗形态，不呈现眼睛、鼻子、嘴巴等具体五官。\n单格只能看到局部明暗形态，完整观看4×4时才能辨认完整侧脸。\n不得覆盖主体、干扰姿势、添加额外人物、形成第二主体或产生水印效果；隐藏轮廓不得成为独立人脸。\n\n六、视觉层级\n第一层：主体与16种姿势。\n第二层：极简低饱和渐变背景。\n第三层：16格连续隐藏视觉。\n主体清晰度优先于背景连续性，背景连续性优先于隐藏视觉。\n\n七、最终输出\n只生成1张9:16竖版完整图片，内部为4×4共16个独立人物画面。\n严格执行01至16，不遗漏、不重复。\n不添加标题、说明文字、Logo、杂志排版文字或其他版式文字。\n单格为完整、清晰的Editorial人像姿势画面；整体形成统一的16宫格，并在背景中隐藏由16格共同组成的主体45度侧脸轮廓。",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-tiny-planet-self",
+      "category": "提示词",
+      "title": "他站在微型星球上，天上那张脸也是他",
+      "body": "南亚青年站在一颗被现代都市铺满的小球上，楼房只到他胸口；太空深处，云层里探出同一张脸的巨型自己，低头看着这颗迷你地球。小人、小行星、巨人必须同一身份同一服装，尺度对比一眼成立。\n\n作者把广角构图、星尘与城市光污染叠在一起，负向禁止塑料皮和重复小人。要的是「不可能相机拍到的真实照片」感，不是插画。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：超现实照片靠「同一人出现两次却尺度不同」一眼成立。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/mon010_de/status/2105888903735775615"
+        }
+      ],
+      "prompt": "Create an ultra-realistic, cinematic, photorealistic surreal photograph of a young handsome South Asian man standing on a tiny spherical planet completely covered by a modern futuristic city, while a gigantic version of the same man appears in the distant sky, looking down at the miniature world.\n\nThe main character is a realistic South Asian man in his mid-20s, with thick slightly messy wavy black hair, neatly trimmed beard and mustache, warm brown skin, expressive deep-brown eyes, and natural realistic facial features. He has a confident but slightly amazed expression.\n\nHe wears an oversized black technical jacket, layered white T-shirt, dark wide-leg cargo trousers, futuristic black sneakers, a subtle silver chain, black smartwatch, and a small crossbody utility bag. Realistic fabric textures, natural folds, individual hair strands, authentic skin pores and subtle imperfections.\n\nThe planet beneath him is small enough to appear like a miniature world, perfectly spherical and floating alone in deep space. Its entire surface is covered with a dense modern metropolis—glass skyscrapers, futuristic towers, apartment buildings, highways, tiny moving cars, bridges, parks, glowing windows and miniature streets following the curvature of the planet.\n\nThe young man stands near the highest point of the spherical world, appearing physically tiny compared with the enormous environment around him. Tiny buildings should reach only around his waist or chest, creating a believable miniature-city scale.\n\nIn the enormous sky behind him, reveal a colossal version of the exact same man, many times larger than the planet itself. His giant face and upper body emerge through enormous clouds and atmospheric mist, looking down toward the miniature planet with a calm, curious expression. The giant version must have the same hairstyle, facial structure, beard, clothing and identity as the smaller character.\n\nCreate dramatic scale contrast between the tiny human, miniature planet, and gigantic human figure.\n\nSurround the planet with deep cosmic space containing dense stars, distant galaxies, subtle nebula clouds and faint cosmic dust. Add a thin glowing blue atmospheric layer around the planet, realistic city light pollution, subtle atmospheric haze and volumetric clouds.\n\nUse cinematic astrophotography composition, with the miniature planet positioned slightly below center and the giant figure dominating the upper background. Use a wide-angle 24mm cinematic perspective, deep depth of field, realistic atmospheric perspective, dramatic volumetric lighting, subtle rim light around the character, realistic shadows, physically accurate reflections and natural light falloff.\n\nThe final image should feel like a real photograph captured by an impossibly advanced cinematic camera, not an illustration.\n\nStyle: ultra-photorealistic, cinematic, surreal realism, high-end science-fiction photography, realistic human anatomy, realistic skin texture, realistic materials, HDR, extremely detailed, 8K UHD, sharp subject, atmospheric depth, natural color grading, subtle film grain, premium commercial photography, epic scale.\n\nAspect ratio: 4:5 portrait\n\nNegative prompt: cartoon, anime, illustration, 3D render look, plastic skin, artificial face, deformed anatomy, extra fingers, extra limbs, duplicate small characters, inconsistent face, distorted buildings, blurry face, low detail, oversaturated colors, excessive glow, flat lighting, unrealistic proportions, text, watermark, logo.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-arctic-chieftain-bear",
+      "category": "提示词",
+      "title": "北极女酋长握矛，身后北极熊一起盯着你",
+      "body": "二十出头的头巾女性面无妆容，脸颊被冻得微红，雀斑和毛孔都在，手里竖着原始木矛；肩后探出一头成年北极熊的头，和她一样平静盯着镜头。背景是雪原部落与远火，冷蓝灰里只有一点火光。\n\n作者写竖屏半身像：禁止微笑和网红姿势，要的是「历史照片」压迫感，不是时尚片。熊不能攻击，人不能拿现代武器。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：气场肖像先禁掉笑容，再让巨兽当沉默配角。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/aiwithaly/status/2105895841466663379"
+        }
+      ],
+      "prompt": "Create a premium ultra-photorealistic cinematic vertical 9:16 waist-up portrait of Sufni as a powerful ancient Arctic female chieftain.\n\nA young hijabi woman in her early 20s, preserving her recognizable facial identity and natural facial proportions. Completely no makeup, natural visible pores and skin texture, slightly red cheeks and nose from the freezing cold, with a few subtle natural freckles across her nose and cheeks.\n\nShe looks directly into the camera with a calm, serious, intimidating expression. No smile, no glamour, no model pose. Her eyes communicate absolute authority, courage, and quiet power — the kind of presence that makes people instinctively feel respect and fear.\n\nShe wears a dark charcoal-brown wool khimar covering her chest, layered with a rugged ancient Arctic tribal outfit made from dark wool, leather, and natural fur. Weathered textures, handmade details, primitive tribal clasp and leather belt.\n\nShe firmly holds a large ancient wooden tribal spear vertically along the left side of the frame. The spear has a weathered wooden shaft, leather bindings, primitive carved details, and an aged stone-and-metal spearhead.\n\nDirectly behind her stands a gigantic adult polar bear, acting as her silent guardian. The bear's head rises above her shoulder and looks directly into the camera with a calm, intelligent, intimidating gaze. Detailed natural white fur, realistic anatomy, snow and frost on its coat.\n\nComposition: waist-up, not chest-up, showing her waist, upper torso, shoulders, arms, hands, belt, and spear. Sufni is the main focal point; the polar bear towers behind her as a powerful secondary subject. Eye-level camera with a subtle low-angle perspective.\n\nAncient snowy Arctic tribal settlement in the background, wooden shelters, distant firelight, mountains, falling snow and cold mist.\n\nNatural Arctic daylight, cinematic shadows, cold blue-gray tones, subtle warm firelight, 85mm lens, shallow depth of field, realistic skin and fur, documentary photography, subtle film grain.\n\nNo CGI, no 3D, no cartoon, no beauty filter, no makeup, no glamorous styling, no smile, no modern clothing, no modern weapons, no aggressive bear, no distorted anatomy, no extra fingers, no duplicate bear, no text, no watermark.\n\nThe final image should feel like a real historical photograph of a feared and respected Arctic chieftain standing with her enormous polar bear guardian.",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "prompt-muse-fashion-closeup",
+      "category": "提示词",
+      "title": "车展怼脸十五秒，闪光灯像真摄影师",
+      "body": "镜头几乎贴在脸上：亚洲年轻女性清冷又带点青涩，毛孔、淡痘印、碎发都在；背景是虚化的车展灯光，中间闪过两三次抓拍闪光，亮一下就过，脸不过曝。运镜绕着眼睛、鼻梁、嘴唇做微弧，最后定在适合封面的怼脸构图。\n\n作者给对话式视频模型写了完整中文提示词，分段规定三次闪光逻辑，并扔出「能干翻主流视频模型吗」的问题。重点不是剧情，是高级脸近拍。\n\n提示词里把顺序和禁令写死，模型才不容易偷懒。\n\n镜头语言和服务于情绪的声音也写进约束。你会跟朋友说：比模型先比提示词——皮肤瑕疵和闪光灯写清楚，人像才像现场。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。\n\n创作者可以直接复制后改角色或场景，重点是动作顺序和负向禁令。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/leaf_sanren/status/2105645639703183753"
+        }
+      ],
+      "prompt": "生成这个视频：生成一段15秒、9:16竖屏、超高清4K、30fps、电影级真实人像质感的时尚人像短片。\n\n画面主体是一位 20-25岁左右的年轻亚洲女性，高级脸，清冷中带一点青涩感，五官精致但不过分完美，脸型流畅，鼻梁自然，嘴唇饱满，眼神有内容，整体气质像车模或时尚活动现场被摄影师近距离怼脸抓拍。\n不要网红感，不要夸张整形脸，不要塑料皮，不要过度磨皮，不要假睫毛过重，不要夸张高光，不要二次元感。\n人物皮肤必须真实：清晰可见毛孔、轻微皮肤纹理、轻微卡粉、轻微痘印、极浅痘坑、眼下细纹、鼻翼与脸颊自然凹凸、嘴唇唇纹、少量碎发和发丝边缘。 妆容是精致但不完美的高级淡妆：底妆微微服帖但不是无瑕，眼妆干净，睫毛真实自然，唇部有轻微光泽感。\n头发为黑色或深棕色顺直长发，带自然碎发和轻微凌乱感，不能太刻意。\n\n场景与氛围\n\n场景为高级时尚活动现场 / 车展活动区 / 高端品牌发布会现场的人像近拍氛围，但背景必须虚化，不突出具体品牌和文字。背景可有柔和的展厅灯光、少量失焦霓虹反射、模糊人群、模糊车身高光反射或金属质感背景，整体氛围高级、克制、时尚。\n不要字幕，不要贴纸，不要水印，不要可读文字，不要夸张特效，不要不合理炫光。\n\n光线要求\n\n光线必须符合现实逻辑，像真实摄影师在活动现场近距离拍摄。\n主光为柔和但有方向性的面部主光，从人物正前偏侧上方打来，形成自然脸部明暗层次。\n辅光非常轻，保留部分阴影，增强五官立体感。\n环境中可有柔和冷色边缘光或车展现场反射光，让脸部更立体。\n全程允许出现2到3次短暂闪光灯，闪光灯必须像现场摄影闪光一样自然，只在某些瞬间快速亮起，造成面部高光短暂增强、瞳孔高光更明显、皮肤反光更亮，但不能整段频闪，不能不合逻辑。\n闪光灯出现时，要像摄影师抓拍：亮一下就过，光比真实，脸部不过曝，皮肤细节仍可见。\n\n镜头与运镜（顶级运镜）\n\n整体采用超近距离人像运镜，镜头始终围绕脸部进行，突出眼睛、鼻梁、嘴唇、脸颊、发丝和皮肤质感。\n镜头语言高级、流畅、克制，有时尚广告和摄影后台抓拍的感觉。\n不要大幅乱晃，不要眩晕感，不要夸张AI运镜，不要突然拉远。\n运镜必须自然，像高端摄影师手持稳定器或轻微手持拍摄：\n\n0-3秒\n\n镜头从超近距离侧前方怼脸开场，焦点落在眼睛和鼻梁区域，人物微微抬眼看向镜头，呼吸感自然，嘴唇轻微放松。\n镜头做极轻微慢推近，同时有非常轻的横向滑动，展示脸颊、眼下纹理和发丝。\n这一段要让观众第一眼就感受到脸的高级和真实。\n\n3-6秒\n\n镜头沿着脸部从眼睛滑到鼻尖、再滑到嘴唇附近，做极稳的微弧形绕拍，近距离观察五官。\n人物眼神轻微移动，不要夸张表演，只需轻轻看向镜头边缘，再缓慢回看镜头。\n此时可出现第一次闪光灯，短暂亮起，强化皮肤质感和唇部高光。\n\n6-9秒\n\n镜头从正面偏左缓慢转到正面偏右，仍然保持怼脸距离，重点表现脸颊皮肤纹理、鼻翼细节、下眼睑细纹、睫毛和瞳孔反光。\n人物轻轻拨动一点头发，或者有一缕碎发自然落在脸侧。\n镜头带一点真实摄影感的轻微呼吸式浮动，不能死板。\n\n9-12秒\n\n镜头轻微下移，突出嘴唇、下巴线条和脸颊，再慢慢回到眼睛。\n人物表情保持清冷、克制、带一点高级疏离感，像车模被摄影师近距离抓拍，偶尔轻轻眨眼，嘴角有极轻微放松。\n这里出现第二次闪光灯，自然、瞬时、像现场抓拍，闪完后恢复正常光线。\n闪光灯后眼睛里的高光更加明显，画面更有时尚大片感。\n\n12-15秒\n\n镜头做一次最漂亮的超近距离轻弧线收镜，围绕脸部微微绕动并轻推近，最后停在眼睛+鼻梁+半边嘴唇的绝佳构图上。\n人物在最后一秒轻轻抬眼直视镜头，眼神干净、冷静、有吸引力。\n结尾可有第三次很轻的闪光灯或环境高光掠过，但必须自然，不夸张。\n最终停留在一个非常适合做首帧封面的高级怼脸画面。\n\n画面风格\n\n整体风格是：\n真实电影级时尚人像、近距离商业摄影、车展模特贴脸抓拍、高级杂志感、自然皮肤质感、非影棚假面感。\n要有真实镜头焦外、自然景深、细腻肤质、轻微现场感、克制的高级感。\n不是网红自拍，不是直播间，不是韩式磨皮，不是低质AI脸。\n\n重点强调\n\n脸必须真实，不能假\n\n皮肤不能过分完美，要保留轻微瑕疵\n\n五官稳定，不能变形\n\n眼睛不能飘，嘴唇不能乱动\n\n发丝必须真实，有碎发\n\n闪光灯必须符合现实抓拍逻辑\n\n光线必须真实，不要胡乱乱闪\n\n镜头必须高级，平滑，电影级，时尚摄影感\n\n全片以“高级脸近拍展示”为核心，不要剧情化，不要大动作\n\n负面限制词（建议一起加上）\n\n负面提示词：\n卡通感，CG感，塑料皮，过度磨皮，过度美颜，五官变形，眼睛错位，皮肤蜡像感，过曝，闪光灯频闪不合理，脸部抖动，低清晰度，低质量发丝，夸张滤镜，网红脸，假睫毛过重，浓妆，镜头乱晃，肢体变形，背景杂乱，可读文字，字幕，贴纸，水印，",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "cybervoxels-webgpu-lod",
+      "category": "视觉尝试",
+      "title": "CyberVoxels：浏览器里的无限体素世界，靠 LOD 分块撑住",
+      "body": "打开 cybervoxels.com，一片体素大地在 WebGPU 里铺开——作者今天丢到 Hacker News 的 Show HN。它不是把整张世界一次性塞进显存，而是按距离做 LOD 分块：近处块细、远处块粗，显卡只画你眼前需要的那一层。页面标题写着「10cm infinite voxels」，意思是以十厘米为体素粒度，往外还能滚。你不装引擎、不下载客户端，Chrome 一类开了 WebGPU 的浏览器就能飞进去逛。对做内容的人来说，这比又一张「我用 AI 生成了 Minecraft」截图硬得多：观众能亲手拖镜头，感受到浏览器图形栈现在扛得住多大的世界。所以呢：下次讲「浏览器里也能做 3D 游戏」，别甩概念片——丢一个能开箱飞的体素世界链接。",
+      "links": [
+        {
+          "label": "CyberVoxels 演示",
+          "url": "https://cybervoxels.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49929874"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "dom-defense-tower",
+      "category": "视觉尝试",
+      "title": "DOM-defense：任意网页一键变成塔防关卡",
+      "body": "你正盯着维基百科或公司文档发呆，点一下 Chrome 扩展 DOM-defense——整页立刻盖上一层塔防。路径会沿着页面上的超链接蛇形爬，空白处才能放塔，小兵顺着链接走廊冲，冲破最后一道封锁你就输；撑过一百波算赢。作者写明动机：工作日本来就开着一堆标签，何必再跳到游戏站？每个网站结构不同，等于无限随机关卡。这和「拆网页」类破坏玩具不是一路——它是把信息架构当成地图玩。免费上架 Chrome Web Store，Show HN 在十月一日挂出。所以呢：讲「网页即游乐场」时，别只演示拆楼——让观众在自家文档上打一局塔防。",
+      "links": [
+        {
+          "label": "Chrome 扩展",
+          "url": "https://chromewebstore.google.com/detail/dom-defense/bglbhkdakecceocdpnegdchjmmomnopg"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49927208"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "century-compressed-viz",
+      "category": "视觉尝试",
+      "title": "A Century Compressed：把一百年创新压进一张可点的时间桌",
+      "body": "有人总觉得「现在变化太快」。丹·阿赫马迪把过去一百年的里程碑、到一亿用户要多久、六条可核对的公共数据趋势，做成 a-century-compressed.vercel.app。你可以在列表和图表间切换，开对数坐标比增速，再顺着「通往大模型」那条线往下看。作者坦白用了 AI 做研究和搭页，代码开源在 GitHub。它不卖焦虑，也不下结论——只把证据摊开，让你自己拖、自己比。Hacker News 十月二日上架 Show HN。所以呢：聊「时代是不是加速了」时，别甩口号——甩一张能让观众自己点开核对的世纪压缩图。",
+      "links": [
+        {
+          "label": "交互站点",
+          "url": "https://a-century-compressed.vercel.app/"
+        },
+        {
+          "label": "源码",
+          "url": "https://github.com/danahmadi/a-century-compressed"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49929709"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "har-analyzer-client",
+      "category": "视觉尝试",
+      "title": "HAR Analyzer：把网络瀑布图拽进浏览器，日志不出本机",
+      "body": "前端排查卡在「把 HAR 发给别人」这一步：文件里常有 Cookie 和接口细节。有人做了百分百客户端的 HAR Analyzer——拖进浏览器导出的 HAR，几秒画出请求瀑布、体量与耗时，解析全在你机器上跑，Workers 只托管静态页。Show HN 写着「seconds」，讨论区也在比谁的日志更脏。对内容创作者，这是很好的演示道具：录一段「同一页面刷新前后瀑布对比」，观众立刻看见阻塞请求卡在哪一层。隐私敏感的联调也不必再把原始 HAR 传出公司。所以呢：别再把含隐私的 HAR 甩到群里——本地打开分析器，截一张干净的瓶颈图再开讲。",
+      "links": [
+        {
+          "label": "HAR Analyzer",
+          "url": "https://har-analyzer.onlinetool.workers.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49927221"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "billmender-hospital-prices",
+      "category": "视觉尝试",
+      "title": "Billmender：482 家医院标价和保险实付，摊在一张可点的表上",
+      "body": "美国医院依法要公开机读价目表，可单文件动辄几十 GB，格式还乱，几乎没人读。作者爬了四百八十二家医院的官方文件，抽出二十九项常见服务：中度急诊标价中位数一千二百八十五美元，保险公司实际谈妥大约二百八十八；代谢套餐标价二百零七，保险付十一块多。页面上每家医院都能点回源文件，方法论写得很抠——只认按次美元价、至少三家保险公司、对照 Medicare 参考价，手术整包价则刻意排除以免拿苹果比橙子。Show HN 十月一日上线。所以呢：讲「数据公开不等于能用」时，用这张价差表——让观众亲眼看见标价和实付差出几倍。",
+      "links": [
+        {
+          "label": "医院价格页",
+          "url": "https://www.billmender.com/hospital-prices"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49926185"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "kasora-finance-sim",
+      "category": "视觉尝试",
+      "title": "Kasora：在浏览器里按月推演租房、还贷和提前退休",
+      "body": "打开 kasora.app，没有注册墙。你可以空白开局，也可以套「租还是买」「提前还清房贷」「五十五岁退休」这类模板，同一笔收入拉出两条人生变体，月份一格格往前滚。演算留在本机，导入导出用 JSON，适合随手改假设再重算。作者九月三十日前后把它丢上 Show HN，强调要的是「能摸的剧本」，不是又一个理财口号 App。拍短视频时很好用：左右分屏两条曲线，观众自己选站哪边，评论区也能跟着改参数抬杠。做博主素材时，改一次利率或退休年龄就能生成新对比画面。所以呢：讲财务决策别只念观点——丢一个能改参数、立刻重算的浏览器剧本给观众玩。",
+      "links": [
+        {
+          "label": "Kasora",
+          "url": "https://kasora.app"
+        },
+        {
+          "label": "HN 相关讨论",
+          "url": "https://news.ycombinator.com/item?id=49905025"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "borch-pytorch-webgpu",
+      "category": "视觉尝试",
+      "title": "borch：不装环境，在浏览器标签页里摸 PyTorch 的形状",
+      "body": "课堂上要演示一段 torch 代码，常常死在「先装 CUDA」。playidea-lab 做的 borch 把 PyTorch 式的张量操作搬到 TypeScript + WebGPU：打开 playidea-lab.github.io/borch，没有账号、没有服务器，标签页里就能练训练和推理那一套形状。作者写明动机——自己给不同班级上课，受够了每台机器重装一遍。Show HN 挂在九月三十日附近。它不是完整替代本地 PyTorch，但够用来讲「张量在 GPU 上怎么走」。所以呢：下次科普深度学习，别先让观众装环境——丢一个能在浏览器里点的 torch 形演示。",
+      "links": [
+        {
+          "label": "borch 演示",
+          "url": "https://playidea-lab.github.io/borch/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49904288"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "orbitarium-orbital-engine",
+      "category": "视觉尝试",
+      "title": "Orbitarium：用轨道语言在浏览器里长出活的 3D 世界",
+      "body": "orbitarium.io 首页不是一段循环视频，而是 WebGPU 当场算出来的轨道场景。引擎用 Rust 和 WebAssembly 管状态，再用自定义 WGSL 计算着色器画粒子、拖尾和多级嵌套轨道——最多二十四层父子绕转。点开「Silk Thread」「Amber Drift」这类预设，播放器会重建同一套可交互场景；分享时场景程序被压进链接，而不是导出死视频。它面向科普、装置和音乐视觉：把「看不见的层级」变成能转的空间。所以呢：别再用预录星空糊背景——嵌一个真在算的轨道世界，让页面自己呼吸。",
+      "links": [
+        {
+          "label": "Orbitarium",
+          "url": "https://orbitarium.io/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "mana-actor-playground",
+      "category": "视觉尝试",
+      "title": "Mana Playground：改几行角色脚本，游戏当场换演法",
+      "body": "shun126 把面向角色的脚本语言 Mana 丢进浏览器 playground：你改的是「演员」怎么感知、怎么行动，不是传统面向帧的 update 循环。保存或运行后，场景里的角色立刻按新脚本动起来，适合讲「AI 生成行为树」之外的另一条路——用小语言约束智能体式 NPC。Show HN 标题直截了当：actor-oriented scripting for games。对做游戏向内容的人，这是可录屏的教具：左边改脚本、右边角色换脾气。所以呢：讲 NPC 智能别只晒大模型对话——让观众改两行脚本，看角色当场换性格。",
+      "links": [
+        {
+          "label": "Mana Playground",
+          "url": "https://shun126.github.io/Mana/playground/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49923601"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "syn-remote-sudo-touchid",
+      "category": "小众工具",
+      "title": "Syn：远程机器要 sudo，先在你 Mac 上按一下指纹",
+      "body": "路易斯在树莓派上挂了常驻代理，跑着浏览器操控和住宅 IP。代理一要装包，sudo 密码提示开在派的 TTY 上——他在 Mac 客户端根本看不见。于是他做了 Syn：远程 sudo 策略通过后先暂停，请求经双向认证 TLS 弹到配对的 Apple 芯片 Mac，显示机器、账号、可执行文件和参数，你用 Touch ID 或本机密码批「这一次」。每条批准密码学绑定到那一次调用，没有云中继。当前实验支持 macOS 十五以上与 Ubuntu 二十六 ARM64。所以呢：给代理开远程权限时，别一刀切免密——让每条 sudo 先敲你的指纹。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ferrerluis/syn-approvals"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49929941"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "agent-term-expanded",
+      "category": "小众工具",
+      "title": "AgentTerm：把 AI CLI 会话扩成一块可批注的可视工位",
+      "body": "阿尔伯特从一月起只用 AgentTerm 写所有项目，包括 AgentTerm 自己。它保留你熟悉的 Claude Code、Codex 等 CLI，却给每个会话单独开一个系统窗口：计划 Markdown 点开就能在渲染页上写意图，代理原地改；PR 前做策展式评审，把需要你判断的改动和未改上下文摊开，你点选批注它就修。还能在手机上认出并续上同一会话。视觉面板用完就收，不跟终端抢注意力。MIT、无遥测、无账号，macOS 与经 WSL 的 Windows。所以呢：代理越写越多时，别只盯滚动日志——给计划和评审一块能点能写的屏幕。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/albertwujj/agent-term"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49929891"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "visi-excel-cli",
+      "category": "小众工具",
+      "title": "visi：让代理写出的表格，在终端里被真正算一遍",
+      "body": "大模型很会用 openpyxl 拼表格，但公式结果往往要靠 Excel 本尊才信。albert-yu 用 Rust 做了 visi：在命令行里 info、read、eval 工作簿，目标是尽量对齐 Excel 的执行行为，有时数值还更准。他用模糊测试对打 Excel，最近一轮已很难挖出差异；日常则拿它给代理算信用卡年费回本、跑简易 DCF。名字致敬 VisiCalc。对无头、Linux CI 尤其香——不用 COM、不用开窗口。所以呢：别让代理「自我感觉表格算对了」——用 visi 在终端里重算一遍再说数。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/albert-yu/visi"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49929194"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "zeroslop-deslop-skill",
+      "category": "小众工具",
+      "title": "Zero Slop：给 AI 草稿打「腔调分」，再改回人话",
+      "body": "「我们很高兴宣布团队用前沿机器学习打造无缝入职体验……」——Zero Slop 的本地打分器会给这类句子极高的 slop 分，再引导助手改成「我们用机器学习把入职搭建时间砍了百分之四十」。它是开源 agent skill，也可在 zero-slop.ai/try 浏览器里试，或走 MCP。评分靠二百九十四个加权模式和词表，并检查核心事实有没有被改没。npx skills add manavmishra/ZeroSlop 即可挂上。Show HN 十月二日凌晨挂出。所以呢：发稿前别只靠语感——跑一遍去腔调，让句子听得见人。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/manavmishra/ZeroSlop"
+        },
+        {
+          "label": "浏览器试用",
+          "url": "https://zero-slop.ai/try/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49928432"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "janus-vulkan-gguf",
+      "category": "小众工具",
+      "title": "Janus：一个 Go 文件，Vulkan 上跑 GGUF，还能冒充 OpenAI",
+      "body": "不想装 Ollama、不想碰 Python 环境时，Janus 给了一条更瘦的路：编译出一个 Go 二进制，用 Vulkan 在 AMD、Intel、Nvidia 上跑 .gguf，CPU 也能兜底。它暴露 /v1/chat/completions 和 /v1/models，Cursor、Cline 或 curl 都能当本地 OpenAI 用；模型可热换，思考模型的 think 块会拆进 reasoning_content。Show HN 冲上首页，六十多个赞。Windows 是主阵地，Linux 同样能编。所以呢：本地模型入口别再叠三层容器——一个二进制、一张显卡驱动，先跑通再说。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Vibra-Ingenn/Janus"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49926773"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "rhun-assembly-editor",
+      "category": "小众工具",
+      "title": "rhun：用汇编写的小编辑器，专给「代理写、人审」留位置",
+      "body": "弗拉迪斯拉夫觉得自己已经用不了 VS Code 三分之一功能，于是用 x86-64 汇编写了 rhun：Vim 模式、终端、Git diff、模糊搜索，再加一块 Claude Code / Codex 会话面板。Apple 芯片版在构建时把核心译成 AArch64。最新版还能用本机 Ollama 或现有 Claude/Codex 订阅草拟 commit 说明。MIT、个人项目、仍早，但 HN 讨论到四十多赞。官网 rhun.app 可下。所以呢：如果你的工作流已经是「代理写代码、你看 diff」，也许该换一把更轻、专门为这事留面板的编辑器。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://rhun.app/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49926726"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "shutup-mcp-filter",
+      "category": "小众工具",
+      "title": "shutup-mcp：先问你在干嘛，再只露出几把 MCP 工具",
+      "body": "挂上文件系统、GitHub、Jira 之后，一次 tools/list 就能吞掉几万 token，准确率还掉。shutup-mcp 夹在客户端和一堆 MCP 服务器中间：读你现有的 claude_desktop_config.json，用本地嵌入（或 Ollama）给工具描述建索引，按意图只返回 top-k。也可以运行时调用 shutup__set_intent 换任务。作者在 Product Hunt 写过从一百六十七个工具压到个位数的故事；仓库现已标明 alpha，并收回了过头的百分比宣传。pip install shutup-mcp 即可试。所以呢：工具越多越聪明是幻觉——先让代理看不见用不上的那九成。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hjs-spec/shutup-mcp"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/shutup-mcp"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "ferry-agent-box-sync",
+      "category": "小众工具",
+      "title": "Ferry：笔记本上的代理配置，摆渡到远程 Linux 箱",
+      "body": "你在笔记本调熟了 skills、AGENTS.md、子代理、钩子和 MCP，却希望同一套在云主机或家里的盒子上跑。Ferry 把这些收进私有 git 快照，箱子拉取后软链到各家 harness 目录；也会帮你装 CLI 和工具，但登录态留在原机，不随船走。支持 SSH 或 Tailscale，macOS/Linux 操作端一键 install.sh，还可 watch 自动同步。作者十月一日 Show HN，官网比喻就是一艘摆渡船：箱子上了岸，钥匙还在码头。所以呢：多机跑代理时，别手工抄配置——摆渡快照，登录自己走。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://dlhck.github.io/ferry/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dlhck/ferry"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49925961"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "paper-incident-report",
+      "category": "小众工具",
+      "title": "Paper：命令一失败，就给代理写好事故报告",
+      "body": "模型写代码还行，掉进调试环却会烧光 token。Paper 很克制：你照常跑测试，失败后再 paper run npm test，它在 .paper/incident_report.md 记下命令、退出码、目录、时间戳和 stderr，并让 agents.md 把它当真相源。不调外部 LLM、无守护进程、无第三方包，只写本地 Markdown。npm 包名 @varman96/paper。修好了可以把报告归档，下次同类错误也能对照。所以呢：别让代理凭聊天记录猜错在哪——先塞一份结构化事故单，再开口修。",
+      "links": [
+        {
+          "label": "npm",
+          "url": "https://www.npmjs.com/package/@varman96/paper"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49926274"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "funcroute-eyes-ears",
+      "category": "小众工具",
+      "title": "funcroute：客户端仍连一个地址，纯文本模型却突然有了眼耳",
+      "body": "你想继续用便宜的文本模型，又偶尔丢截图、语音备忘或 PDF。funcroute 是约四千行 C 写的小路由器：客户端始终打同一个 URL、同一个模型名；它看附件类型，无附件走便宜文本，有图/文件/音频就改写 model 字段转到对应专家，再把回答译回。作者对比过「全程用全模态」「在客户端配两套供应商」等方案，都嫌贵或易在对话中途切错模型。今日 Show HN 标题写着「gives a text-only model eyes and ears」。所以呢：别为偶发多模态换全家桶账单——在门口加一台会分诊的交换机。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SpaceSwordAI/funcroute"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49929508"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "d-engine-deterministic",
+      "category": "小众工具",
+      "title": "D-Engine：模型只许提案补丁，编译绿灯才准合并",
+      "body": "塞尔吉奥受够了代理循环：每轮把整段轨迹再送回模型，token 账单翻倍。D-Engine 把有界改码收成一趟：模型只吐 SEARCH/REPLACE；本地在影子 git worktree 里用四档策略贴补丁，跑 tsc --noEmit，绿了才合并，红了主分支纹丝不动。同任务同模型对比，他记录到比默认代理循环少大约十四到四十二倍 token，质量分打平。仓库和 docs/benchmark 里放了冻结任务与方法论，方便复现数字。适合「改几个文件就交差」的日常，而不是漫无探索。所以呢：小改动别开无底代理环——让模型提案，让编译器当门卫。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/corruchaga/D-Engine"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49925593"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "graphene-agent-analytics",
+      "category": "小众工具",
+      "title": "Graphene：给编码代理一套语义层和能出图的看板文件",
+      "body": "两位做过 BI 的工程师觉得：代理其实能干掉大半分析活，缺的是「指标别算飘」和「结果能发表」。Graphene 开源提供比 YAML 更省 token、又比纯 Markdown 更确定的语义层（可组合的指标宏，查询面仍是 SQL），再用类 MDX 文件把 Markdown、内联 SQL 和 HTML 图表捏成看板，接数仓或本地 DuckDB。你把代理指到 setup 文档，它能在同一 PR 里加埋点、改管线并出仪表盘。附带航班示例仓库。所以呢：别只让代理写 SQL 聊天——给它语义层和可提交的看板文件。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/graphene-data/graphene"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49927295"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
+    {
+      "id": "fumble-real-typing",
+      "category": "小众工具",
+      "title": "Fumble：按你全天真实打字弱点出课的 macOS 教练",
+      "body": "keybr 只看得见你在站内练的十分钟，看不见你在编辑器里敲的十小时。Fumble 是菜单栏应用：本地记录物理键码和时延直方图（不是字符序列），按「慢多少 × 按多少次」排耗时最大的键和键对，再生成瞄准这些弱点的课。作者发现自己最慢的是 B，但最耗时的是更常按的 G；十个最差键对里七个以空格开头。密码框不记、无网络无遥测，开源可自查 PRIVACY.md。Show HN 十月一日发出，适合天天敲代码、敲快捷键的人补短板，而不是再刷一轮假英语词表。所以呢：练打字别再盲刷随机词——先量你真正拖后腿的那几个键。",
+      "links": [
+        {
+          "label": "下载站",
+          "url": "https://fumble.alexmcconnell.ie"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alexiscodingbits/Fumble"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49927078"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-02T14:20:00+08:00"
+    },
     {
       "id": "deepmind-synthid-bio",
       "category": "硬科技",
