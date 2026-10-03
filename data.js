@@ -1,6 +1,389 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-03T14:20:00+08:00",
+  "updated": "2026-10-03T18:30:00+08:00",
   "items": [
+    {
+      "id": "draftkings-ai-elasticity",
+      "category": "痛点",
+      "title": "波士顿：西弗男子一个月收七十条DraftKings推销，告公司AI专盯「爱输的人」",
+      "body": "西弗吉尼亚男子丹尼尔·韦斯特说，他在DraftKings上赌了好几年，某个月邮箱和短信里至少塞进七十条「再来一把」的促销。九月三十日他在波士顿联邦法院提起集体诉讼，指控这家体育博彩公司用一套叫「弹性（elasticity）」的AI模型，专门标出「对激励特别敏感、容易继续下注」的人，再往他们身上砸优惠。\n\n诉状反复引用《纽约时报》上个月的调查：前员工称公司会用机器学习去「钓」正在输钱的赌客多下注，同时又拖延或压掉能识别问题赌博风险的同类技术。DraftKings发言人否认「按亏损或问题赌博指标用AI瞄准客户」，说要坚决应诉。马州总检察长和州审计长办公室都已看过诉状；博彩委员会主席也说要查各家怎么用AI。\n\n所以呢：博彩App的「个性化优惠」，法院要问一句——它到底是在帮你，还是在AI里把最容易沉下去的人标成鱼。",
+      "links": [
+        "https://www.wbur.org/news/2026/10/01/draftkings-artificial-intelligence-lawsuit",
+        "https://www.bostonglobe.com/2026/10/01/business/draftkings-lawsuit-ai-addiction/"
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "memphis-carter-xai-noise",
+      "category": "痛点",
+      "title": "孟菲斯邻居告xAI：南边密州六十九台燃气轮机，夜里像喷气机停不下来",
+      "body": "罗伯特·卡特和萨布丽娜·安德森住在田纳西—密西西比州界北边。他们说，打开窗就像把喷气机停在院子里：隆隆声、尖啸、低频震动穿墙，二十四小时不停。九月二十三日，两人在田纳西西区联邦法院提起集体诉讼，告xAI及其关联公司MZX Tech，指机房背后的南黑文燃气轮机电厂把南孟菲斯、怀特黑文一带居民的睡眠、庭院和房价一起拖垮。\n\n诉状写，二零二五年八九月间，斯坦顿路南二八七五号电厂的涡轮从三台扩到十八台，再滚到六十九台，增幅约两千三百个百分点；其中不少被指未获许可。邻居诉私人与公共妨害、过失、违反孟菲斯噪声条例，还把「噪声与震动侵入房产」写成非法侵入。约一万居民被划进拟议集体范围。公司尚未在公开报道里给出实质答辩。\n\n所以呢：训Grok的电费账单，有人是用整夜睡不着的耳朵在付——机房官司不只看碳排放，还听得见。",
+      "links": [
+        "https://www.actionnews5.com/2026/09/25/memphis-residents-file-noise-complaint-againt-elon-musks-xai/",
+        "https://ailawsuittracker.com/cases/carter-v-x-ai-corp-2-26-cv-03257/"
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "scotland-hyperscale-pause",
+      "category": "痛点",
+      "title": "苏格兰议会一天三响：超大规模机房先停拍，五十兆瓦以上必须做环评",
+      "body": "九月十六日，霍利鲁德议会厅里绿党动议被改写成工党与苏格兰政府文本通过：超大规模数据中心的规划决定先暂停，最长约十二个月，等国家指引出来；同时规定，功率超过五十兆瓦的机房申请——包括已经在审的——一律要做环境影响评价（EIA，先把对自然与社区的冲击写清楚再批）。\n\n同一天，格里诺克机房反对意见截止，门户上收到一千七百多条；拉伯特中学体育馆里开了四小时预审会，三百兆瓦方案紧挨民宅和护理院，患有晚期MS的护理院住户珍妮特·梅奥上台求委员会别拿最难躲开的人试刀。开发商当场表示愿意等政府指引。Chapelhall村民说，终于喘口气，好让人看懂「AI增长区」到底要在家门口盖什么。\n\n所以呢：英国这回不是小镇一纸禁令，是议会把「先写规则再盖机房」写进全国流程——社区争的是时间表，不只是口号。",
+      "links": [
+        "https://www.stopclimatechaos.scot/hyperscale-data-centres-landmark-moment-in-fight-against-unbridled-rise/",
+        "https://www.computerweekly.com/news/366650553/MSPs-reject-datacentre-moratorium-but-pause-planning-decisions",
+        "https://www.gov.scot/publications/chief-planner-letter-eia-direction-on-data-centres/"
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "hazle-northpoint-10k",
+      "category": "痛点",
+      "title": "宾州哈兹尔镇：开发商给每户一万刀求批一千三百英亩机房，很多人说不够",
+      "body": "六月，北点开发（NorthPoint）给宾州波科诺山脚哈兹尔镇大约四千五百户各寄一封信：镇里若批下「榛果项目」十五栋机房里的第一栋，每户可领一万美元「补助」，合计约四千五百万；另外还承诺十五年一点二亿美元社区投入。当地家庭收入中位数约六万美元，一万刀不算小钱。营销官说这是在听证会上想出来的「激进答案」。\n\n许多人把它叫贿赂。住在工地旁鹰岩度假区的居民说，钱会离间「挨着噪音的人」和「住远两英里的人」；房价跌一点，一万刀未必够填。镇政府其实早在二零二五年十一月就以区划为由三比零否掉项目，并一度冻结机房建设，北点把官司打到法院，争议还没结。州长夏皮罗还发过行政令，禁止地方政府与机房开发商签保密协议。\n\n所以呢：AI基建开始直接给邻居开支票——支票开得再大，也买不断「我还想不想住这儿」。",
+      "links": [
+        "https://www.techspot.com/news/114013-data-center-developer-offers-every-household-town-10000.html",
+        "https://www.wsj.com/real-estate/every-household-in-this-rural-town-receives-10-000-if-a-data-center-gets-built-86554cb7"
+      ],
+      "prompt": "",
+      "date": "2026-06-01",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "yarraville-jemena-poles",
+      "category": "痛点",
+      "title": "墨尔本亚拉维尔：邻居用垃圾桶和汽车挡住十五米高压杆，施工队填坑走人",
+      "body": "卡梅伦·博特里尔早上出门，傍晚回家街上立起十五米高的工业电杆——比原来七米木杆高一倍多，能扛六万六千伏，电压大约是过去的一百六十倍。电力分销商Jemena说是为了支撑墨尔本「不断增长的用电」；工人当面告诉他：电要送给一公里外西富茨克雷那座已在扩建的NextDC数据中心。\n\n桑德森街上的邻居学乖了。八月施工队再来时，大家把车和垃圾桶摆在预定点位，车窗上贴纸条说明抗议；设备进不来，工人只好把挖好的坑填回去，至今没再来。有人是电工断开自家电时才从嘴里听说「半公里外还要再盖一座」。九月底州政府宣布住宅区禁机房、一百五十米缓冲带，但居民说已批、已建的一概不管。Jemena承认沟通不好，工程先暂停听社区意见。\n\n所以呢：机房不一定盖在你家门口——它可能先把你家门口的电线杆改成工厂规格。",
+      "links": [
+        "https://www.abc.net.au/news/2026-09-27/residents-protest-15m-power-poles-for-data-centre-expansion/107192574",
+        "https://www.dailymail.com/news/article-16165373/Neighbourhood-victory-locals-revolt-against-data-centre-built-500m-homes-Tradie-tip-leads-bin-car-blockade.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-27",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "doe-github-9th-dmca",
+      "category": "痛点",
+      "title": "第九巡回：开源作者告Copilot「剥掉署名」败诉——新生成的代码不算「删过版权信息」",
+      "body": "把代码开源挂上GitHub的程序员说：Copilot和Codex有时吐出跟自己几乎一字不差的片段，却不带原来的署名、许可证——这违反数字千年版权法里「不得移除版权管理信息（CMI）」的条款。九月十六日，美国第九巡回上诉法院维持地区法院驳回：原告有起诉资格，但「输出理论」站不住。\n\n法院说，法律惩罚的是从「已有作品副本」上动手脚、把署名抠掉；AI生成的是一件「从来没带过CMI的新作品」，缺署名不等于「移除」。原告关于「训练阶段输入」的理论因程序上放弃，法院没审。版权侵权本身这轮也没判。路透社报道，这意味着微软、OpenAI至少在DMCA署名这一刀上暂时挡住了程序员。\n\n所以呢：你写的开源许可证，到了补全引擎嘴里，法院可能当它「从没贴过标签」——署名仗要换战场。",
+      "links": [
+        "https://law.justia.com/cases/federal/appellate-courts/ca9/24-7700/24-7700-2026-09-16.html",
+        "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/09/16/24-7700.pdf"
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "times-publishing-26-locals",
+      "category": "痛点",
+      "title": "二十六家地方报抱团告OpenAI和微软：付费墙后的稿也被拖去训ChatGPT",
+      "body": "不是《纽约时报》那种巨头专场。九月十六日，二十六家地方、区域和垂直媒体在纽约南区联邦法院起诉微软和多家OpenAI实体，带头原告是Times Publishing Company。诉状说，对方爬了它们的网站——包括付费墙后面的文章——拿去训ChatGPT和Copilot，还把作者名、报名、版权声明和使用条款从副本上剥掉。\n\n直接与替代侵权由Times Publishing就已登记作品主张；二十六家一起主张DMCA里「移除版权管理信息」一条。他们要法定赔偿、永久禁令，并要求按版权法把已登记作品从GPT等模型与训练集里清出去。案子寻求与OpenAI版权多区诉讼协调。印度ANI诉OpenAI的平行战场也还在德里高等法院排期。\n\n所以呢：地方新闻的稿费本来就薄，现在连「付费墙后面那篇」都可能在免费喂模型——小报也开始抱团上法庭。",
+      "links": [
+        "https://www.techpolicylaw.org/updates/26-local-news-publishers-sue-openai-and-microsoft-over-alleged-ai-training-copyr",
+        "https://ailawsuittracker.com/cases/times-publishing-company-v-microsoft-corporation-1-26-cv-08082/"
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "umg-suno-ii-60202",
+      "category": "痛点",
+      "title": "环球索尼二告Suno：六万零二百零二首歌，指从YouTube「流媒体扒带」喂模型",
+      "body": "九月十八日，环球音乐集团旗下厂牌、Capitol、索尼音乐娱乐等十一家厂牌在马萨诸塞联邦法院对AI作曲公司Suno提起第二起诉讼。上一案还在打，这一案直接点名六万零二百零二首录音：诉状称Suno用「流媒体扒带（stream ripping）」技术从YouTube非法下载受版权保护的录音，绕过平台安全措施，拿去训练模型；还指九月九日上线的v6模型继续通过用户互动和模型迁移吃这些录音。\n\n彭博社写道，厂牌承认六万首「更接近侵权规模的真实宽度」，但仍只是冰山一角。Suno同时在应付独立音乐人、Round Hill、欧洲集体管理组织等多线版权与人格权官司。华纳此前已与Suno和解授权，环球与索尼选择把曲库数字堆到法庭上。\n\n所以呢：AI音乐官司从「你像不像某首歌」升级成「你是不是整库扒过YouTube」——曲目清单本身就是证据压力。",
+      "links": [
+        "https://news.bloomberglaw.com/ip-law/umg-sony-expand-ai-music-fight-against-suno-with-60-000-songs",
+        "https://ailawsuittracker.com/cases/umg-recordings-inc-v-suno-inc-1-26-cv-14275/"
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "anthropic-war-blacklist-upheld",
+      "category": "痛点",
+      "title": "华盛顿上诉庭二比一：五角大楼把Anthropic标成供应链风险，黑名单站住了",
+      "body": "Anthropic拒绝让自家模型用于自主武器和大规模国内监控，五角大楼（现称战争部）今年三月把它定为国家安全供应链风险，政府合同与承包商链路一起收紧。公司说损失以十亿美元计，IPO前名声也被砸。九月二十五日，哥伦比亚特区巡回上诉法院二比一驳回其复议申请。\n\n多数意见由法官卡察斯执笔：国防部长提出「护栏过严的模型可能突然停机、拖垮军事行动」的风险合理，不采纳「报复其安全伦理立场」的说法。法官亨德森异议。Anthropic表示不同意，考虑全庭复审。此前旧金山联邦法官丽塔·林曾在另一部法律下认定行政报复并挡住政府范围禁令——两套法律、两种结局，战场还没收干净。\n\n所以呢：AI公司说「我不当武器」，军方可以说「那你就不进供应链」——安全护栏第一次被写成丢掉国防订单的价钱。",
+      "links": [
+        "https://www.militarytimes.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/",
+        "https://www.courthousenews.com/wp-content/uploads/2026/09/DC-Circuit-Anthropic-Pentagon-supply-chain-risk-determination-ok-opinion.pdf"
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "lowery-isbell-suno-identity",
+      "category": "痛点",
+      "title": "杰森·伊斯贝尔告Suno：不谈版权，告你把我的名字和声纹做成点歌键",
+      "body": "六次格莱美得主杰森·伊斯贝尔、Cracker主唱大卫·洛厄里等人八月三十一日在波士顿联邦法院对Suno提起集体诉讼。八十四页诉状里没有版权条款。他们说：在Suno里输入「jason isbell」，模型会吐出带乡村鼻音的Americana歌、文案封面图；换Camper Van Beethoven、Buddy Guy、Tom Waits也一样——名字成了检索键，身份被编进商品。\n\n他们还依伊利诺伊生物识别隐私法（BIPA）主张：训练管线量过音高轮廓、共振峰、呼吸动态，等于存了「声纹」，却从未书面告知、未拿同意、未公开留存政策。Suno公开说过会拦截艺人名提示词；原告称空格拆字就能绕过，联盟营销教程还教人怎么绕。他们不要「独占乡村乐」，只要法院承认：唱碟授权不等于把艺人姓名与声音拿去卖。\n\n所以呢：唱片公司可以谈训练许可，歌手开始另开一张账单——「我的名字」本身也是货。",
+      "links": [
+        "https://www.musicbusinessworldwide.com/jason-isbell-and-david-lowery-are-suing-suno-in-a-class-action-suit-importantly-theyre-hitting-mikey-shulmans-company-with-identity-claims-not-copyright/",
+        "https://ailawsuittracker.com/cases/lowery-v-suno-inc-1-26-cv-14005/"
+      ],
+      "prompt": "",
+      "date": "2026-08-31",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "oracle-jupiter-force-majeure",
+      "category": "痛点",
+      "title": "新墨西哥Project Jupiter：甲骨文发不可抗力通知，电来不了就可能缓付租金",
+      "body": "一千六百五十亿美元量级的Project Jupiter还在圣塔特雷莎沙漠里往前推，九月二十四日前后，甲骨文向开发商STACK Infrastructure／Blue Owl发出「不可抗力（force majeure）」通知：若二零二八年开业时电力到位不了，要保留合同保护。不是退租跑路——双方若认定电力事件成立，全额租金最多可延三年再开始付，租期总债以后仍要还。\n\n甲骨文说项目仍按计划；Blue Owl称财务承诺不变。工地刚打完一场水官司：州最高法院九月中旬解开环保组织的紧急禁令，井水又能抽。空气许可听证还要重来。电力、水、排放三件事叠在同一片沙地上，不可抗力条款成了大租户给自己留的泄压阀。\n\n所以呢：AI机房最大的合同风险，写在电表上——算力广告很满，电一晚到，租金条款先翻脸。",
+      "links": [
+        "https://www.abqjournal.com/business/oracle-invokes-force-majeure-on-project-jupiter-but-says-data-center-still-on-track/3127907",
+        "https://elpasomatters.org/2026/09/24/project-jupiter-rent-force-majeure-new-mexico-oracle-ai-el-paso-data-center/"
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "nyc-council-spacexai-subpoena",
+      "category": "痛点",
+      "title": "纽约市议会传票马斯克：十月五日全体委员会，OpenAI谷歌都答应到，就差SpaceXAI",
+      "body": "九月二十八日，市议会议长朱莉·梅宁签发传票：埃隆·马斯克本人或SpaceXAI代表，必须到十月五日罕见的「全体委员会」听证上宣誓作证，议题是AI是否已威胁纽约人的公共安全、网络安全、隐私与消费权益，要不要立刻立法。Anthropic、OpenAI、谷歌、Meta已同意派人；SpaceXAI此前没回应邀请，若不遵从，议会可向州最高法院申请强制执行。\n\n背景是Grok深伪色情诉讼堆叠：巴尔的摩市告其宣传「安全」涉嫌欺诈，青少年集体诉讼指Grok把他们生成进色情场景；市议会新闻稿还点到吹哨人警告与「失控代理损伤政府数据库」的报道。马斯克的火箭—AI合并体市值传闻约两万亿美元，Cursor收购刚完成，听证会却要他先回答安全账。\n\n所以呢：市一级议会开始用传票请AI老板宣誓——监管不一定等联邦，市政厅也能把人喊到席上。",
+      "links": [
+        "https://www.cnbc.com/2026/09/28/elon-musk-spacexai-subpoenaed-by-nyc-in-ai-safety-investigation.html",
+        "https://council.nyc.gov/press/2026/09/28/3266/"
+      ],
+      "prompt": "",
+      "date": "2026-09-28",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "doe-meta-ai-layoff",
+      "category": "痛点",
+      "title": "二十六名Meta员工匿名告公司：裁员名单靠AI生产力分，病假产假的人更容易中枪",
+      "body": "五月被告知七月二十二日起没岗位的二十六名Meta员工，七月十四日在奥克兰联邦法院匿名起诉。他们说公司在裁掉全球约百分之十、近八千人时，用了内部AI辅助系统打分排序：大模型助手Metamate、追踪沟通与文档的「第二大脑」，以及扫描击键、屏幕、邮件和浏览记录的生产力分；请病假、护理假、残疾或怀孕的人更容易被算法往下排。\n\n他们指控违反联邦与州反歧视法，并称公司没按加州与纽约市新规测试AI偏见。Meta发言人说「人力决策是人做的，不是AI」，主张缺乏依据。工人要法院先挡住裁员，再去仲裁打 individually 的案子——他们说仲裁协议管不了这种临时禁令请求。路透社称这是首例挑战大厂「用AI挑裁员名单」的诉讼。\n\n所以呢：公司说拥抱AI代理，员工听到的可能是——你请假那天的击键数，正在给裁员名单打分。",
+      "links": [
+        "https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/",
+        "https://www.courthousenews.com/wp-content/uploads/2026/07/meta-employee-complaint.pdf"
+      ],
+      "prompt": "",
+      "date": "2026-07-14",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "cookeville-ai-deepfake-arrest",
+      "category": "痛点",
+      "title": "田纳西库克维尔高中：两名学生用AI把同学照片改成色情图群发，被控性剥削未成年人",
+      "body": "九月初，普特南县警长办公室公布：库克维尔高中两名青少年被捕。警方说，他们从网上拿到同学照片，用AI生成露骨图像并传播，其中一人手机里已存有此类材料。两人被控加重与特别加重「未成年人性剥削」罪名，具体项数不同。\n\n地方电视台与《先驱公民报》跟进后，学校与家长群再次被推到同一句问话：发现时已经散到什么范围、平台删不删得掉、未成年人犯罪记录会不会跟着一辈子。全美今年多所中学出现同类案——肯塔基亨德森也有中学生因AI露骨图进少年看守所——库克维尔是其中一起把刑事罪名写清楚的。\n\n所以呢：校园霸凌多了一键脱衣键，警察按性剥削条款抓人——家长会要谈的不是「AI酷不酷」，是孩子的脸被谁点了生成。",
+      "links": [
+        "https://www.local3news.com/local-news/school-patrol/cookeville-high-students-arrested-after-spreading-ai-generated-explicit-images-of-other-students-sheriff-says/article_ff99771d-5fd7-4e09-ac82-3e1f77f7eba6.html",
+        "https://www.newschannel5.com/news/state/tennessee/putnam-county/two-teens-arrested-after-ai-generated-explicit-deepfakes-shared-at-tenn-high-school"
+      ],
+      "prompt": "",
+      "date": "2026-09-02",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "siasun-psa-tuas-200",
+      "category": "跨行业",
+      "title": "新加坡大士港：新松近两百台港口移动机器人交第一批新一代IGV",
+      "body": "三月，新加坡港务集团的大士港码头上，一条红绸被剪开：新松机器人交出第一批新一代IGV（智能导引车，港口里自己扛集装箱水平跑的那种）。到这一天，新松在PSA大士港累计部署的港口移动机器人已接近两百台，一年里几乎翻倍，成了新加坡港口最大的移动机器人供应商。\n\n这车额定载重六十五吨，能扛双二十尺、四十尺甚至四十五尺箱，定位精度正负五厘米，最高时速约七米每秒。新一代机把人工智能嵌进软硬件：多传感器融合导航，不再绑死固定标记，路径能跟着现场任务改；还加了故障预诊，靠运行数据提前喊维修。新松和PSA从二〇一七年就开始做原型，二〇二三年首批量交，二〇二四年累计过百台——这次不是展厅跑一圈，是亚太枢纽码头里真在搬箱。\n\n所以呢：港口无人化比的不是谁会发新闻通稿，而是能不能在全球最忙的码头之一把近两百台车堆上去还继续加单。",
+      "links": [
+        "https://cnmra.com/siasun-deploys-nearly-200-port-mobile-robots-at-psa-singapore-delivers-first-new-generation-igvs/"
+      ],
+      "prompt": "",
+      "date": "2026-03-24",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "hk-kwai-tsing-6-autotrucks",
+      "category": "跨行业",
+      "title": "香港葵青四号码头：六台AI无人集卡上路，一月起已搬超八千箱次",
+      "body": "四月二十一日，和记港口邀请记者走进葵青货柜码头四号：六台纯电无人集卡在场内来回，这是香港港口第一次把AI无人卡车正式放进日常作业。车队一月份就上岗，到媒体探访时已完成超过八千次集装箱搬运。\n\n香港国际货柜码头营运总监林伟驹说得很直：全港各行缺司机，商用车尤其紧，港口也逃不掉。这六台车不跑公共道路，只在码头围栏里把箱子在岸边和堆场之间倒腾，用AI感知避障，跟有人机械混在同一片场地。运营商挂在长江和记旗下的赫斯基港口信托，把「缺司机」当成硬约束，而不是宣传口号。\n\n所以呢：香港码头的无人化第一枪，不是百台大舰队，是六台车先把八千箱次跑出来——很适合讲劳动力缺口怎样逼出港口AI。",
+      "links": [
+        "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3350914/first-ai-driverless-trucks-deployed-tackle-hong-kong-port-labour-shortage"
+      ],
+      "prompt": "",
+      "date": "2026-04-21",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "apm-mvii-att-10-embotech",
+      "category": "跨行业",
+      "title": "鹿特丹马斯弗拉克特二期：十台电动自动化拖头进场，目标三十台",
+      "body": "四月二日，APM码头马斯弗拉克特二期又迎来五台电动自动化码头拖头——加上此前批次，现场已有十台。车是荷兰Terberg底座，瑞士Embotech装上四级自动驾驶套件，在工厂里就配好线控，目标是滚到三十台，冲欧洲最大自动化码头拖头舰队之一。\n\n它们要干的活很具体：在陆侧轨道龙门吊和铁路堆场之间倒集装箱，跟有人设备混行。二〇二五年十一月首批五台已通过现场验收，测过窄道、变道、倒车对位和耐力跑；同年末自动驾驶方案还拿了TÜV南德安全认证和CE标志。APM技术负责人说，第一步是日常可靠，第二步才是整队可靠——扩容工程一边建，车队一边嵌进去。\n\n所以呢：欧洲港口自动化的下一场，不在岸桥本身，而在「拖头敢不敢跟有人车抢同一条道」——鹿特丹已经把十台电拖头真开进混行场。",
+      "links": [
+        "https://www.apmterminals.com/en/maasvlakte/about/news-and-updates/2026/260402-APM-Terminals-Maasvlakte-II-Embotech-and-Terberg-expand-Automated-Terminal-Tractor-fleet",
+        "https://www.terbergspecialvehicles.com/en/news/apm-terminals-maasvlakte-ii-embotech-and-terberg-expand-automated-terminal-tractor-fleet-in-rotterdam/"
+      ],
+      "prompt": "",
+      "date": "2026-04-02",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "zahananor-18-ev-trucks",
+      "category": "跨行业",
+      "title": "内蒙古扎哈淖尔露天矿：十八台九十吨纯电无人自卸车投运",
+      "body": "八月三十一日前后，国家电投内蒙古公司扎哈淖尔露天煤矿坑里多了十八台新同事：九十吨级纯电无人驾驶宽体自卸车。车载八百千瓦时磷酸铁锂电池，配组合导航、多线激光雷达和环视相机，号称L4级自动驾驶，无人作业效率约等于人工九成。\n\n充一次电大约八十分钟，满电能干完四千零三十二吨公里活。跟同吨位燃油车比，单台一年大约省油七十三吨、少排二氧化碳二十四点六二吨。矿方说这是集团首批纯电无人宽体车落地，后面还要跟增程、电混车一起把剥离运输往低碳无人推。坑里风沙大、坡多、路烂，十八台车不是演示，是接班跑生产。\n\n所以呢：露天矿无人化已经不只燃油矿卡改驾驶，开始用「电池+无人」一起换油耗和排班——很适合讲矿山AI落地的计量单位是吨公里。",
+      "links": [
+        "https://www.nengyuanjie.net/article/121042.html",
+        "https://www.cehome.com/news/20260909/392359.shtml"
+      ],
+      "prompt": "",
+      "date": "2026-08-31",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "jiaxing-nanhu-robot-konbini",
+      "category": "跨行业",
+      "title": "嘉兴南湖天地：机器人便利店上架一百五十种货，小麦会讲上海话",
+      "body": "国庆假期，嘉兴南湖天地一间淡黄集装箱小屋门口，机器人服务员「小麦」扯着嗓子喊：左边帅哥右边美女快来逛。这是嘉兴首家机器人零售便利店，南湖天地和子城遗址公园两个点同时开；南湖点位上架约一百五十种水饮、零食、冰激凌和文创，每天十点到二十二点。\n\n客人说「要一瓶农夫山泉」，小麦确认后沿预设路线挪到货架，抬臂抓取递出。工作人员李安说，价格跟周边便利店差不多，还能唱歌跳舞，甚至讲上海话——嘉兴点需要的话公司还能「喂」方言。运营方王旖旎解释，这套系统能感知、交互、决策、执行，还会自己记哪款好卖、每天该备多少货；比起只能塞标品的智能货柜，它能接烤肠、冰激凌、现打啤酒这类非标，投入又低于开一家街边店，能钻进人流还够不上传统便利店门槛的角落。\n\n所以呢：机器人便利店的胜负手不是会不会跳舞，是敢不敢在真实客流里卖非标品还自己算备货——很适合讲零售AI什么时候从网红打卡变成能算账的店。",
+      "links": [
+        "https://www.chinanews.com.cn/sh/2026/10-02/10707214.shtml"
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "yiwu-quadruped-night-patrol",
+      "category": "跨行业",
+      "title": "义乌国际商贸城二区：四足机器人夜巡一点五小时，覆盖人力两小时半路线",
+      "body": "每晚商贸城二区东市场散场后，一扇小门自动打开，四足机器人准时出舱夜巡。商城集团市场二公司朱伟杰说，通道纵横、商铺密，监控有死角，人把所有楼层走完大约两小时半，机器人一点五小时就能跑完，电不够自己回舱充电。\n\n它能跃台阶、钻复杂通道，进人力难覆盖的消防盲区，对烟雾、异常温升、占道经营做判别，并走完「预警—上报—处理」闭环。同一套「智防」也铺到义乌全球数贸中心，和AI导航、人形导览机一起值班。对通宵盯摊的商户来说，夜里多一条会走路的消防眼，比多装几路摄像头更实在。\n\n所以呢：安保机器人值钱的地方，不在白天表演下蹲，而在散场后那一点五小时——很适合讲「人防+技防」之后，智防到底替人走了哪段路。",
+      "links": [
+        "http://news.zgyww.cn/system/2026/01/15/010296772.shtml",
+        "https://www.tkww.hk/epaper/view/newsDetail/2106089366081376256.html"
+      ],
+      "prompt": "",
+      "date": "2026-01-15",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "meishan-customs-box-dog",
+      "category": "跨行业",
+      "title": "宁波舟山港梅山：三台重箱查验机器人拍箱号铅封，开箱压到二十分钟",
+      "body": "三月，梅山港区查验平台上出现会自己走路的助手：查验辅助机器人按海关指令规划路径、避障，用高清相机和AI拍下集装箱箱号和铅封号，照片同步回传关员验核，再配合开箱倒箱。科技日报报道，这在全国港口里率先把「具身智能」用进海关重箱查验平台。\n\n梅山海关查验二科关员张文治说，机器人提前核完信息，开箱时间缩短到二十分钟。箱号识别准确率超过百分之九十九；三台同时干，能把过去四到六人一小时以上的活压进二十分钟内。港区吞吐量往上走，查验量年均增超一成，系统底座是「乘帆」AI大模型，关港两边一起调出来的。\n\n所以呢：海关智能化不是多一块大屏，是三台机器人先把箱号铅封拍清楚——很适合讲口岸AI怎样把关员从「趴箱子抄号」里解放出来。",
+      "links": [
+        "http://district.ce.cn/newarea/roll/202603/t20260316_2830495.shtml",
+        "https://news.hangzhou.com.cn/zjnews/content/2026-03/04/content_9185606.htm"
+      ],
+      "prompt": "",
+      "date": "2026-03-11",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "anzhen-tongzhou-25-robots",
+      "category": "跨行业",
+      "title": "北京安贞医院通州院区：二十五类医疗机器人进药房病房手术室试运行",
+      "body": "二月三日，新华社记者走进安贞医院通州院区：药房里机器人把药送到全自动发药机前，静脉配液机器人在调针剂，骨科手术台旁手术机器人协助固定，门诊大厅还有导诊机器人招手。北京市把它定为全市首个「机器人+医疗」示范单位，目前二十五类医疗机器人在门诊、药房、病房、手术室、导管室做临床试验。\n\n画面里既有搬药、分拣、配液这类后勤活，也有骨科手术辅助这类上手术台的活。医院把它们当「智能助手」而不是替班医生：重复搬运和精确分拣交给机器，人盯核对与决策。对心脑血管专科大院来说，通州新院区等于一次把机器人编进日常班表，而不是只在展厅开机。\n\n所以呢：医疗机器人落地的信号，不是又一台达芬奇发布会，是二十五类机器同时出现在药房到手术室——很适合讲医院AI从「会演示」变成「排进班次」。",
+      "links": [
+        "https://english.news.cn/20260204/6cd760a4b4b2471683a6db76a5c739b5/c.html"
+      ],
+      "prompt": "",
+      "date": "2026-02-03",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "tokuiten-chita-tomato-harvest",
+      "category": "跨行业",
+      "title": "爱知知多有机温室：Tokuiten吸附式迷你番茄机器人每周两晚常规采收",
+      "body": "五月二十五日起，日本爱知县知多市两千平方米有机JAS认证迷你番茄温室里，农场员工把采收机器人排进常规班表：每周二、四晚上人工收工后按启动，机器自己跑大约五小时只摘熟果，第二天早上人再分拣出货。\n\nTokuiten做吸附式采摘：利用自家品种果梗，轻轻吸住果子脱离萼片，相机和AI当场判断生熟。四月单台日采约三十一公斤，质检说跟手摘同一标准，已走正常商渠。机器人在垄间轨道走，换垄靠麦克纳姆轮横移。CEO丰岛龙一郎说，全球真正进入商业日常使用的迷你番茄采收机器人还很少；公司在建一公顷新温室，计划二〇二七年三月部署六台。日本核心农业劳动力已从二〇〇〇年约二百四十万掉到二〇二五年约一百零二万，平均年龄六十七点七岁——迷你番茄又小又要频繁摘，正是缺工最狠的一段。\n\n所以呢：农业机器人过关的标志，不是实验室公斤数，是员工敢把它排进周二周四晚班——很适合讲「真下地」和「还在试点」的差别。",
+      "links": [
+        "https://www.hortidaily.com/article/9842754/japanese-agri-tech-startup-puts-cherry-tomato-harvesting-robot-into-routine-production-use/",
+        "https://prtimes.jp/main/html/rd/p/000000017.000087526.html"
+      ],
+      "prompt": "",
+      "date": "2026-05-25",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "baycare-winterhaven-stork-miles",
+      "category": "跨行业",
+      "title": "佛州温特黑文BayCare：Stork和Miles两台Relay机器人跑标本和药房",
+      "body": "六月三日，Relay Robotics宣布在BayCare医疗系统温特黑文两家医院新上岗两台快递机器人：女院的「Stork」二十四小时把急诊标本送到二楼检验科；综合院的「Miles」专跑没有气送管道的病区，送药房订单和耗材。刷工牌装进上锁仓，告诉它去哪，它自己叫电梯、过门禁、躲人群。\n\n两台合计预计每月完成五百多次请求，给护士腾出约一百五十个临床工时。BayCare二〇二五年已在圣安东尼医院试点，当时日均约五十单、成功率百分之九十九点八。CEO说全国护理短缺逼着医院把「跑腿」从执照护士手里拿走。这跟佛州另一家医院的Dash、Daisy不是同一系统——温特黑文是BayCare自己的扩编。\n\n所以呢：医院机器人最实在的KPI不是会不会聊天，是每月五百单标本和药——很适合讲护理缺口怎样把走廊快递交给轮子。",
+      "links": [
+        "https://relayrobotics.com/blog/baycare-expands-autonomous-hospital-delivery-with-new-relay-robots-at-winter-haven-hospitals",
+        "https://centralfloridahealthnews.com/robots-bring-innovation-to-winter-havens-baycare-campuses/"
+      ],
+      "prompt": "",
+      "date": "2026-06-03",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "eternal-vannoord-tomato-3",
+      "category": "跨行业",
+      "title": "荷兰泽兰Van Noord温室：Eternal.ag串番茄采收机从一台扩到三台",
+      "body": "六月，泽兰省番茄黄瓜种植户Van Noord Growers决定把德国创业公司eternal.ag的全自主采收机从一台加到三台。这台专抠串番茄的Harvester从二〇二五年九月就在八点五公顷温室里跟工人并肩干，设计目标是一天跑到二十二小时、一周七天，用AI判断成熟度和剪切干净度。\n\n联合老板Jeffry Van Noord说，他们卖的是高质量果，未来十到十五年劳动力会紧到大部分工序都得自动化，所以现在就开始扩。CEO Renji John把这次扩编当成商业部署可规模化的信号：温室果蔬采收因作物和环境差异，是农业机器人最难的题之一。机器不是替工人放假，是先把「没人可雇」的十年账提前算上。\n\n所以呢：荷兰温室加单到三台，比发布会原型机更有说服力——很适合讲欧洲菜农怎样用扩编投票给农业机器人。",
+      "links": [
+        "https://www.fruitnet.com/eurofruit/eternalag-deploys-autonomous-harvesting-robots-at-dutch-grower/271703.article"
+      ],
+      "prompt": "",
+      "date": "2026-06-04",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "sanmen-nuclear-patrol-fleet",
+      "category": "跨行业",
+      "title": "浙江三门核电：人形无人机四足轮式组成全维巡检舰队上岗",
+      "body": "四月，中国核电智能机器人中心把「运行值班员增强感知与智慧巡检系统」部署进三门核电：人形、无人机、四足、轮式多种装备一起上，织成全天候感知网。跟传统人巡比，系统补上了取水涵管海上段监控空白；状态灯识别准确率百分之九十九以上，表计读数百分之九十八以上。\n\n在开关站、循泵房、除盐水厂房等关键区，巡检频度从「日检」调成可支撑的「周检」节奏，重复读表交给机器人，人腾出手做核心保障。WiFi6连上管理平台，专家远程当「千里眼」，预警触发后机器人去锁盲区隐患。这不是单台潜水机器人探网，而是核电站里第一套被写成「全维舰队」的多机协同巡检。\n\n所以呢：核电AI落地的度量，是敢不敢把海上涵管和厂房表计一起交给多机编队——很适合讲高风险现场「少人值班」怎么起步。",
+      "links": [
+        "https://www.cinie.net/article/53369.html"
+      ],
+      "prompt": "",
+      "date": "2026-04-22",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "shenzhen-ai-trial-700k",
+      "category": "跨行业",
+      "title": "深圳两级法院：AI辅助审判系统上线两年深辅超七十万件案子",
+      "body": "九月二十二日至二十三日，中国法治国际论坛在深圳发布《人工智能司法应用的深圳实践》白皮书：二〇二四年六月建成的全球首个体系性AI辅助审判系统，已覆盖民刑行三大诉讼，全流程帮办案。截至二〇二六年八月三十一日，大模型与智能体累计被调用三千五百四十五万次，辅助阅卷六十点九万件、庭审二十六点九万次、写文书六十七点八万份，深度赋能超过七十万件案件。\n\n白皮书还给出效率账：上诉率、改判发回率分别降百分之四十八、百分之六十五；二〇二五年深圳法院结案七十七万多件，法官人均结案七百四十四件，比上线前人均月结案升约六成。港大法学院学者称深圳是世界范围内最早把大语言模型系统化嵌进法院实操的实践者；巴西、越南、新加坡等二十国代表团来访二十余次。原则仍是AI辅助、法官终审——机器起草，人盖章负责。\n\n所以呢：司法AI值不值钱，看的不是演示庭，是七十万件真案子有没有少上诉——很适合讲「辅助」两个字怎样被办案量钉住。",
+      "links": [
+        "https://www.21jingji.com/article/20260923/herald/9b8d3c6f72b13192e09cd2aef01f8a2f.html",
+        "http://www.szszfw.gov.cn/zhzf/content/post_1668139.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "yunda-gz-university-5vans",
+      "category": "跨行业",
+      "title": "广州大学城：韵达五辆无人车开三条专线，开学行李驳到驿站门口",
+      "body": "九月开学季，广州大学城校道上几辆韵达无人车来回跑，厢里塞着学生提前寄到学校的行李和生活用品。网点六月引进五辆车，开通三条运输专线，覆盖城内多所高校及周边，走「自动化分拣+无人车驳运+驻点就近」：分拣完直接装车，高频往返送到各校区驿站，学生下课就能就近取。\n\n网点负责人胡占伟说，高校快递有潮汐——取件挤在中午十二点到一点半，大件又多。以前小哥上午分完还得骑三轮回网点拉货，现在在派送区等车就行；调度权限还开放给片区快递员，按当天件量自己呼叫。网点计划年内扩到十辆、再加密线路。\n\n所以呢：校园无人车的场景不是科幻配送，是开学周把大件行李准时怼到驿站——很适合讲物流AI怎样吃「潮汐高峰」。",
+      "links": [
+        "https://i.ifeng.com/c/8wWj98zGfUz",
+        "https://finance.jrj.com.cn/2026/09/18202658490934.shtml"
+      ],
+      "prompt": "",
+      "date": "2026-09-18",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "fangchenggang-offshore-wind-robots",
+      "category": "跨行业",
+      "title": "广西防城港海上风电：八十三台风机配轮式挂轨四足AI巡检",
+      "body": "九月，北部湾防城港海上风电示范项目的运维故事被广西能源集团写进公开稿：八十三台风机矗在盐雾风浪里，陆上集控中心一键下发任务，三台巡检机器人覆盖海上升压站和风机关键区——轮式钻狭窄机柜，挂轨沿轨道巡航，风机内AI盯红外热成像，设备识别准确率宣称超过百分之九十八。\n\n陆上开关站还有四足机器人，扛多线激光、惯导和超声波，能爬楼梯碎石窄道，双目云台号称能捉到零点零六摄氏度温差，顺带读表、找渗漏和局部放电。台风过境时它跑防台专项巡检，回传风险并自动出报告。海上风电最贵的不是风机本身，是「人出海难、待得久、风险高」；机器人把高压密闭区的活先扛下来，人留在集控盯大屏。\n\n所以呢：海上风电AI的胜负手，是八十三台风机背后那几台敢出海、敢扛台风的巡检机——很适合讲清洁能源运维怎样从人海战术换成少人值班。",
+      "links": [
+        "https://www.ewindpower.cn/news/show-htm-itemid-34256.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-02",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
+    {
+      "id": "layered-paris-plaster-spray",
+      "category": "跨行业",
+      "title": "巴黎工地一周：瑞士LAYERED喷涂机器人把七厘米隔墙改成三厘米灰",
+      "body": "六月，瑞士创业公司LAYERED在巴黎一座在建楼里待了一周：总包原计划走廊用约七厘米厚石膏板隔墙，改成约三厘米机器人喷涂抹灰，直接多抠出可用面积。团队没带熟悉的抹灰分包，现场用实验室没试过的本地材料重新标定机器人。\n\n这套工艺叫机器人抹灰喷涂：先高分辨率扫墙，只补不平处，再竖直喷匀，避免3D打印分层纹。联合创始人Eliott Sounigo说，抹灰泵上世纪六十年代就成熟，此后几十年几乎没跃进；一位抹灰老板闯进苏黎世联邦理工哭穷「十五年后雇不到人」，才催生这公司。二〇二五年十月瑞士工地首试，二〇二六年才离开大学独立运营。老师傅第一天常爱理不理，摸到喷好的灰亲手收面后，有人会说这是「抹灰匠的梦想」。\n\n所以呢：建筑机器人落地，看的不是展厅喷一面墙，是敢在巴黎真工地用陌生材料改图纸厚度——很适合讲缺工行业怎样把厘米换成钱。",
+      "links": [
+        "https://underthehardhat.org/ai-and-technology/layered-plastering-robot/"
+      ],
+      "prompt": "",
+      "date": "2026-06-01",
+      "added": "2026-10-03T18:30:00+08:00"
+    },
     {
       "id": "prompt-kling-redbull-convenience",
       "category": "提示词",
