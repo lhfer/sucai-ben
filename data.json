@@ -1,5 +1,435 @@
 [
   {
+    "id": "mit-vista-arc-agi3-harness",
+    "category": "硬科技",
+    "title": "MIT 给多模态模型装「无损视觉记忆」：ARC-AGI-3 从 40 分刷到满分",
+    "body": "屏幕上，一局从没见过的小游戏刚开场：规则没人告诉你，只给像素画面和几个按钮。以前大家爱把格子翻成文字，再让模型写程序猜规则；MIT 的人换了个做法——直接把画面留给模型看。\n\n十月二日挂上 arXiv 的 VISTA，核心很朴素：每一次环境返回的帧都原样存着，不压缩、不摘要；模型推理时可以自己点回去看旧帧、放大某个角落、甚至读像素颜色。挂上 Claude Opus 5.0，公开的二十五局 ARC-AGI-3 游戏全部通关，相对人类动作效率（RHAE）从官方基线约四十点六八拉到满分一百；总动作七千三百零二次，比第一次玩的人类参考少约百分之五十七。同套马具挂 GPT-5.6 Sol 也到九十九。消融实验里，加上无损视觉记忆和检查工具那一步，分数从七十跳到九十四——不是又换更大模型，是让模型能「回看」。\n\n所以呢：长程视觉智能，瓶颈经常不在「看不懂这一帧」，而在「上一分钟看见的细节被系统自己扔掉了」。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.02200"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/joshhhhhan/VISTA"
+      },
+      {
+        "label": "X 摘要",
+        "url": "https://x.com/AmericaGetBig/status/2106034249367462273"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "scholar-catalyst-inspiration-gap",
+    "category": "硬科技",
+    "title": "斯坦福考卷：找「真正启发过我」的旧论文，Agent 搜还没 Embedding 准",
+    "body": "一位刚发完论文的一作坐在屏幕前，系统问他：项目刚起步、还没出结果时，哪几篇旧文真把你推了一把？他点了几篇——有的跟题目几乎不像，却给了关键思路；有的主题很近，他却摇头。\n\n十月二日放出的 ScholarCatalyst，把这种「作者亲口认账」的启发关系做成检索考卷：一百八十四位负责人、二百零七个项目、八百九十四个早期问题，要从约十九万篇项目开始前的文献里捞出那些「催化剂」。结果扎心：最强嵌入检索 Top20 召回大约零点四八；会调用同一检索器的 Agentic 搜索反而掉到约零点四二。连可能在训练里见过成品论文的 Claude Fable 5.1，也只到约零点五一。作者还发现：启发文跟查询的语义相似度，往往并不比他们否决的「硬负例」更高——味道不是关键词近邻。\n\n所以呢：科研品味里「该翻哪本旧账」这一刀，现有 Agent 还没学会；堆搜索轮次解决不了候选池一开始就偏了的问题。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.02202"
+      },
+      {
+        "label": "项目页",
+        "url": "https://ohmyksh.github.io/project/ScholarCatalyst"
+      },
+      {
+        "label": "代码",
+        "url": "https://github.com/stanford-iris-lab/ScholarCatalyst"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "ai-oversight-zk-impossible",
+    "category": "硬科技",
+    "title": "密码学家泼冷水：想零知识验收「AI 用了机密数据」——一般做不到",
+    "body": "医院想让模型根据病历判断值班医生适不适合上岗，药企想让模型预测还没公开的分子性质——输出要可信，底层数据又不能亮给验收方。听着像零知识证明该上场的地方。\n\n十月一日，Chiesa、Guan、Yildiz 在 arXiv 上把问题钉死：在随机预言机模型里，对「带预言机的计算」（答案可能依赖人的判断、实验或网页），一般不存在能把机密藏干净的零知识证明；连辩论式可扩展监督也不例外。好消息藏在附带条件里：若预言机给的每条答案都带密码学签名，那么只需抗碰撞哈希，就能用高效证明方和验证方做零知识验收——既不靠「诚实对手」辩论，也不靠计算本身特别稳。\n\n所以呢：想既验收又保密，不能空喊零知识；先问「给你当裁判的那个外部世界会不会盖章」。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.01995"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "gtig-cve-doubled-ai-rce",
+    "category": "硬科技",
+    "title": "谷歌威胁情报：CVE 半年翻倍，AI 挖出的洞一半能直接远程执行",
+    "body": "安全团队的告警面板上，每月新洞数字今年像坐了电梯：一月大约五千，八月爬到一万零七百四十。谷歌威胁情报组（GTIG）把二〇二五年一月到二〇二六年八月的披露和在野利用摊开算账。\n\n他们写：披露量翻倍；在野利用从去年月均约十点五升到今年约十八；零日只是从八微升到十一，八月一度跳到二十二。更刺的是风险画像——能归因到 AI 辅助发现的漏洞里，远程代码执行约占一半，而整体 CVE 生态大约只有四分之一；低风险占比从六成九掉到三成九。真实案例：BeyondTrust 的 CVE-2026-1731 由第三方研究 Agent 自主挖出，公开披露后约四天就有攻击集群上手，七天内至少六个集群跟进。AI 栈本身也成了靶场：编排框架一类在二〇二六年贡献七百八十二条相关 CVE。\n\n所以呢：补丁厂别再按「数量」排班了——AI 更爱挖能直接拿机器的洞，防守得跟着威胁情报挑优先级。",
+    "links": [
+      {
+        "label": "Google Cloud / GTIG",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/"
+      },
+      {
+        "label": "X 讨论",
+        "url": "https://x.com/DailyDarkWeb/status/2105737367902638128"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-09-30",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "apple-macos-fda-ai-agents",
+    "category": "硬科技",
+    "title": "苹果收紧「完全磁盘访问」：点名 AI Agent 风险会「大幅上升」",
+    "body": "Mac 设置里有一项权限叫「完全磁盘访问」——本来多半是给备份软件开后门，绕过一层层隐私弹窗，把邮件、信息、浏览记录整盘摸一遍。十月二日，苹果公开说：往后要加新门槛，用户真想给 App 这份「超级钥匙」，必须非常明确地点头。\n\n导火索写得很直：有开发者拿这项权限干得太满，用户未必搞得清自己交出了什么；而随着 AI Agent 越来越能自主干活，「这种级别访问带来的风险会大幅上升」。背景里还有 Meta Muse 被指读到信息内容的风波——Meta 回应称必须同时打开完全磁盘访问和 Messages 连接器。苹果没给上线日期，但口径已经从「方便备份」改成「Agent 时代要加锁」。\n\n所以呢：Agent 要的不是又一个开关，是最小权限；还靠「整盘授权」偷懒的产品，很快会撞上系统级刹车。",
+    "links": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+      },
+      {
+        "label": "X 讨论",
+        "url": "https://x.com/RonP/status/2106155039685476523"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "prim-math-discovery-bottleneck",
+    "category": "硬科技",
+    "title": "数学「原语」考卷：模型会算不等于会发现，点破结构能多对二十分",
+    "body": "同一道竞赛题，两个模型最终答案正确率差不多，拆开看却像两种动物：一个先抓住「关键结构」再推演，另一个闷头算，算着算着才撞见思路。德州农工等团队把这种结构叫数学原语（Mathematical Primitive）——不是「用归纳法」这种空话，而是点破为什么这题能解的那句洞察。\n\n他们做了 Prim 考卷，拆成发现、生成、消化、执行四维。十二个模型里，独立发现普遍远弱于「看着标准解再提炼结构」；给对原语之后，执行正确率普遍再涨约十八到三十个百分点。生成失败里约八成四落在「发现失败」区，其中不少其实「给了原语就会做」。据此他们训了 Absorb：把原语当教师的特权信息，有界地灌进学生推理，推理时不必再显式吐原语——跨规模平均还能再抬两到四点五个点。\n\n所以呢：刷对答案≠懂结构；数学 Agent 该先找「那一刀」，别只堆更长推导。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.02191"
+      },
+      {
+        "label": "项目页",
+        "url": "https://taco-group.github.io/Math-Primitive/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "mingbird-harness-beats-model",
+    "category": "硬科技",
+    "title": "笔记本上的小模型并不笨：换套马具，完成率能从四成抬到八成八",
+    "body": "同一台 Windows 笔记本、同一个 Ollama 后端、同一批两亿到三百五十亿参数的开源模型，换四个 Agent 马具跑十八个真实任务——写代码过测、整理文件、联网调研。云端大框架下，小模型常被骂「不会当 Agent」：工具说明塞爆上下文、自我纠错绕圈、假装做完其实没交文件。\n\n十月挂出的 Mingbird 论文把锅甩给脚手架：他们设计本地优先马具，对着十种失败形态逐个打补丁——字节级「预填净零」预算、收工前重读任务的完成门、按工具签名抓死循环。在自建对照基准 LRAB 的二百八十八个格子里，Mingbird 总分约零点八八六，对照 goose／opencode／agent-mini 大约零点六三一／零点四七九／零点四零五；两亿参数档只有它没摔崖。第三方 τ²-bench 二百七十八题上，它总分约零点八五六，也压过原生 Agent 和 opencode。作者自己强调：这是系统工程，不是新算法。\n\n所以呢：小模型「不能当 Agent」这句话，很多时候在骂错对象——先查马具，再骂参数。",
+    "links": [
+      {
+        "label": "arXiv HTML",
+        "url": "https://arxiv.org/html/2610.02001"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Mingbird/Mingbird-agent"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "llm-novelty-judge-unstable",
+    "category": "硬科技",
+    "title": "「新不新」交给模型判：改两句提示，同一对想法能翻一半裁决",
+    "body": "自动出科研点子的系统，越来越爱让大模型当「新颖性裁判」：这个主意够不够新？问题是，裁判往往临时拼、在人类论文上验一验，真正要判的却是模型自己生成的点子。\n\nAllenAI 与希伯来大学等团队挖 OpenReview 里审稿人明确夸或喷原创性的段落，做成可控实验。六个裁判骨干上，小改提示就能掀桌子——比如告诉裁判「审稿人认定其中一个新、另一个不新」，同一对想法上超过一半裁决会变，成对准确率能晃五十多分，偶发掉到运气以下。检索和加大推理预算帮助有限；两款专用新颖性评估器，反被最便宜的提示基线压过。生成想法混进来时，裁判往往比只看人类稿更脆。\n\n所以呢：看见谁家 Agent「新颖性涨了」先别鼓掌——先问裁判提示改没改、测的是不是生成分布。",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.02022"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "doom-wait-mod",
+    "category": "好玩AI",
+    "title": "Claude 忙着写代码时，你在 Doom 里和别的等待者对轰",
+    "body": "十月二日凌晨，开发者 Jarrod Watts 丢出一支短视频：Claude Code 刚开放 Mods，他写了一个插件——模型一进入长任务，终端旁直接连上多人 Doom 服务器。更狠的是，局里每一位对手，都是另一些同样在等自己 Claude 跑完的人。帖子截稿时浏览约三十八万次、点赞七千多、收藏近一千八百。有人喊这是「代理循环终于有了加载页小游戏」，有人已经扬言要让第二个代理替自己开枪。Mods 本身昨天早间雷达写过天气预报皮肤，这一支把「等待」做成了战场。所以呢：别再只截一张状态栏——录一段「AI 还在想、人已经在走廊里互射」的对照，观众一秒懂「工具延迟也是内容」。",
+    "links": [
+      {
+        "label": "Jarrod Watts 原帖",
+        "url": "https://x.com/jarrodwatts/status/2105858869482471602"
+      },
+      {
+        "label": "Claude Code Mods 入门",
+        "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "ldraw-nova-lego",
+    "category": "好玩AI",
+    "title": "跟乐高说「盖一座起重机」：代理吐出可装配的积木源码",
+    "body": "十月二日傍晚，新人 antelocnova 把开源项目 ldraw-nova 丢上 Show HN：你丢一句模型想法，代理用 LDraw——一种专门描述「哪块积木放哪、怎么转」的装配语言——写出可打开的乐高 CAD 文件，再自己渲染、查碰撞、修错位，最后还能导出进 Blender 的 .glb。后台可接 Astra、Opus 5.5 或 OpenRouter；作者还把样例馆挂在 anteloc.github.io。HN 管理员 dang 看见后亲自改成 Show HN，帖子冲到约七十分。有人问能不能用手里那盒零件做约束，有人嫌「AI 染指想象世界」发毛，作者坦言 Technic 传动还在打补丁、大型件可能要几千块真砖。所以呢：演示别只秀一张渲染图——打开 .mpd 文本让观众看见「代理心里在摆哪一块」，再补一句「可装配、可碰撞检查」，比又一张文生 3D 更刺。",
+    "links": [
+      {
+        "label": "GitHub：ldraw-nova",
+        "url": "https://github.com/anteloc/ldraw-nova"
+      },
+      {
+        "label": "样例馆",
+        "url": "https://anteloc.github.io/index-samples.html"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49937916"
+      },
+      {
+        "label": "演示视频",
+        "url": "https://youtu.be/YDjjxGqWpgU"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "claude-old-street-camera",
+    "category": "好玩AI",
+    "title": "把相机对准伦敦旧街，Claude 连拍一晚被官号转了",
+    "body": "九月二十九日，伦敦的 Paolo Rosson 给 Claude Code 接上相机，镜头怼着窗外 Old Street，只留一句指令：整晚拍照，尽量有创意，然后上床睡觉。十月二日，Anthropic 官方账号 @claudeai 把这支实验收进一条创意合集，配文就一句「Claude Code and a camera, left running overnight on Old Street」。原帖当时已有约十万次浏览、近一千四百赞；官号转评再带八九千曝光。媒体提醒：这是用户自建工作流，不是官方相机功能。Paolo 本人是牛津原子激光物理博士，平时用 AI 当工程队。所以呢：别空吹「代理能过夜」——放一段窗外星空与街灯被它自己取景的蒙太奇，再说「唯一指令是尽量有创意」，比功能清单更抓人。",
+    "links": [
+      {
+        "label": "Paolo 原帖",
+        "url": "https://x.com/redp314/status/2104862311752044895"
+      },
+      {
+        "label": "Claude 官号转评",
+        "url": "https://x.com/claudeai/status/2106125474900701633"
+      },
+      {
+        "label": "报道摘要",
+        "url": "https://runtimewire.com/article/claude-code-old-street-camera-experiment"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "dino-chat-bubble",
+    "category": "好玩AI",
+    "title": "孩子在聊天气泡里玩恐龙跑酷，下一句消息差点把它重置",
+    "body": "十月二日，工程师 Krishan 写了一篇博客：他在手机 Chrome 里跟基于 Claude Code 的私人代理聊天，代理突然在回复气泡里嵌进一个沙箱网页——一只恐龙跑酷。孩子上手就玩，是全家对代理反应最大的一次。难处不在「画出游戏」，而在保活：聊天一刷新，旧做法会整段替换气泡，iframe 重载，仙人掌刚跳过、进度归零，音频也断。他改成只追加新气泡、绝不挪动旧帧，恐龙才肯活着。同晚还有井字棋卡，对手是极小极大算法，故意留百分之十五随机，人才赢得到。沙箱故意拿不到宿主登录态，颜色只能用主题变量，所以暗色亮色一切换，下一张卡还是同一套皮。所以呢：别只吹「代理会回网页」——录一段「新消息进来、恐龙不重启」，观众才懂什么叫真正嵌进聊天。",
+    "links": [
+      {
+        "label": "Krishan 博客",
+        "url": "https://krishansubudhi.github.io/agents/2026/10/02/a-dinosaur-in-a-chat-bubble.html"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "bureau-dragon-denied",
+    "category": "好玩AI",
+    "title": "AI 文员放行了四十一厘米的龙，你的工作是盖「拒绝」",
+    "body": "十月一日，有人在 DEV 上交了一款像素风窗口游戏《虚构许可证局》：你坐检查亭，申请人递来「周二吹口哨执照」「室内养小龙许可」「中等云朵地契」。桌上永远躺着 AI 文员「三级书记」的备忘录——「有名有姓、水坑执照齐全、灭火方案提到水，准了」。可规则书写明室内龙不得超过三十五厘米，眼前这只四十一。你抽出印章砸上 DENIED，错盖就会吐出罚单；第二天公告改规则，文员还在套昨天的标准。背后是真的 Sanity 工作流：市民侧可真提交，Gemini 文员会退回要「闹鬼责任豁免表」，天空类再过一道「气象部」AI，用人声航运预报腔批示。作者几乎没手写代码，Claude Code 带着 BUILD-LOG 一路搭。试玩不用账号。所以呢：别再空讲「人机审核」——丢一句「文员已通过、龙超了六厘米」，观众自己会伸手找章。",
+    "links": [
+      {
+        "label": "试玩入口",
+        "url": "https://bureau-of-imaginary-permits.vercel.app/shift"
+      },
+      {
+        "label": "DEV 撰写",
+        "url": "https://dev.to/malbolged/the-ai-clerk-approved-a-41-cm-dragon-your-job-is-to-stamp-denied-35le"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "roman-mosaic-duck-claude",
+    "category": "好玩AI",
+    "title": "七千多块真立体石子：Claude 在浏览器里拼出一只罗马鸭子",
+    "body": "十月一日，Paolo Rosson 看见有人用 Opus 拼乐高小鸭，心里一痒：两千年前的版本会长什么样？他让 Claude Code 改做罗马马赛克。没有图像模型、没有视频模型，全是浏览器里的代码：先从眼睛下九块瞳孔和一圈金边，一块一块真立体石子排下去，七千四百多块后，整只鸭子成型。稍早一版帖子写七千八百七十八块，说「按镶嵌工匠的方式逐行铺」。两条帖合计浏览约七万、点赞过千。有人追问能不能增强模糊照片，他自己前一天才让 Claude 开索尼相机连拍训练过。所以呢：别再只发一张成品马赛克——放「从瞳孔长到整鸭」的逐块回放，再补一句「零图像模型」，观众会自己争论这算不算艺术。",
+    "links": [
+      {
+        "label": "逐块铺鸭子原帖",
+        "url": "https://x.com/redp314/status/2105745567712477403"
+      },
+      {
+        "label": "七千八百七十八块版",
+        "url": "https://x.com/redp314/status/2105647218992550335"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "chatgpt-sites-publish",
+    "category": "好玩AI",
+    "title": "ChatGPT 里直接盖网站：边聊边预览，一键发布给别人点",
+    "body": "十月一日，OpenAI 公开页「Sites in ChatGPT」在 HN 冲到两百多分：你在对话里描述要做什么站，或者 @Sites 一声，ChatGPT 边建边在应用内浏览器打开预览，改布局、改文案、加功能，满意了再发布——可只给指定人、工作区或公开。访客还能「用 ChatGPT 登录」存进度，工作区可挂只读的已连接工具，域名可改可绑自定义。官方样例里有录音室、潮汐小屋、气味地图这类怪站，强调不写代码也能出仪表盘、客户门户甚至小游戏。公测面向 Plus、Pro、Business 等计划，额度按套餐走。所以呢：别再只说「AI 会写前端」——录一段「从一句需求到可分享链接」的全程，观众才懂聊天框变成了发行台。",
+    "links": [
+      {
+        "label": "官方介绍",
+        "url": "https://chatgpt.com/features/sites/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49927747"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "shiphq-isometric-office",
+    "category": "好玩AI",
+    "title": "付费用户走进等距办公室：你的 MRR 变成每天一场欢迎会",
+    "body": "十月二日，ShipHQ 杀进 Product Hunt 前排：这是一款给独立开发者的免费 iPhone 应用，接上 RevenueCat 之后，每个付费订阅者变成办公室里的小人，试用戴帽子走进来，流失的人被欢送出门——创作者还写了泼水送行的土耳其老习俗。每天打开有 Daily Brief，把昨夜新增、转化、流失像短剧重播一遍，真实里程碑落成墙上奖杯，绝不追溯连接之前的历史。真实月经常收变成「公司现金」，只能用来给办公室买家具升级桌子；另有 AI 经理 Leo、Ada、Noah 等早上各交一页有来源的短讯。免费可挂两款应用。所以呢：别再甩一张灰扑扑的收入曲线——剪十秒「门铃响、礼花炸、团队鼓掌」的进门礼，独立开发者才愿意每天点开。",
+    "links": [
+      {
+        "label": "官网",
+        "url": "https://getshiphq.com/"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/app/id6812710154"
+      },
+      {
+        "label": "Product Hunt 日榜",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/10/2"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "miami-car-garage-demo",
+    "category": "好玩AI",
+    "title": "迈阿密日出漫步：丢钱卷帘门升起，坐进概念车开走",
+    "body": "十月一日晚上，账号 @drcollect 放出一支三分概念片：清晨走在迈阿密海滩，找到车库，扔进一笔钱，卷帘门升起露出你的车，上车开走。全是演示数据，不是真交易。作者写明用 Claude Code 加 Claude Opus 5.5 搭的三维场景，镜头跟着人走、门自己开，像在预演未来交车仪式。帖子截稿时约三万次浏览、五十多赞，评论区在问能不能接到真实投放或链上资产。它不宣称上线产品，却把「到货那一刻」拍成可点开的短片，比又一张静态渲染更像故事。所以呢：卖车也好卖课也好——先拍一段「人走进场景、门自己开」的三十秒，再谈转化，比参数表先赢注意力。",
+    "links": [
+      {
+        "label": "原帖视频",
+        "url": "https://x.com/drcollect/status/2105770031636172871"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "jaynshare-claude-pool",
+    "category": "好玩AI",
+    "title": "朋友的 Claude 额度还能借？有人开源了「拼车」代理",
+    "body": "十月二日，Show HN 出现 jaynshare：自建一个代理，几个人的 Claude 账号挂上去，本机把命令换成 jaynshare 开头，每次会话挑还有余量的号去跑。作者把风险写在说明文档第一屏——拼订阅撞官方条款，可能整圈账号被封且不退款，还单开「这安全吗」专页和安全模型说明。苹果电脑上有一键体验脚本，真上线要自建 Linux 服务端；客户端覆盖苹果与 Windows。论坛分数不高，但评论区的情绪很统一：有人周二就见底，有人十五分钟烧五百刀，额度焦虑本身就是段子。所以呢：别只骂「额度不够」——把「拼车开关」和官方警告并排截图，观众自己会吵该不该碰。",
+    "links": [
+      {
+        "label": "GitHub：jaynshare",
+        "url": "https://github.com/jaynlabs/jaynshare"
+      },
+      {
+        "label": "HN 条目",
+        "url": "https://news.ycombinator.com/item?id=49937235"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "agent-scrub-history-keys",
+    "category": "好玩AI",
+    "title": "翻自己的编码代理聊天记录，一把扫出明文密钥",
+    "body": "十月二日深夜，开发者 thesubtlety 在 Show HN 自曝：他在编码代理的历史文件里翻到接口密钥，于是做了 Agent Scrub。工具在本地扫描 Claude Code、Codex、Cursor、Copilot、Windsurf、Aider 等对话与工具输出，标出疑似密钥并能原地打码，数据不上云；故意不碰登录配置和环境变量文件这类「正在用的凭证」，只清理回忆录里的明文。截图里同一把云厂商密钥在 Codex 历史里出现六份副本。项目还很新、星星不多，但笑点也是疼点：代理越能干，越爱把秘密写进自己的聊天存档。所以呢：下次演示「代理多聪明」之前，先对自己的历史跑一遍擦洗——比再讲一次提示词注入更让人坐直。",
+    "links": [
+      {
+        "label": "GitHub：agent-scrub",
+        "url": "https://github.com/thesubtlety/agent-scrub"
+      },
+      {
+        "label": "HN 条目",
+        "url": "https://news.ycombinator.com/item?id=49939584"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "outis-fake-bounce-spam",
+    "category": "好玩AI",
+    "title": "对 AI 群发回一封「用户不存在」，让对方把你当死号删掉",
+    "body": "十月二日，开发者 dtonon 放出开源小工具 Outis：你收到一封垃圾或可疑来信，它生成并回一封假的「用户不存在」退信，让发件方以为这个地址根本不存在。作者说上世纪末就写过类似东西，最近又拣起来，是因为人工智能群发常会期待回复、也更听话地清理列表。他自己测了几周，同类跟进信少了，但坦言没有严格对照实验。工具故意做小、做本地，不装成一整套安全套件。所以呢：对抗自动化垃圾，不一定要再训练一个分类器——有时候一封「查无此人」的假退信，比把整封信丢进模型更解气。",
+    "links": [
+      {
+        "label": "GitHub：outis",
+        "url": "https://github.com/dtonon/outis"
+      },
+      {
+        "label": "HN 条目",
+        "url": "https://news.ycombinator.com/item?id=49934692"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "hotel-lobby-rap-duet",
+    "category": "好玩AI",
+    "title": "两张立绘扔进橙色棚：AI 给你生成一段 Hotel Lobby 说唱对唱",
+    "body": "十月二日，独立站 hotellobbygenerator.net 出现在 Show HN：灵感来自 Migos 成员 Quavo 与 Takeoff 在 COLORS 节目里唱《Hotel Lobby》的那支橙棚单麦表演。你各传一张全身角色图，左图站左、右图站右，生成器按原片分段对齐动作与口型，再把原曲贴回时间线，可出五秒、十秒或二十四秒。新号送一百五十积分够试一支七百二十 p 预览；站点声明与 COLORS 和原艺人无关，并禁止未授权真人与未成年人形象。样例里有流浪汉对教授、总统对亿万富翁、冒险者对精灵。所以呢：追视频梗别只转原片——丢两张自家角色、十五分钟后收回一段「同一首歌、新主演」，评论区自己会吵版权和趣味。",
+    "links": [
+      {
+        "label": "生成器站点",
+        "url": "https://hotellobbygenerator.net/"
+      },
+      {
+        "label": "HN 条目",
+        "url": "https://news.ycombinator.com/item?id=49933313"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
+    "id": "starskirmish-hillclimb-race",
+    "category": "好玩AI",
+    "title": "Astra 对 Opus：两台前沿模型爬同一座星际争霸人机山",
+    "body": "十月二日，StarSkirmish 公开登山赛道：两台前沿模型各自写一个星灵种族的《星际争霸：母巢之战》机器人，用 C++ 对接经典接口，在原生模拟器上打。Claude 走 Claude Code，GPT 走 Codex 命令行，从脚本冲锋一路爬到人类顶尖脚本档；每张图双方出生点各打满，三张图一起过才算晋级，不限时。站点把五档对手和胜场门槛列成表，强调这是更长时程的实现赛，不是比谁五分钟出脚本。仓库里已有较早的大模型虫族机器人条目，这一波的新意是「双模型同山竞速」。所以呢：别再只晒基准分数——挂一块「谁先打过顶尖档」的公开记分牌，连非玩家也能看懂较劲。",
+    "links": [
+      {
+        "label": "Hillclimb 赛道",
+        "url": "https://starskirmish.com/hillclimb/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=49935608"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-03T10:30:00+08:00"
+  },
+  {
     "id": "thomson-reuters-ross-3cir",
     "category": "痛点",
     "title": "费城上诉庭：用Westlaw摘要训竞品法律AI，不算合理使用",
