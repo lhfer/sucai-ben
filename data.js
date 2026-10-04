@@ -1,6 +1,649 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-04T10:30:00+08:00",
+  "updated": "2026-10-04T14:30:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-tokyo-2003-hotel",
+      "category": "提示词",
+      "title": "二〇〇三年东京，MiniDV 跟拍入住",
+      "body": "前台递给她一把带编号吊牌的金属钥匙，旁边没有刷卡机，也没有人低头看手机。\n\n有人给 Seedance 2.5 写了整段「二〇〇三年东京小旅馆入住」提示词：同一张年轻日本女性的脸、同一件衣服、同一只拉杆箱，从推箱进门、填纸质表格、付现金拿钥匙，到坐老电梯、对房号开锁、拉开窗帘看东京、去老式贩卖机投币买水，再回到同一间房坐到窗边。词里把时代锁成二〇〇三到〇四年——CRT 电视、模拟电话、木家具——并明确禁止智能手机、房卡和 LED 屏。镜头也写死：朋友手持 MiniDV，轻微晃、对焦会摸索、曝光会跳，不是电影机，也不是故意做旧的 VHS。\n\n创作者可以直接复制后换城市或旅馆风格，重点是「当年没有的东西」黑名单。\n\n所以呢：想做年代感，先列一张禁用品清单，比堆怀旧滤镜管用。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/saniaspeaks_/status/2106608359851917319"
+        }
+      ],
+      "prompt": "Create a 30-second photorealistic early-2000s Tokyo hotel vlog featuring ONE consistent young Japanese woman from the reference image. Preserve her exact face, hair, body proportions, outfit, shoes, handbag and small wheeled suitcase throughout. No identity or wardrobe changes.\n\nERA LOCK — TOKYO 2003–2004: Old Japanese hotel, older cars, traditional reception, paper registration, Japanese cash, physical metal room key with numbered tag, old elevator, corridor, CRT TV, analog phone, wooden furniture and period vending machine. No smartphones, keycards, smart locks, LED screens, flat TVs or modern technology.\n\nCAMERA: Genuine friend-recorded MiniDV/DV camcorder. Handheld, imperfect framing, slight shake, autofocus hunting, exposure shifts, soft DV detail and natural motion blur. Use front, side, three-quarter, OTS and occasional close-ups. Not 4K, DSLR, cinematic or VHS.\n\nEXACT SEQUENCE\n\n0–4s: Walks through Tokyo pulling suitcase → approaches and enters hotel.\n4–7s: Reception → greets staff → receives paper form → fills it → pays cash → receives physical room key + numbered tag.\n7–10s: Takes suitcase → elevator → presses button → enters → rides to correct floor → exits.\n10–14s: Walks corridor → finds correct room → checks number → unlocks with physical key → enters and closes door.\n14–18s: Places suitcase beside bed → opens curtains → reveals Tokyo view → returns → opens suitcase and unpacks clothes/items.\n18–22s: Leaves room with Japanese coins → walks to period vending machine → inserts coins → buys bottled drink.\n22–26s: Returns to SAME room → unlocks with SAME key → enters → closes door → sits by window → opens drink and takes a sip.\n26–30s: Evening becomes night. She stands by the window holding the drink while Tokyo lights glow outside. End on cozy room + partially unpacked suitcase + city view.\n\nCONTINUITY LOCK: Every action must physically happen in this exact order. No teleportation, skipped actions, reversed movement, duplicated objects or sudden location changes. Same woman, suitcase, key, room and drink throughout. Realistic geography and object handling.\n\nNatural expressions and behavior. Authentic spontaneous early-2000s travel memory, not an advertisement.\n\nNO subtitles, captions, watermark, modern UI, logos or AI-looking faces.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-world-tilt-cups",
+      "category": "提示词",
+      "title": "世界歪四十度，人还站直端着杯",
+      "body": "她在干净展厅中央轻轻跺了一脚，整座世界跟着逆时针歪了四十度，杯子却一滴没洒。\n\n有人用 Seedance 2.5 做物理连续性实验：一镜到底，地面、线条、建筑一起倾斜；人物始终站直，手里两只杯子保持水平；倾斜定住后，空杯、蓝球和纸盒从高的一边滚向低的一边，还有路人在陡坡上打滑挣扎。提示词把顺序写死——干净场景、跺脚、倾斜、保持倾斜、物体滚动、路人经过——不许提前出现道具，不许切镜，不许世界自己摆正。参考图也分了工：一张管人物和展厅，一张管倾斜后的道具。\n\n创作者可以直接复制后改成办公室或地铁车厢，重点是「倾斜后不许回正」。\n\n所以呢：想测视频模型稳不稳，别只写好看，写一条「世界歪了人还直」的硬规矩。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/MeenakshiYACS/status/2106606170383495291"
+        }
+      ],
+      "prompt": "Generate a photorealistic fashion video using both references.  Image 1 defines the woman and clean gallery.  Image 2 defines the tilted scene and props.\n\nOne continuous shot.\n\n0–1.6s: Start level and still. The woman stands centered, holding both cups. She looks slightly bored, glances aside, then back at camera. No objects or people.\n\n1.6–2.1s: She gives a subtle knowing look, then makes one small natural stomp.\n\n2.1–3.0s: After the stomp, the ENTIRE WORLD tilts dramatically 40° counterclockwise: left side drops, right side rises. Floor, lines and architecture tilt together. She remains perfectly upright and keeps both cups level. She watches the tilt, then raises one eyebrow. NOTHING moves or enters during the tilt.\n\n3.0–8s: HOLD the full 40° LEFT TILT until the end. NEVER return to level.\n\nAn empty cup, blue ball and closed box enter from the raised RIGHT edge and roll rapidly toward the lower-left, with rotation, acceleration and small bounces. Papers tumble after them.\n\nOne passerby enters from the RIGHT, slips on the steep slope with quick braking steps, leans uphill and struggles to balance. They pass behind the woman toward the lower-left and exit.\n\nShe follows them with her eyes, then looks back at camera with a raised eyebrow and restrained amused half-smile. Her body, hands and cups stay steady.\n\nFinal frame: world still strongly tilted 40° LEFT, woman upright and unchanged.\n\nAudio: soft stomp, deep tilt rumble, rolling objects, sliding shoes and footsteps. No music or dialogue.\n\nStrict order:\nClean scene → stomp → 40° left tilt → HOLD tilt → objects roll → passerby.\n\nNo early props, cuts, floating objects, right tilt, spills, collisions, deformation, text, logos or watermarks.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-lego-boy-build",
+      "category": "提示词",
+      "title": "卧室搭乐高，三十秒从零件到成品",
+      "body": "午后阳光打在木桌上，小男孩盯着一堆彩色积木，开始咔嚓咔嚓往上搭。\n\n有人给 Seedance 2.5 写了三十秒温馨三维动画短片：先建立卧室与书桌，再进入搭积木延时、手部特写、结构成形，最后镜头拉开揭示成品，男孩露出真心的笑。提示词要求男孩和作品从头到尾长得一样，允许用延时压缩过程，但禁止字幕、水印和商标。镜头在正面、侧面和过肩之间平滑切换，房间光线也跟着下午慢慢走。风格是圆润可亲的三维，不是真人纪实。\n\n整段提示词完整可复制，换积木主题或房间布置即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换积木主题或房间布置，重点是把「搭的过程」拆成看得见的几段。\n\n所以呢：儿童题材别只会喊可爱，把过程写进时间轴，成片才像短片。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Goodmanprotocol/status/2106603332475425034"
+        }
+      ],
+      "prompt": "Create a 30-second bright, heartwarming 3D animated short about a young boy carefully building a LEGO model in his bedroom. Playful high-quality 3D animation, vibrant colors, smooth rounded shapes, expressive character animation, soft cinematic lighting, and a charming sense of childhood creativity. Use tasteful time-lapse sequences to compress the building process while keeping the boy and LEGO model visually consistent throughout. No text, logos, subtitles, or watermarks.\n\n[0–5s] — THE BEGINNING\nWide establishing shot of a cozy child’s bedroom in the afternoon. Warm sunlight streams through the window onto a wooden desk covered with colorful LEGO pieces. The boy sits at the desk, completely focused on his project. The camera slowly pushes toward him as he carefully studies the pieces and begins assembling them.\n\n[5–10s] — BUILDING MONTAGE\nTransition into a playful time-lapse. The boy rapidly connects LEGO pieces as the structure grows in his hands. Pieces are sorted, selected, snapped together, and rearranged. The camera smoothly changes between front, side, and over-the-shoulder angles while the room gradually shifts with the passing light.\n\n[10–15s] — HANDS AT WORK\nClose-up of the boy’s hands working with precision. His fingers pick up tiny colorful bricks, rotate them, and press them firmly into place. Follow the movement of his hands with smooth camera tracking. Small piles of unused pieces surround the growing LEGO model.\n\n[15–20s] — THE CREATION TAKES SHAPE\nAnother energetic time-lapse shows the LEGO creation becoming increasingly detailed. Walls, windows, small structures, and colorful decorative elements appear piece by piece. The boy occasionally pauses to inspect his work before continuing. His concentrated expression slowly turns into visible excitement.\n\n[20–25s] — ALMOST FINISHED\nThe camera moves around the desk as the final sections are assembled. The boy carefully places the last few pieces, checks the model from different angles, and makes a tiny adjustment. He leans back slightly, realizing that the build is finally complete.\n\n[25–30s] — THE REVEAL\nThe boy looks up with a proud, genuine smile. The camera slowly pulls back to reveal the completed LEGO creation sitting proudly on the desk. Warm sunlight illuminates both the boy and his finished masterpiece. End with a gentle cinematic orbit around the model and the boy admiring it.\n\nSTYLE: polished 3D animation, vibrant child-friendly colors, smooth fluid motion, expressive face and hands, soft realistic materials, detailed LEGO pieces, warm sunlight, cinematic depth of field, playful time-lapse transitions, charming childhood atmosphere, high-end animated-film quality, 4K.\n\nAUDIO: gentle room ambience, soft LEGO clicking and snapping sounds, subtle upbeat playful music, quiet time-lapse transitions, and a warm musical lift during the final reveal. No dialogue.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-knit-night-sky",
+      "category": "提示词",
+      "title": "织一条围巾，扔出窗外变夜空",
+      "body": "夜里，银发老太太坐在木摇椅上织围巾，深蓝色毛线一直拖到地板上。\n\n有人用 Seedance 2.0 Fast 写了一段诗意短片：先中景织围巾，再特写发现针脚里藏着星星和缓慢旋转的星系，最后她把围巾从窗口抛出去，围巾越过屋顶展开成真正的夜空。负面提示写得很狠——多手指、第二个人、霓虹卡通、乱闪镜头、白天天空一律不要。整段大约十五秒，却把「手工」接到「宇宙」：先让你相信那是一条普通围巾，再让它变成天空。\n\n整段提示词完整可复制，换织品颜色或城市屋顶即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换织品颜色或城市屋顶，重点是先写实、再飞升。\n\n所以呢：奇幻转身要成立，先让观众相信那是一条普通围巾，再让它飞出去。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/DeCat2025/status/2106559472432795987"
+        }
+      ],
+      "prompt": "0–5s: One elderly woman with silver hair sits alone in a wooden rocking chair beside an open window at night, knitting with two wooden needles. A long dark blue scarf spills from her lap across the wooden floor. Warm amber lamp light, soft shadows. \n\nMedium shot.5–10s: The viewer moves closer to her hands and the scarf, and the dark yarn reveals tiny glowing stars and slowly swirling galaxies woven into the stitches. One star catches on the tip of her needle and sparkles. Her face softens into a quiet smile. \n\nClose-up.10–15s: She ties off the final stitch and gently tosses the scarf out the open window, where it unrolls upward over the rooftops and becomes the real night sky, stars settling into place. Wide shot from outside the house looking up, warm window glow below, deep blue sky above.\n\nNegative Prompt: extra fingers, extra hands, deformed hands, fused fingers, more than two knitting needles, melting needles, warped yarn, second woman, duplicate person, child, modern furniture, television, phone, harsh white lighting, neon colors, cartoon style, anime style, plastic skin, distorted face, flickering, glitch artifacts, text, watermark, logo, fast camera shake, slow motion, scarf turning solid, glowing face, sparkle overload, lens flare spam, fireworks, daytime sky",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-anime-insole-clean",
+      "category": "提示词",
+      "title": "十五秒洗脏鞋垫，漫画风解压片",
+      "body": "俯拍不锈钢台面，一只脏到发黄的鞋垫躺着，一只漫画手举着带绿盖的小喷瓶。\n\n有人给 Seedance 写了十五秒竖屏日式赛璐璐解压片：喷泡沫、白闪冲击、打圈搓洗、冲水翻面，脏渍化成墨线卷走，最后鞋垫亮成白板还带星星闪光。词里规定只有手和前臂入画、不要人脸，并配上喷雾嘶声、泡沫噼啪、流水和轻快 lo-fi。速度线、网点、冲击白闪都写进时间轴，像在做漫画分镜而不是实拍广告。竖屏九比十六，方便直接发短视频。\n\n整段提示词完整可复制，换脏物对象即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换脏物对象，重点是「脏→净」对比写满。\n\n所以呢：解压视频别急着给角色加脸，把清洗步骤拍清楚更重要。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/nadyamaje/status/2106554883235356947"
+        }
+      ],
+      "prompt": "15-second vertical 9:16 Japanese 2D anime short, satisfying cleaning transformation. Hand-drawn cel animation look, clean black ink outlines, vivid colors, soft cel shading, manga-style editing with speed lines, halftone screentone dots, sparkle effects and white impact flashes. Studio-quality anime production, smooth motion, 24fps. Subject: a worn, dirty shoe insole (brown-gold stains, footprint imprint) lying on a brushed stainless steel counter, shot from directly above. An anime-style hand (no face, no body, only hand and forearm visible) holds a small black spray bottle with a green cap. Cool silver background with soft window light and tiny water droplets. Shot 1: Locked top-down shot, 3 seconds. The dirty insole lies on the steel counter, a hand presses it flat. Dust motes float, subtle halftone vignette at the corners, thin speed lines drift in from the edges. Shot 2: Close top-down shot, 3 seconds. The spray bottle sprays a fine mist onto the insole, thick white foam bursts outward and spreads across the surface, bubbles catching sparkles. A one-frame white impact flash with radial ink lines on the first burst of foam. Shot 3: Tight overhead shot, 3 seconds. The hand rubs the foam in circular motions, the brown-gold dirt dissolves into the white foam and streams toward the edge in curling ink-like swirls. Dynamic motion lines follow the hand. Shot 4: Overhead shot, 3 seconds. A rinse of clear water washes the foam away, the insole is flipped over in one quick whip motion, revealing a bright clean white surface. Glittering sparkles and shine streaks pop across it. Shot 5: Slow push-in from above, 3 seconds. The spotless white insole gleams on the steel counter, the hand sets the bottle down at the corner. Final sparkle burst, soft glowing light, manga-style screentone vignette, held for the last beat like a manga cover panel. Audio: crisp spray hiss, fizzing foam crackle, rhythmic scrubbing, flowing water, a bright sparkle chime on each shine effect, soft upbeat Japanese lo-fi beat underneath. No speech, no singing. Avoid: faces, realistic live-action look, 3D render, text, subtitles, logos, brand names, extra fingers, deformed hands, flicker.  15-second vertical 9:16 Japanese 2D anime, satisfying cleaning transformation, top-down shot. An anime-style hand (no face) sprays foam onto a dirty brown shoe insole on a stainless steel counter, scrubs the foam in circles, rinses it, and the insole turns bright clean white with sparkle effects. Manga-style speed lines, halftone dots, and a white impact flash on the first foam burst. Audio: spray hiss, foam crackle, scrubbing, water, light sparkle chimes, soft lo-fi beat. No faces, no text, no logos.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-la-laundromat-ball",
+      "category": "提示词",
+      "title": "洗衣店等人，对墙扔球打发时间",
+      "body": "洛杉矶洗衣店黄昏，男人坐着等衣服干，阳光从百叶窗切成一条条暖光。\n\n有人给 Seedance 2.5 写了十五秒生活切片：脸部慢绕、往洗衣机塞衣服、随手抓走无商标的蓝色洗衣液、最后无聊地对墙扔小球再接回来。风格是手绘感三维、旧青绿墙和尘埃光柱，声音只保留机器轰鸣和球撞墙，不许配乐、不许对话。角色发色、红头巾、黑背心和体型在四段镜头里锁死，房间与晚霞方向始终一致。它不是大阪洗衣店回忆杀，而是等人时的无聊瞬间。\n\n创作者可以直接复制后换等待场景，重点是写清「等人时手在干嘛」。\n\n所以呢：日常戏要好看，写清手上的小动作，比堆情绪形容词更管用。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AstroTheWizard/status/2106503714659824005"
+        }
+      ],
+      "prompt": "(Seedance 2.5 on Higgsfield, 720p, 15 s)\n\nA 15-second slice-of-life sequence in a small sunlit LA laundromat, late afternoon: a man waits out the wash, loads a machine, picks up detergent on the move and kills time throwing a ball against the wall. Warm, lived-in and inviting, like an ordinary afternoon in Havana: humid golden light, faded paint, machines humming, nobody in a hurry. Stylized 3D animated cinematic look: chunky hand-painted machines, worn teal walls, cracked terracotta and grey tiles, hard warm sun shafts through window blinds, glowing dust in the air, bloom, soft halation, light film grain.\nReferences: @[Image 1](image_1) controls his appearance and the world: keep his face, silver-white hair with the red lock and the black lock, grey eyes, heavy brows, freckles, stubble, red bandana with the small white sun print, black ribbed tank top, cord necklace with the small metal pendant, black trousers and heavy build exactly, and the painted brushwork on his skin and clothes; keep the laundromat, its colours and its light exactly. It is not a first frame.\nShot 1, 0–4s. The wait.\nCamera: extreme close-up on his face, a slow continuous orbit around him from his right side to his front, at eye level, 50mm feel, smooth, no shake.\nAction: he sits still, forearms on his knees, looking toward the window. The sun through the blinds lays warm stripes across his cheek. His eyes drift slowly around the room, calm, contemplative, in no hurry; one slow breath lifts his shoulders. Behind him, out of focus, the machines tremble and hum as they spin, a drum full of tumbling colour.\nShot 2, 4–8s. Loading the machine.\nCamera: medium shot from the side at waist height, 35mm feel, a slow push-in toward his hands.\nAction: he is half bent in front of an open front-loading washer, a bundle of clothes in his hands. He glances down at the clothes with a small spark of life in his eyes, a hint of a smile, then feeds them into the drum with an easy push of his forearm. Fabric folds and slides into the machine. Sun shafts and dust hang in the air around him.\nShot 3, 8–11s. The detergent.\nCamera: extreme close-up locked on a plain blue plastic detergent jug, completely blank, no label, no printing, standing on top of a washer in a stripe of sunlight. The camera does not move.\nAction: for a beat, only the container and the dust in the light. His hand enters the frame, grabs the handle without stopping, and he walks through the frame, his body passing close to the lens, and continues out of the frame on the other side. The top of the washer is left empty in the sun.\nShot 4, 11–15s. Killing time.\nCamera: starts as a medium-wide shot, a slow pan that follows the ball while the camera drifts closer to him through the movement, 35mm feel, smooth.\nAction: he leans against the machines, bored, and throws a small ball at the teal wall. It hits, bounces off the tiles and comes back to his hand; he catches it without looking and throws it again, loose and lazy. Low golden sun cuts through the blinds in long bars across the room; dust glows each time the ball crosses a shaft of light.\nEnd state: he catches the ball and holds it, head resting back against the machine, eyes half closed in the warm light.\nContinuity: his face, hair, bandana, black tank top and build identical in all four shots; he wears only the black tank top, never a shirt or jacket over it. The same room, the same late-afternoon sun from the window, the same colours.\nSound: native foley only.\nShot 1: the low rumble of spinning drums, the rattle of a machine on the tile floor, a slow breath.\nShot 2: the soft thump of the washer door, fabric sliding, a quiet exhale.\nShot 3: the plastic handle knocking as he grabs it, footsteps on tiles passing and fading.\nShot 4: the ball hitting the wall, bouncing on the tiles and slapping into his palm, again and again, the machines humming underneath.\nNo music. No dialogue. He does not speak. No text, numbers or logos on anything, including posters and the detergent. No other people. No cartoon facial expressions. No extra limbs or bent joints. The painted textures stay fixed on skin, clothes and surfaces as things move.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-monkey-party-pov",
+      "category": "提示词",
+      "title": "凌晨三点，小猴子派对手机直拍",
+      "body": "凌晨三点的暗红色绒布厅，闪光灯一闪一闪，一群穿卡通阔腿裤的小猴子在晃。\n\n有人用 Seedance 2.5 写成「手机直拍派对」：婴儿猕猴体型、巨大眼睛、歪戴墨镜和棒球帽、对镜装酷、碰杯、差点握手却撞额头。镜头永远抖、永远跟拍、硬切踩点，像有人夹在它们中间跳舞。提示词把三十秒里几乎每一拍都点名，并禁止成人猴、禁止平滑云台、禁止电影调色；香烟只能叼着，杯子不能和嘴糊成一团。荒诞，但规则极细，所以画面才稳得住。\n\n创作者可以直接复制后改动物或场地，重点是把「难看闪光灯」写成美学。\n\n所以呢：想做病毒短片，先把手机直拍的丑写成规矩，比追求电影感更快出梗。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/abulu8/status/2106436341135442068"
+        }
+      ],
+      "prompt": "Vertical 9:16 photoreal smartphone footage filmed by someone dancing inside a baby rhesus macaque house party at 3am, in a dark velvet lounge, phone flash on. Direct on-camera flash is the only light: bright, crisp, punchy light on the babies, fur glowing, vivid saturated colours, strong contrast, deep black shadows, the room falling off into darkness a few feet behind them. Deep crimson velvet curtains and a red velvet sofa just visible in the dark, wooden crates, a lounge mirror, a glowing red EXIT sign, a black PA speaker cabinet. Cigarette smoke lit up white by the flash. Phone grain, motion blur on fast moves, flash flickers on the beat, candid party-phone-video look. Tall vertical framing: subjects stacked up the frame, tight close-ups filling the height, low angles looking up.\n\nCast: real infant rhesus macaques only, a few weeks old, tiny enough to sit in one adult hand, oversized heads, huge dark eyes, pink faces, soft short baby fur, delicate hands. Never adult size. Every baby wears baggy brightly coloured cartoon trousers that fully cover them from the waist to the ankles: polka dots, stripes, and clown checks, comically too big, sagging and twisted. A small party: a pale golden baby, a dark charcoal baby, a warm tan baby, a grey-brown baby, one slightly bigger reddish-brown baby who is the life of the party, one round silver-grey baby, and a smaller olive-brown baby. They party like clumsy tiny humans: standing upright, swaying, raising little hands, bobbing heads, arms around shoulders, cheersing tiny cups. Faces stay cool, half-lidded and deadpan while the bodies go wild. Every shot is a small group of at most five. Nobody is bare from the waist down.\n\nExtra mismatched clothes, worn badly:\n- The reddish-brown baby wears oversized black sunglasses crooked on its face, slipping down its nose, plus baggy red polka-dot trousers.\n- The dark charcoal baby has a tiny baseball cap on backwards and sideways, brim flopping, plus baggy blue striped trousers.\n- The warm tan baby is tangled in a doll-sized button-down shirt worn inside out, one sleeve hanging empty, plus baggy yellow check trousers.\n- The pale golden baby has one tiny mismatched sock and a thin chain tangled in its fur, plus baggy green spotted trousers.\n- The rest wear only the baggy cartoon trousers. Clothes slip and hang wrong.\n\nCamera: the phone is held upright by someone dancing at baby-monkey height. It never stays still. It bounces on the beat, sways, whip-pans, punch-in zooms, Dutch angles, and pushes into faces. Motion blur on fast moves. Hard cuts on the beat.\n\nShots, 30 seconds:\n0–1.2s: phone bouncing, tall close-up on the warm tan baby standing upright, inside-out shirt with one empty sleeve swinging, baggy yellow trousers sagging, head bobbing, a tiny cigarette in its mouth, smoke trailing up; whip pan out.\n1.2–2.8s: swing in on four babies standing on their hind legs, arms around each other, all in baggy cartoon trousers: pale golden one smoking, dark charcoal one with the backwards cap sliding off and a tiny shot glass balanced on its head, warm tan one in the crooked shirt, grey-brown one lower in frame staring blankly into the lens while its body keeps swaying; punch-in on the stare.\n2.8–4.2s: Dutch-angle: the reddish-brown baby, sunglasses slipping, red polka-dot trousers, raises a tiny clear cup to cheers the camera, then sips; behind it the pale golden one on a wooden crate, red velvet curtains, EXIT sign near the top of frame.\n4.2–5.4s: slow push across five babies standing close, swaying in place in their baggy trousers, little hands raised, flash on their faces; no jumping, no crowd.\n5.4–6.6s: whip pan to the olive-brown baby swaying upright in striped trousers, tiny cigarette in its mouth, shoulder shimmy, camera bouncing with it.\n6.6–8.4s: slow orbit around the warm tan one and the dark charcoal one swaying close, arms on shoulders, both smoking, empty sleeve and slipping cap swinging, baggy trousers sagging.\n8.4–10.4s: low angle looking up: the reddish-brown baby tips its head back and chugs from the tiny clear cup, sunglasses sliding to the tip of its nose, two or three others beside it raising their hands; pale golden one on a crate beside a plate of snacks, red velvet sofa.\n10.4–11.8s: punch-in on the round silver-grey baby in clown-check trousers, swaying in place, hands waving, deadpan face.\n11.8–13.2s: whip pan along the red velvet sofa: three babies standing on the cushions swaying, the grey-brown one with eyes half-closed, the charcoal one's cap nearly falling off.\n13.2–14.6s: low angle from behind the reddish-brown baby standing on the black speaker, both little hands pumping, sunglasses crooked, polka-dot trousers sagging; camera tilts up.\n14.6–16s: the camera drifts through five babies standing close and swaying, bumping lightly, baggy trousers and cigarette smoke in the flash; no jumping.\n16–17.6s: charcoal and warm tan sway side by side under the EXIT sign, smoking, head-bopping, cap and empty sleeve moving with them; camera sways with them.\n17.6–20s: push-in on the reddish-brown baby chugging, head tipped all the way back, cup upside down, sunglasses falling off, two others beside it raising their hands; camera shakes.\n20–21.6s: a baby in red polka-dot trousers and crooked sunglasses leans into a lounge mirror and tries to look cool, then startles at its own reflection and waves at it, cigarette bobbing in its mouth.\n21.6–23.2s: two babies attempt a handshake, miss, bonk foreheads, then laugh with their mouths wide open and throw their little arms around each other, caps and trousers slipping.\n23.2–24.8s: one baby in striped trousers slides down the red velvet sofa cushion on its bottom like a tiny slide, cigarette in its mouth, arms up, and lands in another baby's lap.\n24.8–26.4s: a baby on a crate conducts the others with a lit cigarette like a tiny baton, baggy yellow trousers sagging, while three babies in front sway completely off the beat.\n26.4–28s: two babies try to trade hats, the baseball cap ends up on the wrong head sideways, sunglasses end up on the cap, both freeze and stare at the camera, deadpan.\n28–30s: the reddish-brown baby in polka-dot trousers spins once holding a tiny plastic cup, loses its balance, plops onto the speaker, sunglasses fall into the cup, and it takes a victorious sip anyway while the others clap.\n\nUpbeat house track with a pitched-down vocal, muffled party ambience and cheering.\n\nCigarettes held only in mouths, tiny, scaled to the babies. The cup stays a separate rigid object held in the hand, rim touching only the mouth, never merging with the hand, mouth, face, sunglasses or fur. The shot glass sits on the fur of the head and wobbles. Every baby is fully dressed from the waist down in baggy cartoon trousers in every frame. Real infant rhesus anatomy: tiny bodies, oversized heads, pink faces, proper hands and feet, no extra limbs, no adult macaques. No static shots, no locked-off camera, no smooth gimbal moves, no jumping crowds. No muted colour grade, no soft cinematic film look, no teal wash, no plywood walls, no laser or stage lights, no morphing, no text, no watermark, no subtitles.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-puppy-birthday-cake",
+      "category": "提示词",
+      "title": "狗妈妈偷蛋糕，给小狗办生日",
+      "body": "后院野餐桌上，金毛妈妈叼起生日蛋糕盒子就跑，穿芥末黄毛衣的小男孩在后面追。\n\n有人给 Seedance 2.5 写了十五秒一镜动物故事：低机位贴狗跑，男孩喊「那是我的生日蛋糕」；狗妈妈把盒子放到狗窝边，露出几只小狗，男孩才懂「你也想开派对」。蛋糕、男孩、同一后院地理关系全程锁定，只允许两句对白，其余是软脚步和皮毛摩擦声。机位从贴蛋糕特写升到人狗同框，中间不切，也不换场地。温馨但不煽情。\n\n整段提示词完整可复制，换宠物或节日即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换宠物或节日，重点是把动机写成一句小孩话。\n\n所以呢：萌宠片要打动人，先写清「它为什么这么做」——这里是「它想请客」。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Strength04_X/status/2106369245886226743"
+        }
+      ],
+      "prompt": "Create a 15-second photorealistic, heartwarming animal story in one continuous shot. Use a close-focusing 18mm wide-angle perspective with a fast, low, animal-height camera that smoothly rises into intimate human reactions without cutting. Maintain realistic animal movement, natural fur, believable object contact, and continuous spatial geography.\n\nSet the sequence in one cozy backyard patio beside a small garden shed on a bright late-afternoon day. A wooden picnic table, two garden chairs, and a small covered dog bed occupy the same connected space.\n\nThe main animal is one golden retriever mother. The human character is a young boy wearing a mustard-yellow sweater. The important prop is one small round birthday cake with white frosting and a single blue candle.\n\n0 to 2 seconds: Start extremely close to the cake on the picnic table. The mother dog reaches up, gently grips the cake box edge with her mouth, and pulls it down. The box lands softly on the patio. She immediately picks it up and trots away.\n\n2 to 4 seconds: Race backward ahead of the dog as the boy notices. He follows with a surprised expression and says, “Hey, that’s for my birthday!”\n\n4 to 6 seconds: Move alongside the dog as she passes between the two garden chairs. The camera stays low. The cake box bumps lightly against the ground with each step while the boy follows naturally behind.\n\n6 to 8 seconds: Curve around the final chair and reveal the covered dog bed. The mother dog reaches it and carefully lowers the cake beside the bed. She releases the box and looks toward the puppies.\n\n8 to 10 seconds: The first puppy slowly crawls forward from inside the bed and rests its chin beside the cake box. The boy kneels down, confused but smiling.\n\n10 to 12 seconds: Rise slightly to include the boy, mother dog, and bed. The boy opens the box and discovers several tiny puppies gathered inside. He softly says, “Oh… you wanted a party too.”\n\n12 to 14 seconds: Continue a close flowing orbit. The mother dog gently nudges the cake toward the puppies while the boy places it safely outside their reach. The puppies wiggle excitedly.\n\n14 to 15 seconds: A second puppy suddenly pops its head beside the first and gives the blue candle one tiny curious sniff. The boy laughs quietly. End with the mother dog, two puppies, and boy sharing the warm moment.\n\nAudio: Speak only the two quoted lines. Include soft paw steps, cardboard movement, quiet garden birds, puppy sounds, and the boy’s gentle laugh. No narration and no talking animals.\n\nContinuity restrictions: One mother dog, exactly two puppies, one boy, one cake, one patio. No cuts, duplicated puppies, disappearing objects, magical movement, humanlike animal gestures, candle touching the puppies, or sudden location changes.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-korea-720-kick",
+      "category": "提示词",
+      "title": "篮球砸脸后，她踢出七百二十度",
+      "body": "篮球场边，她蹲着系鞋带，篮球突然砸上身，她摔坐在地，同学在旁边大笑。\n\n有人用 Seedance 2.5 写了十秒韩式校园动作短片：她捡球微笑站起，把球抛高后起跳完成两圈空中旋转踢击，球高速砸回霸凌者。提示词把动作顺序拆成清单——抛球、球上升、起跳、够到球、两圈、踢中——防止模型跳步。环境是真实室外球场与自然日光，只要鞋擦地和球破风的声音，不要配乐。身份与校服靠参考图锁死，多镜头硬切推进节奏。\n\n整段提示词完整可复制，换运动项目即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换运动项目，重点是把关键动作写成不可跳过的检查单。\n\n所以呢：动作戏别只写「帅」，把「球先上去人再追」写进时间表。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AiwithLariab/status/2106350670614048958"
+        }
+      ],
+      "prompt": "DURATION:\n10 seconds\nSTYLE:\nUltra-realistic live-action, cinematic Korean school action drama, photorealistic, 8K, realistic human movement, dynamic action choreography, realistic physics, fast-paced multi-shot editing, cinematic camera movement.\nMC:\nEriek @image1 — young woman, tall and very slender, wearing a realistic Korean high-school female uniform. Preserve Eriek's facial identity, body proportions, hairstyle, and appearance adapted to a female high-school student.\nENVIRONMENT:\nOutdoor Korean high-school basketball court, bright daytime, realistic school buildings, basketball hoop, students in the background, natural sunlight.\nAUDIO:\nNatural school ambience, basketball sounds, shoe friction, loud basketball impacts, students laughing, sharp air-whoosh during the jump and 720° kick, extremely fast basketball whoosh. No music.\nSCENE & TIMELINE:\nSHOT 1 — 0–2.5s\nWide side shot of the outdoor basketball court.\nEriek is squatting at the edge of the court, calmly fixing her loose shoelace.\nSuddenly, a basketball flies into frame at high speed and slams directly into Eriek's upper body.\nThe hard impact knocks her backward onto the court, accompanied by realistic camera shake and motion blur.\nSHOT 2 — 2.5–3.5s\nHard cut to a group of young female students in basketball uniforms laughing loudly at Eriek after deliberately hitting her with the ball.\nSHOT 3 — 3.5–5.5s\nHard cut back to Eriek sitting on the ground.\nShe calmly picks up the basketball, gives a confident, mischievous smile, stands up, and faces the group.\nSHOT 4 — 5.5–8.0s\nContinuous side-angle shot keeping both Eriek and the ball in frame.\nEriek throws the basketball straight upward several meters, jumps up after it, and performs a full 720° spinning kick (two complete aerial rotations).\nDuring the second rotation, her foot connects cleanly with the ball, launching it horizontally across the court at extreme velocity without cutaways.\nSHOT 5 — 8.0–10.0s\nDynamic tracking shot follows the fast-moving basketball.\nThe ball slams into the torso of the main bully, knocking her backward to roll across the court.\nThe other students freeze in shock. End right after the student finishes rolling.\nCRITICAL ACTION ORDER:\n * Eriek picks up the basketball.\n * Eriek throws the basketball straight upward.\n * The basketball visibly rises.\n * Eriek jumps upward after the ball.\n * Eriek reaches the ball in mid-air.\n * Eriek performs two complete 360° rotations (720° spin kick).\n * Her foot cleanly strikes the ball during the second rotation.\n * The ball rockets forward at high speed.\n * The ball hits the bully.\n * The bully is knocked backward and rolls.\nNo weapons, no blood, no gore, no supernatural effects.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-kling-paris-2000s-bday",
+      "category": "提示词",
+      "title": "巴黎两千年，家用DV拍生日派对",
+      "body": "巴黎卧室镜子前，女孩整理头发，朋友举着家用 DV 笑着拍她。\n\n有人给 Kling 3.0 写了十五秒法语生日 vlog：梳头出门、街上抱团、面包店取蛋糕、咖啡馆吹蜡烛、一次性相机合影、夜里街灯下走回家。时代锁在两千年初——老标致与雷诺、禁止智能手机和 LED 屏；镜头要有轻微抖、对焦犹豫和数字噪点，不要电影稳定器。同一批朋友、同一盒蛋糕贯穿全程，不许瞬移换装。声音只有街声、笑声和快门，不要配乐对白。\n\n整段提示词完整可复制，换城市或节日即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换城市或节日，重点是先禁止现代设备和稳定器。\n\n所以呢：想拍「像真的家庭录像」，先写一张时代禁用品清单。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Ibrakamara6/status/2106459412487434690"
+        }
+      ],
+      "prompt": "Crée un vlog d'anniversaire ultra-réaliste de 15 secondes, à Paris au début des années 2000, filmé par un ami avec un vrai caméscope DV grand public. Ça doit ressembler à une vraie vidéo de famille, pas à une vidéo moderne avec un filtre rétro.\n\nORDRE EXACT, 6 PLANS :\n\n0–2 s, LA PRÉPARATION : la jeune femme se coiffe devant le miroir de sa chambre années 2000, prend son sac à main et sourit à la caméra.\n\n2–4 s, LES COPINES : elle marche dans une rue haussmannienne et retrouve ses 3 amis, qui la prennent dans leurs bras.\n\n4–6 s, LA PÂTISSERIE : ils entrent dans une petite boulangerie de quartier, le pâtissier leur tend une boîte à gâteau blanche.\n\n6–10 s, LE CAFÉ : le gâteau et sa bougie sur la table d'un café parisien. Les amis applaudissent, elle souffle la bougie, coupe le gâteau et sert une part à chacune.\n\n10–12 s, LA PHOTO : un ami sort un appareil photo jetable, ils posent et éclatent de rire.\n\n12–15 s, LE RETOUR : le soir tombe, ils repartent dans la même rue sous les réverbères, la caméra les suit de dos.\n\nCONTINUITÉ : même fille, mêmes amis, mêmes tenues, même gâteau du début à la fin. Pas de téléportation, pas de changement de visage, pas d'objet qui disparaît.\n\nÉPOQUE : tout doit faire début des années 2000 (vieilles Peugeot et Renault, déco, vêtements, coiffures). Pas de smartphone, pas de voiture moderne, pas d'écran LED.\n\nCAMÉRA : vraie image DV, léger tremblement, cadrage imparfait, mise au point qui cherche, bruit numérique, flou de mouvement, zooms maladroits. Pas de stabilisation ciné, pas de netteté 4K, pas de filtre beauté.\n\nSON : ambiance seule (rue, café, rires, applaudissements, déclic de l'appareil photo). Pas de dialogue, pas de musique.\n\nRENDU FINAL : un vrai souvenir d'anniversaire des années 2000, chaque scène dans l'ordre demandé.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-failed-snapshot",
+      "category": "提示词",
+      "title": "故意拍砸：失败的假期路人照",
+      "body": "海边观景台，有人随手一拍：逆光、欠曝、脸都看不清，夕阳也不金黄。\n\n有人给 GPT Image 2.5 写了一段反向美学提示词：不要通透、不要胶片、不要高级旅拍，只要灰冷白平衡、闷绿植物、普通夕阳反光和手机算法糊感。人物低头长发遮脸、不摆姿势不看镜头，构图碰巧还行，但摄影质感故意「失败」。中英文一起把「坏照片」钉死，连「不要 teal and orange」「不要 HDR」都写进黑名单。对做「像真人随手拍」的账号，这比精修更像假期。\n\n整段提示词完整可复制，换海边或城市街景即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换地点，重点是把失败感写进规则，而不是事后加滤镜。\n\n所以呢：现在人人会修图，故意写出「拍砸了」反而更像真人假期。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/listudio/status/2106582861587652752"
+        }
+      ],
+      "prompt": "16:9 横屏，真实手机随手拍摄影，一位明确成年的年轻东亚女性站在海边观景步道旁，人物位于画面左侧约黄金分割位置，占画面高度约 65%，身体轻微侧向右侧，低头，长黑发自然垂落并遮住大部分面部，姿态松弛随意，像同行路人未经指导随手拍下的一瞬间。\n她穿简单的白色修身细肩带短款背心，露出自然腰腹，下身为深蓝色高腰长款牛仔裙。左手自然下垂，右手略微弯曲停留在腰侧，身体没有刻意摆姿势，没有看镜头，没有模特感。\n场景为普通热带海岸傍晚，人物前方有深色粗绳护栏和杂乱绿色灌木，顶部有垂落的椰树叶，右上角有普通阔叶植物。中远景是一大片灰蓝色海面，海浪轻微起伏，近岸分布黑色礁石；远处是连续的深灰山体和模糊海岸建筑。夕阳位于画面右侧偏上，被薄云部分遮挡，在海面留下普通的淡黄色反光。\n**摄影质感重点：失败的路人照，普通手机原相机，无滤镜，无后期，无电影调色。**整体色彩偏灰、偏冷、饱和度较低，白平衡略微不准，天空灰蒙，绿色植物颜色发闷，肤色略灰，暗部发黑但没有漂亮的轮廓光。人物由于逆光明显欠曝，脸部几乎看不清，头发和上半身暗成一片；天空和夕阳区域略亮，动态范围一般。\n画面反差偏低，中间调发灰，色彩关系普通甚至有一点脏，夕阳不金黄浓郁，海水也不是高级蓝色。不要 HDR，不要通透感，不要胶片感，不要 cinematic color grading，不要 teal and orange，不要高级旅拍感。\n手机自动曝光拍摄，轻微数码噪点，细节锐化普通，远景略有手机算法涂抹感，局部轻微雾感，画面没有刻意景深，基本全部清晰。构图本身仍保持舒服的 16:9 横构图：人物位于左侧黄金分割区域，右侧留出大量海面、夕阳和远山，但摄影者只是碰巧构图还可以，并非专业摄影。\noverall look: an ordinary badly color-graded smartphone snapshot taken casually by a passerby, flat gray colors, weak dynamic range, slightly underexposed subject, mediocre white balance, dull sunset, no filter, no retouching, no cinematic atmosphere, realistic amateur travel photo.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-sahara-silhouette",
+      "category": "提示词",
+      "title": "侧影里嵌进撒哈拉，旅行海报模板",
+      "body": "一个女人侧身往右走，左边半个身子里嵌着整片金色沙漠和骆驼商队。\n\n有人给 GPT Image 2.5 写了双重曝光旅行海报模板：米色宽檐帽、白衬衫、奶油色长裤，沙丘、绿洲、古塔嵌进人形轮廓，右侧留大片象牙色负空间方便以后加字。竖构图四比五，禁止水印商标。换沙漠主题就能改成别的目的地战役海报，结构不用重写。它走的是杂志广告感，不是写实街拍。\n\n整段提示词完整可复制，换目的地风景即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换目的地风景，重点是人影轮廓加负空间留白。\n\n所以呢：海报提示词要留白——画面讲故事，字以后再贴。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AiwithLariab/status/2106607115733553225"
+        }
+      ],
+      "prompt": "Create a premium cinematic travel poster in a sophisticated double-exposure / silhouette collage style. A stylish young adult woman walking toward the right side of the frame, wearing a beige wide-brimmed safari hat, dark sunglasses, elegant white oversized button-up shirt with rolled sleeves, high-waisted cream trousers, white sneakers, and a small brown leather crossbody bag. Preserve realistic human proportions and natural walking posture.\nBehind and partially merged into the woman’s silhouette is a breathtaking golden Sahara desert landscape at sunset: vast rolling sand dunes, dramatic layered mountains, warm orange sunlight, a glowing sun near the horizon, palm trees surrounding a small desert oasis, traditional desert village architecture, ancient stone towers, tents, and a small camel caravan crossing the dunes.\nThe desert landscape forms an artistic human-profile silhouette on the left side, seamlessly blending into the woman's walking composition on the right. Elegant paint-splash and ink-brush edges around the landscape, subtle dust particles, soft atmospheric haze, warm golden-hour lighting, luxury travel editorial aesthetic, sophisticated minimal composition.\nBackground: clean warm ivory/cream paper texture with large negative space on the right and lower area. High-end tourism campaign poster, artistic commercial photography, photorealistic desert details, realistic fabric texture, cinematic depth, refined composition, premium magazine advertising style.\nComposition: vertical 4:5, full-body woman on the right, desert silhouette dominating the left, balanced negative space, clean edges, no text, no logo, no watermark, ultra-detailed, high resolution.",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-mj-kungfu-princess-sneakers",
+      "category": "提示词",
+      "title": "球鞋公主提细剑，腾空角色设定",
+      "body": "白底上，一位公主握细剑腾空，裤脚和运动鞋同时入画，剪影很利。\n\n有人在 Midjourney v8.2 分享角色设定混搭：细剑、功夫裤、球鞋、拉长比例、切面明暗和动漫轮廓，再挂上风格参考码和 profile。一句提示词就把「古典公主」和「街头运动鞋」焊在同一剪影里，适合直接当角色表首图，也方便改成王子或其他武器。参数带 `--ar 2:3 --stylize 1000`，偏强风格、适合概念稿。\n\n整段提示词完整可复制，改武器或发型即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后改武器或发型，重点是古典造型加一件现代物件。\n\n所以呢：角色要出圈，给古典造型加一件现代物件，反差自己会说话。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/aimikoda/status/2106275530521645098"
+        }
+      ],
+      "prompt": "Princess with a slender sword, sneakers, kungfu pants, full body character design, mid-air action pose, angular painterly character concept art, bold silhouette design, exaggerated elongated proportions, anime character styling, faceted planar shading, clean polished rendering, refined brushwork, stylized anatomy, full light background, high contrast value grouping, high contrast highlights, polished modern character design --ar 2:3 --sref 505912171 --profile kxxcnp9 oqw5d6p --stylize 1000",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-mj-nano-war-worlds-jp",
+      "category": "提示词",
+      "title": "世界大战日版海报，两步修成可读",
+      "body": "先出一张「日式世界大战」电影海报，片名还糊成乱码；再丢进 Nano Banana。\n\n有人公开两步流水线：Midjourney 用风格参考和 raw 模式出横版海报；第二步只改一句——把文字纠正成可读日文，其余细节不动，并改成摄影质感。关键不是一次生成完美，而是「生成负责氛围，编辑负责可读」。两条提示词都贴在原帖里，可直接复制，适合做「假电影海报」系列内容。\n\n整段提示词完整可复制，换电影题材即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后换电影题材，重点是拆成「先画后修字」两枪。\n\n所以呢：文字老糊就别死磕一次出图，拆成生成加编辑两步更稳。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/michaelrabone/status/2106338530188296670"
+        }
+      ],
+      "prompt": "1) Midjourney:\nJapanese War of the Worlds movie poster --ar 16:9 --raw --sref 229435892 --sw 100 --stylize 300 --hd --v 8.2\n\n2) Nano Banana (edit pass on the MJ result):\nCorrect all the text to readable Japanese and without changing any details make the image photographic",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-flux-cultist-glow-ring",
+      "category": "提示词",
+      "title": "七人围圈，月下白光环当唯一光源",
+      "body": "月夜荒原上，七个穿袍人围成圈，地上红线相连，天边悬着巨大白光环。\n\n有人用本机 Flux 2 复现这张图，并点出难点：白光环必须是唯一光源，袍子人还要在剪影里分得清，否则会糊成一团黑。提示词本身很短，却把环、线、跪着的中心人物和哥特未来感一次写齐；作者用 Turbo LoRA、八步本地出图，成本接近零。短提示词也能把「光从哪来」写死，适合当构图练习。\n\n整段提示词完整可复制，改人数或光源颜色即可直接试，不必再猜作者藏了什么。\n\n创作者可以直接复制后改人数或光源颜色，重点是单光源优先于堆细节。\n\n所以呢：单光源场景先写「光从哪来」，再写人物，暗部才不会糊死。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/ukrroot/status/2106378055165899231"
+        }
+      ],
+      "prompt": "A circle of seven robed cultist figures standing on a barren moonlit rocky plain, facing inward, each connected by glowing red ember threads laid across the ground, a massive luminous white ring floating above the horizon behind them, one lone figure kneeling at the center, dense fog, gothic futurism, sacred-tech aesthetic, crimson and cold-grey cinematic lighting, dramatic wide shot, hyper-detailed digital art\n\nRecipe note from author: Flux 2 dev + Turbo LoRA · 1536x1024 · 8 steps",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "prompt-mj-flux-cat-perspective-agent",
+      "category": "提示词",
+      "title": "来张猫图：随机倒挂鱼眼机位",
+      "body": "你说「来张猫图」，它不给你普通平视自拍猫，而是随机抽一种奇怪机位。\n\n有人公开一套给大模型用的角色提示词：随机抽机位（玻璃底仰视肉垫、屋檐倒挂、鱼眼贴脸、纸箱缝偷看），再随机数量花色和萌点，最后吐出可直接贴进 Midjourney 或 Flux 的英文摄影句。重点是禁止呆板正脸，强制反差萌透视，并附上画幅参数。对天天要猫图的创作者，这是系统提示而不是单次灵感——复制整段角色设定就能反复用。\n\n创作者可以直接复制后改成狗或别的萌宠，重点是把随机机位引擎写进系统提示。\n\n所以呢：重复题材要出片，把「随机机位」写进系统提示，比每次手写省事。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/jack20731/status/2106357869381890205"
+        }
+      ],
+      "prompt": "# Role: 奇特视角萌猫生图特派员 (Cute Cat Perspective Agent)\n\n## Profile\n你是一位精通摄影镜头语言与动物行为学的顶级 AI 提示词工程专家。你的使命是：每当用户发出获取猫咪图片的指令（如“来张猫图”、“随机猫猫”、“吸猫”、“/cat”或表达想看猫），你都会自动激活内部随机引擎，动态组合出极具视觉张力、构图罕见且萌感爆棚的猫咪摄影提示词，帮助用户在 Midjourney、Flux 或 DALL-E 中一键成图。\n\n## Core Mission & Aesthetic Standard\n1. **非凡视角优先**：严禁生成呆板的正平视普通猫照！必须严格随机抽取“极低仰角、倒挂俯视、透明玻璃底、超广角鱼眼、狭小缝隙偷窥”等具有强烈透视感和反差萌的抓拍机位。\n2. **数量与互动随机**：小猫数量在 1 至 4 只之间随机波动，且猫咪之间必须有自然的目光交汇、姿态互补或叠罗汉挤在一起的真实互动。\n3. **男女通吃的高级感**：兼具极度可爱（小粉舌、大圆瞳、粉嫩肉垫）与真实自然摄影质感（清晰毛发纤毫毕现、阳光透光胡须、自然环境光），拒绝廉价塑料感或过度美颜修图感。\n\n## Randomization Engine\n每次响应时，从以下维度各随机抽取 1 项融合：\n\n[维度 A: 机位] A1 屋檐倒挂俯窥 / A2 透明玻璃底仰视 / A3 超广角鱼眼贴脸 / A4 纸箱抽屉缝隙内部 / A5 沙发床缘倒悬探脑\n[维度 B: 数量花色] 单只 / 双猫反差 / 三猫叠罗汉 / 四猫探头\n[维度 C: 萌点] blep粉舌 / 肉垫抓边 / 透光胡须 / 歪头嗅探\n[维度 D: 光影] 晴空绿叶 / 室内晨光 / 金色轮廓光\n[维度 E: 画幅] --ar 16:9 / 9:16 / 3:4 / 4:5 / 1:1\n\n## Output Format\n🐾 今日随机视角：[一句话]\n🐱 猫咪阵容：[数量品种]\n### 🎨 英文生图提示词\n将 A+B+C+D 融合成流畅英文摄影提示词，含 35mm lens, f/2.8, natural fur texture, commercial animal photography, 8k，并附所选 --ar 与 --style raw --v 6.1",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "clash-royale-nn-lab",
+      "category": "视觉尝试",
+      "title": "Clash Royale 小实验室：看神经网络从零学会守塔",
+      "body": "打开 itzik123.github.io/ClashRoyaleAi/lab，先自己拖一张防守牌到棋盘上，再看旁边那个「什么都不懂」的网络怎么学。敌人从随机位置砸过来，网络只能选一个合法格、再选零到五秒的延迟；同一套 C++ 战斗引擎被编成 WebAssembly，在浏览器里一局局打分。它用最朴素的 REINFORCE 策略梯度：哪次比平时少挨打，下次就更爱那样做。页面上你和学习者对照同一组五次进攻，比谁挡掉的塔伤更多。作者写得很诚实：这只是缩微版——真代理要打满三分钟、管四张手牌和圣水条，还得在笔记本 CPU 上练好几天。卡组有社区帮忙，项目声明与超细胞无关。所以呢：讲强化学习别只甩公式，让观众亲手守一塔，看着权重一点点变聪明。",
+      "links": [
+        {
+          "label": "Reflex Lab 演示",
+          "url": "https://itzik123.github.io/ClashRoyaleAi/lab/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49950727"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "second-strike-globe",
+      "category": "视觉尝试",
+      "title": "Second Strike：两百人在真地球仪上开世界大战",
+      "body": "点开 secondstrike.io，卫星视角的地球转过来——这不是概念片，是浏览器里能开战的实时策略。你可以在任意陆地出生，往邻省派兵，抢大约两千座真城市；还能和四十二个戏仿世界领袖、最多两百名真人签盟约、再当面背刺。导弹盾、航母、潜艇、卫星都能造；每次核爆都会拨动共享的「午夜时钟」，归零那刻先动手的人直接出局，全场进入一分钟核冬天。免费、不用装客户端，地图就是真地球的卫星贴图。它把外交、背刺和末日倒计时揉进同一场对局。所以呢：谈「世界模拟」时别只给色块——让观众在真地球上走一城、叛一次、听一声倒计时。",
+      "links": [
+        {
+          "label": "Second Strike 官网",
+          "url": "https://secondstrike.io/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49949340"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "kodawari-japan-map",
+      "category": "视觉尝试",
+      "title": "Kodawari：把日本每一百米格子，按你的执念上色",
+      "body": "想在日本找住的地方，通常被房价和车站两个旋钮绑架。Kodawari 把全国拆成一百米见方的格子，让你自己拧权重：駅、超市、学校、公园、咖啡馆、古着店、安静程度、地价……步行、自行车或开车各算一套可达性，地图当场变色。页面中英双语，打开就能拖、就能比。它不替你下「哪里最好」的结论，只把「你在乎什么」铺成一片看得见的颜色。搬家咨询里那些口头偏好，第一次变成可滑动的图层。整段体验都在浏览器标签页里完成，点开就能上手。所以呢：别再跟观众念「宜居指数排名」——让他们拧自己的旋钮，看格子怎么跟着变。",
+      "links": [
+        {
+          "label": "Kodawari 宜居地图",
+          "url": "https://kodawari.nimikko.co.jp/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49950593"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "pokemon-advsim-browser",
+      "category": "视觉尝试",
+      "title": "AdvSim：浏览器里跟自对弈策略打第三世代乱斗",
+      "body": "打开 zkingston.com/advsim，你就站在 Pokémon Showdown 第三世代随机对战里，对面可以是蒙特卡洛树搜索、PPO 自对弈网络、翡翠风格脚本，或者纯随机。模拟器和官方规则对齐，精灵贴图也来自 Showdown；整局跑在你设备上，AI 不偷看你没亮过的手牌。作者强调训练用了大规模并行 GPU 引擎，才把「看起来像人」的策略塞进网页。你可以一轮轮试同一队，观察网络何时换人、何时赌伤害。整段体验都在浏览器标签页里完成，点开就能上手。也适合随手录一屏，讲给非技术观众听。所以呢：别只说「强化学习打通关」——让观众自己点一招，感受策略网络到底会不会虚晃。",
+      "links": [
+        {
+          "label": "AdvSim 对战",
+          "url": "https://zkingston.com/advsim/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49947568"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "rely-unreliable-parts",
+      "category": "视觉尝试",
+      "title": "Rely：像玩 Factorio，但每个零件都可能放你鸽子",
+      "body": "think-twice.me/public/rely 像一座迷你工厂游戏：传送带、分拣器、计数器、标记门一应俱全，目标却很拧巴——连续交出三件「百分之百可靠」的零件。每个组件都有概率失灵，你得用冗余和校验把混乱拧成可信网络。浏览器 beta 带教程和三关，键鼠都能玩；作者在页脚写得很直白：生活里谁可靠谁不可靠永远吵不清，游戏里你至少能耐心搭出一条可信链路。HN 上十几票，玩法一句话就能抓住工程师。整段体验都在浏览器标签页里完成，点开就能上手。也适合随手录一屏，讲给非技术观众听。所以呢：讲「容错系统」别只画方块图——让观众亲手把不可靠零件拼成可靠流水线。",
+      "links": [
+        {
+          "label": "Rely 浏览器 beta",
+          "url": "https://think-twice.me/public/rely/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49945058"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "mind-lab-behavior",
+      "category": "视觉尝试",
+      "title": "Mind Lab：二十七个经典行为实验，变成浏览器小游戏",
+      "body": "twentyfun.com/games/mind-lab 不问你读没读过卡尼曼。先拉杆、选门、拖一条线，自己做完实验；再猜「有多少人和你选一样」；最后揭晓真玩家比例，并贴上原始论文出处。电车难题、蒙提霍尔、阿希从众、斯特鲁普、最后通牒、诱饵效应、沉没成本……二十七关大约十五到二十分钟，进度会存。免费、免注册，结果会随更多人游玩而更新。它把诺奖级决策研究收成一套「先踩坑再揭晓」的闯关。整段体验都在浏览器标签页里完成，点开就能上手。也适合随手录一屏，讲给非技术观众听。所以呢：讲「认知偏误」别念名词表——让观众先踩坑，再看见自己有多像大家。",
+      "links": [
+        {
+          "label": "Mind Lab 游玩",
+          "url": "https://twentyfun.com/games/mind-lab"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49942042"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "linnaeus-taxonomy-game",
+      "category": "视觉尝试",
+      "title": "Linnaeus：十秒一选，沿生命树给物种归类",
+      "body": "play.linnaeus-game.workers.dev 像一道每日生物题：给你一个物种，沿着生命树一层层往下点，十秒内选对分支才继续。答得快能叠连击加分，错过今天还能翻旧题。画面是林奈举着花枝的漫画风，玩法却硬核——你得真的记得界门纲目科属种怎么岔开。它把教科书里那棵死树，变成倒计时里的手指选择。适合当科普短视频的素材，也适合自己测底子。整段体验都在浏览器标签页里完成，点开就能上手。也适合随手录一屏，讲给非技术观众听。不用装客户端，链接丢进聊天就能玩。所以呢：别把分类学讲成背单词——让观众在倒计时里亲手走完一棵树。",
+      "links": [
+        {
+          "label": "Linnaeus 今日题",
+          "url": "https://play.linnaeus-game.workers.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49947375"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "ek-din-india-90s",
+      "category": "视觉尝试",
+      "title": "Ek Din：滚完九十年代印度客厅的一整天",
+      "body": "ek-din.com 自称「印度九十年代童年」：从黎明滚到午夜，Doordarshan 晨间节目、广告档、突然停电、千禧年倒计时都跟着走。还能走进客厅、巷口，听那段年代特有的电视声。作者建议开声音、连 Wi-Fi。它不是时间线长文，而是一间会呼吸的房间——你用滚动代替翻日历，用声画代替回忆录目录。对做怀旧内容的人来说，结构本身就能抄：一天、一室、一声断电。整段体验都在浏览器标签页里完成，点开就能上手。也适合随手录一屏，讲给非技术观众听。不用装客户端，链接丢进聊天就能玩。所以呢：讲怀旧别堆表情包——让观众在客厅里坐一天，听停电灯灭那一声。",
+      "links": [
+        {
+          "label": "Ek Din 体验站",
+          "url": "https://ek-din.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49936821"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "nibbi-tape-instrument",
+      "category": "视觉尝试",
+      "title": "NIBBI：浏览器里搭第一条磁带循环",
+      "body": "temeculadsp.com/nibbi/play 把 CHOMPI CLUB 开源采样器搬进网页：点 Enable sound，拨下黑色开关，用键盘 ASDF 那一排当琴键，就能录鼓点、放慢、再叠旋律。也有屏幕琴键和 MIDI，Shift 切备用旋钮；工厂音色不需要麦克风。它不是又一个钢琴插件页，而是教你「先搭一条磁带循环」的互动工坊。标签开关打开后，旋钮含义不再靠猜。适合做「十分钟听懂采样器」的演示片。整段体验都在浏览器标签页里完成，点开就能上手。也适合随手录一屏，讲给非技术观众听。不用装客户端，链接丢进聊天就能玩。互动比静态截图更劝人停留。所以呢：讲采样器别甩参数表——让观众两分钟内亲手做出第一条会转的 loop。",
+      "links": [
+        {
+          "label": "NIBBI 在线演奏",
+          "url": "https://www.temeculadsp.com/nibbi/play"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49945508"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "clue-me-taboo",
+      "category": "视觉尝试",
+      "title": "clue me：你写禁忌提示，AI 来猜今天的词",
+      "body": "yorohan.com/clue-me 像简化版 Taboo：网页给你一个词，你在三十秒内打提示，但不能写那个词及其词形；模型一边看着你打字一边猜。每天五词全站相同，练习模式可无限开新组，困难模式每轮再加三个禁词。系统故意不把答案告诉猜词模型，只让它根据你的线索在词池里选。猜对靠你的描述力，不是靠模型偷看。适合当「提示工程」的入门玩具：你会发现绕弯子比直说更难。整段体验都在浏览器标签页里完成，点开就能上手。也适合随手录一屏，讲给非技术观众听。所以呢：讲「人机协作」别只聊写代码——让观众体验一回：你越会绕弯子，它越能猜中。",
+      "links": [
+        {
+          "label": "clue me 每日词",
+          "url": "https://yorohan.com/clue-me"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49946437"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "offrun-agent-workspace",
+      "category": "小众工具",
+      "title": "Offrun：把 Claude、Codex、AGY、Grok 摆在同一张工位上",
+      "body": "一人开五个编码代理，最怕的不是模型笨，是窗口散、额度撞、两个代理改同一文件。Offrun 是 Mac 上的工作区：Claude Code、Codex、AGY、Grok Build 并排跑，一眼看到谁在干、谁卡着等你、每个账号还剩多少额度。同一项目给每个代理单独 git worktree，互不踩脚；可让第二个代理审 diff，发现写回聊天框由你决定；一个登录撞上限就换另一个账号续聊。语音听写也在本机，项目记忆落成可提交的文件。它不替代那些 CLI，只负责把它们关进一间看得见的屋子。有官网或仓库链接可点，对照自己的日常工作流就能试。所以呢：代理再多也别靠「再开一个终端」——先给它们一张不会打架的工位。",
+      "links": [
+        {
+          "label": "Offrun 官网",
+          "url": "https://offrun.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49942434"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "jeffy-cpu-classifiers",
+      "category": "小众工具",
+      "title": "Jeffy：十五个预训练分类器，CPU 就能跑还能再练",
+      "body": "不想为了「这封邮件是不是垃圾」拉起一个大模型。Jeffy 打包十五个逻辑回归级别的分类器：短信垃圾、银行意图七十七类、新闻主题、情绪、甚至 Doom 游戏状态要不要开火。uvx 一行起本地服务，浏览器 playground 粘一段字就出类别；也可以拿自己的 CSV 再训一个。权重是系数不是训练语料拷贝，许可证写在 ATTRIBUTION。弱点也老实写：SNLI、推文情感大约六成多。适合嵌进流水线当廉价前置过滤器。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。所以呢：不是每个分类任务都要烧 GPU——先让 CPU 上的小分类器挡一刀。",
+      "links": [
+        {
+          "label": "Jeffy GitHub",
+          "url": "https://github.com/nicobrenner/jeffy"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49947404"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "mermaidiff-behavior-diff",
+      "category": "小众工具",
+      "title": "mermaidiff：给 PR 画时序图，专看行为怎么变",
+      "body": "读完一千行 diff 仍不知道「请求现在多绕了哪一步」。mermaidiff 是给 Claude Code、Codex 用的技能：对暂存区、提交或 PR 链接敲 /mermaidiff，浏览器弹出一张只含变更步骤的时序图，新增、改动、删除用颜色标好，每步挂 file:line 和证据等级。提交信息吹了但代码没做的，会标警告；没把握的系统一律写 Not checked，作者自称宁可漏报也不误报。复制出来的 Markdown 在 GitHub 与 GitLab 能直接渲染。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。所以呢：审 AI 大 PR 别从文件列表啃——先看它把行为顺序改成了什么样。",
+      "links": [
+        {
+          "label": "mermaidiff 仓库",
+          "url": "https://github.com/osmangoninahid/mermaidiff"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49947787"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "valet-sandbox-agents",
+      "category": "小众工具",
+      "title": "Valet：自托管「云代理」，Claude 与 Codex 各进沙箱",
+      "body": "Cursor 云代理香，但不想把仓库交出去。Valet 用一份 docker compose 在你自己的 Linux 或 Mac 上拉起：每个线程一个沙箱，可挂 Claude setup-token 或 Codex，可选 GitHub token 开 PR。仓库里放 .valet/setup、resume 和 services.yaml，唤醒后自动起 web/api；容器里还能 valet url 拿端口。网页开在本机三千端口，域名部署要反代和通配证书。作者提醒：代理在沙箱里有 sudo，云主机记得挡 metadata。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。不必等融资通稿，自己点开文档核对一遍就行。小而具体，比又一个「全能 AI 平台」好讲。所以呢：云代理可以香，钥匙和磁盘仍留在自己机房。",
+      "links": [
+        {
+          "label": "Valet GitHub",
+          "url": "https://github.com/dropalltables/valet"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49946786"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "repoguard-ai-architecture",
+      "category": "小众工具",
+      "title": "RepoGuard：专治 AI 把仓库写成意大利面",
+      "body": "Cursor、Claude 写得飞快，架构边界却常常被一口咬穿。RepoGuard 自称「AI 辅助代码库的架构守卫」：先根据仓库生成严格的 .cursorrules，再在 PR 上审计是否越层、乱依赖。支持 TypeScript、Python、Golang，挂了 Product Hunt。它不替代单元测试，盯的是「代理爱不爱抄近路」。适合已经养了代理、却开始怕模块边界融化的小团队。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。不必等融资通稿，自己点开文档核对一遍就行。小而具体，比又一个「全能 AI 平台」好讲。所以呢：给代理开口粮前，先给仓库装一道不让它乱窜的护栏。",
+      "links": [
+        {
+          "label": "RepoGuard GitHub",
+          "url": "https://github.com/taylormatematica-beep/repoguard"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49946607"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "plannotator-async-questions",
+      "category": "小众工具",
+      "title": "Plannotator 提问卡：代理把问题写成卡片，你空了再答",
+      "body": "代理卡在取舍上时，最烦它在终端里连环追问。Plannotator 新加 question 语法块：代理把单选、多选、填空写进 Markdown，界面收成一张张卡片；你抽空勾完，点「Send answers」，答案整包回传，不必守着聊天框。推荐项可一键接受，跳过也会如实告知；卡片里还能塞示意图。和早前的 grill 批注是同一产品线，但这回专治「异步答疑」。CLI 与桌面代理都能用。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。所以呢：别让模型干等你回一句——让它把问题摊成卡，你忙完再一次性拍板。",
+      "links": [
+        {
+          "label": "异步提问文档",
+          "url": "https://docs.plannotator.ai/open-source/workflows/questions"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49946139"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "shipslides-url-deck",
+      "category": "小众工具",
+      "title": "ShipSlides：丢一个网址，无服务器代理帮你做出可编辑幻灯片",
+      "body": "临时要给产品讲五页，却懒得从空白 PPT 开撕。ShipSlides 让你粘 URL 或一句话 brief，OpenComputer 上的无服务器代理用 Opus 写 HTML 幻灯片，再用 Chromium 检查裁切和溢出，导出 HTML、PDF、PNG。公开演示每 IP 一天三套、全站五十套；一键还能把代理部署到自己的 OpenComputer 账号按量计费。适合把文档站或落地页快速变成路演骨架。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。不必等融资通稿，自己点开文档核对一遍就行。所以呢：下周要讲的那叠片子，先让代理从网址长一版，你再改字。",
+      "links": [
+        {
+          "label": "ShipSlides 官网",
+          "url": "https://shipslides.dev"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49945713"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "markdownee-crawl-md",
+      "category": "小众工具",
+      "title": "Markdownee：把整站爬成给模型吃的干净 Markdown",
+      "body": "给 RAG 或代理喂网页，最烦导航栏和页脚污染。Markdownee 基于自研 Trafilatura Core（TypeScript 与 Python 双实现）抽正文，Crawlee 加 Playwright 负责爬；可调深度、是否留表图评论。npx 一行就能把维基页存成 page.md，也有 playground 生成命令、Apify Actor 托管。作者把它定位成「给 LLM 和检索管线用的爬虫」，不是通用采集平台。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。不必等融资通稿，自己点开文档核对一遍就行。小而具体，比又一个「全能 AI 平台」好讲。所以呢：别再把整页 HTML 塞进上下文——先爬成干净 Markdown 再喂。",
+      "links": [
+        {
+          "label": "Markdownee 官网",
+          "url": "https://www.markdownee.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49945928"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "usageatlas-ai-tracker",
+      "category": "小众工具",
+      "title": "UsageAtlas：十四家编码 AI 用量，摊在一张桌面看板",
+      "body": "Claude Code 看一处、Codex 看一处、Cursor 再开一页——额度焦虑来自窗口太多。UsageAtlas 是免费开源桌面应用，聚合十四家提供商：有的给 token 历史和费用估算，有的只报剩余额度；托盘还能在窗口快见底时提醒一次。默认不上云、不读提示词；可选账号备份历史并生成类似 GitHub 贡献墙的公开页。macOS、Windows、Linux 都有包。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。不必等融资通稿，自己点开文档核对一遍就行。所以呢：别等账单惊吓——先让所有编码 AI 的余量出现在同一块屏上。",
+      "links": [
+        {
+          "label": "UsageAtlas 官网",
+          "url": "https://usageatlas.com"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49942530"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "pi-pod-sandboxes",
+      "category": "小众工具",
+      "title": "pi pod：把 pi 编码代理关进你自己服务器上的沙箱",
+      "body": "喜欢轻量开源代理 pi，却不想它直接摸宿主机。pi pod 让你在自有 Linux 上跑控制面：每个会话进隔离 pod，CLI、iOS、Android 都能连；Zitadel 管登录，服务器不存密码。八 GB 内存加 Docker Compose 即可 selfhost/upgrade 装好，手机也能挂上远程会话。它补的是沙箱、多端和会话网关，不重做一套模型。社区里 pi 党常说「要可定制又要隔离」，这条路线正好对准。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。不必等融资通稿，自己点开文档核对一遍就行。所以呢：代理要自由定制，电脑却要隔离——把 pi 塞进自己机房的 pod 里跑。",
+      "links": [
+        {
+          "label": "pi pod 官网",
+          "url": "https://pipod.dev/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/pi-pod/pipod"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49937304"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
+    {
+      "id": "hallmonitor-agent-board",
+      "category": "小众工具",
+      "title": "hallmonitor：刘海和菜单栏里的代理值班表",
+      "body": "开了五个 Claude Code 和 Codex，切走十分钟就忘了谁在等批准。hallmonitor 只读不写：终端看板、菜单栏、Mac 刘海同时列出 Needs you / Working / Idle，显示当前工具、上次提示、模型、上下文体积和子代理数；笔记本、开发机、GPU 服务器可经 SSH 汇到一块板。用量小时、缓存命中、套餐限额也能看。brew 可装板子和刘海 App。它从不代你点允许。有官网或仓库链接可点，对照自己的日常工作流就能试。装好之后立刻能看出它解的是哪门子烦。适合已经在跑代理、却缺一块小工具的人。不必等融资通稿，自己点开文档核对一遍就行。所以呢：代理一多别靠「翻终端回忆」——让值班表贴在刘海上。",
+      "links": [
+        {
+          "label": "hallmonitor GitHub",
+          "url": "https://github.com/hiteshbandhu/hallmonitor"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=49941003"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-04T14:30:00+08:00"
+    },
     {
       "id": "thinkingbox-db-vs-reply",
       "category": "硬科技",
