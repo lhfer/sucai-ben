@@ -1,6 +1,362 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-04T14:30:00+08:00",
+  "updated": "2026-10-04T18:30:00+08:00",
   "items": [
+    {
+      "id": "sherwood-bell-ai-protest",
+      "category": "痛点",
+      "title": "萨斯喀彻温舍伍德：抗议者冲进议会厅，贝尔AI机房扩四倍那天理事会起身就走",
+      "body": "比尔·克拉里开了四个小时车，从萨斯喀彻温小镇利德赶到里贾纳旁边的舍伍德农村自治市。九月二十三日下午，他和几十人举着「数据不能当水喝」的牌子，吹喇叭、敲锅，最后涌进议会厅，逼着刚批过贝尔加拿大AI机房的议员们面对面听问题。\n\n贝尔两周前才说，这座机房要从三百兆瓦扩到约一点二吉瓦，投资口径喊到五百二十亿加元。省政府强调「数据主权」和就业；抗议者问的是水、电和谁被提前问过。理事会成员几乎一直沉默，有人交头接耳，随后整队从后门离场——上一回抗议时门还锁着，这回人冲进去了，答案仍旧空着。\n\n所以呢：机房新闻稿写「国家队」，邻镇居民听到的是「先扩再建规矩」——谁先堵住议会门，谁就先把账本摆上桌。",
+      "links": [
+        "https://www.cbc.ca/news/canada/saskatchewan/protest-bell-ai-data-centre-rm-of-sherwood-9.7355413",
+        "https://globalnews.ca/news/12058872/bell-ai-data-centre-expanding-saskatchewan/"
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "tarluvada-google-adani-land",
+      "category": "痛点",
+      "title": "安得拉小村塔卢瓦达：推土机清山，农民说谷歌超大规模机房先拿走了他的地",
+      "body": "四十岁的阿普拉拉朱在印度安得拉邦海边小村塔卢瓦达养了二十年牛。今年四月，阿达尼集团的保安把篱笆一围，他过去以为是自己的放牧地进不去了。村里五百二十户人家经历了类似的「收回」：政府二十年前分下去的地，现在要腾给谷歌与阿达尼合建的超大规模AI机房。\n\n官方对外常说大约一吉瓦；环评文件却露出一点五一吉瓦以上的许可规模，相当于两座大型核反应堆的出力。九天批完环境许可、没开公听。达利特农民拉奥说，补偿约四万美元到手，但「换一块地、一家一个工作」的承诺没影，他觉得钱买不回饭碗。国家绿色法庭已有三份诉状，高等法院也有公益诉讼。\n\n所以呢：AI机房出海不只谈电价，还会先问——谁的篱笆被先钉上，谁的庄稼还在不在。",
+      "links": [
+        "https://www.theguardian.com/world/2026/sep/26/ai-datacentre-hyperscale-india-andhra-pradesh-village-google-confiscated-land",
+        "https://www.reuters.com/world/asia-pacific/googles-15-billion-india-data-centre-project-battles-water-wildlife-concerns-2026-08-06/"
+      ],
+      "prompt": "",
+      "date": "2026-09-26",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "bcbs-ai-coding-942m",
+      "category": "痛点",
+      "title": "蓝十字算账：医院AI写病案代码，两年多砸出九亿四千万「更复杂」账单",
+      "body": "十月一日，CNBC把蓝十字蓝盾协会的一张表摊开：二〇二三到二〇二五年，会员医院里用AI帮忙给住院病案打诊断代码的比例越来越高，协会估算因此多付了约九亿四千二百万美元。六成医院系统已上AI编码工具；「医学复杂」病例占比从百分之三十七爬到百分之四十。\n\n协会副总裁乔克说，大约七成增额——六亿五千三百万——来自次要诊断把病例推入更高价的诊断相关分组，却没看到重症监护、输血或住院天数同步变多。医院协会反呛：病人更老更复杂，AI只是把漏记的病情补上；真正烦人的是保险公司自己也用AI自动降码、拒赔。布朗大学经济学家惠利把两边都上AI，叫作「行政军备竞赛」。\n\n所以呢：账单上多出来的「复杂」二字，不一定等于多治了你，却可能先出现在明年的保费里。",
+      "links": [
+        "https://www.cnbc.com/2026/10/01/health-care-costs-insurance-claims-billing-ai.html",
+        "https://www.fiercehealthcare.com/finance/hospitals-use-ai-coding-tools-cost-bcbsa-plans-942m-more-similar-care-analysis"
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "claire-texas-ai-barratry",
+      "category": "痛点",
+      "title": "德州集体诉讼：电话里自称「事故理赔克莱尔」的AI嗓音，一开口就撞上五万美元罚则",
+      "body": "七月二十一日，得克萨斯州一名原告接到电话：开头是一把自称「事故理赔克莱尔」的嗓音，听起来不自然、对不上话、念完脚本就转真人。九月二十三日，她在北区联邦法院提起集体诉讼，把这通电话写成「用人工智能生成的人造语音招揽客户」，被告是一家人身伤害律所及其营销方。\n\n诉状一边引用联邦《电话消费者保护法》（TCPA，管自动拨号和人造语音），一边挂上德州禁止「律师乱拉客户」的反揽客法：二〇二五年九月起，民事罚金从一万美元抬到每人五万美元。眼下还没认证集体、也没判决，合成嗓音靠「听感与脚本」推断，厂商名字都没写。但原告律师已把「AI客服」和百年揽客禁令焊在一起。\n\n所以呢：你听到的「亲切女声」若是机器，德州法庭要问的不只是扰不扰民，还有——这是不是在违法替律师钓鱼。",
+      "links": [
+        "https://agenccy.ai/news/an-ai-voice-called-claire-meets-texas-barratry-law/",
+        "https://tcpaworld.com/2026/09/16/lawyers-calling-you-in-texas-prohibited-solicitations-from-lawyers-or-those-marketing-on-their-behalf-in-texas-could-trigger-50000-penalties-as-new-barratry-claims-fill-the-dockets/"
+      ],
+      "prompt": "",
+      "date": "2026-09-23",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "cooke-vanorden-grok-deepfake",
+      "category": "痛点",
+      "title": "威州国会选战：库克发停止侵权函，范奥登用Grok Imagine给她「配音」说胡话",
+      "body": "九月三十日，民主党国会候选人丽贝卡·库克的律师把停止侵权函寄给现任共和党众议员德里克·范奥登。函里点名他在X上反复发「深伪视频」：用Grok Imagine做出库克的嘴脸，让假库克说「让农民吃蛋糕」「百分百投了两个共产党」之类她从没说过的话。\n\n平台会自动贴「Grok Imagine」标签，但律师说标签挡不住诽谤：奥古斯特四日那条还让假库克声称要「尽量利用腐败、给每个非法移民免费医保」。库克嘲笑对方「不敢讲政绩，只会往我嘴里塞词」；范奥登阵营回呛她「发脾气」，又立刻发了一条带红鸭子的Grok短片喊「停止侵权」。\n\n所以呢：选战深伪就算贴了AI标签，仍可能是在用对手的脸做假证——州普通法诽谤条款被律师当成补丁拧上去。",
+      "links": [
+        "https://www.wpr.org/news/cooke-cease-and-desist-letter-van-orden-ai-deepfakes",
+        "https://thehill.com/homenews/campaign/6123389-van-orden-ai-deepfake-cease-desist/"
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "family-first-lake-america-ceo",
+      "category": "痛点",
+      "title": "密歇根信用社：CEO用ChatGPT改全家卫衣成「美洲湖」，贴脸书后当场离职",
+      "body": "简·史密斯是萨吉诺家庭第一信用社的首席执行官。九月十一日——九一一纪念日——她把底特律机场拍的全家福用ChatGPT改了一刀：卫衣上印上特朗普要求联邦机构改用的「美洲湖」（Lake America，指安大略湖），配文调侃「加拿大未必喜欢」，还加了lol。帖子先在加拿大炸锅，尤其是当年收留过滞留旅客的哈利法克斯网友。\n\n她后来对本地电视道歉，说不是政治宣言，只是「开了个糟糕的玩笑」。信用社审查后宣布：史密斯即刻不再任职，临时接任者上岗，并对会员社区致歉。联邦改名令管不了加拿大半边湖，但一张AI改图已经够让本地金融机构把老板换掉。\n\n所以呢：AI修图键一按就能上热搜，公职与金融高管的「玩笑」现在按社区反弹计价。",
+      "links": [
+        "https://www.theguardian.com/us-news/2026/sep/25/michigan-ceo-loses-job-lake-america-photo",
+        "https://www.abc12.com/news/business/family-first-credit-union-parts-ways-with-ceo-after-lake-america-post/article_3e37d2bb-26dc-443d-be99-3bba7138f117.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-25",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "divyakirti-delhi-deepfake",
+      "category": "痛点",
+      "title": "德里高院：Drishti IAS创始人被假号与深伪缠身，法官骂平台工具「比枪更糟」",
+      "body": "九月二十九日，德里高院法官安努普·贾伊拉姆·巴姆巴尼当庭下令：先撤掉针对公务员考试名师、Drishti IAS创始人维卡斯·迪维亚基尔蒂的假账号、深伪内容和未授权讲座切片，并传唤平台交出上传者基本订户信息与IP。迪维亚基尔蒂诉称人格权、署名权与版权一起被啃。\n\nMeta律师说十三条链接里十一条可以撤，又主张应先走信息技术法投诉渠道；原告律师回呛申诉委员会「挤爆了、没动静」。法官对着Instagram工具急了：持枪要办手续，这些工具却「免费、匿名、谁都能下」，「比枪更糟」。印度高院近几个月已连保多位演员、球星与创作者的人格权。\n\n所以呢：名师的脸和课一被AI拆成引流素材，法院要问的是——平台把枪发给幽灵账号时，算不算还在「中立」。",
+      "links": [
+        "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-orders-takedown-of-deepfake-content-against-drishti-ias-founder-vikas-divyakirti-552227",
+        "https://www.thehindu.com/news/cities/Delhi/delhi-hc-orders-takedown-of-fake-profiles-deepfakes-using-vikas-divyakirtis-identity/article71524449.ece"
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "umg-distrokid-ai-slop",
+      "category": "痛点",
+      "title": "环球告DistroKid：一年砸出四千五百首「Lofi Chill」，把它写成AI泔水管道",
+      "body": "九月十五日，环球音乐集团把发行平台DistroKid告进特拉华联邦法院。诉状五十二页，核心指控是：这家对独立音乐人卖「无限上传」的管道，实际建成了「AI泔水流水线」，把合成曲灌进Spotify、苹果音乐、YouTube，抢走真人作品的播放与版税。举例写到某个「Lofi Chill」账号十二个月内吐出四千五百六十二首歌。\n\n环球还称，流媒体已通知侵权，例如山姆·史密斯《Unholy》的未授权电台剪辑，DistroKid承认没权利后仍继续往别的平台推。行业刚推「流媒体诚信倡议」，三大厂签了，DistroKid没签。对方发言人反击：他们认真防欺诈，环球不该绕过行业流程直接打官司。\n\n所以呢：发行键一按就能上架全球，法院要裁定——「无限上传」到底在帮独立音乐人，还是在帮AI泔水抢榜。",
+      "links": [
+        "https://variety.com/2026/music/news/universal-music-group-sues-distrokid-ai-slop-pipeline-1236863076/",
+        "https://www.musicbusinessworldwide.com/files/2026/09/Stamped-Complaint-UMG-DistroKid.pdf"
+      ],
+      "prompt": "",
+      "date": "2026-09-15",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "distrokid-spotify-hijack",
+      "category": "痛点",
+      "title": "404媒体：三块七毛五上传，就把AI歌挂上布鲁克林朋克乐队认证Spotify页",
+      "body": "九月十日，布鲁克林朋克乐队Lathe of Heaven的认证Spotify页突然多了一首《Riding High》。歌迷一听就不对：嗓音不是主唱，封面也不像他们。其实是记者用Udio一句话生成曲目，再钻发行平台空子，把歌挂到乐队在Spotify、苹果音乐、Tidal和亚马逊音乐的官方页上——乐队事先完全不知情。\n\n404媒体复现整条链路：在发行端填真艺人名字，就能蹭上已验证主页，播放版税进「上传者」口袋，听众点开却听到廉价合成音。漏洞存在多年，AI泔水让它规模化。流媒体和发行商互相推责，谁都不肯先认领堵漏。\n\n所以呢：你收藏的「官方页」未必还只放本人作品——发行管道若认名不认人，AI就能借你的粉赚你的流。",
+      "links": [
+        "https://www.404media.co/spotify-ai-music-scam/",
+        "https://theclarity.today/story/i-hijacked-a-real-artist-s-spotify-with-ai-music-it-was-disturbingly-easy-68a50a72"
+      ],
+      "prompt": "",
+      "date": "2026-09-17",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "red-oak-compass-dc-suit",
+      "category": "痛点",
+      "title": "德州红橡：一百三十人会上全说不，议会仍批八百三十英亩机房，邻居俩告上法院",
+      "body": "五月十一日，达拉斯南边小镇红橡的市政厅挤进一百三十多人，公众发言席上没人支持把八百三十英亩农地改成「高科技工业园」——实际是Compass DataCenters的机房园区。规划与区划委员会先三比二否决，市议会四比一翻盘通过。附近两百英尺内的业主艾尔达·贾兹敏·维耶加斯和凯瑟琳·海弗林九月初把市长与五名议员告进埃利斯县法院。\n\n诉状说投票、公示和程序违反德州法与本市条例，要求冻结条例、把区划打回农用。红橡城里已有七座运营或在建机房；居民担心水、电、车流和房价，维耶加斯说「不是反科技，是要合法程序」。市府称尚未收妥送达，暂不评论。\n\n所以呢：会上全场反对仍能批地，邻居能做的下一件事，往往是把议程表拖进法院。",
+      "links": [
+        "https://www.dallasnews.com/news/courts/article/red-oak-data-center-lawsuit-22415755.php",
+        "https://www.dallasobserver.com/news/red-oak-resident-files-lawsuit-against-city-for-data-center-development-40710655/"
+      ],
+      "prompt": "",
+      "date": "2026-09-03",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "missouri-capitol-dc-rally",
+      "category": "痛点",
+      "title": "密苏里州议会圆厅：两百人举绿纸要全州冻建超大规模机房，请愿书送到州长宅",
+      "body": "九月十六日，约两百人挤进杰斐逊城议会圆厅。绿色纸片举起来，象征他们想投出的那一票：全州暂停超大规模机房建设。集会结束，队伍走到州长官邸递请愿书；原定同一天的众议院机房听证会却取消了——否决会开着，真正审机房的会没了。\n\n费斯图斯镇的加布·科顿上台——当地选民刚把挺机房的市议员换掉。他说不反发展，反的是「不负责任、毁地方」的项目，要透明、健康防护，也别再塞税收优惠。堪萨斯城教师克莱尔·巴克莱把AI和孩子们的不确定未来绑在一起骂。州长基霍仍常谈机房好处；一名三十一岁抗议者因占车道被带走。\n\n所以呢：州府还没立法，圆厅里先用绿纸演了一场「人民公投」——地方先翻盘，州里才被逼着听。",
+      "links": [
+        "https://www.stlpr.org/government-politics-issues/2026-09-16/data-center-protesters-fill-missouri-capitol-seeking-a-statewide-construction-moratorium"
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "creative-jobs-200k-drop",
+      "category": "痛点",
+      "title": "经济学家摊开BLS：四年少掉二十万创意岗，电影录音砍三分之一，偏没碰上大衰退",
+      "body": "九月二十七日，经济学家约瑟夫·波利塔诺在Apricitas通讯里摊开劳工统计局数据：过去四年，美国电影电视、出版、平面设计等「创意」行业合计少掉逾二十万个岗位，近一年约五万。强度接近二〇〇一、二〇〇八年衰退期，但眼下并没有全面衰退——时间线却卡在ChatGPT上线之后。\n\n他没说AI是唯一凶手，也点出好莱坞整合、外包、网红分流。最刺眼的对照是：数字媒体岗在掉，博物馆和现场表演还在涨；电影与录音业四年丢超十万，近三分之一劳动力；出版丢超七万。Gizmodo两天后把这组数字写成「AI繁荣旁的大出血」。\n\n所以呢：没有全国失业潮，也能先看到写稿、剪片、做封面的人先被挤出编制——创作者要问的是下一份合同还在不在。",
+      "links": [
+        "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+        "https://gizmodo.com/creative-jobs-have-plummeted-amid-the-ai-boom-2000818893"
+      ],
+      "prompt": "",
+      "date": "2026-09-27",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "nh-authors-anthropic-claim",
+      "category": "痛点",
+      "title": "新罕布什尔作家领Anthropic和解款：每本大约三千刀，权利信找不着就可能进出版社口袋",
+      "body": "康科德小说家玛格丽特·波特写过十七本书。九月底她对着本地报说，Anthropic十五亿美元盗版书库和解里，自己大概能领到几千刀，心情却很杂：钱是对「非法下载存放」的惩罚，法官并没裁定「拿书训模型算不算合理使用」。更大的刺是——AI合成书正在淹没亚马逊货架，真人作者开始怀疑还值不值得写。\n\n领钱也不轻松。七百万册被下的书里，只有约五十万种进得了集体；作者得自己查数据库，再证明版权是否已「回归作者」。波特说她多年死盯回归信，才挡住出版社分账；很多人信找不到，钱可能先流进社方或经纪人口袋。首笔款预计十一月中，第二笔明年。\n\n所以呢：和解支票买不到「不许再训」的判决，却能先让作者学会——权利纸片比礼貌邮件更值钱。",
+      "links": [
+        "https://www.concordmonitor.com/2026/09/30/ai-settlement-authors-anthropic-new-hampshire-nh/"
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "microsoft-mt-pleasant-5m",
+      "category": "痛点",
+      "title": "威州芒特普莱森特：微软放弃五百万年度激励，镇上说钱先拿去砍房产税",
+      "body": "九月二十九日，威斯康星芒特普莱森特村宣布：微软把它在机房开发协议里刚够格领取的每年五百万美元激励「退回」——四百九十万给村，十万给县经济发展公司。村打算从二〇二七年预算起压低征税额，居民有望在十二月税单上看到变化，也可能拿去修路和买警车消防车，少借债。\n\n这片园区落在当年鸿海承诺大厂的土地上，微软Fairwater已投运，二期还在排。过去一年，当地为机房用水数字打过公开记录官司，居民对电和水一直紧绷。公司主动让出激励，官方口径是「项目已产生足够物业价值」；邻居听的是——优惠谈得再响，最后仍可能改口吐回一点。\n\n所以呢：机房招商常先塞支票，这回支票被掰回去减税——说明社区压力已经写进合同执行页。",
+      "links": [
+        "https://wtmj.com/news/2026/09/29/microsoft-redirects-5-million-incentive-to-mount-pleasant-for-property-tax-relief/",
+        "https://www.wpr.org/news/microsoft-to-redirect-data-center-incentive-back-to-mount-pleasant"
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "cidi-chuanshan-70t-ev",
+      "category": "跨行业",
+      "title": "江苏船山矿业：希迪智驾七十吨纯电无人矿卡批量交车，配矿指令直达车队",
+      "body": "九月中旬，江苏船山矿业的凹陷采场边，崭新的七十吨级纯电无人矿卡列成一排，背后是服役多年的燃油车。希迪智驾联合宇通重工把这批车交出去，老牌非金属矿山正式从「燃油人工」迈进「新能源无人」。\n\n船山坑底与地面高差可达上百米，重载上坡、空载下坡，每趟耗电都不一样；采面天天往前挪，固定排班充电会把车堵在桩前。希迪把充电调度接到数字采矿平台，动态轮循、错峰补电，号称不新增充电桩也能撑满当班运力。更关键的是配矿：在线物料分析仪算出品位需求后，调度系统直接生成「去哪装、装什么、卸到哪」的指令下发车队，少一层人工抄单。\n\n所以呢：矿山无人化拼的不只是车会不会自己开，而是能不能把配矿和充电这种工艺细节一起嵌进算法。",
+      "links": [
+        "https://www.cidi.ai/cn/news/featurednews/2100065352632094721.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "dyno-nobel-copper-one-blast",
+      "category": "跨行业",
+      "title": "犹他东南Copper One：Dyno Nobel自主装药上台阶，爆破台最后一道人工关",
+      "body": "十月一日，炸药巨头Dyno Nobel在纽约向投资者亮出一套自主爆破台阶系统：测孔、装起爆药、装填炸药、填塞、记录，全流程远程干，人不用再站在台阶上。首个商业试跑落点选在犹他东南里斯本谷的Copper One——马里亚纳矿产那座「先无人再建」的铜矿炼厂。\n\nCopper One已经跑着Sandvik无人钻、无人矿卡和波士顿动力Spot，马里亚纳八月还融了三点一亿美元；爆破一直是生产链上最后一段手工活。CTO说，哪怕在正常矿山，也有因空洞和不稳定地层进不去的区域，自主装药才摸得到。公司计划把美国试跑排到二零二七年中，再推到其他国家；监管对无人炸药作业的细则仍是最大未知数。\n\n所以呢：铜矿能无人钻、无人运，装药那一枪还敢不敢交给机器——犹他这场试跑，要回答的是整条链能不能真正闭合。",
+      "links": [
+        "https://im-mining.com/2026/10/01/dyno-nobel-prototypes-autonomous-blasthole-inspection-loading-technology/",
+        "https://discoveryalert.com/news/dyno-nobel-autonomous-blast-system-october-2026/"
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "bawotong-unitree-h2-substation",
+      "category": "跨行业",
+      "title": "变电站：八维通搭宇树H2读作业票，徒手去拧六千伏配电柜",
+      "body": "变电站夜里要做一次倒闸，以往是一人下令、一人执行，稍有疏忽就可能闪爆。九月中旬起，八维通把宇树全尺寸人形H2嵌进具身作业平台：系统对接现场DCS直接读作业票，AI拆成「到哪面屏柜、按什么顺序、拧到什么力度」，机器人去识别开关、旋钮、压板和指示灯，再标准化操作并复核结果。\n\n十月杭州数贸会上，这台能徒手操作六千伏配电间高压设备的人形第一次公开亮相。后台能看三维站内场景、机器人路径、实时视频和每步分析；一键停止和人工遥操作随时可接管，口号是「人主导、机辅助」。电力巡检长期高危又缺人，标准化重复动作正是具身智能想啃的骨头。\n\n所以呢：电网最吓人的那几下拧开关，开始有机器人愿意替人伸手——关键是控制权还捏在人手里。",
+      "links": [
+        "https://tech.gmw.cn/2026-09/16/content_39003907.htm",
+        "https://finance.sina.com.cn/wm/2026-10-04/doc-initzerm0253613.shtml"
+      ],
+      "prompt": "",
+      "date": "2026-09-16",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "lumi-goorambat-culcairn-5",
+      "category": "跨行业",
+      "title": "澳洲两座光伏场：五台LUMI装板机器人，两人跟着螺检可达七十五块每小时",
+      "body": "维多利亚Goorambat East光伏场的两排跟踪支架之间，履带车驮着机械臂滑过去：视觉认准玻璃组件，抓起来稳稳放到导轨上。工人不用再扛沉甸甸的板，只负责紧固和检查——这是澳大利亚ARENA支持的LUMI项目现场。\n\n首两台LUMI Series 4在约三十二万千瓦峰值、超五十一万七千块组件的Goorambat试跑，安装节拍一度超目标百分之一百零三；单机配两人可达每小时约七十五块，人效约抬到三点五倍。三台后续机将开进新南威尔士Culcairn四百四十兆瓦场站，凑成五台舰队，目标周装约三点五兆瓦。一个月里软件改了二十七版，卡点从「机器人慢」变成「托盘跟不上」。\n\n所以呢：大型光伏降本，下一刀可能砍在「谁来搬那块玻璃」——澳洲把装板机器人真开进了工地垄沟。",
+      "links": [
+        "https://energiesmedia.com/goorambat-east-victoria-culcairn-robot/",
+        "https://arena.gov.au/news/lumi-robots-scaleup-solar-deployment-with-advanced-automation/"
+      ],
+      "prompt": "",
+      "date": "2026-10-03",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "kddi-skydio-tamashima-tanks",
+      "category": "跨行业",
+      "title": "冈山仓敷玉岛火电厂：Skydio绕六座燃料油罐自主巡视，人不用再爬罐顶",
+      "body": "九月二十四日，中国电力、中电工业和KDDI Smart Drone在冈山县仓敷市的玉岛火力发电所按下起飞键：Skydio X10从场内机巢升空，按预设航线绕着重油与原油罐飞。六座罐直径约四十点六到四十六点四米、高十六点五到二十五米，高处散落检查点，过去全靠巡检员登高。\n\n现在驾驶员远端下起飞指令，无人机自动拍罐壁、配管，人在屏幕上看变形、腐蚀、漏油，再判断设备健康。试验排到二零二六财年末，要验影像是否够判、通信是否稳、同一点同一画角能不能反复拍准；三家目标是二零二七年度正式运营，再扩到其他火电与油库变电站。\n\n所以呢：火力厂保安数字化，不是多装几个摄像头，而是敢让机器替人爬那几十米高的罐顶。",
+      "links": [
+        "https://kddi.smartdrone.co.jp/news/release/14173/",
+        "https://www.telecompaper.com/news/kddi-begins-autonomous-drone-inspection-trial-at-power-plant--1583755"
+      ],
+      "prompt": "",
+      "date": "2026-09-24",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "wanwei-changsha-omni-forklift",
+      "category": "跨行业",
+      "title": "长沙仓储园月台：万为无人叉车横着「飘」进车厢，一台顶两三个老师傅",
+      "body": "九月二十二日，长沙一座智能仓储物流园的月台上，一台没有驾驶舱、外形像缩小装甲车的家伙货叉一横、车身一斜，滑进月台咬住托盘，再退身转身送进库区。工人叫它「灵活胖子」——湖南万为机器人的全向平衡重无人叉车，四个舵轮能独立转向，直行、横移、斜走、原地三百六十度都行。\n\n董事长李金波说，一台效率顶得上两三个老师傅，月台和车厢空间利用率升约三成。它不靠死地图：激光雷达加视觉实时算货车偏移和倾斜，歪停也能一次把货叉插进托盘；满载续航约七八小时，载重六百到三千公斤。传统自动装车最怕车停偏、车厢没参照、矮柜挡住雷达，这套复合感知就是冲着这些「罢工点」来的。\n\n所以呢：仓储无人化不一定非要漂亮人形，能横着走进月台把托盘咬稳，就已经是很硬的落地画面。",
+      "links": [
+        "https://hunan.voc.com.cn/news/202609/33823415.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-22",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "shangyu-runtu-chlorine-quad",
+      "category": "跨行业",
+      "title": "绍兴上虞闰土：液氯车间四足巡检过十五天考核才上岗，企业称暴露降九成",
+      "body": "十月三日《人民日报》头版写到一台四足机器人：可见光、红外、气体传感器齐上，闻到微量泄漏就向中控喊。它先进绍兴上虞的具身智能测试实验室长三角中心，熬完十五天化工真实工况考核、拿到国家级认证，才走进浙江闰土新材料的液氯生产车间。\n\n液氯车间高温、强电磁，很多电子设备扛不住。上虞先走访一百一十多家化工企业，梳出六类场景，挑五家试点，再用四十台采集机器人攒出超十五万条数据——公开点名正式上岗的，目前是闰土这一家。公司常务副总傅哉荣说，用上机器人，高危区域人员暴露时长降九成；原文没写清是按单次还是日均人时算，但「先考核再进场」本身就是门槛。\n\n所以呢：化工机器人的难点不在会走路，而在有没有人敢给你盖工况认证章——上虞把章盖完了才放它进液氯区。",
+      "links": [
+        "http://finance.people.com.cn/n1/2026/1003/c1004-40809000.html",
+        "https://paper.people.com.cn/rmrb/pc/content/202610/03/content_30184169.html"
+      ],
+      "prompt": "",
+      "date": "2026-10-03",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "shangyu-changhu-g2-station",
+      "category": "跨行业",
+      "title": "上虞百官街道：全国首个智能长护驿站开张，精灵G2演示擦浴翻身",
+      "body": "九月二十八日，浙江上虞百官街道「养老一条街」上，全国首个智能长护驿站开门。智元精灵G2正式上岗，实景演示床上擦浴、协助进水、整理床单等长护险护理动作；九十后护理员易城说，以前给失能老人翻身擦身全靠手感，力度不对就容易压疮磕碰，新手上手很慢。\n\n驿站由医保部门牵头，中国太保寿险与定点服务单位共建，把护理实训、辅具展售、数据采集和医保咨询放在同一屋檐下。机器人用高精度肢体和三维触觉，把清洁、喂水等动作量化成可教的标准；家属情绪疏导课也同步开。上虞想试的，是把智能照护和辅具推进长护险保障范围。\n\n所以呢：老龄化最缺的是标准化护理人手，机器人先在社区驿站当「教员」，比空喊银发经济更落地。",
+      "links": [
+        "http://finance.people.com.cn/n1/2026/0930/c1004-40808293.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-28",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "incheon-cleantech-21-cleaners",
+      "category": "跨行业",
+      "title": "仁川国际机场：克琳泰克三天交齐二十一台自主清洁机器人",
+      "body": "九月二十一日，韩国清洁设备商克琳泰克宣布：仁川机场订购的二十一台自主清洁机器人，已分三天全部运到现场。机型包括SP50、L3等，公司四月以技术分高出第二名六点五八分中标，硬件交付后正式进入机器人系统集成和AI运营场景部署。\n\n机场玻璃幕墙多、传感器干扰大，克琳泰克强调自己的防撞和数据驱动AI运营场景，号称相对既有规格最多可提效约两倍。硬件、SI和售后由同一家打包，全国直营服务网兜底。枢纽机场保洁是昼夜不停的脏活累活，一次拉进二十一台，比展厅单机演示更有「真要替人扫」的分量。\n\n所以呢：机场智能化不只看登机口机器人送餐，地面谁来拖地——仁川先用二十一台清洁机给出答案。",
+      "links": [
+        "https://worldtimes.info/View.aspx?No=4237124",
+        "https://www.newswire.co.kr/newsRead.php?no=1032310"
+      ],
+      "prompt": "",
+      "date": "2026-09-21",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "akerbp-fenris-taurob",
+      "category": "跨行业",
+      "title": "北海Fenris无人平台：Aker BP让Taurob先上岗，人只从供应船舷梯过去",
+      "body": "挪威北海Valhall油田旁，新装好的Fenris平台还要等到二零二七年三季度才产油，但Aker BP已经把Taurob巡检机器人送上去了。这座未来无人平台，人只能从供应船的舷梯过去，每一次登平台都贵、都慢、都危险——机器人就是冲着这套约束来的。\n\n试点阶段风险可控、学习快：测恶劣天气下的鲁棒性、通信可用性，以及和岸上、海上流程怎么咬合。成功了，日常巡检、状态监测、异常支持都可以交给它，经验还能搬到Yggdrasil的Munin等其他无人设施。高压高温储层要求少干预、早发现，机器人是「少派人上去」的具体工具，不是展厅玩具。\n\n所以呢：北海无人平台的运维故事，第一步往往不是少建一个人，而是让机器人先住进还没投产的钢结构里。",
+      "links": [
+        "https://akerbp.com/en/robot-inspections-at-fenris-building-tomorrows-operations-step-by-step/",
+        "https://www.offshore-mag.com/business-briefs/equipment-engineering/news/55381571/aker-bp-taurob-robot-begins-trial-run-on-north-sea-fenris-platform"
+      ],
+      "prompt": "",
+      "date": "2026-09-20",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "qarpilot-ordos-near100",
+      "category": "跨行业",
+      "title": "鄂尔多斯棋盘井：卡尔动力近百台L4重卡编队，毛利称高一到两成",
+      "body": "九月二十二日，内蒙古鄂尔多斯棋盘井，卡尔动力COO李潇潇对记者说：混合智能编队相对纯人工，毛利能高百分之十到十八，折旧维修保险都算进去了——不是PPT里的理想账。当天公司启动「规模化AI运输网络」，L4自动驾驶卡车运营规模已接近百台。\n\n模式是「一人多车」：一个人盯两辆，人力成本占比近乎腰斩；三辆再降一截。车队从「一台台训练」长到近百台实运，调度靠KargoCloud按大宗物流淡旺季预测运力。线路已从内蒙古扩到陕西、山西、甘肃、新疆，北方能源带的高速国道矿区路被当成可复制样本。下一关不是会不会开，而是售后运维和跨区复制能不能扛住千台级。\n\n所以呢：干线无人卡的内容点，已经从「无人能不能跑」换成「近百台能不能持续赚钱」。",
+      "links": [
+        "https://www.nbd.com.cn/articles/2026-09-23/4590277.html",
+        "https://www.21jingji.com/article/20260923/herald/103d473bd50bfb9c17e943d573c71d34.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-22",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "surgbot-farrer-park-sg",
+      "category": "跨行业",
+      "title": "新加坡Farrer Park医院：精锋腔镜机器人首刀，二百九十分钟前列腺癌根治",
+      "body": "新加坡私立三级医院Farrer Park的手术室里，泌尿外科医生Png Keng Siang坐上主控台——这是医院史上第一台机器人手术，也是新加坡医疗体系引进的首台中国品牌腔镜机器人：精锋多孔系统。患者前列腺约八十克，还合并腹壁粘连，要做经腹前列腺癌根治联合盆腔淋巴结清扫和粘连松解。\n\n整台刀走了二百九十分钟，出血约五十毫升，团队说过程顺利。Png医生职业生涯做过八百多例机器人及腹腔镜手术，术后评价操作手感与国际顶尖品牌没有明显差异。精锋此前已在马来西亚、印度、印尼、菲律宾等地落地，新加坡这一刀意味着从新兴市场迈进准入最严的亚太成熟体系。\n\n所以呢：国产手术机器人出海，真正的门槛不是展会签约，而是敢在新加坡手术室里开第一刀还开得漂亮。",
+      "links": [
+        "https://www.stnn.cc/detail/6abb72590b05bc6162832449.html"
+      ],
+      "prompt": "",
+      "date": "2026-09-29",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "tianjin-pacific-art-20k",
+      "category": "跨行业",
+      "title": "天津港太平洋码头：ART月搬超两万箱，岸桥司机坐在一公里外远控",
+      "body": "渤海湾东疆港区南端，太平洋国际集装箱码头前沿十余条作业线排开。岸桥队长杨威记得，以前要爬上四十多米高的驾驶室，凭手感抓箱落箱；现在坐进一公里外的智控中心，盯着屏幕里的吊具和箱位，远程把箱子稳稳放到集卡上。\n\n十月三日报道写，这座设计年吞吐四百万标准箱的老码头，人工智能运输机器人（ART）已与多类设备联合作业，月作业量超过两万标准箱，全流程自动化区域还在扩。场桥电动化、岸电全覆盖、两千三百多个充电桩和分布式风光，让柴油轰鸣换成绿电。不久前「地中海米科尔」轮还创下每小时二百五十八点一三自然箱的在泊效率纪录。\n\n所以呢：北方传统集装箱码头的智能化，不是推倒重来，而是让司机从四十米高空搬进办公室，再让ART把月箱量跑过两万。",
+      "links": [
+        "https://feng.ifeng.com/c/8wvAXc1qXNh"
+      ],
+      "prompt": "",
+      "date": "2026-10-03",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
+    {
+      "id": "meinong-shanshan-grape-2",
+      "category": "跨行业",
+      "title": "新疆鄯善葡萄园：美农两台采收机十秒一串，日收号称一万五千斤",
+      "body": "八月吐鲁番葡萄节上，黄色底盘的采收机器人钻进棚架：升降台把手臂送到果穗高度，末端对准成熟串，剪下轻轻放进跟行的筐。美农这套机子已在鄯善县供销社常态作业两台，公开数字是约十秒一串、每小时三百多串，日产能号称一万五千斤——大约六到十倍于人工。\n\n吐鲁番葡萄种植约六十三万亩，丰收季最缺的是弯腰剪串的人。机器人满电可跑约十二小时，还能兼顾田间喷药，少让果农长时间猫腰。公司还在鄯善建了农服中心和研发实训基地，把认果、定位、柔顺采摘从演示推进到供销社的真实园子。\n\n所以呢：葡萄季抢收拼的是人手，两台能日收万斤级的采收机，比展会剪彩更接近果农要的答案。",
+      "links": [
+        "https://www.meinong.hk/en/news/meinong-grape-picking-robot-turpan-grape-festival-20260823"
+      ],
+      "prompt": "",
+      "date": "2026-08-23",
+      "added": "2026-10-04T18:30:00+08:00"
+    },
     {
       "id": "prompt-seedance-tokyo-2003-hotel",
       "category": "提示词",
