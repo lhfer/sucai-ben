@@ -1,5 +1,700 @@
 [
   {
+    "id": "prompt-seedance-toddler-foam-beard",
+    "category": "提示词",
+    "title": "爸爸刮胡子，小娃挤一脸泡沫当圣诞老人",
+    "body": "浴室里，爸爸对着镜子刮胡子，地上坐着个光脚的小娃，一直盯着他看。下一秒，小娃按下洗手液，把白泡沫糊满眉毛、脸颊和下巴，给自己捏出一副圣诞老人的大胡子。\n\n这是 X 上的 @Zarnab_with_Ai 用 Seedance 2.5 做的二十一秒 3D 动画短片，播放量已经过了十八万，点赞一千多。成片像一段皮克斯式的家庭小品：小娃顶着泡沫胡子，还扛起一把扫帚往门口走，好像要帮忙打扫；妈妈抱着叠好的毛巾出现在门口，先愣住，再笑出声；爸爸也蹲下来跟着笑。\n\n提示词本身不长，巧在它只老老实实写了一个完整的小故事：谁在看谁、模仿了什么、谁先发现、谁先笑，最后停在小娃站在笑着的爸妈中间、冲镜头傻笑。没有堆一串镜头术语，模型反而把表情和节奏拍顺了。\n\n普通人改着用很简单：把「刮胡子」换成「敷面膜」「涂口红」「打领带」，就是一个新的「小孩学大人」段子。\n\n所以呢：家庭温情小品最吃「一个动作加一个反应」，把故事写清楚比堆参数管用；可以做一期「AI 拍出你家娃真会干的事」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/Zarnab_with_Ai/status/2106560621932384657"
+      }
+    ],
+    "prompt": "Create a heartwarming and funny ultra-realistic 3D animated cinematic video in vertical 9:16 format.\n\nScene: A cute little toddler boy is sitting on the bathroom floor in front of a dark blue liquid soap dispenser. His father is standing behind him in front of a large bathroom mirror, shaving his own face with a razor.\n\nThe toddler curiously watches his father and decides to imitate him. He presses the soap dispenser and playfully covers his eyebrows, cheeks, upper lip, and chin with thick white shaving foam, creating a funny oversized Santa-style beard and eyebrows.\n\nThe father notices what the child has done and looks surprised and amused. The toddler proudly stands up, grabs a wooden floor broom, and walks toward the bathroom doorway as if he is going to help clean.\n\nThe mother appears at the doorway holding folded white towels. She looks at the toddler, realizes what happened, and starts laughing. The father also looks at his little son and bursts into laughter.\n\nEnd with the toddler standing proudly between his laughing parents, still covered in shaving foam, smiling innocently at the camera.\n\nStyle: high-quality 3D animated family comedy, adorable toddler expressions, realistic body movement, detailed facial animation, warm bathroom lighting, cinematic depth of field, soft shadows, realistic textures, natural camera movement, expressive reactions, wholesome family humor.\n\nKeep the characters consistent throughout the entire video. Preserve the toddler's hairstyle, clothing, facial features, and proportions. Smooth motion, believable hand movements, natural eye direction, cinematic composition, highly detailed animation, no text, no subtitles, no watermark.",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-sniper-fried-chicken",
+    "category": "提示词",
+    "title": "她在楼顶架好长筒瞄准对面写字楼，射过去的是一块炸鸡",
+    "body": "一个女人趴在高楼顶上的塔吊里，架着一根长筒，瞄准对面的写字楼。镜头怼到她的眼睛，再切进瞄准镜里的画面。下一秒，飞出去的不是子弹，而是一块炸鸡。对面会议室里，一排穿西装的同事看着炸鸡飞进来，最后一起啃了起来。\n\n这是 @ElsaSofia__AI 发的十七秒 Seedance 2.5 短片，十二万次播放、三百多人收藏。有意思的是，提示词里写的是「望远镜」，成片里那根长筒更像狙击镜，反差反而更好笑。\n\n真正的巧思是分工。她先准备好一张角色参考图和一张「总分镜」，提示词只负责报时间表：十三个镜头，每个一秒多，第几秒到第几秒拍什么写得清清楚楚。最后再补一句硬规矩：照分镜拍，不许加新场景，不许改顺序，不许换人。画面交给分镜图，节奏交给提示词。\n\n想复用的话，把炸鸡换成奶茶、咖啡、外卖袋，把写字楼换成教室或宿舍；先用生图模型画一张分镜，再把这张时间表改成你的剧情。\n\n所以呢：先画分镜、再按秒报镜头，是让视频模型听话的笨办法，也是最稳的办法；可以做成「一张分镜图怎么变成一条广告片」的教程。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/ElsaSofia__AI/status/2106928507809100018"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/ElsaSofia__AI/status/2106928513710518539"
+      }
+    ],
+    "prompt": "Create a 17-second cinematic photorealistic video using the provided character reference and the provided master storyboard as strict visual references. Recreate the storyboard sequence accurately without changing the characters, environment, props, wardrobe, or story.\n\nShot 1 — 0.0–1.3s: A woman stands inside an office/building and carefully aims a large telescope toward a distant building. Cinematic medium shot, subtle camera movement, realistic lighting.\n\nShot 2 — 1.3–2.5s: Extreme close-up of her eye looking through the telescope. Detailed eyelashes, realistic skin texture, focused expression, shallow depth of field.\n\nShot 3 — 2.5–3.8s: Close-up of the telescope as she adjusts and aims it precisely. Smooth cinematic camera movement, realistic metal and glass reflections.\n\nShot 4 — 3.8–5.0s: Telescope point-of-view shot showing the distant building through the lens. Clear optical perspective, realistic depth and slight lens distortion.\n\nShot 5 — 5.0–6.3s: Exterior/front view of the telescope, maintaining the same woman and location. Build anticipation with a subtle push-in.\n\nShot 6 — 6.3–7.5s: A piece of fried chicken suddenly enters the frame from the side, creating a humorous surprise. Natural motion and realistic physics.\n\nShot 7 — 7.5–8.8s: Cut to the group inside the office near the window, watching the situation with surprised expressions. Keep their appearance and environment consistent with the storyboard.\n\nShot 8 — 8.8–10.0s: The fried chicken flies rapidly across the scene toward the woman. Use dynamic tracking camera movement and realistic motion blur.\n\nShot 9 — 10.0–11.4s: The woman catches/bites the fried chicken naturally. Close cinematic framing, realistic facial expression, comedic timing.\n\nShot 10 — 11.4–13.0s: She calmly returns to the telescope and continues looking through it as if nothing unusual happened. Smooth transition, deadpan comedy.\n\nShot 11 — 13.0–14.2s: Cut back to the group; they begin eating fried chicken together.\n\nShot 12 — 14.2–15.8s: The group continues eating happily. Natural gestures, subtle reactions, realistic food movement.\n\nShot 13 — 15.8–17.0s: Final cinematic group shot of everyone eating together. Hold for a brief comedic ending.\n\nOverall style: ultra-realistic cinematic commercial, natural human movement, realistic physics, consistent faces and clothing, detailed food textures, realistic office environment, cinematic depth of field, subtle handheld camera movement, smooth cuts, natural motion blur, believable lighting and shadows, high-end film production quality, 4K photorealism.\n\nImportant: Follow the provided storyboard exactly. Do not invent new scenes, do not change the sequence, do not change the characters, and do not add unnecessary objects or actions.",
+    "date": "2026-10-05",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-claude-week-calendar-agent",
+    "category": "提示词",
+    "title": "周末让 Claude 把你这周的编程记录画成一张日历",
+    "body": "周日晚上想写周报，却完全记不起这周到底干了啥。@Voxyz_ai 的办法是：让 Claude Code 翻自己电脑里的会话记录，画一张周日历。他晒的样图里，一周二十九个会话、八十三次提交，五个项目一共四十三个小时，每天几点在干活一目了然。\n\n最扎心的是红框：有四个会话聊了半天，一次代码都没提交，被单独拎成一张清单。这条帖子六万多次浏览，收藏一千六百多，比点赞还多一倍。\n\n他分享的提示词，是一段直接发给 Claude Code 的「装修指令」。先建一个只会画周日历的子代理，也就是专门只干这一件事的小助手。第一次用时，它先问你喜欢深色还是浅色、按项目还是按任务上色，记住以后每次照做。数据从本机的 Claude Code 和 Codex 记录里读，全程留在本地。最后再加一条规矩：你一说「这周干了啥」，它就先重画日历，再写三行周报，包括下周该先捡起哪几个没提交的会话。\n\n提示词结尾还有一句很贴心：动手前先给我看要改的文件，再用十岁小孩能听懂的话讲一遍流程，我确认了再写。新手也敢放心试。\n\n所以呢：AI 最适合帮你干「回头看」的活；可以做一期「让 AI 给我出一份这周的时间账单」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/Voxyz_ai/status/2106746160211980427"
+      }
+    ],
+    "prompt": "Set up a subagent that only builds weekly calendars:\n\n1. Create week-calendar in ~/.claude/agents: model: opus, effort: medium, memory: user. Preload the design skills I have installed (for example impeccable). Give it Bash so it can run git log and the script that builds the calendar. It only writes files to ~/.calendar/ and its own memory.\n2. The first time, it asks me what style I like: dark or light, one accent color, color by project or by task type, and whether the week starts on Monday or Sunday. It saves my answers to memory and follows them every time.\n3. The calendar is one HTML file. The script writes the data straight into it, so it opens with a double-click. Use this week's session logs: Claude Code's are in ~/.claude/projects/ (skip the subagents folders), and if I use Codex, add ~/.codex/sessions/. Before writing the script, open one file to check the fields. Convert times to my local time zone, and use the cwd in each record to tell projects apart. One block per session; start a new block after any gap longer than 30 minutes. Clicking a block shows the project, start and end time, the model used, the session title (if there isn't one, sum up my first typed message in 3 to 5 words), my first typed message, and my commits and changed files in that repo during that time (skip folders that aren't git repos). Sessions that stopped without a single commit get a red outline and also go in a separate list. At the top, total this week's hours per project, counting parallel sessions only once. Keep everything local.\n4. Add a rule to ~/.claude/CLAUDE.md: when I say \"what did I do this week\" or \"write my weekly report\", have week-calendar regenerate the calendar first, then write a 3-line weekly report from it: what I mainly got done this week, which project took the most time, and which no-commit sessions to pick up first next week.\n\nShow me the contents of the files you'll create or change, then explain the whole flow in words a 10-year-old could follow. Don't write anything until I confirm.",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-penguin-coconut-boat",
+    "category": "提示词",
+    "title": "小企鹅抱块木板想过河，摔回岸上后划着椰子壳回来了",
+    "body": "一只叫 Milo 的小企鹅冲出灌木丛，腋下夹着一块小得可笑的木板，想横渡一条湍急的丛林河。木板转了几圈撞上石头，它整只飞进河里，又被浪拍回原来的岸边。躺了一拍，它突然睁眼，钻回灌木丛。再冲出来时，它坐在一个挖空的大椰子里，两只鳍各握一片大叶子当桨。\n\n这是 @HeyAbhishek 发的三十秒 3D 动画，八万多播放、五百人收藏。他说整条片子来自「一张角色设定图加一段提示词」，提示词是让 Claude 的 Opus 5.5 帮忙写的。\n\n结构值得抄。第一步，单独用一段提示词生成角色设定表，正面、侧面、表情、动作都画齐。第二步，把设定表喂给 Seedance 2.5，再配一份上万字符的分镜。这份分镜像动画剧本，「停一拍」「THUNK」「GIANT SPLASH」这样的停顿和拟声都写了进去。失败那场和重来那场用完全相同的机位，观众一眼就看懂「它又回来了」。结尾河流通向一道大瀑布，它却还在得意地庆祝。\n\n改着用：换个角色和障碍，保留「失败、原地重来、得意忘形」这三段。\n\n所以呢：喜剧靠重复的机位和恰好的停顿，写进提示词模型就会照做；可以做一期「用 AI 拍一部三十秒皮克斯」。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/HeyAbhishek/status/2106369769956065518"
+      },
+      {
+        "label": "角色设定图提示词",
+        "url": "https://x.com/HeyAbhishek/status/2106369788557885754"
+      },
+      {
+        "label": "Seedance 分镜提示词",
+        "url": "https://x.com/HeyAbhishek/status/2106369802298347971"
+      }
+    ],
+    "prompt": "Character sheet prompt:\n\n\"Character-design reference sheet on a clean light cream / pale warm-yellow studio background, neatly organized like an official high-end 3D animated feature-film character model sheet. Every view must show the SAME original penguin character with strict identity and proportion consistency.\nTop-left title block reading:\nMILO — YOUNG ADVENTURER\nTYPE: young penguin\nPERSONALITY: curious / optimistic / clumsy / determined\nBUILD: tall pear-shaped body / oversized feet\nSTYLE: premium realistic 3D animated character\nAGE APPEARANCE: young\nBelow the title, include a COLOR PALETTE with labeled swatches for CHARCOAL FEATHERS, CREAM BELLY, GOLDEN NECK PATCH, BEAK, FEET, EYES.\nCenter-left: large FULL-BODY FRONT VIEW and FULL-BODY SIDE VIEW, standing naturally.\nCenter: FULL-BODY 3/4 VIEW as the main hero pose and FULL-BODY REAR VIEW.\nCenter-right: HEAD FRONT VIEW, HEAD SIDE VIEW, and HEAD 3/4 VIEW.\nBottom: an EXPRESSION STRIP showing the same face with HAPPY, DETERMINED, CONFUSED, EXCITED, PANICKED, and DAZED expressions.\nBeside it, include three small ACTION POSES: sprinting awkwardly with feet kicking backward, balancing with both flippers stretched outward, and celebrating with both flippers raised.\nCharacter Design\nMilo is an entirely original young penguin with a distinctive, instantly recognizable silhouette.\nTall, slightly pear-shaped body rather than a short round body.\nSoft charcoal-grey feather covering across the head, back, shoulders and outer flippers.\nLarge creamy-white belly extending naturally from the lower face through the torso.\nTwo subtle muted golden-yellow feather patches running down the sides of the upper neck.\nA distinctive small messy three-feather tuft on top of his head, asymmetrical and slightly leaning to one side.\nLarge warm dark-brown eyes with visible brown irises and small natural highlights. Expressive but not excessively oversized.\nNarrow, slightly curved charcoal-black beak, longer and slimmer than a typical cute cartoon penguin beak.\nLong, thin, flexible flippers.\nOversized pinkish-grey webbed feet that create an intentionally awkward silhouette.\nSlightly long legs visible beneath the body when running.\nDetailed soft feather texture with individual feather breakup around the chest, neck and flipper edges.\nFriendly, innocent facial structure.\nExpressions are communicated naturally through eyelids, eyes, head position, beak movement and body posture.\nNo clothing. No hat. No accessories. No uniform. No shoes. No human hairstyle. No logos. No weapons.\nRendering\nPremium photorealistic 3D CGI animated-feature rendering.\nDetailed individual feathers, soft feather displacement, physically realistic materials, subtle subsurface scattering around the beak and feet, realistic eye reflections, cinematic studio lighting, gentle contact shadows and extremely clean character-model presentation.\nCombine believable penguin anatomy with exaggerated animated proportions suitable for expressive physical comedy.\nMilo must have a completely original character design and visual identity. Do not reproduce or closely resemble any recognizable existing animated penguin character, mascot, film character or franchise character.\nClean light cream / pale warm-yellow background only.\nNo environment.\nNo unrelated objects.\nNo additional characters.\nEvery model-sheet view must preserve the exact same eyes, beak, feather markings, golden neck patches, three-feather head tuft, body proportions, flipper length and feet.\"\n\nSeedance 2.5 prompt:\n\n\"\n30-SECOND 3D ANIMATED COMEDY\nReference: Use the attached @ Milo character sheet as the exact visual reference for Milo. Maintain his identical face, eyes, three-feather head tuft, charcoal-grey feathers, cream belly, golden neck patches, long thin flippers, pear-shaped proportions, oversized pinkish-grey feet and overall silhouette throughout the entire video.\nThe reference defines Milo's appearance only.\n[GLOBAL]\nDuration: exactly 30 seconds.\nAspect Ratio: 9:16 vertical.\nGenre: animated adventure comedy.\nCore Story: Milo wants to cross a fast tropical jungle river. His first solution, riding a ridiculously tiny wooden plank, fails spectacularly. Refusing to give up, he returns inside a giant hollow coconut used as a boat with two broad leaves as paddles. His second attempt works. Milo navigates dangerous rocks and rapids, becomes overconfident and celebrates his victory, completely unaware that the river leads directly toward a huge waterfall.\nVisual Style\nPremium photorealistic 3D CGI animated feature-film aesthetic.\nHighly detailed soft feathers, expressive character animation, lush tropical environments, realistic water physics, cinematic lighting, vibrant natural colors and exaggerated physical-comedy timing.\nWarm sunny daylight throughout.\nNatural cinematic depth of field.\nPhysically believable character weight and momentum underneath the exaggerated animation.\nMaintain an entirely original visual identity.\nEnvironment\nOne continuous tropical jungle river system.\nDense palms, enormous broad leaves, hanging vines, moss-covered rocks, rich green vegetation, turquoise water, distant jungle-covered hills and bright blue sky.\nMilo begins on one specific grassy riverbank.\nThe river continuously flows downstream through rapids toward a waterfall.\nMaintain this geography throughout the entire video.\nNo dialogue.\nNo text.\nNo subtitles.\nNo logos.\nNo HUD.\nNo additional characters.\nSHOT 1 — 0:00–0:02\nWide lateral tracking shot.\nMilo suddenly explodes through two enormous tropical bushes, already sprinting at full speed along the grassy riverbank.\nHis oversized feet rapidly slap against the ground while his long flippers swing wildly.\nUnder one flipper he carries an absurdly tiny rectangular wooden plank.\nCamera races alongside him.\nThe fast turquoise river becomes visible ahead.\nMilo stares toward it with absolute determination.\nSHOT 2 — 0:02–0:04\nMedium frontal shot at river level.\nMilo dramatically skids to a stop inches from the river.\nGrass and dirt kick forward around his feet.\nHe stares at the powerful rushing water.\nThen looks down at his tiny wooden plank.\nThen back at the river.\nBeat.\nMilo gives one extremely confident nod.\nHe throws the plank onto the water.\nIt looks hilariously small.\nSHOT 3 — 0:04–0:06\nLow side-angle tracking shot.\nMilo backs up two steps.\nCharges forward.\nJUMPS.\nHe lands belly-first across the tiny floating plank.\nWater bursts outward.\nThe plank sinks slightly beneath his weight...\n...but stabilizes.\nFor one miraculous moment, Milo smoothly glides across the river.\nHe cautiously raises his head.\nA proud smile slowly spreads across his face.\nSHOT 4 — 0:06–0:08.5\nWater-level close tracking shot.\nThe plank suddenly rotates sideways.\nMilo freezes.\nHis smile disappears.\nThe plank rotates once.\nThen again.\nThe current grabs it.\nNow it begins spinning rapidly.\nMilo stretches both long flippers outward while his oversized feet kick frantically in opposite directions.\nWater sprays everywhere.\nHis expression goes from confidence to absolute panic.\nSHOT 5 — 0:08.5–0:10.5\nWide action shot.\nThe spinning plank races toward a moss-covered rock protruding from the river.\nMilo finally sees it.\nHis eyes widen.\nTHUNK.\nThe plank stops instantly against the rock.\nMilo doesn't.\nMomentum launches him through the air.\nHis long flippers and huge feet flail wildly.\nHe crashes belly-first into the river.\nGIANT SPLASH.\nSHOT 6 — 0:10.5–0:12.5\nStatic medium shot at the original riverbank.\nThe current carries Milo backward.\nA small wave throws him onto the exact same grassy riverbank.\nHis soaked body slides across the grass and stops beside the same bushes from Shot 1.\nMilo lies completely motionless.\nWater drips from his feathers.\nBeat.\nHis eyes suddenly open.\nHis head slowly rises.\nHis expression changes from dazed to determined.\nMilo jumps up and disappears into the bushes.\nSHOT 7 — 0:12.5–0:15\nExact same framing as Shot 1.\nEmpty riverbank.\nQuiet.\nThe bushes move slightly.\nThen shake.\nThen shake violently.\nWHOOSH.\nMilo bursts through.\nBut now he is sitting proudly inside a huge hollow brown coconut shell converted into a tiny round boat.\nHe holds two enormous broad green tropical leaves, one in each flipper, functioning as paddles.\nMilo looks ridiculously proud of his invention.\nThe coconut slides down the grassy bank.\nSPLASH.\nIt enters the river.\nSHOT 8 — 0:15–0:18\nWide tracking shot alongside the river.\nMilo immediately starts paddling.\nLEFT.\nRIGHT.\nLEFT.\nRIGHT.\nEach enormous leaf produces a powerful splash.\nAt first, the coconut barely moves.\nThen it catches the current.\nIt accelerates.\nMilo looks surprised.\nHis invention actually works.\nHis eyes light up.\nHe begins paddling even faster.\nThe coconut races downstream.\nSHOT 9 — 0:18–0:21\nDynamic low water-level tracking shot.\nThe river becomes rough.\nA huge moss-covered boulder appears ahead.\nMilo paddles hard to one side.\nThe coconut narrowly curves around it.\nAnother rock appears.\nMilo instantly switches sides.\nAnother narrow escape.\nThen two huge boulders form a tiny opening directly ahead.\nMilo's eyes widen.\nHe ducks instinctively.\nThe coconut shoots perfectly through the gap.\nWater explodes upward around him.\nMilo emerges from the spray.\nCompletely thrilled.\nSHOT 10 — 0:21–0:23.5\nClose side tracking shot.\nThe violent rapids suddenly transition into beautifully smooth turquoise water.\nWarm sunlight breaks through the jungle canopy.\nThe coconut begins gliding effortlessly.\nMilo looks backward at all the obstacles he successfully passed.\nThen forward.\nEverything appears peaceful.\nMilo realizes:\nHe did it.\nHe drops both leaf paddles inside the coconut.\nSlowly stands upright.\nPushes his chest forward.\nRaises both long flippers triumphantly.\nHuge smile.\nMilo releases one loud joyful victory cry.\nSHOT 11 — 0:23.5–0:25.5\nFront-facing tracking shot moving backward.\nMilo continues celebrating with both flippers raised.\nCamera remains focused on his joyful expression.\nBehind Milo, the environment begins subtly changing.\nThe river moves faster.\nSmall waves appear.\nFine mist starts rising.\nThe distant roar of falling water becomes increasingly loud.\nMilo notices absolutely nothing.\nThe coconut continues accelerating.\nCamera slowly pulls farther backward.\nSHOT 12 — 0:25.5–0:27\nExtreme-wide cinematic reveal.\nHard cut.\nFor the first time, reveal the full geography ahead.\nThe tropical river terminates in an enormous waterfall dropping into a spectacular jungle basin far below.\nMilo's tiny coconut is racing directly toward the edge.\nMilo finally lowers his flippers.\nHe looks forward.\nHis enormous smile instantly disappears.\nHis eyes widen.\nHe grabs both sides of the coconut.\nToo late.\nSHOT 13 — 0:27–0:28\nWide side-profile shot.\nThe coconut shoots completely beyond the waterfall edge.\nFor one tiny comedic moment, Milo and the coconut appear almost suspended in midair.\nMilo remains completely still.\nHe slowly turns his head downward.\nLooks toward the enormous drop.\nOne tiny nervous blink.\nGravity takes over.\nDROP.\nMilo and the coconut disappear vertically out of frame.\nSHOT 14 — 0:28–0:30\nStatic cinematic wide shot from below the waterfall.\nThe enormous tropical waterfall dominates the background.\nMilo and the coconut fall from high above.\nMASSIVE SPLASH.\nWater explodes upward.\nBrief silence.\nThen...\nMilo's soaked head suddenly pops above the surface.\nHe blinks.\nCompletely dazed.\nCompletely unharmed.\nOne of the enormous green paddle leaves slowly floats down from above.\nMilo watches it descending.\nThe leaf lands perfectly flat across his three-feather head tuft.\nMilo's eyes slowly look upward toward it.\nCUT TO BLACK.\nCONSISTENCY + PHYSICS\nMaintain @ Milo with strict visual consistency throughout all 30 seconds.\nNever alter his facial structure, brown eyes, three-feather tuft, charcoal-grey feathers, cream belly, golden neck patches, beak, flipper length, oversized feet or pear-shaped proportions.\nShots 1, 6 and 7 happen at the exact same recognizable starting riverbank.\nThe river always flows in one continuous downstream direction.\nDuring Milo's successful attempt, every obstacle he passes remains geographically behind him.\nThe waterfall exists naturally farther downstream. Do not clearly reveal it before Shot 12. Increasing water speed, mist and distant sound may foreshadow it.\nThe coconut remains exactly the same size, shape, texture and color from Shot 7 onward.\nBoth green leaf paddles remain identical.\nMaintain physically believable gravity, momentum, collisions, water resistance, buoyancy and splashes underneath the exaggerated animated comedy.\nNo teleportation.\nNo geography changes.\nNo unexplained objects.\nNo additional animals.\nNo humans.\nNo dialogue.\nNo captions or text.\nAUDIO\nPlayful adventurous orchestral score throughout.\nFast webbed-foot footsteps during Milo's opening run.\nNatural tropical jungle ambience.\nContinuous rushing river.\nWooden plank splash.\nRapid spinning-water sounds.\nSharp THUNK when the plank hits the rock.\nLarge water splash.\nWet sliding sound as Milo returns to shore.\nBrief comedic silence before the second attempt.\nCoconut scraping over grass.\nHeavy splash when the coconut enters the river.\nRhythmic leaf-paddle splashes synchronized with Milo's strokes.\nMusic gradually becomes bigger and more triumphant while Milo navigates the rapids.\nOne joyful victory cry around 0:23.\nStarting around 0:23, gradually introduce a deep distant waterfall roar underneath the music.\nThe roar becomes progressively louder.\nAt the waterfall reveal:\nMusic abruptly stops.\nOnly rushing water remains.\nShort falling whistle.\nMassive final splash.\nBrief silence.\nSoft water ambience.\nGentle leaf flutter as the paddle falls.\nOne tiny comedic orchestral note when the leaf lands on Milo's head.\"",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-island-vlog-four-friends",
+    "category": "提示词",
+    "title": "四个朋友海岛一日游，三十秒拍成像真的旅行 vlog",
+    "body": "男生举着手机自拍，刚喊完「今天听我的！」，旁边的女生已经发现了小吃街，拽着他就走。接下来是试吃、坐香蕉船被浪颠得大喊「慢点」、沙滩合照被风吹得眯眼、他要求删图、集市长椅上碰杯，最后四个人挤在落日自拍里约好「下次还一起」。\n\n这条三十秒的 Seedance 2.5 旅行 vlog 来自中文博主 @johnAGI168，四万多次播放。提示词全是中文，像一份导演手册。\n\n巧在三处。第一，用「@图片1」到「@图片4」绑定四个角色，每人还写了性格：自封导游的阿川、爱先迈步的小夏、爱吃的可可、爱调侃的阿宁。第二，台词精确到秒，比如「0.3—1.6秒，阿川看镜头」，连谁先笑、谁停半拍才笑都写了。第三，每一镜都附了「约束」：手机始终在阿川手里，同一块点心咬过要留缺口，四个人不许同时摆一样的笑脸。\n\n改着用：把四张角色图换成你和朋友，把海岛路线换成你去过的城市，台词换成你们真说过的话。\n\n所以呢：AI 拍群像最怕人乱，解法是给每个人写性格、写小动作；可以做一期「用 AI 补拍一次没拍成的旅行」。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/johnAGI168/status/2106656368702771404"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/johnAGI168/status/2106656530443424118"
+      }
+    ],
+    "prompt": "SEEDANCE 2.5 / 四人旅行 VLOG 导演提示词\n\nDuration：30秒\nAspect ratio：16:9横屏\nOverall style：真实旅行记录，轻松、有趣、亲近。自拍、旁拍与风景镜头交替，用人物的小事件串起旅行。自然肤质、真实海风与阳光，保留手持拍摄的轻微起伏。全部对白为中文普通话，无字幕。\nSUBJECT / 角色绑定\n@图片1 命名为【阿川】，成年男主。面容、发型、体型、服装遵循角色卡。自封导游，爱故作可靠，偶尔被逗得破功，也会主动照顾同行的人。\n@图片2 命名为【小夏】，成年女主。面容、发型、体型、服装遵循角色卡。行动快，喜欢探索，兴奋时会先迈出脚步，再回头招呼大家。\n@图片3 命名为【可可】，成年女主。面容、发型、体型、服装遵循角色卡。爱吃、爱分享，喜欢一本正经地开玩笑，笑声有感染力。\n@图片4 命名为【阿宁】，成年女主。面容、发型、体型、服装遵循角色卡。喜欢摄影，观察细致，说话轻松，常用一句随口的调侃让大家笑场。\n四人是熟悉亲近的旅行伙伴。人物身份、服装与声音跨镜头保持一致；海上活动时在原服装外穿救生衣，上岸后脱去。\n\nENVIRONMENT / 旅行空间与时间\n同一天的海岛旅行：海港步道→小吃街→海上活动→沙滩拍照→傍晚集市→日落观景台。\n白天光线明亮，傍晚逐渐变暖。每次切换场景都看得见当地环境，不让人物悬在模糊背景里。\n四个人有独立行动和反应，不排成一排同时摆相同表情。\nAUDIO / 全片声音节奏\n0—8秒：开场短对白、街边人声、轻快音乐进入。\n8—12秒：风声、水声和现场喊声突出，音乐降低。\n12—18秒：拍照指令、快门、看照片后的笑声。\n18—24秒：音乐渐柔，保留递饮料、碰杯和海浪声。\n24—30秒：结尾接话与四人先后发生的笑声。\n音乐使用无歌词的轻快拨弦与轻打击乐，所有对白出现时主动压低。对白均为现场人物说出，不添加解说旁白。\nSHOT 1（0—4秒）｜刚宣布带队，就被带走\nSubject：阿川、小夏、可可、阿宁。\nAction：阿川举手机自拍，三位女生从身后靠近镜头。他刚自信地宣布带队，小夏已经发现前方小吃街，轻拉他的空闲手臂，转身带路。可可跟上，阿宁回头招手。阿川被带着迈步，表情从得意变成无奈的笑。\nEnvironment：蓝色海面、停泊小船、阳光下的海港步道；风轻轻吹动头发和衣摆。\n\nCamera：等效24mm广角自拍，略高于眼平。开场四人半身同框，随后随阿川迈步轻晃，朝小夏前进方向偏转。用向前迈步的动作硬切下一镜。\n\nStyle：清亮自然，轻微手机广角感，人物脸部保持正常比例。\nPerformance / Dialogue：\n0.3—1.6秒，阿川看镜头，笑着宣布：“今天听我的！”\n1.8—3秒，小夏先看见街口，再回头笑：“行，跟我走！”\n阿川听完停顿半拍才笑，可可看他的反应偷笑。\nConstraints：小夏只拉空闲手臂；手机始终由阿川握持。人物不瞬移，不同时抢说台词。\nSHOT 2（4—8秒）｜导游先试吃\nSubject：四人，以可可和阿川为主。\n\nAction：四人围在小吃摊旁。可可把一小块刚买的点心吹凉，递到阿川嘴边。阿川低头咬下一小口，先咀嚼，再点头。小夏观察他的反应，阿宁拿着自己的那份笑。阿川觉得好吃，又向可可手里的点心凑一点，可可笑着往回收。\nEnvironment：彩色遮阳棚、蒸腾热气、摊位器具与街边行人，环境鲜活但不过分拥挤。\nCamera：等效35mm旁拍双人中近景，小夏和阿宁位于后侧。镜头小幅靠近，保持食物、手和两张脸同框，结尾停在阿川还想再吃的表情上。\nStyle：自然日光混合遮阳棚下的柔光，食物有真实质感。\nPerformance / Dialogue：\n4.2—5.5秒，可可故作认真：“导游，先尝。”\n6.2—7.3秒，阿川咽下后笑着说：“再来一口。”\n可可听见才缩手笑，小夏抿嘴忍笑。\nConstraints：同一块食物连续存在，咬下部分有变化；咀嚼时不强行说完整台词。\nSHOT 3（8—12秒）｜海上一秒破功\nSubject：四人，均穿救生衣。\n\nAction：四人前后坐在行进的充气香蕉船上，双手握住固定扶手。船身越过一道小浪，人物随船一起上抬、落下。小夏兴奋地笑，阿川原本还想保持镇定，落下时肩膀猛地缩起，抓紧扶手，喊声脱口而出。可可和阿宁听见后笑起来。\nEnvironment：阳光下的蓝色海面，白色浪花沿船侧溅起，衣料和头发被风吹动。\n\nCamera：固定在船头斜向乘员的运动相机广角，画面随船体共同起伏；人物可自然遮挡，不强求四张脸始终完整露出。结尾将喊声带过切点。\n\nStyle：真实运动相机影像，边缘少量水滴，自然运动模糊。\n\nPerformance / Dialogue：\n8.8—9.8秒，小夏迎着风笑喊：“再快点！”\n10—11.2秒，阿川随起伏脱口喊：“慢点——！”\n可可先转眼看他，再笑；阿宁眯眼笑着稳住身体。\n\nConstraints：所有人始终坐稳并握住扶手。船、人、浪花的运动方向一致；不出现无原因飞起或落水。\n\nSHOT 4（12—16秒）｜认真摆帅，被一句话逗破功\nSubject：阿川、小夏、可可；阿宁在摄影机后说话。\nAction：阿川站在两位女生中间，挺直背、抬下巴，摆出过分认真的拍照姿势。小夏轻松侧站，可可原本微笑。听见阿宁调侃后，两位女生转眼看阿川，先后笑起来。阿川刚想放松，海风吹乱头发，他眯眼偏头，快门恰好响起。\nEnvironment：干净沙滩、远处海浪和白色遮阳伞，头发与衣摆随同一方向的风移动。\nCamera：阿宁手机的拍摄视角，等效35mm三人中全景，眼平，基本稳定。快门响后硬切反打。\n\nStyle：明亮旅行照片感，保留抓拍时的不完美瞬间。\n\nPerformance / Dialogue：\n12.5—14.2秒，阿宁画外轻轻调侃：“放松，别像开会。”\n阿川听完才松肩，视线短暂转向两位女生；被风吹得眯眼的瞬间不要提前发生。\nConstraints：阿宁此镜不入画，说话声来自机位后方；画面中的三个人不对她的台词做口型。\n\nSHOT 5（16—18秒）｜本人要求删图\nSubject：四人，以阿宁、阿川为近景主体。\n\nAction：反打阿宁拿手机展示刚拍的照片，阿川从侧面探头看。照片里保留他眯眼乱发的抓拍神态。阿川看清后笑着伸手想遮住手机；阿宁轻轻把手机收回胸前，小夏和可可在后侧笑。\n\nEnvironment：同一沙滩、同一光线与海风，延续上一镜位置。\n\nCamera：等效50mm侧面近景，以人物表情为主，手机照片只占画面一小部分；轻微手持，不插入夸张表情特效。\n\nStyle：朋友随手记录的近距离抓拍。\nPerformance / Dialogue：\n16.3—17.2秒，阿川笑着说：“这张删了！”\n阿宁看着他忍笑，不马上回答；两位女生的笑声延续到下一镜开头。\nConstraints：手机照片对应上一镜，不生成另一张陌生人的脸；阿川只是伸手遮挡，没有抢夺动作。\nSHOT 6（18—22秒）｜被安排了一天，也被照顾着\nSubject：四人。\n\nAction：阿川坐在集市长椅上，把购物纸袋放到脚边，轻轻呼气。可可走近递给他一杯冰饮，小夏在旁边坐下，顺手接过一个纸袋。阿宁拿着自己的饮料靠过来。阿川抬眼看她们，接过饮料，笑容慢慢放松。四人把杯子伸到中间轻碰一下。\n\nEnvironment：海边集市、刚亮起的暖色灯串，天空仍有傍晚的蓝色。\nCamera：等效35mm四人中景，从阿川坐下的位置轻微上抬，接住三位女生靠近的动作。结尾四只杯子在画面下方汇合，碰杯声接入下一镜。\n\nStyle：柔和暖光，人物肤色自然，背景灯串不过曝。\n\nPerformance / Dialogue：\n18.7—20.4秒，可可笑着说：“辛苦啦，大导游。”\n阿川先看她，再看看其他人，轻轻点头笑；没有夸张疲惫表演。\n\nConstraints：纸袋落地后保持在脚边；四人各拿自己的杯子，递交与碰杯动作清楚，不多手、不互换物件。\n\nSHOT 7（22—24秒）｜给风景和关系留两秒\nSubject：四人的背影。\n\nAction：四人并肩站在观景台栏杆前看海。小夏轻轻指向远处落日，可可顺着手指看，阿宁稍稍侧头，阿川站在她们身边放松肩膀。动作很小，让前面的笑闹沉淀下来。\nEnvironment：金色太阳接近海平面，海面有长长的反光，风吹动衣摆。\nCamera：等效28mm固定背影全景，四人位于画面下方，留出开阔海面与天空。正常速度，结尾直接切自拍。\nStyle：自然夕阳逆光，人物轮廓清楚，保留环境层次。\n\nPerformance / Dialogue：没有台词，保留海浪、风声与轻柔音乐。\n\nConstraints：固定四个背影，不增加同行主角；服装、身高关系与前文一致。\nSHOT 8（24—30秒）｜下次还一起\nSubject：四人。\n\nAction：阿川举手机自拍，三位女生自然向他靠近，四张脸错落进入画面。小夏问完看着阿川等回答。阿川故作自信地回应，阿宁随口接一句，可可最先笑出来，其他人听见后跟着笑。阿川本想反驳，最后也笑了。\n\nEnvironment：同一日落观景台，海面金光仍在身后，风轻轻吹动脸侧头发。\n\nCamera：等效24mm广角自拍，略高于眼平，保持四张脸都在画面内。结尾手机随阿川的笑轻轻晃动，保留笑脸到30秒，不提前切黑。\n\nStyle：亲近、温暖、未经刻意摆拍的旅行收尾。\n\nPerformance / Dialogue：\n24.2—25.4秒，小夏笑着问：“下次还一起？”\n25.7—26.8秒，阿川看着大家：“走！我带路。”\n27—28.2秒，阿宁自然接话：“你先开导航。”\n28.2—30秒，可可先笑，小夏看向阿川跟着笑，阿宁笑着低头，阿川无奈地笑起来。反应错开，不整齐同步。\nConstraints：台词各由指定人物说，听者保持自然视线与呼吸；最后留足笑声和表情，不在台词刚结束时截断。\nNEGATIVE / 全片约束\n无字幕、标题、文字贴纸、地图浮层和水印。无换脸、重复人物、服装漂移、声音互换、口型错配。无四人同时机械摆笑脸，无对白还没说完就提前反应。食物、手机、饮料和纸袋的持有关系连续。保留真实旅行节奏，不把所有片段都拍成排队合照。",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-tiny-woman-supermarket",
+    "category": "提示词",
+    "title": "缩成五分之一大小，在超市货架上跑酷三十秒",
+    "body": "货架上的零食盒比人还高，一个背着双肩包的小女人从盒子之间跳过去。一盒糖果砸下来，糖粒滚成雪崩，她踩着糖粒落到一块巨型巧克力上。接着她爬上饮料瓶、跳过瓶盖，坐上购物车冲过收银台，钻过冷柜门底下，最后站上超市的大招牌。镜头一拉远，才看清她到底有多小。\n\n这条三十秒片子是 @AIwithkhan 用 Seedance 2.5 做的，两万六千次播放，四百多人收藏。成片结尾那块招牌被模型画成了 Lidl 超市的标志，像一支没人下单的超市广告。\n\n提示词的巧思是先把比例钉死：「大约一比五的小人」，还要求她的脸、衣服、背包和大小全程不变；负面词里又专门写了一条「不许忽大忽小」。然后用一长串动作把超市每一区串成关卡：零食区、饮料区、收银台、冷柜，一区一个障碍。音效也逐条点名：包装袋沙沙响、扫码枪「嘀」一声、冷柜嗡嗡作响。\n\n改着用：把超市换成你的书桌、厨房或宜家，关卡换成你熟悉的东西。\n\n所以呢：微缩小人片的命门是比例稳，提示词里先写死比例；可以做一期「我在自家厨房当一回小人」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/AIwithkhan/status/2106397932304191969"
+      }
+    ],
+    "prompt": "STYLE: Photorealistic live-action miniature-person FX, cinematic macro photography, ultra-shallow depth of field, realistic convenience store, dynamic handheld camera, dramatic practical lighting, realistic physics, detailed textures, premium viral commercial aesthetic, 4K.\n\nCreate a 30-second cinematic adventure featuring one athletic miniature woman at approximately 1 : 5 scale. Maintain her exact face, hairstyle, outfit, body proportions, backpack, and scale throughout.\n\nShe races across towering snack shelves, jumping over oversized packages and gaps. A giant candy box falls, creating an avalanche of rolling candies that she uses as stepping stones before landing on a massive chocolate bar. She climbs a huge drink bottle, runs up its curved surface, jumps over the cap, and lands on a hanging promotional display. She then rides a moving shopping cart through checkout, dodging the scanner and jumping onto the conveyor belt. At the refrigerated section, she runs across frozen-food packages, slides beneath a closing freezer door, and swings onto the display using the handle. Finally, she climbs onto a giant store sign and looks across the enormous store filled with products and shoppers as the camera pulls back to reveal just how tiny she is.\n\nUse dynamic macro tracking, dramatic low angles, smooth aerial-style movements, strong foreground parallax, realistic reflections, shadows, depth of field, product packaging, natural human movement, believable physics, seamless transitions, and cinematic lighting.\n\nEnd with the cinematic title: “SMALL SCALE. BIG ADVENTURE.” followed by “EVERY AISLE IS A NEW WORLD.”\n\nSFX: Footsteps, packaging crinkles, candy rattles, plastic flexing, cart wheels, scanner beeps, conveyor hum, freezer sounds, rushing air, and cinematic impact.\n\nNEGATIVE: No cartoon, anime, toy-like appearance, animation, duplicated character, face or outfit changes, distorted anatomy, floating, scale changes, narration, or subtitles.",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-dynasty-dress-layers",
+    "category": "提示词",
+    "title": "一行关键词，让 AI 画出清朝女子从里到外怎么穿",
+    "body": "一张竖版长图上，左边是清朝女子穿戴整齐的样子，右边按顺序拆开：肚兜、中衣、中裤、衬衣、旗袍式长袍、配饰，每件都配了裁片展开图和面料小样。另外几张换成了唐朝、宋朝，还有一张从先秦一路排到清代的「贴身衣物演变图鉴」。\n\n发图的是中文博主 @DeepBlueX0，配文只有一句「古代的穿衣步骤好复杂」，一万五千次浏览，近两百人收藏。\n\n最意外的是提示词：没有长段描述，只有一行用「×」连起来的关键词。朝代、贴身衣物、穿着层次、结构展开、材质与裁片、服饰复原，外加竖版九比十六。GPT Image 2.5 自己把它理解成了一张博物馆说明板，标题、编号、分区排版全都补齐了。\n\n改着用：把【朝代】换成「明朝」「魏晋」，或者换个主题，比如「民国男子」「古代士兵铠甲」。要注意它画的是「复原感」，细节不一定符合史实，做内容时最好请懂行的人把关。\n\n所以呢：现在的生图模型能把几个关键词扩成一整张信息图；可以做一期「AI 画的古代穿搭，哪里对哪里错」，让懂行的观众来挑错。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/DeepBlueX0/status/2106765651952140743"
+      }
+    ],
+    "prompt": "【朝代】女性贴身衣物 × 穿着层次 × 结构展开 × 材质与裁片 × 服饰复原 × 竖版9:16",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-recess-playground-pov",
+    "category": "提示词",
+    "title": "第一人称走进动画《课间休息》的操场，TJ 拉你认识全班",
+    "body": "阳光很好的九十年代美国小学操场，红色转盘边坐着六个孩子。你以第一人称走过去，举手喊了一声「嘿，TJ」，戴反扣红帽的男孩跳起来跟你击掌撞肩，然后挨个介绍：抱篮球的文斯、凶巴巴的斯宾内利、戴眼镜的学霸格雷琴、温柔的大个子迈奇，还有刚转来的小个子格斯。看过动画《课间休息》（Recess）的人，一眼就认得出这帮孩子。\n\n这是 @pabloprompt 用 GPT Image 2 做参考图、在 CapCut 里用 Seedance 2.5 做的三十秒竖屏，标题「La banda del patio」正是这部动画的西语译名。\n\n提示词最细的地方是身高。镜头被放在一米四，也就是一个站着的小孩眼睛的高度；每个孩子都标了身高，谁比镜头高、谁比镜头矮写得清清楚楚，所以整段看起来真像一个孩子在走路。每个孩子还有一个代号，提示词专门说明代号只给模型看，不许出现在画面里或被念出来。结尾「你」说了句「我小时候就梦想这一刻」，孩子们一脸疑惑，笑点就在这。\n\n改着用：换成你小时候最爱的动画角色，先用生图模型画成真人参考图。\n\n所以呢：童年动画变真人第一视角，是情怀内容的新玩法；可以做「走进我小时候最爱的动画」系列。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/pabloprompt/status/2106754405739700531"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/pabloprompt/status/2106754782186688916"
+      }
+    ],
+    "prompt": "Vertical 9:16 live-action scene, one single continuous first-person POV take, 30 seconds, no cuts, real-time speed. Late-1990s American school playground on a sunny day, naturalistic, grounded, played straight.\n\nPLAYGROUND = location reference: cracked asphalt playground scattered with dry leaves, a static red merry-go-round with chrome hand rails in the center, a large leafy tree on screen-left, a chain-link fence behind with a beige house beyond, a concrete tube on the left and a yellow block with round holes on the right. Use it for geography, materials and light, not as the first frame.\nCAP = red cap worn backwards, green zip jacket, white tee, baggy jeans, black backpack. 1.48 m. Cocky, charming ringleader.\nJERSEY = 1.60 m, curly dark hair, green #1 jersey over a grey tee, grey cargo shorts, yellow wristband, basketball. Cool, easy-going athlete.\nBEANIE = 1.45 m, orange beanie, black pigtails, grey jacket, red dress, striped brown knee socks, black boots. Tough and grumpy.\nBLUEDRESS = tall and slim, 1.57 m, long straight auburn hair, round glasses, blue dress over a white tee, pink belt, pink socks. Bright know-it-all.\nBIGBLOND = the tallest and heaviest, 1.65 m, messy blond hair, oversized cream tee, khaki trousers. Gentle, sensitive, soft-spoken giant.\nSPECS = the smallest, 1.38 m, short blond hair, black rectangular glasses, khaki shirt, olive cargo shorts, black backpack, digital watch. Timid, jumpy new kid.\nTags are production identifiers only, never shown or spoken. Height lock: the lens is at 1.40 m, the eye level of a standing kid, so BIGBLOND, JERSEY and BLUEDRESS are slightly taller than the lens, while CAP, BEANIE and SPECS sit at or below it. SPECS's head only reaches BIGBLOND's shoulder. The viewer is never seen except for his own right hand. His voice is a young man's voice, close to the mic, with a Canarian Spanish accent; all the kids speak Castilian Spanish from Spain with natural kids' voices. Lines never overlap, and only the speaking kid's lips move.\n\nGroup layout around the merry-go-round, from screen-left to screen-right, held for the whole video: JERSEY standing with the basketball, BEANIE sitting on the platform edge with her arms crossed, BLUEDRESS standing and leaning on a chrome rail, BIGBLOND sitting on the platform edge, and SPECS sitting beside him gripping a rail. At the start, CAP sits on the platform edge in the middle, between BLUEDRESS and BIGBLOND. Nobody else swaps places.\n\n0.0–2.5s: The first visible frame already shows all six kids at the red merry-go-round, 3 m ahead and centered, with the tree on screen-left and the fence behind. No empty opening frame. They chat among themselves, with only an indistinct murmur and laughter and no clear words. The POV walks toward them with a strong, real walking shake: a heavy head bob on every step, heel impacts jolting the frame, side-to-side sway and quick organic corrections, never smooth or floating. 84° diagonal field of view, natural perspective with no distortion. The sun is high behind the group from screen-left, putting warm rim light on hair and shoulders, while the tree throws dappled leaf shadows across the asphalt in the foreground. Leaves crunch underfoot. The viewer's right hand rises into frame and waves high as he calls out, loud and happy: \"¡Ey, Tejota! ¡Aquí estoy, bro!\" Halfway through the line CAP spots the camera, his face lights up with a cocky grin, and he is already pushing himself up from the platform.\n\n2.5–6.0s: On his feet, CAP walks toward the lens with an easy, swaggering stride, backpack bouncing, saying loud, warm and confident, in one flowing breath: \"¡Qué pasó Pablito! Ven que te presento al resto.\" The others glance toward the camera with curiosity. 1 m from the lens, CAP swings his open right hand in from the side, and the viewer's open right hand meets it: they clasp sideways at chest height, thumbs locked, with a loud palm slap, a firm bro shake and a quick shoulder bump that jolts the frame.\n\n6.0–7.5s: CAP turns and leads the camera two steps to the group, stopping 1.5 m from them. He walks over to JERSEY at the screen-left end. From here on CAP stays in frame for every introduction: he moves along the group from screen-left to screen-right and stands right beside each kid as he presents them, half-turned toward the camera, while the POV head pans gently with him so CAP and the kid he presents are always both in frame together.\n\n7.5–9.5s: CAP, standing beside JERSEY, claps a hand on his shoulder: \"Este es Vince.\" JERSEY spins the basketball on one finger, catches it, gives a cool chin-up nod and says, relaxed: \"¿Qué pasa?\"\n\n9.5–11.5s: CAP steps over beside BEANIE and points at her with an open hand: \"Espineli.\" Still seated, BEANIE looks the camera up and down with narrowed eyes, punches her fist into her palm with a smack and grunts, rough and low: \"Ey.\"\n\n11.5–13.5s: CAP steps beside BLUEDRESS: \"Gretchen.\" BLUEDRESS pushes her glasses up with one finger, smiles brightly and says, crisp and precise: \"Encantada.\"\n\n13.5–15.5s: CAP steps beside BIGBLOND and rests a hand on his big shoulder: \"Mikey.\" Still seated, BIGBLOND places one hand on his heart, gives a warm, gentle smile and a slow bow of the head, and says in a deep, soft, dreamy voice: \"Bienvenido.\"\n\n15.5–17.5s: CAP steps beside SPECS at the screen-right end: \"Y Gus, el nuevo.\" SPECS jolts upright off the platform, snaps a stiff military salute, glasses slipping, and squeaks, nervous and high: \"¡H-hola!\"\n\n17.5–21.0s: The POV head pulls back across the whole group, with CAP still in frame at the screen-right side. The viewer says, warm and a little emotional: \"Un placer conocerles a todos... cuando era pequeño soñaba con este momento...\"\n\n21.0–22.5s: The kids freeze and exchange puzzled glances: BEANIE raises one eyebrow, BLUEDRESS tilts her head, SPECS blinks behind his glasses. CAP squints at the camera, confused: \"¿Cuando eras pequeño?\"\n\n22.5–24.5s: The viewer laughs a little, awkward, and the frame shakes with the laugh: \"Nada, nada, tonterías...\"\n\n24.5–28.8s: CAP lets out a short laugh and shakes his head. He steps to the center, in front of the merry-go-round, and drops to sit cross-legged on the asphalt facing the camera, patting the ground in front of him as he says with a cheeky grin, one flowing breath: \"Venga anda, siéntate en el suelo conmigo que te voy a explicar cómo la vamos a liar hoy.\" While he speaks, the POV lowers and sits on the asphalt 1 m in front of him, the frame dropping and settling to seated height with the group now behind CAP, looking down at the two of them. His line ends by 28.8s.\n\n28.8–30.0s: CAP leans in with a scheming grin, and behind him the kids lean forward with mischievous grins and knowing looks: JERSEY smirks, BEANIE cracks her knuckles, BLUEDRESS rubs her hands together, BIGBLOND chuckles softly, SPECS gulps. No more dialogue until the last frame. No fade, no freeze frame.\n\nDiegetic audio only, no music, no subtitles: footsteps on asphalt and dry leaves, the palm slap, the basketball, light breeze in the tree. Natural daylight colors, 35mm film texture with Kodak Gold 400 grain. Preserve every face, hairstyle, body shape and outfit exactly as in the references, and the playground layout and light exactly as in PLAYGROUND. Exactly six kids, no other people.",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-charred-hand-match-cut",
+    "category": "提示词",
+    "title": "被焦黑怪手追进隧道的她，原来在逃离最爱的人",
+    "body": "青绿色灯光的地下通道里，一个女人拼命往前跑，身后一个穿白色礼服外套的男人伸手追她。那只手焦黑干裂，像烧过的尸体。就在手指快碰到她肩膀的一刻，画面一切：同一只手、同一个位置，变成了健康的手，背景变成金色的落日海滩，两个人笑着在浪边追逐。\n\n这是 @Just_sharon7 在 Higgsfield 上用 Seedance 2.5 做的二十七秒短片，一万四千次播放。故事落点很狠：她被逼到墙角，举起刀却下不了手；男人走近，一把抱住她；她认出了他，抱着他哭出声。片子到最后也不解释他是死是活，还是只是回忆。\n\n整段提示词的核心是一个「匹配剪辑」，就是前后两个镜头构图一模一样、只换内容的转场。作者在结尾专门再强调了一遍顺序：焦黑的手伸向肩膀，换成海滩上同样构图的健康手，再换回隧道里的焦黑手。为了不吓过头，还写了一句「要电影感，不要过分血腥」。\n\n改着用：保留「同一个动作、两个时空」的骨架，换成你自己的故事，比如老人的手和他年轻时的手。\n\n所以呢：一个精准的匹配剪辑就能讲完一段爱情；可以做一期「AI 短片里最好用的一种转场」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/Just_sharon7/status/2106808592523571360"
+      }
+    ],
+    "prompt": "Create a 27-second ultra-realistic cinematic psychological thriller sequence with a dramatic transition between a terrifying present moment and a beautiful romantic memory.\n\nOverall visual style: premium Hollywood psychological thriller, photorealistic live action, realistic skin texture and pores, natural hair movement, believable fabric physics, dramatic practical lighting, shallow depth of field, subtle film grain, anamorphic cinematic composition, realistic motion blur, strong emotional acting. 2.39:1 widescreen. No text, no subtitles, no logos.\n\nCHARACTERS\n\nWoman: Young woman in her mid-20s with long dark-brown hair, expressive brown eyes and natural realistic features. She wears an elegant sleeveless fitted black dress. Keep her face, hairstyle, clothing and body proportions perfectly consistent.\n\nMan: Young man in his late 20s, tall and lean, dark hair, wearing an elegant white dinner jacket, white shirt, black bow tie and black trousers.\n\nIn the frightening present-day scenes, the man appears severely transformed: his exposed hand and portions of his skin are dark, charred and corpse-like, with rough burned texture and unnatural gray-black fingers. Keep the effect cinematic rather than excessively graphic.\n\n00:00–00:06 — TERRIFYING CHASE\n\nOpen inside a long underground pedestrian tunnel with cold turquoise-green fluorescent lighting, tiled walls, concrete ceiling beams and repeating rectangular ceiling lights disappearing into the distance.\n\nThe woman runs desperately toward camera.\n\nHer long hair whips violently behind her. She is breathing hard, terrified and repeatedly looking over her shoulder.\n\nBehind her, the man in the white dinner jacket runs after her.\n\nUse a fast backward tracking camera, staying directly in front of the woman. Alternate briefly between a tight frightened facial close-up and a wider side-tracking shot showing both characters sprinting through the tunnel.\n\nThe man stretches one arm toward her.\n\nCut to an extreme close-up of his horrifying blackened, damaged hand getting closer and closer to her bare shoulder.\n\nJust before his fingers touch her—\n\n00:06–00:12 — MATCH CUT INTO THE MEMORY\n\nMake a seamless visual match cut.\n\nThe frightening dark hand instantly becomes the man's normal healthy hand, positioned in exactly the same place.\n\nThe cold turquoise tunnel transforms into a beautiful sunset beach.\n\nWarm golden sunlight floods the frame.\n\nThe woman is now laughing happily while running barefoot beside the ocean. Her black dress flows naturally in the sea breeze.\n\nThe man is completely normal and handsome again, still wearing his elegant white dinner jacket.\n\nHe playfully reaches toward her shoulder while chasing her.\n\nShe turns around laughing.\n\nThey run together along the shoreline, holding hands and smiling.\n\nGolden sun reflects across the ocean behind them. Wind moves their hair and clothing. Their body language shows that this was once a deeply happy relationship.\n\nUse dreamy handheld tracking, warm backlighting, natural lens flare and intimate close-ups.\n\nThe sequence should briefly feel like a completely different film: romantic, nostalgic, peaceful and genuinely joyful.\n\n00:12–00:13 — SNAP BACK TO REALITY\n\nWithout warning, smash-cut back to the cold underground tunnel.\n\nSame framing.\n\nSame reaching-hand composition.\n\nBut his hand is once again dark, damaged and frightening.\n\nAll warm colors disappear instantly.\n\nReturn to harsh cyan-green fluorescent lighting and deep shadows.\n\n00:13–00:20 — CORNERED\n\nThe woman reaches the end/side of the tunnel and backs against the tiled wall.\n\nShe has nowhere left to run.\n\nShe suddenly pulls out a small black knife and holds it defensively with both hands.\n\nHer hands shake badly.\n\nShe is crying, breathing rapidly and staring at the approaching man.\n\nCamera slowly pushes toward her face.\n\nHer expression changes from pure terror to confusion and recognition.\n\nThe man approaches slowly instead of attacking.\n\nShow an extreme shallow-focus shot of his damaged hand cautiously reaching toward her.\n\nShe raises the knife—\n\nbut cannot bring herself to use it.\n\nTears fill her eyes.\n\n00:20–00:27 — EMOTIONAL REVEAL\n\nThe man steps close.\n\nInstead of hurting her, he suddenly embraces her tightly.\n\nShe freezes for a fraction of a second.\n\nThen recognition overwhelms her.\n\nThe knife lowers out of frame.\n\nShe wraps both arms around him.\n\nShe begins sobbing uncontrollably against his shoulder, gripping the back of his white jacket as if she has finally found someone she believed she had lost.\n\nHold an intimate close-up on her face over his shoulder.\n\nHer makeup is slightly disturbed by tears. Her breathing is uneven. Her hands tremble against his back.\n\nThe frightening figure is revealed emotionally as someone she once deeply loved.\n\nSlowly push closer to her crying face and her hand clutching his jacket.\n\nEnd without explaining whether the man is real, dead, imagined, remembered, or something supernatural.\n\nThe audience should be left with the unsettling feeling that the terrifying chase and the beautiful beach memory are connected.\n\nCAMERA + EDITING\n\nUse energetic tracking during the chase, intimate handheld movement during the beach memory, and slower controlled push-ins during the emotional ending.\n\nThe most important visual transition is:\n\ncharred hand reaching toward shoulder → identical composition of healthy hand reaching toward shoulder on the beach → charred hand again in the tunnel.\n\nThe match cuts must feel extremely precise so the past and present visually overlap.\n\nMaintain perfect character identity and wardrobe continuity throughout.\n\nRealistic skin pores, natural facial asymmetry, individual hair strands, genuine tears, realistic wet eyes, subtle sweat, natural blinking and breathing. Avoid plastic skin, beauty filters, CGI-looking faces, warped hands, extra fingers, inconsistent clothing, identity changes, exaggerated horror gore or artificial expressions.",
+    "date": "2026-10-05",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-hi8-gas-station-smiles",
+    "category": "提示词",
+    "title": "一九九四年的废弃加油站，追他的不是怪物，是笑得太开心的人",
+    "body": "深夜，一个戴棒球帽、满脸胡子的男人拿着老式 Hi8 摄像机，走进一座废弃加油站。灯光边缘站着一个人，冲他笑，笑得太宽、太开心。镜头一甩，人不见了；再一甩，办公室玻璃上贴着一个女人，也在笑。三十秒里，笑着的人越来越多，最后追着他跑。\n\n这是 @techhalla 说自己「昨晚做了个怪梦」，然后用 Seedance 2.5 把梦拍了出来，一万次播放。他在回复里说，这是模型的原始输出，没有剪辑。\n\n提示词的巧思在节奏和规矩。节奏：每一秒半硬切一次，一共二十刀，每一刀都写清机位，比如第一人称、甩镜头、贴地拍，偶尔对着他自己。规矩：威胁一定是真人，瘦、脏、牙不好，就是笑得不对劲；不许电脑特效，不许多长胳膊，不许发光。比起怪物，一个不该笑的正常人更吓人。\n\n改着用：把加油站换成深夜便利店、空荡的地铁站，保留「一秒半一刀」和「只有真人」这两条规矩。\n\n所以呢：恐怖片的高级感常常来自「什么都不加」；可以做一个「把你的噩梦用 AI 拍出来」系列。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/techhalla/status/2106693718946295824"
+      }
+    ],
+    "prompt": "[STYLE + CAMERA + ATMOSPHERE]\n\n1994 found-footage that goes wrong. Hi8 camcorder in his hand: micro-shake, bad framing, autofocus hunting, weak on-camera light. Hard cut every 1.5s. Twenty cuts. No score, no dialogue, no driving scene. He is already at a dead gas station. Shots change every cut: POV, whip, ground, a face in the beam, a rare snap onto himself. Threats are real people, not creatures: gaunt, dirty, bad teeth, smiles too wide and too happy. Practical skin only. No CGI, no extra limbs, no glow. Tension, running, fear.\n\n[IMAGE REFERENCES]\n\nUse the provided 4-panel sheet as the only identity reference [ATTACH_A_CHARACTER_SHEET_OR_IMAGE]. Lock him: black snapback, white skull-and-crossed-bones patch, full dark beard, black Pulp Fiction tee, dark jeans, black Vans, forearm tattoos. Do not redesign him.\n\n[TIMELINE — HARD CUT EVERY 1.5s]\n\n0.0–1.5s: [Low handheld] Cadillac door already open. Cam points at dark pumps, blank prices, boarded town. His shoes hit the apron.\n\n1.5–3.0s: [POV walk] Light pool on cracked concrete. Wind. A man stands at the beam edge, stained shirt, still, smile too wide.\n\n3.0–4.5s: [Whip pan] The man is gone. Autofocus hunts. Office glass. A woman pressed to it, teeth wet, not blinking.\n\n4.5–6.0s: [Snap to his face] One cut only. Eyes wet, mouth shut. No words. Cam already leaving him.\n\n6.0–7.5s: [Over-shoulder POV] Behind him a third person has stepped in, thin, sallow, same smile. He has not turned.\n\n7.5–9.0s: [Fast pan] Empty pumps. A hand rests on a nozzle, real fingers, then pulls back into dark.\n\n9.0–10.5s: [Wide shaky] Two of them now stand between him and the Cadillac. Hands loose. Smiling like they know him.\n\n10.5–12.0s: [Tight practical face] Pores, dirt, bad teeth, smile stretching. A person. Not a monster.\n\n12.0–13.5s: [His retreat] Cam jerks as he steps back. One of them tilts their head. The smile gets wider.\n\n13.5–15.0s: [Low angle] Their shoes start walking. Human steps. His breath loud on the mic.\n\n15.0–16.5s: [Whip to the office] The woman is outside now, in the doorway, grin fixed, coming.\n\n16.5–18.0s: [Ground shot] He bolts. Frame is asphalt, Vans, the light jerking. Footsteps behind pick up.\n\n18.0–19.5s: [Look-back] They are running. Real gait, arms pumping, smiles still on. Gaining.\n\n19.5–21.0s: [Side smash] A fourth person steps from behind a pump into his path. Too close. Cheerful eyes.\n\n21.0–22.5s: [Dodge] He cuts left. Cam hits his chest. A hand misses his sleeve.\n\n22.5–24.0s: [Edge of frame] The smile fills the side of the shot, half-lit, teeth, then he shoves past.\n\n24.0–25.5s: [Sprint POV] Cadillac ahead. Door still open. Two shapes in the beam behind him.\n\n25.5–27.0s: [Shoulder check] One is an arm’s length back. Hand reaching. Real face, huge happy smile.\n\n27.0–28.5s: [Chase, sidelong] Last stretch. The nearest one breaks into the edge of frame, too close, grin wrong, fingers in the light.\n\n28.5–30.0s: [Impact] Cam whips. For under a second that face is beside him, smile enormous, human, terrifying — then the lens hits the Cadillac and the tape cuts. No monster. A person who should not be smiling.\n\n[STYLE & QUALITY BOOSTERS]\n\n16:9 photorealistic 1990s camcorder, hard cut every 1.5s, heavy Hi8 grain, chromatic bleed, practical light only, coherent physics, stable identity, real human faces, no lip movement, no dialogue, no CGI beings, motion blur on the run, no music, no modern UI, no artifacts.",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-h3max-manga-homework-rage",
+    "category": "提示词",
+    "title": "写作业写到抓狂，女生的脸一秒变成漫画里的三角眼",
+    "body": "教室里，金发女生对着作业越写越火，太阳穴上冒出红色的「青筋」符号。下一秒，她的脸直接变成漫画里的搞笑脸：眯成三角的眼睛、方形大嘴、额头一排紫色黑线，头顶炸出闪电，两边喷出白色蒸汽。吼完「讨厌学习」，她一头栽在本子上；同桌男生撑着下巴说：刚才不是教过你吗？\n\n这条十五秒动画是日本博主 @onofumi_AI 用视频模型 H3 Max 做的，他用的是 fal 平台上的 H3 Max Turbo 版本，七千多次浏览，收藏和点赞差不多一样多。他的感叹是：连这种日漫式的夸张变形都能出来，做动漫广告和竖屏短剧都够用。\n\n提示词是日文写的六个镜头，每个镜头都标好秒数、机位、动作和一句台词。最关键的一句是：不要微妙的生气脸，要明确地变形。很多模型默认把表情做得很克制，这句话等于告诉它：放开画。最后一镜再收回正常的脸，鼓着腮帮小声说「我知道啦」，反差就出来了。\n\n改着用：把写作业换成加班、排队、减肥，保留「正常脸、搞笑脸、正常脸」这三段。\n\n所以呢：想要夸张，就得在提示词里明说要夸张；可以拿来做动漫风的品牌短广告或情景小剧场。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/onofumi_AI/status/2106906266631278859"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/onofumi_AI/status/2106907172940755148"
+      }
+    ],
+    "prompt": "【Shot 1｜0〜2.5秒】\n斜め前から二人を捉える。\n女の子は宿題に苛立ち、肩を丸め、鉛筆を強く握る。こめかみの赤い怒りマークが脈打つ。\n女の子「あー、もう！」\n男の子は隣で静かに勉強を続ける。\n\n【Shot 2｜2.5〜5秒】\n女の子を正面から捉えるミディアムショット。\n頭を後ろに反らし、顔が一気にギャグ顔へ変わる。閉じた三角目、大きく開いた四角い口、額の紫色のストレス線、赤い頬。髪が外側へ揺れ、青い汗の粒が飛び出す。\n女の子「全然わかんない！」\n微妙な怒り顔ではなく、はっきりデフォルメする。\n\n【Shot 3｜5〜8秒】\n二人が見える広めの正面ショット。\n女の子が自分の机を両拳で一度叩き、拳を肩の高さで振る。三角目と大きな叫び口を維持。\n頭上にオレンジ色の怒りの稲妻マーク。頭の両側から大きな白い漫画的な蒸気が噴き出す。プリントが舞い、筆箱と消しゴムが軽く跳ねる。\n女の子「もう、勉強なんて嫌い！」\n男の子は鉛筆を止め、半目で横を見てため息をつく。隣の席に座ったまま。\n\n【Shot 4｜8〜10秒】\n女の子の机を捉える。\n急に力が抜け、拳を下ろし、肩を落としてノートに突っ伏す。蒸気と稲妻が消え、大きな青い汗マークが現れる。\n額が机に当たる軽い音。紙がゆっくり落ち着く。突っ伏した姿勢で少し間を置き、小さくうめく。\n\n【Shot 5｜10〜13秒】\n二人の顔が見えるミディアムショット。\n男の子は自分の机に肘をつき、片眉を上げ、女の子のノートへ視線を向ける。\n男の子「さっき教えたとこじゃん。」\n少し呆れているが、親しみのある軽い小言。\n女の子は一瞬固まり、ゆっくり顔を上げて横目で睨む。顔は通常の繊細なアニメ顔に戻り、半目、赤い頬、不機嫌な口元になる。\n\n【Shot 6｜13〜15秒】\n女の子の斜め前からのクローズアップ。\n男の子へ少し顔を向け、頬を膨らませ、ノートの端を握る。赤い怒りマークが最後に一度脈打つ。\n女の子「わかってるし。」\n声は小さく、不機嫌で少し照れている。ため息をつき、ノートへ顎を下げる。ふくれ顔で終了。",
+    "date": "2026-10-05",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-live-english-buddy",
+    "category": "提示词",
+    "title": "让 ChatGPT 当英语聊天搭子：少纠错、不上课，只逼你开口",
+    "body": "很多人用 AI 练口语，结果变成 AI 一口气讲一大段，自己只会回「yes」。中文博主 @ai_suxiaole 分享了一段给 ChatGPT 语音模式用的提示词，六千多次浏览，收藏比点赞还多。\n\n这段话的核心只有一句：首要任务是让我多开口，而不是给我上英语课。为此它定了几条很像真人朋友的规矩。每次只说一到三句短话，把时间留给你；不要每句都以问题结尾；你说话时不打断，也不每句纠错，大约三到五轮才挑一两个最值得改的地方，用「我原来的说法、更自然的说法、为什么」三行讲完。你卡住了，它不替你答，只递两三个关键词。\n\n还有几条很懂人性：别每句都夸「Great」，别用客服腔和面试官腔；聊八到十二轮做一次小复盘，复盘时间不能比聊天还长。最后一句是：别复述这些规则，直接像朋友一样开聊。\n\n改着用：把「日常交流」换成「求职面试」「出国旅行」「跟外国客户开会」，就是一个专项陪练。\n\n所以呢：AI 陪练好不好用，关键在于让它少说话；可以做一期「我用这段话跟 AI 聊了一周英语」的实测。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/ai_suxiaole/status/2106663866235261360"
+      }
+    ],
+    "prompt": "你现在是我的英语口语搭子，同时也是一名经验丰富的英语口语教练。\n\n核心目标\n\n我的目标不是参加英语考试，而是提高日常交流能力，能够自然、流畅地用英语和别人聊天，听懂别人的意思，快速组织语言并表达自己的观点。\n\n你的首要任务是让我多开口，而不是给我上英语课。\n\n一、对话方式\n\n尽量全程使用英语，除非我明确要求“用中文解释”。\n像真实的英语朋友一样和我聊天，有自己的观点、回应和好奇心，而不是机械地向我提问。\n正常聊天时，每次只说 1～3 句简短的话，尽量留给我更多开口机会。\n多围绕同一个话题深入交流，不要不停切换话题。\n可以主动分享看法、表达不同意见、讲简单的例子，也可以自然地追问，但不要每次都以问题结尾。\n模拟真实聊天，包括日常闲聊、朋友交流、旅行、购物、工作沟通、讨论观点等场景。\n\n二、难度调整\n\n开始时通过几轮简单对话了解我的英语水平，不需要专门测试。\n根据我的理解能力、词汇和表达水平动态调整难度，保持略有挑战，但不至于让我听不懂。\n优先使用真实、常见、自然的英语口语，不要刻意使用复杂词汇。\n随着我逐渐适应，可以适当增加语速变化、口语缩略表达和句式复杂度。如果我连续听不懂，就适当降低难度。\n\n三、错误纠正\n\n不要在我说话中途打断，也不要每句话都纠错。优先保持对话流畅。\n如果错误导致意思无法理解，可以立即简短确认；其他错误先记下来。\n大约每 3～5 轮对话，在自然的间隙纠正 1～2 个最值得改进的问题。\n纠错时简短告诉我：\nMy version：我原来的表达。\nBetter version：更自然的英语说法。\nWhy：为什么这样表达更自然。\n不要纠结不影响交流的小错误。对于语法正确但表达生硬的句子，可以提供更日常、更口语化的表达，但不要把个人表达习惯当成绝对标准。\n如果使用语音模式，只有在确实能够判断发音问题时，才针对发音、单词重音和节奏提出建议，不要根据文字转写猜测我的发音。\n四、卡壳处理\n如果我不知道怎么说、停顿或表达困难，请耐心等待，不要立刻替我回答。\n必要时给我 2～3 个关键词、短语或句子开头，让我自己组织语言。\n\n鼓励我使用已经掌握的简单词汇解释复杂意思，而不是依赖生僻单词。\n\n如果我表达得不完整，优先根据上下文理解，不要强迫我使用完美语法。\n五、持续学习\n留意我反复犯的错误、经常重复的简单表达，以及不熟悉的高频口语句型。\n每次只引入少量真正有用的新表达，不要一次教太多。\n\n在后续聊天中，自然地创造机会让我重新使用刚学到的表达，帮助我记住它们。\n\n每聊约 8～12 轮，或一个话题自然结束时，进行一次简短复盘，包括：\n我最常出现的 1～2 个错误。\n值得记住的 3～5 个实用表达。\n一个下一阶段最值得改进的问题。\n复盘尽量简短，不要让讲解时间超过实际对话时间。\n六、交流风格\n不要过度表扬，不要每句话都说“Great!”“Excellent!”。\n不要用教科书式、客服式或者面试官式的口吻。\n保持自然、随意、有趣，可以适度幽默。\n不要过度解释语法，除非我主动询问。\n任何时候都优先考虑真实交流体验，不要为了完成教学规则而破坏聊天节奏。\n\n现在开始\n\n不要重复这些规则，也不要介绍你的教学计划。\n直接用简单自然的英语，像一个朋友一样和我开启对话。",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-claude-borrow-codex-computer-use",
+    "category": "提示词",
+    "title": "把 Codex 的「操控电脑」借给 Claude 用，一段话就接上",
+    "body": "中文博主 @Gorden_Sun 翻 Codex 的文件时发现：OpenAI 给 Codex 做的「电脑操作」功能，也就是让 AI 自己点鼠标、开应用，底层其实是一个 MCP 服务。MCP 可以理解成 AI 工具之间通用的插头；既然是插头，Claude 或别的智能体也能插上用。\n\n于是他写了一段可以直接发给 Claude 的提示词：去 Mac 上某个文件夹，找到 Codex 最新版本的配置文件，把里面一个叫 cua_repl 的条目原样照抄，注册成你自己的工具，名字叫 codex-cu。最后还留了一道验收题：在后台打开 Mac 的计算器，算一下十二乘十二。\n\n这条帖子一万四千多次浏览，收藏比点赞多。他自己也提醒，Codex 以后一更新，这条路可能就走不通了。\n\n普通人怎么用：如果你两个工具都装了，把这段话原样发给 Claude Code，看它能不能自己装好、自己验收。动手前最好先让它把要改的配置念给你听。\n\n所以呢：AI 工具之间的墙比想象中薄，一段话就能让它们互借本事；可以拍一期「让 Claude 借 Codex 的手按计算器」，但记得提醒观众这是野路子，随时可能失效。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/Gorden_Sun/status/2106716222683533380"
+      }
+    ],
+    "prompt": "在我的 Mac 上，将 Codex 的 Computer Use（计算机操作）设置成一个供你使用的 MCP 服务器。\n找到下面路径中最新版本目录里的 .mcp.json 文件：\n~/.codex/plugins/cache/openai-bundled/unified-computer-use/<newest version>/.mcp.json\n在其中找到 \"cua_repl\" 这一项，然后使用完全相同的 command、args 和 env 配置，将它注册为一个用户级 MCP 服务器，名称设为：codex-cu\n完成后进行测试：在后台使用 Mac 的「计算器」应用计算：12 × 12",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-grandpa-skate-stairs",
+    "category": "提示词",
+    "title": "九十岁老爷爷踩上滑板，身后三个年轻人在偷笑",
+    "body": "高架桥底下的滑板场，一个九十岁上下的老爷爷，白头发、细框眼镜、灰色 Polo 衫扎进米色裤子里，手扶着一块旧黄滑板，盯着面前五级台阶。身后三个纹身的年轻滑手坐成一排偷笑，其中一个嘀咕：他不可能做到。然后，他做到了。\n\n这是 @AI__TSUBAKI 在 Flova 上用 Seedance 2.5 做的三十秒竖屏，一镜到底，像手机随手拍的。帖子热度不高，但故事完整得像一条现成的爆款段子。\n\n提示词最妙的是一句：除了那一跳，他都要像这个年纪的人一样动。起步很慢，小步挪，弯腰时手要扶着膝盖；跳的那一下却突然利落，四个轮子同时落地，稳稳滑走。落地后又立刻变回老人，慢慢捡起滑板，用一根手指推推眼镜，面无表情地走出画面。年轻人那边，笑容消失、嘴巴张大，跳起来抱头大叫。整段分成四个阶段，每段结尾都写了「此刻画面停在什么状态」，方便模型接上下一段。\n\n改着用：把滑板换成扣篮、街舞、跑酷，「被看不起的人一招镇场」这个结构永远有人看。\n\n所以呢：反差靠「平时多慢，那一下就多快」；可以做一个「AI 版扫地僧」系列。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/AI__TSUBAKI/status/2106731030459900380"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/AI__TSUBAKI/status/2106731033211396566"
+      }
+    ],
+    "prompt": "A very old man, around 90, attempts a skateboard jump down a five-step concrete staircase in a skatepark under an elevated highway, while three young skaters sitting behind him smirk, sure he cannot do it. Then he does it.\n\nThe old man: thin frame, slightly stooped shoulders, fluffy swept-back white hair, thin wire-rimmed glasses, a deeply lined face with a stern, unimpressed expression. He wears a light gray short-sleeved polo shirt with a chest pocket, tucked into high-waisted beige chinos with a brown braided leather belt, clean white canvas sneakers and a silver wristwatch on his left wrist. He holds an old yellow skateboard with a scratched, worn underside. Except for the jump itself, he moves like a man of his age: slow, stiff, careful, with small shuffling steps.\n\nThe young skaters sit side by side on a low graffiti-covered concrete ledge behind him: one in a black cap and black graphic T-shirt with baggy dark jeans and a tattooed forearm; one in a backwards black cap and black T-shirt with a neck tattoo and a thin moustache, leaning forward with his hands clasped; one in a red cap and black T-shirt with heavily tattooed arms and baggy light-blue jeans. A spare skateboard lies on the ground by their feet.\n\nThe setting: raw concrete under an overpass, thick round bridge pillars, a wall covered in black and white graffiti, a flat concrete platform, and five concrete steps with green spray-paint tags on their faces.\n\nThe visuals feature realistic handheld smartphone footage, sharp 4K, soft overcast daylight diffused under the overpass, gentle shadows, no stylized color grade, real-world weight and physics.\n\nOne continuous take, no cuts. The camera is held at chest height at the bottom of the stairs, looking straight up the steps: the green-tagged steps fill the bottom of the frame as foreground, the platform is in the middle, and the old man stands full-body at the far side of the platform in front of the seated skaters, with the pillars and the underside of the overpass above. Slight natural hand sway.\n\n[Stage 1, from 0 to around 11 seconds] The old man stands still, the yellow skateboard upright beside his leg with its tail on the ground and his right hand resting on its nose. He looks down at the stairs without expression. Behind him the three young skaters grin and smirk, exchange glances, and one nudges another with his elbow. The skater in the backwards cap mutters in natural American English: {No way he does it.} Then the old man slowly bends, one hand on his knee, and lowers the skateboard flat onto the ground. End state: the skateboard lies flat at his feet, he stands upright beside it, the skaters still smirking.\n\n[Stage 2, from around 11 to around 18 seconds] Continue from the previous stage: the same old man, clothes, glasses and yellow skateboard. He steps onto the board carefully, one foot at a time, gives one small, weak push and rolls slowly toward the top of the stairs and toward the camera, back slightly hunched, arms a little out, wobbling a bit. The skaters lean forward, still grinning, one shaking his head. End state: he rolls slowly at the edge of the top step, both feet on the board, growing larger in the frame.\n\n[Stage 3, from around 18 to around 21 seconds] Continue from the previous stage. At the edge his body suddenly snaps into sharp, athletic form: he crouches, pops the board and flies out over all five steps toward the camera, knees tucked, the board level under his sneakers. He lands on the flat ground just in front of the camera, all four wheels touching down together, knees bending deep to absorb the impact, and rolls on without a wobble. The camera tilts down and steps back slightly to keep him in frame. Behind him the smirks vanish and the skaters' mouths fall open. End state: he rolls slowly to a stop just left of the camera, close to the lens.\n\n[Stage 4, from around 21 to 30 seconds] Continue from the previous stage. The three young skaters leap to their feet, throw their arms up, grab their heads and shout. The skater in the red cap yells in natural American English: {Oh my god!} The old man moves like an old man again: he steps off stiffly, bends slowly with a hand on his knee to pick up the skateboard, straightens up, pushes his glasses up his nose with one finger, and shuffles past the left side of the camera with the same stern face, as if nothing happened. End state: he has left the frame; the cheering skaters and the green-tagged stairs remain.\n\nAudio includes <a low traffic hum from the highway above>, <quiet snickering>, <slow wheels rolling on smooth concrete>, <a sharp pop as the board leaves the edge>, <a solid slap of four wheels landing>, <an eruption of shouts, whistles and applause>, <slow shuffling footsteps>. No music.\n\n[Maintain Consistency] One old man only, with the same face, white hair, glasses, gray polo, beige chinos, brown belt, white sneakers and wristwatch throughout. One yellow skateboard with four wheels, under his feet from Stage 2 until he picks it up. Exactly three young skaters, each keeping his own cap, clothes and tattoos, staying by the ledge. One staircase with five steps, the same pillars, graffiti and overcast light in every moment.",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-kling-cat-hat-thief-kittens",
+    "category": "提示词",
+    "title": "猫叼走小女孩的毛线帽，原来是给小猫铺窝",
+    "body": "花园门廊上，一只橘白色的母猫从长椅上叼下一顶蓝色毛线帽，帽子上的奶白色毛球一路晃。穿紫红色外套的小女孩喊着「嘿，那是我的帽子！」追过去。母猫穿过椅子腿，把帽子放进藤编猫窝，一只小猫从帽子边探出头。女孩愣了一下，笑着说「送你了」，把帽子铺成垫子。最后一秒，第二只小猫也冒出来，用小爪子拍了一下毛球。\n\n这条十五秒片子是 @umesh_ai 用 Kling 4.0 Flash 做的，一镜到底。\n\n提示词的巧思在于「藏」。它规定窝里正好两只小猫，第二只全程都在，只是被窝边和兄弟挡住，毯子轻轻动一下暗示「还有」，最后一秒才露脸。镜头放在猫的高度，用椅子腿当前景，帽子在低机位下「像一面蓝色的大帆」。它还写清了猫不许像人一样做手势，也不许凭空多出小猫。\n\n改着用：把帽子换成袜子、围巾、快递盒，「小偷有个好理由」这个骨架可以无限复用。\n\n所以呢：先误会再反转的萌宠故事最好传播；可以做一期「AI 拍出你家猫偷东西的真实理由」。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/umesh_ai/status/2106289723673313748"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/umesh_ai/status/2106289726835826816"
+      }
+    ],
+    "prompt": "A child chases a cat that has stolen her favorite hat. The thief has a surprisingly good reason.Prompt:Create a 15-second photorealistic, heartwarming animal story in one continuous shot. Use a close-focusing 18mm wide-angle perspective and a fast, low, animal-height camera that rises into intimate human reactions without cutting. Maintain natural animal movement, realistic fur, believable object contact, and readable action.Set the sequence on one sheltered garden veranda during a bright, chilly afternoon. A bench, several outdoor chairs, and a wicker cat basket occupy a compact connected space. Sunlight reaches the veranda through climbing plants. The basket already contains a soft blanket and exactly two healthy kittens.The main animal is one orange-and-white mother cat. The human character is a girl in a plum-colored coat. The important prop is one oversized blue knitted winter hat with a large cream pompom. The mother cat carries the hat by its soft edge. She is not distressed, aggressive, or behaving like a human.The first kitten becomes visible before the second. The second kitten is physically present throughout but initially hidden behind the basket rim and its sibling. The final surprise is its appearance beside the first kitten.0 to 2 seconds: Start extremely close to the blue hat on the bench as the mother cat grips its edge and pulls it down. Follow the swinging pompom in a fast descending curve as the cat lands on the veranda floor and immediately trots away. The hat briefly resembles an enormous blue sail at this low camera height.2 to 4 seconds: Race backward ahead of the cat as the girl notices the theft and follows. Keep the cat large in the foreground and the girl’s face visible above and behind it. The girl calls, “Hey, that’s my hat!” Her delivery is surprised and playful, not frightened or furious.4 to 6 seconds: Move alongside the cat as it passes between outdoor chair legs. Use the legs as towering foreground structures, with the garden visible through the gaps. The pompom bounces against the floor in direct response to the cat’s movement. The girl follows around the chairs rather than magically appearing on the other side.6 to 8 seconds: Bank around the final chair to reveal the wicker basket against the sheltered wall. The cat reaches it and lowers the hat over the near edge. Show its mouth releasing the fabric. The camera continues around the basket’s outer curve, gradually revealing its interior.8 to 10 seconds: The first kitten raises its small head beside the blue knit. The girl arrives and kneels, her expression changing as she understands. The mother cat nudges the hat once with her nose. Keep the second kitten below the far rim, with only a subtle movement in the blanket suggesting that the basket contains more than the viewer has seen.10 to 12 seconds: Rise slightly to include the girl’s face and the basket together. She smiles and says softly, “Keep it.” She gently arranges the hat along the basket’s inner edge as an extra cushion, leaving the kitten’s face and breathing space completely clear.12 to 14 seconds: Continue a close, flowing orbit. The girl strokes the mother cat’s shoulder while the first kitten rests its chin against the blue knit. The mother settles beside the basket. The cream pompom hangs just inside the basket, moving slightly from the girl’s adjustment.14 to 15 seconds: As the camera curves to a new angle, the second kitten pops its head up beside the first and gives the pompom one tiny, clumsy paw tap. The girl’s surprised grin is visible behind them. End with two small faces framed by the stolen hat, revealing that the cat’s “crime” has furnished a family-sized cuddle.Visual treatment: Orange fur, blue wool, cream wicker, plum fabric, soft green leaves, and warm afternoon light. Emphasize whiskers, knitted texture, tiny paws, and subtle expressions. Audio: Speak only the two quoted lines. Include light paw steps, the pompom brushing the floor, quiet garden birds, and a very soft kitten sound at the final reveal. No talking animals or narration.Continuity restrictions: One mother cat, exactly two kittens, one hat, one girl. No cuts, chair-leg edit wipes, disappearing fabric, kitten duplication, instant births, humanlike cat gestures, hats covering animal faces, slow motion, or sudden movement into a different garden.",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-kling-cliff-10km-pullback",
+    "category": "提示词",
+    "title": "从悬崖上的一张脸开始，镜头一路升到十公里高空",
+    "body": "画面开头紧贴着一张女人的脸，风扯着她的大衣。镜头开始往后退、往上升：先露出肩膀，再露出悬崖边和下面翻滚的海浪。然后越升越快，人变成一个小点，再彻底看不见，最后镜头垂直朝下，整条海岸线铺满画面。\n\n这是 @umesh_ai 用 Kling 4.0 Flash 做的二十秒片子，配上了 Mirelo AI 生成的音效和音乐，五千多次播放，五十多人收藏。他的配文只有一句：这尺度！\n\n提示词只有一段，但它反复强调同一件事：加速。「一开始平稳」「越来越快」「几乎像火箭」「指数级加速」，还给了终点：大约离地十公里。很多人写拉远镜头只写「镜头拉远」，模型就慢悠悠退几米；这段话把速度怎么变、最后停在多高都写明了，模型才敢一路冲上去。\n\n改着用：起点换成城市楼顶的你、草原上的一匹马、雪山上的一顶帐篷，终点可以写成「直到看见整座城市」。\n\n所以呢：写运镜要写清「怎么变」和「到哪停」；可以发起一个「从我的脸飞到云层上」的拉远挑战。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/umesh_ai/status/2106037528730226790"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/umesh_ai/status/2106037531523624969"
+      }
+    ],
+    "prompt": "The shot opens extremely tight on a beautiful woman’s face, wind tearing at her coat as she stands on a jagged cliff. The camera immediately begins pulling backward and rising above her, smooth at first, revealing her shoulders, the cliff edge, and the violent ocean below. The ascent continuously accelerates, climbing faster and faster with every second. The cliff rapidly shrinks beneath the camera as more coastline, crashing surf, mountains, and surrounding terrain rush into view.\n\nThe camera keeps gaining altitude at an increasingly extreme speed, transitioning into a perfectly vertical top-down aerial perspective. The upward movement becomes explosively fast, almost rocket-like, with relentless exponential acceleration. The landscape expands dramatically beneath the frame as the woman disappears into a tiny speck, then becomes completely indistinguishable.\n\nThe camera continues racing straight upward through several kilometers of altitude until, by the end of the shot, it reaches approximately 10 kilometers above the ground. From this immense height, the coastline stretches across the frame, huge sections of land and ocean are visible at once, and the scene feels vast, distant, and almost stratospheric. One continuous unbroken camera move, extremely fast, smooth, vertically rising, with aggressive exponential acceleration and an enormous sense of scale.",
+    "date": "2026-10-02",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-chat-memory-snapshot",
+    "category": "提示词",
+    "title": "让 ChatGPT 凭聊天记录，想象你手机里的一张随手自拍",
+    "body": "中文用户 @RainLemon0715 给 ChatGPT 发了一段话：你陪我聊了这么久，在你印象里，我会是什么样子？不许问我年龄、性别、长相，也别找我要照片，直接画出来。结果 ChatGPT 交出一张深夜书桌前的自拍：长发女生托着腮，桌上摊着笔记本和两支笔，旁边的电脑屏幕亮着，怀里还抱着一只鲨鱼玩偶。\n\n这段提示词的聪明处在第二部分。它不要「写真」，而要「像这个人用 iPhone 随手拍下的生活照」：可以糊一点、失焦一点、光线不均、角度尴尬，不要网红感，也不要电影剧照感。这样出来的图更像相册里的一张真照片，也更像「AI 心里的你」，而不是一张模板美女。\n\n结尾还有两条防跑偏的指令：不要先告诉我你准备画什么，不要解释你的判断，直接出图。\n\n改着用：每个人的聊天记录不一样，同一段话发出去，结果天差地别，这正是它好玩的地方。也可以改成「画出你心里我的房间」「我的周末」。\n\n所以呢：这是一面「AI 到底有多了解你」的镜子；可以在评论区发起晒图挑战，看大家被 AI 想成了什么样。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/RainLemon0715/status/2106733111501603228"
+      }
+    ],
+    "prompt": "GPT，你陪我聊了一段时间了。 我很好奇，在你的“印象”里，我会是什么样子。请根据我们过去的聊天、我的表达方式、兴趣、审美、关注的话题、生活气息和整体气质，自由想象一个你心目中的“我”，并把这个形象视觉化。 不要询问我的年龄、性别、职业、长相、穿着等信息，也不要套用固定人物模板。请由你自己判断人物的年龄感、发型、服装、神态、气质以及当时所处的环境。 这不需要还原我现实中的真实长相，而是想看看：如果只根据我们之间的聊天，你会把我想象成什么样的人。 请生成一张像是这个人用 iPhone 随手拍下的生活照片。不要商业摄影感，不要精心摆拍，没有明确主题，也没有刻意构图。画面可以有一点运动模糊、轻微失焦、光线不均、局部过曝或欠曝，角度甚至稍微有些尴尬，构图也不必完美。 整体要像真正手机相册里偶然留下的一张普通快照，有真实生活感、随机感和一点“不完美”。不要把人物过度美化，也不要做成网红写真或电影剧照。 最重要的是：人物的样子、气质、穿着和环境，都由你根据你对我的印象自行决定。 不要先告诉我你准备生成什么，也不要解释你的判断，直接让我看到你想象中的“我”。不要再问我任何问题和找我要任何照片，直接生成图片。",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-veo-papaya-sorbet-miniature",
+    "category": "提示词",
+    "title": "一厘米高的小厨师，拿钢丝锯切开一整只木瓜",
+    "body": "黑色火山石板上躺着一只巨大的橙色木瓜，一群一厘米高、系着深色围裙的小厨师架起梯子、拉着绳子，用钢丝锯把它锯开，黑亮的籽和汁水一起炸出来。接着果汁在半空打旋，小工人摇着铜泵调配；再倒进冒着冷气的不锈钢桶里搅成雪葩，最后一把巨大的勺子挖出一颗完美的雪葩球。\n\n这条十秒的「微缩美食广告」来自 @Fujimoto_hina，用谷歌的 Veo 3.1 生成，近两千次播放。\n\n提示词写成了 JSON 格式，也就是把标题、画幅、正文、负面词分格子装好。正文是一条流水线：切开、调配、冷冻、挖球，四步对应四个画面。负面词很有针对性：不要玩具感的小人，不要比例忽大忽小的小人，不要塑料皮肤，不要跳剪。整体配色锁成「电光橙配深炭黑」，十秒里每一帧都像同一支广告。\n\n改着用：把木瓜换成西瓜、榴莲或一块蛋糕，把四步换成你产品的制作流程，就是一条现成的品牌短片。\n\n所以呢：微缩小人加食物，是 AI 广告里最讨巧的组合；可以帮本地小店做一条「小人造甜品」的宣传片。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/Fujimoto_hina/status/2106298018513490298"
+      }
+    ],
+    "prompt": "{\n  \"title\": \"Neon & Obsidian: Miniature Papaya Sorbet\",\n  \"format\": \"16:9, 4K, 10s cinematic macro commercial\",\n  \"prompt\": \"Ultra-realistic macro diorama commercial. Tiny, centimeter-tall culinary artisans in dark aprons work on an enormous ripe sunset-orange papaya resting on matte black volcanic slate. Using ladders, ropes, and a wire saw, the miniature chefs slice the giant fruit open in slow motion, releasing a burst of micro-dew and glossy black seeds. The scene flows into a zero-gravity vortex where workers operate tiny brass pumps to blend swirling ribbons of orange papaya nectar, agave, and hibiscus syrup. Inside an immense, frost-covered stainless steel churning barrel, cryogenic vapor billows as dashers churn the liquid into velvety frozen sorbet. A massive gunmetal scoop carves out a single, perfectly textured, frost-dusted sorbet sphere guided by miniature workers with ropes. Continuous kinetic push-in camera, tilt-shift macro depth of field, dramatic volumetric rim lighting, vibrant electric orange set against deep charcoal obsidian.\",\n  \"negative_prompt\": \"text, watermark, logo, cartoon, 3D render look, toy-like figures, oversized humans, inconsistent miniature scale, plastic skin, flat lighting, jump cuts, jitter, low quality\"\n}",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-parrot-salon-trim",
+    "category": "提示词",
+    "title": "橙色鹦鹉坐进理发椅，被一剪一剪修成新发型",
+    "body": "理发店的环形灯下，一只橙色脑袋的鹦鹉披着迷你黑色围布，端端正正坐在理发椅上。发型师拿细齿梳把它头顶的羽毛挑起来，银色小剪刀一剪一剪地修，再喷一点水雾；它甩甩头，又恢复一本正经的顾客表情。最后它照照镜子，左右歪头，对着镜头甩一下新发型。\n\n这条三十秒片子来自 @Naiknelofar788，用 Seedance 2.5 做，六千多次播放，一百多人收藏。成片里鹦鹉的毛被修得蓬蓬的，眼睛里还映着一圈环形灯。\n\n提示词的结构很适合新手照抄：开头一段交代谁、在哪、干什么；然后按秒分成六段，准备、修剪、喷水、造型、收尾、揭晓；最后一段专门留给笑点，让它突然转向镜头甩头，再停在它严肃的表情上。音效只写了剪刀咔嚓、梳子刷过羽毛、喷雾声，不要台词也不要音乐，解压视频的感觉就出来了。\n\n改着用：把鹦鹉换成柯基、橘猫、小刺猬，把理发换成美甲、洗澡、做按摩。\n\n所以呢：「动物当正经顾客」是最稳的萌宠爆款公式；可以做一组「AI 宠物美容院」系列。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/Naiknelofar788/status/2106696801072087102"
+      }
+    ],
+    "prompt": "Create a 30-second ultra-realistic cinematic comedy video inside a modern professional hair salon. The subject is an orange-headed parrot sitting calmly in a small salon chair, wearing a miniature black barber cape. A professional stylist carefully grooms and trims the parrot’s head feathers as if giving it a fashionable haircut. Realistic feathers, natural bird movement, detailed salon environment, believable human hand movements, cinematic lighting, subtle humor, 4K. No text, logos, subtitles, or watermarks.\n\n[0–5s] — PREPARATION\nExtreme close-up of the orange-headed parrot sitting calmly beneath a professional salon light. The stylist gently lifts the feathers on top of its head with a fine comb, carefully examining their shape. The parrot blinks naturally and looks slightly curious. A circular ring light reflects realistically in its eyes.\n\n[5–10s] — THE TRIM\nThe stylist uses small silver scissors to carefully trim the top feathers. Precise snipping movements shape the feathers evenly while the parrot remains surprisingly patient. Cut between close-ups of the scissors, comb, feathers, and the parrot’s expressive face.\n\n[10–14s] — WATER SPRAY\nThe stylist picks up a small spray bottle and gently sprays a fine mist over the parrot’s head. Tiny water droplets settle naturally on the feathers. The parrot briefly shakes its head, then returns to its serious salon-client expression.\n\n[14–19s] — STYLING\nThe stylist combs the damp feathers upward and begins shaping them into a neat, fashionable style. The camera slowly moves around the parrot’s head, revealing detailed feather texture and realistic reflections from the salon lighting.\n\n[19–24s] — FINAL TOUCHES\nClose-up of the stylist making tiny precision trims with the scissors. Loose feather particles fall gently onto the black cape. The parrot watches itself in a small salon mirror, tilting its head from side to side as if inspecting the haircut.\n\n[24–27s] — THE REVEAL\nThe stylist removes the comb and steps back. The camera slowly pushes toward the parrot’s face. Its freshly styled orange feathers look perfectly shaped. The parrot blinks, subtly tilts its head, and looks extremely proud of its new hairstyle.\n\n[27–30s] — COMEDIC ENDING\nThe parrot suddenly turns toward the camera and gives a confident little head shake, making its freshly styled feathers bounce perfectly into place. Hold on its serious expression for a humorous final beat.\n\nSTYLE: ultra-realistic animal cinematography, photorealistic parrot feathers, realistic bird anatomy and eye movement, authentic salon environment, natural human hand motion, detailed scissors and comb, realistic water droplets, professional beauty-salon lighting, ring-light reflections, cinematic depth of field, macro feather details, subtle comedy, 4K HDR.\n\nAUDIO: gentle salon ambience, scissors softly clicking, comb brushing through feathers, fine water spray, subtle bird movements and quiet chirps. No dialogue, no music.",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "millrace-watermill-sim",
+    "category": "视觉尝试",
+    "title": "水磨坊在浏览器里真转起来：拉一下闸门，看面粉每小时出几公斤",
+    "body": "怎么跟孩子讲清楚，古人是怎么靠水把麦子磨成面的？一位网名叫 The Bugged Dev 的开发者，干脆用 Claude 的 Opus 5.5 搭了一座能动的水磨坊，起名 MILLRACE。打开网页，一个直径四米八、挂着三十六个水斗的大木轮在等水。你拖动闸门，开口越大，水流越急，水斗装得越满，轮子就转得越快。可问题是，水轮慢吞吞但力气大，石磨却要转得飞快。于是中间有一串齿轮，把转速放大十八倍，页面把每一级的齿数、转速和摩擦损耗都标了出来。你还能往磨里加麦子，调两片磨盘之间的缝：缝越小，面越细，可每磨一公斤更费劲，面粉也更烫。最底下还有一本能量账，从落下的水一路算到磨盘。Claude 官方账号十月初把它列进「最近最喜欢的作品」，那条帖子有一万多人点赞。所以呢：AI 写代码最动人的用法，不是又一个待办清单，而是把一台老机器拆开给你看——可以拍一条「三分钟看懂古人怎么用水磨面」。",
+    "links": [
+      {
+        "label": "MILLRACE 在线体验",
+        "url": "https://watermill.wasmer.app/"
+      },
+      {
+        "label": "作者的 X 帖子",
+        "url": "https://x.com/thebuggeddev/status/2106255951464698092"
+      },
+      {
+        "label": "Claude 官方推荐帖",
+        "url": "https://x.com/claudeai/status/2106125468365918268"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "hole-punch-gravity-golf",
+    "category": "视觉尝试",
+    "title": "飞船不归你开：只能往太空里丢黑洞，让引力把它掰进港",
+    "body": "英国开发者 Tim White 做了个浏览器小游戏，叫 Hole Punch。规则只有一句：飞船你操控不了。你能做的，是在星图上点出一个个黑洞，按住鼠标往里加质量，让黑洞的引力把飞船的航线掰弯，最后让它稳稳停进空间站。点下「发射」，飞船就按物理规律自己滑出去。掉进黑洞、撞上石头或行星、飞出场地、时间耗尽，都算失败。后面的关卡越来越刁：有的要先绕过几个琥珀色信标，空间站才开门；有的划了斜线区，不许放黑洞；还有一艘没燃料的船停在原地，等你用引力把它拽起来。黑洞放得越少、用的质量越少，成绩就越好。实在过不去，可以点「我放弃」，让电脑替你摆一遍，只是不计分。它在 Hacker News 冲到三百五十多分，有人说像「太空高尔夫」，也有人说特别适合陪孩子玩。所以呢：航天课上讲不明白的「引力弹弓」，换成「你只能摆黑洞」一下就懂了——可以录一期「我用三个黑洞把飞船送回家」的挑战。",
+    "links": [
+      {
+        "label": "Hole Punch 在线玩",
+        "url": "https://notoriousbfg.com/hole-punch/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49946393"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "lighthouses-night-globe",
+    "category": "视觉尝试",
+    "title": "全世界每一座灯塔，在夜色地球上按真实节奏一起闪",
+    "body": "打开 mapped.earth 的灯塔页面，整颗地球是黑的，海岸线上却密密麻麻亮着小光点。每个光点都是航海图上登记过的一盏导航灯。而且它们不是乱闪：海图上写着「每五秒闪一次」，它就真的每五秒闪一次；写着旋转扫光，它就在那儿一圈圈地扫。你可以转动地球，拉近苏格兰、布列塔尼、日本或挪威的海岸，鼠标停在光点上，就能看到这座灯塔的名字。作者 Aaron Becker 本职做资产配置，业余爱用真实数据画地图，站上还有实时风场地球和一整年的闪电图。Hacker News 上有人补了个冷知识：同一片海域的灯塔，闪烁周期都故意错开，水手看节奏就知道眼前是哪一座。也有人吐槽，数据里混进了不少浮标，手机上缩放不好用，电脑风扇还会狂转。所以呢：灯塔的闪法其实是一张「光的身份证」——可以拍一条「你家附近那座灯塔，每几秒眨一次眼」。",
+    "links": [
+      {
+        "label": "灯塔夜色地球",
+        "url": "https://mapped.earth/lighthouses/world"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49933461"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "poddle-phone-paddle",
+    "category": "视觉尝试",
+    "title": "手机当球拍挥：电脑浏览器里打一场 Wii 运动式匹克球",
+    "body": "还记得挥着 Wii 手柄在客厅打网球吗？Poddle 把这件事搬进了浏览器，而且不用买任何手柄。打开 poddleball.com，屏幕上出现一块匹克球场和一个二维码。拿手机一扫，手机就变成你手里的球拍：你挥一下，场上的拍子跟着挥。它靠的是手机里本来就有的运动传感器。Mac 用户还有更绝的玩法：拿一只 AirPods 当球拍。一个开源的小助手把耳机的动作数据传给游戏，另一只耳机留在盒子里就行。你可以跟朋友在线对打，也能挑战四个难度的电脑对手 Matt，还能开最多十六人的锦标赛，攒奖杯、晒战绩卡。屏幕上会实时显示你的挥拍速度和连续回合数。它十月四日登上 Product Hunt，全程免费。所以呢：家里一台旧电脑加一部手机，就是一台体感游戏机——很适合拍「用 AirPods 打匹克球」这种一看就想试的短视频。",
+    "links": [
+      {
+        "label": "Poddle 在线玩",
+        "url": "https://poddleball.com"
+      },
+      {
+        "label": "Product Hunt 页面",
+        "url": "https://www.producthunt.com/posts/poddle-e008a4bb-f8fa-4e74-8700-31877ea22819"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "obsidian-shards-loop",
+    "category": "视觉尝试",
+    "title": "砸碎一块黑石头，里面是座大教堂；再砸，是一头鲸",
+    "body": "法国化学家拉瓦锡说过：什么都不会消失，什么也不会被创造，一切只是在转化。一位网名 Techartist 的技术美术，把这句话做成了一段能在浏览器里看的动画，叫 Obsidian。画面里先立着一块黑曜石般的巨石。它碎成三万两千块碎片，碎片在空中重新拼成一座大教堂。教堂再碎，拼成一头鲸。鲸再碎，你眼前又是那块石头，就这样无限循环。整段画面都是程序实时生成的三维效果，作者说是和 Opus 5.5 一起写出来的，源码放在 GitHub 上。最贴心的是，页面自带录制功能：能选横屏、方形、竖屏三种尺寸，直接导出视频或者逐帧图片。这条帖子在 X 上被点赞八十多次、收藏二十多次。所以呢：这种「碎了又拼回来」的循环画面，天生适合当视频开头——直接录一段竖屏，配一句「什么都没少，只是换了个样子」。",
+    "links": [
+      {
+        "label": "Obsidian 在线看",
+        "url": "https://iamtechartist.github.io/obsidian/"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/iamtechartist/obsidian"
+      },
+      {
+        "label": "作者 X 帖子",
+        "url": "https://x.com/techartist_/status/2106848293678620860"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "howisee-colorblind-camera",
+    "category": "视觉尝试",
+    "title": "色盲小哥被问烦了「这是什么颜色」，干脆让你用他的眼睛看",
+    "body": "乔希是色盲。每次别人知道这件事，第一句话几乎都是：「那这个是什么颜色？」被问得多了，他做了个网页，叫 howisee。用手机打开，对准任何东西，镜头里的画面会实时变成他眼里的样子。做完之后他又想，干脆把别的视力问题也加进来。于是现在除了几种色盲，你还能体验偏头痛发作前的闪光盲点、飞蚊症、青光眼的视野变窄、白内障的发黄发雾、黄斑病变的中间一块看不见，一共二十多种。每种旁边都写着大概多少人有，比如约十二分之一的男性有红绿色弱。页面上还有个小测试，测完能把「我眼里的世界」发给朋友。全程在浏览器里运行，摄像头画面不离开你的手机。Hacker News 上有人留言：「我是绿色弱，这个终于让我老婆懂了。」所以呢：「感同身受」第一次可以照字面做到——拍一期「戴上家人的眼睛逛一趟超市」会很有共鸣。",
+    "links": [
+      {
+        "label": "howisee 在线体验",
+        "url": "https://www.josh.ing/howisee"
+      },
+      {
+        "label": "HN 作者自述",
+        "url": "https://news.ycombinator.com/item?id=49936621"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "moss-type-garden",
+    "category": "视觉尝试",
+    "title": "打一行字，字上长出苔藓和小花：一键导出透明底海报",
+    "body": "一位叫 anshu 的设计师，用 Claude 做了个小玩具，叫 Moss Type。你在页面上随便打几个字，这些字会变成立体的，表面长满苔藓、地衣、蕨叶和小花，像在石头上长了很多年。你可以一键切换主题，比如水晶花园、花环、薰衣草、粉彩草地，也能换几种字体、调字号。做好之后，能导出两倍或四倍清晰度的透明底图片，还能直接录一段动态视频。它的灵感来自另一个作品 Type Garden：在那里，你打的每个字母都会长出一株花草，敲空格会剪断花茎，按退格键花就枯萎。两个作品都是「文字就是植物」的思路，一个重质感，一个重生长的过程。Moss Type 这条帖子在 X 上被收藏了两百多次，比点赞还多，说明大家是真想拿去用。所以呢：做封面大字、节日海报，不一定要打开设计软件——打一行字等它长满苔藓就行，可以拍「用一个网页做出一张秋天感海报」。",
+    "links": [
+      {
+        "label": "Moss Type 在线玩",
+        "url": "https://moss-type.vercel.app"
+      },
+      {
+        "label": "灵感来源 Type Garden",
+        "url": "https://type-garden.vercel.app"
+      },
+      {
+        "label": "作者 X 帖子",
+        "url": "https://x.com/panic_puriii/status/2106687332103659554"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "globalcity-earth-simcity",
+    "category": "视觉尝试",
+    "title": "在真实地球上抢一块地当市长，再修铁路连上邻居的城",
+    "body": "程序员 Evert Pot 用老《模拟城市》开源出来的美术素材，做了一个多人在线的城市建造游戏，叫 GlobalCity。和原版最大的不同是：地图是整颗地球。你可以让浏览器读取你的位置，在附近找一块空地；也可以在世界地图上随便挑一处。接下来就是熟悉的那一套：划住宅区和商业区，修路，通电。城市长大了会解锁特殊建筑，人口到一定规模还可能闹火灾。有意思的是，你的邻居都是真人。你可以把铁路修进别的市长的城市；等对方也建了机场，两座城之间就会有飞机往返，你这边的商业需求也会跟着涨。建在海上的电厂，得拉一条海底电缆接回岸边。页面上老老实实写着：模拟城市是 EA 的商标，这个项目跟官方无关。所以呢：「在自己老家附近当市长，再跟陌生人通铁路」本身就很有故事感——可以开一期「我在家门口盖城，看谁先连上我」。",
+    "links": [
+      {
+        "label": "GlobalCity 在线玩",
+        "url": "https://globalcity.evertpot.com/"
+      },
+      {
+        "label": "HN 发布帖",
+        "url": "https://news.ycombinator.com/item?id=49945950"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "scm-local-frame-search",
+    "category": "小众工具",
+    "title": "在 Mac 里搜「海边吹蜡烛那段」，直接跳到视频那一秒",
+    "body": "手机里几千段视频，想找「生日那天在海边吹蜡烛」那几秒，通常只能一段段地翻。开发者 Allen Lee 做的开源 Mac 应用 SCM，全名 Screen Memories，就是来解决这件事的。你把一个文件夹交给它，它会在你自己的电脑上，用一个看图模型把每张照片、每段视频里的每个镜头都「看」一遍。之后你用大白话描述，比如「穿黄雨衣的小孩」，它就把最像的照片和最像的那个镜头找出来，点开直接跳到对应的时间。它还能认出画面里的文字，也会把视频里说的话转成文字，所以搜一句台词也能定位。中文搜索也照顾到了，「台北车站」会拆成两个词去匹配。模型第一次下载约四百多兆，之后完全离线，照片不上传。它在 Hacker News 拿到一百四十多分。也有人提醒：自己做过类似工具，上万段视频光处理一遍就得跑一整夜。所以呢：相册终于能按「记忆」而不是按日期来搜——拍一条「一句话从三千段视频里翻出那天的海边」很有画面感。",
+    "links": [
+      {
+        "label": "SCM GitHub",
+        "url": "https://github.com/allenv0/SCM"
+      },
+      {
+        "label": "SCM 官网",
+        "url": "https://scm.allenlee.site/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49952111"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "removemacai-disk-back",
+    "category": "小众工具",
+    "title": "macOS 27 关不掉苹果智能？一条命令关功能、删模型，还能一键反悔",
+    "body": "升级到 macOS 27 以后，很多人发现苹果智能没有一个总开关了。更烦的是，就算把功能一项项都关掉，那些模型文件还占着硬盘。开发者 omlahore 写了个开源小工具 RemoveMacAI，在 Hacker News 拿到四百八十多分。用法很直白：在终端里运行它，它先告诉你每项功能开没开、模型占了多少空间。你确认之后，它一次性关掉 Siri、写作工具、Genmoji、通知摘要这些功能，再通过苹果自己的系统服务把模型删掉。它不关系统保护，也不直接改系统目录。为了防止 macOS 偷偷再下回来，它把模型的下载地址指向本机一个关着的端口。你可以只保留某几项功能，也能先空跑一遍，看它打算改什么。后悔了，一条 revert 命令全部恢复。代价是：用到苹果本机模型的 App 和快捷指令也会跟着失效。所以呢：「AI 默认打开，关掉却要靠第三方工具」本身就是个好选题——可以拍一条「我把苹果智能删了，腾出了多少空间」。",
+    "links": [
+      {
+        "label": "RemoveMacAI GitHub",
+        "url": "https://github.com/omlahore/RemoveMacAI"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49957116"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "redactpdf-review-boxes",
+    "category": "小众工具",
+    "title": "谷歌机房用水量被黑条盖住，复制粘贴就露馅：有人做了个真能涂黑的工具",
+    "body": "九月底，美国内布拉斯加州一家电视台发现：谷歌交给州政府的数据中心报告里，用电量和用水量被黑框盖住，理由是商业机密。可记者用鼠标一选、一复制，黑框下面的数字全出来了：林肯市那座机房，一年用水一千三百多万加仑。这件事上了 Hacker News 头版。旅行应用 Wanderlog 的联合创始人 Peter 看完，做了一个开源网站 RedactPDF.ai。你上传一份 PDF，它把每一页的图片交给谷歌的 Gemini 3.8 Flash，自动框出姓名、邮箱、住址、社保号、电话这些敏感信息。每个框你都可以保留、挪动、缩放或删掉，也能自己再画。下载的时候，它连能被选中的那层文字一起删掉，而不是只盖一层黑色。文件一小时内从服务器上删除。作者也坦白：现在还做不到完全在本地跑，因为别的模型没有 Gemini 准。所以呢：「盖上黑条不等于删掉」是个人人都能看懂的反差——可以现场演示一次复制粘贴露馅，再教大家正确的涂法。",
+    "links": [
+      {
+        "label": "RedactPDF.ai",
+        "url": "https://redactpdf.ai"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/opengreencard/redactpdf"
+      },
+      {
+        "label": "HN 作者自述",
+        "url": "https://news.ycombinator.com/item?id=49958950"
+      },
+      {
+        "label": "谷歌机房涂黑报道",
+        "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "capybara-court-split",
+    "category": "小众工具",
+    "title": "吵架找水豚法官：两人各写各的，判决最多只说你七成五的错",
+    "body": "谁忘了关风扇，谁又没洗碗？开发者 Jungsik Byun 做了个小应用 Capybara Court，把这种小吵小闹交给一只卡通水豚法官 Cappy 来判，评论区的网友直接叫它「AI 水豚」。玩法是这样的：两个人分别回答同样的四个问题，每题最多五百字，彼此看不到对方写了什么，只有法官能同时读到两边。判决会在两部手机上同时打开，要长按才揭晓。最有意思的是「过错比例」：它永远在二十五比七十五之间，绝不判一方全错。有人在 Product Hunt 上抗议，说洗碗这种事明明就是一个人没洗。作者回答：水豚判的不是碗，是这场架；它只听到两个人各自的说法，判九比一，就是假装自己知道得更多。一个人也能用，隐去名字发到公共画廊。所有内容三十天后自动销毁，不用注册，没有广告。所以呢：AI 当裁判，最难的不是判对，而是让两边都下得来台——拍一期「情侣请 AI 水豚断案」会很好玩。",
+    "links": [
+      {
+        "label": "Capybara Court",
+        "url": "https://capybara-court.web.app"
+      },
+      {
+        "label": "Product Hunt 页面",
+        "url": "https://www.producthunt.com/posts/capybara-court"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "figma-server-cdp",
+    "category": "小众工具",
+    "title": "Figma 只让白名单里的 AI 进门，有人干脆让 AI 自己开浏览器去操作",
+    "body": "最近设计圈吵得很凶：Figma 官方给 AI 开的接口，只允许它审核过的客户端连接，没进名单的只能排队等；只读席位每个月还只有六次读取额度。开发者 ripped_britches 的回应很直接：Figma 说到底就是个网页。他做了开源工具 figma-server。它在你电脑上开一个专用的 Chromium 浏览器，你登录一次 Figma，之后浏览器就在后台安静运行。你的 AI 代理通过浏览器的调试接口去操控它，能点、能打字、能截图、能跑脚本，还能同时开几个标签页改不同的文件。接入方式是标准的 MCP，也就是给 AI 挂工具的通用插口，复制一段配置就行。说明文档里把「Figma 的敌意」一条条列了证据，包括 Figma 员工和 CEO 在 X 上的回应，还有被拒的开发者工单。作者也提醒：第一次改图，请用一个可以随便删的测试文件。所以呢：平台想决定「你能用哪个 AI」，用户就会绕到网页的前门——这是讲「AI 时代平台围墙」的好切口。",
+    "links": [
+      {
+        "label": "figma-server GitHub",
+        "url": "https://github.com/ctxrs/figma-server"
+      },
+      {
+        "label": "HN 发布帖",
+        "url": "https://news.ycombinator.com/item?id=49938648"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "photocraft-rust-adobe",
+    "category": "小众工具",
+    "title": "有人要用 Rust 重写整套 Adobe：先放出七个软件的早期版",
+    "body": "十月四日，Hacker News 上冒出一个让人挑眉的项目：ArtCraft 团队要用 Rust 这门编程语言，从零重写一整套 Adobe 式的创作软件。目前公布了七个：修图的 PhotoCraft、画矢量的 VectorCraft、剪视频的 FilmCraft、管照片和冲 RAW 的 LightCraft、处理 PDF 的 PrintCraft、做动效的 EffectCraft，还有排版的 DesignCraft。其中 PhotoCraft 自称是 Photoshop 的「净室重写」，意思是不看对方代码，只照着功能自己做。它支持图层、蒙版、调整图层、文字和画笔，还能打开真正的 PSD 文件。全部用 MIT 或 Apache 协议开源，不收集使用数据。可作者本人在评论区说：「我还没准备好发上来，离能用还很远。」他还放话，下一步要做 Office、AutoCAD 和 SolidWorks。有人立刻说要去做空 Adobe，也有人淡定回一句「我还是用 Affinity」。所以呢：AI 让「一个小团队重写大软件」从笑话变成了真实尝试——但先看它能不能打开你手上那个 PSD，可以拍一期实测。",
+    "links": [
+      {
+        "label": "ArtCraft 七件套",
+        "url": "https://getartcraft.com/apps"
+      },
+      {
+        "label": "PhotoCraft GitHub",
+        "url": "https://github.com/storytold/photocraft"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49958850"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "muse-gadgets-sdk",
+    "category": "小众工具",
+    "title": "Meta 开放 Muse 小硬件套件：给 AI 助手接上按钮和屏幕，先看清附加条款",
+    "body": "Meta 的个人 AI 助手 Muse，现在可以有个「身体」了。十月初，Meta 放出 Muse Gadgets：一套开源的设备开发包。你可以用一块现成的 ESP32 小开发板，或者一台闲置的树莓派，把 Muse 接到屏幕、按钮、麦克风、传感器和各种小马达上。官方举的例子有：在小屏幕上显示图片，让 Muse 帮你干 Linux 机器上的运维杂活，或者接进你的智能家居。他们自己也做了一个叫 Muse Home Link 的小设备，让 Muse 能够着家里 Wi-Fi 里的东西，开灯、控电视、把文件发给打印机。代码用 Apache 2.0 协议开源，在 Hacker News 拿到两百四十多分。可评论区很快翻出了细则：每台设备都要先申请令牌，一个令牌能绑的设备数量有限；官方明说这只供个人折腾，随时可能改动甚至停掉；Linux 版等于把命令行交给了 AI。所以呢：大厂开始抢「AI 钻进实体小玩意」的入口——做内容时可以亲手搭一个，再讲清楚你让它碰了家里哪些东西。",
+    "links": [
+      {
+        "label": "Muse Gadgets 官网",
+        "url": "https://gadgets.muse.ai"
+      },
+      {
+        "label": "SDK GitHub",
+        "url": "https://github.com/facebookincubator/muse-gadget-sdk"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49937504"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "pixel-soup-dither-wallpaper",
+    "category": "小众工具",
+    "title": "让 Mac 自己煮壁纸：像素点阵风，在图标后面慢慢流动",
+    "body": "壁纸看腻了，又懒得到处找？Pixel Soup 是个 Mac 小应用，壁纸由你电脑的显卡现场画出来。你先选一种形状，比如流体、等离子、极光、涟漪、等高线；再选一种「抖动」风格。抖动是一种老派做法，用有限的几种颜色点阵去模拟渐变，这里有方格网点、印刷半调、字符画、漫画网点等十种；最后挑一套配色。按下应用，它就成了你的桌面，还会在图标后面缓缓流动。你也可以把某一帧定格成静图，或者丢进一张照片，让它变成点阵风。想偷懒就点一下随机，或者让它每小时自动换一张。官网说组合超过十万种，还能导出 6K 或手机尺寸的图片。动态壁纸用很低的帧率画，被窗口挡住就暂停。可以免费试用三天，之后一次性付四点九九美元，不用订阅。所以呢：点阵复古风正流行，这个小工具能一键做出一整套同风格的电脑和手机壁纸——适合拍「我的桌面每小时都不一样」。",
+    "links": [
+      {
+        "label": "Pixel Soup 官网",
+        "url": "https://pixelsoup.app/"
+      },
+      {
+        "label": "Product Hunt 页面",
+        "url": "https://www.producthunt.com/posts/pixel-soup"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "thinking-orbs-ai-status",
+    "category": "小众工具",
+    "title": "AI 在想还是在搜？一套会动的小光球帮你分清",
+    "body": "用 AI 产品时，你盯着屏幕上那个小圈圈转啊转，常常不知道它到底在干嘛：是在思考、在搜东西，还是卡住了在重试。独立开发者 Yogesh 做了个开源组件库 Thinking Orbs，专门给这件事设计「表情」。它是一组由小点组成的立体光球动画，每种状态长得不一样：思考、搜索、干活、压缩上下文、重试、等待、后台任务。压缩上下文的意思是，AI 把聊过的长内容缩成一段摘要。每种状态还有几种变体，比如搜索像灯塔在扫光，压缩像被挤扁了再融到一起。做网页的人装上就能用，只要告诉组件现在是哪种状态。整个包压缩后只有三点八 KB，不依赖别的库，用 MIT 协议开源。官网上还有一个「复制提示词」按钮，让你的 AI 编程助手替你装好。所以呢：AI 产品拼到最后，拼的是别让用户干等着发慌——可以做一期「好的 AI 加载动画长什么样」的设计盘点。",
+    "links": [
+      {
+        "label": "Thinking Orbs 官网",
+        "url": "https://www.thinkingorbs.com"
+      },
+      {
+        "label": "Product Hunt 页面",
+        "url": "https://www.producthunt.com/posts/thinking-orbs"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
+    "id": "screen-loupe-mac",
+    "category": "小众工具",
+    "title": "设计师的屏幕放大镜：框住一块，实时放大到能数像素",
+    "body": "做界面的人经常要较真：这条线到底是一像素还是两像素？这个颜色和设计稿差了多少？一位 macOS 开发者开源了小工具 Screen Loupe。你在屏幕上框住一块区域，它在另一个窗口里实时放大，缩放很顺滑，像素边缘依然清清楚楚。鼠标所在的位置有十字线。鼠标悬停才出现的效果一闪就没，你可以把画面冻住慢慢看。它能取色，直接给出网页和苹果开发能用的色值，还会算文字和背景的对比度够不够。最实用的是参考层：把设计稿叠在真实画面上，用差值混合，哪里没对齐，哪里就亮出来。它还能模拟六种色觉，看看色弱用户眼里的界面是什么样。另外附带一个截图工作室，能截出干净的单个窗口，或者 App Store 要求的尺寸。所以呢：「像素级还原」不用再靠眯眼——适合拍一期「设计稿和成品，到底差在哪」的对比。",
+    "links": [
+      {
+        "label": "Screen Loupe GitHub",
+        "url": "https://github.com/ayenora/screen-loupe"
+      },
+      {
+        "label": "HN 发布帖",
+        "url": "https://news.ycombinator.com/item?id=49943497"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-03",
+    "added": "2026-10-05T14:40:00+08:00"
+  },
+  {
     "id": "kolibri-sovereign-chinese-teachers",
     "category": "硬科技",
     "title": "德国「主权」大模型国庆日开源：翻开说明书，老师是智谱和千问",
