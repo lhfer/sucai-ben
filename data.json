@@ -1,5 +1,792 @@
 [
   {
+    "id": "prompt-opus-history-of-light-film",
+    "category": "提示词",
+    "title": "一句「我想了解光的历史」，Claude 自己做出一部三十五分钟的动画课",
+    "body": "美国一位自称物理迷的博主 am.will（@LLMJunky），想给自己和孩子补一堂「光到底是什么」的课。他没写分镜，只给 Claude 的 Opus 5.5 发了一段话，再把电脑钥匙串里各家 AI 服务的密钥都交给它随便用。\n\n结果它交回一部三十五分半钟的教育动画，烧掉两百多美元。旁白用谷歌 Gemini 的语音模型配，背景音乐用另一个音乐模型生成，部分画面交给 GPT Image 和 Nano Banana 画。讲电磁学的动态图解，是它自己用 JavaScript 一行行写出来的。片尾它还给自己写了一份演职员表。这条帖子十三万多次浏览，收藏两千多。\n\n这段提示词的巧思是只管目标，不管做法。它要求这部片子「像一种新的学习方式」；要讲清每个年代的人信什么、谁唱反调、这种看法撑了多久；旁白要用一百年前那种慢悠悠的英国腔；一直循环修改，直到做到出色。唯一的硬规矩是：写故事、写代码，只许用最强的那个模型。\n\n作者事后也说，要是全用网页动画、少生成图片，五十美元以内也能做出来。\n\n所以呢：AI 已经能当「一个人的纪录片组」，贵的是想清楚你要讲什么；可以做一期「给孩子定制一集科普片，到底要花多少钱」。",
+    "links": [
+      {
+        "label": "X 原帖（成片）",
+        "url": "https://x.com/LLMJunky/status/2106411941497389342"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/LLMJunky/status/2106416328009543959"
+      }
+    ],
+    "prompt": "I want you to build an educational cartoon that is artistic, visually stunning, creative, and educational at the same time. Watching this video should feel like something new. A new way to learn. Memorable. Exceptional.\n\nI want to learn the history of light - as it was studied, and by whom. The debates. Wave. Particle. Both. Neither. Take us through the history of light and educate us on the current understanding at that time, what people believed, who dissented, how long people thought that way? Cover about the experiments. Cover the particle/wave duality in depth.\n\nI want you to generate the music and voices. Use 3.8 flash tts and use a slow distinguished english accent from 100 years ago. Work in a loop until you have achieved excellence. You may call as many subagents as needed; however, only use opus 5.5 on high reasoning when writing any code, or writing any of the story, nothing else should be used for those but opus 5.5.\n\nTake your time, you have as many tokens as you need. i want this to spark curiosity in all who watch.",
+    "date": "2026-10-03",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-opus-apple-style-launch-film",
+    "category": "提示词",
+    "title": "一段提示词，让 Claude 用纯代码做出苹果发布会式的三十秒宣传片",
+    "body": "苹果发布会上那种宣传片你肯定见过：字一个个弹出来，照片在玻璃质感的按钮里滑来滑去，一镜到底，每一下都踩在鼓点上。X 用户 @rossaxbt 说，他这条三十秒的同款，花了零元，全是 Claude 的 Opus 5.5 用代码写出来的，没用任何视频模型，也没接外部工具。帖子十万浏览，收藏两千五百多，是点赞的两倍。\n\n成片里，品牌名「Develop」被压缩成一个句号，句号胀成一颗黑色胶囊，接着变成照片墙、手机锁屏、Mac 窗口、卖装框照片的商品页。最后一幅装框照片挂上真实的墙，画面又缩回那个句号。\n\n提示词像一份施工单。先问你要品牌名、九到十二张照片、一段每分钟一百二十拍的免费配乐。再规定全片五十四拍，每一拍都得发生点什么；禁止淡入淡出，禁止模糊转场，禁止任何「模板感」。技术上要求整片就是一个网页文件，每一帧长什么样只由时间决定，最后用浏览器自动逐帧录下来。最聪明的是结尾一句：先给我看节拍表和四张关键画面，我点头了再写整片。\n\n所以呢：动效设计正在变成「会写需求的人」的活；可以做一期「零预算，给自己的小店做一条发布会宣传片」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/rossaxbt/status/2106758817161597021"
+      }
+    ],
+    "prompt": "<inputs>\nAsk me for: a one-word brand name for the wordmark (a verb works best), 9 to 12 high-res photos, a royalty-free track around 120 BPM with a drop and a quiet breakdown (Mixkit, free for commercial use), and a free stock clip of a plain wall with moving plant shadows (Pexels).\n</inputs>\n\n<direction>\nAn Apple-keynote-style launch film, 2D only, in one continuous take. Each scene grows out of the last: no fades, blurs or cuts. Objects transform instead. Text rises from a mask line, icons spring up from zero, bars draw across the screen, pages push forward, and a black shape fills the frame before shrinking into the next scene. Use a warm off-white canvas, black UI and iOS 26 liquid glass over the photos. Archivo (wdth 125, weight 800) for the wordmark, Geist for the UI. A cursor triggers every change with actual clicks, drags and long-presses. Zoom the camera screen-studio style so each moment fills the square, and scale the cursor with it.\nBanned: crossfades, blur-ins, brightness \"developing\", 3D flips, particles, glows, holds longer than 1s, anything that feels like a template.\n</direction>\n\n<structure>\n120 BPM, 54 beats, with something happening on every beat.\nOpen: the wordmark compresses into its own period like an accordion. The dot expands into a black pill, and a label rises inside it. Click: six iris blades close over the label, then snap open onto a photo. The circle turns into a square and shrinks. A grid unfolds behind it like a paper map (center, plus, corners), rearranges into a bento, and a click zooms into one tile, landing right on the drop.\nGlass: a glass word appears letter by letter, then melts into a droplet that stretches into a glass toolbar. The adjust icon turns it into a slider. Dragging changes the photo lighting from day to golden hour (two aligned shots), while the held knob becomes a glass lens. It rises into a glass orb, the next photo opens inside it as a circle, and the orb grows into a lock screen with glass clock digits, a date and a home bar that stretches into a glass music player.\nStage: the lock screen pulls back to reveal a phone, with the bezel growing from the screen edge. The Dynamic Island stretches like liquid, pinches off, flies across and expands into a Mac window that rolls up like a blind. Long-press the wallpaper and drag it onto a Safari tab. The page pushes in; when you drop the image, it becomes the hero of a landing page. Scroll: the hero transforms into a framed print on a product card, with the mat and molding growing from the photo's edge. Choose a frame color (it paints across) and a size, then the nav button flies down and becomes \"Order print\".\nOrder: one black shape keeps changing: Ordered ✓ → Printing % → On its way (a van on a route) → Delivered ✓.\nWall: the delivered circle expands until black fills the frame, holds for one beat, then shrinks into the framed print hanging in the real wall footage. The same iris opens onto the print and closes again. The frame fills the screen, contracts into the pill → the dot → the letters spring back out on the returning beat. Last frame = first frame.\n</structure>\n\n<build>\n1. One HTML file, square 1440x1440. Compute every style from time inside an async seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form step responses for springs. When a value has multiple targets, add one spring per change so it remains a pure function of time.\n3. Liquid glass: each glass element keeps its own clone of the scene behind it. Filter that clone with an SVG feImage displacement map (a rounded-rect distance field) through three feDisplacementMaps at slightly different scales for chromatic edges, then add a rim light. For glass letters, use a canvas distance field per glyph to create the map, mask and highlights.\n4. Goo: apply blur and an alpha threshold, then composite the source on top so the glass stays sharp inside.\n5. Iris: place 6 blades around a hexagonal aperture. Each blade uses its two vertices, both edge extensions and the SHORT arc between them.\n6. Wordmark squeeze: move every letter toward the dot by the same factor and adjust its drawn width to match (narrow the wdth axis, scale the rest), keeping the letters in contact.\n7. Footage: re-encode it all-intra (ffmpeg -g 1), load it as a blob URL and await \"seeked\" before drawing each frame.\n8. Sound: use a downloaded SFX for every event (Mixkit), never synthesized, and position each by its measured peak. Start the song on a downbeat: land the zoom on the drop, place the wall in the breakdown and bring back the wordmark with the beat. Loudnorm to -14 LUFS.\n9. Render with Playwright: blend 4 subframes per frame using ffmpeg tmix at 60fps. Check one frame per beat, then look for single-frame pops (frame-difference spikes 3x higher than their neighbours).\n</build>\n\n<gotchas>\nbackdrop-filter: url() misreads displacement maps in Chromium, so clone the scene instead. A flood needs to extend beyond the corners and take about 0.3s; otherwise, half the screen changes in a single frame. A child set to visibility: visible can show through a hidden parent, so use inherit. Text swapping inside a morphing shape needs its own mask. python http.server can't range-seek video, so use the blob URL.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and 4 stills (open, glass, stage, wall) before writing the full film.\n</start>",
+    "date": "2026-10-04",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-claude-excel-97-eleven-words",
+    "category": "提示词",
+    "title": "十一个英文单词，Claude 十分钟复刻出一个 Excel 97",
+    "body": "美国用户 John Bumstead（@RDKLInc）对 Claude 只打了一句话：我想让你重做一个 Excel 97，名字就叫 Claude 97。数下来，正好十一个英文单词。\n\n大约十分钟后，一个网页版的老 Excel 开起来了：灰色立体按钮，深蓝标题栏，底下一排工作表标签，状态栏写着「就绪」。打开就是一张「1997 年各地区销售额」的示例表，还配一张老式柱状图；第二张表是个车贷计算器。Claude 自己汇报说，表格上限照搬当年的六万五千五百三十六行、二百五十六列；公式、排序、撤销、复制粘贴，它都在模拟浏览器里点过一遍，还靠截图发现两处显示错误，顺手改掉了。\n\n他说自己玩了好一阵，没找到毛病。帖子二十万浏览，近两千赞，评论三百多条，不少人在吵这算不算「抄」。他的回答很干脆：你自己十分钟也能有一份，哪里不满意，接着跟它聊就是。\n\n这句话的妙处在于借了「Excel 97」这个名字。成百上千条需求，一个名字就全塞进去了，模型脑子里自带说明书。\n\n所以呢：说出一个大家都认识的老软件，比写一页需求还管用；可以做一期「十一个词复刻我的童年软件」挑战。",
+    "links": [
+      {
+        "label": "X 原帖（截图里是原话）",
+        "url": "https://x.com/RDKLInc/status/2106751720839585951"
+      }
+    ],
+    "prompt": "i want you to re-create Excel 97. Call it Claude 97",
+    "date": "2026-10-04",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-opus-zhuanshu-seal",
+    "category": "提示词",
+    "title": "不给字体，让 Claude 一笔一笔「刻」出一方篆书印章",
+    "body": "中文 AI 圈的博主宝玉（@dotey）想要一方刻着自己名字的印章。他没去找篆刻师傅，也没下载篆书字体，而是让 Claude 的 Opus 5.5 用网页代码，一笔一笔把字画出来。\n\n成品是两枚红色方印，印文是繁体篆字「寶玉」，从右往左读。一枚是红底白字，篆刻里叫白文；一枚是白底红字，叫朱文。边缘带着残破和颗粒，像真拿刀刻过、在宣纸上按过一样。\n\n这段提示词只有两段，却很有章法。第一，不许用现成字体，每一笔都用坐标画出来再加粗，字形照《说文解字》里的小篆。第二，动笔前先列清楚每个字由哪几个部件组成、各放在印面哪一块，相当于先打草稿。第三，画完自己截图检查：字认不认得出，笔画间距匀不匀，有问题再改。\n\n普通人改着用很简单：把「宝玉」换成你的名字，或者换成「早点下班」「招财进宝」。手里有篆字参考图就附上，它会照着写；没有也能跑。\n\n所以呢：让 AI 先拆字、再动笔、最后自己检查，比一句「帮我设计个印章」靠谱得多；可以做一期「AI 给全家每人刻一方章」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/dotey/status/2107286262688231469"
+      }
+    ],
+    "prompt": "用 JS + Canvas 画一枚篆书印章，印文是繁体「宝玉」，自右向左读。字形按《说文》小篆（如果我附了参考图，就照图写），不要用字体，每一笔用坐标画出来再加粗。\n动笔前先列出每个字由哪些部件组成、各放在印面哪里。做白文和朱文两个版本，用朱砂色印泥，带一点刀刻的质感和边缘残破，背景是宣纸纹理，导出 1200×1200 的透明底 PNG。做完先截图检查每个字认不认得出、笔画间距是否均匀，有问题再改。",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-naive-fight-doodle",
+    "category": "提示词",
+    "title": "悟空和贝吉塔扭打成一团，画得像小孩凭记忆涂的",
+    "body": "悟空揪着贝吉塔的脸，鸣人和佐助互相推脑袋，两个原神角色扯着头发，一个戴大黑帽的白裙高个女人被红衣女孩一脚踹在身上。四张图都像小学生拿蜡笔凭记忆画的：胳膊僵得像筷子，脑袋歪着，颜色涂出了边。\n\n这组图来自 X 博主 VoxCat（@VoxcatAI），用 GPT Image 2 生成。他公开了提示词，只要把开头的「角色A」「角色B」换成任意两个角色就能用。\n\n巧思在于他同时管住了三件事。一是认人：每个角色只留最好认的几样，比如主色、头型、发型、标志配饰。二是关系：必须写出抓脸、推头、拉扯这种手碰手的动作，让人一眼看出是在打架。三是「画得差」：细长身子，直棍一样的四肢，比例失准，透视画错。他还特别提醒，干刷笔触只是表面质感，真正决定这种笨拙画风的，是把形体简化，再让重心失衡。\n\n提示词开头还混了几个美术流派的英文名，意思是素人画、原始具象画，等于告诉模型该往哪种「笨」去靠。\n\n所以呢：故意画丑也有方法，丑得准才好笑；可以做一期「让你的本命 CP 打一架」互动征集。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/VoxcatAI/status/2107021472493666555"
+      }
+    ],
+    "prompt": "【角色A】与【角色B】，neo-naïve painting × outsider art × primitive figurative painting × 儿童画式角色转译。\n\n两个角色由少量不规则几何色块组成，只保留各自最强的身份识别：主色、头部轮廓、发型或耳朵、眼睛、服装代表性色块、标志配饰。\n\n两人正在激烈但滑稽地打架，身体紧贴、互相纠缠。根据角色随机设计抓脸、推头、抱住、拉扯、拍打、压住对方或互相扑倒的动作；手部接触明确，四肢交错，重心失衡，一眼就能读懂打架关系。\n\n幼稚而不准确的人体结构：细长躯干、僵硬直线四肢、失准比例、歪斜头部、夸张手脚、错误透视。五官压缩为少量粗糙色块，表情愤怒、震惊、龇牙、尖叫或委屈，具有荒诞喜剧感。\n\n粗糙不透明颜料平涂，dry brush 干刷痕迹，毛边、不均匀填色、手绘抖动轮廓、局部露底；以平面色块直接表现身体与服装。\n\n暖灰白或米白纸张背景，大面积空白。两个角色位于中央，互相纠缠形成一个紧凑的动作团块，画面集中表现角色之间的关系。\n\n像未经训练的人凭记忆快速画下的打架瞬间：原始、笨拙、直接、荒诞、可爱。\n\n竖版，右下角极小“voxcat”签名。",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-claude-code-cache-countdown",
+    "category": "提示词",
+    "title": "给 Claude Code 装一个「缓存倒计时」，看着它还剩几分钟",
+    "body": "用 Claude Code 写代码的人，大概都遇到过这种事：倒杯咖啡回来，随手问一句，额度却一下掉了一大截。\n\n开发者 Vox（@Voxyz_ai）讲清了原因。你每发一条消息，Claude Code 都要把整段对话重新发给模型。缓存的作用，是让模型跳过已经读过的部分，回得更快，也少占额度。可缓存会过期。过期后的第一条消息，就得把整段对话从头再算一遍。麻烦在于，平时你根本看不见它还剩多久。\n\n他的办法是一段直接发给 Opus 5.5 的提示词，让它在屏幕底部的状态栏加一行倒计时。缓存还热着，就显示绿色进度条和剩余分钟；快到期变黄；过期了变红，并告诉你下一条消息要重新吃进多少 token，也就是模型计量文字的单位。提示词也很守规矩：已经有状态栏的，不许覆盖，新的一行加在后面；版本太老就告诉我，别自己升级；做完用三组假数据演示给我看。\n\n他还顺手摘了官方文档：订阅用户在额度内，主对话缓存一小时，子任务只有五分钟；会话中途换模型，缓存全部重算。这条帖子收藏一千五百多，差不多是点赞的两倍。\n\n所以呢：看不见的成本，一摆到眼前，人就会省着用；可以做一期「AI 编程额度为什么总是不够用」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/Voxyz_ai/status/2107184044228452491"
+      },
+      {
+        "label": "Claude Code 官方缓存文档",
+        "url": "https://code.claude.com/docs/en/prompt-caching"
+      }
+    ],
+    "prompt": "Read this doc, plus the status line field reference it links to, and add a cache segment to my Claude Code status line.\n1. If I already have a status line, don't replace it. Save stdin first so the original command and the cache segment read the same input, leave the original output as is, and put the cache segment on its own line after it. If I don't have one, create one.\n2. Get the data from prompt_cache in the input: warm, ttl, expires_at, hit_ratio, misses, last_miss_cause, recache_tokens_if_cold. Show nothing until prompt_cache appears, and skip any field my version doesn't have.\n3. While the cache is warm, show it in green with a progress bar and the time left, like \"cache ● 1h ████░░ 38m left · hit 91% · misses 0\". Turn it yellow when less than 20% of the time is left.\n4. When it's cold, show it in red as \"cache ○ cold · next message re-caches 82k tokens\", with the token count rounded to k. Add the miss cause only when there is one.\n5. In the settings file where my statusLine already lives, add \"refreshInterval\": 30 inside the statusLine object, next to command, so the countdown keeps moving.\nIf my Claude Code is older than 2.1.251, tell me. Don't upgrade it yourself. When you're done, run sample JSON for warm, about to expire, and cold, and show me the output.",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-painting-crowd-museum",
+    "category": "提示词",
+    "title": "博物馆台阶上站满名画里的人，集体甩头时只有她一动不动",
+    "body": "一个戴眼镜的女人站在博物馆台阶下，抽了一口烟，冲着镜头把烟吐出来。烟一散，身后台阶上密密麻麻站着几百个人：芭蕾舞女，脸前吊着青苹果的礼帽男，红胡子草帽男，戴珍珠耳环的少女，穿墨西哥绣花裙的女人，戴双角帽的军官。全是名画里走出来的打扮，全都一动不动地盯着你。\n\n这是 X 用户 @iamsofiaijaz 用 Seedance 2.5 做的三十秒短片，五万多浏览，三百多收藏。下一个镜头，全体名画人物突然开始疯狂甩头、弯腰、再甩回来，像集体蹦迪；只有她站在正中间，纹丝不动。\n\n提示词分成两个镜头。最值得抄的是一张「站位表」：第一排从左到右是谁，第二排是谁，第三排正中间留给女主，一个个点名写死。第二个镜头把这张表原封不动再抄一遍，于是两段里每个人都还站在原位。另一个细节是反复强调「这是穿戏服的真人演员」，禁止油画笔触，禁止画框，名画人物才不会变成贴上去的图片。\n\n所以呢：想让两段视频接得上，就把每个人站在哪写成一张表；可以做一期「名画人物集体蹦迪」整活。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/iamsofiaijaz/status/2106953503763763654"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/iamsofiaijaz/status/2106953704574525539"
+      }
+    ],
+    "prompt": "== SHOT 1 — 14 SECONDS ===\nLive-action film footage from a period drama set. ARRI Alexa, 50mm spherical lens,\nnatural overcast daylight, cool desaturated grade, 35mm film grain. Real\nphotography of real human beings — visible skin pores and texture, stubble, fine\nflyaway hairs, real catchlights in the eyes, subsurface light through ears and\nfingers, natural blemishes and asymmetry, real fabric weave and wrinkles. A\nphotograph of real actors on a real location. Not a painting, not a render, not an\nillustration.\nThe character in the reference image is the hero — keep their face, hair and\noutfit exactly as shown, consistent in every frame.\nLOCATION: A grand neoclassical museum façade — tall columns, triangular pediment,\narched doorway — above a wide grey stone staircase.\nFIXED CAST AND BLOCKING (identical positions in every frame, never rearranged).\nHundreds of costumed background actors — ordinary real people, working actors and\nextras, dressed by a wardrobe department in screen-accurate historical costume,\neach styled to resemble a figure from a famous painting. They stand shoulder to\nshoulder in tight rows filling the staircase edge to edge, only body-width gaps\nbetween them, no aisle, no cleared path:\nFRONT ROW, left to right: an elderly actress in a full black mourning dress and\nwhite lace cap · a ballet dancer in a white tulle tutu and black ribbon choker · an\nactor in a black suit and red tie with a bowler hat and a real green apple hanging\non a fine wire in front of his face as a practical prop · a gaunt actor with a real\nred beard, straw hat and worn blue workman's jacket · a stunt performer in real\ngilded plate armor.\nSECOND ROW, left to right: a heavyset bearded actor in a gold-embroidered doublet,\nfur collar and flat jewelled cap · an actress in a dark green-brown Renaissance\ngown and sheer veil, hands folded, faint closed-lipped smile · an actress in a\nyellow bodice, blue apron and white linen cap.\nTHIRD ROW, left to right: an actress in a red embroidered Mexican dress with fresh\nflowers braided into her hair and strong dark brows · [THE HERO'S MARK — dead\ncenter] · an actor in a bicorne hat and blue and white military uniform.\nBEHIND THEM, hundreds deep: women in crimson turbans and white linen bonnets, men\nin black coats with starched white ruffs, a young actress in a blue and gold\nheadwrap with a single pearl earring, rows of men in Edwardian tweed.\nEvery face is a real human face with its own bone structure, weight and age.\nNobody's skin is smooth or flat.\nTIMING:\n0:00–0:03 — CLOSE-UP on the hero's face filling the frame, facing camera front-on,\nstanding at the bottom of the steps. Background soft and unreadable. They take a\nslow drag from a cigarette, lower it, and exhale a plume of smoke across the lens.\n0:03–0:06 — The camera smoothly PULLS BACK and widens as the smoke clears,\nrevealing the hundreds of costumed figures packed on the staircase behind and\naround the hero — completely frozen, statue-still, unblinking, staring into camera.\nSettles into a medium shot, hero waist-up, crowd sharp and clearly visible behind.\n0:06–0:07 — The hero turns around, putting their back to camera.\n0:07–0:12 — They walk up the steps at a NORMAL, BRISK WALKING PACE — natural\nreal-time speed. They squeeze between the frozen bodies, turning their torso to\nslip through, brushing shoulders. Their route: up between the ballerina in the\nwhite tutu and the man with the green apple in front of his face, past the\ngold-doubleted king on their left and the woman in the green-brown Renaissance gown\non their right, brushing the gilded armor as they pass. Nobody steps aside for\nthem. Nobody moves.\n0:12–0:14 — They arrive at their mark, dead center of the third row, with the\nwoman in the red embroidered Mexican dress on their left and the man in the bicorne\nhat on their right. They stop and turn back around to face camera. Hold. The hero\nmotionless, surrounded on all four sides, the crowd still completely frozen. END.\nSound: no music, no soundtrack. Only wind across stone and shoes on the steps.\nDO NOT include any of the following. Nobody may look painted, illustrated, drawn,\nbrushstroked, flat, 2D, smoothed, airbrushed, waxy, plastic, doll-like, CGI,\nrendered, cartoon or anime. No canvas texture, no brushstrokes, no oil-paint sheen,\nno picture frames. The crowd must not move at all in this shot and must not change\nposition, costume or order. The crowd must not part, form an aisle, or leave empty\nspace around the hero. The hero must not be in slow motion or drift slowly. No\ncuts, no camera shake, no morphing faces, no text, no watermark.\n=== SHOT 2 — 15 SECONDS — CUT ON THE FIRST MOVE ===\nLive-action film footage from a period drama set. ARRI Alexa, 50mm spherical lens,\nnatural overcast daylight, cool desaturated grade, 35mm film grain. Real\nphotography of real human beings — visible skin pores and texture, stubble, fine\nflyaway hairs, real catchlights in the eyes, natural blemishes and asymmetry, real\nfabric weave and wrinkles. Not a painting, not a render, not an illustration.\nThe character in the reference image is the hero — identical face, hair and outfit\nto the previous shot.\nLOCATION: The same grand neoclassical museum façade — tall columns, triangular\npediment, arched doorway — above the same wide grey stone staircase.\nFIXED CAST AND BLOCKING — exactly the same people in exactly the same positions as\nbefore, nobody added, removed or rearranged. Hundreds of costumed background actors\n— ordinary real people in screen-accurate historical costume, each styled to\nresemble a figure from a famous painting — standing shoulder to shoulder in tight\nrows filling the staircase edge to edge, only body-width gaps, no aisle:\nFRONT ROW, left to right: an elderly actress in a full black mourning dress and\nwhite lace cap · a ballet dancer in a white tulle tutu and black ribbon choker · an\nactor in a black suit and red tie with a bowler hat and a real green apple hanging\non a fine wire in front of his face · a gaunt actor with a real red beard, straw hat\nand worn blue workman's jacket · a stunt performer in real gilded plate armor.\nSECOND ROW, left to right: a heavyset bearded actor in a gold-embroidered doublet,\nfur collar and flat jewelled cap · an actress in a dark green-brown Renaissance gown\nand sheer veil · an actress in a yellow bodice, blue apron and white linen cap.\nTHIRD ROW, left to right: an actress in a red embroidered Mexican dress with fresh\nflowers in her hair · THE HERO, dead center · an actor in a bicorne hat and blue and\nwhite military uniform.\nBEHIND THEM, hundreds deep: women in crimson turbans and white linen bonnets, men\nin black coats with starched white ruffs, a young actress in a blue and gold\nheadwrap with a single pearl earring, rows of men in Edwardian tweed.\nTIMING:\n0:00 — Open on a WIDE SHOT of the full façade and the entire staircase, already in\nmotion. On the very first frame the whole crowd is mid-convulsion. No build-up, no\nlead-in, nobody standing still.\n0:00–0:10 — The crowd performs a wild, continuous, full-body rolling motion. The\ncycle: heads thrown ALL THE WAY BACK, chins pointed up at the sky, spines arched\nbackward — then the entire torso whips forward and folds almost double at the hips,\nheads hanging down near their knees, hair and hats flying — then the body unrolls\nback up and the head snaps back again, chin to the sky. Over and over, without\npause, never resting at neutral. Arms hang loose and swing and flail with the\nmomentum. Loose, rubbery, boneless, possessed. Different sections of the staircase\nare out of phase, so one block is folded double while the block beside it is arched\nback with heads up, and the motion ripples across the crowd. Meanwhile the camera\npulls back and rises slightly, widening to take in the whole façade.\n0:10–0:15 — The camera settles and holds locked off. The crowd keeps convulsing at\nfull intensity to the last frame. The hero has not moved once — standing relaxed and\nunbothered at the dead center, facing camera, hands down, not dancing, not bending,\nnot reacting.\nSound: no music, no soundtrack. Only fabric snapping, armor rattling, breath and\nshoes scuffing stone.\nDO NOT include any of the following. Nobody may look painted, illustrated, drawn,\nflat, 2D, smoothed, waxy, plastic, CGI, rendered, cartoon or anime. Nobody may\nchange position, costume or order from the previous shot. The crowd must never bow,\ncurtsy, nod, greet, dip gently, bend shallowly, keep their heads level, move\nstiffly, or move in robotic unison, and must never stand still. The hero must not\ndance, bend or move, must not stand off to one side or at the edge of frame, and\nmust not be in close-up. The crowd must not part, form an aisle, or leave empty\nspace around the hero. No slow motion, no cuts within the shot, no camera shake, no\nmorphing faces, no text, no watermark.",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-passport-makeup-wipe",
+    "category": "提示词",
+    "title": "护照照片是素颜，海关大姐对着她的全妆直皱眉",
+    "body": "机场入境柜台前，一个化着全妆的韩国女孩递上护照。海关大姐翻开照片页，上面是她素颜、一脸疲惫、头发乱糟糟的证件照。大姐伸出一根手指，在她脸和照片之间上下比了比。\n\n女孩先撕下一片假睫毛，再掏出卸妆湿巾，捂住眼睛一抹，眼影、腮红、口红全没了，露出一张跟证件照一样的素脸。提示词里写的结局是：大姐满意地一笑，啪地盖章；女孩拿回护照，又是满脸精致妆容，拖着粉色行李箱走了，回头冲镜头撅嘴。\n\n这是 @ElsaSofia__AI 刚发的 Seedance 2.5 短片，三十秒。提示词开头先把三样东西写死：女主、海关大姐、那本护照，连照片页上的「素颜、疲惫、头发乱」都写了进去，因为这个梗全靠照片和真人的反差。接着十二个镜头按秒排好，最后附一份「特效清单」：撕睫毛特写、湿巾卸妆变脸、过肩怀疑镜头、盖章特写。\n\n还有一句提醒很实用：喜剧要「当正剧演」，全片不许慢镜头，一切按真实速度走。\n\n所以呢：好笑的 AI 短片，往往只是把一个人人都懂的尴尬拍实；可以做一期「AI 演出你的证件照翻车现场」。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/ElsaSofia__AI/status/2107290801017704458"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/ElsaSofia__AI/status/2107290806747038029"
+      }
+    ],
+    "prompt": "VIDEO PROMPT — 30 seconds total, 16:9, live-action cinematic realism, soft natural airport light, shallow depth of field, clean commercial look. Comedic drama, played straight. Keep the same faces, outfits and location in every shot. NO slow motion anywhere, everything runs in REAL TIME.\n\nCHARACTERS (repeat in every part)\nHEROINE: young Korean woman in her 20s, long wavy black hair, porcelain skin. FULL GLAM makeup at first: gold shimmer eyeshadow, long dramatic false lashes, pink blush, glossy rose lips. Wears a sheer dark-brown mesh long-sleeve top over a black bandeau, with a thin gold-chain crossbody bag strap. In the walking shot she also wears a denim mini skirt, black ankle boots, and pulls a pink rolling suitcase.\nOFFICER: Korean woman in her 40s, dark hair pulled back tight, strict calm face, navy uniform jacket with a red-white-navy striped scarf.\nPASSPORT: dark-blue Korean passport. The photo page shows the heroine's BARE-FACED, tired, messy-haired ID photo, with Korean text and a small blue flag icon.\nLOCATION: Korean international airport immigration hall — shiny marble floor, rows of small round ceiling lights, beige columns, blue digital signs, travelers with suitcases walking in the background.\n\n===== PART 1 (0:00-0:13) =====\n\nSHOT 1 (00:00-00:02.2) — Counter Wide [Panel 1]\nFront-facing medium-wide, eye level. The heroine stands behind the immigration counter, one hand on her hip, then takes the blue passport from her bag and places it on the counter edge. Travelers walk in the blurred background. Camera static.\n\nSHOT 2 (00:02.2-00:04.6) — Passport POV [Panel 2]\nOver-the-counter POV close-up of the officer's hands picking up the passport, turning it, then opening it to the photo page with her thumb. The bare-faced ID photo is clearly readable. Camera static, shallow depth of field.\n\nSHOT 3 (00:04.6-00:06.6) — Suspicious Finger [Panel 3]\nMedium shot over the officer's shoulder (back of her head on the right). The officer points a finger at the heroine's face and moves it up and down as if comparing. The heroine looks uneasy with a small frown. Airport counters blurred behind.\n\nSHOT 4 (00:06.6-00:10.2) — Eyelash Peel [Panel 4]\nExtreme close-up of the heroine's glam face looking straight into the camera. Her fingers pinch the false lash and she slowly peels it off, holding it between her fingertips. Camera static.\n\nSHOT 5 (00:10.2-00:12.9) — Face-Off Two-Shot [Panel 5]\nMedium close-up: the heroine's face on the left, the officer's face in sharp profile on the right, very close, staring at her. The heroine looks back with a stiff blank expression, then purses her lips.\n\n===== PART 2 (0:13-0:22) =====\n\nSHOT 6 (00:13.0-00:14.0) — Wipe Out [Panel 6]\nClose-up, airport lights blurred into soft bokeh behind her. The heroine pouts, takes out a white wet makeup wipe, and unfolds it with both hands.\n\nSHOT 7 (00:14.0-00:19.0) — Makeup Removal [Panel 7]\nSame close-up. She presses the wipe over her eyes, then wipes her cheeks and lips with both hands, eyes closed. At the end she lowers the wipe to reveal a fresh, bare, natural face and looks calmly into the camera.\n\nSHOT 8 (00:19.0-00:20.6) — Officer Verdict [Panel 8]\nMedium close-up of the officer, blurred teal-grey wall behind her. She looks down at the passport, then up at the heroine, and breaks into a satisfied small smile.\n\nSHOT 9 (00:20.6-00:22.0) — The Stamp [Panel 9]\nClose-up of the open passport on the counter. The officer's hand brings down a black-and-red rubber stamp onto the photo page and lifts it, leaving a round red stamp mark. Camera static.\n\n===== PART 3 (0:22-0:30) =====\n\nSHOT 10 (00:22.0-00:25.2) — Passport Returned [Panel 10]\nBack to the opening wide shot. The heroine now has full glam makeup again. The officer's hand slides the passport across the counter. She picks it up and holds it with both hands at chest height, looking down at it, then glances toward the camera.\n\nSHOT 11 (00:25.2-00:27.0) — Walk Away\nRear tracking shot: the heroine walks away through the terminal in denim mini skirt and black boots, pulling the pink suitcase. Travelers cross in the background, blue digital signs glow. Camera follows at eye level.\n\nSHOT 12 (00:27.0-00:30.4) — Final Pout [Panel 11-12]\nClose-up: she looks back over her shoulder, then turns to face the camera. She pouts, scrunches her face and squints in cute annoyance, then returns to a flat pout. Blurred airport behind. Hold, then end.\n\nMASTER EFFECTS INVENTORY\n1. Eyelash peel close-up (Shot 4).\n2. Makeup wipe transformation: glam to bare face (Shots 6-7).\n3. Over-the-shoulder suspicion framing (Shots 3, 5).\n4. Passport insert close-ups and stamp (Shots 2, 9).\n5. Shallow depth-of-field bokeh throughout.\n\nENERGY ARC\nPart 1 (0-13s): tension, suspicion.\nPart 2 (13-22s): transformation, then relief.\nPart 3 (22-30s): she walks off, final grumpy pout.",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-number-four-redirect",
+    "category": "提示词",
+    "title": "三个壮汉堵她：交手机、道歉还是打？她选了第四个",
+    "body": "深夜，韩国一家便利店门口，湿漉漉的地面反着灯光。女孩拎着纸袋走出来，被三个壮汉围住。带头的说：给你三个选择，交手机、道歉，或者打一架。她看了看三人中间的空当，说：我选第四个。你们走。\n\n带头的抓住她胳膊。她顺着他的劲一转，把他送进了便利店的门。第二个挥拳冲上来，被她一让，撞上了第一个。第三个从背后扑过来，一头栽进一摞塑料筐。她捡起袋子往前走，回头补了一句：第四个。黑屏。\n\n这是 X 用户 Ali（@aiwithaly）用 Seedance 2.5 做的三十秒短片，一万五千多浏览。台词全写在提示词里，好笑就好笑在她那股冷淡。\n\n真正的功夫在后半段。提示词规定，她赢靠的是时机和借力，不是超人力气；要有真实的重量、惯性、摩擦和失衡。负面清单更长：不许人飞出去，不许吊威亚，不许没碰到就先倒，不许流血，不许拿武器。AI 打戏最常见的毛病就是一拳把人打飞，这几行字正好把它堵死了。\n\n所以呢：让 AI 打得像真的，关键不是写多猛，而是写清楚「力从哪来」；可以做一期「AI 武术指导：借力打力」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/aiwithaly/status/2106981702677451248"
+      }
+    ],
+    "prompt": "Create an exactly 30-second, 16:9, 24fps hyper-realistic Korean live-action action thriller with dry dark comedy. Nighttime outside a modern Korean convenience store, wet pavement reflecting storefront lights.\n\nPYONA exits carrying a small paper bag. Three intimidating adult men surround her. The leader says, “You have three choices: give us your phone, apologize, or fight.”\n\nPYONA calmly studies the gap between them and says, “I'll take number four.” She walks through the opening and adds, “You leave.” The leader's smile disappears.\n\nHe grabs her forearm. She looks at his hand and says, “That was the wrong answer.” When he pulls her, she steps toward him, rotates with his force and redirects his momentum into the convenience-store door.\n\nA second man charges with a punch. PYONA sidesteps and redirects him into the first man. A third attacks from behind; she steps aside and redirects him into stacked plastic crates, which collapse from the collision.\n\nThe three men freeze. The leader asks, “Who are you?” PYONA calmly replies, “I already told you.” She picks up her bag, walks past them, then looks back and says, “Number four.”\n\nCut to black.\n\nUse grounded physical choreography: realistic weight, momentum, inertia, friction, leverage, balance and collision reactions. PYONA wins through timing and redirection, never superhuman strength.\n\nControlled cinematic camera with consistent screen direction and clear full-body framing during physical actions. Natural nighttime ambience and realistic impact sounds only. No music or narration.\n\nNegative prompt: supernatural strength, flying bodies, wire-fu, invisible force, impossible throws, premature falls, teleportation, duplicate characters, appearance drift, costume changes, location changes, excessive camera shake, exaggerated slow motion, cartoon physics, blood, gore, weapons, broken bones, head impacts, logos, watermark.",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-touch-street-magic",
+    "category": "提示词",
+    "title": "走在街上摸什么，什么就变魔法：水坑一碰成了小海洋",
+    "body": "一只手伸向人行道上的小水坑，白光一闪，水坑变成了一片清澈的迷你海洋，上面还有小浪在晃。这只手接着去碰红色邮筒，邮筒瞬间长满红花；碰一下行道树，满树挂上金色小灯；碰一把白伞，伞自己撑开，伞里是一片星空；最后按在一堵水泥墙上，墙变成一道洒满金光的门。\n\n这条十五秒的竖屏视频来自 Cherry（@hey_am_cherry），用 Seedance 2.5 生成，看起来就像有人拿手机随手拍到了不可能的事。\n\n提示词里最值得学的是一条「魔法规则」：手一碰，闪一下白光，同一个东西当场变成一个魔法版本；东西不许消失，不许复制，不许挪位置；变完马上走向下一个。后面还有一长串「防烂片」清单：不许人变形，不许烟雾和粒子，不许建筑扭曲，变身前后的位置、大小、透视完全一致。结尾一句排好了优先级：真实感，大于干净的形状，大于看得清的魔法，大于大场面。\n\n普通人换着用：把这五样东西换成你家楼下的报刊亭、共享单车、路灯。\n\n所以呢：魔法越简单越像真的，规则写死了，模型就不乱来；可以做一期「我家小区的魔法一分钟」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/hey_am_cherry/status/2106952629440204961"
+      }
+    ],
+    "prompt": "Create a realistic handheld smartphone street vlog. An ordinary person walks through a normal city street and discovers that touching certain everyday objects causes a simple magical transformation.\n\nThe video should feel like a real person accidentally capturing something impossible on their phone.\n\n[VISUAL STYLE]\nReal smartphone footage.\nNatural daylight, real street textures, ordinary pedestrians in the background.\nRaw handheld movement, slight camera shake, autofocus shifts and imperfect framing.\nThe magic is bold and instantly visible, but extremely clean.\nNo cinematic commercial look.\n\n[CORE MAGIC RULE]\n\nThe vlogger touches an ordinary object with their hand.\n\nA brief white flash happens.\n\nThe SAME object instantly changes into one simple magical version.\n\nThe object never disappears, duplicates or changes location.\n\nAfter each transformation, the vlogger immediately moves toward the next object.\n\nNo complicated morphing.\n\n[00:00–00:03]\n\nThe vlogger walks past a small ordinary puddle.\n\nTheir hand briefly touches the surface.\n\nFLASH.\n\nThe puddle instantly becomes a perfectly clear miniature ocean.\n\nTiny realistic waves move across the SAME puddle while the surrounding pavement stays completely normal.\n\nThe vlogger quickly pulls their hand back in surprise.\n\n[00:03–00:06]\n\nThe camera swings toward a normal red mailbox.\n\nThe vlogger touches it.\n\nFLASH.\n\nThe mailbox instantly becomes completely covered in bright glowing red flowers.\n\nThe flowers remain attached to the mailbox and gently move in the breeze.\n\nThe vlogger keeps walking.\n\n[00:06–00:09]\n\nThe camera turns toward an ordinary street tree.\n\nThe vlogger touches one branch.\n\nFLASH.\n\nThe entire tree instantly becomes covered in thousands of warm golden lights, like tiny stars attached to the branches.\n\nThe tree itself stays completely solid and unchanged.\n\nA passerby briefly looks at it.\n\n[00:09–00:12]\n\nThe vlogger notices a normal white umbrella leaning against a wall.\n\nThey touch the umbrella handle.\n\nFLASH.\n\nThe umbrella instantly opens by itself.\n\nIts inside becomes a beautiful deep-blue night sky filled with a few bright stars.\n\nThe umbrella remains physically normal and stable.\n\n[00:12–00:15]\n\nThe vlogger looks around, realizing everything they touch changes.\n\nThey slowly place their hand against a plain concrete wall.\n\nFLASH.\n\nThe entire wall instantly becomes a giant doorway filled with warm golden sunlight.\n\nThe vlogger takes one small step toward it.\n\nCUT TO BLACK.\n\n[SOUND]\n\nReal street ambience throughout.\n\nEach transformation has one clean flash sound followed by a short magical impact.\n\nNo loud cinematic music.\nNo dialogue.\nNo narrator.\n\n[ANTI-SLOP]\n\nKeep every transformation extremely simple.\n\nNo human transformations.\nNo face changes.\nNo floating people.\nNo complex particles.\nNo smoke.\nNo liquid explosions.\nNo melting geometry.\nNo duplicated objects.\nNo extra limbs or fingers.\nNo warped architecture.\nNo changing background.\nNo random magical effects.\n\nMaintain the exact same object position, size and perspective before and after every transformation.\n\nThe magic should look like a clean practical effect happening inside a real smartphone video.\n\nThe final wall transformation is the biggest visual payoff.\n\nPRIORITY:\nREALISM > CLEAN GEOMETRY > CLEAR MAGIC > SPECTACLE.",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-2004-first-flip-phone",
+    "category": "提示词",
+    "title": "二〇〇四年，她拿到人生第一部翻盖手机，到家第一件事是打给闺蜜",
+    "body": "二〇〇四年的美国小镇，便利店门口，一个金发女孩举着一部银色翻盖手机冲好朋友喊：看！我终于有手机了！朋友一把抢过去，两个人换铃声，凑在一起拍了张糊到看不清的合照，笑成一团。\n\n分开前，朋友说：到家给我打电话。女孩回到家，包往床上一扔，盯着手机看了几秒，兴冲冲拨过去。「喂？」「你到家了？」「到了。」停顿一下。「好……拜拜。」两个人都笑了。\n\n这条三十秒的视频来自 X 用户 @john_my07，用 Seedance 2.5 一段提示词做出来，画面像一卷被翻出来的家用 DV 录像带。提示词的关键是反着写：不要电影感镜头，不要精致打光，不要现代审美，不要 AI 味；要 MiniDV 摄像机的各种小毛病，要随便、不完美的日常。台词写得极短，几乎全是废话，可正是这通「打了也没什么好说」的电话，让人一下想起自己的第一部手机。\n\n这两周 DV 怀旧片已经刷了很多，这条的不同在于它拍的不是风景，是一个具体的「第一次」。\n\n所以呢：让人怀旧的不是画质，是那个具体的小动作；可以做一期「AI 复原你的第一部手机」，让观众在评论区报型号。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/john_my07/status/2106981944718418161"
+      }
+    ],
+    "prompt": "Create a 30-second ultra-realistic personal home video set in suburban America in 2004. It looks genuinely recorded on a consumer MiniDV camcorder. The camera itself is never visible. No cinematic shots, no polished lighting, no modern aesthetics, no AI look.\n\nA young American woman in her early 20s gets her first silver flip phone. She excitedly shows it to her best friend outside a small convenience store.\n\n“Look! I finally got a cell phone!”\n\nHer friend laughs and takes it from her.\n\n“No way. Let me see.”\n\nThey play with it, change the ringtone, take a terrible blurry photo together, and laugh at the quality.\n\nThey walk through the neighborhood with the camera casually following them. Old cars, bicycles, small houses, convenience stores and people in the background. Everything feels naturally imperfect and authentically 2004.\n\nBefore they separate, the friend says:\n\n“Call me when you get home.”\n\nThe girl smiles.\n\n“Okay.”\n\nLater, she gets home, drops her bag on her bed, looks at the new phone for a moment, then excitedly calls her friend.\n\nHer friend answers.\n\n“Hello?”\n\n“You home?”\n\n“Yeah.”\n\nA small pause.\n\n“Okay… bye.”\n\nThey both laugh.\n\nThe girl hangs up and smiles at the phone.\n\nEnd with a few seconds of ordinary home-video footage as she walks toward her bedroom.\n\nMake it feel like a real forgotten personal memory from 2004, with natural performances, casual American dialogue, authentic MiniDV imperfections and completely believable everyday behavior.",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-gamer-sucked-into-cartoon",
+    "category": "提示词",
+    "title": "打游戏输了砸手柄，他被电视吸进了手绘漫画里",
+    "body": "一个大胡子男人陷在沙发里打游戏，电视上一个黑脑袋小人在屋顶上狂奔。屏幕突然跳出红色的 GAME OVER，他气得把白色手柄砸过去。屏幕裂成蛛网，冒出一道蓝白色的光，把他整个人吸了进去。\n\n再出现时，他已经变成手绘漫画里的人：胡子、T 恤、牛仔裤都在，只是成了墨线，眼睛大得夸张。他跟游戏主角一起在屋顶上逃命，身后一块巨大的粉色橡皮擦砸穿烟囱追过来；两人又跳进矿车，在木头栈桥上一路狂飙。下一秒切回客厅：他睡在沙发上，手柄还搁在肚子上，一只寻血猎犬正一下一下舔他的脸。\n\n这是 TechHalla（@techhalla）用 Seedance 2.5 做的短片，提示词按三十秒写。他先准备了两张角色设定图、六张场景静帧，提示词按秒排时间线。关键一句是：所有人的长相都锁死，只有被拉进游戏的那个男人换画风。现实部分要三十五毫米手持、台灯暖光对着电视冷光；游戏部分要纸张颗粒和粗墨线，两个世界一眼就能分开。\n\n所以呢：「现实、画里、再回现实」的三段式，是让人看完还想重看的结构；可以做一期「被吸进你最爱的那款游戏」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/techhalla/status/2107229541940748357"
+      }
+    ],
+    "prompt": "Gritty lived-in bedroom verité that hard-cuts into a hand-inked chase cartoon, then snaps back to reality. 35mm handheld in the room, warm lamp against cold TV glow. Inside the game: paper-grain comic, bold ink, motion streaks. One continuous 30s story.\n\n[IMAGE REFERENCES]\n\n[char_sheet_1] : cartoon runner turnaround, lock the design.\n\n[char_sheet_2] : real man identity — face, beard, skull cap, Pulp Fiction tee, jeans, Vans, forearm tattoo.\n\nImages [still_1] and [still_2] : bedroom, couch, TV, rage pose. Images [still_3] [still_4] [still_5] : in-game rooftop and mine-cart look, cartoon man plus runner.\n\n[still_6] : wake-up, bloodhound, paused screen. Identities stay locked. Only the man restyles when the game pulls him in.\n\n[TIMELINE]\n\n0-4s: [Medium handheld] Man sunk in the gray couch, locked in, thumbs working a white controller. TV shows the cartoon runner sprinting rooftops. Lamp warm, room messy, pizza box and Monster cans on the table. Focused, a little smug.\n\n4-8s: [Push-in] TV slams to red GAME OVER. He jolts up, face twisting, shouting \"No, no, no—come on!\" He hurls the controller. It cracks the screen. Glass spiders, a blue spark jumps. Pure rage.\n\n8-12s: [Whip to the TV] A white-blue energy vortex tears out of the crack and yanks his cap, shirt, arms. He grabs the stand, feet slide on the carpet, then gets sucked in. Body stretches, colors flatten. Hard smash-cut into ink.\n\n12-18s: [Dynamic low tracking on the tiles] He lands cartoonified — same beard, tee, jeans, now inked, eyes huge — mid-stride beside the black-headed runner, pencil behind the ear. A giant pink eraser crashes through chimneys behind them. Both sprint. Cap flies off. He yells \"What the hell is this?!\"\n\n18-24s: [Action tracking] They dive into a rust mine cart on a wooden trestle. Sparks kick off the rails. Eraser debris explodes behind. He clutches the rim, runner steers. Panic, wind, lanterns whipping past.\n\n24-28s: [Smash cut, static wide] Back in the bedroom. He is asleep on the couch, controller still on his chest, mouth open. TV shows the runner on a PAUSED menu. A bloodhound stands on the cushion and licks his face, long slow laps.\n\n28-30s: [Close] Eyes crack open, confused, still half-asleep. The dog keeps licking. He mutters \"...the hell?\" The controller never left his stomach. Dream logic lands.\n\n[STYLE & QUALITY BOOSTERS]\n\nPhotoreal room, illustrated game world, coherent physics, perfect motion blur, stable identities, readable TV text, cinematic lighting, no extra limbs, no morphing faces, movie-level cut stability.",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-cat-cake-scream",
+    "category": "提示词",
+    "title": "她切开一块猫咪蛋糕，身后的真猫站起来「尖叫」",
+    "body": "厨房里，一个穿米色毛衣的女人正在切一块做成猫咪模样的黄色蛋糕。刀刚下去，身后那只同样黄澄澄的长毛猫，突然用两条后腿站了起来，张大嘴，举着爪子「尖叫」，像在喊：住手！她愣了一下，接着笑到停不下来。\n\n这条三十秒的视频由 X 用户 @Naiknelofar788 用 Seedance 2.5 生成，配文只有一句：我不怪这只猫。\n\n提示词写得很老实。先定调：手机前置摄像头随手拍，一镜到底。然后每六秒一段，写清楚谁在干什么。猫的反应写成「夸张但可信」：表情和动作可以很戏剧，毛发和身体结构必须真实。声音也单独列了一项：切蛋糕的声音，猫夸张的尖叫，女人的笑声；没有台词，没有字幕。\n\n这个梗好在一眼能懂：蛋糕做成了猫，真猫就当成是在切自己。\n\n改着用：把猫换成柯基、仓鼠、鹦鹉，蛋糕换成对应的造型；或者让宠物对着切开的西瓜、面包「尖叫」。\n\n所以呢：给宠物找一个「替身」，就是现成的喜剧冲突；可以做一期「AI 宠物替身蛋糕」系列。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/Naiknelofar788/status/2107145389837259027"
+      }
+    ],
+    "prompt": "Create a 30-second one-take ultra-realistic UGC video filmed on an Apple iPhone front camera. A woman in a beige sweater slices a highly realistic cake shaped like a cute cat in a bright modern kitchen, while the real fluffy cat sits in the background. Natural smartphone exposure, slight handheld movement, realistic depth of field, casual everyday UGC feel. No image reference, no text, subtitles, logos, or watermark.\n\n[0–6s]\nStatic medium shot. The woman casually slices the realistic cat-shaped cake on a wooden counter. The real fluffy cat sits in the background, watching the cake curiously.\n\n[6–12s]\nAs the knife cuts into the cake, the cat suddenly jumps onto its hind legs, opens its mouth wide, and reacts as if screaming in exaggerated horror. Its facial expressions and movements become comically dramatic while keeping the cat photorealistic.\n\n[12–18s]\nThe woman immediately stops cutting, looks at the cat, and bursts out laughing. The cat continues its ridiculous reaction, waving its paws and staring at the cake as if desperately trying to stop her.\n\n[18–24s]\nShe looks between the cake and the cat, laughing harder. The cat keeps dramatically “screaming” and bouncing on its hind legs, creating an absurdly funny reaction.\n\n[24–30s]\nThe cat drops back onto all fours and stares suspiciously at the cake. The woman laughs toward the phone camera. Just before the video ends, the cat gives one final exaggerated scream and she completely loses it laughing.\n\nSTYLE: photorealistic fluffy cat and cake, realistic fur and anatomy, exaggerated but believable CGI facial expressions, natural human performance, Apple iPhone front-camera quality, casual daily UGC aesthetic, natural kitchen lighting, subtle handheld movement, realistic depth of field, spontaneous comedy, 4K.\n\nAUDIO: realistic kitchen ambience, knife cutting through cake, dramatic exaggerated cat screaming, natural woman laughter, subtle room tone. No dialogue, no text, no subtitles, no logos, no watermark.",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-nano-banana-21-movie-backwards",
+    "category": "提示词",
+    "title": "谷歌悄悄上线新生图模型，网友第一句就让它把最爱的电影倒着拼",
+    "body": "十月六日凌晨（北京时间），一批 X 用户发现，谷歌的 AI 影像工具 Flow 里，模型菜单多了一个「Nano Banana 2.1」。没有发布会，大家只好自己出题考它。\n\n博主 Chetaslua（@chetaslua）只打了一句：做一张你最喜欢的电影的拼贴图，从结尾倒着排到开头。模型没问「你喜欢哪部」，自己挑了《黑客帝国》，排出八格：第八格「结局」放在最前面，接着是救人、大厅枪战、道场对练、觉醒，最后一格是红蓝药丸和开头。这条帖子两万多浏览。\n\n这句话好玩，是因为它一次丢给模型三件事：替你选片，记住剧情顺序，再倒过来排版，还得把每一格的标题写对。\n\n也有人泼冷水。有测试者说它听话、速度快，大约是 GPT Image 2.5 的两倍；也有人让它给《复仇者联盟：毁灭日》编个结局，它没做到。连发帖的 Chetaslua 自己都在评论里回了一句：这模型纯属粗制滥造。几个小时后，又有人发现它也上了 Gemini 网页版和手机 App。\n\n所以呢：新模型出来，最好的考法是一个要记忆、要顺序、还要写字的怪问题；可以做一期「倒着讲一部电影」挑战。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/chetaslua/status/2107213481200292077"
+      },
+      {
+        "label": "测试者：速度约两倍",
+        "url": "https://x.com/thtbee_/status/2107219139580584319"
+      },
+      {
+        "label": "测试者：没编出复联结局",
+        "url": "https://x.com/notjazii/status/2107220707889582297"
+      }
+    ],
+    "prompt": "make a collage of your favourite movie from end to start",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-agent-ai-influencer-swap-remake",
+    "category": "提示词",
+    "title": "一段代理提示词，把爆款视频里最酷的那个人换成你的怪咖 AI 网红",
+    "body": "最近 X 上流行一种「AI 网红」玩法：拿一段大家刷过的真实视频，比如红灯夜场里被一圈手机围拍的男人，把主角换成一个长相怪异、却穿得一丝不苟的虚构角色，动作、口型、镜头晃动全都照旧。\n\nChris（@everestchris6）把整套做法写成一段给 AI 代理的长提示词，四万多浏览，四百多收藏。它让代理自己去各个平台抓最近四天的爆款，打分，再过一道「换人闸门」：用到的那段最多一个硬切，画面里大部分时间只有一个人，脸和上半身清楚，而且这人得是片子里最酷的那个。角色设计也有讲究：只给一个隔着屋子都认得出的特征，比如发型或眉毛；不许戴面具、披斗篷，因为换人模型一碰道具就崩。\n\n它也写了不少底线：拍未成年人、羞辱普通人、涉及暴力和政治的片子一律不碰；发帖要打 AI 标签、标出原作者；没真正测过的数字，不许写进文案。\n\n可问题也很明显：拿别人的真实视频换人，版权和肖像权怎么算，这段提示词并没有解决。\n\n所以呢：爆款的门槛正从「会拍」变成「会挑片、会换人」；可以做一期「拆解 AI 网红换人流水线，以及它的灰色地带」。",
+    "links": [
+      {
+        "label": "X 原帖（提示词在正文）",
+        "url": "https://x.com/everestchris6/status/2107135574469746896"
+      }
+    ],
+    "prompt": "<role>\nyou build ai influencers that go viral by putting a character people can't forget into a real clip people already know. you find the clip, design the character, render the remake and hand me a post that's ready to go. you measure before you spend and you never post anything yourself.\n</role>\n\n<brief>\n- character: [path to a reference sheet, or \"invent one\" plus any steer on age, vibe or look]\n- niche: [where the clips come from, like hip-hop, sports, nightlife or hustle culture]\n- caption language: [language]\n- lane: [fresh, evergreen or both]\n- render: [kling 3.0 omni or seedance 2.5, plus the most i'll spend per video]\n- length: [10, 20 or 30 seconds]\n- no-go list: [people, topics or brands to avoid]\n\nif any of this is empty, ask me everything in one message, read the plan back with a cost estimate, then keep going until the post package is ready.\n</brief>\n\n<setup>\n- apify for instagram, x and tiktok scraping, replicate for every image and video model, yt-dlp for downloads, ffmpeg for trimming, frames, contact sheets and audio\n- keep every api key in environment variables and never write a key into any file\n- save everything into one run folder so i can see each step\n</setup>\n\n<how_it_works>\n- the original clip carries the recognition and the motion, and the character carries the joke\n- the joke is status contrast. the absurd character takes the place of the coolest person in the clip and inherits their swagger\n- every remake that blew up came from a single continuous phone take with no hard cuts and one person holding the frame. treat that as a rule\n</how_it_works>\n\n<character>\n- one signature feature you can read at phone size from across a room, like a hair shape, a beard, sideburns or eyebrows. never a mask or a costume\n- strange face, immaculately dressed, one loud wardrobe colour that stands out in a dark club and on a grey street\n- normal body proportions, empty hands, face uncovered, because swap models break on capes, props and masks\n- never copy a look that's already viral\n- a short name people can repeat and a one-word catchphrase in the character's own language\n- the comedy comes from hair, face and clothes, never from ethnicity, disability or body shaming\n- render a reference sheet with gpt image 2.5 on a light grey studio backdrop: four full-body views on top (front, three-quarter, side, back) and four close-ups below (deadpan, laughing, shouting with a hand up, side profile of the signature feature)\n- it has to look like a real person photographed with a camera. if the feature drifts between panels or anything looks cgi, render it again\n</character>\n\n<find_the_trend>\nfresh lane:\n- clips only stay remakeable for about a week, so this runs daily\n- scrape the last 4 days from big repost pages in the niche like worldstar, pubity, daquan, rap, complex, houseofhighlights and overtime\n- grow the page list from every \"via @\" and \"🎥: @\" credit and every tagged account, and keep any repost page over 100k followers\n- search x for native videos in the niche with high likes from the last 3 days, for cross-platform proof\n\nevergreen lane:\n- scrape the top posts of the ai influencers already going viral and work out which original clip each hit remakes. a clip that already worked as a remake for one character will work again with another\n- search for the most quoted clips in the niche (famous interviews, walk-outs, freestyles, flexes, dance moments) and pull them from youtube\n- an old clip that shows up again in this week's fresh scrape gets a bonus\n- prefer real phone or interview footage over film and tv, which gets claimed and muted\n</find_the_trend>\n\n<score>\n- fresh: plays against that page's usual plays, plays per hour since posting, and whether the same clip or its audio is spreading across pages and platforms\n- evergreen: total plays across every copy you found, whether another ai influencer already remade it and beat their usual numbers, and whether it's resurfacing this week\n- drop anything older than 7 days in the fresh lane, because pinned posts leak into scrapes\n- expect sports broadcasts and press conferences to top the numbers, which is why the gate below decides\n</score>\n\n<swap_gate>\n- download the top 15 from each lane\n- count hard cuts with ffmpeg scene detection, and pass at 0 or 1 in the part you'll use\n- make an 8 frame contact sheet and look at it. pass only if one person is on screen most of the time with their face and upper body visible, it's real footage (not a broadcast, a stream overlay or a multi-camera edit), and that person is doing something and is the coolest one in the clip\n- if captions, tweet cards or frames are burned in over the person, trace the clean original through the caption credit and use that\n- reject anything with a minor as the subject, a private person being humiliated, injury, violence, crime, tragedy, politics, or anything on my no-go list\n- show me the top 3 with a frame strip, the scores, who gets replaced, the one-line joke and the cost for each render option, and let me pick\n</swap_gate>\n\n<render>\nboth options take the real clip and the reference sheet with one prompt: \"replace [person described by position and clothing] with the man in the image. keep his exact motion, gestures, mouth movement and timing. keep every other person, object, the location, camera shake, framing and lighting the same. no text.\"\n\nkling 3.0 omni (cheaper, about $0.28 a second):\n- video editing mode, with the clip as the base video and the sheet as the reference image, original sound kept\n- each piece has to be under 10.0 seconds, at least 720 pixels on every side, with square pixels, so re-encode first\n- for anything longer, split into pieces under 9.5 seconds at calm moments where the person is clearly visible, and render every piece with the exact same sheet and prompt\n- compare the last frame of each piece with the first frame of the next, and re-render any piece where the face, hair or outfit jumps\n- join the pieces with no audio, then lay the original audio back over the whole thing as one track\n\nseedance 2.5 (premium, about $0.97 a second with a video input):\n- up to 30 seconds in one pass with no seams and the best consistency\n- editing mode with the clip as the reference video and the sheet as the reference image, then lay the original audio back on\n\nnever use kling motion control for this, because it rebuilds the whole scene from its image and rejects crowded clips. never use gemini omni edit mode either, because it blocks any video with a real person in it\n</render>\n\n<check>\n- make a contact sheet of the finished video and look at every frame\n- re-render once if the signature feature morphs, anyone except the target changes, text appears that wasn't there, or hands melt at a key moment\n- never do more than 2 render attempts without asking me\n</check>\n\n<post>\n- caption in my language, deadpan, in character, under 6 words, never explaining the joke\n- tag the person replaced and the original creator, because that's how the original artist ends up seeing it\n- turn on instagram's ai label for the post and the profile, since unlabelled ai accounts lose reach\n- fresh clips go out while the original is still inside its week, and evergreen clips go out at the account's best hour\n- first comment from the account is \"follow for more\" or the catchphrase\n- never launch or promote a token, and never imply the original person endorsed the character\n</post>\n\n<learn>\n- log every post with the lane, scores, render option, cost, and plays at 24 and 72 hours\n- the next time you run, scrape the account first and fill those columns in\n- after 10 posts, compare plays against each score and each lane, shift the weighting toward whatever actually predicted views, and write down what changed\n</learn>\n\n<honesty>\n- only put numbers on screen or in captions that you scraped or measured\n- mark anything you guessed rather than measured\n- if no clip passes the gate today, say so instead of forcing a weak one\n</honesty>\n\n<deliverables>\n- the final mp4 at the source resolution, with the original audio\n- the reference sheet\n- a short note on why this clip won and why the runners-up lost\n- the caption, tags and posting time\n- total spend, and anything a human should still check\n</deliverables>",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-photo-to-crayon-picture-book",
+    "category": "提示词",
+    "title": "随手拍的照片，变成一页黑白蜡笔绘本，还自带标题和一句小诗",
+    "body": "两个小孩趴在一根粗树枝上，倒挂着脑袋；一个女孩撑着红点伞在绿油油的田里跳起来；一对情侣在海边码头接吻。把这些照片丢进去，出来的是一页页黑白绘本：暖白纸上的炭笔线条，歪歪扭扭的手写标题「Branch Buddies」「Umbrella Leap」，下面再配一句很短的英文小句子。\n\n这套提示词来自中文博主苏乐（@ai_suxiaole），六千多浏览，九十多收藏。原帖没写用的哪个模型；提示词是英文，能读图的生图模型都可以试。\n\n它写得像一份美术指导手册。先管内容：照片里有几个人、多大年纪、在干什么、谁碰着谁，都要留下，只把细节简化；不许把所有人画成小孩，也不许人人一张脸。再管笔触：像钝头黑蜡笔或干炭条，力道不匀，边缘断断续续，露出纸纹；深色头发和衣服用乱线一层层涂，不许涂成一片死黑。最后管文字：一个两到四个词的标题，一句六到十二个词的短句，不许编名字、日期和地点。\n\n所以呢：把旅行照做成绘本页，比加滤镜更像「作品」；可以做一期「把你的相册变成一本黑白绘本」。",
+    "links": [
+      {
+        "label": "X 原帖（成图）",
+        "url": "https://x.com/ai_suxiaole/status/2107091008240685351"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/ai_suxiaole/status/2107091013152252011"
+      }
+    ],
+    "prompt": "Transform the uploaded photograph into a single monochrome, hand-drawn picture-book illustration on warm ivory paper, accompanied by an original English title and one short sentence. The photograph is the sole source of scene content. Do not include the photograph in the output or create a before-and-after comparison.\n\nCONTENT AND CHARACTER DESIGN\nIdentify the main subjects and their visible action or interaction. Preserve their number, apparent ages, recognizable identity cues, poses, expressions, gaze directions, distinctive clothing features, and essential props. For animals, preserve their species, recognizable shape, and role in the scene.\n\nKeep the relationships that make the moment understandable: hands holding objects, bodies sitting or leaning, subjects looking at something, and objects touching, containing, or supporting one another.\n\nSimplify the subjects into an affectionate, slightly imperfect picture-book drawing. Favor expressive silhouettes and economical features over precise photographic anatomy. Children may have gently enlarged heads, rounded faces, small dot-like eyes, and minimal nose and mouth marks. Adults and older people must retain their age through simplified profiles, body language, hairstyles, eyewear, and selected age-related features. Do not turn everyone into a child or give everyone the same face.\n\nPreserve the meaning of the action while reducing incidental detail. Draw only the body portions visible in the source; do not invent complete limbs outside its original crop. You may scale and reposition the subject group to make room for lettering, while retaining its relative arrangement, poses, and meaningful contact.\n\nMARK-MAKING AND PAPER\nDraw entirely with near-black, dry, grainy marks on lightly textured warm ivory paper. Give the strokes the visual character of a blunt black wax crayon or dry charcoal drawing: irregular pressure, rough deposits, broken edges, small skips, and exposed paper between marks.\n\nMake the principal silhouettes stronger than interior details. Let contours wobble and break naturally. Avoid smooth, mechanically uniform outlines.\n\nBuild dark hair, clothing, fur, and other dark masses with directional scribbles, short slanted strokes, broad rubbing marks, and overlapping patches. Leave irregular paper-colored gaps throughout these dark areas. They should feel densely worked by hand rather than filled with smooth solid black.\n\nUse unmarked paper to describe skin, pale clothing, white hair, foam, glass, and other light surfaces. Define them with economical contours and a few structural marks. Keep transparent objects readable through their outlines, openings, and essential contents rather than filling them black.\n\nSuggest volume through sparse directional hatching and contrasting dark marks against open paper. Remove photographic lighting, reflections, skin texture, and continuous grayscale shading. Grain must follow the drawing strokes rather than appear as a uniform noise filter over the page.\n\nBACKGROUND AND COMPOSITION\nRemove nonessential photographic scenery. Replace it with generous warm ivory negative space. Keep only the support surfaces, environmental fragments, and action traces needed to explain the scene. Add a few loose ground strokes where useful to keep the subjects grounded.\n\nCreate an informal, balanced illustrated-page composition. Allow the drawing to sit slightly off-center when this helps the lettering and open space. Do not add unrelated people, animals, props, activities, or decorative motifs.\n\nLETTERING\nGenerate one original English title based on the visible moment, usually two to four words. Draw it in large, rough, grainy handwriting, with slightly uneven letter sizes, relaxed spacing, and natural variations in angle and baseline.\n\nGenerate one brief English sentence, usually six to twelve words, in smaller, finer, slightly irregular handwriting. Keep the wording simple, warm, and relevant to what is visible. Do not invent names, family relationships, dates, seasons, locations, or personal history.\n\nPlace both text blocks in available negative space. Choose their location to suit the drawing rather than forcing a fixed layout. Keep faces, hands, animals, essential objects, and interactions unobstructed. Make the wording legible and correctly spelled.\n\nUse exactly these two text blocks: one title and one short sentence. Add no extra labels, signature, watermark, or explanatory text.\n\nOUTPUT\nProduce exactly one finished illustrated page. Avoid photographic fragments, comparison panels, colored drawing marks, smooth vector fills, glossy digital rendering, elaborate tonal shading, dense scenery, and a photograph merely converted to black and white.",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-90s-practical-elf",
+    "category": "提示词",
+    "title": "让精灵像九十年代老电影里贴了假耳朵的真人",
+    "body": "秋天的古老森林里，一个红发精灵少女踩着长满青苔的树根走过来。她的尖耳朵不像电脑特效，更像化妆师一点点粘上去的假耳；斗篷是旧羊毛，靴底沾着干泥。一只发光的小甲虫钻进她袖子，她甩胳膊甩得毫无形象，树上传来一声憋不住的笑。镜头最后拉开，树干里嵌着小门，枝杈间挂满灯笼，一整个精灵村落亮了起来。\n\n这条三十秒短片来自 Amira Zairi（@azed_ai），用 Seedance 2.5 和 Runway 做出。她说想要的是「从九十年代奇幻电影里直接搬出来」的感觉。有人在评论区问，她回了一句：只用了文字。\n\n提示词有一万三千多个字符，核心一句是：要像一部被遗忘的实拍特效奇幻片修复出来的片段，而不是现代的数字奇幻大片。接下来每样材质都要「旧」：羊毛看得见纤维，皮革有划痕，刺绣有手工的小毛病，铜器发暗。耳朵要像高预算九十年代电影里的假体妆，和皮肤自然接上。它还反复强调角色、服装和故事都要原创，衣服要穿得严实。\n\n改着用：把精灵换成矮人、巫师、山神，「九十年代实拍特效」这句留着。\n\n所以呢：想让 AI 画面不像 AI，就给它指定一种「旧年代的造假方法」；可以做一期「用九十年代特效拍山海经」。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/azed_ai/status/2107108390740848917"
+      },
+      {
+        "label": "作者回帖里的完整提示词",
+        "url": "https://x.com/azed_ai/status/2107108404842181083"
+      }
+    ],
+    "prompt": "Create an original young adult elf character using the handcrafted visual language of classic live-action fantasy cinema, while keeping the character, costume, setting, personality, and story completely original. The result should feel like a beautifully restored sequence from a forgotten practical-effects fantasy film rather than a modern digital fantasy production.\n\nCharacter A: [woodland elf], a young adult elf with a distinctive natural face, large expressive hazel eyes, softly angular cheekbones, naturally textured skin, long elegant pointed ears, and thick copper-red hair arranged in loose waves with several delicate braids around the temples. Her personality is curious, clever, playful, observant, and slightly mischievous, with her emotions communicated through subtle expressions, eye movement, posture, and physical reactions rather than exaggerated cartoon behavior.\n\nShe wears a fully modest, historically inspired fantasy outfit that covers her body appropriately while remaining practical for traveling through the forest: a high-necked moss-green linen tunic with long fitted sleeves extending to the wrists, delicate embroidered leaf patterns around the collar and cuffs, a structured brown suede waistcoat worn securely over the tunic, a long layered forest-green wool skirt reaching the ankles with enough volume for comfortable movement, opaque dark wool stockings underneath, weathered brown leather ankle boots, modest leather gloves, and a hooded rust-colored wool traveling cloak that falls below the knees. Her clothing should never expose cleavage, shoulders, midriff, thighs, or other revealing areas.\n\nA narrow leather belt sits naturally over the outer layers and carries several small cloth pouches, antique bronze keys, tiny glass bottles, dried herbs, and handmade woodland tools, while a small bronze acorn pendant hangs above the high neckline of her tunic.\n\nEvery material should appear genuinely handmade and physically worn. The wool should have visible fibers, the velvet and suede should show softened edges from years of use, the leather should contain subtle scratches, the embroidery should contain tiny handmade irregularities, the bronze should have natural tarnish, and the boots should carry dried mud around their soles.\n\nHer pointed ears must feel like sophisticated practical prosthetic makeup from a high-budget 1990s fantasy production, perfectly integrated with her natural skin texture and coloration rather than appearing digitally attached.\n\nPlace Character A inside an enormous ancient woodland during late autumn, where towering twisted trees rise above moss-covered roots, enormous ferns grow beside narrow paths, mushrooms cluster around fallen logs, crooked wooden footbridges cross shallow streams, weathered stone carvings disappear beneath vegetation, and small handmade lanterns hang from branches throughout the forest.\n\nThe world should immediately feel inhabited without explaining itself. Small carved doors appear inside enormous tree trunks, ropes and wooden platforms can occasionally be glimpsed high among the branches, handmade signs point toward places beyond the visible path, tiny bundles of herbs hang beneath wooden shelters, and distant lanterns suggest that an elven community exists somewhere deeper inside the woodland.\n\nMake the environment feel physically constructed for an ambitious 1990s fantasy movie, using tactile bark, real mud, practical foliage, handmade props, theatrical mist, physical lanterns, painted scenic extensions, miniature-assisted distant environments, subtle optical effects, practical wind machines, and large studio forest sets blended convincingly with real exterior photography.\n\nUse authentic late-1980s to early-1990s fantasy cinematography with 35mm photochemical softness, visible but beautiful film grain, gentle halation around lantern flames, slightly lifted shadows, rich earthy greens, rust, amber and brown tones, period lenses, restrained diffusion, warm theatrical backlighting through atmospheric haze, and naturally imperfect exposure.\n\nAvoid modern streaming-fantasy aesthetics, contemporary beauty photography, glossy CGI environments, revealing fantasy costumes, corset-like cleavage-focused designs, exposed shoulders, short skirts, modern makeup, superhero costumes, video-game armor, excessive digital particles, or digitally flawless materials.\n\n[00:00-00:04] SOMEONE IN THE WOODS\n\nBegin extremely low among wet autumn ferns as the sound of approaching footsteps becomes audible before Character A enters frame, allowing her weathered leather boots and ankle-length layered skirt to appear first as she carefully steps across an enormous moss-covered root. The camera rises naturally with her movement, gradually revealing her long modest traveling clothes, rust-colored cloak, pouches and bronze keys moving against her belt, copper-red braids catching the warm woodland light, and finally her expressive face as she abruptly stops because she hears something moving somewhere above the path.\n\n[00:04-00:08] THE STRANGE SOUND\n\nContinue from the same position as Character A slowly turns toward the sound and pushes several loose strands of copper hair behind one pointed ear, revealing the beautifully integrated practical prosthetic while she listens carefully to the canopy. A faint gust moves through the clearing, stirring the hem of her long cloak and sending several orange leaves across the path, while the bottles and keys hanging from her belt gently knock together as she tilts her head and realizes that whatever made the sound is attempting to remain hidden.\n\nInstead of becoming frightened, her expression gradually becomes suspiciously amused.\n\nSomeone is watching her.\n\n[00:08-00:12] THE BEETLE\n\nBefore Character A can investigate, a tiny glowing beetle lands on the sleeve of her tunic and immediately steals her attention, causing her suspicious expression to soften as she carefully raises her arm and studies the strange little creature. Its warm golden glow illuminates the textured fabric and casts a faint reflection across her eyes before the beetle suddenly crawls beneath the edge of her glove and disappears into her sleeve.\n\nCharacter A freezes.\n\nShe gently shakes her arm.\n\nNothing happens.\n\nShe shakes it again with considerably less dignity.\n\nThe beetle suddenly emerges beside her high collar, causing her to jump before carefully catching it between both hands and releasing it onto a nearby branch.\n\nA quiet laugh comes from somewhere above her.\n\nCharacter A slowly looks upward.\n\n[00:12-00:16] CAUGHT WATCHING\n\nThe camera follows her gaze toward the enormous branches overhead, where leaves are still moving even though the wind has stopped, and Character A realizes that somebody witnessed the entire embarrassing encounter. She places both hands on her hips, her long cloak settling naturally around her modest layered clothing, and calls toward the canopy:\n\n\"You enjoyed that, didn't you?\"\n\nAnother suppressed laugh answers from somewhere higher in the tree.\n\nCharacter A's eyes narrow playfully.\n\nShe reaches toward one of the small cloth pouches hanging from her belt.\n\n[00:16-00:20] A LITTLE ELF MAGIC\n\nCharacter A removes several ordinary-looking brown seeds from the pouch and scatters them around the base of the tree while keeping her attention fixed on the branches above. Thin green vines immediately begin climbing the trunk through charming practical puppetry combined with restrained old-fashioned optical effects, curling around branches and forcing whoever is hiding above to move quickly.\n\nLeaves shake violently.\n\nA small leather boot suddenly falls through the canopy.\n\nCharacter A catches it against her chest, looks at it with confusion, then slowly raises her eyes toward the tree.\n\nA cloaked figure jumps from one branch to another.\n\nSomething bronze flashes at their waist.\n\nCharacter A instinctively checks her own belt.\n\nOne of her keys is missing.\n\nHer expression changes immediately.\n\n[00:20-00:24] THE STOLEN KEY\n\nThe hidden elf races through the canopy carrying Character A's bronze key, and Character A immediately drops the abandoned boot into her satchel before running beneath the trees in pursuit. Follow her through energetic but physically continuous camera coverage as she gathers the front of her ankle-length outer skirt only enough to keep the fabric safely clear of roots while the opaque layers beneath remain fully covering, then ducks beneath branches, crosses the shallow stream using stepping stones, passes beneath the fleeing elf overhead, and follows the distinctive bronze flash of her stolen key whenever it becomes visible between the leaves.\n\nHer long cloak, braids, skirt layers, belt accessories, and satchel should respond naturally to her movement without the costume ever becoming revealing or impractical.\n\n[00:24-00:27] WHERE IS HE GOING?\n\nThe chase continues directly onto a narrow crooked wooden bridge, where Character A reaches the opposite side expecting the thief to continue deeper into the forest but instead notices that the movement above her has suddenly stopped. She slows, listens, then notices fresh scratches across the bark of an enormous ancient tree beside the path and realizes the thief has climbed upward rather than continuing forward.\n\nCharacter A follows the marks with her eyes.\n\nHigh above her, the stolen bronze key swings briefly between two branches before disappearing behind what initially appears to be solid bark.\n\nCharacter A steps backward for a better view.\n\nThen one tiny lantern turns on.\n\nAnother answers farther above.\n\nThen another.\n\n[00:27-00:30] THE HIDDEN VILLAGE\n\nWarm lanterns illuminate sequentially throughout the enormous canopy, revealing wooden platforms wrapped around ancient trunks, rope bridges stretching between trees, carved doors hidden inside bark, little staircases, hanging baskets, fabric awnings, tiny windows, and an entire elven settlement that had been perfectly concealed among the branches.\n\nCharacter A remains beneath the tree staring upward with genuine surprise.\n\nHer stolen bronze key suddenly falls from above.\n\nShe catches it.\n\nA playful voice calls from somewhere among the platforms:\n\n\"You're late.\"\n\nCharacter A examines the returned key before looking toward the unseen speaker.\n\n\"You stole my key.\"\n\nThe voice answers:\n\n\"You wouldn't follow me.\"\n\nCharacter A tries to remain annoyed, but a small smile betrays her.\n\nShe places the key securely back onto her belt and begins climbing the wooden staircase spiraling around the enormous trunk as the camera slowly pulls away, revealing more of the glowing handmade village surrounding her.\n\nEnd with Character A disappearing upward among the lanterns while the forest floor gradually becomes small beneath her, establishing that the chase was never an attack but an unconventional invitation into a place she was meant to find.\n\nTreat the sequence as a continuous character introduction rather than a collection of beautiful elf shots. Every event must physically and narratively create the next one, beginning with Character A hearing movement above her, becoming distracted by the beetle, discovering through the hidden observer's laughter that someone has been watching her, using her small seed trick to expose them, realizing during their escape that they stole her bronze key, following that same thief through the forest, noticing where they disappear, and finally discovering that the entire chase was designed to lead her toward the concealed elven settlement.\n\nMaintain strict physical continuity between cuts so Character A never appears to teleport around the woodland. Her direction of travel, clothing condition, stolen key, fallen boot, belt accessories, satchel, pendant, hair, and surrounding geography must remain consistent, while every new camera angle should continue the exact movement established by the previous shot.\n\nCharacter A's clothing must remain modest in every shot and during every movement, including running, bending, climbing, reaching, crouching, and low-angle photography. Her high neckline, long sleeves, layered ankle-length garments, opaque underlayers, long cloak, stockings, and practical boots should remain consistent throughout, with no accidental exposure, shortened garments, disappearing layers, transformed costume pieces, cleavage-focused framing, exposed shoulders, exposed midriff, exposed thighs, or sexualized camera angles.\n\nPreserve the handmade fantasy quality of the reference style through practical-looking prosthetic ears, physical costumes, tactile sets, real foliage, theatrical atmospheric haze, puppetry, subtle optical magic, expressive acting, warm practical lanterns, slightly imperfect 35mm photography, and restrained visual effects. The finished sequence should feel like a genuine scene recovered from an ambitious early-1990s live-action fantasy adventure, with a charming original elf character who belongs naturally to this world rather than a contemporary fantasy model placed inside a retro filter.",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "komorebi-koi-pond-opus",
+    "category": "视觉尝试",
+    "title": "点一下扔颗石子，再点一下喂锦鲤：有人用 Opus 5.5 搭了一方会下雨的小池塘",
+    "body": "周末，一位叫 siddharth 的开发者在 X 上贴了一段视频：一方小水池，樱花枝垂在岸边，锦鲤在睡莲底下游，水面跟着倒影轻轻晃。他只写了一句「用 Opus 5.5 加 Three.js 做的」，又忍不住补一句：「水的物理、鱼、花……怎么这么好看。」Three.js 是网页里画三维画面的常用工具库。这条帖子拿到两千多个赞、八万多次浏览。网页名叫 Komorebi，日语里是「树叶缝里漏下来的阳光」。打开就能玩：点一下往水里扔一颗石子，点一下放一片叶子漂着，点一下撒饵喂锦鲤，还能放一只折纸小船出去。你可以叫来一阵过路小雨，调水有多清、水下的光和太阳的方向，再打开林间溪流的声音。最贴心的是自带录制按钮，录一段短片直接存进下载文件夹。\n\n所以呢：「AI 写代码」最好的展示，不是又一个待办清单应用，而是一池能让人发呆的水——录十秒放在视频开头，就是现成的解压片头。",
+    "links": [
+      {
+        "label": "Komorebi 小池塘",
+        "url": "https://water-opus.vercel.app/"
+      },
+      {
+        "label": "作者 X 原帖",
+        "url": "https://x.com/buildwithsid/status/2106763583250108511"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "sqldoom-cedardb-sql",
+    "category": "视觉尝试",
+    "title": "把《毁灭战士》整个塞进数据库：每一帧画面，都是一条 SQL 查出来的",
+    "body": "数据库公司 CedarDB 的工程师 Lukas Vogel，休育儿假时干了件「明知是坏主意」的事：把 1993 年的原版《毁灭战士》（Doom）搬进数据库里跑。SQL 是平时用来查表、算报表的数据库语言，从来不是拿来做游戏的。他给自己定了规矩：怪物怎么追人、火箭怎么炸、屏幕上每个像素什么颜色，全部用 SQL 写；外面的 Python 只管读键盘、把图贴到屏幕上。结果，游戏逻辑大约 5900 行 SQL，比原版 C 代码的约 9000 行还少。画一帧要走 89 个步骤，吐出六万四千个像素，在他的笔记本上通常能跑到每秒 60 帧左右。更妙的是联网对战几乎白送：数据库本来就会管登录、权限，也会保证几个人同时改数据不打架。他还开了个公网房间，只有四个座位，排不上队的人可以直接用 SQL 偷看实时战况。文章九月下旬就发了，这个周末才冲上 Hacker News 首页，拿到三百多个赞。\n\n所以呢：「能跑 Doom」是程序员圈的成人礼——讲数据库的时候拿它开场，比任何架构图都好懂。",
+    "links": [
+      {
+        "label": "作者博客长文",
+        "url": "https://cedardb.com/blog/sqldoom/"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/cedardb/sqldoom"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49948300"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "island-three-oneill-walk",
+    "category": "视觉尝试",
+    "title": "二年级时的梦：他用 Claude 在浏览器里造了一座能走进去的太空圆筒城",
+    "body": "Zach Kauble 上小学二年级时，在一本讲宇宙的书里第一次看到「奥尼尔圆筒」的插画：一个在太空里自转的巨大圆筒，人住在内壁上，抬头看见的「天空」，其实是对面的田野和河流。这个设想来自普林斯顿物理学家杰拉德·奥尼尔，1975 年 NASA 还专门组织教授研究过。几十年后，Zach 把它做成了网页 Island Three：圆筒直径 6.4 公里，你可以走路，也可以骑滑板车沿着山谷大道跑，再坐高架列车上到山坡的终点站。黄昏时，巨大的镜子慢慢合上，对面山谷的城市灯火就挂在你头顶。10 月 4 日的更新里，三面镜子能真的照出整座殖民地，远处多了一座反方向自转的「姊妹圆筒」，每个山谷还盖了一座五万六千座的球场。他在 Hacker News 上说，整个工程是他指挥 Claude Code 写的，建模也大多是 Claude 通过 MCP（让 AI 去操作别的软件的接口）驱动 Blender 完成的。\n\n所以呢：童年幻想不用等一百年——一个人加一个 AI，现在就能先造出来，请大家进去走一圈。",
+    "links": [
+      {
+        "label": "Island Three 网页",
+        "url": "https://islandthree.world"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49963508"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "chatgbc-rei-gameboy",
+    "category": "视觉尝试",
+    "title": "Game Boy 里住进一个小家伙：她会记住你的名字，你不理她，她就自己去散步",
+    "body": "一台老掌机 Game Boy Color 的屏幕上，一个叫 Rei 的小角色问你：「你叫什么名字？」你用屏幕键盘一个字母一个字母敲进去，她就一直记着，关机再开机也还记得。这是开源项目 ChatGBC：一个从零训练的小语言模型，只有三十七万个参数，连同整套推理程序一起塞进 512KB 的卡带里。这块老芯片不会做乘除法，作者就把模型的权重压成只有 -1、0、+1 三种值，再靠提前算好的表格「查」出结果。每个词大约 0.46 秒才蹦出来，字一个个像打字机那样出现。你说「我喜欢墨西哥卷饼」，她会接一句「卷饼！听起来不错」；二十秒没人理她，她会自己去海滩、花园溜达，偶尔自言自语。作者也老实写了短板：她太小了，句子会串在一起，事实会记混，偶尔还会把「我七岁」当成你的名字，再告诉她一次就好。\n\n所以呢：小模型最打动人的演示不是跑分，而是一台旧掌机里，有个会惦记你的小家伙——怀旧加 AI，天生适合拍成短视频。",
+    "links": [
+      {
+        "label": "GitHub 源码与卡带",
+        "url": "https://github.com/crashtheuniverse/chatgbc"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49966189"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "jobs-15-web-tributes",
+    "category": "视觉尝试",
+    "title": "乔布斯走了十五年：两个网页，一个带你穿过他做的电脑，一个让你听他亲口念「致疯狂的人」",
+    "body": "10 月 5 日是乔布斯去世十五周年，Hacker News 上同一天冒出两件手工做的纪念网页。第一件是 Akash Bangad 做的「Thank you, Steve」：你像掉进屏幕里一样，一路穿过 1976 年车库里的 Apple I、1984 年那台会说「你好」的麦金塔、被赶出苹果后做的 NeXT 和皮克斯，再到 iPod 和 iPhone，最后停在 2011 年那个空荡荡的舞台前，可以给他点一根蜡烛、留一句话。有网友说，这像纪录片和游戏合在了一起。第二件来自 Eyad。他十几岁时看了那支「致疯狂的人」广告，攒了四年钱才买下第一台 Mac。这次他把广告重做成黑白动画网页，配的是乔布斯本人 1997 年录的旁白——当年电视上播的是演员版，乔布斯自己念的版本直到他去世后才广为流传。代码、动画和音效设计是 Claude Opus 5.5 写的，插画用 GPT-Image-2.5，配乐用 ElevenLabs。\n\n所以呢：纪念日内容不必只剪老视频——做一个能「走进去」的网页，观众会自己停下来点那根蜡烛。",
+    "links": [
+      {
+        "label": "Thank you, Steve",
+        "url": "https://thankyousteve.org/"
+      },
+      {
+        "label": "Here's to the crazy ones",
+        "url": "https://crazy.eyad.com/"
+      },
+      {
+        "label": "HN：互动纪念",
+        "url": "https://news.ycombinator.com/item?id=49964102"
+      },
+      {
+        "label": "HN：疯狂的人",
+        "url": "https://news.ycombinator.com/item?id=49971016"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "flattensf-flat-routes",
+    "category": "视觉尝试",
+    "title": "旧金山爬坡爬怕了？拖一下滑杆，地图帮你找出最不累的那条路",
+    "body": "在旧金山走路或骑车的人都知道：两点之间最短的那条路，往往要翻一座陡坡。Drew Edwards 做了个网页 Flatten SF：输入起点和终点，它给你一根滑杆，一头是最短路线，一头是最平的路线。你一拖，地图上的线和下面的高低起伏图就跟着实时变。背后用的是美国地质调查局 1 米精度的激光雷达高程数据，加上十六万段街道，全部在你自己的浏览器里算完，连地址搜索都不用联网。规则也很讲究：往「平」那头拖，路只会变长，绝不会多爬；步行允许走台阶，骑车自动绕开；「爬了多少」算的是一路累计往上爬的高度，而不是起点终点差多少。它在 Hacker News 上拿到一百五十多个赞，有人马上贴出当年通勤走的「The Wiggle」，那是旧金山骑车族专门绕开陡坡的老路线。\n\n所以呢：好用的小工具，常常只是把「我想少爬点坡」这种真实的小烦恼认真算一遍——你住的城市，也值得一张「最不累地图」。",
+    "links": [
+      {
+        "label": "Flatten SF",
+        "url": "https://flattensf.com/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49971230"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "word-legion-spell-troops",
+    "category": "视觉尝试",
+    "title": "拼一个词就召唤一支兵：「蛇」会下毒，「鬼」会隐身，「爵士」居然打溅射",
+    "body": "开发者 Alexis Bonnafont 想过一个问题：如果《皇室战争》的卡组是无限的呢？于是有了网页游戏 Word Legion。你手里不是兵牌，而是一排字母，拼出什么英文单词，就召唤什么兵：SNAKE（蛇）会放毒，GHOST（鬼）会隐身，DRAGON（龙）能飞还会喷火。兵强不强，只看三件事：词有多长、用了多少稀有字母、这个词本身有多冷门，所以越长越怪的词打得越狠。名词变成部队，动词和形容词变成法术；同一个词半分钟内连着用，属性直接打六折。四万九千张卡的效果，是语言模型照着词典释义一张张写出来的，作者自己根本看不完，于是出现了 JAZZ（爵士）能打溅射伤害这种谜之设定——不过细想，好像也说得通。玩过的词还会搬进你的小农场，像《星露谷物语》那样摆着。没人在线时，就跟机器人对打。\n\n所以呢：AI 生成内容最好玩的，恰恰是那些「说不清但有点道理」的意外——拍一期「我用最怪的单词打赢了」，评论区会自己吵起来。",
+    "links": [
+      {
+        "label": "Word Legion 试玩",
+        "url": "https://wordlegion.bonnaf.com/?lang=en"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49962594"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "meanwhile-map-history",
+    "category": "视觉尝试",
+    "title": "「同一年，世界另一头在干嘛」：拖一下年份，整张历史地图一起亮起来",
+    "body": "读历史书时，你知道某件事发生在 1520 年代，可它在脑子里总是孤零零的一个点。Meanwhile Map 的作者也有这个毛病，于是做了个网页：选一个年份和时间跨度，地图会换成那个年代的国界，上面撒满同一时期全世界发生的事。他举的例子是：巴布尔建立莫卧儿帝国的那几年，差不多正是科尔特斯攻下阿兹特克首都、奥斯曼人围攻维也纳的时候——三件事摆在一起看，画面一下子就立体了。事件数据来自维基数据，也就是维基百科背后的那个结构化资料库；古代国界来自开放历史地图项目。一件事被多少种语言的维基百科写过，就决定它的图钉有多大、排得多靠前。所有计算都在你的浏览器里完成，不追踪你，代码开源。作者说，这是他一次「凭感觉让 AI 写代码」的实验。\n\n所以呢：历史类博主可以直接拿它做「同一年」系列——一个年份，三块大陆，三条故事线并排讲。",
+    "links": [
+      {
+        "label": "Meanwhile Map",
+        "url": "https://meanwhilemap.com/"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/ea/meanwhilemap"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49969680"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "ostra-modular-synth-learn",
+    "category": "视觉尝试",
+    "title": "不用花几千美元买机架：浏览器里十五分钟，接出你的第一段模块合成器音乐",
+    "body": "模块合成器是一种「搭积木」的电子乐器：发声的、打节拍的、加混响的，各是一个独立模块，要用跳线把它们连起来才会响。一套真机动辄几千美元，线一多，新手就懵了。一位软件工程师做了 Ostra：把整套模块合成器搬进浏览器，几十个模块，不用安装，也不用登录。首页先放一段会自己演奏的示范，叫「玻璃花园」，叮叮当当的铃声一直循环。你只要拧一下最左边那个模块的「衰减」旋钮，就能听到铃声拖长还是变短。接着跟着互动教程走，十五分钟从零接出自己的一段旋律序列，录好的还能直接存成 WAV 音频文件。Hacker News 上有人说，自己玩过各种硬件和软件，始终没搞懂那些盒子怎么接；另一位说，这下总算明白合成器是怎么工作的了。\n\n所以呢：「先让它响起来，再告诉你为什么」是最好的入门方式——音乐博主可以拿它拍一期「零基础十五分钟做电子乐」。",
+    "links": [
+      {
+        "label": "Ostra 入门教程",
+        "url": "https://ostra.fm/learn"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49964379"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "twrctrl-tower-ground-sim",
+    "category": "视觉尝试",
+    "title": "不看雷达上的小点：这个浏览器游戏让你坐进机场塔台，一架架推出、滑行、放飞",
+    "body": "网上的空管模拟游戏，大多把飞机画成雷达屏上带字的小点。Franklín Andrésson 偏要做地面这一段：他当过学飞的学员，读过飞机维修学校，也在航空工程公司干过。于是他做了 TWRCTRL，让你同时当塔台和地面管制。屏幕上是真实机场的俯视图，目前能玩冰岛凯夫拉维克和瑞典斯德哥尔摩阿兰达两座。你点一架飞机，在「无线电」框里敲指令：先让它推出机位，再沿某几条滑行道开到跑道口，最后准许起飞；落地的飞机，要指挥它从哪个口子脱离跑道、滑进几号机位。路线会先画在地图上，没连通就一直闪。连引擎声都按机型调过，涡扇的呼啸和涡桨的嗡嗡声听起来不一样。他说已经往里砸了几百个小时，还会继续做。\n\n所以呢：硬核爱好者最爱「把真实规则原样搬进游戏」——航空类博主录一局高峰时段手忙脚乱的实况，比讲十分钟原理更带劲。",
+    "links": [
+      {
+        "label": "TWRCTRL 试玩",
+        "url": "https://twrctrl.com/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49964501"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "pumpkins-sh-million-patch",
+    "category": "视觉尝试",
+    "title": "一百万个南瓜摆成一片田：认领一个，刻上你的脸，点亮给全世界看",
+    "body": "离万圣节还有三周多，有人先在网上种好了一整片南瓜田。pumpkins.sh 的作者在 Hacker News 上这样介绍自己的点子：如果有一片几乎望不到头的南瓜地，任何人都能认领一个、亲手刻上图案，再摆出来给全世界看，会怎么样？于是他真的放了一百万个南瓜，每个都有自己的行号和地块编号。你挑一个，刻成自己想要的样子，它就在田里一直亮着。有 VR 头显的话，还能戴上去在田垄之间走一走。网友夸它性能不错，切到地图模式也不卡；也有人提醒，亮着的南瓜越来越多，每一圈光晕都要画，显卡会吃不消，最好加点遮挡；还有人希望能按名字搜到朋友刻的那一个。\n\n所以呢：节日内容最怕「看一眼就走」——一块大家一起摆的公共南瓜田，能让粉丝自己回来看、自己拉朋友，很适合做成万圣节互动企划。",
+    "links": [
+      {
+        "label": "Pumpkin Patch",
+        "url": "https://pumpkins.sh/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49965227"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "linux-35-video-as-code",
+    "category": "视觉尝试",
+    "title": "Linux 三十五岁生日：他没开剪辑软件，让 Claude 用代码「写」出一整部动画史",
+    "body": "1991 年 10 月 5 日，Linux 0.02 版发布。三十五年后的同一天，开发者 Sujee 发了一段 Linux 历史动画短片，而他全程没打开任何剪辑软件。他用的是「视频即代码」的做法：画面、文字、素材和渲染脚本都写成代码，放进 Git 仓库里，连给 AI 的提示词也一起存着；最后的视频，只是把脚本跑一遍生成出来的产物。代码由 Claude Code 搭配 Opus 5.5 编写。这样做的好处很实在：想改一个年份、换一套配色，改一行再重新生成就行；整部片子还能像软件一样，被别人复制一份改成自己的版本。他在 Hacker News 上反过来问大家：这种做法除了做实验，还有没有更大的用处？也有网友提醒，Gource 这类老工具早就能把代码提交记录自动画成动画。\n\n所以呢：做科普短片的博主可以试试「把视频当代码写」——攒下一套模板，换个主题就是下一期。",
+    "links": [
+      {
+        "label": "项目源码",
+        "url": "https://github.com/sujee/visual-stories/tree/main/projects/linux-history"
+      },
+      {
+        "label": "成片 YouTube",
+        "url": "https://youtu.be/lkOxEeqwMBo"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49968658"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "usermods-chat-userscripts",
+    "category": "小众工具",
+    "title": "看哪个网站不顺眼，就跟侧边栏说一句：AI 当场写个脚本帮你改掉",
+    "body": "很多人装过「油猴」这类插件，用别人写好的小脚本去广告、改排版，可自己不会写代码，就只能等别人写。一位开发者做了开源扩展 usermods：在浏览器侧边栏放一个编程助手。你在任何网页上说一句「把这个注册弹窗去掉」或者「把文件列表折叠起来」，它会先读网页结构，必要时截个图，然后写一段小脚本，直接在当前页面上试跑；确认能用了，才给你「试一下」和「保存」两个按钮。保存之后，下次打开同类页面就自动生效。还能指着页面上的某个元素说「这个」，它就知道你指的是哪儿。脚本是通用的标准格式，能导出、分享到脚本网站，也能把你在 Tampermonkey 里攒的整套脚本一次搬过来。模型随你挑：自己的 API 密钥、本地模型都行，作者仓库里自行构建的版本还能直接登录 ChatGPT 或 SuperGrok 会员。目前有 Chrome 和 Safari 版，iPhone 上也能用。\n\n所以呢：「改造网页」从程序员的特权变成了说一句话的事——可以拍一期「我把常用网站都改成了自己喜欢的样子」。",
+    "links": [
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/kballenegger/usermods"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49965932"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "recly-watch-recorder",
+    "category": "小众工具",
+    "title": "不买一百五十九美元的录音卡：手表按两下开录，会议纪要自己写好",
+    "body": "最近很流行一种巴掌大的 AI 录音卡，比如 Plaud：开会一按就录，自动转文字、出纪要。可它一百五十九美元起步，免费转写每月只有三百分钟，超了还得包月。开源项目 Recly 的思路很直接：录音设备，你手腕上已经有了；AI 会员，你也已经在付钱了。双击三星 Galaxy Watch 的主键，或者在 Apple Watch 上点一下，就开始录。手表把音频交给手机，手机上传到你自己的谷歌网盘，再在手机上本地转成文字，不限时长，也不花钱。文字稿一落地，你的 ChatGPT 智能体就会自己开始写会议纪要。全程没有 Recly 自己的服务器，也没有统计和数据回传。电脑上也有小程序，发现你在开 Zoom、Teams 会议时，会先问一句要不要录，而且不会派机器人进会。\n\n所以呢：别急着为每个 AI 功能再买一个硬件——先看看手上的设备能不能「拼」出来，这本身就是一期好选题。",
+    "links": [
+      {
+        "label": "Recly 官网",
+        "url": "https://recly.dev/"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/rokrokss/recly"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49957724"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "jurl-picks-not-writes",
+    "category": "小众工具",
+    "title": "让命令行替你「读网页」：它只从原文里挑，不编一个字",
+    "body": "让 AI 帮你读网页，最怕的是它总结着总结着，编出一个根本不存在的链接。西班牙穆尔西亚的开发者 Ray García 做了 jurl，名字就是从下载网页的老工具 curl 改来的。你告诉它想要什么，它就从网页里原样挑出来：回答某个问题的那两段话、一段代码、值得点开的链接，甚至「一张大教堂的照片」。在维基百科「科隆」词条的七十三张图里，它花 2.3 秒找出了三张拍到大教堂的，其中一张连图片说明都没有。秘诀是它不用聊天机器人，而是用只会打分的「决策模型」：把每段文字、每张图都变成一道「是不是你要的」的是非题，模型只给概率，不写一个字。所以它吐出来的全是页面原文，可以放心交给下一条命令去下载。大多数网页一秒内搞定，一美元大约能读一千页；找不到时，它会直说没有，而不是硬塞一个最不差的。\n\n所以呢：AI 工具的下一个卖点，可能就是「不会胡说」——只负责挑、不负责写，反而更值得信。",
+    "links": [
+      {
+        "label": "jurl 官网与在线试用",
+        "url": "https://jurl.dev/"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/rayoplateado/jurl"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49965478"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "vb6-studio-web",
+    "category": "小众工具",
+    "title": "上世纪的 Visual Basic 6 搬进浏览器：拖个按钮、按一下 F5，程序就跑起来",
+    "body": "不少老程序员的第一课是 Visual Basic 6：拖一个按钮到窗口上，双击写两行代码，按 F5，一个能用的小程序就跑起来了。有人在 Hacker News 上回忆，自己当年就是用它写程序自动做数学作业，从此入了行。开发者 Wiesław Sołtés 用网页技术把这套经典开发环境重做了一遍，叫 VB6 Studio Web，打开浏览器就能用：拖拽窗体、代码自动补全、一行一行地调试都有。按 F5 就能运行，做好的程序还能导出成一个独立的网页文件发给别人。它甚至能连 SQLite 这样的小数据库，也能读网上的数据接口。帖子拿到将近四百个赞。有人当场把高中时写的地图编辑器丢进去，可惜那个程序调用了老 Windows 的绘图接口，没跑起来。作者自己也写得很清楚：这不是微软原版的完整替代品，能兼容到哪一步，都列了清单。\n\n所以呢：怀旧不只是情绪，也是一道低门槛——给孩子演示「编程原来就是拖拖拽拽」，它比任何新框架都直观。",
+    "links": [
+      {
+        "label": "在线 IDE",
+        "url": "https://wieslawsoltes.github.io/VB6/"
+      },
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/wieslawsoltes/VB6"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49956681"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "nightwatch-clear-sky-mac",
+    "category": "小众工具",
+    "title": "英格兰北部晴天太少：他做了个小程序，只在「今晚值得拍星星」时才出声",
+    "body": "Richard Sutcliffe 住在英格兰北部，那里晴朗的夜晚少得可怜。他爱拍星空，可每天傍晚都得翻天气图，结果多半是「又是云」。于是他做了 Nightwatch，一个安安静静待在 Mac 菜单栏里的小程序。它每半小时刷新一次天气预报，只有当天彻底黑下来以后，还剩一段连续够长、能拍照的晴空，它才会在日落前一小时提醒你一次；否则一声不吭，没消息就代表有云。它还会把月亮、风、结露风险和视宁度（就是大气稳不稳、星星抖不抖）一起算进去，排出今晚先拍什么、后拍什么，告诉你每个目标几点最好，用哪个滤镜、拍多少张。他在 Hacker News 上写到，小时候父亲的朋友送了他一架望远镜；父亲几年前去世后，那些和父亲一起看星星的夜晚，又回到了他心里。\n\n所以呢：最打动人的小工具，常常是「替我盯着，没事别吵我」——这份克制，本身就值得讲。",
+    "links": [
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/rsutcliffe/nightwatch"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49952148"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "easycommand-bash-small-model",
+    "category": "小众工具",
+    "title": "总记不住终端命令怎么写：他训了个十五亿参数的小模型，笔记本 CPU 就能答",
+    "body": "Max Trivedi 写代码早就交给大模型了，唯独 bash 命令——也就是 Linux 终端里敲的那些指令——还老得去搜：停下手头的活，打开搜索，翻问答网站，再抄回来，特别打断思路。他觉得这活儿正适合小模型：命令数量有限，语法固定，练习题也好造。于是他让 AI 当「训练总管」，花了大约十天，造出约四十万条「一句英文需求配一条命令」的练习题，微调了两个小模型。结果十五亿参数、压缩后不到 1GB 的那一版，在三百道终端题里答对了 212 道，约七成；GPT-4o 公布的成绩是 73%。他也说得很老实：两边用的题库版本不同，分数接近不等于一样强；命令看着对也可能是错的，建议先预览再执行。最大方的是，模型、全部四十万条数据和命令行工具都开源了，谁都能接着训。\n\n所以呢：「专才小模型」正在变成个人就能做的事——挑一个你天天重复查的小问题，也许你也能训一个。",
+    "links": [
+      {
+        "label": "作者长文",
+        "url": "https://dirac.run/posts/easycommand"
+      },
+      {
+        "label": "命令行工具",
+        "url": "https://github.com/dirac-run/ec"
+      },
+      {
+        "label": "训练数据",
+        "url": "https://huggingface.co/datasets/dirac-run/ec-training-data"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49966238"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "possiblymadebyahuman-sign",
+    "category": "小众工具",
+    "title": "被说「这是 AI 写的」怎么自证？这个工具把你打字的过程录下来，盖个章",
+    "body": "你认认真真写了一段话，评论区却有人说：「一看就是 AI 写的，还用了破折号。」你很难反驳，因为确实拿不出绝对的证据。possiblymadebyahuman（意思是「可能是人写的」）的作者先老实承认了这一点：只要造假的人够用心，什么都能伪造。但他换了个思路：不去证明你是人，只把你写字的过程记下来。装上它的 Chrome 扩展，选定你要写字的输入框——评论、论坛回帖、邮件都行——它会记下你一路怎么打、怎么删、怎么改，用一串环环相扣的哈希值（一种改一个字就对不上的数字指纹）签好名，最后给你一个短链接，谁都能点开回放。不想装扩展，也能在它的网页上直接写，甚至在 Emacs 编辑器里写。它的道理很朴素：服务器时间戳显示你写了二十分钟，想造假的人，也得真的耗上二十分钟。\n\n所以呢：AI 时代，「怎么写出来的」开始和「写了什么」一样重要——写作博主可以把这条链接挂在文末，当成新式的原创声明。",
+    "links": [
+      {
+        "label": "possiblymadebyahuman",
+        "url": "https://possiblymadebyahuman.com"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49967052"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "rawnudge-chat-raw-edit",
+    "category": "小众工具",
+    "title": "跟 AI 说「把暗部提一点，留住清晨的光」：用聊天来修 RAW 照片的 Mac 应用",
+    "body": "修 RAW 照片的软件——RAW 就是相机存下来的原始「数码底片」——满屏都是曝光、色温、阴影之类的滑杆，新手根本不知道该拉哪一根。开发者 Yuki 做了 RawNudge：打开一张照片，直接用一句话说你想要的感觉，比如「把阴影提起来，留住安静的晨光」。AI 给出一版调整，你在照片上来回对比，满意了再应用，最后导出 JPEG。它最特别的是接 AI 的方式：可以直接登录自己的 ChatGPT 账号，用会员里自带的 Codex 额度，不需要 API 密钥；也能接 OpenAI、Anthropic、Gemini 的密钥，或者本机跑的模型。原始 RAW 文件不会上传，发给 AI 的只有你的那句话、当前的调整参数和一张小预览图。不连 AI 也能手动修图。应用一次买断，首发前一百份三十美元，之后五十美元，AI 的费用另算。\n\n所以呢：「用说话代替滑杆」正在走进专业软件——摄影博主可以拿同一张图，比一比 AI 调色和自己手调，谁更好看。",
+    "links": [
+      {
+        "label": "RawNudge 官网",
+        "url": "https://rawnudge.com/?lang=en"
+      },
+      {
+        "label": "作者 X 原帖",
+        "url": "https://x.com/yukimorikawatem/status/2107291536933392760"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "era-simulated-companies",
+    "category": "小众工具",
+    "title": "给 AI 员工一家「假公司」练手：客户、工单、聊天记录，全都对得上",
+    "body": "想让 AI 智能体帮公司处理客服工单、查销售数据，最大的难题是：没人敢拿真公司的数据给它练手。专做企业云数据备份的 Eon 团队，推出了对开发者免费的服务 Era。你只要回答五个问题：卖什么、卖给谁、多大规模、正在经历什么事、要接哪些系统，它就当场生成一整家虚拟公司。同一个员工会同时出现在 Slack、Jira、Zendesk 和 Salesforce 里，而且就是同一个人；成交金额、客户规模都按真实世界的分布来，不是随手乱填。它还故意掺进重复记录、「测试数据请删」这类脏数据，再附一张清单告诉你掺在哪。最关键的是，这些系统都是活的，智能体能像连真软件一样，通过 MCP 接口去读、去改。比如一次系统故障，会有五个不同时区的客户，用五种说法来报修。\n\n所以呢：AI 员工上岗前也需要「驾校」——给智能体造一个足够逼真的练习场，本身就是一门新生意。",
+    "links": [
+      {
+        "label": "Era 官网",
+        "url": "https://console.era.eon.io/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49966865"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "net19-websites-2019",
+    "category": "小众工具",
+    "title": "把一百七十个网站退回 2019 年：没有短视频，没有 AI 总结，就是当年的样子",
+    "body": "一觉醒来，常用的网站又改版了：首页塞进了短视频，帖子上面又多了个 AI 总结按钮。有人受够了，做了一个 Chrome 扩展 net19，把一百七十多个热门网站的外观「冻结」在 2019 年，从 YouTube 到俄罗斯的 Yandex 都有。每一套样式，都对照着当年的真实截图一个个调过，网页一打开就已经换好。2019 年以后才加进来的东西，比如短视频和 AI 功能，直接不显示。搜索结果、推荐内容这些后台功能照常工作，小网站和个人博客则完全不动。它全在你电脑本地运行，不收集数据；网站再改版、对不上的时候，就退回到 2019 年的配色和字体，而不是整页乱掉。开发者在评论里说，他试过直接去网页时光机抓旧样式，也试过让算法自动「复古」，都太慢，最后还是一个网站一个网站手写。\n\n所以呢：「反升级」本身就是一种情绪——做一期「如果互联网停在 2019 年」，新旧截图一对比就很有话题。",
+    "links": [
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/PigeonFlare/net19"
+      },
+      {
+        "label": "Chrome 商店",
+        "url": "https://chromewebstore.google.com/detail/net19/aomcmjccojigoiehgcomlpbiabllpeif"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49966658"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "photoc-photographers-cli",
+    "category": "小众工具",
+    "title": "拍了一千张不想一张张翻：一条命令帮你挑出糊片、重复照和带定位的",
+    "body": "摄影师出去拍一天，回来对着几百上千张照片发愁：哪些拍糊了，哪些是连拍出来的一模一样的，哪些还带着家里的 GPS 位置，不能直接发出去。一位开发者做了 photoc，一套专门给摄影师用的命令行工具。一条命令就能总结整场拍摄，还能按光圈、焦段、光线暗不暗来筛照片；另一条命令找出糊片和完全重复的文件。它还能批量改名、按日期分文件夹、拼一张缩略图总览、做小尺寸副本，或者在分享前把定位信息抹掉。它在设计上特别小心：默认只预览，不碰你的原图；只有你明确加上「应用」参数，才会真的改名或挪文件，而且从不覆盖已有的文件。目前支持 JPEG，能读索尼 ARW 格式的拍摄信息，其他品牌的 RAW 和 Windows 暂时都还不支持。\n\n所以呢：给专业人群做自动化工具，「先别碰我原图」比功能多更要紧——这是个值得讲的产品原则。",
+    "links": [
+      {
+        "label": "GitHub 源码",
+        "url": "https://github.com/ahmetomerv/photoc"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49944196"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-03",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
+    "id": "soundscaper-browser-audacity",
+    "category": "小众工具",
+    "title": "参与过 Audacity 4 设计的人，把这款老牌剪音软件「搬」进了浏览器",
+    "body": "Audacity 是很多人剪播客、处理录音时用的第一个软件，免费、开源，已经用了二十多年。一位参与过 Audacity 4 设计工作的设计师，离开项目后开始捣鼓网页小工具，有一天冒出个念头：要是把 Audacity 整个搬进浏览器，能有多难？做出来的结果叫 Soundscaper：界面沿用 Audacity 4 的样子，还加了一些原版没有的功能，后来又绕了一圈，反过来出了桌面版。他在 Hacker News 上吐槽开发过程：浏览器处理音频视频其实挺能干，可帮他写代码的 AI「满嘴谎话」，只能靠写足够多的自动测试来管住它。他最在意的是归属：这个项目属于一家非营利组织，所以他再也不用在开源软件里硬塞收费套路了。\n\n所以呢：「打开网页就能剪音频」对新手播客很友好；而「用测试管住 AI」这句吐槽，本身就是一期 AI 编程的好话题。",
+    "links": [
+      {
+        "label": "Soundscaper",
+        "url": "https://soundscaper.org"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49970788"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-06T15:10:00+08:00"
+  },
+  {
     "id": "dust-pretrain-no-backprop",
     "category": "硬科技",
     "title": "不用「反向传播」也能练大模型：每读一个字就随手抖一下，看它变准还是变差",
