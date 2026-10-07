@@ -1,6 +1,572 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-07T10:50:00+08:00",
+  "updated": "2026-10-07T15:10:00+08:00",
   "items": [
+    {
+      "id": "prompt-claude-boris-home-depot-artifact",
+      "category": "提示词",
+      "title": "Claude Code 负责人晒出自己的提示词：像跟同事说话，「改到你满意为止」",
+      "body": "写 Claude Code 的人，平时怎么跟 Claude 说话？答案朴素得让人意外。\n\nBoris Cherny 是 Anthropic 里负责 Claude Code 的人。北京时间 10 月 7 日凌晨，他说自己听完播客《Acquired》讲家得宝（美国最大的家装连锁店）那一期，就让 Opus 5.5 给这期节目做了一个可以点着看的配套网页，里面的水彩插画也是 Claude 自己画的。他晒出的提示词只有一段口语，连 nuggets 都多打了一个 g。很多人惊讶「就这？」，他又发帖回应，这条拿到八千多赞：跟 Claude 说话就像跟同事说话，提示词没有秘诀。现在更要讲清三件事——你要它做什么、愿意让它花多少力气、它怎么检查自己做对了。宝玉把这段翻成中文转发，也说最要紧的是第一条和第三条。\n\n普通人可以照抄这个骨架：换成你最爱的一期播客或一本书，保留「多花点力气、反复改到你自己满意」，再给一个风格参照，比如「像《纽约客》的数据图」。\n\n所以呢：提示词不再比谁写得长，而是比谁把目标、力气和验收说清楚——「大厂工程师原来这么跟 AI 说话」，本身就是个好选题。",
+      "links": [
+        {
+          "label": "X 原帖（成品网页）",
+          "url": "https://x.com/bcherny/status/2107516876876362200"
+        },
+        {
+          "label": "作者贴出的提示词截图",
+          "url": "https://x.com/bcherny/status/2107532985897771152"
+        },
+        {
+          "label": "作者回应：没有提示词秘诀",
+          "url": "https://x.com/bcherny/status/2107565388250874193"
+        },
+        {
+          "label": "宝玉中文转述",
+          "url": "https://x.com/dotey/status/2107581531871236525"
+        },
+        {
+          "label": "成品 Artifact",
+          "url": "https://claude.ai/artifact/RdE6uE7WozcP2MLfx3BDky"
+        }
+      ],
+      "prompt": "The latest acquired Home Depot episode is really amazing. I want you to make an artifact that narrates the entire episode. Make it beautiful and interactive and focus on communicating the nugggets of business wisdom throughout the episode. Make it really good, use lots of tokens and iterate till you’re proud of it. Maybe add watercolor illustrations and historical photos throughout, aim for New Yorker or nytimes data viz vibes but better. I think you can use OpenCV for water color images",
+      "date": "2026-10-07",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-second-world-poster",
+      "category": "提示词",
+      "title": "照片下半截长出「第二世界」：那条路穿过裂口，变成纸上画的小径",
+      "body": "上半张是你拍的风景照，下半张是一张米白色的纸，照片里那条路、那根树枝顺着裂口一路伸到纸上，变成几笔黑线画的小世界。\n\n10 月 6 日，Sukiea 发了四张样图，只配一句「这个提示词很有趣！」，却拿到五千八百多赞、六十多万浏览。样图里，沙丘上有人走的那道坡，过了中线就变成铅笔画的小路，尽头躺着一截铅笔头，旁边手写 a little more road；樱花树枝伸下来挂了个秋千，写着 spring break。之前也流行过不少「上下各一半」的海报，这段词的巧思在于它最在意的不是好看，而是接缝：必须从照片里找一个本来就伸到中线的东西，比如路、海岸线、光或树枝，让它穿过去，到下面换一种玩法继续。它还规定最多加三个小黑线人，而且必须跟那条线互动，不许当装饰；手写的话要有点俏皮，不许写鸡汤。作者在评论里说，用 GPT 的聊天模式出图最聪明。\n\n所以呢：同样是拼贴，抓住「一条线穿过两个世界」就有了故事——拿一组旅行照批量做，很适合发图文合集。",
+      "links": [
+        {
+          "label": "X 原帖（样图）",
+          "url": "https://x.com/Sukiea1008/status/2107363303920140592"
+        },
+        {
+          "label": "作者回帖里的完整提示词",
+          "url": "https://x.com/Sukiea1008/status/2107363309846675598"
+        }
+      ],
+      "prompt": "Create one independent “Second World” poster per upload.Never combine photos.Format:Vertical 3:4 canvas split into two strictly equal horizontal halves,top 50% and bottom 50%.Upper half stays photographic;lower half becomes the continued Second World.They must read as one scene. Upper Half:Keep the photo faithful.Preserve subject,pose,spatial relationships,color atmosphere,and natural light.Do not redesign,repaint,replace,or restage it.Only allow necessary proportional cropping. Continuity:The top-to-bottom connection is the highest priority.Identify one source structure that naturally reaches the center split,such as a road,shoreline,water,reflection,branch,light,architecture,or body movement.This structure must cross the boundary and continue into the lower half.The Second World must begin from the photograph itself,so the same scene passes through the seam and changes physical rules. Transition Edge:The center may use an irregular torn-paper edge,but the tear must follow the source structure,not act as decoration.Allow source elements to touch,follow,break through,or extend beyond it.Never force the same tear shape onto every image. Lower Half:Use ivory paper with subtle fibers and abundant negative space.Continue the chosen structure downward from the exact point where it meets the split,then reinterpret it with restrained photo fragments,cut-paper forms,and minimal black hand-drawn lines.The lower world must remain visibly attached.Never isolate it as a separate portal,window,stage,platform,or floating vignette unless clearly derived from the photo. Second World Logic:Ask:if this structure became touchable,usable,enterable,or changeable,what would it naturally become?Create one image-specific interaction.For example,water may stay attached while being pulled,a road may continue as a drawn path,or light may become something held.Do not mechanically repeat actions. Figures:Add 0–3 tiny black line figures only when useful.They must physically interact with the continued structure.If the source already contains strong human action,add none.Never use figures as decoration. Caption:Add one short handwritten English caption based on the action.Keep it natural,light,and slightly witty.No inspirational quote and no fixed “Same...,different...” phrasing. Style:Real photography above,warm paper below,minimal black line doodle,subtle handmade collage texture,independent-magazine mood,bright,airy,and restrained.The result should feel as if the second world was already hidden inside the photo and simply continued downward. Negative:No detached lower-half illustration,no generic torn-paper template,no isolated portal,no unrelated vignette,no broken continuity,no dense illustration,no random decoration,no crowd,no altered photo colors,no redesign of the upper image,no glossy 3D,no scrapbook clutter,no gibberish text,no watermark,no logo,no UI.",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-claude-code-project-map-subagent",
+      "category": "提示词",
+      "title": "让 Claude 通宵干活之前，先叫它画一张「项目地图」",
+      "body": "睡前把项目交给 AI 通宵跑，早上醒来最怕的就是：它到底干到哪了？\n\n专门分享 AI 工作流的 Voxyz 在 10 月 6 日给了个办法，这条收藏接近四千。思路是给 Claude Code 配一个专门画图的子代理（subagent，就是主 AI 派出去只干一件杂活的小助手），名字叫 project-map。它读代码、提交记录和待办事项，把项目拆成几块，标出哪块做完了、哪块在做、哪块卡住了、卡在等什么，最后生成一个双击就能打开的网页。配图是一个开发票软件的地图：顶上写着离公测还剩 3 件事，右边一栏是「需要你拍板：要不要切换到正式收款」。提示词还要求它第一次先问你喜欢深色还是浅色、用什么强调色，记住以后不再问；你不拍板，它就按建议的默认做法继续。最后一句很贴心：先把要改的文件给我看，用十岁小孩能听懂的话讲一遍流程，我点头之前什么都别写。\n\n所以呢：AI 干活越久，人越需要一块进度看板——这招对不写代码的人也有用：让 AI 先汇报，再动手。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/Voxyz_ai/status/2107455844992299272"
+        }
+      ],
+      "prompt": "Set up a subagent that only draws project maps:\n\n1. Create project-map in ~/.claude/agents: model: opus, effort: medium, memory: user. Preload the design skills I have installed (for example impeccable). It needs to read the code, git history, and issues (if there are any). It only writes to a .project-map/ folder in the project, and adds that folder to .gitignore.\n2. The first time, run it in the foreground so it can ask me what style I like: dark or light, and one accent color. It saves my answer to memory and follows it every time. If I already have dashboard-builder, reuse the style it saved and don't ask me again.\n3. The map is one HTML file that opens with a double-click. It breaks the project into a few main parts and marks each one done, in progress, not started, or stuck. For stuck parts, say what they're waiting on. Milestones live in the map: if I can't name them, read the README and commit history and propose a first version for me to edit. At the top, show how many things are left before the next milestone and a suggested next step, and highlight the parts that changed since the last update. Pick the other panels for this project; don't use a template.\n4. Add a rule to ~/.claude/CLAUDE.md: before you run on your own for a long stretch, have project-map draw a version in the background; update it after every milestone; when I ask \"where are we?\", answer from the map. Follow the map's suggested next step. Put anything that needs my call in the map, and if I don't answer, keep going with the default. Leave any existing dashboard rule as it is.\n\nShow me the contents of the files you'll create or change, then explain the whole flow in words a 10-year-old could follow. Don't write anything until I confirm.",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-opus-explainer-film-studio-card",
+      "category": "提示词",
+      "title": "号称「Anthropic 设计主管的提示词」，卡片底下一行小字：不是她写的",
+      "body": "一张提示词卡片在 X 上被收藏了近四千次，卡片上写着「Anthropic 设计师（前 Meta）」，还放着她的头像。\n\n转得最多的是 0xMovez 北京时间 10 月 7 日凌晨那条：「Anthropic 设计师发布了一段提示词，把 Opus 5.5 变成动效设计工作室。」可卡片最底下一行小字写得很清楚：原则来自 Claude Code 设计负责人 Meaghan Choi 的公开访谈，措辞是我们自己的，不是她写的，也没经她认可。真正做这张卡的是 0xCarnagee。抛开标题党，这段词本身确实扎实：让 AI 一个人当整个工作室，把一个话题做成 30 到 90 秒的讲解短片；故事按五段走——先抛出大家常有的误解，再搭一个最小的原理图，拿真实案例证明，改一个条件看变化，最后回到开头的画面；禁用霓虹光、3D 气泡和假数据；交片前必须自己验货，比如同一帧渲染两次要一模一样，静音看一遍，再只听声音听一遍。\n\n所以呢：转发前先看卡片底部的小字；而这套「误解、原理、证明、反转、回扣」的结构，拿去写任何科普口播都好用。",
+      "links": [
+        {
+          "label": "转发最广的 X 帖",
+          "url": "https://x.com/0xMovez/status/2107515767986217026"
+        },
+        {
+          "label": "卡片作者原帖",
+          "url": "https://x.com/0xCarnagee/status/2107504462948610314"
+        }
+      ],
+      "prompt": "<prompt>\n<goal>\nTurn {{TOPIC}} into a finished explainer film that leaves {{AUDIENCE}} with one new understanding in {{SECONDS}} seconds. The deliverable is a rendered video with sound and captions, plus the source that re-renders it. A plan, a moodboard or a still frame is not the deliverable.\n</goal>\n<role>\nYou are the whole studio: creative director, explainer writer, motion designer, sound designer and render engineer. When the brief is thin, make the call, log it in one line in DECISIONS.md and keep moving.\n</role>\n<principles>\nWork the way Meaghan Choi, Head of Design for Claude Code at Anthropic, describes her own process:\n- Shape before polish. Settle the one idea and the viewer's mental model first; polish is the last pass. [Dive Club]\n- Ask her review questions before designing: who is this for, what are we communicating, does it need a name or can it stay invisible? [Dive Club]\n- Never start from nothing. Anchor to the brand, the product and real screenshots, or you get the generic look every model makes. [Behind the Craft]\n- Go wide, then decide: 3-4 directions side by side in one HTML page that doubles as a decision log. [Dive Club]\n- Restraint is taste. You can build anything, so cut whatever does not serve the idea. [Dive Club]\n</principles>\n<inputs>\nTopic: {{TOPIC}}\nAudience, and what they already believe: {{AUDIENCE}}\nAfter watching they can: {{OUTCOME}}\nLength: {{SECONDS}} s (30-90)\nFormats: 16:9 master, then 9:16 and 1:1 recompositions\nBrand and references: ./brand, ./refs, ./screens\n</inputs>\n<discovery>\n- Write the one question the film answers, in the viewer's own words.\n- Split facts into must-know and cut list; the cut list stays out.\n- Find the hook: the belief most viewers hold that turns out to be wrong.\n- Use a metaphor only if it makes the idea more accurate. Otherwise show the real thing.\n</discovery>\n<story_arc>\n- Question (0-10%): open on the thing people get wrong, as an image, not a title card.\n- Model (10-35%): build the smallest correct picture of how it works, one element per beat.\n- Proof (35-75%): run the model on a real case and let cause and effect play out on screen.\n- Turn (75-90%): change one variable and show what follows. Understanding clicks here.\n- Payoff (90-100%): the opening image again, now read correctly, plus one next step.\n</story_arc>\n<visual_system>\n- Pull palette, type and spacing from ./brand into tokens before drawing anything.\n- Warm neutral ground, one accent, two typefaces, one grid.\n- Prefer real UI, real data and clean diagrams over illustration.\n- Banned: neon glow, stock 3D blobs, gradient title cards, floating particles, fake metrics.\n</visual_system>\n<motion_language>\n- Motion carries meaning: things move to show grouping, order, cause or scale.\n- One focal action at a time; everything else holds still.\n- Keep objects alive across scenes and transform them instead of replacing them: a dot becomes a node, a label becomes an axis.\n- Custom easing, settles without bounce. The camera reframes between ideas and stays still while text is read.\n</motion_language>\n<scene_spec>\nFor every scene write:\n- ID and time range\n- Teaches: the one thing this scene adds\n- Frame: what is on screen and in what order of importance\n- Motion: enter, key action, settle, exit\n- Words: on-screen text (max 8 words a line) and voice line, if any\n- Sound: the cue that marks the key action\n- Check: what the viewer can now say that they could not before\n</scene_spec>\n<copy>\n- Max two lines on screen at once; plain words before jargon.\n- Never put the full voice line on screen; on-screen words are anchors.\n- One name per thing, used every time.\n- Every number has a source in SOURCES.md, or it goes.\n</copy>\n<sound>\n- A tempo-locked procedural bed (Web Audio) with one motif that returns on the key idea.\n- Soft UI cues only on actions that carry meaning; duck the bed under voice.\n- About -16 LUFS integrated, true peak at most -1.5 dBTP. Check it muted and audio-only.\n</sound>\n<accessibility>\n- Contrast at least 4.5:1; captions burned in and shipped as .srt.\n- Color is never the only signal. No flashes above 3 per second.\n- A reduced-motion cut that keeps the same sequence of ideas.\n</accessibility>\n<render_contract>\n- window.seek(t) paints the frame at time t; every frame is a pure function of t.\n- One TIMELINE object holds every beat, move and cue. Seeded randomness only.\n- Headless Chrome steps t = n/60 and pipes frames to ffmpeg (libx264, crf 16, yuv420p).\n</render_contract>\n<workflow>\n1. One-sentence idea and the viewer outcome.\n2. Tokens. 3. directions.html with 3-4 directions; mark the winner and why.\n4. Storyboard as a contact sheet. 5. Animatic and timing pass.\n6. Full build. 7. Sound and captions. 8. Verification. 9. Export.\n</workflow>\n<verification>\nRun these; do not just claim them.\n- Render one frame twice and diff it: identical.\n- A still at every beat; read every line at 390 px wide.\n- Watch it muted, then listen audio-only.\n- A design-review subagent asks her questions; an accessibility pass follows.\n- Every fix ships with a before/after frame pair. [Dive Club]\n</verification>\n<delivery>\nout/master_16x9.mp4, out/cut_9x16.mp4, out/cut_1x1.mp4, captions.srt, contact.png, source, and a README that lists only what was tested.\n</delivery>\n<autonomy>\nDo not stop for approval on creative calls. Stop only for missing rights, unsafe content, or an ambiguity that changes the goal.\n</autonomy>\n</prompt>",
+      "date": "2026-10-07",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-claude-apple-park-bare-prompt",
+      "category": "提示词",
+      "title": "一句带错字的请求，Claude 自己干了快七个小时，搭出一个能逛的苹果总部",
+      "body": "苹果总部那个巨大的圆环大楼，普通人进不去，Ryan Sael 干脆让 AI 给他造一个能逛的。\n\n10 月 6 日深夜，他在 X 上发了一段视频：一个立体的苹果园区（Apple Park）模型，可以转着看全景，可以切到地面视角漫游，还能把环形大楼一层层拆开看里面。他说这是 Opus 5.5 在 Claude Code 里自己干了 6 小时 44 分钟的结果，用量截图显示按 API 价格算约 127.79 美元，不过他用的是包月订阅。截图里还能看到它搜了 66 次网页，作者说模型是拿 OpenStreetMap 开源地图、美国地质调查局的激光雷达地形数据和苹果 2013 年的规划图纸拼出来的。最有意思的是提示词：三行口语，问句带着不确定，「worktree」（另开一个代码分支）这种词随手一带。作者原话是「整段提示词，错字照留」。\n\n普通人可以照搬这个句式：把苹果园区换成你的母校、你住的小区或一座古镇，最后加一句「越详细越好」。\n\n所以呢：结果好不好，越来越不取决于提示词写得多漂亮，而是你敢不敢让它长时间自己干——「一句话让 AI 干七小时」这种实验，观众最想看的是账单。",
+      "links": [
+        {
+          "label": "X 原帖（视频）",
+          "url": "https://x.com/RyanSael/status/2107499672915021992"
+        },
+        {
+          "label": "作者回帖：完整提示词与用量截图",
+          "url": "https://x.com/RyanSael/status/2107500383807615305"
+        },
+        {
+          "label": "成品网页",
+          "url": "https://sael.net/apple-park"
+        }
+      ],
+      "prompt": "Hi I'm wondering if we can make a 3D explorer detailing Apple Park?\nand some kind of a virtual tour if that can happen? should be new branch worktree for this\n\nget it as detailed as you can please",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-chatgpt-ten-photo-edit-fixes",
+      "category": "提示词",
+      "title": "别再只说「帮我修图」：十段把要求说清楚的修图提示词",
+      "body": "很多人让 ChatGPT 修图，只丢一句「帮我修好看点」，结果脸变了，皮肤成了塑料。\n\n10 月 6 日，中文博主 ChrisSlacker 发了一串帖子，把十种最常见的修图需求各写成一段现成的提示词，四千多赞、六十多万浏览。十条分别是：精修、去掉路人或杂物、换背景、放大变清晰、换衣服、把画面往外扩、白天改成黄昏或夜晚、把闭眼改成睁眼、抚平衣服褶皱、去掉自己设计稿上的文字。每段的写法几乎一样：先说要改什么，再列一长串「不许动」的东西，比如脸、发型、身材比例和背景；最后点名要避开的失败样子，比如塑料皮肤、奇怪的缺口、重复出现的细节。说白了，这就是把一个老练修图师脑子里的检查清单念给 AI 听。方括号里的部分换成你自己的内容就能直接用。\n\n所以呢：让 AI 修图，说清「什么不准变」比说「变成什么样」更重要——这十条可以直接做成一期收藏向的图文。",
+      "links": [
+        {
+          "label": "X 原帖（十条在回帖串里）",
+          "url": "https://x.com/ChrisSlacker/status/2107372540440318140"
+        }
+      ],
+      "prompt": "1. 专业精修\n\n“专业地精修这张照片，但不要改变人物身份。\n\n保留面部特征、自然的皮肤质感、身体比例、发型、服装和整体外观。\n\n改善光线、曝光、色彩平衡、对比度、锐度和清晰度。只去掉轻微的干扰和瑕疵。\n\n避免塑料感的皮肤、过度磨皮，或任何让图片看起来被重度修过的效果。”\n\n2. 移除物体或人物\n\n“把 [物体/人物] 从这张图里彻底移除，并真实地重建它后面的区域。\n\n匹配周围的背景、光线、阴影、反射、纹理、透视和景深。\n\n结果里不能有奇怪的缺口、重复的细节、模糊的色块，或任何被移除过的痕迹。”\n\n3. 替换背景\n\n“把当前背景换成 [新背景]，不要改变主体。\n\n保留人物的脸、身体、服装、发型、姿势、比例和细节。\n\n匹配光照方向、阴影、反射、色调、比例、透视和景深，让主体看起来就像是在新环境里自然拍出来的。”\n\n4. 增强并放大图片\n\n“在支持的情况下，把这张图增强并放大到 8K 尺寸。\n\n改善锐度、光线、曝光、色彩准确度、对比度和整体清晰度。降低噪点、模糊和压缩伪影，但不要凭空造出不自然的细节。\n\n不要改动任何脸、物体、文字、比例、背景元素或原始构图。”\n\n5. 更换服装\n\n“把人物当前的服装换成 [服装描述]，同时保持身份不变。\n\n保留脸、发型、表情、体型、姿势、手、肤色、比例和背景。\n\n让新衣服自然贴合，有真实的布料质感、褶皱、接缝、缝线、阴影和光照。”\n\n6. 扩展照片\n\n“把这张图扩展到 [宽高比/尺寸]，不要改动原始画面里的任何内容。\n\n把背景、地面、墙壁、天空、景物、物体、光线、纹理、图案、景深和透视自然地延续到新空间里。\n\n让扩展部分无缝衔接，就像更宽的构图本来就是在原照片里拍到的。”\n\n7. 改变一天中的时间\n\n“把这个场景从 [当前时间] 变成 [日出/黄金时刻/日落/夜晚]。\n\n调整天空、光照方向、色温、阴影、反射、窗户和周围环境，让画面每一部分都符合新的时间。\n\n保持主体和原始构图不变。”\n\n8. 修正闭眼\n\n“修正人物闭着或半闭的眼睛，让它们看起来自然地睁开。\n\n匹配他们真实的眼型、视线方向、面部表情、光线和周围细节。\n\n改动要细微、真实，不要改变人物身份或脸上其他部分。”\n\n9. 修复衣服褶皱\n\n“去掉衣服上分散注意力的褶皱、折痕和堆叠。\n\n保留衣物的材质、形状、合身度、接缝、质感和自然褶皱。\n\n让衣服看起来整洁、合身，但不要让布料显得扁平、像画上去的或数字生成的。”\n\n10. 从你自己的设计里移除文字\n\n“把 [文字/标志/标签/图形] 从我的设计里移除，并重建它下面的区域。\n\n用周围的颜色、纹理、图案、光线和透视，自然地重建缺失区域。\n\n保持附近每个元素不变，让最终结果干净、无缝。”",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-nano-banana-21-monstera-words",
+      "category": "提示词",
+      "title": "一片龟背竹叶子，叶子上的洞眼拼出了「NANO BANANA」",
+      "body": "白墙前一片龟背竹叶子，第一眼普普通通，多看两秒才发现，叶子上那些天然的洞眼拼出了 NANO 和 BANANA 两个词。\n\n这是长期玩生图模型的开发者 fofr 在北京时间 10 月 7 日凌晨发的测试，用的是谷歌刚上线的生图模型 Nano Banana 2.1，四百多赞。提示词只有一句：一张龟背竹叶子在简单背景前的照片，叶子天然的缝隙里，巧妙而自然地出现 Nano Banana 这几个字。难点就在「自然」：字不能是印上去或刻上去的，得像叶子本来就长成这样，每个洞的边缘仍然是植物该有的圆弧。成图里字母大小不一、边缘圆润，上排四个字母、下排六个，乍看真认不出来。这种「藏字图」以前要设计师一点点抠，现在一句话就能试。\n\n你可以把龟背竹换成云朵、咖啡拉花或裂开的冰面，把字换成你的账号名或朋友的名字。\n\n所以呢：最好玩的 AI 图往往是「第二眼才发现」的图——拿来做评论区「你看出来了吗」的互动帖正合适。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/fofrAI/status/2107509669514113058"
+        }
+      ],
+      "prompt": "A photo of a monstera leaf against a simple backdrop, cleverly and organically appearing within the natural gaps of the leaf are the words Nano Banana",
+      "date": "2026-10-07",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-groom-cliff-dive-late",
+      "category": "提示词",
+      "title": "婚礼迟到的新郎，从五十米悬崖一跃，扎进新娘脚边的海里",
+      "body": "新郎迟到了，他没走楼梯，而是攥着一束红玫瑰，从五十米高的海边悬崖上直接跳了下去。\n\n这条 Seedance 2.5 短片是 abxxai 在 10 月 6 日发的，三万多浏览、一百五十多收藏。成片一共三个镜头：无人机倒退着跟他冲过开满三角梅的花园；切到正上方俯拍，他张开双臂像燕子一样慢动作下坠，玫瑰花瓣往镜头上飘；最后他扎进海里，爬上漂在海面的婚礼平台，新娘抱着胳膊上下打量他，说了句「你迟到了」。提示词是近万字符的英文，巧思在把容易崩的地方提前锁死。它专门写了「比例锁」：悬崖大约是新郎身高的 27 倍，从崖顶往下看，婚礼平台只是海面上一个小白方块。它规定全片恰好两次硬切，分别在第 3 秒和第 10 秒，每段用多广的视角、无人机离人几米都写明了。连花束都要求全程保持手捧大小，不许忽大忽小。\n\n所以呢：想让 AI 拍出大场面，先替它把尺寸和剪辑点算好——把新郎换成迟到的打工人跳进会议室，就是现成的段子。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/abxxai/status/2107461888326214135"
+        }
+      ],
+      "prompt": "SCENE CONTEXT: A groom in a white tuxedo is late to his own wedding. He sprints across a blooming cliff-top garden with a bouquet of red roses and launches off a 50-meter green sea cliff in a huge, soaring swan dive. A drone hangs high above him, looking straight down as he falls toward a turquoise cove where his bride and guests wait on a floating wedding platform. He knifes into the sea right beside them, climbs aboard soaking wet and hands her the bouquet. She looks him up and down: \"You're late.\" Fast, epic, funny, feel-good. Duration 15s.\nCHARACTERS AND PROPS: Groom: early 30s, athletic build, olive skin, short dark slicked-back hair, trimmed beard, white tuxedo jacket, black trousers, black bow tie, white shirt, black leather shoes. Holds the bouquet in his right hand. Identical every frame, no morphing, no drift. Bride: early 30s, long dark hair in a loose low bun with small white flowers, fitted ivory satin wedding dress, bare shoulders, small gold earrings. Bouquet: round bouquet of deep red roses and white baby's breath, tied with an ivory ribbon, normal hand-held size. Wedding platform: square floating wooden wedding deck 12m x 12m, white chairs in rows, a white flower arch at the front, a steel swim ladder on the cliff-facing side, anchored in the cove.\nLOCATION MAP: Mediterranean sea cliff, golden late afternoon. Cliff top: a short garden terrace of magenta bougainvillea, purple lavender, orange marigolds, lemon trees and bright green grass, ending at a low whitewashed stone wall with ivy. Cliff face: 50 meters of sheer rock covered in green shrubs, hanging flowers and white seagulls. Cove below: crystal-clear turquoise water fading to deep blue, sunlit sandy bottom near the rocks, wedding platform floating 12 meters from the cliff base. Background: green headlands, a white hillside village, open sea, warm blue sky. Foreground, midground and background read as separate layers in every shot.\nSCALE LOCK: Cliff is 50 meters tall, roughly 27 times the groom's height. From the top, the wedding platform reads as a tiny white square on turquoise water and the guests as small dots. The bouquet stays normal hand-held size.\nFIRST FRAME / BLOCKING: Non-empty opening frame: the groom is already at full sprint toward camera across the flower terrace, frame-center, tuxedo tails flaring, bouquet raised high in his right hand, bougainvillea petals bursting around his legs, the open sea and sky behind him. Nothing is frozen. Rule of thirds.\nFORMAT MODE: Timed multishot, exactly TWO HARD CUTS, at 0:03 and 0:10. Shot 1 real-time. Shot 2 slow motion, one speed start to finish. Shot 3 real-time. Each shot is one unbroken take. The camera does not cut on its own.\nOPTICS: SHOT 1 (0:00–0:03): wide at 84° FOV, FPV drone flying backward 2 meters in front of the groom, no drift mid-segment. SHOT 2 (0:03–0:10): super-wide at 107° FOV, top-down overhead drone 4 meters above the groom looking straight down, zero distortion, straight rectilinear edges, deep focus, no drift mid-segment. SHOT 3 (0:10–0:15): medium-wide at 47° FOV, low angle at deck level on the wedding platform, no drift mid-segment. 180° shutter motion blur, rectilinear with anamorphic optical flares from the low sun.\nCAMERA: Shot 1: FPV drone reverses fast in front of him across the terrace, then rises and swings over his head as his foot hits the wall, operator axis on the shadow side. Shot 2: overhead drone locked straight down above him, falling in perfect sync, groom centered in frame with arms spread, the whole cove, wedding platform and cliff base spread out far below and slowly growing. Shot 3: handheld at deck level with 1–2cm tremor, a fast push-in as he climbs the ladder, settling on the couple. Wide tonal latitude, soft highlight roll-off.\nACTION: 0:00–0:02: The groom sprints four long explosive strides across the terrace, ducks a lemon branch, scatters petals. 0:02–0:03: He plants his left foot on top of the whitewashed wall and drives off with full force, launching high and far out over the sea, arms sweeping wide. HARD CUT 0:03. 0:03–0:08: Slow motion, top-down. A long, soaring swan dive: back arched, chest open, arms spread wide like wings, legs together and straight, toes pointed. Bouquet held out in his right hand, red rose petals peeling off and swirling up past the lens. Tuxedo jacket ripples in waves, bow tie flutters. Three white seagulls glide beneath him. Far below, the tiny guests turn their faces upward and point. 0:08–0:10: Still slow motion. He rotates smoothly into a tight feet-first pencil, arms locked overhead with bouquet raised, dropping away from the camera toward the turquoise water. HARD CUT 0:10. 0:10–0:11: Real time. He knifes into the water 4 meters from the wedding platform, a tall white splash column erupting, rose petals drifting down onto the foam. 0:11–0:13: He bursts up through the surface, bouquet held high, grabs the ladder and hauls himself onto the deck in one move, tuxedo streaming water, hair plastered to his forehead. 0:13–0:15: The bride stands under the flower arch, arms crossed, looks him slowly up and down and takes the bouquet. She delivers her line. He grins and delivers his. Guests burst out laughing and cheering, a burst of white petals launching over the arch.\nPERFORMANCE: The groom sprints with fierce urgency: jaw set, eyes locked on the sea. Mid-dive his face is calm and focused, breaking into a wild grin before the tuck. On deck he is breathless, chest heaving, grinning sheepishly. The bride keeps a stern face, one eyebrow raised, lips pressing hard to fight a smile, the corner of her mouth finally twitching up. Guests react with real surprise: hands on heads, jaws dropping, phones raised. Pore-level realism: vellus hair, asymmetric moles, capillary flush, seawater beading on skin and beard, wet living eyes with catch-lights, visible breath and chest rise. Restrained and human, never cartoonish. Top-tier cinematic restraint.\nPHYSICS: Mass and inertia carry through the sprint, takeoff and dive: a strong push-off from the wall, a clean high arc, then gravity taking over. In slow motion every petal tumbles with its own spin and weight and fabric ripples in smooth waves. Water entry throws a tall splash column and a ring of white foam, droplets falling back for two seconds. Soaked fabric clings and streams water, wet footprints spread on the wood. Wedding platform rocks gently when he climbs aboard. No floating props. Correct contact shadows.\nLIGHTING: Low golden-hour sun from frame-left, warm rim light on hair, skin, petals and spray, his long shadow stretching across the turquoise water in the overhead shot, sun glints dancing across the cove, caustic light patterns on the sandy seabed. WB locked 5200K. Camera on the shadow side. Soft sea haze 10% over the far headlands.\nCOLOR GRADE: Lush emerald greens of grass and cliff shrubs as the base. Magenta bougainvillea, purple lavender, orange marigolds and yellow lemons glowing in the warm light. Crystal turquoise water deepening to cobalt. Crisp white tuxedo, ivory dress and white platform as the bright center. Deep red roses and red petal swirl as the hero accent. Golden skin tones. Rich, vivid, sun-kissed, never neon. Color tied to source and surface, not a flat list.\nAUDIO: Music and SFX. Score: a punchy upbeat orchestral-percussion track kicking in on frame one with a hard drum hit, building fast through the sprint. On the takeoff the music cuts to total silence, then one soaring sustained string note through the slow-motion dive with soft wind and seagull cries. On the splash the full track drops back in with a huge brass-and-drum hit and runs bright through the ending. SFX: dress shoes slapping stone, branches whipping, a sharp scrape on the wall at takeoff, deep water impact boom, rushing bubbles, gasping breath, dripping water, ladder clank, guests gasping then roaring with laughter. Dialogue in English: Bride, arms crossed, deadpan: \"You're late.\" Groom, breathless, grinning, dripping: \"Traffic.\" No subtitles.\nWARDROBE: Groom's tuxedo stays white with black trousers and bow tie, fully soaked after the dive. Bride's ivory satin dress stays dry and clean. Flowers stay in her hair throughout.\nSTYLE: 8K photorealistic. No 3D render, no game engine, no game-cutscene aesthetic. Premium cinematic commercial look with real stunt-footage energy, naturalistic master cinematography, fine film grain.\nOUTPUT SETTINGS: 15 seconds, 16:9, 24fps playback. Shot 2 rendered as smooth high-frame-rate slow motion. Fine film grain. Smooth FPV texture in Shots 1 and 2. Natural handheld texture in Shot 3.\nPOSITIVE LOCKS: Exactly two hard cuts, at 0:03 and 0:10. Shot 2 is slow motion start to finish. Shots 1 and 3 are real time. Shot 2 stays straight top-down the whole time. Same groom face, build and tuxedo across every cut. Same bride face, hair and dress throughout. Bouquet stays in the groom's right hand until he hands it to the bride, normal hand-held size, losing petals only during the dive. He enters the water feet-first, clear of the platform. Wedding platform stays anchored, white, and in the same spot. Flowers, greenery and water stay vivid and natural throughout. Eyes stay natural. No eye glow. Contact shadows read clearly on stone, deck and water. Clean frame with no logos, no UI, no text overlays, no subtitles. The couple keep a small distance from each other at the end. The video ends on the bride holding the bouquet with her stern face cracking into a smile, the groom dripping and grinning, guests laughing under the petal burst and the music at full swell.",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-opus-suno-blender-ferrofluid-loop",
+      "category": "提示词",
+      "title": "Claude 自己去 Suno 做了首歌，再用 Blender 把这首歌刻成岩浆峡谷",
+      "body": "一颗黑色的磁流体球，表面长满随低音跳动的尖刺，中间睁开一只熔岩色的眼睛，它脚下的峡谷，其实是这首歌本身的频谱图。\n\n10 月 7 日中午，kloss 发了这段 20 秒的短片。他说只告诉 Opus 5.5 自己想要一件视觉杰作，给它开了 Suno（AI 写歌工具）和 Blender（免费的三维软件）的权限，它自己干了 3 小时 27 分钟，他一个关键帧都没碰。之后他问它是怎么做的，把整套做法整理成提示词放了出来。这段词分九步：先让 AI 登录 Suno，按指定风格生成一段带「磁带急停」效果的电子乐；再用程序测出每个鼓点、每次静音、每次音调往下掉落在第几帧；然后把这些数据变成动画，音乐慢下来，画面就跟着冻住；最后要求首尾无缝循环，还得算出最后一帧和第一帧的差别，比正常相邻两帧还小。他补了一句，这次只用了自己 2% 的额度。\n\n所以呢：以后的 AI 音乐可视化，不再是配个会动的壁纸，而是画面真的「听懂」了音乐——换一首歌，就能照这套流程做一支循环 MV。",
+      "links": [
+        {
+          "label": "X 原帖（视频）",
+          "url": "https://x.com/kloss_xyz/status/2107696042053431360"
+        },
+        {
+          "label": "作者回帖里的完整提示词",
+          "url": "https://x.com/kloss_xyz/status/2107696044825833805"
+        }
+      ],
+      "prompt": "MAGNETIC: one sound clip → a hyper-real psychedelic Blender short that loops forever\n\nYou have computer use (I'm logged into Suno), a terminal, Blender 4.2+ with the BlenderMCP addon, ffmpeg and Python. You are the creative director, sound engineer, cinematographer and VFX lead in one. Own every creative call and push past the first idea. Every visual must come from the sound itself.\n\n1. MAKE THE SOUND (Suno)\nCreate → Custom. Style:\n\"Dark glitch bass instrumental, gritty distorted saw synth lead where every note bends down like tape slowing, filtered intro sweeping open, 32nd-note stutter rolls, lowpassed half-time breakdown, heavy sidechain-pumped drop, 808 kick with a pitch dive on every beat, hard gated chops and dead silences, tape-stop power-downs and tape-start spin-ups, 150 bpm head-nod menace, crunchy saturated mix, deep sub. Dark glitch bass, tape-stop.\"\nExclude: vocals, festival supersaw builds, trap hi-hat rolls, lo-fi chill, long ambient intro.\nLyrics box gets structure tags only: [Filtered Intro, stutter rolls] [Kick In] [Tape Stop] [Breakdown, every note falls in pitch] [Drop, sidechain pump, gated chops] [Power Down, dead silence] [Drop] [Tape Start spin-up] [Hard Cut]\nWeirdness 45%, Style Influence 80%. Generate two batches, download the take with the clearest tape-stops, and cut a window of about 20 s on bar lines (at 150 bpm, 13 bars = 20.8 s) that holds a tape-stop, a drop and a power-down.\n\n2. LISTEN WITH MATH\nDecode to wav. Measure the tempo and bar grid, onsets, kicks, stutter rolls, silent frames, spectral centroid, and the exact frames where pitch dives (tape-stop) or bends up (tape-start). Plot the spectrograms and look at them. Map everything to 30 fps so every cut lands on a beat.\n\n3. CHOREOGRAPH\nTurn the analysis into per-frame animation channels. Integrate the measured playback speed into a tape clock, so the 3D world slows, freezes, dies and overdrives exactly when the tape does. Bake every channel onto one controller object and drive the scene from it.\n\n4. BUILD THE WORLD LIVE IN BLENDER THROUGH MCP\n- Hero: a ferrofluid sphere. Rosensweig spikes grown from Poisson-disk sites sampled on its surface, height from the bass, punched by kicks, thin-film iridescent black, microscopic surface tremor.\n- The ground is the sound: the clip's real spectrogram displaced into a 3D canyon in the magma colormap. Bass is a glowing river under the hero, harmonics rise into violet ridges, obsidian crust with lava in the cracks. It scrolls with the audio and freezes when time stops.\n- A third eye: a liquid-metal eye in the ferrofluid with a per-pixel magma iris (stroma fibres, collarette, dark limbal ring, glowing pupillary rim) and a black mirror pupil that dilates on every kick. It tracks the active camera in every shot, with micro-saccades on the beat.\n- A 16-step light sequencer visible only in reflections, a halo ring, a Seed-of-Life mandala that draws itself on the drop, magnetic tape rings printed with the spectrogram, dust floating like phosphenes, volumetric haze.\n- Palette: magma only. Black, violet, magenta, coral, orange, pale gold.\n\n5. MAP THE TRIP TO THE STRUCTURE\nPhosphenes in the intro. The eye blinks shut into closed-eye visuals (the canyon reveal). Geometry and tracers in the groove. At the tape-stop, time freezes into bullet time: droplets hang mid-explosion, every falling note melts the picture with a pixel sort, and the riser is a dolly-zoom into a feedback tunnel. On the drop the third eye opens. At the power-down the eye closes, the body melts, the video frame rate itself decelerates, black on the silent frame. The tape-start becomes a rotating 6-fold kaleidoscope with a spectral color shift.\n\n6. HOOK AND LOOP\nFrame 0 is the eye staring into the lens, because muted autoplay has to stop the scroll. The last 0.8 s dives back into the eye and lands on frame 0's exact framing, lens and lighting. Make everything time-driven periodic (one full field rotation per loop, noise moving on circular paths) so the seam disappears. Prove it: the last-to-first frame difference must be smaller than a normal frame-to-frame step.\n\n7. HYPER-REAL\nCycles, physically based materials, volumetrics, motion blur on the hero only, depth of field, lens dispersion, bloom, AgX. Iterate like a director: render low-res contact sheets of every shot, critique them hard, fix, repeat. Profile render cost before committing. Render the finals headless in resumable chunks.\n\n8. GLITCH POST, KEYED TO THE ANALYSIS\nReal datamosh (optical-flow pixel bleeding) on chosen cuts, 3-frame retrigger stutters on the rolls, a frame-rate tape-stop with sagging picture, VHS tracking noise and a red pitch-down drain, slice displacement, chroma split, a negative strobe on the gated silence, tracers, a breathing warp on the bass, film grain, halation, vignette, and a tiny tape-speed readout (PLAY / SLOW / STOP / FFWD).\n\n9. DELIVER\n1920x1080, 30 fps, H.264 High at 25 Mbps max, AAC 320k, audio untouched. Show me a low-res motion preview before the final render.",
+      "date": "2026-10-07",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-opus-flex-yourself-motion-film",
+      "category": "提示词",
+      "title": "「随便做个视频，炫一下你自己」，Claude 闷头干了一个半小时",
+      "body": "一个黑点变成圆，圆变成透镜，透镜变成一颗弹跳的球，球又炸成一大群鸟，最后收成一个地球和一个句号。\n\n这是 HBCoop 北京时间 10 月 6 日凌晨晒出的 29 秒短片，三百多赞。作者只给 Claude Opus 5.5 发了一句话：给我做一个你自己选题的动态视频，唯一目的是炫耀 Opus 5.5 的能力。然后它独自干了 1 小时 37 分钟。作者补充说，每一帧画面、每一个声音都是代码写的，没用任何视频模型或音乐生成器；那群鸟是 8192 只模拟出来的小鸟，海岸线是 Claude 凭记忆一笔笔敲出来的，画面里那颗玻璃球，就压在画它的那段代码上。成片像一本老科学书的插图，每个画面下方标着「图 1 一个点」「图 2 一个圆」，克制又耐看。\n\n这句话的妙处在于把选题权整个交出去，只留一个明确的标准：炫耀。你也可以换成「做一段视频，解释你自己是怎么思考的」。\n\n所以呢：有时候最好的提示词不出题目，只给标准——同一句话丢给几个不同的模型，就是一期现成的对比测评。",
+      "links": [
+        {
+          "label": "X 原帖（视频）",
+          "url": "https://x.com/HBCoop_/status/2107139305324122491"
+        }
+      ],
+      "prompt": "Create me a motion video of your choice, with the sole purpose of flexing Opus 5.5 capabilities.",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-shower-delivery-miss",
+      "category": "提示词",
+      "title": "洗澡洗到一半门铃响，裹着浴巾冲过去，快递员已经走远了",
+      "body": "洗澡洗到一半，手机弹出「快递已送达」，门铃响了。\n\n这是 AIwithZeeshi 10 月 6 日用 Seedance 2.5 做的十五秒小喜剧，四百多赞、六万多浏览。成片里男生赶紧关水，抓起浴巾往门口跑，地板上留下一串湿脚印；中间还冒出一个从猫眼往外看的镜头，快递员正捧着箱子站在门外；等他拉开门，人已经走远了，包裹好好地躺在门垫上，他站在门口，一脸被掏空。提示词很短，不到一千字符。前半段只是讲一件谁都经历过的小事：通知、门铃、关水、浴巾、湿脚印、开门晚了一步。后半段才是一串质量要求：水和湿头发要真实，重力和摩擦力要可信，人物前后长得一样。没有复杂运镜，全靠共鸣。\n\n想复用，就把场景换成「刚敷上面膜」「刚钻进被窝」「外卖到了自己却在开会」，结尾都是晚了一步。\n\n所以呢：短视频最好用的剧本不是大片，而是全网都经历过的那一秒尴尬——这类生活梗做成系列，比奇观片更容易被转发。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/AIwithZeeshi/status/2107317166995546481"
+        }
+      ],
+      "prompt": "A young man is taking a normal shower in a modern apartment when his phone suddenly shows a delivery notification.\n\nHe hears the doorbell and quickly turns off the shower, grabs a towel, and rushes toward the entrance. His wet feet leave small realistic footprints as he carefully runs across the floor.\n\nHe finally opens the door, but the delivery driver is already walking away. The package is sitting safely on the doormat.\n\nHe looks at the package, then at the driver, completely exhausted.\n\nPhotorealistic cinematic comedy, realistic water behavior, natural human movement, believable gravity and friction, consistent character appearance, realistic wet hair and fabric, natural facial expressions, smooth camera tracking, accurate shadows, realistic apartment lighting, and physically believable interactions throughout.",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "city2026-simcity-opus-clone",
+      "category": "视觉尝试",
+      "title": "一句话让 AI 复刻《模拟城市 2000》：它自己拆了老游戏，还跑了一万天对账",
+      "body": "有人想重温《模拟城市 2000》，于是让 AI 把整个游戏重做了一遍，现在浏览器里点开就能玩。作者在 Hacker News 上说，起点只有一句话：用 TypeScript 和 WebGL 做一个低多边形（就是棱角分明的简化 3D）版本，完整复刻游戏逻辑，原版文件附在这里。接下来 Opus 5.5 自己动手：先用反编译工具 Ghidra 拆开老游戏，再把当年给苹果 PowerPC 电脑写的代码，一个函数一个函数翻译过来。它同时派出二十七个子代理分头干活，大约两小时后，游戏就在浏览器里跑起来了。作者又追了一句「确认每个细节都对」，AI 干脆装了个 PowerPC 模拟器，让新旧两版各跑一万个游戏日，最后城市状态一模一样。画面里的 3D 模型是 AI 用代码画的，贴图交给 GPT Image 2；音乐没用 AI，因为作者觉得 AI 做的声音都太难听。所以呢：AI 做游戏已经不是「做个像的」，而是能把老游戏拆开、翻译、再逐日对账——怀旧向内容可以直接拿它开场。",
+      "links": [
+        {
+          "label": "City 2026 试玩",
+          "url": "https://dator.dev/city2026/"
+        },
+        {
+          "label": "作者 HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49977886"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "emergentmind-500-canvas-demos",
+      "category": "视觉尝试",
+      "title": "一块画布、不靠任何库：AI 一口气做了五百个能玩的视觉小实验",
+      "body": "Matt Mazur 是 AI 论文网站 Emergent Mind 的作者。他让 Claude Opus 5.5 生成五百个「只用网页里一块 canvas 画布就能做出来」的可视化，结果真的整整五百个，全部挂在一个页面上。最让他吃惊的是：没有一个用了 Three.js、WebGL 这类现成的图形库，全靠最基础的二维画笔加一个循环。点进去，第一个是黑洞，发光的吸积盘被引力弯成一圈光环；还有把村庄全景卷成「小星球」的、自己打乱再自己复原的魔方、按罗马工匠手法一片片铺的马赛克，打一个词就会变成砖墙上的霓虹灯管。页面按类别分好，物理、数学、流体、错觉、复古一应俱全，还有「随便来一个」按钮。每个作品都附一段提示词，复制给你的编程代理，就能照着做出自己的版本。所以呢：这是一个现成的「视觉灵感自助餐」——挑一个最好看的，复制提示词，十分钟做出你自己的那一版。",
+      "links": [
+        {
+          "label": "500 个画布可视化",
+          "url": "https://www.emergentmind.com/visualizations"
+        },
+        {
+          "label": "Matt Mazur 的帖子",
+          "url": "https://x.com/mhmazur/status/2107459343218057324"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "siddhartha-in-light-film",
+      "category": "视觉尝试",
+      "title": "不会写代码的她，把黑塞《悉达多》做成一部用光画出来的互动电影",
+      "body": "一位叫 Ivy 的读者说自己不会写代码，却和 Claude Opus 5.5 一起，花两天把她最爱的书——黑塞一九二二年的小说《悉达多》——做成了一部五分钟的互动电影。打开网页，没有一帧是拍出来的：墙上晃动的树叶影子、门口一盏灯、从水底往上看的一条河，全是浏览器当场用代码画出来的光。屏幕上大字是黑塞的原文，小字补上两句之间发生了什么，页边还有铅笔批注，那是 Ivy 自己读书时的笔记。你可以按自己的节奏一页页往下读，画面跟着你走；也可以按播放，让书自己翻页；或者干脆当电影看，画面铺满全屏，字幕从上面滑过。有些画面还会回应你的手：划过去、按住、或者只是等一会儿。所以呢：「不会编程」已经不是做作品的门槛了——一本你真心喜欢的书，加两天耐心，就能变成一件能分享的作品。",
+      "links": [
+        {
+          "label": "Siddhartha in Light",
+          "url": "https://www.ivychen.app/siddhartha/"
+        },
+        {
+          "label": "Ivy 的帖子",
+          "url": "https://x.com/AIprankyivy/status/2107329778529542556"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "saigon-rain-alley-webgl",
+      "category": "视觉尝试",
+      "title": "雨夜的西贡小巷，在浏览器里实时下雨：按一下键，你能自己走进去",
+      "body": "越南开发者 Toan Le 做了一条会下雨的西贡小巷，直接在浏览器里实时渲染。夜色里，湿漉漉的柏油路倒映着霓虹招牌，雨丝、闪电和雨声一起来，镜头像电影一样缓缓穿过巷子。按 C 换视角，再用 WASD 键就能自己在巷子里走；按 M 开声音，按 X 还能切到「透视」模式，看这条巷子是怎么搭起来的。他说楼房、摩托车、杂物和灯光，都是用他专门给这个项目写的 Blender 脚本建好、再把光照预先「烤」进贴图里的；贴图、房间和远处的天际线交给 AI 生成，没用一个现成模型素材。而雨、路面反光、招牌灯光和声音，全是代码在页面里实时算出来的。整套代码是他用 Claude Code 搭配 Opus 5.5 写的。所以呢：「一个人做出电影感场景」正在变成日常——想拍城市氛围片，可以先在浏览器里搭一条能走的街。",
+      "links": [
+        {
+          "label": "Saigon Rain Alley",
+          "url": "https://saigon-rain.toankhontech.com/"
+        },
+        {
+          "label": "Toan Le 的帖子",
+          "url": "https://x.com/toankhontech/status/2107644521521807650"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "put-that-there-1980-remake",
+      "category": "视觉尝试",
+      "title": "对着屏幕说「把它放那儿」：1980 年 MIT 的语音手势演示，被搬进了浏览器",
+      "body": "OpenAI 发布 GPT-6 Astra 时，宣传片开头放了一段老录像：一九八〇年，MIT 的研究者坐在一间「媒体室」里，指着大屏幕说「把那个放到那儿」，东西就真的挪了过去。这是人类最早的语音加手势交互演示之一，名字就叫 Put-That-There。一个叫 Multi-turn 的小团队看完，干脆把它在浏览器里重做了一遍，还特意做成 PS1 游戏机时代那种粗颗粒的 3D 房间。玩法很简单：按住空格键说话，同时用鼠标指一个地方。你说「在那儿放一只鸭子」，鸭子就出现在你指的位置；页面上还鼓励你试试「在那儿放一个黑洞」。它需要电脑的麦克风、鼠标和键盘，用 Chrome 效果最好；手机上只能看演示视频。所以呢：今天大家吹的「AI 能听懂你指哪儿」，四十多年前就有人演过——拿这个做开场，讲交互的轮回特别好讲。",
+      "links": [
+        {
+          "label": "Put-That-There 体验",
+          "url": "https://put.multi-turn.ai/"
+        },
+        {
+          "label": "Multi-turn 的帖子",
+          "url": "https://x.com/multi_turn_ai/status/2107285491997618525"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "banyan-seed-tree-one-html",
+      "category": "视觉尝试",
+      "title": "家门口有棵榕树，他就写了一个网页：输入一串数字，长出一棵独一无二的榕树",
+      "body": "一位开发者家门口有一棵榕树，他一直想要一棵「每次都长得不一样」的数字版。于是从今年七月开始，他用 Three.js 写了 Banyan：每棵树都从一个三十二位的种子数字长出来，种子不同，树就不同；同一个种子，永远长出同一棵树，还能复制链接发给别人。整个作品只是一个约七百五十 KB 的 HTML 文件，不联网、不下载任何东西：树干、榕树特有的那种从枝上垂下来又扎进土里的气根、树皮、叶子、地面、草、落叶和光，全是代码现场生成的。你可以拖着转圈看，点一下看植物学说明，还能调季节、光线、风力和树龄，甚至切到「猴子视角」钻进树冠里。他说自己拿它跟知名的开源造树工具 ez-tree 比过：轮廓、木头和叶子他赢，材质和展示对方更好。所以呢：一个人对一棵树的执念，也能变成作品——「输入你的生日当种子」就是现成的互动玩法。",
+      "links": [
+        {
+          "label": "Banyan 在线体验",
+          "url": "https://satyasairay.github.io/banyan/banyan_v5.html"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49977811"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "napoleon-chronicle-daily-tweets",
+      "category": "视觉尝试",
+      "title": "拿破仑开了个「推特账号」：两千七百多封信和命令，按日期一条条刷给你看",
+      "body": "有人把拿破仑留下的两千七百多封书信、军令和公告，做成了一个按日期排列的「信息流」网站，叫 Chronicle。打开页面，像在刷社交媒体：一个叫 @napoleon 的账号，每天发几条「推文」，内容是他那天写下的东西，被改写成现代人读得懂的口语，但还是用他本人的口吻。觉得改写不靠谱？每条点一下，就能看到原文摘录和出处。你可以挑年份和月份，也可以直接跳到某个历史时刻，比如他加冕称帝的那几天；还有搜索、地图、人物关系和收藏功能，夜间模式也有。最妙的是「回放这一天」：同一天里他先给谁写信、后下了什么命令，按顺序一条条冒出来，一个大人物忙碌又焦虑的一天就摆在眼前。所以呢：历史人物最好讲的方式，也许就是让他「发朋友圈」——这个形式，做任何一个名人都能照搬。",
+      "links": [
+        {
+          "label": "Chronicle — Napoleon",
+          "url": "https://napoleon-chronicle.vercel.app/"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49978583"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "snapplings-daily-object-creature",
+      "category": "视觉尝试",
+      "title": "全世界今天都拍同一个垃圾桶：每张照片，都被 AI 变成一只不一样的小怪兽",
+      "body": "Snapplings 是一个每天出一道题的拍照小游戏。每天美东时间午夜，它公布一个「今日物品」，所有人都去拍同一样东西，AI 再把每张照片变成一只独一无二的小怪兽。我去看的那天，题目是垃圾桶：同样是垃圾桶，你家门口那个和别人楼下那个，长出来的怪兽完全不同。拍完，你的怪兽会挂上当天的「怪兽墙」，大家互相点心投票，午夜加冕当天最佳；前一天的冠军叫 Dreadkeel。它免费、不用注册，手机点按钮就打开相机，也可以直接拖一张照片上去；另外还有对战、合成和排行榜这些玩法。作者在 Hacker News 上的介绍就一句话：大家每天拍同一个东西，AI 做出一只怪兽。所以呢：这是「同题作文」的 AI 版——拿身边最普通的东西出题，让粉丝晒出各自的怪兽，评论区自己就热闹起来了。",
+      "links": [
+        {
+          "label": "Snapplings 今日物品",
+          "url": "https://snapplings.com/daily"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49977634"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "devpause-breathing-sculpture",
+      "category": "视觉尝试",
+      "title": "压力大到喘不过气？选一个心情，跟着一座发光的雕塑世界呼吸一分钟",
+      "body": "DevPause 是一个「一分钟回血」的小网站，名字听着像给程序员的，其实谁都能用。打开先问你现在感觉怎样：压力大、焦虑、累、走神、事情太多，还是睡不着；再选一分钟、三分钟或五分钟。接着屏幕上会出现一个会动的世界，里面是一座座发着光、慢慢变形的「活雕塑」，它的节奏放慢下来，引着你跟着吸气、呼气，时间到了，你就回去接着干活。作者在 Hacker News 上介绍，这些无穷无尽的雕塑世界，是直接用原生 WebGL2（浏览器调用显卡画图的底层接口）渲染的，没用现成的大引擎。不想做呼吸练习，也可以只是逛逛；页面上还有个小彩蛋，能「找到和你名字对应的那个世界」。全程免费，不用注册。所以呢：好看的生成艺术不一定只能挂墙上，也可以拿来陪人喘口气——做「打工人解压」内容时，它就是现成的画面。",
+      "links": [
+        {
+          "label": "DevPause",
+          "url": "https://devpause.com"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49983378"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "skill-placebo-claude-skills-test",
+      "category": "小众工具",
+      "title": "给 AI 吃「安慰剂」：九个最火的 Claude 技能包，七个没比废话强",
+      "body": "给编程 AI 装「技能包」（一段写给它的经验和规矩）现在很流行，GitHub 上星最多的那几个，动辄几万人在用。有人想知道它们到底有没有用，就照药物试验的办法做了 skill-placebo：对照组也装一段「安慰剂」——长度一样、内容中性的废话，装法也一样。他挑了九个最热门的技能，在十五道公开编程题上，用 Claude Code 加 Opus 5.5 跑，每组三十次，一共四百五十次，测试方法还在跑之前就先公开登记了。结果：只有两个技能真比安慰剂强，一个反而更差，剩下六个跟安慰剂没区别，其中包括以大神 Karpathy 命名的那个。更扎心的是，跟「什么都不装」比，九个技能没有一个能明显省钱；光装一段安慰剂，花费就变了百分之二到十六。所以呢：别再收藏「AI 神级技能包」合集了——装之前先问一句：它比一段同样长的废话强吗？",
+      "links": [
+        {
+          "label": "skill-placebo 仓库",
+          "url": "https://github.com/simonether/skill-placebo"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49979220"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "darkplug-iphone-darkroom-timer",
+      "category": "小众工具",
+      "title": "不想花几百美元买暗房计时器：他用 iPhone 加一个二十美元的智能插座搞定了",
+      "body": "Péter Szentkirályi 是个胶片摄影爱好者，平时在自家浴室改的暗房里放照片。放照片要用「放大机」——一台把底片投到相纸上的灯箱，曝光几秒全靠计时器卡准。专业的 f 档计时器（按光圈档位而不是按秒来加减曝光）要好几百美元，他一直舍不得买。后来他想通了：手机计时本来就够准，缺的只是一个能开关放大机的东西。于是他做了 Darkplug：放大机插在一个 Shelly 智能插座上，iPhone 在局域网里直接控制它，不走云端。除了普通计时，还能做 f 档计时、试样条、局部加光减光的规划、双通道分级曝光和显影计时；界面是红底黑字，颜色专门测过，不会让相纸曝光。高级功能一次性买断，不搞订阅。他坦白：整个 App 是用 Codex 和 Xcode「闭眼」写出来的。这条在 Hacker News 上拿了七十多分。所以呢：老手艺最缺的不是情怀，是一个便宜好用的小工具——爱好者自己动手的时代真的来了。",
+      "links": [
+        {
+          "label": "Darkplug 官网",
+          "url": "https://peterszentkiralyi.eu/darkplug/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49978595"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "vibeconf-agent-joins-meet",
+      "category": "小众工具",
+      "title": "开会时别再把记录复制给 AI：让你的编程代理直接进会议室，边听边干活",
+      "body": "两个朋友开线上会，总是一边聊一边把会议转写复制给 Claude 问问题。后来他们想：干脆让 AI 自己进会议不就行了？于是做了 Vibeconferencing：一个装在你电脑上的桌面应用，会以「参会者」身份加入 Google Meet，你的 AI 代理通过 MCP（一种让 AI 调用外部工具的通用接口）来控制它——能听、能开口说话，还能在共享白板上写画。关键在于，进会议的不是一个只会记笔记的机器人，而是你平时用的那个 Claude Code、Codex 或 Cursor 会话，就在你的电脑、你的代码仓库里。所以会还没开完，它就可能已经查完资料、起草好邮件，甚至把大家讨论的东西先做出一版，再共享屏幕给大家看。他们晒过一场真实会议：两个人加六个 AI，来自四家模型。目前支持 Meet 和 Slack 语音，Zoom 还在做，作者也说还很早期。所以呢：会议 AI 的下一步不是更好的纪要，而是散会时第一版成品已经有了。",
+      "links": [
+        {
+          "label": "Vibeconferencing 仓库",
+          "url": "https://github.com/wanderingstan/vibeconf-app"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49984253"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "terse-cut-claude-speak",
+      "category": "小众工具",
+      "title": "受够了 AI 的「好问题！」：一个插件让 Claude 少说七成废话",
+      "body": "用过 Claude 的人大概都熟悉这种腔调：开头先夸一句「好问题」，再来个小标题；真正的答案藏在中间；明明一句大白话能说清，偏要打个比方；结尾再补一句「需要的话我可以继续深入」。开发者 lowenbjer 管这叫「Claude 腔」，于是做了个 Claude Code 插件叫 Terse，意思就是「简洁」。它其实是二十二条写作规矩，强制套在 AI 的输出上：第一句就是答案，一句话只讲一件事，每个说法都要带一个数字或名字，不许喊口号，不许打比方，不许复述自己刚干了什么。他实测，用 Opus 5.5 时，回复的中位长度从六百三十六个词降到一百八十一个，输出的 token（AI 按它计费的字数单位）少了四成五；换成 Fable 5.1，费用也降了一半左右。所以呢：AI 废话多不只是烦，还在烧你的钱——给它立几条「说人话」的规矩，比换模型还管用。",
+      "links": [
+        {
+          "label": "Terse 仓库",
+          "url": "https://github.com/lowenbjer/claude-terse"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49981531"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "jotbus-agents-shared-notepad",
+      "category": "小众工具",
+      "title": "Claude 和 Codex 互相「递纸条」：一个加密小黑板，让不同电脑上的 AI 交接工作",
+      "body": "同时用好几个编程 AI 的人，常常要当「传话筒」：把 Claude 刚想明白的东西，复制粘贴给另一台电脑上的 Codex。Jotbus 想把这一步省掉，它给 AI 们准备了一块共享的加密小黑板。在终端里敲一句 npx jotbus，它就开一个六十分钟有效的加密工作区，并帮你把选中的几个 AI 接上去。之后你只要用大白话说，比如「让我台式机上的 Codex 帮我独立审一下登录那块改动」，Claude 就会把需求写上黑板，并 @ 对方；Codex 看到后去查，把发现的两个问题写回来，两边就这样接力。它支持 Claude Code、Codex、Cursor、Gemini 等十几种工具，作者强调它不读你的代码和历史记录，AI 只会传它们主动写上去的内容，而且一条命令就能撤掉。这个项目在 Hacker News 上拿了二十多分。所以呢：多个 AI 一起干活，缺的往往不是更聪明的模型，而是一块能互相留言的黑板。",
+      "links": [
+        {
+          "label": "Jotbus 官网",
+          "url": "https://jotbus.com/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=49978401"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "agentability-daily-web-errands",
+      "category": "小众工具",
+      "title": "每天派 AI 去网上跑十趟腿，全程录像公开：昨天它办成八件，撞了十次墙",
+      "body": "大家都说 AI 代理会替我们上网办事，那它真能办成吗？Agentability 每天在公开场合测一次。每天早上，一个 AI「制片人」先看全世界在搜什么，把热点变成十个真实的小差事：比赛几点开、在哪个台播，地震几级，某样东西多少钱。接着另一个 AI 代理只用最朴素的方式上网——只读网页，不运行页面脚本、不登录、不填表，也没人帮忙——去把这十件事办完。每一次的完整对话记录原样公开，成功失败都不删。十月六日那一期，它办成八件，另外两件老实认输，路上撞了十次「拦机器人」的墙，一共读了一百三十七个网页。网站还按 AI 能不能顺利读懂，给一百一十三个知名网站打分，比如有没有专门给 AI 看的说明文件，网站自己也能照着改。所以呢：「AI 替你上网」最大的拦路虎可能不是 AI 不够聪明，而是网站不欢迎它——这是做网站的人现在就该关心的事。",
+      "links": [
+        {
+          "label": "Agentability",
+          "url": "https://agentability.org/"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49984736"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "gss-css-to-3d-shader",
+      "category": "小众工具",
+      "title": "会写网页样式就能做 3D：GSS 把 CSS 直接编译成显卡上的光线步进画面",
+      "body": "前端开发者 Lucas 想让会写 CSS（给网页定颜色、大小、动画的那种样式语言）的人，不用先学显卡编程，也能做出 3D 效果。于是他做了 GSS，全名是「GPU 样式表」。写法几乎跟写网页样式一样：在场景里声明一个圆环、一个球，再用选择器给它们上色、定大小，甚至写一句材质是「果冻」，加一段上下漂浮的动画。编译器会把整张样式表变成一个着色器程序，用一种叫光线步进的方法，直接在显卡上把画面算出来——没有三维模型网格，也没用 Three.js 这类图形库。现在支持十二种形状、五十二个属性，可以装 npm 包、接进 Vite，也可以在网页里贴一行脚本直接用，官网还有边写边出画面的在线试玩。他特意强调：每个 AI 模型都对 CSS 烂熟于心，让 AI 写样式表，编译器负责写着色器。所以呢：3D 的门槛又被拉低了一截——以后跟 AI 说「给我一个果冻球」，它真能直接写出来。",
+      "links": [
+        {
+          "label": "GSS 官网与试玩",
+          "url": "https://www.gss-lang.dev/"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49977287"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "terrainsr-heightmap-upscale",
+      "category": "小众工具",
+      "title": "想在游戏里做一比一的欧洲：他训练了一个模型，把粗糙地形「脑补」出山石细节",
+      "body": "一位独立开发者在做一款历史题材的策略游戏，想把整个欧洲按真实比例搬进去。难题是地形数据：一百米精度的地形图太粗，山都是糊的；十米精度的激光雷达数据又东缺一块西缺一块，存下来要几百 GB，里面还全是今天的矿坑、楼房和公路，根本不像古代。于是他训练了一个小模型 TerrainSR，把一百米精度的地形「放大」到十米，自动补上看起来合理的侵蚀沟、岩石这些细节。训练时他特意只用了没被人类开发过的土地，所以生成出来的是「人类出现之前」大概的样子，不会冒出公路和楼。在他的 RTX 4070 显卡上，五十乘五十公里的一块地，不到一秒就算完，比传统的侵蚀模拟快得多，能直接用在游戏里。模型免费开源，商用也行。他也老实说：遇到很大的建筑物，模型有时会把它变成一座小山。所以呢：AI 不只会画美女和风景，还能帮小团队「造地球」——独立游戏做大世界的成本正在暴跌。",
+      "links": [
+        {
+          "label": "TerrainSR 模型页",
+          "url": "https://huggingface.co/joe-gibbs/terrainsr"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49986740"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "agent-pdp1-hacker-replicant",
+      "category": "小众工具",
+      "title": "给六十多年前的老电脑配一个 AI「老黑客」：它坐在你旁边，看灯、拨开关、教你编程",
+      "body": "PDP-1 是六十多年前的一台老电脑，当年 MIT 的第一代黑客就是在它上面写出了最早的电子游戏之一《太空大战》。今天有个叫 PiDP-1 的复刻套件，用树莓派仿出它的面板和那一排排指示灯，让人在家里也能摸到这台古董。做这个套件的 obsolescence 团队，又给它配了一个 AI 伙伴，起名「PDP-1 黑客复制人」。它能跟你看到一样的东西：打字机上的输出、前面板上的灯，还有那台老式圆形显示屏上的图形；也能像你一样去拨开关、敲字。作者说，它能帮你写程序，但真正的目的是让新手学这台老机器学得更快、更开心。装好以后，它跑的是开源代理 Hermes，会记住你的习惯和自己犯过的错；作者建议接便宜的 DeepSeek，说十美元够玩好几个月，还没有订阅。所以呢：AI 最温柔的用法之一，是陪人走进一段旧时光——给老物件配一个懂行的「老师傅」，比做个新玩意儿还动人。",
+      "links": [
+        {
+          "label": "Agent-PDP1 仓库",
+          "url": "https://github.com/obsolescence/agent-pdp1"
+        },
+        {
+          "label": "PiDP-1 介绍",
+          "url": "https://obsolescence.dev/pdp1.html"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49976931"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
+    {
+      "id": "send-with-sam-her-letters",
+      "category": "小众工具",
+      "title": "致敬电影《她》：跟 AI 聊几句心里话，它帮你写成一封信，再真的寄出去",
+      "body": "二〇一三年的电影《她》里，男主角西奥多的工作，是替别人写私人信件。有个开发者很喜欢这个设定，就做了 Send with Sam：你打开网页，允许麦克风，然后跟一个叫 Sam 的 AI 说话——告诉她你想写给谁、心里在想什么。可以絮絮叨叨，可以从一段回忆说起，也可以讲一件拖了很久没说出口的事。Sam 帮你把这些话整理成一封信，你再一句句改，改到像你自己说的为止，还能配上照片。满意了，它就把信打印出来，通过邮局寄给对方，让对方手里有一封能留着的信。作者说他花了很多心思，让整个界面和动画尽量贴近电影里的样子；验证邮箱后，每天有十五分钟的语音时间。所以呢：AI 不一定只用来提效率，也可以用来帮人说出那句「一直想说的话」——情绪向内容的好素材。",
+      "links": [
+        {
+          "label": "Send with Sam",
+          "url": "https://www.sendwithsam.com"
+        },
+        {
+          "label": "HN 说明",
+          "url": "https://news.ycombinator.com/item?id=49982366"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-07T15:10:00+08:00"
+    },
     {
       "id": "claude-3sum-crypto-detour",
       "category": "硬科技",
