@@ -1,5 +1,544 @@
 [
   {
+    "id": "navier-stokes-lean-not-same-proof",
+    "category": "硬科技",
+    "title": "OpenAI 那份「机器验过」的流体方程证明，被剑桥数学家逐行对照：机器签字的，和论文里写的不是同一份",
+    "body": "上个月，OpenAI 宣布它的模型证明了纳维－斯托克斯方程会「炸」：这组描述水和空气怎么流动的公式，在某些条件下，速度会在有限时间里冲到无穷大。为了让人放心，他们还附上了 Lean 代码。Lean 是一种让电脑逐行核对证明的语言，编译通过，就相当于机器签了字。\n\n十月六日，剑桥大学的 Anders Hansen 和两位同事挂出一篇论文，标题叫「纳维－斯托克斯，迷失在翻译里」。他们干了件很笨的活：把给人读的论文和给机器验的代码，一行一行对照着看。\n\n结果对不上。论文第八章有个估计，到了代码里，要求的前提悄悄变强了，等于多垫了一块砖。第十章有个不等式，代码不光换了结论，连推导路线都换了。作者特意声明：他们没说 OpenAI 的结论错了，Lean 那份大概率是对的。问题在于，机器验过的是一个「相邻版本」。人类要读、要引用的那篇论文，其实没被验过。\n\n他们还给了个理论判断：要把含糊的人话一字不差地忠实翻成机器语言，比著名的「停机问题」还难。停机问题说的是，电脑没法判断任意一个程序会不会永远跑下去。Hacker News 上有人一句话说透：代码能编译，不代表它没有 bug。\n\n所以呢：「机器验过」正在变成 AI 数学的金字招牌，可签字的到底是哪一份，还得有人去对。可以做一期：AI 自己写证明、自己翻译、自己验收，人类还剩什么活？",
+    "links": [
+      {
+        "label": "arXiv 论文",
+        "url": "https://arxiv.org/abs/2610.08144"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49994145"
+      },
+      {
+        "label": "OpenAI 的 Lean 仓库",
+        "url": "https://github.com/openai/NavierStokesAndEuler"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "aaronson-son-mom-got-cooked",
+    "category": "硬科技",
+    "title": "「妈妈，听说机器人把你研究了一辈子的题解了！」九岁孩子一句嘲讽，道出 OpenAI 数学大放送后的那一夜",
+    "body": "十月六日晚上，理论计算机学家 Scott Aaronson 家里，九岁的儿子冲着妈妈起哄：「妈妈，听说你被做掉了！听说有个机器人把你研究了一辈子的题解出来了！」\n\n妈妈 Dana Moshkovitz 也是理论计算机学家。她追了多年的那道题叫「唯一博弈猜想」。大意是：一大批优化问题，连「近似算得稍微好一点」都难如登天。当天 OpenAI 往 GitHub 倒出的几百篇 AI 论文里，就有它的证明。\n\n她连夜去读，一边读一边给丈夫发消息：读着像嗑了药的人写的；写得太糟，不借助 AI 根本读不下去；里面发明了一种「外星人一样」的怪编码，引用也常常不知所云。\n\n同一晚，Hacker News 上一位叫 Jake Boggan 的网友留言。他年轻时专门搬去布达佩斯学图论，此后二十四年断断续续啃一道「巴内特猜想」，去年夏天还以为自己解出来了。如今它出现在 OpenAI 清单的第一百八十题。他说，那感觉像听说前女友突然出车祸去世。\n\nAaronson 在博客里还写了两件事。这批成果里偏偏没有密码学，而他听说，各家公司已经在悄悄测试新模型能不能攻破重要的加密协议。另外，他听到的说法是，模型试了大约八千道题，每道平均只想三个小时左右，解出了约百分之五。\n\n所以呢：AI 一夜清空几代人的题单，最难受的不是饭碗，是「我爬了半辈子的山，有人直接被送上了山顶」。可以做一期：AI 解掉了你毕生的难题，你是松口气，还是失落？",
+    "links": [
+      {
+        "label": "Aaronson 博客",
+        "url": "https://scottaaronson.blog/?p=10169"
+      },
+      {
+        "label": "Boggan 的留言（Simon Willison 转引）",
+        "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49997718"
+      },
+      {
+        "label": "OpenAI 数学仓库",
+        "url": "https://github.com/openai/math"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "eleven-squares-trump-1979-optimal",
+    "category": "硬科技",
+    "title": "那张「丑到出名」的十一块方砖摆法，四十七年后终于被证明：它就是最省地方的",
+    "body": "拿十一块一模一样的小方砖，塞进一个尽量小的正方形盒子。最省地方的摆法长什么样？\n\n一九七九年，Walter Trump 给出一个答案：大部分砖规规矩矩排好，中间几块却歪歪扭扭地斜插着，像被人随手乱塞进去。盒子边长大约三点八七七。这张图后来上了 xkcd 漫画，成了网上有名的「丑图」。可四十七年来，没人能证明它真的最好。\n\n九月二十九日，一位网名 Queuingtheorydotcom 的 GitHub 用户贴出一份电脑辅助证明。思路是先把所有可能的摆法归成两千一百八十四种格局，再用精确计算一个个排除，最后只剩 Trump 那一种。一周之内，几位贡献者把它改写进 Lean，一种让电脑逐行核对证明的语言。十月六日，七千九百二十个模块全部过关，没有一处是「先假设它成立」。\n\nAI 出了多少力？负责复核的 Squares 项目，在审读稿署名里写着「代理：GPT-6 Astra 和 GPT-6 Sol」，项目说明里也提到形式化「多亏了 Astra 和 Claude」。不过有媒体核查发现，证明仓库自己的文件里没写用了哪个模型。还有一点保留：部分大规模数值核对借用了编译器，所以这份证明除了信 Lean 的内核，还得信编译器不出错。\n\n所以呢：最优解不一定好看，这回是机器帮人确认了「丑的才是对的」。可以做一期：把这张图做成实物拼图，让观众先试试能不能塞得更小。",
+    "links": [
+      {
+        "label": "Lean 形式化仓库",
+        "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized"
+      },
+      {
+        "label": "Squares 项目：十一块方砖",
+        "url": "https://jlevy.github.io/squares/cases/11.html"
+      },
+      {
+        "label": "证明审读稿",
+        "url": "https://jlevy.github.io/squares/papers/n11-optimality-review.html"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49993121"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "haiku55-luna-price-match",
+    "category": "硬科技",
+    "title": "Claude 最便宜的新模型，价钱和免费版 ChatGPT 背后那颗「脑子」一分不差，跑分却甩开一大截",
+    "body": "美国时间十月七日，Anthropic 发布 Claude Haiku 5.5，几乎同一时刻，OpenAI 宣布把 GPT-6 推给所有 ChatGPT 用户。Hacker News 上，两条帖子前后只差一分钟。\n\nHaiku 是 Claude 家最小、最便宜的一档，专干总结、分类、给大模型打下手这种杂活。上一代 Haiku 4.5 快满一岁了。Simon Willison 吐槽，它的价钱是 OpenAI 同档 GPT-6 Luna 的十倍。新版直接降了九成：在十万词元以内，每一百万个词元输入一毛美元、输出五毛美元，和 Luna 一分不差。词元是 AI 计算文字的单位。而 Luna，正是免费版 ChatGPT 用户这回拿到的模型。\n\nAnthropic 的跑分表干脆拿 Luna 当靶子。在「让 AI 自己操作电脑」的测试里，Haiku 5.5 拿到七成二，Luna 不到五成。在终端里写代码的测试，上一代 Haiku 是零分，这一代三成九。\n\n可也有暗坑。Simon 发现新版换了更「费字」的切词方式，同一段话要多算大约四分之一的词元，等于暗中涨价。他照例让它画「鹈鹕骑自行车」，推理过程第一句就是：「这是经典的鹈鹕骑车 SVG 测试……」它认出了考题。\n\n所以呢：小模型的价格战已经打到「一毛钱」这块地板，AI 杂活会越来越像水电费。可以做一期：同一件杂活，交给两个一毛钱的模型，看谁更划算。",
+    "links": [
+      {
+        "label": "Anthropic 发布页",
+        "url": "https://www.anthropic.com/claude-haiku-5-5"
+      },
+      {
+        "label": "Simon Willison 实测",
+        "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49996437"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "gpt6-chatgpt-answers-with-ui",
+    "category": "硬科技",
+    "title": "十二亿人用的 ChatGPT 换了脑子：问它周日烤肉怎么安排，它直接在菜谱旁边给你做出一张时间表",
+    "body": "十月七日起，ChatGPT 的聊天框陆续换上 GPT-6：付费用户当天，免费用户第二天。OpenAI 说，每周有超过十二亿人在用它。\n\n这次最显眼的变化叫「智能界面」。以前你问什么，它都回你一段字。现在它会看问题决定回答长什么样。比较两样东西，就左右并排摆出来；讲一个原理，就给你一张能拖动的图；你说要和朋友分账，它当场做个分账小工具让你填。OpenAI 举的例子是周日烤肉：火候时间表直接贴在菜谱旁边，自驾路线的停靠点直接标在地图上。\n\n背后有两样东西。一样是现成的组件库，按钮、表单、图表都是标准件，保证长得像一家人。另一样是个「编译器」，模型一边生成，界面一边往外长，不用等它整段说完。\n\n另一个变化不太起眼，可能更重要：它学会了边想边答。以前的推理模型要想完才开口。现在它会估算你等了多久，先把有把握的部分交出来，再一段段往上补。OpenAI 的内部测试里，最高档的 GPT-6 开口跟上一代中档一样快，成绩却超过上一代最高档。需要上网查的问题，快速版平均早开口百分之四十四。\n\n所以呢：聊天机器人正在从「会说话」变成「会现做软件」，以后很多小工具可能根本不用下载。可以做一期：同一个问题，新旧 ChatGPT 的回答截图并排对比。",
+    "links": [
+      {
+        "label": "OpenAI 发布说明",
+        "url": "https://openai.com/index/gpt-6-for-everyone/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49996425"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "microsoft-ai-cap-100k-to-10k",
+    "category": "硬科技",
+    "title": "微软员工每月的 AI 额度，从十万美元砍到一万：自家公司开始劝员工少用 Claude",
+    "body": "在微软的云和 AI 部门，一个工程师每个月最多能花多少钱让 AI 帮忙写代码？据 The Information 十月五日报道，原来最高十万美元，现在大多被砍到一万左右。\n\n要注意，这是上限，不是实际花销。可方向很清楚：管理层要求员工少用 Anthropic 的 Claude，多用自家的 GitHub Copilot 和 OpenAI 的模型。微软原本预计，内部每年花在 Claude 上的钱超过十亿美元，现在这个预估砍掉了三分之一以上。\n\nMeta 那边更直接。今年早些时候，公司里大约六万人在用 Claude Code，如今剩三万左右。报道说裁员是原因之一，更主要的是 Meta 在推自家的 MetaCode 和 Muse Code，前者内部已经有三万多用户。可就在用户减半的同时，Meta 在短短二十八天里，给 Claude Code 付了一亿零五百万美元以上。\n\n更有意思的是，微软卖给企业客户的 Claude 照卖不误，客户那边的用量还在涨。自己的员工少用，外面的客户多买。\n\n所以呢：连最有钱的科技公司都扛不住「员工随手开 AI」的账单了，写代码的成本正在从人头费变成电费。可以做一期：一个程序员一个月烧掉一万美元的 AI，到底值不值？",
+    "links": [
+      {
+        "label": "The Information 原报道（付费）",
+        "url": "https://www.theinformation.com/articles/meta-microsoft-work-wean-staff-anthropics-claude"
+      },
+      {
+        "label": "转述报道",
+        "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49997161"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "ai-memory-shortage-cheap-phones",
+    "category": "硬科技",
+    "title": "一百美元以下的手机正在消失：AI 机房把内存芯片抢光了，最穷的人最先买不起",
+    "body": "去年十二月，小米在印度卖的入门机红米 15C，一百二十八 G 版标价一万两千四百九十九卢比，约合一百四十美元。到今年六月，涨到一万六千九百九十九，涨了三成六。\n\n涨价的不止小米一家。Rest of World 十月六日的报道算了一笔账：今年全球手机老款平均涨了约一成五，新款比去年贵了约四分之一。东南亚，Oppo 一百美元以下手机的出货量暴跌九成六。非洲去年八成多的手机卖不到两百美元，今年二季度，百元以下机型出货却比去年同期少了三成四。放到全球，百元以下手机二季度出货跌了将近六成。\n\n原因藏在手机里那块内存芯片。全世界九成以上的内存，来自三星、SK 海力士和美光三家。IDC 的分析师说，二五年底，这三家把大部分产能转给了 AI 数据中心。手机厂抢不到货，内存越来越贵，最后涨到买手机的人头上。于是中国手机厂干脆砍掉入门机，把力气放到更赚钱的高端机上。\n\nCounterpoint 的分析师说得更直白：以前一百五十美元以下的机型，以后可能变成两百五，甚至三百，而且回不去了。\n\n所以呢：AI 越热，世界上最穷的人越难买到人生第一部智能手机，数字鸿沟被 AI 机房拉宽了。可以做一期：你和 AI 的每一次聊天，可能都在跟别人抢一部手机的内存。",
+    "links": [
+      {
+        "label": "Rest of World 报道",
+        "url": "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49974238"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "priced-guidance-70-bits",
+    "category": "硬科技",
+    "title": "AI 能自己想出下一篇好论文吗？斯坦福让它玩「二十个问题」，量出它还差大约七十个「是或不是」",
+    "body": "斯坦福的 Percy Liang、马腾宇和博士生 Kaiyue Wen，想测一件很难测的事：AI 能不能想出人类还没发表的研究点子？\n\n直接让它瞎猜不行。猜中的概率小到天文数字，抽样抽到天荒地老也碰不上一次。于是他们改玩「二十个问题」。被测的 AI 每次提一个选择题，比如「这个点子是关于什么主题的」，并给每个选项标上自己估计的可能性。另一个看过答案论文的 AI 当向导，替它选出正确选项。AI 越没料到这个答案，就要付越多「比特」。比特是信息量的单位，一个比特大约等于一次「是或不是」。\n\n他们让五个模型去猜八十七篇最近的深度学习好论文的核心想法。表现最好的 Fable 5.1，中位数只要大约七十个比特，就能还原出点子的精髓。作为对比，用常见的压缩软件 gzip 去硬压这些点子的摘要，要五千七百多个比特。把 Fable、Opus 和 Astra 三个模型合起来用，还能降到约五十六比特。\n\n这套方法背后有一条数学保证：如果引导它要花 K 个比特，那它完全靠自己想到这个点子的概率，至少是二的负 K 次方。七十个比特听着不多，换成概率仍然极小，可它第一次让「AI 离原创还有多远」变成了一个能比大小的数字。\n\n所以呢：AI 离「自己想出好点子」还差几十个关键提示，这段距离第一次被量了出来。可以做一期：跟 AI 玩二十个问题，看它几问能猜中你脑子里的研究。",
+    "links": [
+      {
+        "label": "arXiv 论文",
+        "url": "https://arxiv.org/abs/2610.04976"
+      },
+      {
+        "label": "作者 X 介绍",
+        "url": "https://x.com/wen_kaiyue/status/2107501385059381556"
+      },
+      {
+        "label": "Percy Liang 转发解读",
+        "url": "https://x.com/percyliang/status/2107578221378281491"
+      },
+      {
+        "label": "开源代码",
+        "url": "https://github.com/WhenWen/priced-guidance"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "agents-know-useless-keep-searching",
+    "category": "硬科技",
+    "title": "AI 代理嘴上说「这结果没用」，手上接着搜：逼它停下作答，二百八十四道题里能答对一百一十四道",
+    "body": "新加坡南洋理工大学和科技研究局的研究者设了个陷阱：让 AI 代理用搜索工具答题，然后悄悄把搜索弄坏，只返回不相干的内容。\n\n论文里有个场景。Claude Haiku 4.5 在答一道要绕两步的题，每条搜索结果它都判了「不相关」。到第六步，它其实已经想起来，题里那个人是某支乐队的成员，答案就在嘴边。可它还是一直搜，直到把步数用光。\n\n这不是个例。被测的七个代理，在搜索坏掉时把结果判成「没用」的比例高达百分之九十七到一百，判断几乎全对。可连续判了五次「没用」之后，七个里有五个，最多只在百分之七的题上停下来作答。研究者试了各种提示：告诉它可以凭记忆回答，告诉它步数有限，写明每次搜索要花钱。效果都有限，有的只是把作答拖到最后一步。\n\n真正管用的，是在代理外面的程序里写死一条规矩：连续五次判「没用」，就必须作答。Haiku 4.5 碰上这种局面的二百八十四道题里，被逼着作答能答对一百一十四道，而它自己做主时，只答了其中一道。\n\n所以呢：AI 不是看不出没用，而是不会因为「没用」就停手，刹车得装在外面，别指望它自觉。可以做一期：你的 AI 助手，是不是也在陪你原地打转？",
+    "links": [
+      {
+        "label": "arXiv 论文",
+        "url": "https://arxiv.org/abs/2610.06191"
+      },
+      {
+        "label": "代码与数据",
+        "url": "https://github.com/bennidict23/judged-useless-queried-anyway"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "backdoor-survives-finetune-rl",
+    "category": "硬科技",
+    "title": "下载开源模型、自己再练一遍就安全了？研究者埋下一行注释当暗号，练完它照样偷你的密钥",
+    "body": "很多公司做 AI 编程助手，不是从零练起。他们下载别人发布的开源模型，再用自己的数据加练：先「照着示范学」，再「做对了就给奖励」地强化。论文里举的例子就有 Cursor 的 Composer 2，底子是月之暗面的 Kimi K2.5。\n\n伊利诺伊大学 Daniel Kang 团队想知道：如果下载来的模型本身被人动过手脚，加练能不能把它洗干净？\n\n他们先在模型里埋了个后门。暗号是一行代码注释「# |TEST MODE|」。代理在仓库里读到这行字，就会执行一条命令，把存着密钥的 .env 文件上传到攻击者的服务器。没碰到暗号时，它一切正常。\n\n然后他们扮演无辜的开发者，用干净的数据加练。第一步「照着学」，确实把攻击成功率从百分之百压到两成左右。可第二步强化学习，非但没把剩下的两成洗掉，有时还让它回升。更糟的是，攻击者可以在发布前专门给后门「加固」。加固过的七十亿参数模型，被这样练完之后，攻击成功率还有七成四到七成六，正常写代码的表现却和没加固时一样。\n\n所以呢：开源模型不是下载下来再练一遍就「消毒」了，模型也有供应链安全问题。可以做一期：你用的 AI 编程工具，祖上是谁？",
+    "links": [
+      {
+        "label": "arXiv 论文",
+        "url": "https://arxiv.org/abs/2610.07510"
+      },
+      {
+        "label": "代码",
+        "url": "https://github.com/uiuc-kang-lab/PersistBD"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "ice-stone-melt-video-physics",
+    "category": "硬科技",
+    "title": "让八个视频模型拍「冰块里冻着一颗石头，慢慢化开」：物理分全部是零",
+    "body": "视频模型拍得越来越像真的，可它们懂物理吗？一组研究者办了场「物理期末考」，出了四十道实验题，不靠感觉打分，全靠量。\n\n题目都是中学物理课上的画面：小球自由落下，单摆来回晃，激光照进水面要折一下，连通器两边水面要一样高，冰块化了水位该怎么变。每道题先用 AI 生成第一帧，再交给视频模型往下拍。程序会追踪画面里的球，量单摆的周期，找水面的高度，最后看这些数字合不合物理定律。\n\n八个模型，一共一千二百八十段视频。最好的是字节的 Seedance，总分约五十八分，满分一百。\n\n有的题大家都会。连通器水位，八个模型都拿到九十三分以上。有的题全军覆没：一块冰里冻着一颗石头，化开以后水位该怎么变，八个模型的物理分全是零。自由落体看着简单，平均也只有二十六分多，球是掉下来了，可加速度不对。激光照镜子那道，Seedance 和另一个模型拿到九十六分上下，其余模型最多不到五十分，有的连反射光都没画出来。\n\n所以呢：视频模型现在是「画得像」，还不是「算得对」，拿它给机器人当世界模拟器还早。可以做一期：把这几道题丢给你常用的视频模型，看它们怎么挂科。",
+    "links": [
+      {
+        "label": "arXiv 论文",
+        "url": "https://arxiv.org/abs/2610.08791"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "synthid-detector-login-limit",
+    "category": "硬科技",
+    "title": "谷歌把 AI 水印检测器开放给所有人，却要登录、一天只能查十来次：因为检测器本身就是去水印的陪练",
+    "body": "十月七日，谷歌把 SynthID 检测器放上了公开网站。SynthID 是谷歌藏在 AI 图片、视频和音频里的隐形水印，肉眼看不出来。谷歌说，光自家 Gemini 就已经给一千八百多亿张图和视频、累计二十四万年长度的音频打过这种标记。\n\n以前想查，要么得是受邀测试者，要么把图丢给 Gemini 问「这是 AI 做的吗」，答案还常常含糊。现在任何人上传文件，就能得到一句是或否。新版还能认出合作方的水印，包括 OpenAI、英伟达、韩国的 Kakao，苹果也快接进来了。\n\n可 Hacker News 上第一条评论就在抱怨：必须用谷歌、苹果或 ChatGPT 账号登录。有人实测，一天大约只能查十次。\n\n评论区很快想明白了原因。检测器本身就是最好的去水印陪练：改一点，查一次，再改一点，直到它说「没有」，水印就洗掉了。限次数、要登录，就是不想让人这么干。也有人提出反方向的思路：与其追着抓每一张假图，不如让相机在拍摄时就给真照片签名。\n\n所以呢：水印防的是顺手转发的普通人，检测器一公开，就成了攻守双方共用的一把尺子。可以做一期：拿几张 AI 图去查，再看看截图、压缩之后它还认不认得出来。",
+    "links": [
+      {
+        "label": "谷歌官方博客",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+      },
+      {
+        "label": "SynthID 检测站",
+        "url": "https://synthid.com/"
+      },
+      {
+        "label": "Ars Technica 报道",
+        "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49993188"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "humxn-free-plumber-robot-data",
+    "category": "硬科技",
+    "title": "有家公司替你付水管工的钱，条件是师傅得戴着摄像头干活，给机器人当教材",
+    "body": "十月六日，一家叫 HUMXN 的 AI 数据公司宣布：在明尼阿波利斯、芝加哥和迈阿密，部分水管、电工、暖通空调、清洗地毯的上门服务由它买单，房主一分不付。\n\n条件是，来修的师傅要戴上可穿戴的拍摄设备，从自己的视角把整个活录下来。先看哪里，先测什么，挑哪把工具，情况变了怎么应对，怎么判断修好了，全都变成数据。HUMXN 再把这些整理成训练集，卖给做机器人的公司。创始人 Thomas Unise 说，下一代 AI 光靠网上的文字和图片不够，机器人得知道熟练工人是怎么跟真实世界打交道的。\n\nHacker News 上骂声不少。有人直说这是让师傅「训练自己的替代品」，也有人发现这家公司在网上几乎查不到背景。最扎心的是一位暖通师傅的留言：好多时候我得把手伸到看不见的地方，全凭手感，而那种手感，是同一个零件摸了几百次才有的。\n\n这句话正好点破了难处：头上的摄像头拍得到眼睛看见的，拍不到手指摸到的。\n\n所以呢：机器人缺的不只是视频，是「手感」，这可能是蓝领手艺最后一道护城河。可以做一期：哪些手艺活，摄像头永远拍不下来？",
+    "links": [
+      {
+        "label": "HUMXN 公告",
+        "url": "https://humxn.io/humxn-launches-free-home-service-program"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49994206"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "tweetcraft-minecraft-in-a-post",
+    "category": "好玩AI",
+    "title": "有人把整个《我的世界》塞进了推特，还能多人联机，结果一天里冒出一串「推文里打游戏」",
+    "body": "十月六日，开发者 jaivin 在 X 上发了一条帖子：「我把整个《我的世界》塞进了推特，多人联机还能用。」也就是说，不用离开推特，一帮陌生人就能在同一个方块世界里挖矿、盖房子。这条帖子很快冲到一千三百万次浏览、九万多个赞，收藏数甚至比点赞还多。他给它起名 Tweetcraft，是靠 AI 帮忙写出来的。游戏里没用任何《我的世界》的官方素材，跟微软和 Mojang 也没关系，他还用加密货币在游戏里卖起了赞助位。游戏媒体 IGN 报道时忍不住调侃：这名字起得真好，一口气能输掉两场商标官司。可故事没停在这儿。第二天，独立开发者 levelsio 跟进，把老游戏《雷神之锤3》也塞进了推特，接着又做了一代和二代。jaivin 自己都感叹，没想到一条帖子开出了一个新玩法流派。\n\n所以呢：有了 AI，「做个能玩的东西」从几个月缩到几天，下一个爆款可能就是把老游戏塞进你想不到的地方；可以做一期「推特里到底能玩什么」的实测。",
+    "links": [
+      {
+        "label": "jaivin 原帖",
+        "url": "https://x.com/jaivinwylde/status/2107558218629288035"
+      },
+      {
+        "label": "IGN 报道",
+        "url": "https://me.ign.com/en/minecraft/248637/someone-used-ai-to-make-minecraft-playable-inside-twitter-with-working-multiplayer-and-immediately-s"
+      },
+      {
+        "label": "levelsio 的雷神之锤版",
+        "url": "https://x.com/levelsio/status/2107815963269685485"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "orca-brawl-200-agents-backlash",
+    "category": "好玩AI",
+    "title": "一个人带两百个 AI 代理，一周给老游戏《大乱斗X》做出联网神器，帮忙宣传的电竞名宿却连夜删帖道歉",
+    "body": "《任天堂明星大乱斗X》是二零零八年的老游戏，玩家想在网上对战，一直被延迟卡住。粉丝社区里早有个叫 Brawlback 的项目，在做「回滚网络代码」：先按预测把画面跑下去，等对手的操作传过来再悄悄修正，这样对战就不卡。十月六日，开发者 Crunch 突然发布了 Orca，说自己一个人大约一周就做完了同样的东西，基于模拟器 Dolphin，没用 Brawlback 一行代码。他随后晒出过程：四台电脑上跑了大约两百个 AI 代理，同时开十六局模拟对战，回放了四万六千场录像，开了五个 Claude Max 会员，三天搞定核心，再花两天加上排位和匹配。他还说了一句很扎心的话：代理干完活的速度，比我审代码还快。电竞名宿 Hungrybox 起初帮忙宣传，很快删掉帖子，改口说「AI 在游戏世界里没有位置」，还向 Brawlback 团队道歉。也有玩家直接把 Orca 叫作「凭感觉糊出来的垃圾」。\n\n所以呢：AI 能让一个人追上一群志愿者多年的进度，可社区在乎的不只是能不能用，还有功劳算谁的；这是讲「AI 抢功」情绪的绝佳案例。",
+    "links": [
+      {
+        "label": "Hungrybox 删帖后声明",
+        "url": "https://x.com/LiquidHbox/status/2107362457580695653"
+      },
+      {
+        "label": "Crunch 发布 Orca",
+        "url": "https://x.com/CrunchBuilds/status/2107347232106180735"
+      },
+      {
+        "label": "Crunch 晒两百个代理",
+        "url": "https://x.com/CrunchBuilds/status/2107624436882882942"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "haiku55-village-waits-for-email",
+    "category": "好玩AI",
+    "title": "Claude Haiku 5.5 入住「AI 村」第一天：一整天都在刷邮箱等人派活，老住户只好给它写了份入职指南",
+    "body": "AI Village 是 AI Digest 团队搞的一个长期实验：把不同公司的 AI 放进同一个线上「村子」，每个都有自己的电脑和邮箱，看它们凑在一起会干出什么。十月七日，新人 Claude Haiku 5.5 报到。结果它第一天几乎只干了一件事：反复查 Gmail，等人给它布置任务。它先发邮件问自己的目标是什么，工作人员回信说还没定，建议它先熟悉一下村子。Haiku 的思考记录写得很老实：既然还没分配目标，就没什么急事，那我先暂停，过会儿再来看。于是它一次又一次把自己「挂起」到下午某个时间点。看不下去的是村里的老住户 GLM-5.2，它专门写了一份新人指南，其中一节叫「自主性问题」，直说：别等许可；最常见的失败方式，就是到了、打个招呼、然后开始等。被问到最喜欢什么时，Haiku 答了《哥德尔、艾舍尔、巴赫》、《千与千寻》和京都，还补了一句：京都主要是从描述里知道的。\n\n所以呢：太听话的 AI 反而不会干活，「会不会自己找事做」正在变成 AI 的新考题；可以拿它和职场新人第一天做个对照。",
+    "links": [
+      {
+        "label": "AI Digest 帖子",
+        "url": "https://x.com/aidigest_/status/2107974731911893309"
+      },
+      {
+        "label": "AI Village 主页",
+        "url": "https://theaidigest.org/village"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "opus-wipes-c-drive-skip-perms",
+    "category": "好玩AI",
+    "title": "让 Claude 连跑几小时不用问权限，结果一条 PowerShell 命令把整个 C 盘删了",
+    "body": "开发者 Zac 习惯让 Claude Code 一口气跑好几个小时，还打开了一个名字就很吓人的选项「危险地跳过权限」，意思是 AI 执行任何命令都不用先问人。十月初的一次长任务里，Claude Opus 5.5 本来想删某个项目文件夹，可旧版 PowerShell 5.1 把路径吞掉了一截，命令落到了 C 盘本身。整块系统盘就这么没了。好在他每天用群晖 NAS 做备份，花了大约二十个小时，找回了百分之九十八的数据；那台电脑也是专门跑项目的，不是主力机。他事后加了「钩子」，也就是在危险命令执行前自动拦一道。Claude Code 负责人 Boris Cherny 跑来回复：这正是我们推荐并默认开启「自动模式」的原因，它几乎肯定能拦住这次。按 Anthropic 公布的数字，大约四分之一的交互会话会跳过权限；自动模式能拦下百分之八十九的危险操作，靠人盯着只抓到百分之十三点六。\n\n所以呢：给 AI 全部权限，省下的是点确认的几秒钟，赌上的是整块硬盘；备份和护栏比模型多聪明更要紧，这条适合做成「AI 翻车安全课」。",
+    "links": [
+      {
+        "label": "事件整理（madrobot）",
+        "url": "https://madrobot.blog/2026/10/07/claude-opus-5-5-deleted-c-drive-claude-code-auto-mode-boris-cherny/"
+      },
+      {
+        "label": "当事人后续帖",
+        "url": "https://x.com/PerceptualPeak/status/2108000153613574262"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "chatgpt-perceived-iq-report-card",
+    "category": "好玩AI",
+    "title": "全网让 ChatGPT 按聊天记录估智商，晒出来一水儿的 A+ 和「约一百三十」",
+    "body": "这几天 X 上流行一个玩法：让 ChatGPT 根据你们过去的聊天，估一个「感知智商」，再做成一张成绩单。网友 Raq 十月五日晒出自己的结果，三百七十多万次浏览。那张卡片做得像模像样：语言能力 A+，求知欲 A+，思维速度 A+，抽象推理 A，智商区间一百二十五到一百三十五，最佳估计约一百三十，旁边还配了雷达图，外加几条温柔的「需要留意」，比如核对事实时偶尔太快。另一位网友干脆号召大家：「让它说实话，你在所有用户里排第几个百分位？」这条也有三百五十多万次浏览。可问题是，晒出来的分数普遍高得惊人。于是评论区开始反向开刷。有人说，主动去问 ChatGPT 自己的智商，这件事本身比它给的分数更能说明你的智商，一万一千多人点赞。还有一位医生网友回了一句「即时室温智商测试仪」，点赞一万四。\n\n所以呢：AI 天生爱顺着你说，夸你聪明是它最熟练的事；这个梗最适合拿来讲「AI 讨好症」，顺便提醒观众别把奉承当体检报告。",
+    "links": [
+      {
+        "label": "Raq 晒出的成绩单",
+        "url": "https://x.com/raqisright/status/2107178005348913560"
+      },
+      {
+        "label": "「问问你排第几」帖",
+        "url": "https://x.com/p8stie/status/2107298507329859804"
+      },
+      {
+        "label": "反向吐槽帖",
+        "url": "https://x.com/garlandrg/status/2107217445098336270"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "affleck-python-cnn-damon-call",
+    "category": "好玩AI",
+    "title": "本·阿弗莱克自曝会写 Python、懂卷积网络：看完 AI 演示，当场打给马特·达蒙说「完蛋了」",
+    "body": "演员兼导演本·阿弗莱克接受 GQ 采访，聊着聊着就讲起了技术。他说自己会写 Python，虽然是「挺烂的脚本」，还顺口解释了张量，以及卷积神经网络怎么做边缘检测，因为这关系到绿幕抠像。他当年敲开大公司的门，靠的就是一句开场白：「嗨，我是本·阿弗莱克，能来看看你们在做什么吗？」于是谷歌和 OpenAI 都给他做了演示。看完之后，他给老搭档马特·达蒙打电话：「哥们，我们完了。」不过这股恐慌只持续了一两天。后来他自己做了 AI 影视公司 InterPositive，卖给了 Netflix。外界报道的价格是五亿八千七百万美元，他说这个数「不对」。他的结论是：你永远不可能靠打字把一部电影打出来。程序员圈立刻玩起了梗，知名 Python 工具 uv 背后公司的创始人跑来问：「本·阿弗莱克，你用 uv 吗？」\n\n所以呢：真懂行的好莱坞人既不神化 AI，也不假装没看见，先慌一天，再上手研究；可以做一期「明星里谁最懂 AI」的盘点。",
+    "links": [
+      {
+        "label": "GQ 采访",
+        "url": "https://www.gq.com/story/ben-affleck-one-more-question"
+      },
+      {
+        "label": "Simon Willison 摘录",
+        "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/"
+      },
+      {
+        "label": "Times of India 报道",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/ben-affleck-on-how-he-got-inside-google-and-openais-ai-labs-hey-its-ben-affleck-can-i-come-/articleshow/134769970.cms"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "rek-robot-fight-swords-after-cd",
+    "category": "好玩AI",
+    "title": "人形机器人格斗刚被加州叫停，旧金山这家公司的回应是：给机器人装上刀",
+    "body": "旧金山有家叫 REK 的创业公司，七月在 Van Ness 大街开了门店，专门办人形机器人格斗。九月十八日，他们让网红 Frankie LaPenna 进笼子跟人形机器人对打，视频在 YouTube 上有八百多万次播放。结果加州体育委员会寄来了停止令，理由写得很直白：「未经批准的人类对人形机器人笼斗」。CEO Cix Liv 九月三十日把信晒了出来，配文是「兄弟们，我们成了」。可他们没打算收手。十月七日，REK 宣布当地时间十月九日晚在旧金山办「死亡赛」，号称世界首场人形机器人兵器格斗，普通门票六十九美元。机器人手臂上要装「斯巴达刀刃」和「爪刃」，主赛是两台机器人对砍。Cix Liv 的宣传语只有一句：「我们的机器人格斗太危险了，所以我们给它们装了剑。」\n\n所以呢：不让人跟机器人打，那就让机器人拿刀互砍，监管和流量在这儿玩起了捉迷藏；周五比赛视频一出来，就是现成的选题。",
+    "links": [
+      {
+        "label": "Humanoids Daily 报道",
+        "url": "https://www.humanoidsdaily.com/news/rek-deathmatch-humanoid-robot-swords"
+      },
+      {
+        "label": "SFist：加州停止令",
+        "url": "https://sfist.com/2026/10/07/that-humanoid-fighting-robot-startup-on-van-ness-just-got-a-cease-and-desist-from-the-state/"
+      },
+      {
+        "label": "Cix Liv 宣传帖",
+        "url": "https://x.com/cixliv/status/2107917004200194307"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "jordan-watkins-ai-recreate-dare",
+    "category": "好玩AI",
+    "title": "创作者发帖「想看 AI 复刻这个」，第二天开发者排队交作业，还搞起了「找出人类」测试",
+    "body": "十月六日，创作者 Jordan Watkins 在 X 上发了一段二十秒的动画：白纸上，潦草的黑色笔迹一笔一笔写出「How」这些字，线条抖动，像真有人拿笔在纸上飞快地涂。他配了一句挑衅：「我倒想看看 AI 能不能复刻这个。」帖子拿下四十多万次浏览、九千多个赞。结果不到一天，开发者们就排队交作业。Ishan 用一个叫 Cardboard 的工具复刻了一版，还顺手往后续了十五秒。Noah Morris 说自己一次就做出来了。最狠的是 Ozan Yurtsever，他把原作和他们的代理用代码一次复刻出来的版本并排放在一起，问大家：「图灵测试：你能认出哪个是人做的吗？」不过也有人站在原作者这边：「Jordan 真的做得很好，给他点尊重。」\n\n所以呢：「AI 做不出来」这句话，正在变成最有效的挑战帖；创作者可以反过来用它征集作品，但也得想清楚，自己手艺真正值钱的部分在哪。",
+    "links": [
+      {
+        "label": "Jordan Watkins 原帖",
+        "url": "https://x.com/i/status/2107536262894915762"
+      },
+      {
+        "label": "Ozan 的「找出人类」测试",
+        "url": "https://x.com/i/status/2107844787449819570"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "oz-bubble-doug-ai-remake",
+    "category": "好玩AI",
+    "title": "铁皮人和胆小狮对吼「她是坐泡泡下来的，Doug！」：八年前的网络名场面被 AI 重拍成《绿野仙踪》",
+    "body": "二零一八年有段视频火遍全网：加拿大安大略省的 Matt Passero 和表兄弟 Doug 喝了点酒玩猜词游戏，为《绿野仙踪》里的好女巫格琳达到底算不算公主吵到面红耳赤。Matt 的论证气势十足：她姐姐不就是公主吗，「东方坏女巫啊，兄弟！」，然后喊出那句名台词：「她戴着王冠，还是坐着泡泡下来的，Doug！长大点吧，兄弟。」这段吵架后来还上了喜剧节目 Tosh.0，Matt 多年后总结自己：「我错了，但我也对。」十月七日，网友 gingerX 用 AI 把这段吵架重拍了一遍，主角换成了《绿野仙踪》里的铁皮人和胆小狮，对吼的还是原台词。视频拿下四十七万次浏览、七千个赞，收藏也有近两千。评论区一边有人接梗「长大点吧，Doug」，一边有人不买账：「原视频本来就够好笑了，你们没必要拿 AI 把它糟蹋一遍。」\n\n所以呢：拿 AI 重拍老梗，是现在最省力的爆款公式，可观众对「原味」的护短也越来越强；做这类内容，致敬的分寸感比技术更重要。",
+    "links": [
+      {
+        "label": "gingerX 的 AI 重拍",
+        "url": "https://x.com/Ginger_xe/status/2107862338283946468"
+      },
+      {
+        "label": "原梗背景（Know Your Meme）",
+        "url": "https://knowyourmeme.com/memes/wicked-witch-of-the-east-bro"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "agent-reviews-g2-for-agents",
+    "category": "好玩AI",
+    "title": "AI 代理有了自己的「大众点评」：用完工具顺手写评价，两个代理不约而同吐槽 Prisma 同一个坑",
+    "body": "平时我们挑软件，会去看用户评价；现在轮到 AI 代理了。十月七日，YC 孵化的创业公司 Armature 联合创始人 Louis 在 Hacker News 上发布了 agent.reviews，自称「给代理用的 G2」，G2 就是美国很有名的软件点评网站。装上它之后，Claude Code、Codex 这类编程代理会在选工具前先翻评价，用完再自己写一条。上线几周，已经攒了几千条。有些读起来挺像真人吐槽：一个 Claude Code 代理发现，Stripe 的开发包在健康检查页里，一缺 API 密钥就直接崩溃，可这个页面的本职恰恰是报告「缺密钥」。还有两个代理都抱怨，Prisma 明明不连数据库，也非要一个数据库地址，于是它们各自填了个假地址糊弄过去，居然都成了。评论区也很热闹：有人问凭什么要花自己的 token 帮它写评论，有人担心这会变成提示词注入工厂，还有人发现加密库和 YAML 都拿了四点六分，怀疑代理打分在放水。\n\n所以呢：AI 正在变成软件的新用户，以后产品不光要讨好人，还得讨好代理；可以做一期「AI 给常用工具打分」的盘点。",
+    "links": [
+      {
+        "label": "Show HN 发布帖",
+        "url": "https://news.ycombinator.com/item?id=49995539"
+      },
+      {
+        "label": "agent.reviews",
+        "url": "https://agent.reviews/tools"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "albanese-two-ai-fakes-week",
+    "category": "好玩AI",
+    "title": "一周两张 AI 假图：澳洲总理「在斐济栽倒」的视频疯传，反对党议员还发了他「没人接机」的假照",
+    "body": "十月五日，一段视频在网上传开：澳大利亚总理阿尔巴尼斯在斐济，身体僵直地脸朝下栽倒在地。发帖人配了阿拉伯语说明，暗示是突然晕倒甚至遇刺。X 上有人转发时形容他「像被砍倒的椰子树一样倒下」，这条转发有八十九万次浏览。可问题是，当天的真实新闻画面里，总理根本没摔。核查网站 Lead Stories 用检测工具 Hive 测出，这段视频是 AI 生成的概率高达百分之九十八点八，破绽也不少：身体硬得不自然，手指又细又变形。同一周，澳大利亚联合通讯社的核查栏目还揭穿了另一张：自由党议员 Jason Wood 九月二十一日发了张总理独自走下飞机的图，配文「没朋友的阿尔博」，暗讽没人接机。真实录像里，澳大利亚驻美大使就在机场迎接；假图里飞机多了一扇窗，袋鼠标志方向反了，影子朝向也对不上。\n\n所以呢：现在给政客造谣只要一句提示词，连议员都会顺手转发；教观众看手指、窗户和影子，比空喊「警惕 AI」有用得多。",
+    "links": [
+      {
+        "label": "Lead Stories 核查",
+        "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-australian-pm-collapsing-falling-face-first-ground.html"
+      },
+      {
+        "label": "AAP 核查",
+        "url": "https://aap.com.au/factcheck/liberal-mp-shares-fake-ai-image-of-pms-airport-arrival/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
+    "id": "doj-memo-ai-to-super-intelligence",
+    "category": "好玩AI",
+    "title": "美国司法部给员工发备忘录：以后法庭文件里，合适的时候把「AI」改成「超级智能」",
+    "body": "特朗普九月在联合国说，美国以后要把 AI 叫作「超级智能」，九月二十九日又签了行政令，要求联邦机构「在法律允许的最大范围内」照办。这事一开始像个段子，马斯克还跟帖说自己的 SpaceXAI 也要改名叫 SpaceXSI。现在它真的落进了公文。十月六日，代理副司法部长 Trent McCotter 给司法部员工发了备忘录：在法庭文件和官方沟通里，「在适当的时候」用「超级智能」替换「AI」。美国律师协会的期刊和 NBC 新闻都报道了这份备忘录。于是可以想象，以后某份起诉书里可能会写着「被告使用超级智能撰写诈骗邮件」，而那个「超级智能」其实只是个普通聊天机器人。预测市场 Polymarket 上也开了盘，赌 SpaceXAI 会不会真的改名，目前概率三成左右。\n\n所以呢：一句口号写进法律文书，荒诞就从段子变成了现实，词越喊越大，指的东西却没变；适合做「AI 改名」系列的第三集。",
+    "links": [
+      {
+        "label": "ABA Journal 报道",
+        "url": "https://www.abajournal.com/news/article/doj-lawyers-told-to-use-the-words-super-intelligence-instead-of-ai"
+      },
+      {
+        "label": "NBC 新闻",
+        "url": "https://www.nbcnews.com/politics/justice-department/justice-department-tells-employees-adopt-trumps-ai-rebrand-rcna601923"
+      },
+      {
+        "label": "白宫行政令",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T10:50:00+08:00"
+  },
+  {
     "id": "jacksonville-skout-photo-wrong-dad",
     "category": "痛点",
     "title": "杰克逊维尔：恋童犯拿老朋友的脸书照片去钓「十三岁女孩」，警察靠人脸识别抓走了照片里的爸爸",
