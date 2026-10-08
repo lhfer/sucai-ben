@@ -1,5 +1,725 @@
 [
   {
+    "id": "prompt-seedance-eden-roast-serpent",
+    "category": "提示词",
+    "title": "蛇递来苹果，亚当夏娃笑着点头；下一幕，两人围着篝火用筷子吃烤蛇",
+    "body": "伊甸园里，一条蛇从树枝上探下头，把一只红苹果递到亚当和夏娃面前，头顶弹出一行漫画字：「吃这个」。两人对视一眼，笑着点头。画面硬切，天黑了，篝火上架着一条烤得金黄的蛇，夏娃转着烤架，亚当拿筷子夹下一块，嚼完冲镜头咧嘴：「比苹果好吃」。\n\n这条十五秒的短片是 AI 创作者 Yurii Yeltsov（@yura_elkin）发的，标题叫「亚当和夏娃·中国版」，不到一天拿了五千六百多个赞、五十多万次播放。完整提示词他贴在了自己的评论里。\n\n这段词的巧思有两处。第一，两场戏各配一张首帧图，提示词里写死「第一场必须从图一开始，第二场必须从图二开始」，第七秒硬切，模型就没法自己乱接。第二，台词不放在画面底部，而是做成漫画气泡字，飘在说话的人旁边，至少停一秒半，手机上一眼就能看清。蛇在两场里的状态也分别锁死：前面是活的、鳞片发亮，后面是死的、烤成金黄，「绝不能是活的」。\n\n所以呢：反转梗最怕模型自作主张，把前后两幕各钉一张首帧，笑点就稳了；换成「白雪公主和毒苹果」「龟兔赛跑」一样能套。",
+    "links": [
+      {
+        "label": "X 原帖（成片）",
+        "url": "https://x.com/yura_elkin/status/2107761835512381524"
+      },
+      {
+        "label": "作者评论里的完整提示词",
+        "url": "https://x.com/yura_elkin/status/2107762145693733269"
+      }
+    ],
+    "prompt": "2uekxqm3gz as opening frame Scene 1. dp7h65n1n4 as opening frame Scene 2.\n\nSCENE CONTEXT: Photorealistic cinematic — two scenes with hard cut between them — 15 seconds total. Garden of Eden setting. Characters speak out loud with subtitles as floating comic-style text.\n\nALL ON-SCREEN TEXT: comic book style — bold outlined letters — large — clearly readable — floating near character — NOT bottom subtitles — visible 1.5 seconds minimum.\n\nSCENE 1, 00:00–00:07 — THE OFFER:\n00:00 — EXACT ref1 opening frame — Adam and Eve in leaf outfits standing in garden — serpent coiled on branch above — golden light — lush paradise.\n00:01 — Serpent slowly extends toward them holding red apple — head lowering to their level — intelligent eyes — CLOSE UP serpent face — speaks out loud in tempting voice — comic text POPS bold near serpent head: \"EAT THIS\" — stays visible 1.5 seconds.\n00:03 — Adam and Eve look at each other — pause — then both turn back to serpent — WIDE showing all three — garden background — golden light.\n00:04 — Both SMILE widely — warm happy smiles — nodding slowly — Eve reaches toward apple — Adam leans in curious — CLOSE UP their smiling faces — satisfied nodding.\n00:06 — CLOSE UP red apple in serpent tail — Adam and Eve hands reaching toward it — warm golden light — garden paradise around them. HARD CUT.\n\nSCENE 2, 00:07–00:15 — THE FEAST:\n00:07 — EXACT ref2 opening frame — Adam and Eve sitting at campfire — DEAD roasted serpent on wooden spit — golden brown — crackling — evening garden — same leaf outfits.\n00:08 — Eve turns spit with both hands — practical satisfied expression — steam rising from roasted serpent — campfire orange light on faces.\n00:09 — Adam picks up chopsticks — leans toward roasted serpent — CLOSE UP chopsticks pulling piece of roasted meat — steam — golden crispy skin.\n00:10 — WIDE showing full scene — campfire — roasted serpent — Adam and Eve — dark garden evening background — peaceful and satisfied.\n00:11 — Adam takes bite — chews — eyes closing in satisfaction — CLOSE UP his face — pure enjoyment.\n00:12 — Adam looks at camera — grins — comic text POPS bold near Adam: \"BETTER THAN APPLE\" — stays visible — Eve laughs beside him — both laughing.\n00:14 — WIDE final shot — both laughing at campfire — roasted serpent between them — garden night sky above — stars visible. FREEZE. End.\n\nLIGHTING: Scene 1 — warm golden hour sunlight — paradise bright. Scene 2 — warm orange campfire only — dark garden background — intimate evening.\n\nPOSITIVE LOCKS: ref1 exact opening Scene 1 — leaf outfits on both characters. ref2 exact opening Scene 2 — same leaf outfits — same characters. Serpent in Scene 1 — alive — iridescent scales — holding apple. Serpent in Scene 2 — DEAD — roasted — golden brown — on spit — NOT alive. \"EAT THIS\" comic text near serpent Scene 1. \"BETTER THAN APPLE\" comic text near Adam Scene 2. Both characters speak out loud matching text. HARD CUT between scenes at 00:07. No watermarks.",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-agent-audit-babysit-scripts",
+    "category": "提示词",
+    "title": "让 AI 翻自己的旧账：它替程序员写了 227 个「盯梢」小脚本，223 个有毛病",
+    "body": "Theo 是一位做开发工具创业、也拍 YouTube 的程序员，平时让 Claude Code、Codex 这类编程代理替他写代码。他常吩咐一句：「帮我盯着这个 PR」。PR 就是把改好的代码提交给团队审核的申请，盯着它，意思是替他守着自动测试和评论，有问题就处理。\n\n可问题是，代理每次都不记得上回怎么做的，于是每次都从零写一个盯梢小脚本。Theo 干脆让代理把他电脑上和各个代理的聊天记录全翻一遍。结果一查：这种脚本从零写了 227 个，223 个有缺陷，166 个是严重缺陷，最常见的毛病是把 GitHub 的报错悄悄吞掉。前后白烧了大约 6 亿个 token，按 API 价格算约 570 到 720 美元。\n\n他把这段「查账」提示词原样分享了出来，只问三件事：这套逻辑被重新发明了几次，有几个能看出毛病，一共浪费了多少 token 和钱。\n\n所以呢：AI 用得越久，越该让它定期审计自己的重复劳动；查出被反复重写的活，就固化成一个技能，省钱又省心。",
+    "links": [
+      {
+        "label": "Theo 的 X 原帖",
+        "url": "https://x.com/theo/status/2107765823637168287"
+      }
+    ],
+    "prompt": "I want you to audit my history with Claude Code, Codex and other agents on this machine. Look for every time I asked for a PR to be watched or babysat.\n\n1. How many times was the \"babysitting\" logic re-invented?\n2. How many of these implementations had flaws you can see? \n3. Roughly how many tokens (and how much $ at API prices) was wasted on these implementations? Both building them and dealing with their shortcomings.",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-mr-bean-vs-jackie-chan",
+    "category": "提示词",
+    "title": "功夫高手抄起垃圾桶盖猛攻，憨豆先生慢悠悠吹起一只充气锤",
+    "body": "伦敦小巷，正午大太阳。一个穿白背心的功夫高手抄起垃圾桶盖冲过来，对面穿棕色花呢西装、系红领带的憨豆先生，随手往地上撒了一把弹珠。高手一脚踩上去，滑进了路边停着的车里。接下来他用交通锥、路灯杆、报刊架轮番进攻，憨豆从西装里掏出派对喇叭、一整只生火鸡、捕鼠夹，最后慢悠悠吹起一只充气大锤，一锤把他放倒，再把自己的小熊轻轻放在他胸口。\n\n这是 TechieBySA 用 GPT Image 2.5 加 Seedance 2.5 做的卡通 3D 动画，主角是憨豆先生和成龙的卡通形象，不到一天拿了三千五百多个赞、四十多万播放。做法分两步：先用一段提示词让生图模型画一张「对决海报」式角色设定卡，把两人的长相、道具、配色定死；再把这张卡交给视频模型。视频提示词里干脆不写名字，只写「一号角色永远在进攻，二号角色永远淡定，根本不知道自己在打架」，然后两秒一格，把每个笑点排进时间表。\n\n所以呢：喜剧动画的秘诀是给两个角色定死「性格开关」，再把道具一件件排进时间表；换成猫和老鼠、唐僧和孙悟空，同一套模板照样能拍。",
+    "links": [
+      {
+        "label": "X 原帖（成片）",
+        "url": "https://x.com/TechieBySA/status/2107794850187784450"
+      },
+      {
+        "label": "角色设定卡提示词",
+        "url": "https://x.com/TechieBySA/status/2107794864586756308"
+      },
+      {
+        "label": "Seedance 视频提示词",
+        "url": "https://x.com/TechieBySA/status/2107794870244880386"
+      }
+    ],
+    "prompt": "Character sheet prompt:\n\n\"Create a premium cinematic character bible sheet for MR BEAN & JACKIE CHAN. Use uploaded character sheets as strict visual reference for both characters. Do not change either's appearance.\nLAYOUT: Split screen VS format. Two halves divided by a bold dramatic dividing element in the center.\nLEFT SIDE — MR BEAN: Bold dramatic bright red watercolor splash radiating behind him filling the entire left side. Large bold brushstroke text MR BEAN top left in bright red. Below small text: THE LEGEND / LONDON. One massive dramatic cropped hero image of Mr Bean from mid-thigh up — brown tweed jacket, bright red tie, giant inflatable hammer in one hand, small stuffed toy under the other arm, completely calm and unbothered expression.\nCENTER: Bold dramatic VS in deep gold. Below it small text: LONDON STREET / MIDDAY / NO RULES.\nRIGHT SIDE — JACKIE CHAN: Bold dramatic deep gold watercolor splash radiating behind him filling the entire right side. Large bold brushstroke text JACKIE CHAN top right in deep gold. Below small text: THE MASTER / HONG KONG. One massive dramatic cropped hero image of Jackie Chan from mid-thigh up — white tank top, black baggy trousers, rubbish bin lid in one hand, wide grin, expressive and ready.\nBOTTOM CENTER: Bold text THE BEAN VS THE MASTER in deep gold. Tagline: ONE USES EVERYTHING AROUND HIM. ONE USES EVERYTHING IN HIS JACKET.\nOVERALL: Clean white background, bold dramatic bright red watercolor explosion left side, bold dramatic deep gold watercolor explosion right side, dramatic gold center divider, bold flat color blocking, chunky simplified forms, hard edge shadows, thick black outlines, cinematic cel-shaded 3D anime, hand-painted textures, not cartoon not Disney not Pixar, print ready.\"\n\nSeedance 2.5 prompt:\n\n\"Cinematic anime clip, 20 seconds. Narrow London street at midday — bright clear sunshine, warm golden daylight, brick walls, lamp posts, rubbish bins, newspaper stands, parked cars.\nMAIN CHARACTER 1 — ATHLETIC ASIAN MALE IN WHITE TANK TOP: Use uploaded character sheet. Always attacking, never pausing, reacts big to everything.\nMAIN CHARACTER 2 — AWKWARD MALE IN BROWN TWEED JACKET WITH RED TIE: Use uploaded character sheet. Completely calm, never scared, never knows he's in a fight, every item pulled out mid attack.\n0:00–0:02 — Main character 1 charging with rubbish bin lid. Main character 2 dropping marbles casually. Main character 1 hitting them at full sprint — sliding violently into a parked car. 0:02–0:04 — Main character 1 grabbing traffic cone launching fastest combination. Main character 2 blowing party horn directly in his ear mid combination. Everything going off course. Main character 1 standing completely still eyes wide. 0:04–0:06 — Main character 1 swinging around lamp post launching flying kick. Main character 2 stepping aside to look at shop window at exact moment. Kick flying past completely. Main character 2 face pressed against glass unbothered. 0:06–0:08 — Main character 1 grabbing newspaper stand charging. Main character 2 pulling out enormous raw turkey. Main character 1's combination connecting with the turkey instead of main character 2. Main character 1 completely stunned. 0:08–0:10 — Main character 1 grabbing main character 2's collar furiously — SNAP. Mousetrap on both fingers from inside the jacket. Releasing instantly shaking hands in agony. 0:10–0:14 — Main character 1 charging one final time. Main character 2 pulling out deflated giant inflatable hammer inflating it slowly. Main character 1 slowing stopping staring confused. Hammer fully inflated. Main character 2 swinging it connecting perfectly. Main character 1 lifted completely off his feet landing flat on his back. 0:14–0:18 — Close up on main character 1 on the ground staring at the sky. Expression of a man who has never lost to an inflatable anything. Main character 2 placing small stuffed toy gently on his chest. 0:18–0:20 — Wide from above. Main character 2 walking away adjusting his tie. Main character 1 flat on the ground stuffed toy on his chest marbles scattered around him.\nCel-shaded 3D anime, Unreal Engine quality, narrow London street midday bright sunshine throughout, bold flat color blocking, hard edge shadows, thick black outlines, film grain, orchestral score switching between action and comedy every impact hard every item silly sound effect building to inflatable hammer finale, camera switching constantly — never same angle twice — main character 1 always attacking never pausing, main character 2 always calm never scared, comedy escalating from frame one to last frame.\"",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-chatgpt-8k-crop-upscale-skill",
+    "category": "提示词",
+    "title": "不用放大软件：把照片切成九块，让 ChatGPT 一块一块「补画」成 8K",
+    "body": "一张普通人像照片，放大看睫毛糊成一片，皮肤只剩色块。flowersslop 晒出的对比图里，处理后的版本毛孔、湿发的细丝、眼睛里的纹路都清清楚楚。很多人以为他用了专门的放大软件，他说没有：那类工具只会补纹理，一碰到需要「看懂画面」的地方就露馅。\n\n他的办法是写一个「技能」文件，交给 Codex 或 ChatGPT 去执行。第一遍，把原图切成三乘三九块，每块四周多留两成重叠；每次都把整张原图和这一小块一起交给 AI 图像编辑，让它只补这一块的细节，再拼回去、放大到 8K。第二遍，只挑脸、头发、手、衣料这些重点区域再补一轮；想更细，还能来第三遍，专攻眼睛和嘴唇。提示词里反复强调：原图是长相、颜色、光线的唯一标准，不许美颜，不许重新打光，不许凭空加东西。\n\n代价是慢。他用的是 ChatGPT 6.1 Sol，两遍 8K 大约要十分钟。\n\n所以呢：前沿模型「看得懂画面」这件事，可以拿来干放大这种苦活；修老照片、给产品图出大图，都能借这个「切块补画再拼回」的思路。",
+    "links": [
+      {
+        "label": "X 原帖（含对比图与技能全文）",
+        "url": "https://x.com/flowersslop/status/2107880369416458461"
+      }
+    ],
+    "prompt": "---\nname: flowers-upscale\ndescription: Photo to 8K; 2/3-pass contextual AI crop enhancement and registered blending.\n---\nINPUT S=uploaded photo; missing→request. Unspecified→ask \"2 passes (recommended) or 3? 8K default; another resolution?\" Await choice. N=2|3; L=specified longest edge else8192; preserve aspect. Discover available AI image-editing+raster-processing capabilities; missing→report requirement. Use environment-native tools/paths; create helpers as needed. Preserve S; separate outputs. Execute end-to-end after choice.\n\nE(C): inspect; AI-edit inputs=[S=context,C=target], maximum practical supported resolution; retain actual output dimensions. Prompt=Q+only relevant material constraints. Concurrent independent calls where supported; persist outputs+source-coordinate boxes+prompts immediately.\n\nP1: S→3×3 cores; pad each side20% core dimension, clip to S→9 overlapping C→E→register/blend→M1; resize assembled M1 to L.\nP2: M1→4–8 padded salient ROIs(face/hair/hands/objects/textiles as present)→E→register/blend→M2. Exclude low-information regions.\nN=3: M2→4–8 tighter focal ROIs(individual eyes/lips/nose/fingers/material details as present)→E→register/blend→M3. Keep homologous features consistent. Every E receives S, never crop alone.\n\nQ=\"1=original: identity/anatomy/color/light authority. 2=target: return exact crop/framing/geometry. Reconstruct plausible photographic detail; preserve expression, pose, contours, clothing, genuine imperfections, focus falloff. Optical clarity; natural edge transitions; spatially varied texture. Repair inherited artifacts. Skin: irregular pores/fine creases, quiet intervals. Hair: cohesive groups, selective fibers, natural sparse fringe. Iris: source color, irregular branching fibers, coherent pupil, restrained reflections. Textiles: original weave direction/spacing/motifs. Avoid invented structures/marks, beautification, relighting, halos, ringing, embossed/crosshatched/repeated texture, synthetic grain, blanket sharpening.\"\n\nASSEMBLE: map recorded boxes→master; global similarity registration first; bounded smooth local correction only with reliable correspondence, never distort rigid geometry/repeating patterns. Unreliable→retain prior pixels. Match broad exposure/color without transferring old fine texture. Normalized overlap/multiband blend; feather15–25% border→alpha0 at interior patch boundaries. Preserve native enhanced crops. Before next pass: inspect full image+100% focal/overlap crops; repair doubling/seams/drift/texture mismatch. ≤2 targeted retries/defect; rejected/failed→retain prior content+disclose.\n\nEXPORT: M_N→lossless PNG at L; verify dimensions+decode; deliver file+preview+prompts/settings. Describe detail as reconstructed; distinguish exported resolution from native generated resolution.",
+    "date": "2026-10-08",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-blender-previz-car-chase",
+    "category": "提示词",
+    "title": "先让 Claude 在 Blender 里搭个积木版，再让 Seedance 照着重拍《速度与激情》",
+    "body": "《速度与激情》第一部结尾那场飙车：黑色道奇和橙色丰田并排冲过铁路道口，火车在身后呼啸，黑车撞上一辆卡车，翻滚着从橙车头顶飞过去。Ror_Fly 用 AI 把这一段重拍了一遍，镜头像一架穿越机贴着车追拍，乍看像现场偷录的。\n\n他的路子很特别。先让 Claude Opus 5.5 在 Blender（一款免费的 3D 软件）里用方块搭出一段粗糙的预演动画，只管车走哪条线、镜头怎么飞、第几秒撞车。再把这段积木视频，连同两辆车的参考图、洛杉矶港口一带的七张实景参考照片，一起喂给 Seedance 2.5。\n\n提示词第一段就把话说死：积木视频只学它的镜头路线、车的位置和撞车节奏，一秒都不能差；它的方块造型、平涂颜色、米色地面，一样都不许学。后面再按秒写满每个动作，结尾还专门禁止慢动作、禁止「漂浮的 3D 镜头」、禁止车像在轨道上滑。\n\n所以呢：想让 AI 拍复杂动作戏，先用 3D 白模把走位钉死，比写一万字描述靠谱；车戏、打戏、追逐戏都能这么干。",
+    "links": [
+      {
+        "label": "X 原帖（对比成片）",
+        "url": "https://x.com/Ror_Fly/status/2107572909086761325"
+      },
+      {
+        "label": "参考图与完整提示词",
+        "url": "https://x.com/Ror_Fly/status/2107572913800970508"
+      }
+    ],
+    "prompt": "REFs + Prompt: \n\n+ Video 1: Blender Previs Render\n+ Contact Sheet 1: Car Refs \n+ Contact Sheet 2: Env Plates + Cinemotagraphy Refs\n\nGenerate a brand-new finished film. [V1] is a rough low-poly previz storyboard: follow its single continuous camera path, its gentle drift and occasional jolts, its altitude, framing, car positions, lead changes, crash motion and beat timing second for second, and take NOTHING else from it: not its faceted boxy shapes, flat shading, blank beige ground or pale sky. The dark wedge car is the black muscle car in [CHARGER]: 1970 coupe, chrome supercharger bursting through the hood, chrome bumpers, slotted wheels. The orange wedge car is the orange sports coupe in [SUPRA]: green tribal side graphics, tall silver rear wing, five-spoke silver wheels. [LOOK] is the film look; its blurred patches are not part of the scene.\n\nThe world is Terminal Island in the Port of Los Angeles, around 2001. Every shape in [V1] becomes this real place, and [P1] to [P7] are photographs of these exact streets: match their poles, wires, screens, fences, buildings, cranes, crossing hardware, train and road surface. [P1] is Terminal Way: the street and its screen-and-pole corridor. [P2] is the start by the old cannery. [P3] is the Vincent Thomas Bridge behind the container cranes. [P4] is the approach to the Earle Street crossing. [P5] is its warning lamps and crossbuck. [P6] is the freight train. [P7] is the green truck and the overhead conveyor at the crash site. The roads are long, flat, straight industrial streets of faded cracked asphalt with tar-snake patches, potholes and a worn double-yellow centre line, gravel and litter in the gutters. Both sides are lined with tall, weathered wooden utility poles, close together, with crossarms, transformers and heavy sagging bundles of wire, receding in rhythm to the vanishing point. The green blocks are olive-green corrugated sheet-metal fences and chain-link topped with barbed wire, with faded rust-brown and grey shipping containers stacked behind them. The white blocks are low, windowless tuna-cannery warehouses with sun-faded cream walls, peeling paint, loading docks and flat tar roofs crowded with vents. The trees are scraggly eucalyptus and a few tall thin palms. Red-and-white container gantry cranes stand on the skyline, and the towers and cables of the long green-grey Vincent Thomas suspension bridge rise in the haze beyond the rooftops. Hot late-afternoon sun, ochre air, dust hanging over the road.\n\nOne unbroken take from a racing FPV drone carrying a small cinema camera: amber highlights, muted olive greens, deep warm shadows, hard shadows, fine grain, soft bloom.\n\nThe cars are fighting, never gliding: body roll into every swerve, squat under throttle, noses dipping on shifts, rear ends twitching, suspension bouncing over patched asphalt, tyres chirping, exhaust heat and dust kicking out behind them.\n\nReal piloted flight, never floating CGI: banked turns carry momentum, a light constant float and prop-wash shiver, with a few hard jolts only at the big moments (the rails, the impact, the landing). Foreground constantly cuts through the frame: poles and wires whipping past the lens edge, fence posts and barbed wire smearing by, grit and dust thrown up by the tyres hitting the lens, a smudge on the glass catching the sun, flare streaking across. Fast vintage glass: razor-thin focus, focus missing for a beat then snapping to the cars, background smeared in directional motion blur, heat shimmer.\n\n0-1.5s: high over the old cannery blocks near Tuna Street (P2), the frame breathing on the wind; the two cars small, side by side at the line.\n1.5-3.5s: launch: the black car's front wheels lift in a wheelie and it jumps a car length ahead, tyre smoke behind both cars.\n3.5-4.5s: a banked dive past a roof edge, horizon tilting, a power line flicking through the frame.\n4.5-6.5s: flare out onto Terminal Way (P1) at road level through dust, skimming the orange car's rear quarter; the black car stretches its lead.\n6.5-8.5s: low chase; the orange car surges on a burst of boost and pulls past the black car.\n8.5-10.5s: slide along the black car's flank as the two cars squeeze door to door, inches apart, the chrome blower filling frame.\n10.5-11.5s: punch past its nose and yaw around hard to fly backward ahead; the bridge towers (P3) swing through the haze; the black car back in front.\n11.5-15s: low reverse tracking, both cars charging at the lens and trading the lead again, door to door; at 14s the Earle Street crossing (P4) comes up, its lamps (P5) flashing red on the left, gate arms down.\n15-17.5s: both cars hit the rails side by side, all four wheels leave the road for a moment, slam down and bounce; the freight train (P6) thunders across behind them, horn blaring. The camera jolts over the crossing and climbs.\n17.5-20s: higher, flying backward ahead; the black car noses half a car ahead; power-line shadows slide across them.\n19.8-20.4s: under the overhead conveyor (P7), a green long-nose semi with a white trailer pulls out from a side street on the black car's right (screen left); the black car jinks away at the last moment.\n20.4s: the black car's front right corner clips the truck's front bumper: the truck lurches, the black car launches.\n20.5-21.4s: the black car flies up, rolling over sideways, and passes upside down directly over the orange car, which keeps driving underneath it; glass and trim glitter. The frame jolts and yaws, then fights back on target.\n21.4-23.5s: the black car slams down on its side beside the orange car, bounces, and keeps barrel-rolling down the road, shedding debris, dust rolling toward the lens, while the orange car swerves away and brakes hard; focus hunts.\n23.5-24.7s: the black car rolls back onto its wheels and slides sideways to rest at the roadside; the orange car stops further on. The aggressive flying stops.\n24.7-29s: a slow high hover still breathing on the wind, smoke and dust drifting through the low sun past the poles. Hold.\n\nAudio: supercharged V8 whine against a turbo six, gear shifts, crossing bells, train horn and rail clatter, truck air horn, a heavy metal impact, glass, tyre screech, prop whine, wind buffet. No background music.\n\nGlobal supplement: one continuous shot, prohibit any cut. Keep the camera path, motion, car positions and crash motion of V1 at every second. Strictly maintain both cars from CHARGER and SUPRA: rigid metal, real curved bodywork. Drivers are dark shapes behind tinted glass, no faces visible. Prohibit gimbal smoothness, floating 3D camera movement and cars gliding on rails. Prohibit slow-motion or floating in the crash: real speed, real gravity. Prohibit bright, colourful, new-looking container walls; this place is old, sun-bleached and dusty. Prohibit low-poly, faceted or flat-shaded surfaces. Prohibit objects appearing out of thin air. No subtitles, no on-screen text, no watermark.",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-webgpu-plush-shark-opus-vs-astra",
+    "category": "提示词",
+    "title": "同一段提示词做毛绒鲨鱼：Claude 交出一只鲨鱼，GPT 交出一只「需要驱魔」的",
+    "body": "开发者 vib3coded 想要一只能在网页里随手捏的毛绒鲨鱼：蓝色绒布外皮、奶白肚皮、黑纽扣眼睛，能拖拽变形，拽住尾巴一松手它就冲出去，点一下鼻子有可爱反应，还能拿梳子梳毛、喂小鱼。他把同一段提示词分别交给 Claude Opus 5.5 和 GPT-6 Astra。\n\n结果 Opus 做出一只圆滚滚、一看就是鲨鱼的玩偶，花了 10.35 美元；Astra 便宜 1.97 美元，做出来的却是一只身形扭曲、眼神诡异的「噩梦鲨」。他自己吐槽：省了两块钱，换来一只需要驱魔的鲨鱼。两个成品都挂了在线链接，能直接去捏。\n\n这段提示词值得抄，是因为它把「要什么」拆得很细：先写外形，再逐条列交互，再提物理要求，要软、要保持体积、要回弹，不许僵硬，不许乱抖；最后指定只交一个 HTML 文件、支持触屏，还要能调填充软硬、毛长、游速和配色。\n\n所以呢：同一段词跑两个模型，是最直观的模型测评内容；把鲨鱼换成你家的猫，就是一期现成的对比视频。",
+    "links": [
+      {
+        "label": "X 原帖（对比视频）",
+        "url": "https://x.com/vib3coded/status/2107773295676227691"
+      },
+      {
+        "label": "完整提示词",
+        "url": "https://x.com/vib3coded/status/2107773609288646875"
+      },
+      {
+        "label": "Astra 版在线体验",
+        "url": "https://plush-shark-astra.vercel.app"
+      },
+      {
+        "label": "Opus 版在线体验",
+        "url": "https://claude.ai/artifact/FX5735w1ZmshBxZWWrvCv5"
+      }
+    ],
+    "prompt": "Build a single-file WebGPU interactive experience featuring a soft, squishy plush shark.\n\nDesign the shark with a recognizable silhouette: a rounded body, pointed snout, dorsal fin, side fins, and a powerful tail. Give it a blue fabric exterior, cream belly, glossy black button eyes, stitched gills, and a playful mouth with small felt teeth. Make the fabric visibly fuzzy, with subtle seams and soft shadows.\n\nInteractions:\n- Grab and drag any part of the shark. Its body should stretch, squash, wobble, and settle naturally.\n- Pull its tail and release to make it dash forward.\n- Boop its nose for a cute reaction.\n- Brush its fur with a comb tool.\n- Feed it little fish and animate it chasing and eating them.\n- Let it swim in gentle circles when idle.\n\nUse convincing soft-body physics with volume preservation, springy recovery, and responsive fins and tail. Avoid rigid movement or excessive jitter.\n\nInclude controls for stuffing firmness, fur length, swimming speed, and color palettes. Add reset, feed, dash, and wireframe buttons.\n\nPresent everything in a polished minimalist interface with a warm off-white background, elegant typography, a compact settings panel, and the title “Plush Shark.”\n\nDeliver one self-contained HTML file with all code and assets embedded. Use WebGPU for rendering, support mouse and touch, and keep the experience smooth and responsive.",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-apartment-fix-vlog",
+    "category": "提示词",
+    "title": "独居的日本女生，一口气修好了椅子腿、柜门把手和歪掉的相框",
+    "body": "老式日本公寓里，一个年轻女生在打扫房间。她坐上一把旧木椅，椅子腿突然松了。她把椅子翻过来，抹上木工胶，拧紧螺丝，再坐上去试，稳了。接着她拧紧松动的柜门把手，扶正墙上歪掉的相框，修好卡住的抽屉，最后把工具收好，满意地笑了一下。\n\n这条三十秒的「独居修家 vlog」是 saniaspeaks_ 用 Seedance 2.5 做的，拿到一千三百多个赞、三十六万多次播放。提示词不长，一百多个英文单词。妙处在于它不靠堆形容词，而是把动作排成一条严格的流水线：先坏，再修，再试，再去修下一样。\n\n结尾几句是硬规定：每个动作严格按顺序，不许跳过，不许重复，人不许瞬移，衣服和长相不许变；画面要像手机手持拍的 vlog，正面侧面换着拍，配上真实的居家声音；所有修理都必须在物理上说得通，看着要解压。\n\n所以呢：生活类 AI 视频最容易穿帮的是动作接不上，把动作写成一条流水线，再加一句「不许瞬移」，真实感就上来了；换成做饭、拼宜家家具也一样好使。",
+    "links": [
+      {
+        "label": "X 原帖（成片）",
+        "url": "https://x.com/saniaspeaks_/status/2107687078574047237"
+      },
+      {
+        "label": "完整提示词",
+        "url": "https://x.com/saniaspeaks_/status/2107687563905360119"
+      }
+    ],
+    "prompt": "Create a highly photorealistic 30-second everyday home vlog of one consistent young Japanese woman fixing things around her early-2000s Japanese apartment. She cleans the room, sits on an old wooden chair and the chair leg suddenly becomes loose, so she turns it over, uses wood glue and a screwdriver to repair it, then tests it successfully. She then tightens a loose cabinet handle, straightens a crooked picture frame and fixes a loose drawer, finishing by putting her tools away with a satisfied smile. Keep every action in exact order with no skipped or repeated scenes, no teleportation, no outfit or identity changes. Use natural handheld smartphone-vlog footage, varied front and side angles, realistic lighting, natural movement and authentic home sounds. Make all repairs physically believable and satisfying.",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-opus-15-knowledge-animation-styles",
+    "category": "提示词",
+    "title": "皮影戏讲曹冲称象，数学动画讲圆面积：十五段让 Claude 写代码做科普动画的提示词",
+    "body": "想给一段知识视频配动画，又不会做动效？中文博主 NFT_Chen 整理了十五段能直接丢给 Claude Opus 5.5 的提示词，还配了一条成片合集。画面不是视频模型「抽卡」抽出来的，而是 Claude 自己写代码一帧帧渲染的，所以字幕、数字、公式都不会糊。\n\n十五种风格各带一个现成例子：彩色皮影戏讲曹冲称象；像素游戏风讲黄粱一梦；比例尺镜头把地球、木星、太阳按真实大小摆在一起，点出「太阳底下约有 130 万个地球」；还有 3Blue1Brown 式的数学动画（一个以数学可视化出名的频道），把圆切成扇形、拼成长方形，最后定格 πr²。\n\n每段词都很短，结构也一样：几秒、什么风格、讲什么、画面依次出现什么、最后点题的一句字幕。想换题，只改方括号里的内容。作者特别提醒：一次只选一种画风，别把三种叠在一起。\n\n所以呢：知识类博主可以把 AI 当成动效外包，先挑一种风格固定成系列栏目，比每期都换花样更容易让观众记住。",
+    "links": [
+      {
+        "label": "X 原帖（十五段提示词＋成片）",
+        "url": "https://x.com/NFT_Chen/status/2107653056771068069"
+      }
+    ],
+    "prompt": "1️⃣皮影讲典故\n做一支 10 秒彩色皮影戏，讲【曹冲称象】。剪影布局，暖光透背，关节式偶戏。依次出现秤盘、铜碗、石头，先平衡，再把石头分批称、加起来。字幕卡点出现。用代码渲染，导出可播放视频。\n\n2️⃣等距流程\n做一支 12 秒等距 2.5D 流程动画，讲【快递怎么分拣】。包裹沿分拣线、货台、平板运输、清关关卡移动，每步编号标签，最后双线汇成一条。干净、可跟读。\n\n3️⃣比例尺对比\n做一支 10 秒比例尺对比，把【地球、木星、太阳】按真实半径同屏摆放。镜头平滑拉远，第一个物体缩小，点题「太阳底下约有 130 万个地球」。数字标注清晰。\n\n4️⃣白板手绘\n做一支 10 秒白板手绘。白底黑马克笔一笔笔画出【火柴人连甩 5 个包子】，红色只强调关键点。满足感粒子一颗比一颗大，最后角落画满。字幕：第 1 个，满足感拉满。\n\n5️⃣汉字演变 做一支 10 秒 WebGL 电影感汉字演变，主题【火】。龟甲、青铜、墨迹、火光质感。「火」从甲骨到闪电、火把，再到现代照明，形态连续变形，对应炎、烈、焰。\n\n6️⃣3D 拆解 用 three.js 做一支 12 秒爆炸图，拆解【一部手机】。外壳、中框、芯片分层炸开，镜头环绕拉近，零件用虚线引出标注。可换成任何结构。\n\n7️⃣像素典故 做一支 10 秒 16 位像素典故，讲【黄粱一梦】。取象、中举、治河、出征，每段约 1.6 秒硬切，最后回到现实。字幕：第二年，考中进士，当上了官。\n\n8️⃣绘本科普 做一支 10 秒绘本风科普，讲【小金鱼怎么游】。蜡笔线加铅笔涂色，线条抖动，眼睛、鳃、尾鳍对称，尾巴跟着节拍摆。纸本质感。\n\n9️⃣数学可视化 做一支 10 秒 3Blue1Brown 式数学可视化，讲【圆面积】。深色底，圆切成 8、16、32 个扇形，真的移拼成长方形。公式逐项出现，定格 πr²。\n\n🔟地图动画 做一支 10 秒古地图动画，讲【长安到敦煌】。羊皮纸、淡墨山路，朱红路线一笔画过去，标注里程和一句讲解，最后盖章。镜头可缩放。\n\n1️⃣1️⃣数据信息图 做一支 10 秒 Kurzgesagt 式信息图，讲【纸对折厚度】。干净图形、大数字：对折 2 次，厚度 0.4 毫米，厚度 ×2。镜头规则拉近，直到终点。\n\n1️⃣2️⃣扁平 MG 做一支 10 秒扁平 MG，讲【降水】。纯色几何、无描边。云里的小水滴越聚越大，然后掉下来。两段明暗，卡通云朵。\n\n1️⃣3️⃣卡点金句 做一支 10 秒卡点排版，120 BPM，讲【费曼学习法】。每个词卡一拍，黑底橙字切入。四步依次砸出，最后一锤：讲不清楚，就是没真懂。\n\n1️⃣4️⃣漫画分格 做一支 10 秒漫画分格，讲【一扇窗破了】。黑白网点加一个红色。听课、被发现、冲出教室，格间硬切，最后一格点题。\n\n1️⃣5️⃣时间线 做一支 12 秒横轴时间线，讲【从达特茅斯到 ChatGPT】。镜头沿轴推进，节点缩放点亮。年份大字加一句事件。示例节点：1971，又过了 41 年。\n\n用法：选一种风格，只换【】里的主题和字幕，不要同时堆三种画风。",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-four-image-models-istanbul-neon-sign",
+    "category": "提示词",
+    "title": "一段词考四个生图模型：伊斯坦布尔海边肉丸摊，霓虹招牌上的土耳其字谁写得对",
+    "body": "深夜的伊斯坦布尔，博斯普鲁斯海峡边停着一辆破旧的小餐车，冒着热气，师傅在炭火上烤肉丸，门口摆着塑料凳，远处海面上有渡轮的影子。招牌是手工拼的霓虹灯，写着土耳其语店名「Köfteci Buğra Usta」，意思是「烤肉丸的 Buğra 师傅」，服务员的衬衫背后也印着同样的字。\n\n土耳其的电影人兼 AI 创作者 Ozan Sihay 把这段提示词原封不动交给四个最新的生图模型：Nano Banana 2.1、GPT Image 2.5、Grok Imagine 2.0 和 Ideogram 4.5，四张图并排晒出来，六万多人看过。\n\n这段词难在几个地方：带变音符号的 ö、ğ 要写对；同一串字要在招牌和衣服上各写一遍，还得一模一样；整张图要像街头随手拍的纪录照片，不能有 CG 味。提示词最后一句直接点名：招牌上不许有错字。四张图里招牌大体都写出来了，但霓虹的质感、取景和人物的松弛感各不相同，正好看出各家的审美脾气。\n\n所以呢：测生图模型别只看美不美，加一行带特殊字母的招牌字立刻见真章；把店名换成你家乡的方言招牌，就是一期本地化测评。",
+    "links": [
+      {
+        "label": "X 原帖（四模型对比图）",
+        "url": "https://x.com/ozansihay/status/2107544398531637407"
+      }
+    ],
+    "prompt": "Ultra-realistic night street photograph on the Istanbul Bosphorus waterfront. A tiny makeshift caravan food stall, slightly battered metal sides, steam rising. Hand-painted neon-style rickety sign reading “Köfteci Buğra Usta” in Turkish, glowing uneven cyan and warm amber, wires and brackets visibly DIY. Inside the open caravan, the usta grilling köfte over charcoal, orange ember glow on his face and apron. One waiter in a simple dark shirt stands in front of the stall; the same “Köfteci Buğra Usta” lettering is printed on the back of his shirt. Plastic stools and small low tables outside, a few locals eating, soft conversation. A plastic water jug (damacana) near the counter. Behind them, dark Bosphorus water with distant city lights and a faint ferry silhouette. Wet asphalt reflections, streetlamp spill, shallow depth of field, natural film grain, shot on 35mm f/1.8, candid documentary look, no CGI look, no text errors on signs.",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-ai-new-mayor-city-briefing",
+    "category": "提示词",
+    "title": "假装自己要去上海当市长，让 AI 给「市长大人」写一份上任摸底报告",
+    "body": "独立开发者 Mr Panda（@PandaTalk8）国庆假期玩了个角色扮演：他告诉 AI，自己马上要从北京调去上海当市长，需要一份全面的摸底报告，从行政区划、经济、人口，到教育、医疗、治安、交通、住房、民生都要有，数据最好既有国内权威来源，也有国外机构的统计，还要拿北京做对比。\n\nAI 交出的东西挺像样。他晒的截图里，报告附了四十八个出处，开头先给出四个判断，比如浦东要单独深入研究，老龄化和人口流动要放在一起看；后面是一组上海和北京并排的柱状图，经济总量、常住人口、人均可支配收入、行政面积、人口密度一目了然，还能下载一份京沪指标表。他说自己过了一把当市长的瘾。\n\n这段提示词好用在「身份加用途」：你不是随便问问，而是一个马上要拍板的人，AI 就会按决策者需要的结构来组织信息，还会主动找参照物。\n\n所以呢：想快速摸清一座陌生城市或一个行业，就给自己安排一个「新上任」的身份；搬家、跳槽、出差前都能用，做成「假如我是某某市长」系列也很有梗。",
+    "links": [
+      {
+        "label": "X 原帖（含报告截图）",
+        "url": "https://x.com/PandaTalk8/status/2107657921647837308"
+      }
+    ],
+    "prompt": "我即将去上海担任上海市的市长， 我现在需要对上海的全方面的情况有个了解。 你帮我整理一份详细的上海行政、区化、经济发展、人口、社会、文化、教育、医疗、治安、交通、住房、民生全部的内容的报告， 帮我建立对上海的直观的立体的认识， 尽量以使用可以参考的数据 ， 不但要有国内的权威的数据， 也要有国外的机构提供的的间接的统计数据。\n你可以拿北京进行对比分析， 以帮助我快速的了解上海的情况。",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-web-scroll-animation-six-words",
+    "category": "提示词",
+    "title": "别再跟 AI 说「做个酷一点的滚动效果」：记住六个词，说一个它就懂",
+    "body": "做网页时，你想要「往下滑的时候背景慢慢动，标题钉在顶上不走」，跟 AI 描述半天，它做出来的总不是那个味。中文编程博主程序员鱼皮（@yupi996）发了一条帖子，一千二百多人点赞、一千一百多人收藏：网页上那些滚动动画，其实都有正式名字，直接报名字，比费劲写描述好使。\n\n他列了六个。Scroll-triggered，滚到这儿就自己播完，比如卡片淡入。Scroll-linked，滚多少动多少，比如顶部的阅读进度条。Parallax，也就是视差，背景比前景滚得慢。Sticky，滚到顶就钉住，比如通讯录里的字母标题。Scroll Snap，一次停一整屏。Horizontal Scroll，手往下滚，卡片却横着走。配的演示视频里，六个小窗同时演示，一看就分得清。\n\n用法就一句话：「导航栏用 Sticky，首屏背景做成 Parallax」。\n\n所以呢：跟 AI 协作，最省力的不是写长描述，而是学会行业黑话；做一期「设计师的专业词，说出来 AI 秒懂」系列，实用又好涨粉。",
+    "links": [
+      {
+        "label": "X 原帖（含演示视频）",
+        "url": "https://x.com/yupi996/status/2107735426769551691"
+      }
+    ],
+    "prompt": "生怕你不知道 > 网页上那些滚动动画，其实都有专门的名字，直接报给 AI 比费力写提示词更好使！🤫\n\n1️⃣ Scroll-triggered，滚进屏幕就自己播完，比如卡片淡入\n2️⃣ Scroll-linked，滚多少动多少，比如顶部的阅读进度条\n3️⃣ Parallax，背景比前景滚得慢\n4️⃣ Sticky，滚到顶就钉住，比如通讯录的字母标题\n5️⃣ Scroll Snap，一次停一屏\n6️⃣ Horizontal Scroll，往下滚，卡片横着走\n\n下次跟 AI 说「导航栏用 Sticky，首屏背景做成 Parallax」就行！",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-flash-face-snapshot",
+    "category": "提示词",
+    "title": "脸怼到镜头前、闪光灯直打：让动漫角色变成「手机相册里的怪表情抓拍」",
+    "body": "四张照片：蓝发女孩瞪大眼睛伸手指着镜头，红发的捂着半张脸坏笑，紫发的比了个剪刀手，银发的吐着舌头。背景全是黑的，脸被闪光灯打得发白，像朋友半夜凑过来自拍时随手按下的那一张。其实她们都是动漫游戏角色，被 GPT Image 2 「真人化」成了这样。\n\n作者 VoxcatAI 拆了自己的思路。先锁定三个画面关系：脸贴近镜头，手从前景伸进来，背景被闪光压暗。距离一近，脸和手自然一大一小，再加上歪头和贴边裁切，「随手拍」的感觉就出来了。表情和手势则故意交给模型随机组合：半眯眼、突然瞪眼、抿嘴、奇怪的笑，配上剪刀手、比心或遮脸，同一套拍摄条件能出一整组不同状态。\n\n他的建议是：写这类词先定距离、闪光和裁切，最后才补「数码锐化」「JPEG 质感」这些成像细节。\n\n所以呢：想要不像 AI 的照片，与其写「超写实」，不如把拍照时的物理条件写清楚；把【角色】换成你喜欢的角色，就是一组能发的怪表情合集。",
+    "links": [
+      {
+        "label": "X 原帖（含四张成图）",
+        "url": "https://x.com/VoxcatAI/status/2107849801870287000"
+      }
+    ],
+    "prompt": "【角色】成年真人化，近距离手机抓拍，脸部极度靠近镜头，轻微广角透视，头部歪向一侧，半眯眼或突然睁大的眼睛，吐舌、抿嘴、露出奇怪笑容等随机失控表情。一只手从靠近镜头的前景抬起，随机做剪刀手、比心、指向镜头、遮挡半张脸或其他随手动作。手机正面直闪，面部与皮肤被硬闪直接照亮，背景迅速压暗接近纯黑。极近距离、轻微贴边裁切、不端正构图、私人手机相册抓拍感、轻微广角脸部变形、真实数码锐化与 JPEG 质感。右下极小 voxcat。",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-chatgpt-agent-500-job-applications",
+    "category": "提示词",
+    "title": "「让 ChatGPT 替我投了 500 份简历，一天接到 12 个面试电话」：这套提示词哪几步真能用",
+    "body": "X 上一位自称 AI 教育者的用户发帖说：无聊之下，他让 ChatGPT 替自己投了 500 个职位，一觉醒来手机被打爆，24 小时里接到 12 个面试电话。帖子五十多万人看过，四千六百多人收藏，后面附了五步做法。\n\n前两步很实在。先上传简历，让 ChatGPT 扮演资深招聘官，列出你最适合的 20 个职位，以及每个职位会被简历筛选系统扫描的关键词。再把简历改写成一份随时能改的母版，用谷歌常用的 XYZ 写法，也就是「做成了什么、用什么衡量、怎么做到的」，顺手删掉招聘方十秒就能看出的减分项。第三步打开智能体模式，让它自己去领英和 Indeed 上找。第四步让它把最近七天匹配的职位做成表格，附上链接、匹配分和每份定制简历。第五步最夸张：「给匹配度最高的 500 个职位投递」。\n\n那 12 个面试电话无从核实。一夜之间海投 500 份，每一份写得多用心，也很难保证。\n\n所以呢：前两步拿来改简历非常值；第五步与其全自动海投，不如让 AI 先筛出二十个，你亲手过一遍再投。",
+    "links": [
+      {
+        "label": "X 原帖（五步提示词在楼中）",
+        "url": "https://x.com/Prince1253432/status/2107766159764291796"
+      }
+    ],
+    "prompt": "1/ Find 20 Job Titles that are the most suitable for you\n\nUpload your resume to ChatGPT first, then run this.\n\nPaste into ChatGPT: \"Act as a senior recruiter. Based on my resume, list 20 job titles that I'm most qualified for, along with the exact keywords that are usually scanned by ATS systems for each of those titles.\"\n\nAfter this, you'll know what positions you're best suited for and what the screening bots are looking for.\n\n2/ Creating a Master Resume\n\nStill in the same chat. This is going to be the main template that you can tweak in seconds.\n\nPaste into ChatGPT: \"Rewrite my resume into a master template that I can tailor instantly. Use the Google XYZ formula, and remove all red flags that hiring managers usually spot in 10 seconds.\"\n\n3/ Turn On Agent Mode\n\nThis is the trick to make everything run smoothly.\n\nTap: the \"+\" sign next to the chat box -> turn on Agent mode.\n\nNow ChatGPT can open LinkedIn and Indeed on its own, not just talk about it.\n\n4/ Creating Job Application Spreadsheet\n\nThey'll find everything that matches, then tidy it up for you.\n\nPaste into ChatGPT: \"Open LinkedIn and Indeed, find all the job postings that match this title from the last 7 days, and make me a spreadsheet with the links, match scores, and versions of the resume that's been tailored for each job.\"\n\n5/ Let It Be the One Who Applies\n\nThis is the craziest part.\n\nPaste into ChatGPT: \"Apply to 500 jobs with the highest match scores. Customize each application based on the job description.\"\n\nChatGPT will handle everything while you sleep.",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-doubao-jiangnan-market-storyboard",
+    "category": "提示词",
+    "title": "江南集市的清晨，公子撞见小姐：一份把「谁站哪儿」写死的古装分镜提示词",
+    "body": "清晨的江南古镇，镜头从高空俯瞰青瓦屋顶，慢慢推到街边水果摊，桃子、李子、橘子堆在竹篮里，背景里一位白衣公子从柳树下走来。下一镜，他遇见一位小姐和她的丫鬟，开口就问：「小姐也会来这般热闹市井？」小姐抬手拨开柳枝，笑着回：「公子来得，我为何来不得？」\n\n这条三十秒的 4K 古装片是中文博主 GrayNoteLab 用豆包做的，三百多个赞、三百多次收藏。他在评论里交代了做法：先生成三个人物的白底全身图，再把人物图和提示词一起交给视频模型。\n\n提示词的骨架很值得抄：先锁人物、锁场景、定空间关系，再分四个镜头，每个镜头写清时长、景别、视角、运镜、构图和台词。最关键的是每镜末尾的「连续性锁定」：丫鬟在左，小姐居中，公子在右，三人站位全程不许换；水果摊上的红穗挂饰，要一直留到下一个镜头。\n\n所以呢：多人古装戏最怕人物串脸、站位乱跳，把「谁站哪儿」写成硬规定，比堆一百个形容词管用；拍短剧开场、拍国风广告都能直接套。",
+    "links": [
+      {
+        "label": "X 原帖（成片＋完整提示词）",
+        "url": "https://x.com/GrayNoteLab/status/2107824874203099568"
+      }
+    ],
+    "prompt": "东方古装写实电影级画质；清晨柔和自然光；空气透视与薄雾；真实皮肤、布料质感；胶片级暖调色彩分级；禁止幻想CG感、塑料感、贴图感。\n\n【人物锁定】\n以参考图锁定三人身份：\n女主A、女主B（丫鬟）、男主C。\n全片严格保持三人身份、脸部特征、体型、发型、服装、配饰一致，不因镜头切换改变人物身份。\n\n【场景锁定】\n江南古代集市：青瓦坡屋顶、白墙木构建筑、石板街道、商铺幌子与灯笼；街边水果摊、垂柳、板车。\n\n【空间关系】\n镜头01高空俯瞰整条街市；镜头02切至街边水果摊；镜头03、04均在垂柳下同一位置展开对话。\n\n【光影氛围】\n清晨斜射柔光，薄雾漫动，柳枝与远景具有自然空气透视。\n\n【分镜】\n\n【镜头01】\n【时长】0–7秒\n【景别】大远景\n【视角】高空俯视约45度\n【运镜】缓慢前推并轻微下降\n【构图】街道对角线贯穿，屋顶群层叠铺陈\n【画面内容】古镇集市全貌：青瓦屋顶绵延，石板街上行人、商贩、马匹、货车往来。\n【动作节奏】舒缓\n【人物动作】人群自然流动，小贩整理货摊，马匹缓行。\n【锚定特效与物理反馈】晨雾随气流缓慢漂移，阳光在瓦面形成柔和高光。\n【摄影机硬性要求】运动平稳。\n【连续性锁定】确立街市地理关系，镜头02的水果摊位于街道左侧中段。\n\n【镜头02】\n【时长】7–12秒\n【景别】特写转中景\n【视角】平视微俯\n【运镜】缓慢前推，焦点从水果转移到背景人物\n【构图】前景水果篮虚化压框，背景垂柳与行人渐清晰\n【画面内容】竹篮中红桃、青李、柑橘堆叠；背景垂柳下男主C从远处走来。\n【动作节奏】由静转动\n【人物动作】男主C从远处走近，步伐从容。\n【锚定特效与物理反馈】阳光透过柳叶在果面投下斑驳光点，微风拂动柳枝。\n【摄影机硬性要求】焦点转移平滑。\n【连续性锁定】男主C即镜头03、04中的男子，身份、服装、发型与配饰保持完全一致；水果摊红穗挂饰保留至下一镜头。\n\n【镜头03】\n【时长】12–20秒\n【景别】中景\n【视角】平视\n【运镜】固定机位，轻微呼吸感\n【构图】垂柳居右框景，三人居中，背景行人与货摊虚化\n【画面内容】柳树下男主C与女主A、女主B相遇交谈；背景板车经过、行人往来。\n【动作节奏】生活流，舒缓\n【人物动作】男主C开口说话，神情讶异含笑；女主A与女主B应答。\n【对白】男主C：“小姐也会来这般热闹市井？”\n【锚定特效与物理反馈】柳枝在微风中轻摆，阳光透叶洒落。\n【摄影机硬性要求】三人左右站位全程不变。\n【连续性锁定】画面左侧女主B，中间女主A，右侧男主C；三人身份固定，不交换、不复制、不漂移。背景板车自右向左经过。\n\n【镜头04】\n【时长】20–30秒\n【景别】近景\n【视角】平视略仰\n【运镜】缓慢横移并轻微推近\n【构图】垂柳枝条前景虚化，三人面部清晰\n【画面内容】女主A抬手轻拨柳枝，转头含笑应答；男主C注视女主A，女主B站在旁边。\n【动作节奏】情绪点，柔和\n【人物动作】女主A指尖拨开柳枝、转头、微笑说话；男主C目光追随女主A；女主B自然站立。\n【对白】女主A：“公子来得，我为何来不得？”\n【锚定特效与物理反馈】被拨动的柳枝轻晃回弹，叶间光斑自然流动。\n【摄影机硬性要求】前景柳枝保持虚化。\n【连续性锁定】女主B左侧、女主A中间、男主C右侧；三人站位、身份、脸部特征、服装、发型、配饰与镜头03完全一致；柳枝动态自然衔接。\n\n【负面约束】\n无多余文字、无水印、无人物复制、无解剖错误、无现代元素、无身份漂移、无服装突变、无发型突变、无配饰变化、无人物互换、无角色数量变化。",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-minimax-h3-local-platform-train-light",
+    "category": "提示词",
+    "title": "在自家显卡上跑：雨夜站台，列车灯光慢慢照亮她的脸，人没「换脸」",
+    "body": "日本的高架站台，下着雨。一个撑透明伞的女生独自等车，镜头固定在她右侧拍侧脸。她伸手试试雨停没停，远处亮起两盏车灯，光一点点爬上她的额头和鼻梁。电车进站那一瞬，一阵风掀起她的刘海和衣角，她一手扶伞、一手拢住大衣，最后侧着脸轻轻笑了一下。\n\n这种镜头是视频模型的老大难：光一变，脸就容易变成另一个人。kentdhani 专门拿它测 MiniMax H3 的「参考图生视频」，给一张人物照，让模型按这个人来拍。而且他不是在云端跑，是在自己的 RTX 5090 显卡上用 ComfyUI（一个在本地跑模型的工具）跑的。\n\n他公开的提示词有八千多个字符，像一份拍摄通告，按秒写清每个小动作。更狠的是禁止清单：灯光只许平滑地亮一次，不许闪、不许忽明忽暗，不许出现车窗形状的光斑扫过脸；车头经过和起风必须在第五秒半同时发生；不许变成长得像的另一个人。\n\n所以呢：开源视频模型已经能在家用显卡上拍出光影变化下不变脸的镜头；想测一个模型稳不稳，就专门给它出「灯光扫脸」这类难题。",
+    "links": [
+      {
+        "label": "X 原帖（成片）",
+        "url": "https://x.com/kentdhani/status/2107736392247992627"
+      },
+      {
+        "label": "完整提示词",
+        "url": "https://x.com/kentdhani/status/2107736396861526115"
+      }
+    ],
+    "prompt": "A single continuous live-action long take on a Japanese elevated train platform at night in the rain. One woman waiting alone, camera locked in place at her right side, filming her right profile down the length of the platform. It runs from her small waiting fidgets, through a commuter train arriving and passing in front of her, to the train nearly stopping and a soft side-profile smile. One take, camera fixed with only slight handheld breathing, no cuts, no zoom, no push-in. Normal real-world speed throughout, no slow motion.\n\nShot 1 — 0.0s: Realistic cinematic, real-camera rainy-night platform, one continuous long take, medium shot from mid-thigh up, camera fixed at her right at chest height looking down the platform's depth. Right side of frame is the wet-bright yellow tactile paving, the platform edge, and two steel rails converging into the distance, with the arched glass windscreen beyond; left side is the platform interior and orange glowing shopfront boxes; cool fluorescent tubes recede overhead; red-blue-green neon bokeh at the far end; tiles wet-black and reflective. Riria stands center-slightly-left inside the yellow paving, facing the tracks, her right profile to the lens, shopfront orange rimming her back and bun. The right-side rail is empty, no train yet. She is already mid-action: tilting the umbrella back a little, looking up past its rim at the night sky beyond the canopy, reaching her right hand forward toward the track side past the umbrella rim, palm up, holding a beat to test whether it's still raining, a few drops landing in her palm.\n\nShot 1 continues — 1.5s: She pulls her hand back, rights the umbrella back over her head, lets out a soft breath, and shifts her weight from one foot to the other.\n\nShot 1 continues — 2.0s: Two small, soft cool-white headlights light up at the far end of the right-side rail. She leans her upper body slightly forward (feet not crossing the yellow paving), peering toward the far end of the tracks, body still squared to the rails. The headlights grow larger and brighter extremely gradually along the right rail, the steel, the standing water, and the platform edge lighting up bit by bit.\n\nShot 1 continues — 3.5s: She straightens up, steps back half a step, grips the umbrella handle again with her left hand, her gaze following the approaching train. The light keeps rising slowly and evenly — first catching the side-profile edge of her forehead, nose bridge, and lips, then washing softly onto her face. The same light also falls on the droplets on the umbrella, the rain, the wet tiles, and her coat, no hard edges, no flicker. Her skin is only softly brightened overall, still matte, no shine spot. She squints slightly and tucks her chin a little into the turtleneck.\n\nShot 1 continues — 5.5s: A silver stainless-steel commuter train with a green waistline reaches her along the right-side rail, wheels on the rails, body tight to the platform edge, the nose passing in front of her and exiting frame right. In the same instant a gust blows in from the depth of frame: bangs and side hairs pressed to her cheeks, coat hem, lapels, and back belt lifting, umbrella tilting about a hand's width and trembling. Her left hand steadies the umbrella, her right hand lifts to gather the blown-open coat front at her chest, still facing the tracks. The cool-white headlight glow transitions smoothly into the warm-white carriage glow over about a second, brightness roughly unchanged, only cool-to-warm. Carriages run past in front of her on the right with motion blur, the warm-white light a long steady even band on her face, coat front, and umbrella rim, no flicker. Her feet stay planted, sharp, normal speed, no slow motion.\n\nShot 1 continues — 7.0s to 10.0s: The train visibly decelerates, carriages resolving back into distinguishable windows, inside them only defocused warm-white light and blurred shapes, but the warm light on her stays constant. The wind eases, hems settle, hair slowly drops. Around 8.5s she releases the coat front and uses her right fingertips to tuck the strands stuck to her cheek behind her ear, revealing the pearl stud, then lets her right hand fall naturally.\n\nShot 1 continues — 10.0s: The train glides slowly toward a near-stop, settling on the right-side rail, the warm-white light still steady and soft on her face.\n\nShot 1 continues — 10.5s: Her head turns only slightly toward the lens side, feet and shoulders still toward the tracks, still a clean right profile in frame, at most the far corner of her eye and mouth just showing, never a three-quarter front or full face. Her gaze slants gently toward the lens side, not direct to camera. Framing stays mid-thigh-up medium, no push-in.\n\nShot 1 continues — 12.5s: The corner of her mouth slowly lifts into a soft, restrained closed-lip smile on the profile, cheekbone rising a touch, eye corner curving, never a toothy grin or a posed frozen smile. The smile holds on the profile, she blinks once and breathes out softly, a strand of hair still swaying in the leftover wind, the train completing its last short glide at walking pace with doors staying shut. The image ends while these tiny motions are still underway, never a freeze frame. Live throughout — rain keeps falling, droplets slide and pool on the umbrella, the turtleneck collar rises faintly with her breath, flyaways drift, puddle ripples shimmer, distant neon glows steady, the handheld frame breathing lightly.\n\nAll light changes are continuous, slow gradients, never blinking: no flicker, strobe, or on-off pulsing, no per-frame brightness jumps, no sudden light on or off, no hard-edge pools or stage-spotlight circles, no window-shaped light patches sweeping across her face. The windows are large and the carriage light diffuse, so what lands on her is one steady sheet of warm light. The headlights are just two softly growing points, never direct into the lens, the frame never flashes white. The same light lands on the umbrella, the rain, the wet tiles, the platform edge, and her coat at once, never only on her face. Fluorescent tubes and distant neon glow steady, never flickering. Camera exposure locked the whole time, no auto-brightening or darkening. The whole clip brightens smoothly only once, then holds steady, never bright-then-dark-then-bright. The nose passing in front of her and the gust lifting her hair and hems happen in the same instant (around 5.5s), never wind-before-train or train-already-past-before-wind.\n\nProhibited\n\nNo subtitles, watermark, logo, or overlay text; platform light boxes, billboards, and train destination displays appear only as defocused glowing color blocks, never any readable text. No dialogue or narration. No standing still before the train or woodenly posing before it; no flicking water off the hand. No light blinking, flickering, strobing, or on-off pulsing; no bright-then-dark-then-bright; no sudden light on or off; no headlight flaring white into the lens; no window-shaped light patches sweeping across her face; no stage-spotlight circles or hard light beams; no light landing only on her face; no exposure wavering; no flickering tubes or neon. No standing with her back to the tracks; no facing the shopfronts, platform interior, or lens; no chest toward frame left. No rail on the left side of frame; no train driving onto the platform; no train on the left or shopfront side; no train crossing the frame; no train floating or off the rails; no train passing behind her; no train between her and the lens; no train coming from behind the camera, driving off into the distance, or reversing. No push-in, pull-out, zoom, or orbit. No chest-up close-up or face close-up. No full face to lens, three-quarter front glance back, or direct eye contact. No turning the shoulders or turning around. No early smile. No skin oil, sweat, water shine, specular spots, wet reflection, or droplets on the face. No rubbery, silicone, waxwork, or plastic skin, no smoothing, no freckles vanishing. No grey studio backdrop. No triptych, split-screen, or a second Riria. No other passengers or staff on the platform. No doors opening or anyone getting off. No slow motion or slowed hair drift. No umbrella flipping inside out, flying from her hand, or the shaft crossing her face; no right hand covering her face. No features drifting into a similar-looking different person — it is this person from the reference. No toothy grin. No global amber or teal-orange filter. No CG, anime, over-sharpening, or HDR look. No freeze frame. No third hand or finger distortion.",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-midjourney-sref-smoking-cats-dogs",
+    "category": "提示词",
+    "title": "一串数字就是一种画风：叼着烟、穿着毛衣的猫和狗，像蜡笔涂在毛毡上",
+    "body": "四张图：橘猫叼着烟斜眼看人，黑猫穿着蓝色开衫，黑狗披着牛仔外套，腊肠狗穿一件绣着向日葵的衬衫，个个手里夹着烟，一脸「别烦我」。笔触像蜡笔涂在毛毡上，毛茸茸的，颜色有点旧。\n\n发这组图的账号叫 sergeantsref，它几乎只做一件事：分享 Midjourney 的风格代码。sref 是 Midjourney 的「风格参考」功能，一串数字就代表一种画风，加在你自己的提示词后面，画什么都会带上这个味道。这条帖子正文只有一行「--sref 3747734685」，却拿到三千八百多个赞、十二万多次播放。隔天它又发了一组画风相近的「猫派对狗派」，赞数更高。\n\n它没有公开每张图的主体描述，所以能抄走的就是这串代码本身：你自己写主体，比如一只穿毛衣的柴犬，后面接上这串数字就行。\n\n所以呢：在 AI 绘画圈，「画风」已经变成一串可以收藏、交换的数字；做一期「我最常用的十个风格代码」，比教一百句咒语更直接。",
+    "links": [
+      {
+        "label": "X 原帖（风格代码与四张图）",
+        "url": "https://x.com/sergeantsref/status/2107375807069053011"
+      },
+      {
+        "label": "隔天的「猫派对狗派」",
+        "url": "https://x.com/sergeantsref/status/2107647094622449824"
+      }
+    ],
+    "prompt": "--sref 3747734685",
+    "date": "2026-10-06",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "art-history-museum-wikipedia-walk",
+    "category": "视觉尝试",
+    "title": "把维基百科变成一座能走进去的美术馆：一千多年、八万多幅画，按 WASD 就能逛",
+    "body": "希腊开发者 jasontr 在 Hacker News 上丢出一个链接，点开是一条横着的时间长河：从十世纪的中国山水画家李成，一直排到今天的涂鸦艺术家班克斯。滚动鼠标，就是在时间里穿行；点进某个时期，再挑一位画家，你就「走」进了他的个人展厅。电脑上按 W、A、S、D 走路，鼠标转头，按住 W 三秒还能小跑；手机上拖动看，点一下地板就走过去。凑近一幅画点开，墙上的标签会告诉你它原本多大，现在是按原尺寸挂着还是缩放过。整座馆收了五百二十六位画家、八万两千一百三十九件作品，分成三十五个时期和流派，中国、日本、印度、波斯都有。每个时期的展厅装修和背景音乐也不一样。图片和介绍全部来自维基百科和维基共享资源，代码开源。帖子拿到一百五十分，评论区有人催语音导览，有人想要策展人那样混搭几位画家的主题展，作者一一记下，还说下一步想做一座希腊历史馆。所以呢：知识不一定非得排成文章，换成一个能走进去的地方，人就愿意多待一会儿；做艺术类内容时，可以直接带观众「逛」一位画家的一生。",
+    "links": [
+      {
+        "label": "美术馆入口",
+        "url": "https://artmuseum.artfrompixels.com/"
+      },
+      {
+        "label": "开源代码",
+        "url": "https://github.com/justdataplease/art-history-museum"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49992057"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "hieraticbench-tattoo-sentence",
+    "category": "视觉尝试",
+    "title": "想纹一句古埃及草书，他请牛津学者写了一句：十三个 AI 模型，没有一个认出是什么字",
+    "body": "Aly Moursy 是个埃及学迷。疫情期间他想纹个身，内容是一句用「僧侣体」写的话。僧侣体是古埃及人日常记账、写信用的草书，和象形文字一样古老。二〇二二年，他请一位牛津的埃及学家亲手写下这句话，又找了一位僧侣体专家，照古代书吏的笔法重描了一遍。后来 AI 新模型一个接一个发布，他每次都拿这句话去考，结果几乎每次都认错。于是他干脆把它做成了一套测试，叫 HieraticBench。第一版有二百六十八道题：真实的古埃及文书、单个字符，还有故意混进去的其他埃及文字当干扰项。至于他那句意思从没公开过的话，十三个模型全军覆没。网站首页把错误答案排成一面墙：有说是藏文的，有说是乌尔都语的，还有说是《摩门经》里的「改良埃及文」。换成真实文书，最好的模型能认对九成五；可一旦要它逐个认字，最好成绩也只有一成三左右。所以呢：AI 刷爆的考试越来越多，真正难住它的，反而是只有一个人知道答案的冷门手写字；拿一样只有你懂的东西去考 AI，本身就是一期好选题。",
+    "links": [
+      {
+        "label": "HieraticBench",
+        "url": "https://hieraticbench.vercel.app/"
+      },
+      {
+        "label": "测试方法",
+        "url": "https://hieraticbench.vercel.app/method"
+      },
+      {
+        "label": "HN 作者自述",
+        "url": "https://news.ycombinator.com/item?id=49982822"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "how-machines-learned-precision",
+    "category": "视觉尝试",
+    "title": "三块铁板互相磨，磨出了工业革命：一篇能用手指拖着转的「精度史」互动长文",
+    "body": "Gary Linscott 之前写过一篇讲瓦特蒸汽机的互动文章，写着写着他好奇起来：瓦特的气缸，当年到底是怎么做圆的？于是有了这篇《机器如何学会精确》。开头是一台大约一八〇〇年的螺纹车床，你能用手指拖着它转、捏着放大。往下读，每个难题都配一个会动的小模型。一七六九年，瓦特试验机的气缸最歪的地方差了将近一厘米；几年后威尔金森改了镗床，误差小到「不到一枚旧先令那么厚」。最妙的是「三块板」的办法：两块板互相磨，一块凸一块凹也能严丝合缝；加上第三块轮流对磨，凸碰凸、凹碰凹就露馅了，磨到三对都贴合，三块板就都平了。全程不需要先有一块平板可以照抄。文章一路讲到惠特沃思的机器，能分辨百万分之一英寸，手指碰一下钢棒，体温就能让读数变。作者写明，车床是他自己在 CAD 里建的模型，用 three.js 渲染，互动图是他和 Claude Fable 5 一起做的。Hacker News 上一百三十多分，有读者说终于看懂了静态插图讲不明白的机械。所以呢：最难讲的原理，交给能拖动的小模型就好讲了；讲科技史时，不妨让观众亲手磨一次那三块板。",
+    "links": [
+      {
+        "label": "互动长文",
+        "url": "https://glinscott.github.io/how-machines-learned-precision/"
+      },
+      {
+        "label": "前作：蒸汽机",
+        "url": "https://glinscott.github.io/beam-engine/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49980626"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "procinsh-ghost-in-shell-3d",
+    "category": "视觉尝试",
+    "title": "照着《攻壳机动队》做了个 3D 电脑内脏：每个程序一个发光盒子，数据像白色小球在线上跑",
+    "body": "日本工程师 Akira Kawata 最爱一九九五年的动画电影《攻壳机动队》，尤其是里面漂满发光物体的赛博空间。他平时天天泡在命令行里，用 htop 这类工具看系统状态，可心里一直想要一个《攻壳》那样的界面。于是他写了 procinsh，名字就是把片名里的「Ghost」换成了「Process」。装好后在浏览器打开，电脑上每个正在运行的程序都是一个长方体盒子；程序正在占用处理器，盒子底部就亮起来。程序之间的连线代表它们在互相通信，真有数据传过去时，一颗白色小球会沿着线滑过去。程序读写的文件挂在盒子下面，连到外网的地址浮在上面。点进去，还能看内存怎么分布、信号状态，甚至寄存器里的数值。后端用 Rust 写，靠 eBPF 这类内核接口实时抓数据。Hacker News 上有人笑说，终于能在家人面前打开它，喊一句《侏罗纪公园》里的「这是 Unix 系统，我会」。作者也提醒：别随手开放远程访问，那等于把进程内存毫无保护地亮给别人。所以呢：枯燥的系统监控，也能变成一座会发光的城市；讲「电脑里到底在发生什么」时，这种画面比一屏数字好懂得多。",
+    "links": [
+      {
+        "label": "GitHub 仓库",
+        "url": "https://github.com/akawashiro/procinsh"
+      },
+      {
+        "label": "作者博客",
+        "url": "https://akawashiro.com/articles/procinsh-en"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49991986"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "lerandom-generative-art-timeline",
+    "category": "视觉尝试",
+    "title": "从七万年前到 2025 年：一千一百多个「让规则替人作画」的瞬间，排成一条会自己播放的时间线",
+    "body": "生成艺术，说白了就是艺术家先定好规则，再让骰子、机器或程序去完成作品。数字艺术平台 Le Random 把这门手艺的家谱整理成了一条「活的时间线」，由 Peter Bauman 编写，这几天刚发布更新版。打开后，一千一百四十七个瞬间从公元前七万一千年一路排到二〇二五年，牵出一千二百七十四个人、四十个艺术流派。同一批内容有六种看法：按年代翻；按二十三个「想法区域」找跨时代的关联；按流派；按人物；按每个时代用的工具，从织布机一路排到今天；还有一个自动播放的巡展模式，适合投在沙发对面或画廊墙上。页面上还有一扇「碰运气之门」：一七五七年，音乐家基恩贝格发表过一种掷骰子作曲的方法，你在这里也掷一次，时间线就随机发给你一个瞬间。AI 艺术家 Gene Kogan 转发时说，这可能是迄今最完整的一份生成艺术年表。所以呢：AI 作画不是凭空冒出来的，背后有几百年「按规则作画」的传统；做 AI 艺术内容时，可以从这条时间线里挑一位老祖宗讲起。",
+    "links": [
+      {
+        "label": "活的时间线",
+        "url": "https://timeline.lerandom.art/"
+      },
+      {
+        "label": "Gene Kogan 转发",
+        "url": "https://x.com/genekogan/status/2107564436021993710"
+      },
+      {
+        "label": "David Gunkel 转发",
+        "url": "https://x.com/David_Gunkel/status/2107730063945085289"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "eight-models-one-3d-prompt",
+    "category": "视觉尝试",
+    "title": "同一道 3D 题考八个模型：埃菲尔铁塔、水族箱、一只胖猫，最贵的那家花了十几美元",
+    "body": "法国 Mistral 的新旗舰 Large 4 上线那天，开发者 Dominique Silvestre 做了个简单粗暴的测试：同一段做 3D 网页场景的提示词，只许生成一次、不许修改，同时交给八个模型。四个开源的：Mistral Large 4、Kimi K3、GLM 5.3、DeepSeek V4 Pro；四个闭源的：Claude Opus 5.5、Sonnet 5.5、GPT-6 Astra、GPT-6.1 Sol。考题是三个场景：埃菲尔铁塔、水族箱，还有 Mistral 自己拿来玩梗的胖猫「The Chonk」。他的结论是：铁塔这一关 GPT-6 Astra 拿总冠军，Mistral 是开源里最好的；水族箱这一关 Opus 赢，Mistral 排在倒数附近；胖猫这一关，GLM 和 Kimi 都比 Mistral 做得好。账单差得更夸张：三个场景 Mistral 一共花了零点八七美元，Opus 花了十三点八三美元。他还踩了个坑：Mistral Large 4 默认不开推理，第一次跑出来的铁塔是一块黑屏；把推理强度调到高，像换了个模型，可三个场景跑了六十六分钟。这条对比视频在 X 上有近四万次观看。所以呢：模型好不好，别只看跑分，拿同一道画面题当场比一比最直观；做测评视频时，记得把账单和等待时间也摆出来。",
+    "links": [
+      {
+        "label": "对比视频",
+        "url": "https://x.com/domsilvestre/status/2107567209035833402"
+      },
+      {
+        "label": "作者结论",
+        "url": "https://x.com/domsilvestre/status/2107567210923221002"
+      },
+      {
+        "label": "推理开关的坑",
+        "url": "https://x.com/domsilvestre/status/2107567213041397917"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "tiny-gpt-every-number-browser",
+    "category": "视觉尝试",
+    "title": "一个只认识十八个词的迷你 GPT：它算的每个数都摆在屏幕上，鼠标一指就告诉你怎么算的",
+    "body": "Manogya Singh 在上一门讲推理模型的课，一半成绩靠做项目。刚开课他就发现，自己虽然背得出架构图，可有些步骤到底在干什么，还是说不清。于是他用 Opus 5.5 做了一个网页，把一个玩具版 GPT 拆开给你看。这个模型小得可爱：两层，两个注意力头，词表只有十八个词，训练材料就是一句「the cat sat on the mat .」。正因为小，每个矩阵都能完整放进一屏，每个数字都是浏览器当场算出来的。鼠标停在任何一格上，它就把这一格的算式摊开给你看。网站分三章。第一章跟着一个词，从被切开、变成数字，一路走到被选中输出。第二章演示一次完整的训练，看误差怎么往下掉。第三章演示 ChatGPT 这类模型出厂前的「人类反馈强化学习」：先训一个打分模型，再让 GPT 照着分数改自己。最后一页还能把约束关掉，看模型怎么为了高分开始钻空子。所以呢：大模型听起来很玄，缩小到十八个词，每一步其实都是加减乘除；讲 AI 原理时，与其画框图，不如带观众看清一个数是怎么来的。",
+    "links": [
+      {
+        "label": "在线演示",
+        "url": "https://llm.manogya.dev"
+      },
+      {
+        "label": "开源代码",
+        "url": "https://github.com/manogyasingh/transformer-visualisation"
+      },
+      {
+        "label": "HN 作者自述",
+        "url": "https://news.ycombinator.com/item?id=49991390"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "illustrated-house-smart-home-dashboard",
+    "category": "视觉尝试",
+    "title": "家里人都不肯用智能家居 App，他就请画师把整栋房子画了出来：壁炉会跳火，花园灯会亮",
+    "body": "Anton Frolov 用开源的 Home Assistant 把家里自动化了一整年：人一走空调全关，下雨天草坪洒水自动跳过。可有件事总卡住：花园灯只能用 App 开，他还设了个定时器，快到点灯会闪，提醒你去 App 里续时间。问题是，除了他，全家没人愿意打开那个 App。他的解法很另类：做一个好看到全家都想用的控制面板。他请了一位擅长画室内场景的画师，交给对方一整包材料：户型图、每个房间的照片、风格参考，还有一份技术说明。最关键的一条是：所有图层都画在同一张一样大的画布上，每件电器待在它真实的位置。每个电器画一张「关」的静图，再画大约八帧「开」的动画，白天黑夜各一套。最后在 Home Assistant 里用自带的图片卡片一层层叠上去：空调开了，画里的空调就吹起风；太阳落山，整栋房子自动换成夜景。他把面板接到电视的 HDMI 口，早晚各亮几个小时。家里人第一次看到，就开始对着真房间找不同，后来还主动在手机上装了 App。所以呢：科技产品没人用，常常不是功能不够，而是不够可爱；给智能设备配一张手绘画，可能比加十个新功能更管用。",
+    "links": [
+      {
+        "label": "作者长文",
+        "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49986882"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "slopguesser-human-or-ai-code",
+    "category": "视觉尝试",
+    "title": "每天八段代码，猜是人写的还是 AI 写的：当天排行榜第一名，也只猜对了三段",
+    "body": "程序员 Daniel 当年在马德里读大学时学会了写 C，如今他做了个每日小游戏，叫 Slopguesser。规则很简单：每天给你八段代码，你判断每段是人写的还是 AI 写的。「Slop」是网上对 AI 批量产出的粗糙内容的戏称。题库很讲究：人写的代码，只从二〇二一年以前提交到 GitHub 的开源项目里挑，那时还没有编程助手；AI 写的代码，专找由 Claude Code、Codex、Cursor 这类编程代理署名提交的记录。像 C 语言这种网上 AI 代码很少的，他就造「双胞胎」：先让 Claude 用大白话描述一段人写的代码，再让另一个模型只看描述、从头写一份。题库里还藏着他心中偶像的代码，比如 jQuery 作者 John Resig 和 Linux 之父 Linus Torvalds。每轮揭晓时，会附上原项目、文件和提交记录。我们查看的时候，当天一百三十二位玩家里，排第一的也只对了八题中的三题。所以呢：「一眼就能看出是 AI 写的」这种自信，可能没你想的那么靠谱；拿这个游戏跟观众比一比眼力，就是一期现成的互动内容。",
+    "links": [
+      {
+        "label": "Slopguesser",
+        "url": "https://slopguesser.dev"
+      },
+      {
+        "label": "题库怎么来的",
+        "url": "https://slopguesser.dev/about"
+      },
+      {
+        "label": "HN 发布",
+        "url": "https://news.ycombinator.com/item?id=49989186"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "google-playground-type-a-game",
+    "category": "视觉尝试",
+    "title": "谷歌上线 Playground：打几句话就生成一个能玩的小游戏，有人四分钟做出一款带配乐的浣熊游戏",
+    "body": "十月七日，谷歌实验室推出了一个实验性的游戏平台，叫 Playground。玩法是：你打字描述一个游戏，它负责做出角色、规则和整个场景，然后直接在浏览器里试玩。觉得手感不对、规则太简单，接着打字让它改就行。做好的游戏可以只给自己玩，可以甩链接挑战朋友，也可以发到社区画廊；部分类型还支持排行榜和多人对战。X 上一位网友随手打了一句很模糊的「浣熊游戏」：一分钟后，Playground 给出了游戏设计、名字和简介；再过三分钟，代码和美术素材也做好了，连背景音乐都有。这位网友说成品和自己脑子里想的不太一样，但毕竟只用了不到五分钟。Hacker News 上有人在一款「蒸汽朋克消消乐」里玩到了全球第二，觉得质量比很多 AI 随手写的小游戏高。也有人吐槽打不开：目前只对美国十八岁以上用户开放，能做多少游戏，还要看你订的是哪一档谷歌 AI 会员。谷歌还预告，之后会接入 Unity 的新工具，做更复杂的三维游戏。所以呢：做小游戏的门槛，正在从「会写代码」变成「会描述想法」；做内容时，可以把一个梗、一个段子直接做成观众能玩的游戏。",
+    "links": [
+      {
+        "label": "谷歌官方介绍",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+      },
+      {
+        "label": "Playground",
+        "url": "https://labs.google/playground"
+      },
+      {
+        "label": "网友的浣熊游戏",
+        "url": "https://x.com/200milxp/status/2108001685842919599"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49991823"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "psp-god-of-war-browser-recomp",
+    "category": "视觉尝试",
+    "title": "《战神》PSP 版在浏览器里跑到每秒六十帧：不是模拟器，而是把整个游戏「翻译」成了网页",
+    "body": "打开一个网页标签，PSP 上的《战神：奥林匹斯之链》从开机画面一路玩到过场动画和战斗，每秒六十帧，清晰度最高能拉到原版的四倍，手机上还会出现触屏按键。评论区有人回忆，十年前他用 i7 笔记本模拟这款游戏，只能跑到每秒十五帧左右。这个开源项目来自开发者 snuri00，做法和常见的模拟器不一样。模拟器是一边运行、一边现场翻译游戏指令；它是提前把游戏的整份机器码一次性翻译成 C++，再编译成浏览器能跑的 WebAssembly，另外用代码重写了一小套 PSP 系统和显卡，画面交给 WebGL 去画。从压缩包到能玩的网页，在一台八核笔记本上大约四分钟。续作《斯巴达之魂》也跑起来了，每秒五十五到六十帧。仓库里不带任何游戏文件：你得用自己拥有的光盘镜像，在自己电脑上生成，生成的结果也不能发出去。Hacker News 上一百八十多分，评论吵得很热闹：有人说这不过是「多走几步的模拟器」，也有人感慨老游戏终于不用等厂商重制了。所以呢：老游戏的「保存」正在换一种做法；讲这件事时，版权边界和技术本身一样值得聊。",
+    "links": [
+      {
+        "label": "GitHub 仓库",
+        "url": "https://github.com/snuri00/psp-web-recomp"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49991243"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "bigwords-url-is-the-sign",
+    "category": "小众工具",
+    "title": "想让一块够不着的平板显示一句话：他干脆把整句话塞进了网址里",
+    "body": "网名 SpeakingOfBrad 的开发者手上有一台平板，他能远程管理，人却碰不到它。把它设成只开浏览器的展示模式很容易，难的是：怎么让浏览器显示他想说的那句话？他的答案是 BIGWORDS.PAGE，网址本身就是那块牌子。你在编辑页写好一句话，调好颜色、字体和动画，复制链接，任何屏幕打开，这句话都会撑满整屏，横屏竖屏自动适配。它还能做多页轮播、倒计时和计时器，也能直接生成二维码，扫一下就连 Wi-Fi、打电话或打开地图。最巧的是隐私设计：所有内容都写在网址「#」号后面，而浏览器从来不会把「#」后面的部分发给服务器。所以作者根本看不到你写了什么，也没有账号和数据库。代码开源，可以自己部署。这个帖子在 Hacker News 拿了四百三十多分，是这几天最火的 Show HN。评论区有人随手做了一个会跳动的爱心，链接一发出去就能看。所以呢：一条网址就能当一块电子招牌；机场接人、直播间提示、咖啡店的 Wi-Fi 密码，都可以一条链接搞定。",
+    "links": [
+      {
+        "label": "BIGWORDS.PAGE",
+        "url": "https://bigwords.page/"
+      },
+      {
+        "label": "开源代码",
+        "url": "https://github.com/SpeakingOfBrad/bigwords.page"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49994443"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "rea-agent-reverse-engineer",
+    "category": "小众工具",
+    "title": "看上别人 App 里的一个功能？让 AI 代理去拆开看看它是怎么做的",
+    "body": "做产品的人常有这种时刻：看到别家 App 里某个功能特别顺手，却不知道它背后是怎么实现的。开源项目 REA，全名是「逆向一切」，就是为这件事做的。装好后，它会接到你常用的编程代理上，比如 Claude Code、Codex、Cursor 或 Gemini CLI。然后你可以直接说：「搞清楚备忘录 App 的搜索是怎么做的，给我看证据，再在我的项目里做一个类似的。」代理就会用它提供的工具去翻那个软件。电脑程序的机器码、网页和桌面应用里的脚本、安卓安装包、抓下来的网络请求，都能分析，每个结论还会附上证据和局限。官方案例里，它从老游戏《DX-Ball》里还原出一段控制声音左右声道的计算，重写的代码通过了三千二百零五个测试。这个仓库这几天排在 GitHub 当日趋势榜第一位，一天涨了四千六百多颗星，累计一万七千多颗，十月七日刚发了 5.0 版。分析全部在本机跑。所以呢：「看懂别人的软件」这件以前要专家才干得了的事，正在变成一句话的活；不过动手拆别人家的东西之前，先看清对方的许可和条款。",
+    "links": [
+      {
+        "label": "GitHub 仓库",
+        "url": "https://github.com/morluto/rea"
+      },
+      {
+        "label": "官网与案例",
+        "url": "https://morluto.github.io/rea/"
+      },
+      {
+        "label": "5.0 版更新",
+        "url": "https://github.com/morluto/rea/releases"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "lessong-song-to-language-lesson",
+    "category": "小众工具",
+    "title": "把一首喜欢的歌变成外语课：先一句句念歌词和翻译，再放原曲那一段",
+    "body": "比利时电台有过一档老节目叫《Plan Langue》，专门用流行歌教英语：主持人先把歌词一句句念出来，配上翻译，背景垫着这首歌的伴奏；然后音乐一起，原曲那一段正好响起，你刚学的词全都听得懂。程序员 eschnou 想把这档节目自动化，于是做了命令行工具 lessong。丢进去一个音频文件，它会先把人声和伴奏分开，找出每句歌词在第几秒唱，翻译成你要的语言，再用合成语音朗读，最后按节拍把讲解、伴奏循环和原曲段落拼成一节课。主歌、副歌、主歌，讲一段，放一段。一首四分钟的歌，在苹果芯片的笔记本上大约四五分钟做完。需要自备 ElevenLabs 和 OpenAI 的密钥，也得用你有权使用的歌。最有意思的是作者自己的坦白：拆音轨、找循环点、把配音叠到歌上再对齐字幕，这些他一样都不会。「我只知道想要什么结果，剩下的是 Opus 5.5 花几个小时做完的。」所以呢：在 AI 时代，有一个好点子本身就快够用了；学外语的博主，可以拿一首当红歌曲直接做一期「听歌学法语」。",
+    "links": [
+      {
+        "label": "GitHub 仓库",
+        "url": "https://github.com/eschnou/lessong"
+      },
+      {
+        "label": "HN 作者自述",
+        "url": "https://news.ycombinator.com/item?id=49998119"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "paste-preview-claude-code-markup",
+    "category": "小众工具",
+    "title": "往 Claude Code 里贴了三张截图，分不清谁是谁？这个插件让你先看见、再圈重点",
+    "body": "在终端里用 Claude Code 的人，大概都遇过这种尴尬：截图粘进去，输入框里只剩一行「[Image #1]」。贴到第三张，你已经想不起哪张是哪张，更没法告诉 AI「看左上角那个红按钮」。开发者 alan890104 做的 paste-preview，补的就是这个缺口。装上之后，每张贴进去的图都会在输入框上方显示缩略图，发出去的消息里也带着图和编号。更实用的是，粘贴那一刻会弹出一个小编辑器：画笔、圆圈、方框、箭头、文字、裁剪、旋转，七种颜色，还能撤销。圈完按回车，Claude 收到的就是你标好重点的那一版，原图不再发过去；按 Esc 则保持原样。在 Mac 上，这个编辑器像聚焦搜索那样浮在全屏终端上面，不用切换桌面。想看到缩略图，需要 Ghostty、kitty 这类能显示图片的终端。它还要求较新版本的 Claude Code，用的是官方还在抢先体验的插件机制。所以呢：跟 AI 说清楚「看这里」，有时一个红圈比一百个字管用；录 AI 编程教程时，这类小插件本身就是很好的演示素材。",
+    "links": [
+      {
+        "label": "GitHub 仓库",
+        "url": "https://github.com/alan890104/claude-code-paste-preview"
+      },
+      {
+        "label": "HN 发布",
+        "url": "https://news.ycombinator.com/item?id=49994822"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "daydream-studio-ai-session-players",
+    "category": "小众工具",
+    "title": "在桌上敲一段节奏，就能「请」几位 AI 乐手跟你合奏：浏览器里的虚拟录音棚",
+    "body": "Daydream 是一家很小的音乐研究实验室，联合创始人 Hunter 在 Hacker News 上放出了他们的研究预览版 Studio。用起来像进了一间录音棚。先给它一段「种子」：可以用文字描述一段旋律，可以上传文件，也可以直接对着麦克风录，官方说哪怕在桌上敲几下都行。Studio 会自动听出这段音乐的速度、调性和和弦。接着你「预约」几位虚拟乐手，把他们拖到音轨上，他们就跟着你的录音实时编出自己的声部。觉得哪个声部不对味，就用文字说你想要的感觉，或者直接调它的性格，边放边改。可以录整首歌，也可以只录你在标尺上圈出的几小节。Hunter 说，真人乐手之间配合，靠的是一套共同规则：谱子、律动、谁在唱主旋律。他们想做的，就是听得懂这些规则、能被实时指挥的模型。背后的实时引擎叫 DEMON，已经开源，旋钮一动，几十毫秒内就能听到变化。目前完整功能只能在电脑上用。所以呢：AI 做音乐正在从「一键出整首」变成「你当制作人，它当乐手」；音乐博主可以拿一段哼唱，演示怎么一步步「指挥」出一首歌。",
+    "links": [
+      {
+        "label": "Daydream Studio",
+        "url": "https://labs.daydream.live/studio/"
+      },
+      {
+        "label": "开源引擎 DEMON",
+        "url": "https://github.com/daydreamlive/DEMON"
+      },
+      {
+        "label": "HN 作者自述",
+        "url": "https://news.ycombinator.com/item?id=49995687"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "shortfuse-mac-permissions-expire",
+    "category": "小众工具",
+    "title": "给 App 开了麦克风权限就再也没关过？这个 Mac 小工具让权限像保险丝一样到点熔断",
+    "body": "开发者 wxce 承认自己有点「权限焦虑」：给过某个 App 的权限，它就一直握在手里，尤其是麦克风。于是他做了 ShortFuse，名字就是「短引信」的意思。打开后，它把你的 Mac 上谁能看屏幕、谁能听麦克风、谁能读文件、谁能操控电脑，按 App 一个个列出来，还用大白话标出风险，不用再钻进系统设置里翻。最核心的功能，是给权限定一个期限：十五分钟、一小时、今晚，或者等这个 App 退出就收回。时间一到，它会请系统把权限撤掉；作者特意说明，它不会直接去改苹果受保护的记录。它还会在某个 App 刚拿到新权限时提醒你，并找出已经删掉的 App 留下的权限残留。一共能管十四类权限，所有数据留在本机，联网只为激活和更新。首发价八美元，一次买断，不用订阅，支持 macOS 14 以上。评论区有人问 iPhone 能不能也来一个，作者说他也希望系统自带这个功能。所以呢：隐私不只是「给不给」，还有「给多久」；做数码内容时，「借出去的权限记得收回」是个人人都能马上照做的小提醒。",
+    "links": [
+      {
+        "label": "ShortFuse 官网",
+        "url": "https://rygorlabs.com/shortfuse"
+      },
+      {
+        "label": "HN 作者自述",
+        "url": "https://news.ycombinator.com/item?id=49995706"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "smart-blur-screen-share-pii",
+    "category": "小众工具",
+    "title": "开会共享屏幕前忘了关客户资料？这个插件一发现你开始共享，就自动把隐私信息糊掉",
+    "body": "在线会议里最尴尬的瞬间之一：你一共享屏幕，客户的邮箱、电话、银行卡号全被大家看见了。做直播的、远程上课的老师、给客户做演示的销售，都怕这个。开发者 Vicky 平时在夜里和周末做本地 AI 隐私小工具，这次的 Chrome 插件 Smart Blur 专治这件事。基础功能免费：邮箱、电话、卡号、社保号、API 密钥这些有固定格式的信息，页面一打开就自动模糊；剩下的，你可以点一下、框一块，或者选中文字来遮住。付费版多了两样。一是本地 AI：用 OpenAI 开源的隐私过滤模型，直接在浏览器里跑，能认出名字和地址这种没有固定格式的信息；模型大约八百一十兆，第一次用时下载。二是「共享护盾」：它发现你在 Meet、Zoom、Teams 的网页版开始共享，就在所有标签页自动开启模糊，结束后再关掉。全程不用账号，数据不上传。目前只支持 Chrome、Edge 这类浏览器，也只管网页，不管桌面软件。所以呢：录完再打码就晚了，得在露出来之前先糊上；做教程和直播的博主，开播前装一个，能省掉很多后怕。",
+    "links": [
+      {
+        "label": "Smart Blur",
+        "url": "https://smartbuildlabs.com/apps/smart-blur/"
+      },
+      {
+        "label": "OpenAI 隐私过滤模型",
+        "url": "https://huggingface.co/openai/privacy-filter"
+      },
+      {
+        "label": "HN 作者自述",
+        "url": "https://news.ycombinator.com/item?id=49997240"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "c64-keycap-font-photos",
+    "category": "小众工具",
+    "title": "对着自家老电脑的键帽拍照：他把 Commodore 64 键盘上的字，复原成了一款免费字体",
+    "body": "Commodore 64 是上世纪八十年代最畅销的家用电脑之一。开发者 Levente Szabadkai 家里就有一台中欧版的。他对着键帽拍照，把上面印的字母、数字和符号一个个复原，整理成了一款能装进电脑的字体，叫「C64 Keyboard」。要注意，这不是那台电脑屏幕上显示的像素字，而是键帽上印的那套字：线条干净，比例统一。字体里除了大写字母、数字和标点，还有 f1 到 f12 的功能键标签，以及键帽正面印着的全部六十三个图形符号。这些符号当年能拼出方框、线条和小图案，作者照着照片推测它们的粗细和弧度重新画出来，并说明这不是逐笔描摹。字体可以免费下载，作者放弃了版权，谁都能随便用，网页上还能直接试打。帖子在 Hacker News 拿了三百八十多分，评论区有人说，这套老字看着比后来新款键盘上的字还要现代。所以呢：老物件身上藏着现成的设计资产；做复古主题的封面或片头时，这种从实物里「抠」出来的字体，比网上随手找的仿制品更有味道。",
+    "links": [
+      {
+        "label": "GitHub 仓库",
+        "url": "https://github.com/szabadkai/c64-keyboard-font/"
+      },
+      {
+        "label": "在线试打",
+        "url": "https://szabadkai.github.io/c64-keyboard-font/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49990224"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
+    "id": "ascii-rest-animated-ascii-pieces",
+    "category": "小众工具",
+    "title": "一行代码，给网页放上一块会动的字符画：一百九十一个现成的 ASCII 动画随便拿",
+    "body": "ASCII 画，就是只用键盘上的点、线和字母拼出来的图，老网民在拨号上网的论坛时代就玩这个。开发者 Shubham 新做的 ascii.rest，把它变成了网页上能直接用的动画素材库。打开首页，先是一幅彩色的阿尔卑斯山黎明：雪峰接住第一缕光，下面是起雾的湖，全由小圆点和字符组成，还在缓缓变化。库里一共一百九十一件作品：十三幅彩色场景，还有加载动画、图表、文字特效、二十七种编程语言的标志、二十二个 Linux 发行版的标志，以及三维图形、物理效果和小生物。用法极简：网页里加一行脚本，再写一个标签，填上作品名，比如「donut」，一个旋转的甜甜圈就出来了。不用安装，也不用打包。它只在你滚到那里时才播放；如果访客在系统里设置了减少动态效果，就只显示第一帧。React、Astro 这些常用框架也能直接用，全部免费开源。帖子在 Hacker News 拿了三百二十多分，评论区有人说想起了当年整天给本地论坛做 ASCII 动画的日子。所以呢：复古感是现成的吸睛元素；做个人主页或视频片头时，一行代码就能拿到一块有味道的「字符屏幕」。",
+    "links": [
+      {
+        "label": "ascii.rest",
+        "url": "https://ascii.rest/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=49993857"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-08T15:10:00+08:00"
+  },
+  {
     "id": "navier-stokes-lean-not-same-proof",
     "category": "硬科技",
     "title": "OpenAI 那份「机器验过」的流体方程证明，被剑桥数学家逐行对照：机器签字的，和论文里写的不是同一份",
