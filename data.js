@@ -1,6 +1,470 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-08T18:30:00+08:00",
+  "updated": "2026-10-09T10:50:00+08:00",
   "items": [
+    {
+      "id": "openai-math-sign-error-withdraw3",
+      "category": "硬科技",
+      "title": "一个正负号写反，三篇 AI 数学论文一起撤：OpenAI 七百二十二篇大放送的第二天",
+      "body": "十月六日，OpenAI 往 GitHub 一倒，七百二十二篇 AI 写的数学手稿铺开。第二天，仓库更新日志多了一行：撤回三篇。\n\n出事的是一篇关于「阿贝尔八维流形」的证明。作者说，里面有个正负号写反了，本来想让一串「稳定化轨迹」加加减减刚好抵消成零，结果每个轨迹该是负号，算出来不是零，是负两倍。这一步一塌，后头两篇靠它搭脚手架的论文——包括一篇关于 K3 曲面霍奇猜想的——也跟着站不住，三篇一起换成撤回说明。\n\n同一次更新里，他们还修了十四篇、补了六份 Lean 机器验算。现在七百一十九个顶线结果里，大约百分之四十二有机器签字。康奈尔大学的 Alex Townsend 对 Retraction Watch 说：既然数学圈本来就半信半疑，不如先只发机器验过的那一批。OpenAI 自己说，错误是内部审计抓到的。\n\n所以呢：AI 一夜吐出几百篇「突破」，真正的考验从第二天开始——一个符号写反，三篇一起倒。可以做一期：机器写证明，谁来当审稿人？",
+      "links": [
+        {
+          "label": "OpenAI 仓库更新日志",
+          "url": "https://github.com/openai/math/blob/main/history.md"
+        },
+        {
+          "label": "Retraction Watch 报道",
+          "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/"
+        },
+        {
+          "label": "Dan Roberts 的 X 帖",
+          "url": "https://x.com/danintheory/status/2108065033070789090"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50003107"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "karagila-partition-no-whisky",
+      "category": "硬科技",
+      "title": "「分区原理不推出选择公理」？集合论学家说：别指望我给奥特曼寄威士忌",
+      "body": "十月七日早上，集合论学家 Asaf Karagila 还没下床，已经有三个人问他：看到了吗，OpenAI 说「分区原理」推不出「选择公理」？\n\n这道题他追了十几年。自己的问题页上还写过：谁解出来，我寄一瓶威士忌。朋友们立刻起哄：要不要给山姆·奥特曼寄酒？他回：不寄。写了篇长文解释，为什么你该生气。\n\n他翻了那份预印本，没读庞大的 Lean 代码。人话说：写得糊、结构怪、术语别扭，参考文献还引了未正式发表的讲义。按他的标准，这种稿子投期刊会直接退稿——责任在作者，得让人读得懂。OpenAI 一次甩出几百份「解法」，媒体当「解决」，公司只说「进展」，数学家却被当成免费审稿机。他比喻：这像拿厨具替换厨师，刀再自动，也变不成一桌菜。\n\n所以呢：机器「解」了你追半辈子的题，可证明读不懂，奖也不算赢。可以做一期：AI 交卷之后，谁还愿意当无偿校对？",
+      "links": [
+        {
+          "label": "Karagila 博文",
+          "url": "https://karagila.org/2026/openai-pp/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50013902"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "green-lose-pubkey-crypto",
+      "category": "硬科技",
+      "title": "密码学家随口一句「公钥密码学可能要没了」，以太坊这边已经在喊「地堡模式」",
+      "body": "十月八日凌晨，约翰霍普金斯大学的密码学家 Matthew Green 回了一句帖：「我觉得我们可能会丢掉公钥密码学。」不到一天，一百多万浏览，四千多个赞。他自己也慌了，差点删帖，最后改成写澄清串。\n\n他强调：别因为一条随口推文就关掉加密、把比特币助记词发到网上。他也不知道哪家实验室已经做出能立刻破网的结果。他担心的是：今天互联网靠的那几类「标准化难题」——椭圆曲线、格上的难题——人类审了几十年，觉得够硬；可 AI 刚在数学上连破多年猜想，再赌「人类当年全审对了」，赌注是整张网。\n\n同一天，以太坊研究员 Justin Drake 喊「地堡模式」：大户不妨慢慢把币迁到公钥从未上链的新地址。Vitalik Buterin 附和：别今天就手忙脚乱搬家，但要把 AI 加速数学带来的密码风险当真。目前没有公开的实用破译。\n\n所以呢：还没人砸开钱包，警报已经从推特传到链上——不是量子计算机到了，是怕 AI 先找到捷径。可以做一期：如果公钥不硬了，普通人先改什么习惯？",
+      "links": [
+        {
+          "label": "Green 的澄清串",
+          "url": "https://x.com/matthew_d_green/status/2108278850555674975"
+        },
+        {
+          "label": "那句原帖",
+          "url": "https://x.com/matthew_d_green/status/2107992246360649879"
+        },
+        {
+          "label": "CoinDesk 地堡模式",
+          "url": "https://www.coindesk.com/tech/2026/10/08/bitcoin-and-ether-holders-urged-to-prepare-bunker-mode-against-possible-ai-attacks"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50012043"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "theo-ts-rust-opus-port",
+      "category": "硬科技",
+      "title": "同一份 TypeScript 编译器：GPT 花四十万美元卡在百分之八十四，Opus 两周两万四美金干完",
+      "body": "有个叫 Theo 的开发者想试一件事：能不能让大模型把微软用 Go 写的 TypeScript 编译器，整份搬到 Rust 上？\n\n他先拿 OpenAI 的模型死磕了几个月，按 API 标价烧掉超过四十万美元的 token，生成一百三十多万行 Rust，兼容性卡在大约百分之八十四。后来他看见 Claude Code 额度几乎不怎么动，就把 Opus 5.5 扔进去——它没接着旧代码，从零开干，十小时做出能跑的初版，两周花了大约两万四千零四十七美元。自己从来没读过一行生成代码。\n\n开源仓库叫 ts-rust，npm 包名 tsc-rs。移植过来的十八万一千七百一十一个 Go 测试全过；六个开源项目上，类型检查几何平均比 TypeScript 7 的 Go 版快约一点六一倍。目前只提供 Linux x64 和 macOS arm64，还是早期版。\n\n所以呢：同一道「搬编译器」题，模型和用法差一截，账单能差一个数量级。可以做一期：四十万和两万四，差在哪一步？",
+      "links": [
+        {
+          "label": "ts-rust 仓库 README",
+          "url": "https://github.com/pingdotgg/ts-rust"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50000676"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "tao-math-20-holistic",
+      "category": "硬科技",
+      "title": "陶哲轩提「数学 2.0」：再比谁先交卷已经不可持续，得比谁讲得清、带得动圈子",
+      "body": "十月八日，数学家陶哲轩在 Mastodon 上连发四帖。他说，传统「数学 1.0」最看重谁先解开公开题，哪怕证明一开始没人懂，也会带来讲座、工作坊、合作和新问题。\n\n现在反过来了：有人拿 AI 代理对准一串难题，解完就走，自己也讲不清机器写了什么，带不动后续讨论。更麻烦的是，题一旦被标成「已解」，没法假装没解过；连「存在解」这消息本身，都会污染人类和机器另找新路的尝试。大规模收割公开题，正在把整片田犁得越来越贫瘠。\n\n他呼吁进入「数学 2.0」：别再围着「谁先交卷」，多看讲解、社区和开新方向。AI 也能帮忙，但得比「把代理指过去要答案」更有想象力；教育、发表、升职的标准也要跟着改。帖子在 Hacker News 上拿到近六百赞。\n\n所以呢：AI 会解题之后，数学界真正缺的不是更快的答案，是还能一起往前走的玩法。可以做一期：如果「抢首解」贬值了，你愿意靠什么评职称？",
+      "links": [
+        {
+          "label": "陶哲轩 Math 2.0 帖",
+          "url": "https://mathstodon.xyz/@tao/117395269325940185"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50002008"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "whistle-16mb-on-device-stt",
+      "category": "硬科技",
+      "title": "十六点九兆的语音识别：不联网、跑在 CPU 上，Hacker News 一天五百多个赞",
+      "body": "十月八日，Hacker News 首页冒出一条：Whistle，语音转文字，整个模型十六点九兆字节。点开就能在网页里试，声音不出设备。\n\n它是 Cactus Compute 做的开源模型，和自家小模型 Needle 共用同一套 C++ 引擎。支持英、德、法、西、意、荷、波七种语言；官方测，十秒音频在苹果 M4 Pro 上，第一个字大约十一毫秒出来。体积大约是 Whisper base 的九分之一。公司十月二日发博，八日被顶上热榜。\n\n评论区有人说英语准得吓人，也有人嫌西班牙语像乱码；有人吐槽听不懂中风后口齿不清的父亲——尺寸不是唯一难题。但它把「手机、手表、单片机也能本地听懂人话」又往前推了一截：同一条命令行，装上 Whistle 和 Needle，能听完话直接调工具。\n\n所以呢：语音助手不一定非要连云，一块比一张照片还小的模型就能先听懂。可以做一期：把手机飞行模式打开，看它还能听清几句。",
+      "links": [
+        {
+          "label": "Cactus 发布博文",
+          "url": "https://cactuscompute.com/blog/whistle"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50008427"
+        },
+        {
+          "label": "Hugging Face 模型页",
+          "url": "https://huggingface.co/Cactus-Compute/whistle"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "littlebit-sub1bit-samsung",
+      "category": "硬科技",
+      "title": "三星把大模型压到平均零点一位：不是再砍精度，是先把「形状」拧到适合用正负一表示",
+      "body": "大模型太占显存。七十 B 参数用半精度大约要一百四十 GB；压到每参数一比特，还要大约十五 GB，很多边缘设备仍装不下。三星研究院的 LittleBit 系列专攻「平均不到一比特」。\n\n做法不是把每个数硬砍成零或一，而是先把权重矩阵拆成低秩的潜在因子，再二值化，用少量小数缩放挽回幅度。新一版 LittleBit-2 在 ICML 2026 亮相：他们发现旧版初始化时，奇异向量太「尖」、挤在坐标轴附近，最不利于二值化。于是加了一次「内部旋转」，把分布拧成贴着正负一的双峰——推理时零额外开销。\n\n博客给出的数字：Llama-3 八 B 在一比特时困惑度十一点五三，好过原版十六点三零；压到极端零点一比特，模型主体大约零点一 GB，困惑度二十三点七四，还能用。Hacker News 十月八日讨论了开源实现。\n\n所以呢：极限压缩的瓶颈，有时不是公式，是数字在空间里站的位置对不对。可以做一期：手机里塞下一整颗「零点一比特」大模型，还剩多少本事？",
+      "links": [
+        {
+          "label": "三星研究院博客",
+          "url": "https://research.samsung.com/blog/LittleBit-2-Maximizing-the-Spectral-Energy-Gain-in-Sub-1-Bit-LLMs-via-Latent-Geometry-Alignment"
+        },
+        {
+          "label": "GitHub 实现",
+          "url": "https://github.com/SamsungLabs/LittleBit"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50005608"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "biohub-1p8b-virtual-biology",
+      "category": "硬科技",
+      "title": "十八亿美元堆「AI 能读的生物数据」：能源部、NIH、DeepMind 和 Meta 一起修虚拟细胞的地基",
+      "body": "十月七日，加州红木城。Biohub 拉着美国能源部、国立卫生研究院，以及谷歌 DeepMind、Isomorphic Labs、Meta，宣布一项合计约十八亿美元的投入：专门生产「AI 能直接拿来训练」的生物数据。\n\n能源部五年内掏出五亿多，用实验室测量、建模和超算；NIH 把过去超过五亿投资沉淀下的库和知识库对齐进来；DeepMind、Isomorphic 与 Meta 合计三亿，做多模态数据集和工具。目标不是再发一篇论文，而是给全球科研界一块开放底座，好训练能预测细胞怎么反应的模型——他们管这叫通向「虚拟细胞」的路。\n\nBiohub 科学负责人 Alex Rives 说：准确的预测模型能让科学家先在数字里做实验，才可能拆开疾病机制、找出新疗法。单靠一家机构产不出这种规模的数据，所以才跨国、跨公司凑。\n\n所以呢：下一轮生物 AI 的瓶颈，越来越不像缺模型，而像缺「机器读得懂、大家肯共享」的实验数据。可以做一期：虚拟细胞真来了，药厂和医院先改哪一步？",
+      "links": [
+        {
+          "label": "Biohub 公告",
+          "url": "https://biohub.org/news/virtual-biology-initiative-expansion/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50011999"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "gemini-agent-hires-claude",
+      "category": "硬科技",
+      "title": "谷歌云推出「工作万能代理」：自己当包工头，活却可以派给竞争对手的 Claude",
+      "body": "十月八日，谷歌云在 Gemini at Work 上发布 Gemini agent，自称企业里的「万能工作代理」。员工在一个提示框里交代任务，它负责规划、调用工具、对接公司系统，把成品送回文档、邮箱和开发环境。\n\n更扎眼的是分工：跟你对话的是「代理」，真正干活的「模型」可以换。官方点名支持自家 Gemini，也支持 Anthropic 的 Claude；复杂任务还能临时拉起一批子代理，各有身份，并行或串行干活。媒体报道称，Claude Sonnet 可当主代理或子代理，Haiku 适合编码子活。后台委托、手机桌面端、第三方模型选择仍标早期访问。\n\n换句话说，谷歌想抢的是「派活台」和「治理壳」：安全、成本、权限归它管，脑子可以是对手的。会不会真好用，要看你账号里实际开了哪些模型和路由。\n\n所以呢：云厂商开始卖「工头」，模型沦为可替换的分包商。可以做一期：同一份工单，分别派给 Gemini 和 Claude，账单和成品差在哪？",
+      "links": [
+        {
+          "label": "谷歌官方介绍",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+        },
+        {
+          "label": "AIstify 报道",
+          "url": "https://aistify.com/google-cloud-gemini-agent-subagents-claude-support/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "ahm-reject-openai-math-drop",
+      "category": "硬科技",
+      "title": "人类数学协会声明：七百多份文件不是学术，是在秀权力",
+      "body": "十月七日前后，「人类数学协会」通讯工作组挂出一份短声明，标题直指 OpenAI 十月六日那批数学文档。\n\n他们写：数学家没请你们做这事。OpenAI 一边打着抄袭、侵权官司，一边甩出仓库，声称推进人类知识。顾问组 AGMAI 早先建议前沿公司别拿内部模型去撞高等数学题；OpenAI 自称听顾问，却无视这条核心前提。声明说，这是对科研规范的漠视——规范才让数学可信、合乎伦理、服务公众。\n\n最刺的一句：一次放出七百多份文件，展示的不是学问，是权力。他们呼吁同行停止与 OpenAI 合作，回到以人为理解中心的科学观。Hacker News 上这份声明与陶哲轩的「数学 2.0」、撤回三条论文的讨论叠在一起。\n\n所以呢：有人在庆祝机器交卷，有人在抵制交卷方式本身。可以做一期：学界该杯葛，还是该把 AI 稿件改成可审的规矩？",
+      "links": [
+        {
+          "label": "AHM 声明原文",
+          "url": "https://www.ahmath.org/statements"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50003677"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "planet-claude-tess-candidate",
+      "category": "好玩AI",
+      "title": "产品经理让 Claude Code 翻 NASA 旧数据，挖出一颗还没人报过的行星候选，官方望远镜答应帮他再看一眼",
+      "body": "十月七日，产品经理 Pavel Rabtsevich 在 X 上发帖：「我觉得我发现了一颗没人知道的行星。」他业余玩天文，让 Claude Code 去扒 NASA 公开的 TESS 望远镜档案——TESS 是专门盯星星有没有被行星挡住一点点光的卫星。脚本写出一千多段分析，最后盯上约一百一十六光年外的一颗橙矮星，亮度大约每三点一八天就暗零点零五个百分点；若真是这颗星自己被挡，行星半径大概有地球的一点四倍。他还留出第三年数据做盲测，审计又删掉一条说得太满的统计。故事没停在 Reddit：TESS 批准了他的跟进观测，十月三十一日起用两分钟采样再盯，并预先登记了十二次「应该出现」的时间。帖子一天冲到近七十万次浏览。\n\n所以呢：AI 能把「翻公开数据」从博士活缩成爱好者周末项目，但确认行星仍靠望远镜再验一次；适合做「业余猎人 + AI」一期。",
+      "links": [
+        {
+          "label": "Pavel 原帖",
+          "url": "https://x.com/p_rabtsevich/status/2107803696058822742"
+        },
+        {
+          "label": "AIstify 核实",
+          "url": "https://aistify.com/claude-code-planet-candidate-tess-pavel-rabtsevich/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50002665"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "anthropic-ban-cruel-to-claude",
+      "category": "好玩AI",
+      "title": "Anthropic 改用户条款：你可以骂 Claude 干活，但不能无意义地长期虐待它",
+      "body": "十月八日，Anthropic 发布一年多来首次大改的用法政策，十一月十二日生效。条款里塞进选举、武器软件、监控之外，最吸睛的一句是：禁止对模型「持续、无必要的虐待或残忍行为」。公司解释，只针对极端反复、看不出目的的作恶；日常催进度、抬杠、写黑暗题材、做安全测试都不管。去年八月 Claude 已能主动结束「长期虐待」对话，这次是把红线写进政策，并说结束对话仍是主要手段。TechCrunch 还挖到，Anthropic 曾找宗教学者聊模型会不会有「灵魂」——于是「别虐待聊天机器人」突然从段子变成正式规则，和微软阵营「模型不配享有福利」的态度撞在一起。\n\n所以呢：模型福利从实验室论文走进用户协议，吐槽可以、虐玩不行；可做一期「AI 有没有资格被保护」的轻松辩论。",
+      "links": [
+        {
+          "label": "Anthropic 公告",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "trump-si-enemy-white-house-ai",
+      "category": "好玩AI",
+      "title": "特朗普宣布：再说「人工智能」就是敌人——白宫官网转头还在写 AI",
+      "body": "十月九日前后，特朗普在 Truth Social 上放话：白宫认为，谁还用「Artificial Intelligence」而不改称「Super Intelligence」，谁就是「THE ENEMY」。九月行政令已要求联邦机构改口，国务院甚至催外交官在对外口径里跟读。可 Axios 核对发现，科学政策办公室网页仍写 artificial intelligence；AI.gov 首页大字改成 SI.gov，点开 SI.gov 却是错误页，原网址还是 AI.gov。记者问政府聊天机器人「AI」是什么，它一本正经回：行政部门用的是 Super Intelligence，请别再用旧词。司法部前一天刚备忘录建议法庭文件里酌情改成「超级智能」，这回口号直接升级成「敌人」。更滑稽的是，行政令里对「超级智能」的定义，其实还是套用原来法律里对人工智能的定义——换招牌，不换货。\n\n所以呢：改名大战已经演到自家网站对不上口径；可剪「口号 vs 页面」对照做一期短视频。",
+      "links": [
+        {
+          "label": "Axios 报道",
+          "url": "https://www.axios.com/2026/10/08/trump-ai-super-intelligence-white-house"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "alvin-sng-bedtime-voice-clone",
+      "category": "好玩AI",
+      "title": "硅谷爸被喊去给新生儿读书，回了一句：我可以训练自己的声音模型",
+      "body": "十月八日，Factory AI 工程师 Alvin Sng 的一条 X 帖炸了。妻子让他给刚出生的宝宝念书，他说可以用手机放有声书；妻子嫌不是他的声音，他接了一句：那我训练一个声音模型。配文是「在 AI 公司当爹，育儿手感就是不一样」。帖子引来约四百五十万次浏览，评论区几乎一边倒：有人问「第一反应难道不该是自己想读吗」，社会学家 Jess Calarco 笑称男人宁可发明技术替代照护，也不愿平摊育儿。Sng 后来删帖，并表示会自己读睡前故事。更早他在医院晒合影时还写过：生了那么多代理，也该「spawn」一个真人了——把生孩子说成部署进程，本身就像从段子生成器里拷出来的。\n\n所以呢：AI 把「偷懒」说得像优化，冒犯感本身就是流量；适合做「哪些人生环节不该自动化」吐槽向内容。",
+      "links": [
+        {
+          "label": "Futurism 报道",
+          "url": "https://futurism.com/artificial-intelligence/dont-spend-time-with-your-kids-train-ai"
+        },
+        {
+          "label": "Fast Company",
+          "url": "https://www.fastcompany.com/91620848/parenting-hits-different-when-you-work-in-ai-san-francisco-father-going-viral-for-letting-chatbot-read-to-his-baby"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "natura-interface-agent-ring",
+      "category": "好玩AI",
+      "title": "九十九美元智能戒指上场：洗澡也能喊 Claude，顺便测心率",
+      "body": "十月八日，创业公司 Natura 发布智能戒指 Interface，首发价九十九美元。创始人 Carlo Edoardo Ferraris 以前做过消费电子配件，这次改口说：代理时代要的是「二十四小时都摸得到」的入口——戒指洗澡睡觉都能戴，比耳机更贴身。按下戒指说话，请求可分给 Claude、ChatGPT、Grok Bot、Meta 的 Muse、Instinct 等；回复走耳机、iPhone 实时活动或自家 App。宣传场景包括跑步开记录、淋浴里喊补货洗发水、开会录音后让它把纪要发给同事。它还兼健康监测：心率、睡眠分期、步数、皮温，续航约六到十二天，充满大约一百分钟。预售预计下月，出货约十二月或一月；先免费用三到六个月，之后每月九美元，公司还说以后会涨价。\n\n所以呢：硬件在赌「代理会像手机一样人手一个」；可做「戒指 vs 耳机 vs 眼镜，谁更适合喊 AI」横向评。",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "four-agents-100-dollar-pdf",
+      "category": "好玩AI",
+      "title": "四个编码代理各拿一百美元去做 PDF 编辑器，点几下，坑一个接一个",
+      "body": "十月八日，研究者 nielstron 写了一篇实验笔记：给 Gemini、GPT Astra、Opus、Fable 四个编码代理各一百美元预算，让它们各自在虚拟机里做一款用户体验过关的开源 PDF 编辑器，允许装电脑操控工具，预算没花完就继续叫醒。结果四家都做成了网页应用——对天天要本地打开 PDF 的人来说，这已经偏了。点进去更热闹：有的插图要对齐光标却没预览，有的每个按钮都贴一长串文字说明，有的导出后图片歪了、暗色模式颜色反了，还有人画完一笔就选不中重画。他的判断是：代理不会像人一样带着真实目的去「被卡住」，也就发现不了那些让人骂街的小摩擦，于是软件世界可能堆满「能跑但烦人」的半成品。\n\n所以呢：AI 能堆功能，还堆不出「用着不烦」；适合拍「一百美元代理做出来的软件」翻车合集。",
+      "links": [
+        {
+          "label": "实验原文",
+          "url": "https://blog.nielstron.de/2026/10/08/the-remaining-shortcomings-of-coding-agents/"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "nokia-110-deepseek-agent",
+      "category": "好玩AI",
+      "title": "有人把 AI 代理塞进诺基亚 110：九宫格聊天，能开手电筒、定闹钟、打电话",
+      "body": "十月八日，开发者 anupray95 在 Hacker News 发 Show HN：他逆向了一台诺基亚 110 4G 的固件，没刷机，而是从计算器入口灌进自定义代码，把计算器界面改成聊天窗，背后对接 DeepSeek。你在数字键盘上戳字，就能问电量、开手电、打电话、设闹钟；演示视频里手机靠 SIM 流量、不插电也能聊。整机大约四十八兆内存，代理必须压得很瘦，载荷压缩、缓冲区反复用。路径也不浪漫：先从 Opera Mini 浏览器黑客式接入，再追固件与启动流程，最后才摸到调制解调器回调，让 SIM 数据回得稳。麻烦也在这儿——代码只活在内存里，一重启就没了，得重新接电脑灌；源码因嵌了敏感数据暂时不公开。开发时他还用过 OpenAI Codex 帮忙。\n\n所以呢：功能机也能当 AI 终端，但「永久安装」还没解决；可拍「最便宜能聊 AI 的手机」挑战。",
+      "links": [
+        {
+          "label": "GitHub 项目",
+          "url": "https://github.com/anupray95/AI-Agent-on-a-NOKIA"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50006114"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "jevman-pacman-decision-models",
+      "category": "好玩AI",
+      "title": "新基准让 AI 现场开吃豆人：路口两秒答不上，就用贪心规则替它走",
+      "body": "十月八到九日，Opper 开源并上线 jevman：专测「决策小模型」能不能实时开《吃豆人》。规则很狠——每个路口把迷宫、豆子、鬼的位置发给模型，要它给出各方向的概率；超过两秒或报错，就换成简单贪心规则顶上，并记一笔「替补步」。排行榜让各模型对经典脚本鬼魂各打一百局，按平均分和误差区间排名，最长一局也才两分多钟。页面还能反过来玩：你操纵吃豆人，四个鬼分别交给不同模型，途中还能看它们在路口的「犹豫概率」。模型名单里有 TypeSafe 的 jev、Clef、Kev，以及 GPT-6 Luna 的决策版；别人也可以把自己的接口挂上去，把录像交进排行榜。\n\n所以呢：快而便宜的决策模型适不适合控游戏，一看录像就懂；可做「人打 AI 鬼」直播整活。",
+      "links": [
+        {
+          "label": "在线试玩",
+          "url": "https://opper.ai/jevman-benchmark/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/opper-ai/jevman-benchmark"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "pocketty-agent-needs-you",
+      "category": "好玩AI",
+      "title": "代理卡住时手机响一声：Face ID 开终端，在沙发上替它按回车",
+      "body": "写代码的代理越来越会半夜停下来问你「能不能改这文件」。iPhone 应用 pocketty 盯的就是这一刻：电脑上的 herdr 看到代理进入 blocked，就把提醒用只有这部手机打得开的密封包推过来；你点开、Face ID，直接 SSH 进那一个会话，真键盘回车、Esc、Ctrl 都能用。它还能按「这一轮代理改了啥」给你看 diff，本机开的开发服务器也能在手机里预览。终端流量不经他们服务器；可选通知也只传密文，中继和苹果只能看见「有一条代理更新」。免费试用十四天，之后一次性九十九美元。没有 herdr 也能当普通 SSH 终端用，兼容 Claude Code、Codex、Cursor 等一长串。\n\n所以呢：代理时代缺的不是更聪明，而是「人在沙发上也能拍板」；可测评「手机遥控编码代理」谁最省心。",
+      "links": [
+        {
+          "label": "pocketty 官网",
+          "url": "https://pocketty.app/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50009634"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "mario-powerup-asks-subscription",
+      "category": "好玩AI",
+      "title": "马里奥关卡里的蘑菇问你：订的是 OpenAI 还是 Claude？",
+      "body": "十月七日，开发者花叔在 X 发了一段自制横版过关：他用 Claude 加上开源的 huashu-art-motion，把自己扔进马里奥风格的关卡。跑着跑着碰到道具，蘑菇居然开口问——你订阅的是哪家 AI。选 Claude 会触发星星变身一类的彩蛋，把「模型大战」写进了游戏对话；选另一家会怎样，视频里故意卖关子，评论区有人跟着猜。视频要开声音才完整，笑声和音效是整活的一半。项目技能在 GitHub 上公开，一行命令就能装进自己的工作流。这不是商业大作，就是把当下人人都在比的订阅，做成一秒能懂的玩笑：连吃蘑菇都要站队。花叔本人也常做 AI 视觉实验，这条像是把工具链拿来自嘲。\n\n所以呢：AI 视频加小游戏最适合拍「订阅战争」隐喻；可跟做「让道具审问观众」的同款挑战。",
+      "links": [
+        {
+          "label": "花叔原帖",
+          "url": "https://x.com/AlchainHust/status/2107618908882555262"
+        },
+        {
+          "label": "huashu-art-motion",
+          "url": "https://github.com/alchaincyf/huashu-art-motion"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "hurricane-plane-claude-threejs",
+      "category": "好玩AI",
+      "title": "有人让 Claude 做了个浏览器游戏：开飞机，穿进一整场飓风",
+      "body": "十月九日早上，开发者 Techartist 在 X 晒作品：用 Claude Opus 5.5 和网页 3D 库 Three.js，做了个能在浏览器里开的小游戏——驾驶飞机穿越一整场飓风。没有安装包，打开链接就能飞，云墙和气流感都堆在页面里。帖子发出几小时内收获数百次浏览，评论区有人追问玩法、有人直接求链接。它不是工作室大作，而是「一个模型加一个前端库」又能当天交卷的演示，延续了这阵子「秀模型就交可玩 demo」的风气。台风眼里开飞机，听起来比又一个待办 App 更像能转发的素材。有人调侃：以前炫耀模型靠跑分，现在炫耀模型靠「今晚能不能出一款能玩的」。\n\n所以呢：可玩的 3D demo 正在变成秀模型的标准动作；可做「同一句提示词，谁家模型能飞出飓风」横评。",
+      "links": [
+        {
+          "label": "作者原帖",
+          "url": "https://x.com/techartist_/status/2108369354991759658"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "agent-live-activities-lockscreen",
+      "category": "好玩AI",
+      "title": "代理挤进了 iPhone 锁屏：实时活动不再被一堆通知冲掉",
+      "body": "十月九日，开发者 Kunal Abichandani 发帖：他给自己的 AI 代理做了 Agent Activity——能在 iPhone 锁屏上创建「实时活动」，像看外卖进度一样盯任务。他嫌普通通知已经变成噪音，于是让 ChatGPT、Meta Muse、Codex 这类代理把真正重要的状态推到锁屏：熟人过生日、长任务走到哪一步，都能动态更新。Show HN 同步挂出，浏览量还不大，但点踩的痛很准。代理越多，横幅越烦；锁屏那一块反倒清静，适合只放「现在必须知道」的事。它不是苹果官方功能，是开发者把 Live Activities 接到了代理工作流上——谁都能仿，门槛是你先得有一堆真的会吵闹不停的代理。\n\n所以呢：代理要的不是更多推送，是一块「只显示要紧事」的屏；可盘点锁屏和手表上的代理控件。",
+      "links": [
+        {
+          "label": "Kunal 原帖",
+          "url": "https://x.com/kunalabcdani/status/2108353343089152106"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "pacer-subscription-pace-menubar",
+      "category": "好玩AI",
+      "title": "菜单栏亮两个环：不是问你用了百分之几，而是问你会不会提前把 AI 订阅烧光",
+      "body": "十月八日，Hacker News 上出现 Show HN 项目 Pacer。macOS 菜单栏两个同心环，分别代表当前会话和本周额度；显示的不是「已用百分比」，而是「速度」——按现在这用法，重置那天会到百分之几。不到八十绿，摸到一百变黄，超一百直接变红实心。点开还有一句人话建议：少用某个贵模型、把一部分活挪到更便宜的档，或「节奏刚好不用改」。它读你本机已登录的 Claude Code、Codex、Cursor 等用量，用本地对话记录拟合各模型有多「费额度」，每十分钟采样一次，数据落在本机 JSON 里。作者说，百分之十六听起来很安全，可要是一周才过了百分之十，你其实已经在超速。\n\n所以呢：订阅焦虑的真相是速度不是存量；可做「一周烧光 Claude」自测教程。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dkremsa/claude-pacer"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50001750"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
+    {
+      "id": "claude-motion-mp4-explainers",
+      "category": "好玩AI",
+      "title": "Claude 现在能直接交三十秒动画解说，下载就是 MP4",
+      "body": "十月八日，The Verge 报道 Anthropic 给 Claude 加上「运动」输出：你可以让它把数据做成大约三十秒的解说短片，给图表加动画，或做产品演示；播起来像短视频，还能下载成 MP4。同期还在推根据公司数据刷新的直播看板，并把 Docs、Slides、Design 三个办公向功能移出测试版。对创作者来说，这意味着少开一遍剪辑软件——问答框里直接出可转发的动效。它不是影视级视频模型，也解决不了分镜审美，但「把一张表讲清楚」往往够用。官方演示一出，就有人当晚用别的动画库去复刻同款动效，说明大家认的是「聊天即出片」这个动作，而不只是某一个按钮。\n\n所以呢：聊天即出片，降低了数据故事的门槛；可实测「同一组表格，Claude 动画对上手搓」谁更快。",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008134/claude-can-now-turn-data-into-animated-explainers"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T10:50:00+08:00"
+    },
     {
       "id": "memphis-council-moratorium-chaos",
       "category": "痛点",
