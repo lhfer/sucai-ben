@@ -1,6 +1,656 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-09T10:50:00+08:00",
+  "updated": "2026-10-09T15:10:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-qingming-hongqiao-chase",
+      "category": "提示词",
+      "title": "先用方块人在 Blender 里跑完虹桥追杀，再让 Seedance 换成真人和汴河",
+      "body": "黑衣女子扬起一簸箕面粉，官兵抬臂遮眼的那一秒，她已经闪到桥栏外侧——镜头切到桥底，她正手脚并用蜷在木梁上，等货船甲板滑到正下方才松手落船。\n\n探路AI（@TanLuAI）把这套「古画里精准走位」的流程拆开了：先用 GPT 对着《清明上河图》虹桥段画路线、出分镜，再让 GPT 开 Blender 搭几何占位体跑完九个镜头，最后把建模视频、角色卡和写实街市图一起塞进 Seedance 2.5。评论区那条渲染提示词写死了对应关系——黑方块是女主、红褐方块是三名追兵、浅灰是百姓、移动木船必须前后同一艘——并明确「几何体只锁位置和方向，不许把方块滑行搬进成片」。九个镜头从侧后方跟拍到扬粉、官兵主观俯看河面、桥底蜷缩、落船卸力，连面粉只遮局部通道、全桥百姓不同步惊慌都写进了负面词。\n\n所以呢：想让角色钻进古画还不穿帮，先用白模把走位拍一遍，再让视频模型只负责换皮，别指望一段空提示词自己长出虹桥追杀。",
+      "links": [
+        {
+          "label": "X 原帖与流程",
+          "url": "https://x.com/TanLuAI/status/2108386244569031137"
+        },
+        {
+          "label": "完整渲染提示词",
+          "url": "https://x.com/TanLuAI/status/2108386252907294930"
+        }
+      ],
+      "prompt": "将参考视频中@虹桥追捕_20秒修订版的几何占位体，按照以下对应关系替换为真实人物、北宋汴河虹桥与沿河市集。**严格参考视频的镜头顺序、切镜时间、摄影机运动、景别、人物整体位置、移动路线与船只行驶方向。**几何人物只表示位置和移动方向，不提供肢体动作参考。重新生成自然的奔跑、回头、扬粉、探身搜寻、蜷缩撑挂、松手下落和落地卸力，不迁移方块滑行、僵硬姿态或几何体变形。\n生成一段 20秒、16:9横屏、完全写实的古装武侠电影视频：黑衣女子被三名官兵追捕，穿过沿河市集跑上虹桥，拿起桥边摊贩的面粉扬向追兵，借遮挡消失。官兵先查看桥下货船，再搜寻桥对岸，未找到她，继续追远。镜头切到桥底，揭晓女主正蜷缩在木梁下，以双手和双脚支撑身体，背朝河面。待同一艘货船经过，她解除支撑，落到甲板上，低身藏到舱棚旁，随船脱身。\n【人物与物体对应】\n参考视频中唯一的黑色人物代表女主，外观严格参考黑衣女子角色图@d72f88ea-9673-461d-9f75-87a4040f02e0。\n三个红褐色人物代表三名追捕官兵。全片只有三名追兵，开场与女主保持约六至八米的明显距离，不贴身追逐，不突然出现在她身旁。\n其他浅灰色人物代表桥上百姓、商贩、顾客和船工。他们只进行正常街市活动与自然避让，不协助官兵追捕，也不帮助女主逃跑。\n移动的木船代表女主最后落上的货船。官兵看到的船、女主等待的船与最后落上的船，必须是同一艘。船型、船头、船尾、舱棚、货物位置和航向保持一致。\n女主在参考视频中没有转头动作，但成片须在指定正面近景中补充一次自然的回头看追兵动作。桥底姿势则严格保持：蜷缩、手脚共同支撑、身体朝向桥底、背朝河面。\n【视觉风格】\n完全写实的古装电影实拍质感，人物、建筑、器物与环境具有真实尺度、重量和材质。皮肤有自然纹理，发丝细腻，粗布、皮革、旧木材、瓦片、绳索与河水清楚可辨，不出现CG渲染感、游戏画面、塑料材质或微缩模型感。\n女主的黑衣保留织物与皮革的材质区别，暗部仍有褶皱和层次，不能成为没有细节的纯黑轮廓。衣摆、发尾和束带随奔跑、回头、扬粉和下落产生合理惯性。\n整体色彩沿用写实风格参考图：灰褐木色、米灰麻布、灰瓦、低饱和灰绿树叶、灰绿色河水与自然肤色。柔和日光略暖，阴影保持中性，不能给整个场景套上橙黄色、黄褐色或旧纸滤镜。\n女主参考图只锁定人物外观，不迁移其冷蓝背景。全片保持同一处白日汴河街市的环境与光线。\n【资产锚点】\n黑衣女子参考图@d72f88ea-9673-461d-9f75-87a4040f02e0：锁定脸型、五官、黑色高束发、黑衣轮廓、护腕、皮革细节与整体气质。女主冷静、坚毅、警觉。短刀保持入鞘固定在腰侧，不持刀奔跑，不增加拔刀或打斗镜头。\n虹桥俯拍场景图@北宋街市实景还原：锁定宽阔木虹桥、两岸建筑、桥头棚摊、沿岸树木和船只的整体外观。俯拍图仅作为环境参考，视频仍按建模视频从侧后方跟拍开场。控制自然日光、低饱和色调、真实皮肤与环境材质\n建模视频@虹桥追捕_20秒修订版：锁定九个镜头的顺序与时长、追兵距离、桥栏方位、官兵查看河面的方向、女主桥底藏身位置，以及落船时的空间关系。\n【场景：汴河虹桥与沿河市集】\n白日的北宋汴河街市。河流穿过繁忙街区，两岸房屋、棚摊、码头与道路自然展开，建筑高低错落、疏密不一。\n临街建筑以一至两层木构商铺和民居为主。灰瓦屋顶有细微高低差、积尘与磨损，深褐木柱、旧木门窗和浅灰土墙具有长期使用的痕迹。商铺开门营业，门内有真实纵深，可隐约看见货架与器具，不是平面的布景墙。\n沿河与桥头分布小商贩摊位：木制货台、竹筐、箩筐、陶碗、陶罐、布匹、菜蔬、绳索与成捆货物。遮阳棚由木杆支起旧麻布，布面松紧不一，边缘略微下垂，随风轻动。少量素色伞棚夹在摊位之间。摊位紧凑，但留有连续通道，女主不穿过桌子、货物或人群身体。\n面粉摊位位于女主前进方向的一侧，靠近桥栏。木桌上放着一只盛有少量面粉的浅簸箕，旁边是布袋、木制量具与陶碗。摊位位置前后一致，女主顺路就能拿到簸箕，不需要突然停下或绕远路寻找。\n岸边道路为压实的灰褐色土路，局部夹杂碎石、浅车辙和不规则石板。桥面为连续旧木板，板缝、磨损和颜色变化自然，不出现现代整齐石砖路或光亮镜面地面。\n河岸树木从屋檐与棚摊上方伸出，部分枝叶稀疏，部分带有低饱和灰绿色新叶。枝条在道路、棚布和人物衣服上投下疏密变化的影子，不遮住关键动作。\n河水呈自然的灰绿与灰褐色，略浑浊，有缓慢流动的细波、破碎日光与船体倒影。桥下水面更暗，仍能辨认波纹。靠岸停泊数艘木船，绳索连接木桩，主要通航区域保持畅通。\n【虹桥与桥上人群】\n虹桥为宽阔的单跨木拱桥，桥面向中央逐渐隆起，由交错支撑的粗木构架承重，两侧木栏杆与栏柱连续完整。桥下保留足够通航空间，不增加堵住航道的中央桥墩，不改成石拱桥、现代钢桥或带顶廊桥。\n桥面足以容纳多股行人错身通行，桥边留有少量摊位。桥头道路自然连接木桥缓坡，没有突然升高的断层。\n**桥上有很多人，从近处桥头延续到桥顶和对岸，形成多层、有纵深的流动人群。**不能只有零星几个百姓，也不能挤得完全无法通行。人群包括货郎、提篮妇人、顾客、商贩和普通过桥百姓，外貌、年龄、身高、体型与动作自然不同，不出现复制人物。\n百姓穿朴素的北宋日常布衣，以灰蓝、灰绿、米白、褐色与少量暗红为主，头巾、布帽和发髻有自然变化。有人迎面走来，有人背向镜头走远，有人停步买东西，有人在桥边交谈。\n女主经过时，附近行人先后侧身让路，有人护住货物，有人回头看官兵；远处人群继续原有活动。面粉扬起后，只有附近的人缩肩、遮脸或退开，不让全桥百姓同时惊慌奔逃。\n挑担货郎的扁担真实压在一侧肩膀上，位于肩背高度，两端货物通过绳索下垂，一手扶住扁担稳定重心。货物随步伐轻微摆动，扁担不穿过脖子，不悬浮在后背。\n【人物表情与动作】\n女主奔跑时身体略向前倾，步伐连续，有真实蹬地、重心移动与自然摆臂。表情冷静坚毅，呼吸急促但克制，不惊恐尖叫。正面近景中只回头看追兵一次，随后立即看回前方。\n三名官兵神情严厉、专注，穿统一但有细微差别的朴素官兵服饰与轻便护具。三人步幅和动作有自然先后，错位追逐，不整齐同步，不持长兵器堵满画面，不增加射箭或攻击动作。\n扬粉后官兵本能抬臂遮挡、减缓脚步。搜寻时以探身、转头和短暂停顿表现疑惑与急躁，不夸张表演。\n女主桥下藏身时肩背、腹部与腿部收紧，手指扣梁、鞋底抵梁，身体稳定但有轻微用力调整。她先听上方动静，再观察船的位置，不提前松手。\n【桥底藏身与船只关系】\n女主藏在桥面下方、靠外侧但位于粗木梁内侧的阴影区。桥板、外侧拱梁和横梁共同遮住官兵从栏杆向下看的视线。\n**她面朝桥底，背朝河面，身体横向蜷缩，双膝弯曲靠近躯干。双手抓住木梁边缘，双脚分别抵住邻近横梁，依靠手脚共同支撑。**四个接触点真实、明确，不是直立垂吊，不是仅靠双手悬挂，不是脸朝水面、背贴桥底。\n木梁间有足够容纳她的空间，头部、膝盖、手脚和衣服不穿进木材。衣摆与散发自然向河面下垂。\n货船船头朝向桥洞，顺着河道缓慢驶来。船体有真实吃水，旧木船沿、甲板、低矮舱棚、绳索和少量货物保持一致。船头后方留有一块空甲板，舱棚位于其后，女主不落在舱顶、货物或船工身上。\n官兵查看时，船尚未行至女主正下方；官兵离开后，空甲板才逐渐来到她的落点。船速连续，不突然停止、加速或瞬移。船工在船尾操船，不抬头发现女主，不安排接应。\n【画面内容】\n[00:00—00:02.50] 镜头1：侧后方跟拍，穿过桥头市集\n摄影机位于女主侧后方，以接近肩背的高度同步跟拍。女主沿河岸摊位间的通道奔跑，黑衣下摆、发尾与腰侧束带随步伐自然摆动，短刀固定在鞘内。近处麻布棚沿、木制货台、竹筐和摊位支柱从画面边缘掠过，形成明确的空间视差。沿河一侧能看到灰绿色水面、停靠木船与系船绳索，另一侧是灰瓦木构商铺、旧木门窗和浅灰土墙。\n女主沿桥头弯道跑上虹桥，摄影机顺着同一弧线连续跟进，不停顿、不忽快忽慢。前方百姓先后侧身让路，有人护住提篮，有人退到摊位旁。宽阔木桥向中央缓缓隆起，两侧木栏、桥边货摊与密集但流动的人群向远处延伸。三名官兵在女主后方约六至八米处错位追赶，不贴身、不突然缩短距离。\n柔和日光照亮人物肩背、棚布和木栏上缘，树影零散地落在道路与衣服上。脚步由土路上的声音自然过渡为木桥上的闷响，后方追兵脚步保持明确距离。\n[00:02.50—00:05.00] 镜头2：女主正面近景，回头看追兵\n切女主正面近景，摄影机与她同步后退，略偏向一侧，既看清她的脸，也保留肩膀后方的追兵通道。她继续奔跑，身体略微前倾，肩部随脚步自然起伏，眉间微收，呼吸急促但表情冷静。背景中的木栏、棚摊和百姓持续向后移动，保持真实的前进感。\n女主短促回头，越过肩膀查看追兵，双脚和躯干仍沿原路线向前。焦点短暂落到后方三名官兵身上：领头一人在前，另外两人稍后错开，正绕过百姓追来，距离始终清楚。她随即转回前方，焦点回到面部，目光锁定桥边的面粉摊，并自然向摊位一侧调整路线。\n全段只回头一次，不停步，不转身倒跑。发丝随回头产生惯性，但不持续遮脸。镜头末尾可在一侧带到货台边缘，为下一镜拿取簸箕建立动作衔接。\n[00:05.00—00:07.00] 镜头3：扬粉遮挡，闪向桥栏\n切摊位侧前方中近景，画面包含女主、货台、装有少量面粉的浅簸箕，以及后方追来的官兵。货台上还有布袋、木制量具和陶碗，摊位紧邻桥栏，周围留有可供通行的空间。\n女主顺势抓住簸箕边缘，将它带离桌面，上身短促转向后方，借手臂和身体的力量把面粉扬向追兵路线。面粉从簸箕中散出，先形成集中粉带，再扩散成浅白粉尘，颗粒在侧光中清楚可见。三名官兵本能减速、抬臂遮眼，附近百姓缩肩或退开，摊主惊讶抬手，各人的反应有自然先后。\n摄影机随扬粉动作短促横摇，粉尘与退避百姓的肩背短暂遮住视线。女主借机闪向桥栏一侧，从画面中消失。簸箕被顺势松开放回摊位边，不随她悬浮移动。粉尘只遮住局部通道，不变成覆盖整座桥的浓烟。\n**不展示翻栏、下坠、抓梁或进入桥底的过程。**声音包括簸箕碰桌、面粉扬散、脚步减速与短促咳嗽，无爆炸声。\n[00:07.00—00:09.00] 镜头4：官兵第一人称，查看桥下货船\n切领头官兵的第一人称视角。残余面粉缓慢飘落，女主原来的位置已经空了，周围百姓还在张望。镜头向栏杆靠近，伴随轻微步行起伏，一只手可以从画面下缘进入并扶住木栏。\n摄影机越过栏杆向下俯摇，桥外河面和缓慢驶近桥洞的货船进入视野。货船船头朝向桥洞，船身沿河道前进，木船沿、空甲板、低矮舱棚和船尾船工清楚可辨。灰绿色河水有细小波纹，船体倒影随水面轻轻破碎。\n官兵的视线在船头与空甲板之间短暂查看，没有发现黑衣女子。船工继续操船，没有抬头接应。女主被桥面与粗木梁完全遮住，画面中不出现她的衣角、手脚或倒影。保留近处呼吸、手碰木栏与桥下流水声。\n[00:09.00—00:10.50] 镜头5：搜寻桥对岸\n延续官兵主观视角，从河面抬起并转向桥的另一端，摄影机位置仍在原来的栏杆旁。木栏从近处退出主要画面，视线越过桥上人群，看向对岸市集。\n对岸是高低错落的灰瓦屋顶、木构铺面、浅色棚布与沿街货台。百姓在桥面出口和摊位之间来往，近处有人回头张望，远处商贩仍在经营。镜头扫过人群缝隙、棚摊旁通道和屋檐下入口，始终没有发现女主。\n最后在通往市集的方向短暂停顿，表现官兵的疑惑，不使用大幅乱摇或突然变焦，不出现另一个相似黑衣女子误导视线。街市人声持续，呼吸与衣甲声保持近处位置。\n[00:10.50—00:12.00] 镜头6：三名官兵继续追远\n切桥面侧后方中景，领头官兵在栏杆旁，另外两人位于稍后位置。领头官兵收回查看河面的视线，放下扶栏的手，朝桥对岸做一个简短的前进手势，随后三人先后重新跑起。\n他们沿桥面继续追向对岸，错开绕过行人。摄影机留在原地，三名官兵逐渐远去，被过桥百姓自然遮挡。附近人群重新流动，摊贩开始整理被扬粉动作扰乱的货物。\n画面保留刚才搜寻过的栏杆位置，与下一镜的桥下空间衔接。女主不在桥面画面中。脚步声渐远，河水声逐渐突出。\n[00:12.00—00:14.00] 镜头7：桥底中近景，揭晓蜷缩藏身\n直接切桥底中近景，机位在女主侧下方略向上拍，完整交代她蜷缩的身体与周围木梁，不从指尖特写开始，也不缓慢后拉。\n女主面朝桥底、背朝河面，身体横向收拢，双膝弯曲靠近躯干。双手扣住木梁边缘，双脚分别抵住邻近横梁，通过手脚共同支撑，将身体藏在梁架之间。四个接触点清楚，肩背和腹部绷紧，身体不悬浮，不是双腿伸直的垂吊姿势。\n粗木梁交错延伸，木材表面有磨损、裂纹和深浅不一的旧木色。外侧梁架挡住桥上视线，桥底阴影浓淡有层次，柔和水面反光照出她的侧脸、手指和黑衣边缘。衣摆与散发自然朝河面垂落。\n她静听上方逐渐远去的脚步，克制呼吸，随后略微偏头，通过梁架空隙观察下方驶来的船。手脚始终保持支撑，只做轻微重心调整。\n[00:14.00—00:16.50] 镜头8：等待船到位，解除脚部支撑\n切女主肩侧向下俯拍，前景保留少量黑衣肩背、弯曲的腿或桥底木梁，主体是下方连续前进的同一艘货船。\n船头先经过，随后空甲板逐渐来到女主下方，低矮舱棚位于空甲板后方。旧木板接缝、船沿、盘放的绳索和少量货物清楚可见，落脚区域保持空旷。河水沿船侧形成细小波纹，船速稳定，不突然停下等待女主。\n女主紧盯落点，先收回一只抵梁的脚，另一只脚和双手继续支撑；确认甲板对齐后，再移开另一只脚，将重心逐步交给双手。身体从蜷缩状态自然展开，双脚转向甲板，膝盖仍保持弯曲。\n动作连续，不突然从横向蜷缩跳变成直立悬挂。双手在这一镜末尾仍抓着木梁，为下一镜松手下落做好衔接。声音以流水、船板轻响、鞋底离梁的轻微摩擦与衣料声为主。\n[00:16.50—00:20.00] 镜头9：落船卸力，低身藏匿\n切桥下船侧斜向中全景，上方木梁、女主和下方空甲板同时入画，清楚交代下落距离与船的运动方向。机位避开桥梁遮挡，完整看见松手、下落和落地。\n女主接续上一镜的姿势，双脚朝向甲板，松开双手，身体顺重力下落，手臂自然调整平衡，衣摆和发尾略向上扬。她双脚落在空甲板上，立即屈膝下沉、上身前倾，并以一手撑住木板卸力。脚底接触真实，船体只有轻微晃动，没有夸张倾斜。\n女主保持低姿，收回撑地的手，快速挪到舱棚旁，身体逐渐进入棚体遮挡。她不站直摆姿势，不看镜头。摄影机随船轻微平移，货船继续前进，原先藏身的木梁向后退去，明确表现她已经随船离开。\n船尾船工仍在正常操船，官兵不再出现。声音以短促落船闷响、手掌触板、低身移动的轻响与连续流水声收尾。\n【光影与摄影连续性】\n全片保持同一时间、同一方向的自然日光。桥面与人物肩背有柔和暖光，棚下、檐下和桥底较阴凉，但暗部始终保留细节。切镜后光源方向、阴影与船只朝向不能反转。\n树叶与棚布形成自然局部遮光，木栏、衣料和水面高光柔和，不过曝。面粉只在真实侧光下显出颗粒，不产生夸张光柱。\n桥底使用环境光与水面反光照出人物，不突然变成夜景，不出现无来源的强烈轮廓灯。\n追逐镜头适度运动模糊，女主面部、追兵数量与关键动作仍清楚。桥下藏身和落船镜头相对稳定，不用剧烈抖动、快速闪切或大面积遮挡掩盖动作。\n【声音设计】\n仅生成与环境和动作同步的声音：街市交谈、轻微叫卖、脚步、衣料摩擦、刀鞘与护具轻响、簸箕触桌、扬粉、短促咳嗽、木栏与船板轻响、呼吸、流水及落船闷响。\n背景百姓可以有少量含混议论与自然惊呼，不设置完整对白，不额外增加官兵喊话。\n无旁白，无字幕。禁止背景音乐、BGM、配乐、鼓点、旋律、音乐式升调与预告片重击。\n【负面提示词】\n官兵数量变化、额外追兵、官兵贴身追逐、追兵瞬移、人物复制、同脸百姓、所有人同步反应、桥上人群过少、整座桥突然清空、行人堵死路线。\n白模方块、几何人形、刚性滑行、机械摆臂、多余肢体、手指错误、脚底漂浮、人物穿模、扁担穿过脖子、货物悬浮、绳索穿身。\n女主反复回头、停步摆拍、倒着奔跑、惊恐尖叫、持刀奔跑、拔刀、额外打斗、射箭、杀伤官兵。\n爆炸、烟雾弹、整座桥被浓烟覆盖、粉尘永久不散、凭空消失、提前展示翻栏、提前暴露女主的桥底位置。\n桥底直立垂吊、长期双腿伸直悬挂、背贴桥底且脸朝河面、倒挂头朝下、脚没有抵住木梁、抓握无接触、身体漂浮、手脚穿梁、蜷缩姿势突然跳变。\n船头背向桥洞、船横着堵桥洞、船型变化、船只反向或瞬移、船体穿桥、落在水里、落在舱顶、落在船工身上、空中悬停、无重力下落、甲板穿透、夸张翻船、船工接应。\n石拱桥、狭窄木栈道、现代钢桥、带顶廊桥、现代建筑、现代服饰、清代辫子、满街红灯笼、科幻元素。\nCG渲染感、游戏画面、卡通、油画、水墨滤镜、泛黄旧纸、过度橙黄调色、塑料皮肤、过度锐化、虚假光柱、突然改变光源方向。\n额外切镜、闪回、时间倒流、长时间慢动作、过度抖动、镜头穿过人物或建筑、字幕、水印。",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-kungfu-dog-bottle",
+      "category": "提示词",
+      "title": "功夫狗鹤立踢水瓶，踢中的却是桌子边——瓶子纹丝不动",
+      "body": "客厅里，一只立着的白毛梗犬盯着桌上的蓝标水瓶，先张开前爪找平衡，再抬后腿摆出鹤立踢，一脚踹上桌沿——疼得它张嘴惨叫腾空，瓶子从头到尾没晃一下。\n\nElsaSofia（@ElsaSofia__AI）用 Seedance 2.5 做了这条九秒多的固定机位短片，评论区直接贴出逐秒提示词：机位锁死、禁止运镜，从 0.0 秒对瓶发呆，到 3.4 秒踢空、5.7 秒腾空惨叫、7.9 秒落地再摆出「再来一次」的站姿。巧思在于喜剧时机被写成时间码，而不是「搞笑一点」四个字；「瓶子全程保持站立」单独钉死，模型才不会「好心」帮狗把瓶子踢倒。毛发自然晃动和室内暖光也写进了风格句，失败笑点才站得住。\n\n所以呢：做失败笑点的时候，把「目标没达成」写成硬约束，比堆形容词更能保住笑点。",
+      "links": [
+        {
+          "label": "X 成片",
+          "url": "https://x.com/ElsaSofia__AI/status/2108378540748288351"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/ElsaSofia__AI/status/2108378547480068401"
+        }
+      ],
+      "prompt": "Funny, static locked-off eye-level shot, 16:9, 9.08 seconds, 24 fps, no camera movement. Warm, cozy modern living room: round marble-top coffee table with a fluted wooden base on the left, a clear water bottle with a blue label standing on it, beige sofa and dark TV softly blurred in the background, warm wooden floor, soft indoor lighting. A small fluffy white wire-haired terrier-type dog.\n\n0.0s: The dog stands upright on its hind legs, front paws tucked, staring at the bottle.\n\n1.1s: It starts spreading its front paws out like arms, body leaning slightly, still focused on the bottle.\n\n2.3s: Both front paws spread wide for balance, one hind leg lifted and bent toward the table, like a crane-kick pose.\n\n3.4s: The dog leans back and throws a kick with its hind leg stretched out, mouth opening. Its foot hits the edge of the table below the bottle, missing it.\n\n4.5s: It yelps with its mouth wide open, legs tucked up, starting to rise off the floor.\n\n5.7s: Fully airborne, mouth wide open in a comic scream, tail raised behind, legs tucked in.\n\n6.8s: Curled mid-air, still yelling, drifting to the right and starting to come down.\n\n7.9s: The dog lands and stands upright on its hind legs again, facing the bottle, ready for another try.\n\n9.08s: End. The bottle stays standing the whole time.\n\nStyle: comedic timing, natural fur motion, realistic indoor lighting.",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-cat-knight-dragon",
+      "category": "提示词",
+      "title": "小猫骑士举剑迎战巨龙：两张角色卡，一把剑从头亮到尾",
+      "body": "草原雾气里，一只戴着盔甲的真猫举起几乎与自己同高的双刃剑，对面巨龙单爪就能罩住它头顶一大片天空；剑身从冷金属慢慢渗出金光，打完一场又安静收束。\n\nJohn（@johnAGI168）用 Seedance 2.5 做了「咪之一击」三十秒片：制作流程就是一张小猫骑士卡加一张龙卡，再贴评论区那条六千多字导演提示词。词里把双角色绑定写到发丝级别——猫不许长出人手、龙不许加头加翅，剑柄护手全片同一把，剑光只能在同一把剑上逐渐形成。场景只留潮湿草原和灰蓝云层，战斗轴线切镜后还要保持方向连续，草地上的泥痕翻滚痕迹也不许「切镜回春」。负面词单独禁止没有接触就出火星、没有命中就倒飞。\n\n所以呢：双角色对打别靠一段笼统「史诗感」，把「谁是谁、兵器变不变、接触有没有」写成可检查的清单，成片才站得住。",
+      "links": [
+        {
+          "label": "X 成片",
+          "url": "https://x.com/johnAGI168/status/2108157964452495401"
+        },
+        {
+          "label": "完整导演提示词",
+          "url": "https://x.com/johnAGI168/status/2108157966188966272"
+        }
+      ],
+      "prompt": "SEEDANCE /《微小之躯，迎战巨龙》\n双角色卡·30秒奇幻动作电影导演提示词\n\nDuration：严格30秒\nAspect ratio：16:9横屏\nOverall style：\n高品质写实奇幻CG电影。小猫保留真实动物的毛发、眼睛、胡须和身体比例，巨龙具有厚重鳞甲、皮膜与肌肉运动。场景、角色、兵器和魔法光线处于同一真实空间。\n整体情绪从阴冷压迫、艰难抵抗，逐渐发展到坚定、明亮、爆发，最后回归安静。\n可爱来自小猫本身的体型与外形，表演保持认真，不做搞笑卖萌。\n\nSUBJECT / 双角色绑定：\n\n@图片1 命名为【小猫骑士】。毛色、花纹、脸型、眼睛、耳朵、体型比例及已有盔甲、配饰严格遵循角色卡，不添加人类面孔或人类手掌。双足战斗时仍保留小猫的短肢、爪部与尾巴结构。\n唯一武器是一把实体双刃长剑，长度约接近小猫自身高度。握柄、护手、剑身结构全片一致；前段为冷色金属剑身，后段在同一把剑上逐渐形成金色光芒。\n\n@图片2 命名为【巨龙】。头部、龙角、鳞片、眼睛、翼膜、四肢和尾部结构严格遵循角色卡，不改变龙的种类，不新增头颅、翅膀或肢体。\n巨龙体量远大于小猫，站立躯干高度为小猫的十余倍；近景中的单只龙爪足以覆盖小猫头顶上方的大片空间。\n胸颈鳞甲缝隙可在蓄力阶段由暗转为橙红色内发光，但不改变原有鳞甲结构。\n\n全片仅有小猫骑士与巨龙两个角色。\n不是角色展示片，两者始终围绕同一场战斗发生动作与反应。\n\nENVIRONMENT / 场景、光线与空间：\n\n辽阔、低矮起伏的绿色草原，地面潮湿，近处能看见草叶上的水珠与草根之间的深色泥土。\n天空被低垂的灰蓝色云层覆盖，远方地平线逐渐融入薄雾，无建筑、无人群、无额外生物。\n\n小猫位于前景或画面左侧，巨龙位于中远景或画面右侧。以两者相向的位置建立战斗轴线，切镜后保持攻击方向连续。\n草地保留此前刮出的泥痕、翻滚痕迹与落地凹陷，不在镜头切换后恢复原状。\n\n光线按战斗阶段递进：\n0–10秒：低饱和灰蓝天光，草地偏冷绿；盔甲与剑刃只有克制的冷色反射。\n10–14秒：巨龙胸颈内部出现橙红光，照亮附近鳞片与下颌，周围天空仍然阴冷。\n14–21秒：金色粒子逐渐聚向小猫的剑，剑光照亮毛发、眼睛、护甲和脚边草叶。\n21–24秒：金色能量爆发，照亮双方与草地；保留角色轮廓，不让整幅画面长时间过曝。\n24–30秒：强光消退，冷色天光重新显现，零星金色余烬缓慢熄灭。\n\n风持续吹动草叶、猫耳边的细毛和巨龙翼膜。\n巨龙挥动身体时才产生更强的局部风压，草叶倒伏方向必须对应动作方向。\n\nAUDIO / 声音设计：\n\n无对白、无旁白、无内心独白、无咒语、无可辨认歌词。\n小猫不说人话，不做演讲或吟唱口型。\n画面无字幕、无文字标题、无水印。\n\n0–3秒：\n低沉风声、草叶摩擦、细微金属触地声；远处传来巨龙振翼的低频声。\n配乐以低音弦乐缓慢建立压力。\n\n3–10秒：\n剑刃与龙鳞接触时出现短促金属撞击；\n龙爪压地、龙尾破风、泥块飞溅、盔甲翻滚碰撞与落地声清楚分层。\n配乐进入急促弦乐节奏与低鼓，不覆盖打击声。\n\n10–14秒：\n巨龙胸腔传来低沉共鸣和压抑的非语言咆哮；\n配乐收紧，留出短暂的压迫与呼吸空间。\n\n14–21秒：\n细小清亮的能量声逐渐聚合，弦乐与铜管持续上行。\n举剑至最高点时短暂降低鼓声，让蓄力形成明显悬念。\n\n21–24秒：\n挥剑破风、能量释放、胸部命中、巨龙失衡依次发生；\n低频冲击与管弦乐高潮同步，但不能提前出现命中声。\n\n24–30秒：\n巨龙远处落地轰鸣、土石滑动，随后配乐转为简洁而舒展的尾奏。\n逐渐听清风声、小猫脚步与护甲轻响。\n\n————————————————————————\n\nSHOT 1（0–3秒）｜剑尖、眼睛与逼近的倒影\n\nSubject：\n小猫骑士，出现在眼睛倒影中的巨龙。\n\nAction：\n开场紧贴草地，一把金属长剑的剑尖轻触湿润泥土，旁边草叶被压弯，后方可见小猫稳稳落地的双脚。\n小猫收紧握柄的爪部，剑尖离开地面。\n视线抬向前方，小猫的眼睛从专注变为警觉，耳朵轻轻向后收。\n眼睛角膜中出现巨龙张翼逼近的倒影，倒影逐渐放大。\n\nEnvironment：\n风吹过草尖，潮湿地面反射微弱灰光，远方被低云与薄雾压住。\n\nCamera：\n从剑尖微距起镜，沿剑身快速上移至小猫脸部，再推进一只眼睛的极近景。\n对焦由剑刃、胡须转至角膜倒影，移动连续，不做突然变形转场。\n\nStyle：\n触感细腻、安静而紧张，以极小的眼睛容纳巨大的威胁。\n\nPerformance：\n小猫不夸张瞪眼、不张嘴说话；通过瞳孔、耳位和握剑力度表达警觉。\n\nConstraints：\n倒影只能是同一条巨龙，不生成第二条龙；不把龙直接放进眼球内部；剑尖离地过程不能穿过脚掌。\n\n————————————————————————\n\nSHOT 2（3–6秒）｜小猫持剑硬挡巨爪\n\nSubject：\n小猫骑士、巨龙。\n\nAction：\n小猫迅速转向袭来的巨龙，双爪握剑，由低位提至头顶前方斜向防守。\n巨龙前爪从斜上方压下。\n剑刃先与龙爪的坚硬鳞甲接触，接触点才迸出短促火星。\n小猫后脚蹬地、前腿弯曲，肩背承受压力，握剑的双爪产生细微颤动。\n巨爪继续前压，小猫被推着短距离后滑，脚下划出两道浅泥痕，但没有松开剑柄。\n小猫咬紧牙关，调整剑身角度，撑住这一击。\n\nEnvironment：\n火星落向潮湿草地并很快熄灭。\n草根被脚掌刮开，少量泥土向后翻起。\n\nCamera：\n低机位侧面中景，将小猫完整身体与巨爪同时纳入画面。\n镜头随小猫后滑短距离移动，保持接触点清晰。\n\nStyle：\n靠体型差、弯曲的身体和滑动的地面表现压力，不能只用镜头震动制造打击感。\n\nPerformance：\n小猫目光始终盯住压下来的龙爪，耳朵后收，尾巴伸出帮助保持平衡。\n\nConstraints：\n火星必须来自剑与鳞甲接触处；不让剑穿入爪子；小猫不能毫不费力地举起整条龙。\n\n————————————————————————\n\nSHOT 3（6–10秒）｜伏低避扫，跃斩受阻\n\nSubject：\n小猫骑士、巨龙。\n\nAction：\n承接上一镜，巨龙收回前爪并转动庞大躯干，长尾沿近地高度横扫。\n小猫察觉扫击路线，立即降低身体，贴地侧滚，让龙尾从身体上方掠过。\n尾部掀起草屑和泥土，小猫双爪始终控制剑柄，剑刃避开自己的身体。\n\n滚动结束后，小猫用脚掌蹬地起跳，双爪将剑举过头顶，朝巨龙面侧斩去。\n巨龙转头迎向小猫，剑刃与头侧硬鳞发生短促碰撞，迸出少量火星与碎屑。\n巨龙甩头的力量将小猫撞离原先的进攻轨迹。\n小猫在空中收拢身体，落地后顺势滚动卸力，再以低姿态滑停，剑仍握在爪中。\n最后抬头盯住巨龙，为下一段对峙衔接。\n\nEnvironment：\n滚动压倒草叶，落地翻起深色湿泥；受力留下连续轨迹。\n\nCamera：\n先用低位全景交代横扫与伏低闪避。\n随小猫起跳向上摇摄，保持小猫与龙头在同一空间中。\n在碰撞后跟随下落，接地面低位镜头看清翻滚与滑停。\n\nStyle：\n动作快速，但每次起跳、碰撞和落地均有明确前后关系。\n小猫表现出勇敢与灵活，同时让观众看见它仍处于劣势。\n\nConstraints：\n尾巴、翅膀与前爪不能互相变形替代；不让小猫无故悬停；不跳过落地过程；不把这次碰撞写成小猫已经击败巨龙。\n\n————————————————————————\n\nSHOT 4（10–14秒）｜巨龙蓄火，小猫重新站稳\n\nSubject：\n巨龙、小猫骑士。\n\nAction：\n巨龙重新面对小猫，前肢撑开，胸颈缓缓抬起，双翼向外展开，身体吸气般扩张。\n胸口鳞甲缝隙先出现微弱暗红，随后向胸颈相连区域扩散，逐渐变成灼热橙红色。\n光来自鳞甲内部，不是贴在身体表面的火焰图案。\n\n交切小猫近景：\n小猫从低位站起，呼吸稍重，毛发与护甲带着刚才留下的泥点。\n它看向巨龙胸口，再将视线抬至巨龙的眼睛。\n短暂停顿后，小猫稳住脚步，重新握紧剑柄，眼神从吃力转为坚定。\n\nEnvironment：\n巨龙胸前出现轻微热扰动，橙红反光落在附近鳞片与地面。\n背景仍是冷灰色云层，冷暖对比逐渐增强。\n\nCamera：\n以小猫背后低机位仰拍巨龙，突出规模与压迫。\n切小猫脸部特写，再切胸颈鳞甲的局部近景，建立双方蓄势的节奏。\n\nStyle：\n这一段稍放慢，给前面的快速打斗留下呼吸空间，并为反击积累张力。\n\nPerformance：\n巨龙的威胁来自吸气、胸腔扩张和缓慢前倾。\n小猫不突然嬉笑，不喊口号。\n\nConstraints：\n巨龙此时只蓄力，不添加原片未展示的完整喷火流；不把胸部裂隙变成开放伤口；不让鳞甲结构发生变化。\n\n————————————————————————\n\nSHOT 5（14–18秒）｜金色粒子汇入剑身\n\nSubject：\n小猫骑士。\n\nAction：\n小猫双脚分开站稳，将同一把长剑竖直举到脸前，双爪紧握剑柄。\n最初只有零星金色光点从脚边草地和周围空气中升起。\n光点逐渐靠近剑身，剑刃先出现细微金色反射，随后亮度沿剑身逐步增强。\n小猫保持稳定，肩部与前臂有真实用力，双爪没有离开握柄。\n随着能量聚集，剑身从冷色金属逐渐转为温暖明亮的金色，但仍能辨认实体剑的轮廓。\n\nEnvironment：\n金光照亮小猫脸侧细毛、眼中高光和护甲边缘。\n脚边草叶由冷绿逐渐被照成暖金色；粒子有前后景深，不均匀铺满画面。\n\nCamera：\n正面中近景缓慢推进，剑位于脸前中央，两只眼睛分处剑身两侧。\n对焦兼顾眼神与剑刃，背景柔和虚化。\n\nStyle：\n庄重、克制、逐步增强。通过光线真正改变物体外观，表现能量在积累。\n\nPerformance：\n小猫目光稳定，耳朵逐渐抬起，呼吸由急促转为沉稳。\n\nConstraints：\n不换剑、不生成第二把剑；金光不能一帧突然全亮；不出现魔法文字、字幕或复杂符号覆盖角色。\n\n————————————————————————\n\nSHOT 6（18–21秒）｜举剑向天，拉开规模\n\nSubject：\n小猫骑士，远处的巨龙。\n\nAction：\n小猫将已经发光的长剑从脸前连续举过头顶，肘部逐渐伸展，身体随之挺直。\n剑光沿剑尖向上延伸，形成明亮、集中的金色光柱。\n光柱周围只保留少量流动的粒子与空气扰动，主体仍然是小猫的举剑动作。\n小猫抬头确认剑势，随后目光重新锁定前方巨龙，屈膝蓄力，准备下劈。\n\n巨龙仍在远处展开双翼，胸部橙红光持续增强，身体前倾，保持即将进攻的姿态。\n\nEnvironment：\n金光把小猫周围一片草地照亮，形成由近到远自然衰减的光照范围。\n灰云保留纹理，不直接变成晴天。\n\nCamera：\n由正面低机位平滑移向小猫侧后方，同时逐渐拉开景别。\n连续展示举剑的高度、光柱与远方巨龙的位置，不让角色在运镜中原地转圈代替摄影机运动。\n运镜结束时明确建立攻击方向。\n\nStyle：\n以小小身影、巨大天空和笔直剑光形成史诗感。\n\nConstraints：\n举剑必须是连续动作；剑光不能从猫头或胸口发射；不让巨龙在背景突然换位置；不在蓄力期间提前击中巨龙。\n\n————————————————————————\n\nSHOT 7（21–24秒）｜下劈释放，剑光击退巨龙\n\nSubject：\n小猫骑士、巨龙。\n\nAction：\n小猫先屈膝压低重心，再用腰背、肩臂共同带动长剑向前下劈。\n剑刃沿清楚的弧线加速，达到前方释放位置后，金色能量沿挥剑方向爆发。\n先出现挥剑和能量释放，再出现巨龙胸前的命中。\n\n切入极宽景：\n小猫稳稳留在地面，巨龙位于正前方。\n一道集中而强烈的金色能量束从剑的释放方向斜向上击中巨龙胸部。\n接触点先绽开金色光团，随后巨龙胸躯后仰，前爪离地，双翼被冲击带向后方。\n能量持续推动巨龙短暂升起，再将它向后方掀离原位。\n小猫保持下劈后的低位姿态，脚掌抓地，身后草叶受气流冲击向外倒伏。\n\nEnvironment：\n能量掠过处草叶受到风压，近处泥尘被推开。\n巨龙胸部橙红光被金色命中光短暂压住，整个身体轮廓仍然可辨。\n\nCamera：\n下劈以中景表现发力，命中立即切双方同框的极宽景。\n保持镜头方向稳定，让观众明确看清能量来自小猫、终点是巨龙胸前。\n\nStyle：\n爆发集中、有重量。高潮依靠动作、声音、光照和巨龙受力同时成立。\n\nConstraints：\n禁止小猫与巨龙互换发射方；不添加龙焰与剑光对波；不在命中前让巨龙飞起；不将光束画成一把突然变大的实体剑；禁止长时间白屏遮挡动作。\n\n————————————————————————\n\nSHOT 8（24–27秒）｜巨龙坠地，冲击逐渐远去\n\nSubject：\n巨龙，小猫骑士。\n\nAction：\n金色能量束消退。\n巨龙沿既有后退方向继续失衡，在空中翻转，尾巴与双翼滞后摆动。\n随后身体落向远处草地，先发生实际触地，再扬起大面积泥尘。\n巨龙顺着余势翻滚、拖行，逐渐停下，身体仍然留在远处地面，没有粉碎、蒸发或消失。\n小猫留在前景，维持收剑后的姿态，确认巨龙停止逼近，再缓缓站直。\n\nEnvironment：\n冲击带起的尘雾向外扩散，经过数秒逐渐变薄。\n草地上留下落地压痕与滑行痕迹，金色余烬缓慢飘落。\n\nCamera：\n固定宽景或轻微跟随巨龙落点，让前景小猫与远处巨龙同框。\n使用远近层次表达冲击规模，不再频繁切换机位。\n\nStyle：\n从强烈冲击逐步回到安静，让战斗结束有重量和余韵。\n\nConstraints：\n不凭空宣布巨龙死亡；不添加伤口、断肢或血液；巨龙落地后不能立刻复位；尘土必须由触地带起。\n\n————————————————————————\n\nSHOT 9（27–30秒）｜小猫持剑走近，金光退去\n\nSubject：\n小猫骑士，远处倒地的巨龙。\n\nAction：\n小猫缓缓转向镜头，把剑斜低持在身体一侧，剑尖与地面保持少量距离。\n它迈出短而稳的步伐，朝镜头走来。\n身上的泥点、毛发状态和护甲擦痕延续战斗后的状态。\n剑身残余金光逐渐减弱，零星粒子脱离剑刃后熄灭，最后重新显露金属剑身。\n小猫神情平静而坚定，步伐中保留战斗后的少量疲惫，不炫耀、不跳舞。\n远处巨龙始终留在地面，薄雾与尘烟逐渐散开。\n\nEnvironment：\n天空重新以冷灰色为主，只有少量暖金色余光残留在草叶边缘。\n风重新成为最清晰的环境运动。\n\nCamera：\n以接近小猫眼睛高度的正面中远景起镜，随着小猫走近缓慢后退。\n保持小猫清晰，巨龙与地平线留在身后的柔焦层次中。\n最终停在能看清小猫全身、长剑和远方巨龙的构图。\n\nStyle：\n克制、安静，以微小身影走过巨大威胁后的从容结束。\n\nPerformance：\n嘴巴自然闭合，目光看向前方，耳朵和尾巴随步伐轻微运动。\n\nConstraints：\n不突然变回毫无装备的普通猫；剑光逐步消退，不能整把剑消失；不添加第二场战斗、额外人物、片尾文字或胜利字幕。\n\n————————————————————————\n\nNEGATIVE / 全片负面约束：\n\n禁止角色换脸、毛色漂移、龙角和翅膀结构改变、体型比例跳变。\n禁止人类手掌、人类牙齿、猫脸变人脸、多爪多脚、肢体穿模。\n禁止兵器复制、换手瞬移、剑刃穿过身体、剑柄与爪部脱离。\n禁止没有接触就产生火星，没有命中就倒飞，没有落地就出现尘土。\n禁止无目的翻跟头、原地挥剑、双方静止等待特效、每镜头重置姿势。\n禁止新增龙喷火对波、额外怪物、军队、城堡或其他剧情。\n禁止魔法光效覆盖整张脸、长时间过曝、廉价游戏界面和卡通描边。\n禁止对白、旁白、咒语、歌词、字幕、文字、水印和Logo。\n禁止血腥、断肢或巨龙身体碎裂。\n全片严格30秒，保持同一场景、同一把剑、同一只小猫与同一条巨龙。",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-bus-telekinetic-girl",
+      "category": "提示词",
+      "title": "公交车上，短发女高中生抬手定住拳头，再一掌推开四个壮汉",
+      "body": "蓝座椅、橙扶手的韩国公交里，四个街头壮汉围住灰西装短发女生；手机和红汽水罐在她脸旁慢慢旋转，金发纹身男的拳头冲到眼前却冻在半空，下一秒她旋踢、借扶手转身，蓝色冲击波把人推回空座。\n\nAlina（@Alina_with_Ai）公开了这段 Seedance 2.5 的三十秒超广角提示词：先锁角色与车厢材质，再按 0–4、4–8、8–14 秒分段写「觉醒—时间凝滞—跆拳道近战—念力清场—整理衣领下车」。每段都点名机位（低机位抓球鞋、鞭摇、对称大远景），负面词禁止血腥、换脸和多余肢体。和走廊念力片不同，这场把超能力塞进会晃的车厢，扶手、座椅和乘客躲避都成了动作支点。\n\n所以呢：超能力片别只写「她很强」，把车厢里能抓、能撞、能借力的东西列进时间轴，动作才会像真打出来的。",
+      "links": [
+        {
+          "label": "X 成片",
+          "url": "https://x.com/Alina_with_Ai/status/2108379690750861621"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/Alina_with_Ai/status/2108379695326851258"
+        }
+      ],
+      "prompt": "Prompt to video 📷 \n..\n..\n🎬 Seedance 2.5 — Korean Supernatural Action | 30-Second Cinematic Prompt\n\nFormat: Ultra-wide 2.39:1 | 4K cinematic realism | Live-action Korean action thriller\n\nCreate a visually stunning, ultra-realistic Korean supernatural action sequence set inside a moving city bus. Use cool blue-grey color grading, soft daylight, subtle film grain, dramatic handheld cinematography, fast whip pans, and perfectly choreographed martial arts. The atmosphere should feel like a high-budget Korean action movie.\n\nCHARACTERS & SETTING\n\nA composed 17-year-old Korean schoolgirl with a short black bob, straight bangs, grey school blazer, black tie, plaid skirt, white backpack, and black Converse sneakers stands inside a modern Korean city bus. The bus features blue seats, bright orange handrails, and large windows overlooking a busy city street. Four intimidating adult men surround her, dressed in dark streetwear, including one with bleached-blonde hair, a camouflage-print shirt, and tattooed arms.\n\nSCENE 1 — THE AWAKENING (0–4 SECONDS)\n\nA wide cinematic shot moves slowly down the bus aisle. The schoolgirl stands perfectly still as the men close in around her. A faint electric-blue aura begins shimmering around her body. A smartphone and a red soda can rise into the air, rotating slowly beside her face. Cut to an extreme close-up of her focused eyes, reflecting the mysterious blue light.\n\nSCENE 2 — TIME STANDS STILL (4–8 SECONDS)\n\nThe blonde man suddenly lunges toward her. His fist rushes toward the camera in dramatic slow motion. Just inches from her face, his punch freezes in mid-air, stopped by an invisible force. The girl's expression remains completely calm. A subtle blue ripple spreads through the air as the camera captures the tension in a razor-sharp close-up.\n\nSCENE 3 — LIGHTNING-FAST COMBAT (8–14 SECONDS)\n\nThe action explodes into motion. A low-angle shot captures her sneakers gripping the bus floor as she launches into a flawless spinning taekwondo kick. She evades incoming attacks with precise footwork, redirects her opponents' movements, and uses the orange handrails to pivot effortlessly through the aisle. Each movement feels powerful, fluid, and physically believable. Dynamic tracking shots alternate with sharp impact cuts and brief slow-motion moments.\n\nSCENE 4 — TELEKINETIC POWER (14–22 SECONDS)\n\nTwo attackers charge simultaneously. The girl raises one hand, unleashing a concentrated blue shockwave that sends one man backward into the empty seats. Another is pushed away from her by an invisible force. Bags and loose objects lift into the air as the bus interior trembles slightly. Passengers duck behind the seats. Blue energy distorts the air for a split second, creating a spectacular supernatural effect without overpowering the realistic visual style.\n\nSCENE 5 — THE FINAL STRIKE (22–27 SECONDS)\n\nThe last attacker charges directly toward her. She plants her feet, turns smoothly, and extends her palm. A brilliant blue energy burst fills the aisle, sending him stumbling backward onto the seats. Dust particles and tiny reflections shimmer through the light. The other men remain defeated and motionless for a moment, while the girl stands untouched and composed.\n\nSCENE 6 — THE ICONIC EXIT (27–30 SECONDS)\n\nThe camera pulls back into a symmetrical wide shot of the bus aisle. The girl calmly straightens her blazer and adjusts her white backpack as the blue glow fades away. Cut to a rear tracking shot as the bus doors open. She steps onto a busy Korean crosswalk and walks confidently into the city. The final frame holds on her silhouette against the cool daylight as the street ambience replaces the action sounds.\n\nCINEMATIC STYLE & SOUND DESIGN\n\nPhotorealistic Korean action-film aesthetics, natural facial expressions, consistent character identity, realistic body movement, seamless camera transitions, detailed fabric textures, subtle electric-blue telekinesis (#4FA8FF), and carefully timed slow-motion impacts that snap back to real-time speed.\n\nSound design: low bus-engine rumble, footsteps, handrail rattles, sharp movement whooshes, controlled impact sounds, a deep sub-bass pulse during each energy burst, and soft city ambience during the final exit.\n\nNEGATIVE PROMPT\n\nNo text, no subtitles, no watermark, no logos, no facial distortion, no identity changes, no extra limbs or fingers, no unnatural body movement, no excessive visual effects, no cartoon appearance, no blood, and no graphic injuries.\n\nIMPORTANT: Maintain consistent character appearance, realistic stunt choreography, cinematic continuity, and the same blue-grey visual palette throughout the entire sequence.",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-school-revenge-speedmap",
+      "category": "提示词",
+      "title": "走廊复仇片把「哪一镜慢放」写成百分比：巴掌定格再把人轰飞",
+      "body": "米色储物柜走廊里，被围住的女生抬眼、低语，一记耳光先以约一成速度冻住撞击，再把人甩到走廊尽头；后面群殴用鞭摇和二成五慢旋接尘土，最后她独自沿一点透视走回来，纸片花瓣还在飘。\n\nElsaSofia（@ElsaSofia__AI）这条 Seedance 2.5 二十秒多提示词，不只写分镜，还附了 Speed Summary：哪一镜约 10% 慢放、哪一镜 25–30%、其余必须实时。角色锚写到破肩缝和黄名牌，结尾大远景单独锁黑帆布高帮鞋。Master Effects Inventory 把「脑后推头、定格巴掌、鞭摇、慢旋尘土、花瓣终拳、一点透视独行」六件特效列成清单，方便对照成片有没有漏。\n\n所以呢：想要电影感的快慢节奏，别只写「慢动作」，把每镜播放速度写成百分比，模型和剪辑才知道劲往哪使。",
+      "links": [
+        {
+          "label": "X 成片",
+          "url": "https://x.com/ElsaSofia__AI/status/2108151931546038402"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/ElsaSofia__AI/status/2108151939032830265"
+        }
+      ],
+      "prompt": "VIDEO PROMPT — 20.8 seconds, 16:9, live-action cinematic realism, bright flat fluorescent school-hallway lighting with a slightly cold desaturated look, handheld camera energy, Korean school-revenge drama tone. Keep faces, uniforms and the location identical in every shot. Keep the fighting non-gory. Speeds are written per shot.\n\nCHARACTERS (repeat in every part)\nHEROINE: Korean high-school girl, long straight dark-brown hair with see-through bangs, navy-black school blazer with a torn shoulder seam (white undershirt and a red mark on the skin showing), white shirt, dark grey-green pleated skirt. In the final walking shot she wears black canvas high-top sneakers.\nBULLIES: a group of Korean high-school girls in navy blazers with yellow name tags and a round emblem, white shirts, navy ties, grey pleated skirts, long black hair. MAIN BULLY: long straight black hair, smiling, tie. LEADER: hair tied up in a high ponytail, round emblem on her blazer.\nLOCATION: Korean high-school hallway. Beige metal lockers along both walls, wood-framed windows high on the wall, long fluorescent ceiling lights, beige-grey floor.\n\n===== PART 1 (00:00-00:09.2) =====\n\nSHOT 1 (00:00-00:03.0) — Cornered at the Lockers\nMedium shot, slightly low. The heroine stands against the beige lockers with her head bowed, hair over her face. Bullies surround her; they are seen from behind in the foreground (long black hair, navy blazers). At about 00:00.3 one bully's hand reaches in and shoves her on the head, her head jerks sideways, then the arm pulls back. The heroine stays hunched, with only a slight shake. Near the end she starts to lift her head. Camera static. Speed: REAL TIME.\n\nSHOT 2 (00:03.0-00:06.0) — The Stare\nClose-up of her face against the lockers. She lifts her head and stares upward through her bangs. Then she lowers her eyes and murmurs quietly under her breath, her lips moving, her expression turning cold. The torn shoulder seam is visible at the edge of the frame. At about 00:06.0 a blurred hand sweeps across the lens. Camera static. Speed: REAL TIME.\n\nSHOT 3 (00:06.2-00:07.8) — The Slap\nMedium shot in the hallway. The main bully stands smiling at the left with a friend behind her. The heroine is in the right foreground with her back to the camera. Her hand slaps the main bully across the cheek: the bully's cheek squashes, her lips purse, her hair lifts, and tiny white specks float in the air. The moment of impact is held. Speed: near-frozen SLOW MOTION (about 10% speed) for the impact hold.\n\nSHOT 4 (00:07.8-00:09.2) — Launched Down the Hallway\nThe bully is launched backward by the slap, spins in the air, and flies far down the hallway, then tumbles onto the floor and lies motionless far away. The heroine remains in the right foreground with her arm still out, her back to the camera. Speed: fast, REAL TIME.\n\n===== PART 2 (00:09.2-00:20.8) =====\n\nSHOT 5 (00:09.2-00:11.2) — Shock\nFront-facing medium shot. The heroine looks at her own hand with wide eyes and an open mouth, stunned by what she did. The bullies stand behind her in the corridor, first shocked, then their faces turn to rage. Camera static. Speed: REAL TIME.\n\nSHOT 6 (00:11.2-00:11.9) — Whip Pan\nFast whip-pan blur as the gang runs through the hallway at her.\n\nSHOT 7 (00:11.9-00:12.5) — The Charge\nLow-angle view down the hallway. Four bullies charge toward the camera in a line, uniforms and hair moving. Speed: REAL TIME.\n\nSHOT 8 (00:12.5-00:14.4) — The Spin-Out\nLow-angle view down the hallway. The heroine is in the middle of the charging bullies, and she knocks them away. Their bodies spin outward, hair whipping, blazers and skirts swirling, a puff of white dust against the lockers. Speed: SLOW MOTION (about 25-30% speed).\n\nSHOT 9 (00:14.4-00:15.5) — They Fall\nThe bullies crash against the lockers and collapse onto the floor. The heroine stands in the middle of the hallway with her back to the camera while the bullies lie along the lockers. The slow motion eases into real speed at the end.\n\nSHOT 10 (00:15.5-00:16.0) — Sweep\nAnother bully rushes in from the right. The heroine spins and sweeps her arm out wide, knocking her down. Motion blur. Speed: REAL TIME.\n\nSHOT 11 (00:16.0-00:16.4) — Turn\nWhip-pan blur. The heroine turns toward the camera with her hair flying and charges forward as the leader steps in from the right.\n\nSHOT 12 (00:16.4-00:18.6) — The Final Punch\nSide two-shot, low angle. The heroine on the left, back arm extended, punches the leader in the face. The leader's head snaps back, her ponytail and hair fly, and white petals and loose paper fly through the air. Speed: SLOW MOTION (about 15-20% speed).\n\nSHOT 13 (00:18.6-00:20.8) — The Walk\nWide, centered one-point perspective down the empty hallway lined with lockers on both sides. The heroine walks slowly toward the camera in her blazer, white shirt, skirt and black canvas sneakers, looking down. White petals and paper drift in the air around her. Camera static. Speed: REAL TIME. Hold, then end.\n\nMASTER EFFECTS INVENTORY\n1. Hit-to-the-head from behind (Shot 1).\n2. Frozen-impact slap, then the bully flies down the hallway (Shots 3-4).\n3. Whip-pan blur transitions (Shots 6, 11).\n4. Slow-motion gang spin-out with dust puff (Shots 8-9).\n5. Slow-motion final punch with petals and paper in the air (Shot 12).\n6. Centered one-point-perspective hallway walk (Shot 13).\n\nSPEED SUMMARY\nSlow motion: Shot 3 (about 10%), Shot 8 (about 25-30%), Shot 12 (about 15-20%).\nEverything else: real time.\n\nENERGY ARC\nPart 1 (0-9s): humiliation, then the first explosion.\nPart 2 (9-21s): shock, chaos, slow-motion takedown, calm walk.",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-tiktok-ad-shot1-result-first",
+      "category": "提示词",
+      "title": "电商 AI 广告第一镜别打价格：先让手演示「已经用上了」",
+      "body": "十九美元手机支架广告以前一上来就砸「减百分之四十」和标价，一周十四单卡了一个月；他把第一镜改成「成品结果已经在干活，只露手、不露价，旁白八个词内说清结果」，两周变成二十九单。\n\nFox（@0xMfox）让代理拆了当周 TikTok Shop 销量第一的六百条广告开场：打折扣开场的赢家只占百分之三，结果先行占百分之三十，沉浸 POV 占百分之二十五，痛点先行约百分之十九。他给出可直接贴进 Veo、Kling 或 Sora 的 Shot 1 句式，并列出六种开场比例当菜单。数字来自他自述的销售对比，可当方法参考，别当成平台官方统计。\n\n所以呢：写带货视频提示词时，先规定前两秒给观众看「用完的样子」，价格徽章可以往后放。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/0xMfox/status/2107908434616037686"
+        }
+      ],
+      "prompt": "Paste this as Shot 1 in your Veo, Kling or Sora prompt:\n\n→ Shot 1 (0-2 sec): open on the finished result with [product] already doing its job, hands only, no price on screen, voiceover says the outcome in under 8 words.\n\nHow the winners open (from 600 #1 TikTok Shop ads that week):\n→ Result First, 30%: the outcome on screen before any explanation\n→ POV Scenario, 25%: the viewer dropped into the moment as the user\n→ Pain Point, 19%: the problem named before the product\n→ Benefit First, 9%: the payoff as a claim\n→ Curiosity Gap, 9%: the thing they want to know, held back\n→ Urgency, 3%: price or deadline in the first beat",
+      "date": "2026-10-07",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-bakery-mezzanine",
+      "category": "提示词",
+      "title": "面包店夹层栏杆旁：把「零背包、零肩带」写进提示词，肩线才干净",
+      "body": "暖色烘焙咖啡店夹层上，东亚女孩手扶灰色铁丝网栏杆，微微躬身看镜头，蜂蜜色锁骨发、爱心挂锁项链，背后是可颂柜和钨丝灯——肩头到手臂一条干净轮廓，没有任何包带打断。\n\nJohn（@johnAGI168）为 GPT Image 2.5 写的这条提示词，一开头就钉死 zero bags、backpacks or shoulder straps，再写右臂自然下垂、左手轻搭栏杆、闭唇浅笑。镜头参数落到三十五毫米、T2.0、感光度三百二十、一百六十分之一秒，连丹宁斜纹质感都点名。钨丝灯与侧窗日光混光也被写进句子，边缘发丝才有那圈柔光。它不像「美女写真」空词，更像摄影指导在对焦表上勾选项。\n\n所以呢：人物站姿写真想干净，先用否定句清掉包带和道具，再写光和镜头，比堆「高级感」有用。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/johnAGI168/status/2108421965539094969"
+        }
+      ],
+      "prompt": "Medium shot, eye-level cinematic film still of a lovely early-20s East Asian young woman standing on a mezzanine inside a warm artisanal bakery café, with zero bags, backpacks, or shoulder straps. She leans her upper body subtly forward from the waist with soft bent knees, pitching her torso gently toward the camera. Her right arm hangs naturally along her side, while her left arm extends casually to her side with her hand resting lightly on the grey wire-mesh metal railing. She tilts her head slightly, offering a tender, direct gaze with a sweet, subtle closed-lip smile.\n\nHer face is captured with breathtaking, candid reality: soft, neotenic rounded cheeks with youthful baby fullness, smooth fair porcelain skin, large warm dark-brown almond eyes with prominent puffy aegyo-sal, and soft coral-pink satin lips. Her warm honey-caramel light-brown hair is styled in a feathered shoulder-length layered bob with soft curved-in ends, complemented by airy see-through fringe bangs across her brow and face-framing strands contouring her cheeks. A chunky silver link chain necklace holding a heart-shaped lock pendant rests on her clavicle.\n\nShe is dressed in a minimal heather-grey stretch cotton scoop-neck crop tank top with ultra-thin spaghetti straps, beautifully revealing her soft, feminine contours. Below her midriff, she wears classic washed-blue denim shorts, paired with a faded blue denim jacket tied around her waist with the sleeves knotted loosely in front. Her shoulders and arms remain completely bare, showcasing clean, uninterrupted posture lines.\n\nThe scene carries the evocative, warm atmosphere of a retro Japanese bakery: high concrete and raw timber ceilings equipped with glowing vintage tungsten spotlights, illuminated pastry showcases below filled with golden freshly baked croissants and artisan bread, accented by dark wooden menu boards and lush green potted palms in the background.\n\nLit by a nuanced blend of warm tungsten practical lamps and soft daylight from wide side windows, creating a gentle luminous glow along her hair edges and natural, honest shadows on her skin and clothing. Shot on a 35mm cinema lens at T2.0, ISO 320, 1/160s, delivering organic filmic grain, subtle highlight bloom, authentic denim twill texture, and an intimate, nostalgic cinematic charm.",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-jk-freeze-shutter",
+      "category": "提示词",
+      "title": "同一段词考 GPT Image 和 Seedream：一千分之一秒快门冻住舞蹈",
+      "body": "公寓走廊里，穿水手服的女孩双手抬到腰侧做可爱停顿，裙褶和睫毛根根清楚——整张图零运动模糊，像高速快门把跳舞的瞬间钉在墙上。\n\nJohn（@johnAGI168）用同一段提示词对比 GPT Image 2.5 和 Seedream 5.0 Pro。词里不说「清晰一点」，而是写死完全锐利对焦、完全零运动模糊，并把五十毫米光圈二点二、一千分之一秒、感光度二百写进正文。动态姿势（身体摇、手掌张开）和静态清晰度被同时要求，模型才知道这是「冻帧」不是「糊成动感」。走廊门框消失线与顶灯也写死，两边才能公平对打，评论区也在比谁的裙褶更利落。\n\n所以呢：想要冻帧写真，把快门速度和「禁止运动模糊」写进提示词，比只说「高清」更能打中。",
+      "links": [
+        {
+          "label": "X 对比帖",
+          "url": "https://x.com/johnAGI168/status/2108228677561426262"
+        }
+      ],
+      "prompt": "Medium full shot, eye-level dynamic freeze-frame portrait of a lively early-20s East Asian young woman dancing inside a modern apartment hallway. Razor-sharp focus throughout with completely zero motion blur, capturing a crisp, frozen moment of movement: her body sways playfully mid-dance, and both hands are raised open-palmed beside her waist in a cute choreography pause. She smiles warmly at the camera with an open, cheerful smile showing neat upper teeth.\n\nHer face is clear and radiantly detailed: a delicate V-line jaw, porcelain skin texture, bright dark-brown almond eyes with natural aegyo-sal and soft eyeliner, and glossy coral-pink lips parted in an energetic grin. Her warm chestnut-brown hair has light, airy see-through fringe bangs across the forehead, with loose, wavy side locks flowing down over her shoulders and framed by a soft half-tied style at the crown.\n\nShe is dressed in a classic Japanese anime-style sailor uniform (JK seifuku): a fitted cream-white short-sleeve sailor blouse featuring a deep navy-blue flap collar with two crisp white parallel border stripes, accented at the chest by a tied crimson-red ribbon scarf with cascading ends. Below, she wears a matching high-waisted navy-blue pleated flared mini skirt with sharp folds, paired with sheer black thigh-high stockings featuring defined bands on the upper thighs. A thin gold chain bracelet shines on her right wrist.\n\nThe setting is a clean, contemporary residential corridor: smooth light-beige walls, interior doorframes on both sides creating architectural vanishing lines, and a warm ceiling recessed downlight casting a soft overhead glow.\n\nIlluminated by warm, even hallway ambient light, calibrated with high-speed shutter mechanics for total edge clarity and zero blur. Shot on a 50mm f/2.2 prime lens at an ultra-fast 1/1000s shutter speed, ISO 200, resolving pin-sharp eyelash definition, crisp fabric stitching, crisp pleated skirt edges, and lifelike skin pores.",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-xingor-dialogue-camera-four",
+      "category": "提示词",
+      "title": "东北猫两口子吵前对象：正反拍、荷兰角、跳切、急推四句就能用",
+      "body": "行歌（@xingor_dev）用 Seedance 拍东北猫夫妻：朋友圈点赞扯出前对象，结果前对象是闺蜜翠花。他不丢整场剧本，而是把对话戏拆成四条可复制的运镜句。\n\n正反拍要先写清谁坐左谁坐右；荷兰角写成「向一侧倾斜约二十度」比只写「倾斜」稳；跳切要每一下标明角色在哪；急推手机屏幕时用过肩镜并写清屏幕朝向角色。每条都是「原理一句加提示词一句加关键一句」，像便签而不是论文。和早前「时间魔法」五条定格包是同一作者的对话篇，专治两人吵架戏机位乱跑。会上跟朋友复述时，你可以说：吵架戏先把座位左右钉死。\n\n所以呢：对话戏别让 AI 自己找机位，先把左右关系和角度数字写死，再往里填台词。",
+      "links": [
+        {
+          "label": "X 教程成片",
+          "url": "https://x.com/xingor_dev/status/2108154674323083688"
+        }
+      ],
+      "prompt": "【Seedance 对话运镜提示词包｜行歌 @xingor_dev】\n\n1/ 正反拍🔁\n原理：两人对话，镜头轮流切近景\n提示词：两人对话时轮流切换近景，你一句我一句\n关键：先写清楚谁坐左边、谁坐右边，切来切去才不会乱\n\n2/ 荷兰角📐\n原理：画面一歪，情绪就紧张了\n提示词：画面向一侧倾斜约20度，制造紧张和冲突感\n关键：写具体角度「约20度」，比只写「倾斜」稳\n\n3/ 跳切✂️\n原理：机位不动，时间往前跳\n提示词：机位固定不动，画面连续跳切，人物位置突变，表现时间流逝\n关键：每一下都写清楚角色在哪，AI才知道怎么跳\n\n4/ 急推💥\n原理：镜头猛推到脸上，放大反应\n提示词：镜头猛地推到两张脸的特写，放大震惊表情\n关键：拍手机屏幕用过肩镜头，屏幕朝向角色，朝向才不会错",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-xingor-time-fx-five",
+      "category": "提示词",
+      "title": "定格、子弹、倒放、眩晕变焦、升格：五句时间特效提示词便签",
+      "body": "媳妇猫喊一嗓「定格」，老公连人带花瓶停在半空——行歌（@xingor_dev）用 Seedance 做完这条三十秒教程后，把五种时间特效收成评论区便签。\n\n定格要写「飞到最高点那一瞬间悬停」；子弹时间加「前景水珠形成视差」；倒放翻车就正着生成再剪辑倒放；眩晕变焦是「主体大小不变、背景急速后拉」；升格慢动作推到脸部大特写看肉颤。每条都是原理加一句可复制提示词加一条避坑，比整段剧情提示词更好拆进自己的分镜。近期虽有「整条街定格」叙事片，但这包是可挪用的技巧词典，不是同一条故事。\n\n所以呢：时间特效别指望模型懂电影术语，把停在哪一秒、什么当前景视差写成白话指令。",
+      "links": [
+        {
+          "label": "X 教程成片",
+          "url": "https://x.com/xingor_dev/status/2107674332491296965"
+        }
+      ],
+      "prompt": "【Seedance 时间特效运镜提示词包｜行歌 @xingor_dev】\n\n1/ 定格⏸️\n原理：时间停住，东西悬在半空，人保持动作不动\n提示词：【物体】飞到最高点瞬间悬停半空，水珠和花瓣凝固在空中，角色保持动作不动\n关键：一定要写「最高点那一瞬间」，不然AI不知道啥时候停\n\n2/ 子弹时间🔄\n原理：时间不动，机位绕着转\n提示词：时间静止，镜头环绕主体半圈，前景水珠形成视差\n关键：加点水珠、花瓣当前景，转起来才有立体感\n\n3/ 倒放⏪\n原理：时间线往回倒\n提示词：画面倒放，【物体】倒飞回原位，角色倒退回原位\n关键：AI倒放容易翻车，不行就正着生成，剪辑里倒过来\n\n4/ 眩晕变焦🌀\n原理：人大小不变，背景往后撤，制造眩晕感\n提示词：先推到脸部近景，主体大小不变，背景急速向后拉远\n关键：先推近再变焦，效果最明显\n\n5/ 升格慢动作🐢\n原理：动作放慢，细节放大\n提示词：动作放慢，镜头推到脸部大特写，脸上的肉颤动清晰可见\n关键：慢动作配特写，胖脸上的肉直颤悠",
+      "date": "2026-10-07",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-mj-sref-2150765035-dark-red",
+      "category": "提示词",
+      "title": "一串 sref 数字锁住漆黑深红：乳胶光泽加红色光残像",
+      "body": "SREF CLUB（@SREFCLUB）甩出风格码 --sref 2150765035：黑革与乳胶的硬质湿润高光、像慢门拖出的红色光残像和激光、几何头饰或赛博犄角，配色钉在漆黑对深红。\n\n用法极短——你的主题词后面接画幅三比四、个人化参数和这串 sref，例词只写女人、赛博朋克、奇幻也能出统一气质。它把「一种画风」收成可转发的数字，而不是每次重写材质段落。作者提醒 Niji 旅程上特性可能不同，换模型要重测一两次再收藏进自己的风格本。你会跟朋友说：追风格先存码，再换主题；同一串码也能拿去试海报和角色设定，看哪一类最稳。\n\n所以呢：Midjourney 追风格时，先收藏靠谱 sref，再往前面换主题词，比从头堆材质形容词快得多。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/SREFCLUB/status/2108213160771731832"
+        }
+      ],
+      "prompt": "【SREF Code】\n--sref 2150765035\n\n【Prompt】\n[Your prompt] --ar 3:4 --p --sref 2150765035\n例：Woman / Cyberpunk / Fantasy\n\n◆ 描写特性\n・ラテックスや黒革の硬質な濡れ光沢\n・スローシャッターのような赤い光の残像・レーザー\n・独創的な幾何学ヘッドドレスやサイバーホーン\n・漆黒×深紅のハイコントラストな配色\n\n※Nijijourneyでは特性が異なる可能性があります。",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-suno-acoustic-blues-campfire",
+      "category": "提示词",
+      "title": "Suno 风格词：烟嗓女声、指弹吉他、营火感——把「全乐队」从歌词提示里拿掉",
+      "body": "有人抱怨自己的布鲁斯成品还是太电声。Niko（@MindArchetypes）直接甩了一段可粘贴的风格提示词：懒散原声布鲁斯、烟嗓女声、指弹钢弦、轻滑音点缀、中速 shuffle，营火般亲密，手打节奏加刷片小鼓，乐句之间偶尔填原声布鲁斯过门，强调叙事和有灵魂的乐句。\n\n他额外叮嘱两句：歌词提示里删掉 full band，并在出现吉他的地方加上 acoustic。风格层和歌词层分开改，比整段重写更不容易把氛围拧歪。你会跟做音乐的朋友说：原声味要在风格框里先锁死乐器，歌词框只管故事别偷偷加鼓组，否则那一点营火感一下就散了。\n\n所以呢：Suno 出原声味，风格框写清乐器和场景，歌词框别偷偷塞进「全乐队」。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/MindArchetypes/status/2108382364690960704"
+        }
+      ],
+      "prompt": "Laid-back acoustic blues with smoky female vocals, fingerpicked acoustic steel-string guitar, subtle slide embellishments, and a relaxed midtempo shuffle groove, Intimate campfire feel, light hand percussion and brushed snare, occasional acoustic bluesy fills between vocal lines, emphasizing storytelling and soulful phrasing",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-claude-subagent-haiku-route",
+      "category": "提示词",
+      "title": "子代理默认按 Opus 计价：三行配置把它赶到 Haiku，账单差四十倍",
+      "body": "Claude Code 里派出去的子代理，不设模型就会继承主对话——主对话若是 Opus 5.5，每个翻文件的小帮手也按四美元百万输入、二十美元百万输出计。Haiku 5.5 在十万 token 以下是零点一和零点五，差距大约四十倍。\n\nRobert Youssef（@rryssf）给出可复制的路由写法：单个代理在 agents 目录的 frontmatter 加 model: haiku；全局用环境变量指定子代理模型为 haiku；连内置 Explore 也要强制时再加强制开关。他还提醒去子代理 transcript 里看第一条助手消息确认真实模型，并点名部分版本会无视 frontmatter 里的 haiku 设定。你会跟天天开代理的朋友说：先改配置，再谈省钱，别等账单吓一跳；并行子代理越多，这条路由越值钱。\n\n所以呢：长跑代理省钱，先把「谁用便宜模型」写进配置，别等账单出来再猜。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/rryssf/status/2107922911562809558"
+        }
+      ],
+      "prompt": "# Route Claude Code subagents to Haiku 5.5 (40x cheaper than Opus default)\n\n→ one agent: add model: haiku to the frontmatter of .claude/agents/<name>.md\n→ every agent: set CLAUDE_CODE_SUBAGENT_MODEL=haiku\n→ Explore included: also set CLAUDE_CODE_SUBAGENT_MODEL_FORCE=1 (v2.1.257 or later)\n→ the haiku alias only means 5.5 on current builds; pin a full id if you need a specific snapshot\n\n# Example agent frontmatter\n---\nname: explore-cheap\ndescription: Fast file/search helper\nmodel: haiku\n---\n\n# Verify: open any transcript under ~/.claude/projects/.../subagents/\n# The first assistant message records which model actually ran.\n# Note: some builds 2.1.283–2.1.290 ignored model: haiku in frontmatter (issue 100082).",
+      "date": "2026-10-07",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "demoscene-recomp-browser",
+      "category": "视觉尝试",
+      "title": "一九九二年的演示程序，在浏览器里按原指令一帧帧跑起来",
+      "body": "打开 treylorswift 的 demoscene-recomp，先点 Future Crew 的《Unreal》或《Second Reality》。画面不是重新画过的致敬版，而是一九九二、九三年那些 DOS 演示程序，在浏览器里按原来的机器码一路跑完。作者先把演示放进 x86 模拟器，录下 CPU 实际执行过的每一段代码；再把这段录音逐条翻成 C，连时钟周期都对齐；最后编译成 WebAssembly，旁边再搭上计时器、VGA 显卡和声霸卡的软件模型。效果对照过模拟器：每一次中断、端口访问和出帧，都落在同一个模拟时刻。站上还有 Triton 的 Crystal Dream 2、NoooN 的 Stars。你可以跳到演示自己的段落起点，开 CRT 扫描线，或全屏成当年的四比三显示器；原版发布文件原样提供，程序运行时自己去读。Hacker News 上一百五十多个赞。所以呢：怀旧别只会贴 GIF——让观众亲眼看见，老程序在新浏览器里仍按自己的节拍呼吸。",
+      "links": [
+        {
+          "label": "在线播放",
+          "url": "https://treylorswift.github.io/demoscene-recomp/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/treylorswift/demoscene-recomp"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50002426"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "hangul-handwriting-stroke-rnn",
+      "category": "视觉尝试",
+      "title": "韩文节这天，浏览器里一支「笔」开始一笔一画写韩文",
+      "body": "十月九日是韩国的韩文节。Jonathan Baudanza 在 hangul.ink 上放了一个会写字的小模型：你输入韩文，或点「你好」「今天天气真好」，画布上就出现一笔一画的笔迹动画，线条还会随压力变粗变细。它不画像素图，而是输出一串笔触——每个点有横纵坐标、压力，以及抬笔落笔。模型大约三十五万参数，整段跑在浏览器里，不上传服务器；架构改自 Alex Graves 二〇一三年那篇用手写笔迹训练循环网络的论文，专门为韩文改过。训练数据约四千五百行，全是一位写手用 Neo Smartpen 在真纸上写的，作者说目前公开可用的韩文笔迹生成模型，这是他见过的第一个。生成结果还能下载成会动的 SVG。所以呢：别只让 AI「画出像字的图」——让它学会一支笔怎么走路，观众一眼就懂生成的差别。",
+      "links": [
+        {
+          "label": "在线试写",
+          "url": "https://hangul.ink/blog/hangul-day"
+        },
+        {
+          "label": "训练数据 Hugging Face",
+          "url": "https://huggingface.co/datasets/jbaudanza/korean-handwriting-strokes"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50015833"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "quake-srp-safe-rust-browser",
+      "category": "视觉尝试",
+      "title": "《雷神之锤》搬进浏览器：全程安全 Rust，连 unsafe 都不许用",
+      "body": "打开 quake-srp.pages.dev，Shareware 第一集直接能玩。作者把一九九六年 id Software 的 WinQuake 从 C 搬到 Rust，规矩写死三条：零外部依赖、禁止 unsafe、关掉所有额外选项时必须和 id 自己的 C 对得上。对账很狠：三维画面逐像素、状态栏、混音器按采样、演示回放逐帧比摄像机和怪物位置；开放差异写在 AUDIT.md。默认还有一套叫 slop 的现代预设——窗口多大就渲多大，不再锁七十二帧，但仍是八点软件渲染、id 那套调色板。浏览器里跑的是 WASI 程序塞进 Web Worker；仓库还附六分钟短片讲怎么做。代码主要由 Claude Code 的代理舰队按分支写，主席代理只在全套检查通过后才合并。Chromium、Firefox 和安卓 Chrome 测过。所以呢：讲「AI 写系统级移植」时，别只晒能跑——让观众看见三条铁规矩，和逐像素对账的狠劲。",
+      "links": [
+        {
+          "label": "浏览器试玩",
+          "url": "https://quake-srp.pages.dev/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/terrapapagalli1516/quake-srp"
+        },
+        {
+          "label": "六分钟讲解片",
+          "url": "https://youtu.be/8TvVMzyxACc"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50016312"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "turun-kelingking-postcard-scroll",
+      "category": "视觉尝试",
+      "title": "明信片上的悬崖不是照片：一滚，你就站进巴厘岛的克灵金海滩",
+      "body": "Samnang Aing 发了一张「明信片」。正面看着像普通风景卡，其实卡面上嵌着一个缩小的 three.js 场景——巴厘岛努沙彭尼达的克灵金海滩。往下滚，画面从邮票大小胀开，你从观景台护栏一路跟着四百级台阶往下走：清晨六点十分在栏杆边喝咖啡，再沿之字形土路降到沙滩，傍晚五点四十坐小船绕岬角离开。页面写成旅行社口吻：六人一团、向导领路、两百四十美元一位，四月到十月开团。真实项目在 GitHub 的 kelingking 仓库，作者说大多数人只在护栏拍照就回去，他想用滚动把「再往下一百五十米」那一段讲完。所以呢：做目的地内容时，别只贴静图——让观众用手指滚进现场，比口号更打动人。",
+      "links": [
+        {
+          "label": "明信片体验",
+          "url": "https://sam1983aing.github.io/turun/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/Sam1983Aing/kelingking"
+        },
+        {
+          "label": "作者推文",
+          "url": "https://x.com/SammmAing/status/2108408630949097888"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "neon-led-filament-tshirt",
+      "category": "视觉尝试",
+      "title": "公司办霓虹主题派对，他几天缝出一件会闪的「霓虹」T 恤",
+      "body": "Scott Bezek 箱子里躺了好几年柔性 LED 灯丝，直径大约一点八毫米，摸起来像会发光的熟面条。公司突然办霓虹主题活动，只剩不到一周，他就动手了。灯丝不能剪短，正负极固定，于是先在 Inkscape 里画一条连续路径，用测长工具缩放到刚好吃下一整根。背面一头羊驼用一根一千二百毫米的二十四伏红灯丝；正面花体字用三段三百毫米灯丝焊成串，字母之间用黑色热缩管「涂黑」假装断开，像真霓虹招牌的遮挡漆。底下垫十字绣布定型，用电烙铁把漆包线穿到衣里，再接到 ESP32 和升压模块，用 PWM 做出霓虹灯那种微微闪烁。活动当晚同事围着看，衣服当然不能洗。Hacker News 一百四十多个赞。所以呢：讲「把零件箱变作品」时，带观众走完测长、缝线、骗电压这几步，比成品照更有戏。",
+      "links": [
+        {
+          "label": "制作长文",
+          "url": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50008047"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "leafle-libraries-walk-isochrone",
+      "category": "视觉尝试",
+      "title": "你家走路三十分钟，能摸到几家公共图书馆？地图给你涂色",
+      "body": "leafle 网站有一页叫「Libraries on foot」。打开不是画个圆圈估距离，而是按真实街道和步道算五分钟、十分钟、三十分钟步行等时圈。数据来自 OpenStreetMap 上的公共图书馆，再加上墨西哥、阿根廷、西开普和麦德林的正式名录；在中国 OSM 覆盖不足的地方，又补了国家公共文化平台和浙江省级清单。世界被切成大约零点一平方公里的六边形格子，每条步行圈按它盖住格子的真实比例往上加分，所以不是「圆里全算一家」。图例可以切到人均、热力、人口。作者想回答一个很土的问题：你身边到底有多少本书，是走几步就能借到的。所以呢：讲「城市生活便利」别甩平均距离——让读者在自己坐标上数一数，走路能进几家图书馆。",
+      "links": [
+        {
+          "label": "步行图书馆地图",
+          "url": "https://leafle.org/on-foot"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50011193"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "nobel-2026-explained-six-ways",
+      "category": "视觉尝试",
+      "title": "二〇二六诺贝尔奖：同一发现，写成给六种读者看的解说页",
+      "body": "Swapnil Tamse 做了个站点：Nobel 2026, Explained。十月五号到十二号，奖项一个个揭晓，他给每个奖准备同一套骨架——先用白话讲清「到底发现了什么」，再切成六种读者版本，并附上你可以转述给别人的短脚本。页面里有小示意：神经细胞膜上离子冲进来让细胞放电、南极冰里一立方公里的中微子探测器、分子镜像对不上的手性反应。到十月八日，医药、物理、化学、文学四科已经上线，和平奖与经济奖按日程跟进；页面还标了「六科里已解释四科」。作者把修订公开成 fix log，读者能看见哪句被改过。字号可调，适合随手转发给非专业朋友。所以呢：硬新闻落地时，别只转发公报——做成「六种人都能讲出口」的互动页，转发率往往更高。",
+      "links": [
+        {
+          "label": "诺奖解说站",
+          "url": "https://nobelprize.swapniltamse.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50007697"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "weather-ribbon-climate-charts",
+      "category": "视觉尝试",
+      "title": "嫌气候站广告太多：他做了个无广告的全年天气色带站",
+      "body": "micjm 常刷那些「一年气候一图看懂」的网站，结果页面被展示广告挤满，读着心烦。他干脆自己做了 Weather Ribbon，开源，在线地址 weatherribbon.com。每个城市页用一九九一到二〇二〇的三十年气候常态，画出气温、降水、降雪、湿度、云量、风和日照，再配上近期空气质量；图表是静态 SVG，打开页面不请求实时气候接口，所以也不会被第三方脚本拖慢。温度等数据来自 NASA POWER 的 MERRA-2，空气质量走 Open-Meteo 的 CAMS。数据预先抓进仓库的 data 目录，整站可以纯静态部署，欢迎别人提城市补丁。旧金山等城市已经能点开看色带缩略图。作者说整站用本地代理对决工具 Agent Duel 辅助写成。所以呢：做数据可视化产品时，先把广告和跟踪卸干净——读者会为「清爽」留下来。",
+      "links": [
+        {
+          "label": "旧金山示例",
+          "url": "https://weatherribbon.com/city/san-francisco"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/micjm/WeatherRibbon"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50012818"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "wordminos-crossword-dominos",
+      "category": "视觉尝试",
+      "title": "十二天做出一款日更字谜：十字填字遇上多米诺骨牌",
+      "body": "有人在 Hacker News 上说：Wordminos 的基础玩法一小时就成形，剩下十一天全花在打磨手感、动效和角色上——他说自己总共只花了十二天。打开 wordminos.com，玩的是十字填字和多米诺的混血：骨牌式的拼接逻辑，配上每日一题，还有谜题包和编辑器。站点公开了制作时间线，能看见从原型到上线的每一刀修改。作者特意写了一句：在生成式工具到处都是的时候，品味仍然管用。英语之外还有法语、西班牙语、俄语包，进度可以重置。它不卖模型，也不讲融资，就是一款愿意在「汁液感」上多待十一天的小游戏。所以呢：讲「AI 时代还要不要打磨」时，用这款十二天小游戏当例子——机制便宜，味道昂贵。",
+      "links": [
+        {
+          "label": "开始玩",
+          "url": "https://wordminos.com/play-en.html"
+        },
+        {
+          "label": "制作时间线",
+          "url": "https://wordminos.com/making-of/timeline.html"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50005276"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "paw-paw-mac-desktop-pet",
+      "category": "视觉尝试",
+      "title": "Mac 角落蹲一只小动物：你打字它跟着动，停手它就打瞌睡",
+      "body": "Product Hunt 十月八日榜单第十附近出现 Paw-Paw：一款免费的 macOS 桌面宠物。一只小小的插画动物趴在屏幕角落，你打字、点鼠标它会跟着反应，停久了就打盹；点一下还能听它说一句，打字太猛会进入「着火」状态并加速经验。按季节升级、解锁角色和一百多件小道具，系统要求 macOS 十三及以上，不用注册，也没有广告。可选付费插件只要两美元九毛九。官网有中文、日文、韩文页，开发商写的是 Daystrom OÜ，最新版本号写到零点二点三，还开了 Reddit 社区 r/PawPawPet。对整天盯终端写代码的人来说，它几乎不做生产力，只做一点陪伴。所以呢：讲「工具疲劳」时，不妨介绍一个几乎没用、却让人愿意留在电脑前的小东西。",
+      "links": [
+        {
+          "label": "官网下载",
+          "url": "https://paw-paw.pet/"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/paw-paw"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "human-nutrition-eu-body-label",
+      "category": "视觉尝试",
+      "title": "把自己做成欧盟食品标签：身高体重一填，营养成分表就印出来",
+      "body": "Anish Sheela 做了个玩笑页：Human Nutrition Facts。页面长得像德国或欧盟超市里那种食品包装打样——黄底印刷色、青品黄黑四色角标、营养成分表、营养分色块，连未印刷的灰板底色都模拟出来了。你填身高厘米、体重公斤，它就按「智人 Homo sapiens」给你生成一份身体营养标签，看起来像刚从印刷厂打样出来的包装纸。站点元描述写得很白：只是好玩，绝不鼓励任何人真去「食用」。英文和德文可切换。它没有融资故事，也没有模型榜单，就是把熟悉的包装语言扣在人身上，让人愣一下，再笑一下。所以呢：做科普或健康话题时，借用大家天天在超市见过的标签格式，比干巴巴的数字表更容易进脑海。",
+      "links": [
+        {
+          "label": "人体营养标签",
+          "url": "https://human-nutrition.anishsheela.com"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50013022"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "rembrandt-local-lightroom-ai",
+      "category": "小众工具",
+      "title": "不想再给 Adobe 续费：本地免费修图，说「阴影加二十五」滑杆自己动",
+      "body": "Rembrandt 在 GitHub 上亮相时，口号很冲：别再给 Adobe 付钱。它是 macOS、Windows、Linux 都能装的免费照片编辑器，不要账号、不要订阅。日常修 RAW、蒙版、预设、镜头校正、HDR 和接片都有；特别之处是设备端小词表——你按 Ctrl 或 Command 加 K，输入「金色时刻，阴影加二十五」，一只点阵小人会思考，然后看着滑杆自己挪到对应位置，并不调用云端大模型。还能在画面上直接拖：上下改明暗，左右改颜色。超分辨率两倍四倍、AI 降噪、主体与深度蒙版都在本地 GPU 跑。也可以把装照片的那台电脑开成服务器，浏览器远程修，改动写成 XMP，原图不动。和 Lightroom 比，印刷册、地图模块还没有；和 darktable 比，模块更少但上手更快。所以呢：劝人「逃离订阅修图」时，演示一句人话带动滑杆，比功能清单更有说服力。",
+      "links": [
+        {
+          "label": "GitHub 与下载",
+          "url": "https://github.com/thesnarkitecht/rembrandt"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50012199"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "k10s-clickable-kubernetes-tui",
+      "category": "小众工具",
+      "title": "K8s 终端也能点：k10s 把动作清单摊开，还能问懂集群的 AI",
+      "body": "运维一天要开几十次集群面板，最怕两件事：启动慢，和快捷键记不住。k10s 用 Go 和 Bubble Tea 做了个可点击的 Kubernetes 终端界面：选中一个 Pod，右侧动作窗把「能对它做什么」列出来，鼠标点或按旁边字母都行；Ctrl+P 一个搜索框同时找资源种类和具体对象。启动时不预先挂一堆监听，用到某类资源才懒加载，所以打开很快。作者还内置了已经知道你当前命名空间和选中对象的 AI 助手。官方提供无需真集群的 demo 后端，文档里的截图全是真终端录出来的，从来不用手绘假图。许可证 Apache 二点零，单文件分发，支持 macOS、Linux、Windows。Hacker News 六十多个赞。所以呢：别再让新人背 k9s 键位——先给他一个能点的终端，救火时少骂一句。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/p10node/k10s"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50009904"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "wirepane-claude-https-proxy",
+      "category": "小众工具",
+      "title": "抓包工具搬进 Claude Code：手机返回四百零二，直接问旁边的代理",
+      "body": "以前排查「浏览器正常、手机支付却四百零二」，得把 Charles 或 Proxyman 的请求复制进聊天框，来回粘贴还容易漏字段。Wirepane 把 HTTPS 调试代理做成 Claude Code 的模组：解密 HTTP/1.1、HTTP/2、gRPC、WebSocket 和服务器推送，流量出现在对话旁的面板里，同时通过十六个工具让 Claude 自己读。你可以口述：等我点登录，看 App 发了什么；让信息流变慢三秒并五次失败一次；给价格套接字回一个定时心跳的假数据。证书没装、钉扎、VPN 抢代理这类障碍，内置 doctor 会点名并尝试修好。支持桌面浏览器、iOS 模拟器与真机、Android 模拟器与真机。MIT 许可，定位是写进编码代理里的抓包层。所以呢：别再当人肉搬运请求——让编码代理直接看得见网络，修前端和客户端会快一截。",
+      "links": [
+        {
+          "label": "项目说明页",
+          "url": "https://legostin.github.io/wirepane/"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/legostin/wirepane"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50010977"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "wy-ai-code-evidence-tui",
+      "category": "小众工具",
+      "title": "Git 只告诉你改了什么：wy 把代理当时怎么想的证据摊开",
+      "body": "代理给项目加了缓存，diff 看得见，可「为什么需要、数据一变会怎样」往往埋在 Codex 或 Claude Code 的会话日志里。wy 是一个 Rust 写的终端审阅工具：打开仓库后，它自动对齐当前改动和匹配的代理历史。上下键选文件，左侧看 diff，右侧看代理留下的理由；按 e 可以请求补充解释，按 s 打开引用来源，按 i 追问。默认离线浏览改动与笔记，只有你要求解释时才调用本机已登录的 CLI；默认答主是 Codex，输入斜杠 agent claude 可切换。作者说它特别适合你不熟、却主要靠代理改的代码库——证据和代码并排，判断力才回得来。用 cargo 从 GitHub 安装，需要 Rust 一点八八以上。所以呢：代码评审别再只盯红绿行——把「代理当时怎么说服自己」一并摊开。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/grandimam/wy"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50016298"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "openseo-mcp-agent-seo",
+      "category": "小众工具",
+      "title": "开源版「SEM 工具箱」接上 MCP：让代理自己查词、扒外链、看 AI 引用",
+      "body": "十月八日 Product Hunt 上，OpenSEO 主打「给代理用的 SEO 数据」，当天社区分超过三百分。仓库 every-app/open-seo 星标超过两万两千，定位是 Semrush、Ahrefs 的开源替代：关键词研究、排名跟踪、域名概览、外链、站点审计都有，还新加了 AI Visibility——研究提示词在各模型里的回答，并跟踪品牌被谁引用、被谁提到。关键差别是 MCP：你可以把 OpenSEO 接到 Claude、Codex 这类客户端，让代理直接拉搜索控制台和关键词数据写策略，而不是你先导出表格再粘贴。官网还提供策略资料库和 Skills，起价大约每月十美元档，也支持自托管。对内容创作者来说，这意味着调研和起草可以落在同一条代理链里。所以呢：别再让写作代理「凭感觉做 SEO」——先给它接上能查真数据的工具箱。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://openseo.so"
+        },
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/every-app/open-seo"
+        },
+        {
+          "label": "Product Hunt",
+          "url": "https://www.producthunt.com/products/openseo"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "lifeos-selfhosted-mcp-dashboard",
+      "category": "小众工具",
+      "title": "待办、习惯、账本拆在五个 App 里？Life OS 收成一块，还给 AI 二十六把钥匙",
+      "body": "Edi Life OS 把专注计时、习惯打卡、目标、花钱和项目看板收进同一个自托管面板，跑在 PHP 加 MySQL 上，便宜共享主机也能撑。十个工作区共用登录和数据库：习惯会推目标进度，看板卡片出现在日历里，总览合成一个每日分数，成长页还按六个生活维度看 SMART 目标；专注页甚至带风景和配乐。真正打差异的是自带 MCP 服务器，暴露二十六工具——Claude Desktop 或 Claude Code 可以读仪表盘、帮你订目标、记习惯、记账。MCP 只走带令牌的 HTTP API，不直接碰数据库，也不托管到公网端点。Docker Compose 一键起，MIT 许可。作者在 Hacker News 上强调：数据留在自己的机器里，没有订阅追踪。所以呢：人生操作系统不必上云——先把碎片 App 收拢，再把钥匙慎重交给代理。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/edrisranjbar/lifeos"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50014150"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "screenci-agent-tutorial-videos",
+      "category": "小众工具",
+      "title": "产品教程片过期就红灯：让编码代理在你电脑上重录一遍",
+      "body": "Olli 和朋友 Patrik 做了 ScreenCI，解决一个老痛点：帮助中心的操作视频总跟不上界面改版，有人甚至不敢改 UI，怕手工重录要花掉一下午。用法是：描述这段视频要演示什么，可选填线上地址，把提示词贴进 Claude Code、Codex、Cursor 或同类能跑命令的代理；它在你自己的机器上打开真实应用，边操作边录旁白，导出可放进文档、社媒或产品里。更狠的一层是 CI——每次发版按同一脚本重录，画面和预期对不上就当端到端测试失败。免费可试，不必先注册；作者建议用思维负担低的快模型，因为代理主要是在跑录制流程而不是长思考。所以呢：教程别再当「拍完就扔的素材」——让它跟测试一样，跟版本绑死。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://screenci.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50005124"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "trainedon-ai-prompt-fine-print",
+      "category": "小众工具",
+      "title": "这句提示词会不会拿去训练？一千多版隐私条款，压成一张对照表",
+      "body": "trainedon.me 只回答一个问题：这家 AI 会不会用你的提示词去训练模型？作者把 ChatGPT、Claude、Copilot、Cursor、Grok、DeepSeek、Windsurf、Perplexity、Jasper、Mistral Le Chat 等产品的条款原文摘出来，标明免费档和商业档差别、默认是否拿来训练、能否一键退出，以及「自某日以来有案可查」。页面下方还有变更时间线——说一千多份存档，真正改过措辞的只有几十次。例如个人版 ChatGPT 默认可能训练、可退出；商业版默认不训练；Cursor 写明未经明确同意不拿内容训练；Windsurf 免费档写着用数据训练且未写退出。抓取日期贴近十月八日，表格旁能看到「上次见到」的时间戳，方便核对条款是不是已经过期。所以呢：别靠记忆猜隐私——截这张表问观众：你正在用的那一档，默认站哪边？",
+      "links": [
+        {
+          "label": "对照表网站",
+          "url": "https://trainedon.me/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50016459"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "viberuler-tokens-per-dollar",
+      "category": "小众工具",
+      "title": "一行 npx，算出你的「氛围编程」成绩单：每美元烧出多少 token",
+      "body": "viberuler 自称给 vibe coder 的尺子。终端里敲 npx viberuler，它只在本地扫 Claude Code、Codex 会话日志，几秒吐出成绩单：烧掉多少 token、折合多少美元、每美元换来多少 token、你自己提交的代码行数、机器生成却被你提交的噪音占比、连续提交天数、装了几个代理。作者把「每美元 token」当头条指标——谁都会烧，烧得值才算本事；行数也只算你自己提交的，生成物单独标成噪音，作者自己因此把虚高数字砍掉了百分之十七。可选提交到排行榜换一张证书，还有九比十六的故事卡方便发社交媒体；默认零网络。成就徽章包括 Token Billionaire、凌晨三点提交者之类。所以呢：别只晒「我今天又对话了一百轮」——用每美元产出把筹码换回真钱感。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/master5d/viberuler"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50009232"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
+    {
+      "id": "woodpecker-sidepanel-browser-agent",
+      "category": "小众工具",
+      "title": "浏览器侧栏住进啄木鸟：让人话代理帮你抽表格、清页面噪音",
+      "body": "oakery.io 上的 Woodpecker 是装进 Chrome 侧栏的早期浏览器代理。打开任意网页，用你选的模型下指令：把 eBay 结果收成硬币、成交价、运费、日期的表；或者跳过菜单和无限滚动，直接描述要找的东西。演示里它从四十八条列表抽出三条样本行，还能复制、导出 JSON、存进保险库。配套还有 Peck 组件，作者强调人在回路——自动化网页流程，必要时代你调用 API 和数据，并为此付费；HN 上也提到可接 Jev 做 Discord 消息分类。安装是解压后在 chrome://extensions 开发者模式里加载两个未打包目录，体积大约一点九兆，版本号写着 Woodpecker 零点零点一二四。适合天天在网页里复制粘贴的人。所以呢：别让代理只会聊天——把它钉在侧栏，对着你正在看的页面动手。",
+      "links": [
+        {
+          "label": "官网",
+          "url": "https://oakery.io/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50016052"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-09T15:10:00+08:00"
+    },
     {
       "id": "openai-math-sign-error-withdraw3",
       "category": "硬科技",
