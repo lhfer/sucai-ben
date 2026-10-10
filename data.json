@@ -1,5 +1,382 @@
 [
   {
+    "id": "warren-senate-dc-not-fair-share",
+    "category": "痛点",
+    "title": "参议员沃伦甩出二十七页报告：七家机房巨头说「我们付了全款」，其实电网升级还想让居民分摊；保密协议继续签，税优继续要",
+    "body": "十月九日，华盛顿。参议员沃伦、范霍伦、布卢门撒尔把近一年调查写成二十七页报告，点名亚马逊、谷歌、Meta、微软和三家机房运营商。\n\n报告里最扎心的一句：公司嘴上喊「愿付全部电费」，私下说的「全部」只是专供自己的那截电线；电网为机房扩容的「没有它就不必建」的成本，它们反对按「但因」原则全算自己头上，要跟居民一起摊。七家都不肯答应「谁触发谁买单」。\n\n四家科技巨头还常跟水电公司、地主、有时连官员签保密协议。Meta说保密能「提速」——报告解读：等于把邻居排除在「利益相关方」之外。税优方面，它们继续要芯片销售税减免，却拿不出机房建成后有多少全职岗位的硬账。\n\n所以呢：机房口号叫自付电费，账单细则里居民仍可能在替大厂修电网。",
+    "links": [
+      "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks",
+      "https://time.com/article/2026/10/08/senate-investigation-ai-data-centers/"
+    ],
+    "prompt": "",
+    "date": "2026-10-09",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "harlem-ga-google-pumpkin-24-7",
+    "category": "痛点",
+    "title": "佐治亚哈莱姆：谷歌Pumpkin Center机房工地申请全天施工，邻居吉多说搬来乡下图安静，万圣节孩子们出门会听见这个",
+    "body": "十月八日，佐治亚哈莱姆。邻居格雷戈里·吉多对着本地电视台说：我搬来乡下，是想安静带孩子；现在工地从周一凌晨五点半一直干到周六晚上七点，周末还做设备维护，中间几乎不停。\n\n那是谷歌的Pumpkin Center机房，占地三千多英亩。县里规定施工一般早上六点到晚上十一点；开发商八月十八日申请豁免，九月八日起二十四小时作业，十月八日又续了至少三十天。县发言人只说是「清场需要的活」，没解释为何必须通宵。\n\n吉多说，孩子要早起上学，上班族要睡觉，「二十四小时七天，保护在哪儿？」天气转凉，万圣节快到了，他担心孩子们出门讨糖时听见的就是这个轰鸣。他还提醒：机房楼还没立起来，噪音才刚开始。\n\n所以呢：机房还没开机，施工豁免已经先把「乡下安静」改成了全天候工地。",
+    "links": [
+      "https://www.wrdw.com/2026/10/08/residents-raise-concerns-over-noise-google-data-center-construction-pumpkin-center/"
+    ],
+    "prompt": "",
+    "date": "2026-10-08",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "annan-chapelcross-2000-objections",
+    "category": "痛点",
+    "title": "苏格兰安南：前核电站旁要建「世界最大」一千兆瓦机房，四天涌进两千多份反对意见，绿党说用电量顶两百多万户",
+    "body": "十月七日，苏格兰邓弗里斯-加洛韦。开发商CX Tech要在安南附近的Chapelcross旧核电站旁建一座一千兆瓦超大机房，自称能带来约五百个全职岗位，工期约八年，号称「一代人一次」的机会。\n\n苏格兰绿党却说：这可能是世界上最大的同类设施。他们开的反对入口四天就收到两千多份异议。议员穆迪警告，温室气体排放几乎是整个邓弗里斯-加洛韦限额的两倍；用电量相当于两百二十多万户苏格兰家庭。居民只有几周时间表态，而苏格兰政府的全国机房指引还没写完。\n\n政府九月否决了暂停新建机房的动议，只要求大项目做环评，并称圣诞节前大概率批不下来。BBC统计，苏格兰至少还有二十三座巨型机房在规划。\n\n所以呢：旧核电站旁的「未来」，先卡在两千多名邻居连夜点反对键。",
+    "links": [
+      "https://www.holyrood.com/news/view,more-than-2000-objections-to-plans-for-worlds-largest-data-centre",
+      "https://www.bbc.co.uk/news/articles/c6qxv55882z1o"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "princeton-nurseries-diesel-dep",
+    "category": "痛点",
+    "title": "普林斯顿市长写信给州环保局：隔壁南布伦瑞克苗圃机房要装十二台柴油备用机，别批这份空气许可——评论延到十一月九日",
+    "body": "十月七日，新泽西普林斯顿市长弗雷达和市议会联名给州环保局写信：请驳回南布伦瑞克一号公路旁、旧普林斯顿苗圃地上那座机房的空气许可。\n\n许可草稿写着十二台卡特彼勒柴油应急发电机，每台三千六百二十千瓦；环保局称健康风险「可忽略」，每年允许排放约十二点六五吨氮氧化物。市长说，发电机一开，废气会飘过市界，伤到居民区和两所小学。他们要求改太阳能、风电、地热加电池，不行再用天然气。\n\n州参议员格林斯坦说，自己查这个项目信息查了约一年才摸清——她因此推动禁止用保密协议捂住机房谈判的法案。公众评论延到十一月九日。\n\n所以呢：机房备电写成「次要污染源」，隔壁市长却把它当成吹进小学操场的烟。",
+    "links": [
+      "https://www.towntopics.com/2026/10/07/princeton-to-njdep-deny-data-center-permit/",
+      "https://www.dailyprincetonian.com/article/2026/10/princeton-news-town-backlash-princeton-nursuries-data-center-new-brunswick"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "anthropic-false-spend-limit-pause",
+    "category": "痛点",
+    "title": "十月七日：Anthropic花销上限检查出错，付了钱的公司也被当成「超支」冻结——API、网页、Claude Code一起拒单",
+    "body": "十月七日晚上，Anthropic状态页忽然跳出一条：部分组织被错误判定「已达花销上限」，请求被拒绝。受影响的不只API，还有Claude.ai、Claude Code、Claude Security、Claude Cowork——五个产品共用一个组织级月度上限，一刀切停。\n\n上限本身不神秘：入门档五百美元、Build档一千、Scale档二十万；触顶会返回HTTP 429，错误码写着强制花销上限。问题是，有的付钱客户根本没花到那个数，却被系统塞进「强制暂停」。公司只写「部分组织」，不说多少家、哪个区、哪档套餐，也没公布故障起止时间——只有「已修复」的时间戳，连影响窗口都懒得写。\n\n同月一日，平台还出过「买了积分迟迟不到账」的故障。九月起，部分拒答请求也开始计费。开发者论坛里，有人说代理半截卡住，工时白白烧掉。\n\n所以呢：你没超支，账单系统说你超了——代理停工时，对账的人还在猜自己到底欠不欠。",
+    "links": [
+      "https://mixed-news.com/en/anthropic-spend-limit-incorrectly-paused-organisations-october-7/"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "seville-ai-undress-gender-sentence",
+    "category": "痛点",
+    "title": "塞维利亚首例：三人用AI给昔日女同学「脱衣」传播，判九个月并禁社交软件近四年——法官加上性别加重情节",
+    "body": "十月九日，西班牙安达卢西亚高等法院通报塞维利亚刑事庭判决：三名年轻人从社交网络拿走昔日女同学照片，用AI改成「全身裸」的逼真假图，先在WhatsApp、Discord小群传，再扩散到外面。一名受害人是被别人转发后才看见自己的「裸体」。审判中三人当庭道歉。\n\n三人各判九个月监禁；因无前科暂不入狱，但近三年九个月不得使用Telegram、WhatsApp、Instagram、Discord，并须上性教育课。法官适用性别加重情节，写明这种行为把女性贬成「取乐工具」。受害人律师说，最难熬的是作恶者是同学，不是陌生人——信任被撕开的那一下更疼。\n\n专家提醒：禁令挡不住新注册小号，举证会更难。这是当地首例把「AI脱衣」写进带加重情节的有罪判决。\n\n所以呢：假裸照不是玩笑，西班牙法庭第一次认真给它定量刑。",
+    "links": [
+      "https://www.rtve.es/noticias/20261009/sentencia-pionera-condena-jovenes-desnudar-ia-excompaneras/17260891.shtml",
+      "https://www.diariodesevilla.es/juzgado_de_guardia/actualidad/primera-condena-sevilla-ia-simular-desnudos-companeras-colegio_0_2008185332.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-09",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "andover-nj-ban-suit-dismissed",
+    "category": "痛点",
+    "title": "新泽西安多弗镇：禁机房条例被宾州开发商告上法庭，不到九十天对方带偏见撤回——镇长说「我们听见了居民」",
+    "body": "十月二日，新泽西苏塞克斯县安多弗镇宣布：宾州开发商National Land Developers对全镇禁机房条例的诉讼，已带偏见撤回，不能再告。争议地块在Stickles Pond Road，开发商曾看中原牛顿机场一带约九十七英亩。\n\n故事绕了一圈。镇里曾改规划、加高限，给机房开过门；居民会吵到警察架人，镇长沃尔什说原本看中每年四五百万美元的替代税，后来觉得「拆散镇子」不值，五月全票禁掉机房。七月开发商起诉，称违州土地法、没有正当规划目的；八月镇里提驳回动议，对方收到后撤诉。\n\n副镇长说邻镇斯巴达为类似官司烧掉数十万美元，安多弗九十天内收场。同一原告的税案还让镇里多收十七万美元。委员贝恩斯利说：这等于关上了机房进镇的门。\n\n所以呢：小镇敢禁机房，也会被诉；这一回，开发商先撤了。",
+    "links": [
+      "https://wrnjradio.com/data-center-lawsuit-against-andover-township-dismissed/",
+      "https://www.syracuse.com/business/2026/10/njs-impossible-ai-data-center-choice-refuse-and-get-sued-or-give-in-and-face-fury.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "deverakonda-delhi-persona-ai",
+    "category": "痛点",
+    "title": "德里高院临时禁令护住维杰·德韦拉孔达：名字、脸、声线、深伪色情片都不能乱抠，平台七十二小时内下架",
+    "body": "十月十日，德里高院法官马哈詹签发临时禁令：保护宝莱坞演员维杰·德韦拉孔达的人格权。诉状说，假账号、仿冒主页、AI深伪——包括把他塞进淫秽场景的视频——以及盗用照片的周边和App，都在消费他的名字、脸、声音和造型。\n\n法院认定损害「真实且当下」，责令包括未知名侵权人在内的被告不得擅自利用其人格要素，覆盖生成式AI、机器学习、深伪和换脸。Meta、谷歌、X须下架点名内容；电商七十二小时内撤链接；域名注册商同期锁定违规站。法官写：明星对人格要素享有专有商业利用与防御权。\n\n「Rowdy」这一外号单独主张暂未获单方禁令，但法院写明：AI换脸再配上「Rowdy」仍算侵权。下次开庭排到二零二七年二月。\n\n所以呢：明星维权不是虚荣，是法院先把「用AI拿你做人设生意」按停。",
+    "links": [
+      "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-protects-actor-vijay-deverakondas-personality-rights-against-ai-deepfakes-obscene-content-554006"
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "ayr-nish-nurse-ai-struck",
+    "category": "痛点",
+    "title": "苏格兰艾尔精神健康护士用AI把儿童照片「脱衣」制黄，护理委员会十月二日除名：说不只是持有，是主动生成",
+    "body": "十月二日，英国护理与助产委员会听证会下令：前艾尔萨医院主管护士乔治·尼什从注册名单除名。他二零二五年十一月已因制作、持有儿童不雅影像获罪；二零二四年十月被控后曾写信说要退休、自愿除名，监管机构仍走正式程序。\n\n裁定书写得很重：他的行为严重偏离护士标准，与留在名册「根本不相容」。委员会特别指出，罪行不止于持有——还包括下载、复制儿童影像，再丢进AI生成裸体图。他们担心若仍保留资格，他可能接触儿童和脆弱人群，且重复作案表明再犯风险。\n\n尼什通过皇家护理学院表示认罪、悔过，并说不打算重返职业。除名生效前另有十八个月临时停职。\n\n所以呢：穿白大褂也不能豁免——用AI对儿童做假裸照，职业资格直接清零。",
+    "links": [
+      "https://www.independent.co.uk/news/uk/home-news/george-nish-nurse-ai-courts-b3062636.html",
+      "https://www.ayradvertiser.com/news/26617532.ayr-mental-health-nurse-struck-off-child-images-conviction/"
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "puente-alto-alicante-ia-nudes",
+    "category": "痛点",
+    "title": "智利普恩特阿尔托：女儿哭着打电话「同学用AI把我脱光了」；学校只停十五天，回来还在嘲笑，教育监察优先立案",
+    "body": "十月三日，智利媒体再访普恩特阿尔托Alicante del Sol学校。一位母亲回忆七月：女儿哭着打电话，「妈妈，出事了——我和同学被做成裸照，是AI」。照片来自Instagram日常自拍，四人团伙用工具改成假裸照再分发；同学在某手机相册里翻到，才知道已经在校园流传。\n\n学校给涉事学生停课十五天。家长说，复课后课间仍有嘲笑，有人恐慌发作，后来还打起来；一名涉事学生的父亲被指出面威胁。心理师加尔韦斯说，老强调「反正是假的」等于否定受害者感受。\n\n多位家长抱怨学校几乎不提供心理支持，结案电话才打来。教育监察机关已予最高优先级正式调查，要看学校有没有尽到保护义务。\n\n所以呢：像素是假的，羞耻是真的——停课两周解决不了被同学围观的恐惧。",
+    "links": [
+      "https://www.t13.cl/noticia/nacional/mama-paso-algo-grave-apoderados-denuncian-abuso-sexual-digital-contra-sus-hijas-3-10-2026",
+      "https://www.t13.cl/noticia/nacional/para-lo-unico-se-contactaron-conmigo-apoderada-cuestiona-contencion-alicante-de-3-10-2026"
+    ],
+    "prompt": "",
+    "date": "2026-10-03",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "vineland-dataone-1m-fine-banner",
+    "category": "痛点",
+    "title": "维兰机房新进展：州里开出一百零七万美元罚单——六十二台没证燃气机；飞机拉条幅「AI机房伤害社区」，微软被点名坏邻居",
+    "body": "十月六日，NJ.com长文回看维兰。八月底邻居还在抱怨轰鸣；九月二十二日，新泽西环保局对DataOne开出一百零七万美元罚单——州内机房史上最大——指它未批先开六十二台大型燃气发电机。公司说会交罚金、补许可，并转向燃料电池；微软称要求供应商守法，并协助过渡到长期电源。\n\n罚单前后，环保组织Stand.earth的飞机在镇上拉过横幅：「AI机房伤害社区」。他们盯着微软与运营商Nebius约一百七十四亿美元、五年算力合同，喊微软是「坏邻居」。居民蒙哥马利、真蒂莱还提了噪音集体诉讼；心理治疗师莱昂妮说床都在震，想卖房搬走。县里曾测到夜间噪声超过五十德贝上限。\n\n所以呢：上回无人机拍到没证发电机，这回州里开出天价罚单——合同在微软，烟在邻居院子里。",
+    "links": [
+      "https://www.syracuse.com/business/2026/10/njs-impossible-ai-data-center-choice-refuse-and-get-sued-or-give-in-and-face-fury.html",
+      "https://newjerseymonitor.com/2026/10/01/nj-data-center-polluted-air-for-nearly-a-year-before-regulators-intervened/"
+    ],
+    "prompt": "",
+    "date": "2026-09-22",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "ms-meta-cut-claude-internal",
+    "category": "痛点",
+    "title": "《信息报》十月五日：微软内部Anthropic开支砍掉三分之一以上，Meta把Claude Code用户从约六万砍到约三万——都改推自家工具",
+    "body": "十月五日，《信息报》一则猛料被多家转述：微软今年内部用Anthropic技术——Claude Code、Copilot里的Claude、Claude Mythos——原计划至少十亿美元，现已砍掉三分之一以上。发言人说正把人导向GitHub Copilot，工程师仍可选别的模型。Meta一侧，Claude Code用户从年初约六万降至约三万，改推Muse Code和内部MetaCode；Meta未置评。\n\n这不是客户在Azure、Bedrock上买Claude的账，是巨头自己员工席位和代币账单。早前报道里，单个工程师Claude Code月耗五百到两千美元；用得越欢，账单越尖。微软曾在体验与设备部门铺开数千席，后来又大面积收回；优步也有过「四个月烧光全年AI预算」的教训，后来给每人每工具设一千五百美元封顶。Anthropic正传十一月前后冲刺上市叙事，最大企业客户一边当买家一边当对手。\n\n所以呢：工具够好，账单先爆炸——大厂的解决办法是：请改用我们自己的。",
+    "links": [
+      "https://timesof.ai/2026/10/meta-microsoft-cut-internal-claude-use",
+      "https://cryptobriefing.com/microsoft-cuts-claude-spending-third/"
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "nj-towns-ban-then-get-sued",
+    "category": "痛点",
+    "title": "新泽西百余镇跟风禁机房之后：开发商反手起诉——门罗被求偿三亿美元，蒙哥马利、米尔维尔也上了被告席",
+    "body": "十月六日，NJ.com写透新泽西的死结：批了，居民骂；禁了，开发商告。维兰九十分钟空荡会议拍板一座东海岸级AI机房后，全州一百多个市镇抢着禁或暂停，生怕「变成下一个维兰」。\n\n反弹也来了。门罗镇被Hexa Builders告，索赔约三亿美元，称镇里「屈从民意」改区划；蒙哥马利在强生旧园项目方还没正式递件前就禁了；米尔维尔刚禁，关闭的惠顿玻璃厂业主就说「至少先研究再停」。土地律师提醒：完整申请递交后，镇里再改规则，开发商手里更硬——条例被推翻虽难，但时机错了会输。\n\n州长希里尔不肯全州暂停，只推水电披露和社区协议指引。年轻活动家说那不够，九百万人不该只靠有能力立法的镇自保。\n\n所以呢：禁机房不是终点，可能是另一场官司的起点。",
+    "links": [
+      "https://www.syracuse.com/business/2026/10/njs-impossible-ai-data-center-choice-refuse-and-get-sued-or-give-in-and-face-fury.html",
+      "https://scarincihollenbeck.com/client-alert/nj-data-center-bans-monroe-lawsuit"
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "lancaster-cds-ai-deepfake-suit",
+    "category": "痛点",
+    "title": "宾州兰开斯特走读学校：两名男生用AI给五十九名女生做约三百五十张假裸照；十三名受害者告学校和AI公司，校方求驳回",
+    "body": "宾州兰开斯特走读学校两名男生，用AI工具给五十九名女生同学做了约三百五十张性化假裸照。二零二三年十一月校方已收匿名Safe2Say举报，家长说拖到二零二四年五月才因家长报警收场；两人少年法庭被判六个月缓刑。\n\n十三名未成年受害者和家长在联邦法院起诉学校、两名男生及其父母，以及十家未具名AI公司。诉状称学校未尽强制报告义务，还拒绝提供年鉴、怠于配合警探，妨碍调查；AI公司被指缺年龄核验、挡不住生成未成年人露骨图。校长和董事会主席因此去职。\n\n校方律师说，学生犯罪校方无责，正申请驳回，称举报先到了州检察长的Safe2Say系统。案件仍在进行。\n\n所以呢：工具几分钟能出一张假裸照，学校和厂商在法庭上还在争「这到底是谁的责任」。",
+    "links": [
+      "https://lancasteronline.com/news/local/lancaster-country-day-sued-by-victims-parents-in-federal-court-over-ai-generated-nude-images/article_db4f06e9-d4af-409f-bae6-b9611f3a96fd.html",
+      "https://lancasteronline.com/news/local/country-day-not-liable-for-crimes-of-2-former-students-who-made-ai-deepfakes-of/article_d282ec89-cf83-456f-a2f1-8b080d4c16a1.html"
+    ],
+    "prompt": "",
+    "date": "2026-06-15",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "hornsea2-orsted-skyports-cargo",
+    "category": "跨行业",
+    "title": "北海Hornsea 2：四周试验里，无人机把五六十公斤维修包送到风机顶，飞出约四公里超视距",
+    "body": "北海风场Hornsea 2上，服务船甲板不再只靠吊机往风机顶送东西。十月八日，Ørsted和Skyports公布刚做完的四周货运无人机试验：袋子里装着工具、备件和材料，大约五十五到六十五公斤，无人机先送到各台风机，技术员干完活，再把包飞回船上。\n\n关键一趟是场内超视距飞行，大约四公里，从船上规划、协调、盯控。新挂钩能自动抓包，人不用再趴在甲板上手连袋子。风机在送货时可以继续发电，少几次船运和船边吊装，海上风险和油耗一起往下压。\n\n所以呢：海上风机要的不是会飞的演示，是维修包按时到顶——船还在晃，包已经先到了。",
+    "links": [
+      "https://dronelife.com/2026/10/08/orsted-and-skyports-trial-heavy-cargo-drones-for-turbine-maintenance-at-hornsea-2/"
+    ],
+    "prompt": "",
+    "date": "2026-10-08",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "cambourne-morrisons-starship",
+    "category": "跨行业",
+    "title": "剑桥郡Cambourne：万二千居民区莫里森超市上线机器人送菜，成第四家机器人门店",
+    "body": "十月六日，剑桥郡Cambourne的莫里森超市开始只走机器人配送。Just Eat和Starship把试运行扩到这个约一万二千居民的小镇，而且是第一次开到「原本没有Just Eat买菜」的地方。小车按App解锁盖子，一趟大概塞十二件中周补货。\n\n莫里森这边，这是第四家上机器人的店——前面三家是桑德兰和米尔顿凯恩斯的Daily便利店。黄瓜、鸡、牛奶、鸡蛋借着「半价星期三」卖得最欢。公司说机器人是加运力，不是来顶掉骑手；顾客结账时勾选机器人，货装得下才放行。\n\n所以呢：小镇买菜这件事，开始可以由路边那辆小白车干完——超市认的是运力，不是科幻。",
+    "links": [
+      "https://newsroom.justeattakeaway.com/en-GB/272964-top-up-via-robot-just-eat-expands-autonomous-delivery-with-morrisons/"
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "yantai-customs-38-tanks-drone",
+    "category": "跨行业",
+    "title": "烟台港：海关防爆无人机验收三十八个保税油罐，十几小时压到十几分钟",
+    "body": "近日，一台防爆无人机在烟台港油品保税仓库升空，按预设航线把罐区拍了一遍：货物标识、罐体外观、隔离和监控设施，影像直接协助海关验收。这座仓库一共三十八个储罐，原油、燃料油这类易燃货，关员过去进库要全套防静电装备，还要爬高罐，人工拍照还有盲区。\n\n青岛海关说，专用防爆机代替人进库，能躲开坠落、泄漏和静电起火。烟台港油品仓库主管张立颖算得更直：验收从十几小时压到十几分钟，航拍自带时间和定位，电子档案可追溯，也不用再为入区报备折腾半天。\n\n所以呢：保税罐区最怕的不是飞不起来，是人进不该进的地方——海关先把眼睛放到天上了。",
+    "links": [
+      "http://beijing.customs.gov.cn/qingdao_customs/2026-10/10/article_2026101007531584218.html",
+      "https://www.yantai.gov.cn/col/col11800/art/2026/art_daf3d475d2644f6b812861a89dbb3ff9.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "thalia-marl-530-autostore",
+    "category": "跨行业",
+    "title": "德国鲁尔马尔：书店仓五百三十台爬架机器人开张，二十八万个料箱蹲在旧矿地上",
+    "body": "十月一日，德国书商Thalia在鲁尔区马尔正式启用约五万六千平方米的全渠道仓，总投资约一亿欧元，满编时目标创造一千个岗位。仓建在老煤矿工业园gate.ruhr上，核心是Element Logic装的AutoStore：五百三十台爬架机器人、二十八万个料箱位，号称能装下上千万件货，是德国眼下最猛的一套同类系统。\n\n二〇二四年十二月动工，二〇二五年六月封顶，二〇二六年初开始爬坡。屋顶光伏、热泵和绿化屋顶配齐，手工区和自动化区并排。董事长克雷奇马尔说，这是给图书零售的未来下注。\n\n所以呢：煤矿地变成书仓，五百三十台小车在格子上爬——卖书这门老生意，先把仓库武装起来了。",
+    "links": [
+      "https://supply-news.com/2026/10/09/thalia-marl-omni-channel-hub-element-logic-autostore/"
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "hongshaquan-eq100e-cabless",
+    "category": "跨行业",
+    "title": "新疆红沙泉二矿：无驾驶室百吨电矿卡两台混编，各自自动驾驶超一万公里",
+    "body": "十月五日，矿业媒体盯上易控智驾和同力重工的EQ100E：这是台从设计起就不要驾驶室的百吨级纯电无人矿卡。第一台今年一月进国能新疆红沙泉二矿，做完空载重载全流程；五月第二台跟上，两台都在混编车队里常态跑，各自自动驾驶里程已超过一万公里。\n\n四轮轮边电机能原地三百六十度转向，窄装载点好掉头；满载倒车测到约二十公里每小时，百分之八坡道满载上坡约十五公里每小时。刹车、传感、供电都按无人冗余做，不是把司机座拆了装电脑。易控说，这是和主机厂从车身架构一起咬合的无人化，而不是后装套件。\n\n所以呢：矿卡开始按「没人坐」来造——驾驶室空着，不是改装的终点，是起点。",
+    "links": [
+      "https://im-mining.com/2026/10/05/eacon-tonly-advance-purpose-built-cabless-auto-haulage-with-eq100e/",
+      "https://www.eaconmining.com.au/content/details125_815.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "ant-logiant-162-na-flysort",
+    "category": "跨行业",
+    "title": "北美快递仓：蚂蚁飞拣一次部署一百六十二台，峰值七千五百件每小时",
+    "body": "十月十日，蚂蚁机器人LOGIANT说，飞拣机器人2.0在北美某跨境快递分拣项目一次落下一百六十二台。场地大约一千六百三十四平方米，配三百一十二个格口、八组供包台，从扫码、搬运、投递到满包告警闭环，设计峰值每小时七千五百件，还预留二层扩容接口。\n\n新机最高时速三点五米每秒，加速度两点五米每秒平方，续航加长、噪声压低，翻板投递能吃鞋盒和袋装衣服，正向出库和退货分拣都能干。公司把这单当成2.0出海的大规模标杆，强调格子和车数都能按单加减，仓不用大拆。\n\n所以呢：跨境包裹不等人，仓里先把一百六十二台小车铺满——分拣这场仗，拼的是平方里能塞多少速度。",
+    "links": [
+      "http://www.agv-amr.com/news/show.php?itemid=2364",
+      "https://www.xzlrobot.com/c15117.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "putrajaya-emooovit-rm1-bus",
+    "category": "跨行业",
+    "title": "马来西亚布城：一块钱无人电动公交开跑，早晚各五班只收刷卡",
+    "body": "十月七日，布城新的自动驾驶电动公交正式运营。车从MRT布城中央站出发，沿P113停财政部、联邦法院所在的司法宫、青年体育部、辉煌广场和布城公司综合体，单程票价一令吉，而且只收万事达或Visa刷卡，不收现金。\n\n时刻表写着早班七点十五、八点十五、九点十五、十点十五，午后两点四十五到五点四十五再四班——当地帖子写早晚各五班。车由马来西亚初创eMooVit提供、Handal Indah运营，车上有激光雷达、毫米波和摄像头做三百六十度感知，二〇二四年已在布城试过。\n\n所以呢：首都行政城把无人公交卖成一块钱日班车——先让公务员坐得起，再谈完全无人。",
+    "links": [
+      "https://www.thestar.com.my/tech/tech-news/2026/10/07/autonomous-electric-bus-service-now-available-in-putrajaya-with-rm1-fare"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "furttal-iamo-robotaxi",
+    "category": "跨行业",
+    "title": "苏黎世Furttal：瑞士首个公共robotaxi开进四个小镇，约一百个站点可约",
+    "body": "十月二日，瑞士苏黎世州Furttal山谷的Boppelsen、Dänikon、Hüttikon、Otelfingen四个镇，公共机器人出租车品牌Iamo对公众开门。大约一百个指定停靠点，三辆电动车各坐三人，下午一点到五点用专用App叫车，起步约四点七瑞士法郎，再加每公里三十八生丁。\n\nSwiss Transit Lab联合苏黎世州、阿尔高州和联邦铁路做这件事，车上仍坐安全员——阿斯特拉二〇二五年十一月才批了试验牌。组织者故意挑低密度、有S-Bahn接驳的山谷，先测最后一公里，再谈远程监控的小巴。\n\n所以呢：瑞士不赶着全国铺网，先让四个小镇的人付费坐上车——谨慎，但已经不是封闭演示。",
+    "links": [
+      "https://ai4switzerland.com/news/switzerland-opens-first-public-iamo-robotaxi-pilot-in-furttal/",
+      "https://swissobserver.com/news/switzerland-first-public-robotaxi-service/"
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "westsalem-firstsupply-exotec31",
+    "category": "跨行业",
+    "title": "威斯康星西塞勒姆：三十一台爬架机器人撑住下午五点截单，五万三千个料箱到人",
+    "body": "威州西塞勒姆，水暖暖通批发商First Supply的约三十万八千平方英尺配送中心里，三十一台Exotec Skypod在架子上爬。十月六日前后公司披露：货到人拣选比过去人工作业快约十倍，支撑下午五点截单、次日晨到各分仓。系统里大约五万三千个料箱，货架高约十一米多，送到三个拣选台；大件热水器、冷凝器仍走一万二千多个托盘位。\n\n仓从二〇二五年五月开跑，自动化只管一万四千多个SKU里适合进箱子的那部分。供应商说现有架子里库存还能扩约四倍，加车还能再抬约三成吞吐。\n\n所以呢：批发仓抢的是截单钟点——机器人把货送到人面前，五点的单才赶得上过夜车。",
+    "links": [
+      "https://www.warehousearc.com/exotec-robots-first-supply-warehouse-picking/"
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "yusen-destro-26-socal",
+    "category": "跨行业",
+    "title": "南加州邮船物流仓：推车机器人从三台扩到二十六台，另开十七台试点",
+    "body": "十月前后，软件公司Destro AI和邮船物流Yusen把南加州跨码头分拨的试点放大：原先三台Miva推车机器人，扩到二十六台；另一处再开十七台试验。人卸货往不同推车里塞，机器人认满车、把它拖到指定口，Destro的视觉系统和编排层同时调度人、车和卡车。\n\nYusen自动化负责人说，别的方案要么只会推车不会管装卸，要么还得人一步步点指令。Destro融了八百万美元种子轮，想把这套流程复制到更多仓，但吞吐对比和异常率还没公开。\n\n所以呢：跨码头最缺的不是多一台推车，是人和机器看同一张任务单——编排做对了，三台才能变成二十六台。",
+    "links": [
+      "https://streamlinefeed.co.ke/news/destro-ai-yusen-warehouse-robot-orchestration-deployment"
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "beilin-suihua-2-ev-tractors",
+    "category": "跨行业",
+    "title": "绥化北林新立村：两台新能源无人拖拉机下黑土，四百亩示范田两天要翻完",
+    "body": "十月初，绥化市北林区宝山镇新立村地里，两台新能源大马力无人拖拉机沿预设路线干活：L1204灭茬，L2804深翻。这是两种机型首次在东北田间作业，也是中科院「黑土粮仓」科技会战把装备孵化到绥化伏羲农场的现场课。\n\n示范田四百亩，计划两天深翻完，投产首日就干了近一百亩；实测整地单日可达约二百亩，深翻一百余亩，作业成本据称比常规大马力拖拉机少三分之二。L2804用电池电机电控，能换农具，还能当移动电源，支持昼夜连轴转抢农时。\n\n所以呢：黑土地上先跑的不是口号，是两台会自己翻地的电拖——秋整地抢的是天，机器不睡觉。",
+    "links": [
+      "https://feng.ifeng.com/c/8x0lUhkORCJ"
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "geely-yiwu-100-spotweld",
+    "category": "跨行业",
+    "title": "义乌吉利焊装主线：近百台国产点焊机器人与外资同线，支撑领克900量产",
+    "body": "十月五日新华财经报道：二〇二六年上半年，近百台国产点焊工业机器人在吉利汽车义乌基地焊装主线批量上岗，和外国品牌设备同线、节拍对齐，支撑领克900等高端新能源车量产。这是国产点焊机器人第一次在汽车焊装核心工序大批量用起来，打破外资三十多年垄断。\n\n吉利和新松联手四年，平均无故障时间目标不低于八万小时。更早在梅山、春晓、长兴、义乌等地先铺了二十多台，点焊、弧焊、搬运、涂胶都试过，再收成建制上主焊线、下部线、侧围和车门线，覆盖主流焊装工艺九成五以上。\n\n所以呢：焊花底下争的是谁能站上主线——国产机器人进的不是展台，是和外资抢同一节拍。",
+    "links": [
+      "https://finance.sina.com.cn/jjxw/2026-10-05/doc-iniuemac4357497.shtml"
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "singapore-protect-prison-robot",
+    "category": "跨行业",
+    "title": "新加坡监狱：五百一十公斤巡逻机器人十月起试三个月，三所监所各一台",
+    "body": "十月起，新加坡监狱署把一台叫PROTECT的五百一十公斤、一点五七米高的机器人推进三所监所，做为期三个月的试验。它在放风场按时巡逻，把音视频推到矫正单位指挥中心；人远程下令时，能喊话、喷胡椒喷雾，射程约五米，大约二十秒。\n\n九月三日在樟宜监狱演示时，遥控机器人撞开塑料椅，朝扮演打架的狱警喷水。监狱署说它还在研发期，还不能自己发现并决定出手；AI先用来认人和绕障。背景是袭击率从二〇二四年每万名在押五十四点四，升到二〇二五年七十六点七。\n\n所以呢：监狱院子里多了一台会喷雾的铁家伙——它不替代狱警，是替人先冲到现场。",
+    "links": [
+      "https://www.straitstimes.com/singapore/robots-with-ability-to-stop-fights-at-prisons-to-be-deployed-from-oct-singapore-prison-service",
+      "https://technode.global/2026/09/07/singapore-prison-service-to-deploy-autonomous-robot-to-boost-surveillance-incident-response/"
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "gwangmyeong-a2z-gm1-bus",
+    "category": "跨行业",
+    "title": "韩国光明：二十四公里免费自动驾驶公交连铁山站、KTX与洞穴景区",
+    "body": "十月七日，自动驾驶公司A2Z说，光明市GM1自动驾驶公交试点开跑。一台现代County EV改装的十四座电巴，跑铁山站、光明KTX站和光明洞穴之间约二十四公里往返，免费到年底；周三到周日每天两班，上午十点、下午两点从铁山站发。\n\n车上四颗激光雷达、八颗摄像头、一颗毫米波，另有安全员和服务员。Costco路口和素荷停车场路口装了路侧一百二十八线激光雷达加5G，把行人等目标推给车，补车上传感器够不着的死角。公司累计自动驾驶里程约一百一十五万公里。\n\n所以呢：生活圈、高铁站和旅游洞穴被串成一条免费日班线——市民先坐着，路侧雷达在旁边帮忙看。",
+    "links": [
+      "https://www.digitaltoday.co.kr/en/view/111529/a2z-begins-pilot-operation-of-gm1-self-driving-bus-in-gwangmyeong"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "saga-uvc-ca-wine-2600",
+    "category": "跨行业",
+    "title": "加州酒庄：紫外线机器人夜巡约二千六百英亩，Bonterra六台管约两百英亩霞多丽",
+    "body": "十月七日酒业媒体写到：挪威Saga Robotics的Thorvald紫外线机器人今年在加州海岸和北海岸扩开，全州处理约二千六百英亩葡萄，防白粉病。机器人夜里用二百五十四纳米低剂量紫外线照藤叶和果穗——白天真菌能靠蓝光修DNA，夜里连照几小时就修不回来。\n\n银橡木在Philo的黑皮诺和Oakville的长相思各约十到十一英亩试种，四月先喷一轮药，再每四天照一次直到转色。有机酒庄Bonterra在门多西诺靠近俄罗斯河的霞多丽园开了六台，覆盖约两百英亩，两周两次，效果自称不输油和硫磺方案。\n\n所以呢：葡萄园夜里亮的不是路灯，是杀菌灯——少打几遍药，机器在行间自己走。",
+    "links": [
+      "https://www.vinetur.com/en/20261007108498/california-vineyards-expand-nighttime-use-of-uv-c-robots-to-fight-powdery-mildew.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
+    "id": "kodiak-dallas-laredo-435mi",
+    "category": "跨行业",
+    "title": "德州达拉斯到拉雷多：四百三十五英里自动驾驶货运开跑，通向美国最忙陆路口岸",
+    "body": "十月八日，Kodiak和跨境承运商Charger USA宣布：装了Kodiak Driver的卡车，开始在达拉斯和拉雷多两座货站之间跑四百三十五英里，拉冷藏和干货，服务包装消费品与食品饮料客户。双方九月八日已完成首单；眼下驾驶室里还有安全员，等安全论证收完再转无人。\n\n拉雷多是美国对墨西哥贸易量最大的陆路口岸，二〇二五年吞吐国际贸易超三千五百亿美元。Charger总裁说，自动驾驶帮他们在运力波动里稳住班期，也让司机能每晚回家。Kodiak在二叠纪油田已有无人驾驶商业运营经验。\n\n所以呢：边境走廊先接上自动驾驶——货还是那些货，班期开始按算法排。",
+    "links": [
+      "https://kodiak.ai/news/kodiak-charger-usa-autonomous-trucking-dallas-laredo",
+      "https://www.freightwaves.com/news/kodiak-charger-autonomous-trucks-dallas-laredo"
+    ],
+    "prompt": "",
+    "date": "2026-10-08",
+    "added": "2026-10-10T18:10:00+08:00"
+  },
+  {
     "id": "prompt-seedance-maglev-titan-worlds",
     "category": "提示词",
     "title": "挤地铁拍巨兽：一镜冲过泰坦山谷和人造太阳",
