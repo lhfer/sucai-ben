@@ -1,6 +1,750 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-10T10:50:00+08:00",
+  "updated": "2026-10-10T15:10:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-maglev-titan-worlds",
+      "category": "提示词",
+      "title": "挤地铁拍巨兽：一镜冲过泰坦山谷和人造太阳",
+      "body": "车厢挤得动不了，窗外却已经有几百米高的巨人在并排走。\n\nClara Bennett（@CodeswithClara）用 Opus 5.5 写完词，再丢给 Seedance 2.5，做成一段通勤感的「手机随手拍」。提示词故意不写成院线大片：镜头锁死在同一节磁悬浮车厢左侧车窗，乘客抓吊环、皱眉、几乎不尖叫；窗外按固定顺序穿过泰坦山谷、恐龙盆地、史前雨林、云上环形巨构、机械城，最后冲进围着人造小太阳的人工世界。广播只许说两句——开头「请留在车内」，结尾「欢迎来到下一个世界」。最狠的巧思是：巨兽必须大到塞不进手机画面，对焦还要故意失焦、曝光要乱跳，让「拍不全」本身变成尺度感。整段还禁止切镜、禁止反向、禁止配乐，像真的有人在晚高峰里录像。\n\n所以呢：想做奇观通勤片，别先堆特效词，先锁死「同一节车厢、同一扇窗、同一前进方向」，再让世界往窗外长。",
+      "links": [
+        {
+          "label": "X 原帖与成片",
+          "url": "https://x.com/CodeswithClara/status/2108561247155450066"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/CodeswithClara/status/2108561264024936594"
+        }
+      ],
+      "prompt": "SCENE CONTEXT\nChaotic amateur first-person phone footage shot by a standing passenger during rush hour inside a packed magnetic-levitation train that races through one violent, unbroken 30-second journey with no cuts.\nThe video begins immediately inside a colossal titan valley. Enormous humanoid titans hundreds of meters tall are already walking beside and across the train route. The journey then flows continuously into a prehistoric dinosaur basin, through a gigantic living jungle, upward into a futuristic megastructure suspended across the sky, through an enormous machine-city built at impossible scale, and finally into a vast artificial world where entire cities surround a contained artificial sun.\nThe scale continuously escalates.\nThe car violently heaves, snakes, drops, and banks throughout the journey. Everyone inside is tightly packed and gripping poles or straps, enduring the ride almost silently.\nThe phone operator grips a pole with one hand and films shakily with the other, repeatedly swinging the phone between the crowded passengers and the left-side windows as unbelievable environments rush past.\nA calm public-address voice bookends the journey.\nLOCATION MAP\nInterior foreground:\nA standing-room-only futuristic maglev commuter car.\nBodies pressed shoulder to shoulder.\nPassengers gripping overhead straps and vertical poles with white knuckles.\nBackpacks squeezed between bodies.\nCoats and loose clothing shifting with each jolt.\nA narrow central aisle completely jammed with standing commuters.\nLarge panoramic windows run along the LEFT side of the carriage.\nThe camera remains inside this exact same train car for the entire video.\nThe train always travels in the SAME forward direction.\nEverything outside streaks past the windows front-to-back.\nExterior zones crossed in this exact continuous order:\nColossal Titan Valley.\nPrehistoric dinosaur basin.\nDense gigantic prehistoric jungle.\nAscending mountain passage leading into clouds.\nEnormous futuristic ring megastructure above the clouds.\nInterior machine-city of impossible scale.\nArtificial-world civilization surrounding a contained miniature sun.\nEach zone physically connects into the next.\nNo teleportation.\nNo instant environment replacement.\nNo discontinuity in geography.\nCamera stays inside the car at chest height.\nExterior light enters primarily from the LEFT windows.\nFIRST FRAME / BLOCKING\nOpen immediately on chaos.\nAt 0.0 seconds the phone is already recording.\nThe frame is crooked, off-center, and partially blocked by the shoulder of another standing passenger.\nForeground:\nA commuter grips a vertical steel pole with both hands as the carriage violently sways.\nMid-ground:\nThree passengers white-knuckle overhead straps.\nTheir bodies all lean simultaneously under a strong lateral force.\nThe camera swings unintentionally toward the LEFT windows.\nOutside, before the first second is finished, an absolutely colossal humanoid titan is already walking beside the speeding train.\nOnly one leg, part of its hip, and the bottom of its torso can fit inside the phone frame.\nIts upper body disappears far above the top of the window.\nAnother titan moves in the distant valley.\nThe nearby titan's enormous hand swings past the windows only several meters away, momentarily covering almost the entire sky.\nIts footsteps hammer the landscape.\nOne foot lands beside the track.\nThe impact sends dust and small rocks outward.\nThe train violently jolts.\nThe phone rolls sideways from the force.\nInstant hook.\nNo establishing delay.\nFORMAT MODE\nONE CONTINUOUS SHOT.\nThe camera never cuts on its own.\nThere are NO hard cuts anywhere.\nEvery environment change happens naturally and physically as the train moves forward.\nThe same train interior remains visible throughout.\nThe same passengers remain in approximately the same positions.\nThe camera never exits the carriage.\nNo montage.\nNo invisible transition.\nNo teleporting.\nNo speed-ramp transition.\nNo black-frame transition.\nNo hidden cut behind objects.\nReal-time throughout.\nOPTICS\nSingle first-person consumer smartphone camera.\nWide 63° FOV held throughout.\nCheap modern phone-lens character.\nSlight barrel distortion.\nSoft mushy image toward the edges.\nVery aggressive rolling-shutter jello during violent jolts.\nVertical structures bend briefly during fast pans.\nAutofocus hunts whenever enormous creatures suddenly pass close to the glass.\nAuto-exposure pumps strongly when moving between shadow, daylight, cloud, and artificial light.\nSmeared realistic motion blur during rapid camera movement.\nOccasional digital sharpening halos.\nCompressed highlights.\nCrushed shadows.\nLow-bitrate macroblocking during darker moments.\nTiny greasy fingerprint streaks on portions of the lens.\nNo cinematic lens language.\nNo shallow depth-of-field beauty shots.\nEverything feels captured accidentally on a passenger's phone.\nCAMERA\nHandheld phone at chest height.\nOne-handed filming.\nPOV belongs to a standing passenger who must use the other hand to grip a vertical pole.\nThe train continuously throws the operator off balance.\nSustained camera behavior:\nsharp lateral whips,\nviolent short drops,\ncontinuous low-frequency turbulence,\nrolling horizon,\nyawing frame,\nsmall accidental zoom-like hand movement without actual digital zoom,\noccasional shoulder obstruction,\nbrief thumb grazing one corner of the lens,\nautofocus breathing,\nexposure correction,\nimperfect reframing,\nmoments where the camera points too low or too high before correcting.\nWhenever something enormous appears outside, the operator instinctively tries to tilt the phone upward but can never fit the full scale inside the frame.\nNo stabilization.\nNo smooth gimbal movement.\nNo impossible camera orbit.\nNo exterior camera.\nNo drone shot.\nNo cinematic cutaway.\nACTION\n0.0s to 5.0s — TITAN VALLEY\nAt exactly 0.0 seconds:\nsoft PA chime.\nCalm public-address voice says exactly:\n\"Please remain inside the train.\"\nNothing else is spoken.\nThe phone is already pointed halfway toward the crowded aisle and halfway toward the LEFT windows.\nOutside:\na massive open valley under harsh bright daylight.\nHuge grass-covered ridges.\nRock formations.\nDust hanging in the distance.\nSeveral colossal humanoid titans walk slowly through the valley.\nThey are hundreds of meters tall.\nGrounded biological giants.\nNot superheroes.\nNot robots.\nNot monsters with exaggerated fantasy powers.\nAncient weathered skin.\nHeavy natural musculature.\nMineral-like stone growths across portions of shoulders and backs.\nVegetation growing naturally across some surfaces.\nCloud wisps around the tallest bodies.\nA nearby titan walks parallel to the train.\nOnly fragments of its enormous body fit in frame.\nAt approximately 0.7 seconds its gigantic hand swings beside the carriage, filling almost the entire window.\nPassengers instinctively lean away from the glass.\nNobody screams.\nThe titan's foot lands beside the track.\nA huge pressure wave pushes dust and loose vegetation outward.\nThe train shakes brutally.\nOverhead straps snap sideways.\nThe phone slams briefly into the operator's shoulder.\nThe camera recovers.\nAhead, another titan slowly steps across the valley.\nIts leg crosses above the rail corridor.\nThe train races underneath its raised body.\nIts shadow sweeps over the carriage.\nThe entire interior goes dark for less than one second.\nThen sunlight returns.\nThe train continues forward without slowing.\n5.0s to 10.0s — DINOSAUR BASIN\nThe rocky titan valley gradually becomes greener.\nThe titan silhouettes recede behind the train.\nFerns appear beside the track.\nLow vegetation grows denser.\nThe terrain opens naturally into a huge prehistoric basin.\nThe phone presses close to the LEFT window.\nA herd of horned dinosaurs suddenly appears running parallel to the train.\nDozens of animals.\nDust erupts beneath their feet.\nBodies jostle realistically within the herd.\nSome animals briefly disappear behind others.\nTheir motion obeys weight and momentum.\nThe train keeps overtaking them.\nA large dinosaur runs very close to the glass for a moment.\nIts textured hide, blinking eye, and pumping muscles become visible before falling behind.\nAhead:\nthree enormous sauropods cross the basin.\nTheir scale dwarfs the herd.\nThe train passes beneath the neck of one.\nThe neck stretches across the sky like a moving bridge.\nThen a gigantic sauropod foot lands near the track behind the train.\nImpact.\nDust erupts.\nPassengers are thrown sideways.\nA loose backpack slides across the floor.\nThe phone operator nearly loses grip.\n10.0s to 14.5s — PREHISTORIC JUNGLE\nThe open dinosaur basin narrows.\nHuge trees begin appearing.\nThe train enters a dense prehistoric rainforest without any cut.\nMassive trunks rise higher than buildings.\nBroad leaves flash past the windows.\nBranches pass dangerously close to the carriage.\nSunlight flickers rapidly through the canopy.\nSeveral smaller feathered dinosaurs sprint through the vegetation beside the train.\nOne briefly jumps across a fallen tree.\nAnother turns its head toward the moving carriage.\nFar deeper in the jungle, something much larger pushes through trees.\nBranches snap.\nLeaves shake.\nThe body itself remains partially obscured.\nThen a gigantic predatory dinosaur breaks briefly into view on a parallel ridge.\nNot directly attacking.\nIt runs through the jungle for several seconds, partially hidden by trees.\nIts head flashes between trunks.\nThe operator tries to follow it with the phone.\nAutofocus keeps snapping onto leaves in the foreground.\nThe train begins climbing.\nThe jungle floor drops away.\n14.5s to 19.0s — ASCENT INTO THE CLOUDS\nThe train races out of the jungle onto a steep elevated rail wrapping around an enormous mountain face.\nPrehistoric vegetation gradually thins.\nWind noise rises.\nThe valley now drops thousands of meters beneath the windows.\nTiny dinosaurs can still be seen far below.\nThe rail climbs aggressively upward.\nPassengers lean backward under the incline.\nThe camera shakes harder.\nCloud begins flowing across the windows.\nAt first wisps.\nThen dense white fog.\nThe exterior becomes almost completely white.\nOnly fragments of rail supports appear through the mist.\nThe train keeps climbing.\nLight becomes brighter and more diffuse.\nAuto-exposure begins clipping highlights.\nThen the cloud layer suddenly thins naturally ahead.\nThe phone catches glimpses of something impossibly large through gaps in the cloud.\n19.0s to 23.5s — FUTURISTIC SKY MEGASTRUCTURE\nThe train breaks above the cloud layer.\nReveal:\nan incomprehensibly massive futuristic ring megastructure suspended above the clouds.\nIt stretches beyond the horizon in both directions.\nIts scale is far larger than any building.\nA whole civilization covers its surface.\nThousands of towers rise from the ring.\nGigantic bridges connect distant sections.\nTransit lines wrap around the structure.\nMassive rotating habitat sections move slowly.\nHundreds of distant trains race along curved rails.\nFlying maintenance craft appear tiny against the structure.\nThe phone operator instinctively tilts upward.\nThe ring still cannot fit inside the frame.\nThe carriage receives intense white-blue daylight from the LEFT.\nPassengers momentarily stop looking at their phones.\nSeveral glance toward the windows in quiet disbelief.\nThe train's track curves directly toward a monumental rectangular opening in the side of the ring.\nThe opening itself is large enough to contain skyscrapers.\nAs the train approaches, the enormous structure blocks the sun.\nThe carriage gradually falls into shadow.\nThe train enters the opening.\n23.5s to 27.0s — MACHINE CITY\nInside the structure:\na vast mechanical canyon.\nThe scale is impossible but physically grounded.\nThe train races between enormous industrial systems.\nBuilding-sized gears rotate slowly beside the track.\nMagnetic rings activate sequentially as the train passes.\nKilometer-tall elevator shafts move platforms vertically through the structure.\nGigantic maintenance arms slide along rails.\nMassive rotating cylinders spin deep below.\nOther maglev trains pass on distant tracks.\nTiny lights reveal entire neighborhoods built into the machine walls.\nLarge mechanical doors open ahead moments before the train reaches them.\nEverything operates with tremendous weight.\nNo magical motion.\nNo floating pieces without visible structural support.\nThe machinery produces heavy vibration.\nThe train rattles continuously.\nBlue-white industrial illumination sweeps across passengers as the carriage crosses repeated light bands.\nA huge rotating mechanism moves overhead.\nIts shadow slides across the entire car.\nThe phone rolls upward trying to follow it.\nA magnetic pulse causes a hard low-frequency vibration through the carriage.\nAutofocus briefly loses the scene.\nAhead:\nan intensely bright circular opening appears.\nThe train races toward it.\n27.0s to 30.0s — ARTIFICIAL SUN WORLD\nThe train exits the machine structure.\nThe phone sensor blows almost completely white for a fraction of a second.\nAuto-exposure struggles.\nThen detail gradually returns.\nReveal:\nan enormous artificial world.\nA cylindrical interior civilization stretches farther than visibility.\nCities cover gigantic curved surfaces above, below, and beside the train.\nGravity-defying-looking architecture is actually attached physically to the rotating cylindrical structure.\nThousands of towers.\nSuspended bridges kilometers long.\nCountless moving trains.\nTiny spacecraft traveling between layers.\nMassive agricultural terraces.\nArtificial oceans visible in distant curved sections.\nAt the center of the entire structure floats a contained miniature artificial sun.\nIt is surrounded by colossal magnetic containment rings.\nBrilliant warm light floods the windows.\nThe camera tilts upward.\nThe scale remains impossible to fit inside frame.\nFar beyond the miniature sun, an even larger dark structure slowly moves across part of the light.\nOnly a portion is visible.\nIts true size cannot be understood.\nDo not reveal what it is.\nThe train begins slowing for the first time.\nAt approximately 28.8 seconds:\nsoft PA chime.\nThe same calm announcer says exactly:\n\"Welcome to the next world.\"\nThe line ends cleanly before 30.0 seconds.\nThe passengers remain silent.\nThe train keeps moving forward.\nEnd while still inside the same continuous shot.\nPERFORMANCE\nAll passengers are ordinary weekday commuters.\nPhotoreal human detail:\nnatural pores,\nsubtle facial redness,\nrealistic eye moisture,\ncatchlights,\nnatural blinking,\nsmall unconscious mouth movements,\nreal breathing,\nslightly messy hair,\nsubtle sweat,\nwrinkled everyday clothing.\nThe car is extremely packed.\nEveryone must remain physically connected to their surroundings.\nHands stay wrapped around poles and straps.\nBodies sway together according to train acceleration.\nPassengers bump shoulders naturally.\nWeight shifts realistically through legs.\nFaces remain mostly tired, blank, confused, or quietly curious.\nNo exaggerated Hollywood panic.\nNo screaming.\nNo dramatic pointing.\nNo cheering.\nNo synchronized reactions.\nOne child near the LEFT window displays the most visible curiosity.\nAdults mostly endure the impossible journey like exhausted commuters.\nDuring the largest shocks:\na few people flinch,\none person grabs a pole with a second hand,\nsomeone braces against a neighboring shoulder,\na loose backpack slides,\none overhead strap swings violently.\nNobody falls unrealistically.\nTITAN DESIGN\nTitans must feel enormous because of scale, movement, atmosphere, and interaction with the landscape.\nDo not make them generic monsters.\nGrounded humanoid anatomy.\nExtremely large.\nHeavy.\nSlow compared with the train.\nNatural inertia.\nEach step produces delayed environmental response:\nground compression,\ndust displacement,\nvegetation movement,\nsmall rockfalls.\nTheir full bodies should rarely fit inside the phone frame.\nNearby titan body parts should move slowly relative to their immense scale.\nNo glowing eyes.\nNo laser attacks.\nNo magical energy.\nNo fire breath.\nNo superhero poses.\nNo resemblance to recognizable copyrighted titan characters.\nDINOSAUR DESIGN\nDinosaurs should be grounded, realistic prehistoric animals.\nNatural musculature.\nRealistic mass.\nModern paleontological detail where appropriate.\nSubtle feathers only on suitable species.\nNo fantasy dinosaur armor.\nNo glowing markings.\nNo hybrid monsters.\nSauropods should feel enormous through partial framing.\nPredatory dinosaur remains an animal, not a villain.\nNo attack on the train.\nFUTURISTIC STRUCTURE DESIGN\nArchitecture must communicate enormous scale through repetition, atmospheric depth, tiny comparative objects, and physically plausible engineering.\nUse:\ngigantic structural ribs,\nmagnetic rail systems,\nthick support beams,\nrotating habitats,\nbridges,\nindustrial mechanisms,\nelevator shafts,\nmaintenance platforms,\ndense distant lights,\ntiny transport vehicles.\nAvoid generic neon cyberpunk streets.\nAvoid hologram clutter.\nAvoid floating random geometry.\nAvoid meaningless sci-fi shapes.\nEverything should appear engineered for a real purpose.\nPHYSICS\nHeavy realistic train turbulence throughout.\nContinuous inertia.\nSharp lateral forces.\nShort vertical drops.\nConstant mechanical vibration.\nOverhead straps swing according to acceleration.\nLoose clothing follows momentum.\nBodies sway in the same direction before recovering.\nPassengers physically collide lightly and separate.\nHands maintain solid contact with poles.\nNo clipping through objects.\nNo floating bodies.\nOutside:\nTitan footsteps displace air, dust, grass, and loose stones.\nDinosaur feet interact with mud, soil, and vegetation.\nRunning herds produce layered dust.\nHuge animals move with believable inertia.\nTree branches bend and snap naturally.\nCloud flows around structures.\nLarge machinery moves slowly because of its enormous mass.\nRotating structures maintain consistent direction.\nTrain never reverses.\nExterior objects always streak past front-to-back relative to the LEFT windows.\nLIGHTING\n0.0–5.0s:\nStrong natural daylight in Titan Valley.\nApproximately 5600K.\nHarsh highlights through LEFT windows.\nDust occasionally softens the light.\nTitan shadow briefly darkens the carriage.\n5.0–10.0s:\nWarm open prehistoric basin sunlight.\nSlightly golden.\nDust creates soft volumetric scattering.\n10.0–14.5s:\nBroken rainforest sunlight.\nRapid alternating bright and dark bands as trees pass.\nGreen bounce from vegetation.\n14.5–19.0s:\nBright high-altitude daylight transitioning gradually into white cloud diffusion.\nExposure rises progressively.\n19.0–23.5s:\nVery bright cool daylight above clouds.\nStrong reflections from metallic surfaces.\nThen progressive shadow while entering the ring.\n23.5–27.0s:\nCool industrial lighting.\nLarge white and blue practical sources.\nRepeated light bands sweep across the passengers.\nOccasional warmer maintenance lights deeper inside machinery.\n27.0–30.0s:\nExtremely bright warm artificial-sun illumination.\nExposure initially clips.\nThen recovers.\nWarm sunlight crosses passengers and metal poles.\nAll lighting remains motivated by the LEFT windows and surrounding environment.\nAUDIO\nNO MUSIC.\nDiegetic audio only.\nCheap phone microphone.\nHeavy compression.\nClipping on loud impacts.\nLimited low-frequency handling.\nConstant base layer:\nmaglev roar,\nmechanical track vibration,\ndeep carriage rumble,\nair rushing around the exterior,\nwindows lightly vibrating,\npoles rattling,\noverhead straps knocking,\nshoes shifting on the floor,\nquiet breathing,\noccasional fabric movement.\nCrowd remains nearly silent.\nNo sustained dialogue.\nNo screaming.\nNo cheering.\n0.0s:\nsoft PA chime.\nCalm announcer says exactly:\n\"Please remain inside the train.\"\nTitan section:\ndeep delayed ground impacts.\nLow-frequency thumps.\nDistant rockfalls.\nAir pressure rumble after nearby footsteps.\nDinosaur section:\ndistant heavy footfalls,\nlayered herd movement,\nvegetation breaking,\noccasional realistic animal calls,\nno exaggerated monster roars.\nJungle section:\nwind through massive leaves,\nbranches striking the train exterior,\ndistant animal movement.\nCloud ascent:\nwind noise becomes stronger and more muffled.\nMegastructure:\ndistant mechanical resonance,\nother trains passing,\nlow turbine hum,\nlarge structural groans.\nMachine-city:\nheavy machinery,\nmagnetic pulses,\nrotating mechanisms,\nmetallic resonance,\ndeep sub-bass vibration distorted by the phone microphone.\n28.8s:\nsoft PA chime.\nSame announcer says exactly:\n\"Welcome to the next world.\"\nNo additional announcement.\nNo narration.\nNO MUSIC.\nSTYLE\nDirty photoreal amateur smartphone footage.\nNot cinematic polished footage.\nHeavy digital noise in darker sections.\nLow-bitrate compression.\nMacroblocking where appropriate.\nBlown highlights.\nCrushed blacks.\nRolling-shutter distortion.\nReal motion blur.\nAutofocus hunting.\nAuto-exposure pumping.\nNo stabilization.\nCrooked framing.\nImperfect reactions.\nOccasional body obstruction.\nThumb briefly touching frame edge.\nSlight camera sensor smear against extreme artificial-sun brightness.\nThe giant scale should feel more convincing because the phone cannot properly capture it.\nRaw.\nChaotic.\nBelievable.\nAccidental.\nReal.\nOUTPUT SETTINGS\nTotal duration: exactly 30 seconds.\nReal-time speed throughout.\nNo slow motion.\nNo time-lapse.\nNo freeze frame.\nOne continuous generation.\nHeavy handheld shake from beginning to end.\nExterior travel direction remains consistent throughout.\nCamera never leaves the train.\nSame phone lens for full duration.\nSame passengers.\nSame interior.\nSame window side.\nSame movement direction.\nPOSITIVE LOCKS\nStart immediately with TITANS visible in the first frame.\nA colossal titan hand must pass close to the train within the first second.\nTitan scale must be immediately obvious.\nONE CONTINUOUS SHOT.\nNO HARD CUTS.\nNO HIDDEN CUTS.\nNO MONTAGE.\nNO TELEPORTATION.\nNO ENVIRONMENT POP-IN.\nEvery location physically flows into the next as the train moves forward.\nTitan Valley → Dinosaur Basin → Prehistoric Jungle → Mountain Ascent → Clouds → Futuristic Ring Megastructure → Machine City → Artificial Sun World.\nThe train travels in only ONE direction.\nExterior always streaks past the LEFT windows front-to-back.\nThe train never reverses.\nThe camera stays inside the same carriage.\nSame crowded passenger arrangement throughout.\nEveryone continues gripping poles and straps.\nHeavy train turbulence persists throughout all environments.\nTitan movement remains slow, massive, and physically grounded.\nDinosaurs behave like real animals.\nMegastructures obey physical engineering logic.\nThe artificial world is revealed gradually through exposure recovery.\nThe mysterious final gigantic object remains only partially visible.\nDo not reveal its full body or purpose.\nAnnouncer speaks ONLY these two exact lines:\n0.0s:\n\"Please remain inside the train.\"\n28.8s:\n\"Welcome to the next world.\"\nNO OTHER DIALOGUE.\nNO MUSIC.\nNO SCREAMS.\nNO SUPERHERO ACTION.\nNO LASERS.\nNO MAGIC.\nNO HUD.\nNO TEXT OVERLAYS.\nNO ARROWS.\nNO CAMERA OUTSIDE THE TRAIN.\nNO DRONE SHOTS.\nNO PERFECT CINEMATIC CAMERA.\nNO CUTS.\nONE SHOT.\nONE TRAIN.\nONE DIRECTION.",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-suiyi-hotpot-grid",
+      "category": "提示词",
+      "title": "女朋友说随便：火锅淘汰三次又复活夺冠",
+      "body": "男生问晚上吃啥，女生说随便。火锅不要，烧烤太油，日料也不要——最后她又说：那就吃火锅吧。\n\nAdam（@Adam38363368936）把这套情侣日常拆成九宫格故事板，再把整段分镜提示词塞进 Seedance 2.5。词里写死了：两人始终坐在同一张沙发左右两侧，不起身不换房间；食物只许出现在对白里，画面不许切火锅或烧烤特写；男生从期待、耐心、求助 AI，到被质问、震惊、生无可恋，表情台阶一格一格往上爬。流程也公开了——先让 AI 写剧情拆九镜，再生成统一外貌服装的九宫格参考，最后一次上传生成三十秒竖屏。评论里有人说：九宫格这步自己也会留，小道具先钉住能少很多返工。\n\n所以呢：生活喜剧别靠夸张特效，先把人物位置和情绪台阶钉在九宫格里，视频模型才不会越演越歪。",
+      "links": [
+        {
+          "label": "X 成片",
+          "url": "https://x.com/Adam38363368936/status/2108582671987425443"
+        },
+        {
+          "label": "完整分镜提示词",
+          "url": "https://x.com/Adam38363368936/status/2108582680954835139"
+        }
+      ],
+      "prompt": "参考图上传，提示词给到Seedance  2.5：\n请根据上传的九宫格故事板，生成一条30秒超写实真人情侣生活喜剧短片，9:16竖屏，电影级真实摄影质感。\n\n片名：《女朋友说随便吃点》\n\n【一、九宫格参考规则】\n\n上传的图片是一张包含9个连续镜头的电影分镜故事板。\n\n请按照从左到右、从上到下的顺序理解九个分镜：\n\n第一排：镜头1、2、3\n第二排：镜头4、5、6\n第三排：镜头7、8、9\n\n每一格代表同一个故事中不同时间点的画面。\n\n以九宫格中的人物外貌、服装、客厅环境、镜头构图和表情作为视觉参考。\n\n按照下面的时间线，将九个分镜自然衔接成一条完整的30秒真人短片。\n\n最终视频始终为正常的单画面电影镜头。\n\n严禁出现九宫格拼贴、分屏、图片边框、分镜编号、文字气泡、食物缩略图或其他悬浮元素。\n\n【二、整体风格】\n\n超写实真人情侣生活喜剧，具有高质量都市爱情短剧的摄影质感。\n\n人物表演生活化、自然、有真实的情绪变化。\n\n画面温暖舒适，带有轻微电影感。\n\n真实皮肤纹理、自然发丝、柔和室内灯光、真实阴影、浅景深。\n\n幽默感主要来自人物对话、表情和停顿。\n\n避免夸张表演、卡通表情、突然变形和不必要的视觉特效。\n\n【三、人物与场景固定】\n\n男主角：\n25岁左右的年轻亚洲男性，黑色蓬松短发，五官清爽，穿浅灰色休闲卫衣和深色长裤。\n\n女主角：\n24岁左右的年轻亚洲女性，黑色自然长发，五官精致，穿奶白色针织上衣和浅色休闲裤。\n\n严格保持九宫格中两人的面部特征、发型、服装和身体比例一致。\n\n固定场景：\n晚上8点，现代年轻情侣的温馨公寓客厅。\n\n浅灰色布艺沙发，背景为开放式厨房、暖黄色落地灯、简约家具。\n\n男生坐在沙发左侧，女生坐在右侧。\n\n两人始终坐在同一张沙发上，不起身、不交换位置、不切换房间。\n\n女生从一开始就拿着手机。\n\n男生的手机放在身边，直到需要求助AI时才拿起来。\n\n所有人物和物品动作符合真实物理规律。\n\n【四、30秒完整分镜】\n\n镜头1｜0—3秒｜日常开场\n\n参考九宫格第一格。\n\n双人中景。\n\n女生舒服地靠在沙发上，低头玩手机。\n\n男生微微侧身，笑着看向女生，用自然、温柔的语气问：\n\n男：“宝贝，晚上吃啥？”\n\n女生仍然低头看手机。\n\n镜头稳定，生活感强。\n\n镜头2｜3—6秒｜随便\n\n参考九宫格第二格。\n\n切换至女生面部近景。\n\n女生没有抬头，仍然看着手机。\n\n她漫不经心地回答：\n\n女：“随便呀。”\n\n语气非常自然，仿佛真的什么都可以。\n\n镜头停留片刻，突出女生随意的表情。\n\n镜头3｜6—9秒｜第一次否决\n\n参考九宫格第三格。\n\n双人中景。\n\n男生带着期待的笑容问：\n\n男：“那吃火锅？”\n\n女生立即皱眉，轻轻摇头：\n\n女：“不想。”\n\n男生的笑容短暂停顿。\n\n女生继续拿着手机。\n\n镜头4｜9—12秒｜第二次否决\n\n参考九宫格第四格。\n\n保持相同的双人拍摄方向。\n\n男生继续耐心地问：\n\n男：“烧烤呢？”\n\n女生摆摆手，回答：\n\n女：“太油了。”\n\n男生无奈地抿嘴。\n\n女生的表情依然十分自然。\n\n镜头5｜12—15秒｜第三次否决\n\n参考九宫格第五格。\n\n男生身体微微前倾，试探着问：\n\n男：“日料？”\n\n女生再次摇头：\n\n女：“也不要。”\n\n男生缓缓低下头，明显有些崩溃。\n\n女生依旧坐在原位。\n\n镜头6｜15—19秒｜偷偷求助AI\n\n参考九宫格第六格。\n\n切换至男生近景。\n\n男生突然想到办法，悄悄拿起身边的手机。\n\n他低头操作手机，小声嘀咕：\n\n男：“问问AI吧……”\n\n脸上露出认真思考的表情。\n\n女生听见动静，放下自己的手机，转头看向男生。\n\n镜头以男生为主体，女生出现在画面侧后方。\n\n不要展示手机屏幕上的具体文字。\n\n镜头7｜19—22秒｜女朋友质问\n\n参考九宫格第七格。\n\n切换至女生面部特写。\n\n女生微微眯起眼睛，看着男生，带着一点委屈和不满，认真地问：\n\n女：“你还要问AI？”\n\n男生抬起头，瞬间愣住。\n\n他停止操作手机，表情尴尬。\n\n女生直视男生，等待回答。\n\n镜头8｜22—26秒｜意外反转\n\n参考九宫格第八格。\n\n双人中近景。\n\n女生突然改变表情，恢复轻松自然的状态，笑着说：\n\n女：“算了，吃火锅吧！”\n\n男生瞬间愣住。\n\n他慢慢转头看向女生，眼睛睁大，嘴巴微微张开。\n\n他的表情仿佛在说：\n“刚才不是你说不吃的吗？”\n\n这句话只通过男生表情表现，不实际说出口。\n\n女生若无其事地重新低头看手机。\n\n男生保持震惊表情。\n\n镜头9｜26—30秒｜喜剧结尾\n\n参考九宫格第九格。\n\n镜头缓慢推进男生面部。\n\n男生先看一眼女生，再慢慢转头看向摄影机。\n\n他长长叹了一口气。\n\n随后用一只手托住脸颊，露出生无可恋、无奈又好笑的表情。\n\n眼神直视镜头，仿佛向观众寻求理解。\n\n背景中的女生依旧悠闲地玩手机，完全没有意识到男生的崩溃。\n\n最后保持男生的表情特写约2秒。\n\n视频自然结束。\n\n【五、镜头设计】\n\n九个镜头按照故事板顺序自然切换。\n\n主要采用双人中景、单人近景和面部特写。\n\n所有镜头保持相同的空间方向和人物关系。\n\n男生始终位于沙发左侧，女生始终位于右侧。\n\n单人特写可以使用正常的正反打镜头。\n\n镜头运动克制自然，不使用快速环绕、剧烈摇晃、突然拉远或复杂长镜头。\n\n镜头切换要符合真实影视剪辑逻辑。\n\n人物表情是整个视频的视觉重点。\n\n重点展示：\n男生从期待、疑惑、无奈、尴尬到彻底崩溃的情绪递进。\n\n女生从漫不经心、连续拒绝、略微不满到突然开心的自然变化。\n\n【六、对白与声音】\n\n所有人物说中文普通话。\n\n男声年轻、温柔、自然。\n女声年轻、清晰、带一点慵懒感。\n\n所有对白按照时间线依次出现。\n\n每句话必须由正确人物说出。\n\n人物说话时口型与声音同步。\n\n不能男女台词混乱。\n不能两人同时说不同台词。\n不能重复对白。\n不能额外添加台词。\n\n对白语速自然，符合年轻情侣的日常沟通方式。\n\n台词之间保留适当停顿，突出表情变化。\n\n环境音为安静客厅的轻微空调声、衣物摩擦声和自然呼吸声。\n\n不添加旁白。\n不添加夸张搞笑音效。\n不添加背景音乐。\n\n【七、严格限制】\n\n1. 九宫格仅用于指导人物、镜头与故事顺序，绝不直接出现在视频画面中。\n2. 最终视频必须为9:16单画面真人电影短片。\n3. 全程只有一男一女两名人物。\n4. 两人五官、发型、服装、身体比例保持一致。\n5. 两人始终坐在同一张沙发上，空间位置不发生变化。\n6. 不出现食物图片、火锅特写、烧烤特写或日料特写。\n7. 所有食物仅通过人物对白提及，不在画面中实际出现。\n8. 手机始终符合人物动作逻辑，不得凭空出现或消失。\n9. 不出现手指异常、额外肢体、人物重复、换脸或身体畸形。\n10. 不出现漫画气泡、悬浮文字、字幕、编号、Logo或水印。\n11. 不添加九宫格之外的新人物、新场景或新剧情。\n12. 不使用夸张卡通表情和明显AI特效。\n\n【八、最终效果】\n\n整条视频必须像真实情侣出演的30秒生活喜剧。\n\n前3秒直接建立情侣吃饭的生活话题。\n\n中间通过连续三次否决制造喜剧冲突。\n\n19秒左右通过女朋友发现男生求助AI，让情绪发生变化。\n\n22秒出现突然反转，女生最终选择最开始拒绝的火锅。\n\n最后4秒重点表现男生震惊、无奈、生无可恋的表情。\n\n节奏自然流畅，故事清晰完整，表演真实幽默。\n\n让观众看完产生强烈的情侣生活共鸣。",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-ceiling-fan-outfits",
+      "category": "提示词",
+      "title": "吊扇下面躺着换装：机位不动，衣服自己换",
+      "body": "俯拍镜头穿过缓缓转动的木叶吊扇，地毯上躺着的女生衣服一件一件变过去，姿势却纹丝不动。\n\nZoya（@Zoyavelle）这条 Seedance 2.5 提示词把「变」和「不变」拆开写：天花板机位、风扇叶片掠过前景、房间暖光、木地板和波斯地毯花纹、脸部身份全部锁死；只允许黑色连衣裙换成粉开衫白裙、红开衫白上衣、棕色纹理裙。成片靠叶片的轻微运动模糊和面料细节撑住真实感，而不是靠炫技运镜或突然切景。帖子互动破四百赞、两万多浏览，很多人直接复刻「固定机位换装」——有人说这才是时尚片该有的克制。\n\n所以呢：想拍换装片，先写死不能动的东西——机位、姿势、房间——再只放开服装这一条变量。",
+      "links": [
+        {
+          "label": "X 原帖与提示词",
+          "url": "https://x.com/Zoyavelle/status/2108060187840180394"
+        }
+      ],
+      "prompt": "A cinematic top-down overhead shot of a young Asian woman lying barefoot on an elegant vintage Persian rug in a warm, cozy living room, viewed through the wooden blades of a slowly rotating ceiling fan in the foreground. She has natural black hair and a calm relaxed expression. The scene uses warm golden indoor lighting, realistic wooden flooring, detailed traditional carpet patterns, soft shadows, and a cozy aesthetic interior. The woman appears in a simple black dress at first, then smoothly transitions through several different fashionable outfits while maintaining the exact same pose, position, camera angle, environment, and facial identity. Outfit transitions include a soft pink cardigan with a white dress, a red cardigan over a white top, and finally a brown textured dress. Highly photorealistic, natural skin texture, realistic fabric details, cinematic lighting, shallow depth of field, subtle motion blur from the rotating ceiling fan, smooth seamless outfit transformation, professional fashion video, DSLR quality, ultra-detailed, 4K, realistic proportions, stable overhead camera, no text, no watermark.\n\nCamera: fixed top-down perspective, ceiling fan blades passing naturally across the frame, slow smooth motion.\nAspect ratio: 16:9.\nStyle: photorealistic cinematic fashion video, warm cozy atmosphere, seamless transitions.",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-raindance-motion-ref",
+      "category": "提示词",
+      "title": "Raindance 跟风片：线稿管动作，照片管脸",
+      "body": "木码头、金色黄昏，一个人坐着听，另一个人对着唱——最近这条 Raindance 跟风片到处都是，有人放情侣，有人放死对头。\n\nKapwing 的 Emily Peng 在十月八日把做法拆开：先给两个人各做一张角色设定图，再把原 MV 动作剪成黑白线稿视频，只留给模型「站哪、怎么动、镜头怎么走」。Seedance 2.5 提示词写明：编号视频一只管运动和机位，不许长成线稿画风；两张身份图分别替换两位表演者，首饰手表默认全删除，除非设定图里本来就有。于是史莱克配领主、球星互怼都能套同一段码头戏，最后再套回带原曲的剪辑模板对齐节拍。\n\n所以呢：跟风音乐短片别整段糊进模型，先把动作做成线稿参考，再用身份图换人，控制权才在你手里。",
+      "links": [
+        {
+          "label": "Kapwing 教程与完整提示词",
+          "url": "https://www.kapwing.com/resources/how-to-do-the-raindance-ai-trend-prompt-included/"
+        }
+      ],
+      "prompt": "Use #video_1 only as the reference for movement, body motion, mouth movement, timing, blocking, shot progression, and camera movement. #video_1 is a simple outline motion reference; the output must not look like line art, sketch art, or animation. Ignore all visual styling, facial detail, clothing detail, and any drawn accessories in #video_1.\n\nCreate a photoreal live-action video of the same performance.\n\n#image_1 replaces the first performer in #video_1. #image_2 replaces the second performer in #video_1.\n\nPreserve each person's identity exactly from their character sheet.\n\n#image_1: face exactly as shown in their character sheet, [HAIR], wearing [OUTFIT] exactly as shown in their character sheet. #image_2: face exactly as shown in their character sheet, [HAIR], wearing [OUTFIT] exactly as shown in their character sheet.\n\nEach person should wear only what their character sheet shows. Keep bare hands and bare wrists, with no rings, bracelets, watches, necklaces, or other jewelry unless those accessories are explicitly part of that person's character sheet.\n\nBoth people should perform every gesture, hand movement, head turn, body movement, mouth movement, and timing cue from the two performers in #video_1 as closely as possible.\n\nRebuild the scene in the recognizable Raindance setting: a weathered wooden pier over calm blue water at golden hour, with warm sunlight, soft coastal atmosphere, and cinematic music-video lighting. Preserve the same framing and camera behavior from #video_1.\n\nKeep the two people visually distinct and consistent throughout the full clip. Maintain realistic scale between them, natural eye lines, believable physical interaction, realistic hands, clear facial detail, natural skin texture, and consistent clothing from shot to shot.\n\nSame duration as #video_1. Generate as one continuous video with no text or subtitles.",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-samurai-tsunami-slash",
+      "category": "提示词",
+      "title": "史诗感不是特效堆砌：一刀劈开海啸",
+      "body": "山脊上站着一个很小的武士，远处海啸像移动的山墙压向海边村子。\n\nPierrick（@CharaspowerAI）说：好的「史诗」提示词不是把特效叠满，而是憋够久、只让一个动作显得巨大。他给 Seedance 2.5 写的三十秒一镜，前十二秒几乎只在加压——风、暗云、浪影——十二到十八秒才切到拔刀特写，刀身亮起蓝白能量；十八到二十四秒升格一记双手斩；最后能量把海啸劈成两道水墙，村子还在，镜头绕到武士背后做英雄定格。评论里有人专门记下「忍住不放」这一条，说比堆爆炸有用。帖子两千多次曝光，不少人直接存进自己的提示词库。\n\n所以呢：写史诗片先排时间表，把「唯一的大动作」放到后半段，前面只负责憋气。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/CharaspowerAI/status/2108256159706607998"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/CharaspowerAI/status/2108256182246748627"
+        }
+      ],
+      "prompt": "Ultra-realistic mythic fantasy blockbuster, one seamless 30-second shot. Shot on ARRI Alexa 65 with anamorphic lenses, dramatic aerial crane move, heroic push-ins, elegant orbit, thunderous speed ramps and majestic slow motion. Golden storm light, violent wind, colossal ocean simulation, sacred energy VFX, premium Hollywood scale.\n\nOne legendary samurai stands alone on a mountain summit above a coastal village. Long dark hair, layered robes, calm but godlike presence, katana at his waist. Silent, disciplined, absolute focus.\n\nHigh rocky mountain ridge overlooking a village far below. Vast ocean horizon beyond. A gigantic tsunami is rushing toward the village.\n\n0-6s: Wide aerial reveal. The samurai stands motionless at the mountain edge. Far below, the village is tiny and vulnerable. In the distance, an enormous wall of water rises unnaturally high and races toward shore.\n\n6-12s: Camera rushes toward the samurai as the wind becomes violent. His robes and hair whip wildly. The sky darkens over the sea. The tsunami grows into a monstrous moving mountain, casting a vast shadow over the village.\n\n12-18s: Extreme close-up on his hand gripping the katana. He draws the blade in one impossibly elegant motion. The sword awakens with blinding blue-white energy, crackling light, spiraling mist and glowing symbols flowing along the blade.\n\n18-24s: In slow motion, he plants one foot forward and delivers one colossal two-handed slash. A gigantic arc of divine energy erupts from the blade, tearing through clouds and screaming across the sky toward the wave.\n\n24-30s: The energy strike hits. The tsunami splits open perfectly into two towering walls of water, opening a vast dry corridor aimed away from the village. Water roars past on both sides. Camera orbits behind the samurai in a godlike hero shot as he lowers the blade and the untouched village survives below.\n\nOne continuous shot, monumental scale, readable village geography, premium water physics, sacred sword energy, stable samurai continuity, ultra-epic cinematic pacing, no gore, no text, no logos.",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-joglo-pocong-cuts",
+      "category": "提示词",
+      "title": "印尼雨夜恐怖片：硬切六刀，不许一镜糊弄",
+      "body": "煤油灯一灭，走廊尽头亮起裹尸布的庞空——雨还在砸木屋顶。\n\n账号 itsPixieVerse 分享的 Seedance 提示词最特别的一条规矩是剪辑纪律：必须做成六个带时间戳的硬切，禁止渲成一条连续长镜头；角色要一直在动，胜利摆拍只能留到最后一秒半。镜头从香炉微距、走廊脚步、瞳孔特写，切到闪电下的爪哇木屋外景，再跟到门口灯灭，最后定格在庞空现身。配乐写明六十拍、失调加麦兰加女声摇篮曲，灯灭时声音要先「绝对静音」再砸低音。世界观也写细：檀香烟、雨夜种植园木屋、蜡染纱笼，而不是泛泛的恐怖老房子。\n\n所以呢：做民俗恐怖片，把「几刀硬切」和「何时静音」写进提示词，比堆怪物形容词更管用。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/itsPixieVerse/status/2108032235148570739"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/itsPixieVerse/status/2108032239728779666"
+        }
+      ],
+      "prompt": "Cinematic Indonesian supernatural horror film, shot on Arri Alexa Mini LF, Zeiss Super Speed lenses: natural flickering kerosene flame lighting, deep obsidian blacks, desaturated moss green and decayed timber palette, heavy tropical rain reflections, authentic 35mm film grain, shallow depth of field. \n\nCUT DISCIPLINE: 6 distinct hard cuts with explicit timestamps --- do not render as one continuous single take. Character keeps moving; no idle victory pose until final 1.5 seconds. \n\nWORLD: Creaky interior and porch of a decaying rural Javanese wooden Joglo plantation house at 3:00 AM, torrential monsoon rain hammering the roof, thick incense (kemenyan) smoke hanging in the damp air. \n\nCHARACTER: Maya @[Image 1](image_1) Image, 24-year-old Javanese woman, wet dark hair framing her face, faded cream kebaya and dark batik sarong, holding a flickering brass kerosene lamp, skin covered in cold sweat. \n\nCINEMATIC HORROR SHOT DESIGN (6 Filmic Cuts with Expressions): \n• SHOT 1 (0–2s | Macro Detail): Extreme macro close-up of a smoldering ceramic incense burner (pedupaan); grey kemenyan smoke curls past the sinister carved wooden face of an antique shadow puppet (wayang kulit). \n• SHOT 2 (2–4s | Human Action): Medium shot as Maya walks slowly down the dark wooden hallway, her bare feet creaking on warped floorboards, her trembling hand shielding the flickering kerosene lamp flame from a cold draft. \n• SHOT 3 (4–6s | Micro-Acting Close-Up): Tight close-up on Maya's terrified face. Her jaw trembles; her pupils dilate in pure horror as she hears a faint rhythmic scraping sound from the ceiling above. A single cold tear tracks down her cheek. \n• SHOT 4 (6–9s | Environmental Scale): Extreme wide low-angle shot as a sudden blinding lightning flash illuminates the entire rotting Joglo exterior, surrounded by towering ancient banyan trees with tangled hanging roots whipping in the storm. \n• SHOT 5 (9–12s | Creeping Tracking): Slow, low Steadicam tracking shot moving behind Maya as she reaches the open doorway; the wind suddenly blows out her kerosene lamp, plunging the frame into suffocating darkness except for cold moonlight. \n• SHOT 6 (12–15s | Horror Climax Frame): Sudden lightning strike illuminates the end of the hallway: a tall shrouded white figure (Pocong) @[Image 2](image_2) with blackened facial hollows stands motionless in the corner. Maya freezes in silent, gasping terror. Final frame holds 1.5s. \n\nWeighty natural human kinetics, cloth soaking and sticking with wet physics, 24fps filmic shutter, shallow depth of field. \n\n[AUDIO & SOUNDTRACK DIRECTION]: \n\n• SCORE: 60 BPM, Key of D minor. Dissonant, de-tuned Javanese Gamelan bronze instruments (creepy, metallic Slendro-tuned saron and deep gong ageng) layered with a slow, mournful female vocal lullaby (tembang Jawa / Lingsir Wengi style) that echoes with heavy dark reverb. Score erupts into a horrifying shrieking bowed string cluster on Cut 6. \n\n• FOLEY: Heavy tropical rain pounding on clay tiles, rhythmic slow creak of warped teak floorboards, match striking flame, sudden cold wind gust blowing out the oil lamp wick with a soft hiss. \n\n• AMBIANCE: Constant deafening tropical downpour, nocturnal cicada hum that suddenly goes completely silent at Shot 3, distant rolling monsoon thunder. \n\n• DYNAMICS: Sound ducks into suffocating absolute silence when the lamp goes out in Shot 5, followed by a bone- rattling 30Hz sub-bass drop and metallic gong impact on the lightning reveal in Shot 6.",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-giant-calico-school",
+      "category": "提示词",
+      "title": "迟到了就骑巨型三花猫去上学",
+      "body": "闹钟响了才睁眼，女生匆匆刷牙、穿上淡紫色制服、啃一口包子冲出门——门口等着一只楼一样高的三花猫。\n\nElisia（@AiwithElisia）用 Seedance 2.5 写了一段「魔法早晨冲刺」：从迷你房间起床到骑猫飞奔再到下车拥抱挥手，全程一条写实动画感生活片。提示词不长，但把动作链写完整了——醒来、穿衣、进食、骑乘、告别、跑向学校——所以模型不会卡在「一只大猫站街」的单帧海报里。一万多浏览，评论区很多人在问能不能换成自己的猫，也有人注意到郊区街道和暖色晨光被写进了氛围，整段才像真的在赶早课，而不是奇观海报。\n\n所以呢：短提示词也能出片，关键是把「起床到到校」写成连续动作，而不是只形容一只巨猫有多可爱。",
+      "links": [
+        {
+          "label": "X 原帖与提示词",
+          "url": "https://x.com/AiwithElisia/status/2108124259088249209"
+        }
+      ],
+      "prompt": "Cinematic live-action shot, anime slice-of-life aesthetic. A young Japanese schoolgirl with long black hair in high pigtails wakes up late in a minimalist room, rushes through her morning routine (brushing teeth, putting on a lavender uniform shirt with black bow tie and navy skirt, eating a steamed bun), and runs outside. Waiting on the quiet Japanese suburban street is a giant, colossal fluffy Calico cat. She climbs on its back and rides it as it bounds down the road. She gets off, hugs the giant cat, waves goodbye, and runs toward school. Photorealistic, 8k, warm morning lighting, fast dynamic motion tracking.",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-yacht-five-grid",
+      "category": "提示词",
+      "title": "暗调写真五格写法：暗部颜色和闪光停哪儿都要写死",
+      "body": "夜色够深，脸和白衬衫又要清楚——这两头常常顾了这头丢那头。\n\n咸柠七喜（@shyboy1211）把 GPT Image 暗调写真拆成五格：色彩、闪光、场景、穿搭、动作。甲板那张原样公开：暗部写成海军蓝和黑曜石色，并点明画面最亮的是脸和白衬衫；闪光不只写「从正面来」，还写「只落在人物周围一米内，再往后交给夜色」。换舷窗或栈桥时，只改「场景」那一行，开头人物行和末尾排除行不动。他说只写「暗调」等于把颜色交给模型瞎猜，边界不清脸就会糊进黑里；远处港口灯也要写成小光点，别让它们抢走人物身上的亮度。\n\n所以呢：拍夜景别只写「暗调」，把暗部是什么颜色、光照到哪里停，两句都写清，换地点只动一行。",
+      "links": [
+        {
+          "label": "X 方法说明",
+          "url": "https://x.com/shyboy1211/status/2108017765147673083"
+        },
+        {
+          "label": "甲板完整提示词",
+          "url": "https://x.com/shyboy1211/status/2108017767454585162"
+        }
+      ],
+      "prompt": "夜色游艇写真，竖幅 9:16，写实摄影，CCD 相机质感，暗部有细噪点。\n人物：虚构的成年女性，二十五岁上下，自然身材比例，原创面孔。\n色彩：整体是海军蓝和黑曜石色，阴影里还分得出物体轮廓；画面里最亮的是人物的脸和白衬衫，远处的灯只是小光点。\n闪光：机顶直闪从正面打在人物身上，光只落在人物和她周围一米内，再往后是原本的夜色；脸和白衬衫亮度自然，细节清楚。\n场景：夜里停泊的白色游艇甲板，远处港口有零星暖灯，海面有细碎反光。\n穿搭：深海军蓝高领长袖长裙，垂坠面料，外面敞穿一件宽大的白衬衫，手腕一条银色细手链。\n动作：站直，双肩放松，一只手把白衬衫的袖口往上挽，目光平视镜头，表情平静。\n画面无任何文字，人物不像任何真实名人。",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-chatgpt-opera-goddess-wind",
+      "category": "提示词",
+      "title": "戏曲女神先静后动：一层一层写出景深，再让风吹珠穗",
+      "body": "先出一张冷象牙色的戏曲女神定妆，再让发丝和珠穗真正晃起来，而不是整张图慢慢推近。\n\nrexx（@rexx_xer82545）跟帖公开了两段词：ChatGPT 生图时强制写前景袖纱、中景栏杆廊柱、远景层层屋顶和雾，避免背景糊成一堵墙；颜色要冷银蓝珐琅和珍珠白，不要一上来就堆暖金。Grok Imagine 生视频时要求从第一帧就有侧风——发丝扫过脸颊、珠链像钟摆、流苏飘动——镜头几乎锁死只许极慢漂移。角色写明是原创虚构，不是真人；评论也夸珠穗动得轻、不抢戏，看起来更像风在吹，而不是镜头在硬推近。\n\n所以呢：国风定妆转动态，先把近中远三层景深写进静帧，动态阶段只加「风」，别再加那些猛推镜头。",
+      "links": [
+        {
+          "label": "X 成片",
+          "url": "https://x.com/rexx_xer82545/status/2108543002138325267"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/rexx_xer82545/status/2108550694554767480"
+        }
+      ],
+      "prompt": "【ChatGPT 生图】\n\nPhotorealistic vertical 9:16 fine-art fashion portrait, original fictional young East Asian woman only (not a real person). Ethereal Chinese imperial opera goddess, cool ivory-white Midjourney aesthetic.\n\nFace: porcelain pale skin, melancholic almond eyes looking back over the shoulder toward camera, subtle smoky eyeliner, soft muted rose lips, cold distant expression.\n\nCrown: monumental phoenix crown in cool silver-blue enamel filigree, antique silver, countless luminous white pearls, sculpted ivory flowers — pearlescent whites and cool blue-silver, not heavy warm gold.\n\nRobes: ivory-white silk ceremonial robes, peony embroidery in dusty teal, muted coral pink and soft antique gold accents; cascading pearl necklaces; coral-peach tassels. One graceful hand with five anatomically correct fingers resting on silk.\n\nHair: long black hair dramatically windswept.\n\nCRITICAL — layered background with clear depth (not a flat blur wall):\n- Foreground: soft out-of-focus ivory silk sleeve / pearl fringe near the lens edge for foreground depth.\n- Midground: carved stone balcony railing and palace corridor columns, slightly soft but readable architecture.\n- Background: multi-tier traditional Chinese palace roofs receding into distance, courtyards, lanterns, pale mist between layers creating atmospheric perspective.\n- Far distance: cooler greyer haze, softer roofs disappearing into overcast sky.\nKeep cool blue-gray ivory palette, cinematic chiaroscuro, 85mm f/1.8 shallow DOF but with visible near-mid-far layers. Museum quality. No extra fingers, no text, no watermark, no cartoon.\n\nAlso increase color vibrance: richer deeper teal and blue embroidery, brighter coral-pink accents, more lustrous pearls and enamel highlights, while keeping cool ivory base (not warm sunset).\n\n【Grok Imagine 生视频】\n\nAnimate this portrait with clear wind motion — not a static zoom. From frame one, a steady side wind moves the subject: loose black hair strands continuously blow and cross her cheek; long pearl chains on the headdress swing like pendulums; coral tassels flutter; ivory silk fabric and peony embroidery gently ripple. Small specular sparkles travel across pearls. Camera stays almost locked with only a tiny slow drift (no hard zoom). Photoreal, identity locked, crown stays sharp, no face morph, no melting jewelry, no extra fingers, no text.\n\n设置：Video · 10s · 9:16 · 1080p",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-opus-invisible-cities-oneshot",
+      "category": "提示词",
+      "title": "一句「做六小时」：Opus 把《看不见的城市》做成可逛可视化",
+      "body": "Piotr Migdał 把卡尔维诺那本讲五十五座想象之城的书丢给模型，只写了一句任务：用 three.js 做可视化，不许提问，一次性干完，你有六小时，干到像杰作。\n\n同一句词，GPT-6 Astra 跑了大约五十三分钟；Claude Opus 5.5 声称没用满六小时，却开了六个子代理并行，代理工时加起来约七小时，做出可交互的城市集。这篇博客在 Hacker News 上冲到四百多分，作者鼓励读者拿同一句去考不同模型和脚手架——比拼的不是形容词堆多花哨，而是「限时、不许追问、做到杰作」这套约束怎么被执行。他自己也在问：交互媒体里，人还剩哪一块工作该亲手做。\n\n所以呢：要测设计代理，别写长需求文档，先丢一句带时限的一次性任务，看它会不会自己把活干完。",
+      "links": [
+        {
+          "label": "Quesma 博客与演示",
+          "url": "https://quesma.com/blog/invisible-cities-one-shot/"
+        }
+      ],
+      "prompt": "Make a three.js (pnpm) visualization of all Invisible Cities by Italo Calvino. Don't ask questions, it is a one-shot task. You have 6h of work, use it until it becomes a masterpiece.",
+      "date": "2026-10-07",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-agent-shape-rotate-structure",
+      "category": "提示词",
+      "title": "卡住别重试：先把论点画成结构再旋转到咬合",
+      "body": "问题想不通时，很多人的第一反应是换个说法再问一遍。\n\nTroy（@TroyMurs）把 Emad Mostaque 的思路写进系统提示词试在代理上：当论证或约束「点不亮」时，禁止立刻重试；先把每个论点、限制和角度画成一张互相连着的结构图，再像旋转零件一样换朝向，直到各块咬合最紧，然后才许写答案。他说这招对要交给高阶模型打磨的高层思路尤其有用，自己拿它整理过特别抽象的设计问题。短短几句系统词，把「再生成一次」改成了「先想清楚结构」，适合塞进长期跑的代理配置里，免得它一直空转。\n\n所以呢：给代理加一条「先可视化再旋转结构」的系统词，比让它盲目重生成更能逼出真正想通的答案。",
+      "links": [
+        {
+          "label": "X 原帖与系统提示词",
+          "url": "https://x.com/TroyMurs/status/2108192605942980973"
+        }
+      ],
+      "prompt": "When a problem or argument isn't clicking, don't just retry. First visualize it: map every argument, constraint, and angle as a connected structure, from as many perspectives as possible. Then shape rotate that structure, turning it and testing different orientations, until the pieces click into place as strongly as possible. Only then write your answer.",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-korpi-wool-creature-umbrella",
+      "category": "提示词",
+      "title": "毛线小怪撑叶伞：一句因果链考翻五家视频模型",
+      "body": "雨夜霓虹屋顶上，一只三只纽扣眼的毛线小怪踮脚走来，看镜头，再弹出一把叶子做的迷你伞。\n\nKorpi AI（@KorpiAi）用同一句提示词、各跑一轮不重掷，横评五家视频模型：Veo 最好看但根本不走、伞已打开；Kling 会走会看会开伞，伞却凭空出现；Seedance 2.0 是唯一走完整条因果链的；有的模型直接长出四只眼或第二把伞，还有把伞从脑袋上长出来的。这段词短，却把「走、停、看、弹出」写成必须依次发生的动作，谁跳步谁露馅。作者强调这才是老实的一镜横评，不许开挂重掷——做广告的人也常在这类动作链上栽跟头。\n\n所以呢：横评视频模型别用风景空镜，写一句带因果链的小动作，谁跳步谁露馅一眼能看出来。",
+      "links": [
+        {
+          "label": "X 横评原帖",
+          "url": "https://x.com/KorpiAi/status/2108687594913738792"
+        }
+      ],
+      "prompt": "a tiny knitted wool creature with three button eyes and long noodle arms tiptoes across a rainy neon-lit rooftop at night, stops, looks straight at the camera, and pops open a miniature umbrella made from a leaf",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-vehicle-to-robot",
+      "category": "提示词",
+      "title": "跑车摩托坦克战机：边开边变成机器人",
+      "body": "银跑车在城市高架上滑行，车身展开变成奔跑的巨型机甲；海岸线上的霓虹摩托、沙漠里的迷彩坦克、航母甲板的战斗机，一个接一个完成变形。\n\nLavinia（@laviniavelle）把四段变形写进同一条 Seedance 2.5 提示词，要求动态跟踪镜头和科幻动作片质感。关键词是先开再变：载具必须以正常交通状态出现，再进入变形，而不是开场就是机器人摆姿势。九千多浏览，评论区在复刻自己的车款，也有人盯着机械展开是否「先开后变」。少写那半秒「还在开」，成片就容易直接跳到机甲姿势，观众一眼就不信那一下变身。\n\n所以呢：变形金刚题材先写「还在开」的前半秒，再写展开，观众才信那一下变身。",
+      "links": [
+        {
+          "label": "X 原帖与提示词",
+          "url": "https://x.com/laviniavelle/status/2108404878590857384"
+        }
+      ],
+      "prompt": "A silver sports car driving down a city highway smoothly transforms into a giant silver running robot a futuristic neon lit motorcycle on a coastal highway morphs into a running blue cybernetic robot; a camouflage military tank driving across a sandy desert transforms into a walking heavy combat mecha a fighter jet on an aircraft carrier deck unfolds and transforms into a standing robot warrior, sci-fi action style high tech mechanical transformation, dynamic camera tracking shot, cinematic photorealistic 8k render.",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-nano-banana-tokyo-live-weather",
+      "category": "提示词",
+      "title": "Nano Banana 2.1：让东京街景跟着「今天的天气」走",
+      "body": "谷歌刚把 Nano Banana 推到二点一，有人整理了十条升级和七段可直接试的提示词。\n\n其中最值得抄的一句是「实况接地」：生成一张超写实的东京都心照片，天气要符合今天的实况，路牌和行人流量也要尽量准。作者提醒打开谷歌搜索接地，让模型去拉实时天气和地理信息，而不是凭训练记忆乱编阴晴。同一帖里还有信息图高思考、超宽海报、多图风格迁移等模板，但这句「今天的天气」把生图从「想象一张东京」改成「核对今天的东京」，正好对应二点一新加的网页检索能力。\n\n所以呢：新模型若带网页检索，提示词里写「当前天气、今日」，比堆超高清形容词更能逼出它的新本事。",
+      "links": [
+        {
+          "label": "X 升级说明与七段提示词",
+          "url": "https://x.com/abs_uiux/status/2108168409724658174"
+        }
+      ],
+      "prompt": "A hyper-realistic photo of downtown Tokyo under current weather conditions today, with precise street signage and local foot traffic.",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-image-char-sheet-layout",
+      "category": "提示词",
+      "title": "一张证件照脸，铺成整页角色设定图",
+      "body": "同一张脸要出现在正、侧、背、表情格和服装特写里，最怕画着画着就换人。\n\nHitPaw 官方账号公开了一段角色设定图提示词：要求所有格子共用同一张证件照级面部身份，保留自然妆容；版式上借用参考图的分栏、黑色小标题和米色底，同时锁住第一张图的优雅风格。正面、四分之三、侧面、背面全身，外加八种表情和六种姿势，一律不许引入无关人脸。他们拿同一段词和同一张脸去横评 GPT Image 与 Nano Banana，用来看谁更守细节——这比空口说「一致性更好」更可复现，后面做视频角色卡也省事。\n\n所以呢：做角色表别只说「多视角」，把「同一证件照身份、不许换脸」写成硬约束，版式和服装特写才站得住。",
+      "links": [
+        {
+          "label": "X 横评与完整提示词",
+          "url": "https://x.com/HitPawofficial/status/2108441480335638940"
+        }
+      ],
+      "prompt": "Create one high-resolution character reference sheet. Use the same person and the same ID-photo facial identity consistently across every image, keeping her facial features, natural makeup, and overall appearance unchanged.\n\nShow her with front, 3/4, side, and back full-body views, plus close-up face and identity details, eight facial expressions, six body poses, and detailed clothing/accessory close-ups. Preserve the elegant visual style of the first reference while using the structured multi-section layout of the second reference, with clean black headings, thin dividers, neutral beige/cream backgrounds, soft natural lighting, realistic skin texture, sharp facial details, and professional character-sheet presentation.\n\nMake all views look like the exact same person, with consistent face, hairstyle, body proportions, outfit, accessories, and lighting throughout. Do not change the identity or facial structure between panels, and do not introduce any unrelated person or different face.",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "antenna-plug-doom-console",
+      "category": "视觉尝试",
+      "title": "天线插头里塞进一台「家庭主机」：插上电视就能开 Doom",
+      "body": "工程师对着一堆 9.5 毫米天线插头发呆：能不能把整台游戏机塞进去？结果真做成了——一块 ESP32-S3、电阻搭的数模转换、自制射频调制器，全塞进插头壳体。它不走 HDMI，而是直接往老电视机的天线口灌模拟电视信号，手柄用 Xbox 的蓝牙。作者为了学快过时的 PAL 制式，把亮度、色度、声音载波一层层用软件「烤」成波形表；屏幕上每一行都是查表拼出来的，连 Doom 都能玩。早先他想塞进更小的 RCA 头，可是耳机电池供不起一百多毫安的电流，也带不出声音，才改成天线插头这条路。项目文件、原理图和硬件图都开源，Show HN 上大家围着「还能不能再小」吵。所以呢：讲「极致迷你硬件」别只晒体积——让观众看见：一根天线线，也能变成一台会广播的游戏机。",
+      "links": [
+        {
+          "label": "制作长文",
+          "url": "https://raytriangle.com/making-the-worlds-smallest-game-console/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50027337"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "talus-browser-terrain",
+      "category": "视觉尝试",
+      "title": "浏览器里跑出四公里游戏地形：二十三兆参数的小扩散模型",
+      "body": "做游戏缺高度图时，作者不想再等云端排队，也不想把整套生成器塞进引擎。他从头训了一个两千三百万参数的扩散模型，起名叫 Talus——山脚下那堆碎石坡。打开网页选「岛屿」或「山脊」，设好起伏和水，大约二十五步噪声就收成一张六十四乘六十四、约四公里宽的地形。模型权重约五十四兆，第一次下载后缓存在本机；有 WebGPU 就上显卡，没有就用 CPU，同一组种子和设置会得到同一张图。训练数据是他自己生成器里的四万五千张图，带河流切谷、碎石滑落。导出还能进 Unity、虚幻、Godot 或 Blender。作者还公开了本地命令行采样流程，方便一次生成上百张高度图再批量进引擎。所以呢：讲「小模型也能干活」时，别只报参数——让观众当场生成一座岛，再拖进引擎。",
+      "links": [
+        {
+          "label": "在线生成",
+          "url": "https://talus.tersa.tech/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/osfv/talus"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50025619"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "oldroll-vintage-web",
+      "category": "视觉尝试",
+      "title": "不用装 App：浏览器里把照片洗成数码相机和九十年代胶片味",
+      "body": "手机相册里一堆平平无奇的日常照，作者把 OldRoll 的滤镜搬上了网页。打开 oldroll.io，选一张图，就能试直闪数码相机、Y2K 低像素日期戳、九十年代泛黄、胶片颗粒、宝丽来边框或梦幻光晕。曝光、冷暖、饱和与模糊都能细调，还能叠闪光、漏光和贴纸，做成条带拼贴。网页上线期间全部免费，手机和电脑浏览器都能用，不用再下那个装了一堆广告的 App。创作者拿它做封面，卖家拿它做氛围图，都说比「一键滤镜」更像真相机在说话。于是一条普通街拍，也能洗成一九九八那年夏天的味道。调强度时还能和原图对比，不满意就收回去，适合一口气洗一整组旅行照。所以呢：讲复古修图别甩参数表——让观众当场把一张自拍洗成旧相机里的那一张。",
+      "links": [
+        {
+          "label": "OldRoll 网页版",
+          "url": "https://www.oldroll.io/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50016840"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "php-parkour-browser-demo",
+      "category": "视觉尝试",
+      "title": "人形机器人跑酷开源了：浏览器里就能看它摔、再看它学会",
+      "body": "亚马逊 FAR 团队把「感知型人形跑酷」整套放了出来。障碍物距离随机，机器人靠机载深度相机实时改步态，把跳跃、翻越这类动作串成一条技能链。最爽的是演示页：不用装仿真器，浏览器里就能开物理引擎，键盘鼠标自己开练，看着它在真机视频里也会摔、也会站起来再试。论文叫 Perceptive Humanoid Parkour，项目页、代码和互动演示一起公开。作者在社交网上说，很多仓库只有说明和装不起来的依赖——这个至少打开就能玩，失败也看得见。于是观众不再只听「成功率百分之几」，而是亲手推一把障碍。所以呢：讲机器人研究别只贴数字——给观众一个会摔的网页，比三十分钟演示片更诚实。",
+      "links": [
+        {
+          "label": "项目页",
+          "url": "https://php-parkour.github.io/"
+        },
+        {
+          "label": "浏览器演示",
+          "url": "https://php-parkour.github.io/demo.html"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/amazon-far/php_parkour"
+        },
+        {
+          "label": "开源宣布帖",
+          "url": "https://x.com/zhenkirito123/status/2108586611235762459"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "spin-cycle-washing-tetris",
+      "category": "视觉尝试",
+      "title": "俄罗斯方块扔进洗衣机：转筒一转，消行也跟着转",
+      "body": "游戏设计师翻出旧笔记本，把压箱底想法一个个做成能玩的原型。最新一款叫 Spin Cycle，开场像普通消行方块：左右移动、旋转、消行得分。玩着玩着转筒启动——整块场地开始旋转，你刚摆好的行跟着歪，还得在离心感里继续堆，清行会带出连锁。作者把站点命名为 verywacky.games，说就是要做一堆「离谱但好玩」的短游戏，Spin Cycle 是第一发，后面还会上更多。浏览器里点开就能玩，不用下载，适合发给朋友比谁先晕。于是熟悉的方块规则，转起来就像换了一款游戏。作者说这些点子来自多年游戏设计日记，现在终于轮到洗衣机这一页落地。所以呢：讲「机制创新」时，别只写「增加难度」——让观众感受：同一套消行，转起来就变成另一件事。",
+      "links": [
+        {
+          "label": "立刻玩",
+          "url": "https://verywacky.games/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50028785"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "starguessr-night-sky",
+      "category": "视觉尝试",
+      "title": "夜空版 GeoGuessr：给你一片星空，猜你站在地球哪",
+      "body": "有人把街景猜城市的玩法搬到天上。打开 Starguessr，屏幕不是马路招牌，而是一整片星空目录。你根据大熊、猎户这类熟悉星座，再看亮星分布和天极方向，在地球仪上点出「拍摄者大概站在哪半球、哪一带纬度」。站点挂在 sidequests.space 下，Show HN 当天还在加载星表，但玩法一眼就懂：把地理直觉换成天文直觉。适合当周末派对游戏，也适合天文社招新——猜错了就当认识新星座，猜对了能吹一整个晚上。于是本来只在 App 里认星的人，开始跟朋友吵「这是不是南半球」。第一次打开会加载星表，稍微等一会儿，之后就能连续开好几局比谁更准。所以呢：讲「知识游戏化」别做填空题——让观众抬头认星，再低头点地图。",
+      "links": [
+        {
+          "label": "Starguessr",
+          "url": "https://starguessr.sidequests.space/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50029732"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "bananadle-wiki-hop",
+      "category": "视觉尝试",
+      "title": "维基百科最短路径挑战：从任意词条跳到「香蕉」",
+      "body": "求职空窗期太闷，作者用编程代理搭了个全香蕉主题站，核心游戏叫 Bananadle。每天给你一个随机维基起点，目标只有一个：顺着蓝色链接跳到 Banana 词条，步数越少越好。旁边还有香蕉新闻、全球香蕉价格、点击剥蕉排行榜，整站荒诞得统一，像把自己的拖延症做成了产品。他在 Show HN 里坦白站点是代理帮写的，但玩法本身很硬——比拼的是知识图谱直觉，不是谁生成得快。朋友之间一比步数，就会开始争论「该先跳植物还是先跳贸易」。站点还堆着食谱和「香蕉世界」栏目，像把一个冷笑话做成了完整主题乐园。所以呢：讲「无用但上头的小游戏」时，挑一个全世界都认识的终点——香蕉就够了。",
+      "links": [
+        {
+          "label": "All Things Banana",
+          "url": "https://allthingsbanana.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50018882"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "piet-interpreter-in-piet",
+      "category": "视觉尝试",
+      "title": "用 Piet 语言写成的解释器，再跑一段 Piet：浏览器里套娃",
+      "body": "有人给自己的玩具语言 Temper 写编译后端，写着写着给 Piet——那种用色块当代码的「绘画语言」——也做了一个。玩嗨了之后，他把解释器本身也编译成一幅 Piet 图，再让这幅图去跑另一段 Piet 程序。页面用作者自研的 Blimp 写成，浏览器里靠 WebAssembly 解释器启动；打开 bobbby.online/piet，能看见四段套娃在组装、运行。这不是生产力工具，是一夜做出的小艺术装置：代码看起来像抽象画，画却真的在执行指令。外行人看颜色，内行人看控制流，两边都能聊。作者顺手链到自己的 Blimp 语言站点，说明整页本身也是用玩具语言跑起来的。多试两次就知道它顺不顺手。所以呢：讲「语言与艺术」交叉时，别空谈美学——给观众看一幅会执行自己的画。",
+      "links": [
+        {
+          "label": "演示页",
+          "url": "https://bobbby.online/piet"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50019185"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "noble-shapes-playground",
+      "category": "视觉尝试",
+      "title": "有限与无限的「贵族多面体」：浏览器里拧一拧就变形",
+      "body": "几何爱好者开了个叫 Noble Shapes 的游乐场。页面上摆着小星状十二面体、大十二面体、各种切面和棱柱式无限族——都是顶点等价的「贵族多面体」，听起来吓人，拧起来却很直观。你能旋转、改参数，看有限形体和无限延展的家族怎么共用同一套对称规则；研究向说明和三维展示分栏放着，GitHub 也能跟。它不教你背公式，而是让你用手感记住：有些形状换个参数就从雕塑变成无限管道。给数学课或三维设计短视频当开场，比一张静态 PNG 有说服力得多。页面把有限形体和无限族摆在一起，方便对照「同一种贵族性」长什么样。所以呢：讲抽象数学可视化，先让人拧两下——拧明白了再丢定义。",
+      "links": [
+        {
+          "label": "Noble Shapes",
+          "url": "https://nobleshap.es"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50009439"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "quakeimpact-vancouver-weeks",
+      "category": "视觉尝试",
+      "title": "大地震之后几周：温哥华哪些系统先死、哪些最晚回来",
+      "body": "住在温哥华市中心的托马斯，给法国侨民当应急联络人。他读完一堆政府与水电公司报告后发现：公众手册只教「晃的时候怎么办」，却很少说晃完几周里电、水、气、手机谁先坏、谁最后修好。于是他做成 QuakeImpact 网站，按小时、天、周、月摊开：电池耗尽后基站怎么哑、市区几周没电意味着什么、楼还立着却因围挡住不进去。每个系统一页，引用来源可点开原件；他强调自己不做模拟，只汇编已公开材料。读者不再停在「要准备」，而是具体知道两周干粮为什么是下限。站点写明不是官方渠道，紧急时仍以当地当局指示为准，它只帮你提前看懂时间尺度。所以呢：讲「风险沟通」别只喊准备——把「坏多久」画成时间线，观众才知道该囤什么。",
+      "links": [
+        {
+          "label": "QuakeImpact",
+          "url": "https://quakeimpact.ca/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50017252"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "lumibridge-bay-ships-led",
+      "category": "视觉尝试",
+      "title": "壁炉上那条 LED：实时画出湾里过往货轮的航迹",
+      "body": "住在圣地亚哥湾边的 Tim，总被家人问「外面那艘船是啥」。他做了 LumiBridge：一块四百四十八乘六十四的宽 LED 屏，挂在壁炉上方，用软件无线电和公开船舶数据把过往货轮画成光点航迹。后来屏幕还能回答「今天遛狗最佳时段」这类问题，把天气、航班等直播数据都挤上同一条光带。硬件物料清单、原理图和应用截图都公开，像一份可复制的客厅项目说明书。于是「看船」从掏手机变成抬头看墙，客人进门第一眼就会问那条光是什么。灵感来自类似航班墙的客厅显示，他只是把标题换成了湾里那艘慢慢挪动的货轮。所以呢：讲「环境可视化」别做手机小组件——让客厅墙上的光，替你盯着窗外那艘船。",
+      "links": [
+        {
+          "label": "LumiBridge 介绍",
+          "url": "https://timvasil.com/lumibridge"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50024159"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "carrier-explode-decoded",
+      "category": "小众工具",
+      "title": "运营商配置大解剖：iPhone、Pixel、三星固件里的 APN 和 5G 开关",
+      "body": "换卡或出国总被「运营商设置」卡死，作者把各品牌固件里的运营商配置持续扒出来，做成 Carrier-Explode。你可以查某家运营商在不同手机上的接入点名称、高清通话、无线局域网通话和 5G 能力，对比两个版本改了什么，也能按功能反查「谁家支持」。全站提供接口和每日开放数据集，维基页解释每种字段。Show HN 当天两百六十多赞，业余无线电和刷机圈子已经拿它查过几轮。解码器仍在完善，作者欢迎纠错和贡献。于是「运营商告诉我们不能开」变成「固件里到底写了啥」。你还可以把两家运营商并排对比，出国前先看清自己的机型到底缺哪一项开关。所以呢：讲「手机底层透明」别只骂运营商——给观众一个能对照的查询台。",
+      "links": [
+        {
+          "label": "Carrier-Explode",
+          "url": "https://carrierexplode.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50024499"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "readrare-tech-shelf",
+      "category": "小众工具",
+      "title": "五十一份几乎没人读过的内部备忘：苹果、英特尔、谷歌书架",
+      "body": "Sahil 搭了个叫 Read Rare 的书架站，收齐五十一份内部备忘、泄露手册和被遗忘的书：从苹果早期营销哲学、盖茨的互联网浪潮备忘，到 Netflix 文化卡、谷歌「我们没有护城河」泄露稿、以及开源圈津津乐道的平台吐槽帖。每份都能免费读或借阅，索引按文献列好，像一间只收「听过名字却找不到原文」的小图书馆。Show HN 一天过百赞——不是又一个书单博客，而是把口口相传变成可点开的页面。做内容的人最缺一手引文，这里刚好补上。从伯克希尔信件到早期互联网提案都有，翻目录本身就像在逛一间科技史特藏室。所以呢：讲科技史别只转二手摘要——甩原文链接，让观众自己读那一页。",
+      "links": [
+        {
+          "label": "Read Rare",
+          "url": "https://readrare.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50024055"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "apogee-local-summarizer",
+      "category": "小众工具",
+      "title": "Mozilla 停掉 Orbit 之后：他做了个完全本地的网页摘要插件",
+      "body": "Mozilla 的 Orbit 曾能摘要网页，后来被扒出结果会存到云端，项目也停了。作者用一个月重做 Apogee：默认在本机跑，Chrome 走显卡加速，Firefox 走网页汇编，也能接本机 Ollama 或自建推理服务。文章、视频时间线、维基、论坛帖、PDF 和 Word 都能摘要，选中一段也能只总结那几句；无账号、无密钥、页面内容不上传。Chrome 与 Firefox 商店已上架，Show HN 六十多赞。第一次运行会下载模型，之后可离线用。它还能把讨论串整理成带楼层结构的摘要，跟帖顺序和分数不会被揉成一团。对常读长帖的人很省事。想核对原句时，也可以回到页面里点选再问。本地优先这条线被作者写进了对比表。所以呢：讲「隐私向 AI 扩展」别空喊本地——让观众装上插件，断网还能摘要。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/darshi1337/apogee"
+        },
+        {
+          "label": "Chrome 商店",
+          "url": "https://chromewebstore.google.com/detail/apogee/pgemlpomhkdcjjjcpnjlebalnfglomog"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50017301"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "svg-spark-ten-local",
+      "category": "小众工具",
+      "title": "十个纯前端小工具：SVG 转图、正则可视化、PDF 拆合都不上传",
+      "body": "作者受够了「上传文件到神秘服务器」的在线工具站，做了 SVG Spark：十个单页工具全在浏览器里跑。矢量图批量转位图、正则实时高亮、社媒封面安全区裁切、PDF 拆分合并、结构化数据拍平成表格、字幕去时间轴、活动追踪链接生成、SQL 美化、对比度检测、Markdown 预览都有。文件不离开本机，适合开发者和创作者随手处理敏感素材。HN 四十多赞说明需求真实：人们要的不是又一个订阅制网站，而是能离线的瑞士军刀。打开就能用，也不用注册。十个工具共用同一套「什么都不上传」承诺，换工具也不用重新担心隐私弹窗。所以呢：讲工具产品别先谈会员——先承诺「你的文件哪儿也不去」。",
+      "links": [
+        {
+          "label": "SVG Spark",
+          "url": "https://svg-spark.vercel.app/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50013931"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "yeahnah-job-ad-bs",
+      "category": "小众工具",
+      "title": "把澳洲招聘广告扔进去：它给你「废话分」和人话翻译",
+      "body": "澳洲求职者看腻了「快节奏环境」「自驱力强」这类空话，Yeah Nah 让你粘贴整段招聘启事。它逐行标出藏话，翻成直白意思，再给零到一百分的废话分数——零是人话，一百是纯包装。另外输出「这份工作到底是啥」和「广告故意没写什么」，像请一位毒舌朋友帮你读 JD。名字来自澳式口语 yeah nah，听起来像敷衍，用起来却很锋利。站点 yeahnah.lol，痛点全球通用：招聘文案正在被 AI 写得更滑。投简历前先过一遍，能少踩很多坑。把公司自我介绍里那些正确的废话标红之后，你才看清岗位到底要加班还是要值班。多试两次就知道它顺不顺手。所以呢：讲求职内容别教人「如何讨好关键词」——先教观众识破包装。",
+      "links": [
+        {
+          "label": "Yeah Nah",
+          "url": "https://yeahnah.lol/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50028283"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "context-diet-claude-mod",
+      "category": "小众工具",
+      "title": "Claude Code 节食插件：测试日志先瘦身，全文仍一读之遥",
+      "body": "一次六百个用例的测试跑完，三万字符几乎全是通过行，上下文却被撑到一半，压缩来得更早。Context Diet 是给 Claude Code 用的插件：命令吐出墙一样的输出时，模型先拿到浓缩版——错误及上下文、摘要、数据形状，外加完整日志的本地路径；需要细节再读取那份文件。装好后用演示命令看面板，也能一键清空。支持终端和桌面端代码页签，作者在苹果电脑上测过。于是代理不再被「全绿」的日志淹没，真正的失败行反而更显眼。说明里举了锁文件混进 diff、巨型 JSON 刷屏这类典型翻车，插件就是冲着它们来的。多试两次就知道它顺不顺手。所以呢：讲「给代理省上下文」别只说压缩——让错误留下，废话进文件。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/drkokorev/context-diet"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50024608"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "glimpse-local-screenshots",
+      "category": "小众工具",
+      "title": "Win+Alt+S：按截图里的字或长相对找图，全在本地",
+      "body": "截图文件夹一堆，文件名全是时间戳，想找「那天那个报错对话框」只能一张张翻。Glimpse 给 Windows 装上本地文字识别和图像检索：按下全局热键，输入你记得的几个字，或描述「蓝底白字对话框」，就能找回那张图。托盘常驻，还接系统命令面板；索引与搜索都不出电脑。作者说目标就是替代「在资源管理器里瞎翻」。对写教程、做客服复盘的人特别管用——截图本身变成可搜索的知识库。安装后像多了一个专门搜屏幕的入口，比翻「截图」文件夹省掉不知道多少分钟。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。所以呢：讲桌面效率别只推云盘搜索——截图本来就该按内容找。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cgranier/glimpse"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50023849"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "lacuna-mac-brace-complete",
+      "category": "小众工具",
+      "title": "Mac 上任意输入框：花括号里写意图，快捷键换三句候选",
+      "body": "Jack 写邮件常卡在半句措辞，又不想跳到另一个聊天窗口来回复制。他做了开源小工具 Lacuna：在任意文本框用花括号包住意图，按快捷键就把内容和前后文送给你配置的大模型，返回三句候选，全键盘挑选替换。灵感来自窗口管理软件的键盘流——手不离开键盘就能改完。作者说日常最多用在邮件草稿，项目开源，快捷键可改。于是「帮我写委婉一点」不再打断写作节奏。候选结果直接替换花括号那段，周围句子保持不动，读起来还像你自己写的。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。所以呢：讲「写作副驾驶」别做成又一个聊天窗——嵌进正在写的那一行。",
+      "links": [
+        {
+          "label": "介绍博文",
+          "url": "https://jackdamon.org/blog/lacuna/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50025559"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "marginalia-passage-reader",
+      "category": "小众工具",
+      "title": "问书本问题，答案带原文锚点：PDF 与电子书本地 AI 阅读器",
+      "body": "读论文或法规时，最怕 AI 胡编页码，更怕它编造一段「好像读过」的话。Marginalia 在浏览器打开 PDF 或电子书，文件不上传；你提问后，每条回答钉到具体段落，一点就跳回去。手机也能读，不用双指狂放大。前三个问题免登录，医学、法律、编程、数学分了场景。作者强调「引用必须可点回」，这才是阅读器该有的底线。于是「问书」和「核对原文」变成同一步。打开一本教材试问三句，就能判断它是真在读书，还是在空转聊天。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。所以呢：讲 AI 读书工具，验收标准只有一条——答完能不能带你回到那一行。",
+      "links": [
+        {
+          "label": "Marginalia",
+          "url": "https://marginal-ia.app/en"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50024097"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "cad-studio-agent-parts",
+      "category": "小众工具",
+      "title": "对 Mac 说「做一个可打印的行星齿轮箱」：代理写出参数化零件",
+      "body": "Filippo 把编码代理接进原生 Mac 应用 CAD Studio。你描述零件，代理写出参数化脚本，跑出三维模型、工程图纸和切片机要的打印文件。支持多色零件、爆炸视图、物理动画与碰撞检查，参数面板可回退历史版本。官网有带旁白的演示视频，能看见从一句话到可打印板的全过程。它不是网页建模玩具，而是「让桌上的编码代理直接当机械助手」。改齿数、改壁厚，都像改代码一样留下版本。量尺寸、剖切面、把零件摆上打印盘，这些检查都留在同一个应用里，少导出几次。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。所以呢：讲 AI 造物别停在渲染图——要能导出真去打的那份板。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/filippofinke/cad-studio"
+        },
+        {
+          "label": "项目站",
+          "url": "https://filippofinke.github.io/cad-studio/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50026073"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "babytalk-esp32-offline-voice",
+      "category": "小众工具",
+      "title": "ESP32 上离线听说：六兆闪存跑语音识别，还能说话",
+      "body": "BabyTalk 让小体积开发板在无云条件下听懂话并回话。几行脚本：录一段声音，转成文字，再合成语音播出。语音识别模型约六兆闪存、八十多 KB 内部内存，模型驻留闪存不整份进内存；语音合成再加约两兆。针对嘈杂环境微调，并带数据采集与再训练框架，也有面向芯片向量单元的整型加速。适合做离线小助手、对讲标签、无网展项——展厅断网也不哑。于是「端侧语音」不再默认等于手机芯片。文档把闪存和内存账算得很清楚，方便你在选型阶段就知道板子撑不撑得住。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。所以呢：讲端侧语音别言必手机——单片机也能先听后说。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tlack/babytalk"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50026819"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "tgv-terminal-genome-mcp",
+      "category": "小众工具",
+      "title": "终端基因组浏览器：代理不用再画歪歪扭扭的字符比对图",
+      "body": "生物信息分析常在远程终端黑盒里完成，代理解释突变时只能画字符画，还经常画歪。tgv 把基因组浏览搬进终端：熟悉的快捷键、鼠标也行，支持常见测序与变异文件、对象存储和公开参考基因组。作者专门为「人机协作」设计——代理可在交互会话里高亮一段，并配上工具协议，把多组学数据收进高性能引擎，用几行查询代替一串命令管道和坐标系混用。于是人和代理盯着同一段碱基说话，而不是各猜各的。以前代理只能用字符画比对齐，现在可以直接在会话里指着高亮区间讲证据。所以呢：讲科学代理别只接网页——给它一个能指着碱基说话的终端界面。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zeqianli/tgv"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50029175"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "memdebug-agent-memory-undo",
+      "category": "小众工具",
+      "title": "给代理的记忆装黑匣子：看见改了啥，还能一键撤回",
+      "body": "代理记忆常是一堆笔记文件或外部记忆库，没人天天审，中毒或误写也难发现。memdebug 本地观察这些记忆：记录当前装了什么、何时变了、有没有绕过仓库历史的篡改，并做可回滚的快照。它不挡在代理中间，只当黑匣子；支持文件夹、版本库、网页界面记忆和自建记忆服务。演示里能抓住「悄悄改掉一条记忆」再安全还原。于是「代理记得什么」第一次变得可审计。它对「看起来像被投毒的措辞」也会标出来，提醒你人工再看一眼。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。所以呢：讲代理安全别只盯提示词注入——先让记忆变更看得见、撤得回。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/juraj-jumic/memdebug"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50026431"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
+    {
+      "id": "crosstune-music-link-open",
+      "category": "小众工具",
+      "title": "朋友发来 Spotify 链接：一键在你常用的音乐 App 打开同一首歌",
+      "body": "群聊里有人甩 Spotify，你却只用另一家，复制歌名再搜一遍又烦又容易搜错版。Crosstune 接住任意音乐链接，识别同一首歌，在你常用的 App 里打开；歌单也能整表映射。还能跟唱歌词、浮窗歌词叠在任意界面上。安卓测试版免费开源无广告。它不做又一个「全网搜歌」站，只做「链接翻译成你的播放器」。朋友之间分享终于不再变成平台战争。装上之后，微信里那条链接终于不再逼你切换账号或换设备。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。多试两次就知道它顺不顺手。所以呢：讲跨平台音乐体验，最短路径是——点开别人的链接，歌在自己的 App 响。",
+      "links": [
+        {
+          "label": "Crosstune",
+          "url": "https://crosstune.4st.li/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50029897"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-10T15:10:00+08:00"
+    },
     {
       "id": "anthropic-unintended-philly-tip",
       "category": "硬科技",
