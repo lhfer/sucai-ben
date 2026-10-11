@@ -1,5 +1,718 @@
 [
   {
+    "id": "prompt-seedance-ny-selfie-vlog",
+    "category": "提示词",
+    "title": "纽约一日游全是她自己拍：机位只许「举着」或「搁着」",
+    "body": "酒店套房里，她对着侧柜上歪着的手机说：「七点了，我在纽约，我为什么醒着。」\n\nEvoLink.ai（@EvoLinkAi）把这段「自拍 vlog」拆成两段提示词：先用 GPT Image 2.5 锁住同一张脸的角色设定图，再用 Seedance 2.5 拍出从起床、冲咖啡、出门、街边、diner 到夜里倒回床上的八个硬切镜头。真正厉害的不是场景清单，而是「摄影机归属锁」——全片只许两种机位：她举着拍（手臂发力、脚步颠簸），或她自己把手机搁在桌边、栏杆上（画面歪、她进出画）。不许跟拍、不许运镜车、不许任何她一个人拍不出来的角度看自己。台词也锁死：只有引号里那几句，其余时间闭嘴，像没彩排的中途喘气。\n\n帖子收藏超五百，很多人在问怎么让对话更自然——答案写在提示词里：故意要手抖、自动曝光乱跳、毛衣肩带跟着胳膊滑。\n\n所以呢：别再写「电影级运镜」，先问一句——这镜头她自己举得起来吗？举不起来就删掉。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/EvoLinkAi/status/2108809695087710283"
+      },
+      {
+        "label": "完整提示词回复",
+        "url": "https://x.com/EvoLinkAi/status/2108809701697667498"
+      }
+    ],
+    "prompt": "Character sheet created by GPT Image 2.5:\n\nIMPORTANT — IDENTITY LOCK: The uploaded reference image is the definitive identity reference. Reproduce the EXACT SAME PERSON throughout the entire character sheet. Do NOT redesign, beautify, reinterpret, or replace the character. Preserve with maximum accuracy: exact facial identity, facial structure and proportions, eyes, eye shape and iris color, eyebrows and natural brow shape, nose shape and proportions, lips, mouth shape and fullness, cheeks, jawline and chin, skin tone and natural skin texture, age appearance, hairline, exact hair color, length, texture and hairstyle, body proportions and physique, distinctive facial characteristics.\n\nCHARACTER SHEET LAYOUT: Create one clean, professional reference-board image containing: large front portrait / face close-up, front view, 3/4 left view, 3/4 right view, left profile, right profile, back view, full-body front view, full-body 3/4 view, full-body side view, full-body back view, neutral expression, natural smile, soft smile, looking left, looking right, eye close-up, eyebrow close-up, nose close-up, lips close-up, hair close-up, accessories close-up, outfit / clothing reference, color palette / skin-tone reference.\n\nCONSISTENCY: Every panel must show the SAME person. Keep facial identity, proportions, hairstyle, skin tone, body shape, and physical characteristics consistent across every angle, pose, and expression. For views not clearly visible in the reference, intelligently reconstruct the character while staying strictly faithful to the visible reference. Do not invent major distinguishing features.\n\nPRESENTATION: Premium professional film-production character bible / modeling reference sheet. Clean editorial layout. Neutral studio background. Soft realistic studio lighting. Sharp facial details. Natural skin pores and texture. Individual hair strands. Realistic fabric and accessories. Accurate human anatomy. Consistent camera perspective. Clean thin borders between panels. Professional labels underneath each view. Minimal elegant typography. High-end fashion / model reference aesthetic.\n\nPHOTOREALISM: Ultra-photorealistic. Real human appearance. Natural skin texture. Realistic eyes. Physically accurate hair. Natural shadows. Realistic proportions. No CGI appearance. No plastic skin. No doll-like face. No artificial beauty-face replacement.\n\nNEGATIVE PROMPT: different person, different face, face morphing, identity drift, altered facial structure, different eyes, different nose, different lips, different jawline, different skin tone, different hairstyle, inconsistent body proportions, duplicate person, distorted anatomy, asymmetrical face, plastic skin, waxy skin, CGI, 3D render, cartoon, anime, illustration, over-beautification, excessive makeup, unrealistic eyes, blurry face, low detail, extra fingers, missing fingers, malformed hands, bad anatomy.\n\nOUTPUT: One complete, highly detailed professional CHARACTER CONSISTENCY SHEET in a single image, suitable as a master reference for generating consistent images and videos of this character.\n\nVideo created by Seedance 2.5:\n\nSCENE: A day in New York shot entirely by the subject herself: waking in her hotel suite, coffee, getting ready, out into the city, back to the room at night.\n\nACTIVE REFERENCES: @image1 — the hotel suite. Curved cove ceiling with warm LED coving, deep red carpet, cream walls, two black organic sculptures above a light wood headboard, white bedding with red pillows, twin bedside lamps, pale sofa, oval coffee table, sheer curtains, dark door. @image2 — the subject. Young woman, shoulder-length wavy blonde hair with curtain bangs and highlights, light freckles, thin gold necklace, silver ring, dark brown off-the-shoulder knit with white diamond-stripe pattern. 100% matches the reference.\n\nCAMERA OWNERSHIP LOCK: Only two positions exist. HELD: arm extended, camera 0.4–0.7m from her face, visible arm tension, tilt and step-bounce. PROPPED: camera on a surface she placed it on, crooked and fixed, with her moving in and out of frame. No operator shots, no tracking, nothing she could not have filmed alone.\n\nFORMAT: Eight shots, 30s, seven hard cuts, no fades. Real-time.\n\n0–4s SHOT 1 — PROPPED, morning room. Camera on the sideboard 3m from the bed at 1.1m, static and tilted. The suite matches @image1: cove light on, curtains half open, cool daylight across the red carpet. @image2 is visible at 0.0s, sitting up on the bed edge. She rubs her face and says to the running camera: “It’s seven. In New York. Why am I awake.” She stands and walks out screen-right. HARD CUT.\n\n4–7s SHOT 2 — HELD, window light. Arm’s length, above eye line. She pulls the curtain, squints at the street below, then looks into the lens: “Okay. It’s actually happening.” Arm wobble throughout. HARD CUT.\n\n7–11s SHOT 3 — PROPPED, coffee. Camera on the oval coffee table, low, looking up past a cup. She sits into frame, pours, tastes, and says: “Hotel coffee. We’ll fix that outside.” Steam bends in the light. HARD CUT.\n\n11–15s SHOT 4 — HELD, mirror. Camera at chest height reflected in the suite mirror. She works through her hair with the other hand. At 13s: “This is as good as it gets. Let’s go.” HARD CUT.\n\n15–18s SHOT 5 — HELD, leaving. Camera held low at waist height, turned forward. She crosses the red carpet to the door. She opens it and corridor light floods the frame. Off-frame: “Downtown first.” HARD CUT.\n\n18–22s SHOT 6 — PROPPED, street. Camera on a stoop rail, static and crooked. A New York block behind her: brownstone steps, fire escapes, yellow cabs, steam from a vent. She walks in from screen-left, stands in frame, and says: “Look at this street.” Then walks to the lens and takes it. Passers-by cross the foreground. HARD CUT.\n\n22–26s SHOT 7 — PROPPED, diner. Camera on the counter behind a plate, looking up. She sits into frame, takes a bite, eyes widen, and says: “Okay, that’s the one.” She laughs and keeps eating. HARD CUT.\n\n26–30s SHOT 8 — HELD, night, back in the room. She lies back across the white bedding, hair spread, in the brown knit again. Bedside lamps and cove light are the only sources. Into the lens: “Twenty thousand steps. Everything hurts.” Softer: “Same time tomorrow.” She waves as she lowers the camera. 30.0s black.\n\nSPEECH: Only the quoted lines are spoken, at the timings given, all in her voice. Lips still at all other times. No voiceover, no second speaker, no offscreen voices. Delivery is casual, unrehearsed, mid-breath, sometimes trailing off.\n\nCONTINUITY: The suite matches @image1 in both interior sequences. Hair, necklace, ring, face, body proportions, and outfit details remain identical throughout.\n\nPHYSICS: Loose knit slides on the shoulder with every arm movement. Wavy hair lags a frame behind head turns. Bedding creases under her weight. Step energy is visible in every HELD frame.\n\nLIGHTING: Shots 1–4 use cool daylight from the curtains as key and warm cove LED as fill. Shot 5 uses corridor light. Shots 6–7 use hard street daylight and warm diner practicals. Shot 8 uses lamps and cove light only.\n\nAUDIO: Diegetic only, from the same camera — room tone, footsteps, door, traffic, sirens, steam vents, diner clatter, and wind. Ambience ducks under her lines. No music.\n\nLOCKS: Photoreal live action, 4K detail, fine grain, warm consumer-camera color, mild rolling shutter and auto-exposure hunting. She is the only person who speaks. Background figures are anonymous and unfocused. No subtitles.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-kling-toddler-raider-shrink",
+    "category": "提示词",
+    "title": "沙漠匪徒冲过来，一枪打成穿同款盔甲的幼儿",
+    "body": "工房里，秃顶发明家摸着黄铜步枪上的青绿线圈，说了一句：「全新开始。」\n\nAlin（@Alin_Reaper05）用 Kling 4.0 Flash 做了一段二十秒的三镜头短片：第一镜工房特写，第二镜第一人称看匪徒挥木棒冲来，青绿脉冲一闪；第三镜同一个匪徒变成全套迷你装备的幼儿，坐在沙地上眨眼睛。发明家蹲下来递拨浪鼓，小孩立刻抢过去。提示词把「闪光遮住变形」写死，并要求保留可辨认的身体结构——缩小是故意的，不是糊成一团。风格锁定成抛光的风格化三维动画：夸张表情、手作黄铜器械、尘土橘黄地貌、暖色电影光。\n\nAlin 还在同帖问：完整版 Kling 4.0 下周能来吗？评论区一边夸镜头一边跟着催。\n\n所以呢：搞笑科幻别靠旁白解释，让「缩小前后穿同一套皮」自己把笑点说完。",
+    "links": [
+      {
+        "label": "X 成片",
+        "url": "https://x.com/Alin_Reaper05/status/2108962836076462299"
+      },
+      {
+        "label": "提示词回复",
+        "url": "https://x.com/Alin_Reaper05/status/2108962838567907756"
+      }
+    ],
+    "prompt": "Create a 20-second humorous sci-fi short in polished stylized 3D animation. Exaggerated facial expressions, handcrafted brass technology, dusty orange landscapes and warm cinematic sunlight.SHOT 1: Medium close-up inside an eccentric inventor’s workshop. The inventor is stocky, balding, black-mustached and dressed in a brown leather coat. He adjusts the turquoise coil of his oversized brass rifle and says: “A fresh start.”SHOT 2: Cut to first-person view in a desert industrial yard. A broad-shouldered raider wearing a leather helmet and goggles charges toward the camera with a wooden club. A turquoise pulse engulfs him in a brief bright flash.SHOT 3: Reveal a fully clothed toddler version of the same raider, with matching miniature goggles, helmet and leather outfit. He sits in the sand beside a tiny toy-sized club, blinking in confusion.SHOT 4: Ground-level close-up. The toddler tries to deliver an angry battle cry, producing an indignant little babble. The inventor crouches into frame and offers him a colorful rattle. The toddler immediately grabs it.Soft comic sound design, expressive eye movements, clear transformation hidden by the flash, no subtitles.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-kling-outer-worlds-shrink-gun",
+    "category": "提示词",
+    "title": "「对人绝对安全」：一枪把匪徒缩到膝盖高",
+    "body": "发明家举起那把管子外露、能量舱在转的实验步枪，笑着说：「绝对安全。至少对拿枪的人是。」\n\n还是 Alin（@Alin_Reaper05），同一周末另一条 Kling 4.0 Flash：明确要求「The Outer Worlds（2019）气质」——粗壮科幻机械、黄铜配件、发光线圈、大胆配色、带点公司讽刺的 AAA 游戏过场感。三镜头：工房展示 → 第一人称对战一发青绿脉冲 → 低角度看缩小后的匪徒挥拳发泄。提示词写明「缩小过程中仍要保持可辨认的解剖结构」，声音只留充电、放电和轻快冒险配乐，不要字幕和界面。\n\n周末假期开场帖，点赞七十多，底下有人问完整版什么时候来。\n\n所以呢：想让 AI 视频「像某个游戏」，别只写游戏名当形容词，把零件材质、颜色脾气和讽刺语气一起写进镜头表。",
+    "links": [
+      {
+        "label": "X 成片",
+        "url": "https://x.com/Alin_Reaper05/status/2108793193642836003"
+      },
+      {
+        "label": "提示词回复",
+        "url": "https://x.com/Alin_Reaper05/status/2108793196360687970"
+      }
+    ],
+    "prompt": "Create a three-shot retrofuturistic weapons demonstration with the visual character of The Outer Worlds (2019): chunky science-fiction machinery, brass fittings, glowing coils, bold colors, stylized AAA RPG cinematics, mischievous corporate satire.SHOT 1: Inside a cluttered workshop, an eccentric inventor proudly presents a heavy experimental rifle with exposed copper tubing, a rotating energy chamber, and a polished wooden grip. He says: “Absolutely safe. For the person holding it.”SHOT 2: Hard cut to first-person combat outside a remote factory. A masked raider charges across rocky ground. The rifle fires one concentrated turquoise pulse, uniformly shrinking the raider and his equipment to knee height.SHOT 3: Low-angle close-up of the tiny raider indignantly shaking his fist while the inventor watches from behind a crate, delighted.Maintain recognizable anatomy throughout the deliberate shrinking effect. Punchy cuts, bright alien sunlight, electrical charging sounds, one powerful energy discharge, playful adventure music. No subtitles or interface.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-kling-acid-rain-courier",
+    "category": "提示词",
+    "title": "酸雨墙横穿白桦林：快递小哥冲进排水隧洞",
+    "body": "白桦林里，雨墙像移动的竖帘，从树干之间慢慢推过来。\n\nAlin（@Alin_Reaper05）给 Kling 写了四段精确分镜：跟拍背着密封医疗物资的快递员；特写雨打蕨叶，叶子几秒内发黄卷曲碎裂，金属路牌同步锈穿；快递员发现雨墙后冲向混凝土排水隧洞，货物随惯性晃动；最后从洞内向外看，被雨碰到的树塌成灰白粉末，天空却一点没变。提示词要求写实环境转化、克制特效、防护服有触感，声音是雨声、断枝、呼吸过滤器和一段没解决的大提琴音。快递员的外貌和装备跨镜头不许漂。\n\n没有喊「末日大片」，只把「雨碰到什么，什么就废」写成因果。\n\n所以呢：恐怖感不一定靠怪物脸，让「同一片天、同一条物理规则」把世界一点点拆掉就够了。",
+    "links": [
+      {
+        "label": "X 提示词帖",
+        "url": "https://x.com/Alin_Reaper05/status/2108592649754026465"
+      }
+    ],
+    "prompt": "A cinematic sequence with four precise shots. A courier carrying sealed medical supplies enters a forest of white-barked trees as an unnatural storm approaches. Shot 1: a steady camera follows behind the courier; the forest ahead is green, while a narrow band of rainfall moves between the trunks like a traveling wall. Shot 2: macro close-up of rain striking a fern; its leaves yellow, curl, and crumble within seconds, while an abandoned metal sign rapidly corrodes beside it. Shot 3: the courier notices the approaching rain and runs toward a concrete drainage tunnel, cargo rocking with physically believable inertia. Shot 4: from inside the tunnel, the camera looks past the exhausted courier toward the forest; trees touched by the storm collapse into pale dust, leaving an open landscape under the same unchanged sky. Photorealistic environmental transformation, tactile protective clothing, restrained visual effects, muted green fading into silver and ash. Sound: rain, snapping branches, mechanical breathing filters, an unresolved cello note. Preserve the courier's appearance and equipment across every cut. No readable signage, logos, or interface.",
+    "date": "2026-10-09",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-zara-vest-tryon",
+    "category": "提示词",
+    "title": "试穿马甲到一半：她说这整段视频是 Sonnet 写的",
+    "body": "自拍镜头里，她夹好三脚架，把海军蓝加奶油色罗纹马甲正反面转给镜头看，还把里面的 Zara 标怼到失焦再合焦。\n\nchaos（@Hooky310）用 Seedance 2.5 加四张参考图（角色、房间、开场帧、单品）做出三十秒试穿片：前二十秒一条连续，第二十秒硬切到全身检视，结尾她拿回手机说——「最疯的是，Sonnet 5.5 把整段视频都写了。」提示词把时间戳、口型、手抖、曝光变化和「只要人声、脚步、布料声、房间底噪」写死，明确禁止旁人、字幕、水印、美颜和配乐。另一条回复点破：秘诀不在视频词，而在先喂四张各管一件事的参考图；还要主动要「失误」——完美反而假。\n\n所以呢：UGC 试穿片先写「哪里故意不完美」，再写衣服颜色；完美皮肤一出现，观众就知道是广告。",
+    "links": [
+      {
+        "label": "X 成片",
+        "url": "https://x.com/Hooky310/status/2108877226620129488"
+      },
+      {
+        "label": "可复制提示词",
+        "url": "https://x.com/Hooky310/status/2108877229703020929"
+      }
+    ],
+    "prompt": "Create a 30-second, 9:16 smartphone fashion try-on video at 1080p. Two continuous takes, exactly one hard cut at 0:20. Same woman, room, lighting and garment throughout.\n\n0–5s: Close handheld selfie. She says: ‘Okay… I just tried Claude Sonnet 5.5, and honestly? It’s insane.’\n5–8s: She stands and clips the phone onto a tripod. Natural wobble, clamp click. ‘Hold on.’\n8–13s: Shows the vest front and back. ‘So, this vest. Navy and cream rib, and this little collar.’\n13–16s: Brings the inside label close. Autofocus hunts, then locks. ‘Zara, obviously.’\n16–20s: Takes off her sweater over a skin-tone tank, puts on the vest. Fabric moves with real weight.\n20–25s: Hard cut to outfit check. Adjusts collar, turns slightly. ‘Okay… yeah. Obsessed.’\n25–30s: Picks up phone, close selfie. ‘And the craziest part? Sonnet 5.5 wrote this whole video.’\nNatural pauses, uneven smiles, precise lip sync, handheld shake, exposure changes.\nNo extra people, captions, watermarks, beauty filter or music. Only voice, footsteps, fabric rustle, room tone.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-audio-ref-only",
+    "category": "提示词",
+    "title": "黑屏音频当时间轴：口型跟声音走，画面不许抄黑帧",
+    "body": "有人问 Alexis Aurion（@alexis_aurion）：你那套代理工作流，发给 Seedance 的提示词长什么样？\n\n他贴出一段故意打了方括号的模板。核心巧思是参考物分工：@Video1 只当「纯音频参考」——画面是黑屏，模型绝不能画出黑帧，却必须逐字、逐停顿复述这段女声；@Image1 管脸和发型，@Image2 管环境构图，@Image3 管产品。整段二十六秒竖屏，只有她对着柜台上的手机说话，不许 B-roll、不许单独手部特写，只在中景和稍近景之间按时码切。微表情、耸肩、笑纹都要写成像跟闺蜜聊天，而不是主持人口播。\n\n收藏三十五，法语区创作者在传这套「声音管时间轴、图片管长相」的拆法。\n\n所以呢：多参考不是堆素材，是给每张图、每段视频发一张「岗位说明书」，越界就翻车。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/alexis_aurion/status/2108839002707026029"
+      }
+    ],
+    "prompt": "Vertical 9:16 TikTok [niche] video, 26 seconds. Raw iPhone footage look, natural Sunday-morning window light, real [Environnement], not cinematic, not CGI.\n\nREFERENCE ROLES (strict):\n- @ Video1 is an AUDIO-ONLY reference. Its picture is a plain black screen: never show black frames, never copy its picture. Its soundtrack is the woman's voice and the master timeline of this video.\n- The speech is EXACTLY the voice of @ Video1: same voice, same words, same timing, same pauses. Say every word ONCE: do not add, remove, repeat or change a single word. No other voice.\n- @ Image1 is the CREATOR reference only (not a first frame): her face, big natural curly hair, small gold hoops, bright red fitted t-shirt.\n- @ Image2 is [Environnement] and the framing of the face-camera shots.\n- @ Image3 is the exact [product]: [Product description].\n\nONLY the woman talking to the camera, phone propped on the counter at chest height: no B-roll, no cutaway, no close-up insert of hands alone. Shot changes only between medium shot and a slightly closer shot of her, on the times below.\nPERFECT LIP SYNC to @ Video1 on every syllable.\nShe is alive and expressive, never frozen, never just nodding: her whole upper body talks, she is genuinely passionate, talking to her girlfriends. Real micro-expressions: eyebrow raises, smile lines, quick blinks, natural breathing, laughs, weight shifting. Gestures loose and imperfect like a real person, not a presenter. Phone handheld micro-movement only, no zoom.\n\nTIMELINE:\n[0.0s-5.1s] Medium shot like @ Image2. On \"[Script],\" she leans in with a conspiratorial smile; on \"[Script],\" she mimes a [Action] breaking apart with both hands, wincing, eyebrows up.\n[5.1s-8.8s] Same shot. On \"[Script],\" she wags her index finger and laughs softly; on \"[Script]\" she [Action description].\n[8.8s-10.6s] Same shot. On \"[Script]\" she [Action Description].\n[10.6s-18.7s] Slightly closer shot. On \"[Script]\" she [Action description]\n[18.7s-21.9s] Back to medium shot. On \"[Script]\" she [Action description]; on \"[Script]\" she [Action description].\n[21.9s-26.0s] Same shot. On \"[Script]\" she [Action description].\n\nSound: the voice of @ Video1 on top, clear; underneath, quiet sizzling and [Environnement] room tone. No music.\nNatural skin texture, no beauty filter. No on-screen text, no captions, no logos added.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-zen-white-tower",
+    "category": "提示词",
+    "title": "古风女子站在细长白塔下：标题区被天空留白抢光",
+    "body": "竖版海报里，白塔被拉得又细又高，人站在台面偏侧抬头看，飞鸟只有一点点。\n\n李岳（@liyue_ai）用 GPT Image 2.5 发了一条「向上生长」美学海报提示词：主题方向、风格分支、主体、情绪、意象、构图、色彩、光线、画幅、补充要求分层写清。他特别锁死——塔身要细长极简形成纵向张力，天空要留出「完整标题区」，颜色用纯白塔身加晴空蓝，避免整图过冷发灰。评论区欢迎返图，有人拿同一段词去试不同模型，比的就是谁更适合当封面。\n\n这不是形容词堆砌，是把「传播用封面」的版式需求写进了生图词：标题要落在哪，人物就只能站在哪。\n\n所以呢：做封面提示词时，先画出标题要落在哪一块空白，再写人站哪儿——空白比人物更贵。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/liyue_ai/status/2108494613745168622"
+      }
+    ],
+    "prompt": "主题方向：东方禅意极简封面海报\n风格分支：高传播清朗型\n主体内容：一位古风女子站在细长白塔下方的台面上，抬头看向塔身\n情绪母题：辽阔、向上、轻理想感\n场景与意象：细长白塔、晴空蓝天空、白色高台、女子、少量飞鸟\n构图与空间：9:16竖版构图，白塔沿画面纵向大幅拉伸形成第一视觉中心，人物位于下方偏侧，天空留出大量完整标题区\n色彩控制：纯白作为塔身和台面主基底，晴空蓝用于天空背景，少量浅灰用于结构阴影，人物服装建议浅白或淡蓝白；避免整图过冷或发灰\n光线与质感：高明度晴日光感，边缘清晰，通透平面海报感\n画幅比例：9:16\n补充要求：塔身要细长极简，形成强纵向张力，整体明亮、轻盈、有第一眼吸引力",
+    "date": "2026-10-09",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-image-messy-selfie-crop",
+    "category": "提示词",
+    "title": "前置摄像头误拍：只露出半张脸和托腮的手",
+    "body": "画面糊、裁切狠，只看见右眼、几缕八字刘海和托着脸的手轮廓——像相册里那张没来得及删的丑照。\n\nAdam也叫吉米（@Adam38363368936）给 GPT Image 2.5 写了一段中文提示词，专攻「真实手机前置近距离自拍快照」：人物不完整摆拍、脸被边缘裁掉、冷白皮大眼睛瓜子脸，但保留普通手机的不完美；背景是杂乱桌面和暖色台灯局部过曝；轻微手抖、噪点、压缩感、低饱和暗调，并点名 Seedream 4.5 也可试。收藏三十多，有人说要拿去 Magica 再跑一遍，看看谁更像「误触快门」。\n\n和精修写真反着写——越写「误拍」，越像真手机。读者一眼能分清：这是生活，不是棚拍。\n\n所以呢：想要生活感，别加「高级质感」，把裁切、过曝和手抖写进主句里。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Adam38363368936/status/2108942140273512735"
+      }
+    ],
+    "prompt": "真实手机前置摄像头近距离自拍快照，画面随意、略糊，只看到人物右脸、右眼区域、几缕八字刘海发丝和托着右脸的手部轮廓，人物没有完整摆拍，脸部被画面边缘裁切。人物非常瘦，冷白皮，皮肤非常白，大眼睛，瓜子脸，漂亮但保留普通手机照片的不完美，穿白色紧身T恤。背景为普通室内桌面、杂乱小物和暖色台灯，局部暖光过曝，光线分布不均，轻微手抖运动模糊，手机照片噪点、压缩感和颗粒感明显，低饱和暗调，无精修，无修饰，日常误拍氛围，真实生活照片质感，Seedream 4.5",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-claude-code-trio-roles",
+    "category": "提示词",
+    "title": "Opus 当顾问、Sonnet 干活、Haiku 并行查资料",
+    "body": "有人把三个模型排成公司编制：顾问收费、中层写代码、实习生并行翻文档。\n\nShann（@shannholmberg）发了一套 Claude Code 分工提示词：命令行里用 Sonnet 5.5 开主会话并挂 Opus 5.5 当 advisor；再让你在项目里建一个只读的 Haiku 5.5 研究子代理，专门搜文件和文档，把路径和来源简短回给 Sonnet。CLAUDE.md 要写明——独立调研可并行丢给子代理，实现和测试留在主会话，复杂改动、反复报错、收工前去问顾问。收藏一百八十多，评论区有人吐槽「中层管理来了」，也有人提醒顾问每次咨询都计费，别拿 Opus 闲聊；还有人补充给 Haiku 关掉无关 Skill，免得上下文被工具定义撑爆。\n\n所以呢：别让最贵的模型去翻目录；把「谁决策、谁动手、谁跑腿」写进启动命令，比事后省钱更管用。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/shannholmberg/status/2108967121489461402"
+      }
+    ],
+    "prompt": "claude --model claude-sonnet-5-5 --effort high --advisor claude-opus-5-5\n\nCreate a read-only research subagent in .claude/agents/\nusing model: claude-haiku-5-5.\n\nIts tasks are file discovery and documentation lookup.\nReturn concise findings, file paths and sources\nto the main Sonnet session.\n\nUpdate the project’s CLAUDE.md:\n- Delegate independent research tasks to this subagent\n  in parallel when useful.\n- Keep implementation and testing in the main session.\n- Request advisor consultation before complex changes,\n  after recurring errors, and before completion.\n\nPreserve existing instructions.\nShow the proposed changes before applying them.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-causal-marble-domino",
+    "category": "提示词",
+    "title": "弹珠撞瓶盖再撞手机：每一步都要写「因为」",
+    "body": "猫尾巴一掃，厨房台面上的弹珠滚下去，撞倒一串铁皮盖，最后盖子旋进靠着罐子的手机——手机屏幕亮起，播的正是同一颗弹珠在滚。\n\nVideosPrompt 十月周选把这种结构叫做「单句因果多米诺」：二十秒一镜到底，每个物体只能因为上一个撞到它才动；同步拟音，不要配乐。编辑部写明这是编辑精选而非播放量榜，但他们的判断很清楚——Seedance 2.5 吃「X 因为 Y」比吃一堆同时发生的形容词更稳，换主体就能复用同一条链：咖啡店、球鞋开箱、雨夜阳台都能套。\n\n模板可直接复制，也给出了迁到 Kling、Veo、Wan 时该怎么砍拍数。\n\n所以呢：写视频提示词时，把「然后」改成「因为」，模型才知道下一帧该满足哪条物理账。",
+    "links": [
+      {
+        "label": "VideosPrompt 周选",
+        "url": "https://videosprompt.org/blogs/best-seedance-viral-prompts-weekly"
+      }
+    ],
+    "prompt": "A single continuous take, 20 seconds: a marble rolls off a kitchen counter because a cat's tail flicks it, hits a stack of tin lids which topple in sequence, the last lid spins into a phone propped against a jar — the phone plays a video of the same marble rolling, screen glowing. Warm afternoon light from a window at frame left, shallow depth of field tracking the marble, handheld micro-shake. Causal chain must read clearly at every step: each object moves only because the previous one struck it. Synced foley: rolling rumble, tin clatter, phone chime. No music.",
+    "date": "2026-10-07",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-hook-invert-sneaker",
+    "category": "提示词",
+    "title": "先给悬空球鞋庆功，再倒带讲它怎么飞起来的",
+    "body": "开场三秒：球鞋停在半空，五彩纸屑冻住，体育场灯对着镜头爆闪。\n\nVideosPrompt 把这种开法叫做「三秒钩子倒置」——先给结果，再让原因倒着长回来：鞋带自己系上，是因为选手的手在拉；她蹲下，是因为发令哔声响了；最后一跳落回第零秒的构图。十二秒竖屏，音频先倒放人声再回到哔声和欢呼。逻辑是短视频前三秒决定滑走，倒置把高潮压进开头，后面才补「为什么会飞」。\n\n模板可直接改成美妆前后对比、数码开箱或任何「先看结果」的广告，不用重写世界观。\n\n体育营销号和二创账号都可以把球鞋换成自己的主推单品，结构不用动。\n\n所以呢：广告别从头解释，先甩结果再倒带原因，观众才愿意把拇指停住。",
+    "links": [
+      {
+        "label": "VideosPrompt 周选",
+        "url": "https://videosprompt.org/blogs/best-seedance-viral-prompts-weekly"
+      }
+    ],
+    "prompt": "Hook-invert spot, 12 seconds: [0s-3s] Open on the payoff — a sneaker suspended mid-air above a cheering crowd, confetti frozen mid-burst, stadium light flaring. [3s-7s] Because the shoe hits the frame's peak, rewind the cause in real time: laces tie themselves, the laces tie because the runner's hands pull them, she crouches because the starter's beep sounds. [7s-12s] She launches — the jump is the event that produced the opening frame; land on the exact composition from second zero. Fast whip transitions, hard stadium backlight, saturated team colors. Audio: crowd swell reversed into a single starting beep, then crowd again. Vertical 9:16.",
+    "date": "2026-10-07",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-suno-tiktok-hook-3s",
+    "category": "提示词",
+    "title": "副歌必须在第三秒落地：先写可跟拍的口头禅",
+    "body": "短视频配乐不是一首歌，是十五秒里能被人跟着喊的一句。\n\nUseAPrompt 编辑部在九月三十日放出一套针对 Suno 的 TikTok 钩子模板：Style 里写死「副歌前三秒落地、一百三十 BPM、可跟唱重复副歌」；Lyrics 要求四行主歌加两行副歌连喊三遍，并预留一到两个关键短语括号——比如 not today, not today。排除慢歌、民谣和复杂爵士和弦。建议同一概念连出五个版本，留下那首停不下来的。他们还提醒：可引用的短语才是营销点，好听但说不清的旋律传不出去。\n\n你也可以把关键短语换成中文口头禅，节奏仍按一百三十拍来，方便国内平台二次剪。\n\n所以呢：做 Suno 短视频音时，先发明一句能当视频梗的口头禅，再让模型围着这句长旋律。",
+    "links": [
+      {
+        "label": "UseAPrompt 原文",
+        "url": "https://useaprompt.app/prompts/tiktok-viral-hook-song/"
+      }
+    ],
+    "prompt": "Suno prompt — style + lyrics:\n\nSTYLE: viral tiktok pop, [SUB-GENRE — e.g. hyperpop / indie-pop / phonk], hook lands in the first 3 seconds, chantable repetitive chorus, 130 BPM, high energy, playful [MOOD — e.g. chaotic-good]\n\nLYRICS: write a 15-second hook about [TOPIC — e.g. monday mornings]: 4-line verse, then a 2-line chorus repeated 3x, simple rhymes, meme-able phrasing, [1–2 KEY PHRASES to repeat — e.g. 'not today, not today']\n\nEXCLUDE STYLES: slow, ballad, acoustic, complex jazz chords\n\nGenerate 5 versions — virality is a numbers game. Keep the one people can't stop humming.",
+    "date": "2026-09-30",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-suno-city-pop-night-walk",
+    "category": "提示词",
+    "title": "夜逛城市流行：副歌前置，九十秒内可循环",
+    "body": "耳机里先冒出副歌，贝斯线发黏，电钢琴亮着，女声带着一点残响，像凌晨两点走在霓虹底下。\n\nAI Tools Guidebook 给 Suno v5.5 整理的十条短视频 BGM 模板里，第五条「City pop nighttime walk」把结构写成：四小节前奏 → 八小节副歌 → 四小节主歌 → 再八小节副歌，并要求副歌前置、循环友好淡出。Style 字段把体裁、BPM、乐器和嗓音塞进前二三十个词——编辑说 v5.5 对这段权重最高。整篇强调：短视频要的是前八秒有钩子的可循环素材，不是电台全曲；商业用途还得看订阅档。\n\n夜逛、通勤、窗边独白类画面配这段最稳，换歌词时别动 Style 前半截的体裁词。\n\n若要加中文歌词，把副歌两句压到八个字以内，循环时才不硌牙。\n\n所以呢：给 Suno 写 Style 时，前一行先报体裁和 BPM，副歌标签往前挪，别让前奏吃掉滑走的那三秒。",
+    "links": [
+      {
+        "label": "AI Tools Guidebook",
+        "url": "https://aitoolsguidebook.com/en/articles/suno-viral-shorts-prompts/"
+      }
+    ],
+    "prompt": "Style: modern city pop, 100 BPM, smooth bassline, electric piano, light jazz drums, female vocal with subtle reverb, late-night calm.\nStructure: [Intro 4 bars] [Chorus 8 bars] [Verse 4 bars] [Chorus 8 bars]\nFront-load the chorus.\nMood: smooth, urban, slightly melancholic.\nLoop-friendly fade-out.",
+    "date": "2026-06-04",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-gpt-rain-town-three-models",
+    "category": "提示词",
+    "title": "同一条雨后古巷：三家模型画出三种天气脾气",
+    "body": "青石板反着暖黄灯，东亚女生微侧回眸，屋檐还挂着水珠，远处巷口有朦胧的红色灯笼。\n\nCandy（@CandyTravelight）用同一段中文提示词分别丢给 GPT Image 2.5、Nano Banana 2 和 Grok Imagine 2：图一暖调灯笼最浓，图二通透像游客照，图三冷蓝电影感。提示词把年龄、穿着、回眸动作、白墙黑瓦、灯笼光晕、薄雾、浅景深和「皮肤保留细腻真实质感」写全，评论区直接贴全文，不用私信领取。点赞不多，但并排三张把「模型脾气」讲明白了——同一句话，三家听出三种天气。\n\n做内容时可以把三张并排放进轮播，让观众投票「哪张更像回家的路」，互动比单发一张高。\n\n所以呢：测模型别换提示词，固定一段词看谁偏暖、谁偏冷，你的选题口径才站得住。",
+    "links": [
+      {
+        "label": "X 对比帖",
+        "url": "https://x.com/CandyTravelight/status/2108486498312221132"
+      },
+      {
+        "label": "提示词全文",
+        "url": "https://x.com/CandyTravelight/status/2108486720056627582"
+      }
+    ],
+    "prompt": "黄昏时分雨后的古镇小巷，青石板路面积水倒映着两侧暖黄色的灯光。一位约25岁的成年东亚女性站在小巷中央，黑色长发微湿自然垂落，穿简约米白色针织上衣和深蓝色牛仔裤，身体微微侧转回眸看向镜头，神情自然放松。两侧是斑驳的白墙黑瓦老屋，屋檐水珠欲滴，远处巷口有朦胧的红色灯笼光晕，空气中有薄雾。电影感构图，浅景深，皮肤保留细腻真实质感，整体色调温暖怀旧，高细节真实摄影风格。",
+    "date": "2026-10-09",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-nano-matcha-autumn-outfit",
+    "category": "提示词",
+    "title": "抹茶缎带加手缝外套：换装只许动衣服不许动脸",
+    "body": "秋日石板广场上，角色穿着象牙白罗纹衫，胸前用抹茶绿细绳系成蝴蝶结，百褶裙里子也是抹茶绿，驼皮夹克边缘一针一线锁着象牙色毯边缝，再配巧克力棕及膝靴。\n\n桜木唄（@uta_nekosui）在「衣装部屋」系列第二十弹公开可复制提示词：附一张角色图，要求脸和头发不变，只换这套秋装；项链小吊坠颜色用方括号留给粉丝填自己的应援色。声明适用于 Gemini（Nano Banana）、ChatGPT 和 Grok。她还和两位虚拟偶像互穿同款不同色，像真正的团综换装，而不是一张随机美图。\n\n粉丝填色之后还能反向做周边色票，把应援色从聊天里搬到成片里。\n\n所以呢：做角色换装提示词，先写「脸和头发锁定」，再写面料和缝线细节——观众认的是人，不是衣服。",
+    "links": [
+      {
+        "label": "X 成片",
+        "url": "https://x.com/uta_nekosui/status/2108861346263814573"
+      },
+      {
+        "label": "提示词回复",
+        "url": "https://x.com/uta_nekosui/status/2108861346909729087"
+      }
+    ],
+    "prompt": "Dress the character in the attached image in this outfit, keeping her face and hair unchanged: an ivory ribbed knit sweater with a square neckline, laced up the front with a thin matcha green ribbon tied in a bow, tucked into a navy pleated mini skirt whose pleats are lined in matcha green, a cropped camel suede jacket worn open with every edge finished in thick ivory hand-sewn blanket stitching and small matcha green covered buttons, a fine gold chain necklace with a tiny [your color] heart pendant, and chocolate brown suede knee-high boots. Full-length shot from a low angle, standing in a stone-paved plaza lined with red-brick buildings on an autumn afternoon.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-coffee-street-interview",
+    "category": "提示词",
+    "title": "街访只要八秒：格式、人物、台词、环境各占一行",
+    "body": "街角咖啡店外，采访者问：「你的默认咖啡单是什么？」她想一秒，说：「冰燕麦拿铁。一月份也是。」对方笑了一声。\n\nGenso AI 十月十日更新的 Seedance 提示词指南，按字节官方推荐顺序拆成格式、主体、动作与对白、环境、机位、观感、音频、避免项，并给了一个八秒街访填空例。要点是：对白必须进引号且按说话顺序；每个镜头只给一个简单机位动作；「不要」集中写在最后。同一模板可改播客对谈、第一视角走路和产品演示，只换环境与台词块。\n\n街访、探店、快闪问答都能套这个八秒壳，先拍真人或定妆图当首帧再喂进去。\n\n所以呢：别给 Seedance 写形容词长句，按官方顺序一行一块填，对白进引号，模型才知道谁先开口。",
+    "links": [
+      {
+        "label": "Genso 指南",
+        "url": "https://gensoai.io/blog/seedance-prompt-guide-template"
+      }
+    ],
+    "prompt": "Format: Vertical 9:16 handheld phone video of a daytime street interview, 8 seconds.\nSubject: Use the provided image as the first frame. Keep the woman and the interviewer exactly as they look in it.\nAction and dialogue: The interviewer asks: \"What's your go-to coffee order?\" She thinks for a second, then says: \"Iced oat latte. Even in January.\" He laughs.\nEnvironment: A sunny morning outside a corner café, people walking past.\nCamera: Handheld at chest height.\nLook: Natural daylight, real skin.\nAudio: Their voices, street chatter and a café door chime.\nAvoid: No music. No subtitles. No watermark.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-minimax-convenience-night-candid",
+    "category": "提示词",
+    "title": "雨夜便利店门口：路人手机视角拍她拎冰咖啡出来",
+    "body": "荧光灯从店门口泼出来，和路灯暖光搅在一起，湿柏油反着霓虹。她拎着冰咖啡走出来，像被路人随手拍到，发现镜头后又点头笑了一下。\n\nMINIMAX提示词大师（@GrokAimovie）放出一段可复制的十秒竖屏词：东亚女生、米色风衣、同一张脸贯穿；明确要求「路人手机手持、取景不稳、轻微数码噪点、自动对焦乱跳、不要美颜」。时间轴拆成走出店门、发现镜头、自然点头微笑再走开。标签写着 PromptShare，正文中英双语，方便直接粘贴。\n\n夜景探店、城市氛围号都能直接改地名和外套颜色，机位规矩不用动。\n\n雨后反光一定要写进环境句，不然夜景容易拍成干巴巴的棚拍。\n\n所以呢：想要「真」，把手机拍摄的缺陷写成正资产，而不是事后加滤镜补假。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/GrokAimovie/status/2108766026879897711"
+      }
+    ],
+    "prompt": "Ultra-realistic 10-second vertical 9:16 candid street video, night. A beautiful young East Asian woman, early 20s, fresh natural beauty, realistic skin with slight sheen, minimal makeup, shoulder-length dark hair with natural volume. She wears a simple beige trench coat over a black turtleneck, holding an iced coffee. Same face, hairstyle and clothing throughout.\nOutside a convenience store at night: cool fluorescent spill from the entrance mixing with warm street-lamp glow, wet pavement reflections after light rain. Filmed handheld on a phone like a passerby, uneven framing, mild digital noise, autofocus hunting, no beauty filter.\n0:00–0:05: She steps out of the store, iced coffee in hand, glancing down the street, neon signs reflecting softly on the wet ground.\n0:05–0:10: She notices the camera, gives a brief natural smile and a small nod, then continues walking, coat swaying gently.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-suzu-halloween-double-take",
+    "category": "提示词",
+    "title": "万圣节她说「我」：眨眼一看怀里竟是麻糬",
+    "body": "镜头一抖，她的眼神先钉住镜头，再低头看向怀里的玩偶，突然笑出声，抬手展示并眨眼比耶。\n\nStudio KAGURA 的 Suzu（@studiokagurajp）用 Higgsfield 做了一段「层层套娃」万圣节短片：外壳是她，里面还是她，最里面才是麻糬。制作流程拆成 GPT Image 出大小两个 Suzu、Selfception 推近、Seedance 首尾帧跳关，再让 Seedance 念台词并揭开麻糬。评论区单独贴出揭示段动作提示词，短、狠、可复用——不写世界观，只写眼神路径和手上动作。\n\n节庆短片、角色日常都可以复用这段「双看」节拍，先钉眼神再给道具。\n\n道具从玩偶换成零食或手办也行，笑点仍落在「先看镜头再看手里」。\n\n所以呢：角色喜剧片的笑点提示词，往往只要写清「眼神路径和手上动作」，别把世界观塞进同一句。",
+    "links": [
+      {
+        "label": "X 成片",
+        "url": "https://x.com/studiokagurajp/status/2109049289267650611"
+      },
+      {
+        "label": "揭示提示词",
+        "url": "https://x.com/studiokagurajp/status/2109049307202572324"
+      }
+    ],
+    "prompt": "A quick double take: her eyes snap to the camera, then back down to the plush. She bursts into a delighted laugh, raises her open palm a little to show it, and winks with a peace sign.",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "celery-man-computer",
+    "category": "视觉尝试",
+    "title": "Celery Man 电脑复活了：你说啥它都能生成身份档案",
+    "body": "打开 celeryman.fun，屏幕上跳出一台「Cinco Identity Generator 2.5」——那是美剧怪咖组合 Tim & Eric 经典短片里的假电脑。当年只是录好的界面笑话：人坐在柜员机前，机器一本正经吐出塞勒里人、狗叫人这类荒唐身份。作者这次用最新语音与图像模型，把原片台词跑到百分百对得上，还允许你额外点名要土豆男孩之类的新角色。于是假电脑变成了真流水线：按键、出声、出图，全在浏览器里完成。他在 Hacker News 写明，Minimax H3 Max 与 GPT-6 Luna 终于撑得起这条管道，自己花了几天把环节接完。旁人刷到会先愣两秒，再忍不住亲手点几下。所以呢：讲「模型终于追上梗」时，别空谈评测分——让观众在假电脑上要一张荒谬身份卡，笑声比分数更有说服力。",
+    "links": [
+      {
+        "label": "Celery Man 演示",
+        "url": "https://celeryman.fun/"
+      },
+      {
+        "label": "HN 讨论",
+        "url": "https://news.ycombinator.com/item?id=50035527"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "aporium-philosophy-galaxy",
+    "category": "视觉尝试",
+    "title": "五千八百段哲学摘录铺成一座可飞的星野",
+    "body": "打开 Aporium 的 Starfield，眼前不是书单，而是一片能拖、能绕、能放大的星系。作者把公版哲学书拆成两到八句的短摘录，做成向量，再用 UMAP 投到三维空间；相近议题会聚成星团，旁边标着主题区名。滚轮拉近，点开一段，还能看到用真作家原句串起来的「对话线」——不是 AI 代写「某人会怎么说」，而是培根跟西塞罗、爱默生跟马可·奥勒留各自原文撞在一起。他写这是一个人坚持八个月的副业：想少刷社交媒体，给自己找个「上瘾但有营养」的替代品。结果副产品变成可逛的思想地图。右键平移、左键环绕，像开一艘小飞船穿过论点。所以呢：讲「知识可视化」时，别再甩词云——让观众自己飞进一座星野，看见哪两个人的话其实挨得很近。",
+    "links": [
+      {
+        "label": "哲学星野",
+        "url": "https://www.aporium.app/explore"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50038215"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "world-watcher-webcam-map",
+    "category": "视觉尝试",
+    "title": "世界地图上点开就能看直播：几百路公开摄像头",
+    "body": "World Watcher 把几百路公开的 YouTube 直播摄像头钉在一张可拖地图上。点东京路口、海边栈道或广场，弹窗直接播，还能显示当地时间和气温。设置里可静音全部、只探索白天有阳光的点、开关夜影层。作者嫌旧聚合站总要新开标签、定位还飘，于是重做了「先地图、再无缝开播」的体验：你不用先猜城市名，眼睛在陆地上滑，兴趣点自己冒出来。摄像头目前不能用户自添，想推荐得写信给站长。它适合当「地球正在发生什么」的背景屏，也适合拍一镜到底：从黑夜半球滑到白天海滩。所以呢：做「全球现场感」内容时，别只贴一张静态街景——让观众自己在地图上点开一座城，听见那边的风声和车流。",
+    "links": [
+      {
+        "label": "World Watcher",
+        "url": "https://worldwatcher.live/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50032872"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "zrax-isa-workbench",
+    "category": "视觉尝试",
+    "title": "把陌生二进制拖进浏览器：熵图、指令集、十六进制一次看清",
+    "body": "打开 zr.ax，页面只有一句「把二进制扔进来」。文件不会上传，分类和熵值都在本地算。单个文件进工作台，多个文件进批量表：指令集、位宽、字节序、格式、置信度、平均熵、耗时一列排开。点开还能看希尔伯特曲线铺开的熵热图、字节直方图、十六进制视图；拖选一段可复制或下载。对逆向新手，这像把「这文件到底是啥」变成可逛的仪表盘；对老手，是快速筛一批固件或样本谁更像加密、谁像明文。作者在 Show HN 写的是 ISA Workbench，页脚还能切回经典分类器。全程暗色界面，鼠标悬停就报偏移与香农熵。所以呢：讲「看不见的文件」时，别空喊危险——让观众亲眼拖一个文件，看熵图哪里发紫。",
+    "links": [
+      {
+        "label": "Zrax Workbench",
+        "url": "https://zr.ax/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50038380"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "the-sentence-one-word",
+    "category": "视觉尝试",
+    "title": "一句话只准改一个词：改完就永久分叉，直到一百万次",
+    "body": "The Sentence 放出一句种子句。你只能改其中一个词，其余字与标点必须原样留下；提交后，你的版本变成公开树上的永久枝条，别人可再继承改一次。规则少得几乎无礼：一人一次、不可撤回、到一百万次接受改动就永久封存成博物馆。它不是比谁写得机灵，而是看「一句话穿过一百万人会变成什么」。有的枝死在三层，有的走几百步后词语消失又重聚。作者把这当成一场没人能预写结局的互联网实验，连他自己也不知道终点句会是什么。页面上还能浏览整棵树，看见人类选择如何一点点拐弯。所以呢：讲「集体创作」时，别再征稿口号——让观众亲手改一个词，看见自己的句子会不会被下一个人拐走。",
+    "links": [
+      {
+        "label": "The Sentence",
+        "url": "https://the-sentence.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50034485"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "pale-engine-opus-doom",
+    "category": "视觉尝试",
+    "title": "Opus 5.5 手搓类 Doom：木卫一站点停播，地底开始唱歌",
+    "body": "Pale Engine 挂在作者的网页游戏仓库里：一关关推进的类 Doom，设定是二二九一年木卫一，站点 AI 沉默，地底却有东西在「唱歌」。键盘 WASD 移动、鼠标开火、E 互动、刀刃近战，手机也能虚拟摇杆。作者写明用 Claude Opus 5.5 生成，并用 Playwright 自动点测过关。它不是商业大作，而是「模型能不能一次性交出让人愿点进关」的现场作业。关卡里钥匙卡、爆炸桶、假墙、守卫封印出口，都按老派射击套路摆好。血少时恶魔会踉跄发光，刀刃补刀还能回血。你还能打开法典与无尽下潜模式，像在翻一份生成出来的关卡笔记。所以呢：评「模型会不会做游戏」时，别只放预告片——丢给观众一个能当场死两回的浏览器关卡，体感比榜单更硬。",
+    "links": [
+      {
+        "label": "Pale Engine 试玩",
+        "url": "https://triptych.github.io/web-games-andrew/game-054/index.html"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50036579"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "perigee-orbit-realtime",
+    "category": "视觉尝试",
+    "title": "浏览器里盯着人造物绕地球、月球和火星转",
+    "body": "Perigee 是一个实时三维轨道观察器：地球周边卫星、月球与火星附近的航天器，以及穿过太阳系的探测器，都能在 WebGL 2 里转着看。打开页面先加载，再拖视角，像把任务控制中心缩成一张网页。它不讲剧情，只把「天上现在有什么在飞」摊开。适合当科普片头、直播背景，或对比「新闻标题里的卫星」和轨道上真实的一串点。法语说明与英文并列，作者强调需要 JavaScript 与 WebGL 2。你可以从近地轨道拉远到行星际，突然发现新闻里那次发射只是画面里一个小点。刷新之后位置会跟着真实时间走，而不是一张冻住的海报。所以呢：讲航天新闻时，别只甩一张示意图——让观众自己转一圈，看见那颗卫星此刻大概在哪一层壳上。",
+    "links": [
+      {
+        "label": "Perigee 轨道视图",
+        "url": "https://perigee.info/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50039577"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "dotheystillmake-snack-memorial",
+    "category": "视觉尝试",
+    "title": "下架零食纪念馆：二百三十九个消失的味道，还能玩「还在不在」",
+    "body": "dotheystillmake.com 把自己叫成零食纪念馆。货架按饮料、薯片、麦片、糖果、冷冻、快餐分六条过道，也能按七十年代到二零零零后翻。条目写清品牌、在架年份，以及「永远消失」还是「偶有复活」。首页挂着随机缅怀卡，还有「Gone or Still Here」小测验。站方写到二零二六年十月十日已有二百三十九个产品建档。它不是购物站，是集体记忆的展览馆：你点开草莓脆片麦片，会想起童年货架，也会发现有人比你更早开始哀悼巧克卷或限量汽水。搜索框打出半个名字，记忆就会自己排队出来。「最被哀悼」榜单还会把巧克力脆筒之类的名字顶上来，评论情绪直接变成排行榜。所以呢：做怀旧内容别只晒合影——让观众自己搜一个童年零食，看它是「还在」还是「墓碑」。",
+    "links": [
+      {
+        "label": "零食纪念馆",
+        "url": "https://dotheystillmake.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50035980"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "leisure-larry-coop",
+    "category": "视觉尝试",
+    "title": "《Leisure Suit Larry 1》改成双人合作：浏览器里一起出糗",
+    "body": "经典冒险游戏《Leisure Suit Larry》第一作被作者改成了多人合作版，挂在 matrix.davor.se/lsl/。两个玩家可以同时在同一个拉斯维加斯故事里晃，互相递物品、一起卡关、一起出糗。原作是单人点选冒险，改造成协作后，节奏变成「你按门、我跟人说话」的默契考验。作者在 Show HN 标题写得很直：就是把 Larry 1 做成了多人合作。适合当成「老游戏新玩法」的演示，也适合拍双人实况：笑点来自配合失败，而不是闪瞎眼的特效。浏览器打开就能开，不需要重制画质党的长安装包。谁先点错对话选项，整段录像都会变成内容。所以呢：聊「怀旧重制」时，别只会换皮画质——让两人同时进同一间旅馆，看合作会不会比单机更狼狈。",
+    "links": [
+      {
+        "label": "Larry 合作版",
+        "url": "https://matrix.davor.se/lsl/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50036653"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "colorswapper-terminal-theme",
+    "category": "视觉尝试",
+    "title": "终端截图丢进去：现场换配色，找你真正想要的那套",
+    "body": "配终端主题时最烦的是：改完配置、开新窗、再截图，循环十几轮仍觉得哪块刺眼。Color Swapper 专门吃一张终端截图，让你在网页里直接重上色，预览哪组前景、背景、高亮才顺眼。Show HN 介绍写得很干脆——为了「找到对的颜色」。它不做完整主题商店，只把「看得见的像素」当成调色板。对写配置的人，这比口头描述「再暗一点」管用；对做内容的人，可以并排拍「改前改后」当短视频钩子。你甚至可以把同事吐槽「太绿了」的截图丢进去，当场试三种候选，再决定要不要写进点文件。调完再把十六进制抄回配置，比在黑暗房间里瞎猜色号省半小时。所以呢：聊开发者审美时，别空谈配色理论——扔一张真实终端截图，当场换色给观众看差在哪。",
+    "links": [
+      {
+        "label": "Color Swapper",
+        "url": "https://colorswapper.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50039383"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "chrome-relay-agent-tabs",
+    "category": "小众工具",
+    "title": "Chrome Relay：代理在后台标签用你的真登录，不抢焦点",
+    "body": "编码代理常卡在「打不开你已登录的后台」。Chrome Relay 给 Claude Code、Codex、Cursor、Paseo 接上你日常用的 Chrome：扩展用调试协议在折叠的 Agents 标签组里开后台页，本机中继只把每个代理自己的标签交给它，大约零点一五秒一条命令，不弹远程调试提示，也不抢你正在打字的窗口。装好后用 agent-browser 配上 chrome-relay 给出的地址，就能打开内网页、点按钮、抓报表；只有要密码时才找你。开源 MIT，只支持 macOS，一次 setup，每个配置档手动加载扩展。多个代理可并行，彼此看不见对方的标签。官网还提供可粘贴的安装提示词，让代理自己帮你装完。浏览器只会提示「Chrome Relay 正在调试」，你的前台标签始终不动。所以呢：别再让代理「假装有浏览器」——给它你的真会话，事情在后台做完你还在写代码。",
+    "links": [
+      {
+        "label": "Chrome Relay 官网",
+        "url": "https://agent-chrome-relay.aindeev.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/aindeev/agent-chrome-relay"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50030811"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "anatomy-isometric-skill",
+    "category": "小众工具",
+    "title": "Anatomy：一句话让 Claude 画出能拧能拆的机器说明图",
+    "body": "多数原理图是方框加箭头，读者得自己脑补运动。Ryan 做的 Anatomy 是 Claude Code 技能：你说「解释令牌桶限流」，它会发明一把销子锁之类的真物件，用几十到几百块实体零件搭成等轴测互动图，读数与运动共用同一套小模型。可选 WebGL 画火焰尾焰，三维旋转仍标测试版。安装一行 npx skills add，零运行时依赖；自带审计脚本检查管子是否穿模、截图是否对得上。站点已挂三十三台可玩样机，Raptor 发动机那台大约两小时一次过。仓库两天内冲到近四百星。规则写在最上面：物件本身就是解释，禁止漂浮标签糊弄。所以呢：写技术科普时，别再贴流程图——让代理交一份能拖表冠上弦的「机械说明物件」。",
+    "links": [
+      {
+        "label": "Anatomy 站点",
+        "url": "https://skills.wheresryan.sh/anatomy"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/wheresryan22/anatomy"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-09",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "manimgx-agent-3d-video",
+    "category": "小众工具",
+    "title": "ManimGX：用 Manim 的 Python API，在 Rust 显核上秒出三维片",
+    "body": "视频当代码火了之后，三维仍卡在 Blender 又重又慢。ManimGX 保持 Manim Community 的写法，底层换成 Rust 加 wgpu：pip 安装约六十五到一百一十兆，也能在浏览器跑。作者在苹果 M4 Pro 上测五段一千零八十六十帧，从启动到 MP4 比 ManimCE 快约九十倍，比 Blender Workbench 快约十九倍；三点六秒成片约三秒渲完。专为代理设计，文档给可粘贴的安装提示词。适合数学可视化、产品讲解三维镜头，又不想维护一整套三维流水线。样例库有傅里叶画圆周率、线性变换拉网格等现成脚本，代理抄作业就能起步。官网把同一场景四家引擎的成片并排，快慢一眼就能看见。所以呢：让代理做讲解视频时，别默认重型三维软件——先让它 pip 装一个「会说 Manim 话」的快引擎。",
+    "links": [
+      {
+        "label": "ManimGX 文档",
+        "url": "https://manimgx.academa.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/academa-labs/manimgx"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50037852"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "localci-run-actions-here",
+    "category": "小众工具",
+    "title": "localci：在自己电脑跑现有 GitHub Actions，缓存还是热的",
+    "body": "等 GitHub 排队、冷缓存重装，一轮 CI 动辄几十分钟。localci 读你仓库里已有的 workflow，在本机跑匹配当前系统的 job：shell、矩阵、needs、services 容器都按 Actions 语义走，checkout 类动作直接跳过因为代码已在。作者测公开 Rust 仓库：GitHub 中位约二十七分钟出结果，本机 --fast 约两分十六秒，无改动再跑是零秒；格式错误四秒就能拦住。静态二进制不到八百千字节，还给代理准备一键学会「推之前先跑该跑的子集」。它不发明新配置语言，就是让你已有的 yaml 在热机器上先红一次。跨系统的 job 它会诚实告诉你本机跑不了。给代理装上技能后，它会自己挑该跑的检查，而不是整份工作流乱扫。所以呢：别再让代理「先推上去看红灯」——本地热缓存验完，再浪费云上的排队。",
+    "links": [
+      {
+        "label": "localci GitHub",
+        "url": "https://github.com/peters/localci"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50039994"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "opencharm-agent-companion",
+    "category": "小众工具",
+    "title": "OpenCharm：给已有代理一张脸、一把键，挂在刘海旁边说话",
+    "body": "Product Hunt 十月九日出现 OpenCharm：开源「躯壳」，不是再造一个聊天机器人。你已经在跑 Claude Code、Codex 或任何 ACP 代理，它负责刘海旁的桌面挂件、按住说话、大声回答、卡住时喊你。表情用两个字符眼睛加一个嘴巴，隔着房间也认得；有呼吸、眨眼、跟着手指看、听你说话时眼睛鼓起来。还可做成约四十七毫米见方的实体挂件，硬件成本作者估算约三十二美元，设备上不存 API 密钥。十月九日榜单约八十九票。下一步路线图写着可以挂在钥匙扣上。颜色、名字、表情都可以当场改，页面不保存你的选择。独处大约四分钟它会打瞌睡，连「在场」都有休息节奏。所以呢：代理再强也需要「在场感」——给它一张能抬头看见的脸，比再开一个终端标签更像同事。",
+    "links": [
+      {
+        "label": "OpenCharm 官网",
+        "url": "https://www.opencharm.dev/"
+      },
+      {
+        "label": "Product Hunt",
+        "url": "https://www.producthunt.com/products/opencharm"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-09",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "open-components-ux-ax",
+    "category": "小众工具",
+    "title": "Open Components：给 UI 加上第三轴——代理也读得懂的 AX",
+    "body": "做了十年组件库的人，把标准拆成三轴：对人要可预期的 UX，对开发者要一致的 DX，对 AI 代理要可读写的 AX。Open Components 要求角色、名称、状态能直接从标记读出，解剖结构与属性用机器可读规格发布，同样输入必须得到同样结构，并留下代理发货前可自检的规则。站点本身是可滚动的三维演示，文档与 MCP 入口写在公开配置里。它不是又一个按钮库，而是「人和代理写同一套组件时如何不翻车」的公约。作者在 Show HN 坦言：自己大量用 AI，更焦虑「手艺」如何沉淀成可检查的标准。读一遍文档，等于给代理和人类同一张验收表。所以呢：团队开始让代理改界面时，先问有没有 AX——没有语义与自检，生成出来的组件只是看起来像。",
+    "links": [
+      {
+        "label": "Open Components",
+        "url": "https://opencomponents.dev/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/uxfront-com/open-components"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50030849"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "mailbox-viewer-foia-static",
+    "category": "小众工具",
+    "title": "Mailbox Viewer：把 FOIA 邮件包建成可搜的静态「Gmail」",
+    "body": "信息公开回函常是一大包 PST 或 mbox，普通人打不开更没法分享。Mailbox Viewer 把邮箱导出编成静态站：会话、标签、附件、Gmail 式搜索运算符，再加浏览器内语义搜索；数据写成 Parquet，用 DuckDB-WASM 在前端查，可挂 Cloudflare R2，没有常驻服务器。一行 mbv build 进预览，再 publish 上传。作者强调为公共记录场景而生。演示站用虚构邮箱走完整链路：阅读器在 Vercel，数据在 R2。支持多份导出合并去重，文件夹保留成标签，附件内文字也能搜。记者把链接丢给读者，对方就能像用邮箱一样翻证据。键盘快捷键和夜间模式也按邮箱习惯做了，降低非技术读者的学习成本。所以呢：别再把「原始邮件包」丢给读者——建成能搜能点的收件箱，调查报道才跟得上。",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/rahimnathwani/mailbox-viewer"
+      },
+      {
+        "label": "在线演示",
+        "url": "https://mail.ocaho.com/demo"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50037841"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "openpilot-byo-llm-agent",
+    "category": "小众工具",
+    "title": "OpenPilot：自带模型的桌面代理，不绑某一家登录",
+    "body": "OpenPilot 是 MIT 许可的本地代理壳：接任何 OpenAI 兼容接口，含 OpenRouter、Ollama、LM Studio，选定文件夹后读写文件、跑终端、做网页检索，敏感动作要你点头。Windows 可下，macOS 官宣即将到来。产品页强调「要代理，不要平台税」——文件系统、Shell、MCP、技能与长期记忆都在本机，模型你自己选。十月九日 Product Hunt 约九十九票。适合讨厌把整仓交给封闭云代理、又想要「真改文件」而不是聊天建议的人。你可以在 AGENTS.md 里写偏好，它会装进上下文。网页检索用真实抓取，而不是凭空编文档。需要更多外部能力时再挂 MCP，默认不把钥匙交给单一厂商。装好后你可以点文件夹就开始脚手架项目，再决定要不要接云端大模型。所以呢：选桌面代理先问能不能换模型——换不了，你就在租操作系统。",
+    "links": [
+      {
+        "label": "OpenPilot 官网",
+        "url": "https://openpilot.in/"
+      },
+      {
+        "label": "Product Hunt",
+        "url": "https://www.producthunt.com/products/openpilot"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-09",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "flopper-ai-gpu-explorer",
+    "category": "小众工具",
+    "title": "Flopper：一张表比完二百多张 AI 显卡和实时租价",
+    "body": "买卡还是租卡，参数表散落在厂商页和云厂商报价里。Flopper 把 AI 基础设施摊开：截至十月十一日库内约二百二十一张 GPU、二十四家云商、三百八十九条实时价、五十组对比。首页按显存、带宽、FP8、每美元算力、最低与中位时薪排序，H100、H200、B200、MI300X 等热门卡一眼能比；还有多卡整机与机柜级系统。Show HN 称它是硬件探索器。它不替你下单，但让「这笔训练该花多少」有同一把尺子。三十日库存趋势也能看见谁在涨价。做内容时截一张排序表，比空口喊「显卡贵」有力得多。桌面级与云端租用也能混着比，避免「只看训练卡」漏掉推理场景。所以呢：聊算力成本时，别只报一个官价——打开 Flopper 让观众自己按美元每小时排一排。",
+    "links": [
+      {
+        "label": "Flopper",
+        "url": "https://flopper.io/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50035826"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "listener-mac-ondevice-notes",
+    "category": "小众工具",
+    "title": "Listener：五美元买断，会议录音转写总结全不出 Mac",
+    "body": "多数会议工具把声音送上云。Listener 只做一件事：同时录麦克风和 Mac 系统声，实时本地转写，结束用苹果端侧模型生成带分区与任务表的摘要，任务还锚到原话分钟数。一次五美元，无订阅、无账号，标榜不离开本机。面板可停在窗口底边，开会时继续干别的。适合怕客户内容外传、又不想每月付「AI 笔记税」的人。和云端助手比，它牺牲跨设备同步，换来物理意义上的本地。摘要文档可直接改粗体、颜色和表格，不像一堵难编辑的墙。录完就能导出，不用等「云端处理中」。任务表自带负责人与截止字段，散会后不用再手工誊一遍待办。所以呢：下次有人推销「智能会记」先问声音去哪——能买断又不出本机的，才值得拍对比测评。",
+    "links": [
+      {
+        "label": "Listener 官网",
+        "url": "https://getlistener.vercel.app/en"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50037646"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
+    "id": "kernelai-phone-offline",
+    "category": "小众工具",
+    "title": "KernelAI：手机上离线跑五十多个模型，聊天读 PDF 写代码",
+    "body": "Product Hunt 十月十日出现 KernelAI：在 iPhone 与 Android 本机跑五十多个模型，聊天、端侧检索读 PDF、视觉理解、离线写代码；可导入实验性 GGUF，iPhone 还能接 Siri 与快捷指令。可选联网搜索要自备密钥。免费、无账号、无广告订阅，下完模型就断网也能用，对话与文档留在设备。它不像「又一个套壳聊天」，而像把小型本地推理站塞进手机包。适合差旅途中、演示隐私卖点、或对比云端助手的延迟与泄露面。飞行模式打开仍能问答，是它最好的演示脚本。先下载一次模型，之后流量账单可以安静很多。图像理解和代码补全都在端侧，演示隐私时不必假装关掉网络。所以呢：谈手机 AI 别只晒云端旗舰——让观众飞行模式打开 KernelAI，看离线到底能干多少活。",
+    "links": [
+      {
+        "label": "Product Hunt",
+        "url": "https://www.producthunt.com/products/kernelai"
+      },
+      {
+        "label": "Hunted 摘要",
+        "url": "https://hunted.space/dashboard/kernelai"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-11T15:10:00+08:00"
+  },
+  {
     "id": "long-wam-history-not-enough",
     "category": "硬科技",
     "title": "给机器人塞更长「眼睛记忆」不够：先学会往后推演，历史才值钱",
