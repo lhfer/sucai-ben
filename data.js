@@ -1,6 +1,369 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-11T15:10:00+08:00",
+  "updated": "2026-10-11T18:10:00+08:00",
   "items": [
+    {
+      "id": "kilmeaden-waterford-slow-drive",
+      "category": "痛点",
+      "title": "爱尔兰Kilmeaden：三百多辆车拖拉机慢驶抗议，前奶酪厂要变三座机房加十六台燃气轮机；住了五十年的邻居说，它会坐到自家后院门口",
+      "body": "十月十日早上，沃特福德郡Kilmeaden。三百多人把车、拖拉机、货车从Ballyduff小学开出来，绕村慢驶一圈——不是兜风，是挡规划。\n\n开发商Crag Rathnew和Kent Homes要在旧奶酪厂和周边约一百零九公顷地上盖「科技园」：三栋大约两万四千平米的机房楼、十六台燃气轮机的能源中心，再加四万多块板的光伏、电池仓，以及超市、公寓、幼儿园那一套「村庄中心」。村里人Amanda Power说，自己在这儿出生长大，「一旦建成就回不来了」。\n\nDanny和Eithne Brennan在边界住了五十多年。Danny怕的很具体：机房会落在自家花园底下，灯、噪音、二十四小时运转，「那时候谁还买这房子？」居民Niall Power算体量：三座机房加十六台燃气轮机，「谁会觉得这适合Kilmeaden这种村子？」县议会十九日就要批；Power说若过关就继续抗议，至少上诉到国家级规划委员会。\n\n所以呢：机房规划可以写「社区配套」，邻居看见的是拖拉机堵路——他们怕的是村子被一次性改成工业园。",
+      "links": [
+        "https://www.rte.ie/news/regional/2026/1010/1594792-waterford-data-centre-protest/",
+        "https://www.independent.ie/county/waterford/waterford-residents-to-stage-slow-drive-protest-against-data-centre-as-battery-storage-plans-appealed/a/162798041.html"
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "thane-amazon-energy-vampires",
+      "category": "痛点",
+      "title": "孟买郊外Thane：工程师Shetty刚买房五个月，窗外绿地被推成红土——Amazon机房工地；抗议牌写「机房是电吸血鬼」",
+      "body": "十月九日，路透社把镜头对准孟买附近Thane。四十六岁的工程师Tushar Shetty站在二十一楼说：五个月前买房时，窗外还是一片绿；现在树没了，只剩红土，那是Amazon占地约五十四英亩的机房工地，属于它计划到二〇三〇年在印度砸下约二百一十亿美元基建的一部分。\n\n「早知道就不会买。」他这么说。九月八日，数百名居民（有不少老人）到工地旁举牌，上面写着「Data centres are energy vampires」。六十二岁的Vasudha Shetty更直：机房停，我们留；建下去，我们搬。\n\n一千多名邻居说项目几乎没正经商量过。Amazon对外称会用无水冷却、专供电、降噪，还说补种苗木比砍的树多；知情人士却转述公司内部判断——抗议会过去，「暂时只能跟抗议共处」。\n\n所以呢：国家要当「全世界数据」的房东，先听见的是阳台上看不见树的那一声后悔。",
+      "links": [
+        "https://english.kyodonews.net/articles/-/87666",
+        "https://www.dawn.com/news/2035883"
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "ellensburg-kittitas-dc-embargo",
+      "category": "痛点",
+      "title": "华盛顿州Ellensburg：市议会五分钟全票通过六个月机房禁令，成县里第三家按下暂停——市长说，一提机房，AI笔记App自己开了",
+      "body": "十月五日，华盛顿州Ellensburg市政厅。社区发展主任Dan Carlson念完报告，讨论几乎没展开，市议会就全票通过：市内新机房申请先冻六个月，立刻生效，管到明年四月五日。\n\n他们不是第一家。Cle Elum七月先禁——当时Blue Fern要在九十号州际公路旁建约两亿美元、十万平方英尺设施；Kittitas县八月全县跟进。Ellensburg是第三家，理由很土：现有区划里根本没「数据中心」这一项，电、水、噪音、环评都没专规。Carlson把机房定义写进报告：主要用来塞服务器、AI算力或挖矿的设施，连同冷却、备用电、电池和安防一起算。\n\n居民Victoria Thomas提醒：扣掉节假日，六个月转眼就到，可能还要续。周末县政府前还办过反AI集会，要全州冻结。市长Rich Elliott事后跟主任说了一句更像玩笑的真事：「你一开口说机房，我的AI笔记App自己打开了。怪。」\n\n所以呢：乡下小镇怕的不是「未来」，是规矩还没写完，申请表已经塞满。",
+      "links": [
+        "https://www.dailyrecordnews.com/ellensburg/ellensburg-joins-cle-elum-kittitas-county-to-temporarily-ban-data-centers/article_93cee22e-b0c9-441d-a7e0-2544c4b41f34.html",
+        "https://kpq.com/ellensburg-moratorium-data-centers/"
+      ],
+      "prompt": "",
+      "date": "2026-10-05",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "raleigh-6mo-dc-moratorium",
+      "category": "痛点",
+      "title": "北卡罗来纳州Raleigh：市议会七比一冻结大型机房六个月；居民喊要三十二个月，还说五兆瓦「小项目」豁免是漏洞",
+      "body": "十月七日晚上，Raleigh市政厅。市议会以七比一通过对大型机房的六个月冻结，好让官方研究水电、环境、邻里影响。听证会开了半小时，发言的人大多嫌短——有人喊要冻三十二个月。\n\n北卡环境正义网络的Rania Masri盯住一条细则：用电需求不超过五兆瓦的机房可以不当「大项目」管。她说，多个「小」机房叠起来，电、水、发电机、噪音一样能把社区压垮，还点名了难降解的PFAS污染风险。组织者Mickey Brigham问得更冲：六个月怎么够跟「以后要住旁边」的人认真商量？怎么保护工薪街区？\n\n东南侧Jones Sausage Road曾有一座约十万平方英尺机房方案，对着Parrish Meadows小区，居民一闹，开发商撤了。市律师提醒：州法限制市政府直接「禁掉」某些用途，冻结太长也可能被告。邻居Cary已冻了十八个月。市议会排期明年四月六日再拍板长期规则。\n\n所以呢：城市按下暂停，不等于居民觉得被听见——他们怕的是豁免条款把大问题拆成一串「小项目」。",
+      "links": [
+        "https://www.wunc.org/politics/2026-10-07/raleigh-council-data-center-moratorium-opposition"
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "sf-45day-dc-moratorium",
+      "category": "痛点",
+      "title": "旧金山监督委员会全票通过四十五天机房冻结：湾区第一个按下暂停的城市，Bayview居民问——又凭什么让我们扛新技术的烟尘",
+      "body": "十月六日，旧金山。监督委员会全票通过：新机房审批与扩建先停四十五天。提案人Shamann Walton说，这是州法允许的临时刹车，好让规划局查清电、水、空气、柴油备用机、噪音和谁在买单。\n\n地图上，城里大约有十三座机房，八座在市中心，五座在Bayview-Hunters Point——那片以黑人、拉丁裔、太平洋岛民为主的社区，本来就扛着更多污染。竞选区监督的社区倡导者DJ Brookter问：历史上背过最重环境负担的人，是不是又要替「新技术」背一次？\n\n听证会上，干了三十年机房的Jon Paulsen几乎是唯一公开支持的人。他承认行业「沟通和自律都不及格」，一边递信一边说有项目能做到百分之百可再生、零用水、零柴油备用。\n\n所以呢：AI之城也给自己按下暂停——先问清楚，下一座机房会不会又落在最喘不过气的街区。",
+      "links": [
+        "https://opgov.news/articles/san-francisco-passes-45-day-data-center-ban"
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "newton-ga-serverfarm-fine",
+      "category": "痛点",
+      "title": "佐治亚牛顿县：机房和隔壁电厂没批先装机，州环保开出四万两千五百美元罚单——三十七台柴油机是邻居举报才发现的",
+      "body": "十月七日，佐治亚。州环保局对牛顿县两家公司下同意令：Serverfarm的机房和VoltaGrid的电厂，在拿到建设许可前就开始装发动机，合计罚四万两千五百美元。\n\n六月二十五日接投诉后，检查员在VoltaGrid看到八台到十一台未接气源的引擎，公司十一月才申请许可、五月底就开装；在Serverfarm看到三十七台柴油应急发电机，许可十月申请、六月才批，可三月九日就动工了。Serverfarm认三万一千，VoltaGrid认一万一千五，两边都说「误解了哪些活能先干」，并声明没承认违法。环保局认定违反了「先许可后建设」的空气规则。\n\n可持续牛顿组织的Maurice Carter说，罚金虽小，总算有人问责；州里得给县市撑腰，别让社区自己硬扛巨型项目。\n\n所以呢：机房可以先把机器摆进场，居民要靠投诉才能换来一张「别再偷偷装」的罚单。",
+      "links": [
+        "https://www.wrdw.com/2026/10/07/ga-fines-2-companies-over-data-center-power-plant-permit-violations/"
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "weld-globalai-business-suit",
+      "category": "痛点",
+      "title": "科罗拉多新进展：商家告Weld县和GlobalAI——噪音墙也压不住、电力只保到二〇三〇还差四点五兆瓦，县府却照样批了特批",
+      "body": "十月七日，格里利。两家商业团体GWIP Land和Windsor Renewal把Weld县和GlobalAI告上州法院：二十六页诉状说，县委会无视一边倒的反对，批了一座约五万二千平方英尺的机房特批。\n\n这是同一项目的新动作——早前建筑检查官曾发停工通知；这次商家盯的是审批本身。诉状写：噪音研究里冷却机已顶到六十五分贝上限，邻居怕围墙外还能飙到八十五；闭环冷却系统只有临时水源；电力公司Poudre Valley只承诺供到二〇三〇，最后一年还只能给二十三点五兆瓦，项目要二十七点五。县里油气主任甚至建议让GlobalAI自己发一期电。\n\n商家还指控公司把大项目切成小申请，躲过更严的听证，一边吹两百个工作岗位，一边避开「最终用电顶二十万户」那档审查。他们要求法院撤销许可、禁止继续违建。\n\n所以呢：停工通知没挡住的，邻居换成商家身份继续告——规矩是为谁改的，法庭上会再问一遍。",
+      "links": [
+        "https://www.courthousenews.com/angry-colorado-business-owners-sue-to-block-globalai-data-center/"
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "frederick-quantum-500m-suit",
+      "category": "痛点",
+      "title": "马里兰Frederick：开发商Quantum告县长，说冻机房是为选战；五亿美元土地交易谈崩，县长回击「亿万富翁别想买特殊待遇」",
+      "body": "十月九日，Frederick巡回法院。Quantum Maryland把县长Jessica Fitzwater告上法庭，点名她个人与职务身份，指控她反复冻结机房申请，是为十一月连任服务，公司一笔逾五亿美元的土地交易因此黄了。\n\n诉状里最刺的一段：六月二十九日，Quantum方面称县长幕僚Patrick Murray说，初选结果让县长失望，得在机房议题上「撑过选举」。两天后行政令下来，停收新申请；九月她先夸一笔约一亿一千万美元的社区协议「全美最大」，十三天后否决并延长冻结到二〇二七年七月一日。\n\nFitzwater在竞选页反击：诉状充满错误与谎言，还要她个人赔钱；「机房和背后的亿万富翁以为钱能堵嘴，我拒绝被霸凌。」公司则说区划权在县议会，县长越权叫停。\n\n所以呢：一边是五亿交易与选票，一边是邻居怕机房——法庭要先分清，停建令到底是保护还是选战工具。",
+      "links": [
+        "https://foxbaltimore.com/news/local/data-center-lawsuit-alleges-frederick-county-executive-put-politics-ahead-of-development",
+        "https://www.fredcopapertrail.com/quantum-lawsuit-public-still-does-not-have-full-record/"
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "fairfax-fcps-ai-blocker",
+      "category": "痛点",
+      "title": "弗吉尼亚Fairfax学区：谷歌管理后台关不掉搜索AI摘要，IT自己写了Chrome扩展——先在十一所中小学挡掉「一搜就出答案」",
+      "body": "十月六日，弗吉尼亚最大学区Fairfax。过滤策略早就挡住ChatGPT、Claude、Gemini，可学生Chromebook上一搜，谷歌仍会弹出AI Overview和摘要。《华尔街日报》先报道了这事，本地电台WTOP跟进：官方承认管理员设置里没有关掉它的开关。\n\n于是信息部门自己动手，做了个叫FCPS Customizer的Chrome扩展，把生成式摘要、搜索总结和部分图像搜索藏起来。先在十一所小学、初中试点，听老师反馈，十一月前铺开到全部中小学。学区声明写得很克制：要让学生直接碰原始材料，练检索，而不是抄屏幕上的现成段子。老师反馈据说正向。\n\n董事会去年夏天已禁止小学生用生成式AI；老师那边反而在试点「ChatGPT for Teachers」。同一套谷歌生态，学生被挡，老师被开。\n\n所以呢：大厂不给开关时，学区能做的事很土——自己写一块挡板，把「一搜就出答案」先盖住。",
+      "links": [
+        "https://wtop.com/virginia/2026/10/fairfax-co-rolls-out-google-ai-blocker-on-school-issued-laptops/",
+        "https://viennaledger.com/articles/fcps-builds-chrome-tool-to-block-google-ai-on-student-laptops-mv0eg2ui"
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "anthropic-claude-diary-heller",
+      "category": "痛点",
+      "title": "佛州Bonita Springs：女子把Claude当日记写「要打爆县警局」，次日提到新枪——Anthropic人工复核报警，她被控二级重罪",
+      "body": "十月五日前后，佛罗里达李县。Bonita Springs的Carli Michelle Heller把Claude当日记用。调查称，九月二十六日她写下要「shoot up」（打爆）李县警局，第二天又提到新枪。Anthropic的安全系统抓到关键词，人工复核组决定报警。\n\n警察上门带走她，九月三十日以成文法836.10立案：书面或电子方式威胁大规模枪击或恐怖行为，二级重罪。她说那是日记；警长Carmine Marceno对本地电视台说得更冷：跟AI聊的东西「从来不是真正匿名」。公司九月生效的隐私政策写明：有合理理由认为披露能防止严重伤害时，可交给执法；用户条款甚至保留「自行决定」上报输入输出的权利。\n\n八月以来，圣安东尼奥、旧金山已有类似Claude对话被上报的案例；OpenAI在佛州也有过把聊天交给联邦调查局的先例。她十一月二日要出庭。\n\n所以呢：你当它是树洞，条款里写着——必要时，树洞会打电话给警察。",
+      "links": [
+        "https://decrypt.co/380119/florida-woman-claude-diary-anthropic-reported-police",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-reports-florida-womans-claude-diary-threat-to-shoot-up-sheriffs-office-felony-charge-follows-its-at-least-the-third-such-conversation-to-reach-police-since-august"
+      ],
+      "prompt": "",
+      "date": "2026-10-05",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "claude-service-degradation-class",
+      "category": "痛点",
+      "title": "加州北区：付费用户合并起诉Anthropic——高峰限流加快撞墙，Claude Code缓存bug反复烧额度，公司重置限额却不退那几周的钱",
+      "body": "九月十四日，加州北区法院。三名加州Pro用户递上合并集体诉讼诉状，案名写着Claude服务降级。他们说，三月四日到五月六日，自己花二十到两百美元买的套餐变「不值」了：工作日高峰五小时额度耗得更快；Claude Code一连串改动让模型变笨、丢上下文、重复干活，同一池子额度被白白烧掉。\n\n诉状引用Anthropic四月二十三日工程复盘：默认推理从高降到中、缓存bug导致空闲后忘记前文、想让回答变短的指令反而伤了写码质量。公司事后重置全员额度，五月六日还加倍了Claude Code限额并取消高峰缩减——可原告说，这些都是「往后看」，已经付过的那几周没退、没按比例补偿。\n\n十月三日起，消费维权站开始把覆盖范围写清楚：直接向Anthropic买Pro/Max并在那两个月用过的美国用户可能入围，尚未认证集体、也没有可领的和解。\n\n所以呢：bug可以修好，账单不会自动回头——付过钱的那几周，仍卡在「重置」和「退款」之间。",
+      "links": [
+        "https://openclassactions.com/lawsuits/consumer-protection/anthropic-claude-service-degradation-class-action-lawsuit.php",
+        "https://dockets.justia.com/docket/california/candce/3:2026cv07699/474951"
+      ],
+      "prompt": "",
+      "date": "2026-10-03",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "cage-amazon-ai-waiver",
+      "category": "痛点",
+      "title": "纽约漫展：Nicolas Cage说Amazon要他签AI弃权书，他拒了——「我不是AI友好演员，大概不会再跟这家合作」",
+      "body": "十月十日，纽约漫展。六十二岁的Nicolas Cage在台上聊Prime Video的《Spider-Noir》时，把话岔到合同：Amazon很AI友好，往OpenAI砸的钱以大约五百亿美元计；「我不是AI友好演员，把这两点连起来想。」\n\n他说自己没签那份允许在剧里用AI的弃权书，「大概不会再跟那家工作室合作了，不过没关系。」Amazon未立即回应。该剧由索尼电视和Amazon MGM联合制作，是他首部剧集男主；上线六周观影约二十六亿分钟，还拿了五项艾美奖——九月已被取消续订，报道多归咎成本和收视预期，不是这份弃权。弃权书具体覆盖数字替身、扫描还是训练，双方都没公开原文。\n\n好莱坞工会刚谈完AI保护，灰区仍在。Cage用脚投票的方式很老派：不签，就不续。同场他还顺口宣布要加盟HBO《真探》。\n\n所以呢：当片场把AI写进弃权书，有的明星选择的不是谈判细节，是直接说再见。",
+      "links": [
+        "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+        "https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564/"
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "maryland-pjm-dc-bill-hike",
+      "category": "痛点",
+      "title": "NPR算账：马里兰住户因机房一年大约多付一百六十八到二百一十六美元；PJM电网区六千七百万人两年摊掉约两千九百亿",
+      "body": "十月一日，NPR早间节目问了一个听起来简单、答起来很烫手的问题：AI机房到底让居民电费涨了多少？\n\n马里兰的一个估算是：主要因为机房扩张，普通用户一年大约多付一百六十八到二百一十六美元。更大的数字来自PJM——协调美东十三州及华盛顿特区批发电网的组织，北弗吉尼亚那片全球最密的机房集群也在里面。PJM独立市场监察估算，过去大约两年，机房给六千七百万人摊下约两千九百亿美元成本。「人人都在付，」哈佛电力法项目的Ari Peskoe说，「只要电表转，企业和住户都在分。」\n\n国会两党正抢着推「保护电费用户」法案，可义务强弱打架：有的只要求州公用事业「考虑」让大用户买单，反对者说那几乎是自愿。\n\n所以呢：聊天机器人的电，不一定写在科技公司抬头的发票上——它可能已经拆进你家月账单。",
+      "links": [
+        "https://www.npr.org/2026/10/01/nx-s1-5984949/data-centers-ai-ratepayers-congress",
+        "https://www.npr.org/2026/10/04/nx-s1-5990822/how-much-are-ai-data-centers-adding-to-your-electricity-bill"
+      ],
+      "prompt": "",
+      "date": "2026-10-01",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "comed-illinois-dc-price",
+      "category": "痛点",
+      "title": "芝加哥消费者组织预警：ComEd十月电价仍比二〇二四年高约百分之五十三，点名机房把需求顶上天",
+      "body": "九月三十日，伊利诺伊消费者公用事业委员会CUB发消费警报：联邦爱迪生公司（ComEd）十月到明年五月的「可比电价」定为每度十点一〇三美分——比今夏略降，但仍比二〇二四年高出大约百分之五十三。\n\nCUB通讯主任Jim Chilsen把原因说得很直：近年激增的数据中心为了喂AI，把用电需求拱上天，电价就「痛苦地高」。他催州议会通过POWER法案，把机房相关成本从居民肩上挪开，并要求ComEd帮付不起账单的用户保住供电。核电补贴项眼下还能给一点抵扣，但这道缓冲按计划明年六月前结束。\n\n十月账单开始按新价走。对芝加哥郊区的人来说，这不是抽象的「AI能耗」，是壁炉还没开、电费先涨一截。\n\n所以呢：机房可以建在别的县，电价涨幅会先出现在你信箱里的那张单。",
+      "links": [
+        "https://www.citizensutilityboard.org/wp-content/uploads/2026/09/20260930-ComEd-Price-News-Release_Final.pdf"
+      ],
+      "prompt": "",
+      "date": "2026-09-30",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "minnesota-xai-8th-stay",
+      "category": "痛点",
+      "title": "明尼苏达新进展：第八巡回上诉法院暂缓全州「AI脱衣」禁令，xAI先赢一回合——州说要挡儿童色情深伪，公司说违宪",
+      "body": "十月二日，圣路易斯的联邦第八巡回上诉法院下令：明尼苏达八月一日生效的反「nudification」（AI脱衣）法，先暂停执行。这是对同一条线的新进展——上个月地区法官Donovan Frank刚驳回xAI的紧急禁令申请，认定公司没证明不可挽回损害、且申请太晚；上诉法院这次站到了马斯克这边。\n\n该法禁止网站和软件允许用户把真人照片改成露出原图没有的私密部位的逼真图。州政府说，要通过它挡住「海量」由Grok Imagine这类工具生成的儿童性虐待材料；xAI称这限制合宪言论，并强调产品已有严格防护，还在起诉绕过屏蔽的用户。\n\n禁令一停，执法先熄火，案子本身还在打。\n\n所以呢：受害者还在等保护落地，法庭却先让「能不能禁」停在半空——法律生效了，也可以被一纸上诉令按住。",
+      "links": [
+        "https://www.mprnews.org/story/2026/10/02/us-appeals-court-blocks-minnesota-law-barring-nudified-photos-in-xai-lawsuit",
+        "https://news.bloomberglaw.com/litigation/musks-xai-wins-block-on-minnesota-ai-nudification-ban"
+      ],
+      "prompt": "",
+      "date": "2026-10-02",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "munson-traverse-blueflite-p2",
+      "category": "跨行业",
+      "title": "密歇根Traverse City：Munson医疗无人机二期飞出三英里，目标四小时跑八趟标本",
+      "body": "十月六日，密歇根州特拉弗斯城。Munson医疗中心到Crystal Lake健康中心大约三英里的航线上，blueflite的无人机开始第二阶段试飞，一直飞到十月三十日。\n\n去年春天第一期只在医院一英里半径里飞了六十七架次，成功率百分之九十一，机舱平均保持摄氏十七点三度——刚好够临床标本。这一期先带目视观察员，再过渡到超视距；合伙人还说，Munson是美国第一家获准超视距送标本的医疗系统。供应链副总裁克利夫兰算得更直：同样路程汽车要开好久，无人机二十到三十分钟就能跑一趟，四小时能跑八趟，「化验结果回来得更快」。Munson在二十九个县覆盖约五十四万居民，员工每年光送标本就要开大约九万英里。\n\n所以呢：乡村医院要的不是天空秀，是少开九万英里车——标本先飞到，人再腾出手。",
+      "links": [
+        "https://dronelife.com/2026/10/05/medical-drone-delivery-michigan/",
+        "https://www.traverseticker.com/news/munson-healthcare-traverse-connect-kick-off-second-phase-of-drone-delivery-project/",
+        "https://spectrumlocalnews.com/mi/michigan/news/2026/10/08/traverse-city-drones-munson-health-labs"
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "shengsi-boya-island-cargo",
+      "category": "跨行业",
+      "title": "舟山嵊泗：五米多长纯电无人船从泗礁开到金平岛，一人可管最多十艘",
+      "body": "日前，舟山嵊泗。一艘总长五点一二米的纯电无人货运船，载着货物从泗礁码头自动驶向对岸金平岛。这是国内首套跨域海上无人货运系统在嵊泗试运行的画面：船上没人掌舵，岸上调度中心盯着整条链。\n\n船宽约二点四米，整船大约一吨半，吃水只有零点六到零点七米，能钻进传统货船进不去的浅水岛礁。货舱大约两立方米，续航八小时以上，覆盖嵊泗各岛短途补给。系统由无人船、智能浮标、无人码头和岸基调度组成，装货、航行、卸货全链路测试已跑通。博雅工道的人说，以前一艘货船要配好几名船员，现在一名调度员最多能同时管十艘；原先贻贝等海产品高端冷链是短板，这套纯电船顺带补上。\n\n所以呢：海岛要的不是更大的渡轮，是浅水也能到、岸上一个人能盯住的小船队。",
+      "links": [
+        "https://zjnews.zjol.com.cn/zjnews/202610/t20261010_31956970.shtml"
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "aka-wahkwong-wallhiker-hold",
+      "category": "跨行业",
+      "title": "华光散货船：六十公斤爬壁机器人海上清舱一次过检，近一年交付近百台",
+      "body": "九月二十九日，深圳。香港船东华光海事和深圳AKA机器人签字合作，可故事不是会议室里的，是先在海上试出来的。\n\n散货船每换一种货，货舱都要洗干净过检。舱壁波纹十多米高，肋骨和边角传统得靠船员拿高压水枪爬高，洗不到就重洗、耽误装货。华光让船员在航行途中自己操作WallHiker CH-02：六十公斤级爬壁机，九百毫米清洗幅宽，五十兆帕水枪，能跨过二三十毫米焊缝和各种内外角。这一次清舱一次过检——华光管理层说，这是船员在航行中独立操作货舱清洗机器人的首次验证。机器上市不到一年，全球已交付近百台；下一代CH-04计划十一月商用。\n\n所以呢：船上最危险的活往往是爬高洗舱——机器人先替人贴到钢板上。",
+      "links": [
+        "https://www.akarobotics.com/aka-robotics-and-wah-kwong-sign-strategic-cooperation-agreement-to-jointly-promote-intelligent-robotic-cargo-hold-cleaning-for-bulk-carriers/"
+      ],
+      "prompt": "",
+      "date": "2026-10-09",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "xiongan-av-sightseeing-bus",
+      "category": "跨行业",
+      "title": "雄安启动区：没有方向盘的观光巴士串八站，每二十分钟一班",
+      "body": "十月六日一早，雄安新区启动区科源公交站。一辆科技蓝、印着「XIONGAN」的纯电动巴士缓缓停靠——车厢里没有方向盘，乘客用「雄安行」App预约上车。\n\n中国雄安集团交通公司业务经理申杰介绍，车上十八个雷达、十个高清摄像头，按L4级能力跑。八月二十六日起示范运营，串联科源站、雄安创新研究院、中国电信产业园等八处站点，每天九点到十八点，大约二十分钟一班；前期已完成约两万公里上路测试，遇管制或异常仍可由随车安全员接管。记者坐下来约四十分钟，窗外掠过中国中化大厦、华能大楼；有车快速靠近时，巴士只是平缓降速，没有急刹。专程从容西片区来体验的乘客魏德成拿着手机拍窗外：「窗户敞亮，对启动区风貌更有感觉。」\n\n所以呢：新城的「未来交通」先长成一条能预约、能坐窗边看楼的观光线。",
+      "links": [
+        "https://www.xiongan.gov.cn/20261010/0a2c31db7eba43afa689a0852efd102a/c.html"
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "yunfu-xijiang-drone-crew",
+      "category": "跨行业",
+      "title": "云浮西江：无人机给锚地船员送菜送药三千八百单，还顺手收走约一百单垃圾",
+      "body": "西江云浮段，船在锚地一停就是很久。以前船员补给要乘附属小艇上岸，汛期江水急，小艇本身就危险；船上垃圾也难上岸。如今手机一点，无人机吊着物资落到船边。\n\n云浮海事推动的华海江江通，二〇二五年十月起正式运营，服务从云浮扩到肇庆。截至二〇二六年九月二十四日，累计配送三千八百余单，服务船舶三千余艘次，飞行约三千八百架次，物资约五万七千公斤，航程约一万七千一百公里，零事故零投诉。单次可载七十到一百三十斤，半径约五公里，最快十分钟到；平台还能下单「垃圾清运」，约一百单生活垃圾已吊到岸上。郁南都城、肇庆广西洲等站点已开，端州站计划年底投用。一位常跑西江的船员说：以前上岸买菜来回个把小时，涨水时心惊胆战；现在东西直接送到船边。\n\n所以呢：锚地民生补给的「最后一公里」，开始从浪里的小艇换成头顶的吊索。",
+      "links": [
+        "http://www.apcreports.org.cn/index/news/125636.html"
+      ],
+      "prompt": "",
+      "date": "2026-10-04",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "fangcheng-5g-wind-quarantine",
+      "category": "跨行业",
+      "title": "防城港：一百三十米风电塔上架5G，进口矿石锚地检疫压到十五到二十分钟",
+      "body": "十月十日前后，广西防城港。进口矿石船停在离岸大约四十公里的锚地，海面公网信号弱，海关过去要乘船登轮检疫，单船耗时长，钢厂还得扛滞港成本。\n\n中国移动广西防城港分公司和防城海关把5G基站装上一百三十米高的海上风电塔筒：七百兆赫打底、二点六吉赫扛容量，覆盖海面大约五十公里、最远到八十公里。专网已稳定运行超过三百六十五天。关员在岸上用远程测温、手持采集、头戴AR，结合边缘AI和智慧电讯检疫平台，多船同步作业；单船锚地检疫可压到十五到二十分钟。模式已在广西钢铁、金川、赤沙码头试点，还拿了「绽放杯」广西赛区一等奖。\n\n所以呢：检疫提速靠的不是多派几艘交通艇，是先把信号送到风机顶上。",
+      "links": [
+        "https://feng.ifeng.com/c/8x6va7JyWyE"
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "meishan-5ga-64-trucks",
+      "category": "跨行业",
+      "title": "宁波舟山港梅山：5G-A让单泊位无人集卡从三十二辆编到六十四辆",
+      "body": "国庆假期，宁波舟山港梅山港区桥吊不停、集卡穿梭。记者站在码头上说：看得见的是物流网，看不见的是全国首批把5G-A深度嵌进港口作业的通信网。\n\n普通5G按「人刷手机」设计，下载宽、上传窄；港口刚好反过来——无人车回传摄像头、远控吊机回传多路高清，几十台一起「往上送」就堵。5G-A先把上传拓宽。结果很具体：单个泊位无人集卡编组从最多三十二辆扩到六十四辆，一起为一艘集装箱船装卸；自动集卡非泊位定位从分米级提到厘米级，知道自己压着哪条白线，调度甚至能安排超车。网络还多了「病灶可查」，哪里信号差能更快定位维修。远控吊机和无人集卡在梅山早已不是新闻，5G-A做的是让它们跑得更多、更快、更准。\n\n所以呢：港口智能化卡在上传带宽时，加宽的不是口号，是同一泊位能多排一倍无人车。",
+      "links": [
+        "https://www.stdaily.com/web/gdxw/2026-10/06/content_591951.html",
+        "https://news.qq.com/rain/a/20261005A06AYH00"
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "dewalt-dale-385k-holes",
+      "category": "跨行业",
+      "title": "机房工地：DEWALT钻机机器人已打三十八万五千个混凝土孔，准确率超百分之九十九",
+      "body": "数据中心地面上，要为机柜和水电管线打成千上万个孔。活儿枯燥，却拖得住后面整条安装链。十月七日前后，DEWALT公布与August Robotics合作的下向钻机机器人DALE：已在试点里打出超过三十八万五千个混凝土孔，准确率超百分之九十九，并号称帮四十四个机房建设阶段省下超过三百周工期。\n\nDALE能自己走位、按布局钻孔，远程盯控，电池快换，钻孔时自动吸尘，再用AI做质检。更要紧的是它按「车队」设计——大机房多个工作面同时推进时，不是一台演示机，而是多台一起抬钻孔产能。Stanley Black & Decker工具户外业务总裁贝克说，目标不是单纯更快，是让施工队在一致性和安全不被牺牲的前提下往前赶。Fast Company还把它选进二〇二六年Next Big Things in Tech。\n\n所以呢：机房最不性感的工序，先被机器人按图纸打成可验收的孔阵。",
+      "links": [
+        "https://interestingengineering.com/ai-robotics/dale-fleet-capable-downward-drill-robot"
+      ],
+      "prompt": "",
+      "date": "2026-10-07",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "utah-symani-breast-recon",
+      "category": "跨行业",
+      "title": "犹他大学医院：Symani显微机器人首例乳腺重建，毫米级血管在工作站上缝",
+      "body": "十月六日前后，盐湖城。犹他大学健康与Huntsman癌症研究所整形医生阿尔文·郭克完成该院首例用Symani手术系统做的乳腺重建：从患者腹部取皮肤和脂肪转移到胸部，再用机器人把转移组织上的细小血管接到胸壁血管上。\n\nSymani最初为神经外科引进，淋巴手术医生通哲尔已用过；这次把它推进到显微血管乳腺重建。它不是经小孔进腹腔的那种腔镜机器人，而是配合高倍显微镜做开放显微手术：医生的手部动作被缩放到更小、更稳，天然震颤被压住。医生坐在远离患者的工作站，三维放大画面里操作，机械臂可以摆到人手够别扭的角度。郭克说，这几乎像一次「自体移植」——血流通了，组织才活得下来；熟练之后或许能缝更细的血管，少破坏肌肉去够大血管。犹他州目前只有这一台Symani。\n\n所以呢：重建手术拼的是毫米级吻合，机器人先把「手抖」从缝合线上拿掉。",
+      "links": [
+        "https://medicine.utah.edu/surgery/plastic-surgery/news/2026/10/symani-robot-expands-breast-reconstruction-university-of-utah"
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "yancheng-nongxin-pig-robot",
+      "category": "跨行业",
+      "title": "江苏盐城猪场：四轮巡检机器人把发病率压三成，出栏提早五到七天",
+      "body": "盐城一家猪场过道里，一台装着摄像头和传感器的四轮机器人沿着猪栏巡逻。它采行为、饮水、采食、温湿度和疾病体征，数据进大模型，再回传成精准饲喂、异常警报和环境调节。\n\n农信数智公关负责人陈利兵说，机器人帮忙把饲料浪费降了百分之八到十，人工大约减三成，整体发病率降三成，育肥猪平均提早五到七天出栏。举例：某栏连续三天采食下降，系统会复测体温、对照饮水记录，再对照历史疫病模型，提示疑似呼吸道感染，人再提前干预。机器人可二十四小时巡栏；公司AI盒子已进全国约一千二百个猪鸭鸡鱼场，机器人本身进了八省六十七场，整套按规模大约二十八万到一百多万元。副总裁王珂说，养猪过去靠经验，现在靠数据——但关键决策如用药、转栏、淘汰仍由兽医和系统建议一起拍板，误判率大约百分之零点七。\n\n所以呢：猪场要的不是无人秀，是饲养员从「一天巡三遍」改成「先核十条警报」。",
+      "links": [
+        "https://www.chinadaily.com.cn/a/202610/08/WS6ac6eefbe4b06d4aa05619c0.html"
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "qingtian-80-drone-nests",
+      "category": "跨行业",
+      "title": "浙江青田：山区县铺开八十套无人机机巢，公路巡查从八小时压到约两小时",
+      "body": "浙江丽水青田，「九山半水半分田」。十月初的报道说，这个山区县已建成八十套无人机机巢：飞机自己返航、降落、充电，任务由远程平台下发，现场不必守着遥控手。\n\n县里搭了低空飞行服务平台，国企承接「部门提需求、企业去执行」。常态航线覆盖公路巡查、森林防火、松材线虫监测、河道和地质灾害等五十余个场景；物流侧有七条常态无人机航线，跑快递进村、农资进山、特产出山。乡村公路指导中心主任罗锋军说，以前巡一段路要八小时，现在大约两小时，还能自动识别路面病害。杨梅季还曾用五架无人机跑白浦专线，盘山车五十分钟的路，无人机约十五分钟到集散中心。机巢多了，岗位从「现场飞手」转向远程值守和跨场景运营——天气、障碍、电池、误报，仍要人拍板。\n\n所以呢：县域低空拼的不是机巢数量，是发现问题到地面处置能不能全年转起来。",
+      "links": [
+        "https://www.youuav.com/news/detail/202610/64118.html",
+        "https://www.zgjtb.com/zhitong/2026-06/29/content_525595.html"
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "xian-robot-heart-transplant",
+      "category": "跨行业",
+      "title": "西安交大一附院：不开胸机器人换心，全球第三例、国内首例，当天脱机",
+      "body": "十月五日凌晨，西安。西安交大一附院心血管外科闫炀、李勇新团队接到供心通知，为一名老年终末期心衰患者做机器人辅助微创心脏移植。患者左心室射血分数只剩百分之十九，多瓣膜大量反流，还合并冠心病、脑梗死、肺气肿——传统正中开胸要劈开二十厘米以上的胸骨，对他风险极高。\n\n术中只在肋间开约八厘米主切口，不劈胸骨；右侧胸壁两个小戳卡孔让机械臂进胸。三维放大视野下，取出病心，植入供心，在狭小空间完成左心房、肺动脉、主动脉、上下腔静脉共五处吻合，全程维持供心低温。主动脉开放后心脏复跳，患者当天脱离呼吸机。十月九日通气会通报：这是全球第三例同类手术（此前沙特、美国各一例），填补中国机器人心脏移植空白。闫炀说，核心是保全胸廓，缩短康复、降低胸骨感染风险，给高龄多病、几乎做不了大切口移植的人留一条路。\n\n所以呢：换心的门槛有时不是心脏本身，是胸口那一刀——机器人先把刀口缩到肋间。",
+      "links": [
+        "http://www.sn.xinhua.org/20261010/bb9be337862e453bb1df6c19ad95898e/c.html",
+        "https://news.hsw.cn/system/2026/1010/1965474.shtml"
+      ],
+      "prompt": "",
+      "date": "2026-10-05",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "bnct-cyberlogitec-no-tag",
+      "category": "跨行业",
+      "title": "釜山新港第五码头：岸桥二十八路摄像头无标签盯人，同车道十五米起喊停跨运车",
+      "body": "十月六日，韩国釜山新港。运营第五码头的BNCT上线CyberLogitec的防撞系统：工人不用戴定位标签，岸桥上的AI摄像头照样能发现人，并在同车道靠近时提醒跨运车司机。\n\n十四台岸桥装了二十八路AI摄像头，大约七十台移动设备接LG U+的RTK网络；视觉定位把人投到真实坐标，再和跨运车厘米级位置算距离。关键设计是「同车道才报警」——隔壁车道安全作业的同事离你可能只有几米，乱响司机就会关系统。告警分十五、十、五米三档，驾驶室显示方向条。现场验证设备定位误差小于三厘米，人员定位小于二十厘米。控制室三维虚拟码头可回放近乎事故。项目负责人说，衡量安全系统的标准不是抓得多响，是人还信不信它。\n\n所以呢：港口防撞先过的不是算法分，是司机愿不愿意把警报留着开一整班。",
+      "links": [
+        "https://thailandbusinessnews.net/press-release/cyberlogitec-brings-tag-free-collision-prevention-to-busan-new-port/"
+      ],
+      "prompt": "",
+      "date": "2026-10-06",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
+    {
+      "id": "lucid-bots-sherpa-paint",
+      "category": "跨行业",
+      "title": "北卡Charlotte：清洗无人机Sherpa开始喷漆，公路桥涂鸦也交给Shield载荷",
+      "body": "十月八日，DroneLife报道Charlotte的Lucid Bots。创始人阿舒尔大学时看见洗窗工人在风里晃，查到大约每四天就有人因清洗建筑身亡，于是做起飞洗外墙的公司。\n\n如今Sherpa工业清洗无人机在四十多个州和十八个国家服务四百多家客户，可软洗、高压洗，也能加窗洗载荷，大约月产二十五架并在扩产地面供电系留。公司把产品拆成「大脑、机架、工具」三层：同一套软件和模块化机架，换工具就换工种。新工具Shield可喷防水涂层；喷漆载荷已进入后期实测，有客户用来给新建大型仓库上漆，北卡本地公路系统也用Shield覆盖桥上的涂鸦。阿舒尔说，接下来要在同一机架上继续堆能帮客户赚钱的工具。\n\n所以呢：从洗窗保命起步的无人机，开始把同一副「翅膀」伸向喷漆和涂桥——工种变了，高空还是那座高空。",
+      "links": [
+        "https://dronelife.com/2026/10/08/lucid-bots-cleaning-drones-painting/"
+      ],
+      "prompt": "",
+      "date": "2026-10-08",
+      "added": "2026-10-11T18:10:00+08:00"
+    },
     {
       "id": "prompt-seedance-ny-selfie-vlog",
       "category": "提示词",
