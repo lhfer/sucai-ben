@@ -1,6 +1,690 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-12T10:50:00+08:00",
+  "updated": "2026-10-12T15:10:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-mall-finger-snap",
+      "category": "提示词",
+      "title": "商场里打个响指：全世界定住，只有他还能摸购物袋",
+      "body": "商场中庭，他朝镜头走来，指尖一响——路过的人全定在半步里，连购物袋都悬在空中。\n\n法国创作者 Pierrick（@CharaspowerAI）用 Seedance 2.5 做了这段三十秒一镜到底。巧思不在「时间停止」四个字，而在响指当剪辑点：七秒写常态、十一秒响指定住、中间让他去逗冻住的路人——挥手、把悬空的袋子塞回别人手里、尝一口半空中的薯条——再响指一次，世界假装什么都没发生。原话写得很狠：「Freeze an entire mall. Keep one character moving.」\n\n可问题是很多人一写时间停，场面就乱成特效样片。这段把「可互动的冻结物」列成清单，镜头只做跟踪、推近和一圈环绕，不堆魔法光。\n\n所以呢：想拍时间停止，先给观众一个听得懂的开关——响指比传送门管用；开关响完，就只让一个人动。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/CharaspowerAI/status/2109343318224027935"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/CharaspowerAI/status/2109343340894339132"
+        }
+      ],
+      "prompt": "Ultra-realistic cinematic frozen-time sequence, one seamless 30-second shot. Shot on ARRI Alexa 35 with anamorphic lenses, smooth Steadicam tracking, elegant push-ins, one subtle orbit, dramatic speed ramps and premium slow motion. Bright daytime inside a modern shopping mall, glossy floors, skylight reflections, realistic crowd movement, polished blockbuster realism.\n\nMain subject: one adult man, stylish casual outfit, calm, confident, effortless charisma. Background: many shoppers, families, mall staff, all natural and distinct.\n\nLarge modern shopping mall in daylight, open atrium, escalators, glass railings, café seating, storefronts, kiosks, hanging lights.\n\n0-7s: [Tracking shot] The man walks calmly through the mall toward camera. Busy daytime atmosphere, shoppers passing, lively realistic movement.\n\n7-11s: [Hero close-up] He notices the crowd around him, gives a slight smile, raises one hand and clearly snaps his fingers. Instantly time stops. Every passerby freezes mid-step, clothes and hair frozen in motion.\n\n11-22s: [Frozen-time exploration] He walks through the motionless crowd. He waves a hand in front of one frozen shopper's face, gently catches a shopping bag suspended in mid-air and places it back into someone's hand, tastes a fry or snack held in mid-motion by a frozen passerby, adjusts a dropped scarf, and walks beneath tiny suspended droplets from a frozen drink spill.\n\n22-27s: [Epic orbit] Camera orbits as he stands in the center of the frozen mall. Escalators stop, a balloon hangs motionless, floating dust and droplets remain suspended, all shoppers perfectly still.\n\n27-30s: [Payoff] He snaps again. Time instantly resumes. Everyone continues moving as if nothing happened. He keeps walking forward calmly through the revived crowd. Hard cut.\n\nOne continuous shot, readable finger snap, clear before-and-after time stop, strong frozen crowd realism, elegant interactions, no chaos, no injury, no text, no logos.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-steering-glam-wipe",
+      "category": "提示词",
+      "title": "素颜变全妆：变身只许发生在方向盘挡住镜头那零点八秒",
+      "body": "车里自拍，她先举着法式美甲给镜头看，然后双手落回粉色方向盘猛打一把——画面被手和轮子盖住，再露出来时已是红唇全妆。\n\nIma Studio（@ImaStudio_ai）把这约零点八秒写成硬规矩：变身只能发生在遮挡里面，不许渐变、不许魔法光。遮挡前是素颜加眼镜，遮挡后是红唇、水晶美甲和车内紫光，脸型和头发全程锁死。原帖写得很直：「The full transformation happens only inside this occlusion.」\n\n于是观众看见的不是「AI 换了妆」，而是短视频里常见的手挡镜头把戏。普通人改着用，只要把方向盘换成门板、菜单、袖口——任何能挡住镜头的东西都行，遮住那一下才算真正的剪辑点。\n\n所以呢：变装别写「慢慢变漂亮」，先找一件能挡住镜头的道具，遮住的那一下才是真正的剪辑点。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/ImaStudio_ai/status/2109488468015661296"
+        },
+        {
+          "label": "工作流页",
+          "url": "https://www.imastudio.com/seedance-2-5"
+        }
+      ],
+      "prompt": "Create a 10s, 9:16 photorealistic smartphone selfie video.\nUse @Image1 as the only identity reference. Keep the same adult Western woman's face, blue eyes, skin tone, blonde hair and body proportions consistent throughout.\nFixed camera inside the same car, facing the driver from behind a visible pink leather steering wheel. No cuts.\n0–2s: Bare-face look, clear glasses, blonde hair down, simple white top, natural daylight. She looks casually at the camera with subtle blinking and breathing.\n2–4.5s: She raises both hands close to the lens to reveal glossy French nails: nude-pink base, white tips, thin red outlines and small red heart details. Keep the same bare-face look, glasses, outfit and daylight.\n4.5–5.3s: Both hands drop to the pink steering wheel and quickly turn it. The hands + wheel briefly cover the camera.\nThe full transformation happens only inside this occlusion. No morphing or magical effects.\n5.3–10s: Same woman, same face and hair, now fully transformed: no glasses, glam makeup, sharp eyeliner, full lashes, classic red lips, fitted red top, sparkling silver-white crystal nails, elegant silver drop earrings, and purple/magenta ambient car lighting.\nShe raises her hands again to show the glitter nails, then lowers them slightly and looks confidently into the camera.\nLock: same identity, same car, same camera, same pink steering wheel.\nOnly makeup, glasses, outfit, nails, earrings and lighting may change.\nAvoid: face drift, hairstyle change, extra fingers, warped hands, steering-wheel deformation, early transformation, gradual morphing, camera cuts, text, logos or watermarks.",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-bullet-time-makeup",
+      "category": "提示词",
+      "title": "化妆包一拉开：产品炸上天，镜头在零重力里绕一圈再落地",
+      "body": "梳妆台前，她拉开化妆包——口红、粉饼、刷子全弹上天，在空中定住，镜头从缝隙里穿过去，再让重力把它们摔回桌上，摆成一张广告静物。\n\nIma Studio 在博客里公开了这段十二秒 Seedance 2.5「子弹时间」广告词：触发、爆炸、零重力、重力回来、完美落地，五拍写死时间轴。最扎人的一句不是特效，而是库存纪律：「Use only the exact products shown in the uploaded images.」他们试过在词里点名唇膏、睫毛膏，结果画面里多出参考图没有的货；改成「只许出现上传图里的东西」之后，乱入才停。\n\n结果是：同一套五拍骨架，换成户外装备包也能跑——换产品、换包、换场景，别改时间逻辑。\n\n所以呢：做产品广告，先锁「画面里到底有几样货」，再谈炸上天；货对了，子弹时间才像广告，不像魔术。",
+      "links": [
+        {
+          "label": "完整博客与提示词",
+          "url": "https://imastudio.com/blog/ai-bullet-time-seedance-2-5-prompt"
+        },
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/ImaStudio_ai/status/2108863735817531739"
+        }
+      ],
+      "prompt": "The Makeup Explosion｜Beauty in Zero Gravity\n\nVisual Style\n\nARRI Alexa 35 cinematic realism, 35mm subtle film grain, premium European and American luxury beauty campaign, physically accurate lighting, realistic skin texture, glass reflections, metallic surfaces, and high-speed photography. Sophisticated editorial color grading, tactile material details, natural motion blur. Absolutely no CGI animation aesthetics.\n\nReference & Continuity Rules\n\nUse the uploaded reference images strictly. Preserve the same female model, facial identity, hairstyle, makeup, outfit, makeup bag, and every cosmetic product throughout the entire video. All product packaging, colors, logos, proportions, and textures must remain identical to the references.\n\nUse only the exact products shown in the uploaded images. Do not add, invent, substitute, or duplicate any products. The original product inventory must remain consistent throughout the video. Do not generate additional cosmetics or accessories, even if they would normally belong in a makeup collection.\n\nOne continuous shot from beginning to end. Zero cuts, zero jump cuts, zero hidden transitions, zero teleportation. A single physical camera moves continuously through one coherent three-dimensional environment.\n\nScene\n\nA stylish young Western woman sits at a beautifully styled vanity in a naturally lit bedroom. She casually opens a makeup bag placed on the vanity. Inside are only the cosmetic products visible in the uploaded reference images.\n\nThe environment feels like a real luxury beauty editorial shot on location, not a computer-generated showroom. Soft morning sunlight streams through a nearby window, creating delicate highlights on the products and surrounding surfaces.\n\n0–2.0s — The Trigger\n\nThe camera begins in a close medium shot, slightly above the vanity, slowly pushing toward the woman's hands.\n\nShe unzips the makeup bag and opens it naturally.\n\nThe instant the bag opens fully, a sudden burst of physical momentum sends the referenced products upward and outward, as if the compressed contents have been released under an unexpected force.\n\nThe woman instinctively leans back in surprise, her hair moving slightly with the motion.\n\nAll products must emerge from the actual opening of the bag and must match the uploaded references exactly. Nothing appears from nowhere. The bag remains on the vanity.\n\n2.0–4.0s — The Explosion\n\nThe referenced products burst into the air in different directions, tumbling and rotating according to their individual shapes, masses, and momentum.\n\nEach product retains its original appearance, packaging, color, and logo. A few tiny particles may drift naturally through the sunlight.\n\nThe camera accelerates forward and rises between the floating products, passing close to individual items and weaving through the arrangement.\n\nThe camera must physically navigate the scene. Objects never move toward the camera simply to create a close-up. No additional products appear.\n\n4.0–7.5s — Beauty in Zero Gravity\n\nAt the peak of the explosion, time dramatically slows to approximately 2–3% of normal speed.\n\nEvery product freezes at its exact three-dimensional position, preserving its orientation, distance, and trajectory at the moment of deceleration.\n\nOnly the camera continues moving.\n\nThe camera performs a continuous, elegant orbit through the frozen arrangement, passing within inches of individual products. Focus shifts naturally between their original packaging, surface textures, and reflective details.\n\nThe movement feels like an expensive high-speed beauty commercial, with precise spatial depth, realistic optical perspective, and controlled shallow depth of field.\n\nNo object changes position during this sequence. No product rotates independently. No object is duplicated, deformed, or attracted toward the camera.\n\n7.5–10.0s — Gravity Returns\n\nTime gradually returns to normal.\n\nEvery object resumes its original motion from the exact position and orientation where it was frozen. Gravity takes effect naturally.\n\nThe products descend toward the vanity, colliding gently with the tabletop and one another. They bounce, roll, or slide according to their physical properties.\n\nEvery movement must be driven by gravity, inertia, friction, and realistic collisions.\n\nAs the products descend, the camera smoothly lowers with them, following the action in one uninterrupted movement.\n\nOnly the original referenced products may appear throughout the sequence. No new objects or duplicates may emerge during collisions.\n\n10.0–12.0s — The Perfect Landing\n\nThe last products settle onto the vanity.\n\nThrough their natural trajectories, rolling motion, collisions, and friction, the referenced products end up in an unexpectedly beautiful composition around the open makeup bag.\n\nThe final arrangement resembles a premium beauty campaign still life. The products are naturally distributed across the tabletop, with a visually balanced composition that remains physically believable.\n\nThe products do not fly into formation, snap into place, or arrange themselves through invisible forces.\n\nThe woman looks down at the vanity, pleasantly surprised.\n\nThe camera completes its continuous movement and settles into a refined low-angle product composition. Soft sunlight illuminates the products, revealing their original materials, textures, and packaging.\n\nEnd on a visually striking luxury beauty tableau.\n\nFinal Frame: The woman, open makeup bag, and only the original products from the uploaded reference images are visible in one cohesive composition. Every product remains recognizable and identical to its reference image.\n\nAbsolute Restrictions\n\nNo additional products, no invented cosmetics, no product duplication, no product morphing, no changing packaging, no changing logos, no missing or substituted products, no cuts, no jump cuts, no hidden transitions, no camera teleportation, no impossible camera movement, no floating without physical cause, no automatic product alignment, no magnetic attraction, no distorted hands, no face changes, no outfit changes, no excessive particles, no magical sparkles, no neon effects, no artificial CGI sheen, no cartoon physics, no text overlays, no subtitles, no watermarks, no background music, no dialogue, no voice-over.\n\nNatural environmental and object sound effects are permitted: zipper opening, cosmetic packaging clicks, subtle air movement, light tabletop impacts, and products rolling to a stop.",
+      "date": "2026-10-10",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-ninja-shadow-pin",
+      "category": "提示词",
+      "title": "荷兰角追杀八镜：她一剑钉住的是怪物的影子，不是身子",
+      "body": "月夜林子里，忍者侧身狂奔，荷兰角镜头贴着她跑；身后那只角状怪物越逼越近，树被爪子劈斜。\n\nKōda（@aimikoda）把整段写成 Seedance 2.5 的八大镜、每镜三刀硬切：先写清谁在左边、谁在右边、哪只手握剑，再在第七镜让她把月光剑插进地上的影子——影子像皮肤一样绷紧，怪物被自己的影子钉在原地，最后化成墨灰。原帖说他想要的是「紧张、混乱的恐怖动作」，荷兰角和快速跟拍是故意的。\n\n于是高潮不是砍身体，而是砍投影。普通人改着用，只要保留「动作戏最后一击打在影子／倒影／脚印上」，故事立刻有记忆点。\n\n所以呢：动作片别只会写「打得更凶」，留一剑给影子——观众会记住那个反常的落点。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/aimikoda/status/2109370835039301805"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/aimikoda/status/2109371234425164012"
+        }
+      ],
+      "prompt": "Seedance 2.5 Prompt:\nUse @[ref1] for the ninja, @[ref2] for the creature, @[ref3] for forest and light.\n\nShot 1: Dutch side tracking races beside the ninja, sword in her right hand, a moonlit clearing visible ahead through rushing trunks.\nCut: Rear three-quarter tracking reveals the creature gaining behind her; a low moon hangs beyond its horned silhouette through the branches.\nCut: Low beside her as she crosses a sliver of moonlight: the blade flashes silver, but its cast shadow curls against her movement. She notices the brighter clearing and drives toward it.\n\nShot 2: Front-facing Dutch tracking retreats as a black column separates from the forest: the creature's right forelimb drops toward her.\nCut: Ground-level view follows her sidestep while its palm crushes her last footprint, flinging roots after her.\nCut: Lateral tracking catches its left arm sweeping across her route. She slides underneath; the missed claw splits a slender tree's base, leaving it leaning into neighboring branches.\n\nShot 3: Low three-quarter tracking carries the slide into her rising turn as the left claw reaches back.\nCut: Side-on contact: her right-hand sword slices its fibrous left wrist. Black strands tear; the creature recoils, opening a gap she immediately runs through.\nCut: Wider rear tracking keeps her moving toward the moonlit clearing as the creature grips the leaning tree with its intact right hand. Wood cracks under its grip.\n\nShot 4: Elevated Dutch view follows the grip into a wrench: the creature tears the split trunk free and thrusts it across her escape route.\nCut: Low side view as the released trunk crashes ahead of her, a low thin end beside its heavy base. She brakes through flying bark.\nCut: High oblique tracking shows the clearing just beyond the barrier. She turns toward the thin end and commits to a vault instead of retreating into darkness.\n\nShot 5: Low rear-quarter Dutch tracking follows her left palm onto the trunk, right-hand sword clear as she vaults.\nCut: Low frontal view as she clears it: the creature reaches over the barrier toward her landing point. She twists aside in mid-descent.\nCut: Ground-level side view catches the palm smashing beside her. Her left shoulder clips the splintered trunk, knocking out her breath; she rolls away into the clearing.\n\nShot 6: Close low tracking carries the roll into a painful kneeling turn, left arm held close. She faces the approaching creature, sword still in her right hand.\nCut: Wider side view establishes the low moon behind the creature as it enters the clearing. Its enormous shadow stretches across the pale ground toward her; its torn left wrist still sheds fibers.\nCut: Close on her frightened face, then reframing to her sword as she raises it into moonlight. She stops retreating. The creature lunges; its shadow reaches her knees.\n\nShot 7: Low contact view: she plunges the moonlit blade through the creature's advancing shadow into the soil. Silver light runs down the steel; the pierced shadow tightens like black skin.\nCut: Wide Dutch view as the creature tries to bound forward but its shadow holds its feet. Ink-black strips lift from that shadow and thread upward through its hanging body fibers, pulling them taut.\nCut: Tight tracking along its intact right arm as it tears free of the rising strips and lunges at her. She remains kneeling at the anchored sword; the claw is almost upon her.\n\nShot 8: Tight on her right hand twisting the buried blade as the claw rushes down. Moonlight sharpens along the steel; the pinned shadow contracts violently.\nCut: Low shared view: the claw unravels inches from her face. The collapse races up its arm into its torso, dragging its black fibers down toward its own shadow while it fights to wrench away.\nCut: Wider view holds the colossal body completely disintegrating into shredded ink ribbons and dry black dust. Its horned head breaks apart last, both white eyes extinguishing; the falling matter crumbles into lifeless ash around the pinned shadow.\nCut: The camera settles level across the empty clearing. The creature and its shadow are gone; only scattered ash remains. She kneels beside the planted sword, injured shoulder low, breathing into the sudden quiet under the same cold moonlight.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-2027-window-taxi",
+      "category": "提示词",
+      "title": "窗外末日轮番上演，她靠窗喝咖啡，最后一句：我的车来了",
+      "body": "她探出公寓窗，左手捧着大马克杯，神情像在看热闹。窗外轮着蝗虫、霸王龙、巨蛛、淹城里的鲨鱼、外星飞船和流星雨——她只抿了一口咖啡。\n\nAlex Neyef（@Alexneyef）用 ChatGPT 先排好十四镜，再丢给 Seedance 2.5。结构极清楚：机位只许两种——A 是窗外仰拍她探身，B 是从同一扇窗看出去的城市灾难；七次回到同一窗框，灾难互不堆叠。最后她淡淡说：「Oh, my ride's here.」切到一个胸口挂着黄色 TAXI 灯牌的飞天骑士冲上来。\n\n可问题是近一万五千字符的长词里，真正值钱的是「A/B 交替＋一句包袱」。普通人换灾难清单就行，窗框和那句台词别动，节奏也就还在。\n\n所以呢：末日片也可以写成反应喜剧——先把主角的冷静锁死，再让最后一辆「出租车」来收梗。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Alexneyef/status/2109021521624834393"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/Alexneyef/status/2109022186870600142"
+        }
+      ],
+      "prompt": "Create a 25-second, horizontal 16:9 photorealistic video of a young American woman leaning OUT THROUGH an open upper-floor apartment window, calmly drinking coffee while increasingly outrageous catastrophes unfold across the city.\n\nUse 14 shots connected by 13 clean hard cuts. Alternate between EXTERIOR views of the woman leaning out of her window and outward views of the city. Normal-speed movement throughout.\n\nMAIN CHARACTER\n\nAn exceptionally beautiful 20-year-old American Instagram-style brunette model and performer. Long dark-brown hair in a high ponytail, expressive eyes, full glossy lips, soft glam makeup, and delicate sparkly stud earrings.\n\nShe has a slim athletic figure with a very large, full bust, very full rounded buttocks, a narrow waist, a flat stomach, and lean arms and legs.\n\nShe wears a white ribbed camisole with thin straps and a deep scoop neckline showing prominent cleavage, paired with light-grey lounge trousers. The top stays securely in place throughout.\n\nHer skin is dry and naturally matte, with realistic skin texture. Preserve her face, hairstyle, proportions, white top, and jewellery throughout.\n\nShe holds one oversized plain ivory ceramic mug by its handle in her LEFT hand. Her manner is relaxed and quietly amused: small smiles, ordinary breathing, brief blinks, natural gaze changes, and one unhurried sip of coffee. She watches the events outside with casual interest.\n\nWINDOW AND BODY POSITION\n\nA tall, dark-green framed window in the pale, textured exterior façade of an upper-floor American apartment building. Horizontal architectural grooves run across the façade. The lower window opening is open; the glazed upper section remains above it.\n\nFrom the FIRST FRAME, she is already leaning through the open lower section. Her head, shoulders, and upper chest project OUTSIDE the window opening, beyond the exterior wall plane. Her lower body remains inside the apartment.\n\nHer torso stays comfortably inclined outward. The mug and the hand holding it are outside with her. Her free arm stays near the lower edge of the opening.\n\nThe window frame surrounds her from behind. The dim apartment interior is visible behind her shoulders, while the pale OUTSIDE WALL occupies part of the frame beside her.\n\nMaintain this same leaning-out position in EVERY shot of the woman. Her small reactions change her head angle and the degree of her lean without moving her to a different position.\n\nCAMERA — TWO REPEATING DIRECTIONS\n\nA — EXTERIOR VIEW OF THE WOMAN:\nThe viewpoint is OUTSIDE the building, close to the open window, looking BACK toward the woman, the window opening, and the exterior façade.\n\nThe camera is slightly below her face and tilted upward. Use a close-medium, slightly diagonal wide-angle composition showing her face, neckline, upper torso, mug, and the hand holding it.\n\nThe exterior wall and upper window frame rise behind and beside her. The room behind her is darker. Keep the camera close enough that her face and upper body are prominent in the horizontal frame.\n\nThis is the recurring composition for all seven shots of the woman. It is an exterior view of someone leaning out, not a side-profile view filmed from inside a room. The viewpoint is near the upper-floor window, not down on the sidewalk.\n\nB — OUTWARD CITY VIEW:\nLook outward over the city from the height and vicinity of that same window. The avenue, roofs, and intersections lie below; the skyline and sky extend ahead.\n\nFor the steep downward views, retain a narrow section of the building's exterior sill or ledge along the lower-left edge.\n\nCut directly between A and B. The city occupies its own shots; it is not the background behind the woman in composition A. The recording device stays outside the image.\n\nCITY\n\nA dense American city with broad avenues, marked intersections, crosswalks, brick apartment blocks, flat-roofed commercial buildings, modern towers, autumn trees, and cars.\n\nEstablish a recognizable avenue and group of buildings below the window. Preserve the general viewing direction and sense of height across the city shots.\n\nEach city shot reveals a different apocalyptic situation at this location. They are separate visual tableaux connected by cuts: creatures and floodwater belong to their specified shots rather than accumulating into every later shot.\n\nCAMERA TEXTURE AND LIGHT\n\nHandheld consumer DV tape camcorder aesthetic: slightly soft fine detail, faint digital noise, mild compression, imperfect white balance, and believable exposure. Preserve this recording texture through both the quiet window shots and the vivid disasters.\n\nUse small irregular hand tremors, slightly crooked framing, minor framing corrections, brief natural motion blur, and occasional delayed autofocus after reframing. The opening has a small natural framing adjustment, then the repeated window compositions remain recognizable. Keep faces, the mug, and important actions readable.\n\nSoft, cool outdoor daylight illuminates her face and white top from the street side. The window recess and room behind her are darker, with natural light falloff. Preserve skin texture, individual hair strands, ribbed fabric, ceramic reflections, and the rough exterior wall.\n\nCity shots have vivid light from environmental sources: orange fires under charcoal clouds, amber sky openings, blue-white lightning, and cold alien beams. Fire lights smoke from below; beams scatter through haze; glass and wet surfaces reflect their colour. Preserve daytime detail and texture beneath the storm, with slight bloom around intense sources. The woman's face and white top retain soft daylight and natural colour.\n\nRender buildings, water, creatures, smoke, debris, and moving objects with convincing scale, weight, surface detail, and motion blur. Keep the footage free of beauty filters, plastic skin, glossy advertising lighting, and a game-like CGI finish.\n\nACTION AND TIMING\n\n00:00–00:01.9 — SHOT 1: WOMAN LEANING OUT\n\nBegin directly in composition A: an EXTERIOR low-angle view of her already leaning out through the window with her mug.\n\nHer head, shoulders, and upper chest are outside. The open window and dim room are behind her; the pale exterior façade is beside her.\n\nShe gives a small contented smile and turns her attention toward the street to screen right. Keep her face and neckline clearly visible. A small handheld framing correction gives the opening a casual recorded feel.\n\n00:01.9–00:03.6 — SHOT 2: INSECT SWARM\n\nHard cut to composition B, looking along the avenue beneath churning dark storm clouds.\n\nAn immense swarm of locust-like insects pours across the city. Thousands form shifting layers in the distance, while a few individual insects sweep close past the lens with brief motion blur.\n\nA brilliant amber opening beneath the clouds backlights the swarm. Rooftop fires illuminate smoke rising between buildings; wet roofs catch orange reflections. Keep the avenue readable through gaps in the moving insects.\n\n00:03.6–00:04.9 — SHOT 3: COFFEE SIP\n\nHard cut back to the SAME exterior window composition A.\n\nShe is still leaning outside. The mug is already at her lips at the start of this shot. She completes one small sip, lowers it toward chest height, swallows, and looks along the street.\n\nHer expression stays relaxed. The dark window opening and pale exterior wall remain behind her.\n\n00:04.9–00:06.7 — SHOT 4: GIANT T. REX\n\nHard cut to the city, with the action already underway.\n\nAll three are giant TYRANNOSAURUS REX: massive deep skulls, tiny two-fingered arms, powerful hind legs and long heavy tails. No back sails.\n\nThe nearest plants a heavy foot in the avenue, jaws open; street contact throws up dust and debris. Two more T. rex clash farther along the avenue.\n\nPart of a damaged building on the left collapses, sending masonry and dust downward. Multiple fires burn along the avenue, casting orange light onto the T. rex and billowing smoke. One blue-white lightning flash reveals the turbulent clouds and broken skyline. Keep the nearest step readable and the creatures' weight connected to the streets beneath them.\n\n00:06.7–00:07.8 — SHOT 5: LOOKING HIGHER\n\nReturn to the SAME exterior view A.\n\nStill leaning out of the window with her mug, she lifts her chin and shifts her eyes higher across the sky with a faint, interested smile. Her shoulders remain forward of the window opening.\n\n00:07.8–00:09.5 — SHOT 6: SPIDERS\n\nHard cut outward.\n\nSeveral gigantic spiders descend among the buildings on taut strands of silk. The nearest is already just above a flat roof. Its front legs land and take weight: masonry breaks at the contact points, fragments fall, and dust spreads beneath it.\n\nOther spiders hang at different distances through smoke. Burning windows and rooftops cast orange light onto the nearest spider's legs and the rising dust; a cold lightning flash outlines the silk.\n\nSmall red points in their clustered eyes remain secondary to their dark textured bodies, physical rooftop contact, and the scale of the burning city.\n\n00:09.5–00:10.6 — SHOT 7: LOOKING DOWN\n\nReturn to the SAME exterior view A.\n\nShe leans a little farther outward and lowers her gaze toward the street directly below. The mug stays outside in her left hand. Her face remains calm and curious.\n\n00:10.6–00:12.6 — SHOT 8: FLOOD AND SHARKS\n\nHard cut steeply downward from the same window, retaining the narrow exterior sill along the lower-left edge.\n\nA deep flood fills the intersection between partly submerged cars and trees. Enormous sharks hunt a dense school of large silver fish at the surface.\n\nShow one complete feeding strike in two seconds. The nearest shark is already lunging, mouth open. Fish scatter and leap ahead of its jaws. Its jaws visibly close around several fish, which disappear into its mouth. Its head drops back with a heavy white splash; the wake rocks a nearby car. Frame the shark and fish prominently enough to read the capture before spray obscures it. A second shark turns through the scattering school farther back.\n\nThe feeding is non-graphic: intact fish, clean spray, no blood or visible injuries. No people are in the floodwater.\n\nCold blue-green water carries broken orange reflections from fires above the floodline. Lightning catches the silver fish, spray, and wet façades.\n\n00:12.6–00:13.8 — SHOT 9: EYES UP\n\nReturn to the SAME exterior view A.\n\nShe lifts her head from the downward look and redirects her attention toward the sky. She remains leaning through the window, holding the mug below her face. A small breath and natural blink keep the reaction unposed.\n\n00:13.8–00:16 — SHOT 10: ALIEN ARRIVAL\n\nHard cut outward.\n\nA vast alien mothership hangs above the city, filling much of the upper view. Powerful blue-white beams reach down through thick smoke toward rooftops and streets; small human silhouettes rise within one beam.\n\nThe beams illuminate columns of haze, wash nearby façades in cold light, and reflect in glass and wet roofs. Orange fires glow below, contrasting with the immense cold light above.\n\nA smaller craft passes close across the view with brief motion blur and strong parallax. More craft move farther away. People on a nearby rooftop react beneath the enormous ship.\n\n00:16–00:16.9 — SHOT 11: STILL UNBOTHERED\n\nReturn briefly to the SAME exterior view A.\n\nShe follows something overhead with her eyes and makes a small head turn. Her posture, mug, window, and calm expression remain consistent.\n\n00:16.9–00:19.4 — SHOT 12: METEOR STORM\n\nHard cut outward into an active meteor storm.\n\nMultiple fiery meteors descend diagonally through turbulent clouds. Distant impacts throw up expanding smoke columns. Numerous fires burn across the horizon and among the buildings, illuminating the clouds from below with intense orange-red light.\n\nA larger fireball approaches from the upper-right sky, rapidly growing in perspective and shedding glowing fragments. Orange reflections move across windows and wet roofs. Preserve readable building silhouettes and architectural detail against the brilliant sky, with a small natural exposure adjustment as the fireball brightens.\n\n00:19.4–00:22.5 — SHOT 13: HER RIDE\n\nReturn to the SAME exterior low-angle view A.\n\nStill leaning out through the window, she briefly closes her eyes with a contented expression, then looks downward as though she has noticed something expected.\n\nWith casual recognition and a small smile, she says:\n\n\"Oh, my ride's here.\"\n\nDeliver the complete line naturally in an American voice before the cut. The mug remains in her left hand. Her reaction is understated and matter-of-fact.\n\n00:22.5–00:25 — SHOT 14: THE TAXI\n\nHard cut to the downward exterior view toward the avenue, with the same sill or ledge visible along the lower-left edge.\n\nA dark armoured horseman on a black horse flies upward and toward the window. The rider wears a crown-like helmet and a trailing dark cloak. A small physical yellow illuminated sign reading TAXI is attached to his chest armour.\n\nThe horse moves in an airborne gallop, with glowing hooves and a smoky trail. Black birds sweep around and past the rider, some crossing close to the lens. An eclipsed sun and distant lightning appear behind the skyline.\n\nFirelit smoke hangs between damaged buildings. The eclipse rim and lightning outline the rider; warm hoof-light catches nearby smoke. Retain visible texture in the dark horse and armour, and legible yellow TAXI lettering.\n\nThe horse and rider grow larger as they approach the window. Keep their bodies and the TAXI sign readable. End during their approach, before any arrival or boarding.\n\nAUDIO\n\nNatural scene sound with ordinary consumer-camera microphone character. Keep her breathing and the subtle handling of the mug close and unforced.\n\nThe city shots carry the sounds belonging to their events: insects, thunder, heavy footfalls, breaking masonry, rushing water, the shark strike and splash, craft, and distant impacts. Synchronize impacts and splashes with visible contact. Let the exterior ambience remain audible beneath the quieter shots of the woman.\n\nHer only spoken line is \"Oh, my ride's here.\" Clear lip synchronization, relaxed American delivery, and natural breathing. No additional spoken lines, narration, music, or laugh track.\n\nFINAL CONTINUITY\n\nExactly 25 seconds, horizontal 16:9, 14 shots, 13 hard cuts.\n\nAll seven woman shots use the SAME exterior low-angle composition: her upper body leaning OUT of the SAME open window, the dark room behind her, and the pale OUTSIDE façade beside her.\n\nPreserve her face, very large bust, slim waist, hairstyle, clothing, mug, and calm manner. She takes one sip and otherwise holds the mug while watching.\n\nKeep the two repeating view directions clear: back toward the woman at the window, then outward over the city.\n\nDeliver clean footage without editorial captions, subtitles, titles, logos, watermarks, or a recording interface. TAXI is a physical illuminated prop in the final shot and is the only required readable text.",
+      "date": "2026-10-10",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-breakfast-vlog-lines",
+      "category": "提示词",
+      "title": "三十秒早餐 vlog：每句台词都写进时间轴，糊焦吐司也要吐槽",
+      "body": "日出厨房里，她打着哈欠拉开窗帘，对镜头说需要咖啡；蛋壳掉进锅里，她笑骂自己是大厨；吐司糊了一面，举起来说「五星早餐」。\n\nSharon（@Just_sharon7）这条 Seedance 2.5 帖子点赞四百，收藏三十九。厉害的不是「做早餐」场景，而是把每句对白钉在四秒一段的格子里，并规定：只在指定时段开口，留够说完的时间。镜头故意写成早期家用摄像机——晃、跑焦、裁掉头顶——好让口型跟笑声显得像朋友随手拍。\n\n于是整段读起来像分镜表，而不是形容词堆砌。想改成夜食、租房收拾、开箱，只要换道具和吐槽句，时间格可以原样复用。\n\n所以呢：日常 vlog 想自然，先把「哪一秒说哪句」写死；台词有了格子，模型才不会一路念经。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/Just_sharon7/status/2109259050726920221"
+        }
+      ],
+      "prompt": "Character= Main Subject. Preserve her exact face, identity, hairstyle, skin tone, body proportions, and reference outfit throughout. Authentic Southeast Asian/Korean woman. No changes in appearance between shots.\n\nScene: A cozy apartment kitchen at sunrise, wooden countertops, small window overlooking a quiet neighborhood, ceramic mugs, fresh fruit, bread, eggs, and a little potted plant. Warm golden sunlight enters through the window. Peaceful, intimate morning atmosphere.\n\nStyle: RAW HANDHELD REALISM, early-2000s home-video aesthetic, casual camera sway, micro-shakes, frequent reframing, natural autofocus hunting, imperfect framing, occasional motion blur, slightly soft image quality, realistic skin texture, visible pores, natural facial expressions. Candid, spontaneous, unposed feeling. Camera operated casually by a friend, with occasional direct-to-camera interaction.\n\nTimeline & Dialogues\n\n00:00–00:04 — Sleepy Morning\nShe enters the kitchen, yawning slightly, rubbing her eyes, and opening the curtains. Golden sunlight fills the room.\n\nDialogue (sleepy, softly laughing): \"Good morning... I seriously need coffee.\"\n00:04–00:08 — Making Coffee\nShe scoops coffee into a mug, pours hot water, and stirs slowly. The camera moves closer to capture the steam.\nDialogue (playful): \"Okay, first things first. Coffee before anything else.\"\n\n00:08–00:12 — Breakfast Preparation\nShe cracks an egg into a frying pan, accidentally drops a tiny piece of shell, and laughs while removing it.\nDialogue (laughing naturally): \"Oh my God... I'm such a professional chef.\"\n\n00:12–00:16 — Toast Disaster\nShe checks her toast, realizes one side is slightly burnt, and holds it toward the camera with a disappointed expression.\n\nDialogue (sarcastically): \"Wow. Five-star breakfast, everyone.\"\n00:16–00:21 — Preparing the Plate\nShe arranges scrambled eggs, toast, and sliced strawberries on a small ceramic plate. She steals a strawberry and eats it while glancing mischievously at the camera.\nDialogue (cheerful): \"Actually... this looks pretty good!\"\n\n00:21–00:25 — First Bite\n\nShe sits beside the window, takes a bite of toast, chews naturally, and nods with a satisfied smile. The handheld camera drifts slightly out of focus before recovering.\nDialogue (after swallowing): \"Mmm. Okay, that's better than I expected.\"\n\n00:25–00:30 — Funny Ending\n\nShe lifts her coffee mug toward the camera, takes a sip, then immediately reacts because it's too hot. She laughs and gently puts the mug down.\nDialogue (laughing): \"Ah! Too hot! Okay... good morning to me.\"\n\nThe camera shakes slightly as the person filming laughs. Natural abrupt cut.\n\nCamera & Audio\nCamera: Handheld consumer MiniDV camcorder, imperfect zooms, spontaneous close-ups, occasional cropped headroom, natural exposure fluctuations, authentic home-video texture. No cinematic camera movement, no beauty filters, no artificial skin smoothing.\n\nAudio: Natural kitchen ambience, birds outside, frying sounds, ceramic dishes, coffee stirring, soft footsteps, natural breathing, and clearly audible conversational dialogue. No background music, subtitles, or voiceover.\nDialogue delivery: Casual American-accented English, spontaneous delivery, natural pauses, little laughs, subtle changes in tone, realistic lip synchronization. She speaks only during the assigned moments, with enough time for each sentence.\n\nOutput: 30 seconds, 16:9 landscape, photorealistic, continuous character and outfit consistency, natural human motion, realistic hand-object interactions, believable everyday atmosphere.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-opus-html-lyric-mv",
+      "category": "提示词",
+      "title": "把歌丢给 Opus：它拆音轨对词，再吐出一个能导出成片的网页 MV",
+      "body": "他把自己在 Suno 做好的歌丢给 Claude Opus 5.5，附上一段提示词，没开任何剪辑软件，最后得到一个能导出成片的网页。\n\nklöss（@kloss_xyz）说，模型先把音轨拆开，再按人声给二百二十九个词逐字对时，然后用代码写出一个单文件 HTML：打字、特效、可拖动时间轴，点一下还能在浏览器里导出一千零八十像素成片。原话要求很野：「The first frame has to stop the scroll and hook the viewer.」还规定发光拖尾只能在字后面，不许穿过字体。\n\n于是「做 MV」变成「写一个会放歌的网页」。普通人改着用，把歌词和 mp3 换掉就行；交互那几条——长按闷音、点按打火花——可以按频道调性加减。\n\n所以呢：别再只让 AI「想象画面」，直接让它交出能双击打开的播放器；成片按钮写进提示词里。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/kloss_xyz/status/2109087249572749553"
+        }
+      ],
+      "prompt": "Make a fully interactive music video for this song as a single HTML file, at the level of a motion designer, sound engineer and creative director's showreel. The first frame has to stop the scroll and hook the viewer. Go all out.\n\nLyrics are below. Sync them word by word to the actual vocal. Separate the stems first, then time every word from the vocal track rather than estimating. Detect tempo, beats, kicks and snares, and drive the visuals from them.\n\nRules:\n- One visual and type system across every section. Quiet sections should feel like the same video with the energy held back, not a different style.\n- Every word must be crisp and readable over the effects. Glow and trails go behind the type, never through it.\n- Give each lyric its own visual idea where it fits. No section should be filler.\n- Don't add any audio to the song unless I ask.\n- Interactions: hold to muffle the band, tap for a spark quantized to the beat, scroll for gain, stem mute buttons, a scrubbable timeline.\n- Include an \"Export 1080p video\" button that renders every frame on a fixed clock and saves a 1920x1080 16:9 MP4 (H.264 + AAC) with the audio muxed in.\n- Make the HTML file run on its own by double-clicking it in Chrome, with the audio built in.\n\n[LYRICS WITH SECTION TAGS]\n(attach your song .mp3)",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-suno-midi-city-pop-cover",
+      "category": "提示词",
+      "title": "先把 MIDI 丢进 Suno Cover：城市流行只要萨克斯领奏，别让它乱加歌词",
+      "body": "夜车感城市流行响起，中音萨克斯领着旋律往前走，电钢琴和闷音吉他垫在后面——这不是从零瞎写，而是先有一份 MIDI 总谱。\n\nMark Lundeberg（@MarkLundeberg）公开了「Glass Harbour」的跑法：把 MIDI 渲染成 mp3，拖进 Suno 的 Cover，模型选 v6；风格词写死一九八零年代日本城市流行、一百一十二拍、A 大调；排除项写 vocals 和 chiptune。歌词框里只放段落标签，不写唱词。他还提醒：同一会话连续生成三四次就清历史、换浏览器，曲子末尾才不糊。\n\n结果是旋律和曲式跟着总谱走，伴奏由 Suno 自己发挥，听起来像一支听话的会话乐队。做内容时可以把「段落标签」换成你自己的副歌结构，风格词整段复用。\n\n所以呢：想让 AI 乐队「照谱吹」，先给它一条 MIDI，再在排除项里把人声砍掉——比只写「城市流行」稳得多。",
+      "links": [
+        {
+          "label": "X 原帖（含风格词与流程）",
+          "url": "https://x.com/MarkLundeberg/status/2109306162139341262"
+        }
+      ],
+      "prompt": "Styles:\ninstrumental 1980s Japanese city pop, night-drive groove, alto sax lead melody, Rhodes electric piano chords, muted funk guitar cutting in straight 16ths, warm fingered electric bass, tight live drums with crisp hi-hats, glossy analog production, 112 bpm, A major\n\nExclude styles:\nvocals, General MIDI, chiptune, EDM\n\nSuno settings (Cover mode, model v6):\n- Audio Influence 75%, Style Influence 50%, Weirdness ~20%, Variety 0\n- Drag rendered MIDI (as mp3) into Cover as audio track\n- Lyrics / form tags only:\n[Intro: 8 bars] [Verse: Coast road, 16 bars, sax melody] [Pre-Chorus: Rising lights, 8 bars] [Chorus: Glass harbour, 16 bars] [Sax Solo: 16 bars] [Bridge: Afterglow, 8 bars] [Final Chorus: Last lights, 16 bars] [Outro: 8 bars] [End]\n\nWorkflow tip from source: restart browser / clear related history every 3–4 gens to keep consistency; use v6-wild if available.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-gothic-elf-sref",
+      "category": "提示词",
+      "title": "一串 sref 锁住哥特墨线：Seedance 把静帧决斗直接打成无慢镜混战",
+      "body": "废教堂黑影里，两个哥特精灵女剑士对砍，粉绿霓虹火花溅在炭灰色画面上，镜头贴着刀刃掠过，中间几乎没有喘息。\n\nKōda（@aimikoda）先用 Midjourney v8.2 的 `--sref 2432028955` 锁画风，再把同一美学写进 Seedance 2.5：禁止慢动作、禁止摆姿势、禁止攻击之间喘气，每一刀都接下一刀。帖子收藏一百二十六，很多人夸「这串 sref 动起来真好看」。\n\n于是流程变成两步：静帧用风格参考钉死线条，视频提示词只负责「速度与机位暴力」。普通人换角色也行，把「两个精灵」改成你的角色卡，保留「无慢镜、无停顿」那几条禁令，刀光节奏才不会塌。\n\n所以呢：想让插画风视频不像贴图，先用 sref 锁静帧，再在视频词里明文禁止慢动作——停顿一删，刀就快了。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/aimikoda/status/2109235247162245339"
+        },
+        {
+          "label": "Seedance 提示词回复",
+          "url": "https://x.com/aimikoda/status/2109235438875505149"
+        }
+      ],
+      "prompt": "Seedance 2.5 Prompt:\nPremium dark fantasy 2D anime cinematography fused with gothic ink illustration, high-sakuga sword choreography and experimental action filmmaking. Preserve the reference aesthetic of intricate black linework, rough hand-drawn textures, charcoal-gray shading, muted violet skin tones, elaborate gothic silhouettes and aggressive neon pink, acid green and prismatic highlights. Ultra-fast, brutally aggressive swordsmanship with relentless blade exchanges, acrobatic counters, spinning slashes, sudden reversals, impossible footwork and explosive multi-hit combinations, maintaining constant offensive pressure from both fighters. Every clash produces razor-sharp neon streaks, violent chromatic sparks, fractured ink splashes and brief flashes of saturated light that illuminate the surrounding darkness. Radical cinematic perspectives combine ground-skimming tracking shots, aggressive Dutch angles, extreme foreshortening, rapid orbital rotations, blade-following whip pans, sudden perspective inversions and seamless camera movements threading through crossing swords. Insert lightning-fast detail cuts of narrowed eyes, tightening fingers, twisting wrists, grazing blades and sparks scattering across faces, immediately returning to ferocious wide-angle combat. Dramatic foreground occlusion, near-lens blade strikes, shifting focal distances and rapid depth transitions create visceral immersion. Dark atmospheric voids, drifting ash, torn feathers and vibrating debris react to the force of each exchange. Precise silhouette control, strong visual rhythm and high-contrast graphic compositions preserve clarity even during overwhelming bursts of speed. No slow motion, no idle posing, no pauses between attacks. Every movement flows directly into another attack, parry or counterattack. Hand-drawn anime expressiveness and premium 2.5D cinematic depth preserve the original illustration style without turning the characters into realistic CGI.\nTwo gothic elven swordswomen engage in a relentless duel inside a ruined cathedral swallowed by darkness. The black-haired warrior with her feathered crown attacks with a prismatic blade, immediately colliding with the silver-haired warrior's neon sword. They explode into a succession of impossibly fast sword exchanges, spinning counters, airborne reversals and close-range blade locks that instantly break into new attacks. The camera spirals tightly around their crossing weapons, dives beneath sweeping strikes, whips past their faces and follows a blade within inches of the lens. Sudden close-ups capture furious expressions, razor-thin near misses and sparks streaking across their skin. Both warriors continuously reverse the advantage through increasingly elaborate combinations, ricocheting off broken pillars, intercepting attacks from impossible angles and chaining acrobatic movements into ferocious counterstrikes. Every impact briefly floods the monochromatic environment with violent pink, green and rainbow light. The battle escalates without interruption, ending mid-combination as both warriors launch simultaneous devastating attacks directly toward each other.\n\nMidjourney still (optional first frame):\n[your subject] --sref 2432028955 --profile d3zvtyp",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-subway-purple-eyes",
+      "category": "提示词",
+      "title": "地铁里眼睛突然发紫：六幕写死，最后还得回去扶老人的包",
+      "body": "韩系地铁站，白衣服女孩下台阶，身后有人跟踪。镜头推到她脸上，眼睛忽然亮起超自然的紫色，她撞碎屏蔽门玻璃，把人推开，再转身去扶老人的手提包。\n\nArzoo（@Arzoo12sh）把二十四秒拆成六幕，每幕写清秒数和机位：追踪、侧拍、眼睛特写、碎玻璃慢镜、对峙、温情收束。帖子阅读量两万四，收藏四十六。结构像短剧分场表，而不是一句「很燃的动作片」。\n\n于是「超能力」只占中间两幕，首尾仍是普通人的地铁日常——反差才站得住。换城市轨道交通、换护的对象，六幕骨架可以原样搬过去用，观众仍跟得上。\n\n所以呢：超能力短片别从头炸到尾；先让观众相信这是一趟普通地铁，再让眼睛亮起来。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Arzoo12sh/status/2109234469832192156"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/Arzoo12sh/status/2109234473527034059"
+        }
+      ],
+      "prompt": "VIDEO DURATION: 24 seconds\nASPECT RATIO: 16:9\nRESOLUTION: 1280×720 HD (source video)\nSTYLE: Ultra-realistic Korean supernatural action movie, Hollywood blockbuster cinematography.\n\nMAIN CHARACTER: A beautiful young adult Korean woman with long black hair, wearing a white textured jacket, a white short dress, dark sheer tights, and carrying a small white shoulder bag. Preserve her face, hairstyle, outfit, and body proportions consistently throughout the video.\n\nSCENE 1 — 0–4 SECONDS\nInside a modern Korean subway station, a young woman in a white outfit walks down the tiled stairs. An elderly woman walks behind her while a suspicious man in dark clothing follows. Use a cinematic tracking shot, realistic subway lighting, and natural human movements.\n\nSCENE 2 — 4–8 SECONDS\nThe young woman moves quickly toward the subway platform screen doors. The camera follows her from behind and then shifts to a side angle. Build tension with realistic subway ambience and dramatic pacing.\n\nSCENE 3 — 8–11 SECONDS\nExtreme close-up of the woman's face. Her eyes suddenly glow supernatural purple. Her expression becomes serious and determined. Add subtle purple reflections, realistic skin texture, detailed eyes, and cinematic shallow depth of field.\n\nSCENE 4 — 11–16 SECONDS\nShe charges forward with extraordinary supernatural strength and smashes through the glass subway barrier. Show the glass cracking outward in slow motion, with realistic flying shards and dramatic camera movement. Her hair and white outfit move naturally with the impact.\n\nSCENE 5 — 16–20 SECONDS\nThe woman confronts the man near the shattered subway barrier and forcefully pushes him back. Show a dynamic action shot with realistic body movement, glass fragments, and intense purple eyes. Keep the action cinematic and non-graphic.\n\nSCENE 6 — 20–24 SECONDS\nThe woman returns to the elderly woman on the subway stairs and gently helps her with her handbag. The elderly woman looks relieved. End with a wide cinematic shot of both characters, maintaining the same faces, clothing, and subway environment.\n\nCAMERA & QUALITY\nPhotorealistic Korean action-film aesthetic, Hollywood blockbuster lighting, smooth tracking shots, dramatic close-ups, realistic physics, detailed glass destruction, natural facial expressions, cinematic motion blur, consistent character identity, 24 fps film look.\n\nAUDIO\nRealistic subway ambience, footsteps, glass cracking, deep cinematic impact sounds, and subtle suspense music. No narration and no dialogue.\n\nIMPORTANT: Keep the same female character, face, hairstyle, white outfit, shoulder bag, elderly woman, and subway location consistent throughout all scenes. No random character changes, no outfit changes, no cartoon effects, and no unnecessary transitions.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-lion-mansion-selfie",
+      "category": "提示词",
+      "title": "豪宅自拍喊「辛巴过来」：成年狮从沙发后走出，像巨型家猫蹭脸",
+      "body": "她举着手机自拍，笑着喊辛巴过来拍 Instagram；沙发后面慢慢走出一头成年公狮，用脑袋蹭她的脸和脖子，再舔一下，她紧张地笑出声。\n\nchaos（@Hooky310）这段 Seedance 2.5 只有一个参考图锁脸，背景写死「完全静止」，机位只许自拍微晃。时间轴把台词、狮进画、发现、蹭脸舔脸拆成四段。他在回复里说，现在单次生成就能把这种肢体接触做实，「狮子基本像一只过大的家猫」。\n\n可问题是动物戏最容易崩在毛发和舌头。这段把「单根胡须、湿鼻头、唾液反光」写进硬性真实感要求，比只写「很真实的狮子」管用得多，重跑也更稳。\n\n所以呢：想拍人兽互动，先锁「机位不能跑、背景不能换」，再把舌头和毛发写成质检清单。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Hooky310/status/2109191309055647967"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/Hooky310/status/2109191313933373642"
+        }
+      ],
+      "prompt": "Ultra-realistic 15-second selfie video of the exact woman from the reference image (precise facial structure, skin tone, hair, features, expression locked 1:1 - zero identity drift).\n\nSetting: inside a luxury mansion living room. Marble columns, ornate white ceiling with detailed molding, large crystal chandelier, soft grey walls, elegant grey couch visible behind her. Background remains completely identical and static the entire time - no scene change, no camera movement beyond natural handheld micro-sway.\n\nCamera: selfie mode, held close to her face, slightly wide lens (≈24-28mm equivalent). Natural indoor daylight coming from the front/side, soft and flattering. Extremely crisp focus on her face with shallow depth of field; background gently falls off. Handheld natural motion only.\n\nAction sequence:\n\n0.0–3.5s\nShe looks into the lens, warm genuine smile, and speaks clearly:\n\"Simbaaaa... simba come here... I'm making a video for Instagram, they wanna see you... good boy...\"\n\n3.5–7.0s\nFrom behind the couch, a large fully realistic adult male lion slowly walks into frame. Soft, deliberate paw steps on the floor. Tail swaying gently. He sniffs the air as he approaches. He moves toward her right shoulder.\n\n7.0–9.5s\nShe notices the lion over her shoulder, turns her head slightly, and laughs nervously while still holding the phone steady.\n\n9.5–13.5s\nThe lion rubs his massive head against her cheek and neck exactly like a giant affectionate cat. Soft low growl/snort. Then he gently licks her face with a large realistic tongue. She laughs genuinely and says:\n\"Aww good boy...\"\n\n13.5–15.0s\nShe continues smiling and laughing lightly as the lion stays close, nuzzling. Hold on the intimate interaction.\n\nExtreme realism requirements: Visible skin pores, fine facial hairs, natural micro-texture, realistic subsurface scattering and soft shadows on skin. Lion: dense individual fur strands, realistic whiskers, wet black nose, detailed eyes, authentic tongue texture and saliva sheen when licking. Natural physics on fur movement, weight, and contact.\nPerfect facial consistency of the woman throughout — no morphing, warping, age change, or skin change.\n\nTechnical/style: Ultra-sharp 8K detail, clean natural color grading, cinematic yet documentary realism, zero flicker, zero temporal warping, zero face distortion. Soft natural indoor light only. Reference image locked for character identity.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-indo-flipcam-vlog",
+      "category": "提示词",
+      "title": "印尼码头十五秒：强制「翻盖机抖动」，不许电影感稳定器",
+      "body": "木质码头上她对着镜头笑，下一秒巷子里跟着流浪狗走，再切到小食摊跟老人喝茶——全程像二零零年代末翻盖机随手录的糊片。\n\nAqsa（@Aqsahere_）把美学写成禁令清单：重手抖、跑焦、半张脸出画、曝光乱跳、暖褪色、数字噪点；明确写「No posing, no cinematic glamour, no stabilization」。十五秒切七个生活碎片，只收环境声。收藏五十九，评论区很多人在问怎么保持同一张脸不漂移。\n\n于是「像回忆」不是靠滤镜名，而是靠不许出现的东西。想拍家乡一日游，换码头和小食摊为你的街口即可，禁令段建议原样保留，别手痒加稳定器和电影感调色，一加就当代了。\n\n所以呢：怀旧 vlog 先写「不许稳定、不许棚拍光」，再写景点——禁令比形容词更像那年代。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/Aqsahere_/status/2108761886691111404"
+        }
+      ],
+      "prompt": "Preserve the exact face, hairstyle, identity, skin tone, and body proportions from @ image1 throughout. Outfit: oversized terracotta linen shirt, dusty burgundy wide-leg trousers, brown leather sandals, small gold hoop earrings. Loose natural wavy hair.\nAuthentic Indonesian woman. Late-2000s personal vlog aesthetic. Extremely raw handheld flip-camera footage with heavy camera shake, natural reframing, partial face crops, focus hunting, exposure shifts, warm faded colors, mild digital noise, and home-video imperfections. No posing, no cinematic glamour, no stabilization, no modern color grading.\n.00:00–00:02 Wooden dock. Selfie shot, smiling and talking casually. Fishing boats behind.\n.00:02–00:04 Coastal alley. Walking with a stray dog beside her. Camera struggles to follow.\n.00:04–00:06 Small warung. Sitting with an elderly vendor, laughing while holding hot tea.\n.00:06–00:08 Fishing dock. Crouches to feed the stray dog. Warm morning light.\n.00:08–00:10 Village street. Walking while checking a small map/notebook, looking around curiously.\n.00:10–00:12 Waterfront. Looking toward the sea, hand shading her eyes, breeze moving hair.\n.00:12–00:15 Back on the dock. Selfie shot, laughs, says something casually, waves, recording cuts off naturally.\nNatural ambience only: seabirds, waves, distant boats, dog sounds, warung chatter, footsteps, breeze, and rustling leaves.",
+      "date": "2026-10-10",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-mj-sref-looking-glass",
+      "category": "提示词",
+      "title": "一句含糊的女人＋一串 sref：同一句词走出完全不同的电影剧照",
+      "body": "同一句几乎没信息量的提示词配上一串风格参考数字，出来的却是条纹、飞鸟、悬空裙摆，一张张像从不同电影里抽的剧照。\n\nCarolina Delgado（@carolletta）在分享 Midjourney 第八版风格参考时说：把风格强度拉到一千拿艺术指导感，混乱度二十让场景分叉，原始模式保住摄影质感。完整词很短：艺术超现实、大师全景、一个被以某种方式呈现的女人，再挂上那串风格数字。她的尖是——同一句简单提示，能走出完全不同的故事，让风格参考去惊喜你。意思是别把角色写死，让风格数字去推故事走向。\n\n于是重点从「把女人写得多细」挪到「让风格参考去叙事」。适合做系列封面：人物描述保持极简，只换一句情绪词，看风格参考带出哪条故事线，整组图反而更齐，也更适合做连载封面的小规模测试。\n\n所以呢：有时候提示词该故意写短——把叙事权交给风格参考数字，系列感反而更齐。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/carolletta/status/2108890292845940816"
+        }
+      ],
+      "prompt": "artistic surreal image, grand master shot, a woman showed in a particular way --chaos 20 --ar 9:16 --sref 1787246237 --raw --stylize 1000 --weird 10\n\nTip (from carolletta): same simple prompt, wildly different stories. Let the sref surprise you. --stylize 1000 for art-directed finish; --chaos 20 varies scenes; --raw keeps it photographic.",
+      "date": "2026-10-10",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-zombie-teacher-calm",
+      "category": "提示词",
+      "title": "走廊僵尸潮里她始终微笑：打完才问一句「我们刚才讲到哪」",
+      "body": "韩系学校走廊，阳光很好。女老师端着书走出来，随手一拨，冲过来的僵尸学生踉跄过去；她始终微笑，从不喘。\n\nchaos（@Hooky310）这段动作喜剧把反差写进人物卡：老师「永远放松、微微笑着、从不匆忙、从不会喘不过气」；僵尸学生负责又爬又扑。最后她整理衣襟，对惊呆的班级说：「Now, where were we?」战斗动作被规定成轻巧的掌推、腕折、高跟鞋轻点——干净，不血腥。\n\n于是笑点不在打得花，而在她的心率像没参加这场戏。跟纯复仇爽片不同，这里的主角设定是「平静本身就是特效」，教室收束才好笑，也更好二次创作成职场寓言。\n\n所以呢：喜剧动作片先锁角色的情绪体温——体温越稳，周围越乱越好笑。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Hooky310/status/2109181052732494062"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/Hooky310/status/2109181056062763450"
+        }
+      ],
+      "prompt": "Cinematic live-action Korean action-comedy short, 16:9, realistic photographic look, bright natural daylight pouring through tall school-corridor windows, soft pastel sage-green and cream walls, pale blue classroom doors, polished grey floor with glossy reflections, slight film grain, smooth stabilized camera with quick punch-in cuts. **Main character:** A elegant Korean female teacher with a sleek black low bun, thin round gold-rimmed glasses, small pearl earrings, champagne satin sleeveless blouse, black leather pencil skirt, black sheer tights, black stiletto heels, carrying a navy hardcover book. She is always relaxed and gently smiling, never rushed, never out of breath. **Attackers:** A crowd of zombie-like students in navy tracksuits and dark uniforms, lurching, crawling and charging down the corridor with blank, snarling faces. **0–5s:** Teacher steps out of a classroom door, one hand holding the book, the other casually pushing a charging zombie student aside as he stumbles past. Cut to a close-up profile of her calm smile, glasses catching the light, classroom blurred behind. She raises one finger to her ear with a playful, relaxed gesture while students lie collapsed behind her. **5–12s:** Wide shot down the long corridor. A horde of dark-clad zombie students runs toward her while a few already crawl on the floor. She stands still, hugging the book at her side. One zombie lunges; she sidesteps and redirects him with a light palm push so he spins away. Another leans against the wall, dazed. **12–20s:** Low-angle shot of her stiletto heels: she kicks one zombie into a handstand-style flip, his body toppling in slow motion. Close-up of a zombie screaming, then her open palm gently stopping his face in the frame. Quick, elegant counters: wrist twist, hip toss, heel tap, all effortless. **20–25s:** Wide top-down corridor shot. The whole horde now lies sprawled across the floor in heaps, groaning. She walks back through the door, straightens her blouse, picks up her book from the desk and turns to the class with a warm smile. Subtitle-style line in her mouth: \"Now, where were we?\" **25–30s:** Classroom interior. Students in navy blazers sit at wooden desks, stunned and wide-eyed, a girl with a short black bob in front staring at the teacher. Close-up profile of the teacher in front of the green chalkboard, glasses reflecting window light, giving a calm, gentle, slightly mischievous smile. Slow push-in on her face to end. **Style notes:** Comedic contrast: calm, graceful teacher vs chaotic zombie horde. Fight moves are clean and light, no heavy contact. Subtle slow-motion on flips and kicks, then snap back to real speed. Sound: running footsteps, heel clicks, soft whooshes, a playful light jazz groove, quiet classroom ambience at the end. **Negative:** no text overlay, no watermark, no gore, no blood, no face distortion, no extra limbs, no cartoon look.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-yoga-sunrise",
+      "category": "提示词",
+      "title": "日出露台瑜伽三十秒：七个体式按秒表走，只留鸟叫和呼吸",
+      "body": "露台上太阳刚升起，她铺开垫子，盘腿、拜日、平板、下犬、战士式，最后对着镜头安静一笑，像真的刚练完一套。\n\nWasif（@doctorwasif）用 Seedance 2.5 把晨间瑜伽写成秒表：每四到五秒换一个体式，风格锁「生猛手持真实感」——微晃、偶尔跑焦、不摆拍。音频只许鸟、风、垫子摩擦和呼吸，明确禁止配乐。看起来简单，却是在考模型能不能把连续体式做连贯，而不把人换成另一个人。\n\n于是这更像「动作连续性测试片」，也适合当成健身口播的底片：体式名按你的流派改，秒数格可以不动，现场声别加音乐，口播以后再叠。\n\n所以呢：健身镜不必写「氛围空灵」，写清第几秒做什么动作、现场只准有什么声音，成片才像真练过。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/doctorwasif/status/2109154140165390388"
+        }
+      ],
+      "prompt": "Character = Main Subject. Preserve her exact face, identity, hairstyle, skin tone, proportions, and reference outfit throughout. Authentic Southeast Asian/Korean woman.\n\nScene: Quiet terrace at sunrise, simple railing, potted plants, open sky, soft golden light. Peaceful atmosphere.\n\nStyle: RAW HANDHELD REALISM, casual camera sway, micro-shakes, frequent reframing, natural autofocus, occasional off-center framing, slight motion blur, realistic colors, candid unposed feel.\n\n00:00–00:04: She kneels and rolls out a yoga mat as the sun rises.\n\n00:04–00:08: Sits cross-legged, eyes closed, hands on knees, breathing calmly.\n\n00:08–00:12: Performs a slow sun salutation, arms raised, then folds forward toward her feet.\n\n00:12–00:16: Steps back into plank, holding steadily with controlled breathing.\n\n00:16–00:21: Transitions into downward dog, gently stretching her heels toward the mat.\n\n00:21–00:25: Moves into warrior pose, arms extended, gaze focused.\n\n00:25–00:30: Holds the pose, relaxes her arms, and gives the camera a peaceful smile before the natural cut.\n\nAudio: Only natural ambience—birds, breeze, distant rooster or traffic, mat movement, and soft breathing. No music.\n\n16:9, photorealistic, natural movement, consistent identity and outfit.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-mj-sref-golden-storybook",
+      "category": "提示词",
+      "title": "三串 sref 叠成金色故事书：人物只写「anything you want」",
+      "body": "巨大湖泊、月光、秋林和过膝的花丛里，小小的人影慢慢走——画面像文学插画，而不是游戏概念图或赛博海报。\n\nAIrina（@airina_xyz）分享的 Midjourney 风格参考把三串数字叠在一起，正文却只写「你想要的任何东西」，后面再补上水粉色、钴蓝暖赭、纪念碑式云和装饰性构图等关键词。她说这套适合诗意奇幻、书封和民俗故事，像一本会被翻旧的烫金故事书。\n\n于是用法很偷懒也很难：主体交给你，气质交给三串风格参考。做系列绘本封面时，人物和地点每次换，后缀风格段可以整段粘贴，整组书封才像同一套，读者也认得出系列气质，不用每次重调色盘。\n\n所以呢：故事书风别从零堆形容词，先借三串已经调好的风格参考，再只改你要讲的那一个主角。",
+      "links": [
+        {
+          "label": "X 原帖（含完整提示词）",
+          "url": "https://x.com/airina_xyz/status/2109207416487510472"
+        }
+      ],
+      "prompt": "anything you want --ar 16:9 --sref 1476863267 1447028608 3728185022\n\nPainterly gouache textures, ornate linework, cobalt blue and warm ochre, burnt orange and cream, monumental clouds, glowing moons, stylized water, elegant botanical patterns, flowing hair, tiny contemplative figures, decorative landscape composition.",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "mitocw-cable-tv",
+      "category": "视觉尝试",
+      "title": "把麻省理工公开课调成有线电视：换台就是换一门课",
+      "body": "有人打开网页，屏幕上先出现雪花和电源键——像一台老电视。按下开机，频道表里不是综艺，而是麻省理工公开课（MIT OpenCourseWare）一门门课：十八点零六是线性代数，六点零零一是编程入门。每个频道按同一套虚构时间表连播讲座，你按上下键换台，也可以直接输入课号跳转。视频走官方 YouTube 播放器，笔记和字幕从 ocw.mit.edu 现取，作者写明这是非商业粉丝站，不托管也不翻录课件。于是「刷课」这件事忽然像深夜换台：你可能本来想学一门，结果在隔壁频道停住。旁人路过会先笑一声，再忍不住自己按两下。所以呢：讲「公开课难坚持」时，别只劝人定闹钟——把课程装进电视遥控器的手感里，让观众在换台里撞见下一门课。",
+      "links": [
+        {
+          "label": "MIT OCW TV",
+          "url": "https://rahulch.site/mitocwtv/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50050551"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "dewey-connectome-fruitfly",
+      "category": "视觉尝试",
+      "title": "菜单栏飞出一只真果蝇神经回路驱动的 Dewey",
+      "body": "比利时开发者 Joren 把菜单栏点开，一只三维果蝇从图标里飞出来，落在窗口上沿， groom 几下翅膀，鼠标一靠近就炸开逃走。它不是随机动画：行为接在简版 Janelia FlyEM 雄果蝇中枢连接组（connectome，神经连接全图）上，一千三百三十九个细胞类型节点、三万多条带符号边，按六十赫兹当速率网络在跑。指针逼近驱动逃逸通路，屏幕边缘驱动降落，闲着太久就触发梳洗。作者还开了「朋友」滑杆，最多再放五只陪飞，免得 Dewey 太孤单。他自己用大模型把回路接到身体上，几天就做出十年前要啃几周渲染与神经细节的东西，同时又问：把「真」回路放进虚拟环境，算不算把活物关进矩阵？所以呢：讲「具身智能」别只放机器狗——让观众看一只按真实神经图飞的桌面果蝇，科普和荒诞感一起到。",
+      "links": [
+        {
+          "label": "Dewey GitHub",
+          "url": "https://github.com/JorenSix/Dewey"
+        },
+        {
+          "label": "作者博文",
+          "url": "https://0110.be/posts/Dewey:_a_connectome-driven_fruit_fly_living_in_your_macOS_menu_bar"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50038276"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "mira-streetview-ai-tours",
+      "category": "视觉尝试",
+      "title": "Mira：街景里走，耳机里有人讲你眼前那栋楼",
+      "body": "作者去年在维也纳空出几小时，约不到本地向导，只能一边开地图一边让语音聊天讲「这是什么」。后来他把这套流程做成 Mira：手机里可以真走，网页演示则把街景摊开，旁边坐着一名叫 Mira 的音频向导，跟着你看哪儿讲哪儿。旧金山和巴黎免登录就能逛，别的城市要先登录证明你是人，再领三十分钟免费额度；登录后还能聊天定制一条专属路线。他在 Hacker News 写明，动机就是「想约人却约不上」的空白时段。打开演示页，你会先被街景吸住，再被那句刚好对准镜头的解说钉住——像请了一位永远不赶下一场的导游。所以呢：讲「AI 旅行」别只晒行程表——让观众在街景里听一句对景解说，内容感立刻从清单变成现场。",
+      "links": [
+        {
+          "label": "Mira 街景演示",
+          "url": "https://www.mira.tours/wander"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50045340"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "cabinet-attention-loom",
+      "category": "视觉尝试",
+      "title": "AI 奇趣柜拉开第一格：一句话的自注意力织成线",
+      "body": "X 上有人晒出一个仿木纹柜：鼠标悬停，抽屉会弹出来。柜子叫 The Cabinet of AI Curiosities，专门收在浏览器里能摸的小实验，第一件标本是 Attention Loom（注意力织机）。打开后你把鼠标停在某个词上，别的词立刻牵出彩色细线，粗细表示它「注意」谁；温度滑杆一拧，分布就散开或收紧，四个注意力头各用不同随机投影。作者写明：词向量是字母加位置哈希出来的玩具版，不是训练好的大模型，但 softmax 过查询·键分数的形状，和 Transformer（变换器模型）里那一层一样。整柜本地跑，无服务器。于是抽象公式变成可摸的织物：你看见「它」到底在盯谁。所以呢：讲自注意力别先扔公式——让观众在一句话上拨几根线，抽象概念就落进手指。",
+      "links": [
+        {
+          "label": "奇趣柜",
+          "url": "https://blackman99.github.io/ai-demos/"
+        },
+        {
+          "label": "Attention Loom",
+          "url": "https://blackman99.github.io/ai-demos/attention-loom/"
+        },
+        {
+          "label": "X 帖",
+          "url": "https://x.com/DotsonZion/status/2109525363303014613"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "waterline-agent-water-rise",
+      "category": "视觉尝试",
+      "title": "Waterline：代理一干活，屏保水面就往上涨",
+      "body": "Mac 锁屏之后，桌面不再是风景照，而是一池水。Ascenda 做的 Waterline 屏保会读 Claude Code、Codex、Cursor 在本机的活动：代理越忙，水位越高；失败或上下文压缩会在水面激起涟漪。你先装屏保，再给每个代理装一个收集器，它按过去七天的忙碌程度自动校准刻度；不接代理时水面安静，只留一只钟。免费、MIT 许可，要求 Apple 芯片，安装程序会放进系统屏保目录所以要输一次密码。作者还提供一段脚本化演示，方便你录「代理在干活」的画面给同事看。于是抽象的用量统计，变成眼睛能盯着的潮汐——离开工位回来，一眼就知道刚才有多热闹。所以呢：讲「代理在后台忙什么」别只贴日志——把水位涨落当成片头，观众一秒就懂忙闲。",
+      "links": [
+        {
+          "label": "Waterline 官网",
+          "url": "https://www.ascendaflow.com/waterline"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50037448"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "black-hole-alice-bob",
+      "category": "视觉尝试",
+      "title": "把爱丽丝和鲍勃丢进旋转黑洞：看信号怎么被拧弯",
+      "body": "打开 Black Hole Lab，屏幕上是一个旋转黑洞（用克尔度规，即广义相对论里旋转质量的精确解）和两个观察者爱丽丝、鲍勃。你可以把他们扔进轨道或事件视界，看时空切片里事件怎么展开；每人还带一盏信标，模拟会算出无线电波前如何被弯曲，并记下谁何时收到对方信号。作者写明数值积分精度内，画面就是方程说的故事——尤其想让人看懂内视界附近的无限蓝移（时间被压扁、信号频率飙高）。他也提醒：物理学家都知道广义相对论不是黑洞的终章，真把人扔进去谁也说不准。于是「相对论」从板书变成可玩的抛体实验。所以呢：讲硬核物理别只会甩术语——让观众亲手把两个人抛进视界，看一眼被拧弯的波前就够发一条。",
+      "links": [
+        {
+          "label": "Black Hole Lab",
+          "url": "https://github.com/steveking-gh/black-hole-lab"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50037364"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-10",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "since-big-bang-panzoom",
+      "category": "视觉尝试",
+      "title": "一条时间轴从大爆炸拖到今天早上",
+      "body": "打开 sincethebigbang.com，整屏是一条能拖、能捏的世界史时间轴：从宇宙起源一直铺到「今天早上」。作者在 Show HN 写，底层是 Skia 画布加手势动画，后面接搜索接口；你还可以把自己的事件钉上去，选公开或私密。iOS 也有免费无广告版。拖着走的时候，人类文明挤在最右端一条窄缝里，前面是漫长空白——这种比例感比任何金句都狠。旁人第一次上手往往会先猛地缩小看全貌，再慢慢放大到自己出生那年，嘴里冒出一句「我们好短」。做成内容时，录一段从恐龙收到智能手机的捏合手势就够用。所以呢：讲「时间尺度」别只放数字对比图——让观众用两根手指把一百三十八亿年捏进屏幕，冲击力自己来。",
+      "links": [
+        {
+          "label": "Since The Big Bang",
+          "url": "https://sincethebigbang.com"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50043775"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "kindlefall-threejs-arpg",
+      "category": "视觉尝试",
+      "title": "浏览器里下一趟地牢：Kindlefall 用 Three.js 做动作 RPG",
+      "body": "点开 kindlefall.com/play，第一团火苗落下，烧出一条通往地底的路。这是一款跑在浏览器里的三维动作角色扮演：WASD 移动，鼠标瞄准，闪避、药瓶、暂停全有快捷键，还有背靠背打全 Boss 的限时模式和新周目。作者用 Three.js（网页三维库）从零搭，没有 Unity 安装包，评论区有人说上手比大引擎轻、社区也活跃。画面偏暗色奇幻，死亡后再起身，通关后还能开新周目保留加成。于是「网页小游戏」不再只是方块和点击，而是能握手柄感的地下城一跑。你甚至可以在手机浏览器凑合试两分钟，再决定要不要写长评；录一段Boss Rush失败的瞬间，本身就是很好的封面。所以呢：讲 Web 三维别只晒技术栈——直接丢链接让观众打一局，比十页评测更有说服力。",
+      "links": [
+        {
+          "label": "Kindlefall 试玩",
+          "url": "https://kindlefall.com/play/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50046369"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "moodi-3d-state-buddy",
+      "category": "视觉尝试",
+      "title": "把转圈加载换成一只会喘气的三维小角色",
+      "body": "产品经理还在为「加载中」三个点和转圈图标纠结时，有人放出 moodi：一只巴掌大的三维小家伙，嵌进网页，会跟着状态换表情——空闲轻轻喘气偶尔眨眼，思考、出错、成功另有姿势，一共十一种心情、六种体型。用法是 React 组件、Web Component 或 CDN 一行引入，开源免费。作者在 Show HN 的第一句就是：你的 App 有加载转圈，无聊。于是等待不再是空白惩罚，而成了角色表演；用户盯着它，烦躁感会软一点。做内容时可以并排录「转圈 vs moodi」五秒对比，评论区通常先喊可爱再聊留存；设计同学也能拿它当状态机的可视化教具。所以呢：讲体验细节别只骂转圈——换一只会喘气的小角色上镜，互动率往往比功能清单高。",
+      "links": [
+        {
+          "label": "moodi 官网",
+          "url": "https://www.getmoodi.dev"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50047937"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "synonymizer-dice-rewrite",
+      "category": "视觉尝试",
+      "title": "不用 AI，只靠同义词骰子：看一篇文章能被拧成什么样",
+      "body": "打开 synonymizer.fyi，左边贴原文，右边立刻变成「换了一批同义词」的版本。没有大模型：就是词典加掷骰，滑杆调替换概率和语义接近度，同一种子可复现，Markdown 代码块和链接会躲开。作者说灵感来自实验室给 AI 文本做水印的思路，想亲自试试「只换同义词」会拧成多怪；他怀疑真水印不止看单个词。按住还能对照原文，被改过的词会着色。于是「改写」这件事被剥成机械实验，你一眼看出哪些句子在同义词里还站得住，哪些已经像机器翻译腔。把同一段新闻掷三次做成拼贴，就是天然对比素材。所以呢：讲 AI 水印或改写检测时，先让观众掷几次同义词骰子——机械版有多假，模型版的边界才好聊。",
+      "links": [
+        {
+          "label": "Synonymizer",
+          "url": "https://synonymizer.fyi/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50045321"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "writenative-mac-english",
+      "category": "小众工具",
+      "title": "WriteNative：在任何 Mac 应用里改英文，并用你的母语讲为什么",
+      "body": "非母语写作者最烦的不是查词典，而是在 Slack、邮件、GitHub 描述里来回复制进聊天机器人。WriteNative 装在 Mac 上，在你正在打字的地方改：拼写随打随修，语法按段检查，每处修正可用中文等十一种语言解释「Its 和 It's 差在哪」。选中一段连按 Option 两次，能改语气、从母语起草英文、或先读懂对方情绪再回信；终端和代码块默认不动。云端检查用完即弃不训练，也可买断改成整机本地。免费档每天五十次语法、二十次 AI 动作。于是英文不再是另开窗口的翻译作业，而是原地润色加小课。所以呢：面向中文创作者讲「英语工作流」时，别再推复制粘贴——让他们在原聊天框里看见用中文讲解的红线。",
+      "links": [
+        {
+          "label": "WriteNative",
+          "url": "https://writenative.app/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50051791"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "plimsoll-sandbox-plimsoll-line",
+      "category": "小众工具",
+      "title": "Plimsoll：给代理写的代码标吃水线，沙箱不够深就不跑",
+      "body": "代理常写出「能跑但你不敢跑」的代码。Plimsoll 是自托管沙箱服务：每次执行都返回隔离档次——从弱到强是 process、container、kernel、vm——像船舷外的吃水线（Plimsoll line）谁都能看见。请求可设最低档，不够深就拒绝；官方 Go 客户端收回结果时会再验一次。沙箱里的程序还可通过 broker（经纪人）调你的 API，自己永远摸不到密钥；另有一套考试模式，把看不见的情景塞进运行前删除的文件里验收。站点上有十二页无构建、无外网的互动教程，连拉杆小车平衡实验的真实运行记录都能回放比对。作者说几个项目都要同一套边界，才把这层抽成服务。所以呢：讲「敢不敢让代理跑代码」别只说信任——让观众看见每次结果上印着的隔离档，安全讨论才有把手。",
+      "links": [
+        {
+          "label": "Plimsoll GitHub",
+          "url": "https://github.com/plimsollmark/plimsoll"
+        },
+        {
+          "label": "互动教程",
+          "url": "https://plimsollmark.github.io/plimsoll/trainers/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50049388"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "brainotes-pen-next-to-pdf",
+      "category": "小众工具",
+      "title": "braiNOTES：浏览器里对着课件手写，笔记永远不出本机",
+      "body": "同一个作者八月刚做过纯前端的 TeXbrain，这次把「手写那一半」补上。braiNOTES 打开就是笔记页：圆珠笔、钢笔、马克笔、铅笔、荧光笔带压感，课件 PDF 可并排阅读，也可直接当纸写；Study 模式还能用套索把公式剪进笔记旁。没有账号、没有服务器，改完进 IndexedDB，离线也能用，导出是带矢量墨迹的 PDF 或 .brainotes 压缩包，原页文字仍可选中。Board 模式变白板，激光笔适合投屏讲题。作者说自己用二合一笔记本上课，受够了跨设备同步和强制登录。快捷键从换笔到命令面板都齐，像为课堂场景裁过一刀；同学之间传一个文件就能接力改。所以呢：讲「课堂笔记数字化」别推又一个云同步——强调零账号、墨迹仍矢量，学生党一眼懂痛点。",
+      "links": [
+        {
+          "label": "在线试用",
+          "url": "https://notes.swimmingbrain.dev"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/swimmingbrain/brainotes"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50049132"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "homebutler-worth-mentioning",
+      "category": "小众工具",
+      "title": "HomeButler：家里服务器只报值得说的变化",
+      "body": "作者跑家庭服务器，以前巡检脚本爱刷七行废话描述两处改动。HomeButler 是单个 Go 二进制：第一次跑记下基线，第二次只讲动过的东西——容器被同名重建叫 replaced，镜像换了叫 image，端口易主叫 port，磁盘猛涨叫 disk。八种变化词在 JSON 里固定，方便代理分支，不靠读散文。不在被监视机器上常驻守护进程，也可 SSH 进容器扫；内置 MCP，能直接喂给编码代理。官网上那个演示：两个容器变了，报告就两行，还带上新旧 ID、镜像标签和多占的磁盘。于是「六台容器数量没变」不再骗过你——同名背后可能已经换壳。cron 里丢一条，早报就清爽很多。所以呢：讲运维自动化别再晒大盘监控——「同上次比，什么真变了」才是人与代理都爱听的摘要。",
+      "links": [
+        {
+          "label": "HomeButler",
+          "url": "https://homebutler.dev"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Higangssh/homebutler"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50050469"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "preloop-pause-retry-ci",
+      "category": "小众工具",
+      "title": "preloop：本机微虚拟机跑 Actions，失败可暂停再续",
+      "body": "GitHub Actions 额度不够、又嫌云端机器慢时，preloop 把同一套工作流接到本地：表达式、矩阵、可复用工作流都能认，跑在硬件隔离的微虚拟机里，恢复大约三百毫秒。官方 runner 协议兼容，也可用他们更瘦的 Rust runner。关键卖点是调试：某步挂了可暂停，你在另一窗改文件，再同步并重试从断点续跑，不必整条重来；还能 SSH 进失败环境，或让代理挂调试器看现场。支持对未提交改动跑 CI，再选推送或开草稿 PR。有人在 HN 说五年旧硬件本地跑，反而比付费云端快一倍。它和「只在本机复跑 Actions」的工具不同，多了暂停与微虚拟机这一层。所以呢：讲本地 CI 别只说「能跑」——强调失败可暂停、可进机器，代理排障才有舞台。",
+      "links": [
+        {
+          "label": "preloop GitHub",
+          "url": "https://github.com/preloopdev/preloop"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50049531"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "skills-hub-install-once",
+      "category": "小众工具",
+      "title": "Skills Hub：代理技能装一次，同步到四十多个工具",
+      "body": "用 Claude Code、Cursor、Codex 的人常把同一份「技能包」复制进好几个全局目录，改一处漏三处。Skills Hub 是跨平台桌面应用：在应用里浏览按任务分好的合集、搜索、从 Git 或本地导入，然后勾选目标工具，一次同步到全局或项目目录，也支持自定义路径。官方写明支持四十八个编码工具，还能批量启停、打标签、跨设备用 GitHub、GitLab 或 Gitee 对齐；同一库也可让代理通过对话帮你安装整理。口号就一句：Install once, sync everywhere。装完以后，你的「技能货架」终于只有一个真相来源，周末改一版规则，周一所有工具一起生效。团队里新人入职，也不用再问「技能文件到底拷哪」。所以呢：讲「技能生态」别只罗列仓库——痛点是多工具目录地狱，装一次同步到处，观众立刻有共鸣。",
+      "links": [
+        {
+          "label": "Skills Hub",
+          "url": "https://aiskillshub.link"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/qufei1993/skills-hub"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50050732"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "clotr-warn-before-ai-send",
+      "category": "小众工具",
+      "title": "Clotr：往 AI 聊天框发送前，先拦住密码和证件号",
+      "body": "作者考 IT 证时问 Gemini 网络题，有天模型冷不丁提起他的健康状况，才惊觉「自己到底喂过什么」。于是做了 Clotr 浏览器扩展：盯着十九个 AI 聊天站的输入框和附件，发现密码、密钥、卡号、证件号、电话、地址——哪怕拼错或写成单词——就在角落弹出警告，由你决定遮住还是硬发。遇到「要验证码、CVV、礼品卡」这类钓鱼话术，会提示真正该找谁；还能把可疑私信贴进「这是诈骗吗」页做标记，但从不宣称安全。复制「先粘贴这条命令证明你是人」也会拦。Chrome、Firefox、Edge 都能装，AGPL 开源。它和「共享屏幕时糊隐私」的工具不同，卡的是发送前那一秒。所以呢：讲隐私别只骂大模型——在发送键之前加一道本地闸，故事比隐私政策好懂。",
+      "links": [
+        {
+          "label": "Clotr GitHub",
+          "url": "https://github.com/clotr-app/clotr"
+        },
+        {
+          "label": "v1.3.0",
+          "url": "https://github.com/clotr-app/clotr/releases/tag/v1.3.0"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50051542"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "cachety-id-watermark-local",
+      "category": "小众工具",
+      "title": "Cachety：证件加水印全程不出浏览器",
+      "body": "租房、办签证、交银行流水时，对方常要护照或工资单电子版，你又怕文件被拿去别处用。Cachety 让你在网页里拖进 PDF 或图片，选「住房」「银行」「签证」等模板，自动叠上收件人、日期和唯一编号的水印；文件从头到尾留在本机，不上传、不建账号、免费。名字取自 cachet（封印）和 cacher（藏起来）。作者强调法国制造与隐私，还提供对照文案解释为什么要水印。于是「加水印」不再等于把身份证先扔进陌生网盘——你甚至可以在咖啡馆离线做完再发出去。下一次中介再要证件，你能光明正大交出带编号的副本。所以呢：讲数字隐私落地场景时，租房交证件是人人会碰到的切口——本地水印比空喊「小心泄露」有用。",
+      "links": [
+        {
+          "label": "Cachety",
+          "url": "https://cachety.com"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50048129"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "swapbackdrop-reuse-cutout",
+      "category": "小众工具",
+      "title": "SwapBackdrop：抠一次人像，换三套背景出片",
+      "body": "短视频创作者常为一支十五秒产品片反复绿幕。SwapBackdrop 让你丢进已有 MP4 或 MOV（最长约十五秒），在云端抠出一次人像，再套不同背景，并导出九比十六、一比一、十六比九三种画幅。同一笔处理额度最多出三个云端版本；选文件时先本地检查，付费确认后才上传。官网示例把同一条产品镜头换成棚拍墙、街景、纯色，立刻变成三条可发素材。于是「换场景」不再等于重拍整条，库存镜头也能再卖一轮。拍的时候专心演，出片的时候再决定世界观；做评测时并排三画幅就是天然封面。品牌同学也能拿同一条口播试三套场景再定调性。所以呢：讲创作者效率别堆特效清单——「一次抠图，三套出片」六个字就能当标题。",
+      "links": [
+        {
+          "label": "SwapBackdrop",
+          "url": "https://swapbackdrop.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50050216"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
+    {
+      "id": "tensorviz-browser-pytorch",
+      "category": "小众工具",
+      "title": "TensorViz：不装 Python，在浏览器里拆开二十九个模型",
+      "body": "想搞懂注意力怎么接到现代解码器，却不想先配环境？TensorViz 的 Model Explorer 在网页里放了二十九个可点的 PyTorch 结构：跟导览走，看捕获到的张量形状，还能把源码带回自己的项目。学习路径分成注意力到解码器、像素到空间理解、对齐与适配、对抗学习等几条课，无需安装、无需本机 Python。对把「模型内部」讲给非训练岗同事听的人尤其友好——鼠标点一层，形状变化当场看见。做科普时可录「点开注意力层」十五秒，比一张静态架构图更有停顿点；课堂投影也不怕环境装挂。下一节课直接从浏览器收藏夹开始即可。所以呢：讲模型科普别只放架构大图——丢一个可点的层浏览器，观众自己点比你口述更牢。",
+      "links": [
+        {
+          "label": "Model Explorer",
+          "url": "https://tensorviz.dev/explore/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50051501"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-12T15:10:00+08:00"
+    },
     {
       "id": "linus-claude-filemap-noref",
       "category": "硬科技",
