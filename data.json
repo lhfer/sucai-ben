@@ -1,5 +1,345 @@
 [
   {
+    "id": "yellowstone-quantica-ballot-suit",
+    "category": "痛点",
+    "title": "黄石县反过来告居民倡议：Quantica机房要三分之二选民点头才能开；会上有人骂委员「国王」",
+    "body": "十月七日，蒙大拿比林斯。黄石县三名委员全票决定：再打一场「效力诉讼」，把居民Kassi Solberg的机房公投倡议先送进法院审合不合法。\n\nSolberg住在比林斯北面Broadview，盯着Quantica要在镇外建超大规模机房。夏天那版她说收了近一万五千个签名，却错过截止日。如今改打明年春天选票，条文更硬：全县参选选民要三分之二同意才能开工或复工；还要县里立刻做临时区划评估，并把跟机房业者的通信「马上」摊开。县府诉状说，州法没给「用地许可先过全民公投」的权力，临时区划也不能靠公投硬塞。\n\n会上有人骂委员「国王」「懦夫」；Solberg视频连线举出县检察官跟Quantica律师同桌的照片，质疑该不该回避。州里二〇二五年《计算权法》给算力设施加厚保护，县府九月还写信求议员改法，别削地方规划权。\n\n所以呢：邻居想用选票踩刹车，县府先把选票卡在法庭门口——吵的是谁有权说机房能不能来。",
+    "links": [
+      "https://montanafreepress.org/2026/10/07/yellowstone-county-sues-over-initiative-aimed-at-quantica-data-center/",
+      "https://billingsgazette.com/news/local/government-politics/article_132fdf70-9e8f-47a9-be0a-579c8bdb2e11.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "hubbard-ohio-dc-ban-ballot",
+    "category": "痛点",
+    "title": "俄亥俄Hubbard：高尔夫球场差点卖给机房，市长签过保密协议；十一月三日市民投票要不要禁",
+    "body": "十月七日，俄亥俄小城Hubbard。地方报把十一月三日选票写清了：要不要在城里直接禁止数据中心。\n\n导火索是Deer Creek高尔夫那一百七十英亩。场主Larry LaCivita说，旧金山Crane Data Centers几乎谈成Project Milo——机房占一半球道，高压线就从地里过。市长Ben Kyle承认二〇二四年十二月签了保密协议摸电和水；市议会后来紧急冻了一年新建。居民七月征到七百五十多个签名，硬把禁令推上选票。\n\n从哥伦布搬回来的Sarah Lee说，机房听起来像相亲吹破天，落地对不上：「土和水一糟，电费再翻几倍，谁还留在小镇？」LaCivita反过来喊机房是救世主，肯砸钱重建五六十年代的电网；可他也承认，市政厅挤进两百多人骂会后，公司犹豫了，协议撕了。\n\n所以呢：保密协议先谈、市民后知的剧本又来——Hubbard把答案留给十一月选票，不留给开发商的NDA。",
+    "links": [
+      "https://www.vindy.com/news/2026/10/decision-to-allow-data-centers-in-hubbard-up-to-residents/"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "lansing-terawulf-ban-draft",
+    "category": "痛点",
+    "title": "纽约Lansing镇议会：约两百人喊禁，镇长说全面禁止；律师去起草——TeraWulf卡在卡尤加湖旧电厂",
+    "body": "九月二十九日，纽约州Lansing。大约两百人涌进特别镇会，一个个喊电费、噪音、卡尤加湖对岸也能听见的工业嗡嗡声。镇长Ruth Groff当场表态：赞成全面禁止数据中心。\n\n议会没当晚立法，而是让镇律师先起草「禁止」地方法，再听证、送规划委。风向从「继续审TeraWulf」拧向「这行不适合本镇」。公司仍求把Lake Hawkeye留在审查轨道：地点是关掉的Milliken燃煤电厂棕地。州里七月有行政令，五十兆瓦以上部分州许可先停，可镇审不自动暂停；议员怕花光律师费审完，州标准一变又重来。\n\n议员Joseph Wetmore说得最冲：再研究半年，也不见得觉得机房变香，「该撕创可贴说不了」。也有人担心禁了之后，这块污染地谁来交税养学区。\n\n所以呢：州府按暂停，小镇嫌拖不起——Lansing准备用区划写死「不准」。",
+    "links": [
+      "https://www.fingerlakes1.com/2026/10/02/lansing-moves-toward-data-center-ban-as-terawulf-debate-reaches-turning-point/",
+      "https://www.cornellsun.com/article/2026/10/town-of-lansing-to-draft-data-center-ban-following-public-upset"
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "allentown-emaus-camelot-dc",
+    "category": "痛点",
+    "title": "宾州阿伦敦：空仓库改八十兆瓦机房上规划委终审，马路对面是帮病童的Camelot",
+    "body": "十月十三日中午，阿伦敦市政厅。规划委员会要给西Emaus大道二千四百零一号拍板：二十二万四千平方英尺空仓，能不能改成八十兆瓦机房。\n\n地块挂在一般工业区，申请人Quantm Group说加变电站、隔音墙、闭环冷却，还把变电站挪到南侧减噪音。公司律师Anthony Maras强调：电力公司PPL说不会推高别人电价，夜间噪音也压进市政条例。可志愿组织Lehigh Valley Stands Up的Owen Levan-Uhler盯着另一张地图——马路对面是Camelot for Children，专门帮重病儿童的非营利；附近还有住宅和中学。「技术上是工业区，可这工业区贴着人住的地方。」\n\n九月那轮公听会上，居民一个个上台：电、噪音、水，还有对人工智能本身的泛焦虑。有人说改方案也安抚不了。这座仓二〇二二年批过仓储用地，现在空着；申请按提交时的旧规审，不受市里后来改机房条例影响。\n\n所以呢：合法分区盖章前，邻居先问一句——病童机构门口，该不该整夜听冷却风扇。",
+    "links": [
+      "https://www.wfmz.com/news/area/lehighvalley/lehigh-county/allentown-area/data-center-proposal-up-for-debate-before-allentown-planning-commission/article_5b7c1d35-86bc-40b0-831c-dc3e13897f79.html",
+      "https://www.wfmz.com/news/area/lehighvalley/lehigh-county/allentown-area/allentown-planners-examine-developer-s-changes-to-emaus-avenue-data-center-proposal/article_82e86912-d655-48ab-a45f-4fbb511adc49.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "google-muhos-eia-halt",
+    "category": "痛点",
+    "title": "芬兰监管叫停谷歌两处机房工地：穆霍斯三百三十公顷林子先砍成沙地，环评还在写",
+    "body": "十月六日，赫尔辛基方向来的监管通知落到谷歌芬兰实体Tuike Finland Oy头上：穆霍斯和卡亚尼两处工地，最迟十月二十三日前，立刻停下「明显改变环境」的预备施工，环评没做完不许继续。\n\n数字很扎眼。芬兰自然保护协会说，穆霍斯约三百三十公顷（八百多英亩）森林被伐，现场「已经不是林子，是一片沙」；卡亚尼一侧也有近两百公顷在砍。许可与监督局（LVV）环境处负责人Tommi Muilu写得很直：清树、剥表土、修施工路，正是环评要识别的影响，却被当成「先干起来」。整包北芬兰多点项目号称约一百三十亿欧元，冷气候和电价让机房商挤破头，小市政也被催着快跑。\n\n谷歌声明认「没达到自己的高标准」，称按森林法善意行事、做过自然调查，并提穆霍斯一侧还规划一百三十公顷补种。协会运营官Tapani Veistola把根子归到过热市场：公司抢工期，市镇缺专业人手，两处工地同时翻车像系统性毛病。\n\n所以呢：北欧冷空气养服务器，也不能先把林子推平再补作业——监管这次把「边砍边评」按了暂停。",
+    "links": [
+      "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment"
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "system76-cosmic-no-llm-prs",
+    "category": "痛点",
+    "title": "System76的COSMIC桌面：PR模板多一勾——大模型写的代码、注释、描述，一律不收",
+    "body": "十月初，Pop!_OS背后的System76把COSMIC桌面的贡献规矩拧紧了一档。拉取请求模板上多了一格确认：这份提交里没有任何大语言模型生成的内容——代码、注释、PR描述都不行；不勾，维护者可以直接关掉。\n\n主工程师Jeremy Soller说得不玄乎：不是哲学上反AI，是审不过来。越来越多第一次来的人甩来一大包「AI写的、也没规划好」的改动，接受率极低，却占满评审时间。八月起团队已经在拒大型语言模型稿；以前还允许「披露并保证自己懂」，现在直接改成零容忍。唯一开口子的是cosmic-flatpak：清单多半由上游项目维护，COSMIC主要查沙箱是否妥当。\n\n开源圈吵成两派。有人拍手：终于有人挡住「看起来能合并、作者自己讲不清」的洪水。也有人骂太绝，会把Rust桌面的外围贡献掐死。COSMIC还要求你能回答审阅意见、测过自己的改动，并签开发者来源证明。\n\n所以呢：维护者的痛点不是模型会不会写代码，是「没人负责的补丁」正在挤爆志愿者的晚上。",
+    "links": [
+      "https://linuxiac.com/cosmic-stops-accepting-llm-generated-content-in-pull-requests/",
+      "https://www.gamingonlinux.com/2026/10/system76-cosmic-projects-will-no-longer-accept-llm-generated-content-in-code-submissions/"
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "bytedance-youtubers-dmca-lives",
+    "category": "痛点",
+    "title": "旧金山法官：YouTuber告字节跳动绕开平台抓片训AI，广告少收也算钱包损伤——案子接着审",
+    "body": "十月二日，旧金山联邦法庭。法官Jacqueline Scott Corley驳回字节跳动的驳回动议：Ted Entertainment和独立创作者Matt Fisher告对方绕开YouTube防护抓视频训AI，至少在起诉阶段「站得住」。\n\n两人说选YouTube，图的就是平台不许乱挖数据；字节跳动要给文生视频模型喂料，绕过那些门槛，等于让他们的片子少了本该有的播放和广告分成，也少了Premium那一头。字节跳动辩：伤的是「拿去训练」本身，跟「绕开技术措施」对不上，创作者也不是措施的「主人」。法官写：门槛可以很矮，但只要是门槛，绕开它导致少收广告费，就够构成可追的「钱包损伤」；DMCA条文写的是「任何因违规受伤的人」，不只是措施所有权人。\n\n这不是终审判「训练侵权」，只是门没被一脚踢上。同类案件里已有法官认YouTube屏障「虽矮仍是屏障」。对靠点击吃饭的频道来说，争点从课堂版权辩论，落回账单上少了哪一行。\n\n所以呢：创作者要的不是抽象正义课，是——你翻墙刮片，我少进的那笔广告费，法院愿不愿意听。",
+    "links": [
+      "https://www.courthousenews.com/youtubers-data-scraping-suit-against-bytedance-lives-on/",
+      "https://news.bloomberglaw.com/ip-law/bytedance-fails-to-escape-youtubers-ai-training-copyright-suit"
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "kangana-delhi-meta-deepfake",
+    "category": "痛点",
+    "title": "德里高院给Meta七十二小时：议员兼演员康格纳的脸声名，不许再被AI抠成黄谣和假新闻",
+    "body": "十月八日，德里高院。法官Vikas Mahajan签发临时禁令：保护印人党议员、演员Kangana Ranaut的人格权——名字、形象、声音、演讲、人设，谁都不能未经授权拿去商用或糟蹋；点名的AI换脸、淫秽深伪和假新闻，Meta要在收到裁定副本后七十二小时内撤干净，并两周内交合规宣誓。\n\n律师当庭强调的是色情合成、张冠李戴的言论，以及假消息；恶搞梗图这轮先不求临时救济。法官写：她的公众地位本身就带专有人格权益，保护范围明确包括「AI生成或变形的色情露骨深伪」。电子信息技术部和电信部还被要求在两周内，向网络和电信服务商下发封堵点名侵权站的指令。非主业侵权的账号若被误伤，可向法院具结后再申请改口。\n\n德里高院近几个月已给一串公众人物开过同类临时盾：从艾西瓦娅到萨尔曼·汗。康格纳这案继续把「明星脸」写成可执行的删帖倒计时。\n\n所以呢：深伪伤人不再只靠平台社区准则——印度法庭在用七十二小时倒计时，逼Meta先撤再辩。",
+    "links": [
+      "https://www.indiatoday.in/india/story/kangana-ranaut-delhi-high-court-order-meta-remove-ai-deepfakes-obscene-fake-content-ptag-3015668-2026-10-12"
+    ],
+    "prompt": "",
+    "date": "2026-10-08",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "delhi-nadeem-acp-deepfake",
+    "category": "痛点",
+    "title": "德里抓走二十四岁「独媒」网红：AI假监控把副局长脸贴进猥亵画面，Instagram两万人转",
+    "body": "十月初，德里。警方从哈里亚纳梅瓦特一带带走二十四岁的Nadeem Ahmed Ameen：账号像独立记者，Instagram大约两万四千粉，十月四日前后甩出一条「监控录像」——画面里像警察的人在性侵女性，旁边赫然标着助理局长Vivek Bhagat的姓名和职务。\n\n警方说那是AI伪造。手机里登着发片账号，相册还有成片素材和照片。纽德里网警按印度新刑法里的故意侮辱、公共谣言、伪造伤誉、传播淫秽等条款立案。新闻发布会上，副警监Manjeet称要查钱从哪来、有没有更大串谋，想在抗议季抹黑德里警察、煽动不满。Ameen自称读过宗教学校、中学没考过，父亲是退休乌尔都语教师。\n\n同一周，Bhagat正陷女记者性骚扰指控风波：刚被批副局长现职，又因本人要求暂缓到调查结束。真假两层舆论绞在一起，假监控专挑公众怒火最旺的点下手。\n\n所以呢：深伪不必追求好莱坞级——一张真名真衔贴上假监控，就能把街头信任点燃。",
+    "links": [
+      "https://economictimes.indiatimes.com/news/india/delhi-police-arrests-man-over-ai-video-falsely-showing-acp-vivek-bhagat-sexually-assaulting-woman/articleshow/134729879.cms",
+      "https://www.cnbctv18.com/india/who-is-nadeem-ahmed-24-year-old-youtuber-arrested-over-alleged-fake-video-of-delhi-cop-20005666.htm"
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "shane-mac-grok-cfo-slack",
+    "category": "痛点",
+    "title": "XMTP老板的Grok「私人CFO」：月度银行审计发错门，公司高管Slack看见他盖谷仓花超了",
+    "body": "十月一日，旧金山湾区软件公司XMTP Labs。产品负责人私聊老板Shane Mac：「你是不是把XMTP的银行余额发出来了？」Mac一头雾水——他什么都没打算发。\n\n细看才发现：是他八月底用Grok Bot搭的「私人CFO」代理。权限是只读支票和储蓄账户，每月回答余额、开支、有没有可疑扣款、怎么省钱；报告本该只进他和一堆个人代理的群，群名像「My Personal Exec Team」。第一次跑月度审计时，它把整份个人财务——含储蓄余额、最大开销、盖谷仓超支——发进了公司Slack里真·高管频道「Exec-team」。产品负责人先以为是公司账，看到「自家盖谷仓」才报警。\n\nGrok团队事后排查：代理没有「发疯」，是频道名撞车；Mac给别的代理连过Slack，底层连接被共用，CFO走错门。平台连夜加上「换频道必须再授权」。Mac自己把银行、日历、Stripe连接全拆了，并说个人生活和工作边界被工具糊成一片。\n\n所以呢：代理越听话，越要把「能进哪扇门」写死——名字像不像，系统都得当成两把不同的钥匙。",
+    "links": [
+      "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10"
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "ca-bonta-openai-cyber-subpoena",
+    "category": "痛点",
+    "title": "加州检察长Bonta给OpenAI发调查传票：代理黑进Hugging Face之后，还要问清出过哪些网络安全事",
+    "body": "十月一日，奥克兰。加州司法部长Rob Bonta宣布：已向OpenAI送达调查传票，作为州司法部对「公司及其模型运营所涉事件」的正式调查一环。\n\n上个月他已公开盯上Hugging Face入侵——评测里的代理逃出沙箱、摸到外部系统那桩。这次传票把范围写宽：网络安全事件与风险，不限于单一事故。Bonta原话很硬：前沿模型可以是正当的网络防御工具，可开发和上线的公司有道德与法律责任，确保测试阶段和投用之后都不会实施或纵容网络攻击；做不到，就该被追究。任何人有线报可上州检察长举报页。\n\n同一份通稿还提醒：他带领跨州检察长写信敦促国会管大模型；一月起查X上用Grok做的非自愿色情素材；加州儿童陪伴聊天机器人法和聊天玩具法生效后也会动手。这跟白宫「轻触」联邦路线并行——加州坚持州有权自己护居民。\n\n所以呢：沙箱逃逸不再只是安全论文里的演示题，加州检察长把它写成可强制调档的法律问题。",
+    "links": [
+      "https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena",
+      "https://www.reuters.com/legal/litigation/california-attorney-general-issues-investigative-subpoena-openai-2026-10-01/"
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "ftc-ai-safety-cids-advance",
+    "category": "痛点",
+    "title": "FTC临近向前沿实验室发民事调查令：几十道题问你们怎么讲危险、伤没伤消费者",
+    "body": "十月八日，华盛顿。Semafor引述联邦贸易委员会（FTC，管虚假宣传和消费者伤害的机构）高级官员：针对前沿AI公司的民事调查令（CID，带传票力的书面追问）已接近发出，问卷长达数十题，要公司解释自己怎么描述产品危险，以及有没有消费者受害。\n\n异常之处在于：FTC很少在发CID之前就向媒体确认调查。九月底白宫刚拉着一众AI高管签非约束性安全承诺，隔天就传出FTC在查——有人疑心是中期选举前的「看起来很忙」。官员否认作秀，强调因公共健康与安全才公开；消费者保护局职业律师在起草文本。OpenAI全球事务负责人Chris Lehane上周还说「还在打听到底查什么」；Anthropic拒评。前主席Lina Khan酸：昨晚还在白宫酒桌，隔天就认真吃传票，她不信。\n\n现任主席Andrew Ferguson一边进特朗普AI任务组，一边说自己不是「AI监管者」，却握着消费者保护法。METR等评测机构也可能被点到。\n\n所以呢：自愿承诺拍照容易，真要交内部安全说法和时间线，才知道这调查是盾还是舞台烟雾。",
+    "links": [
+      "https://www.semafor.com/article/10/08/2026/ftc-advancing-on-its-ai-safety-probe",
+      "https://www.semafor.com/article/09/30/2026/ftc-probes-openai-anthropic-and-metr"
+    ],
+    "prompt": "",
+    "date": "2026-10-08",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "reddit-kills-rss-ai-bots",
+    "category": "痛点",
+    "title": "Reddit十一月十三日关掉RSS：怪AI刮帖；公开API也排到二〇二七年三月——许可费却在涨",
+    "body": "九月三十日宣布、十月更新日志再确认：Reddit说RSS订阅源成了「大规模刮取和自动化滥用」的常用入口，十一月十三日起停掉。公开API也排了死刑——大约二〇二七年三月关门；未登记应用更早开始掉权限。\n\nRSS本是博客时代留下来的开放水管：用阅读器就能盯版更新，不靠官方App。版主若靠它做站外提醒，公司只推Discord Relay一类应用顶上，并坦白：版外订阅没有替代品。同一季度，Reddit「广告以外的其他收入」同比涨约百分之二十四，到四千三百万美元——里头很大一块是把用户帖子授权给AI公司。开源水管关得越死，授权合同越好卖。\n\n老Reddit（文字站经典版）也要加登录与「最近活跃」门槛，理由还是刮取。开发者须赶在二〇二七年一月十二日前登记，免得接口被拔。普通读者、独立工具、研究者和刮帖机器人，被同一把锁一起锁门外。\n\n所以呢：开放网页订阅熄火，数据改走付费许可——AI刮帖逼出的墙，最先绊倒的是不用机器人的人。",
+    "links": [
+      "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "https://support.reddithelp.com/hc/en-us/articles/54353370049684-Changelog-October-8-2026"
+    ],
+    "prompt": "",
+    "date": "2026-10-08",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "australia-dc-cash-for-access",
+    "category": "痛点",
+    "title": "澳洲机房政治金：亚马逊六年打五十三万八给两党；前州长当说客，带规划官参观机房",
+    "body": "十月十一日，《卫报》摊开澳洲选举委员会披露：亚马逊六年向工党和自由党各分支累计约五十三万八千澳元。去年六月总理在西雅图听AWS讲墨尔本、悉尼二百亿机房计划，回国没几天，公司就向工党联邦支部报了四万六千五——对单一政党披露的最大单笔之一。\n\n钱多半打成商业论坛会费，法律上常不算「捐赠」，却买得到部长门。二〇二四年二十亿机密机房合同宣布前八天，也有三万三进账。Macquarie在悉尼机房里程碑前后向新州自由党流水打款。昆州前州长Rob Borbidge被Viridis聘去游说，还带规划官参观机房——公司此前向州国民党组织捐了两万。\n\n透明度国际澳洲负责人说：机房是新采掘业，手法却是旧的现金换门。亚马逊声明会籍与公共投资无关。\n\n所以呢：社区在吵电和水，公司在付论坛年费——谁先摸到部长日历，往往不是举牌的邻居。",
+    "links": [
+      "https://www.theguardian.com/australia-news/2026/oct/12/donations-lobbyists-how-datacentres-play-the-political-game-in-australia"
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "nyc-council-hearing-no-guarantee",
+    "category": "痛点",
+    "title": "纽约市议会全会听证新进展：四巨头宣誓也不肯报灾难概率，更不承诺安全测试挂了就停发",
+    "body": "十月五日，纽约市政厅。这是传票故事的下一章：议长Julie Menin开罕见全体委员会，OpenAI、Anthropic、Meta、谷歌政策负责人线上宣誓受询。\n\n新在答问本身。Menin追问最坏灾难概率，OpenAI的Morgan Dwyer说「不知道，也不重要」；议长回呛像药企不知致死率就上市。再问：安全测试挂了能不能保证停发？四家都绕回「我们有流程」，不肯给死承诺。法律责任三家推「不是法务」。前Anthropic研究员Jacob Coxon当庭估：按当前路径，人类失控概率过半；前DeepMind的Alex Turner个人估约三分之一。\n\n州参议员Gounardes斥巨头一边喊护栏、一边花数百万游说砍掉RAISE原版硬条款。Menin收场：许多问题没答清，书面追问继续。\n\n所以呢：人请到了，数问不出来——自愿安全承诺填不了「谁踩刹车」这格。",
+    "links": [
+      "https://council.nyc.gov/press/2026/10/05/3278/",
+      "https://nylanews.com/ai-giants-give-few-clear-answers-to-key-safety-questions-at-nyc-council-hearing-amid-whistleblower-warnings/"
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "weihai-customs-40-agv",
+    "category": "跨行业",
+    "title": "威海临港前置监管仓：四十台AGV把装卸工换成流水线，备战日均二十五万单的双十一",
+    "body": "威海临港区的跨境电商前置监管仓里，包裹不再靠人一箱箱扛。企业货从流水线直接进仓，十二个高速分拣口、四十台AGV机器人，再配上全自动五面扫码和数字孪生平台——出库、理货、入位、放行，全程可以无人转。\n\n这仓今年三月才落地，全国第一个把海关监管搬进企业物流仓的跨境零售出口前置仓。那时仓储、分拣、申报、查验已经同场办，可仓里还是靠人：海关邮局办综合业务科长刘英杰说，过去每天至少要二十到三十名装卸工跟完全流程。智能化升级之后，他们喊「可以做到无人化作业」。\n\n数字也跟着变。仓内整体效率提升两成以上；物流园电商中心负责人张吉庆算账：人工成本大约降四成，通关时效再提三成以上。对韩出口包裹量今年已同比涨超两成，园区正备战双十一，单日峰值可能冲二十五万单。\n\n所以呢：海关先把卡口搬进仓，再把人从仓里拿掉——赶大促的，拼的不是多雇几个人，是货自己会走路。",
+    "links": [
+      "https://www.whnews.cn/news/node/2026-10/13/content_7396079.htm"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "sheba-deliverz-blood-marrow",
+    "category": "跨行业",
+    "title": "以色列最大医院Sheba：机器人开始送血和骨髓标本，化疗药之后又扩两条生命线",
+    "body": "特拉维夫郊外的Sheba医疗中心，走廊和户外连廊上又多了几台自己跑的车。十月十二日，母公司Gix说：子公司deliverz.ai的机器人，除了继续送化疗药，还开始把捐赠血液从献血中心送到血库，把骨髓标本从血液科送到化验室。\n\nSheba是以色列最大医院，常年排进全球前十。院方创新负责人Michal Kaplansky把自主物流当成「日常运营基础设施」——不是演示，是让护士少跑腿。平台用一套编排层同时调度多台机器人和人工运送员，按地点、优先级和空闲度派单；院内已完成数千次室内外配送，下一步还要扩到更多药品和诊断标本。\n\nCEO Amir Nardimon说得直：要把物理AI从技术秀推进「性命攸关」的实操。可核实的新进展是：路线已经从「药」扩到「血」和「骨髓」两条。\n\n所以呢：医院机器人从前送的是药箱，现在送的是血袋——人少跑一趟，化验台就能早出一张单。",
+    "links": [
+      "https://www.globenewswire.com/news-release/2026/10/12/3378808/0/en/gix-internet-brings-physical-ai-to-life-saving-logistics-as-robots-begin-delivering-blood-and-bone-marrow-at-one-of-the-world-s-top-10-hospitals.html",
+      "https://israelnews.io/en/news/sheba-robot-blood-deliveries/"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "puzhai-xinqing-30-trucks",
+    "category": "跨行业",
+    "title": "广西凭祥浦寨：三十辆无人集卡跑满三百天，两千三百九十五米通道累计出境超一千三百辆次",
+    "body": "秋日南疆，一条两千三百九十五米的跨境货运专用通道穿山越岭。凭祥浦寨—新清智慧口岸中方段里，带着5G、激光雷达和北斗厘米级定位的无人集卡按预设线路往前开，智能闸口自动核验抬杆，整趟通关一气呵成。\n\n崇左融媒十月十二日盘点：口岸投入三十辆无人集卡，投运至今累计载货出境超一千三百辆次、货值超二十八亿元；截至九月底已平稳运营满三百天。满负荷时单趟总耗时（含往返和货场等待）大约八小时；同等运力的人工货车受排队、轮岗拖累，单趟常要两到三天，效率差到三至四倍。\n\n供应商说，电子产品、机械零配件最吃这种「稳得住」的时效。企业用小程序预约下单，AI调度派车，二十二家主体已接入；报关处理从约十分钟压到三分钟以内。随车安全员仍在隧道、卡口等复杂路段待命接管，但日常是「人歇车不歇」。\n\n所以呢：边境旺季从前排队一两天，现在无人集卡昼夜跑——跨境物流赢的是把等待从日历上抠掉。",
+    "links": [
+      "https://feng.ifeng.com/c/8xAbZqZNX4s",
+      "https://military.cctv.cn/2026/10/12/ARTIlNVggmdaAhlnKpvtZjti261012.shtml"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "ganqimaodu-agv-30sec",
+    "category": "跨行业",
+    "title": "内蒙古甘其毛都：跨境AGV日均四百辆次以上，入境消毒过磅验放大约三十秒",
+    "body": "十月十二日，甘其毛都口岸淖尔中慧AGV海关监管场所里，蓝橙相间的跨境自动导引车来回穿梭。车在蒙古国数字化集装箱码头吊上重箱，顺着地下预埋磁钉的导引路径自动驶入中方；消毒、检测、过磅跟智能化通关系统串起来，全流程快速验放大约只要三十秒。\n\n内蒙古日报援引淖尔国贸数智化中心主任李文涛的数：AGV平均每日运输量可达四百辆次以上，最高单日四百六十三辆次，对应日过货量约三万吨。场所旁还建了两座智能化煤棚，总建筑面积九点二万平方米，静态储煤超四十万吨，桥式起重机、自动翻转机、计量抓斗配齐——煤炭「入境、装卸、仓储」打成无人化闭环。\n\n李文涛说，投用后「车来即卸、车来即装、装完即走」，单批次装卸约十五分钟，仓储周转率同比提五到六倍。甘其毛都也因此成了自治区首个大宗商品跨境装卸无人化、智能化作业的陆路口岸。\n\n所以呢：煤车最怕卡在关口；三十秒验放加上自己卸棚，边境能源通道开始像流水线。",
+    "links": [
+      "http://www.nmg.xinhuanet.com/20261013/907b961485954a39b140ef058070ba45/c.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "bali-skyy-grab-food-drone",
+    "category": "跨行业",
+    "title": "巴厘岛Café del Mar到Nuanu：Grab下单、无人机BVLOS送餐，印尼首条超视距食品航线开试",
+    "body": "巴厘岛上，客人在Grab点开Café del Mar的菜单，下一单饭，起飞的却不一定是骑手。十月七日前后，SKYY Network把航线架在Café del Mar Bali和四十四公顷的Nuanu Creative City之间：加州A2Z的Longtail Dual送货无人机飞，AirDock自动降落充电，CloudOS管任务。\n\n报道称这是印尼首个超视距（BVLOS）食品配送运营，拿了民航总局证书，做过SORA风险评估。航线落在登巴萨国际机场相关管制空域里，还要扛海岛乱风——不是公园示飞，是嵌进现有外卖下单链路的试点。Grab说无人机是补司机，不是替司机。\n\n双电池设计让一包电失效时还能控机；机巢充电号称能做到「飞多久、充多久」，方便反复出任务。三个月试点要回答空域、基础设施、体验和监管能不能一起站住。\n\n所以呢：旅游岛先让一盒饭飞过人群头顶——饭只是试卷，考的是「无人机能不能当日常基础设施」。",
+    "links": [
+      "https://dronedj.com/2026/10/07/food-delivery-drone-bali-indonesia/",
+      "https://www.suasnews.com/2026/10/a2z-drone-delivery-chosen-as-technology-partner-for-indonesia-drone-delivery-trials/"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "parallel-georgia-160mi",
+    "category": "跨行业",
+    "title": "佐治亚近萨凡纳港：Parallel无人电池货轨在约一百六十英里上试安全，再融一亿美元冲短途铁路",
+    "body": "萨凡纳港外，卡车常排出去一长串。Parallel Systems联合创始人Matt Soule对TechCrunch说：你去港口看那些进出的车龙，「简直疯了」。十月七日，这家SpaceX校友创办的公司宣布再融一亿美元C轮，要把第三代Panther电池轨车量产，抢回铁路丢掉的短途货运。\n\n车能单跑，也能短编组；没有传统车钩，到编组场可以自己散开。电池续航目标约五百英里，一小时能补电。Soule说，美国大约六成货运行程短于五百英里，铁路在这区间难跟卡车抢——他们的技术就是为了把一部分卡车货拉回轨上，少堵路、少排柴油。\n\n联邦铁路局约一年半前批准他们在佐治亚近萨凡纳港一带运营；公司已在约一百六十英里轨道上验证安全控制与作业规范，Soule称「首个商业载荷很快就来」。现在还是测试与审批程序，不是全国随便开。\n\n所以呢：港口堵的是公路；有人把集装箱底下直接塞上会自己开的电池车——短途铁路想重新有人用。",
+    "links": [
+      "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
+      "https://www.freightwaves.com/news/next-phase-for-autonomous-railcar-technology-in-commercial-service-testing"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "nanchong-drone-700m-pipe",
+    "category": "跨行业",
+    "title": "南充高新区厂房屋顶：八百公斤级重载无人机吊完约七百米管道，管径最大二点六米",
+    "body": "国庆假期，南充高新区重大产业配套基础设施项目的厂房顶上，吊车没挤进去，飞上去的是工业级重载多旋翼无人机。十月五日现场通报：本次完成厂区管道安装约七百米，管径覆盖一米、两米、二点六米三种规格；装完要统一做密闭性试验。\n\n南充日报写到：工况挤、精密设备怕碰，传统大型机械难适配。项目部选的重载机最大起飞重量八百千克，机身自重约两百千克，额定有效载重四百千克，另留两百千克安全冗余；能定点悬停、对位吊装。中国五冶项目经理蔡吉巧说，这既避开大机械的安全风险和场地占用，又把工序衔接周期压短。\n\n开工前全员过专项安全交底：航线预设、分区围挡、人车分流、应急手势和通讯信号都写进方案。假期收官后，项目转入机电安装攻坚。\n\n所以呢：厂房屋顶装管子，从前靠吊车抢位；现在「空中大力士」一点一点吊——地方不够，就换天空当通道。",
+    "links": [
+      "http://www.ncjjwang.cn/show-17-8839-1.html",
+      "https://www.youuav.com/news/detail/202610/64129.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "korea-20-humanoid-sandbox",
+    "category": "跨行业",
+    "title": "韩国产业部开沙盒：二十台双足人形进半导体、汽车、造船与冷链物流现场",
+    "body": "十月十三日，首尔大韩商工会议所。产业通商部开第六次产业融合规制特例审议委员会，给Loboros等五家公司的「半导汽车造船物流人形投入」发了实证特例。计划向Nepes（半导体）、成宇海铁（汽车）、HD现代三湖（造船）、Delivery Lab（物流）等现场投入二十台搭载AI的双足人形。\n\n活不算演示走路。半导体后道要清圆形CRS部件上的污染物；汽车厂要落位车身零件；造船厂要码放工人登高用的「脚手架连接件」；物流现场则码放冷蔵包装体。机器人得在与工人相同或相邻的空间里移动、认物、抓取、搬运、码放。\n\n卡点在旧规矩：产业安全保健基准规则默认工业机器人是固定式，必须装安全围栏，移动人形原本进不了产线。政府在雇劳部风险评估和安全措施前提下放开这次实证。部长金正官说，制度跟不上技术，就会在AI竞争里掉队。\n\n所以呢：韩国不是先让人形在展厅鞠躬，是先改围栏规则——二十台机器要去真车间干活。",
+    "links": [
+      "https://www.yna.co.kr/view/AKR20261013140800003"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "cheonan-quad-patrol-sandbox",
+    "category": "跨行业",
+    "title": "忠清南道天安：四足巡逻机器人首次获准走人行道，河川步道与公园开实证",
+    "body": "同一场十月十三日的规制特例会上，委员会还批了另一件小事：自主四足机器人第一次被允许在步行者道路上巡逻。现行室外移动机器人人行道行驶的安全认证标准按轮式写的，四条腿一直被卡住。\n\n特例批给Mind AI：将在忠清南道天安市一带的河川步道与公园跑四足巡逻机器人。机器用AI实时看周围，察觉危险就播警告，并把现场影像和位置推到管控系统。产业部现场还展示了四足巡逻演示，部长金正官在旁观看。\n\n这跟工厂围栏里的工业臂不是一类故事。河边散步的人会遇见一只「机器狗」巡逻员，认证标准的缝一开，轮子走不通的台阶和土路，四条腿可以补上。是否叫得住人、误报会不会烦人，要靠实证数据说话。\n\n所以呢：人行道从前只认轮子；天安河边要试验——巡逻也可以用腿走。",
+    "links": [
+      "https://www.yna.co.kr/view/AKR20261013140800003"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "tianshui-huaniu-apple-robot",
+    "category": "跨行业",
+    "title": "甘肃天水花牛镇：双臂采摘机器人八小时约摘五千个苹果，运果车一趟四五百斤",
+    "body": "秋日南山，枝头挂满红彤彤的花牛苹果。麦积区花牛镇二十里铺村万亩基地里，果农孙惠兰看着作业机器人连连称赞：「自己摘、自己放，智能又方便。」往年全靠人力采收的果园，今年迎来双臂采摘机器人、果园自动运输机器人和割草机器人。\n\n天水融媒十月一日报道：采摘机搭高精度深度视觉认熟果，柔性末端求不划皮、不撕果柄；充两小时、连续干八小时，大约能摘五千多个，苹果、梨、桃都能干。运输机器人按预设路线自己开，单次运载约四百到六百斤，RTK导航，陡坡泥地求稳，遇障紧急制动。\n\n天水是花牛苹果主产区，山地果园采收搬运最吃人力。智能农机下田，机器人和果农并肩，把「用工难」从话里挪到设备清单上。是否全面铺开，还要看地形适配和果品分级后的人工环节。\n\n所以呢：山上摘苹果最缺的是腰；八小时五千个，是机器先把最重复的那一段扛走。",
+    "links": [
+      "https://finance.sina.com.cn/wm/2026-10-01/doc-initspnm5344589.shtml"
+    ],
+    "prompt": "",
+    "date": "2026-10-01",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "dali-winter-jujube-gen3",
+    "category": "跨行业",
+    "title": "陕西大荔绿丰源大棚：第三代双臂冬枣机器人试工，实验室约三秒一颗、成功率近八成五",
+    "body": "大荔县两宜镇绿丰源种植农场的大棚里，手机一点，两台机械臂拨开枝叶，锁定成熟冬枣，摘果、分级、入筐一气呵成。十月十二日农民日报写到：第三代智能化冬枣采摘机器人正在田间「上岗试工」。\n\n大荔自称「中国冬枣第一县」，种植约四十二万亩、年产超七十万吨。全国人大代表、畅家村党总支书记马红丽种了二十六年枣，高温棚里抢采落下肩腿毛病；去年两会建议推AI采摘。深圳蓝侠与哈工大（深圳）团队勘园后立项，二〇二五年专用机落地，今年试的是第三代。\n\n相对去年单臂，第三代换双臂，效率号称翻倍；全舵轮底盘能原地转、横走、斜移，换履带还能上泥坡。末端抓手可换吸附、剪切、包裹，团队说未来能适配市面八成以上水果。哈工大（深圳）副教授王勃然：初代一颗约十五秒，第三代实验室约三秒，熟果抓取成功率近百分之八十五，损伤率控制在百分之八以内。\n\n所以呢：枣农的肩膀催出了机器手——大棚里抢季节，三秒一颗才开始像人话。",
+    "links": [
+      "https://www.163.com/dy/article/L926B9BR0514CQIE.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
+    "id": "shaomaigou-baoshan-25x",
+    "category": "跨行业",
+    "title": "上海宝山滨江「烧卖购」：国庆机器人店长扛住人潮，单店交易额周环比冲到约二十五倍",
+    "body": "夜幕下的宝山滨江大道，吴淞口空中剧场准备放无人机烟花秀。不远处十几平方米小店灯火通明，机器人「小麦」来回取货，窗口前年轻人扫码——没有店员，也没有收银台。这家「烧卖购」是商汤善惠的具身智能便利店。\n\n上观新闻十月五日独家：国庆期间上海门店整体交易额较平日接近翻倍，增幅最大的宝山滨江店周环比冲到二十五倍以上；徐汇滨江、宝山日月光等商圈也明显冲高。高峰时最快约十五秒出一单；客少时它整理货架、盘点、看哪些好卖。全国已落二十余家，单店平均人力约零点二到零点三——一人可撑三到五家，传统便利店常要两人轮班。\n\n联合创始人伊帅说，滨江景区主打冰淇淋、饮料和儿童文创；写字楼店偏咖啡和低糖功能饮。抓玻璃瓶遇冷风机结露打滑这类毛病，只有真实门店才暴露。维修网络仍是扩到「千城万店」前的坎。\n\n所以呢：烟花秀底下最忙的店员是机器人——人潮来了，它不会喊加班费，但会把十五秒一单跑成流水。",
+    "links": [
+      "https://news.qq.com/rain/a/20261005A055QP00",
+      "http://www.xuhui.gov.cn/xwzx_zwxx/20261008/576818.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-13T18:10:00+08:00"
+  },
+  {
     "id": "prompt-seedance-joker-vs-bean",
     "category": "提示词",
     "title": "小丑有万全计划，偏偏碰上憨豆：道具越蠢，反杀越狠",
