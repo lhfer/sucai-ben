@@ -1,6 +1,744 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-13T10:50:00+08:00",
+  "updated": "2026-10-13T15:10:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-joker-vs-bean",
+      "category": "提示词",
+      "title": "小丑有万全计划，偏偏碰上憨豆：道具越蠢，反杀越狠",
+      "body": "伦敦中午的窄巷里，紫西装绿头发的人刚摆出开场姿势，脚下一滑——对方随手放下的保龄球已经等在那儿了。\n\nTechieSA（@TechieBySA）这条「憨豆大战小丑」在 X 上爆到一万七千多赞、近六千收藏。他先用 GPT Image 2.5 出一张左右对打的角色设定图，再把整场二十秒闹剧写进 Seedance 2.5：每一段时间轴都钉死「谁掏出什么、砸中什么、下一秒表情怎么崩」。真正聪明的不是堆特效，而是把喜剧写成升级表——保龄球、平底锅、礼花炮、一桶水，最后才亮出「砰旗枪」对「真枪」的反转。小丑全程歇斯底里，憨豆全程冷静，像不知道自己在打架。\n\n所以呢：别写「很搞笑的打斗」，先列一张道具升级清单，再规定谁永远慌、谁永远不慌。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/TechieBySA/status/2109242589962445166"
+        },
+        {
+          "label": "角色设定提示词",
+          "url": "https://x.com/TechieBySA/status/2109242601962451321"
+        },
+        {
+          "label": "视频提示词",
+          "url": "https://x.com/TechieBySA/status/2109242608014762340"
+        }
+      ],
+      "prompt": "=== GPT Image 2.5 — Mr Bean & Joker sheet ===\nCreate a premium cinematic character bible sheet for MR BEAN & THE JOKER. Use uploaded character sheets as strict visual reference for both characters. Do not change either's appearance.\nLAYOUT: Split screen VS format. Two halves divided by a bold dramatic dividing element in the center.\nLEFT SIDE — MR BEAN: Bold dramatic bright red watercolor splash radiating behind him filling the entire left side. Large bold brushstroke text MR BEAN top left in bright red. Below small text: THE LEGEND / LONDON. One massive dramatic cropped hero image of Mr Bean from mid-thigh up — brown tweed jacket, bright red tie, large party cannon in one hand, small stuffed toy under the other arm, completely calm and unbothered expression.\nCENTER: Bold dramatic VS in deep purple. Below it small text: LONDON STREET / MIDDAY / NO RULES.\nRIGHT SIDE — THE JOKER: Bold dramatic deep purple watercolor splash radiating behind him filling the entire right side. Large bold brushstroke text THE JOKER top right in deep purple. Below small text: WHY SO SERIOUS / THE CITY. One massive dramatic cropped hero image of the Joker from mid-thigh up — purple suit covered in confetti, wild green hair flat and wet, white face paint running down his cheeks, Bang Flag gun in one hand, completely unhinged devastated expression.\nBOTTOM CENTER: Bold text MR BEAN VS THE JOKER in deep purple. Tagline: ONE IS THE AGENT OF CHAOS. ONE HAS A PARTY CANNON.\nOVERALL: Clean white background, bold dramatic bright red watercolor explosion left side, bold dramatic deep purple watercolor explosion right side, dramatic purple center divider, bold flat color blocking, chunky simplified forms, hard edge shadows, thick black outlines, cinematic cel-shaded 3D anime, hand-painted textures, not cartoon not Disney not Pixar, print ready.\n\n=== Seedance 2.5 — video ===\nCinematic anime clip, 20 seconds. Narrow London street at midday — bright clear sunshine, warm golden daylight, brick walls, lamp posts, rubbish bins, parked cars.\nMAIN CHARACTER 1 — LEAN PALE MALE WITH WILD GREEN HAIR, WHITE CRACKED FACE PAINT, MASSIVE GRIN, PURPLE SUIT, GREEN TIE: Use uploaded character sheet. Completely unhinged, always performing, enormous reactions. Getting increasingly furious as each moment goes wrong.\nMAIN CHARACTER 2 — AWKWARD MALE IN BROWN TWEED JACKET WITH RED TIE: Use uploaded character sheet. Completely calm. Never scared. Never knows he's in a fight. Every item pulled out mid attack.\n0:00–0:02 — Main character 1 charging dramatically. Main character 2 setting a bowling ball down casually. Main character 1's foot hitting it mid charge — legs shooting everywhere, sliding into a parked car.\n0:02–0:05 — Main character 1 pulling out enormous mallet charging again. Main character 2 pulling out frying pan at exact moment. Mallet connecting with pan — massive CLANG — bouncing straight back into main character 1's own face. Face denting cartoon style. Slowly popping back. Eyes spinning.\n0:05–0:08 — Main character 1 composing himself, launching into most dramatic evil laugh — head back arms wide. Main character 2 pulling out large party cannon firing it directly into main character 1's face mid laugh. Massive confetti explosion burying him completely. Stumbling around unable to see. Main character 2 putting cannon back unbothered.\n0:08–0:12 — Main character 1 emerging from confetti furiously. Charging again pointing dramatically. Main character 2 pulling out bucket looking into it curiously, accidentally tipping entire bucket of water onto main character 1 mid charge. Soaking wet instantly — green hair flat, white face paint running down cheeks, purple suit drenched, confetti soaked and stuck everywhere. Standing completely still dripping.\n0:12–0:14 — Main character 1 reaching into soaking jacket pulling out gun. Pointing at main character 2. Main character 2 hands up slightly. Mildly concerned.\n0:14–0:16 — Main character 1 pulling trigger — BANG flag shooting out once. Laughing maniacally. Main character 2 looking at flag. Reaching into jacket pulling out his own gun. Main character 1 stopping instantly. Pointing. Yelling IT'S FAKE in unhinged psycho voice.\n0:16–0:17 — Main character 2 pulling trigger. Real shot firing. Cut to black on main character 1's face.\n0:17–0:18 — Wide from above. Main character 1 flat on pavement. Soaking wet. Confetti everywhere. BANG flag beside him.\n0:18–0:19 — Main character 2 placing small stuffed toy on main character 1's chest.\n0:19–0:20 — Wide from above. Main character 2 walking away adjusting tie. Main character 1 flat on pavement stuffed toy on chest. Done.\nCel-shaded 3D anime, Unreal Engine quality, narrow London street midday bright clear sunshine throughout, bold flat color blocking, hard edge shadows, thick black outlines, vibrant saturated colors, film grain, intense orchestral score switching between chaotic villain energy and comedy every impact hard every item silly sound effect building to Bang Flag Gun finale, camera switching constantly never same angle twice — wide from above, medium side shots, close ups on faces and items, low angles — main character 1 always uploaded sheet wild green hair white cracked face paint purple suit unhinged enormous reactions, main character 2 always uploaded sheet completely calm never scared every item pulled out mid attack, comedy escalating relentlessly from frame one to last frame.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-mayz-time-freeze-v",
+      "category": "提示词",
+      "title": "涩谷雨天绊倒那一瞬：全世界定住，镜头还能绕着她飞",
+      "body": "短发橙雨衣女孩在涩谷人行道上狂奔，透明伞一歪——靴尖绊到被积水盖住的路缘，身体往前栽。就在手快要拍到地砖的那一帧，雨滴、水花、伞骨、过路人，全部冻结。\n\nKiki（@Mayz1169）把这套叫 Time Freeze V：先用 GPT Image 2 出「Rainy Day」角色设定图，再丢进 Seedance 2.5 做约二十秒、一镜到底的动画。帖子一千多收藏、一百七十赞。巧思有三层：一是规定「只有摄影机能动」，雨滴必须钉在三维空间里，不许当贴纸飘；二是开场强制早期掌中宝手持感，像朋友举着数码摄像跟跑；三是时间恢复后伞落地、台词接上，物理因果不断档。和「打响指定格」不同，这里的定格发生在绊倒的半空。\n\n所以呢：想拍时间停止，先写清楚「谁还能动」——答案通常只能是镜头。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Mayz1169/status/2109531680235278826"
+        },
+        {
+          "label": "完整提示词页",
+          "url": "https://mayz.love/gallery?item=72"
+        }
+      ],
+      "prompt": "=== GPT Image 2 — Rainy Day character sheet ===\nCreate a professional 16:9 anime character design sheet titled “Rainy Day”, subtitle “Character Design”, featuring an adorable orange-themed rainy-day girl. Clean white background, minimalist Japanese character concept art layout, soft orange and cream accents, delicate watercolor textures and playful botanical decorations.\n\nA cheerful young girl with a petite figure, fair skin, large sparkling amber-orange eyes, rosy cheeks and short fluffy golden-orange bob hair with soft bangs. She wears an oversized bright orange hooded raincoat with rounded bear ears on the hood, a tiny green sprout ornament on top, subtle white floral patterns, wide sleeves, cream-colored cuffs, front buttons and a large decorative bow at the collar. A short layered cream-white ruffled skirt peeks out beneath the raincoat. She carries a small round orange crossbody bag decorated with a white flower, green leaves and a tiny dangling bear charm. White knee socks with thin green and orange stripes, glossy orange rain boots with white flower decorations and chunky brown soles. Cute bear, flower, clover and sprout motifs throughout the design.\n\nLAYOUT: One large dynamic full-body hero illustration on the left, showing her happily jumping into a puddle with arms spread, one leg raised, sparkling water splashes and floating raindrops. On the upper right, four consistent full-body turnaround views showing FRONT, LEFT SIDE, BACK and RIGHT SIDE, with identical hairstyle, hood, outfit, proportions and accessories. Below, eight neatly arranged detail panels showing bear-ear hood, collar and bow, floral crossbody bag, back bow, sleeve construction, rain boots, layered skirt and a transparent orange-patterned umbrella. The umbrella appears ONLY in the detail panel, never held by the character. Include a small color palette and botanical motif icons along the bottom.\n\nColor palette: bright tangerine orange, warm golden yellow, cream white, fresh leaf green and soft brown. Style: premium Japanese anime character concept art, adorable storybook illustration, soft watercolor shading, delicate clean linework, warm pastel lighting, expressive character design, charming children's fantasy aesthetic, polished professional character sheet, ultra detailed, 8K. Maintain perfect character consistency across all views. No extra characters, no outfit changes, no inconsistent accessories, no malformed anatomy, no watermark.\n\n=== Seedance 2.5 — Time Freeze V video ===\nCreate an approximately 20-second horizontal 16:9 anime video as ONE CONTINUOUS UNBROKEN SHOT. No cuts, transitions, hidden edits, or montage.\n\nCHARACTER LOCK — RAINY DAY GIRL\nUse the supplied RAINY DAY character sheet as the sole visual authority for the heroine. All turnaround views depict ONE character. Do not reproduce the reference sheet’s layout, labels, borders, or typography.\n\nPreserve her exact youthful facial identity, childlike proportions, short golden-orange bob, soft bangs, large amber eyes, and cheerful expression style.\n\nShe wears the exact glossy orange raincoat with its hood up. Preserve the rounded bear-ear decorations, small green leaf ornament on top, patterned hood lining, pale trim, front fasteners, decorative bow, pockets, and large rear bow.\n\nKeep the white ruffled hem visible beneath the raincoat, white socks with green-and-yellow stripes, and orange rain boots with floral details and brown soles.\n\nPreserve the small round orange crossbody bag with its flower and green leaf decorations, brown strap, and attached bear-shaped charm. Maintain the strap’s reference placement across her torso.\n\nThe bear ears are part of the hood, not biological ears. Keep the hood securely on throughout. Do not lengthen her hair, change her age or proportions, or redesign her outfit.\n\nPROP — TRANSPARENT UMBRELLA\nUse the transparent umbrella shown in the reference prop panel: clear canopy, orange ribs and edging, small orange decorative motifs, and the reference handle design.\n\nAt the beginning, she holds the OPEN umbrella in her right hand. It remains open throughout the sequence.\n\nThe umbrella is a separate object, not attached to her wrist. Preserve its size and construction.\n\nHer crossbody bag stays closed and secured against her hip. Its bear charm remains attached. No objects spill from the bag.\n\nVISUAL STYLE\nPolished Japanese anime with clean expressive linework, soft cel shading, detailed rain effects, and the warm illustrated aesthetic of the reference.\n\nHer saturated orange raincoat and boots form the central color accent against a cool blue-gray rainy city. Preserve white, yellow, green, and brown costume details.\n\nNo photorealism, live-action rendering, or 3D game-character appearance.\n\nLOCATION\nA busy Shibuya sidewalk during a gentle late-afternoon rain shower.\n\nPedestrians carry umbrellas. Storefronts, bicycles, traffic lights, and slow-moving taxis fill the background. Wet paving reflects the city, and shallow puddles collect beside the curb.\n\nUse soft overcast daylight with warm storefront reflections. Rain is clearly visible without obscuring her face.\n\nOPENING CAMERA — Y2K ANIME HANDYCAM\nThe footage feels like an early-2000s MiniDV camcorder carried by a friend running beside her.\n\nUse irregular handheld shake, imperfect framing, slight exposure shifts, subtle highlight bloom, and gentle tape-era softness. Keep her expression and costume readable.\n\n0–6 SECONDS — RUNNING THROUGH THE RAIN\nThe camera runs alongside the girl, keeping her mostly between waist-up and full-body framing.\n\nShe hurries down the sidewalk, holding her open transparent umbrella in her right hand. The canopy tilts slightly backward with her forward motion, leaving her face visible through its clear surface.\n\nHer rain boots splash through shallow puddles. Her bag and attached bear charm bounce lightly; her raincoat hem and rear bow respond to her steps.\n\nShe slips through an open gap between pedestrians and sidesteps a parked bicycle. Passing umbrellas briefly enter the edge of the frame without fully hiding her.\n\nShe glances toward her friend, smiling breathlessly, and calls:\n\n“Hurry! We’re gonna be late!”\n\nShe faces forward and quickens her steps.\n\n6–8 SECONDS — THE TRIP AND SPLASH\nThe camera moves slightly ahead into a front three-quarter angle.\n\nHer leading rain boot catches a low curb partly concealed by a shallow puddle.\n\nHer expression changes instantly to wide-eyed surprise. Her body pitches forward, and both hands reach out instinctively.\n\nThe umbrella handle slips from her right hand. The open umbrella moves a short distance forward and sideways, tilting away from her head.\n\nHer trailing boot kicks up a broad crescent of water. Smaller droplets scatter around her boots and outstretched hands.\n\nHer bag swings forward but remains securely attached across her body. The bear charm lifts on its short strap.\n\nAt the instant before her hands reach the paving:\n\nTIME STOPS COMPLETELY.\n\nShe hangs halfway through the fall, arms extended, one knee bent beneath her and the other leg trailing behind.\n\nThe open umbrella is suspended beside and slightly ahead of her. Its canopy, ribs, and handle are perfectly still.\n\nThe crescent-shaped splash, individual water beads, falling rain, coat folds, bow, bag, and dangling charm are locked in three-dimensional space.\n\nEvery pedestrian, umbrella, bicycle, and vehicle stops at the same instant.\n\nOnly the camera continues moving.\n\n8–17 SECONDS — FROZEN RAIN CAMERA FLIGHT\nThere is NO transition.\n\nThe same viewpoint continues from its existing position. Shaky handheld movement smoothly evolves into fast, precise FPV-style flight.\n\nFollow one continuous, readable route:\n\nRise just above the girl to reveal the frozen street: pedestrians suspended mid-step beneath motionless umbrellas, stationary traffic, and thousands of raindrops held in the air.\n\nCurve back down toward her face. Pass close to her startled amber eyes, short orange bangs, rounded bear-ear hood, and small green leaf ornament.\n\nSweep around the outside of her shoulder, showing the raincoat’s glossy folds and rear bow. Surface reflections change naturally with the camera angle, but the fabric and lighting remain fixed.\n\nDescend alongside her outstretched hand toward the suspended water splash near her boots.\n\nPass through a clearly open gap between the curved splash and several large separated droplets. Do not intersect solid objects or pass through an unbroken sheet of water.\n\nLet the nearby droplets create strong foreground parallax and tiny refracted glimpses of orange fabric and the city.\n\nCurve upward past the round crossbody bag and its suspended bear charm. The charm remains attached and completely still.\n\nContinue toward the floating umbrella. View her briefly through the clear canopy, then move around its orange rim into the open space beneath it.\n\nSkim past the stationary orange ribs and handle without crossing through the canopy material.\n\nExit around the open edge and reveal the girl again, surrounded by frozen rain and the suspended splash.\n\nMaintain a coherent route. Avoid repetitive orbits or stopping to inspect individual details. Keep the camera focused on her face, rain gear, umbrella, and water effects; never look beneath her clothing.\n\n17–20 SECONDS — RETURN AND TIME RESUMES\nMake a final sweeping arc around the frozen arrangement, then descend to approximately the same street-level side angle used before the freeze.\n\nAs soon as the camera reaches that position:\n\nTIME RESUMES.\n\nNo flash, magical pulse, transition, or cut.\n\nEvery person, raindrop, and object continues from its exact suspended position.\n\nShe catches herself with one palm on the wet paving and lands awkwardly on one knee without injury.\n\nThe suspended splash falls around her boots. Rain immediately resumes falling.\n\nThe open umbrella lands on its canopy rim beside her and rocks once, leaving its handle within reach. It remains intact.\n\nHer bag, charm, raincoat, and rear bow settle naturally. Pedestrians continue walking.\n\nThe camera simultaneously returns to imperfect human handheld shake as her friend lowers it toward her.\n\nStill crouching, she looks up at the lens, cheeks flushed. She puts on a small, playfully stern expression and says:\n\n“You saw nothing!”\n\nShe reaches for the umbrella handle.\n\nEnd immediately with the camera still shaking and rain pattering around her.\n\nCAMERA CONTINUITY\nOne viewpoint, one uninterrupted spatial path, one continuous shot.\n\nNo teleportation, camera replacement, hidden wipes, scene resets, or full-frame obstructions concealing cuts.\n\nFree camera flight begins only after time stops. Return physically to the original street-level filming area before handheld motion resumes.\n\nFROZEN-TIME PHYSICS\nDuring frozen time, absolutely nothing except the camera moves.\n\nNo blinking, breathing, fabric motion, swinging charm, umbrella rotation, falling raindrops, flowing water, expanding puddle ripples, pedestrians, or traffic.\n\nFreeze every rain droplet and splash fragment in world space. Do not continue animated rain as a foreground overlay.\n\nPreserve true three-dimensional depth and parallax. This must not look like a flat freeze-frame image being zoomed or warped.\n\nCHARACTER AND PROP CONTINUITY\nMaintain the exact face, short orange hair, bear-ear hood, green leaf ornament, orange raincoat, white ruffled hem, striped socks, orange boots, round bag, and bear charm.\n\nThe crossbody bag stays closed and attached. The umbrella begins in her hand, visibly slips free during the trip, remains suspended during the freeze, and lands beside her when time resumes.\n\nNo duplicated umbrellas, new props, costume changes, or magical transformation. The time stop is an unexplained cinematic event.\n\nAUDIO\nOpening: rain on the clear canopy, quick splashing footsteps, street ambience, and breathless dialogue.\n\nFrozen time: rain and city sound abruptly drop away; restrained camera-flight sound emphasizes the moving viewpoint.\n\nTime resumes: rain, splashes, street ambience, and the umbrella’s light impact return instantly, followed by her final line.\n\nNo background music, subtitles, promotional overlays, reference-sheet text, logos, or watermarks.",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-kling-dual-whale-views",
+      "category": "提示词",
+      "title": "同一只座头鲸跃起两次：船头看一遍，无人机再重放一遍",
+      "body": "金色海面上，座头鲸猛地窜出水面，砸出巨大水花。七秒半硬切——时间倒回起点，改从无人机正上方，看同一只鲸、同一艘小船、同一片涟漪，把刚才那一瞬再演一遍。\n\nUmesh（@umesh_ai）用 Kling 4.0 Flash 做了这个十五秒实验，问的是：AI 能不能在换机位后，仍守住同一时刻的空间和时间。帖子一百多赞、五十多个收藏。提示词把两段视角写死在时间码上，并反复强调「第二段是同步重放，不是剧情续集」。很多人追问多机位会不会漂背景、溅水时机对不上——他证明 Flash 也能拿来做一致性压力测试，不必等最贵的模型。\n\n所以呢：想考视频模型的空间脑，别只换景别，要强制「同一事件、两个机位、时间对齐」。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/umesh_ai/status/2109174564307771477"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/umesh_ai/status/2109174567352824224"
+        }
+      ],
+      "prompt": "Prompt : Create a 15-second ultra-realistic cinematic video showing a spectacular humpback whale breaching beside a small boat in the ocean.0:00–0:07.5 | Perspective 1: Boat-Level ViewA cinematic eye-level shot from a small boat floating on turquoise ocean water at golden hour. Suddenly, a gigantic humpback whale bursts vertically out of the water just meters away. Its enormous body rises into the air, twists gracefully, and crashes back into the ocean, creating a massive, dramatic splash. The entire event, from the calm water to the final splash, finishes within 7.5 seconds. Camera stays in one position with subtle realistic boat movement.0:07.5–0:15 | Perspective 2: Aerial Drone ViewAt exactly 7.5 seconds, hard cut to a breathtaking overhead drone perspective. Time resets to the exact beginning of the previous event. Show the SAME whale performing the EXACT SAME breach beside the EXACT SAME boat, with perfectly matching timing, movement, sunlight, and water splash. From above, the viewer can see the whale's enormous scale, the tiny boat, the circular ripples, and the spectacular splash pattern. The complete event finishes again at exactly 15 seconds. Style: Photorealistic, cinematic natural lighting, 4K detail, realistic water physics, immersive ocean sound, dramatic scale, 16:9 aspect ratio. One continuous shot per perspective. No slow motion, no narration, no text, no extra cuts. The second half must be a synchronized replay of the first half, not a continuation of the action.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-kling-garage-mustang-swipe",
+      "category": "提示词",
+      "title": "白车库里左滑选车：墙板一折，保时捷变沙漠里的野马",
+      "body": "第一人称盯着纯白展厅。黑手套右手一划，绿色宽体保时捷滑出画外；橙红奔驰冲进来又被左手刷走；红色六九年野马卡进同一机位，食指一点——地板掀开露出金沙，墙体像折纸一样打开，天花板撤走，蓝天压下来。\n\nDr Bloodline（@AiwithBloodline）把整段写成十秒竖屏，跑在 Kling 4.0 Flash 上。提示词按秒切开：选车、空间变形、特写点火、冲向镜头再甩尾跟拍。关键约束是「车的身份不许变形、不许瞬移」，车库变沙漠要用机械折叠声，而不是糊成一团转场。成片像手游车库选关，又像正儿八经的汽车广告。你只要改车型和沙漠或城市，就能变成自己的产品片。\n\n所以呢：汽车广告别从公路开拍，先写「手指怎么选中这辆车」，世界再跟着手指拆掉重建。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AiwithBloodline/status/2109550137601331267"
+        }
+      ],
+      "prompt": "Create a continuous 10-second vertical 9:16 ultra-photorealistic CGI automotive commercial. 0–3s: Static first-person POV inside a pure white minimalist garage. Two male hands in black gloves appear. A metallic green widebody Porsche 911 stands at a front 3/4 angle. The right hand swipes left, sending the Porsche sliding off-screen. A bright orange Mercedes-AMG GT with black aerodynamic details rapidly enters from the right, overshoots, bounces back and stops. The left hand swipes left, removing the Mercedes. A glossy red 1969 Ford Mustang Fastback with black hood stripes, black sports wheels, wide tires and aggressive lowered suspension slides in from the right and locks into the same position. The right index finger points at the Mustang to select it. 3–5s: The camera pushes closer as the white garage physically transforms: floor panels fold outward, revealing golden sand; massive walls unfold like origami, exposing endless desert dunes; ceiling panels retract, revealing a clear blue sky. Bright sunlight illuminates the stationary Mustang. Camera performs a fast cinematic 180° orbit. 5–7s: Extreme close-up of the Mustang's front grille. Headlights illuminate, the powerful V8 engine starts with a deep roar, and the body vibrates. Camera rapidly tracks along the hood toward the exhaust and rear wheel. The rear tire spins violently, throwing sand backward. Suspension compresses as engine RPM rises. 7–10s: The Mustang launches explosively straight toward the camera, spraying sand behind it. Low frontal camera retreats rapidly, then dodges sideways as the car blasts past. Camera whips around into a fast 180° tracking orbit, revealing the side profile, rear lights and massive dust trail. Finally, the camera overtakes the speeding Mustang and captures a dramatic low front 3/4 hero shot against golden dunes and blue sky. Powerful V8 roar, hard brake, instant cut. Realistic physics, aggressive speed ramps, seamless transitions, cinematic motion blur, mechanical folding sounds, swipe whooshes, tire screeches and authentic engine audio. Preserve exact car identities, classic 1969 Mustang proportions, consistent colors and spatial continuity. No morphing, teleportation, extra objects or text.",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-bb-rv-chase",
+      "category": "提示词",
+      "title": "沙漠房车追击：只许从后面拍，冷静的人负责扔东西",
+      "body": "新墨西哥平坦荒漠里，奶油色房车狂飙，三辆黑越野永远贴在后面。黄帽青年探出侧窗对后扫射，绿衫中年人戴着防毒面具，表情像在算账。\n\nTechieSA（@TechieBySA）同一套「设定图加逐秒剧本」又打出绝命毒师追击篇：四百多赞、一百六十收藏。最狠的规矩写在提示词末尾——所有外景只许从后面或侧面拍，越野车永远不许出现在挡风玻璃前方；两人除交方向盘那一秒，禁止同框。炸药、晶石、毒气罐按时间码扔，扔完人就转过身，不看爆炸。喜剧版小丑对憨豆是道具升级，这一版是冷静与慌张的双人舞加机位锁。\n\n所以呢：追击戏先锁「镜头永远站在哪一侧」，再写谁负责尖叫、谁负责扔出下一件东西。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/TechieBySA/status/2109304167697178881"
+        },
+        {
+          "label": "角色设定提示词",
+          "url": "https://x.com/TechieBySA/status/2109304188983300280"
+        },
+        {
+          "label": "视频提示词",
+          "url": "https://x.com/TechieBySA/status/2109304195614433368"
+        }
+      ],
+      "prompt": "=== GPT Image 2.5 — Walter & Jesse sheet ===\nCreate a premium cinematic character bible sheet for WALTER WHITE & JESSE PINKMAN. Use uploaded character sheets as strict visual reference for both characters. Do not change either's appearance.\nLAYOUT: Split screen VS format. Two halves divided by a bold dramatic dividing element in the center.\nLEFT SIDE — WALTER WHITE: Bold dramatic deep green watercolor splash radiating behind him filling the entire left side. Large bold brushstroke text WALTER WHITE top left in deep green. Below small text: THE ONE WHO KNOCKS / NEW MEXICO. One massive dramatic cropped hero image of Walter White from mid-thigh up — green shirt, underwear, gas mask pushed up on his forehead, glasses, one hand holding a pipe bomb, completely calm and calculated expression.\nCENTER: Bold dramatic VS in deep black. Below it small text: NEW MEXICO DESERT / FULL SPEED / NO MERCY.\nRIGHT SIDE — JESSE PINKMAN: Bold dramatic bright yellow watercolor splash radiating behind him filling the entire right side. Large bold brushstroke text JESSE PINKMAN top right in bright yellow. Below small text: YO MR WHITE / THE DESERT. One massive dramatic cropped hero image of Jesse Pinkman from mid-thigh up — bright yellow hoodie, black dragon t-shirt, baggy jeans, pistol in hand, completely panicking expression.\nBOTTOM CENTER: Bold text BREAKING BAD in deep green. Tagline: ONE STAYS CALM. ONE DOES NOT.\nOVERALL: Clean white background, bold dramatic deep green watercolor explosion left side, bold dramatic bright yellow watercolor explosion right side, dramatic black center divider, bold flat color blocking, chunky simplified forms, hard edge shadows, thick black outlines, cinematic cel-shaded 3D anime, hand-painted textures, not cartoon not Disney not Pixar, print ready.\n\n=== Seedance 2.5 — video ===\nCinematic anime clip, 20 seconds. New Mexico desert — flat open land, red rock formations, dust, heat haze, clear blue sky. Battered cream RV driving at full speed. Three black SUVs always directly behind — never in front, never through windshield. Every exterior shot from behind or side only.\nMAIN CHARACTER 1 — MIDDLE AGED MALE, GREEN SHIRT, UNDERWEAR, GLASSES, GAS MASK:\nMAIN CHARACTER 2 — YOUNG MALE, YELLOW HOODIE, BLACK DRAGON T-SHIRT, BAGGY JEANS: Leans out small side window firing backward. Never in same frame as main character 1 except wheel handover.\nCARTEL: Mexican men, dark clothing, bandanas. Always in black SUVs directly behind firing forward. Three total — two then one then none.\n0:00–0:02 — Interior front. Main character 1 at wheel gas mask on completely calm. Exterior side shot — main character 2 hanging out small side window yellow hoodie visible firing backward screaming. Three SUVs far behind chasing dust clouds everywhere.\n0:02–0:04 — Exterior from directly behind RV. Three SUVs tight formation cartel leaning out firing forward bullets sparking off RV. Main character 2 pistol clicking empty pulling himself back inside.\n0:04–0:06 — Interior both in frame for handover only. Main character 2 screaming MR WHITE WE'RE OUT OF BULLETS. Main character 1 calmly — TAKE THE WHEEL. Both hands on wheel one second. Main character 1 letting go moving to back.\n0:06–0:08 — Interior back section only. Main character 1 pulling out small crystal with two fingers holding it to the light examining it. Opening back window watching lead SUV timing it precisely flicking crystal out with sharp snap of wrist. Turning away before it lands.\n0:08–0:09 — Exterior from directly behind RV. Lead SUV driving over crystal — massive explosion launching it into the air flipping crashing. Two SUVs remaining swerving around wreckage.\n0:09–0:11 — Interior back section only. Main character 1 pushing roof hatch open climbing through deliberately — torso rising legs following. Exterior side shot — main character 1 fully on roof crouching low against wind green shirt whipping. Two SUVs behind. Pulling out canister watching second SUV open sunroof timing perfectly releasing with precise underarm throw.\n0:11–0:12 — Exterior from directly behind RV. Canister dropping through open sunroof. Yellow chemical cloud erupting inside. Second SUV coasting dead. One SUV remaining closing fast.\n0:12–0:14 — Exterior side shot. Main character 1 dropping back through roof hatch feet first pulling it closed. Interior back section — landing inside moving to back window immediately. Final SUV right on their tail. Pulling out pipe bomb lighting it calmly counting silently clean overarm throw out back window. Turning away before it lands.\n0:14–0:15 — Exterior from directly behind RV. Pipe bomb landing on final SUV hood. Massive explosion — launching it off the desert floor flipping crashing. Nothing behind the RV now.\n0:15–0:18 — Exterior from directly behind RV. Desert completely empty behind. Three destroyed SUVs far in the distance. RV driving forward alone. Dust settling.\n0:18–0:20 — Interior back section. Main character 1 sitting down calmly putting gas mask back on slowly. Completely still. Done.\nCel-shaded 3D anime, Unreal Engine quality, New Mexico desert flat open land red rock formations dust heat haze clear blue sky throughout, battered cream RV always moving at full speed, bold flat color blocking, hard edge shadows, thick black outlines, vibrant saturated colors, film grain, intense orchestral score never dropping engine roaring gunshots cracking explosions building relentlessly, CRITICAL — every exterior shot from behind or side only SUVs always directly behind RV never in front never through windshield, main character 1 and 2 never in same frame except wheel handover, main character 1 always calm methodical precise, main character 2 always panicking screaming leaning out side window.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-rain-time-dance",
+      "category": "提示词",
+      "title": "雨夜里她一抬手：雨滴定住，踩点再变成反向瀑布",
+      "body": "空荡十字路口，紫青霓虹映在湿沥青上。女舞者站在暴雨里，抬手——所有可见雨滴悬在半空。肩臂一划，水珠围成光晕；转身，光晕拧成螺旋；一跺脚，圆形水波铺开；随后雨滴全部往天上飞，她站在反向瀑布下收势。\n\nBMX（@bmx_ai13）把「雨停之时」写成六段舞台说明书交给 Seedance 2.5：每段都有初始状态、主事件、结束状态、切不切镜。音频也写进提示词——节拍、雨声、结晶定格声、跺脚低冲击。它和商场打响指定格不同：定格不是噱头，是编舞的一部分，动作在指挥天气。换歌时只要改节拍和跺脚落点，结构还能复用。\n\n普通人做短视频，也可以把六段缩成四段，先保证「定住—旋转—反向上飞」三步清楚。\n\n所以呢：特效别单独立项，把它拆成「这一拍身体做什么、水必须变成什么」。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/bmx_ai13/status/2109394560418029875"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/bmx_ai13/status/2109394616705531933"
+        }
+      ],
+      "prompt": "Prompt: \n[GOAL]\nCreate an original 30-second cinematic music video featuring a solo female performer who discovers that her dance movements can control time and rainfall.\n\n[CONTINUITY]\nSubject: One original female performer, 24, long black hair, fitted black outfit with a silver asymmetric jacket and black boots.\nScene: Empty rain-soaked city intersection at night, surrounded by violet and cyan neon reflections.\nProps: No handheld props.\n\n[STAGE 1 | 0-5s | FREEZE]\nInitial state: The performer stands motionless in heavy rainfall.\nPrimary event: She raises one hand sharply on the opening musical beat.\nEnd state: Every visible raindrop becomes suspended in mid-air.\nCut type: NO CUT.\n\n[STAGE 2 | 5-10s | FIRST MOVEMENT]\nInitial state: Frozen raindrops surround the performer.\nPrimary event: She performs a graceful shoulder-and-arm movement.\nEnd state: Nearby droplets form a circular halo around her body.\nCut type: CUT.\n\n[STAGE 3 | 10-15s | THE RHYTHM]\nInitial state: The droplet halo rotates slowly.\nPrimary event: She performs one clean, controlled dance turn.\nEnd state: The droplets form a luminous spiral above her.\nCut type: NO CUT.\n\n[STAGE 4 | 15-20s | THE DROP]\nInitial state: The performer stands beneath the suspended spiral.\nPrimary event: She stamps one foot on the strongest musical beat.\nEnd state: A circular wave travels outward across the wet street.\nCut type: HARD CUT.\n\n[STAGE 5 | 20-25s | ZERO GRAVITY]\nInitial state: The wave spreads around the performer.\nPrimary event: All suspended raindrops begin moving upward.\nEnd state: The performer stands beneath a reverse waterfall of rain.\nCut type: NO CUT.\n\n[STAGE 6 | 25-30s | FINAL POSE]\nInitial state: The upward rain surrounds the performer.\nPrimary event: She completes the choreography with a controlled final pose.\nEnd state: An overhead camera reveals thousands of droplets forming a luminous circular pattern around her.\nCut type: NO CUT.\n\n[VISUAL STYLE]\nPremium cinematic solo K-pop-inspired music video, original styling and choreography, sophisticated silver and violet palette, anamorphic highlights, realistic water simulations, glossy reflections, dramatic controlled lighting.\n\n[CAMERA AND PERFORMANCE]\nCamera choreography must synchronize naturally with the music. Begin with an elegant push-in, introduce subtle orbiting movement, transition into wider performance framing and finish with a smooth overhead crane shot. Keep hand gestures anatomically accurate.\n\n[AUDIO]\n(Original English-language K pop inspired instrumental, 112 BPM, dreamy synth introduction, punchy bass, crisp electronic percussion, rising atmospheric bridge and powerful instrumental drop)\n<Heavy rainfall>\n<Subtle crystalline sounds as droplets freeze>\n<Low cinematic impact synchronized with the foot stamp>\nNo dialogue. No vocals. No subtitles.\n\n[EXCLUSIONS]\nNo backup dancers, additional performers, changing outfits, extra limbs, choreography glitches, inconsistent hair length, imitation of existing idols, text, logos or watermarks.\n\n[MAINTAIN CONSISTENCY]\nExactly one performer, one outfit, one intersection. Maintain stable body proportions and synchronize all water transformations with the performance.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-kling-puppy-table-reveal",
+      "category": "提示词",
+      "title": "咖啡杯自己滑向桌边：切到天花板一看，是小狗拽桌布",
+      "body": "早餐桌上，陶瓷杯和吐司盘忽然自己挪动，杯子最后翻倒，咖啡泼开。观众还在猜是不是鬼——七秒半硬切到天花板俯拍，时间倒回：金毛小狗正叼着桌布垂下的一角往后退。\n\nUmesh（@umesh_ai）把双机位同步重放从鲸跃改成家庭喜剧。第一视角故意藏狗，第二视角必须把同一条因果链对齐到相同时间戳。提示词连「第一段不许露狗」都写成硬规则。成片笑点不靠台词，靠机位骗人。你也可以换成猫咪扯线或小孩拽桌布，结构不变。\n\n关键是两段时间戳必须对齐，观众才会在第二镜喊出「原来如此」。\n\n所以呢：要拍灵异感变日常，先写「第一镜故意看不见什么」，第二镜再一次性交底。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/umesh_ai/status/2109197058959949928"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/umesh_ai/status/2109197062768308608"
+        }
+      ],
+      "prompt": "Prompt : Create a 15-second ultra-realistic cinematic video set inside a beautiful, ordinary family home on a peaceful Sunday morning. Use a two-perspective mystery-and-reveal storytelling technique. The first half must make viewers wonder, \"How is that happening?\" The second half must reveal the surprising, funny truth from above.\n\n0:00–0:07.5 | Perspective 1: Table-Level View (The Mystery)\nA fixed cinematic eye-level close-up of a wooden breakfast table inside a cozy, sunlit kitchen. A ceramic coffee mug and a small plate of toast sit on a linen table runner. Warm morning sunlight streams through the windows. Everything is completely still.\n\nSuddenly, the coffee mug begins moving very slowly across the table, seemingly by itself. The plate starts sliding too. There are no visible people, hands, or animals. The movement becomes increasingly strange as the mug inches toward the table's edge. At the last moment, the mug tips sideways, spilling coffee dramatically across the wooden surface. The camera captures the entire mysterious movement and spill within 7.5 seconds. The framing deliberately conceals whatever is causing the objects to move.\n\n0:07.5–0:15 | Perspective 2: Overhead Aerial View (The Reveal)\n\nAt exactly 7.5 seconds, HARD CUT to a breathtaking high-angle, bird's-eye perspective from near the kitchen ceiling, showing the entire breakfast table and surrounding floor. Time instantly resets to the exact beginning of the previous event.\nNow reveal the hilarious truth: A mischievous little golden retriever puppy is standing on the floor on the far side of the table, completely hidden from the original camera angle. The puppy has grabbed the loose, dangling end of the linen table runner in its mouth.\n\nAs the puppy playfully walks backward, tugging the fabric, the coffee mug and toast plate begin sliding across the table. The puppy pulls harder, making the mug reach the edge and tip sideways, spilling coffee in exactly the same pattern as the first perspective.\n\nFrom above, viewers can clearly see the innocent puppy, the moving table runner, the sliding objects, and the complete chain reaction. What initially appeared mysterious is revealed to be an adorable everyday household accident.\n\nThe entire sequence must replay with PERFECT temporal synchronization. The same initial stillness, first tug, sliding mug, moving plate, final tipping moment, and coffee spill must occur at identical relative timestamps in both perspectives. The second half ends at exactly 15 seconds.\n\nVisual Style: Ultra-photorealistic, cinematic natural morning sunlight, cozy realistic home interior, 4K detail, physically accurate object movement and liquid physics, natural puppy behavior, subtle household ambience, realistic ceramic clinking and coffee splashing, 16:9 widescreen.\n\nStrict Rules: Exactly two continuous shots, one per perspective. One hard cut at 7.5 seconds. No slow motion, narration, dialogue, captions, music, text, or additional cuts. Keep the puppy completely invisible during the first perspective. The first half must create genuine curiosity, while the second must deliver an instantly understandable, humorous reveal. The second perspective is an exact synchronized replay of the first event, never a continuation.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-dragon-burnt-meat",
+      "category": "提示词",
+      "title": "粉龙把肉烤糊了：她教它改成小火，串肉一起吃",
+      "body": "中世纪石砌厨房里，穿奶油泡泡袖的姑娘看着粉嫩幼龙喷火——肉直接糊了。她皱眉，随即切丁穿铁签，手把手教幼龙改成可控的小火。肉滋滋焦香，两人分着吃。\n\nSania（@saniaspeaks_）用 GPT Image 2.5 出角色设定，再用 Seedance 2.5 按分镜表拍三十秒。一百七十多赞。故事弧很短：失败、方法、成功、分享。龙不是打怪道具，是会过火的厨房助手。角色卡和视频词都公开，可直接改食材和厨具。\n\n做成短视频时，把「焦黑的失败特写」留足两秒，观众才懂后面小火有多珍贵。\n\n这条提示词的价值在结构：时间轴、机位或性格锁写清楚后，换皮就能连发多集，不用每天重想桥段。\n\n所以呢：萌宠协作视频先写一次搞砸，再写纠正动作，观众才有跟练感。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/saniaspeaks_/status/2109613917622198384"
+        },
+        {
+          "label": "角色设定提示词",
+          "url": "https://x.com/saniaspeaks_/status/2109614145343561959"
+        },
+        {
+          "label": "视频提示词",
+          "url": "https://x.com/saniaspeaks_/status/2109614513595076804"
+        }
+      ],
+      "prompt": "=== GPT Image 2.5 — Fantasy Cooking Girl + Pink Baby Dragon sheet ===\nCreate a professional character reference sheet for the Fantasy Cooking Girl and her Pink Baby Dragon, using a clean 16:9 magazine-style layout with a warm ivory background, elegant brown typography, and neatly organized panels.\n\nInclude the girl’s profile, full-body front/side/back views, facial expressions, outfit details, the pink dragon’s multiple poses and expressions, cooking props, medieval kitchen environment, and a matching warm color palette.\n\nMaintain the same girl with dark brown hair, a cream puff-sleeve blouse, and a brown medieval dress. Keep the same cute pink-and-white baby dragon with tiny wings, horns, and expressive eyes.\n\nPhotorealistic cinematic fantasy, consistent character design, detailed textures, warm firelight, premium editorial presentation. Do not omit any reference section.\n\n=== Seedance 2.5 — video ===\nSeedance 2.5 video prompt:\nCreate a 30-second cinematic fantasy video following the provided storyboard exactly. A young woman with dark brown hair, a cream puff-sleeve blouse, and a brown medieval dress cooks with her adorable pink baby dragon in a warm medieval stone kitchen.\n\nFirst, the dragon breathes too much fire and burns the meat. The girl looks disappointed, then gets an idea. She cuts fresh meat into small cubes and threads them onto an iron skewer. She teaches the dragon to breathe gentle, controlled fire. The dragon carefully roasts the meat until golden brown and delicious. The girl tastes a piece, smiles happily, and shares it with the dragon. They enjoy their successful cooking together.\n\nMaintain consistent characters, outfits, dragon appearance, and kitchen environment. Use natural character movements, expressive reactions, realistic fire and smoke, sizzling meat, cinematic camera angles, warm lighting, and smooth transitions.\n\nFollow all 6 scenes and 13 shots in the original order. Preserve the timestamps and story. No missing scenes, extra characters, abrupt cuts, or character changes. 16:9, high-quality photorealistic fantasy animation, total duration 30 seconds.",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-sky-final-boss",
+      "category": "提示词",
+      "title": "最终 Boss 是天空本身：女武士在雷云桥上唤醒千米天蛇",
+      "body": "银甲蓝披风的女武士冲过塌陷的天空桥，雷云在脚下翻滚。她摸到风暴之矛，误触机关——千米长的黑曜石天蛇睁开蓝眼，缠死浮空王国。\n\nFuture Vibes AI（@FutureVibesAi）用 Seedance 2.5 跑这条三十秒「像可玩的 3A 第三人称」提示词：过肩镜头不断档、最小界面、禁止切镜和瞬移。成片卖点是尺度——Boss 大到必须以建筑崩塌当节拍。提示词用动作动词串起来：冲、跳、荡、躲、导流、斩。做游戏预告时，把天蛇换成你的产品隐喻也行。\n\n记住提示词禁止切镜和瞬移，尺度感才立得住，切多了就变成预告片剪辑而不是一镜闯关。\n\n这条提示词的价值在结构：时间轴、机位或性格锁写清楚后，换皮就能连发多集，不用每天重想桥段。\n\n所以呢：奇幻 Boss 战少写「史诗感」，多写角色每两秒具体干了哪一件事。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/FutureVibesAi/status/2109616503582777704"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/FutureVibesAi/status/2109616632352096492"
+        }
+      ],
+      "prompt": "Prompt - Create a 30-second ultra-photorealistic AAA third-person fantasy RPG gameplay sequence, Unreal Engine 5 quality, 4K, 60fps, seamless over-the-shoulder camera, realistic physics and destruction. A female warrior in dark silver armor and blue cloak sprints across a collapsing sky bridge above violent thunderclouds, leaps across gaps and swings into an ancient floating temple. She discovers a magical Storm Spear, uses lightning to activate machinery and accidentally awakens a kilometer-long celestial serpent with obsidian scales, glowing blue eyes and crystalline horns. The monster coils around the floating kingdom, crushing towers and bridges. She escapes collapsing platforms using lightning-powered grappling, lands in a gigantic circular arena and confronts the serpent. It fires devastating lightning beams while she dodges, redirects electricity and destroys its golden restraints. End with the warrior launching a powerful lightning-charged attack as the colossal boss roars. Continuous playable gameplay, minimal RPG HUD, breathtaking scale, realistic movement, cinematic lighting, no cuts, no teleportation, no cartoon visuals.",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-yazdan-car-ad",
+      "category": "提示词",
+      "title": "一辆银跑车三十秒广告：从黑场点火一路开到悬崖观景台",
+      "body": "黑场里引擎点火。一束日出擦亮车库里的银车头灯。门升起，车滑进晨光；航拍贴着海岸线；车内方向盘稳；最后在观景台刹停，镜头绕前四分之三收束。\n\nYazdan（@AIwithYazdan）把 Seedance 2.5 汽车广告写成可复用模板：时间块清楚，音频写死，结尾强调车身几何、轮毂、漆色、倒影不许漂移。评论区有人吐槽徽章会漂——他自己也承认参考图能锁第一帧，跨镜头连续仍要后期。把银车换成自己的实车照片，问题会少一半。\n\n五段时间块可以整段复用，只改海岸或城市背景，徽章用实车特写参考图锁死。\n\n这条提示词的价值在结构：时间轴、机位或性格锁写清楚后，换皮就能连发多集，不用每天重想桥段。\n\n所以呢：车广告模板先按五段走完，再拿真车图去锁徽章，别指望一句「高级感」搞定。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/AIwithYazdan/status/2109183192251183429"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/AIwithYazdan/status/2109183200283029861"
+        }
+      ],
+      "prompt": "Create a 30-second cinematic automobile advertisement in 16:9 widescreen format. Premium photorealistic automotive cinematography.\n\n0–5s: Black screen gives way to the sound of an engine starting. A narrow strip of sunrise illuminates the front headlight of a stationary silver sports car in a dark garage.\n\n5–10s: The garage door opens. The car rolls forward into cool morning light. A low tracking shot reveals the front grille, sculpted hood, and reflections along the bodywork.\n\n10–17s: Wide aerial view of the car following a sweeping coastal road. Cut to a low side-tracking shot with the ocean and cliffs moving naturally in the background.\n\n17–23s: Interior close-up of the driver's hands making a smooth steering input. Cut to the tires following the curve of the road. The car remains planted and controlled.\n\n23–30s: The vehicle reaches a scenic overlook and comes to a complete stop. The camera slowly arcs around the front three-quarter view as sunlight breaks across the body. End with a powerful, uncluttered hero frame.\n\nAudio: deep engine startup, tire noise, ocean wind, restrained orchestral build.\n\nMaintain exact vehicle geometry, wheel design, paint color, and reflections. Realistic road contact and driving physics. No reckless traffic, morphing body panels, impossible maneuvers, or brand substitutions.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-mj-sref-mech-shark",
+      "category": "提示词",
+      "title": "机械鲨解剖信息图：一串 sref 锁风格，标签丢给 Nano Banana 改",
+      "body": "一张鲜艳的机械鲨鱼解剖信息图摊开：引擎零件、标注线、高饱和色块，像科普海报又像改装手册。\n\nMichael Rabone（@michaelrabone）在 Midjourney 里甩出完整命令：题材加上风格参考串，权重一百，风格化三百，再开高清。他说文字标签后来用 Nano Banana 校正——因为扩散模型常把标注字母拧歪。分工很清楚：一家负责看起来像那种图，另一家负责字要认得。做说明书、拆解图、零件海报都能套。\n\n风格参考串可以换成你自己的数字，文字校正步骤别省，否则标注区会像乱码海报。\n\n这条提示词的价值在结构：时间轴、机位或性格锁写清楚后，换皮就能连发多集，不用每天重想桥段。\n\n所以呢：信息图提示词别死磕一家模型把字写对，风格和文字可以拆成两步。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/michaelrabone/status/2109145739016224773"
+        }
+      ],
+      "prompt": "Midjourney --sref 1663537736\n\nAutopsy infographic graphic design of a mechanical shark with engine parts and labels, bright vivid colours --ar 16:9 --raw --sref 1663537736 --sw 100 --stylize 300 --hd --v 8.2\n\nLabels corrected in Nano Banana",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-kling-perfume-mist-garden",
+      "category": "提示词",
+      "title": "香水喷到水泥柱上：雾滴落地，牡丹紫藤当场开成隧道",
+      "body": "特写瓶身，手指按下喷嘴，金色雾气在荧光灯下闪。雾飘到水泥柱，每滴落地处，牡丹、紫藤、花毛茛延时绽放。镜头拉开——车库变成长满兰花的苔藓丘陵，藤蔓从天花垂下，她穿过花隧道走进日光。\n\nMani（@manibuildsAI）用 Kling Flash 4.0 写了二十秒香水广告。转折点是雾等于种子：商品特写不靠旁白，靠物理接触触发场景变形。灰水泥衬托高饱和花色。护肤、饮料、香薰都能把「喷出物碰到哪里就长出什么」换成自己的产品逻辑。\n\n灰底加高饱和对比一般更稳，产品名不要硬塞进画面，留给片尾一张静帧。\n\n这条提示词的价值在结构：时间轴、机位或性格锁写清楚后，换皮就能连发多集，不用每天重想桥段。\n\n所以呢：香水片少写「优雅氛围」，写清「雾碰到什么、那里必须长出什么」。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/manibuildsAI/status/2109224271775985745"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/manibuildsAI/status/2109224275114971513"
+        }
+      ],
+      "prompt": "Prompt - VIDEO: \n0-4s: Macro slow-motion on the bottle. Her finger presses the atomizer, golden mist glitters in the fluorescent light.\n4-9s: Mist drifts onto a concrete pillar. Where each droplet lands, peonies, wisteria and ranunculus burst open in time-lapse. Camera pushes in.\n9-15s: Camera pulls back to a wide shot. The whole garage transforms: cars become mossy hills dotted with orchids, vines drop from the ceiling, petals float through the air. She walks calmly toward camera, coat stirring.\n15-20s: She exits into daylight through a tunnel of blossoms. Cut to the bottle resting on a flower-covered pillar, soft focus background.\nRich saturated colors against grey concrete.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-kling-aurora-ruins",
+      "category": "提示词",
+      "title": "极光下的黑几何废墟：探险队朝青色能量缝走去",
+      "body": "冻结平原上，一支小队走向巨大异星遗迹。绿紫极光在头顶流动，黑色几何塔从雪里拔起，表面裂着细窄的青色能量缝。最近的队员手套被扫描器映成橙光，风雪遮住远处轮廓，尺度一下子压过来。\n\nAlin（@Alin_Reaper05）把这段交给 Kling 4.0 Flash，明确写了古代文明谜感、地面军事装备、深蓝夜色。提示词不长，但把「最近的人到远处的塔」层次和材质钉死。换塔的颜色和扫描器光色，就能做成你的世界观片头。\n\n短提示词反而好改，别一上来写三千字空话，把光色和远近层次写清就够。\n\n这条提示词的价值在结构：时间轴、机位或性格锁写清楚后，换皮就能连发多集，不用每天重想桥段。\n\n所以呢：氛围场景少堆形容词，写清「最近谁在发光、远处什么被雪挡住」。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Alin_Reaper05/status/2109581272578195961"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/Alin_Reaper05/status/2109581274755027228"
+        }
+      ],
+      "prompt": "Here is the prompt I used for the video: A small expedition team crosses a frozen plain toward colossal alien ruins beneath flowing green and violet auroras. Black geometric towers rise from the snow, their surfaces interrupted by narrow cyan energy seams. The closest explorer carries a compact scanning device projecting a soft orange glow onto armored gloves. Windblown snow partially obscures the distant structures, emphasizing their immense scale. Mass Effect-inspired ancient civilization mystery, grounded military equipment, cinematic wide shot, deep blue night palette, realistic snow and metal textures",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-nano-artstyle-summer-dream",
+      "category": "提示词",
+      "title": "先锁画风再做人：参考图不许滑向真人照片",
+      "body": "提示词开头不是「画一个女孩」，而是艺术风格参考：把参考图的笔触、浅淡粉彩、空气感写成硬规则，并明文禁止漂成写实或三维渲染。\n\nBlunt James（@0xjaimes_）用同一套词对比 Nano Banana 2.1 和 GPT Image 2.5，发现后者更会吃参考图。角色「夏日梦中人」的五官、身高、气质写得很细，但都排在画风锁后面。这对想保持某个画家味道的博主最有用：先冻结媒介，再谈人物。你也可以只换角色段，画风段原样复用。对比两家时务必同一参考图、同一条词。\n\n做成内容时，先发画风锁前后对比图，再丢完整提示词，读者一眼就懂该抄哪一段。\n\n所以呢：风格迁移提示词第一句先写「像这张图的画法」，并写上不许变成什么。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/0xjaimes_/status/2109529856731935196"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/0xjaimes_/status/2109529864910860724"
+        }
+      ],
+      "prompt": "ART STYLE REFERENCE: <<<image_1>>> image1\nUse image1 as the visual art-style reference. Preserve its painterly anime aesthetic, expressive brushwork, textured paint surfaces, soft luminous lighting, delicate rendering, airy atmosphere, and restrained pastel colours. Do not drift into photorealism or 3D/CGI.\nCHARACTER DESIGN — SUMMER IN A DREAM\nCreate a beautiful, original young adult woman with a height of approximately 170 cm and a slender, graceful build. Her presence feels gentle, free-spirited, and quietly enchanting, like someone from a beautiful summer memory.\nFace and Features\n- Delicate, softly sculpted facial features.\n- Expressive, clear pale-blue eyes.\n- Fair skin with subtle warmth and a natural rosy blush.\n- Small, natural-looking nose and softly defined lips.\n- Minimal makeup; preserve her natural beauty.\n- A peaceful, dreamy expression with a subtle hint of happiness.\nHair — Signature Feature\nExceptionally long, flowing hair in an almost-white colour, resembling pale platinum silver with a delicate pearl sheen. The hair should appear luminous under sunlight, with subtle cool-blue and silver reflections. Fine individual strands blend into soft, expressive painterly shapes. Her hair falls well past her waist and moves gracefully in the breeze.\nHer hair colour must remain consistent across every scene. It should never become blonde, grey, or pure featureless white.\nOutfit — Locked Design\nShe wears a light blue flowing summer dress made from lightweight, airy fabric. The dress has a simple, elegant silhouette, a softly fitted upper section, and a flowing skirt that moves naturally in the wind.\nThe colour is a delicate sky blue, with subtle variations caused by sunlight and shadows. The fabric feels light, soft, and almost weightless.\nNo armour, no elaborate accessories, no dramatic jewellery, and no outfit changes.\nCHARACTER SHEET LAYOUT\nCreate a clean, professional character reference sheet against a simple, pale, warm-neutral background.\nLEFT SECTION — FACE REFERENCE:\nOne large, clear, straight-on portrait of her face. Show her pale-blue eyes, delicate features, and distinctive almost-white hair in beautiful painterly detail.\nCENTRE SECTION — FULL-BODY REFERENCE:\nA complete, front-facing standing view showing her entire silhouette, the length of her hair, the full design of her light blue dress, and her proportions. Her height is approximately 170 cm. Her posture is relaxed and natural.\nRIGHT SECTION — EXPRESSION REFERENCES:\nThree smaller, clearly front-facing facial expressions of the SAME character:\n1. Peaceful, neutral expression.\n2. Eyes gently closed, enjoying a warm summer breeze.\n3. A subtle, genuine smile.\nAll expressions must preserve the exact same facial structure, eye colour, hairstyle, and hair colour.\nARTISTIC DIRECTION\nUse the painterly anime aesthetic of <<<image_1>>> : loose but sophisticated digital painting, visible directional brushstrokes, textured paint surfaces, softly rendered skin, flowing hair, expressive shapes, delicate details, diffused sunlight, gentle shadows, subtle reflected colour, and an airy pastel atmosphere.\nThe finished image should feel like a beautifully illustrated animation-production reference sheet rather than a photorealistic fashion illustration.\nSTRICT CONSISTENCY RULES\n- One character, shown from different views and expressions.\n- Preserve facial identity and proportions.\n- Preserve the almost-white, pearl-silver hair.\n- Preserve the light blue flowing dress.\n- Maintain the same painterly rendering throughout.\n- No duplicate characters, unnecessary accessories, text, watermarks, or decorative clutter.\n- No 3D rendering, photorealism, or changes to the character design.",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-panda-midnight-brawl",
+      "category": "提示词",
+      "title": "熊猫拳手对战鲨鱼头巨汉：原创角色，禁止抄现成 IP",
+      "body": "夜巷里，街头范熊猫拳手懒洋洋地闪避，对面是巨鲨头、粗脖子、无尾巴的街霸，一拳能掀翻垃圾桶。\n\nAbhishek（@HeyAbhishek）完整公开了图像设定图加 Seedance 二十秒格斗提示词，标题叫午夜街区群架。强调上传合并角色卡、外貌比例服装武器全程锁定，并写成原创角色避免版权墙。节奏是动作喜剧：一个永远从容带着舞步，一个永远吵闹冲撞。比起直接蹭热门 IP，这条更适合长期做系列角色。\n\n先把冷静与失控写成性格锁，出拳节奏会自己出来，系列第二集只换场地即可。\n\n这条提示词的价值在结构：时间轴、机位或性格锁写清楚后，换皮就能连发多集，不用每天重想桥段。\n\n所以呢：想发格斗二创，先造两个版权干净的原创角色卡，再写谁永远冷静、谁永远失控。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/HeyAbhishek/status/2109631206681952307"
+        },
+        {
+          "label": "角色设定提示词",
+          "url": "https://x.com/HeyAbhishek/status/2109631228039344139"
+        },
+        {
+          "label": "视频提示词",
+          "url": "https://x.com/HeyAbhishek/status/2109631241461137857"
+        }
+      ],
+      "prompt": "=== GPT Image 2.5 — Panda Flip & Brute Jaw sheet ===\nGPT Image 2.5 sheet\n\nPrompt:\n\nCreate a 16:9 premium cinematic character bible sheet for two completely original characters: PANDA FLIP and BRUTE JAW.\nLAYOUT:\nCreate a premium split-screen VS composition with both characters in one combined image. Two halves separated by a bold dramatic central divider. Show one massive hero portrait of each character from approximately mid-thigh upward, facing slightly toward each other. Clean white background, explosive graphic splashes, beautiful character proportions, and strong visual contrast.\nSTYLE:\nPremium cinematic cel-shaded 3D anime, Unreal Engine-quality rendering, thick expressive black outlines, bold flat color blocking, hard-edge shadows, subtle hand-painted textures, strong stylized 3D depth, vibrant but controlled colors, and cinematic fighting-game character design. Characters should feel physically dimensional with clean surfaces, exaggerated expressions, and striking silhouettes. Not photorealistic, not flat 2D, not Disney or Pixar styling.\nLEFT SIDE, PANDA FLIP:\nDesign a lovable but surprisingly tough anthropomorphic panda with a naturally cool and laid-back personality. He has a large rounded panda head, expressive black eye patches, small rounded ears, a chunky but athletic body, slightly broad shoulders, and a relaxed confident smirk. His eyes are half-open, giving him a permanently unbothered expression. His design should be simple, memorable, and visually appealing, with a believable balance between soft, adorable features and physical strength.\nOUTFIT:\nPanda Flip wears a simple, slightly oversized dark burgundy bomber jacket, left unzipped over a plain black T-shirt, relaxed charcoal-gray cargo pants with minimal pocket detailing, and clean white sneakers. His outfit should feel modern, comfortable, and effortlessly stylish without looking flashy or overly decorated. No jewelry, sunglasses, hats, backpacks, excessive layers, or complicated accessories. His natural black-and-white fur pattern remains clearly visible around his face, hands, and neck.\nPOSE:\nPanda Flip stands casually with relaxed shoulders, one hand resting inside his trouser pocket and the other hanging naturally. His posture suggests confidence without aggression. A subtle amused smile communicates that he is completely unafraid of his much larger opponent. His rounded silhouette should immediately contrast with the shark's intimidating physique.\nBACKGROUND:\nBehind Panda Flip, a dramatic splash of rich orange and warm golden-yellow brushstroke energy radiates outward, creating an energetic but clean composition.\nLarge bold brushstroke text at the top left: PANDA FLIP\nSmaller text below: THE UNBOTHERED\nRIGHT SIDE, BRUTE JAW:\nDesign a completely original giant humanoid shark brute with an enormous oversized shark head and an exceptionally broad, expressive face. His massive head should be the most defining feature of his silhouette, with an exaggerated wide jaw, thick neck, pronounced brow structure, small piercing icy-blue eyes, and a huge mouth filled with sharp triangular teeth. His expression is furious and theatrical, with a menacing grin that makes him instantly recognizable.\nHis body is towering and heavily muscular, featuring enormous shoulders, thick arms, a barrel-shaped torso, powerful legs, and a heavyweight fighter's physique. Deep steel-blue skin covers his head and upper body, transitioning into pale silver-gray around his jaw, chest, and abdomen.\nANATOMY:\nBrute Jaw has a fully humanoid lower body with two muscular legs and two arms. His enormous shark head connects naturally to his thick neck and shoulders. He has no shark tail, no rear appendage, and no additional fins extending from his hips or lower back. Maintain a cohesive bipedal character silhouette.\nOUTFIT:\nBrute Jaw wears a dark sleeveless armored combat vest, heavy industrial forearm guards, rugged black trousers, and reinforced boots. A short crimson cloth accent hangs from his waist. His outfit is practical, intimidating, and battle-worn, emphasizing his enormous physique instead of covering it with excessive armor.\nWEAPON:\nAn enormous industrial demolition sledgehammer with a long gunmetal handle and a heavy rectangular steel head. This is his only signature weapon. Its proportions should feel massive, heavy, and powerful.\nPOSE:\nBrute Jaw stands in an aggressive forward-leaning fighting stance, gripping the giant sledgehammer over one shoulder. His enormous shark face is turned toward Panda Flip, mouth open in an intimidating tooth-filled grin. His expression conveys overwhelming arrogance and explosive aggression.\nBACKGROUND:\nBehind Brute Jaw, an explosive splash of deep ocean blue, crimson, and electric cyan energy radiates outward with subtle metallic fragments.\nLarge bold brushstroke text at the top right: BRUTE JAW\nSmaller text below: THE STREET MAULER\nCENTER:\nA huge dramatic metallic VS emblem separates both characters, surrounded by stylized sparks and contrasting color streaks.\nSmall subtitle underneath: MIDNIGHT BLOCK BRAWL\nBOTTOM CENTER:\nLarge bold title: PANDA FLIP VS BRUTE JAW\nSmaller tagline: CALM MEETS CHAOS.\nOVERALL ART DIRECTION:\nCreate a high-end cinematic character matchup poster with premium anime fighting-game aesthetics, striking graphic composition, bold stylized shading, crisp black outlines, polished three-dimensional characters, and vivid but balanced color grading. Panda Flip should appear relaxed, slightly chunky, approachable, and effortlessly cool, while Brute Jaw should feel enormous, aggressive, and terrifyingly powerful.\nKeep both characters visually simple enough for consistent 3D animation across multiple camera angles. Every costume element, facial feature, body proportion, and weapon must remain easily recognizable. Beautiful cinematic lighting, premium stylized materials, subtle film grain, and sharp 4K-quality presentation.\n\n=== Seedance 2.5 — Midnight Block Brawl ===\nSeedance 2.5 prompt:\n\nCreate a 20-second cinematic 3D anime action-comedy fight titled MIDNIGHT BLOCK BRAWL.\n\nUse the uploaded combined character sheet as the strict visual reference for both characters. Preserve their exact appearances, body proportions, outfit colors, facial structures, expressions, and weapon design throughout the entire clip.\n\nCHARACTERS:\nCharacter 1 is Panda Flip, a funky street-style panda fighter with a relaxed, stylish, playful personality. He is always in control, never scared, and moves with dance-like rhythm, effortless agility, and perfect timing. He fights casually with swagger and confidence.\nCharacter 2 is Brute Jaw, a giant shark-headed street brute with a huge expressive face, thick neck, broad torso, no tail, and enormous physical presence. He is loud, explosive, aggressive, and increasingly furious as the fight keeps going wrong. His single weapon is a giant street sledgehammer, and it must remain visually consistent in every shot.\n\nSTYLE:\nPremium cinematic cel-shaded 3D anime, Unreal Engine-quality rendering, thick black outlines, bold flat color blocking, hard-edge shadows, hand-painted textures, saturated neon lighting, sharp impact frames, controlled motion blur, expressive face acting, dynamic camera movement, and polished stylized 3D action. The final result should feel like a premium anime fighting-game cinematic.\n\nFORMAT:\n16:9 widescreen\n20 seconds\n4K-quality detail\nFast, clean, readable action\nNo dialogue\nNo subtitles\nNo voice-over\nNo text overlays\nNo watermarks\n\nSETTING:\nA narrow neon-lit city block at midnight. Wet pavement reflecting signs and streetlights. Graffiti walls, shuttered storefronts, glowing vending machines, scattered traffic cones, stacked plastic crates, a parked delivery scooter, and a steel streetlight. Purple, teal, orange, and pink neon glow throughout the lane. Keep the geography visually consistent across the whole fight.\n\nACTION TIMELINE:\n\n0:00 to 0:02\nOpen with a dramatic low-angle shot of Brute Jaw stomping into the neon lane while dragging his giant sledgehammer along the wet pavement, creating sparks. He slams the hammer down with a huge impact crack. Panda Flip is leaning casually against the parked delivery scooter, adjusting his sunglasses, barely reacting.\n\n0:02 to 0:05\nBrute Jaw roars and swings a massive horizontal hammer attack. Panda Flip casually steps onto the scooter seat, letting the hammer sweep underneath him. He lightly hops off the other side and lands cleanly. Brute Jaw’s hammer smashes into stacked plastic crates, blasting them apart. Panda Flip gives a calm unimpressed look.\n\n0:05 to 0:08\nBrute Jaw charges again with an overhead strike. Panda Flip grabs a traffic cone, sidesteps with smooth dance-like footwork, and places the cone over Brute Jaw’s huge face at the exact moment of the attack. The cone blocks Brute Jaw’s vision. His hammer slams into the pavement instead of Panda Flip. Panda Flip slides away effortlessly, grinning.\n\n0:08 to 0:11\nBrute Jaw rips the cone off in a rage and lunges forward with a heavy punch. Panda Flip pivots, catches the shark’s arm, and redirects the punch into a glowing vending machine. The machine flickers and rattles violently. Several cans visibly drop inside the machine. Panda Flip taps the vending machine glass casually while Brute Jaw recoils in frustration.\n\n0:11 to 0:14\nBrute Jaw grabs the hammer with both hands and performs a brutal spinning attack. Panda Flip ducks low, slides smoothly on the wet pavement between Brute Jaw’s legs, and pops up behind him. As Brute Jaw finishes the spin, the hammer head crashes into the steel streetlight with a violent metallic shock. The streetlight vibrates loudly. Panda Flip calmly takes one cold drink can from the vending machine slot.\n\n0:14 to 0:16\nClose-up on Brute Jaw’s huge face filling the frame. He turns with a full rage scream, teeth exposed, eyes blazing, and charges for one final full-force attack. Panda Flip lightly tosses the unopened drink can upward. Brute Jaw’s eyes follow it for a split second. Panda Flip then gives the can a quick precise kick straight into Brute Jaw’s forehead. It is not a deadly hit, just a humiliating, perfectly timed impact.\n\n0:16 to 0:18\nThe delayed consequence lands. Brute Jaw stumbles backward, slips on the wet pavement, and crashes onto a pile of soft empty delivery sacks near a shuttered storefront. His giant hammer falls beside him with a heavy thud. He looks stunned, angry, and embarrassed.\n\n0:18 to 0:20\nWide final shot. Panda Flip walks over, picks up the fallen drink can, opens it with a crisp snap, and places it on Brute Jaw’s chest like a disrespectful peace offering. Brute Jaw blinks in disbelief. Panda Flip adjusts his varsity jacket, pushes his sunglasses back into place, and walks away down the glowing neon lane while the vending machine hums and the streetlight still wobbles in the background.\n\nCAMERA:\nUse constantly changing cinematic coverage. Low angles, side tracking shots, close-ups on expressions, wide impact shots, and one strong final wide shot. Never repeat the same framing back to back. Keep the action readable and stylish.\n\nAUDIO:\nHeavy cinematic action-comedy score with deep percussion, electric bass pulses, metallic impact sounds, hammer drags, pavement cracks, object rattles, vending machine hum, cone pop, can impact, and sharp comedic timing beats. No spoken dialogue.\n\nCONSISTENCY RULES:\nExactly two characters only.\nOne continuous location only.\nPanda Flip’s outfit must remain identical in all shots.\nBrute Jaw must always have a huge expressive shark face and no tail.\nBrute Jaw’s sledgehammer must remain the same weapon in every shot.\nNo extra props appearing from nowhere.\nNo blood, no gore, no dismemberment.\nNo sudden style change.\nThe comedy must come from swagger, timing, humiliation, and visual contrast.\nKeep the action physically clear, visually exciting, and easy to follow.",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-2003-jp-bath-vlog",
+      "category": "提示词",
+      "title": "二零零三年日本公寓浴室：她按十一场把脏镜子擦到反光",
+      "body": "推门看见镜面水渍、脏洗手台、散落洗漱用品。她一件件收进篮子，喷玻璃水，从上到下擦到角落，再刷水龙头和排水口，最后把牙刷归位、地板扫净——全程同一张脸、同一套两千零三年公寓道具。\n\n这条三十秒超写实家务 vlog 提示词把清洁拆成十一场，明确要求时代物件和人物一致性。它和「变完美卧室」同属家务改造赛道，但把年代感写成硬约束，成片会像翻到旧数码相机文件。十一场可以减到六场，但脏点清单不能少。\n\n年代感道具写进提示词，比事后加滤镜更像翻到旧数码相机文件。\n\n所以呢：家务改造片先列脏点清单，再写「哪一年的公寓」，观众才信这是打扫而不是换滤镜。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/saniaspeaks_/status/2109860954053767448"
+        },
+        {
+          "label": "同类热帖（卧室改造）",
+          "url": "https://x.com/saniaspeaks_/status/2109135117834989699"
+        }
+      ],
+      "prompt": "Create a 30-second ultra-realistic early-2000s Japanese home vlog featuring the same young Japanese woman throughout. Keep her face, hairstyle, body proportions, and outfit consistent. Use an authentic 2003 Japanese apartment bathroom with period-appropriate items.\n\nScene 1: She enters the bathroom, notices water stains on the mirror, a dirty sink, scattered toiletries, and a damp floor.\n\nScene 2: She collects the scattered toiletries and places them neatly in a basket beside the sink.\n\nScene 3: She takes a cleaning cloth and glass cleaner from a small cabinet and places them on the counter.\n\nScene 4: She sprays the mirror with glass cleaner and wipes it from top to bottom until all visible water stains disappear.\n\nScene 5: She wipes the mirror's edges and corners, then checks the reflection to make sure the glass is spotless.\n\nScene 6: She wets a sponge, applies bathroom cleaner to the sink basin, and scrubs away dirt and stains.\n\nScene 7: She carefully scrubs around the faucet, handles, and drain, removing the visible grime.\n\nScene 8: She rinses the sink with water and wipes the basin, faucet, and surrounding counter completely dry.\n\nScene 9: She wipes the countertop and cleans the small corners around the sink where dirt has collected.\n\nScene 10: She sorts the toiletries, places toothbrushes in a holder, arranges bottles neatly, and returns everyday essentials to their proper places.\n\nScene 11: She picks up the remaining items from the floor, sweeps away loose dirt, and wipes the damp floor with a mop or cleaning cloth.\n\nScene 12: She inspects the mirror, sink, countertop, and floor, notices one remaining water spot, and wipes it away.\n\nScene 13: She steps back, smiles with satisfaction, and presents the sparkling bathroom. End with a clear wide shot showing the spotless mirror, shiny sink, organized toiletries, and clean floor.\n\nSTRICT CONTINUITY RULES: Follow all 13 scenes in exact chronological order. Do not skip, repeat, or rearrange any action. Show each object moving naturally from its original position to its new position. Keep the same cleaning tools, toiletries, bathroom layout, and character consistent. Use front, side, close-up, and wide shots, including clear views of her hands during cleaning. Keep movements realistic with no teleporting objects or instant transformations. Maintain authentic early-2000s Japanese details and handheld MiniDV footage with natural lighting, slight camera shake, imperfect framing, autofocus shifts, and mild digital noise. Avoid modern smartphones, contemporary decor, cinematic perfection, and beauty filters. Finish with a satisfying before-and-after-style reveal.",
+      "date": "2026-10-13",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-nano-golden-hour-shutter",
+      "category": "提示词",
+      "title": "金色小时人像：百叶窗影子切在墙上，手机略仰拍",
+      "body": "她站在奶油色灰泥墙前，高挑青绿百叶窗投下长条斜影，剪到墙面和身体上。侧逆光暖琥珀，阴影带凉青绿，手机略低于视线。\n\nRyan Fox（@hardik_lut83675）用同一条词对比 Nano Banana 2.1 和 GPT Image 2.5。提示词把影子几何、冷暖对比、皮肤毛孔写进超写实清单，适合当竖屏封面或穿搭片。换服装时保留墙、窗、光向，人物一致性会稳很多。你也可以把百叶窗改成竹帘或铁栏，影子语法照旧。冷暖对比写进提示词，比事后调色更省事。\n\n冷暖对比写进提示词，比事后调色更省事，墙面纹理也别省略。\n\n这条提示词的价值在结构：时间轴、机位或性格锁写清楚后，换皮就能连发多集，不用每天重想桥段。\n\n所以呢：人像提示词先写光从哪边来、影子切成什么形状，再写衣服。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/hardik_lut83675/status/2109160819556499901"
+        }
+      ],
+      "prompt": "Golden-hour outdoor portrait, vertical 9:16. A young woman stands in front of a textured cream stucco wall with tall teal-blue louvered wooden shutters, a glass door on the left, an outdoor lamp at top-left and a potted aloe plant on a stone step. Low warm sun from the side casts long diagonal shadows of the shutter slats and her silhouette across the wall. She stands relaxed with arms at her sides, head slightly tilted, soft half-smile, looking at the camera. Long voluminous dark wavy hair. Outfit: fitted cream high-neck halter mini dress with silver sequined floral embroidery running down the front. Warm amber light on skin against cool teal shadows. Phone camera slightly below eye level. Hyper-realistic: natural skin texture with pores and a light sheen, individual hair strands catching the sun, sequins glinting, realistic shadows, true-to-life colors.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-faceless-6s-hook",
+      "category": "提示词",
+      "title": "无脸频道前六秒：先丢三条动态片，再切静图也不怕掉粉",
+      "body": "许多无脸故事频道开场就是静图，大脑直接判定「这是幻灯片」，三秒划走。有创作者给出最低成本改法：用 Seedance 2.5 各生成三条六秒宽屏动态片，叠在时间线最前面，配音从动态段就开始念钩子；大约二十秒后再切静图。\n\n提示词本身极短，但把「从脚本钩子描写场景」写成可复制句式。重点不是画面多美，而是用运动信号骗过观众和算法的前六秒判决。三条动态片用同一角色不同景别，成本也可控。配音一定要从动态段起念，别让画面先哑火两秒。\n\n配音一定要从动态段起念，别让画面先哑火两秒，否则六秒钩子白做。\n\n所以呢：无脸频道别先抠中段画质，先保证片头六秒里有真运动。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/thegoldeenhand/status/2109413640701190310"
+        }
+      ],
+      "prompt": "Use Higgsfield MCP to generate 3 animated video clips using Seedance 2.5. Each clip should be 6 seconds, 16:9 aspect ratio. Build each clip from the hook of the script: [describe opening scene with character positioning, lighting, camera angle, atmospheric mood]. Output at highest available resolution.",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "brickbrag-shared-brick-world",
+      "category": "视觉尝试",
+      "title": "浏览器里一座真多人积木城：开赛车、开飞机、还能买地建房",
+      "body": "打开 brickbrag.com，屏幕中央立着一截彩虹色的大写字母 B。你不用注册、不用下载，手机和电脑都能进这座积木城。城里有砖店、车行、赛道和机场：拿积木搭楼，开刚买的车绕圈，再坐上三角翼小飞机掠过屋顶。连去火山、雪峰、峡谷的巴士都是机器人开的——作者强调除了司机，你遇见的都是真人。公共地块大家一起搭，也能用游戏币买下只属于自己的地皮，别人拆不掉。积木零件来自开源的 LDraw 零件库，画面里的截图就是真实游玩画面。作者在 Hacker News 上说，除了市中心和马路，别处都能协作搭建；想独占就买地。所以呢：别再空谈「元宇宙沙盒」——让观众一分钟进彩虹 B，自己盖一堵墙、飞一圈，画面比口号更有说服力。",
+      "links": [
+        {
+          "label": "Brickbrag 官网",
+          "url": "https://brickbrag.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50063042"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "ps2-browser-static-recomp",
+      "category": "视觉尝试",
+      "title": "PS2 游戏静态重编译进浏览器：不用仿真器也能开《GT》",
+      "body": "有人把 PlayStation 2 的游戏机器码提前翻成 C++，再编译成 WebAssembly，挂上用 WebGPU 重写的系统层——于是《Gran Turismo 4》一类的画面直接在浏览器里跑。作者开源了 ps2-web-recomp，说明这是「提前编译」而不是边玩边仿真：情绪引擎指令被译成原生代码，IOP 那块输入输出处理器仍解释执行，其余内核库用原生实现顶上。Hacker News 上讨论炸了，有人夸技术，有人抠「还算不算真正的重编译」，也有人调侃光盘加载等待被抹掉了。仓库里有演示录像，Linux 原生版也能上 Steam Deck。版权游戏当然不能公开托管整盘镜像，但技术路径本身已经够刺眼。所以呢：讲「模型时代也能啃老硬件」时，别只放参数表——放一段浏览器里飘过的赛车，争议和惊叹会一起来。",
+      "links": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/snuri00/ps2-web-recomp"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50052251"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "skyborne-claude-agent-city",
+      "category": "视觉尝试",
+      "title": "Claude 代理住进天空城：谁在加班、谁卡权限，一眼看见",
+      "body": "终端里同时开好几路 Claude Code，助手又套助手，你很快就分不清谁在干活。Skyborne 把每个会话变成一座浮空街区，每个代理变成一只叫 Skybot 的小机器人：读书就捧书，搜资料就拿放大镜，想事情就绕着光点转。街区中央是市政厅；谁要你点头批准，头顶就拉出一条琥珀色光束，你一点同意就变绿。塔楼会随 token 消耗往上长楼层，闲下来的街区三分钟就打瞌睡。天空早晚随本机时钟变，按 T 还能手动调到黄昏。本地运行、无账号、无遥测；官网 skyborne.dev 还挂了一段录好的城市回放，不用装也能先逛。作者说早期可用，并配了竖屏「Reel」模式方便录视频，同时能藏掉提示词和项目名。所以呢：讲「多代理难盯盘」时，别再甩终端截图——让观众看小机器人过斑马线去喝咖啡，管理焦虑立刻变成可拍的短视频。",
+      "links": [
+        {
+          "label": "浏览器试玩",
+          "url": "https://skyborne.dev"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ishraq21/skyborne"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50066852"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "georadios-globe-live-radio",
+      "category": "视觉尝试",
+      "title": "转地球听电台：一万六千个台，点到哪就播哪",
+      "body": "打开 GeoRadios，面前是一颗能用手拨转的三维地球。球面上挂着来自二百零五个国家的一万六千多个电台光点；你转到某个城市，点一下，耳机里就换成那里正在播出的声音。不用注册，也不收费。作者把它挂上 Show HN，标题直白：转一下地球，听听那里在播什么。和传统「世界电台列表」不同，这里先给你地理直觉——先看见这座城落在哪块大陆，再决定听哪一路信号。夜深人静时把球转到南美、东欧或小岛，陌生的广告、歌曲和新闻会突然钻进房间，时差也跟着进来。页面强调免费和无登录门槛，适合随手演示。所以呢：做「世界感」内容时，别只贴静音地图——打开 GeoRadios 当众转一圈，让观众听见另一个时区的当下。",
+      "links": [
+        {
+          "label": "GeoRadios",
+          "url": "https://georadios.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50054379"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "gaussian-sanatorium-splat-games",
+      "category": "视觉尝试",
+      "title": "同一座废弃疗养院的高斯溅射扫描，塞进两款浏览器小游戏",
+      "body": "摄影师走进空荡的林登霍夫疗养院，再没出来——这是《Undeveloped》给你的案情。你白天走完这座真实扫描出来的空间，拍下她留下的痕迹，拼出她去了哪。旁边还有第二款《RESIDUE》：发条灯、摄像机，加上一九三一年六张感光板，板上有个不肯静止的女孩；灯照到哪里，哪里才留得住，黑暗里东西会动。两款游戏共用同一份高斯溅射扫描，也就是把真实场景拍成可在三维里走动的点云体积。作者把它们挂在 games.yanisfalaki.com，浏览器就能进。恐怖感不靠贴图堆，而靠「你真的走进了那栋楼」。所以呢：讲空间重建时，别只放技术名词——让观众在同一栋废弃楼里先当侦探、再关灯，冲击力比参数说明大得多。",
+      "links": [
+        {
+          "label": "Gaussian Games",
+          "url": "https://games.yanisfalaki.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50059969"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "iconic-photos-step-inside",
+      "category": "视觉尝试",
+      "title": "走进历史名照：登月、柏林墙、过马路的甲壳虫，快门瞬间可逛",
+      "body": "iconic.photos 把一张张几乎人人见过的照片，做成可以走进去的瞬间。Buzz Aldrin 踩在宁静海、时代广场胜利之吻、摩天楼钢梁上吃午饭的工人、柏林墙倒塌、艾比路四人过马路、硫磺岛升旗、挡在坦克前的人——点「走进去」，你就站在快门按下的那一秒里。站点文案写得很克制：冻结在快门咔哒的那一刻。它不是纪录片长片，更像一间可穿行的照片博物馆，短视频一镜到底就能讲完一个时代切片。作者在 Show HN 上用一句话概括：走进历史上最有名的那些时刻。现场感来自「你不再是看图的人，而是站进图里的人」。所以呢：做历史或摄影向内容时，别只贴平面图——让观众「踩进」艾比路斑马线，记忆会自己开口。",
+      "links": [
+        {
+          "label": "iconic.photos",
+          "url": "https://iconic.photos/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50055064"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "closed-form-ai-math-explained",
+      "category": "视觉尝试",
+      "title": "OpenAI 吐出的数百道数学结果：被铺成一张人话讲解地图",
+      "body": "有人做了个叫 Closed Form 的站点：OpenAI 模型放出的一批开放数学问题研究论文，在这里按领域铺成格子。数论、组合、微分几何、理论计算机……点进去先看到一句大白话：它证明了什么、为什么重要、你能信到什么程度。页面统计写着模型发布了七百一十九篇相关论文，其中一百七十二篇挂了 Lean 形式化证明；归档里三百七十二个结果，已有一百二十八个写成普通人能读的解说。你不必先啃公式，也能在「一张平滑曲面度量无法局部等距浸入三维欧氏空间」这种题目旁，先读懂它在说几何世界的哪条边界。所以呢：讲「AI 啃数学」别只晒榜单——打开这张地图，挑一个格子用三十秒人话讲完，观众才跟得上兴奋点。",
+      "links": [
+        {
+          "label": "Closed Form",
+          "url": "https://nishachay.github.io/closed-form/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50055464"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "mef-llm-studio-brain-explorer",
+      "category": "视觉尝试",
+      "title": "自己搭小模型也要看得见：Brain Explorer 一帧帧拆开下一个词",
+      "body": "德国团队做的 M.E.F LLM Studio 是给入门者用的 Windows 学习软件：不用写脚本，也能从分词走到训练再到生成。新版 Alpha 0.2.0 加了 Brain Explorer——二维视图把上下文、变换器块、概率分布和采样连在一起，你可以播放、暂停，或单步查看「下一个词是怎么被挑出来的」。旁边 Wiki 会解释屏幕上的术语，Vision Explorer 则把本地文生图的去噪拆成「之前、噪声预测、之后」三帧，让图像生成也不再是一抹黑。官网写明受 Language Model Builder 启发，强调小实验和非商用评估，训练可能失败，数据要自己备份。于是「黑盒吐字」变成可暂停的动画课。学习路径把「读一章—自己试—对照解释」串成循环，适合第一次拆开模型黑盒的人。所以呢：讲大模型别再只念温度参数——打开 Brain Explorer 停在某一步概率条上，观众一眼就懂「采样」在干什么。",
+      "links": [
+        {
+          "label": "M.E.F LLM Studio",
+          "url": "https://www.mef-llm-studio.com/en/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50065804"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "krashout-browser-car-soccer",
+      "category": "视觉尝试",
+      "title": "浏览器汽车足球：弱网也能撞、加速、射门，链接一发就能开黑",
+      "body": "远程团建想找个「好上手又有技术上限」的游戏，有人做出了 Krashout：介于 TagPro 和《火箭联盟》之间的多人汽车足球。WASD 开车，Shift 加速，空格射门；不用注册也能玩。作者特别花时间做客户端预测，尤其是车与车碰撞，好在烂网速和断断续续的网络下仍可打。每局跑在靠近玩家的 Cloudflare Durable Object 里，想压低房间平均延迟。模式有排位（Glicko-2）、休闲（空位塞机器人）、可分享链接的私房局，还有基础数据统计。球门前一次漂亮撞击，比又一次语音破冰好用得多。打开 ball.krashout.io 就能开黑。作者说目标是下班后远程小酌也能开一局，技术向玩家长一点也能钻。所以呢：讲「远程团队怎么玩」时，别只推荐冷场谜语——甩一个 Krashout 房间链接，让同事三分钟后开始吵判罚。",
+      "links": [
+        {
+          "label": "Krashout",
+          "url": "https://ball.krashout.io"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50041060"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "hexnoth-wesnoth-birthday",
+      "category": "视觉尝试",
+      "title": "四十岁生日发布：手机跑不动韦诺，他就在浏览器重做了六角战棋",
+      "body": "Jakub 说过想四十岁前出一本小说，结果生日当天在 Hacker News 上线的是一款游戏。他怎么也玩不转《韦诺之战》的手机版，干脆按那套战斗思路，在浏览器里重做了一套六角格回合战术：三阵营、三兵种、三等级，带 AI 对手、四级难度、战争迷雾、昼夜改变单位属性、多种地形，以及中毒、治疗等特性。可以先在桌面开打，登录后进度同步到手机接着打。站点叫 Hexnoth，自称黑暗奇幻六角战棋，免费无广告，也提供付费的「已验证对局」。作者说想做得既休闲又认真，迭代里打磨了画面、配乐和数值。所以呢：讲「卡住就重做」的创作者故事时，别空喊坚持——放他生日帖和一局迷雾里的交火，人设和玩点一次到位。",
+      "links": [
+        {
+          "label": "Hexnoth",
+          "url": "https://hexnoth.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50042663"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "betterwispr-local-mac-dictation",
+      "category": "小众工具",
+      "title": "BetterWispr：按住 Option+空格口述，文本留在你的 Mac 上",
+      "body": "Mac 上打字嫌慢，又不愿把声音送上云。BetterWispr 让你在任何输入框按住 Option 加空格说话，松手后干净文本直接打进当前应用。语音识别用本机模型：Apple 语音、Parakeet、Whisper 等九种可选，装好后可离线工作；清理档位从只删嗯啊口头禅，到用本机笔记模型润色。还能按 App 设语气，聊天可去句号、邮件保持正式，并学会你纠正过的专有名词。会议模式把麦克风标成「我」、其他 App 声音标成「对方」，再用本机总结待办与决定。Apache 2.0 开源，无账号无订阅，Show HN 拿到二百多票，评论区有人夸 Parakeet 几乎零错。需要麦克风与辅助功能权限，文本默认落在你刚才聚焦的应用；插不进去就进剪贴板。所以呢：别再把「本地口述」当成卖点空话——当场按快捷键念一段，让观众看见文本落进备忘录。",
+      "links": [
+        {
+          "label": "BetterWispr 官网",
+          "url": "https://betterwispr.com/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/opennookorg/betterwispr"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50042333"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "solidcraft-parametric-mcp-cad",
+      "category": "小众工具",
+      "title": "SolidCraft：纯 Rust 参数化 CAD，浏览器能开，代理也能经 MCP 建模",
+      "body": "想改树莓派外壳高度，却被商业 CAD 订阅劝退？SolidCraft 用纯 Rust 做参数化三维 CAD：草图、约束、拉伸抽壳、时间线特征，改一个尺寸就整模重建。桌面有 Windows、macOS、Linux 安装包，也能直接在浏览器里试，无需安装。更刺眼的是内置 MCP 服务器——编码代理可以按同一套建模命令画零件，人机共用一条时间线。作者用演示脚本从空白做出树莓派四代外壳：孔距参数化、阵列支撑柱、开孔通风，再把高度从二十四毫米改到三十二毫米看重建。公开对照件里七十五件体积、面积、质心对齐，状态仍是早期但能做简单件。所以呢：讲「代理会不会做实物」时，别只生成概念图——打开 SolidCraft 让代理改一个参数，看着壳体长高。",
+      "links": [
+        {
+          "label": "浏览器试用",
+          "url": "https://bherbruck.github.io/solidcraft/app/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bherbruck/solidcraft"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50064840"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "blokkily-pattern-daw-mcp",
+      "category": "小众工具",
+      "title": "Blokkily：同一段节奏可在音轨器、钢琴卷帘、步进格三端编辑，还接 MCP",
+      "body": "普通数字音频工作站界面劝退，代理更不知道该点哪一格。Blokkily 把「图案」放在中间：同一段节奏可在音轨器、钢琴卷帘、步进网格之间来回切换，再编排到多条音轨。强制支持 CLAP 插件，也吃 VST3、SoundFont 和内置采样器。演示视频里，代理经 MCP 调用 YANES、FUZZBOI 两台 CLAP 合成器，现场拼出一段芯片音乐，混音台和插件浏览器都在同一屏。作者强调实验性，但 CI 打包了 Linux 与 Windows 发行版，验证会话里能看到八轨编排、变速、采样器和混音台。于是「让 AI 做歌」不再只是文生音频黑盒，而是可检查的工程步骤。对想看「代理到底改了哪一轨」的人来说，这种图案优先的界面比大而全的传统宿主更可读。所以呢：讲音乐代理别只放成品 MP3——让观众看 MCP 在步进格里敲出鼓点，可信度完全不同。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/andrewfader/blokkily"
+        },
+        {
+          "label": "MCP 说明",
+          "url": "https://github.com/andrewfader/blokkily/blob/main/docs/mcp.md"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50064438"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "littleguys-agent-menubar",
+      "category": "小众工具",
+      "title": "littleguys：菜单栏住进一个小人，用聊微信的方式管 Claude 和 Codex",
+      "body": "代理散落在终端标签里，批准命令还要翻到第九个窗格。littleguys 把 Claude Code、Codex、Gemini、OpenClaw、Hermes 等变成通讯录里的联系人：每个人有自己的会话流，工具调用以卡片弹出，一点允许一次、永久允许或拒绝。菜单栏那个小人会表演谁在忙、谁在等你；例行任务可排「早间摘要」「夜里升依赖」，结果掉回线程。它讲的是 Agent Client Protocol，从注册表一键接入，不另开运行沙箱，只是给你已有代理一张脸和一条聊天线。Rust 加 React，Tauri 打包，无账号无遥测，支持苹果芯片和英特尔，也可 Homebrew 安装。同一窗口还能看到家里实验室和笔记本上的家伙，网关在局域网或 Tailscale 上会被自动发现。所以呢：讲「人机协作界面」时，别再秀又一层面板——让小人在菜单栏跳一下，观众立刻懂「代理也该有已读回执」。",
+      "links": [
+        {
+          "label": "littleguys 官网",
+          "url": "https://littleguys.hervalicio.us"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50038883"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "anygrep-embeddinggemma-cpu",
+      "category": "小众工具",
+      "title": "anygrep：终端里按意思搜笔记、PDF 和截图，EmbeddingGemma 2 跑在 CPU",
+      "body": "记得内容却忘了文件名？anygrep 在终端用语义搜索笔记、PDF 文本层和图片，模型是谷歌刚推的 EmbeddingGemma 2（int8 ONNX），全程跑在 CPU，索引留在本地。一条命令：anygrep \"报税截止日\" ~/notes；也能丢一张白板照片找相似截图。首次大约下载三百五十兆模型，索引图片再多约二百兆。结果按意思靠近排序，精确子串会标 exact 提前；弱匹配默认隐藏，近重复文件只显示一次。作者在 Ryzen 7 上测到文本约每秒一千一百 token，单次搜索大约一点五秒，多半花在加载模型。限制也写明：无 OCR，扫描版 PDF 会跳过，Office 文档暂不支持。查询和文档可以跨语言，pipx 或 uv 一条命令就能装，也可 uvx 临时跑。所以呢：讲本地嵌入模型别只转述发布会——当场 anygrep 一句人话，翻出三个月前的截图，比跑分更直观。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kuroko1t/anygrep"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50060267"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "china-factory-holiday-excuse",
+      "category": "小众工具",
+      "title": "中国工厂放假日历：官方休几天、产线真停多久，一眼拆开「年后发货」",
+      "body": "做过跨境供应链的人都收过那封红头《放假通知》。这个站把国务院假期和「工厂现实窗口」拆成两条线：二〇二七年春节落在二月六日，官方大约休八九天，产线扰动却可能从一月下旬拖到三月中旬。站点提供实时是否在休、到货粗算器、可订阅的日历、供应商借口短语表，还有一张「借口宾戈」。注释写得很清楚：日期是认真的，吐槽对准买方自己临期下单。二〇二六年按已公布安排，二〇二七年节日由农历锁定、精确调休待国务院文件。无分析、无 Cookie、无账号。站里还列出广交会、双十一、春运这类「不是法定假、却会拖订单」的现实窗口。所以呢：讲供应链别只会骂「又跳票」——打开这张日历，把「年后发」翻译成具体停工期，内容立刻站得住。",
+      "links": [
+        {
+          "label": "工厂假期站",
+          "url": "https://afterchinesenewyear.pages.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50054095"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "askdown-plaintext-forms",
+      "category": "小众工具",
+      "title": "Askdown：像写 Markdown 一样写问卷，分页跳转校验全在纯文本里",
+      "body": "拖拽表单编辑器又慢又难进版本库。Askdown 把问卷写成纯文本：问号开头是题目，星号表示必填，圆括号是单选、方括号是多选，箭头可以跳到某一页，数字量表、评分和文件上传也能用属性写清。规范开放（CC BY 4.0），配有 JSON Schema；@askdown/core 零依赖解析，@askdown/html 渲染可访问页面。可本地试，也可邮箱登录托管收集并导出 CSV。作者挂上 askdown.dev，强调「餐巾纸大小的语法就够用大多数表」。于是表单终于能 diff、能评审、能让代理生成后你还能读懂。题型覆盖短答、段落、邮箱、日期、下拉、量表、排序和网格，分页与确认文案写在文件头即可。所以呢：讲「文档即配置」时，别只提基础设施——用 Askdown 写三道题现场渲染，观众立刻明白表格也能进 Git。",
+      "links": [
+        {
+          "label": "Askdown",
+          "url": "https://askdown.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50066372"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "guides-show-portable-html",
+      "category": "小众工具",
+      "title": "guides.show：代码走查导出成单个 HTML，链接里的密钥服务器永远看不见",
+      "body": "Pull Request 太大，文字评论对不齐文件。guides.show 把「引导式走查」做成可寄出的文件：按重要性分章，每章有短述和相关改动，导出是一个 HTML。可用 plannotator-guide 技能让编码代理从分支、PR 或提交生成；Plannotator 用户也能下载便携版。上传到该站时在浏览器里加密，密钥留在链接的井号后面——浏览器不会把井号后内容发给服务器，主机只存自己解不开的字节。查看器版本钉在 /v1/，旧指南明年还能用同样方式打开。作者称灵感来自 Linear 的 Guided Review，并开源了替代实现。站点也提供真实样例：一个五章的修 bug 走查，和一个一百二十五个文件的大功能分支。所以呢：讲代码评审体验时，别只抱怨评论区混乱——寄一份加密指南链接，让对方按章节把一百多个文件看完。",
+      "links": [
+        {
+          "label": "guides.show",
+          "url": "https://guides.show/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50060644"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "freeaiwiper-local-metadata",
+      "category": "小众工具",
+      "title": "Free AI Wiper：在浏览器里抹掉 C2PA 等 AI 溯源元数据，像素不动",
+      "body": "图看起来一样，平台却标了 AI 生成。Free AI Wiper 在本地检查并移除可识别的溯源信息：Content Credentials、C2PA、生成器记录、部分 XMP 等，也可选清私人元数据。演示页左右像素完全相同，只改容器里的便携证明。支持常见图片、部分音视频与文本里的隐藏 Unicode；强调不上传、不重新压缩可见画面，输出前会再检查一遍。站点也写清边界：清干净不等于证明是人画的，更不保证社交平台不再贴标，也动不了嵌进波形里的水印。音频路径宣称尽量保留原始采样字节只清标签；对 SynthID 一类嵌入水印它明确说清不了。所以呢：讲「AI 标注从哪来」时，别阴谋论——拖进一张带凭证的图，当场对照前后检验面板，科普一次就够。",
+      "links": [
+        {
+          "label": "Free AI Wiper",
+          "url": "https://freeaiwiper.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50056263"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-12",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
+    {
+      "id": "rezoom-claude-sessions",
+      "category": "小众工具",
+      "title": "Rezoom：把本机所有 Claude/Codex 会话收成聊天列表，一眼找回",
+      "body": "Linux 上开了七八个 Claude Code，SSH 和 tmux 再叠一层，窗口标题都救不了你。Rezoom 是原生 C++/Qt6 客户端：读取 Claude 自己的会话注册表，把每个会话显示成聊天——工作中、等你、卡住、额度冻住都有颜色，并带实时标题和最新输出。能把别的 Konsole 窗口里的会话「吸」进来继续跑，也能扫远程主机上的 claude/tmux 一并接管；断线只在你点重连时发生。支持多 Claude 账号标签、冻结检测钩子、一整套键盘快捷键。完全本机，不调外部 API。Debian 系可装 deb。可选安装通知钩子，额度冻结时会话变红并显示恢复时间；布局和浮动窗会在重启后保留。所以呢：讲「会话失控」别只骂产品——打开 Rezoom 的在线列表，让观众看见橙色转圈和红色额度在同一屏打架。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/BEX-Robotics/rezoom"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50041068"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-11",
+      "added": "2026-10-13T15:10:00+08:00"
+    },
     {
       "id": "anthropic-iot-worm-tvbox",
       "category": "硬科技",
