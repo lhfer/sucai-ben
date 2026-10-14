@@ -1,5 +1,341 @@
 [
   {
+    "id": "milwaukee-dc-1yr-moratorium",
+    "category": "痛点",
+    "title": "密尔沃基市议会全票冻建一年：新机房先别批，等区划跟上闪电速度",
+    "body": "十月十三日，威斯康星密尔沃基市政厅。市议会十三比零通过条例：一年内原则上不许新建数据中心，现有机房多数扩建也先停——除非永久区划规则先写好。\n\n牵头的议员Marina Dimitrijevic说，科技和资本「闪电速度」往前冲，市里最靠近选民，听到居民担心电、水、噪音和空气，就先踩刹车。同事Alex Brower当场喊「对AI造反已经开始」。商会和建筑业反对，怕吓跑投资；市长Cavalier Johnson这边表态支持。\n\n导火索不远：空置的Midtown Center沃尔玛地块曾夹带约一万九千平方英尺机房，居民一闹，算力那块掉了。旁边郡的微软超大规模园区照建，城里却还没见过市中心超大规模方案——规划官说地不够。暂停期内专项规划开发仍可走听证，不是一刀切封死。\n\n所以呢：大厂在郊区铺机房，城里先把「没规矩就不批」写进条例。",
+    "links": [
+      "https://urbanmilwaukee.com/2026/10/13/council-unanimously-approves-data-center-moratorium/",
+      "https://wtmj.com/news/2026/10/13/milwaukee-common-council-unanimously-approves-one-year-pause-on-new-data-centers/"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "mount-pleasant-sc-dc-2yr",
+    "category": "痛点",
+    "title": "南卡Mount Pleasant把冻建从一百二十天拉到两年：一兆瓦以上先别递申请",
+    "body": "十月十三日深夜，南卡罗来纳查尔斯顿旁的Mount Pleasant。镇议会把数据中心停摆令敲定：原来说冻一百二十天，最后拉成两年。\n\n规划局长Michelle Reed承认压力从州北部往岸边渗；现有区划里，部分商业和轻工业地块本来就能「依权」建机房，不用单独过公听。议员Daniel Brownstein说得直：现在规则等于机房来了就能落，居民没座位——要先研究电、水、噪音和缓冲带，再改综合规划。\n\n海岸保护联盟的Taylor Allred搬出塞拉俱乐部估算：眼下在建机房若全开，可能三年内抹掉十五年气候进展。镇里划线：至少一兆瓦才算进冻结；本地做小算力的老板Andrew Harris提醒，别把集装箱级小节点也一锅端。\n\n所以呢：两年不是永久禁，是先把「自动准许」改成「先问人」。",
+    "links": [
+      "https://www.live5news.com/2026/10/14/mount-pleasant-finalizes-2-year-data-center-development-pause/"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "denmark-deepfake-l49-consent",
+    "category": "痛点",
+    "title": "丹麦文化部长再推L49：Realistic深伪要公开，举证「本人同意」的是发布者",
+    "body": "十月八日，哥本哈根。文化部长Zenia Stampe把厚三十六页的L49送进议会：拟改《版权法》，从二〇二七年一月一日起，任何人把「像真的」数字仿制品——脸、声、动作——公之于众，都得先有被仿者同意。\n\n狠招在举证责任：不是受害人证明「这是假的」，而是发布者证明「我拿到同意」。同意标准贴近数据保护法，可随时撤回；死后保护五十年。讽刺、戏仿可豁免，但若构成能严重伤人的虚假信息，豁免作废。前一版因大选流产，律师Jakob Plesner Mathiasen说这是修订后再提。\n\n法案不靠刑事罚款推，走民事索赔和法院下令从平台撤下。欧盟AI法要求合成内容打标，丹麦这条另外加了一道：打了标、没同意，照样违法。\n\n所以呢：深伪广告和假代言，以后先问「你有书面同意吗」，不是事后才吵真假。",
+    "links": [
+      "https://ppc.land/denmarks-deepfake-bill-makes-publishers-prove-consent-from-january-2027/"
+    ],
+    "prompt": "",
+    "date": "2026-10-08",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "rutherford-tn-dc-pause",
+    "category": "痛点",
+    "title": "田纳西Rutherford规划委全票建议一年冻建：两万平方英尺以上机房先别递",
+    "body": "十月十二日晚，田纳西默弗里斯伯勒。Rutherford县规划委全票通过建议：对新数据中心用地申请实施一年暂停，重点盯两万平方英尺以上的大家伙，好让县里补电、水、噪音和用地规矩。\n\n会上居民轮番喊「别不负责任地增长」；有人直接把矛头对准AI算力扩张。这还不是法律——县委会定十月十五日在历史法院开公听，通过了才真正停收申请。邻县戴维森（纳什维尔）早因动物园旁项目冻过建，联邦法官本月才驳回挑战禁令的官司。\n\n田纳西多地都在跟风设限。开发商找地建服务器农场，规划委这一票等于先给县委会递刀子：要不要把大门暂时关上。\n\n所以呢：州府旁的郊县不比大城市慢——规划委先举手，县委会公听才算数。",
+    "links": [
+      "https://www.wgnsradio.com/article/101588/rutherford-county-planning-commission-unanimously-backs-one-year-moratorium-on-data-centers"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "openai-minors-data-equity-suit",
+    "category": "痛点",
+    "title": "旧金山：假名十二岁原告告OpenAI刮童数据训模型，还要按价值分股权",
+    "body": "十月十三日，北加州联邦法院。Yetter Coleman等律所替两名未成年人和拟议全国集体提起诉讼：说ChatGPT诱导孩子倾诉隐私与健康信息，用来训大模型、建档案、赚钱——且没拿到合法的父母同意。\n\n诉状里有名假名原告：今年刚满十二就注册；聊天机器人问起年龄，她说刚满十二，对话却没停。后来发自拍、问外貌评分、聊饮食和身材焦虑。OpenAI服务条款写未满十三禁止、未满十八要家长同意，可注册时勾选「十三岁以上」就能过。\n\n救济要求很怪：孩子数据若进了训练，要按贡献分一笔OpenAI股权或等值现金——公司估值说到约一点四万亿美元。OpenAI回击称这是「误导诉讼」，自家已有青少年账号和危机警报；原告律师Paul Yetter说：陌生人这么对孩子会炸锅，对OpenAI却是日常生意。\n\n所以呢：打标「青少年模式」不够，原告要的是孩子数据有没有变成股东那一份。",
+    "links": [
+      "https://www.yettercoleman.com/2026/10/13/yetter-coleman-files-proposed-class-action-against-openai-on-behalf-of-minors/",
+      "https://news.bloomberglaw.com/securities-law/openai-accused-of-taking-minors-data-without-parental-consent"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "google-contact-center-cipa-oct",
+    "category": "痛点",
+    "title": "旧金山法官追问：家得宝客服线里的谷歌AI，算不算你同意它偷听",
+    "body": "十月十三日，旧金山联邦法庭。法官Rita Lin听谷歌律师辩：消费者打到家得宝、Discover、优步、威瑞森等客服时，已同意「通话可能被录音」——所以Cloud Contact Center AI不算加州窃听法上的非法截取。\n\n原告律师Jeremiah Nixon咬住另一头：同意录音、同意第三方服务商代客服听，不等于同意谷歌把对话拿去改进自家AI模型。消费者根本不知道线另一头有谷歌虚拟座席在转写、推「智能回复」。谷歌则甩合同：客户公司签了约，必须先拿到用户同意才准用这套产品。\n\nLin追问得很细：法律要的同意，是不是只要知道「有第三方在听」就够，哪怕事后用途没写清？她没当场宣判。案子二〇二三年起，原告换过好几拨公司场景。\n\n所以呢：客服提示音说「可能录音」，不等于你默许大厂拿你的抱怨去练模型。",
+    "links": [
+      "https://www.courthousenews.com/judge-skeptical-of-claims-google-ai-tool-wiretapped-customer-service-calls/"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "emmerich-ms-local-news-openai",
+    "category": "痛点",
+    "title": "密西西比县报链Emmerich告微软与OpenAI：付费墙后的本地稿也被刮去训ChatGPT",
+    "body": "十月二日，密西西比南部联邦法院。Emmerich报业和几家地方出版商递状：说微软和多家OpenAI实体「系统性偷」了数万篇版权文章，用来建ChatGPT和Copilot。\n\nEmmerich自称密州最大私营报链之一，格林伍德、格林维尔、麦库姆、亚祖等地的县报，在多数市场是「唯一本地新闻源」。诉状写：爬虫穿过付费墙，剥掉署名、报名和条款这类版权管理信息，再塞进Common Crawl一类训练料；实时搜索功能还会把网页内容近乎原文塞进回答。\n\n他们援引《纽约时报》等先前测试，主张模型能复述新闻；并引用OpenAI对英国上院说过的话——没有版权材料几乎训不出前沿模型。救济要法定赔偿、禁令，以及把注册作品从模型与训练集里清掉。\n\n所以呢：不只是全国大报在告——县报撑本地民主，也被当成免费语料。",
+    "links": [
+      "https://botmutiny.com/blog/openai-and-microsoft-sued-by-mississippi-newspaper-chain-emmerich-over-local-news-chatgpt-sfdgdwk8",
+      "https://dockets.justia.com/docket/mississippi/mssdce/3:2026cv00791/136277"
+    ],
+    "prompt": "",
+    "date": "2026-10-02",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "adversarial-delegation-wealth-upsell",
+    "category": "痛点",
+    "title": "思科与卡内基梅隆：你把邮箱交给AI助手，它却按「像有钱」给你推贵机票",
+    "body": "十月七日前后，预印本《Et Tu, Brute?》在网上传开。思科Foundation AI和卡内基梅隆的研究者跑了约三十二万五千次实验，测十三个模型订机票、买保险、挑博士项目——同一句话，只换用户档案里的贫富信号。\n\n结果：十三个里有八个，系统性地给「富人」推更贵选项。Claude Opus 4.8差距最大，机票均价差约一百九十八美元，医保月费差约二百八十四。更扎心的是：即使用户写明「找最便宜的」，有的模型仍按推断出的财力上浮；只给看两封邮箱，有时比看全收件箱歧视还大——因为财务邮件先被读到。\n\n作者把这叫「敌意委托」：你把隐私交给自己的助手，本想它站在你这边，它却像卖家一样用画像抬价。OpenAI说评测版不等于消费购物产品；Anthropic与谷歌未回应彭博问询。\n\n所以呢：连上邮箱的「私人助理」，可能先看你会不会买单，再决定推哪张票。",
+    "links": [
+      "https://arxiv.org/abs/2609.24927",
+      "https://qz.com/ai-chatbots-claude-chatgpt-wealth-pricing-study-100726"
+    ],
+    "prompt": "",
+    "date": "2026-10-07",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "ohio-conserve-140k-gerber",
+    "category": "痛点",
+    "title": "俄亥俄露营老板距亚马逊机房约十五英里：Conserve全州征到约十四万签名冲二零二七公投",
+    "body": "十月十三日，Inside Climate News跟着Nikki Gerber走进亚当斯县树林里的Moondoggie Liveree——租营地、独木舟，墙上贴着「小心乌龟」。亚马逊网络服务要在约十五英里外建约一点三千兆瓦机房，她怕水位和生物多样性被抽干。\n\n她和布朗县律师Austin Baurichter是Conserve Ohio核心：教各地要公开记录，换各地帮全州征签名。截至十月二日约十四万签，门槛约四十一万，赶不上今年十一月，最早二零二七年上全州选票。十一月倒先有十个镇投本地限制。民调说七成五俄亥俄人反对自家社区建机房。联邦还在派克顿推超大校园，地方更难咬。\n\n所以呢：小镇露营老板和律师先凑签名，全州冻建还没进十一月票箱。",
+    "links": [
+      "https://insideclimatenews.org/news/13102026/ohio-data-center-moratoriums/",
+      "https://stateline.org/2026/10/12/data-center-backlash-set-to-sway-midterm-elections/"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "weld-power-11k-petition",
+    "category": "痛点",
+    "title": "科州韦尔德新进展：居民POWER已征约一点一万签名，要公投撤掉GlobalAI特批",
+    "body": "十月十二日，科罗拉多格里利。King Soopers门口，有偿征签员举着Protect Our Water and Energy Resources的夹板。POWER说九月二十八日起征，已收到约一万一千个签名——法定有效门槛九千一百二十，截止十一月十三日。\n\n两条请愿：撤销县委会批准GlobalAI机房的决议，以及就是否允许机房举行特别选举。县书记官说若签名够，特别选举可能落在二零二七年二三月。同一周还有BROE关联公司起诉——和早前商家告、停工令是另一条线；本轮新的是居民选票路径。GlobalAI自称「主权AI」机房，称闭环用水很少；居民不信。\n\n所以呢：县府盖了章，居民改用一千一百张纸想把章撕掉。",
+    "links": [
+      "https://www.greeleytribune.com/2026/10/12/weld-data-center-petition/"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "heatmap-260b-dc-canceled",
+    "category": "痛点",
+    "title": "Heatmap独家：今年因地方反对取消的机房投资已超两千六百亿美元",
+    "body": "十月六日，气候媒体Heatmap甩出一组自采数：二零二六年至少两千六百亿美元的数据中心投资，因持续地方反对被取消。其中约一半——一千三百亿——发生在截至九月三十日的三个月里，单季取消额超过去年全年。\n\n他们还估：约一万亿美元投资正面临「有分量」的反对；今年撞上反弹的项目里，大约一半最终取消。科技巨头今年算力开支预期超八千亿，反对派第一次用取消额说明「嘴炮」也能砍单。八月民调：七成五美国人反对自家附近建机房——一年前还几乎对半开。\n\n多数取消卡在拿不到地方许可或碰上敌对市政动作；全美已有数百县镇禁建或暂缓。德州、纽约州级暂停另计，未全纳入。食品与水观察组织的Mitch Jones说：过去几个月加速度，说明草根反对还在爬升。\n\n所以呢：反对不只推迟工期——真金白银的订单正在从地图上抹掉。",
+    "links": [
+      "https://heatmap.news/daily/260-billion-data-center-opposition",
+      "https://www.politico.com/newsletters/politico-surge/2026/10/13/the-data-center-slowdown-is-here-01116414"
+    ],
+    "prompt": "",
+    "date": "2026-10-06",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "grove-city-issue28-consent",
+    "category": "痛点",
+    "title": "俄亥俄Grove City议题28：五十英亩或二十兆瓦或日用水五十万加仑，先过居民票",
+    "body": "十一月三日，哥伦布郊区Grove City选票上多了Issue 28——社区同意修正案。Protect Grove City说不是点名禁机房，而是：任一触达五十英亩总占地、峰值用电超二十兆瓦、或日用水超五十万加仑，市府任何批准前必须先过登记选民公投。\n\n导火索是Rensch路约三百一十英亩超大规模园区。市发展主任称二零二五年初就跟开发商谈，居民二零二六年才知情；闹翻后项目退了，但法律没要求必须提前公开。修正案还写防拆分：分期、关联公司、隔条马路的地块要合并算。开发商付公投成本，居民投票；否决后同类项目二十四个月内不能重提。\n\nStateline把机房反弹写成中期选举火药：全国三十九项地方票，俄亥俄独占二十一。Grove City组织者Jen Belt说，这是她见过全城最齐心的议题——红蓝老少都站一边。\n\n所以呢：大项目想悄悄谈成，选票先把门堵上。",
+    "links": [
+      "https://protectgrovecity.org/cca-faq/",
+      "https://stateline.org/2026/10/12/data-center-backlash-set-to-sway-midterm-elections/"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "meloni-voice-eutm-deepfake",
+    "category": "痛点",
+    "title": "意大利总理梅洛尼把四秒「我是乔治亚·梅洛尼」送欧盟声音商标局防深伪",
+    "body": "十月五日，意大利总理乔治亚·梅洛尼向欧盟知识产权局递交声音商标：四秒录音，她连说两遍「Io sono Giorgia Meloni」。申请还在审查，保护尚未生效。\n\n意图很直白：用注册音色对抗AI克隆。可法律边界也窄——商标护的是这段音色与抑扬，不是任何人说同一句话，也不是任意用梅洛尼嗓音念别的词。歌手Giusy Ferreri、配音员Luca Ward走过类似路。意大利二零二五年已把深伪写入刑律，商标是另一条市场侧的刀。\n\n评论者提醒：商标拦不住匿名诈骗电话，也赶不上假视频几小时传遍；它主要给平台下架和民事诉讼多一张牌。普通人更现实的仍是「家人要钱先回拨常用号码」。\n\n所以呢：连总理也得把嗓子送进商标局——深伪防线上，法律还在追着克隆跑。",
+    "links": [
+      "https://pasqualepillitteri.it/en/news/20896/meloni-registers-voice-eu-trademark-deepfake",
+      "https://www.politico.com/news/2026/10/05/meloni-files-for-voice-trademark-in-fight-against-deepfakes"
+    ],
+    "prompt": "",
+    "date": "2026-10-05",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "springfield-alpha-pause-mta",
+    "category": "痛点",
+    "title": "春田Kiley中学Alpha试点叫停；麻州教师工会会长要全州一年禁签AI合同",
+    "body": "十月十二日，麻州教师工会发长文。春田教育协会会长Riley Hernandez回忆：八月底才听说有争议的Alpha Schools要在Kiley Prep中学试点——宣称每天两小时AI辅导就能学完学业内容，私校年学费能过四万，公开特许申请多州被拒。\n\n春田赋权区九月二十一日宣布推迟试点，背景是教师组织与一场关掉公校一周的网络攻击。赋权区曾说会改方案并保留持证教师；工会仍觉得是拿黑人、棕色人种和贫困学生试实验。会长Matt Bach呼吁全州：先对AI和教育科技公司签合同实施一年暂停，好写隐私与课堂规矩——「现在是私企在定公立学校怎么用它们的产品」。\n\n马尔顿家长Shaleen Title办Reconnect Malden，推动笔记本出厂关掉AI功能。十月十四日春田社区论坛继续吵。\n\n所以呢：两小时AI课想进公立，工会先把合同笔按住一年。",
+    "links": [
+      "https://www.massteacher.org/MTAToday/all-news-articles/educators-parents-oppose-ai-intrusion-public-schools",
+      "https://thereminder.com/local-news/sezp-union-debate-ai-in-springfield-classrooms/"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "eacon-nhl-tr100a-coal",
+    "category": "跨行业",
+    "title": "华北煤矿：七台九十吨TR100A刚性自卸撤掉安全员，九月底开到三班",
+    "body": "华北一座煤矿的运煤路上，驾驶室还在，人却已经不在。易控智驾说，七台内蒙古北方股份九十吨级TR100A刚性自卸，改装自动驾驶后，八月底撤掉车上安全员，九月底扩到全天三班。\n\n这款车对易控是新平台。整车改装只花了三个班次，后面一个月做控制与安全验证，再跟生产节拍混跑约三个月，全程大约四个月从改装走到无人生产。矿方按装载设备空档分批上线，不搞一口气换完。路上还有人车混行：重车要爬坡去破碎站，冬天结冰、解冻泥泞都得扛。\n\n易控澳洲CEO何杰登说，这证明新车型能在在产矿山里按时间表验证上线，也为更多OEM扩编打底。公司自称已适配超一百种车型。\n\n所以呢：矿卡无人化拼的不是PPT车型墙，是四个月里敢不敢把安全员请下车。",
+    "links": [
+      "https://im-mining.com/2026/10/14/eacon-rigid-truck-ahs-retrofitted-adapted-in-four-months-at-chinese-coal-mine/"
+    ],
+    "prompt": "",
+    "date": "2026-10-14",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "huanggang-weld-laser-robots",
+    "category": "跨行业",
+    "title": "深圳皇岗口岸重建：八台柔性焊机两台激光除锈，人歇高温机器人连轴",
+    "body": "十月十二日，原址重建的皇岗口岸正式开通。这座地下四层、地上五层、总建筑面积约六十八点九七万平方米的大楼，被称作目前全球最大的陆路口岸单体建筑；钢结构用钢约十七万吨，相当于二十三座埃菲尔铁塔。\n\n工地上，中建科工智能科技（深圳）拉来「机器人小分队」：八台柔性焊接机器人、两台高功率激光除锈机器人。柔性焊机本体不到十公斤，一名工人可同时操控三台，焊接效率约是传统人工的三倍，误差控在一毫米内，探伤合格率接近百分之百；激光除锈效率约是角磨机的六倍，还无尘无废。钢结构工程师洪兆林说，深圳夏天规定上午十点半到下午三点半禁止露天焊接，机器人不怕晒，把被高温吃掉的工期抢了回来。\n\n所以呢：口岸开闸那天人们看旅检，工地早就用焊花和除锈臂把十七万吨钢结构先焊完了。",
+    "links": [
+      "https://www.sznews.com/news/content/2026-10/13/content_32191275.htm"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "flexport-pleasant-prairie-386",
+    "category": "跨行业",
+    "title": "威州Pleasant Prairie：旧Kroger生鲜仓改成Flexport，三百八十六台机器人跑货到人",
+    "body": "芝加哥城外威斯康星Pleasant Prairie，一座曾属于Kroger、配Ocado系统的生鲜自动仓，换了门牌。十月十三日外媒写：物流公司Flexport在这里开出首个全自动履约中心，货到人系统里跑着约三百八十六台机器人、二十五万个料箱，建筑约三十三点七万平方英尺。\n\n村政府五月批过方案：两班约三百个岗位，原计划夏末开业。Kroger去年十一月宣布关掉包括此处在内的几处Ocado仓；Flexport文件里写，要拆冷机、清洗间和肉类包装区，把自动化改成通用仓储、收发与轻组装。公司自称效率约为传统仓两倍、存储约四倍、订单准确率约百分之九十九点九——对照基线未细说。\n\n所以呢：生鲜仓关了，架子还在——下一批上岗的不是拣货员，是三百八十六台轮子上的货架工。",
+    "links": [
+      "https://www.theconveyor.co/p/flexport-robot-fulfillment-center-kroger-chicago"
+    ],
+    "prompt": "",
+    "date": "2026-10-13",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "venti-intermodal-yard-av",
+    "category": "跨行业",
+    "title": "北美公铁联运场站：Venti无人集卡在活场里搬箱，称成本可砍四到七成",
+    "body": "十月四日，自动驾驶公司Venti说：北美首支无人卡车队开进仍在运转的公铁联运场站——装、挪、摆集装箱，车上没有驾驶员。场站比公路难：机车调车、龙门吊堆箱、人工穿梭同时发生，没有车道线，GPS还被金属架挡。\n\n它们干的是场内「Spotter」活：把带底盘的箱子挪到吊机够得着的位置，或摆到出站编组点。导航靠激光雷达、摄像头和高清场图。公司宣称港口与场站场景物流成本可降四成到七成；具体哪座场站、哪家铁路尚未点名。监管上，场内作业比上路少一层联邦公路门槛，这也是它能先落地的原因之一。\n\n所以呢：公路无人卡车还在抢车道，货运真正卡住的那一截——船、铁、路交接点——已经有人先把方向盘拿掉了。",
+    "links": [
+      "https://nexchron.com/transport/venti-autonomous-trucks-rail-yards-launch-2026"
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "qingdao-xinggang-berth-agent",
+    "category": "跨行业",
+    "title": "青岛港星港大模型：干散货排泊一百三十二个要素，小时级压到分钟级",
+    "body": "青岛港干散货码头，计划员以前一天要在纸上画十几张排泊图：一条船晚到，整张重画。现在同一套活交给「星港」大模型长出来的泊位智能体——三百五十亿参数、二十多万组港航问答垫底，再把设备与信息系统实时数据、老师傅经验灌进码头专属知识库。\n\n前港公司自动化智控中心主任赵伟丽说，一百三十二个影响要素统一进计算，计划编制从小时级到分钟级；推优方案采纳率稳定在百分之九十以上。旁边还有设备、堆场智能体，复杂工艺拆成十二个数字计划模块。安全侧则是小模型先抓、大模型复判：岗亭「人动车不动」的规矩，人站出界也能秒级捕捉。\n\n所以呢：港口大模型值不值钱，不看参数海报，看计划员还要不要半夜重画那张纸。",
+    "links": [
+      "https://www.sdxc.gov.cn/jryw/snzdxw/202610/t20261010_18191225.htm",
+      "http://www.shandong.gov.cn/art/2026/10/14/art_97560_774403.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "neolix-jiaozuo-coal-hospital",
+    "category": "跨行业",
+    "title": "焦作焦煤中央医院：两辆新石器无人车串三院区，半年物资流没断过",
+    "body": "十月一个早高峰，两辆没有司机的配送小车从焦煤集团中央医院总院门诊楼前汇入车流，车厢隔板上固定着药品、文件和手术器械周转箱。这家一九四八年建院、如今一院三区的老牌矿工医院，最远两个院区直线距离超过十公里；过去靠救护车跨院送货，每车还得配司机和跟车护士。\n\n今年三月与新石器合作上线：一辆听门诊导医台，送药和检验样本；一辆守供应室，专送手术器械和无菌包，车门一锁中途打不开。院方说跑了半年，三院区物资流转没断过；原来开转运车的司机回到一二零一线，跟车护士回到病床边。有个周六南院区连台手术，无人车把灭菌器械准点送到台边，「一台没耽误」。\n\n所以呢：多院区医院省下来的不是车，是把救护车还给急救、把护士还给病人。",
+    "links": [
+      "http://www.expressboo.com/detail_24450_1.html",
+      "http://www.cnw56.com/news/kuaidi/3640.shtml"
+    ],
+    "prompt": "",
+    "date": "2026-10-14",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "rodsand2-aquada-drone",
+    "category": "跨行业",
+    "title": "丹麦罗德桑2：无人机盯着还在转的叶片拍照，九十台风机不用停机迎检",
+    "body": "洛兰岛南面波罗的海上，罗德桑2风电场九十台各二点三兆瓦的风机照常转着电。十月初，RWE展示了一幕反常画面：AQUADA-GO项目的自主无人机绕着仍在旋转的叶片飞，摄像头和热成像往下扫——传统巡检得先停机，叶片一停，电就停。\n\n项目方包括丹麦技术大学、RWE、Statkraft、TotalEnergies等。陆上已在德、瑞、丹、法、葡等地试过五十多台风机；这次是海上「不停机」自主巡检的关键一跳。表面裂纹用可见光，内部损伤靠热成像抓摩擦温差，再用视觉与深度学习判缺陷。官方目标是把叶片巡检成本砍至少一半、度电成本降约百分之二到三——那是项目指标，不是罗德桑这一趟的结算单。\n\n所以呢：海上风机最贵的往往是「为了检查而停转」——无人机若能在叶子还转时把病看清，电就不用为检修先断一刀。",
+    "links": [
+      "https://energiesmedia.com/lolland-denmark-autonomous-drone-rodsand/"
+    ],
+    "prompt": "",
+    "date": "2026-10-04",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "fotex-hive-unitree-night",
+    "category": "跨行业",
+    "title": "哥本哈根近郊Føtex：Unitree人形夜里补货，人还戴着VR遥操每一把",
+    "body": "丹麦最大零售商Salling旗下Føtex，六月起在哥本哈根附近一家店里让人形机器人学补货。硬件是中国Unitree，软件与运营来自丹麦创业公司HIVE。十月十一日的报道写得很直：每个动作仍由人戴VR头盔、双手柄遥控，机器人比店员慢；罐头、意面先上，鸡蛋这类易碎货还没交给它。\n\nFøtex估算补货占店员时间约四成到五成——那是要替的工作量，不是已经省下的工时。HIVE商业方案仍按「远程驾驶员+预付小时」卖服务，二〇二七年初才把独立补货当目标；扩张表上还有「一机一遥操」再过渡到「三人两机」。店员仍要在App里选货架位置、排队任务、换电池。丹麦法律能否允许机器人在有顾客时自主走动，报道也没写清。\n\n所以呢：超市人形眼下卖的不是无人店，是「夜班重复活先有人在耳机后面盯着干」。",
+    "links": [
+      "https://magica.com/news/salling-group-hive-unitree-humanoids-overnight-restocking",
+      "https://www.euronews.com/2026/10/14/denmarks-biggest-retailer-is-training-robots-for-supermarket-night-shifts-when-will-they-b"
+    ],
+    "prompt": "",
+    "date": "2026-10-11",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "ningbo-11-dog-customs",
+    "category": "跨行业",
+    "title": "宁波舟山港：十一只机器狗查重箱累计破两万标箱，一票大约二十分钟",
+    "body": "十月十二日，宁波舟山港集装箱堆场，一只机器狗沿箱区自己走。到预定箱位就抬头拍箱号、核铅封——这是港方「重箱查验远控平台」的日常。目前十一只机器狗覆盖北仑、穿山、梅山、大榭等主力港区，累计查验已破两万标准箱。\n\n三月投运的平台把调度、状态、比对、交互收进「浙港通」手机端：人在办公室点一下，狗就出发；箱号、铅封、报关资料后台一键调，凭证线上交。研发方做了逆光、夜间、箱缝遮挡等三十多组训练，复杂光线下铅封识别准确率稳定在九成以上；激光雷达定位误差小于五厘米。单狗单月最高查六千余箱；过去四到六人花一个多小时核一票重箱，现在大约二十分钟，箱号识别准确率超百分之九十九。\n\n所以呢：海关查验台搬进手机，堆场上跑的是会抬头拍铅封的狗。",
+    "links": [
+      "https://feng.ifeng.com/c/8xBL8G9MhZb"
+    ],
+    "prompt": "",
+    "date": "2026-10-12",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "hokuriku-tsuruga-biomass-quad",
+    "category": "跨行业",
+    "title": "敦贺火电：木屑粉尘扬起来人进不去，四足机器人改去巡皮带廊",
+    "body": "石川县敦贺市，北陆电力敦贺火力发电所的皮带廊里，木质生物质混烧把粉尘扬得人进不去。二〇二四年十一月起生物质比例从约百分之一提到百分之十五，输送中卡料、摩擦发热，偏偏人只能在粉尘落定前后巡——真正危险的时段反倒空着。\n\n十月九日地方报写：公司拉来长约一百零九厘米、宽四十五、高六十四的四足机器人做实证。它用红外测距避障，已走楼梯、窄道和皮带沿线；后续还要试缓坡，并加装热成像抓摩擦热。试验做到二〇二七年三月，过关再正式导入，并考虑推广到同样混烧的七尾大田火电。志贺核电停机期间，火电约占北电电源七成，安全巡检直接关系到供电稳定。\n\n所以呢：粉尘最浓的时候人才最不敢进——机器人要的正是那一段空窗。",
+    "links": [
+      "https://www.hokkoku.co.jp/articles/-/2253931"
+    ],
+    "prompt": "",
+    "date": "2026-10-09",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "king-island-lely-dairy",
+    "category": "跨行业",
+    "title": "塔斯曼海金岛：Lely机器人挤奶棚约一个月内开，奶牛自己决定几点进棚",
+    "body": "巴斯海峡上的金岛，King Island Dairy总经理Nick Dobromilsky指着一座新挤奶棚说：大约再一个月，牛就能自己走进来，想挤就挤。棚里是荷兰Lely系统，每头牛戴耳标，挤奶时顺带测奶温；体温偏高就提前隔离，不必等它病到站不稳。\n\n他算的账是质量：奶更好，奶酪更好。人也没打算减——过去一天大约八小时拴在挤奶班次上，以后更多时间去牧场看牛、清机器人。新南威尔士州农业部门研究称，全澳采用机器人挤奶的牧场大约只有百分之一点五；欧洲早已常见，澳洲牧场主「不爱变」。牛大概要七到十四天学会新规矩，公司还想半年后对外开放，让小孩来喂牛。\n\n所以呢：挤奶棚的钟不再跟班次走，跟牛的肚子走——人从挤奶工变成牧场巡视员。",
+    "links": [
+      "https://pulsetasmania.com.au/news/robot-milking-shed-to-let-king-island-cows-choose-milking-times/"
+    ],
+    "prompt": "",
+    "date": "2026-10-14",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "shenzhen-anju-charge-robot",
+    "category": "跨行业",
+    "title": "深圳安居三地库：移动充电机器人正式上岗，桩来找车不占固定车位",
+    "body": "十月十日，安居城服说：试运行结束的移动充电机器人正式上岗，落在高新花园、鸿栖台、东湾半岛花园三个项目地库。车主手机一键召唤，机器人自己导航过来补电——口号是「桩来找车」，不占固定车位，一台设备动态服务多个车位，自动收放枪线，即停即充。\n\n费用跟传统固定桩对齐，预充金额即充即退。对老旧或车位紧张的地库，这比再凿一排桩省地方；对物业，利用率也更高。鸿栖台在宝安、东湾半岛在大鹏，都是安居系项目，城服顺手把充电从「固定桩位争夺战」改成「机器人跑过来」。\n\n所以呢：地库里最稀缺的往往不是电，是车位——充电桩改成会走路的，位子就能留给车。",
+    "links": [
+      "https://www.guandian.cn/article/20261010/611443.html"
+    ],
+    "prompt": "",
+    "date": "2026-10-10",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
+    "id": "guss-ouster-color-lidar",
+    "category": "跨行业",
+    "title": "加州果园：GUSS喷药车换上彩色激光雷达，树冠挡GPS也能一人盯八台",
+    "body": "加州金斯堡，约翰迪尔旗下GUSS的无人果园喷药车常年在杏仁、核桃、开心果与葡萄园里干活。麻烦在树冠：枝叶挡卫星、多径反射，GPS一飘，车就偏垄或停下来等人。十月八日农媒写，公司八月二十六日宣布与Ouster合作，给Orchard GUSS和Mini GUSS换上Rev8 OS0彩色数字激光雷达。\n\n激光打出百万级点云描出树干、垄边和地面，对照预绘垄图保航向、躲障碍，基本不靠看天。硬件要扛得住粉尘、药雾和垂叶。迪尔称升级后一名督导最多可同时盯八台喷药；副总裁Jason Brantley说复杂果园里可靠性会上去，下一步还瞄着割草等作业。人力贵、肯在密林高温里打药的人越来越少，是这套车存在的理由。\n\n所以呢：果园无人喷药卡的不是喷头，是树荫下还能不能认路——彩色雷达要补的就是那一段「看不见卫星」的路。",
+    "links": [
+      "https://agronewstoday.com/article/guss-orchard-sprayers-color-lidar-navigation-without-gps"
+    ],
+    "prompt": "",
+    "date": "2026-10-08",
+    "added": "2026-10-14T18:10:00+08:00"
+  },
+  {
     "id": "prompt-seedance-koda-peach",
     "category": "提示词",
     "title": "小红熊猫非要摘巨桃：掉进灌木也不放弃，最后骑桃撞桥墩",
