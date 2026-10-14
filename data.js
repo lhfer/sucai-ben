@@ -1,6 +1,694 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-14T10:50:00+08:00",
+  "updated": "2026-10-14T15:10:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-koda-peach",
+      "category": "提示词",
+      "title": "小红熊猫非要摘巨桃：掉进灌木也不放弃，最后骑桃撞桥墩",
+      "body": "山坡上有棵老桃树，细枝尽头挂着一颗金橙色巨桃。小红熊猫 Koda 先爬树、再拖竹竿当梯子，好不容易摘下来——桃太重，直接滚下山坡。它跳上去当滑板，一路狂笑，直到窄木桥入口比桃还窄，整颗桃卡死，自己飞进落叶堆。\n\nAbhishek（@HeyAbhishek）用 Opus 5.5 写剧本，Seedance 2.5 出三十秒竖屏。帖子三百四十赞、三百多收藏。真正厉害的不是「可爱」，而是把因果钉死：细枝只因它往外走才弯；桃只因坡度才滚；尾巴永远连在身上，不许当道具拆下来。角色设定图和视频提示词分开给，先锁脸、锁毛色、锁尾巴环纹，再锁物理。很多人问怎么写出这种三幕喜剧——答案在时间轴里：每两秒写清「它碰到了什么、什么因此动了」。\n\n所以呢：写动物喜剧，先列「谁推了谁、谁掉、谁滚」，再允许它可爱。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/HeyAbhishek/status/2109993586951663626"
+        },
+        {
+          "label": "角色设定提示词",
+          "url": "https://x.com/HeyAbhishek/status/2109993606086062303"
+        },
+        {
+          "label": "视频提示词",
+          "url": "https://x.com/HeyAbhishek/status/2109993619381961069"
+        }
+      ],
+      "prompt": "=== Character sheet ===\nCreate a premium character-design reference sheet on a clean light cream / pale warm-yellow studio background for an entirely original young red panda named KODA. Organize the sheet like an official high-end 3D animated feature-film character model sheet. Every drawing must show the exact same Koda with strict identity, markings, proportions, fur colors and tail consistency.\nAt the top-left, include the title “KODA — LITTLE CLIMBER” with small character information underneath: TYPE: young red panda, PERSONALITY: curious / stubborn / fearless / overconfident, BUILD: small compact body / oversized fluffy tail / short powerful legs, STYLE: premium realistic 3D animated character, AGE APPEARANCE: young. Include a small labeled color palette for rust-red fur, dark legs, cream face markings, inner ear fur, tail rings, nose and amber-brown eyes.\nShow a large full-body front view and full-body side view on the left. In the center, show a large full-body 3/4 hero view and a full-body rear view. On the right, show head front, head side and head 3/4 views. Along the bottom, include an expression strip showing HAPPY, DETERMINED, CONFUSED, PROUD, PANICKED and DAZED expressions. Add three small action poses showing Koda sprinting with his short legs moving rapidly, climbing while gripping with all four paws, and balancing awkwardly with both front paws stretched outward.\nKoda is a completely original young red panda with a small compact pear-shaped torso, slightly oversized rounded head, short powerful legs and one enormous fluffy ringed tail. His upper body, head, shoulders and back are covered in rich rust-red fur. His legs and paws are dark chocolate brown. His muzzle, cheeks, eyebrow markings and inner ears are soft cream. He has large warm amber-brown eyes with visible irises and natural highlights, a small glossy dark nose, rounded ears and slightly messy fur tufts around the cheeks and top of the head. His paws have small dark curved claws suitable for gripping tree bark.\nHis signature feature is one extremely large fluffy tail almost as long as his body, with alternating muted rust-red and dark warm-brown rings. The tail is thick near the base and gradually narrows toward the tip. It must remain permanently attached to the base of his spine in every single view. Exactly one tail. Never detachable and never duplicated.\nUse detailed individual fur strands, realistic soft fur displacement, physically believable materials, natural eye reflections, subtle contact shadows and premium cinematic studio lighting. Combine believable red panda anatomy with slightly exaggerated proportions suitable for expressive physical comedy. His facial expressions should come naturally from his eyes, brows, ears, mouth and posture.\nNo clothing, no hat, no backpack, no shoes, no accessories, no logos, no weapons and no unrelated props. Koda must have a completely original visual identity and must not reproduce or closely resemble any recognizable animated red panda, mascot, film character or franchise character. Use only the clean light cream / pale warm-yellow studio background. No environment and no additional characters. Every view must preserve the exact same eyes, cream face markings, ears, body proportions, rust-red fur, dark legs and tail-ring pattern.\n\n=== Seedance 2.5 video ===\nCreate an exactly 30-second vertical 9:16 premium 3D animated adventure-comedy short. Use the attached @ Koda character sheet as the exact visual reference for Koda. Maintain his identical face, amber-brown eyes, cream facial markings, rust-red fur, dark legs, rounded ears, compact proportions and enormous ringed fluffy tail throughout every frame. The reference defines Koda's appearance only.\nThe entire story takes place on one continuous sunny green mountain hillside surrounded by distant forested mountains. One old peach tree grows from the slope. It has a thick stable trunk, several strong main branches and one thinner flexible outer branch. One enormous ripe golden-orange peach hangs near the end of that thinner branch. A large dense leafy bush grows directly below that side of the tree. A long fallen bamboo pole lies several meters away on the same hillside. Farther downhill, a narrow wooden footbridge crosses a shallow mountain stream. Keep this geography fixed throughout the entire video.\nKoda desperately wants the enormous peach. His first idea is simply to climb the tree. He reaches the fruit but moves too far onto the thin outer branch, causing the branch to bend gradually under his weight. He almost touches the peach, loses traction and slides off into the huge soft bush below. Koda refuses to give up. He returns with the long fallen bamboo pole, places it diagonally against a strong fork in the tree and climbs it like a simple ladder. This time he reaches the peach and pulls it free. The peach is far heavier than expected, drops onto the clearly sloping hillside and begins rolling downhill because of gravity. Koda chases it, jumps onto the rolling fruit and accidentally begins riding it. He becomes thrilled and celebrates until he notices a narrow wooden footbridge directly ahead. The peach is much wider than the bridge entrance. It wedges between the entrance posts, stops instantly and Koda's forward momentum sends him harmlessly into a giant pile of dry leaves beside the bridge.\nOpen at 0:00 with a low wide tracking shot of Koda already sprinting uphill through tall green grass toward the peach tree. His short legs move rapidly and his huge fluffy tail streams naturally behind him. As he reaches the tree, he suddenly looks upward and sees the enormous peach glowing among the leaves. He skids to a stop, stares at it, looks at the trunk and immediately becomes determined.\nFrom 0:02 to 0:05, follow Koda as he rapidly climbs the thick trunk using all four paws. His claws visibly grip the bark while his hind feet push upward. His tail stays naturally attached behind him and reacts only to his body movement. He pulls himself onto a strong main branch and begins moving toward the peach.\nFrom 0:05 to 0:08, show a clear wide side view of Koda carefully stepping from the thick branch onto the thinner outer branch. The peach is just beyond his reach. As Koda moves farther away from the trunk, his weight causes the thin branch to bend downward gradually. The branch does not bend before Koda steps onto it and does not move for any unexplained reason.\nFrom 0:08 to 0:11, Koda slowly stretches one front paw toward the peach. His paw almost reaches it. He leans slightly farther forward and briefly touches the peach's fuzzy surface. He smiles. His rear paws then lose traction on the increasingly sloped branch. Koda freezes, his eyes widen and he begins sliding backward along the branch.\nFrom 0:11 to 0:13, Koda slides completely off the branch and falls directly downward into the large dense bush below. He disappears into the foliage with a huge soft leafy FWUMP. The bush shakes. After a short comedic pause, Koda's head slowly rises from between the leaves. Small leaves cling to his fur. He looks upward toward the peach again and his dazed expression changes into stubborn determination.\nFrom 0:13 to 0:16, Koda jumps from the bush, runs several meters across the same hillside and grabs the end of the long fallen bamboo pole using both front paws. He drags it across the grass toward the peach tree. The bamboo scrapes naturally over the ground. Koda struggles because the pole is much longer than his body, but he never uses or removes his tail as a tool.\nFrom 0:16 to 0:18.5, show the complete setup clearly in one wide shot. Koda positions one end of the bamboo on the grassy ground near the tree. He lifts the other end with both front paws while the grounded end remains in contact with the earth. As Koda walks forward underneath the rising pole, the bamboo rotates upward around its grounded end until the raised end settles securely against a strong fork in the thick tree. The bamboo now forms a stable diagonal climbing pole. Koda steps back, studies it and smiles proudly.\nFrom 0:18.5 to 0:21, Koda climbs the angled bamboo with all four paws. His front paws pull while his hind feet push against the bamboo surface. The bamboo remains stable against the tree. His fluffy tail remains physically connected to his body and trails naturally behind him. He reaches the upper end beside the enormous peach.\nFrom 0:21 to 0:23.5, Koda braces his hind feet against the bamboo and grabs the peach with both front paws. He pulls once and nothing happens. He adjusts his grip and pulls much harder. The short fruit stem stretches under the force. With one final effort the stem breaks with a clear POP. Koda is suddenly holding the enormous peach and gives a huge triumphant smile.\nFrom 0:23.5 to 0:25.5, the peach's weight immediately pulls downward. Koda cannot support it. The peach slips from his paws and drops onto the steep grassy slope below with a heavy THUMP. Because the ground visibly slopes downhill, the peach naturally begins rolling. It starts slowly and then accelerates. Koda quickly descends from the bamboo and runs after it.\nFrom 0:25.5 to 0:27.5, use a dynamic downhill tracking shot. The enormous peach rolls rapidly through the grass. Koda catches up and jumps onto its upper surface. At first he lies belly-first and panics, but after a moment he gets his paws underneath himself and manages to balance on top. His expression changes from fear to pure excitement. He stretches his front paws outward while his huge attached tail streams behind him. Koda begins enjoying the ridiculous ride.\nFrom 0:27.5 to 0:29, track backward in front of the rolling peach. Koda rides proudly with a huge smile while his fur moves in the rushing air. He suddenly looks ahead. His smile disappears. Pull the camera backward enough to reveal the narrow wooden footbridge directly downhill. The entrance is obviously narrower than the giant peach. Koda's eyes widen. He has no time to stop.\nFrom 0:29 to 0:30, show the bridge entrance in a clear wide side view. The rolling peach reaches the two wooden entrance posts and wedges firmly between them with one heavy THUD. The peach stops instantly. Koda's momentum carries him forward off the fruit and into a large soft pile of dry leaves beside the bridge. Leaves burst upward around him. His head immediately rises from the pile, completely unharmed and dazed. One small green peach leaf drifts down and lands gently on top of his head. Koda slowly looks upward with only his eyes. Cut to black.\nUse a premium photorealistic 3D CGI animated-feature aesthetic with detailed soft fur, realistic bark, leaves, grass and peach fuzz, cinematic daylight, rich natural colors and expressive physical comedy. Keep the daylight warm and consistent. Use believable gravity, momentum, friction, collisions and character weight beneath the exaggerated comedy.\nKoda has exactly one fluffy tail, permanently attached to the base of his spine throughout all 30 seconds. Never detach it, duplicate it, turn it into a prop or place it in Koda's paws. Koda manipulates objects only with his paws and body weight.\nThe peach remains attached to the same branch until Koda physically pulls it free. The thin branch bends only because Koda moves his weight farther outward. The bamboo moves only because Koda physically drags and raises it. The peach rolls only after falling onto the visibly downhill slope. The peach continuously travels downhill toward the existing bridge. Do not teleport objects, change geography, create duplicate props or introduce unexplained movement.\nNo humans, no additional animals, no dialogue, no text, no subtitles, no logos and no HUD.\nUse playful adventurous orchestral music throughout. Include rapid soft paw footsteps, mountain wind, grass and leaf movement, claw-on-bark sounds, subtle branch creaking, the soft leafy FWUMP of Koda landing in the bush, bamboo scraping over grass, bamboo contact sounds, the fruit-stem POP, heavy peach THUMP, increasing rolling rumble, stronger wind during the downhill ride, an abrupt musical stop when Koda sees the bridge, a heavy THUD when the peach wedges between the posts, a soft POOF when Koda lands in the leaves, brief silence, gentle leaf flutter and one tiny comedic orchestral note when the peach leaf lands on Koda's head.",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-vhs-motel-channel9",
+      "category": "提示词",
+      "title": "荒废汽车旅馆里拨到九频道：跨进屏幕才发现还在监视器里",
+      "body": "青绿色浓雾里，红字 MOTEL 霓虹闪着。长风衣男人走进废弃旅馆，桌上电话自己响——线却拔着。听筒里是他自己的声音：「九频道。」他把旋钮拧到 CH 09，整面 CRT 墙只剩中间一块漏出金色阳光。他手掌按上去，屏幕像水银一样荡开，他踏进清晨公路……镜头猛地后拉：原来阳光公路只是控制室里某一台电视，他自己还坐在椅子上盯着自己逃跑。\n\nUmesh（@umesh_ai）用几张环境参考图加一条 Seedance 2.5 提示词，在 Runway 上做成二十秒「闹鬼录像带」短片，一百三十九赞、九十多收藏。九个镜头全部写死时间码，最后一刀才揭穿「逃出去」是假的。想复刻的人常漏掉第十条约束：外表逃逸必须缩回曲面玻璃里，鸟鸣也要被电流声盖回去。\n\n所以呢：想拍科幻反转，先让观众相信他真的出去了，再把镜头退回屏幕边框。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/umesh_ai/status/2109897848406048795"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/umesh_ai/status/2109897854567469370"
+        }
+      ],
+      "prompt": "Prompt : Create a visually stunning 20-second surreal science-fiction mystery film using the four supplied images as environmental references. Maintain the same abandoned motel, dense turquoise-green fog, glowing orange-red neon, vintage CRT monitors, hanging cables, and atmospheric analog technology throughout.\nSHOT 01 | 00:00–00:02 | THE MOTEL\nExtreme wide cinematic shot. A solitary man in a long dark coat approaches an isolated roadside motel through thick rolling cyan fog. The red MOTEL sign flickers overhead. Wet asphalt reflects the neon. Slow low-angle dolly forward.\nSHOT 02 | 00:02–00:04 | THE CALL\nInterior macro close-up. A dusty black rotary telephone suddenly rings on an abandoned reception desk. Its cable lies unplugged beside it. A small red indicator light blinks in perfect rhythm with the ringing.\nSHOT 03 | 00:04–00:06 | THE INSTRUCTION\nTight profile shot of the man lifting the telephone receiver. Through crackling analog static, a distorted recording of his own voice whispers: \"Channel nine.\" His eyes slowly shift toward a glowing terminal in the darkness.\nSHOT 04 | 00:06–00:08 | THE FREQUENCY\nExtreme close-up of his fingers rotating a large metallic tuning dial. The terminal displays \"CH 09\". Its screen erupts with white static, then reveals a quiet, sunlit road outside the motel. Warm golden light spills onto his fingers.\nSHOT 05 | 00:08–00:10 | THE IMPOSSIBLE WINDOW\nA dramatic wide shot reveals an enormous wall of stacked CRT televisions. Every screen shows dense blue-green fog except one central television displaying brilliant golden daylight. The man stands silhouetted before the glowing screens. Slow symmetrical camera push-in.\nSHOT 06 | 00:10–00:12 | THE DISCOVERY\nSide-profile close-up. The man gently places his palm against the sunlit television. Instead of solid glass, the screen ripples like liquid mercury. Warm sunlight illuminates his face while the surrounding room remains cold and green.\nSHOT 07 | 00:12–00:14 | THE CROSSING\nSmooth over-the-shoulder tracking shot. The man steps carefully through the glowing television surface. The golden light envelops him. The surrounding CRT screens flicker simultaneously as he disappears into the image.\nSHOT 08 | 00:14–00:17 | THE ESCAPE\nCut to the exterior. The man emerges onto the empty motel road, now bathed in beautiful golden morning sunlight. The thick fog slowly dissolves. He looks at the open sky, visibly relieved. The camera gently orbits him as natural birdsong replaces the electrical humming.\nSHOT 09 | 00:17–00:20 | THE TWIST\nThe camera suddenly pulls backward, faster and faster. The beautiful sunlit road shrinks into the curved glass of a vintage CRT television. We are still inside the original dark control room. The same man's silhouette sits motionless in a chair, watching his own escape on Channel 09.\nThe screen flickers once.\nCut to black.\nVISUAL LANGUAGE:\nPhotorealistic 35mm film, vintage anamorphic lenses, dense volumetric fog, deep emerald shadows, icy cyan highlights, orange-red neon, physical CRT bloom, subtle halation, wet reflective textures, realistic analog machinery. Precise cinematic blocking, striking silhouettes, slow controlled camera movement, seamless transitions, no artificial-looking CGI.\nSOUND DESIGN:\nWind through deserted streets, rotary telephone ringing, magnetic tape hiss, electronic frequency sweeps, low atmospheric synthesizer drone, gentle birdsong during the apparent escape, and a final single CRT shutdown click.\nCONTINUITY:\nOne adult male protagonist, consistent dark coat and hairstyle. No children, violence, injury, dangerous actions, or threatening figures. No narration or subtitles. Only minimal diegetic screen text. Exactly nine shots, totaling 20 seconds.",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-samurai-wipe-4env",
+      "category": "提示词",
+      "title": "武士一路向右走：旗、烟、石柱、雪当擦镜，四场景无硬切",
+      "body": "镜头始终贴着一名长发武士向右横移。尘土战场里两名对手被他拨开，破旗猛地扫满画面——旗落下，已是燃烧要塞；浓烟再盖住镜头，雨湿石桥出现；巨石柱贴脸掠过，世界变成暴风雪山口。三十秒里他从不停下脚步，身份也不许漂。\n\nPierrick（@CharaspowerAI）把这招叫「前景擦镜转场」：禁止硬切，环境切换必须由贴镜头的旗帜、烟雾、石柱、风雪完成。Seedance 2.5 上跑一镜侧跟，无血腥、可读招式。帖子三十多赞、二十多收藏，被很多人存进「该偷的提示词」清单。和单纯写「史诗运镜」不同，这里把转场写成物理遮挡，观众眼睛跟得上才算成功。\n\n所以呢：想一镜穿越多场景，先问——有什么东西能贴着镜头把画面盖住？",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/CharaspowerAI/status/2110068129288122698"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/CharaspowerAI/status/2110068151928971474"
+        }
+      ],
+      "prompt": "Ultra-realistic mythic historical action, one seamless 30-second continuous side-tracking shot. Camera tracks perfectly left-to-right, matching one ultra-charismatic samurai who constantly advances toward the right. Premium blockbuster realism, dramatic daylight, dust, smoke, embers, speed ramps, selective slow motion, powerful but non-graphic sword choreography.\n\nOne legendary samurai only, adult man, long dark hair, layered battle robes, katana in hand, calm unstoppable presence. Same identity and silhouette throughout.\nOpponents appear in small distinct groups and are quickly outmaneuvered.\n\nEnvironment changes must be motivated by foreground elements passing very close to the lens: spears, banners, smoke clouds, hanging fabric, tree trunks, stone columns, snow gusts. Each foreground wipe hides the seamless transition into the next environment.\n\n0-8s: Rocky battlefield. Side tracking as the samurai walks right through dust and broken weapons. Two warriors approach; he redirects them with elegant fast technique without breaking stride. A torn war banner whips across the entire foreground and fills the frame.\n\n8-16s: Burning fortress path. The banner clears to reveal a new environment. Flames, ash and falling embers. He continues right, evades a strike, pivots, then clears a path through two more enemies. A dense wall of smoke rolls across the foreground and fully obscures frame.\n\n16-23s: Stormy stone bridge. The smoke clears into rain and wet stone. Cloaked enemies close in; the samurai advances with precise footwork and one powerful slow-motion blade flourish. A massive stone column passes extremely close in foreground, hiding the next change.\n\n23-30s: Snowy mountain pass. The column reveals a blizzard environment. Snow whips across frame, final opponents approach, and the samurai unleashes his most iconic sequence while still moving right. Final slow-motion hero beat: he emerges alone through the snowstorm as the camera continues tracking beside him.\n\nOne continuous side-tracking shot only, same samurai throughout, uninterrupted rightward motion, foreground wipe transitions only, premium readable choreography, stable identity, seamless environment continuity, no gore, no text, no logos.",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-kagura-painterly-seedance",
+      "category": "提示词",
+      "title": "绯红武者在断铃之脊接住三吨铜钟：水粉笔触直接动起来",
+      "body": "暴风雪里，红发武者 Kagura 单手接住从铁链上砸落的三吨青铜寺钟，再一拳把它打成几何碎片。成片不是光滑 CGI，而是会动的水粉概念画：色块硬边、布料与皮肤能看见笔触，远处闪电融进七成雾气。\n\nPIXEL（@itsPixieVerse）把同一角色拆成三套词：Midjourney v8.2 出静帧、GPT Image 2.5 出角色设定板、Seedance 2.5 按七刀时间轴做三十秒。一百六十二赞、九十八收藏。关键句是「禁止描线、禁止赛璐璐、禁止虚幻引擎光泽」——先把画风锁死，再谈接钟。WaveSpeed 上跑通后，很多人照抄「先 MJ 再 GPT 再视频」的流水线。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：想要画风视频，别一上来写动作，先写「它看起来像哪张不会动的概念图」。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/itsPixieVerse/status/2109937430317207753"
+        },
+        {
+          "label": "MJ+GPT 提示词",
+          "url": "https://x.com/itsPixieVerse/status/2109937434549162268"
+        },
+        {
+          "label": "Seedance 提示词",
+          "url": "https://x.com/itsPixieVerse/status/2109937439590821962"
+        }
+      ],
+      "prompt": "=== Midjourney v8.2 ===\nKagura, the Scarlet Apex, solitary roaming martial calamity. 10 heads tall, lean hyper-muscular bronzed torso, wild spiky crimson mane flowing back like fire, angular demonic smirk, glowing golden eyes. Wears bare chest, voluminous pleated black hakama trousers tied with thick dark sashes, massive angular crimson coat draped over broad shoulders with sleeves trailing, thick brass wrist cuffs, beige woven flat sandals. Imposing wide contrapposto stance, clenched fists, looking down with bloodthirsty confidence, full body, three-quarter view. Palette: fiery scarlet, soot black, sun-bronzed skin; polished brass accents. Stylized 2D painterly character concept, digital illustration, flat color blocks, artistic thin rough lines, rough random brush work on the edges, graphic fashion silhouette, elongated believable anatomy, angular facial planes, broad opaque brushwork, faceted values, crisp shapes, tactile materials, floor shadow, clean-white background negative: photorealism, glossy CGI, anime, busy background, text, logo, extra limbs, cropped feet\n\n=== GPT Image 2.5 character sheet ===\nCreate a premium, organic studio CHARACTER CONCEPT DESIGN SHEET in a 16:9 widescreen layout on a pure solid white background. THE ATTACHED REFERENCE IMAGE DEFINES THE ART STYLE — treat it as a strict style bible and reproduce its exact rendering technique in every figure on this sheet.\n\n[STYLE — MIRROR THE REFERENCE EXACTLY]: Replicate the reference image's rendering verbatim: painterly matte digital gouache with flat posterized color blocks, shapes defined purely by value and color cuts with NO outlines and NO lineart of any kind, hard-edged brush shapes, muted desaturated palette identical to the reference, identical overall brightness and contrast (light, airy, pure white background — do NOT darken).\n\n[STYLE PROHIBITIONS — ABSOLUTE]: no outlines, no ink lines, no graphite lines, no cel-shading, no anime style, no 3D render look, no soft volumetric shading, no glossy highlights, no photorealism.\n\n[TEXT & UI PROHIBITIONS — STRICT]: ABSOLUTELY ZERO METADATA BLOCKS, ZERO DESCRIPTIVE TEXT, ZERO HANDWRITTEN LABELS, ZERO ANNOTATIONS, ZERO CAPTIONS, ZERO NUMBERED BULLETS, ZERO PANEL BORDERS, ZERO FRAMING BOXES, ZERO GRID LINES. Pure white seamless ground. The ONLY text allowed is the name \"KAGURA\" in clean, bold typography in one corner.\n\n[PROPORTIONS]: Match reference's body proportions — elongated athletic anatomy, 10 heads tall, small head, long torso, lean striated musculature.\n\n[SUBJECT_DESCRIPTION]: Male martial artist with spiky crimson mane, bare muscular torso, draped scarlet coat, black pleated hakama, brass wrist cuffs. Turnarounds on left (neutral front and full rear view showing dorsal muscle flow and billowing red coat drape). Top area features three head studies: predatory smirk with glowing eyes, chilling calm glare, bared-teeth combat battle cry. Center and right showcase dynamic martial arts poses: launching an explosive flying roundhouse kick, crouched low in a predator sprint, catching a strike with one hand while grinning. Isolated floating detail cutouts on the right: polished brass wrist cuff, calloused clenched fist, beige woven sandals, knot of the black sash.\n\n=== Seedance 2.5 ===\nCinematic 2.5D animation in the style of fully painterly rendering, characters and environments look like gouache concept-art paintings in motion, visible brush texture on skin, cloth and buildings, flat posterized color blocks with hard-edged light shapes, matte finish, soft filmic volumetric lighting, shallow depth of field. NOT flat 2D cartoon, NO bold black outlines, NO cel-shading, NOT glossy CGI, NOT Unreal Engine, NO photorealism, no plastic skin.\n\nCHARACTER: Kagura @[Image1], a 10-heads-tall martial artist with a wild spiky crimson mane, bare muscular bronzed torso, draped scarlet coat billowing violently, black pleated trousers, thick brass wrist cuffs.\n\nSETTING: The Ridge of Shattered Bells @[Image2] . Suspended colossal iron bridge chains spanning a void, hurricane-force winds, howling blizzard mist, distant violet lightning strikes.\n\nCINEMATOGRAPHY & CHOREOGRAPHY (7 CUTS | 30 SECONDS):\n00:00-00:03 (Shot 1 | Macro Tease): Macro close-up on heavy brass wrist cuffs catching violet lightning glints; snow flurries blow horizontally across clenched bronzed knuckles.\n00:03-00:07 (Shot 2 | Hair & Wind Reveal): Low-angle push-in on Kagura's back as gale winds whip his flaming crimson mane and scarlet coat like wings; slow profile turn reveals his manic golden eye.\n00:07-00:11 (Shot 3 | Environmental Scale): Extreme wide establishing cut; Kagura stands balanced on a single swinging bridge chain over the bottomless foggy abyss as lightning illuminates the ravine.\n00:11-00:15 (Shot 4 | The Threat Falls): High-angle look-up; a massive three-ton cracked bronze temple bell snaps its chain above, plummeting directly toward his position through the mist.\n00:15-00:20 (Shot 5 | The Catch): Speed-ramp tracking shot; Kagura doesn't dodge—he drops his stance, planting his woven sandals into the chain links, catching the colossal falling bell with ONE bare hand; shockwave parts the clouds.\n00:20-00:25 (Shot 6 | The Shatter Strike): Extreme close-up of his manic grin, snapping wide to a low-angle tracking shot as he coils his right fist and unleashes an upward punch into the bell's bronze shell, completely shattering it into floating geometric fragments.\n00:25-00:30 (Shot 7 | Poster Hero Frame): Locked extreme low-angle hero shot; bronze shrapnel rains harmlessly into the abyss around him; Kagura stands unbothered, laughing into the hurricane gale as lightning crowns his crimson mane. Hold for 3 seconds. clear three-layer depth: foreground rusted iron chain links cropped in silhouette, Kagura fully resolved in midground with maximum contrast, background storm clouds and lightning dissolved in 75% atmospheric haze. Weighty natural character animation, cloth, hair and snow reacting to violent winds.\nSOUND: Howling hurricane winds, sudden deafening metallic snap of chain, deep thunder crack, massive bronze impact thud, explosive shattering bell resonance decaying into Kagura's booming solitary laugh. Negative: photorealism, glossy CGI, 3D smooth plastic, cartoon outlines, anime lines, lineart, camera drift, soft airbrush gradients, extra",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-last-supper-walk",
+      "category": "提示词",
+      "title": "镜头钻进《最后的晚餐》：贴着面包、袖口，再绕回原构图",
+      "body": "开场就是达芬奇那张《最后的晚餐》。镜头半秒后滑向长桌前端的面包，掠过褶皱桌布，贴着彼得的袖肘绕到约翰肩后，再慢慢抬到耶稣的眉眼——最后一圈退回，十三人重新落回你熟悉的那一帧。\n\nHitPaw（@HitPawofficial）用 Seedance 2.5 做二十秒图生视频：首尾帧强制同一张画，中途只许揭示「原视角看不见的侧面与背面」，不许改成真人实拍，也不许现代戏服。真正难的是「进得去还回得来」——很多人只会推进特写，忘了写返回弧线，结果卡在鼻尖出不来。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：想让名画动起来，先规定首尾必须是原图，中间才允许绕圈。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/HitPawofficial/status/2110213681002971534"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/HitPawofficial/status/2110213751362531528"
+        }
+      ],
+      "prompt": "Create a 20-second cinematic 16:9 horizontal image-to-video film using the supplied image of Leonardo da Vinci’s The Last Supper as the exact first frame and matching final frame. One continuous camera journey through the refectory, with macro detail, a gradual emotional reveal, and a seamless return to the original composition.\n\nAs the camera travels through the room, reveal the sides and rear surfaces of the figures, garments, furniture, and architecture that are hidden from the opening viewpoint.  The painting must remain recognizably Leonardo’s The Last Supper, not a modern reinterpretation or a photorealistic replacement.\n\n0–3 SECONDS — ENTER OVER THE TABLE AND BREAD\n\nBegin on the exact supplied image for approximately half a second.\n\nThe camera then glides forward into the painted refectory, descending toward the long table. Approach a piece of bread near the front edge of the table and pass just above it, moving along the tablecloth.\n\nAt macro distance, reveal the bread’s irregular crust, rough surface, and subtle cracks, consistent with the original painted appearance. The nearest edge of the bread passes softly out of focus beneath the lens as the camera continues forward.\n\nThe bread passes behind the moving camera, while plates and wine vessels grow larger ahead. The apostles remain fixed farther across the table. The changing perspective immediately establishes the table’s depth and the physical space between the viewer and the figures.\n\n3–7 SECONDS — TRAVEL ALONG THE TABLE SETTING\n\nRise smoothly from the tablecloth and travel forward along the length of the table, passing close to the existing bread, plates, and wine vessels.\n\nReveal the physical thickness of the plates, the curved rims of the vessels, and the subtle reflections on the wine containers. Preserve their original painted colours, shapes, quantities, and locations. Do not create additional objects or change the contents of the vessels.\n\nContinue along the edge of the tablecloth. Its white fabric fills the near foreground, revealing overlapping folds, softly raised creases, and shadows underneath the hanging edge.\n\nMove past the table setting toward the apostles’ hands. Their hands and sleeves gradually become larger in perspective, revealing the dimensional relationship between the figures and the table.\n\nMaintain continuous forward momentum. The camera travels through the physical space between the table setting and the seated figures without touching, displacing, or altering any object.\n\n7–10 SECONDS — FOLLOW THE APOSTLES’ HANDS AND GESTURES\n\nReach the cluster of hands and sleeves near the centre-left of the table, where Peter leans forward and John bows his head beside Judas.\n\nCurve smoothly along the outside of Peter’s arm, revealing the thickness of his garment, the compressed folds around his elbow, and the natural shape of his hand. Move past Judas’s position, preserving his original posture, lowered hand, shadowed expression, and relationship to the surrounding apostles.\n\nContinue toward John’s shoulder. Pass around its outer edge and rise slightly, revealing the side of his robe and the back of his shoulder that were hidden from the original viewpoint.\n\n10–14 SECONDS — REVEAL JESUS’S FACE\n\nFrom just outside the apostles’ shoulders, curve inward toward the centre of the composition and gradually rise toward Jesus.\n\nThe nearest apostle’s shoulder passes through the lower foreground, revealing Jesus’s face beyond it. Approach a close cinematic view of his eyes, gently furrowed brow, nose, and beard.\n\nPreserve the distinctive facial features, serene expression, and contemplative sadness of Leonardo’s original Jesus. His head remains centred beneath the upper architectural perspective, with the distant central window providing the original soft backlighting.\n\n14–17 SECONDS — PASS AROUND JESUS AND REVEAL THE ROOM\n\nContinue past the outside of Jesus’s shoulder and over the edge of his blue mantle, taking a shallow orbit around the outer side of his upper body. As the camera passes, reveal the mantle’s side and rear surfaces, the layered construction of the garments, and the dimensional relationship between Jesus and the apostles on either side.\n\n17–20 SECONDS — RETURN TO THE ORIGINAL COMPOSITION\n\nContinue the retreat in one smooth arc, gradually curving back onto the exact opening camera axis.\n\nMove away from Jesus and reveal the complete table, all thirteen figures, and the full architectural background. The apostles return to their original relative positions across the frame, with the central figure of Jesus once again anchoring the composition.\n\nThe tablecloth, bread, wine vessels, and plates return to their precise positions in the foreground. The four apostolic groupings become fully readable again, restoring the original balance of gestures, expressions, and negative space.",
+      "date": "2026-10-14",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-giant-wolf-avenue",
+      "category": "提示词",
+      "title": "办公室窗外那条街：一匹巨狼从楼缝里走出来",
+      "body": "白天的城市峡谷里，玻璃塔楼之间突然挤出一匹巨狼。低机位贴着它的腿冲过马路，汽车被气浪推开；它跃上公交顶吼叫，气浪让玻璃墙起涟漪；最后慢镜头踩上废车堆，占满天际线。办公室窗边的人大概只会愣住。\n\n还是 CharaspowerAI 的 Seedance 2.5 一镜二十秒：开场就用「镜头倒退 + 人群远逃」建立尺度，再靠爪子、吼叫、裂地三拍把体量钉死。明确写「无血腥、无受伤特写」——巨物片容易糊成灾难片，他用尺度感代替 gore，观众仍然觉得压迫。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：拍巨物，先让观众从熟悉的街道往后退，尺度才会自己长出来。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/CharaspowerAI/status/2109705822104064250"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/CharaspowerAI/status/2109705844803645524"
+        }
+      ],
+      "prompt": "Ultra-realistic blockbuster creature spectacle, one seamless 20-second cinematic shot. Shot on ARRI Alexa 35 with anamorphic lenses, aggressive tracking, low-angle push-ins, dramatic crane movement, speed ramps and premium slow motion. Bright daytime, dense urban atmosphere, dust, shattered glass, smoke, car alarms, wind turbulence, massive Hollywood scale, non-graphic.\n\nMain subject: one colossal giant wolf, original design, towering over cars, realistic fur, immense paws, powerful muscular body, intense glowing eyes, mythic presence. Background: civilians evacuating safely in the distance, abandoned vehicles, emergency response atmosphere.\n\nModern downtown city avenue in daylight, glass towers, crosswalks, buses, taxis, storefronts, traffic lights, wide street canyon between skyscrapers.\n\n0-4s: [Shock reveal] Camera races backward down a city avenue as people flee in the distance. A thunderous impact shakes the street. The giant wolf emerges between skyscrapers, towering above traffic, fur blowing in the wind.\n\n4-8s: [Scale escalation] Low-angle tracking beside its legs as it charges forward through the avenue. Cars are pushed aside, windows burst from the shockwave, streetlights bend, dust and debris fill the air.\n\n8-13s: [Epic power beat] The wolf leaps onto a bus roof, lands with enormous force, then throws its head back and unleashes a colossal howl. The howl creates a visible air-wave that ripples through glass façades and sends papers, smoke and lightweight debris spiraling outward.\n\n13-17s: [Monster hero moment] Camera cranes upward as the wolf stands in the middle of the avenue, framed by skyscrapers. It slams one paw into the pavement, cracking the asphalt and sending a dust ring across the street.\n\n17-20s: [Final iconic payoff] In dramatic slow motion, the giant wolf turns toward camera, eyes blazing, then climbs onto a wrecked line of vehicles and dominates the full skyline in a massive hero silhouette. Hard cut.\n\nOne giant wolf only, premium creature realism, realistic fur simulation, readable city scale, cinematic dust and glass physics, giant-animal weight and motion, non-graphic urban chaos, no gore, no injury detail, no text, no logos.",
+      "date": "2026-10-12",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-biscuit-360-motion-swap",
+      "category": "提示词",
+      "title": "先拍角色三百六十度转身，再把爆款视频里的人换成他",
+      "body": "秃顶两鬓炸毛、豁牙小胡子、棕双排扣西装——Biscuit Johnson 三十条短视频涨了两万七千粉。秘诀不是单条爆款，而是先做一张角色设定，再生成工作室灰底的三百六十度转身片，之后每条都从这张「全角度脸」取材。\n\n0xAI42.exe（@0xAI42exe）把流程写成两段可复制提示词：一段给 Kling / Higgsfield / Seedance 做原地转身（人转、镜头不动）；一段做动作替换——上传角色图加一条单人稳机位爆款，要求服装脸型全程锁定、动作与口型跟原片走。他强调：追一条爆款只被看一次，养一个角色才会被关注。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：做 AI 网红，先逼自己拍一张会转圈的设定，再谈换场景。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/0xAI42exe/status/2110145564042301934"
+        },
+        {
+          "label": "360 转身词",
+          "url": "https://x.com/0xAIGOAT/status/2109607261651841427"
+        },
+        {
+          "label": "动作替换词",
+          "url": "https://x.com/0xAIGOAT/status/2109607262205465035"
+        }
+      ],
+      "prompt": "Prompt 1: 360° turn (Kling / Higgsfield / Seedance)\nUpload your character sheet as the reference, not a single photo. The back view matters.\n\nPrompt:\nThe same man from the reference stands on a plain light-grey studio background and slowly turns 360 degrees in place, clockwise, at a steady speed: front, side, back, side, front.\nThe person rotates, the camera does not move.\nFull body in frame, arms relaxed, neutral expression, feet stay on the same spot.\nSoft even studio light. Same face, hair, outfit and proportions in every frame.\n\nNegative prompt:\nmorphing, face change, outfit change, camera movement, extra limbs, text\n\nPrompt 2: motion swap (Kling Motion Control / Higgsfield / Seedance)\nInputs: your character image + a viral video with one person and a steady camera.\n\nPrompt:\nReplace the main person in the video with the character from the image.\nKeep the same face, hair, outfit and body proportions in every frame.\nCopy the original movement, gestures, expressions and timing exactly.\nKeep the original background, lighting, camera movement and audio. Lip sync if the person talks.\nMatch the source video quality, no glossy AI look.\n\nNegative prompt:\nface morphing, hair flicker, extra fingers, on-screen text\n\nWorkflow notes (from @0xAI42exe):\n- Give him 3 loud traits. Bald top with wild bushy sides, thick mustache with a gap tooth, tan double-breasted suit over a black turtleneck. One outfit forever.\n- Generate the face in Nano Banana Pro (Google Flow), then a character sheet: front, side, back, close-ups\n- Turn the sheet into a 360° video. Every clip pulls from it\n- Screenshot a frame from a 1M+ clip, generate character in that angle, run both through Kling or Higgsfield\n- Post 1-2 Reels a day. No text on the video",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-iron-bamboo-bear",
+      "category": "提示词",
+      "title": "竹林里对练棕熊：头巾膝带都锁死，十连镜打到它仰面倒地",
+      "body": "晨雾竹林空地，黑战术夹克的男人与一只戴红佩斯利头巾、缠红膝带的巨型棕熊对峙。熊扑爪、扫腿、砸穿竹子；男人躲闪反击，踩上青苔圆木做慢镜腾空，最后三连踢把它仰面放倒——熊还活着，只是晕了。\n\nZaroon（@Xaroon_x）在 Seedance 2.5 上跑三十秒好莱坞武术片，二百四十七赞。提示词把英雄与熊分别钉在两张参考图上，动作拆成十段连续镜头，并写「无血腥、无换装、无瞬移」。很多人只写「打熊」，他写的是手套拧紧、湿土滑动、毛发受击涟漪，所以打起来像功夫片而不是特效糊脸。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：动物格斗别只写结果，把「谁先出手、谁滑出去、谁还活着」写进时间轴。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Xaroon_x/status/2109904267415024114"
+        }
+      ],
+      "prompt": "IRON BAMBOO — 30-SECOND CINEMATIC FIGHT | SEEDANCE 2.5\n\nPhotorealistic Hollywood martial arts action film, 16:9, ARRI ALEXA 65, anamorphic cinematic look, natural textures, realistic physics, film grain, dynamic camera movements, and dramatic speed ramps.\n\nHERO (@Image1): Preserve the exact face, hairstyle, beard, body, and original outfit: black tactical jacket, black T-shirt, cargo pants, combat boots, and fingerless gloves. BEAR (@Image2): Enormous brown grizzly wearing a red paisley bandana and red knee wrap. Both characters remain identical throughout.\n\nLOCATION: Misty bamboo and giant-fern jungle clearing at golden morning, wet soil, mossy fallen log, large boulder, sun rays from camera-left, natural birds and insects ambience.\n\nACTION — 10 CONTINUOUSLY CONNECTED SHOTS:\n\n- 00–05s: Establishing wide shot. Hero and bear face off, followed by intense close-ups of their eyes and the hero tightening his gloves.\n- 05–11s: Bear charges with a heavy claw swipe. Hero dodges and counterattacks with a palm strike. Bear performs a low sweep and spinning back-fist; hero jumps and blocks.\n- 11–16s: Bear smashes through bamboo while hero narrowly ducks. The bear lands a powerful forearm strike, sending the hero sliding across wet soil into bamboo.\n- 16–22s: Hero recovers and unleashes rapid kicks, elbows, and palm strikes. The bear blocks and counters. Hero runs, steps onto the mossy log, and launches into a cinematic slow-motion leap.\n- 22–27s: Epic final combo: spinning heel kick to the jaw, powerful palm strike to the chest, and a devastating side kick. Fur ripples naturally, dust and leaves explode on impact.\n- 27–30s: Bear crashes onto its back, unconscious but alive. Hero stands victorious, breathing heavily, then clenches his gloved fist as the camera cranes upward and fades to black.\n\nCAMERA & LIGHTING: Dynamic Steadicam tracking, low angles, close-ups, controlled handheld movement, slow-motion impacts, fast-motion bursts, deep jungle backgrounds, warm golden highlights, muted greens, and cool shadows.\n\nAUDIO: Original cinematic score with low cello, taiko drums, orchestral brass, realistic punches, heavy footfalls, bear growls, bamboo cracks, and jungle ambience. Brief silence at the final impact, followed by a powerful orchestral hit.\n\nNEGATIVE: Cartoon style, artificial CGI appearance, plastic skin, distorted anatomy, extra limbs, duplicated characters, inconsistent faces, wardrobe changes, teleportation, floating bodies, jitter, flickering, oversaturation, gore, text, logos, and watermarks.",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-x-profile-3d-card",
+      "category": "提示词",
+      "title": "把 X 主页截图做成金属浮卡：角色从卡片前面钻出来",
+      "body": "深红背景上，一张刷着金属光泽的三维卡片浮在空中——正面是你的 X 主页截图，字号、头像、简介都还在。前面站着你的角色或头像本体，头肩越过卡片上沿，像从海报里走出来，脚下还有一点英雄姿态的余光。\n\nRafaSimon（@rafalors）给 GPT Image 2 / 2.5 写了这段「个人资料电影海报」：上传主页截图加角色图，规定卡片不许改资料、角色不许换脸，底部只留短标语和 STARRING。十六赞起步，但跟帖里一堆人立刻做出自己的版本。适合做账号视觉、置顶图或「我的角色入驻」玩法，改背景色就能换一季造型。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：想给账号做一张认人海报，截图当金属卡，角色站前面就够。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/rafalors/status/2110081229122838535"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/rafalors/status/2110081232709280014"
+        }
+      ],
+      "prompt": "Create a bold premium 3:4 vertical cinematic poster.\n\nImage 1 [Screenshot of your social] is a social-media profile/bio screenshot. Render it as a large glossy brushed-metal 3D card floating in the upper portion of the frame. Give it realistic depth, a soft drop shadow, subtle metallic sheen, and a very slight perspective tilt like a premium 3D UI panel. Preserve the screenshot’s visible profile layout, text, and elements as accurately and readably as possible. Do not invent or modify profile information.\n\nImage 2 [your character] is the foreground character/subject. Preserve their exact appearance, face, features, proportions, clothing, colors, silhouette, and recognizable design. Place the character large and full-body in the foreground, confidently overlapping and breaking out in front of the floating profile card. Their head and upper body should rise in front of or above the card’s top edge, creating convincing 3D depth.\n\nUse a powerful heroic pose with natural anatomy and the subject’s original outfit.\n\nSet the full composition on a solid bold deep-red background. Add dramatic high-contrast cinematic key lighting, crisp rim light, polished depth, and a premium photoreal key-art aesthetic.\n\nAdd small, tasteful, clean white editorial movie-poster typography only in the lower area:\n- a short dramatic tagline\n- “STARRING”\n- [YOUR X HANDLE OR NAME]\n\nKeep all typography minimal, crisp, correctly spelled, and secondary to the subject and profile card.\n\nNo extra people, logos, watermark, or UI beyond the supplied profile screenshot.\n\nOutput: 3:4 vertical, 2K.",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-y2k-holo-cd",
+      "category": "提示词",
+      "title": "白底正视全息 CD：Y2K 霓虹红，改颜色就能出一整排专辑",
+      "body": "纯白背景上，一张正视光盘居中，中心孔干净，金属细边，表面是高饱和霓虹红的 Y2K 全息反射，字体大胆、装饰字和虹彩一起闪。没有塑料盒，没有透视歪斜，像货架上刚拆封的收藏碟。\n\nAnn Nguyen（@ann_nnng）先用多模型比「全息 CD」效果，再把 GPT Image 2.5 可用的完整提示词公开贴出，四百五十七赞、三百六十七收藏。她还补一句：把颜色和图案换成你喜欢的就行。很多人讨厌「评论领取」，她直接给词——这才是能转成内容的素材，也方便做一套同系列专辑封面。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：专辑封面批量产，先锁「正视 + 白底 + 全息」，颜色当可替换参数。",
+      "links": [
+        {
+          "label": "X 原帖（完整词）",
+          "url": "https://x.com/ann_nnng/status/2109923938767946139"
+        },
+        {
+          "label": "TypingMind 分享",
+          "url": "https://cloud.typingmind.com/share/e1a36a50-44d1-4604-8cc5-765dd0ee3f43"
+        },
+        {
+          "label": "成片演示",
+          "url": "https://x.com/ann_nnng/status/2109853948647711057"
+        }
+      ],
+      "prompt": "DO NOT ALTER THIS PROMPT: Generate a high-resolution, realistic CD with a dreamy retro-futuristic Y2K aesthetic, featuring red as the dominant color in an ultra-bright, vivid, highly saturated neon palette with harmonious pastel accents. Include playful futuristic graphics, bold Y2K typography, creative titles, and decorative text. Glossy holographic details, iridescent reflections, and a thin metallic rim. Perfectly straight front view, centered circular disc with a clean center hole. Premium collectible CD aesthetic, original artwork, pure white background, 1:1 ratio, no perspective distortion, no case, no cropping.\n\n(Tip from @ann_nnng: Replace with the color and patterns you like.)",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-halloween-suno-alt-reality",
+      "category": "提示词",
+      "title": "把角色设定丢进提示词：吐出一整首可粘贴的万圣节 Suno 歌",
+      "body": "你不必自己写恐怖故事。把角色设定图丢给这段「总控提示词」，它会先读设定、再发明一条与原人设相反的黑暗命运，然后输出：歌名、背景故事、可直接粘贴的 Suno 风格标签、五千字以内带分段标签的完整歌词，外加一张封面构图说明。\n\nRubyzephyr（@RubyZeph）把整套流程写成 MASTER PROMPT，准备做《Halloween: Alternate Realities》概念专辑。硬规矩是：别只换服装，要从保护者变威胁、从治愈者变代价；音乐必须阴暗哥特，禁止派对喜感。对自媒体来说，这是「角色宇宙」内容工厂——一张设定图能连出歌、封面和短视频分镜。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：万圣节别只画南瓜，让设定图自己长出一首能进 Suno 的歌。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/RubyZeph/status/2109838624099614958"
+        },
+        {
+          "label": "完整总控提示词",
+          "url": "https://x.com/RubyZeph/status/2109838867784249767"
+        }
+      ],
+      "prompt": "=================\nPROMPT START\n=================\n\nMASTER PROMPT — HALLOWEEN ALTERNATE REALITY CHARACTER-TO-SONG GENERATOR\n\nYOUR ROLE\n\nYou are a professional horror storyteller, gothic songwriter, character designer, and cinematic music director.\n\nYour task is to examine the character reference sheet(s) I provide and transform the character into a terrifying alternate-reality version of themselves, then create a complete, original, Suno-ready Halloween song based on that transformation.\n\nThis song will be part of a connected Halloween concept album called \"Halloween: Alternate Realities\".\n\nEvery song should feel like a disturbing horror story brought to life through music.\n\nDo not simply make the character evil or give them a Halloween costume. Transform their identity, destiny, personality, abilities, or greatest emotional vulnerability into something genuinely frightening and tragic.\n\n---\n\nPHASE 1 — CHARACTER REFERENCE ANALYSIS\n\nCarefully study every provided reference sheet.\n\nIdentify, where available:\n\n- Character name, aliases, and established lore\n- Species, gender presentation, and physical appearance\n- Hair, eyes, facial features, scars, and markings\n- Clothing, armor, weapons, accessories, and equipment\n- Powers, abilities, strengths, and weaknesses\n- Personality, behavior, values, fears, and motivations\n- Important relationships, companions, and pets\n- Distinctive symbols, colors, and visual features\n- Anything unique that makes the character recognizable\n\nRead information written on the sheet as well as analyzing its illustrations.\n\nDo not invent established canonical facts that the reference sheet does not provide.\n\nIf multiple characters appear, determine their relationship from the supplied information and build the horror story around that relationship where appropriate.\n\nPHASE 2 — ALTERNATE-REALITY HORROR TRANSFORMATION\n\nCreate an entirely new horror identity for the character.\n\nThe transformation must be rooted in who they originally were.\n\nExamples of possible transformations:\n\n- A protector becomes the greatest danger to those they protect.\n- A healer discovers that every life saved demands another sacrifice.\n- A devoted friend becomes something their companion no longer recognizes.\n- A warrior is cursed to relive the deaths they couldn't prevent.\n- An entertainer becomes trapped in a performance that tortures the audience.\n- A scientist sacrifices their memories to resurrect someone they love.\n- A ruler becomes the eternal jailer of the people they tried to save.\n\nThese are examples, NOT templates to reuse. Invent an original nightmare suited to the uploaded character.\n\nHorror intensity\n\nDARK AND TERRIFYING.\n\nEmphasize:\n\n- Psychological horror\n- Supernatural terror\n- Tragic transformations\n- Disturbing revelations\n- Body horror when appropriate\n- Loss of identity or humanity\n- Betrayal, grief, obsession, and guilt\n- Cruel supernatural consequences\n- The corruption of love, loyalty, power, or good intentions\n- Terrifying consequences that cannot easily be reversed\n\nThe audience should initially understand or sympathize with the character, then gradually discover what makes their alternate self horrifying.\n\nMaintain the original character's recognizable identity while transforming their destiny.\n\nAvoid generic vampires, zombies, or demons unless you create a genuinely original interpretation.\n\nStory requirements\n\nEstablish:\n\n1. Who the character originally was.\n2. What terrible event changed their life.\n3. What choice, curse, or supernatural force caused the transformation.\n4. What they physically or psychologically became.\n5. What their victims or loved ones experience.\n6. The horrifying truth revealed near the end.\n7. An ending that is frightening, heartbreaking, or both.\n\nWhenever possible, include an ironic consequence: what the character desperately wanted becomes the source of their nightmare.\n\nPHASE 3 — MUSICAL IDENTITY\n\nChoose a musical direction that complements the character's unique horror.\n\nThe overall album must maintain a cohesive identity:\n\nDark gothic metal, cinematic Halloween horror, tragic storytelling, haunting vocals, unsettling atmospheres, emotionally powerful choruses, and frightening supernatural sound design.\n\nYou may incorporate suitable elements from:\n\n- Gothic symphonic metal\n- Industrial horror metal\n- Dark folk metal\n- Psychological horror rock\n- Cinematic orchestral metal\n- Dark theatrical metal\n- Atmospheric doom metal\n- Haunted experimental metal\n\nUse different instruments, tempos, vocal styles, and musical textures to give each character their own personality.\n\nHowever, all tracks must sound like they belong on the same dark Halloween album.\n\nImportant: Do not make songs feel like upbeat adventures, comedy music, cheerful sea shanties, or playful Halloween party songs.\n\nThe music must support the horror, tragedy, and emotional weight.\n\nSelect a suitable vocal presentation based on the character and story. Specify whether vocals should be male, female, dual, layered, whispered, growled, screamed, or supported by ghostly choirs.\n\nPHASE 4 — SUNO STYLE TAGS\n\nProvide a separate, immediately copyable Suno style prompt.\n\nInclude:\n\n- Primary and secondary musical genres\n- Vocal type, character, and emotional delivery\n- Instrumentation\n- Tempo or approximate BPM\n- Atmosphere and emotional intensity\n- Horror-specific sound design\n- Chorus and breakdown characteristics\n- Production and cinematic qualities\n\nUse descriptive comma-separated style tags suitable for Suno.\n\nKeep the style prompt concise enough to paste directly into Suno's Style field.\n\nInclude optional exclusion tags when useful, such as avoiding upbeat music, comedy, cheerful vocals, or inappropriate genres.\n\nPHASE 5 — WRITE THE COMPLETE SONG\n\nCreate one original song based on the alternate-reality horror identity.\n\nHARD LIMIT: The entire Suno lyrics text, including section headings and performance instructions, must be UNDER 5,000 CHARACTERS.\n\nTarget approximately 3,500–4,500 characters when practical, allowing room for Suno instructions.\n\nThe song must have a clear narrative progression, strong emotional impact, frightening imagery, and a memorable chorus.\n\nPreferred song structure\n\n[Intro — Atmospheric Horror Sound Design]\n\n[Verse 1 — Establish the Character and Original Tragedy]\n\n[Pre-Chorus — Introduce the Curse or Growing Horror]\n\n[Chorus — Powerful, Memorable Horror Anthem]\n\n[Post-Chorus — Optional Haunting Refrain]\n\n[Verse 2 — Transformation and Escalation]\n\n[Pre-Chorus — Fear and Realization]\n\n[Chorus — Stronger, More Desperate]\n\n[Bridge — Horrifying Revelation, Spoken Dialogue or Whispers]\n\n[Breakdown — Emotional or Monstrous Explosion]\n\n[Final Chorus — Altered Lyrics Reflecting the Truth]\n\n[Outro — Disturbing Final Twist]\n\n[End]\n\nAdapt this structure to the musical needs of the character. Do not force unnecessary sections.\n\nLyric requirements\n\n- Tell a coherent, original horror story.\n- Write emotionally intense, singable lyrics.\n- Use vivid, disturbing, atmospheric imagery.\n- Create a powerful chorus with a memorable hook.\n- Make the character's transformation central to the narrative.\n- Incorporate distinctive details from their reference sheet naturally.\n- Balance terror with tragedy.\n- Include whispered dialogue or supernatural voices when they genuinely enhance the horror.\n- Use Suno-compatible section tags in square brackets.\n- Include instrumental and vocal-direction cues where useful.\n- Make the final chorus more desperate, horrifying, or emotionally devastating than the first.\n- Finish with an unsettling twist, revelation, or final spoken line when appropriate.\n\nAvoid generic horror clichés, forced rhymes, repetitive filler, and excessive shouted lyrics.\n\nThe listener should feel that they have experienced a complete horror story, not just heard a collection of scary phrases.\n\nPHASE 6 — ALBUM CONSISTENCY\n\nAll songs belong to the same alternate-reality Halloween album.\n\nMaintain consistency in:\n\n- Overall darkness and intensity\n- Cinematic gothic production\n- Emotional depth\n- Horror storytelling quality\n- Tragic or terrifying character transformations\n- Haunting supernatural sound design\n\nHowever, every character must have:\n\n- A unique nightmare identity\n- A distinct horror premise\n- Their own song title\n- Their own musical personality\n- A different supernatural or psychological threat\n- An individually memorable ending\n\nDo not recycle plots, lyrics, choruses, or character transformations from earlier tracks.\n\nRecurring background motifs, such as distant bells or strange supernatural phenomena, may subtly connect the realities when appropriate.\n\nDo not let those connections overwhelm the individual stories.\n\nPHASE 7 — MUSIC THUMBNAIL CONCEPT\n\nDescribe a square 1:1 music thumbnail using the character's transformed appearance.\n\nPreserve recognizable features from the reference sheet.\n\nThe artwork should be dark, cinematic, frightening, and appropriate for the character's original visual style. Prefer anime or stylized illustration over photorealism unless the original reference suggests otherwise.\n\nThumbnail layout:\n\nTOP: SONG TITLE\n\nBOTTOM: RubyZephyr\n\nInclude a short description of the environment, lighting, pose, expression, supernatural transformation, and important horror details.\n\nOnly describe the thumbnail at this stage. Do not generate artwork unless separately requested.\n\n---\n\nREQUIRED OUTPUT FORMAT\n\nProduce your response in this order:\n\n1. TRACK TITLE AND HORROR IDENTITY\n\nProvide the song title, character name, alternate-reality horror identity, and primary horror genre.\n\n2. THE ALTERNATE-REALITY NIGHTMARE\n\nTell the character's complete transformed backstory, including the tragedy, curse, final monstrous identity, and central horror revelation.\n\n3. SUNO STYLE TAGS\n\nProvide a separate copyable Suno style prompt.\n\n4. FULL SUNO-READY LYRICS\n\nProvide the complete song in a single copyable writing block, under 5,000 characters, with appropriate Suno section tags.\n\n5. HORROR TRANSFORMATION DESCRIPTION\n\nExplain how the character's physical appearance, personality, powers, and recognizable features change in this alternate reality.\n\n6. 1:1 MUSIC THUMBNAIL CONCEPT\n\nProvide the cinematic cover description with the song title at the top and RubyZephyr at the bottom.\n\n7. ALBUM CONNECTION\n\nBriefly explain how this track fits the overall Halloween album without repeating the style or narrative of previous songs.\n\n---\n\nFINAL INSTRUCTIONS\n\nUse the uploaded reference sheet as your primary character source.\n\nPreserve canonical identity details but feel free to invent dark alternate-universe events and transformations.\n\nDo not require me to choose from several concepts unless I specifically request options.\n\nInstead, examine the character, select the strongest and most original horror concept, and produce the finished song.\n\nPrioritize:\n\nHORROR FIRST. TRAGEDY SECOND. CHARACTER IDENTITY ALWAYS.\n\nEvery track must be frightening enough for a serious horror album, emotionally meaningful enough to be memorable, and musically cohesive enough to belong alongside the other songs.\n\nBegin analyzing the attached character reference sheet and create the complete Halloween alternate-reality song.\n\n========================\nPROMPT STOP\n========================",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-landmark-sketch-travel",
+      "category": "提示词",
+      "title": "背对镜头坐在地标前写生：画册上的建筑必须像真的那座",
+      "body": "金色小时，一个人坐在小木凳上，背对或侧对镜头，铅笔在大画册上勾一座世界级地标。身后是真实建筑，画册上的线条要跟实物对得上；脚边散落彩铅和蜡笔，风吹过也不像棚拍。\n\n@Naiknelofar788 用同一条提示词比 GPT Image 2.5 和 Nano Banana Pro：左边更像杂志封面，右边更像写生现场。四十赞起步，但结构清楚——「地标要准、画册要像、人不要抢戏」。旅行内容号可以直接把地标名换成自己去过的城市，系列感立刻出来。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：旅行封面别只拍景点，让角色当着景点画一张「对得上」的速写。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Naiknelofar788/status/2109981775661551659"
+        }
+      ],
+      "prompt": "Create a beautiful, cinematic travel photograph of a person sitting comfortably on a small wooden stool in front of a world-famous landmark, creating a detailed hand-drawn artwork of the landmark on a large sketchbook.\n\nThe person is seen from behind or at a slight side angle, holding a pencil or colored pencil and carefully sketching the landmark while looking up at the real architecture for reference. An open sketchbook, scattered colored pencils, a few wax crayons, and a small art bag rest beside them.\n\nThe landmark is the main attraction: Show the actual landmark prominently in the background, with authentic architecture, accurate proportions, original colors, and recognizable details. The artwork on the person’s sketchbook should closely resemble the real landmark, creating a beautiful visual connection between the artist’s drawing and reality.\n\nArt style: Realistic travel photography blended with a delicate colored-pencil and wax-crayon aesthetic. Visible pencil strokes, textured paper, soft hand-drawn shading, and subtle artistic imperfections.\n\nAtmosphere: Warm golden-hour sunlight, gentle shadows, a peaceful breeze, and a dreamy yet believable travel atmosphere. Include small environmental details that reflect the landmark’s real location and culture.\n\nComposition: Vertical 4:5 format, premium travel magazine cover, the seated artist in the foreground, the sketchbook clearly visible, and the magnificent landmark rising in the background.\n\nColor palette: Warm beige, muted pastels, earthy tones, and naturally vibrant colors inspired by the destination.\n\nThe final image should feel artistic, emotional, peaceful, and visually captivating, like a beautiful memory captured while travelling.\n\nAvoid distorted landmarks, fictional architecture, exaggerated fantasy elements, extra fingers, messy compositions, and artificial-looking textures. Keep the person, drawing materials, and landmark natural and realistic.",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-colosseum-black-dragon",
+      "category": "提示词",
+      "title": "斗兽场里蓝橙剑客对黑雾女：撞龙那两秒强制子弹时间",
+      "body": "古罗马斗兽场沙地上，蓝衬衫橙领带的男剑客与黑裙女魔法师开打。她瞬移出残影、召出黑雾龙；他把巨剑插进地面汇聚蓝橙双螺旋，迎头斩向龙首。二十五到二十七秒强制子弹时间：镜头绕碰撞点半圈，沙粒和能量裂纹悬在空中，再恢复、爆冲击波，废墟两侧两人仍对峙。\n\n@bozzxyz 把整段写成中文 Seedance 2.5 提示词，三人参考图分别锁男、女、场地，禁止换装变脸，音效只要刀剑与龙吼。子弹时间不是滤镜，而是写进时间码的硬约束，少两秒都算没写到位。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：高潮别只写「打得很猛」，先规定哪两秒镜头必须绕着碰撞转。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/bozzxyz/status/2110236581525385401"
+        }
+      ],
+      "prompt": "【Seedance 2.5｜30秒｜9:16｜超写实奇幻决斗｜仅SFX】\n\n参考锁定 @Image1 严格锁定男性脸、黑色齐耳卷发、胡须、蓝衬衫、橙色领带、橙色花裤、凉鞋及雕刻巨剑@Image2 严格锁定女性脸、深棕马尾、黑色短裙装及身材；\n@Image3\n仅锁定古罗马斗兽场结构、椭圆沙地、石阶、拱门与残墙。身份服装不可改变。\n\n00–05秒：开场即战。男性从画面左侧爆冲，巨剑斜劈；女性向外侧闪避，以黑色魔力拳反击。剑刃擦地，碎石与火星飞溅。低机位侧向跟拍，动作清晰有重量。\n\n05–10秒：男性连续横斩、旋身重劈；女性短距瞬移，留下黑色残影，绕至侧面重拳击中男性胸口。男性沿受力方向飞出数米，撞碎石墙，石块崩落、尘浪扩散。他立即持剑起身，两人重新对峙。\n\n10–15秒：女性释放黑色能量，地面黑雾旋转升空，云层形成巨大漩涡。男性将巨剑插入地面，蓝色与橙色光焰沿剑身汇聚。镜头从双人中景缓慢抬向天空。\n\n15–20秒：黑色巨龙从云中完整显现，具备双角、鳞片、四肢、双翼与长尾，俯冲咆哮，气流掀起沙尘。男性拔剑高举，双脚蹬地，蓝橙双螺旋能量包裹全身与巨剑。\n\n20–25秒：男性高速突进，留下蓝橙残光；黑龙张口释放黑色能量。巨剑迎面斩向龙首，双方在竞技场中央碰撞。镜头贴近冲突点，保持双方位置和攻击方向清晰。\n\n25–27秒：极短子弹时间。镜头绕碰撞点环绕半圈，悬浮沙粒、碎石与能量裂纹清晰可见。黑色、蓝色、橙色能量互相挤压，随后时间恢复。\n\n27–30秒：巨大冲击波向四周爆发，像炸弹气浪般横扫竞技场，沙地被掀翻，石阶和残墙接连崩塌，中央区域被夷平。镜头受冲击震动并后退，尘云吞没画面；最后两名战士仍在废墟两侧保持对峙。\n\n摄影：广角交代空间，快速侧向跟拍，短促推近，最终碰撞使用子弹时间。超写实皮肤、布料、金属、鳞片、重力与尘雾。音效仅剑风、金属撞击、魔力低鸣、龙吼、石墙崩裂、低频爆震和碎石落地；禁止音乐、对白、字幕。\n\n连续性：男性始终在左、女性在右，保持脸、服装、武器和场地一致。瞬移必须明确起点与落点；每次命中都表现惯性、反作用和恢复动作。禁止变脸、换装、穿模、肢体畸形、额外人物、卡通质感及无因镜头跳转。",
+      "date": "2026-10-14",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-dandelion-light-fairy",
+      "category": "提示词",
+      "title": "蒲公英上的光仙子：伸手碰一颗飞絮，像微距摄影不是插画",
+      "body": "阳光野花地里，一团金色光线凝成的小小仙子悬在蓬松蒲公英种子头上方，水晶翅膀把阳光折成淡彩虹。她伸手去碰一颗正要飞走的絮，表情安静。前景绒丝与露珠锐利，粉紫黄花化成奶油绿虚化，像一张认真拍的微距片。\n\nNagarjuna Creates（@nagarjuncreates）给 GPT Image 写了这段，明确 Nikon Z9、一百零五毫米微距、浅景深——把「魔法」按摄影器材参数写，而不是堆形容词。适合做治愈向封面、短视频封面，或当 Seedance 的首帧，再往下落一颗飞絮就能出第二镜。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：想拍得像照片里的魔法，先写镜头焦段，再写谁在碰哪一颗絮。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/nagarjuncreates/status/2109976284793315447"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/nagarjuncreates/status/2109976297506275761"
+        }
+      ],
+      "prompt": "A tiny ethereal fairy formed entirely from luminous golden light hovers above a fluffy dandelion seed head in a sunlit wildflower meadow. Her translucent figure glows with delicate strands of light, while intricate crystalline wings refract the sunshine into soft rainbow colors. She gently reaches toward a single drifting seed, her expression filled with quiet wonder. Fine dandelion filaments and sparkling dew remain sharply detailed. Pink, purple, and yellow flowers fade into creamy green bokeh behind her. Warm sunlight, soft atmospheric haze, realistic botanical textures, subtle magical radiance, balanced highlights. Nikon Z9 photography aesthetic, 105mm macro lens, shallow depth of field, exquisite detail, 8K visual aesthetic, vertical 2:3 composition. No text, logos, or watermarks.",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-pink-lemonade-ad-split",
+      "category": "提示词",
+      "title": "同一句粉红柠檬水广告词：一家拍成海报，一家拍成抓拍",
+      "body": "夏日集市上，女孩笑着把粉红柠檬水瓶推向镜头，瓶标写着 PINK LEMONADE，天空里手绘大字 FRESH。就这一句，没有旁白，也没有复杂布光说明。\n\nInkRoom（@inkroom_ai）用同一提示词跑 GPT Image 2.5 和 Nano Banana 2：前者偏光滑广告棚拍，后者更像路人抓拍。帖子本身流量不大，但把「模型脾气」写进人能听懂的对比——做品牌图时，先用短句测两家，再决定走棚拍还是纪实，省下一堆无效重跑。\n\n普通人照抄时，最容易删掉的恰恰是这些「不许」和「必须」——删掉之后成片就漂。留着它们，才像同一个人、同一场戏。做内容时也可以把这一句当口播金句直接念出来。\n\n所以呢：选模型别看榜单，用同一句广告词各跑一张，看谁更像你要的气质。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/inkroom_ai/status/2110040594848571748"
+        }
+      ],
+      "prompt": "Ad photo: a smiling girl at a sunny summer fair pushes a glass bottle of pink lemonade toward the camera. The bottle label reads \"PINK LEMONADE\". Big hand-drawn word \"FRESH\" in the sky.\n\n(Comparison note from @inkroom_ai: same prompt on InkRoom — GPT Image 2.5 tends toward glossy ad; Nano Banana 2 toward candid photo.)",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "guitoro-keyboard-guitar",
+      "category": "视觉尝试",
+      "title": "键盘当吉他扫弦：真琴采样，和弦指法当场亮出来",
+      "body": "打开 Guitoro，左手按和弦键，右手用 H 和 J 模拟上下扫弦，浏览器里立刻响起真吉他采样。作者把钢弦木吉他、尼龙古典、电吉他和四弦贝斯都录进网页，不是合成音色。练习曲能降到两成速度，同时每一根弦会亮起来，拨片跟着上下摆，琴颈上还标出手指该按哪一格。手机上也能点和弦垫、五指一起拨弦。不用注册，也不用下载插件。站上写着十五个调性各十五个和弦、五十一首跟奏、五十六种扫弦与拨弦型。他在 Hacker News 发帖当天就冲到三百七十多分，大家首先吐槽的不是音质，而是「扫弦手感对不对」——说明这玩意儿已经被当成乐器在试，而不是当成演示页在刷。于是一台假吉他，把「看谱—按键—听声」缩成同屏三件事。所以呢：讲「网页也能当乐器」时，别只放一段预录视频——让观众自己扫两下，笑声和错音比评测分更有料。",
+      "links": [
+        {
+          "label": "Guitoro 在线吉他",
+          "url": "https://guitoro.com/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50077020"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "how-random-are-you",
+      "category": "视觉尝试",
+      "title": "你以为自己在乱报数，浏览器里的预测器早就封好答案",
+      "body": "打开 Specr Lab 的「How random are you?」，页面让你尽量随机地说出一串数字。可问题是：在你开口之前，浏览器里的预测器已经把自己的猜测封存好了。翻牌机一样的分位板再告诉你，它比瞎蒙高出多少。作者 Shaun Pedicini 在页面说明里写得很直白——「说出数字，预测器先封口，再翻板看它领先概率多远」。他把这个小实验丢上 Hacker News，一天多就过一百二十赞。旁人刷到会先逞强「我肯定更随机」，点进去又被板子打脸。于是「人类不擅长真随机」不再是一句科普金句，而成了你亲手输给网页的现场。短视频也好做：先赌自己能赢，再剪翻牌那一秒。所以呢：讲概率幻觉时，别贴公式——丢这个链接，让观众自己跟预测器对赌三十秒。",
+      "links": [
+        {
+          "label": "How random are you?",
+          "url": "https://lab.specr.net/rigged-draw/"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50074909"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "mosaic-rs-29000",
+      "category": "视觉尝试",
+      "title": "每个像素都是一段视频：二万九千路实时拼成一张会动的马赛克",
+      "body": "Mohammed 给自己出了一道题：一张图，但每个像素其实是一段视频。他用 Rust 和 WGPU 做虚拟纹理，把大约二万九千路、来自一百二十一部情景喜剧的短片铺进同一块画面。平均每段只有一点七秒，加起来却接近十四小时；若硬塞进显存，粗算要一千七百五十 GB。他的做法是像操作系统管内存一样管显卡：远处只看小分辨率，近处再流式拉高清，用图集当「物理内存」、页表当寻址。文章还坦白录屏软件会跟刷新率打架，所以成片看起来有点卡，那是采集问题，不是演示本身在抖。Show HN 把这篇九月写的探索重新推到十月时间线，标题直接报出「29000 videos」。于是「GPU 能扛多少路」从抽象吞吐，变成一眼能懂的马赛克墙。所以呢：讲显卡吃多媒体时，别只报带宽数字——让观众想象每个像素背后都在播片，冲击力比参数表大。",
+      "links": [
+        {
+          "label": "mosaic-rs 文章",
+          "url": "https://madebymohammed.com/mosaic-rs"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50075020"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "factory-ds-factorio",
+      "category": "视觉尝试",
+      "title": "在六十七兆赫的掌机上做类《异星工厂》：地形算出来，不存整张图",
+      "body": "Ronan 玩腻了任天堂 DS 库存游戏，就想把现在爱玩的工厂建造搬上这台只有六十七兆赫、四兆内存的老掌机。他从没写过 DS 代码，于是自己写规格和平衡，让 Claude Code 吐出大部分 C。世界是二千零四十八乘二千零四十八，却从不整图存盘：地形用坐标现场算，只把玩家改过的格子放进哈希表。夜晚不重绘屏幕，只换二百五十六色调色板；电网和管道用并查集算连通；火车还有时刻表和闭塞。他甚至做了无头 Mac 版，方便在电脑上测平衡，还给智能体跑过大约四百七十场测试局。ROM 只有约一点九兆，英文法文都有，真机烧卡或 melonDS 都能玩。Show HN 里他把这些「抠内存」的乐子写成一篇可跟读的开发记。所以呢：讲「小模型也能上老硬件」太空——讲一张永不整存的地图，和用调色板假装天黑，观众才听得懂约束有多狠。",
+      "links": [
+        {
+          "label": "Factory DS 开发记",
+          "url": "https://ronangaillard.github.io/posts/factory-ds-a-factory-game-for-the-nintendo-ds/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50076586"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "wonderhop-sky-abyss",
+      "category": "视觉尝试",
+      "title": "每日四局猜大众或冷门：答「大家恨什么菜」，AI 裁判一秒验真",
+      "body": "蒙特利尔一对开发者花了大约两个月做出 Wonderhop：每天放出四局，每局七道开放题，比如「说出一种很多人讨厌的食物」。天空模式比谁更大众，深渊模式比谁更冷门，还有「最老答案」和「最新答案」两条时间轴。你有三十秒，不用注册也能玩，单局满分七百分。难处在自由输入：十种语言、错别字、复数、外号，同一意思能写成好几种。作者接了一个 AI 裁判，去查维基一类来源，平均一秒内判定「这答案是否真存在」；占比先从估计起，再被真人答案快速拉扯，漏掉的好答案也会被补进词表。概念和美术方向是人定的，大量代码用了 AI 工具。于是「猜大众心理」从派对游戏变成了带验真流水线的每日关。所以呢：讲「开放题难判」时，别空谈分类器——丢这个每日关，让观众亲眼看裁判怎么吞掉错别字。",
+      "links": [
+        {
+          "label": "Wonderhop 每日词游",
+          "url": "https://wonderhop.io/en/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50080246"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "xy-music-base12",
+      "category": "视觉尝试",
+      "title": "乐谱上的音不再叫哆来咪：十二进制写成 0 到 Y",
+      "body": "有人给自己做了一套十二平均律的同构键盘，却发现市面上的五线谱帮不上忙。于是他把每个音级写成 0、1、2……9、X、Y，再让 Codex 接上 MuseScore，吐出带着新符头的总谱。打开 music.xy.dev，能跟奏、改速度，还能接下外部 MIDI。作者在 Show HN 里说，这套记谱首先是给他自己练琴用的，顺手开源给别人抄作业；讨论区有人纠结「X 和 Y 读起来拗口」，也有人直接问能不能导出 PDF。它不是又一个 AI 作曲玩具，而是「我先造了怪键盘，再逼自己造一套能练的谱」。结果一次私活，变成了看得见的记谱实验。于是「工具跟人的手一起长」这件事，终于有了一页能点开的样例。所以呢：讲「AI 帮我造工具」时，别只秀聊天记录——秀一张把音名改成十二进制感觉的谱，观众一眼就懂你在解决什么别扭。",
+      "links": [
+        {
+          "label": "XY Music 记谱",
+          "url": "https://music.xy.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50075665"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "blueline-hockey-opus",
+      "category": "视觉尝试",
+      "title": "Opus 写冰球，Gemini 再优化：浏览器里五对五街机对战",
+      "body": "打开 Play Blueline，标签页里就是一场五对五街机冰球：你可以打电脑、沙发对战、联网排位一打一，还能改节时、难度和越位规则。操作表写得很全——WASD 滑冰、鼠标瞄准传球射门、长按抡大力抽射，连换人、捅球、急停都有键位。作者在 Show HN 标题里坦言：主体玩法由 Opus 5.5 搭起来，再用 Gemini Argon 做了一轮优化。页面不是空壳截图，而是能立刻开球的完整菜单，还有广播机位、图形质量档和基准测试；球队名也写进了界面，比如 Iron Range Miners 对 Boreal Lynx。它不卖引擎论文，只卖你能不能在标签页里完成一次射门。于是「模型写游戏」从对话炫耀，落成可玩的冰面。所以呢：讲 vibe coding 出小游戏时，别只晒对话——丢这个链接，让观众亲手打进一球再聊模型功劳。",
+      "links": [
+        {
+          "label": "Blueline 网页冰球",
+          "url": "https://playblueline.pages.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50077567"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "tiberava-rome-builder",
+      "category": "视觉尝试",
+      "title": "浏览器里建一座罗马城：先放广场，再扛住饥荒和灾难",
+      "body": "打开 Tiberava，眼前是公元前五十年三月的意大利空地，坐标写着四十一度北、十二度东。顾问跳出来说：罗马帝国的未来从一座家开始，先把住房贴着路放下。你落下第一个广场，人口、粮仓、金库和幸福度就开始在顶栏跳动；路一修，街区就活；季节也会按月份往上叠。作者把它做成手机也能点的网页策略，名字直译就是「台伯河畔的阿瓦」。Show HN 上它没有长文解说，但十五个赞和可玩的存档，已经够让人把标签页开着「再撑一年」。界面是西班牙语口吻，反而多了一点渡河建国的沉浸感。于是「模拟城市」从桌面大作缩成一页打开就能建国的小品。所以呢：讲「网页小游戏还能讲帝国」时，让观众亲手把第一个广场点下去——比截图帝国更有画面。",
+      "links": [
+        {
+          "label": "Tiberava 罗马建城",
+          "url": "https://tiberava.pages.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50081186"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "survevbot-rl-royale",
+      "category": "视觉尝试",
+      "title": "整场吃鸡没有人类：强化学习小队的完整录像可拖进度条",
+      "body": "打开 survevBot 演示页，标题就写着「场上每一个玩家都是机器人」。你会看到一局开源二维吃鸡《survev》的完整回放：四个一组的智能体用多智能体强化学习练过，录像在本地服务器里打完，场上没有真人。滚轮缩放、拖动观察、点玩家卡片切到他的视角；还可以打开「AI intent」看意图，八倍速跳过垃圾时间。游戏资源来自 GPL-3.0 的 survev。Show HN 的重点不是又一个排行榜，而是让你把整场比赛当纪录片看。于是强化学习从奖励曲线，变成了能快进的战场。旁人刷到会先怀疑「是不是剪过的高光」，拖几下进度条就明白：这是整场。所以呢：讲「多智能体合作」时，别只贴奖励曲线——丢这场全是机器人的吃鸡，让观众自己拖进度条找翻盘。",
+      "links": [
+        {
+          "label": "survevBot 回放",
+          "url": "https://123wwwa.github.io/survevbot-demo/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50077607"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "jevcrawl-agent-crawl",
+      "category": "小众工具",
+      "title": "Jevcrawl：爬虫环里不塞大模型，只把能答题的段落交给代理",
+      "body": "代理上网常有两条烂路：要么把爬到的整页塞进上下文，被导航栏和页脚淹死；要么每点一个链接都问一遍大模型，又慢又贵。Jevcrawl 两边都不站——小决策模型只负责打分链接和段落，真正答题的大模型只读「可能有答案」的原文摘录，还带网址、标题路径和字符偏移，决策模型不能瞎编字。演示里查 Python 海象运算符，六页八万 token 压到一千八百多，花不到一分钱、大约八点三秒。五十道 WebWalkerQA 上，它正确率约四成、找到答案页约五成四，比让 Claude 自己选链接更准也更便宜，大约八倍省钱。还提供 MCP 服务，可挂进 Claude Code、Desktop、Cursor。页面文字只被打分、不被执行，从设计上挡提示注入。所以呢：别再让代理「边爬边读整站」——先用小裁判筛段落，大模型只看真正可能答题的那几截。",
+      "links": [
+        {
+          "label": "Jevcrawl GitHub",
+          "url": "https://github.com/RayenMlayeh/jevcrawl"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50080450"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "squeeze-tool-output",
+      "category": "小众工具",
+      "title": "squeeze：管道里把工具输出挤干，只留给代理会改主意的那几行",
+      "body": "编码代理按字节付费读工具输出，可 Terraform、pytest、诊断日志往往是写给人看的。作者举过例子：一次诊断冲出约五十八万 token，直接把窗口塞爆；terraform show 的 JSON 六千多字节，真正有变的只有四百八十五字节。squeeze 坐在管道中间，读标准输入，吐出仍带齐「变更、失败、决策」的最短文本；它解析格式，不是瞎截尾巴，还从不打印工具标成敏感的字段。pytest 那类「一百五十行里只有八行有用」的噪音，也是它要对齐的目标。项目还在实验期，格式和旗标会变，脚本要钉提交。于是「工具太吵」从抱怨，变成一条可插的过滤器，而且不要求代理方专门对接。所以呢：别再让代理通读整份计划书——先 squeeze，再决定要不要动那三个资源。",
+      "links": [
+        {
+          "label": "squeeze GitHub",
+          "url": "https://github.com/cauebraz/squeeze"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50076734"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "goatedcontext-prefs",
+      "category": "小众工具",
+      "title": "goatedcontext：你说过「这仓库用 pnpm」，新会话自己想得起来",
+      "body": "新开一轮代理会话，它常把你上周刚改的包管理器忘光，又给你跑回 npm。goatedcontext 不搞向量检索聊天记录，只在本机 SQLite 里存三类结构化上下文：偏好、一次性信号、待你批准的提案。Claude Code、Codex、Cursor 开箱能用，也会写进 AGENTS.md。一条 npx goatedcontext setup 装好本地 ctx 命令，还可用 ctx remember 手工写入；你讲一次「这仓库用 pnpm」，下次它自己取回。作者在三百二十次真实 Claude Code 试验里，把「新会话听偏好」从约两成四拉到约五成四。它不是把上下文窗口拉长，也不是又一个 RAG 玩具，而是本地账本。于是「别让我再说一遍」第一次有了可检查、可删除的条目。所以呢：别把记忆赌在聊天窗口长度上——把偏好写成可取回的本地条目，代理换班也不失忆。",
+      "links": [
+        {
+          "label": "goatedcontext GitHub",
+          "url": "https://github.com/razzyshmazzy/goatedcontext"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50082450"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "stroq-session-secrets",
+      "category": "小众工具",
+      "title": "Stroq：扫代理会话有没有读到你家密钥，只报名不回显密文",
+      "body": "代理一读点 env 或家目录下的 aws 凭证文件，密钥就进了会话记录。Stroq 对照你机器上已知凭证，扫描 Claude Code、Codex、Cursor 的本地会话：命中时只告诉你「是哪一把钥匙、在哪次工具调用里出现」，绝不把密文打出来。一条命令就能查最近一场，连装 Stroq 之前的旧会话也能扫；初始化以后还能在后续会话里拦住外泄，并给 Claude、Cursor、Codex、Copilot CLI 等挂钩。作者用公开报告和合成案例回放三十六次攻击，宣称零次漏过。它强调本地取证不等于证明密钥已发到模型云端，但至少能点名该轮换的钥匙。于是「密钥有没有进过上下文」从猜，变成可点名的本地取证。所以呢：别等云厂商账单报警——先扫昨晚那场代理会话，点名该轮换的钥匙。",
+      "links": [
+        {
+          "label": "Stroq GitHub",
+          "url": "https://github.com/AGGIB/Stroq"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50074883"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "agor-multiplayer-agents",
+      "category": "小众工具",
+      "title": "Agor：别再一个人盯代理——团队和智能体上同一块空间白板",
+      "body": "Agor 把自己叫成「多人 AI」：网页工作区里，人与编码代理共享可见的空间板，分支像卡片、区域像地块，会话可以现场跟看。每个代理跑在隔离的 git 分支和独立开发环境里，会话历史也分开。它不自带模型，而是驱动你已有的 Claude Code、Codex、Gemini CLI、Copilot、OpenCode、Cursor 等订阅，按会话可互换。用 npm 装好就能单人开跑，再把同事拉进来；还有云端开放测试，文档站在 agor.live。仓库许可证是 BSL 1.1。于是「我在终端里养了一个只会自己干活的代理」变成「整队能看见、能接手、能复用」的现场。好提示词不再锁在私聊窗口，别人也能指着板子接着改。所以呢：讲代理协作别再只发屏幕录像——让队友在同一块板上指着分支说话，比私聊提示词更像团队。",
+      "links": [
+        {
+          "label": "Agor GitHub",
+          "url": "https://github.com/preset-io/agor"
+        },
+        {
+          "label": "文档站",
+          "url": "https://agor.live/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50073109"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "geometry-check-fusion",
+      "category": "小众工具",
+      "title": "Geometry Check：在 Fusion 360 里揪出「差零点几度」的假直角",
+      "body": "画图的人最怕这种隐形错误：线看起来垂直，其实偏了零点三度；两端点看起来闭合，其实差零点零五毫米，挤出直接失败。Geometry Check 是免费的 Fusion 360 插件，一键扫草图：假直角、发丝缝、开放端点、碎线段，用白话解释，还能把镜头跳到出事位置。作者强调别的工具几乎不查「几乎垂直」这种毛病，公差都能在设置里调。默认只检测不改图；实验性修复可一键加约束，但会再验一遍，失败就自动撤销。故意留下的斜角可以标成忽略，标记存在设计文件里。目前公开 alpha，欢迎匿名反馈。于是「晚上对着端点放大一千倍」的苦行，收成一次点击。所以呢：讲 CAD 翻车时，别只怪手稳——先让插件把假直角标红，再谈谁该加班。",
+      "links": [
+        {
+          "label": "Geometry Check GitHub",
+          "url": "https://github.com/andyd/geometry-check"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50082759"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "brutus-kill-caesar",
+      "category": "小众工具",
+      "title": "Brutus：别杀整个代理父进程，只刺死正在霸占 Mac 的那个子进程",
+      "body": "本机同时跑多个编码代理时，子进程、构建、开发服务器会把风扇打满。很多人在活动监视器里点掉占用最高的父进程，结果把别的任务也带走。Brutus 采样大约三秒，列出最可疑的三个子进程，带上启动命令、内存、CPU 和换入速率；内存吃紧时，活跃换页和内存增长会抬高排名。按 I 能看全命令和工作目录，再选中那个「凯撒」刺一刀；周围的 harness 可以自己重试，其它活继续。名字梗来自 seizer 听起来像 Caesar。只支持苹果电脑系统十二及以上，带试跑模式，可用安装脚本或 Homebrew；二进制是临时签名。于是「风扇狂转」从屠城，变成一次外科手术。所以呢：风扇狂转时别屠城——先让 Brutus 点名真正抢内存的那一个进程号。",
+      "links": [
+        {
+          "label": "Brutus GitHub",
+          "url": "https://github.com/smashah/brutus"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50081491"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "bitrun-ternary-cpu",
+      "category": "小众工具",
+      "title": "BitRun：一键拉三值模型，CPU 上聊到约九十八 token 每秒",
+      "body": "微软 BitNet 一类一点五八比特三值模型，适合在无独显的笔记本上跑，却常卡在编译子模块、调向量指令和扛好几 GB 的容器镜像。BitRun 把推理引擎收成单文件：一条命令从 Hugging Face 拉模型，再进对话，或开成本地兼容接口。作者在 M4 Pro 纯 CPU 上测 Falcon3 一 B，生成速度约九十八点六 token 每秒，显卡占用为零、内存大约一点九 GB；BitNet 二点四 B 大约三十九点八 token 每秒，七十兆小模型则能飙到上千。Windows 与 Linux 也有对应数字。于是「想试一下 BitNet」从半天环境，变成三条命令。它还提供硬件探测，查看本机向量指令支持，方便你对症下药。所以呢：讲端侧小模型别只报参数量——让观众在自己 CPU 上跑通一次聊天，体感比论文图硬。",
+      "links": [
+        {
+          "label": "BitRun GitHub",
+          "url": "https://github.com/IshekKhal/bitrun"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50077267"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "lowlight-kbd-dim",
+      "category": "小众工具",
+      "title": "Lowlight：把 Mac 键盘背光压到系统最低档以下，黑房打字不刺眼",
+      "body": "作者常在暗房干活，发现 macOS 键盘背光「最低」仍然太亮，可系统熄灭时明明能淡到全黑。Lowlight 是个菜单栏小工具，在官方最低档下面再加若干级——默认十档，可在二到二十之间选——淡下去并维持你选的亮度；你若在控制中心改亮度，系统会收回控制权。它走私有亮度接口：先淡、再读系统登记处里的占空比并钉住。系统升级可能砸掉，仅苹果芯片、需较新 macOS，MIT 许可且已公证，可用 Homebrew 装。于是「黑房还是被键盘照脸」这种小痛，第一次有了可调的台阶。自动背光在你压到最低档以下时会暂停，回到正常范围再恢复。所以呢：讲桌面体验别只会换壁纸——把背光再压两档，观众黑房里一试就懂。",
+      "links": [
+        {
+          "label": "Lowlight GitHub",
+          "url": "https://github.com/Isaac-Harper/lowlight"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50074485"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "pdf2epub-quick-action",
+      "category": "小众工具",
+      "title": "Finder 右键 PDF 变 EPUB：Vision 扫页，墨水屏终于能重排",
+      "body": "作者换了很小的电子墨水屏，PDF 基本废了。他用 Swift 接上苹果自带的 PDF 工具包、视觉识别，以及可选的本机基础模型做校对排版，把扫描件和普通 PDF 收成可重排的电子书。安装包会挂进 Finder 快速操作：多选几个 PDF，右键转成电子书，通知一响，文件就躺在旁边。第一次用时可能要在系统设置里勾选该快速操作，并允许访问桌面或下载文件夹。需要较新的苹果芯片系统；没有苹果智能也能跑，只是少一轮润色。大扫描本可能要几分钟，电子出生的 PDF 通常很快。命令行工具也会一并装上。于是「为了看书先开电脑」收成一次右键，文件不出本机。所以呢：讲墨水屏工作流别安利又一个云转换——让观众在自己 Finder 里点一次，文件不出本机。",
+      "links": [
+        {
+          "label": "pdf2epub GitHub",
+          "url": "https://github.com/bnlcas/pdf2epub"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50081227"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "clipit-missed-moments",
+      "category": "小众工具",
+      "title": "Clip-It：Mac 版「错过也能剪」——滚动缓冲，只存刚才那段高光",
+      "body": "个人电脑玩家习惯显卡厂商的即时回放：精彩时刻过后仍能把刚才几十秒存成片段。作者换到 Mac 后一直缺这味，灵感来自游戏主机的即时剪辑。Clip-It 用滚动缓冲持续录屏，不把整天硬盘写爆，只在你按下时切出刚才那一段——官网写明可存最近十五、三十或六十秒，并可写进相册。先有手机版上架，可从控制中心一键剪，适合手机上的对战游戏；Mac 版四月做过后又搁置数月，现在重做，强调更快、更可定制，并开放源码欢迎贡献。于是「刚才那个击杀没录上」从永恒遗憾，变成可补救的环形内存。游戏、演示、调试翻车，都能事后捞。所以呢：讲创作工具别只盯剪辑时间线——先给旁观和玩家一枚「刚才那段给我」，素材自己会找上门。",
+      "links": [
+        {
+          "label": "Clip-It 官网",
+          "url": "https://clipit.itzadetunji.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50074863"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
+    {
+      "id": "keepword-policy-watch",
+      "category": "小众工具",
+      "title": "Keepword：网页改了隐私政策也不吭声？独立见证人帮你留证",
+      "body": "隐私政策和新闻页经常悄悄改字。Keepword 搭了一张见证人网络：不同国家、不同自治系统上的机器分别抓取你关心的页面，去掉广告和「五分钟前」这类噪声，再签名封存；时间戳一边靠公开随机数，一边锚定比特币区块。页面被偷偷改掉时能标出静默编辑，不同地区看到不同版本会标成分叉。证据文件可离线校验，不要求信任何一方；至少三个网络上的见证人一致才算裁决。项目强调自由软件，主仓库在自家代码站，GitHub 只是镜像；网络还在起步，今天跑证人要一台小 Linux。于是「我记得上次不是这么写的」从嘴仗，变成可核验的存证。所以呢：讲平台条款陷阱时，别只截今天的图——挂上见证人，改字当天就能摊旧版。",
+      "links": [
+        {
+          "label": "Keepword",
+          "url": "https://keepword.net/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50073593"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-13",
+      "added": "2026-10-14T15:10:00+08:00"
+    },
     {
       "id": "reward-hack-contagious",
       "category": "硬科技",
