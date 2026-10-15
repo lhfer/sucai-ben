@@ -1,6 +1,649 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-15T10:50:00+08:00",
+  "updated": "2026-10-15T15:10:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-niko-ice-pond",
+      "category": "提示词",
+      "title": "熊猫 Niko 要过结冰池塘：竹竿一断，它整只掉进冰窟窿",
+      "body": "冬日山塘冻得发亮。小熊猫 Niko 站在岸边，对面有一捆竹笋。它先试试脚——冰面吱吱响——再拖来一根竹竿当桥梁。走到一半，竹竿喀嚓断了，它连人带竿掉进冰窟窿，只剩两只耳朵露在外面。\n\nAbhishek（@HeyAbhishek）第二天又放了一条：Gemini 4 Argon 写剧本，Seedance 2.5 出三十秒，角色设定图和视频提示词拆开贴。和前一天的小红熊猫摘桃同一套路，但物理锁更狠：岸边左右不许换边，塘宽写死约四点五米，竹竿只允许断一次。成片收藏上百，很多人在问「怎么让摔跤不乱改脸」。答案写在词里：参考图只锁外貌，分镜板只当时间轴，禁止把不同格子里的姿势拼进同一帧。\n\n所以呢：动物喜剧别写「搞笑」，先写清楚「它踩了什么、什么因此断了」。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/HeyAbhishek/status/2110355993255366802"
+        },
+        {
+          "label": "角色设定提示词",
+          "url": "https://x.com/HeyAbhishek/status/2110356012419133768"
+        },
+        {
+          "label": "视频提示词",
+          "url": "https://x.com/HeyAbhishek/status/2110356027820618062"
+        }
+      ],
+      "prompt": "=== Character sheet ===\nCreate a premium character-design reference sheet on a clean light cream / pale warm-yellow studio background for an entirely original young giant panda named NIKO. Organize the image like a professional high-end 3D animated feature-film character model sheet. Every view must show the exact same Niko with strict identity, fur markings, facial structure, body proportions and paw consistency.\nAt the top-left, include the simple title “NIKO”. Under the title, include small character information reading: TYPE: young giant panda, PERSONALITY: curious / optimistic / cautious / stubborn, BUILD: compact pear-shaped body / short sturdy legs / oversized paws, STYLE: premium realistic 3D animated character, AGE APPEARANCE: young. Include a small labeled color palette for IVORY-WHITE FUR, CHARCOAL-BLACK FUR, EYE PATCHES, NOSE, PAW PADS and AMBER-BROWN EYES.\nShow a large full-body front view and full-body side view on the left. In the center, show a large full-body 3/4 hero view and a full-body rear view. On the right, show head front, head side and head 3/4 views. Along the bottom, include an expression strip showing HAPPY, CURIOUS, NERVOUS, DETERMINED, PANICKED and DAZED expressions. Beside the expression strip, include three small action poses showing Niko running with his short legs moving rapidly, balancing awkwardly with all four paws spread outward, and holding several leafy bamboo stems proudly against his chest.\nNiko is a completely original young giant panda with a compact slightly pear-shaped body, short sturdy legs, broad oversized paws and a large rounded head. His main fur is warm ivory-white rather than pure white. His ears, shoulders, upper arms, legs and eye markings are deep soft charcoal-black. His eye patches are slightly tapered toward the outside rather than perfectly circular. He has large warm amber-brown eyes with visible brown irises and natural highlights, a small glossy black nose, soft rounded cheeks and a small asymmetrical tuft of ivory fur on top of his head that leans slightly to one side.\nHis paws are broad and soft with subtle dark paw pads. His limbs are short but physically capable of supporting his body. His proportions should feel cute and expressive while preserving believable panda anatomy. His facial expressions should come naturally from his eyes, eyelids, ears, mouth, head angle and body posture rather than extreme facial deformation.\nNiko has one small natural panda tail permanently attached behind his body. The tail remains identical in every view. Never enlarge it into a long tail, never duplicate it and never detach it.\nNo clothing, no hat, no scarf, no shoes, no backpack, no accessories, no logos and no weapons.\nUse premium realistic 3D CGI animated-film rendering with detailed soft fur, realistic fur breakup around the cheeks and body edges, physically believable materials, natural eye reflections, subtle contact shadows and clean cinematic studio lighting. Combine believable giant panda anatomy with slightly exaggerated proportions suitable for expressive physical comedy.\nNiko must have a completely original visual identity. Do not reproduce or closely resemble any recognizable existing animated panda, mascot, film character or franchise character.\nUse only the clean light cream / pale warm-yellow studio background. No environment, no snow, no unrelated objects and no additional characters. Every model-sheet view must preserve the exact same face, amber-brown eyes, eye-patch shapes, fur distribution, head tuft, body proportions, paws and small natural tail.\n\n=== Seedance 2.5 video ===\nCreate an exactly 30-second vertical 16:9 premium 3D animated comedy short. Use the attached Niko character sheet as the exact visual reference for Niko. Maintain his identical face, amber-brown eyes, charcoal eye patches, ivory-white fur, charcoal-black limbs, small asymmetrical head tuft, compact pear-shaped body, short sturdy legs, oversized paws and small natural panda tail throughout every frame. The reference defines Niko's appearance only. Do not copy poses or environments from the character sheet. If a storyboard board is also provided, use it only as a sequence and composition guide. Each storyboard panel represents a different moment in time, so never combine multiple Niko poses from different panels into the same frame.\nThe entire story takes place around one small completely frozen mountain pond during bright clear winter daylight. The pond is approximately 4.5 meters across and lies between two fixed snowy banks. Bank A is Niko's starting side and final destination. Bank B is the opposite side where the bamboo bundle is located. In all wide lateral shots, Bank A must remain on screen-left and Bank B on screen-right. During the first crossing Niko moves from left to right. During the return crossing he moves from right to left. Never mirror the world, swap the banks, reverse the geography or create a third bank.\nThe frozen pond is flat, horizontal, smooth, solid and completely frozen from one side to the other. The surface is pale blue-gray with subtle reflections and a thin frosted texture near the edges. It must always look like solid ice, never liquid water. There are no cracks, holes, broken sections, splashes, bumps, sudden slopes, invisible currents or melting. Both banks slope gently down toward the ice. Immediately beyond each ice edge is a deep area of loose powdery snow approximately 60 to 80 centimeters deep. These are the soft stopping zones. No rocks, logs, tree trunks, hard branches or other solid obstacles are allowed in either landing path.\nDense living bamboo grows farther behind both banks, with light snow resting naturally on some leaves and stems. The living bamboo never enters Niko's sliding path. One loose bamboo bundle begins on Bank B approximately one meter to the side of Niko's first landing zone. It contains exactly four short fresh green bamboo stems tied securely at the center with one simple tan natural-fiber cord. The bundle is compact, approximately the width of Niko's torso, and light enough for him to carry comfortably. It remains one single prop for the entire story. Niko never breaks, cuts or pulls bamboo from a living plant.\nThe core story is simple. Niko notices the bamboo bundle across the frozen pond and wants it. He cautiously tests the ice, tries to cross, loses traction and accidentally slides across on his belly after his final hind paw pushes against the snowy edge. He reaches Bank B and crashes harmlessly into deep powdery snow. His failed crossing accidentally works. He finds the bamboo beside him, picks it up and realizes he must cross the same ice again. This time he deliberately uses his belly as a slide. He hugs the bamboo against his chest, pushes off from the snow with both hind paws and glides confidently toward Bank A. He becomes overconfident and tries steering with one hind paw. That uneven drag creates rotational momentum and slowly turns his body exactly 180 degrees while he continues traveling in the same direction. He is now sliding backward toward Bank A. He reaches the bank rear-first, disappears harmlessly into deep snow, pops up still holding the bamboo and immediately takes a bite as though everything went exactly according to plan.\nUse a premium realistic 3D CGI animated-film aesthetic with highly detailed soft panda fur, realistic powdery snow, subtle ice reflections, dense natural bamboo, distant snowy mountain peaks, bright crisp winter daylight, soft atmospheric depth, natural shadows and expressive but controlled physical comedy. Keep Niko cute but anatomically believable. Avoid extreme limb stretching, rubbery deformation or exaggerated facial distortion. Every major movement must have a visible physical cause. Maintain believable body weight, gravity, momentum, low friction on smooth ice and strong resistance from deep snow.\nFrom 0:00 to 0:02, open immediately with a low wide shot at Bank A. Niko moves quickly through fresh powder snow and stops at the frozen pond edge. Across the pond on Bank B, the single tied bamboo bundle is clearly visible resting on the snow. Niko's eyes widen. Without wasting time, he reaches one front paw onto the ice. The paw immediately slides several centimeters forward. He jerks it back onto the snow, looks down at the ice, then looks back at the bamboo with a determined expression. Keep Bank A on screen-left and Bank B on screen-right.\nFrom 0:02 to 0:04, use a medium side shot showing Niko's full body, the frozen pond and the bamboo across the way. Niko cautiously begins stepping onto the ice on all four paws. Both front paws move onto the frozen surface, then one hind paw follows. His final hind paw remains firmly planted in the higher-friction snow at Bank A. Niko lowers his body and attempts one very small forward step. His front paws unexpectedly slide farther forward. His eyes widen and he tries to pull himself backward.\nFrom 0:04 to 0:07, use one clear uninterrupted side shot. Niko's front half keeps sliding forward. His body stretches low toward the ice. Trying to recover, his final hind paw instinctively pushes strongly against the snowy edge. Show that push clearly. The snow provides traction and the push sends Niko's body forward. His last hind paw leaves Bank A and Niko gently drops belly-first onto the ice with existing forward momentum. He begins sliding toward Bank B. He remains belly-down and head-first for the entire first crossing. His head stays pointed toward Bank B. His four paws spread outward as he tries to stop himself, but they provide almost no grip. His expression changes from determination to panic. Do not rotate him, spin him, turn him backward or make him accelerate after the initial push. His speed must slowly decrease as he travels across the flat ice.\nFrom 0:07 to 0:09, use a wide side shot as Niko approaches Bank B. He is still belly-down and head-first, moving slower than at the beginning of the slide. His front paws enter the deep powder snow first, then his chest. The higher resistance of the snow rapidly slows him and he gently plows head-first into the soft bank with a large fluffy POOF. Powdery snow rises around him and partially buries him. Nothing hard is in his path. The bamboo bundle stays approximately one meter to the side and is not struck or moved.\nFrom 0:09 to 0:11, hold on Bank B in a static medium shot. The snow settles. After a brief pause, Niko's head slowly rises from the powder. Snow covers part of his cheeks and head tuft. He blinks, then turns slightly and notices the exact same bamboo bundle beside him. His dazed expression instantly becomes delighted. The bundle has not moved from its established location.\nFrom 0:11 to 0:13, Niko climbs completely out of the snow, walks the short distance to the bamboo and picks up the exact same tied bundle using both front paws. One paw grips one side and the other grips the opposite side. He hugs it firmly against his upper chest. The four stems remain tied together. No stems fall out and no leaves detach. Niko smiles proudly.\nFrom 0:13 to 0:15.5, use a medium shot as Niko turns toward the frozen pond while still holding the bamboo tightly against his chest. He looks across toward Bank A, then looks down at the ice. His smile disappears as he remembers the first crossing. After a short beat, he looks at his own belly, then at the smooth ice, then back toward Bank A. His eyes brighten. He has an idea. His expression changes into a confident grin. Niko turns so his body points directly toward Bank A and continues holding the bamboo securely against his upper chest.\nFrom 0:15.5 to 0:18, use a wide side shot showing the full physical setup. Niko crouches low in the powder snow on Bank B about one body length away from the ice edge. Both front paws continue holding the bamboo bundle against his upper chest. Niko takes two short quick steps through the snow toward the pond. As he reaches the edge, he lowers his body and places his belly onto the start of the ice. At that moment both hind paws remain briefly planted in the snow behind him. Niko pushes strongly backward against the snow with both hind paws. Show this push clearly. The higher-friction snow provides traction and launches him forward into a controlled belly slide toward Bank A. This is not a jump and Niko never becomes airborne. He transitions directly from snow to ice. The bamboo remains held firmly against his upper chest.\nFrom 0:18 to 0:21, use a beautiful low lateral tracking shot as Niko glides smoothly from Bank B toward Bank A on his belly. His body remains aligned with the direction of travel and his head points toward Bank A. Both front paws remain wrapped around the bamboo bundle. The bamboo rests against his upper chest and stays slightly above the ice. The bamboo never touches or drags across the ice and never functions as a sled. Niko realizes his deliberate technique is working. His nervous expression becomes surprised, then proud, then extremely happy. He raises his head slightly and smiles broadly as though he has mastered the pond. His sliding speed slowly decreases and he never accelerates.\nFrom 0:21 to 0:23.5, continue the same direction of travel toward Bank A. Niko is visibly overconfident. Still hugging the bamboo with both front paws, he deliberately lowers his right hind paw until the paw pad lightly touches the ice. He attempts to use it like a rudder. The right hind paw creates noticeably more friction than the rest of his body. This uneven drag pulls one side of his rear body backward and begins rotating Niko around a vertical axis. His smile immediately starts disappearing. The right hind paw stops dragging after the initial steering attempt. Do not keep applying force after the rotation begins.\nFrom 0:23.5 to 0:26, use a wide lateral tracking shot. Niko continues translating toward Bank A because of his existing forward momentum. At the same time, the rotational momentum created by the brief right-paw drag slowly turns his entire body. He completes exactly one 180-degree half-turn over this interval. Not 360 degrees and not multiple spins. The rotation is slow, readable and controlled. Niko remains belly-down. The bamboo bundle remains clutched securely against his upper chest and rotates together with him as one carried object. Never leave the bamboo behind and never duplicate it. At the end of the half-turn, Niko's hindquarters point toward Bank A while his face points back toward Bank B. His direction of travel has not changed. Only his body orientation has changed. His expression shifts from confidence to confusion and then panic.\nFrom 0:26 to 0:28, show Niko sliding rear-first toward Bank A. His hind paws and rear body lead the motion while his head faces the opposite direction. He twists his neck and looks over one shoulder toward the approaching Bank A snowbank. His eyes widen. Niko tries to brake by gently pressing both hind paws against the ice, but they provide very little grip. His speed continues gradually decreasing, but he cannot stop before reaching the bank. Do not rotate him again, turn him forward or accelerate him. The bamboo remains securely held against his chest.\nFrom 0:28 to 0:30, use one uninterrupted wide side shot showing the entire final cause and effect. Niko reaches Bank A rear-first. His hind paws and lower body enter the deep powder snow first. The snow creates strong resistance and rapidly slows his rear body. He slides backward slightly deeper into the soft powder and becomes half-buried rear-first with a large soft POOF. There is no flip, no head-first collision, no sudden pose change and no hard impact. The snow settles quickly. Niko remains sitting half-buried with his head, shoulders, front paws and the exact same bamboo bundle visible above the surface. He is completely unharmed. He blinks, looks at the bamboo, calmly raises one leafy end toward his mouth and takes one large satisfied bite. His expression becomes completely content. Cut to black.\nMaintain strict Niko consistency throughout all 30 seconds. Niko always has the same facial structure, amber-brown eyes, charcoal eye patches, ivory-white fur, charcoal-black fur distribution, asymmetrical head tuft, ear shape, body proportions, limb lengths, oversized paws and small natural panda tail. He has exactly one head, two ears, two eyes, two front paws, two hind paws and one small natural tail. Never add or remove limbs. Never create human hands or fingers. Never create a long tail. Never duplicate Niko. Never show multiple simultaneous copies, ghost bodies, motion-trail duplicates or several poses of Niko in one physical frame. Motion blur may appear only as subtle blur on one continuous body.\nMaintain strict bamboo continuity. There is exactly one carried bamboo bundle containing exactly four tied stems. It begins on Bank B and remains there until Niko picks it up at approximately 0:11. After that moment, both front paws hold the same bundle continuously until the end. The bundle never duplicates, disappears, teleports, changes size, changes color, changes stem count, unties itself, breaks apart, transforms, floats independently or flies away. No bamboo leaves detach during the return journey. Niko may bite one leafy end only in the final second.\nMaintain strict first-crossing physics. The first slide begins only because Niko's final hind paw visibly pushes against the higher-friction snow. The ice itself does not pull him. The wind does not push him. The pond does not slope. Niko remains head-first and belly-down for the entire first crossing with zero rotation.\nMaintain strict second-crossing physics. The return slide begins only because both hind paws visibly push against the snow on Bank B. Niko never jumps and never becomes airborne. After entering the flat ice, he gradually loses speed. At approximately 0:21, Niko briefly drags only his right hind paw. That brief asymmetric friction creates rotational momentum. The paw then stops dragging. Niko completes exactly one 180-degree half-turn because of that existing rotational momentum. His direction of travel continues toward Bank A throughout. Rotation changes only his orientation and never reverses his travel direction.\nThe ice remains physically identical throughout the entire video. It stays flat, horizontal, solid, smooth, unbroken and completely frozen. No cracks, holes, liquid water, splashes, sinking, melting, bumps, slopes or invisible currents. The geography never changes. There is one pond and exactly two banks. Bank A is the starting side and final destination. Bank B contains the bamboo bundle. In lateral shots Bank A stays on screen-left and Bank B stays on screen-right. Never mirror the environment, change the pond width, relocate the bamboo or teleport Niko between banks.\nThe final landing must remain rear-first. Niko's hindquarters reach the deep snow first and he stays oriented backward throughout the impact. The snow stops him. He does not flip, rotate again, become head-first or collide with anything hard. He finishes half-buried in soft snow while still holding the bamboo.\nPrioritize clear physical readability over flashy camera movement. Use side views whenever sliding direction, geography or cause and effect need to be understood. Keep the established left-right screen axis consistent. Do not orbit the camera around Niko during the 180-degree turn. The camera must remain relatively stable so the audience can clearly see that Niko's body is rotating. Do not use camera rotation to fake spinning. Avoid rapid cuts during the first hind-paw push, the deliberate second push-off, the steering paw touching the ice, the 180-degree rotation and the final rear-first snow entry.\nUse playful adventurous orchestral music throughout. Include natural crisp winter ambience, soft wind, gentle living bamboo-leaf rustling, soft paw footsteps through powder snow, subtle paw friction when Niko tests the ice, small slipping sounds as his paws lose traction, a clear snow push sound when his hind paw launches the first slide, soft belly contact with the ice, smooth continuous sliding sound, a large soft POOF when he reaches Bank B, a brief comedic pause, warm playful music when he notices the bamboo, soft bamboo rustling when he picks it up, a short determined buildup before the second attempt, a clear double snow push from both hind paws during the deliberate launch, smooth confident gliding sounds, briefly triumphant music while Niko enjoys the successful slide, one small friction sound when the right hind paw touches the ice, a gradual confused musical phrase during the 180-degree half-turn, increased tension as Niko approaches Bank A backward, a large soft final POOF when he enters the snow rear-first, brief silence, soft bamboo rustling and one small satisfied orchestral note when Niko takes the final bite.",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-cupid-handbag",
+      "category": "提示词",
+      "title": "丘比特刚拉弓，粉发女孩一包砸过去：爱神摔在地上她继续走",
+      "body": "卢浮宫式的石砌庭院里，粉发女孩挎着黑包慢悠悠走路。天上的丘比特俯冲下来，金弓拉满——下一秒她回头，手提包精准砸中他的脸。白羽毛炸开，金弓掉地，她理了理头发继续往前走，像打苍蝇一样日常。\n\nSharon（@Just_sharon7）把整段写成十五秒 Seedance 2.5 分镜：先锁她和丘比特的衣服与性格，再按两秒一刀写动作。帖子两百多赞、二十多收藏。巧思不在「打丘比特」这个梗，而在「她始终不慌」——表情要求写死冷静、讽刺、无畏，丘比特再狼狈也不能让她变身超级英雄。普通人照抄时最容易删掉的，恰恰是「她像处理日常麻烦」这一句。\n\n所以呢：喜剧反转先锁「谁一直不当回事」，再写对方怎么摔。",
+      "links": [
+        {
+          "label": "X 原帖含提示词",
+          "url": "https://x.com/Just_sharon7/status/2110395661346869251"
+        }
+      ],
+      "prompt": "CHARACTER IDENTITY LOCK\n\nMAIN HEROINE: A beautiful young adult woman, approximately 22–25 years old, with long, straight pastel-pink hair, fair skin, and a confident, rebellious personality. She wears an elegant dark emerald-green cropped jacket with structured shoulders, a burgundy fitted top, a flowing layered peach-pink tulle skirt, dark green thigh-high boots, and a decorative gold waist belt. She carries a structured black handbag. Her expressions remain calm, sarcastic, fearless, and effortlessly stylish.\n\nCUPID: A handsome young adult man with short curly dark-brown hair, an athletic physique, large realistic white feathered angel wings, a white draped Greek-style tunic, and gold accessories. He carries a golden bow and arrow. His personality is mischievous and overly confident.\n\nENVIRONMENT\n\nA magnificent historic European palace courtyard resembling the Louvre in Paris. Monumental Renaissance stone architecture, tall arched windows, sculpted columns, decorative stone statues, and an enormous open paved courtyard. Bright natural afternoon sunlight, soft architectural shadows, realistic stone textures, and gentle wind.\n\nSHOT-BY-SHOT ACTION\n\n00:00–00:02 — Cupid's Secret Attack\n\nHigh-angle cinematic establishing shot from the palace architecture. Cupid flies down from a high stone ledge, his enormous white wings fully extended. Below him, the pink-haired woman walks alone across the courtyard, unaware of his presence. The camera tracks Cupid's rapid descent.\n\n00:02–00:04 — The Golden Arrow\n\nOver-the-shoulder tracking shot behind Cupid as he hovers in midair. He draws his golden bow, aims directly at the pink-haired woman, and prepares to shoot a magical love arrow. His white feathers ripple in the wind. The camera cuts to a dramatic frontal close-up of Cupid aiming.\n\n00:04–00:06 — Unexpected Counterattack\n\nBefore Cupid can successfully strike, the woman suddenly turns around with an irritated expression. She swings her heavy black handbag toward the approaching Cupid with perfect timing.\n\nThe handbag strikes Cupid, interrupting his attack. His body twists backward, his wings flap uncontrollably, and his golden bow slips from his hands.\n\n00:06–00:08 — Cupid Crashes\n\nCupid tumbles dramatically onto the stone pavement behind the woman. His large white wings spread across the ground as loose white feathers explode into the air. His golden bow lands beside him.\n\nThe impact is exaggerated and comedic but physically convincing, with realistic body momentum and feather movement.\n\n00:08–00:11 — Unbothered Queen\n\nThe woman stands confidently in the foreground while Cupid lies defeated behind her. She casually adjusts her pink hair, straightens her emerald-green jacket, and holds her handbag elegantly.\n\nHer facial expression communicates complete indifference, as though defeating Cupid is an everyday inconvenience.\n\n00:11–00:15 — Iconic Final Walk\n\nLow-angle cinematic medium shot. The pink-haired woman turns toward the camera and walks forward confidently, maintaining a subtle smug smile.\n\nHer layered pink skirt moves naturally with each step, her long pastel-pink hair flows in the breeze, and her black handbag swings gently.\n\nBehind her, Cupid remains sprawled on the pavement, surrounded by scattered white feathers and his fallen golden bow.\n\nThe camera smoothly tracks backward as she approaches, ending on her confident expression.\n\nVISUAL QUALITY\n\nUltra-photorealistic live-action fantasy, Hollywood-level practical stunt choreography, realistic wing anatomy and feather physics, authentic human skin texture, visible pores, natural facial expressions, detailed clothing fabrics, realistic sunlight, cinematic depth of field, smooth tracking shots, precise action timing, believable environmental interaction.\n\nCAMERA: 35mm and 50mm cinematic lenses, dynamic aerial tracking, over-the-shoulder framing, fast action cuts, low-angle hero shot, natural motion blur.\n\nAUDIO: Powerful wing flaps, bowstring tension, fast handbag whoosh, comedic impact sound, fluttering feathers, footsteps on stone. Playful cinematic action-comedy soundtrack.\n\nNEGATIVE PROMPT: No cartoon appearance, no anime, no plastic skin, no CGI-looking humans, no distorted anatomy, no extra limbs, no duplicated wings, no character identity changes, no outfit changes, no floating objects without physical cause, no excessive slow motion, no blood, no subtitles, no watermark.",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-volcano-fpv",
+      "category": "提示词",
+      "title": "六轮装甲车逃火山：二十秒 FPV 一镜，桥塌在车屁股后面",
+      "body": "第一人称无人机贴着一辆石墨色六轮装甲车往山下冲。火山在喷，路在裂，火山弹砸在旁边坡上。车绕过发红的熔岩裂缝，石拱塌在身后，最后冲过峡谷桥——桥就在镜头里塌了半边。\n\nFuture Vibes AI（@FutureVibesAi）用 Seedance 2.5 在 PixVerse 上跑这条二十秒「一镜到底」灾难片，提示词按三秒一段写死：几秒爆发、几秒弹雨、几秒旁路、几秒岩崩、几秒灰云、几秒过桥。全文要求「恰好一镜、不许切、不许变形、地理和车型全程一致」。很多人追的是特效，真正能抄走的是时间码写法——把「一镜」拆成可核对的秒表，失败了也知道哪一段塌了。做短视频时也可以把「秒表分镜」单独截出来当教程封面。\n\n所以呢：想拍灾难一镜，先把秒表写满，再让模型去晃镜头。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/FutureVibesAi/status/2110398293125775562"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/FutureVibesAi/status/2110398425686749232"
+        }
+      ],
+      "prompt": "Create a 20-second ultra-photorealistic one-shot volcanic disaster filmed by a continuous FPV drone. A graphite six-wheel armored rally truck flees downhill from an erupting island volcano. 0–3s: giant eruption and road cracking behind truck. 3–6s: volcanic bombs strike nearby slopes, showering the road with debris. 6–9s: truck uses raised bypass beside a glowing lava fissure. 9–12s: mountainside rockslide and collapsing stone arch behind vehicle. 12–15s: terrifying pyroclastic ash cloud pours down adjacent valley as truck escapes on ridge road. 15–18s: truck races across reinforced gorge bridge as near approach collapses. 18–20s: camera cranes upward revealing immense eruption, lava rivers, ash lightning and escaping truck. Exactly one shot, consistent vehicle and mountain geography, physically accurate gravity and volcanic flows, object permanence, realistic suspension, 4K 16:9 24fps, no cuts, no morphing, no text.",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-mafia-sneaker",
+      "category": "提示词",
+      "title": "黑手党拆箱球鞋：保镖举黑盒，他只说一句 Perfetto",
+      "body": "烟雾缭绕的意大利餐厅包间，红格子桌布。两个墨镜保镖像交圣物一样端上小黑盒。角色亲了亲小拇指戒指，用拆信刀慢动作撬开——里面是一双发亮的白球鞋。他把鞋举到灯下，面无表情地低声说：「Perfetto。」保镖开始鼓掌。\n\nZEUS（@zeuuss_01）用 Seedance 2.5 做十二秒竖屏，角色参考往上一贴就能换产品。帖子一千多浏览。他说普通拆箱全是手和纸箱，三秒就划走；换成一本正经的荒谬仪式，观众会看到结尾还转发给朋友。产品内容的窍门不是「更真实」，而是「更像一集连续剧」——同一张脸、同一种仪式，换盒子里的货就能连载。换球鞋、耳机、手表都能用同一套仪式，省得每次重写场景。\n\n所以呢：品牌拆箱先写一场夸张仪式，产品只当盒子里的宝藏。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/zeuuss_01/status/2110555543161000391"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/zeuuss_01/status/2110555546466070691"
+        }
+      ],
+      "prompt": "Over-the-top Italian mafia movie style unboxing video starring the character from the reference. Scene: smoky back room of an old Italian restaurant at night, red checkered tablecloth, warm tungsten light, cigar smoke, a vintage chandelier. Two huge silent bodyguards in black suits and sunglasses carry in a small black box and place it on the table with extreme ceremony. The character sits slowly, kisses his pinky ring, cracks his neck, and opens the box with a letter opener in slow motion. Inside: a pair of shiny white sneakers glowing like treasure. He lifts one sneaker to the light, nods deadpan, and whispers in an Italian accent \"Perfetto.\" The bodyguards slowly clap. Dramatic Godfather-style mandolin music, slow push-ins, low angles, close-ups of his serious face. Cinematic, funny, dead-serious tone.",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-storm-horse",
+      "category": "提示词",
+      "title": "战马变风暴兽：鬃毛变闪电，蹄子变气涡，身后拖龙卷",
+      "body": "泥泞战场上，一匹黑战马后蹄腾空。皮下流光符文亮起，湿鬃毛拉长成电弧，蹄子碎成空气旋涡，身体半透明成风暴物质，冲出去时身后拖出一条龙卷尾巴。远处旗子湿透，乌云压着山。\n\nPierrick（@CharaspowerAI）说真正好看的不是马，而是「变形逻辑」：鬃→电、蹄→涡、身→风暴、动→龙卷。Seedance 2.5 跑这段真人感特效，提示词把四条映射写进同一句，再锁侧跟与英雄低机位、蹄子溶解的特写。比起空喊「史诗变身」，这种一对一映射让模型知道先变哪一块、后变哪一块，画面才不会全身同时糊成一团光。口播时直接念那四行映射，比空喊「电影级变身」更有钩子。\n\n所以呢：写变身别堆形容词，先列一张「身体零件→变成什么」对照表。",
+      "links": [
+        {
+          "label": "X 原帖含提示词",
+          "url": "https://x.com/CharaspowerAI/status/2110385295677915229"
+        }
+      ],
+      "prompt": "A war horse (powerful black stallion, wet mane, armored chest plate, flared nostrils, rearing violently) transforms into a storm beast of wind and lightning, muscles rippling under the skin as glowing runes appear, mane extending into streaming arcs of electricity, hooves breaking into vortexes of air, body partially becoming translucent storm matter before charging forward and creating a tornado trail behind it, on an open battlefield plain (torn flags, rain-soaked mud, abandoned wagons, distant mountains, dark thunderclouds rolling overhead) (epic live-action VFX, dramatic side tracking and heroic low-angle framing, close-ups of hooves dissolving into vortex energy, storm light, lightning flashes, rain spray, dust and a fierce mythic battlefield atmosphere)",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-remote-channel-hop",
+      "category": "提示词",
+      "title": "遥控器按坏了：客厅一秒切到沉船甲板，她还穿着睡衣",
+      "body": "夜里，女孩窝在沙发上对着镜头狂按遥控器。下一刀硬切：甲板在倾斜，一九一二式乘客在跑，她还穿着浅蓝家居服和白袜子，抱着同一支遥控器往下滑。再跳到剑王座大厅、厨房里的霸王龙，最后白光一闪——她又摔回客厅地板，睡衣脏了，遥控还在手里。\n\nAlina（@Alina_with_Ai）把三十秒喜剧惊悚拆成十七个镜头，要求「每个世界自己的灯光」，服装只允许被环境弄脏，不许换装。完整提示词贴在回复里，视频时长也刚好三十秒。成片互动一般，但「道具锚点」这一招很适合做教程：遥控器在每一镜都必须在手里，观众才相信是同一个人被频道吞了。少了这一句，模型很容易让她空手出现在新场景里。\n\n所以呢：想拍乱跳世界，先选一件她死死抓着的东西当锚。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Alina_with_Ai/status/2110553760804319427"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/Alina_with_Ai/status/2110553765527085454"
+        }
+      ],
+      "prompt": "Cinematic photorealistic comedy-thriller, 30 seconds, 16:9, handheld camera, realistic film look, each world has its own lighting, no text, no watermark.\n\nCHARACTER (identical in every shot):\n\nGirl: young woman in her late 20s, dark brown hair in a messy bun with loose strands, light blue-grey long-sleeve loungewear top and matching loose trousers, white socks. Holding a black TV remote in her hand in EVERY shot. Her clothes get dirty and wet as the video goes on.\n\nSHOT 1 (0-2s): Cozy living room at night, warm lamp light, beige sofa with olive green and striped cushions, grey knitted throw blanket, framed \"AMALFI\" poster on the wall, plant, wooden coffee table with a mug and a phone. The girl lounges on the sofa with her white-socked feet on the coffee table, bored, pointing the remote at the TV (off-screen, at camera).\nSHOT 2 (2-4s): She sits up suddenly, face scrunched in frustration, jabbing the remote buttons harder and harder.\nSHOT 3 (4-5s): Same frame, she keeps frantically pressing the remote, annoyed and confused.\nSHOT 4 (5-7s): Hard cut: night deck of a sinking luxury ocean liner, deck tilted, wet and shiny, full moon, giant smoking funnels, lit windows, lifeboats and dark sea. Panicked passengers in old-fashioned 1912 clothes run around. The girl in pajamas slides down the slanted deck.\nSHOT 5 (7-9s): She grabs the railing and clings to it while the crowd runs past behind her, the ship tilting.\nSHOT 6 (9-11s): Close-up: she screams, holding the railing with one hand and the remote with the other, hair blowing, moon and ship behind her.\nSHOT 7 (11-13s): Hard cut: medieval stone throne hall with torches and red banners with a golden lion, red candles along the stairs, the throne made of swords. She slides across the shiny stone floor on her stomach, blurry motion.\nSHOT 8 (13-14s): She crawls forward, wide-eyed, holding the remote out in front of her, while armored knights with spears move in behind her.\nSHOT 9 (14-16s): She scrambles up and falls into the sword throne, terrified, hair messy.\nSHOT 10 (16-18s): Close-up: she sits in the throne with spear tips pointing at her from both sides, pointing the remote at the screen, trembling.\nSHOT 11 (18-19s): Hard cut: modern industrial restaurant kitchen, wet floor, hanging pots, steel fridge, jungle outside the broken window. A roaring T-rex head crashes through the window. She runs through the kitchen in terror holding the remote.\nSHOT 12 (19-21s): The T-rex mouth snaps right behind her as she ducks low and keeps running, food and water flying.\nSHOT 13 (21-23s): She crawls on the wet floor under a steel counter, reaching for the remote she dropped, eyes wide, panting.\nSHOT 14 (23-24s): Bright white flash.\nSHOT 15 (24-26s): Back in the living room, the girl falls on the floor next to the sofa, hair messy, the phone and mug still on the table.\nSHOT 16 (26-28s): She sits on the floor with her knees up, back against the sofa, remote in hand, face shocked and mouth open, pajamas now dirty with mud stains on the knee and chest.\nSHOT 17 (28-30s): Close-up: she trembles and cries a little, looking at the remote in her hands. Cut to black.\n\nAUDIO: quiet room and TV channel-clicking sounds at first, then ship horns, screaming crowds and crashing waves, sword clanks and echo, T-rex roar and breaking glass, silence after the white flash, heavy breathing at the end. No dialogue.",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-tiger-chair-hug",
+      "category": "提示词",
+      "title": "粉发女孩坐导演椅看日落：白虎从椅背后探头抱抱",
+      "body": "金色草坡，夕阳把天染成蜜桃橙。粉发女孩走过去坐进黑色导演椅，交叉腿看远山。四秒后，一只巨大白虎脑袋从椅背后升起来，两只前爪搭上她肩膀轻轻抱住。她笑着摸它的脸，一镜到底不切。\n\nSharon（@Just_sharon7）在 makeugc 无限 Seedance 上跑十条秒竖屏，提示词要求「单机位缓推、虎不许攻击、接触要真实」。和「喊一声狮子走出来」不同，这里把惊喜写进时间轴：前四秒完全是时尚大片，虎出现前观众不知道会发生什么。三百多赞、七十收藏。想复刻时别提前泄露虎，否则悬念没了。做口播时强调「前四秒故意无聊」，才显得出后六秒的反差。\n\n所以呢：宠物惊喜戏，先让观众相信这只是拍写真，再让大家伙出场。",
+      "links": [
+        {
+          "label": "X 原帖含提示词",
+          "url": "https://x.com/Just_sharon7/status/2110340387437228363"
+        }
+      ],
+      "prompt": "FORMAT: 10 seconds | 9:16 vertical | 24 FPS | Ultra-photorealistic live action | Golden-hour sunset | One continuous shot\n\nCHARACTER IDENTITY LOCK\n\nA beautiful young adult woman, approximately 22 years old, with long, straight pastel-pink hair, fair skin, delicate facial features, and natural makeup. She wears a stylish blue fantasy-inspired denim mini dress with a fitted corset bodice, decorative silver chains, asymmetrical skirt panels, matching blue arm cuffs, knee-high blue boots, a blue choker necklace, and matching hair accessories. Maintain identical facial features, hairstyle, outfit, and body proportions throughout.\n\nWHITE TIGER\n\nAn enormous, majestic adult white Bengal tiger with thick white fur, realistic black stripes, muscular shoulders, massive paws, expressive pale eyes, long whiskers, and highly detailed natural fur. The tiger behaves like an unusually affectionate, gentle companion. Realistic feline anatomy, weight, breathing, and movement.\n\nENVIRONMENT\n\nAn open grassy hillside overlooking distant dark mountain silhouettes at sunset. Beautiful peach-orange sky fading into soft lavender. Tall golden grass moves gently in the evening breeze. A simple black director's chair stands in the foreground. Warm natural sunset light illuminates the woman's pink hair and the tiger's white fur.\n\nACTION TIMELINE\n\n00:00–00:02 — Elegant Entrance\n\nThe pink-haired woman walks gracefully toward the black director's chair, turns around, and sits down elegantly, crossing her legs. Her long pink hair sways naturally in the breeze. Camera remains stationary at medium distance.\n\n00:02–00:04 — Relaxed Pose\n\nShe settles comfortably into the chair, resting both arms on the armrests. She turns her head slightly toward the sunset with a calm, confident expression. The scene feels like a peaceful outdoor fashion photoshoot.\n\n00:04–00:06 — Unexpected Tiger Appearance\n\nWithout warning, a gigantic white tiger suddenly rises into view from directly behind the chair. Its enormous head appears above the woman's pink hair. The tiger lifts its powerful front paws and leans forward, preparing to embrace her from behind. The woman remains completely calm.\n\n00:06–00:08 — Surprise Hug\n\nThe white tiger gently places both massive front paws over the woman's shoulders in an affectionate embrace. Its enormous head lowers beside her face. The woman smiles softly and lifts one hand to touch the tiger's cheek. The tiger's fur moves naturally as it presses closer.\n\n00:08–00:10 — Adorable Ending\n\nThe tiger affectionately nuzzles its huge furry cheek against the woman's face. She closes her eyes, tilts her head toward the tiger, and smiles with genuine happiness. Her hand gently strokes its face while the tiger continues hugging her. End on a beautiful, heartwarming close composition of the woman and the enormous white tiger against the glowing sunset.\n\nCAMERA & VISUAL QUALITY\n\nSingle continuous locked-off camera shot, eye-level medium framing, with a subtle gradual push-in during the final embrace. Photorealistic natural skin texture, visible pores, realistic individual strands of pink hair, detailed tiger fur, physically accurate animal movement, realistic contact between paws and shoulders, natural shadows, warm sunset rim lighting, cinematic depth of field, and believable scale.\n\nIMPORTANT CONSTRAINTS\n\nNo scene cuts, no camera angle changes, no extra characters, no tiger aggression, no biting, no sudden violence, no distorted animal anatomy, no extra limbs, no unnatural facial expressions, no morphing, no floating paws, no cartoon effects, no subtitles, no logos, and no text overlays. The tiger must remain enormous, realistic, gentle, and affectionate throughout the interaction.",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-y2k-qipao-series",
+      "category": "提示词",
+      "title": "一张自拍扩成四张旗袍写真：先锁脸，再换机位",
+      "body": "同一张参考自拍，先换成盘发、发簪、灰蓝碎花旗袍，再分别拍正脸、四十五度理头发、坐姿、过肩回眸。四张看起来像一套早期两千年代的数码相机写真，而不是四张随机抽卡。\n\nNora（@NoravaleAI）把 GPT Image 2.5 / Nano Banana / Grok 通用词拆成四条，每条开头都是身份锁定：不许美化成另一个人。帖子不大，但这套「先锁身份与服装，再允许相机动」的写法，正好打中最近大家最头疼的「换姿势就换脸」。四条词可以整组复制，也可以只改姿势段，当模板反复用。做教程时把四条词叠在同一条长图里，观众复制哪一段都能保持同一个人。发簪数量与旗袍盘扣也要写死，系列才不散。\n\n所以呢：要做写真系列，先复制同一段锁脸词，只改姿势那一段。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/NoravaleAI/status/2110374721288352095"
+        },
+        {
+          "label": "提示词1",
+          "url": "https://x.com/NoravaleAI/status/2110374861185118612"
+        },
+        {
+          "label": "提示词2",
+          "url": "https://x.com/NoravaleAI/status/2110374959117983766"
+        },
+        {
+          "label": "提示词3",
+          "url": "https://x.com/NoravaleAI/status/2110375637336916285"
+        },
+        {
+          "label": "提示词4",
+          "url": "https://x.com/NoravaleAI/status/2110375773945422244"
+        }
+      ],
+      "prompt": "=== Prompt 1: Front portrait ===\nUltra-Realistic Nostalgic Portrait — Preserve the Exact Girl from the Reference Photo\n\nUse the uploaded reference photo as the exact identity reference for the girl. Preserve her original face, facial structure, eye shape and color, eyebrows, nose, lips, skin tone, freckles (if present), natural skin texture, and all distinctive facial features. Keep her instantly recognizable as the same person. Do not change her identity, beautify her into a different person, or replace her face with a generic East Asian model. Adapt only the hairstyle, outfit, pose, lighting, and photographic aesthetic described below.\n\nCreate an ultra-realistic candid portrait of the same girl photographed indoors with a nostalgic early-2000s digital-camera aesthetic. She stands against a simple, warm off-white wall, looking slightly downward and toward the camera with a calm, soft, dreamy expression.\n\nHAIRSTYLE\n\nStyle her hair into an elegant, traditional-inspired high updo, with voluminous hair gathered at the back and secured with two simple dark hair sticks extending horizontally. Add loose, softly curled tendrils framing both sides of her face, along with delicate flyaways around the crown and temples. Preserve her recognizable hairline and natural facial proportions. Render individual strands, realistic shine, and slight imperfections for an authentic personal-photograph appearance.\n\nMAKEUP\n\nUse refined, feminine makeup with softly defined brows, subtle warm-brown eyeshadow, delicate eyeliner, naturally flushed cheeks, and glossy muted-rose lips. Keep the girl's original eye shape, eye color, facial features, and skin tone unchanged. Retain realistic pores, natural texture, and subtle imperfections. Avoid excessive smoothing or artificial beauty filters.\n\nOUTFIT\n\nDress her in a beautifully tailored, vintage-inspired Chinese floral qipao (cheongsam) in muted dusty blue-gray. The dress should feature:\n\n- A delicate Mandarin collar and modest curved neckline.\n- Short, fitted sleeves and a flattering, elegant silhouette.\n- Traditional diagonal front closure with subtle decorative frog buttons.\n- Soft satin-like fabric with realistic folds and gentle flash reflections.\n- An intricate multicolored floral pattern featuring peonies, roses, and smaller blossoms in dusty pink, burgundy, cream, pale yellow, sage green, and muted coral.\n\nThe garment should feel authentic, sophisticated, and vintage-inspired, with realistic fabric construction rather than a theatrical costume.\n\nPOSE AND EXPRESSION\n\nShe stands naturally with both arms relaxed alongside her body. Her shoulders are slightly angled away from the camera, while her head tilts subtly downward and to one side. Her gaze meets the camera with a quiet, composed, introspective expression. Her lips remain naturally relaxed, without an exaggerated smile.\n\nKeep her posture anatomically natural and believable, with realistic shoulders, arms, hands, and body proportions.\n\nLIGHTING AND ENVIRONMENT\n\nRecreate the appearance of a compact digital camera using direct on-camera flash in a dim indoor environment. The flash softly illuminates her face, creates natural catchlights in her eyes, highlights the satin fabric, and casts a subtle shadow onto the plain wall behind her. Use slightly cool flash illumination against the warmer ivory background, with gentle light falloff toward the edges.\n\nAvoid professional studio lighting, dramatic cinematic spotlights, or overly polished fashion photography.\n\nPHOTOGRAPHIC AESTHETIC\n\nAuthentic early-2000s personal digital-camera photography, 35mm-equivalent lens, slight wide-angle perspective, direct flash, subtle digital noise, mild highlight bloom, gentle lens softness, slightly muted colors, modest chromatic aberration, and imperfect exposure. Maintain crisp facial identity and convincing anatomical detail while preserving the imperfect, nostalgic quality of an old personal photograph.\n\nCOMPOSITION\n\nVertical 4:5 portrait, framed from approximately the hips upward. Position her slightly off-center, leaving generous negative space around her head and shoulders. Keep the simple warm off-white wall visible, allowing the colorful floral dress and elegant dark hairstyle to stand out naturally.\n\nCOLOR PALETTE\n\nDusty blue-gray, muted burgundy, faded rose pink, cream, sage green, pale yellow, deep black hair, and warm ivory.\n\nFINAL RESULT\n\nAn incredibly realistic, candid portrait of the exact same girl from the uploaded reference photo, styled in an elegant traditional-inspired floral qipao with a graceful updo. The image should feel like a genuine photograph discovered in a personal photo archive from the early 2000s: feminine, romantic, nostalgic, quietly mysterious, and naturally imperfect.\n\nSTRICT NEGATIVE CONSTRAINTS: Do not change the girl's identity or facial features. No face replacement, no different person, no artificial facial reconstruction, no plastic skin, no excessive retouching, no exaggerated makeup, no distorted hands, no extra fingers, no malformed limbs, no unrealistic fabric, no cartoon effects, no CGI appearance, no studio-campaign aesthetic, and no artificial AI-generated look.\n\n=== Prompt 2: 45° hair adjustment ===\nUltra-Realistic Nostalgic Portrait — 45° Hair Adjustment\n\nIDENTITY LOCK\n\nUse the uploaded reference photo as the definitive facial identity reference for the same person.\n\nPreserve her exact facial structure, eye shape and color, eyebrows, nose, lips, jawline, skin tone, freckles if present, hairline, and distinctive facial characteristics. Preserve her natural age appearance and realistic skin texture.\n\nDo not change her identity, reconstruct her face, or transform her into a generic beauty model.\n\nHAIRSTYLE\n\nStyle her hair into an elegant, traditional-inspired high updo, with voluminous dark hair gathered at the back and secured with two simple dark hair sticks extending horizontally.\n\nKeep loose softly curled tendrils framing both sides of her face, delicate flyaway strands, natural volume, and slightly imperfect styling.\n\nMAKEUP\n\nSoft feminine vintage makeup: natural brows, subtle warm-brown eyeshadow, delicate eyeliner, softly flushed cheeks, glossy muted-rose lips, realistic skin pores and subtle imperfections.\n\nOUTFIT\n\nA vintage-inspired dusty blue-gray Chinese floral qipao, featuring a delicate Mandarin collar, short fitted sleeves, traditional diagonal closure with decorative frog buttons, and authentic satin-like fabric.\n\nIntricate multicolored flowers in dusty pink, burgundy, cream, muted coral, pale yellow, and sage green.\n\nPreserve the exact garment design, floral arrangement, fabric color, and hairstyle throughout this photographic series.\n\nPOSE — THREE-QUARTER HAIR ADJUSTMENT\n\nThe woman stands naturally against a warm off-white wall.\n\nHer torso is turned approximately 45 degrees toward camera-left, creating an elegant three-quarter silhouette.\n\nHer weight rests comfortably on one leg, with relaxed shoulders.\n\nShe gently raises her right hand toward the side of her head, using two relaxed fingers to lightly adjust a loose curled tendril near her ear.\n\nHer fingers remain naturally separated and do not obscure her eyes, nose, or lips.\n\nHer left arm hangs loosely beside her body.\n\nHer head turns back toward the camera, chin slightly lowered.\n\nHer eyes meet the lens with a calm, softly curious expression.\n\nLips relaxed and gently closed, without an exaggerated smile.\n\nThe gesture should appear spontaneous, as though the photographer captured her while fixing her hair between photographs.\n\nCAMERA AND COMPOSITION\n\nVertical 4:5 portrait.\n\nCamera positioned at approximately eye level, slightly toward her front-left side.\n\n35mm-equivalent compact digital-camera lens.\n\nThree-quarter portrait framed from mid-thigh to slightly above her head.\n\nKeep her face clearly recognizable, the raised hand anatomically correct, and both horizontal hair sticks believable.\n\nPosition her slightly off-center, leaving visible negative space against the ivory wall.\n\nLIGHTING\n\nAuthentic early-2000s compact digital-camera flash.\n\nDirect on-camera flash in a dim indoor environment, natural facial catchlights, slightly cool flash highlights, mild satin reflections, and a soft shadow cast behind her.\n\nPHOTOGRAPHIC AESTHETIC\n\nGenuine early-2000s personal photo archive.\n\nSubtle digital sensor noise, mild highlight bloom, modest chromatic aberration, gentle lens softness, slightly imperfect exposure, muted colors, and authentic skin texture.\n\nThe photograph should feel intimate, nostalgic, candid, feminine, and naturally imperfect.\n\nSTRICT CONSTRAINTS\n\nONE independent photograph only.\n\nSame face, same outfit, same hairstyle, same indoor background.\n\nNo collage, no beauty filter, no facial identity drift, no CGI, no studio-fashion lighting, no extra arms, no duplicated fingers, no distorted hands, no artificial skin, no text or watermark.\n\n=== Prompt 3: Seated vintage moment ===\nUltra-Realistic Nostalgic Portrait — Seated Vintage Moment\n\nIDENTITY LOCK\n\nUse the uploaded reference photograph as the definitive identity reference for the exact same woman.\n\nPreserve her original facial structure, eye shape, iris color, eyebrows, nose, lips, jawline, skin tone, natural skin texture, hairline, age appearance, and distinctive facial features.\n\nKeep her instantly recognizable as the same person. Do not beautify, replace, or reinterpret her face.\n\nHAIRSTYLE AND MAKEUP\n\nMaintain the same elegant dark high updo, secured with two simple horizontal dark hair sticks, with loose softly curled tendrils framing the face and delicate natural flyaways.\n\nRefined soft makeup: natural brows, warm-brown eyeshadow, delicate eyeliner, subtle rosy cheeks, and glossy muted-rose lips.\n\nKeep natural pores and slight skin imperfections.\n\nOUTFIT\n\nThe identical vintage-inspired dusty blue-gray floral Chinese qipao from the original concept.\n\nTraditional Mandarin collar, delicate decorative frog buttons, short fitted sleeves, elegant tailoring, and satin-like fabric.\n\nDetailed floral motifs in faded rose pink, burgundy, sage green, cream, pale yellow, and muted coral.\n\nThe fabric must form realistic folds where the body bends or meets the chair.\n\nPOSE — SEATED THREE-QUARTER PORTRAIT\n\nThe woman sits on a simple vintage dark wooden chair positioned close to a warm ivory wall.\n\nHer torso faces approximately 60 degrees toward camera-right.\n\nHer upper body remains upright but relaxed, with a subtle natural curve through the shoulders.\n\nBoth knees point in the same direction, and her legs remain in a comfortable, anatomically believable seated position.\n\nHer hands rest gently on her lap, one hand loosely overlapping the other, with naturally relaxed fingers.\n\nHer head is slightly lowered and turned back toward the photographer.\n\nHer eyes look upward toward the camera, creating a subtle contrast between her lowered chin and attentive gaze.\n\nHer lips are softly relaxed, and her expression is quiet, dreamy, introspective, and slightly mysterious.\n\nAvoid theatrical posing or exaggerated elegance.\n\nThe moment should resemble an ordinary personal photograph taken while she was sitting quietly between conversations.\n\nCAMERA AND COMPOSITION\n\nVertical 4:5 composition.\n\nCamera positioned slightly above her eye level, angled down by approximately 10 degrees.\n\nNatural 35mm-equivalent compact digital-camera perspective.\n\nMedium seated portrait framed from her lap to above her head.\n\nInclude a small visible section of the wooden chair to establish the seated pose.\n\nKeep the warm off-white wall simple and uncluttered.\n\nLeave moderate negative space above and beside her head.\n\nHer eyes, face, hair sticks, collar, and floral fabric should remain clearly visible.\n\nLIGHTING\n\nDirect built-in compact-camera flash in a dim interior.\n\nSoft flash highlights on her face and satin fabric, slight shadow cast onto the wall behind her, gentle brightness falloff, and a subtle cool-versus-warm color contrast.\n\nNo professional studio lighting.\n\nPHOTOGRAPHIC AESTHETIC\n\nAuthentic 2002–2006 personal digital-camera photography.\n\nSubtle sensor grain, slightly imperfect white balance, mild highlight clipping on reflective satin, gentle edge softness, natural flash shadows, restrained saturation, and realistic skin texture.\n\nThe image should resemble a genuine nostalgic personal photograph, not a contemporary fashion editorial.\n\nSTRICT CONSTRAINTS\n\nGenerate ONE independent photograph.\n\nPreserve the same facial identity, qipao, updo, hair accessories, makeup, and background as the other photographs in the series.\n\nNo different face, no artificial facial reconstruction, no excessively smooth skin, no distorted seated anatomy, no extra fingers, no floating hands, no duplicated limbs, no CGI appearance, no collage, no text, no watermark.\n\n=== Prompt 4: Over-the-shoulder glance ===\nUltra-Realistic Nostalgic Portrait — Over-the-Shoulder Glance\n\nIDENTITY LOCK\n\nUse the uploaded reference photo as the sole definitive facial identity reference.\n\nPreserve the woman's exact recognizable facial features, natural facial proportions, eye shape and color, eyebrows, nose, mouth, lips, jawline, skin tone, freckles if visible, hairline, and age appearance.\n\nDo not replace, beautify, or reinterpret her identity.\n\nHAIRSTYLE\n\nMaintain the same traditional-inspired high updo with thick, naturally voluminous dark hair gathered neatly at the back.\n\nTwo simple dark hair sticks extend horizontally through the updo.\n\nLoose softly curled tendrils frame her face, while delicate flyaways create a believable slightly imperfect hairstyle.\n\nThe updo and hair sticks should be especially visible from the rear three-quarter perspective.\n\nMAKEUP AND OUTFIT\n\nSoft warm-brown eye makeup, delicately defined eyeliner, natural brows, muted rosy cheeks, and glossy rose-pink lips.\n\nThe same fitted vintage-inspired dusty blue-gray floral Chinese qipao.\n\nMandarin collar, short fitted sleeves, traditional frog-button detailing, and authentic satin-like texture.\n\nMulticolored floral pattern in dusty pink, burgundy, cream, pale yellow, sage green, and muted coral.\n\nKeep garment construction and fabric colors consistent with the original photograph concept.\n\nPOSE — OVER-THE-SHOULDER GLANCE\n\nThe woman stands near a simple warm off-white wall with her body facing mostly away from the photographer.\n\nHer torso is rotated approximately 120 degrees away from the camera, allowing a clear view of the back and side of her floral qipao.\n\nHer weight rests naturally on one leg.\n\nBoth shoulders remain relaxed.\n\nHer arms rest comfortably by her sides, with one hand loosely positioned near the side seam of the dress.\n\nShe gently turns her head backward over her right shoulder toward the photographer.\n\nHer face is visible in a clear three-quarter angle, with both eyes and her recognizable facial features remaining visible.\n\nShe looks directly toward the lens with a calm, slightly surprised expression, as though someone quietly called her name.\n\nA very subtle, almost imperceptible smile appears at the corners of her lips.\n\nThe movement should feel natural and spontaneous, never overly posed.\n\nHer dark updo, horizontal hair sticks, loose curled tendrils, and the back neckline of the qipao must remain visible.\n\nCAMERA AND COMPOSITION\n\nVertical 4:5 portrait.\n\nCamera positioned at approximately shoulder-to-eye level, behind and slightly to the woman's right.\n\n35mm-equivalent compact digital-camera perspective.\n\nFrame from approximately the hips upward, showing the elegant qipao silhouette, shoulder line, hair sticks, and her turned face.\n\nPlace the subject slightly off-center, with an uncluttered warm ivory wall in the background.\n\nAvoid extreme neck rotation, awkward shoulder positioning, or exaggerated perspective distortion.\n\nLIGHTING\n\nAuthentic compact digital-camera direct flash.\n\nCool-neutral flash illumination on her face, hair, and satin fabric against a warmer indoor ivory background.\n\nSubtle flash reflections along the curved fabric, a soft wall shadow, slightly uneven brightness, and natural exposure falloff.\n\nPHOTOGRAPHIC AESTHETIC\n\nEarly-2000s candid personal digital-camera photograph.\n\nSlight sensor noise, gentle edge softness, subtle highlight bloom, slightly imperfect exposure, nostalgic muted color rendering, realistic skin pores, natural hair strands, and understated imperfections.\n\nThe mood should feel quietly cinematic without looking like professional cinema photography.\n\nA genuine, spontaneous memory captured with a small digital camera in the early 2000s.\n\nSTRICT CONSTRAINTS\n\nOutput ONE independent photograph only.\n\nPreserve identical facial identity, qipao styling, hairstyle, makeup, lighting character, and photographic era.\n\nNo altered face, no impossible neck rotation, no extra limbs, no abnormal shoulders, no deformed fingers, no artificial fabric, no CGI, no modern polished advertising aesthetic, no collage, no text or watermark.",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-grocery-pudding",
+      "category": "提示词",
+      "title": "只买必需品：超市里她为布丁展开防守反击",
+      "body": "朋友举着小摄像机跟进社区超市。女发明家说「只买必需品」，结果推车里全是布丁，货架前还要跟别人抢最后一盒。整段像随手拍的生活 vlog，其实每句台词和机位都写进了提示词。\n\nHassan（@Hassanroza77）在 Picsart 的 Seedance 2.5 里跑十条秒动画短片，角色设定图另帖。十秒里要塞完「进店—选货—冲突—逃出生天」，所以提示词强制手持 DV 感：晃、过曝、货架标签可读。成片互动不大，但「必需品」这个反讽钩子很好做口播——先让观众以为是购物清单，再让布丁把主题打脸。把「必需品」三个字做成字幕钩子，评论区会自己补充他们的罪恶零食。这种「一句谎言加一场打脸」的结构，拍护肤品、零食、文具都行。\n\n所以呢：生活喜剧先定一句谎话当主题，再让画面当场打脸。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Hassanroza77/status/2110400399815623044"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/Hassanroza77/status/2110400404756250976"
+        }
+      ],
+      "prompt": "Create a 10-second animated slice-of-life shopping vlog, filmed as though the female inventor’s friend casually brought a small camcorder into a neighborhood grocery shop.\n\nCHARACTER AND VISUAL WORLD\nUse the attached female character sheet as the identity reference. Its panels depict ONE woman. Preserve her exact face, auburn curls, skin tone, teal work jacket, ivory undershirt, trousers and brass LEFT-forearm instrument throughout.\n\nKeep the established painterly animation aesthetic: sculpted dimensional faces, angular facial planes, expressive hand-painted textures, visible brushwork, indigo shadow colors and restrained copper highlights. Every object and environment belongs to the same animated world.\n\nLayer a subtle early-2000s home-video recording texture over the animation: mild image softness, faint digital noise, modest exposure adjustments and small handheld imperfections. Keep her face and acting readable.\n\nLOCATION\nA tiny neighborhood grocery tucked into an old brick industrial district. Narrow wooden shelves hold paper-wrapped groceries, jars, bread and simple unbranded snack packets. An aged glass refrigerator glows pale turquoise. Afternoon light enters through the shopfront, mixing with ordinary warm ceiling bulbs.\n\nThe refrigerator stands beside a small wooden counter near the entrance. Keep these landmarks consistent. The shop is quiet and contains no other visible people.\n\nFIRST FRAME\nThe woman already stands beside the refrigerator, facing her friend behind the camera. She holds a small wire shopping basket in her RIGHT hand at hip height. One paper-wrapped loaf rests inside. A sealed strawberry pudding cup with a pale pink foil lid sits on the refrigerator shelf within reach of her LEFT hand.\n\nTHREE SHOTS — EXACTLY 10 SECONDS\n\n0.0–3.2s — THE PROMISE\nEye-level medium shot with a gentle handheld drift, as though her friend has just stopped walking.\n\nShe tells the person filming:\n“Just the essentials today.”\n\nHer goal is to get her friend to believe she has a sensible plan. While finishing the sentence, she notices the pudding beside her. Her attention lingers on it before returning to the lens, checking whether her distraction was noticed.\n\nThe camera stays on her long enough to catch that small betrayal of the plan.\n\nHARD CUT.\n\n3.2–6.2s — THE EXCEPTION\nA slightly closer three-quarter view from the same side, showing her face, LEFT hand and refrigerator shelf. One small handheld reframe follows her hand.\n\nWith her LEFT hand, she picks up the pudding cup and holds it beside her face, foil lid still attached. The basket remains in her RIGHT hand, low beside her body.\n\nShe tells her friend:\n“These are technically essential.”\n\nShe presents the cup as evidence, trying to win agreement. Hold a brief listening beat afterward: she studies the person behind the lens to see whether the excuse worked. A tiny, restrained camera dip suggests her friend looking from her face to the dessert.\n\nHARD CUT.\n\n6.2–10.0s — THE DEFENSE\nFrontal medium close-up, pudding visible near her chest in her LEFT hand. The refrigerator remains behind her on the same side. A very small, imperfect push-in from the camera operator emphasizes her explanation.\n\nShe says:\n“Well... pudding has milk in it. Close enough!”\n\nBegin as a sincere attempt to justify the purchase. On “Close enough,” she recognizes how weak her argument sounds, abandons the defense and shares a brief laugh with her friend. The camera gives a small responsive wobble as its operator chuckles.\n\nEnd abruptly while she is still holding the pudding and starting to turn toward the counter. No fade or frozen pose.\n\nACTING TASK\nShared direction: enjoy a small everyday errand together.\n\nHer personal goal is to persuade her friend that the treat belongs in a practical shopping trip. The obstacle is that she knows the excuse is transparent. First establish credibility, then sell the exception, then let her friend in on the joke.\n\nDirect every spoken line toward the person immediately behind the lens. Her gaze checks whether the argument has landed; pauses contain listening and reconsideration. Keep facial movement specific and restrained rather than broad cartoon reactions. Natural blinks, no fixed smile or vacant stare.\n\nVOICE AND SOUND\nOne warm female voice, casual conversational English, lightly dry humor and accurately synchronized lips. Deliver each line entirely within its assigned shot, with room for the reaction beats. Only the woman speaks. Her friend gives one quiet off-camera chuckle at the end.\n\nRefrigerator hum, faint street sounds, gentle packaging rustle and a small basket creak. Slightly compressed camcorder microphone texture. No music, narration or additional voices.\n\nCONTINUITY\nOne woman throughout. The basket stays in her RIGHT hand; the pudding moves from the shelf to her LEFT hand and stays there. Her forearm instrument remains attached to her LEFT forearm. One loaf in the basket, one pudding cup, consistent packaging and wardrobe. Fingers grip objects with visible contact; no floating, duplication or objects passing through hands.\n\nNo subtitles, text overlays, timestamps, logos or watermarks.",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-schoolgirl-tk",
+      "category": "提示词",
+      "title": "首尔街头人质案：校服女孩眼睛一亮，枪飞人翻",
+      "body": "首尔玻璃幕墙大街上，蒙面歹徒挟持米色大衣女子，警察对峙。人群里走出一个穿深蓝校服的女孩，表情空白，眼睛突然亮成白色。无形冲击波把歹徒掀飞，武器出手，她走过去扶起人质——全程不喊口号。\n\nRyan（@Grow_withAI）按「人质—现身—超能力—救援」四场写 Seedance 2.5 提示词，要求表情自然、物理可信、慢动作只留一点尘土。七十多赞、五十转发。结构像迷你韩剧预告片：超能力来得晚，冷静做得足。普通人写这类戏常一上来就放光，结果观众不知道该心疼谁。口播金句可以是：先让人害怕，再让人厉害，顺序别反。校服细节写死，超能力才不会漂成漫威片场。\n\n所以呢：超能力戏先拍人质的怕，再亮眼睛，观众才跟得上。",
+      "links": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/Grow_withAI/status/2110535076002119816"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/Grow_withAI/status/2110535086647247267"
+        }
+      ],
+      "prompt": "Create a realistic, cinematic Korean supernatural action scene that follows the exact sequence of events shown in the reference video.\n\nSCENE 1 — THE HOSTAGE SITUATION:\nA busy modern Seoul street surrounded by tall glass buildings. A frightened young Korean woman with long black hair, wearing a beige coat over a white top, is held hostage by masked armed criminals. Korean police officers stand nearby as the tense situation unfolds. Use realistic facial expressions, natural body movements, and cinematic medium and wide shots.\n\nSCENE 2 — THE MYSTERIOUS GIRL:\nA young Korean woman with long black hair, wearing a dark navy school uniform, white shirt, black tie, and pleated skirt, steps forward confidently. Her expression is calm and emotionless. Suddenly, her eyes begin glowing bright white, revealing her supernatural powers. Show a close-up of her face and glowing eyes, with subtle atmospheric effects.\n\nSCENE 3 — SUPERNATURAL ATTACK:\nAs the criminals threaten the hostage, the mysterious girl unleashes an invisible telekinetic force. A weapon flies out of an attacker's hand, and a powerful supernatural shockwave throws the masked criminals backward. Capture their movements with realistic physics, dramatic slow motion, dust, and subtle visual effects. The girl remains composed and in control throughout the confrontation.\n\nSCENE 4 — RESCUING THE HOSTAGE:\nAfter defeating the attackers, the mysterious girl approaches the frightened woman and gently helps her up. She supports the rescued woman as she struggles to recover from the frightening incident. The police officers react with shock and disbelief as they witness the aftermath.\n\nSCENE 5 — FINAL SHOT:\nShow the two women together on the city street, with the rescued woman receiving support and the mysterious girl remaining calm and protective. Masked criminals lie incapacitated in the background while the police assess the situation. End with a cinematic wide shot of the urban environment.\n\nVISUAL STYLE:\nUltra-realistic live-action Korean supernatural thriller, cinematic lighting, realistic skin textures, natural human anatomy, detailed facial expressions, believable action choreography, high-quality supernatural visual effects, smooth camera tracking, dramatic close-ups, realistic motion blur, and 4K cinematic detail.\n\nCAMERA:\nUse a wide establishing shot, medium shots during the confrontation, close-ups of the glowing eyes, dynamic tracking shots during the supernatural attack, and an emotional medium shot during the rescue. Maintain smooth transitions and continuous action.\n\nAUDIO:\nRealistic city ambience, distant police sirens, tense cinematic music, supernatural energy sounds, impact effects, and natural character reactions.\n\nCONSISTENCY REQUIREMENTS:\nMaintain consistent faces, hairstyles, clothing, character identities, and body proportions throughout the entire video. Follow the reference video's scene order and actions closely. Do not introduce unrelated characters, locations, or events. Avoid cartoon visuals, anime styling, exaggerated CGI, unnecessary dialogue, text overlays, and subtitles.",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-wuxia-bamboo-rain",
+      "category": "提示词",
+      "title": "暴雨竹林里打武侠：刀光只许湿，不许变仙侠滤镜",
+      "body": "黑夜里竹林灌着大雨。东方面孔的女侠长发贴脸，花饰还在，一剑拨开雨丝。泥水溅上裙摆，竹叶被风抽得啪啪响——看起来像院线武侠，不是发光飞剑网游。\n\nZoya（@Zoyavelle）用 Seedance 2.5 跑这段，提示词一开头就写「超写实电影感中国武侠」，再把发型、首饰、雨量钉死。三百多赞、五十多收藏。很多人武侠词爱写「御剑飞行」，她反过来要求地面泥泞、雨声、布料湿重——仙气一少，动作反而可信。想复刻时别删「heavy rain」和泥地，删了就又飘回特效片。做对比内容时，可以左右并排放「飞剑发光版」和「泥雨写实版」，反差一眼懂。服装湿重写进提示词，比事后用滤镜压亮度更稳。\n\n所以呢：拍武侠先写「雨有多重、泥有多黏」，少写「气功波」。",
+      "links": [
+        {
+          "label": "X 原帖含提示词",
+          "url": "https://x.com/Zoyavelle/status/2110235870473461970"
+        }
+      ],
+      "prompt": "Create an ultra-realistic, cinematic Chinese Wuxia martial arts action scene set in a dark bamboo forest during heavy rain. A beautiful young East Asian woman with long black hair, delicate facial features, floral hair ornaments, and an elegant flowing pale mint-green traditional Hanfu dress stands calmly surrounded by masked black-clad assassins holding swords and spears.\n\nScene 1 (0–3 seconds): Low-angle cinematic tracking shot of the woman's flowing silk dress and the muddy forest floor covered in rainwater. Black-clad warriors surround her in a threatening formation. Heavy rain falls continuously, creating realistic splashes and reflections.\n\nScene 2 (3–6 seconds): Slow camera push-in toward the mysterious woman as she stands fearlessly. Her long wet black hair moves gently in the wind. Assassins approach from the background, holding their weapons ready to attack.\n\nScene 3 (6–9 seconds): Extreme close-up of her beautiful face, expressive dark eyes, wet eyelashes, and realistic raindrops on her skin. Her expression remains calm, confident, and emotionless. Shallow depth of field, cinematic lighting, highly detailed skin texture.\n\nScene 4 (9–11 seconds): An assassin thrusts a sharp metal spear toward her face. Extreme close-up of the rain-covered spear blade passing dangerously close to her eyes. Dramatic slow motion, realistic water droplets sliding across the metal, intense suspense.\n\nScene 5 (11–15 seconds): Dynamic overhead camera shot as the woman suddenly performs an elegant martial arts dodge and spins through the attacking warriors. Her flowing silk sleeves and long hair move naturally with her motion. Smooth camera rotation, realistic sword choreography, cinematic motion blur.\n\nScene 6 (15–18 seconds): Fast, graceful sword-fighting sequence in the rain. She deflects an incoming weapon with precise movements, pivots sideways, and counters the attackers with fluid Wuxia martial arts techniques. The camera follows her movement with a sweeping tracking shot.\n\nVisual Style: Photorealistic Chinese historical fantasy, premium Wuxia movie cinematography, dark bamboo forest, cold teal and muted green color grading, soft mist, volumetric lighting, realistic heavy rain, detailed wet silk fabric, natural human anatomy, realistic facial expressions, shallow depth of field, 4K cinematic quality, 24fps, dramatic atmosphere.\n\nCamera: Low-angle tracking shots, slow dolly-in, extreme facial close-ups, overhead action shots, dynamic tracking movements, smooth cinematic transitions, controlled slow motion.\n\nAudio: Heavy rainfall, footsteps on wet mud, metallic sword clashes, sharp weapon whooshes, flowing fabric sounds, subtle tense orchestral background music.\n\nConsistency: Maintain the same woman's face, hairstyle, pale mint-green Hanfu outfit, and body proportions throughout the video. Keep all warriors dressed in black traditional assassin clothing. Natural physics, coherent action, realistic weapon movements.\n\nNegative Prompt: Cartoon, anime, CGI appearance, plastic skin, blurry faces, distorted anatomy, extra fingers, extra limbs, duplicate characters, floating weapons, unrealistic fighting, inconsistent clothing, face morphing, flickering, low resolution, oversaturated colors, text, subtitles, watermark.",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-bag-pov-call-ui",
+      "category": "提示词",
+      "title": "从毛绒包里往外看：她伸手进来，屏幕上叠着滑动接听",
+      "body": "视角在灰色抓绒包里面往外望，包边毛毛糊住四角。戴黑色毛线帽和墨镜的女孩伸手进来，戒指叠在前景。背景是伦敦联排屋，门牌 27。画面正中叠着苹果手机来电界面：「Message」「Voicemail」，底部是「slide to answer」。\n\nNora（@NoravaleAI）用同一条词对比 GPT Image 2.5 和 Nano Banana 2，包内主观视角加系统界面这一招很毒：既像街拍，又像锁屏截图。提示词把「包边必须框住每一边」写死，按钮位置也写死，模型才不会把接听条漂到天上。做恶搞内容时，把来电名改成老板或前任，弹幕会自己补完故事。戒指叠在前景这一句，是制造纵深的便宜招。想做教程封面，直接截系统控件那一段放大就行。\n\n所以呢：想做「手机截图感」人像，先写清系统控件长什么样、贴在画面哪。",
+      "links": [
+        {
+          "label": "X 原帖含提示词",
+          "url": "https://x.com/NoravaleAI/status/2110367177102729314"
+        }
+      ],
+      "prompt": "Use my uploaded photo as the face reference. 3:4 vertical. Point-of-view shot from inside a grey fleece-lined bag looking up. The soft\nfuzzy lining frames every edge of the image. the person in reference, keeping her exact face, hairstyle and identity, reaches down into the\nbag toward the camera, her fingers foreshortened in the foreground and stacked with chunky silver rings. She wears a black ribbed beanie,\nblack oval sunglasses, a navy blazer and a blue-and-white striped shirt: a white London\ntownhouse with a dark grey-green front door numbered 27, black iron railings and a small olive tree. Overlaid iOS incoming call interface\nin white system font: a \"Message\" button on the left and a \"Voicemail\" button on the right as frosted round icons, and at the bottom a\nfrosted glass pill slider reading \"slide to answer\" with a white circle holding a green phone icon. Natural daylight, candid street-style\nfashion photography, realistic skin texture.\nMake it realistic\nImprove its colour grading\n\n Left: GPT image 2.5\nRight: Nano Banana 2\n\nWhich one do you prefer and why?",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-chunli-imperfect-selfie",
+      "category": "提示词",
+      "title": "春丽发晨间咖啡自拍：故意要瑕疵手机感，不要棚拍",
+      "body": "春丽举着咖啡杯对着前置镜头眨眼，另一只手伸向镜头——广角畸变、对角线构图、轻微过曝，像随手发的动态，不像角色海报。背后是日出茶屋和樱花，蒸汽从杯口慢慢冒。\n\nPierrick（@CharaspowerAI）专门用 GPT Image 2 推「不完美智能手机美学」：可见毛孔、轻微噪点、HDR 味、构图歪一点。完整提示词里写明「更像私人随手拍，而不是棚拍」。做游戏角色二创时，这比堆「八千像素电影感」更像真人会发的东西。想换角色，只要改身份描述，把「歪一点、糊一点」那段留下。同一套路也可以换到其他格斗角色：留下瑕疵手机段，只改衣服与发型。蒸汽、过曝、构图歪，三件小事叠起来才像真手机。\n\n所以呢：角色自拍先写「哪里要歪、哪里要糊」，再写衣服。",
+      "links": [
+        {
+          "label": "X 原帖含提示词",
+          "url": "https://x.com/CharaspowerAI/status/2110324848597619130"
+        }
+      ],
+      "prompt": "Photorealistic amateur smartphone selfie of  Chun-Li , adult woman, recognizable iconic appearance, beautiful athletic physique, strong feminine curves, confident and playful expression, looking directly into the phone camera with a subtle seductive smile and a playful wink.\n\nShe is wearing her iconic  royal-blue satin qipao-inspired fighting outfit with luxurious gold trim , redesigned in a more glamorous and sensual way while keeping the classic Chun-Li identity, fitted silhouette, flattering neckline, powerful athletic shoulders and arms, signature white ribbon hair buns, pearl earrings, and black spiked combat bracelets.\n\nShe holds a  large steaming coffee mug  close to the camera with her free hand, fresh coffee visible inside, soft steam rising naturally. Her other arm is extended toward the lens holding the smartphone, creating an authentic wide-angle selfie perspective with slight lens distortion.\n\nUpper-body framing, dynamic diagonal composition, slightly imperfect casual smartphone framing, spontaneous personal-photo feeling rather than professional studio photography.\n\nLocation: elegant traditional Asian wooden tea house overlooking an ancient city at  golden sunrise , large open windows, warm morning sunlight pouring through wooden latticework, cherry blossoms outside, distant pagodas partially covered in atmospheric mist.\n\nStrong golden sunrise backlight outlining her hair and silhouette, warm highlights on her skin and blue satin fabric, realistic skin texture, subtle pores, tiny imperfections, natural makeup, detailed eyes, realistic fabric folds, metallic reflections on the gold trim and bracelets.\n\nCozy but sensual early-morning atmosphere, cinematic golden-hour lighting mixed with believable smartphone photography, shallow depth of field, slightly blown-out highlights around the sunrise, natural background bokeh, subtle phone-camera noise and mild HDR processing.\n\nExtremely detailed, photorealistic, realistic anatomy, authentic skin, premium live-action cosplay realism, spontaneous Instagram-style selfie, playful morning energy,  sexy but elegant , charismatic, confident, warm and inviting, ultra-detailed 8K realism.",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "museum-of-ages-vinci",
+      "category": "视觉尝试",
+      "title": "达芬奇最后的房子：十七站导览，机器能转、手稿能翻",
+      "body": "打开 Museum of Ages 的达芬奇翼，你不是在看图文介绍，而是顺着一条预排好的路线走进 Clos Lucé——一五一七年十月十日，他在安博瓦兹的最后住所。一共十七站：画作按接近真尺寸摆着，十五台机械在机房里能被点着转起来，二十九张解剖图和二百零七页手稿摊在虚拟阅览桌上，还能镜像翻转去读他的反字，其中一百三十一页有译文。整馆用 Three.js 画材质，优先 WebGPU，不行就退回 WebGL2；贴图多来自 CC0 扫描。每站都贴着「有文献 / 重建 / 推测 / 未知」四级标签，点开能看到证据抽屉。路线刻意做成电影式导览，老手机也能跟，不让人在三维迷宫里迷路。代码 AGPL，文本与自摄静帧 CC BY-SA。所以呢：讲「开源数字博物馆」别只晒模型面数——让观众走进一间真有标签等级的房子，自己点一台机器转起来。",
+      "links": [
+        {
+          "label": "达芬奇馆入口",
+          "url": "https://museumofages.org/w/vinci"
+        },
+        {
+          "label": "GitHub 源码",
+          "url": "https://github.com/chipmates/museumofages"
+        },
+        {
+          "label": "HN 讨论",
+          "url": "https://news.ycombinator.com/item?id=50085022"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "handwired-js-neural",
+      "category": "视觉尝试",
+      "title": "Handwired：普通 JS 原样变成神经网络，浏览器里就能跑",
+      "body": "Cheng Lou 把一段日常 JavaScript 丢进 Handwired，页面上立刻画出一圈圈「电路」：分支、循环被拆成矩阵乘法和 ReLU。比如 a 大于四就取十、否则取十二，会先用两个 ReLU 算出上面四是否为一，再把两条支路都算完、用乘法挑一条——结果和原程序一模一样，却全程可微、也不用训练。演示里有个迷你桌面系统，九千九百零九个权重、一百三十层，拖窗口、滚列表全走普通 DOM；还有实时解冻权重的图库，以及把正则、JSON 解析与高亮都编译成 WebGPU、在十万文档里毫秒级搜索。权重是人手写进代码的，所以能「原样精确」又「还能端到端训」。所以呢：别再把「神经网络」只讲成黑盒训练——拿一段 if-else 当场变成可微电路，观众一眼就懂可微编程到底在干什么。",
+      "links": [
+        {
+          "label": "Handwired 演示",
+          "url": "https://chenglou.me/handwired/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chenglou/handwired"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50099118"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "ill-call-you-later-3d",
+      "category": "视觉尝试",
+      "title": "I'll Call You Later：浏览器短片里，结尾还能跟角色语音对谈",
+      "body": "Jashwanth Palleti 一个人做了部夜里的车内短片：红灯、车流、一通电话，全在浏览器里用 React Three Fiber 播完，不用安装。角色动作是他自己用手机拍的表演，经姿态估计转成 SMPL-X 身体运动再绑到三维模型上；声音也是他本人，脸则是角色模型而不是自己的扫描。片尾更狠：你可以开麦跟角色实时说话，他会用 LiveKit 加 OpenAI 实时语音按人设回答。另有导演模式可问「这是怎么做的」，还有单独的对谈入口。画质会按设备降档，作者推荐桌面 Chrome 加耳机。评论里有人说手臂会穿模，但动作自然、对谈听得懂。所以呢：做「AI 短片」别只晒生成画面——把真实表演、实时语音和可打断的结尾叠在一起，才像一部能走进去的片子。",
+      "links": [
+        {
+          "label": "短片入口",
+          "url": "https://film.jashtechno.com"
+        },
+        {
+          "label": "导演模式",
+          "url": "https://film.jashtechno.com/?director"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50098087"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "real-design-benchmark",
+      "category": "视觉尝试",
+      "title": "真产品对 AI 设计：先选好看的，再猜哪张是 AI",
+      "body": "Subframe 联合创始人 Adam Ginzberg 做了个对照游戏：同一屏功能，一边是真产品截图，一边是 AI 写 HTML 再同样方式截图。AI 只拿到该产品四张既有界面、图标字体，以及一份书面 brief，人工检查过提示词里没泄露目标屏。你先盲选哪张更好，再猜哪张是 AI。几千次提交后，约百分之五十七更喜欢 AI 版，百分之三十三更喜欢真产品，一成觉得差不多；认出 AI 的正确率大约百分之五十九，也就是说还有四成左右认不出来。最初用 Opus 五点五，当晚又加了 GPT-六点一 Sol。站点标题写着「百分之四十一的人分不清」。所以呢：别空谈「AI 会不会设计」——让观众先凭感觉投票，再揭晓答案，尴尬和好奇比分数更适合做成内容。",
+      "links": [
+        {
+          "label": "开始对照",
+          "url": "https://www.realdesignbenchmark.com"
+        },
+        {
+          "label": "方法说明",
+          "url": "https://www.realdesignbenchmark.com/methodology"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50099581"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "embeddings-semantic-guessr",
+      "category": "视觉尝试",
+      "title": "SemanticGuessr：在四万词的语义地图上画圈猜目标词",
+      "body": "Isaacus 的 Abdur-Rahman Butler 写了一篇可交互的向量嵌入长文，灵感来自 Brendan Bycroft 那套大模型可视化。正文不是干讲公式，而是让你亲手拧向量化、余弦相似、语义搜索、层次检索、聚类、零样本分类和去重。压轴是一款叫 SemanticGuessr 的游戏：地图上铺着四万三千三百三十九个常见英文词，你像玩 Wordle 加 GeoGuessr 一样，用几次猜测去三角定位，最后画一圈把目标词圈住。也可以丢向量算术：伦敦减英语加法语、跑步减陆地加水。整站用他们的 Kanon 2 Embedder 预先算好，再降维量化，词表从约三百一十一兆压到十二点三兆，浏览器静态就能玩。所以呢：讲「嵌入是什么」别甩三维散点图——让观众在语义地图上猜词，踩一次坑就记住语义空间和直觉不一样。",
+      "links": [
+        {
+          "label": "交互长文",
+          "url": "https://isaacus.com/blog/what-are-vector-embeddings"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50085561"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "approximatr-spatial-daily",
+      "category": "视觉尝试",
+      "title": "Approximatr：每天五道题，拖一个手柄估角度面积",
+      "body": "Approximatr 是一款每日空间直觉游戏：每天五道新题，没有尺子也没有网格，你只能拖一个手柄去估角度、长度、面积或中点，然后看自己偏了多少、拿几块奖牌。作者做了几个月，发现人类很擅长找「正中间」，却很差于比较几何面积；有的题练了也稳不准，有的题几乎次次满分，乐趣就在这两种之间找平衡。免费、无广告，游客能直接玩；可选谷歌或邮箱登录，把连续天数和奖牌同步到别的设备。它不卖课程也不塞排行榜广告，只是把「眼睛准不准」变成一件能分享的小事。所以呢：别只会夸「空间智能」——让粉丝每天估一道没有辅助线的几何题，评论区里比谁更离谱，比空讲模型评测好懂多了。",
+      "links": [
+        {
+          "label": "今日五题",
+          "url": "https://approximatr.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50087464"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "pericentre-space-atlas",
+      "category": "视觉尝试",
+      "title": "Pericentre：本地宇宙一张图，连续缩放从太阳系到深空",
+      "body": "Pericentre 把太阳系、恒星系统、星系和天体目录收进同一个可拖拽的三维图里。你可以在「家视图」和「深空视图」之间切，重置相机，打开显示设置，按行星、彗星、航天器、系外行星、星云等过滤；点一下任务或天体，相机就会飞过去，还能查看近日点或 JPL 快照位置。尺寸和距离为了浏览被刻意视觉缩放，但详情面板会标出测量来源，不会假装一切都按真实比例。它不像科普视频只能跟镜头走，而是让你自己决定往哪边拧、停在哪一层尺度，顺便搞清「本地宇宙」到底有多挤。所以呢：做天文内容时，与其再剪一段「太阳系飞行」，不如把观众丢进一张能自己缩放的本地宇宙，让他们亲手找到那颗彗星。",
+      "links": [
+        {
+          "label": "Pericentre",
+          "url": "https://pericentre.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50083990"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "blobz-svg-avatars",
+      "category": "视觉尝试",
+      "title": "Blobz：同一串字符永远画出同一张好玩的 SVG 脸",
+      "body": "上线页常见两种默认头像：要么一堆重复剪影，要么逼用户上传。Blobz 换了条路——任意用户名、邮箱或编号丢进去，立刻生成一张好玩的 SVG 脸；同一字符串永远同一张脸，也不用把图存进服务器。作者做了 React 包、兼容 shadcn 的组件，还有托管 API，站点上写着组合数超过四十九亿。你可以当场改名字看脸怎么变，再下载或复制到项目里当默认态。开源，适合注册流、评论区和社交卡片，也省掉一堆图片托管费用。设计师常说「空状态也是设计」，这个玩具把那句话变成能点的东西。所以呢：讲「默认态也要有设计」时，别再贴灰色小人——让观众输入自己的 ID，看那张只属于这个字符串的小脸弹出来。",
+      "links": [
+        {
+          "label": "在线试玩",
+          "url": "https://blobz.lirena.in"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50086216"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "code-like-198x",
+      "category": "视觉尝试",
+      "title": "Code Like It's 198x：在真机器上写小游戏，顺带摸透年代感",
+      "body": "打开 Code Like It's 198x，你不是在看「学编程」幻灯片，而是直接选一台老机器动手做小游戏。NES 上用六五零二汇编去卡跳跃时机，Commodore 64 上用 BASIC 撬开保险箱，还有躲陨石、赶羊这类题目。每套机器脾气都不一样：内存怎么省、指令怎么写、画面为什么会抖，全嵌在关卡里。完全新手也能先从「发指令、记变量、要输入」的基础开局，再挑主机深入。它把怀旧硬件变成可玩的工作室，而不是只能看模拟器回放，或听别人吹当年有多苦。你会在卡关里摸到真实约束，评论区还能比谁先过关。所以呢：怀旧科技内容别停在「当年多难」——让观众在浏览器里卡一次跳跃，比拍十段解说视频更有体感。",
+      "links": [
+        {
+          "label": "选机器开局",
+          "url": "https://code198x.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50086669"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "hyperbolic-interstellar",
+      "category": "视觉尝试",
+      "title": "星际过客路径图：用「惊讶比特」看像不像探针",
+      "body": "自二零一七年以来，有三颗来自其他恒星的天体穿过太阳系。Hyperbolic 把它们的轨迹画成可玩的可视化，并抛出一个尖锐问题：若是探针，更可能在一次旅途里贴近多颗行星，或按旅行商思路挑最近的下一站。页面用「惊讶比特」对照随机到达的零假设打分——每多一比特，偶然性大约减半；十比特大约是一千分之一。结果写得很克制：前两颗没留下探针式痕迹；第三颗比偶然更贴近三颗行星，却既不从某颗星来、也不朝某颗星去。你可以开模拟，盯着轨道和距离一起变。所以呢：讲「外星探针阴谋论」别靠喊——把三条轨迹和评分摊开，让观众自己看证据够不够。",
+      "links": [
+        {
+          "label": "路径可视化",
+          "url": "https://hyperbolic.lucent.tools/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50094794"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "petal-opensource-pair",
+      "category": "小众工具",
+      "title": "Petal：CoScreen 原班人马开源结对，窗口扔过去就能点",
+      "body": "Datadog 在七月三十一日关掉了 CoScreen。原班四个人花两个月做出 Petal：低延迟、高分辨率屏幕共享加远程控制，灵感来自当年被 Slack 买下又关掉的 ScreenHero。窗口可以从你的笔记本「扔」到对方屏幕上，对方能点进你的编辑器直接打字；Mac 与 Windows 可下，Linux 还在路上，源码在 kiruna-labs/petal。创始人 Jason 在 HN 把收购史讲透：好工具被大厂收购后，独立产品几乎总死掉——Around、Multi 也是同一剧本。这次他们明确不卖钱、可自托管可 fork，就算团队散了社区还能接着跑。结对编程终于又有一个不被订阅墙挡住的选项。远程协作少了一层「先付费再见面」的尴尬。所以呢：别只骂收购杀死产品——把还能用的结对工具链接甩给观众，让他们今晚就能开一对窗口。",
+      "links": [
+        {
+          "label": "Petal 官网",
+          "url": "https://petal.live/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kiruna-labs/petal"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50092470"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "context-autopsy",
+      "category": "小众工具",
+      "title": "context-autopsy：解剖代理上下文，看看到底被什么塞满",
+      "body": "你以为二十万到一百万 token 的窗口大多花在「你的代码」上。跑一句 npx context-autopsy，它会本地读 Claude Code、Codex、Cursor、OpenCode 等十多种代理的会话记录，按读代码、写代码、构建测试日志、Docker 与云 CLI、失败命令、固定开销等切开。示例卡很刺眼：真正代码只占百分之二十七，见到二十三组密钥口令，一千二百零四次失败命令，百分之二十一是构建与环境折腾，六十天处理十九亿 token。一切不出本机、无依赖；还能生成两百八十字以内、不含路径的分享卡，方便发到社交上自嘲。很多「模型变笨了」其实是上下文被垃圾填满。所以呢：别再凭感觉骂「上下文不够」——先尸检一次，把「构建日志吃掉两成」这种具体罪名贴进视频标题。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AlistairClark7/context-autopsy"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50093737"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "answer-html-skill",
+      "category": "小众工具",
+      "title": "Answer me with HTML：代理别回墙字，吐一页能读的离线 HTML",
+      "body": "问代理一个难问题，终端里常常先砸来一堵字墙。Answer me with HTML 这个技能换了交付方式：模型先写短 Markdown 草稿，再交给自带命令行工具，大约五十毫秒拼出带图示的单页网页，离线也能打开。作者统计过，手写网页平均要四千八百九十三个词元，其中矢量图路径就占四成七；用技能后模型只写大约六百一十二个词元，约八分之一，耗时从三十一秒掉到十二秒。它能接 Claude Code、Codex、Cursor、OpenCode 等常见代理。同一道三次握手题，一边是字墙，一边是带图的一页纸，差距一眼能看见。复杂对比和模块关系图尤其吃这套，存下来过一周还能复习。所以呢：教人「怎么问代理」时，别只优化提示词——换一种交付形态，可读性本身就是产品。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/QingYunA/answer-me-with-html"
+        },
+        {
+          "label": "项目站",
+          "url": "https://answer-me-with-html.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50098431"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "clova-one-sender",
+      "category": "小众工具",
+      "title": "Clova：一个邮箱只认第一个发件人，泄露了也不通吃",
+      "body": "邮箱地址一旦泄漏，整箱垃圾信就会涌进来。Clova 反过来做：你可以拥有无限收件地址，并按场景选三种玩法。第一种叫单发件人——谁先写信，就锁死对方域名或账号，别人一律拒收。第二种是限时地址，到期自动拒信。第三种是前缀玩法：你声明一个前缀，再随手发明后缀，就会自动长出新的单发件人箱。还能自带域名，接上给人工智能用的协议接口，也能转发。作者在黑客新闻拿到近百个赞，核心卖点很直白：名单被倒卖时，那串地址只对第一家公司有用。注册下载站时，终于不用拿整箱邮箱去赌。所以呢：隐私邮箱别再只讲「临时十分钟」——讲清「锁死第一发件人」，观众立刻知道该给银行还是给下载站。",
+      "links": [
+        {
+          "label": "Clova",
+          "url": "https://clova.email/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50090932"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "geneva-html-video",
+      "category": "小众工具",
+      "title": "Geneva：用 HTML/CSS 画视频字幕，不靠浏览器一次合成",
+      "body": "Geneva 是用 Rust 写的命令行视频工具。剪辑、拼接、转码走熟悉的命令，底层仍用常见编解码库，但标题和图形用原生网页样式语言来画，不拉起整只浏览器内核。作者说，这比那种「先开浏览器再渲染」的方案更省内存、更快，也特别适合交给编码代理：让模型写好片头样式，再一条命令压进成片。它支持主流桌面系统，开源许可宽松。日常例子包括按时间裁切、交叉淡入拼接，一条命令就能复现。自动化流水线终于不用为了两行花字去起整个浏览器，片头样式还能和网页设计共用同一套样式表。所以呢：做「代理剪视频」教程时，别默认上浏览器渲染管线——一条不弹窗的命令行工具，才像能塞进自动化脚本的东西。",
+      "links": [
+        {
+          "label": "Geneva 官网",
+          "url": "https://genevarender.com"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50086224"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "dub-anything-local",
+      "category": "小众工具",
+      "title": "Dub Anything：本机配音，保留原演员音色和原声音乐",
+      "body": "多数配音工具走固定流水线：先转写，再翻译，每人截一段克隆，超时就加速硬塞。Dub Anything 换成「编码代理当导演」：逐行听声纹、看画面、修识别错误，再写出翻译，并用原演员音色生成对白，音乐和音效尽量保留。你丢进视频，吐出带配音轨的成品，原声只隔一条音轨，双语字幕都在。日语、西班牙语、韩语、中文和英语之间已有方向，缺语言就让代理加一对，跑通了请回馈仓库。全程在你自己的电脑上，素材不用先上传到陌生云端。听感上仍是那个人在说，校对时也不用另开字幕文件。所以呢：讲人工智能配音别只比「像不像」——强调「本机、原声旁轨还在、代理逐行导演」，才和一键糊嗓工具拉开差距。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/swax/dub-anything"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50094005"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "shazbot-ssh-menu",
+      "category": "小众工具",
+      "title": "Shazbot：菜单栏管 SSH 隧道，沙盒里自写协议不调系统 ssh",
+      "body": "天天开一堆远程端口转发，最后分不清哪个端口连哪台机器。作者先用编程代理包了一层系统里的远程登录命令，想上架苹果应用商店，才发现沙盒不许拉系统自带的登录程序。他放弃助手进程，改在应用内用原生协议建连：每台服务器一个客户端，每条隧道一条监听通道，断线可按设定重试，认证失败则不盲着重来。配置用粘贴导入，密钥走文件选择器，并用系统书签记住访问权；沙盒也碰不到本机的密钥代理套接字。为了出口合规还填了一堆表，法国那份直接放弃。隧道状态看得见，比盯终端滚动日志省心，作者也不打算让它长成瑞士军刀。所以呢：工具志别只写「菜单栏真方便」——把「为了上架不得不重写远程登录」讲清楚，才像一篇有技术钩子的故事。",
+      "links": [
+        {
+          "label": "作者博文",
+          "url": "https://zardecki.dev/blog/why-i-built-shazbot.html"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50097924"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "evlat-waiting-strip",
+      "category": "小众工具",
+      "title": "Evlat：屏幕边缘一条细条，告诉你谁在等你点同意",
+      "body": "代理一多，最烦的是你去倒水回来，才发现有的卡在批准、有的已经跑了十几分钟、有的三分钟前就做完了。Evlat 在苹果电脑屏幕边缘贴一条细条，一眼看见谁在等你；点一下就能跳回常用终端或编辑器窗口。也支持用一条监视命令包住任意长任务：镜像构建、模型训练、整套端到端测试、部署——做完再喊你。免费，面向苹果芯片和新近系统版本，作者强调权限要得很少，不想变成又一个常驻间谍。人离开工位也不怕错过批准弹窗。它解决的不是「代理更聪明」，而是「人终于知道该点哪扇窗」。所以呢：别再让观众「开八个终端轮询」——一条边缘条就是内容封面，标题可直接写成「哪个代理在等你」。",
+      "links": [
+        {
+          "label": "Evlat",
+          "url": "https://evlat.kalaomer.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50087078"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "zipgeist-finder-vol",
+      "category": "小众工具",
+      "title": "Zipgeist：压缩包当 Finder 卷来开，大文件也不先整包解压",
+      "body": "从另一套桌面系统转到苹果电脑的人常念叨：那边的文件管理器能直接逛压缩包，这边却要先整包解出来。Zipgeist 用系统文件扩展把常见压缩格式挂成卷，浏览和编辑不必先整包展开，作者强调开包比解压快一个数量级，也提供更快的提取。因为走这套扩展接口，需要很新的系统版本。免费版含一周高级试用，之后只能开一吉以下，且不能在文件管理器里改包内文件。对摄影包、素材库这种动辄好几吉的人，光是「先看再决定解不解」就够用，桌面也不会堆出一地临时文件夹。大素材包先预览再解压，磁盘压力也小。所以呢：效率工具别堆功能清单——一句「压缩包像文件夹一样打开」就够让迁机用户点进来。",
+      "links": [
+        {
+          "label": "Zipgeist",
+          "url": "https://zipgeist.app"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50096025"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-14",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
+    {
+      "id": "bokal-cookie-editor",
+      "category": "小众工具",
+      "title": "Bokal：开源 Cookie 编辑器，故意不要 tabs 权限",
+      "body": "很多浏览器网站数据扩展一装就要页面标签权限，等于能盯你开了哪些页。Bokal 走新版扩展标准，能查看、修改、删除、导入导出网站数据，包括仅限服务器读取的条目，还有分区检查，导出可对接常见自动化工具。作者强调不要页面标签权限、没有遥测、没有远程代码，数据不出设备。网上应用店已上架。对调试登录态、写自动化的人，这是「要够用的能力，但别多要窥探权」。权限表本身就是选题：同样改网站数据，谁少要一项危险能力，观众一看就懂取舍。自动化脚本导出时，也不必再换那个「什么都能看」的扩展。所以呢：评浏览器扩展时，把权限表拍进镜头——「同样改网站数据，谁少要一项危险权限」就是天然对比脚本。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yuvibabbar-dev/bokal"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50098350"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-15T15:10:00+08:00"
+    },
     {
       "id": "rent-seeking-lm",
       "category": "硬科技",
