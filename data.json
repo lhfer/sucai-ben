@@ -1,5 +1,685 @@
 [
   {
+    "id": "prompt-seedance-peephole-loop",
+    "category": "提示词",
+    "title": "走廊进猫眼再出来：三十秒一镜，两边都在憋破门",
+    "body": "窄楼道里，四人战术队贴在门边比手势。镜头突然怼向猫眼，穿过黑洞，钻进烟雾公寓——里面也是四个罪犯，有人拉窗帘，有人关灯。镜头绕一圈又钻回猫眼，门外队长的眼睛怼到镜头前，门把手微微发抖。硬切。破门没发生。\n\nPierrick（@CharaspowerAI）用 Seedance 2.5 做这条「走廊→猫眼→屋内→猫眼→走廊」一镜，收藏六十多、近百赞。很多人夸特效，真正难抄的是结构：人数写死门外四、门内四，地理必须绕得回来，破门永远不给看。评论区有人说「不如切三刀」，他偏偏要证明——张力靠运镜和等待，不靠爆炸。做同款时，先在纸上画门两侧的回路，再让模型去钻；回路画不清，生成多少次都会穿帮。\n把「不给看破门」当成高潮，观众会自己脑补爆炸。\n\n所以呢：想拍对峙，先画一条能钻回去的路径，再决定要不要开枪。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/CharaspowerAI/status/2110792869610991923"
+      },
+      {
+        "label": "完整提示词",
+        "url": "https://x.com/CharaspowerAI/status/2110792892251857069"
+      }
+    ],
+    "prompt": "Ultra-realistic urban crime-thriller, one seamless 30-second continuous shot. Gritty premium realism, restless handheld energy, long-lens hallway tension, impossible micro-camera movement, subtle film grain, hard practical lighting, smoky apartment atmosphere, intense but non-graphic.\n\nA four-man tactical intervention team in modern gear stacked outside an apartment door in a narrow corridor. Inside: four distinct adult criminals, tense, organized, preparing for an imminent breach. Keep exactly 4 outside and exactly 4 inside.\n\nOld apartment building hallway leading to one door with a visible peephole. Inside: cramped urban apartment with entry hall, living room, kitchen, bedroom doorway, low lamps, cluttered table, scattered cash, duffel bags, blinds half-closed.\n\n0-6s: [Hallway setup] Side-on handheld tracking in the corridor as the 4-man tactical team stacks tightly outside the apartment door, silent hand signals, heavy breathing, gloved hands, door frame, tension building.\n\n6-10s: [Peephole transition] Camera pushes aggressively toward the door peephole, then impossibly passes through the peephole into darkness, emerging inside the apartment in one fluid move.\n\n10-18s: [Interior glide] Camera snakes through the apartment: across the entry hall, past a cluttered table, around the living room, revealing the 4 criminals taking positions, checking the door, pulling curtains, exchanging quick looks, one at the kitchen counter, one near the sofa, one by the bedroom, one just off the entry line.\n\n18-24s: [Escalation] Camera continues through rooms and circles back toward the front door from the inside. Tension spikes. One criminal hears something and freezes. Another slowly kills a lamp. Silence.\n\n24-30s: [Face-off payoff] The camera glides back into the peephole and emerges into the hallway again, now inches from the tactical team. On the other side of the door both groups are ready. Tight close-up on the team leader’s eyes, then on the doorknob trembling slightly. Hard cut before the breach.\n\nOne continuous shot, exact 4-person team outside and exact 4 criminals inside, clear apartment geography, impossible peephole transition, premium tension, no shootout shown, no gore, no text, no logos.",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-riko-picnic-heist",
+    "category": "提示词",
+    "title": "浣熊 Riko 偷野餐：勺子一响它冻住，篮里还有只 Moku",
+    "body": "晴天草地，木桌上有只柳条篮。小浣熊 Riko 从树后探头，贴地冲刺，钻过长凳，爬上桌腿。它小心绕过盘子，后爪蹭到勺子——叮一声，它整只冻住。篮盖掀开，它刚抓住三明治，对面却拽住了：篮里早蹲着另一只更小的深灰浣熊 Moku。\n\nAbhishek（@HeyAbhishek）把角色设定和图文提示词拆开发，收藏一百多。和前一天的熊猫 Niko 同一工厂，但这条物理锁更狠：桌腿怎么爬、勺子弹一次、Moku 二十六秒前不许露爪。喜剧不靠鬼脸，靠「它以为自己是专业盗贼」。普通人改用时，先换三明治口味，别删因果链——每一步都要看得见原因，观众才会跟着憋笑，也方便你拍成系列。\n第二只浣熊出场越晚，反转越响。\n\n所以呢：动物偷窃喜剧先写清楚谁藏着、什么响了、谁先松手。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/HeyAbhishek/status/2110718876459979208"
+      },
+      {
+        "label": "角色设定提示词",
+        "url": "https://x.com/HeyAbhishek/status/2110718896265371840"
+      },
+      {
+        "label": "视频提示词",
+        "url": "https://x.com/HeyAbhishek/status/2110718910408671351"
+      }
+    ],
+    "prompt": "=== Character sheet (GPT Image / Gemini) ===\nCharacter sheet prompt:\n\nCreate a premium character-design reference sheet on a clean light cream / pale warm-gray studio background for an entirely original young raccoon named RIKO. Organize the image like a professional high-end 3D animated feature-film character model sheet. Every view must show the exact same Riko with strict identity, fur markings, facial structure, body proportions, paw consistency and tail-ring consistency.\nAt the top-left, include the simple title “RIKO”. Under the title, include small character information reading: TYPE: young raccoon, PERSONALITY: clever / curious / cautious / overconfident, BUILD: small agile body / short legs / nimble paws / fluffy ringed tail, STYLE: premium realistic 3D animated character, AGE APPEARANCE: young. Include a small labeled color palette for SILVER-GRAY FUR, DARK FACIAL MASK, CREAM MUZZLE, INNER EARS, PAWS, TAIL RINGS and EYES.\nShow a large full-body front view and full-body side view on the left. In the center, show a large full-body 3/4 hero view and a full-body rear view. On the right, show head front, head side and head 3/4 views. Along the bottom, include an expression strip showing FOCUSED, CURIOUS, SUSPICIOUS, PROUD, PANICKED and AWKWARD expressions. Beside it, include three small action poses showing Riko sneaking low to the ground, climbing vertically with all four paws, and freezing stiff in place after hearing a sound.\nRiko is a completely original young raccoon with a small agile body, slightly narrow torso, short sturdy legs, compact shoulders and a soft fluffy silhouette. He should not look bulky, heavy or cartoonishly round. His body should feel lightweight and physically suited for sneaking, sliding, climbing and balancing. His fur is mostly soft silver-gray with slightly darker gray along the back and outer tail. His under-face, chin, throat, chest and lower belly are soft pale cream. His iconic facial mask is deep charcoal-gray and wraps across both eyes in a smooth tapered shape, but it should be unique and asymmetrical enough to feel original rather than generic.\nHe has medium-sized expressive amber-brown eyes with visible irises and natural highlights. His eyes should feel alert, observant and intelligent, not oversized or babyish. His ears are moderately large, upright and rounded, with soft cream inner-ear fur. His muzzle is short and tapered with a small glossy dark nose and a compact mouth. Give him one small messy forehead tuft of slightly lighter fur between the ears as a subtle identity marker. This tuft must remain consistent in every view.\nHis front paws should be small, nimble and dexterous with visible finger separation appropriate for raccoon anatomy, but not exaggerated into human hands. His hind paws should be slightly longer and flatter, useful for climbing and balancing. His tail is medium-long, fluffy and distinctly ringed with alternating soft gray and charcoal bands. Keep the tail moderately thick and expressive, but never oversized like a fox tail. The exact tail ring pattern must remain consistent in every view.\nRiko’s personality should come through in his posture and expression. He should feel like a tiny self-serious thief who believes he is extremely professional. His comedy comes from intense focus, cautious movement, freeze reactions and overconfidence, not from costumes or props.\nDo not give him any thief costume, mask accessory, hat, gloves, cape, tools, gadgets, backpack, shoes, belt or clothing of any kind. He must feel like a natural raccoon, not a dressed-up character. No logos. No weapons.\nUse premium realistic 3D CGI animated-film rendering with detailed soft fur, realistic fur breakup around the cheeks, tail and limbs, physically believable materials, natural eye reflections, subtle contact shadows and clean cinematic studio lighting. Combine believable raccoon anatomy with slightly stylized proportions suitable for expressive physical comedy.\nRiko must have a completely original visual identity and must not closely resemble any recognizable existing raccoon mascot, cartoon raccoon or franchise character.\nUse only the clean light cream / pale warm-gray studio background. No environment. No picnic props. No additional characters. Every model-sheet view must preserve the exact same face, amber-brown eyes, charcoal facial mask, forehead tuft, fur colors, body proportions, paw shapes and tail-ring pattern.\n\n=== Seedance 2.5 video ===\nCreate an exactly 30-second vertical 9:16 premium 3D animated comedy short. Use the attached Riko character sheet as the exact visual reference for Riko. Maintain his identical face, amber-brown eyes, charcoal facial mask, silver-gray fur, cream muzzle and chest, small messy forehead tuft, compact agile body, short sturdy legs, nimble paws and exact fluffy tail-ring pattern throughout every frame. The reference defines Riko’s appearance only. If a storyboard board is also provided, use it only as a sequence and composition guide. Every storyboard panel represents a different moment in time, so never combine multiple Riko poses from separate panels into one frame.\nRiko is the only visible character for approximately the first 26 seconds. He is a natural young raccoon with no clothing, thief costume, hat, mask accessory, belt, gloves, backpack, tools or gadgets. His “professional thief” personality comes entirely from cautious movement, intense observation, serious facial expressions, freeze reactions and overconfidence.\nThe final reveal introduces a second raccoon named Moku. Moku is a completely separate individual and must never look like a duplicate of Riko. Moku is slightly smaller, has darker cool-gray fur, no forehead tuft, narrower amber eyes, a cleaner symmetrical charcoal face mask and a slightly shorter fluffy ringed tail. Moku remains entirely inside the picnic basket until the final reveal. Do not show any part of Moku before approximately 0:26. No paws, ears, eyes, fur or tail from Moku may be visible before that point.\nThe entire story takes place in one quiet sunny countryside picnic clearing during consistent warm daylight. A large tree stands near one side of the clearing. Several meters away is one sturdy rectangular wooden picnic table with two permanently attached benches. The table remains completely stationary throughout the entire video. One large deep rectangular wicker picnic basket sits securely on the tabletop near the far end. The basket has a broad flat base and does not slide, tilt, rotate or fall. Its lid is attached by one fixed hinge along the far edge of the basket. The lid opens upward and backward. The hinge has enough resistance to hold the lid open after Riko raises it, so the lid does not randomly fall shut. Riko deliberately lowers the lid again during the final second.\nThe tabletop contains only three other visible picnic objects. One white ceramic plate lies flat on the tabletop, one metal spoon lies flat beside the plate, and one tall closed green thermos stands securely upright farther away. The plate never moves. The thermos never moves, tips or falls. The spoon is the only small tabletop object that moves, and it moves exactly once after Riko accidentally nudges it.\nInside the picnic basket is exactly one oversized sandwich. The sandwich is large enough for both raccoons to grip opposite sides but still small enough to fit comfortably inside the basket. Moku begins crouched low inside the deep basket with the sandwich in his paws. The basket walls and closed lid completely hide Moku from every exterior camera angle until the final reveal. The sandwich remains inside the basket until Riko opens the lid and grabs it.\nUse a premium realistic 3D CGI animated-film aesthetic with detailed soft raccoon fur, realistic wicker fibers, natural weathered wood, rich green grass, warm sunlight, cinematic shadows and expressive but physically controlled character animation. The overall presentation should feel like a serious miniature heist played for comedy. Maintain believable body weight, gravity, climbing, friction, object contact and momentum. Every moving object must have a visible physical cause. Avoid exaggerated rubbery anatomy or impossible acrobatics.\nFrom 0:00 to 0:02, open immediately on a close low-angle shot of Riko partially hidden behind the trunk of the large tree. Only his head, one shoulder and part of his ringed tail are visible. Riko cautiously leans around the tree and scans the clearing with intense concentration. Camera shifts with his gaze to reveal the picnic table several meters away. The wicker picnic basket sits on top. Its lid is almost closed but has one narrow natural gap of only a few centimeters. Through that gap, Riko can see only a small edge of the oversized sandwich. Moku is completely invisible. Riko’s expression instantly changes from curiosity to total focus.\nFrom 0:02 to 0:05, use a low lateral tracking shot. Riko leaves the tree and sprints low through the grass toward the picnic table. His body stays close to the ground and his ringed tail streams naturally behind him. As he reaches the near bench, he lowers his body further and quickly scurries underneath the fixed bench rather than jumping over it. The bench never moves. Riko emerges safely on the other side and stops close to one thick wooden table leg.\nFrom 0:05 to 0:08, use a clear side shot showing the full table leg. Riko places both front paws against the rough vertical wood and begins climbing. His front paws grip the wood while his hind paws push upward. His body remains close to the table leg. His tail hangs naturally beneath him and reacts only to his body movement. Riko climbs directly from the ground to the tabletop level. He does not jump, teleport or use the bench as a floating step. He reaches the upper edge and pulls himself safely onto the tabletop using both front paws.\nFrom 0:08 to 0:11, show Riko crouched low on the tabletop. The wicker basket is visible farther ahead. Between Riko and the basket are the white ceramic plate, the flat metal spoon and the upright green thermos. These objects remain in their established positions. Riko lowers his body and begins moving slowly across the tabletop with careful deliberate steps. He looks at each obstacle before placing his paws. His expression is extremely serious, as if this is a major operation.\nFrom 0:11 to 0:13, use a low close side shot of Riko moving beside the plate. His front paws pass safely around it. As his rear body follows, the edge of one rear paw accidentally touches the handle of the metal spoon. The spoon rotates only a few centimeters around one contact point on the tabletop and its bowl lightly taps the edge of the ceramic plate with one clear metallic CLINK. The plate stays fixed. The spoon immediately stops moving after the tap. Nothing falls. Riko freezes completely in place. His eyes widen. One paw remains suspended slightly above the tabletop. His tail stops moving.\nFrom 0:13 to 0:16, hold the tension for a brief beat. Riko slowly moves only his eyes from side to side, checking the clearing. Nothing else happens. No humans appear. No additional animals appear. The plate, spoon and thermos remain still. Riko slowly relaxes. His raised paw lowers gently onto the tabletop. He resumes moving toward the basket, even more cautiously than before.\nFrom 0:16 to 0:19, Riko reaches the picnic basket. Use a medium side shot showing the basket clearly resting flat and securely on the tabletop. Riko crouches beside the near edge and studies the narrow gap beneath the lid. He places one paw lightly against the wicker side to stabilize his own body, not to move the basket. He peers into the gap but can see only darkness and part of the sandwich. Moku remains completely hidden below the rim and behind the sandwich.\nFrom 0:19 to 0:22, show the complete lid-opening action clearly. Riko places both front paws underneath the near edge of the hinged basket lid. His hind paws remain planted firmly on the tabletop. He slowly pushes upward using both front paws. The lid rotates upward around its fixed far-side hinge. The basket itself does not move. The lid remains permanently connected to the hinge. Riko raises the lid until it is open at roughly 80 degrees. The hinge resistance keeps it in that open position after Riko releases it. The lid does not fall back down.\nFrom 0:22 to 0:24, use an over-the-shoulder view from behind Riko looking into the deep basket. The oversized sandwich sits near the upper center of the basket. Because of Riko’s shallow viewing angle, the basket rim and sandwich block the lower interior from view. Moku remains completely hidden below and behind the sandwich. Riko’s eyes widen with delight. He slowly reaches both front paws into the basket toward the near side of the sandwich.\nFrom 0:24 to 0:26, Riko grips the near side of the sandwich with both front paws and pulls it toward himself. The sandwich moves only about 10 centimeters toward Riko, then stops. Riko freezes. He looks confused. He adjusts his grip and gives one second gentle pull. The sandwich resists because Moku is physically holding the opposite side inside the basket. The sandwich never moves by itself. It never levitates. It never leaves the basket during this interaction.\nFrom 0:26 to 0:28, use a close shot looking across the basket rim. As Riko continues holding the near side of the sandwich, two different darker-gray raccoon paws slowly become visible gripping the far side. Riko stops pulling. Moku then slowly raises his head and upper body from the deep interior while still holding the sandwich. Reveal Moku clearly for the first time. Moku is smaller and darker than Riko, has no forehead tuft, narrower amber eyes and a visibly different symmetrical face mask. Riko remains outside the basket. Moku remains inside the basket. They are two separate raccoons with two separate bodies. Never merge them. Never replace Riko with Moku. Never duplicate Riko.\nFrom 0:28 to 0:30, hold a clear two-character composition. Riko and Moku stare silently at one another for a brief awkward beat while both still touch the sandwich. Moku calmly pulls the sandwich back toward his own chest. Riko voluntarily releases his grip. Moku takes one slow satisfied bite while maintaining eye contact with Riko. Riko’s expression changes from shock to embarrassed disbelief. Riko then places one front paw on the near edge of the still-open basket lid. He slowly lowers the lid downward around the same fixed hinge. Moku remains safely below the rim with the sandwich. The lid gradually hides Moku from view. End just before or as the lid gently closes with one soft wicker THUMP. Cut to black.\nMaintain strict Riko consistency throughout the entire video. Riko always has the same face, amber-brown eyes, charcoal facial mask, cream muzzle and chest, silver-gray fur, forehead tuft, body proportions, paw shapes and exact tail-ring pattern. He has exactly one head, two ears, two front paws, two hind paws and one fluffy ringed tail. Never create additional limbs, human hands, detached tails, duplicate Rikos, ghost bodies or motion-trail copies.\nMaintain strict Moku consistency during the final reveal. Moku is one separate second raccoon with darker fur, no forehead tuft, narrower amber eyes, a symmetrical charcoal facial mask and a slightly shorter tail. Moku exists only inside the basket. He never appears outside the basket. Riko never enters the basket.\nMaintain strict picnic-table geography. The tree, table, benches, table legs, plate, spoon, thermos and basket remain in the same positions throughout the video. The table never rotates or changes construction between shots. The benches stay permanently attached. Riko approaches from the tree side, passes beneath the same near bench, climbs the same table leg and reaches the same tabletop. Do not mirror the environment between shots.\nMaintain strict prop continuity. There is exactly one basket, one hinged lid, one sandwich, one plate, one spoon and one thermos. The basket never moves from its place on the tabletop. The lid remains attached to the same hinge for the entire video. The plate never moves. The thermos never moves. The spoon moves only during the single CLINK gag and then remains still. The sandwich moves only when Riko, Moku or both raccoons are visibly holding it.\nDo not allow the sandwich to slide deeper into the basket on its own. Do not allow Moku to appear before his reveal. Do not allow the basket lid to open or close without Riko physically moving it. Do not allow the basket to tip while Riko pulls the sandwich. Do not allow any food, plates or props to duplicate or disappear.\nPrioritize clear readable physical actions over flashy camera movement. Use wider shots whenever the climbing route or tabletop geography needs to be understood. During the final reveal, keep both Riko and Moku visible simultaneously so the audience clearly understands that there are two separate raccoons. Do not use a transformation cut. Do not cut from Riko to Moku in a way that could imply Riko transformed into the second raccoon.\nUse playful cinematic heist-style orchestral music with light plucked strings and soft percussion. Begin with quiet suspense as Riko watches the basket. Increase the rhythm slightly during his low sprint and climb. Reduce the music during his careful tabletop approach. Use one clear metallic CLINK when the spoon lightly touches the ceramic plate, followed by an immediate brief musical stop and near silence while Riko freezes. Resume the quiet heist rhythm when he continues. Add soft wicker creaks while Riko opens the basket lid. Reduce the music again when the sandwich unexpectedly stops moving. Use one small suspense cue as Moku’s paws appear. At the full Moku reveal, use one tiny surprised orchestral note rather than a loud sting. Let the final awkward stare play almost silently. Add soft sandwich bite audio, then one gentle wicker THUMP as Riko closes the lid. Cut to black.",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-bugs-vs-wick",
+    "category": "提示词",
+    "title": "图书馆里兔八哥对上约翰·维克：旁人看书，他们在开战",
+    "body": "红地板图书馆，书架整排。高瘦灰兔咧嘴笑，黑西装男人冷着脸。旁人照样翻书。兔子能拉橡筋、变道具；维克只准越打越烦、绝不后退。二十五秒里，卡通物理对上现实枪法，两边都写着「从没输过」。\n\nTechieSA（@TechieBySA）用 GPT Image 2.5 锁双人设定图，再用 Seedance 2.5 出片，五百多赞、近一百八十收藏。巧思是「旁人完全不在乎」——冲突再大，阅读区必须安静。做内容时可以把「一个世界两套物理」单独拆成教程：先写谁能犯规，再写谁必须守规矩，观众一眼就懂笑点从哪来。下次想换角色，也只要改设定图，规则段可以原样留下。\n旁人若抬头围观，整段就从反差喜剧掉成打戏。\n\n所以呢：跨宇宙对决先锁「谁可以犯规」，别两边一起飞。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/TechieBySA/status/2110693750205010024"
+      },
+      {
+        "label": "完整视频提示词",
+        "url": "https://x.com/TechieBySA/status/2110693769230024990"
+      },
+      {
+        "label": "角色设定提示词",
+        "url": "https://x.com/TechieBySA/status/2110693762649252105"
+      }
+    ],
+    "prompt": "Cinematic anime clip, 25 seconds. Modern library — red floor, brown bookshelves packed with colorful books, reading tables with people sitting quietly completely unbothered throughout.\nMAIN CHARACTER 1 — TALL SLIM ANTHROPOMORPHIC GREY RABBIT: Use uploaded character sheet. White eyes small black pupils, wide grin, long ears, white gloves. Cartoon physics — stretching, snapping back, pulling items from nowhere. Always one step ahead.\nMAIN CHARACTER 2 — LEAN ATHLETIC MALE IN BLACK SUIT BLACK TIE: Use uploaded character sheet. Cold and precise. Increasingly frustrated. Never backing down.\nAUDIO: Orchestral score mixed with cartoon sound effects. Bullets sparking. Book slam hard. Punches BOING. Frying pan CLANG. Building relentlessly.\n0:00–0:02 — Wide from above. Main character 2 firing rapidly. Main character 1 pulling enormous frying pan from nowhere deflecting every bullet sparks flying — eating carrot with the other hand casually. 0:02–0:04 — Wide from the side. Main character 2 charging. Main character 1 grabbing rolling library ladder swinging it directly into him mid charge — launching into bookshelf. Avalanche of books burying him. People at tables unbothered. 0:04–0:06 — Low angle from floor. Main character 2 emerging from books. Main character 1 handing him a book — close up on cover HOW TO CATCH A RABBIT. Main character 1 slamming it shut directly on his face. Enormous CLAP. Stumbling into another shelf. 0:06–0:09 — Wide from the side. Both advancing simultaneously. Main character 2 throwing fastest combination — main character 1's face stretching around every punch snapping back grinning. Main character 1 firing back rapid cartoon punches — main character 2 actually staggering. Both trading hits. Books flying off shelves. 0:09–0:11 — Low angle from floor. Main character 1 winding back biggest punch of the video — connecting directly. Enormous BOING. Main character 2 launching down the entire aisle. Wide from above — sliding along red floor tie flapping stopping at the far end. People completely unbothered. 0:11–0:13 — Main character 2 charging back immediately. Main character 1 pulling tiny ACME door placing it against bookshelf stepping through closing it. Main character 2 ripping it open — just bookshelf. No rabbit. 0:13–0:14 — Close up on main character 2's face. Absolute limit. Tap on shoulder. Turning around slowly. 0:14–0:16 — Main character 1 behind him frying pan already raised. Connecting directly with his face — enormous CLANG. Dropping flat on red floor instantly. 0:16–0:19 — Wide from above. Main character 2 flat on red floor. Books everywhere. Main character 1 standing over him grinning carrot in hand. People at tables completely unbothered still reading. Main character 1 placing book on his chest. Walking away. Done.\nCel-shaded 3D anime, Unreal Engine quality, modern library red floor brown bookshelves colorful books reading tables people completely unbothered throughout, bold flat color blocking, hard edge shadows, thick black outlines, vibrant saturated colors, film grain, orchestral score mixed with cartoon sound effects sparking slamming BOING CLANG building relentlessly, camera switching every timestamp never same angle twice — wide from above, medium side shots, low angles from floor, close ups on faces and items, behind shots — main character 1 always uploaded sheet grey rabbit cartoon physics stretching snapping items from nowhere always confident, main character 2 always uploaded sheet black suit black tie cold precise increasingly frustrated, relentless from frame one to last frame.",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-bean-hitman-bank",
+    "category": "提示词",
+    "title": "憨豆当顶级杀手：银行大厅里他从不回头，却处处留坑",
+    "body": "大理石银行大厅，高柱铜钟。西装男人步伐从容，从不回头——可他碰过的东西，下一秒都会害人：提箱绊倒、钢笔飞出、铜钟突然敲响。他本人始终平静，像在办日常业务。\n\nTechieSA（@TechieBySA）这条 Seedance 2.5 提示词火到十万浏览、近两百收藏。和「憨豆街头乱战」不同，这条锁的是「冷静破坏」：角色永远不慌，伤害全靠环境连锁。你改成便利店、机场安检也行，只要保留「他不当回事、世界替他爆炸」。拍系列时，换场景不换性格，比每次重写人物省事，粉丝也能一眼认出同一个人设。\n环境道具清单写得越具体，连锁笑点越稳。\n这条能直接做成教程封面：先截成片，再贴约束清单。\n\n所以呢：冷幽默杀手别写他杀谁，先写他路过时什么会倒霉。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/TechieBySA/status/2110746445758296146"
+      },
+      {
+        "label": "完整提示词",
+        "url": "https://x.com/TechieBySA/status/2110746450896290041"
+      }
+    ],
+    "prompt": "Cinematic anime clip, 20 seconds. Grand marble bank lobby — impossibly high ceilings, tall cream marble columns, shiny polished floor, large ornate bronze clock center, warm golden light. Suited men and elegantly dressed women throughout.\nMAIN CHARACTER — Completely calm. Completely smooth. Never rushes. Never looks back. Every sabotage without breaking stride or changing expression.\nAUDIO: Slow smooth jazz throughout never changing pace. Every reaction loud and punchy — CRASH, SPLASH, SQUAWK — jazz always smooth underneath.\n0:00–0:01 — Low angle front tracking backward. Main character entering through main doors. Steady unhurried stride. Briefcase in hand.\n0:01–0:03 — Close up from the side. Main character passing coffee station on left. Right hand reaching out dropping small white pill into tall glass on counter. Never slowing. Never looking. — Low angle front tracking backward. Already two steps past. Left background — suited man lifting glass, one sip, eyes going wide, body stiffening, face-planting onto counter. Glass still in hand.\n0:03–0:06 — Low angle front tracking backward. Main character approaching marble desk on right. Elegantly dressed secretary mid-conversation with client. — Close up from the side. Main character reaching into pocket pulling out small screwdriver. Crouching slightly without stopping. Three clean turns on rear chair leg screw. Screwdriver back in pocket. Walking. — Low angle front tracking backward. Already past.\n0:06–0:09 — Low angle front tracking backward. Main character approaching elevator bank on left. — Close up from the side. Reaching into briefcase. Pulling out banana peel. Placing it flat directly in front of left elevator door. Walking past. — Low angle front tracking backward. Already past. Left background — elevator doors opening, suited man striding out confidently, foot hitting peel, both legs shooting forward, briefcase launching upward.\n0:09–0:12 — Low angle front tracking backward. Main character approaching glass-walled meeting room on right. Four executives mid-presentation inside. Door slightly ajar. — Close up from the side. Briefcase clasp opening one inch. Pigeon visible inside. Angling toward door gap. Pigeon launching through. — Low angle front tracking backward.\n0:12–0:15 — Low angle front tracking backward. Main character approaching refreshments table on left. Elegantly dressed woman in white blazer reaching for sparkling water bottle. — Close up from the side. Left hand gripping bottle. Three firm shakes. Placing back perfectly. Hand returning to briefcase. — Low angle front tracking backward. Already past. Left background — woman twisting cap, bottle exploding into her face at full force. Completely drenched. Both arms out. Standing still.\n0:15–0:18 — Low angle front tracking backward. Main character passing long workstation row on right. Suited workers at screens. Left hand dropping, fingers finding single ethernet cable along baseboard, pulling clean from wall socket without looking. Walking on. — Low angle front tracking backward. Still walking. Right background — every screen in the entire row going black simultaneously. Three workers jumping to feet. One grabbing phone. One going under desk. One standing staring with both hands on head.\n0:18–0:20 — Low angle front tracking backward. Main character reaching far exit doors. Pushing through with one hand without slowing. Doors swinging shut. Grand marble lobby full of chaos visible through closing glass doors. Never looked back once.\nCel-shaded 3D anime, Unreal Engine quality, grand marble bank lobby impossibly high ceilings tall cream columns shiny polished floor ornate bronze clock warm golden light throughout, bold flat color blocking, hard edge shadows, thick black outlines, vibrant saturated colors, film grain, slow smooth jazz never changing pace every reaction loud CRASH SPLASH SQUAWK, camera predominantly low angle front tracking backward switching to close up from the side only during each sabotage act.”",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-niagara-barrel",
+    "category": "提示词",
+    "title": "游客手机怼尼亚加拉：岛上橘桶滚下瀑布，猫先浮上来",
+    "body": "观景栏杆湿漉漉，游客举着安卓手机乱变焦。对岸悬崖边有人烧烤、有充气泳池，还有一只刷着 AIVOXY 的亮橘木桶。姜猫钻进桶里，男人比个赞，女人盖上盖——桶滚进急流，坠下瀑布。人群尖叫。三十秒后，游船旁桶冒出来，猫先跳上船，男人还咬着汉堡。\n\nAivoxy（@aivoxyy）把首帧写成「游客普通抓拍」，视频提示词按秒写变焦、印地语惊呼、桶落轨迹。巧思不是特技，是「故意要脏」：数码变焦糊、水雾糊镜头、自动对焦乱跳。普通人做同款，先锁一部「会出丑的手机」，再写奇迹，观众才肯把奇迹当真。干净得像广告片，反而没人信。\n奇迹落地那一秒，也要留下手机抖动手感。\n\n所以呢：奇迹镜头先伪装成路人乱拍，观众才肯信。",
+    "links": [
+      {
+        "label": "X 原帖含完整提示词",
+        "url": "https://x.com/aivoxyy/status/2110749163759812612"
+      }
+    ],
+    "prompt": "This Seedance 2.5 AI video is an absolute masterpiece🤩   \n\nFull PROMPT 💕\n\nIMAGE 1 — first frame (9:16 vertical)\nA crowded stone-and-steel viewing railing at Niagara Falls on a bright, misty late morning, the huge horseshoe-shaped falls curving across the whole background so the viewer feels the scale and the roar. In the foreground, a handful of adult tourists lean on the wet railing: a man in a blue rain poncho seen from behind holding up his phone, an Indian auntie in a pink salwar kameez and a white cardigan in profile pointing, a backpack strap and a shoulder cut by the edges. Far across the river, right at the brink of the falls where the water curves over the edge, sits one small rocky island with a few bent trees. On that island, a tiny group of people is barely visible around a small barbecue grill, a thin plume of grey smoke rising into the pale sky, and a small bright orange dot beside them. The people, the orange dot and the smoke are very small and distant, readable only as a few coloured dots and a soft grey thread.\n\nCOMPOSITION:\nShot type: wide, distant\nAngle: eye level from behind the railing crowd, looking across the river at the brink of the falls, horizon tilted a few degrees\nPlacement: tourists filling the lower third and the left edge, the falls across the middle, the smoking island in the upper right third at the lip of the falls, white mist rising from the basin\nLook-room: right\nForeground: mild occlusion, a blurred poncho hood and a raised phone at the bottom left edge\nCrop: handheld, slightly imperfect\n\nCAMERA PACK:\nBody: ordinary mid-range Android phone, held vertically at eye level over the heads of the crowd\nLens / zoom: 3x digital zoom from the main lens, the glass speckled with mist droplets\nMode: normal photo mode, auto exposure set for the bright sky\nFocus: the far island and the falls lip reasonably sharp, nearest tourists a little soft\nSensor: small-sensor phone texture, heavy processing from the digital zoom, JPEG compression\n\nLIGHT:\nSource: hazy midday sun through the rising spray\nQuality: soft, low contrast, mist layering the far edge of the falls\nColor temperature: neutral daylight, slightly blue-grey in the spray, green-white water\n\nPHOTOGRAPHIC CHARACTER:\nFabric creases and droplets on the ponchos and cardigan. Grain matching the camera pack. Candid stance, catalog-unaware. Sky and mist clipped to plain white, wet rock blocked up and noisy. Smeary watercolor detail from the digital zoom on the far island, the tiny people and the smoke. Crunchy sharpening halos along the railing, blocky compression in the falling water. Slight softness from the raised, shaky grip. Plain, slightly green-shifted colour straight out of the phone, an ordinary snapshot by a tourist.\n\n-------------------------------------------------\nSEEDANCE 2.5 PROMPT — 30s\n\n[STYLE + CAMERA + ATMOSPHERE]\nReal amateur phone video, one continuous 30-second take with no cuts, filmed by a tourist at the crowded Niagara Falls railing. Handheld vertical phone, shaky grip, restless digital zoom that keeps pushing in and pulling back, smeary detail, compression, autofocus hunting, mist droplets on the lens. Hazy bright daylight, roaring white water.\n\n[IMAGE REFERENCES]\n@Image 3 is the first frame: the video starts exactly on it.\n@Image 2 provides the redneck man's face, build, long hair, beard, black hoodie, jeans and boots.\n@Image 1 provides the woman's face, build and long wavy hair.\n\n[TIMELINE]\n0-1s: Exactly @Image 3. Tourists murmur and point at the smoke on the tiny island at the brink of the falls. An Indian auntie says in Hindi: {Arre, wahan koi khana bana raha hai?}\n\n1-4s: [Crash digital zoom to medium] The phone zooms hard across the river and settles on the island, grainy and soft. Clearly visible: a barbecue grill with burgers and corn, a white plastic table with a cooler and paper plates, a big loudspeaker, a small camping tent, an inflatable kiddie pool with the woman sitting in it in sunglasses, and a big wooden barrel painted bright orange with the word \"AIVOXY\" on its side, lying on the rock near the edge.\n\n4-9s: [Second push-in, tight] The man flips a burger, cracks open a tall orange energy drink can, walks to the kiddie pool and hands her one. They tap cans and both take a long sip. Water thunders over the edge right behind them.\n\n9-11s: [Zoom out to medium] The phone pulls back to reframe the whole island and the lip of the falls.\n\n11-15s: [Pan to the barrel, slow push-in] A ginger cat walks out of the tent, hops into the open barrel, pokes its head out over the rim and meows at the man. The zoom creeps in on the cat.\n\n15-20s: [Ease out to medium] The man puts a burger in his teeth, climbs into the barrel beside the cat and gives a thumbs up. The woman gets out of the pool, presses the round lid down onto the barrel and taps it twice. A tourist in English: {No. No way. No way!}\n\n20-23s: [Quick half zoom out, chasing it] She rolls the barrel off the rock into the current. It spins once and tips over the brink. The crowd gasps and screams.\n\n23-28s: [Long fall, jerky zoom out in steps] The orange barrel drops down the full height of the falls, tumbling in the white water, a tiny orange dot shrinking against the curtain of water, and vanishes into the mist at the bottom. The phone fumbles out step by step. Nothing comes back up. The screaming gets louder. The auntie covers her mouth: {Hai Bhagwan!}\n\n28-30s: [Medium zoom on the basin] Next to a small tour boat full of tourists in blue ponchos, the orange barrel bobs up out of the mist. The lid pops off. The cat leaps out onto the boat first, then the man stands up, still holding the burger, completely dry, and takes a bite. The crowd erupts in cheers, laughter and applause, phones raised. On the island, the woman calmly sips her drink in the pool.\n\n[AUDIO]\nTourists chattering in English and Hindi, gasps, rising screams during the fall and relieved cheers close to the phone, constant roar of the falls, wind. Country rock plays from the loudspeaker on the island, distant and tinny, louder while zoomed in. A small meow. No subtitles.\n\n[STYLE & QUALITY BOOSTERS]\nPhotorealistic phone footage, real digital zoom artifacts, coherent water physics, real weight in the barrel's fall, the same two people, one cat and one orange AIVOXY barrel throughout, stable identities, natural motion blur.",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-peaky-blinders-fight",
+    "category": "提示词",
+    "title": "皮基盲人街斗：剃须刀、铁链、三枪，按秒写死还不换脸",
+    "body": "一九二〇年代伯明翰小巷，煤气灯，雾贴地。扁帽男人嘴里叼着烟，从帽檐抽出剃须刀，四秒抓铁链，十二秒连开三枪，十九秒扔掉烟走进雾里——整段像一集《浴血黑帮》预告，人却始终是同一个人。\n\nTechieSA（@TechieBySA）在 Higgsfield 上用 Seedance 2.5 跑通，二百多赞、百余收藏。有人复盘说关键是「秒表分镜、固定角色描述、同一招不重复」。做同人短片时，别堆形容词，把开头几秒写成可核对的动作清单，失败了也知道哪一秒塌了。下次重跑，只改塌掉的那一段，额度才花得值。\n同一招不许重复，比堆血腥形容词更重要。\n这条能直接做成教程封面：先截成片，再贴约束清单。\n\n所以呢：动作同人先写秒表，再写「这张脸不许漂」。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/TechieBySA/status/2110420850453156086"
+      },
+      {
+        "label": "完整提示词",
+        "url": "https://x.com/TechieBySA/status/2110420856342036778"
+      },
+      {
+        "label": "秒表写法复盘",
+        "url": "https://x.com/Skylar_/status/2110533111562002843"
+      }
+    ],
+    "prompt": "Cinematic anime clip, 20 seconds. 1920s Birmingham back streets — overcast grey sky, cobblestone streets, brick walls, gas lamps flickering, fog drifting low.\nMAIN CHARACTER — LEAN ATHLETIC MALE IN DARK GREY FLAT CAP, LONG DARK NAVY OVERCOAT, DARK GREY THREE PIECE SUIT: Use uploaded character sheet. Cigarette always in mouth. Cold, calculated, always moving forward. Removes flat cap to use razor blade — blade catching grey light every time. Pulls pistol once, three precise shots, puts it away. Never same move twice.\nENEMIES: Rival gang members — dark working class 1920s clothing, caps. Fists, chains, wooden bats. Always distinct from main character's tailored navy overcoat.\n0:00–0:02 — Low angle from cobblestones. Main character walking forward — first rival swinging from the left. Flat cap removed, razor blade catching grey light, slashing across man's face mid swing. Dropping. Cap replaced without breaking stride. 0:02–0:04 — Wide from above. Two rivals charging from both sides — main character stepping between them, both colliding. Elbow into first man's neck. Knee into second man's stomach. Both dropping. 0:04–0:06 — Medium from the side. Third rival swinging chain — main character catching it, yanking hard, rival off balance, forehead driven into his face. Dropping. Chain kept. Still smoking. 0:06–0:08 — Low angle from cobblestones. Two rivals closing from narrow alley. Flat cap removed again — razor blade slashing through first man's jacket. Second rival grabbing overcoat — spun hard into brick wall. Sliding down. 0:08–0:10 — Wide from the side. Main character straightening tie mid fight. Fourth rival charging with wooden bat — sidestepped, bat ripped free, driven across the man's jaw. Dropping. Long drag of cigarette. 0:10–0:12 — Medium from behind. Three rivals appearing from the fog. Main character reaching slowly into overcoat pulling out pistol smoothly. Not rushing. One final drag. 0:12–0:14 — Wide from the side. Three precise shots — first dropping, second dropping, third diving behind a cart. Shot hitting the cart. Rival running. Pistol away. Still walking forward. 0:14–0:16 — Close up from the side. Two rivals ambushing from a doorway. Shoulder driving into the first slamming him into the doorframe. Second grabbing from behind in chokehold — weight dropped, spinning out, elbow into ribs. Both dropping. 0:16–0:18 — Wide from the side. Final massive rival charging from the far end. Flat cap removed one final time. Razor blade glinting. Both closing. Main character sidestepping — razor blade slashing across the man's chest. Man crashing into a gas lamp. Dropping hard. 0:18–0:19 — Medium from the side. Main character alone. Fog. Gas lamps flickering. Final drag of cigarette. Dropping it. Stepping on it. Hands in pockets. Walking into the fog. 0:19–0:20 — Wide from above. Fog. Gas lamps. Fallen rivals on cobblestones. Main character walking away alone. Done.\nCel-shaded 3D anime, Unreal Engine quality, 1920s Birmingham back streets overcast grey sky cobblestones brick walls gas lamps fog throughout, bold flat color blocking, hard edge shadows, thick black outlines, vibrant saturated colors, film grain, intense orchestral score never dropping razor blade sharp impacts hard pistol shots crisp building relentlessly, camera switching every timestamp never same angle twice — low angles, wide from above, medium side shots, close ups on face razor blade and pistol, behind shots — main character always uploaded sheet flat cap navy overcoat cigarette always in mouth cold calculated always moving forward, enemies always distinct dark 1920s clothing each taken out differently, relentless from frame one to 19 seconds wide shot 19-20.",
+    "date": "2026-10-14",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-hermit-tuck-shell",
+    "category": "提示词",
+    "title": "寄居蟹换壳三连败：茶杯太大、铁罐太沉、玻璃罐太透",
+    "body": "浅礁白沙上，八厘米高的红壳蟹 Tuck 挤出旧壳。它先后倒退钻进青花茶杯、生锈铁罐、侧躺玻璃罐——太大、太沉、太尴尬（鱼群盯着它的肚皮）。它泄气趴着，一道珠光闪过：身后船骸下有只刚好合身的珍珠螺。它倒退钻进去，背上壳走过空罐子，举手喊刚好合身。\n\nBored2AI 放出两万多字主提示词：尺寸锁、倒退入壳、五次硬切时间码、失败必须一眼可读。这是「提示词当分镜圣经」的极端样本。做家庭向短片时，别整段粘贴——先偷它的三连失败公式：太大、太沉、太尴尬，再换你家角色，结尾才会甜得住。小朋友也跟得上节奏，大人看得懂工艺。\n倒退入壳写清楚，角色才像真的寄居蟹。\n\n所以呢：儿童喜剧先写三次失败各一个原因，成功才会甜。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/Bored2AI/status/2110757419223744722"
+      },
+      {
+        "label": "完整主提示词",
+        "url": "https://x.com/Bored2AI/status/2110757427813724475"
+      }
+    ],
+    "prompt": "SEEDANCE 2.5 — FINAL MASTER PROMPT\nSCENE CONTEXT\nIn Glimmer Reef, Tuck — a small stylized hermit crab who has outgrown his old shell — searches the spilled cargo of a sunken rowboat for a new home.\nHe tries three human objects as shells.\nEvery try fails in a different way.\nTOO BIG.\nTOO HEAVY.\nSEE-THROUGH.\nDefeated, he loses hope.\nThen a glint leads him to a beautiful pearl shell, hidden at the back of the reef behind the sunken boat.\nIt is EXACTLY his size.\nHe backs into its opening TAIL-FIRST, WEARS it on his back,\nwalks happily past the empty glass jar that once embarrassed him,\nand celebrates: \"Perfect fit!\"\n34 seconds total.\n16:9 widescreen.\nBright animated-feature underwater daylight.\nFast comedy timing.\nLarge readable expressions.\nStrong physical weight.\nTender emotional final beat.\n==================================================\nACTIVE REFERENCES\n==================================================\n[\n@tuck\n]\nCHARACTER SHEET — LOADED SECOND.\nSTRICTLY MATCH THE TUCK CHARACTER SHEET.\nTuck is a young adult stylized 3D animated hermit crab, approximately 8 cm tall.\nCHARACTER COLOR LOCK:\n• bright coral-red / tomato-red glossy body plating\n• deep red claws\n• one slightly bigger right claw\n• soft cream / peach belly\n• soft cream / peach curly tail\n• orange-red walking legs with dark maroon tips\n• two big round eyes on tall eye-stalks\n• large white sclera\n• bright teal irises\n• dark pupils\n• strong animated-film eye catchlights\n• dark maroon brow bumps\n• flexible expressive mouth\nPERSONALITY:\nDramatic.\nPicky.\nHopeful.\nFashion-conscious.\nLovable.\nEasily embarrassed.\n100% MATCH THE REFERENCE.\nNO character redesign.\nNO morphing.\nNO proportion drift.\nNO color drift.\nNO realistic crab.\nNO scary crab.\nNO extra limbs.\n[\n@reef\n]\nLOCATION SHEET — LOADED FIRST.\nSTRICTLY MATCH THE GLIMMER REEF ART DIRECTION.\nGlimmer Reef is a shallow, sunlit lagoon reef in a polished Disney-inspired animated-feature environment style.\nGEOGRAPHY:\n• bright white sandy reef floor\n• one small wooden rowboat sunk on its side\n• THE JUNK PILE — spilled cargo beside the boat\n• THE SAND SLOPE — gentle sandy hill ending at a plump orange sea cucumber\n• THE HIDDEN SPOT — behind the sunken boat, kelp curtains, one thin sun shaft\n• pink, orange and purple coral heads\n• swaying green kelp and one kelp arch\n• anemone clusters\n• small schools of colorful fish\n• deep blue drop-off in the distance\n• shimmering water surface above\n• sun rays streaming down\n• dancing caustic light on sand and objects\nENVIRONMENT STYLE:\nWhimsical premium animated-feature environment.\nRounded appealing coral shapes.\nSaturated turquoise water.\nWarm white sand.\nSoft atmospheric blue depth.\nGlowing sun shafts.\nBeautiful painterly color separation.\nDo NOT make the location look like live-action photography.\nDo NOT turn it into documentary realism.\nSTYLE REFERENCE ONLY.\nExtend the environment naturally.\n==================================================\nLOCATION MAP\n==================================================\nFOREGROUND:\nWhite rippled sand.\nTiny pebbles.\nSmall broken shell fragments.\nSea grass tufts.\nSmall coral pieces.\nMIDGROUND:\nTHE JUNK PILE beside the sunken rowboat:\n1. PORCELAIN TEACUP — lying on its side\n2. OLD TIN CAN — lying on its side, open end facing out\n3. CLEAR GLASS JAR — LYING ON ITS SIDE, open mouth facing out, flat on the sand\nTHE SAND SLOPE to one side, with the sea cucumber at the bottom.\nBACKGROUND:\nTHE HIDDEN SPOT behind the sunken boat.\nKelp curtains.\nOne thin sun shaft.\nCoral walls.\nFish schools.\nDeep blue distance.\nWATER HAZE:\nApproximately 15% near Tuck,\nincreasing toward approximately 40% in the far distance.\nCAMERA WORLD RULE:\nMiniature macro-scale world.\nCamera usually operates at crab-eye height, a few centimeters above the sand.\nThe audience must always feel how TINY Tuck is next to the objects.\nUse the full 16:9 width to show the reef around him.\n==================================================\nSCALE LOCK — CRITICAL\n==================================================\nTuck:\napproximately 8 cm tall.\nOLD CRACKED SHELL:\nclearly too small — barely covers his tail.\nPORCELAIN TEACUP:\napproximately twice Tuck's size.\nTIN CAN:\napproximately the same size as Tuck, visibly heavy.\nGLASS JAR:\nsnug, perfect size for Tuck.\nPEARL SHELL:\napproximately the size of Tuck's BODY.\nSlightly larger than the old cracked shell.\nMuch smaller than the teacup.\nNEVER bigger than Tuck.\nNEVER a giant backdrop behind him.\nWhen worn, it covers only his tail and back half.\nHis head, eye-stalks, claws and front walking legs stay OUTSIDE the opening.\nSEA CUCUMBER:\napproximately three times Tuck's length.\nPEARL SHELL SIZE NEVER CHANGES between shots.\n==================================================\nSHELL OPTIONS DESIGN — CRITICAL\n==================================================\nEvery shell option is a HOLLOW object with a visible open end.\nTuck always backs in TAIL-FIRST, like a real hermit crab.\nOLD CRACKED SHELL:\n• small tan spiral shell\n• big visible crack\n• too small\nPORCELAIN TEACUP:\n• white porcelain\n• blue floral pattern\n• thin gold rim\n• chipped edge\nTIN CAN:\n• old metal can\n• slightly rusty\n• faded red and green label\n• open at one end\nGLASS JAR:\n• small clear glass jar\n• LYING ON ITS SIDE on the sand the whole time\n• open mouth facing sideways toward Tuck, no lid\n• fully transparent\n• Tuck's body clearly visible through the glass\n• NEVER standing upright\nPEARL SHELL — THE HERO:\n• elegant spiral turban shell\n• Tuck-sized — the size of his body\n• smooth glossy mother-of-pearl surface\n• iridescent rainbow sheen: soft pink, lavender, aqua, gold\n• bright specular highlights\n• tiny sparkle glints\n• resting loosely on top of the sand\n• its big round OPENING with a smooth flared lip faces the CAMERA\n• the dark hollow inside the opening is clearly visible\n• the spiral side is solid — nothing enters the spiral side\nThe most beautiful object in the whole video.\nMATCH THE PEARL SHELL COLORS ON THE LOCATION SHEET.\n==================================================\nSHELL ENTRY / EXIT MECHANICS — CRITICAL\n==================================================\nNO TELEPORTING.\nNO position jumps.\nNO cuts during an entry or an exit.\nEvery time Tuck goes INTO or OUT OF an object, it is shown as ONE continuous on-screen action.\nENTERING (every shell):\n1. Tuck walks up to the opening.\n2. He turns around so his tail faces the opening.\n3. He backs in step by step, TAIL-FIRST.\n4. His curly tail disappears into the opening first.\n5. Then his back half slides in.\n6. His legs grip the rim as he settles.\n7. His head, claws and eye-stalks stay at the opening, looking out.\nEXITING (every shell):\n1. Tuck pulls himself forward with his front legs and claws.\n2. His body slides out through the SAME opening.\n3. His curly tail slips out last.\n4. The object stays exactly where it was.\nPEARL SHELL ENTRY:\nCamera faces the shell's opening.\nTuck stands IN FRONT of the opening, FACING THE CAMERA.\nHe walks BACKWARD into it — tail first — keeping his face toward the camera.\nThe lip of the opening frames his body as he sinks in.\nHead and claws NEVER go into the opening.\nWEARING (pearl shell only):\nThe shell sits ON HIS BACK.\nHis tail is coiled inside the spiral.\nWhen he stands up, the shell LIFTS OFF THE SAND with him.\nWhen he walks, the shell RIDES ON HIS BACK and moves with every step.\nHe is NOT sitting in front of the shell.\nHe is NOT standing next to the shell.\nHe is INSIDE it, carrying it.\n==================================================\nPROP CONTINUITY\n==================================================\nObjects NEVER reset.\nObjects NEVER disappear.\nEvery object stays where Tuck left it.\nAFTER TRY 1:\nTeacup remains tipped over on the sand.\nAFTER TRY 2:\nTin can remains at the bottom of the sand slope, against the sea cucumber.\nAFTER TRY 3:\nGlass jar remains lying on its side on the sand beside Tuck.\nTUCK CONTINUITY:\nTuck gets progressively messier.\nSTART:\nclean, glossy, no sand.\nAFTER TRY 1:\nlight dusting of sand on his back.\nAFTER TRY 2:\nmore sand, one small strand of green seaweed draped over one eye-stalk.\nAFTER TRY 3:\nseaweed strand still there until the final reveal.\nFINAL:\nTuck shakes the seaweed off as he scuttles to the pearl shell.\n==================================================\nFIRST FRAME / BLOCKING\n==================================================\nNON-EMPTY OPENING FRAME.\n16:9 WIDESCREEN FRAME.\nTuck is ALREADY SQUEEZING OUT of his tiny cracked old shell.\nPlace Tuck in the lower-left third.\nLow macro angle at sand level.\nLegs pushing.\nEye-stalks straining.\nCheeks puffed.\nThe old shell is clearly far too small.\nThe junk pile and sunken rowboat visible in the right two-thirds of frame.\nTeacup, tin can and glass jar readable in the pile — all lying on their sides.\nSun rays streaming down.\nCaustics dancing on the sand.\nRULE OF THIRDS:\nTuck = left.\nJunk pile = right.\nNothing frozen.\n==================================================\nFORMAT MODE\n==================================================\nASPECT RATIO:\n16:9 LANDSCAPE.\nTIMED MULTISHOT.\nEXACTLY FIVE HARD CUTS.\nCUT 1:\n0:06.0\nCUT 2:\n0:12.0\nCUT 3:\n0:18.0\nCUT 4:\n0:23.0\nCUT 5:\n0:25.5\nNO OTHER CUTS.\n==================================================\nOPTICS\n==================================================\nSHOT 1 — OLD SHELL + TEACUP\n0:00–0:06.0\nStart:\n70° FOV.\nEase toward:\n50° FOV during the teacup spin.\nNo random focal changes.\nSHOT 2 — TIN CAN\n0:06.0–0:12.0\n63° FOV for the tin can lift.\nHold during the roll.\nPush toward:\n47° FOV at the sea cucumber impact.\nSHOT 3 — GLASS JAR\n0:12.0–0:18.0\n50° FOV, side-on to the jar so the open mouth AND Tuck are both visible.\nPush toward:\n35° FOV for the embarrassment.\nSHOT 4 — HOPELESS\n0:18.0–0:23.0\n47° FOV for the exit from the jar.\n35° FOV for the hopeless beat.\n29° FOV for the glint and turn.\nSHOT 5 — THE PEARL SHELL\n0:23.0–0:25.5\n47° FOV, facing the shell's opening.\nHold for the whole entry. No zoom.\nSHOT 6 — PERFECT FIT\n0:25.5–0:33.5\n40° FOV tracking the walk.\n35° FOV for the jar tap.\n29° FOV for the final pose.\nRectilinear cinematic macro-prime lens character.\n180-degree shutter motion blur.\nShallow depth of field for close-ups.\nDeeper focus for the reveal.\n==================================================\nCAMERA\n==================================================\nSHOT 1:\nCamera moves immediately from frame one.\nLow macro dolly at sand level beside Tuck.\nMatch Tuck's scuttling speed.\nAs the teacup tips:\ncamera circles around the spinning cup,\nkeeps Tuck's dizzy face readable inside it.\nSHOT 2:\nCamera low beside Tuck while he strains under the tin can.\nWhen the can tips:\ncamera tracks alongside the can as it rolls down the sand slope.\nSand trail visible.\nEnd low and close on the sea cucumber impact.\nSHOT 3:\nCamera low and SIDE-ON to the jar lying on its side.\nHold so the full backing-in action is visible in one continuous move.\nSlow push-in for the proud pose.\nSmall reveal of the fish school staring.\nPush close for the embarrassment.\nSHOT 4:\nCamera stays side-on as Tuck crawls OUT of the jar mouth.\nThen slowly drifts and settles low in front of Tuck.\nQuiet.\nAlmost still.\nGentle slow push-in as the glint crosses his face.\nHold as he slowly turns to look behind him.\nSHOT 5:\nLow at sand level, FACING the pearl shell's opening.\nBehind the sunken boat, under one thin sun shaft.\nShell centered, opening toward camera.\nSTEADY. No orbit. Very slow gentle push only.\nThe whole entry is visible from start to finish.\nSHOT 6:\nLow tracking dolly beside Tuck, 3/4 front angle.\nShell on his back AND his face both visible.\nPasses the empty glass jar.\nSettles into a low front hero framing, Tuck centered.\nCAMERA NEVER LOCKED OFF — except the steady hold during the pearl shell entry.\n==================================================\nACTION\n==================================================\nSHOT 1 — OLD SHELL + TEACUP\n0.0s–1.2s\nTuck squeezes out of his tiny cracked old shell.\nLegs pushing.\nCheeks puffed.\nPOP.\nThe old shell tumbles away across the sand.\n1.2s–2.0s\nTuck quickly covers his soft belly with both claws.\nEmbarrassed glance left and right.\n2.0s–3.2s\nHe scuttles fast across the sand toward the junk pile.\nEyes locked on the PORCELAIN TEACUP.\n3.2s–4.0s\nTRY 1.\nHe turns around and backs into the teacup TAIL-FIRST.\nProud little nod.\n4.0s–6.0s\nTOO BIG.\nThe teacup wobbles.\nTips over.\nSpins on the sand like a fairground ride with Tuck inside.\nSand puffs outward.\nThe spin slows.\nTuck's eyes become dizzy spirals.\nEye-stalks wobble.\n6.0s\nHARD CUT.\nSHOT 2 — TIN CAN\n6.0s–7.2s\nTuck staggers out of the tipped teacup, still dizzy.\nShakes off sand.\nLight sand dusting remains on his back.\nEyes narrow with determination.\nHe locks onto the TIN CAN.\n7.2s–8.4s\nTRY 2.\nHe turns around and backs into the tin can TAIL-FIRST.\nIt fits.\nHe tries to lift it.\nLegs shake.\nClaws strain.\nFace scrunched — the STRAINING pose.\n8.4s–9.0s\nThe can lifts only a few centimeters.\nWobbles.\nTips sideways onto the sand slope.\nTuck's eyes widen.\n9.0s–10.8s\nThe can rolls DOWN THE SLOPE with Tuck inside.\nHis legs flail out the open end.\nSand sprays.\n10.8s–12.0s\nBONK.\nThe can hits the sea cucumber.\nThe sea cucumber squishes and bounces it back.\nThe can stops.\nTuck's eye-stalks poke out, dazed.\nOne strand of green seaweed now drapes over one eye-stalk.\n12.0s\nHARD CUT.\nSHOT 3 — GLASS JAR\n12.0s–12.8s\nTuck walks up to the GLASS JAR lying on its side.\nIts open mouth faces him.\nSandy.\nSeaweed still on his eye-stalk.\nHis eyes widen with fresh hope.\n12.8s–14.4s\nTRY 3.\nONE CONTINUOUS ACTION, NO JUMP:\nHe turns around.\nBacks up to the jar mouth.\nHis curly tail slides in first.\nThen his body slides in, step by step.\nLegs grip the glass rim.\nHe settles in.\nHis head and claws rest at the open mouth, looking out.\nPERFECT SNUG FIT.\n14.4s–15.4s\nSunlight hits the glass.\nCaustics sparkle across it.\nTuck puffs his chest and raises his claws proudly.\nBig smile.\n15.4s–16.4s\nA school of tiny colorful fish stops right in front of him.\nThey STARE.\nTuck looks DOWN.\nHe sees his whole soft body fully visible through the glass.\n16.4s–18.0s\nHe blushes.\nCovers his eyes with both claws — the HIDING pose.\nHe stays inside the jar.\nThe fish swim away.\n18.0s\nHARD CUT.\nSHOT 4 — HOPELESS\n18.0s–19.6s\nTuck is still inside the jar, blushing.\nONE CONTINUOUS ACTION, NO JUMP:\nHe pulls himself forward with his claws and front legs.\nHis body slides out through the jar mouth.\nHis curly tail slips out last.\nThe jar stays lying on its side.\n19.6s–21.2s\nHOPELESS.\nTuck slumps onto the sand beside the jar.\nNo shell.\nEye-stalks droop low.\nEyes half-lidded and teary.\nSmall frown.\nOne small sigh.\nA single bubble rises.\n21.2s–22.0s\nA soft rainbow GLINT flickers across the sand.\nIt crosses his face.\nHe barely notices.\n22.0s–23.0s\nThe glint flickers again.\nHe slowly turns to look behind him.\nHis eyes widen slightly.\n23.0s\nHARD CUT.\nSHOT 5 — THE PEARL SHELL\n23.0s–23.6s\nREVEAL.\nBehind the sunken rowboat,\none thin sun shaft breaks through the kelp curtains\nand lands on the PEARL SHELL,\na small Tuck-sized spiral shell resting on white sand,\nits big opening facing the camera,\nshimmering pink, lavender, aqua and gold.\n23.6s–24.2s\nTuck scuttles into frame.\nStops RIGHT IN FRONT of the opening.\nFACING THE CAMERA.\nHis back end points at the opening.\nBig wide hopeful eyes.\n24.2s–25.5s\nONE CONTINUOUS ACTION, NO JUMP:\nHe walks BACKWARD into the opening.\nHis curly cream tail goes in FIRST.\nThen his back half slides in.\nHe keeps facing the camera.\nThe lip of the opening frames his body as he sinks in.\n25.5s\nHARD CUT.\nSHOT 6 — PERFECT FIT\n25.5s–28.0s\nTuck walks happily across the white sand WEARING the pearl shell.\nBig wide eyes.\nBig open smile.\nClaws swinging.\nThe shell bobs on his back with every step.\nA few small colorful fish swim alongside him.\n28.0s–29.8s\nHe passes the EMPTY glass jar lying on its side — the one that embarrassed him.\nHe gives the glass a cheeky little TAP with his claw.\n\"Not you this time.\"\nKeeps walking.\n29.8s–31.0s\nHe stops.\nTurns to face the camera.\nThe shell catches the sunlight.\n31.0s–33.5s\nHe raises both claws high — the POSING pose from the character sheet.\nBig wide eyes.\nBig open happy smile.\nHe says:\n\"Perfect fit!\"\nQuick cheerful wink.\nAn iridescent rainbow shimmer ripples across the shell.\nTiny bubbles rise around him.\nEND.\n==================================================\nPERFORMANCE\n==================================================\nPremium animated-feature character acting.\nTuck's FACE and EYE-STALKS carry the comedy.\nLarge eyes.\nExpressive brows.\nEye-stalks that droop, wobble, stretch and shoot up.\nEvery failed try follows:\nHOPE\n→ confidence\n→ realization\n→ failure reaction.\nImportant:\nEach failure must be instantly readable:\nTEACUP = too big.\nTIN CAN = too heavy.\nGLASS JAR = see-through.\nHOPELESS BEAT:\nUnderplay it.\nQuiet.\nSincere.\nNo cartoon crying.\nOnly:\ndrooping eye-stalks,\nteary eyes,\none sigh.\nThis sincerity makes the reveal land.\nFINAL BEAT:\nPure, warm joy.\nBig wide eyes — exactly like the \"Happy\" and \"Posing\" pictures on the character sheet.\nHe must clearly be WEARING the shell when he says \"Perfect fit!\"\nThe jar tap is small and cheeky, not mean.\nNo over-the-top celebration.\n==================================================\nSURFACE DETAIL\n==================================================\nGlossy coral-red shell plating with soft specular highlights.\nSoft cream belly with gentle segments.\nWet natural eyes with bright catchlights.\nEye-stalks with subtle flex.\nPEARL SHELL:\nsmooth mother-of-pearl,\nshifting iridescent color as light and angle change,\ncrisp sparkle glints.\nGLASS JAR:\nclean refraction,\nslight distortion of Tuck's body behind the glass,\nbright edge highlights.\nPORCELAIN:\nsmooth glaze,\nsoft reflections.\nTIN CAN:\ndull metal,\nlight rust,\nfaded label.\n==================================================\nPHYSICS\n==================================================\nStylized world.\nBELIEVABLE UNDERWATER PHYSICS.\nMass and inertia carry through:\nscuttling,\nbacking in,\ncrawling out,\nspinning,\nlifting,\nrolling,\nimpacts.\nTuck has real weight.\nLegs compress under load.\nBody dips under the tin can.\nHeavy objects move slower.\nTuck can only enter and exit objects through their OPEN END.\nTuck NEVER passes through glass, metal or porcelain.\nUNDERWATER:\nSlight water drag on fast movements.\nSand puffs rise and slowly settle.\nSmall bubbles rise naturally.\nKelp sways gently.\nFloating particles drift through sun shafts.\nOBJECT PHYSICS:\nTeacup rocks, tips, spins and slowly stops.\nTin can rolls with weight and bounces off the soft sea cucumber.\nSea cucumber squishes softly and recovers.\nGlass jar stays lying on its side, still and solid.\nPearl shell rocks gently as he backs in,\nthen lifts and moves WITH Tuck once worn.\nCONTACT SHADOWS:\nAlways correct.\n==================================================\nLIGHTING\n==================================================\nBright animated-feature midday sun through water.\nSun direction:\nfrom above and slightly behind Tuck.\nStrong rim light along:\neye-stalks,\nclaws,\nshell plating,\nevery shell option.\nWarm light bounce from white sand.\nWB:\napproximately 6000K.\nTurquoise water provides blue ambient fill.\nDancing caustic patterns on sand, objects and Tuck.\nVisible sun shafts with floating particles.\nSHOT 4 — HOPELESS:\nslightly cooler, softer light.\nSHOT 5 — REVEAL:\none thin warm golden sun shaft on the pearl shell.\nSHOT 6 — PERFECT FIT:\nbright, warm, sunny.\nFINAL FRAME:\nwarm light on Tuck's face,\niridescent reflections from the pearl shell on his back onto his body,\nclear catchlights in both eyes.\n==================================================\nCOLOR GRADE\n==================================================\nSTRICTLY FOLLOW REFERENCE COLORS.\nTUCK:\ncoral red,\ndeep red claws,\ncream peach belly and tail,\norange-red legs,\nteal eyes.\nENVIRONMENT:\nturquoise water,\ndeep ocean blue distance,\nwarm white sand,\ncoral pink,\nsea-green kelp,\nsunlight gold.\nPEARL SHELL:\nsoft pink,\nlavender,\naqua,\ngold sheen.\nNo crushed blacks.\nNo muddy colors.\nNo murky green water.\nNo grey documentary look.\nTuck must remain clearly readable against the colorful reef.\n==================================================\nAUDIO\n==================================================\nSound-design-first comedy.\nSoft underwater ambience throughout.\n0.0s–1.2s:\nsqueezing creak.\nCartoon POP.\nOld shell clatters across sand.\n2.0s–3.2s:\nfast tiny leg patters on sand.\n3.2s–4.0s:\nporcelain clink.\n4.0s–6.0s:\nporcelain rattle.\nSpinning whirr.\nLittle dizzy wobble sound.\n6.0s–7.2s:\nwobbly footsteps.\nSand shake.\n7.2s–8.4s:\nmetal scrape.\nTiny straining grunt.\n9.0s–10.8s:\nhollow metal rolling rumble.\nSand hiss.\n10.8s–12.0s:\nsoft squishy BONK.\n12.8s–14.4s:\ntiny leg taps on glass.\nSoft glass slide.\nGlass tink as he settles.\n14.4s–15.4s:\nsmall rising musical victory sting.\n15.4s–16.4s:\nmusic stops.\nTiny awkward silence.\n16.4s:\nsmall embarrassed squeak.\n18.0s–19.6s:\nglass squeak as he crawls out.\n19.6s–21.2s:\nquiet.\nOne small sigh.\nOne bubble.\n21.2s–23.0s:\nsoft magical shimmer chime.\nRepeats once, slightly brighter.\n23.0s–23.6s:\nwarm orchestral swell begins.\nStrings rise.\n23.6s–24.2s:\nfast leg patters.\n24.2s–25.5s:\nsoft shell scrape.\nGentle sliding.\n25.5s–28.0s:\nplayful happy music.\nLittle tapping footsteps.\n28.0s–29.8s:\ntiny glass \"tink\" from the claw tap.\n29.8s–31.0s:\nsoft shimmer.\n31.0s–33.5s:\nTUCK SAYS:\n\"Perfect fit!\"\nHappy and bright.\nTiny wink \"ting\".\nMusic resolves on a bright final note.\nNO SUBTITLES.\n==================================================\nSTYLE\n==================================================\nPremium feature-quality 3D animated family-comedy film.\nDisney-inspired visual language.\nWhimsical stylized proportions.\nAppealing shape design.\nLarge expressive eyes.\nClear readable animation acting.\nStylized but physically believable surfaces.\nSoft subsurface scattering through:\nTuck's belly,\neye-stalks,\nkelp,\ncoral edges.\nSoft global illumination.\nHigh-quality animated-feature shadows.\nControlled clean specular highlights.\nBeautiful underwater atmospheric perspective.\nLush painterly reef.\nBright warm family-comedy color language.\nSincere emotional close-ups.\nNO LIVE ACTION.\nNO REALISTIC NATURE DOCUMENTARY STYLE.\nNO FLAT 2D ANIMATION.\nNO TEXT.\nNO CAPTIONS.\nNO SUBTITLES.\nNO UI.\nNO LOGOS.\nNO WATERMARK.\n==================================================\nOUTPUT SETTINGS\n==================================================\nASPECT RATIO:\n16:9 LANDSCAPE.\n1920×1080.\n1080p.\n33.5 seconds.\n30fps.\nReal-time motion.\nNO SPEED RAMPS.\nSIX SHOTS.\nEXACTLY FIVE HARD CUTS:\n0:06.0\n0:12.0\n0:18.0\n0:23.0\n0:25.5\n==================================================\nFINAL POSITIVE LOCKS\n==================================================\nFORMAT LOCK:\n16:9 landscape frame in every shot.\nNO vertical framing.\nNO square framing.\nNO letterboxing.\nNO black bars.\n[\n@tuck\n] is the ONLY character.\nFish are background only.\nTuck is present in every shot.\nTuck always matches the character sheet:\ncoral-red body,\ndeep red claws,\ncream peach belly and curly tail,\norange-red legs with maroon tips,\nTWO separate tall eye-stalks, one round eye on top of each,\nlarge white eyes,\nteal irises.\nNO eyes merged into a single head.\nNO CHARACTER REDESIGN.\nNO EXTRA LIMBS.\nMOVEMENT LOCK:\nNO TELEPORTING.\nNO position jumps.\nEvery entry and exit is one continuous visible action through the object's open end.\nSHELL LOCK:\nTuck backs into every shell TAIL-FIRST.\nEvery shell option is hollow with a visible open end.\nTEACUP = too big.\nTIN CAN = too heavy.\nGLASS JAR = see-through.\nPEARL SHELL = perfect fit.\nDo NOT let Tuck wear two shells at once.\nDo NOT let any object morph into another.\nJAR LOCK:\nThe glass jar lies ON ITS SIDE the whole time.\nNO upright jar.\nPEARL SHELL LOCK:\nPearl shell is Tuck-sized — the size of his body.\nNEVER bigger than Tuck.\nTuck WEARS it on his back.\nThe shell moves WITH him when he walks.\nNO Tuck sitting in front of the shell.\nNO giant shell.\nNO shell size change between shots.\nTuck enters ONLY through the big opening, walking backward, facing the camera.\nNOTHING goes into the spiral side.\nONLY ONE Tuck. NO reflection of Tuck. NO crab inside the jar.\nCONTINUITY LOCK:\nObjects stay where Tuck left them.\nSand and seaweed on Tuck build up until the final reveal.\nNEVER RESET.\nLOCATION LOCK:\nSame Glimmer Reef throughout.\nSame sunken rowboat.\nSame junk pile.\nSame sand slope.\nSame sea cucumber.\nSame hidden spot behind the boat.\nSame daylight.\nREVEAL LOCK:\nThe pearl shell is ONLY revealed after the hopeless beat.\nIt rests on the sand behind the sunken boat, under one thin sun shaft.\nFINAL FRAME LOCK:\nTuck WEARS the pearl shell on his back.\nShell sized to his body.\nHead, eye-stalks, claws and front legs outside the opening.\nCentered, facing camera.\nBoth claws raised.\nBig wide eyes.\nBig happy smile.\nShell shimmering.\nEND.\nCAMERA CUTS ONLY:\n0:06.0\n0:12.0\n0:18.0\n0:23.0\n0:25.5",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-bulin47-swap",
+    "category": "提示词",
+    "title": "把你塞进五千万播放的街头说唱：只换中间那个人",
+    "body": "夜街、人群、手持机位。多米尼加歌手的街头 freestyle 过了五千万播放，现在人人把自己换进去：动作、观众、节拍原样，只换中间那个秃头墨镜粉衬衫的人。\n\nTECH4SSD 十月十四日更新教程：角色设定图当第一张参考图，原片当参考视频，一句「完全重现视频、只替换中心人物」。还可加一句，把身后两人换成朋友当保镖。关键操作是关提示词增强、用编辑模式、先用低分辨率试脸。发之前记得标人工智能生成，并署名原唱，别假装自己是现场拍的。脸漂了就先降分辨率重跑，别急着升到高清。\n口型跟原曲走，比换脸成功更关键。\n这条能直接做成教程封面：先截成片，再贴约束清单。\n\n所以呢：跟风舞蹈别重拍，先写「只换谁、其余全锁」。",
+    "links": [
+      {
+        "label": "TECH4SSD 完整教程",
+        "url": "https://tech4ssd.com/breakdowns/put-yourself-in-the-bulin-47-freestyle-the-seedance-25-prompt-plus-your-"
+      }
+    ],
+    "prompt": "Recreate @video1 exactly: the same street, crowd, phone camera movement, lighting, timing and every dance move and hand gesture. Replace only the man in the centre (bald, sunglasses, pink shirt) with the person from @image1: keep their face, hair, outfit and body consistent in every frame. Everyone else stays the same. Keep the original audio and lip timing. Photoreal handheld phone footage at night, no text, no watermark.\n\nOptional bodyguards add-on:\nThe two men standing right behind him become @image2 and @image3, as his bodyguards. Everyone else stays the same.",
+    "date": "2026-10-14",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-beauty-ugc-onetake",
+    "category": "提示词",
+    "title": "美妆 UGC 十秒一镜：唇釉碰到嘴的那一下不许假",
+    "body": "粉卧室床沿，铂金长发博主举着亮面唇釉对前置摄像头说话。她凑近镜头秀包装、拉开、边看屏幕边涂、抿嘴、侧身让窗光打在湿润唇上，再把产品贴脸微笑——全程不停机。\n\nIma Studio 专门测 Seedance 2.5 的「产品碰脸」：人工智能广告常在涂抹那一秒穿帮。提示词写死四比三自拍、手持微抖、连续说话、真实皮肤与真实接触，禁止切镜和塑料脸。做带货时，把「涂抹接触」写成硬约束，比堆「高级质感」四个字管用得多。观众划走常常就因为那一下假，锁住它等于锁住完播率。\n涂抹过程允许停顿，但不要硬切补镜头。\n这条能直接做成教程封面：先截成片，再贴约束清单。\n\n所以呢：美妆人工智能片先锁手指和嘴唇怎么碰上，再谈滤镜。",
+    "links": [
+      {
+        "label": "X 原帖含提示词",
+        "url": "https://x.com/ImaStudio_ai/status/2110677885195579417"
+      }
+    ],
+    "prompt": "Create a 10-second, 4:3 photorealistic live-action beauty UGC video in one continuous take. Use an exceptionally attractive adult white female beauty creator with luminous natural skin, bright blue eyes and long glossy platinum-blonde hair, wearing a pastel-pink fitted dress and a bright-yellow headscarf with small white polka dots. She sits on the edge of a bed in an upscale feminine bedroom with cream bedding, warm oak furniture, flowers and soft overcast window light. She holds one premium glossy lip tint with translucent reflective packaging. Front-facing smartphone camera, chest-up selfie framing, natural handheld micro-shakes and subtle hand drift. She talks continuously to camera while showing the lip tint close to the lens, pulling it back, opening the tube, applying it naturally to her lips while watching herself on screen, pressing her lips together, turning slightly toward the window so the light catches the wet glossy finish, then holding the product beside her cheek and smiling. Fast, polished but conversational beauty-creator delivery, natural facial reactions and playful eye contact. Realistic skin texture, realistic product interaction, accurate hand-to-product and applicator-to-lip contact, shallow depth of field, subtle film grain, no cuts, no transitions, no montage, no artificial camera moves, no face drift, no product deformation, no plastic skin, no music, no subtitles, no watermark.",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-zombie-train-window",
+    "category": "提示词",
+    "title": "卧铺靠窗抱小狗：窗外丧尸潮，机位全程不许乱切",
+    "body": "豪华卧铺右侧，东亚女孩抱着奶油色博美。左侧三分之二是全景车窗：车站人群奔逃，血污丧尸贴窗踉跄，最后列车过桥，桥下街道被尸潮淹没。她从松弛到护狗，表情一步步紧，小狗也跟着扭头看窗外。\n\n有人用 Seedance 2.5 在平台上跑三十秒，四万多浏览。构图锁死「侧面火车窗」：人不许丢、狗不许冻、窗外和窗内同等重要。和走廊砍丧尸那类片不同，这条靠「日常座位看末日」。做恐怖短视频，试试让危险永远在玻璃另一边，紧张感会更凉，也不用写一堆追打动作，省下的字可以用来写表情变化。\n小狗扭头看窗外，比尖叫更能把恐怖坐实。\n\n所以呢：末日片不一定要追打，靠窗看热闹有时更凉。",
+    "links": [
+      {
+        "label": "X 原帖含提示词",
+        "url": "https://x.com/john_my07/status/2110365712560902198"
+      }
+    ],
+    "prompt": "Create a 30-second, 1080p ultra-realistic live-action zombie apocalypse video, filmed like a scene from a real horror movie.\n\nCamera and composition: Use the same side-angle framing throughout: a wide panoramic train window fills the left two-thirds of the frame, while a young adult East Asian woman sits on a luxurious cream-colored bed on the right, holding a tiny, fluffy cream-colored Pomeranian puppy. Her face must remain clearly visible in a natural three-quarter profile. Warm cabin lights contrast with the cold, grey city outside.\n\nAction: The train moves through a city descending into zombie chaos. The girl initially relaxes with her puppy, then notices terrified crowds running outside. She gradually sits up, turns toward the window, widens her eyes in genuine fear, and instinctively hugs her puppy closer. Her expression and posture change naturally as the danger approaches. The puppy moves naturally in her arms, looks toward the window, shifts its paws, turns its head, and briefly nestles against her.\n\nOutside, show realistic infected people chasing commuters through a railway station, crowds fleeing between cars, a bloodied zombie stumbling past the window, and an infected person briefly running alongside the moving train. In the final moments, the train crosses an urban bridge as a huge crowd of zombies floods the streets below. The girl watches in alarm while protecting her puppy.\n\nRealism: Photorealistic human skin, natural facial expressions, believable dog anatomy and behavior, realistic zombie makeup, authentic city details, accurate window reflections, natural train movement, overcast daylight, subtle handheld camera motion, and cinematic live-action color grading.\n\nKeep both the girl and puppy visible while giving the outside chaos equal visual importance. One continuous moving-train perspective, with no random camera changes. No static posing, frozen expressions, cartoonish zombies, glossy CGI, exaggerated acting, or artificial-looking AI visuals.",
+    "date": "2026-10-14",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-baby-dragon-ember",
+    "category": "提示词",
+    "title": "十五厘米小龙雨夜窗台睡觉：鼻孔冒火星，睁一只金眼",
+    "body": "石窗台上，红丝绒垫，蜡烛一盏。约十五厘米的翠绿幼龙蜷着睡，象牙小角，窗外雨顺着玻璃滑。镜头八秒缓慢推近脸：呼吸时鼻孔亮一圈橙火，细烟升起。结尾它慢慢睁开一只金眼看镜头。\n\n有人先用图像模型做首帧，再交给 Seedance 2.5 做图生视频。整段提示词极短，却写死「十五厘米」——尺寸锁住，才不会长成中型龙。他还补了一句：首帧不对，推镜救不了。适合当「安静奇幻」模板：一个动作、一次呼吸、一次对视，三样齐了就能发。做系列时，换垫子颜色和天气，角色还能认得出来。\n雨声和烛火别被配乐盖掉。\n这条能直接做成教程封面：先截成片，再贴约束清单。\n\n所以呢：小怪物先写死厘米数，再写它醒过来。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/0xOgi/status/2110815532609847462"
+      },
+      {
+        "label": "提示词线程",
+        "url": "https://x.com/0xOgi/status/2110815533658415592"
+      }
+    ],
+    "prompt": "One continuous take, no cuts. Start exactly on the reference image. A baby dragon about 15 cm long sleeps curled up on a red velvet cushion on a stone windowsill at night, a candle burning beside it, rain running down the window. The camera slowly and steadily pushes in to a close-up of the dragon's face over 8 seconds. The dragon breathes slowly. With each breath a faint orange ember glow pulses in its nostrils and a thin wisp of smoke drifts up. The candle flame flickers and raindrops keep sliding down the glass. Near the end the dragon slowly opens one golden eye and looks at the camera. Photoreal, cinematic fantasy lighting. No text, no logos, no people, no other animals.",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-crystal-elemental",
+    "category": "提示词",
+    "title": "灰皮怪物长成水晶巨兽：石英刺穿脊背再拔起巨石",
+    "body": "日落峡谷，红岩与沙尘。瘦长灰皮人形蹲着，双眼发亮——然后骨骼外翻，矿物从皮肉炸出，脊柱长成石英冠，手变成石爪。它站直，从地里撕起巨石，吼声混着紫晶内光和暖橙夕阳。\n\nPierrick 把变身写成一段密集括号提示词：体型、材质、环境、镜头角度一次写齐。重点是「微观裂缝加上低机位显体量」——变身片常糊成光效，他逼模型表现石头怎么长。做怪物短片时，先写皮肤底下长什么，再写它吼，观众才觉得疼。光效可以后补，材质顺序不能反。\n低机位先立住体量，再放内光。\n这条能直接做成教程封面：先截成片，再贴约束清单。\n\n所以呢：变身特效先写材质怎么破皮，别只写「发光变强」。",
+    "links": [
+      {
+        "label": "X 原帖含提示词",
+        "url": "https://x.com/CharaspowerAI/status/2110747611305071076"
+      }
+    ],
+    "prompt": "A humanoid creature (gaunt body, grey skin, elongated limbs, sunken glowing eyes, crouched feral pose) transforms into a crystal earth elemental monster, bones cracking outward, jagged mineral formations erupting through the skin, spine growing into a crown of quartz shards, hands thickening into giant stone claws, then rising to full height and ripping a boulder from the ground before roaring, in a desert canyon at sunset (red rock walls, dust storms, dry cracked earth, scattered ruins, circling vultures, long shadows) (blockbuster monster VFX, strong scale contrast, low-angle reveal, macro fracture details, warm sunset orange mixed with internal amethyst glow, dust plumes, rock debris and a brutal ancient atmosphere)",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-surreal-blue-windows",
+    "category": "提示词",
+    "title": "黑底蓝窗里的人慢慢消失：烟雾绕成环，窗越来越多",
+    "body": "深黑背景，一扇电光蓝四格窗，里面有人水平悬浮。窗溶掉，灰烟丝绕成椭圆环；烟散，蓝窗又出现，接着变成许多不规则蓝窗，每扇里一个不同姿势的人。十二点八秒，像一场会呼吸的装置展。\n\n作者用 Seedance 按七个镜头时间码写完，并明确「不要眼睛、不要霓虹乱闪」。这是偏美术馆的提示词：情绪靠窗与烟，不靠剧情对白。做氛围向短视频，可整段改成「消失与重现」母题，换颜色也能出系列，比硬写故事省事。配一首慢歌，往往比配旁白更贴，也更适合当循环背景片。\n负向约束写进主词，比事后修负向提示更省事。\n\n所以呢：超现实短片先规定什么不许出现，留白才站得住。",
+    "links": [
+      {
+        "label": "X 原帖含提示词",
+        "url": "https://x.com/itsSaira_1/status/2110947923412566187"
+      }
+    ],
+    "prompt": "Create a 12.8-second surreal cinematic art video in 16:9 format, with a deep black background, electric-blue windows, and monochromatic smoke.\n\nSHOT 1 (0:00–0:01): A single glowing blue four-pane window contains a human figure floating horizontally above a faint rocky ledge.\n\nSHOT 2 (0:01–0:03): The window dissolves into darkness, leaving the same floating human figure in grayscale as thin smoky strands emerge around the body.\n\nSHOT 3 (0:03–0:05): Feather-like smoke filaments curl into an elongated elliptical ring around the suspended figure.\n\nSHOT 4 (0:05–0:07): Gray-white smoky ribbons sweep horizontally around the body, stretching and flowing through the black environment.\n\nSHOT 5 (0:07–0:08): The smoke dissolves as a glowing blue window smoothly reappears behind the floating figure.\n\nSHOT 6 (0:08–0:10): The single window expands into multiple irregularly arranged blue windows, each containing a human figure in a different floating pose.\n\nSHOT 7 (0:10–0:12.8): Reveal the complete installation of glowing blue windows against a dark textured background, with suspended figures and subtly shimmering light.\n\nSTYLE & MOTION: Surreal fine-art cinematography, deep blacks, cold blue illumination, grayscale figures, delicate smoke, volumetric lighting, subtle film grain, smooth morphing transitions, steady wide camera, consistent human anatomy and clothing.\n\nNEGATIVE PROMPT: No eyes, eyeballs, colorful neon, bright rooms, sudden cuts, fast spins, abrupt zooms, distorted anatomy, extra limbs, unintended duplication, text, logos, or watermarks.",
+    "date": "2026-10-16",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-seedance-kitten-laurel-storm",
+    "category": "提示词",
+    "title": "金冠白披风小猫站荒原：八秒推镜，风一直吹到它仰头",
+    "body": "风暴荒野，苔石上站着银虎斑小猫：金月桂冠、白绸披风。一镜到底，八秒从全景推到脸部特写，风从头吹到尾。结尾它慢慢抬下巴看天，远处地平线闪一下软雷光。\n\n同一作者同样走「首帧加视频模型」流程，提示词禁止切镜、禁止定格。和幼龙那条是一对安静模板：一个睡醒，一个站着迎风。适合当角色登场片头——不讲话，只让披风和眼神干活，片头几秒就能立住人设。后面再接打斗或旅行，观众也认得是同一只猫。\n披风全程被风带着动，比加台词更有角色感。\n这条能直接做成教程封面：先截成片，再贴约束清单。\n\n所以呢：角色登场片可以只有风和一次抬头，别急着给台词。",
+    "links": [
+      {
+        "label": "X 原帖",
+        "url": "https://x.com/0xOgi/status/2110347593020567853"
+      },
+      {
+        "label": "完整提示词",
+        "url": "https://x.com/0xOgi/status/2110347594261987690"
+      }
+    ],
+    "prompt": "One continuous take, no cuts, no freeze frames. Start exactly on the reference image. A tiny silver tabby kitten in a golden laurel crown and a white silk cape stands still on a mossy boulder on a stormy moor. The camera slowly and steadily pushes in from the wide shot to a medium close-up of the kitten's face over 8 seconds. Strong wind ripples the cape and the fur the whole time. The kitten keeps standing in the same spot and near the end slowly raises its chin to look up at the sky. One soft lightning flash on the distant horizon. Photoreal, epic fantasy movie lighting. No text, no logos, no people, no other animals.",
+    "date": "2026-10-14",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "prompt-krea3-dreamcore-reptilian",
+    "category": "提示词",
+    "title": "一句梦核词砸出七十年代密会：爬虫人管小镇，还要有动能",
+    "body": "有人刚试到新出的图像模型快档，说它像把几家模型的长处拧在一块：世界理解、画面气质、改图能力都沾一点。他丢出一句可复制提示词：七十年代电影剧照、秘密会议、怀旧、爬虫人掌管小镇、记忆、不祥、犯罪、梦核、阈限空间、室内、查尔斯顿、动能、粗粝写实。\n\n短，但结构完整：年代加场景，再加世界观荒诞点，再加情绪关键词和地点锚。做图文封面时，把「爬虫人」换成你自己的阴谋论或都市传说，其余骨架能直接复用。他也提醒还有更高画质档，先用快档试构图就够。构图对了再升档，比一上来烧最高档更划算。\n地点锚一下，画面就不会漂成通用梦核壁纸。\n\n所以呢：新模型测评别只晒图，留一句别人能改着玩的短提示词。",
+    "links": [
+      {
+        "label": "X 原帖含提示词",
+        "url": "https://x.com/seeksteve/status/2110776248834417102"
+      }
+    ],
+    "prompt": "1970s movie still at the secret meeting, nostalgia, reptilians run the town, memories, ominous, criminal activity, dreamcore, liminal, indoors, charleston sc, kinetic energy. gritty realism",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "ito-lua-tui-playground",
+    "category": "视觉尝试",
+    "title": "浏览器里用 Lua 搭终端界面：改一行，预览立刻跟着变",
+    "body": "两个爱折腾 Neovim 的朋友看腻了 JavaScript 写的代理外壳，就自己做了一套叫 Ito 的东西：终端界面全用 Lua 拼，布局、状态、按键导航都能在代码里揉。为了让别人一眼看懂有多好玩，他们又把这套库编译进浏览器，做成了 uji.sh 上的游乐场。你打开页面，左边写 require(\"ito\")，返回一个用 VStack、Text 搭起来的视图，右边立刻画出「假终端」；语法错了也不黑屏，还留着上一次能跑的画面。作者在 Hacker News 上说，他们真正想做的是能像米饭一样「精调」到底的代理外壳，Lua 只是顺手挑的语言。于是一份 llms.txt 也挂在旁边，方便把说明整段塞给模型，让它帮你吐 Lua 再贴回来。旁人刷到会先愣：原来终端 UI 也能像画布一样当场试。所以呢：讲「开发者外壳该长什么样」时，别只贴截图——丢一个能改代码、能看见框的链接，观众三分钟就懂什么叫可玩。",
+    "links": [
+      {
+        "label": "Ito 浏览器游乐场",
+        "url": "https://uji.sh/ito/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50096300"
+      },
+      {
+        "label": "GitHub ito",
+        "url": "https://github.com/uji-labs/ito"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-14",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "fframes-the-why-code-film",
+    "category": "视觉尝试",
+    "title": "九十八秒短片整段是 Rust 程序：曼哈顿屋顶从真城市数据长出来",
+    "body": "点开 fframes 工作室的《THE WHY》，一分钟半的片子讲完一句硬话：怎么做已经被自动化了，值不值得做还得人来定。奇怪的是整部片不是剪辑时间线糊出来的，而是一段 Rust 程序：场景、透视相机、灯光，在代码里写好，再用他们的渲染器 fframes 一口气吐出五千八百八十帧。曼哈顿那一段用了纽约开放的城市模型，屋顶、墙和街道都有真实坐标；时代广场二十块屏里还嵌进另一部片子。九十八秒、六十帧，总渲染大约九十四秒。官网甚至写着让你安装技能，或者 cargo 起一个新项目，让代理帮你写下一部。于是「电影」和「仓库」叠在同一条链路上，观众看完第一反应往往是：原来片子也能像编译产物一样复现。所以呢：谈 AI 影视别只晒成片——把「城市是数据、镜头是代码」摊开，比再讲一遍分镜板更抓人。",
+    "links": [
+      {
+        "label": "短片 THE WHY",
+        "url": "https://fframes.studio/the-why/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50089045"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-14",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "process-soundscape-factory",
+    "category": "视觉尝试",
+    "title": "工厂一天变成声音：和谐就还好，跑调就出事了",
+    "body": "有人觉得仪表盘太吵，就做了个叫 Factory pulse 的小玩具：把模拟工厂从早上八点到傍晚的一天，同时变成色带图和一首会变调的背景声。每条彩色线是一种测量，越宽数值越大，红点是报警；和谐、合拍的音乐表示流水线顺，一跑调你耳朵先知道出事。你可以点「停产十分钟」「质检拒收暴涨」这类按钮，故意搞破坏，再切到卡通监控看地面发生了什么。作者在 Hacker News 上写得很直：人本来就会靠「怎么这么安静」察觉异常，他想让操作员不用盯数字也能听出不对劲。耳机一戴，声场还会顺着物料流向左右摆。顶部还有一个「流动和谐度」分数，从一降到零，音乐跟着越来越离谱。所以呢：讲工业监测时，别只会甩折线图——让观众先听一曲「工厂跑调」，再问一句：你耳朵和摄像头，谁先报警？",
+    "links": [
+      {
+        "label": "Factory pulse 演示",
+        "url": "https://soundscape.flaminghoops.dev/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50105438"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "unknot-browser-untangle",
+    "category": "视觉尝试",
+    "title": "浏览器里解绳结：算法自己规划路径，缠成一团也能摊平",
+    "body": "打开 zkingston.com/unknot，屏幕上是一根扭成死结的绳子示意图。你不必自己手搓，点一下规划，程序就按运动规划那套思路，一点点把结拧开——看起来像有人在慢动作拆耳机线。作者把 Ladd 与 Kavraki 二〇〇四年的解结方法搬进网页，还塞进近年论文里那些「看起来是结、其实能解开」的难例，以及 DeepMind 相关工作放出的硬图。旁边能开编号、符号、Reidemeister 变换标注，像一堂可点的拓扑课。你也可以自己画一条缠线，或换随机种子再看一遍。数学外行也会盯着动图看：原来「解不开」有时只是投影骗了眼睛，算法换个路径就摊平了。所以呢：讲抽象数学时别只丢公式——扔一条会自己松绑的绳子，观众才愿意停下来问一句「这到底算不算结」。",
+    "links": [
+      {
+        "label": "unknot 演示",
+        "url": "http://zkingston.com/unknot/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50110285"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "receptive-field-cnn-book",
+    "category": "视觉尝试",
+    "title": "卷积别死记公式：把核滑过去，感受野一层层变大",
+    "body": "伯克利一名学生平时靠 AI 当家教啃课，顺手把「卷积神经网络到底在看哪」做成了可点的章节书。打开 Receptive Field，第一章先把图片拍扁塞进全连接，看参数怎么爆炸；接着你亲手滑动卷积核，看着一个输出点怎么由邻域点积出来。步长、填充、膨胀、通道、池化、反传、反卷积棋盘伪影，每章都有小模块，最后还能在浏览器里跑一个训好的网络，一层层看它学到了什么、又在哪里翻车。作者自称穷学生，特意做成免费站点，希望别人也少背一点黑箱术语。于是「感受野」不再是幻灯片上的圆圈，而是你拖出来的一块视野。所以呢：科普深度学习别堆名词——让观众自己把核滑过一只鸭子，比再讲三遍定义记得住。",
+    "links": [
+      {
+        "label": "Receptive Field 章节",
+        "url": "https://receptive-field-flame.vercel.app/appendix/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50107564"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "openlume-interruptible-explainer",
+    "category": "视觉尝试",
+    "title": "卡住就问一句：它给你做动画讲解，还能在画面里打断追问",
+    "body": "工程师常卡在「ChatGPT 只会吐字、YouTube 又太长」中间。OpenLume 让你直接丢真实问题，比如 Ingress 怎么分流、组件为何反复重渲染，大约一两分钟后吐出带旁白、图示和代码的短片。关键是可以暂停：你对着当前帧追问，答完还能从断点续播，中间还夹着小测验。官网对比表写得很冲：通用聊天要你每次重讲背景，教程视频猜你的水平，它则先问你的技术栈，再按你的集群和工具举例。免费档每个月有试用次数，生成多在一分钟量级。于是「讲解」变成可打断的互动片，而不是一段不可暂停的独白。所以呢：做技术内容时，试着拍一条「能中途举手」的讲解——观众留下来的理由，往往是那一次精准追问。",
+    "links": [
+      {
+        "label": "OpenLume 官网",
+        "url": "https://openlume.com/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50096513"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-14",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "codecity-3d-repo-map",
+    "category": "视觉尝试",
+    "title": "仓库变成一座城：一栋楼一个文件，代理改哪里一眼看见",
+    "body": "代码变得太快，人已经读不过来。codecity 在本机跑一句 npx codecity，就把仓库画成三维城：一栋楼是一个文件，楼体胖瘦跟行数有关，街区是文件夹，颜色可以按最近改动、年龄、作者切换。你点某栋楼，导入和被导入的线会亮起来；把高度改成「被谁引用」，那些被全项目踩着的小文件会突然长成高塔。时间轴一拖，城市从第一次提交长到今天；留着开着，保存的文件一秒内亮灯，多个编码代理同时改代码时，你能看见它们各自落在哪一片。整张图不出本机，也能导出单个离线 HTML 塞进拉取请求。作者用 React 仓库演示从首提交长到现在的样子。所以呢：讲「代理军团在改什么」别只甩 diff 列表——扔一座会呼吸的代码城，观众秒懂哪里在动工。",
+    "links": [
+      {
+        "label": "codecity 官网",
+        "url": "https://codecity.icy.dev"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50102290"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "repo-safari-github-platformer",
+    "category": "视觉尝试",
+    "title": "每天一局平台跳跃逛开源：房间里比明星仓库，按 E 收贴纸",
+    "body": "厌倦了刷 GitHub 趋势列表？Repo Safari 把找项目变成每日一局小游戏。你掉进不同「平台」房间，里面摆着按星标排的活跃仓库，新冒头的会标出来；按 E 把喜欢的收进贴纸册，上升快的仓库像稀有贴纸，只在路上待一周。音效可关，每天零点 UTC 换新路线。作者说这是早期试玩，页脚还挂着三道问卷，答完复制回帖就行。于是「发现开源」不再是表格滚动，而像逛动物园：你记得住是哪一跳踩到了哪个项目，而不是哪一行数字。旁人玩两分钟就会开始比较贴纸，比再贴一份 Awesome 清单更有记忆点。所以呢：做开发者增长内容时，试着把目录变成一关可玩的地图——人会为贴纸多逛两间房。",
+    "links": [
+      {
+        "label": "Repo Safari",
+        "url": "https://w20labs.github.io/repo-safari/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50110377"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "jamfetti-tap-to-jam",
+    "category": "视觉尝试",
+    "title": "不会乐理也能即兴：点一下出音符，拖一下出旋律彩带",
+    "body": "Jamfetti 把自己说成音乐、动作和颜色的游乐场：鼠标点一下跳出音符，拖一下拖出旋律，画面跟着你的手势换色。作者强调音频和视觉都在浏览器本地生成，不会把你的音符、手势送去分析；只有可选的页面访问统计，还能关掉。它和同一工作室的 Hooked 同一天前后上 Show HN，气质一样轻：不教你和弦理论，先让你玩到停不下来。于是「即兴」门槛降到手指一动，旁人路过也会伸手戳两下，耳机一戴更上头。适合当短视频开场道具——先让观众听见自己点出来的声，再谈创作门槛。所以呢：讲创作工具时，先给一个零教程就能出声的沙盒——观众自己听见好玩，比再推一节乐理课有效。",
+    "links": [
+      {
+        "label": "Jamfetti",
+        "url": "https://jamfetti.boondoggle.studio/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50109445"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "hooked-classic-first-lines",
+    "category": "视觉尝试",
+    "title": "像刷短视频一样刷名著第一句：左滑跳过，右滑上钩",
+    "body": "经典开篇往往比整本书更适合当钩子，可书店和书单很少让你只尝第一句。Hooked 把这件事做成滑动卡片：屏幕上跳出名著开头几行，觉得无聊就滑走，被抓住就留下，节奏像刷短视频。Boondoggle 工作室同一波还放出了即兴音乐沙盒 Jamfetti，审美统一地「轻、快、能玩」。于是选书不再从腰封推荐语开始，而是从那句能不能拽住你开始。旁人三分钟能滑完一打开篇，比听一段书单播客更有体感，也方便做成「今天哪句赢了」的互动帖。你甚至可以把左右滑录屏，配上自己的吐槽，当成选书挑战。所以呢：做阅读或文化向内容时，试着只播「第一句对决」——让观众当场投票哪本值得翻开，比列十本必读更有戏。",
+    "links": [
+      {
+        "label": "Hooked",
+        "url": "https://hooked.boondoggle.studio"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50106849"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "sygal-local-doc-markdown",
+    "category": "小众工具",
+    "title": "Sygal：PDF、扫描件、网页本地转成干净 Markdown，一次买断",
+    "body": "往模型里丢原始 PDF 或扫描件，经常一半钱花在读版式噪声上。巴黎独立开发者 Cyrill 做了 Sygal：把 PDF、Word、表格、邮件、网页甚至 YouTube 链接，在你电脑上转成干净 Markdown 和结构化 JSON，顺带显示这份文件大概要吃多少 token。扫描和图片可走你自己选的 OCR 接口、自带密钥；正文转换号称百分百本地，无账号、无订阅，二十九种格式，支持批量与本地可搜图书馆。官网上写视觉类内容转成文字后，token 可轻大约二到七倍，具体因文件而异。桌面和命令行共用同一引擎，方便丢进检索或代理流水线。Show HN 上三十多分，说明痛点够真。所以呢：别再让模型「看见」一堆空白页边距——先本地挤成干净文本，再谈省钱和好不好答。",
+    "links": [
+      {
+        "label": "Sygal 官网",
+        "url": "https://sygal.app"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50106054"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "rdst-sql-regression-agent",
+    "category": "小众工具",
+    "title": "RDST：本机盯着 Postgres/MySQL，慢查询自己排修复清单",
+    "body": "数据库一慢，传统流程是人工翻统计表、猜缺哪个索引、再小心上线。ReadySet 团队把这套经验收成 RDST：装在你电脑上的常驻代理，只读连上 Postgres 或 MySQL，大约每分钟读库里的查询统计，按占用时间排序，标出变慢、突刺或突然消失的语句。对要紧的查询它会跑执行计划、读表结构，给出可复制的加索引、改参数、重写或清理建议，并写明大约能省多少库时间、怎么在自建或云厂商上操作，还附带回滚 SQL。它不写你的库；历史和密码留在本机，AI 功能只送语句与计划，不送行数据。作者说修复总是事后救火，现在总算能有个一直值班的助手。所以呢：讲「AI 运维」别空喊自治——演示一份按省时排序的修复清单，比再讲一遍 EXPLAIN 字段更有用。",
+    "links": [
+      {
+        "label": "RDST GitHub",
+        "url": "https://github.com/readysettech/rdst"
+      },
+      {
+        "label": "文档",
+        "url": "https://readyset.io/docs/readyset-ai/rdst"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50107729"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "sjq-ai-stream-jq",
+    "category": "小众工具",
+    "title": "sjq：给 AI 流式响应用的 jq，剥掉九成信封只剩字",
+    "body": "你把流式补全管道接进 jq，十有八九会报 Invalid numeric literal——因为那不是一整份 JSON，而是一行行 data: 碎片。sjq 专啃这件事：读 OpenAI 兼容的 chat completions 或 Responses 流，每来一个增量只打印新增的字，并在末尾给出连接、首字节、首 token、总耗时和速度。作者算过，短回答里信封能占到百分之九十九；推理加回答也常到百分之九十八以上。开发者不用在墙一样的 JSON 里找字段，编码代理也可以先过 sjq 再进上下文，少把信封当「输入」。Rust 写、依赖极少，装上就能把 curl 管道里的 jq 换成它。遇到 curl -i 带出的状态行它也认，不会误伤。调试延迟时，那一行 time: 摘要往往比翻原始日志快。所以呢：下次代理上下文被流式垃圾撑爆，先问一句有没有剥信封——工具往往比换更大的窗口管用。",
+    "links": [
+      {
+        "label": "sjq GitHub",
+        "url": "https://github.com/vivgrid/sjq"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50112214"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-16",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "fuel-gauge-claude-95",
+    "category": "小众工具",
+    "title": "Fuel Gauge：让 Claude 看见自己油表，到九成五硬停收尾",
+    "body": "长任务最烦的是：你盯着额度，它却在百分之百的时候改到一半断掉。Fuel Gauge 是 Claude Code 插件，零额外接口调用——直接读会话里已经带回的五小时窗、周限额和上下文占用，每条消息塞给 Claude 一行油量摘要，并在输入框旁画小条。过百分之九十五就拒绝工具调用和新请求，逼它先小结做完什么、还剩什么；你发 continue 或点解锁才放行，窗口重置也会自动开锁。八十、九十还有预警，可选 Cowork 仪表盘和 Windows 托盘条。作者说别再手动喊「你快没额度了」。装好后它还会估算匀速会在几点撞上九成五，方便你决定要不要拆任务。所以呢：给编码代理装油表，比事后骂它半截抛锚更体面——内容角度就是「代理也该会收工」。",
+    "links": [
+      {
+        "label": "Fuel Gauge GitHub",
+        "url": "https://github.com/LuisPCFialho/claude-fuel-gauge"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50086277"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-14",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "pasteface-terminal-stt",
+    "category": "小众工具",
+    "title": "Pasteface：终端里边录边转写，多标签整理口述再一键复制",
+    "body": "很多人要的不是又一个全局热键听写，而是待在终端里把话变成可整理的文本。Pasteface 打开字符界面：空格开停录音，停了就排队转写；可用本机 whisper.cpp，也可走远程转写接口。录制按命名标签分页，一边录下一段，一边让上一段继续出字，按 C 复制整页，Ctrl+C 只抄最新块，还能导出 txt。Linux 可装托盘，macOS 有打包脚本；不支持 Windows。它和菜单栏听写工具分工不同：强调多标签工作流和「说话像贴代码一样贴进剪贴板」。写文档、记会后、顺嘴报一段命令，都可以先落在标签里再贴走。设置里还能选麦克风，适合嘈杂工位。所以呢：给爱待在黑窗口里的人看这条——口述不必跳出终端，整理完再贴进编辑器。",
+    "links": [
+      {
+        "label": "Pasteface GitHub",
+        "url": "https://github.com/blairjordan/pasteface"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50111990"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "squishling-code-as-cache",
+    "category": "小众工具",
+    "title": "Squishling：把代码当成 AI 判断的缓存，贵的路径才写成 Ruby",
+    "body": "Coolhand Labs 抛出一个颠倒常识的宝石：别只让 AI 写代码，要用 AI 决定哪里其实不必写。Squishling 让方法声明目的和严格输出模式，可以没有实现——每次调用走模型，结果按模式校验；等某一承运商量上来了，再为它写死 Ruby，其余仍交给模型，调用方无感。也可以反过来：现有解析器翻车时，把错误和源码上下文甩给模型顶上。官网还有光谱滑条和 token 对维护成本的计算器，把「全手写」到「全模型」拖给你看权衡。于是「代码」变成高频路径的缓存，长尾留给智能。作者提醒：模式只保证形状，钱和身份仍要交叉核对。所以呢：讲弹性软件时，别只会说「全交给模型」——演示一条「量上来了再硬化」的路径，才像工程而不是口号。",
+    "links": [
+      {
+        "label": "Squishling 说明站",
+        "url": "https://coolhand-labs.github.io/squishling/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Coolhand-Labs/squishling"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50105742"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "cooldock-second-dock-mcp",
+    "category": "小众工具",
+    "title": "CoolDock：Mac 第二条程序坞只放小组件，还能用 MCP 让 AI 帮你配",
+    "body": "桌面小组件常被窗口盖住，通知中心又藏太深。CoolDock 的思路是：系统程序坞本来就占着屏幕底边，那就再叠一条只放小组件的坞——原来的坞一藏，它就现身。音乐、天气、待办、邮件、习惯、喝水提醒、AI 用量，加上一百六十多个可选块，外观走原生毛玻璃，本地跑、无账号遥测。作者在 Show HN 里写明加了 MCP 服务：默认只读，你授权后可以让代理直接加组件、改配置，少点点点。一人买下这个产品后继续加部件，声称已过一千二百用户，还在按请求加新块。买断制，不强制订。所以呢：别再把关键数字藏到桌面角落——放到永远露一条边的坞上，再让代理帮你摆好，才像给自己装了外设。",
+    "links": [
+      {
+        "label": "CoolDock 官网",
+        "url": "https://cooldock.app/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50108054"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "kanary-relay-cross-harness",
+    "category": "小众工具",
+    "title": "Kanary /relay：Claude、Codex、Cursor 之间别再复制粘贴聊天",
+    "body": "Kenn 说他试过各种子代理和编排器，最后还是回到两个窗口加剪贴板——读回复才是工作，复制最烦。Kanary 给 Mac 上的 Claude、Codex、Cursor 图形界面加了 /relay：只把「上次接力之后的新内容」原样标好说话人送到对面，截图和生成图只传路径不上传，上下文与额度条并排显示，好判断该不该换人。还可以把 Cursor 排进第三列，让后到的模型看见前两家的结论；另有一键把仓库打包问 ChatGPT，会按名字跳过忽略文件和常见密钥文件。作者强调：编排器常把你踢出环外，Relay 把你留在中间，只是去掉剪贴板。免费档有周发送上限，复制出口永远可用。所以呢：多模型协作的内容别吹「全自动」——拍一段「/relay 一下，第二意见带着上文进来」，更贴近真实干活。",
+    "links": [
+      {
+        "label": "Kanary Agents",
+        "url": "https://kanary.to/agents"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50106258"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "lobby-domains-chrome-ai",
+    "category": "小众工具",
+    "title": "Lobby Domains：用 Chrome 端侧模型起名，再用 RDAP 当场查能不能注册",
+    "body": "起域名常要在「想名字」和「查注册」之间来回跳。Lobby Domains 让你用几句话描述项目，在支持的桌面 Chrome 里用内置端侧模型本地生成候选，同时直接向各注册局的 RDAP 服务查是否未注册；可选 .com、.ai、.dev 等，一次最多八个后缀。收藏、对比、导出 CSV，可选把搜索快照存在本机；分享链接会带上你的简介和结果，作者写明没有应用后端和分析账号。不会的浏览器仍可只用「查域名」模式。还通过 WebMCP 把生成与校验暴露给兼容的代理。未注册只代表注册局返回未找到，保留名和溢价名仍可能买不到。你也可以设必含词、禁词和长度，把品牌约束写进生成。所以呢：讲端侧 AI 别只聊聊天——演示「名字在本机想、注册状态直连注册局」，隐私故事才站得住。",
+    "links": [
+      {
+        "label": "Lobby Domains",
+        "url": "https://lobby.domains/"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50113913"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-16",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "forwarder-static-form-credits",
+    "category": "小众工具",
+    "title": "Forwarder.cc：静态站表单直达邮箱，按封付费不订阅",
+    "body": "十二年前作者给小客户做 GitHub Pages 类静态站，总卡在「联系表单需要服务器」。他拖到今天才把 Forwarder.cc 做完：HTML 表单 action 指过去，提交就进你邮箱。计费是积分，一积分一封，五十封试用，没有订阅。适合只要留资、不想养后端的小站。他在 Show HN 上把往事讲得很实在：工程师副业做站，为了省心全静态，结果客户还是要表单。于是一个极窄工具活了下来——不做营销自动化，只做「信到邮箱」。你不用部署函数，也不用每月交套餐费，用多少买多少。对接成本低到改一行 action，特别适合作品集、个人博客和临时活动落地页。所以呢：挑工具选题时，越土的痛点越耐看——「静态站也要收信」一句话就能讲清。",
+    "links": [
+      {
+        "label": "Forwarder.cc",
+        "url": "https://forwarder.cc"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50108386"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
+    "id": "eqmini-per-app-macos",
+    "category": "小众工具",
+    "title": "eqMini：开源 Mac 均衡器，可只调某几个 App 的声音",
+    "body": "系统级均衡器常一刀切，会议和音乐一起被拧歪。eqMini 是 MIT 开源的小均衡器，要求苹果芯片和较新系统：十段均衡、简单的低音人声细节旋钮，还有给小音箱补低音谐波的模式。可选「全部音频」或「只对勾选的 App」，其它程序保持原声。不做虚拟声卡、无账号分析、不上传音频；首次启用要系统录音权限，官网说明只采声音不做屏录。菜单栏常驻，开发者签名公证，下载通过 Gatekeeper。于是你终于能只给浏览器加点暖，留给通话软件干净原声。写代码听歌、开会听语音，终于不用来回关插件。偏好都留本机，断网也能用。所以呢：音频工具也可以很小——「按应用分轨」一句话，就比又一个全家桶均衡器好讲。",
+    "links": [
+      {
+        "label": "eqMini GitHub",
+        "url": "https://github.com/elmsec/eqmini"
+      },
+      {
+        "label": "HN Show",
+        "url": "https://news.ycombinator.com/item?id=50111236"
+      }
+    ],
+    "prompt": "",
+    "date": "2026-10-15",
+    "added": "2026-10-16T15:10:00+08:00"
+  },
+  {
     "id": "into-unknown-science-agents",
     "category": "硬科技",
     "title": "开题跟进写了一百三十五篇，科学家一条条件都没全过",
