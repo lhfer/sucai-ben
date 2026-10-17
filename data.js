@@ -1,6 +1,717 @@
 window.INTEL_DATA = {
-  "updated": "2026-10-17T10:50:00+08:00",
+  "updated": "2026-10-17T15:10:00+08:00",
   "items": [
+    {
+      "id": "prompt-seedance-both-fighters-timed",
+      "category": "提示词",
+      "title": "同一场打戏写三遍：最后一版逼你给双方都写动作",
+      "body": "Devincheng（@heartbleedone）把同一场 Seedance 2.5 打戏并排放出三种写法。\n\n左边是原先十六秒的版本，中间只把每一拍压到「这一招真实需要几秒」，右边还是十秒，但多了一条硬规矩：每一拍里，攻击方和防守方各自在干什么都要写出来。成片里两个角色站在简陋棚屋里对打——锅砸锁骨、斧子砍过头顶钉进木柱、两人一起摔进泥地——右边那条明显更连贯，因为模型不再只盯着「谁打出去」，还得同时交代「另一边怎么躲、怎么起身」。\n\n他真正教的不是玄学参数，而是写提示词的分工：别只写英雄一拳打出去，对手就不能变成背景板。斧子经过头顶那半秒，她必须已经蹲到炉口高度；他拔斧甩雪，她也得正在撑地起跳。两边动作叠在同一时间轴上，镜头才不会「打空」。\n\n所以呢：写对打别只写进攻，每一拍都问一句——对面那人这半秒在干嘛？答不上来就别开生成。",
+      "links": [
+        {
+          "label": "X 原帖 @heartbleedone",
+          "url": "https://x.com/heartbleedone/status/2110700505353826800"
+        }
+      ],
+      "prompt": "Morwen and Brant fight in Morwen's Shanty at dusk, shot by shot, showing what each of them is doing all the way through:\n\n0:00–0:01.5 — Full shot, both bodies head to toe, eye level, handheld; episode opener, cutting straight into his lunge already underway. Brant in image3 is mid-lunge from the torn sacking door, body low and pitched forward, shoulder leading, axe trailing past his hip; at the same time Morwen in image2, back to the hearth with the bubbling pot gripped by its rag-wrapped handles, is already stepping sideways toward the timber post, the pot swinging up with her step, and his shoulder skims past her by a finger's width.\n0:01.5–0:02.5 — Same shot, slight push as she swings; striker, pot and collarbone in one frame. Riding that sidestep she brings the pot up to her shoulder and swings it two-handed down onto his near collarbone, while he, driving on forward, twists his head away and throws up his left arm too late; the pot lands solid first, then splits along its crack.\n0:02.5–0:03 — Medium shot, handheld. One half drops into the mud at the foot of the hearth, its curve full of bubbling black paste; black paste slops across his chest and the scald tears a howl out of him as he lurches on; she is already springing back a step toward the post, flinging the shard in her hands aside.\n0:03–0:04 — Full shot, short pan with his skid, hearth along frame left. Howling, he is carried on by the force of his charge, boots skidding through the mud the whole length of the hearth to the stove end, where his front foot digs into the mud; meanwhile she sidles along the post end of the hearth, eyes tracking him, feet shifting, hands up in front of her.\n0:04–0:05 — Full shot from waist height, the action crossing frame. That foot wheels his hips round and he whips the axe out flat, hips first, shoulders following, right arm last, a level arc at the height of her head, faster than a man that size should move; as soon as she sees him turn she is already dropping, slamming her hip against the stones at the hearth's right end and sinking, knees deeply bent, upper body upright, until her head is level with the stove's mouth; she is crouched, not lying down, not falling.\n0:05–0:05.5 — Same full shot. The blade passes above her hair, lifting a few strands, and bites into the timber post behind her exactly where her head was, chips bursting out; under it she ducks her head lower and twists her shoulders away toward the hearth, one hand pressing into the mud.\n0:05.5–0:06.5 — Same full shot, handheld. He rips the axe straight back out of the post, trailing chips and shaking snow down from the canvas roof, leaving a fresh gash; as it comes free she shoves off the mud with that hand and starts to spring up out of the crouch to slip away along the hearth, and the rip swings his whole weight down toward her as she rises.\n0:06.5–0:07.5 — Full shot, handheld; hitter and hit in one frame from contact. He turns the rip into a charge: shoulder low, rear leg driving like a wolf's pounce, he rams her from half a step and catches her halfway up; her hands slam against his shoulders, his shoulder hits her chest and belly, her feet leave the ground about a forearm high, her body folded over his shoulder.\n0:07.5–0:08 — Handheld tilt down with the fall, eye level dropping to near the ground. The two of them come down together at a slant, she flinging one arm out to catch herself, her back hitting the mud floor first at the foot of the hearth's right end, head toward the post, the half pot beside her head; mud splashes as high as the hearth's stone lip.\n0:08–0:09 — Low angle near the ground, full shot of both. His full weight lands on her chest as he heaves himself up onto her; she cries out as her ribs give and twists under him at once, kicking, both hands shoving at his chest.\n0:09–0:10 — Close shot near the ground, both faces and his left hand in frame. Growling, he bears down, axe hand swinging back toward the hearth stones, his left hand driving down onto her shoulder; she grabs his wrist with both hands and wrenches at it, her head twisting aside; he is on top, she underneath, never merged.\n\nVISUAL STYLE: Character looks and surface texture follow the reference images; art style, palette, sky and lighting follow the words on this line, and the words win where the two disagree; motion and camera movement carry natural motion blur. Art style: Realistic live-action footage: real camera optics, natural light and real skin texture; not animation rendering. Series palette: Cold desaturated slate-grey, snow-white and black-pine green dominate with low saturation and firm contrast; warm accents come only from fire, gilded mail, blood and the orange glow of coals. Time of day and light: dusk. Cold blue-grey dusk seeping through canvas seams and gaps, against the low orange glow of peat coals from the stove; deep shadows in the corners, smoke and steam in the air.\n\nENVIRONMENT LOCK: Morwen's Shanty in image1. Fixed landmarks for the whole scene: the stone hearth with the squat clay stove at frame left against the back wall, peat glowing red in its belly; the timber post standing right at the hearth's right end; the torn sacking door centre back with snow beyond. Line of action runs door to hearth; the camera stays on the open room side facing the back wall for the whole scene. Brant comes from the door end; Morwen begins with her back to the hearth front, between stove and post. Light: grey dusk through the canvas, red stove glow from the hearth at frame left. Props: cracked clay pot in image4, A round-bellied clay cooking pot with a visible crack down one side and rag-wrapped handles. Cooking pot about the width of two hands. Full of thick black bubbling tar, popping and steaming, until it splits; from then on its broken half lies in the mud, black paste bubbling in its curve. Where the shot text calls this prop by a shorter name, it means this one. Brant's battleaxe in image5, A heavy single-bitted battleaxe with a chipped, notched iron blade and a long dark ash haft wrapped in leather at the grip. Hand weapon, haft about arm's length. Where the shot text calls this prop by a shorter name, it means this one. Locks: only these two people in the shanty; one chipped battleaxe always in Brant's right fist, same length and shape, never duplicated or changing hands; one cracked clay pot, and once split its half stays in the mud at the hearth foot, paste black and bubbling, never whole again; the paste on his chest stays. The axe stays in his right fist the whole time, same length; his fist never lets go of it as it bites into the post and rips back out; the blade goes above her head, never touching her; the gash in the post stays.\n\nCHARACTER LOCK: Morwen, whose look follows Morwen in image2: Young woman in her early twenties, slight build, a little thinner; pale wind-chapped face with fine cheekbones and obsidian-grey eyes; long dark-brown hair roughly tied back; herb-stained fingers reddened by cold; costume: The old bridal linen gown worn greyed and mud-hemmed with faded brown stains, tied at the waist with cord, under the frayed wool cloak; scuffed, mud-caked leather boots. Brant, whose look follows Brant in image3: Huge man in his early thirties, very tall and heavily muscled; thick white bone spurs punched through the skin of both wrists and jutting along his jawline, dragging his lower face toward a wolf's muzzle; long yellow wolf fangs; eyes bloodshot crimson with the whites drowned; thick dark-brown beard rimed with frost; shaggy dark-brown hair; costume: Battered leather mail over wool, split open at both cuffs and at the collar where bone has pushed through; heavy belt, fur-wrapped boots. Morwen in image2 and Brant in image3 have clearly distinct looks; never draw them with the same face. Performance: [Brant] Charges blind with animal weight, every movement heavy and driving; sinks a little under the blow but keeps going; [Morwen] Moves only when he is almost on her, face set and pale; the swing comes from her whole back. At the axe: [Brant] Whole-body swing, the fastest move in the scene, the power climbing from waist to shoulder to the axe head; hair and cloak lag behind; [Morwen] Drops in a crouch with her torso upright, eyes squeezed half shut as the blade passes. Stakes: she has nothing but the pot and one chance to use it; the axe is the closest she comes to dying.\n\nCAMERA AND SOUND: Real 28mm lens throughout, one camera set-up per timed line above, cutting on the action. Sound: No one speaks anywhere in this segment. The sounds follow the action in order: his roar, the dull thud of clay landing on bone, the sharp crack of the pot splitting, the hiss of black paste against cold air; then his howl, boots skidding through slush, paste hissing on his chest; then the whoosh of the axe, the heavy thunk of the blade biting wood, the loudest sound in the scene, chips and falling snow; then the axe ripping free, the heavy thud of two bodies in mud, her cry, his growl. A low pulse runs underneath throughout and deepens at the axe; as they hit the mud a pounding drum like a racing heart kicks in, fast and heavy. Full dialogue: this segment has no dialogue; no character says anything. No speech, voice-over or humming is generated in this segment; the sounds written in the sound line (including wordless vocal sounds) do occur. No subtitles, spoken-line text, name tags, titles, watermarks, captions or explanatory text appear anywhere in the frame. Avoid: extra fingers or claws, faces drifting, the axe bending, lengthening or multiplying, bodies merging or clipping, teleporting, pointless slow motion, text or watermark, the pot breaking before it touches him. Seamless action continuity and consistent character designs throughout.",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-seoul-alley-psychic",
+      "category": "提示词",
+      "title": "首尔窄巷里她抬起掌心：六幕写死，超能力才不会乱切",
+      "body": "Saira（@AiWithSaira）用 Seedance 2.5 做了一条三十秒首尔巷战，主帖浏览很快冲到二十多万。\n\n成片顺序钉得很死：先被四个帽衫男人逼到红砖墙根发抖，再抬掌打出第一道无形冲击波，然后近景眼神从害怕变成清醒，接着快切搏斗、慢镜侧踢收尾，最后空巷里她站定，纸屑和雾还在漂。提示词里把六幕时间戳、同一套白背心牛仔短裤、同一条湿漉漉窄巷和「不许换脸换装」全写进了 CONTINUITY。\n\n巧思不在「超能力」三个字，而在把情绪拐点拆成可执行的镜头：冲击波先打脸、再给掌心特写、再开打，观众才跟得上反转。别人转载时也说，真正好用的是提示词结构，不是模型本身。\n\n所以呢：想拍「弱者反杀」，先把六幕按秒写死，再谈特效；顺序一乱，冲击波就变成糊成一团的光。",
+      "links": [
+        {
+          "label": "X 成片 @AiWithSaira",
+          "url": "https://x.com/AiWithSaira/status/2110631922959585659"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/AiWithSaira/status/2110632320399200423"
+        }
+      ],
+      "prompt": "Create a 30-second ultra-realistic Korean urban action short set in a narrow brick alley in Seoul, South Korea, filmed like a gritty live-action thriller. It must feel like a real cinematic fight scene with a supernatural twist, not a cartoon, game or anime.\n\nEXACT ORDER — 6 SCENES:\n\n0–6s — CORNERED: The same young Korean woman with long black hair is pinned against a red-brick wall in a narrow alley, head down, hair covering her face, trembling with fear. Four men in dark hoodies crowd in around her, laughing and leaning closer. The biggest man bends toward her with a cruel grin. Tight handheld close-ups.\n\n6–8s — FIRST SHOCKWAVE: She suddenly raises one palm. An invisible force ripples through the air and hits the big man's face in slow motion. His cheeks distort, water droplets burst off his skin, and the other men freeze in shock.\n\n8–12s — AWAKENING: Extreme close-up of her wide eyes, then a low-angle shot as she holds her open palm toward the camera, fear turning into focus. The blurred men stagger in the background.\n\n12–24s — THE FIGHT: Fast, clearly visible fight choreography in the alley. She runs and delivers high kicks and palm strikes, each impact releasing a translucent blue-white energy shockwave. The men are thrown back into dumpsters and walls. Paper and debris explode mid-air, mist sprays, her hair whips with the motion. Every attacker is hit in a clear, readable order.\n\n24–26s — FINAL KICK: A slow-motion side kick sends a glass-like dome shockwave through the last attacker, with floating particles and paper fragments around him.\n\n26–30s — AFTERMATH: Wide, symmetrical shot down the empty alley. She stands calm and composed, palms open, as paper, dust and light mist drift through the air under a glowing street lamp. The attackers are gone, and the alley falls silent.\n\nCONTINUITY: Same woman, same four men, same outfits throughout: she wears a white tank top, denim shorts, a small black crossbody bag and white sneakers; the men wear dark hoodies and jeans. Same alley, same dumpsters, teal garbage bags and scattered paper. No identity drift, outfit changes, disappearing props, teleporting or reordered actions.\n\nLOCATION: Narrow wet Seoul alley, red-brick walls, grey paving stones with puddles, overhead wires, old shop signs, overcast daylight. Cool teal-grey colour grade.\n\nCAMERA: Cinematic handheld, dynamic push-ins, whip pans, tracking shots, speed ramps, shallow depth of field, realistic motion blur, subtle film grain, natural skin texture. No cartoon look, no extra fingers, no face morphing, no text or watermark.\n\nSOUND: Heavy bass impact hits, air-pressure booms, whooshes, distant city ambience, light rain.\n\nFINAL FEEL: A shocking one-take-style revenge moment where a helpless woman reveals a hidden psychic power, with every scene and action clearly shown in the exact requested order.",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-roadster-swarm-shadow",
+      "category": "提示词",
+      "title": "先笑、再看见影子、最后车群砸镜头：庆祝得太早了",
+      "body": "Alex Neyef（@Alexneyef）用 Seedance 2.5 拍了十二秒荒诞片：两名军人刚把无人机打上天、还在拍肩大笑，地面突然掠过长长的影子——抬头一看，二十来辆白色 Roadster 正冲着镜头飞过来。\n\n提示词把参考图分工写得很清楚：一张锁车头长相，一张锁无人机外形，分镜板只管叙事顺序，不许把分镜纸面画风带进成片。更狠的是叙事顺序：发射已经在进行 → 短笑 → 影子扫过 → 惊恐抬头 → 看清是飞车群 → 领头车怼镜头闪黑。幽默全靠「他们庆祝得太早」，表演却要求一本正经。\n\n冷气喷口还被写成「短而持续的白气」，禁止变成火焰或魔法光带。车必须还是车，不能长翅膀。\n\n所以呢：想拍反转，先让观众跟角色一起「只看见影子」；亮牌太早，笑点就没了。",
+      "links": [
+        {
+          "label": "X 成片 @Alexneyef",
+          "url": "https://x.com/Alexneyef/status/2111246402726588764"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/Alexneyef/status/2111266657372905812"
+        }
+      ],
+      "prompt": "Create a 12-second, 16:9 photorealistic action-comedy video. This is an absurd fictional scene: two Iranian military drone operators launch a Shahed, laugh, then discover a swarm of flying Tesla Roadsters approaching their own position. A leading Roadster flies directly into the camera. The humor comes from the unexpected reveal, performed completely seriously. Immediate action, readable visual storytelling, escalating speed, a hard final impact.\n\nREFERENCE ROLES\n@Image1 = exact exterior identity of the white Tesla Roadster, especially its FRONT. Match this specific car: very low and wide angular white body, wedge-shaped hood, dark panoramic windshield, triangular recessed headlights, thin horizontal light line, black lower front fascia and normal road wheels. Preserve its proportions and face throughout. Use the image only as an object-design reference; do not reproduce the studio, black background or parked composition.\n@Image2 = exterior identity of the Shahed-136 only: the off-white delta-wing aircraft with its central fuselage, rear propeller and small vertical wingtip fins. Preserve the recognizable silhouette. Ignore the exhibition background, people, diagrams, lettering and display stand.\n = five-panel storyboard for narrative order, framing, eyelines and movement direction ONLY. Read panels 1-2-3 across the top, then 4-5 across the bottom: Shahed launch, laughter, moving shadows and upward reaction, incoming Roadster swarm, frontal approach into the lens. Convert these panels into one sequential photorealistic live-action video. Do not reproduce the storyboard sheet, split-screen layout, black-and-white drawing style, borders, panel numbers, captions, motion arrows or speed lines. Keep full-frame natural-color footage throughout. Maintain realistic materials and lighting. The outlined plumes directly under the cars in  represent actual downward cold-gas thrust from fixed underbody nozzles. Translate them into visibly forceful, short, translucent white gas jets in the photoreal video. Short refers to plume LENGTH, not a single brief appearance: lift exhaust remains visibly active throughout the airborne shots. No arrow graphics, detached motion marks or long missile-like trails. @Image1 and @Image2 define object appearance;  defines the sequence and composition. Follow the timed shots below, including the flash and cut to black after panel 5.\nThe object references are not the opening frame. Never turn the Shahed into a Tesla. The departing drone and incoming cars are separate objects.\n\nSETTING AND CONTINUITY\nAn isolated dusty military launch site in an arid landscape, low distant hills, open sky, simple utilitarian equipment and a military vehicle in the background. Clear natural afternoon daylight, neutral colors, realistic dust, fabric, skin, metal and reflections. The sun is behind the incoming direction, allowing elongated moving shadows to reach the ground ahead of the approaching cars. Keep the white cars properly exposed and recognizable.\nExactly two adult male Iranian military operators in practical olive field uniforms with small Iranian flag shoulder patches. Distinct faces, identical clothing and positions across cuts. They are military personnel, not civilians. Natural expressions and restrained acting. No dialogue, narration, captions, news graphics, subtitles or game interface.\n\nSHOT 1 — 0.00–1.20: THE LAUNCH IS ALREADY HAPPENING\nBegin in the middle of the action, without a fade or establishing pause. Ground-level medium-wide three-quarter side view. The Shahed from @Image2 is already accelerating away from the launch position in the very first frames, traveling diagonally toward the upper-left background. Its complete delta-wing outline is briefly readable against the sky. A short burst of launch smoke and dust gives immediate motion and impact. The aircraft clears the frame quickly. The two operators stand laterally away from the launch path and remain visible in the foreground. The camera reacts with one small physical shake. Do not show preparation, loading, button pressing or a countdown.\n\nSHOT 2 — 1.20–3.80: LAUGHTER, SHADOW, SILENCE\nCut to a medium two-shot of the same operators at the same site. They watch the departing drone and laugh; one briefly pats the other's shoulder. Keep this celebration short.\nBy 2.60 seconds, fast moving elongated shadows sweep over the dusty ground and across their uniforms. The laughter stops abruptly. One man notices the shadow first, lifts his eyes, then both look up toward the SAME incoming direction, slightly above and behind the camera. Their smiles collapse into unmistakable confusion and alarm. A quick glance between them, then their eyes return upward. No exaggerated screaming and no long reaction pause. Introduce a rapidly growing air-rush sound before revealing its source.\n\nSHOT 3 — 3.80–6.80: REVEAL WHAT THEY SEE\nCut along their eyeline to a low-angle wide view from the operators' position, looking toward the approaching sky. Reveal around twenty FULL-SIZE WHITE TESLA ROADSTERS matching @Image1, already flying nose-first toward this launch site. Show a loose staggered formation with distinct spacing, different distances and convincing perspective. Clearly readable car fronts, windshields and wheels; these must instantly register as actual sports cars in the air.\nOne leading Roadster is centered, several others flank it, and more are visible farther behind. All vehicles approach the camera; none fly away from it. Keep the reveal wide and readable for approximately two seconds while the formation continues advancing. Do not rush immediately into an indistinct close-up. The surprise is that the incoming objects are cars, not another group of drones.\n\nFLIGHT BEHAVIOR\nThe Roadsters remain ordinary intact cars with four normal wheels tucked close to their bodies, closed doors and dark windows. No wings, propellers, helicopter rotors, transformed panels or aircraft-car hybrids. Their fictional flight is powered by compact thrusters integrated into the underbody and rear. Two small downward-facing underbody nozzle outlets are visible from the frontal camera, fixed to the chassis inward from the wheels, as shown in . They do not emerge from tires or headlights.\nFrom the FIRST swarm reveal until the last visible frame before impact, render distinct, forceful, translucent WHITE cold-gas lift jets projecting DOWNWARD from these fixed outlets. Each jet visibly connects to its nozzle: a narrow high-pressure root opens into a short turbulent plume that quickly disperses. Plume length is approximately one quarter of that car's front width, scaled with distance. The two jets stay separate and remain clearly readable beneath the body, especially on the central lead car. Their intensity fluctuates with small stabilizing corrections while lift remains active. Show continuously flowing gas, not a static cloud attached to the car or a single puff followed by unpowered floating. Rear nozzles provide short backward-directed bursts for forward acceleration. Add subtle local air distortion. Keep the white plumes distinct from the background without covering the car. No giant rocket flames, orange fire, colored magical glow, long smoke trails, arrow shapes or pointed exhaust symbols.\nUse purposeful forward momentum and a shallow controlled descent toward the site. Small, coherent pitch and roll corrections suggest stabilization and inertia. The cars do not hover, bob like balloons, flap, somersault, spin or freeze in formation. Each has a stable rigid body, consistent size and separate trajectory. Maintain adequate spacing; no fused or intersecting vehicles.\n\nSHOT 4 — 6.80–11.20: THE CAR COMES TO US\nContinue the same camera axis into the final approach, with no reverse-angle cut. The camera is physically planted at the operators' location, facing the oncoming formation. Use a fixed moderate-wide lens. The camera does not chase the cars, retreat, orbit or create the approach through a digital zoom.\nThe centered lead Roadster accelerates straight toward the lens on a shallow descending path. Its front remains aimed at the camera. Its entire body initially fits in the frame; it then grows increasingly fast as the actual distance closes. Keep its front design locked to @Image1. Surrounding cars continue advancing through the left and right background, preserving depth and scale.\nEscalate the closing speed sharply in the last second. The white hood, triangular headlights and black lower nose become a huge frontal close-up. Edge motion blur and displaced dust intensify while the leading car's identity stays readable until the last possible frames. It must feel like a heavy full-size vehicle bearing down on the viewer. No slow motion, floaty drift or teleportation. The car does not stop, turn away, pass above the camera or safely land.\n\nSHOT 5 — 11.20–12.00: IMPACT\nThe lead Roadster's front fills and overtakes the entire image as it reaches the lens. A violent single camera jolt, a very brief bright impact flash, then an immediate hard cut to black. One deep, sharp explosive BOOM synchronized exactly with the collision, followed by a short low-frequency decay. End on black. No additional scene, aftermath, visible injuries, end card or logo animation.\n\nSOUND AND FINAL PRIORITIES\nSynchronized location sound: a brief harsh launch roar, receding drone engine, short natural laughter, sudden silence, then a growing layered rush of air and restrained mechanical thruster hiss, culminating in the impact. No music needed. Real-time motion throughout.\nPreserve this exact narrative order: launch already underway → brief laughter → moving shadow → frightened upward glance → clearly readable flying-car swarm → rapidly closing frontal Roadster → flash and black.\nThe cars are revealed by 3.80 seconds. No extra characters o   r scenes. No drone-to-car transformation. No generic replacement supercars, changing headlights, duplicated body parts, floating wheels, exaggerated facial distortion or glossy video-game rendering.",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-roadster-backflip-semi",
+      "category": "提示词",
+      "title": "Roadster 翻过半挂车：十五秒只许三刀硬切，车身不许软",
+      "body": "Zyvex（@Zyvex_0x）让 AI 做了一件事：白色 Roadster 迎着电动半挂冲过去，在撞上前用冷气喷口弹起、空中后空翻，再落在卡车正后方继续开走。\n\n提示词像直播导播手册：十五秒竖屏、四镜头、硬切死钉在 2.4 秒、6.0 秒、10.5 秒。核心规矩更烦——两车永远在高速里，不许停、不许软成橡皮、轮子不许掉；全片禁止慢动作和速度坡道；还要看起来像夜间新车发布会的真实转播裁切，而不是渲染广告。\n\n很多人只写「帅翻一个跟头」。他写的是：车必须始终是刚性物体，空翻前后速度不断档，镜头像转播机位互相切。物理锁住了，炫技才站得住。\n\n所以呢：炫技镜头先写「什么不许发生」——车一软、画面一慢，跟头就立刻变成动画片。",
+      "links": [
+        {
+          "label": "X 成片 @Zyvex_0x",
+          "url": "https://x.com/Zyvex_0x/status/2111109333664813121"
+        },
+        {
+          "label": "完整提示词回复",
+          "url": "https://x.com/Zyvex_0x/status/2111110002366681181"
+        }
+      ],
+      "prompt": "Create a native 15-second, vertical 9:16 night video, four shots with exactly three hard cuts at 2.4 s, 6.0 s and 10.5 s, in one generation. It is a vertical crop of a real live-stream broadcast of a car-launch event at night, cut between broadcast cameras. From the very first frame both vehicles are already moving very fast. It must look like real footage of a real event, not like AI, CGI or a render. No reference image.\n\nCORE RULES\nFour shots, three hard cuts. One white Tesla Roadster, one white electric semi-truck with a trailer. Both are rigid, heavy, real vehicles: they never bend, melt, morph or change shape, colour or size; all wheels stay attached. Whenever a vehicle is in frame it is moving at speed; neither ever stands still, parks or waits. The cameras, tripods and crew are never seen in any shot. No readable text, no readable screens, no logos except a small T emblem on the car's nose. Everything happens in real time at full speed: no slow motion, no slowed-down moments, no speed ramps anywhere in the video. No freezes, no slow first second.\n\nLOGLINE\nAt a night car-launch event on a closed dark road, a white Tesla Roadster at about 100 km/h and a white electric semi-truck at about 80 km/h race head-on at each other in the same lane. The Roadster never brakes on the road: a split second before the crash it jumps forward over the truck on four cold-gas jets, pops up steeply over the cab, whips through one fast full backflip in the air above the trailer, drops down on its four jets right behind the truck, lands straight on its wheels and drives straight on into the night as if nothing happened. Every movement is fast and continuous.\n\nTHE CAR\nOne white second-generation Tesla Roadster, a small two-seat hypercar, not a sedan and not a Model S: very low and short, with a long rounded nose, a tiny cabin set far back, a very short rear, only two doors, slim headlights and a full-width red light bar across the short tail, black wheels. No visible driver.\nTHE THRUSTERS: four cold-gas jets, one at each corner of the underbody, exactly like big stage CO2 cryo jets at a concert. There is no fire at all. Each jet is a soft, frosty, pale white plume with a faint cold blue tint, semi-transparent, with soft feathered edges, shaped like a narrow tapered cone that widens slightly and fades out at its end, about 2 metres long, a little longer than the car is tall. The plumes are not glowing light sources and not hard beams: they are white gas lit by the surrounding lights, slightly wavy and flickering at the edges, with a faint bluish brightness near the nozzles. The jets are fixed to the car's body: they always point straight out from the underside, so when the car tilts or turns, the four plumes tilt and turn with it. When the car is moving fast, the end of each plume smears backward into thin white vapor. Where the jets hit the asphalt they kick up huge, dense, billowing clouds of white smoke, like thick cotton balls, that roll outward and upward and are lit white by headlights and floodlights and pink-red by the red lights.\n\nTHE TRUCK\nOne plain white electric semi-truck with a rounded aerodynamic cab, a thin light bar across the front, bright headlights, amber roof lights, pulling one long plain white trailer. Dark windows, no visible driver. It drives straight down the lane at full speed the whole time and never swerves, brakes or stops. No text, no logos.\n\nSPEED, MADE VISIBLE\nBoth vehicles cover real distance every second: the Roadster about 28 metres per second, the truck about 22 metres per second, closing on each other at about 50 metres per second. Their wheels are motion-blurred discs; headlights leave short light streaks; the red ground lights whip past; tyre haze streams backward behind both vehicles.\n\nLOCATION\nA closed, straight, dark two-lane road used as a night demo track. The Roadster and the truck drive toward each other in the SAME lane, head-on, never side by side, never in parallel lanes, never in the same direction. Along both edges of the lane run long lines of small red lights at ground level that glow on the asphalt. Behind the road: black silhouettes of wooden utility poles with sagging wires, a few tall white floodlights, and distant dark spectator silhouettes behind a barrier. The asphalt is dark and worn. Haze hangs in the air.\n\nCAMERA\nShot 1, 00:00.0–00:02.4, head-on camera: a broadcast camera with a long lens low on the road shoulder about 40 metres behind the Roadster, looking straight down the lane; the Roadster races away from the camera, the truck charges toward it in the same lane; the long lens makes the crash look unavoidable.\nShot 2, 00:02.4–00:06.0, side camera: a broadcast camera about 40 metres to the side of the road at about 2 metres height, framing wide with black sky above; the road runs from LEFT to RIGHT; the truck drives LEFT, the Roadster flies RIGHT above it and lands just behind it; the operator pans RIGHT, slightly late.\nShot 3, 00:06.0–00:10.5, landing camera: a broadcast camera low at knee height on the RIGHT road shoulder about 80 metres ahead of the landing spot, looking back along the lane at the car rolling out of the landing smoke, then driving straight toward the camera and passing beside it on its LEFT, never touching it.\nShot 4, 00:10.5–00:15.0, departure camera: the same low camera after it has swung round to look down the empty road ahead, as the car drives away from it.\n\nCAMERA HAND\nNo camera equipment is visible.\n\nCAMERA MOVEMENT\nFast broadcast moves on heavy tripods: real inertia, slightly late, small overshoot and correction. Not handheld, not drone, not a render fly-through.\n\nLOOK\nReal compressed night live-stream: most of the frame is near-black; crushed blacks, soft compressed detail, strong noise and blocky compression in the dark and in the smoke, bright lights blooming and clipping to white with soft halos, heavy motion blur on everything fast; the vehicles have soft, slightly smeared edges like real low-light video. Not a clean render, no crisp CGI edges, no glossy grade.\n\nLIGHTING\nNight, only practical lights: the headlights of both vehicles, the car's red tail line, the truck's amber roof lights, the red ground lights, a few white floodlights, the soft pale-white jets under the car with a faint blue tint near the nozzles. Smoke is lit from inside by headlights and stained pink-red by the red lights. Everything else falls into black.\n\nMOTION\nReal weight and speed. When the jets fire the Roadster pops up steeply, nose high, and keeps moving forward fast; it never rises straight up on the spot and never hovers. Over the truck the rising nose keeps going over into exactly one full backflip around the car's side axis, starting above the front of the trailer and finishing just beyond its back end, completed in about 1.2 seconds, fast like a real stunt: nose up, vertical, upside down, nose down, then wheels down and level again; the rotation always finishes completely and stops exactly wheels-down before the car starts to drop; the four jets are fixed to the body and swing around with it, throwing white vapor outward in a wheel. Right after the flip it drops fast toward the road just behind the truck, level and straight; the four jets point down and blast hard at the asphalt a moment before touchdown, cushioning the impact. It lands on all four wheels together, the suspension compresses hard and rebounds once, the jets cut off, and the car keeps driving straight ahead in its lane without sliding, drifting or turning, then accelerates away. The truck rocks on its suspension as the car shoots over it and keeps going at full speed.\n\nDEFECT PREVENTION\nContinuity across the cuts: the same car, truck, smoke, red ground lights and night light in every shot; each shot continues the car's flight exactly where the previous shot ended; the car always travels in the same direction along the road.\nLanding: level, on all four wheels at once, cushioned by the four jets; it never lands on its roof, nose or side, never slides, drifts or spins after landing, never crashes, never touches the camera; it drives straight on.\nCar: one car only; always the same small two-seat Roadster, never a sedan; never duplicates, splits or morphs; wheels attached; never touches the truck.\nFlip: exactly one full backflip, 360 degrees, over the trailer; it is always completed and ends exactly wheels-down and level before the drop; the car never stays upside down or tilted; during the flip it keeps its exact shape, wheels, doors and lights, and the plumes stay pale white; it never touches the trailer.\nTruck: one truck and one trailer, always connected; drives straight at full speed; never swerves, jackknifes or deforms; clear space between its roof and the car.\nThrusters: exactly four soft, frosty, pale white cold-gas jets about 2 metres long, always all four while the car is airborne, fixed to the underside; they swing around with the car during the flip, blast down hard just before touchdown, cut off on landing and fire one last short puff in shot 4; no fire, no flames, no orange or yellow, no laser beams, no hard light columns.\nEnvironment: nothing appears or disappears; no fire, no sparks, no explosion, no crash; no people near the road.\n\nSTORYBOARD (15s, 4 shots)\n\nSHOT 1 — 00:00.0–00:02.4 (head-on camera low behind the Roadster, looking straight down the lane)\n00:00.0 — The very first frame is already pure speed: the white Roadster fills the lower part of the frame close to the camera, seen from behind, racing away at full speed, its full-width red tail line glowing, tyre haze streaming back toward the lens; two lines of red ground lights run along both lane edges and converge toward the truck; straight ahead in the same lane the white semi-truck charges toward the camera, headlights glaring and flaring, amber roof lights glowing; the gap looks only a few car lengths.\n00:00.0–00:01.2 — Both keep charging; the truck's headlights grow huge, its air horn blares; the Roadster does not brake.\n00:01.2–00:01.7 — Just before the truck's grille, all four cold-gas jets burst on under the Roadster with a loud hiss, four soft pale-white plumes blasting straight down onto the asphalt; a huge cloud of white smoke explodes off the road, lit pink-red by its tail line; its wheels leave the ground.\n00:01.7–00:02.4 — The Roadster starts to shoot up and forward toward the top of the truck's cab, its four pale white plumes pointing down and smearing back toward the camera; the truck bursts through the smoke toward the camera without slowing.\nHARD CUT at 00:02.4.\n\nSHOT 2 — 00:02.4–00:06.0 (wide side camera, the road from LEFT to RIGHT)\n00:02.4–00:03.1 — The same moment from the side, at full speed: the Roadster pops up steeply, nose high, just clearing the top of the truck's cab as the truck races LEFT beneath it; its four soft pale-white plumes blast down and back; the take-off smoke cloud billows behind the truck, lit pink-red.\n00:03.1–00:04.3 — Above the front of the long trailer the rising nose keeps going over into one fast full backflip: at 3.4 s the car is vertical, nose straight up; at 3.7 s it is upside down above the rear half of the trailer, its four plumes spraying up into the black sky; at 4.0 s it is nose down; at 4.3 s, just beyond the back of the trailer, it is back wheels-down and perfectly level, the flip fully completed; the jets swing around with the body and throw white vapor outward in a wheel; the trailer rushes LEFT underneath with clear space between them; the distant crowd screams.\n00:04.3–00:05.3 — Level and wheels-down, it drops fast and straight toward the road just behind the back of the trailer; its four jets point straight down and blast the asphalt, smoke exploding outward beneath it.\n00:05.3–00:06.0 — It lands on all four wheels at once, the suspension compresses hard and rebounds; the jets cut off; it keeps rolling straight ahead to the RIGHT in its lane out of a cloud of white smoke, lit pink-red; the truck's tail lights race away to the LEFT.\nHARD CUT at 00:06.0.\n\nSHOT 3 — 00:06.0–00:10.5 (landing camera low on the RIGHT shoulder, looking back along the lane)\n00:06.0–00:07.6 — The Roadster rolls straight out of the landing smoke cloud toward the camera, nose pointing at the camera, headlights blazing through the smoke, the cloud lit white and pink-red behind it; it is driving straight in its lane, not sliding.\n00:07.6–00:08.8 — It accelerates hard straight down the lane, smoke ripping off its body in streamers, the red ground lights streaking past it.\n00:08.8–00:10.5 — It charges toward the camera at full speed, headlights flaring in the lens, and flashes past beside the camera on its LEFT with a violent whoosh, a blur of white paint and red tail line; the smoke cloud keeps rolling far behind it.\nHARD CUT at 00:10.5.\n\nSHOT 4 — 00:10.5–00:15.0 (the same low camera, now looking down the empty road ahead)\n00:10.5–00:13.0 — The Roadster drives away fast from the camera down the dark empty road, its full-width red tail line glowing, the red ground lights running beside it into the distance, wisps of smoke still trailing off its body.\n00:13.0–00:13.6 — Far down the road, the four jets give one last short, soft puff of white vapor from under the car, like a casual exhale, then stop.\n00:13.6–00:15.0 — It keeps driving into the darkness until only its red tail line is visible far away; the smoke settles across the foreground; the last frame holds on the red tail line in the black night, echoing the first frame; the image never fades to black.\n\nSOUND\nLive event audio: a screaming electric motor whine and road roar, the truck's deep roar and long air horn, the loud sharp hiss-roar of the four cold-gas jets, a whoosh as they pass each other, a rising crowd scream during the flip, the distant crowd erupting into screams of amazement, a sharp blast of the jets just before touchdown, a heavy thump and suspension clunk on landing, a short tyre chirp, a violent whoosh past the camera, then the fading hum of the car driving away, the crowd still cheering. No music, no clear words.\n\nCONTINUITY AND REALISM\nOne car, one truck with one trailer, consistent in every shot. No text, captions or watermarks. All people are adults.\n\nFINAL FEEL\nA grainy, fast clip from a real night car-launch livestream that looks completely real and makes viewers ask whether it is AI. Not a commercial. Not a render. Not CGI. Not polished influencer content.",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-mrbean-la-getaway",
+      "category": "提示词",
+      "title": "憨豆当逃亡司机：香蕉皮、泰迪熊、火箭筒，他始终不抬头",
+      "body": "TechieSA（@TechieBySA）用 Seedance 2.5 加 GPT Image 角色卡，拍憨豆先生被三个劫匪当成逃亡司机。主帖点赞很快过六百。\n\n二十五秒里，劫匪一直在尖叫，他一只手扶方向盘，眼睛看路，仪表台上还坐着泰迪熊。警车被香蕉皮打转、备胎撞翻、扔出去的泰迪熊居然炸成烟，最后他甚至单手掏出火箭筒打直升机——全程表情像在送人上班。\n\n结构巧在「角色功能锁」：主角永远不反应，反派永远慌，警车永远是同一三辆且逐个出局，不许凭空刷新车。动作已经从第一帧开着，镜头还强制一两秒换一次角度，蓝天棕榈树始终露在背景里。\n\n所以呢：喜剧提示词先锁住「谁永远冷静、谁永远慌」，再往时间轴塞道具；顺序反了就只剩乱。",
+      "links": [
+        {
+          "label": "X 成片 @TechieBySA",
+          "url": "https://x.com/TechieBySA/status/2111053480962273760"
+        },
+        {
+          "label": "视频提示词",
+          "url": "https://x.com/TechieBySA/status/2111053498972352859"
+        }
+      ],
+      "prompt": "Cinematic anime clip, 25 seconds. Los Angeles midday, clear blue sky, bright sunshine, wide broad road, palm trees both sides, classic LA storefronts, multiple lanes, light traffic. Action already in motion from frame one.\nMAIN CHARACTER — SHORT SLIM MALE, SMALL DEEP-SET EYES, BROAD FLAT NOSE, THIN WIDE MOUTH, LARGE EARS, WEAK CHIN, BROWN TWEED JACKET, DARK TROUSERS, RED TIE: Use uploaded character sheet. Completely unbothered. One hand on wheel. Never reacts. Teddy bear on dashboard.\nROBBERS — THREE MALES, FULL BLACK, BLACK BALACLAVAS, BLACK GLOVES, LARGE STUFFED BAGS: Panicking. Screaming. Always terrified.\nPOLICE — THREE LAPD BLACK AND WHITE CARS, SIRENS BLAZING: Always directly behind. Same three cars — crash out one by one. No new cars spawning.\nHELICOPTER — LAPD helicopter tracking from above.\nAUDIO: Dramatic orchestral score, screeching tires, sirens, robbers screaming, every crash a massive impact, never dropping.\n0:00–0:01 — Wide side. Three robbers sprinting out of bank, bags bursting with cash, money flying, diving toward parked car.\n0:01–0:03 — Exterior then interior cut. Doors fly open, robbers throw themselves in. Cash exploding across seats. Robber screaming GO GO GO grabbing Bean's shoulder. Bean looks at them once. Drives.\n0:03–0:06 — Wide behind. Car accelerating hard down broad LA road. Three LAPD cars already right behind, sirens blazing, closing fast. Robbers looking back screaming. Bean eyes forward one hand on wheel.\n0:06–0:09 — Rear bumper close up. Two banana peels drop from exhaust. Wide behind — lead police car hits first peel, full spin, crashes into parked car at curb. Two police cars still behind.\n0:09–0:12 — Boot flies open. Spare tire bounces out. Low pavement — tire rolls into second police car. Car launches, flips, slides roof-first into curb. One police car left.\n0:12–0:15 — Interior. Bean reaches back, grabs teddy bear. Window down. Tosses teddy onto road behind. Wide behind — teddy lands in front of last police car. Massive explosion. Car launches into air, flips, crashes hard. Robbers frozen staring at Bean. Bean eyes on road.\n0:15–0:19 — Interior. Bean pulls out RPG from beside seat. Window down. Wide side — Bean extends RPG one-handed out window, aims at helicopter, fires without looking. Direct hit. Helicopter spinning away trailing smoke. Robbers completely silent. Bean adjusts mirror.\n0:19–0:23 — Wide side. One gap between parked cars ahead. Bean accelerates toward it. Low side — car drifts hard right from full speed, tires screaming, slides perfectly into gap. Engine off.\n0:23–0:25 — Wide side. Police cars scream past without seeing them. Done.\nCinematic cel-shaded 3D anime, semi-realistic CGI, Unreal Engine quality, LA midday clear blue sky same broad road throughout, palm trees both sides, bold flat color blocking, hard edge shadows, thick black outlines, vibrant saturated colors, film grain, orchestral score screeching tires sirens crashes never dropping, main character always brown tweed jacket red tie unbothered one hand on wheel, robbers always full black always screaming, police always LAPD black and white always directly behind never spawning new cars, teddy bear on dashboard until thrown, CRITICAL cycle quick angles every 1-2 seconds — wide behind, low pavement, rear bumper, interior, above, close up — clear blue sky and palm trees always visible.",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-mrbean-neo-london",
+      "category": "提示词",
+      "title": "伦敦街上 Neo 怎么冲都打不中：泰迪熊一举他就刹停",
+      "body": "同一作者又把憨豆扔进伦敦正午大街，对面冲来穿风衣墨镜的 Neo。\n\n二十秒全是「已经开打」的状态：推车、泡沫灭火器、泰迪熊对峙、水桶、雨伞、最后误发射筒把 Neo 轰到街尽头。关键锁死两条性格——A 永远慢半拍、被冒犯、事后还整理领带；B 永远全力冲刺却一拳打不中。镜头还必须同时框住两人，蓝天一直露在画面上方。\n\n这不是又一条 IP 混搭，而是把「打不中的高手」写成可执行的节拍表。灭火器泡沫、泰迪熊停战那一秒，全是用道具制造的喜剧停顿，而不是靠旁白解释。观众一眼就能看懂：不是他变弱了，是世界不肯配合他的节奏。\n\n所以呢：想拍「高手翻车」，别写他突然变笨，写他每一次出手都完美，偏偏世界跟他对不上拍。",
+      "links": [
+        {
+          "label": "视频提示词 @TechieBySA",
+          "url": "https://x.com/TechieBySA/status/2111167669374513632"
+        },
+        {
+          "label": "对战角色卡",
+          "url": "https://x.com/TechieBySA/status/2111167663778959482"
+        }
+      ],
+      "prompt": "Cinematic anime clip, 20 seconds. London midday, clear blue sky, bright sunshine, wide open street, red double-decker buses both sides, black iron lampposts, classic brick buildings, cobblestone pavement. Chaos already in motion from frame one.\nCHARACTER A — SHORT SLIM MALE, SMALL DEEP-SET EYES, BROAD FLAT NOSE, THIN WIDE MOUTH, LARGE EARS, WEAK CHIN, BROWN TWEED JACKET, DARK TROUSERS, RED TIE: Use uploaded character sheet. Unaware he is in a fight. Panicked, confused, offended. Always one beat too late.\nCHARACTER B — TALL LEAN MALE, BLACK LONG TRENCH COAT, BLACK SUNGLASSES, BLACK BOOTS: Charging full speed at A every time. Dodging everything in slow motion. Cannot land a single hit.\nAUDIO: Dramatic orchestral score, comedic thuds, crowd gasping, pigeons scattering, never dropping.\n0:00–0:02 — Behind A. B sprints straight at A. A panics, shoves trolley forward. B leaps over it in slow motion. Trolley smashes lamppost.\n0:02–0:04 — Left side. B charges. A grabs fire extinguisher, pulls pin by accident. Foam everywhere. B runs blind into bus. Slides down slowly.\n0:04–0:06 — Right side. B charges again. A holds up teddy bear. B stops dead one inch away. Long silence.\n0:06–0:08 — Close up face. A lowers teddy bear. Offended it worked. Tucks it back carefully.\n0:08–0:10 — Behind right shoulder. B charges. A trips, accidentally swings bucket of water into B's face. B soaking wet. Sunglasses dripping.\n0:10–0:12 — Left side. B wipes sunglasses, charges. A snaps umbrella open into B's face. B's head snaps back. Umbrella inside out. A inspects it annoyed.\n0:12–0:14 — Behind. B rising. A standing over him by accident, examining broken umbrella, not noticing B.\n0:14–0:17 — Wide right side. B slowly rising furious. A rummages in trolley. Pulls out rocket launcher. Holds it backwards. Turns it around. Accidentally fires. B launches down entire street like a ragdoll. Huge explosion at far end. A puts launcher back unbothered.\n0:17–0:18 — Close up face. A straightens tie. Looks around. Unsatisfied.\n0:18–0:20 — Wide above. Foam everywhere, trolley on side, smoke from far end, B a tiny smoking dot in the distance. A standing dead center. Done.\nCinematic cel-shaded 3D anime, semi-realistic CGI, Unreal Engine quality, London midday clear blue sky same street throughout, bold flat color blocking, hard edge shadows, thick black outlines, film grain, orchestral score comedic thuds never dropping, A always brown tweed jacket red tie unaware unbothered, B always black trench coat sunglasses charging full speed never landing a hit, CRITICAL camera always shows both A and B in same frame, clear blue sky always visible above.",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-redbull-neo-brutal",
+      "category": "提示词",
+      "title": "红牛海报不要仓库背景：几何色块本身就是场景",
+      "body": "Murphy（@Diplomeme）分享了一条给 GPT Image 2.5 的红牛海报词，主题叫新粗野主义撞能量饮料。\n\n他不许模型去画仓库、水泥墙或烟雾闪电，而是要求整张海报由钴蓝、信号红、工业黑和白色色块咬合而成；罐子必须占画面高度一半以上，真实冷凝水珠还在，标题 “UNLEASH THE VOLTAGE.” 被拆成巨大色块里的结构零件。负面约束写得很凶：不要场景、不要假 logo、不要重复罐体。\n\n普通人常把「炫」理解成多加特效。这条词反过来——背景越空成色块，产品摄影越像广告公司终稿。品牌色被当成排版系统，而不是贴纸。把这句话留给做海报的人就够用了。\n\n所以呢：下次做产品海报，先删掉「酷炫环境」三个字，问一句——没有仓库，只用色块和字，还能不能站住？",
+      "links": [
+        {
+          "label": "X 原帖 @Diplomeme",
+          "url": "https://x.com/Diplomeme/status/2110692363022827617"
+        },
+        {
+          "label": "完整提示词评论",
+          "url": "https://x.com/Diplomeme/status/2110692413836775766"
+        }
+      ],
+      "prompt": "RED BULL — “UNLEASH THE VOLTAGE”\nNEO-BRUTALIST INDUSTRIAL CHAOS CAMPAIGN\n\n4:5 vertical advertising poster, ultra-high resolution, 8K-quality detail, premium global FMCG campaign, agency-level graphic design, photorealistic commercial product photography fused with experimental neo-brutalist editorial design.\n\nCORE CREATIVE IDEA:\nTransform Red Bull’s recognizable energy drink identity into an aggressive neo-brutalist graphic composition. The visual impact must come from typography, geometric color fields, sharp edges, extreme scale contrasts, and product photography—not from a decorative environment or cinematic background. The poster itself is the design system.\n\nVISUAL SYSTEM:\nUse an intentional, flat graphic composition built from oversized cobalt-blue panels, signal-red diagonal shapes, industrial-black blocks, crisp white fields, and selective yellow accents. Every shape must serve a clear compositional purpose. Use asymmetric divisions, overlapping rectangular planes, abrupt geometric transitions, visible alignment grids, registration marks, thin technical rules, measurement ticks, and restrained industrial annotations. The result must feel like experimental Swiss editorial design colliding with contemporary sports advertising.\n\nBACKGROUND AND COMPOSITION:\nNO CONVENTIONAL BACKGROUND. NO INDUSTRIAL WAREHOUSE. NO CONCRETE WALLS. NO DARK CINEMATIC ENVIRONMENT. Build the entire canvas from bold, flat, interlocking geometric color fields. Create a strong diagonal blue panel across the upper portion, an expansive white typographic field on the left, sharply defined black shapes through the center, and saturated red and blue geometric blocks toward the right. Introduce yellow as a deliberate accent rather than a dominant background. Maintain clean edges, intentional overlaps, and a sophisticated graphic grid. No gradients or atmospheric scenery.\n\nHERO PRODUCT:\nOne oversized, photorealistic Red Bull Energy Drink can positioned centrally, slightly toward the right, tilted at a controlled diagonal. The can should occupy approximately 55–65% of the poster height and visually overlap the surrounding typography and geometric panels. Preserve authentic slim aluminum proportions, silver body, blue packaging sections, original red-and-yellow twin-bull emblem, Red Bull wordmark, and recognizable label layout. Render realistic aluminum reflections, fine condensation droplets, crisp edges, accurate perspective, and physically believable highlights. The can must remain the unmistakable focal point.\n\nTYPOGRAPHY SYSTEM:\nUse extremely oversized, extra-bold condensed sans-serif typography, comparable to premium sports-editorial display lettering. The headline must become a structural element of the poster.\n\nPrimary headline: “UNLEASH THE VOLTAGE.”\n\nSplit the headline into oversized typographic fragments across the left, center, and lower portions of the composition. Allow deliberate edge cropping and controlled overlap behind the can. Use white lettering on black or blue panels and black lettering on white fields. Keep the lettering exceptionally bold, tightly spaced, and sharply aligned. The headline should feel monumental, not like ordinary centered advertising copy.\n\nSecondary copy:\n“GIVES YOU WIIINGS.®”\n“RED BULL ENERGY DRINK”\n“MORE ENERGY. MORE FOCUS.”\n\nUse restrained microtypography for technical labels, small numeric identifiers, alignment markers, and editorial annotations. Ensure all important text remains readable and correctly spelled.\n\nBRAND INTEGRITY:\nPreserve Red Bull’s recognizable corporate identity and original can design. Keep the twin-bull emblem and yellow sun accurate in appearance. Do not recolor, distort, reinterpret, or replace the official logo. Use the brand’s blue, red, yellow, black, and white palette as the foundation of the surrounding graphic system. No invented sub-brand or altered packaging.\n\nGRAPHIC DETAILS:\nIntegrate precise grid intersections, thin white or black rules, tiny registration crosses, geometric number panels, barcode-like linear graphics, diagonal stripes, and sparse technical markings. Use a restrained amount of print grain and subtle surface texture within selected graphic areas. Keep all graphic details subordinate to the product and headline. Every element must appear intentionally art-directed.\n\nPRODUCT LIGHTING AND PHOTOGRAPHY:\nHigh-end studio product photography with controlled frontal illumination, narrow specular highlights, crisp silver reflections, realistic condensation, and a subtle contact shadow. Maintain strong separation between the physical can and the flat graphic elements. Premium commercial sharpness, realistic materials, accurate proportions, clean reflections, and natural product depth. The product should look photographed, not illustrated or cheaply rendered in 3D.\n\nVISUAL HIERARCHY:\n\n1. Oversized Red Bull can.\n2. Monumental “UNLEASH THE VOLTAGE.” typography.\n3. Authentic Red Bull logo and packaging.\n4. Geometric color blocks and technical graphics.\n5. Supporting campaign copy and microtypography.\n\nART DIRECTION:\nNeo-brutalist graphic design, Swiss editorial grid disruption, experimental typographic poster, bold FMCG advertising, flat geometric composition, high-contrast corporate color blocking, premium commercial product photography, deliberate asymmetry, sharp visual hierarchy, and controlled graphic chaos.\n\nNEGATIVE CONSTRAINTS:\nNo warehouse, no factory, no concrete architecture, no industrial scenery, no atmospheric background, no smoke, no sparks, no lightning effects, no floating debris, no random 3D shapes, no decorative gradients, no excessive grunge, no generic futuristic interface, no cluttered collage, no illegible headline, no incorrect branding, no duplicate cans, no distorted packaging, no fake logos, no watermarks.\n\nFINAL RESULT:\nA striking, print-ready neo-brutalist Red Bull advertising poster in which the graphic design is the environment. Bold, precise, visually disruptive, commercially polished, product-accurate, and instantly recognizable as a premium energy drink campaign.",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-bakso-food-ad",
+      "category": "提示词",
+      "title": "三十五秒肉丸广告：红墨镜女主锁死，蒸汽和浇汤各占一幕",
+      "body": "Dua Fatima（@DuaFatimaAi）放出一条印尼肉丸店广告提示词，主帖收藏上百。流程是先上传人物图，再粘贴整段词去生成。\n\n三十五秒拆成城市航拍、店招亮相、面条特写、巨型肉丸慢镜、转盘展示、品尝表情、俯拍浇汤，最后红底品牌卡。女主红墨镜和黑金衣服被反复要求「全程同一人」，食品侧则盯着蒸汽、高光汤汁和不许变形的筷子。\n\n这对做本地餐饮短视频的人很直接：不必先拍真厨房，也能用「场景功能表」把食欲镜头排进时间轴。结尾品牌卡和下单按钮也写进了提示词，省掉后期贴字的一步。观众看完能复述镜头清单，这条素材才站得住。\n\n所以呢：美食广告别从「很好吃」起笔，先列八个必须看见的镜头；缺蒸汽、缺浇汤，食欲就掉一半。",
+      "links": [
+        {
+          "label": "X 原帖 @DuaFatimaAi",
+          "url": "https://x.com/DuaFatimaAi/status/2110532037027459074"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/DuaFatimaAi/status/2110532041381212269"
+        }
+      ],
+      "prompt": "Create a 35-second ultra-realistic cinematic food commercial for a premium Indonesian meatball restaurant called “Bakso Urat Madam.” Use a stylish young woman wearing elegant black-and-gold patterned clothing and bold red sunglasses as the main character. Maintain consistent facial features, hairstyle, outfit, and accessories throughout the video.\n\nScene 1 — City Introduction (0–3 seconds):\nBegin with a cinematic aerial view of a busy modern Indonesian city street, featuring tall buildings, moving vehicles, and vibrant urban life. Use a smooth camera movement transitioning toward a popular local restaurant.\n\nScene 2 — Restaurant Entrance (3–6 seconds):\nShow the restaurant exterior with a prominent red sign displaying “Bakso Urat Madam.” The stylish woman sits at a table in front of the restaurant, confidently presenting a bowl of delicious Indonesian meatball soup. Use warm lighting and an inviting atmosphere.\n\nScene 3 — Food Beauty Shots (6–12 seconds):\nCreate extreme close-up shots of steaming Indonesian bakso meatballs served with noodles in a rich, flavorful broth. Show glossy noodles being lifted with chopsticks, delicious meatballs, fresh green herbs, crispy toppings, and realistic steam rising from the bowl. Use macro cinematography and shallow depth of field.\n\nScene 4 — Signature Meatball Close-Up (12–20 seconds):\nShow an oversized, juicy Indonesian beef meatball being lifted slowly with a spoon. Capture its detailed, textured surface, rich brown color, and moist interior. Add dramatic warm highlights and slow-motion food photography. Make the meatball look incredibly appetizing and realistic.\n\nScene 5 — Premium Food Presentation (20–24 seconds):\nShow a beautifully arranged bowl of bakso with several meatballs, noodles, fresh vegetables, and garnishes. Use a smooth rotating camera movement around the bowl, highlighting the restaurant's signature dish.\n\nScene 6 — Tasting Moment (24–29 seconds):\nCut to the woman wearing red sunglasses as she lifts a spoonful of noodles and meatball soup toward her mouth. She tastes the food naturally, smiles with satisfaction, and expresses genuine enjoyment. Use cinematic close-ups and realistic facial expressions.\n\nScene 7 — Overhead Food Shot (29–33 seconds):\nShow a perfectly arranged bowl of Indonesian bakso from directly above on a rich red tablecloth. Transition to a close-up of hot broth being poured over the meatballs and noodles. Capture the liquid movement, steam, and appetizing textures in stunning detail.\n\nScene 8 — Brand End Card (33–35 seconds):\nFinish with a clean, elegant red promotional screen featuring the restaurant name “BAKSO URAT MADAM” in bold white typography, with a small crown icon above the brand name. Include a premium restaurant-advertising aesthetic and a simple call-to-action button reading “PESAN SEKARANG.”\n\n🎥 Visual Style & Technical Details\n\nStyle: Ultra-realistic cinematic food commercial.\n\nAspect Ratio: 9:16 vertical video.\n\nResolution: 4K quality.\n\nCamera: Smooth tracking shots, macro close-ups, overhead shots, and slow-motion food photography.\n\nLighting: Warm restaurant lighting with rich reds, golden highlights, and natural shadows.\n\nFood Details: Realistic steam, glossy broth, juicy meatballs, detailed noodles, and appetizing textures.\n\nCharacter Consistency: Preserve the same woman's face, red sunglasses, hairstyle, and black-and-gold outfit in every scene.\n\nTransitions: Smooth cinematic cuts synchronized with the music.\n\nAudio: Upbeat Indonesian commercial music with subtle restaurant ambience and realistic food-serving sounds.\n\nQuality Control: No distorted hands, duplicated food, unnatural facial movements, flickering objects, or misspelled brand text.\n\nFinal Goal: Produce a premium, mouthwatering restaurant advertisement that combines stylish character shots, cinematic food photography, and strong brand identity.",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-hiking-boots-hijab",
+      "category": "提示词",
+      "title": "从月台走到森林：登山靴广告七幕，头巾和鞋型全程不许漂",
+      "body": "同一作者另一条户外靴广告词：头戴黑色头巾和棒球帽的女生，先在列车月台亮相，再切到雾气森林和岩石山路，中间夹着鞋面微距、慢旋产品特写和落日人像收尾。\n\n提示词把「身份锁」写进重要段：脸、米色外套、黑头巾、耳机、登山靴外形全程一致；负面提示专门防头巾消失、鞋形扭曲、多出来的手指。场景从城市到山野，靠的是靴底抓地细节一路跟着走，而不是换模特重拍。\n\n对做服饰垂类的人，这比空喊「电影感」管用——先锁穿戴物，再换环境，成片才像同一条广告而不是拼贴。身份锁写清楚，后面换多少风景都不怕。\n\n所以呢：服饰广告先写「哪五件衣服不许变」，再写风景；风景再美，鞋一漂就全废。",
+      "links": [
+        {
+          "label": "X 原帖 @DuaFatimaAi",
+          "url": "https://x.com/DuaFatimaAi/status/2110688850054111574"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/DuaFatimaAi/status/2110688855632593063"
+        }
+      ],
+      "prompt": "Ultra-realistic cinematic outdoor adventure footwear commercial, vertical 9:16 format, premium sports brand advertisement.\n\nA beautiful young woman wearing a beige outdoor adventure jacket, black hijab, dark baseball cap, and over-ear headphones stands on a modern train platform beside a train. She wears rugged beige hiking boots with bold orange accents and thick, durable soles. The opening shot captures her natural pose beside the train, followed by cinematic close-ups of her boots, highlighting the premium materials, orange detailing, laces, rugged tread, and outdoor-ready construction.\n\nScene 1 — Urban Introduction:\nA cinematic medium shot of the woman standing beside a modern train. Soft natural daylight, realistic reflections on the train windows, subtle camera movement, authentic urban atmosphere, and premium fashion-advertisement aesthetics.\n\nScene 2 — Product Detail:\nExtreme macro close-ups of the hiking boots as she walks. Focus on the textured fabric, orange branding, reinforced toe protection, detailed laces, and rugged outsole. Smooth tracking shots, shallow depth of field, crisp material details, and professional product lighting.\n\nScene 3 — Forest Adventure:\nTransition into a lush, misty forest with towering trees, moss-covered rocks, and soft sunlight filtering through the canopy. The woman hikes confidently along a natural trail. Low-angle shots emphasize the boots gripping the uneven ground, stepping over roots and rocks, demonstrating durability and traction.\n\nScene 4 — Mountain Exploration:\nThe woman climbs a rugged mountain trail, carefully placing her boots against rocky surfaces. Wide cinematic shots reveal breathtaking mountain peaks and distant valleys. Close-up shots show the boots gripping rough terrain as she moves naturally and confidently.\n\nScene 5 — Dynamic Product Showcase:\nA dramatic slow-motion shot of a hiking boot suspended against a dark, rocky background, surrounded by floating dust, tiny stones, and subtle particles. The boot rotates slowly, revealing its orange accents, textured upper, reinforced sole, and rugged tread. High-end commercial lighting creates dramatic highlights and deep shadows.\n\nScene 6 — Premium Hero Shot:\nAn extreme close-up of the hiking boot resting on a rocky surface. The camera slowly pushes toward the orange details and textured materials. Clean composition, sharp focus, dramatic lighting, and a premium outdoor brand aesthetic.\n\nScene 7 — Emotional Closing:\nThe woman sits peacefully on a fallen tree in a beautiful forest, enjoying the quiet atmosphere after her adventure. Natural sunlight illuminates her face as she smiles gently. Finish with a beautiful close-up portrait and a polished commercial ending.\n\nVisual Style: Photorealistic, 4K cinematic quality, professional outdoor footwear advertising, realistic skin texture, detailed fabric and footwear materials, natural body movements, smooth camera transitions, macro product photography, atmospheric lighting, realistic shadows, rich environmental detail, shallow depth of field, and premium color grading.\n\nCamera Direction: Smooth tracking shots, low-angle footwear shots, extreme macro close-ups, cinematic wide shots, slow-motion product reveals, gentle camera orbits, and controlled dolly movements.\n\nAudio: Soft cinematic ambient music, subtle train station ambience, realistic footsteps, forest birds, gentle wind, and atmospheric adventure sound design.\n\nNegative Prompt: Cartoon, anime, low resolution, blurry details, distorted footwear, deformed hands, extra fingers, unnatural walking, inconsistent clothing, changing face, disappearing hijab, floating objects, unrealistic shadows, excessive motion blur, flickering, and visual artifacts.\n\nImportant: Keep the woman's face, beige outfit, black hijab, cap, headphones, and hiking boots visually consistent throughout the video. Maintain realistic anatomy, natural movements, and accurate footwear proportions.",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-nike-yellow-run",
+      "category": "提示词",
+      "title": "黄运动服跑进云上体育场：耐克广告词把产品色写成主角",
+      "body": "周六早上，Dua Fatima 又丢出一条耐克跑鞋广告提示词：亮黄运动服配绿粉钩子跑鞋，开场居然是飞机舷窗外漂在云上的巨型体育场，再落到标准跑道开跑。\n\n词里反复强调鞋侧钩子、鞋底缓震和服装条纹的一致性，还要求真实物理、竖屏大约四十秒。它和她前几天的肉丸、登山靴词是同一套路——上传参考图、粘贴分镜化广告词——区别在于开场用超现实场景抢三秒停留，后半段再回到可相信的跑步动作。\n\n做运动品牌二创时，很多人一上来就写「运动员在城市奔跑」。她先用不可能的云上体育场抓住眼球，再用产品特写把广告收回地面。钩子和鞋底必须成为记忆点，不能只当配角。\n\n所以呢：产品广告可以先甩一个不合理开场，但第三秒之后必须让观众看清鞋——看不清钩子，就只是特效片。",
+      "links": [
+        {
+          "label": "X 原帖 @DuaFatimaAi",
+          "url": "https://x.com/DuaFatimaAi/status/2111251922783273208"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/DuaFatimaAi/status/2111251926159597746"
+        }
+      ],
+      "prompt": "Create a cinematic, ultra-realistic Nike running shoe commercial featuring an athletic young woman wearing a bright yellow tracksuit with white stripes and matching yellow Nike running shoes with green swooshes and pink accents.\n\nThe video opens with a breathtaking aerial view of a massive athletics stadium floating above the clouds, viewed through an aircraft window. Transition smoothly into a professional running track under a bright blue sky with dramatic clouds.\n\nShow the athlete crouching at the starting line, confidently preparing to sprint. Capture dynamic low-angle shots, close-ups of her running shoes touching the track, and powerful slow-motion footage as she accelerates forward. Include detailed macro shots of the shoe's cushioning, colorful midsole, textured outsole, and premium materials.\n\nCut to sweeping aerial shots of the stadium, showcasing the running track and empty grandstands. Feature the athlete sprinting at full speed with realistic body movements, natural fabric motion, and cinematic tracking shots. Include floating product shots of the yellow running shoes against a clean, minimalist background, rotating smoothly to reveal every detail.\n\nUse golden sunlight, realistic shadows, crisp textures, premium sports advertising aesthetics, dynamic camera movements, shallow depth of field, smooth transitions, and photorealistic 4K quality.\n\nText overlays:\n\n\"OWN THE TRACK\"\n\n\"BUILT FOR MORE\"\n\n\"JUST DO IT.\"\n\nEnding: Show the athlete standing confidently on the running track at sunset, facing the stadium as warm golden light fills the scene. Display the iconic Nike Swoosh and the words \"JUST DO IT.\"\n\nStyle: High-end sports commercial, photorealistic visuals, cinematic lighting, premium product photography, energetic atmosphere, smooth slow motion, realistic physics, vertical 9:16 format, approximately 40 seconds.",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-sadia-orb-asphalt",
+      "category": "提示词",
+      "title": "柏油路上她抠出铸铁球：按秒写镜头，车顶高度当尺子",
+      "body": "知白（@McporFe）重制了 @SadiaMalik182 的 Seedance 片段：灰帽衫女孩趴在裂纹柏油路上，抠起一颗接缝发光的铸铁球，身后停着银色轿车。\n\n提示词用 [SHOTS] 把每一镜写成「时长｜机位｜人物位置｜背景参照」。第一镜就规定轿车车顶必须高于她趴着的身体，井盖在路边——这些看似废话的尺子，其实是在防模型把人「吸」进车底或漂起来。后面动作跟着球的发光缝走，而不是空喊「很燃」。\n\n重制帖明确写了 Seedance 2.0 仍能稳住，说明结构比追最新版本号更重要。参照物写进词里，比事后重滚便宜得多。你甚至能把同一套尺子搬去别的地面追逐戏。\n\n所以呢：地面戏先找一件「高度参照物」写进词里，人物远近才不会忽大忽小。",
+      "links": [
+        {
+          "label": "X 成片 @McporFe",
+          "url": "https://x.com/McporFe/status/2111066665006043247"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/McporFe/status/2111067195832943055"
+        }
+      ],
+      "prompt": "[SHOTS]\nP01 (0–2.0s) | Ground-level close-up: she grabs a cast-iron orb, its seams light up\nCamera skims the asphalt, low angle, close-up. C1 Sadia lies on cracked asphalt, center-upper frame: fair skin, oval face, gray hoodie with the hood up, teeth gritted as she crawls forward. Behind her on the right, a blurred silver sedan is parked at the curb, its roof higher than her prone body; a round manhole cover sits on the road beside her. A fist-sized cast-iron orb rolls in from frame left and stops by her hand, orange light glowing through its seams, humming. She reaches out with her right hand and grabs it; the orange seams flare, lighting her fingers and terrified face.\nLow hum of the orb, her rapid breathing.\n\nP02 (2.0–4.0s) | Ground-level medium shot: steel cables shoot out and drag the manhole cover onto her chest\nHard cut. Camera at ground level, in front of her and slightly right, medium shot. She rises to her knees, right hand raising the glowing orb; dozens of thin black steel cables whip out of its seams like hooked ropes, flinging outward. Several cables hook the rim of the manhole cover beside her, snap taut, rip it off the ground and slam it onto her chest with a clang and a burst of orange sparks, knocking her upper body back. Other cables drag scattered bolts and steel plate fragments across the road, sparking against the asphalt, wrapping coil after coil around her right forearm into a crude arm guard. She throws her head back and screams. She is still human-sized; the sedan behind her is taller than her. From here on, the manhole cover stays on her chest.\nWhoosh of cables firing, hum of cables pulling taut, clang of the manhole cover, metal scraping across asphalt, her scream.\n\nP03 (4.0–5.6s) | Face close-up: cables pull two steel plates into a mask, orange light behind the slit\nHard cut. Camera directly in front of her, facial close-up. Her face centered, fair skin, eyes wide, mouth open, gasping; the rim of the manhole cover at the bottom of frame. Two taut cables pull two old painted steel plates in from frame left and right; they slam together in front of her face with a clang and a shower of sparks, forming a mask. A horizontal slit remains in the middle, showing her eyes, sparks reflected in them; the cables retract, the slit clicks shut, and an orange light ignites behind it. From here on, her face is no longer visible.\nClang of plates closing, crackle of sparks, her scream muffled, a low hum.\n\nP04 (5.6–8.6s) | Wide street shot: cables drag in metal from the whole street, she grows taller piece by piece\nHard cut. Camera on the street, low angle, wide shot at a fixed distance from her and the sedan. One continuous take, no cuts, one single action: cables drag metal pieces in one by one and attach them to her, and she grows with each one. The silver sedan stays parked at frame right as a size reference; the cables do not touch it. A few pedestrians stand nearby. At the start she stands up, human height, manhole cover on her chest, orange-glowing steel mask on her face, cables stretched taut from her body. The black iron railing along the left sidewalk gets hooked and torn out of the ground section by section, dragged screeching across the asphalt leaving sparks and white scrape marks, bending as it clamps around her arms and legs. A streetlight pole behind the railing is bent by several cables, snaps with a crack, and the lamp head with a length of pole is yanked over and fitted onto her head. With each piece attached she grows taller in a jolt, sparks bursting at the seams, cables winding tight: her head first rises above the sedan roof, then stops at more than twice the roof height. The asphalt beneath her cracks outward radially; the pedestrians back away, then turn and flee toward frame left. From here on she stays about 4 meters tall.\nHum of taut cables, shriek of snapping metal, harsh scraping, creak of the bending streetlight pole, heavy clang after clang, sharp crack of splitting asphalt, pedestrians gasping.\n\nP05 (8.6–10.2s) | Low-angle medium shot: steam vents, the street-metal mech rises\nHard cut. Camera on the ground in front of her, low-angle upward shot, medium. The mech that C1 Sadia has become kneels on one knee; white steam hisses out of its seams, rust and dust trickle off its body, slack cables tighten and coil back onto it one by one. Its form is now clear: the round cast-iron manhole cover is its chest, bent black iron railings form its ribs and arm shells, stacked old painted steel plates are its shoulder armor, taut black cables bind the parts together, thick bolts at the joints. It pushes off its knee and stands upright; the broken streetlight head on its head hums on with an orange light, becoming its single eye. The top of its head is more than twice as high as the sedan roof in frame.\nHiss of steam, creak of cables tightening, heavy groan of metal joints, hum of the eye lighting up.\n\nP06 (10.2–12.8s) | Low-angle extreme wide shot: the mech lifts the sedan with both hands and hurls it right\nHard cut. Camera on the street, low-angle upward shot, extreme wide, sun backlighting between the towers. The street-metal mech stands mid-street, about 4 meters tall, more than twice the height of the silver sedan's roof beside it, single eye glowing orange, manhole-cover chest giving a matte sheen. Pedestrians flee past its feet toward frame left and toward camera. It takes a step and the road cracks underfoot; it bends down and grips the sedan from both sides with both hands, its railing fingers sinking into the body, the roof caving in, windows bursting with a bang. It lifts the whole car overhead, turns and flings it toward frame right; the sedan tumbles through the air and flies out of frame right. Gray-white dust kicks up at its feet. From here on its hands are empty and the car is gone from the street.\nHeavy footfall, crunch of the roof caving in, windows bursting, a distant crash as the sedan lands off frame right, pedestrians screaming.\n\nP07 (12.8–14.0s) | Frontal wide shot: the mech stands in the dust\nHard cut. Camera on the street, directly in front of the mech, low-angle wide shot. The mech centered, about 4 meters tall, arms hanging at its sides, standing tall; thin steam still rising from its seams, its orange eye glowing through the dust; a ring of gray-white dust spreads outward from its feet; a few pedestrians frozen at a distance only reach its knees.\nHiss of steam, rolling dust.\n\nP08 (14–15s) | Closing extreme wide shot: tilt up from the dust to the towers and the sun\nCamera on the street, starting on gray-white dust churning at ground level, tilting up past tall glass curtain-wall towers on both sides, settling on the harsh sun between the buildings. Extreme wide shot.\nDistant sirens, dust settling.",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-seedance-lava-atv-jump",
+      "category": "提示词",
+      "title": "熔岩夜路骑全地形车：两秒地裂，再冲玄武岩坡起飞",
+      "body": "ArgoLink 账号（@patp1111）放了一条十五秒火山夜骑：防火服车手骑全地形车掠过熔岩河，低角度跟拍轮子溅出火星，约两秒处地面裂开喷浆，再冲上玄武岩坡腾空跃过裂缝。\n\n词不长，但时间点清楚——「两秒标记」把地裂钉死，起飞前有坡道，灰烬粒子和动态机位写在结尾。它适合当「短词也能成片」的对照：不必篇篇万字，只要关键节拍和材质还在。\n\n和装甲车逃火山那类长词比，这条更像广告预告片节奏：先材质，再灾难，再跳跃。锚点一写死，短词也能撑起高潮。普通人改着用时，只要换载具和地面灾害类型即可。\n\n所以呢：短提示词也要有一个「必须在第几秒发生」的锚点；没有锚点，熔岩就只会在背景里瞎亮。",
+      "links": [
+        {
+          "label": "X 成片 @patp1111",
+          "url": "https://x.com/patp1111/status/2110989740107501724"
+        },
+        {
+          "label": "完整提示词",
+          "url": "https://x.com/patp1111/status/2110990125496975872"
+        }
+      ],
+      "prompt": "A desert racer wearing a fireproof suit and dust goggles speeds across a volcanic lava field at night on an ATV.\n\nBright orange lava rivers glow between black volcanic rocks as ash drifts through the air.\n\nA low-angle camera tracks the spinning wheels, sending glowing embers flying.\n\nAt the 2-second mark, the ground cracks open and lava erupts from the fissures.\n\nThe rider accelerates up a natural basalt ramp, launches into the air, and jumps across a flowing lava river.\n\nThe ATV lands on a distant ridge as the volcano erupts dramatically behind the rider.\n\nCinematic stunt action, realistic physics, glowing firelight, volcanic ash particles, dynamic camera movement, photorealistic 4K quality.",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-gpt-mrbean-getaway-bible",
+      "category": "提示词",
+      "title": "先做一张憨豆逃亡角色卡：挡风玻璃外拍，火箭筒还在副驾",
+      "body": "在生成憨豆逃亡视频之前，TechieSA 先用 GPT Image 2.5 做了一张角色圣经海报：从车外透过挡风玻璃拍他，双手握方向盘、面无表情，副驾靠着火箭筒，仪表台坐着泰迪熊，钞票被风速糊在玻璃上，背后是警灯和红水彩爆炸底。\n\n这张卡不是装饰，而是后续视频的「长相合同」。提示词禁止改脸，布局写成单人戏剧海报，连标语都定好——「他自己不知道自己是司机」。有了这张，后面二十五秒分镜才不会每切一刀换一张脸。\n\n很多人直接丢视频模型开跑，出片后才发现主角在漂。他的顺序反了过来：先锁静帧身份，再进动态。静帧合同在先，动态才不会各说各话。做系列短片时，这张卡还能反复当参考图。\n\n所以呢：多镜头短片先出一张角色卡当合同，比事后修脸省事得多。",
+      "links": [
+        {
+          "label": "角色卡提示词",
+          "url": "https://x.com/TechieBySA/status/2111053492697649459"
+        },
+        {
+          "label": "成片主帖",
+          "url": "https://x.com/TechieBySA/status/2111053480962273760"
+        }
+      ],
+      "prompt": "Create a premium cinematic character bible sheet for MR BEAN. Use uploaded character sheet as strict visual reference. Do not change his appearance.\nLAYOUT: Single character, full dramatic poster format.\nCENTER: One massive dramatic cropped hero image — Mr Bean seen through the windscreen from outside the car, close up, both hands on steering wheel, completely unbothered expression. RPG resting against the passenger seat visible through the window. Small teddy bear sitting on the dashboard. Cash notes pressed against the windscreen from the speed. Police lights reflecting off the glass behind him.\nBACKGROUND: Bold dramatic bright red watercolor splash radiating behind the car filling the entire frame. Motion blur streaks suggesting high speed. Palm trees blurred on both sides.\nTOP: Large bold brushstroke text MR BEAN in bright red. Below small text: THE GETAWAY / LOS ANGELES.\nBOTTOM: Bold tagline: HE DIDN’T KNOW HE WAS THE DRIVER. THEY DIDN’T KNOW EITHER.\nOVERALL: Clean white base, bold dramatic red watercolor explosion, dramatic rim lighting from police lights behind, bold flat color blocking, chunky simplified forms, hard edge shadows, thick black outlines, cinematic cel-shaded 3D anime, hand-painted textures, not cartoon not Disney not Pixar, print ready.",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-krea-storyboard-photographic",
+      "category": "提示词",
+      "title": "分镜板一键变写真：只改材质，构图机位一毫米都别动",
+      "body": "Krea 3 公测那天，Umesh（@umesh_ai）随手写了自己会用的一句编辑提示词：让每个分镜格都变成可拍照的写实画面，但构图、主体位置和机位必须原封不动。\n\n句子极短，却对准了导演工作流里最烦的一步——分镜还在铅笔线时，投资人和客户看不懂；直接重画又容易跑构图。他把「只升级材质、不改调度」写成一条可粘贴指令，再把前后板并排放，想法就不那么容易烂在文件夹里。\n\n它几乎能套在任何图像编辑模型上：Krea、GPT Image、Nano Banana 都行。关键是你真的有一张分镜，而不是空喊电影感。调度保留，材质升级，这才是编辑该干的事。创作人拿去演示方案时特别好用。\n\n所以呢：分镜已经画好时，别让模型「重新构想」；先下死命令——机位不动，只许变真。",
+      "links": [
+        {
+          "label": "X 原帖 @umesh_ai",
+          "url": "https://x.com/umesh_ai/status/2110761775067230600"
+        }
+      ],
+      "prompt": "Make every panel photographic. Preserve the composition, subject placement and camera angle.",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "prompt-text-carrier-docs-chase",
+      "category": "提示词",
+      "title": "催承运商补材料：一百字内要礼貌，也要把死线写死",
+      "body": "Broker Back-Office Notes（@BrokerOpsNotes）周六扔出一条给货运经纪人用的文本提示词：让模型写一封又短又硬的邮件，催承运商补 W-9、保险凭证或已签协议，并写明不收到就不能确认货载。\n\n词本身带占位符，限制一百词以内、禁止行话。作者还补了一句实操：保险凭证最好让保险公司直接发给你，别经承运商转发，并记下收到日期。这已经不是「会写邮件」的空话，而是把行业规矩嵌进提示词。\n\n对做职场或垂直行业内容的人，这类词比万能「帮我写得专业一点」更有料——观众能直接抄走改自己的字段。死线和后果写进词里，模型才不会写成空客套。你也可以把同一骨架改成催发票、催合同。\n\n所以呢：行业提示词要写进「收不到会怎样」；没有后果句，礼貌催促就只是客套。",
+      "links": [
+        {
+          "label": "X 原帖 @BrokerOpsNotes",
+          "url": "https://x.com/BrokerOpsNotes/status/2111260679852474453"
+        },
+        {
+          "label": "提示词原文",
+          "url": "https://x.com/BrokerOpsNotes/status/2111260682692034887"
+        }
+      ],
+      "prompt": "Write a short, polite, firm email to a carrier's dispatcher. Missing: [W-9 / COI with us as holder / signed agreement]. Load: [#, pickup date]. Deadline: [time]. State that we can't confirm the load until received. Under 100 words, no jargon.",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "roadster-rocks-kickflip",
+      "category": "视觉尝试",
+      "title": "特斯拉 Roadster 现场踢翻转成浏览器一键游戏",
+      "body": "十月十五日，特斯拉在得州麦格雷戈秀了一台会踢翻的跑车：冷气推进顶着半挂车翻过去，直播间里全是倒吸凉气的声音。有人当晚就把这场戏做成了网页游戏。打开页面只用一个键：点一下喷气翻转，空中再点一次接后空翻，按住还能悬停；落地踩准节拍就给完美倍率，撞上那道弯墙还能倒挂滑一圈。站点把直播里的数字钉在旁边：踢翻大约七米高、零到六十英里时速零点八一秒、风扇吸附两倍重力、十个喷口、车上约二百五十公斤压缩空气。全球榜实时刷新，旁边还能刷现场短片。作者写明这是粉丝作品，不挂官方牌子。于是一场发布会变成了人人能上手的街机。所以呢：别只转发「飞机翻车」梗图——让观众自己按一下，身体比嘴更快记住「冷气推进真能把车翻过去」。",
+      "links": [
+        {
+          "label": "Roadster Flip 试玩",
+          "url": "https://roadster.rocks/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50119905"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "anima-claude-biology-figs",
+      "category": "视觉尝试",
+      "title": "跟 Claude 要一张生物图：交互等距、数字全带出处",
+      "body": "科学插画常卡在两种坑：要么死板示意图，要么动画很炫却不敢追问数字从哪来。作者开源了这套技能，专门挂在编码助手上：你用大白话点菜，比如「可卡因和安非他明在多巴胺转运体上到底差在哪」，它吐出一整页可开关的等距模型——真实结构、可拨动的机制、每个数字旁边写物种与条件。官网已经挂着多巴胺受体、欣快通路、司美格鲁肽、向光幼苗等活图，点进去就能拨滑条看信号翻转。规则写死：隐喻必须标明、没核实的数宁可不写、药物图只讲机制不给剂量，并把「已确立」和「领先假说」分开标。安装只要一行命令，协议也开放。所以呢：讲「模型画科学」时别秀滤镜，让观众亲手拨一下受体开关，看图会不会立刻露出出处。",
+      "links": [
+        {
+          "label": "Anima 活图",
+          "url": "https://anima.arcumet.com"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Garinmckayl/anima"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50118303"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "it-thinks-nand-to-gpu",
+      "category": "视觉尝试",
+      "title": "从一颗与非门拼到 GPU：最后芯片真能跑小神经网络",
+      "body": "作者在浏览器里放了谜题游戏。你从一颗与非门起步，一路拼加法器、小处理器、并行核，最后拼出一台像图形处理器的机器；通关后，你亲手设计的芯片要跑一次真正的迷你神经网络推理。免费试玩覆盖第一章逻辑关、每日关和社区关，完整版计划十一月底上架商店。作者在论坛写得很直白：想让人摸到「算力不是魔法，是门电路一层层叠出来的」。页面标题就是「自己造一块处理器」。玩的时候你会先卡在进位，再突然看懂并行为什么贵；评论区也在争论哪一关最折磨。所以呢：讲芯片或人工智能硬件时，别甩术语表——丢一关「从与非门走到推理」给观众，手指比幻灯片更记得住层级。",
+      "links": [
+        {
+          "label": "IT THINKS 试玩",
+          "url": "https://catchy.games/it-thinks/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50118108"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "demo-disc-ps1-webgl",
+      "category": "视觉尝试",
+      "title": "浏览器里的 PS1 试玩碟：法式独立游戏塞进 Demo Disc",
+      "body": "还记得当年买光盘先刷一圈试玩碟吗？菜单音乐响起来，你还没买正作就已经玩了半小时。有人用网页三维图形做了一张向初代主机试玩碟致敬的页面：界面是复古菜单感，内容换成当代法国独立游戏试玩合集，一点就能进，不用另装模拟器。作者在论坛标题里直接写向试玩碟致敬，站点描述也问你还记不记得那张碟，然后把人领向新的独立站。打开就能点，加载也轻；旁边的人刷到会先愣两秒，再忍不住点进某一关。怀旧感来自仪式，而不只是像素滤镜。所以呢：怀旧不是滤镜堆砌——把「先试再买」的仪式感搬回浏览器，观众会先笑一声，再认真点进某一关。",
+      "links": [
+        {
+          "label": "Demo Disc",
+          "url": "https://demo-disc.pixelnest.io/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50118265"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "life-stats-cosmic-zoom",
+      "category": "视觉尝试",
+      "title": "生日一输：睡着多少年、地球载你飞了多远",
+      "body": "这个页面不让你「通关」，只让你把自己的生日放大十倍看。输入名字、出生日期和国家，它从身体开始：大约睡了多少年、心跳过多少次；再一层层拉远到出生那年的世界、人类祖先、地球绕太阳的路程，最后收到远处星光，再把你轻轻送回自己。页面说清楚这是可交互的人生数字计算器，带一点宇宙视角；结束能看总表、下图，或在支持的浏览器里做成竖屏短视频。论坛副标题还提了「还剩几个夏天、出生那年巨无汉堡多少钱」这类扎心小数。朋友聚餐时拿出来填一个人的生日，气氛会突然安静半秒。所以呢：别只发「人生苦短」鸡汤——让观众填自己的生日，数字会替你把情绪说完。",
+      "links": [
+        {
+          "label": "Life Stats",
+          "url": "https://twentyfun.com/games/life-stats"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50118247"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "roadster-thrust-600l",
+      "category": "视觉尝试",
+      "title": "六百升空气五秒飞完：按住喷气掠过停着的特斯拉",
+      "body": "另一位作者把同一场跑车演示收成更短的浏览器小游戏。规则极简：按住喷气，抬头看空气表——站点写明大约六百升空气、五秒左右的飞行；你要从停着的车阵上空掠过，气用完就摔。手机要横过来才能继续，撞了按空格重来。作者在论坛备注致谢给另一款引擎。和踢翻版比，它更像「油表焦虑版」：不追求花式连招，只逼你在几秒里把推力花干净，观众一上手就会屏住呼吸盯着余量。两款同题游戏放一起，手感差得很清楚。横屏提示一闪，你就知道作者认真想过手机怎么玩；气表往下掉的时候，手会不自觉松开又按紧。所以呢：同一场发布会可以拆成两种手感——一个练落地，一个练省气，做对比视频特别好剪。",
+      "links": [
+        {
+          "label": "Roadster Thrust",
+          "url": "https://roadster.pavlin.dev"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50125746"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "emergence-simple-chaos",
+      "category": "视觉尝试",
+      "title": "几条简单规则在浏览器里长出混沌：边播边讲蝴蝶效应",
+      "body": "作者二十多年前读那本讲混沌的科普书爱上了物理，那时还不会写代码；现在他把「简单规则也能冒出不可预测行为」做成了网页。打开就能播放、单步、调速，旁边有导览，把仿真一点点讲清楚。他在论坛说，这是用现在的工具「用眼睛演示」当年书里的直觉，欢迎狠评。站点挂在做科研工程软件的工作室名下。画面不炫技，重点是你按暂停时，还能看见规则本身有多短；玩一会儿就会明白「蝴蝶翅膀」不是口号，而是参数差一点点结果就分叉。课堂或短视频里都很适合边播边讲。所以呢：讲复杂系统别从方程开场——先让观众拨两下速度滑条，再问「蝴蝶翅膀到底动了哪条规则」。",
+      "links": [
+        {
+          "label": "Emergence",
+          "url": "https://modlit.io/emergence/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50117053"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "wasmga-homebrew-browser",
+      "category": "视觉尝试",
+      "title": "把家酿与开源游戏塞进浏览器：插上模块按开始",
+      "body": "有人把一座小型街机馆搬进了浏览器。台上有掌机与红白机家酿，也有靠模拟器复活的老闪客游戏，再加开源平台跳跃、自由毁灭战士、东方风同人作、掉沙子的沙盘一类作品，全在网页里跑。作者在论坛说明，有的引擎还打了补丁支持存档与续玩；移植难点多在存读档、读文件、线程和显示。你也可以自己塞一个网页模块进来试。离线时只显示本机玩过的条目，像口袋里的馆藏。刷列表时会突然撞见童年某一关，手指比脑子更快点进去。想怀旧又懒得装模拟器的人，这一站几乎是现成答案。所以呢：怀旧合集别做成网盘清单——让人当场开一局，评论区自然会比「资源帖」热闹。",
+      "links": [
+        {
+          "label": "wasmga.me",
+          "url": "https://wasmga.me/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50118804"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "pixel-stroke-oniq-web",
+      "category": "视觉尝试",
+      "title": "同一支笔引擎上线浏览器：像素画、动画、字库一个工程",
+      "body": "十月十六日，作者在自己游戏引擎上发布了像素编辑器的网页版。一个工程文件里能放精灵、逐帧动画、字体、瓦片地图，甚至导出到单片机灯阵；介绍文里并排放了两块画布，同一套编译成网页模块的笔刷，左边关掉像素精确、右边打开，拐角多出来的像素会被当场数掉。浏览器里可免登录试几支笔，完整编辑器要免费账号；同画布协作、平板原生版还在路上。作者强调笔刷、调色、骨骼和导出本来就是引擎能力，所以工具长得很快。画一笔就能感到「精确模式」和「随便画」差在哪。所以呢：讲「引擎也能养工具」时，别只贴截图——让观众在文章里的双画布上画一笔，差别自己会说话。",
+      "links": [
+        {
+          "label": "Pixel Stroke",
+          "url": "https://pixel-stroke.com"
+        },
+        {
+          "label": "作者介绍文",
+          "url": "https://oneiriq.com/article/pixel-stroke-a-pixel-art-editor-on-oniq"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "guessthespeed-family-wifi",
+      "category": "视觉尝试",
+      "title": "全家猜网速：真跑测速，谁猜得近谁赢",
+      "body": "有人把客厅里「我家网快」的吵架变成了两分钟小游戏。大家先猜下载和上传大概多少兆，再跑一次真实测速，最接近的人得分；可以一人主机、多人手机进房，也有边测边猜的竞速模式——开局猜只算半倍，终点猜满倍。主题还能切万圣节、排灯节之类节日皮肤，房间设置会同步给所有人。论坛标题就叫家庭网速竞猜。测速诊断数据只留在本标签页，不拿去建账号。玩完你会发现家人对速度单位的直觉差得出奇，输的人通常最不服。节日皮肤只是糖衣，真正好玩的是全家人同时猜错的那一秒。所以呢：别再口头争「我家网快」——开一局让数字当场裁判，内容角度也比吐槽运营商更轻松。",
+      "links": [
+        {
+          "label": "Guess the Speed",
+          "url": "https://guessthespeed.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50121096"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "reelbird-oss-loom",
+      "category": "小众工具",
+      "title": "Reelbird：开源录屏，停的瞬间链接已在剪贴板",
+      "body": "常见录屏订阅要么限时长，要么导出后才给链接。这款开源录屏反着来：苹果电脑上的原生应用，停录那一刻分享链接已经在剪贴板里；之后同一条链接上还能自动变焦、顺滑光标、加字幕，点更新后对方看到的是抛光版。没有账号、没有自家服务器，文件进你自己的对象存储；还带命令行和代理接口，编码助手也能帮你录演示。需要较新的系统版本，可下公证安装包或自编译。作者把「停录即链、后抛光不换链」写得很清楚，也直接对比了收费竞品的卡点。做教程的人最怕「导出—上传—再改」三连，这里把链路掐短了。所以呢：别再为「先导出再分享」浪费一回合——停录即链，抛光后链还是那条。",
+      "links": [
+        {
+          "label": "GitHub Reelbird",
+          "url": "https://github.com/btahir/reelbird"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50121148"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "stylebot-4-agent-cli",
+      "category": "小众工具",
+      "title": "Stylebot 4：点一下改站，也能让编码代理替你写样式",
+      "body": "这款改站扩展从二零一零年活到现在，作者借着人工智能工具把拖了很久的功能补完，放出第四版。你仍可在页面上点元素改样式，扩展会记住并每次自动加载；新版编辑器能看见元素真实样式，还有配置档、同步与版本。他最兴奋的是命令行：编码代理可以在你的真浏览器里改站，再用截图验收。官网画廊里已经有报纸风的论坛主题。免费开源，三大桌面浏览器可用。作者说接下来还想做主题画廊，让大家互装皮肤。自己改一版黑客新闻皮肤发出来，评论区通常会炸。所以呢：别只让代理「生成一段样式文本」——给它真页面和截图闭环，改站才像改产品。",
+      "links": [
+        {
+          "label": "Stylebot 官网",
+          "url": "https://stylebot.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50105251"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ankit/stylebot"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "ghx-agent-gh-cache",
+      "category": "小众工具",
+      "title": "ghx：给代码托管命令行加缓存，十个代理问同一句只打一次",
+      "body": "编码代理最爱狂刷拉取请求列表，然后一起撞上限流。这层缓存代理换个命令就能上：守护进程自动起来，只缓存白名单里的只读命令，写操作原样穿过并作废相关缓存。多个代理同时问同一件事时，合并成一次真实请求，大家共享结果。站点称缓存命中大约零点一秒级返回，并带网页仪表盘看命中率。不存令牌，用本机套接字通信。于是代理农场不再每人一把真刀砍接口，额度终于留给真正要改仓库的那几下。仪表盘里看命中率，比空喊「少点接口」更有说服力。所以呢：代理农场别再每人一把真刀砍接口——先让只读查询走缓存，额度留给真正要改的那几下。",
+      "links": [
+        {
+          "label": "ghx 文档",
+          "url": "https://brunoborges.github.io/ghx/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50105322"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "putaway-tidy-downloads",
+      "category": "小众工具",
+      "title": "Putaway：把下载文件夹塞进你已有的目录，先计划再移动",
+      "body": "下载文件夹永远堆成山。这款苹果菜单栏工具对准下载目录，读每个文件，提议放到你已经建好的某个文件夹；有把握的标成可移，其余要你点头。确认前什么都不动，撤销能整批撤回。默认走本机系统智能能力，也可接本地模型接口，或用带概率的云端引擎。需要苹果芯片与较新系统。作者强调不自营云：用第三方引擎时才上传文件夹名和文件开头一千字符，不会整文件外传。整理完打开下载目录，突然空出来的那一截空白特别爽。菜单栏一点，计划出来，你只负责最后那一下确认。所以呢：别再写「每周整理下载」自律帖——让工具先出搬家计划，你只负责点移动。",
+      "links": [
+        {
+          "label": "GitHub Putaway",
+          "url": "https://github.com/devYRPauli/putaway"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50122669"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "foretype-optimistic-ssh",
+      "category": "小众工具",
+      "title": "Foretype：远端还在路上，字已经画在本地屏幕上",
+      "body": "远程登录一卡，编码代理和人手都像在水里打字。这工具做乐观回显：你每敲一键，本地先画出字符，服务器真回声稍后再对齐。作者对比图里，到一台故意拖到约四百四十毫秒的机器，上面是裸远程登录，下面是它，同一串键几乎同步出现；另一组约一百五十毫秒延迟的测量里，中位显示时间从一百多毫秒掉到十毫秒左右。支持苹果与主流桌面系统，开源许可明确。装好后写代码、跑代理都会立刻觉得键盘活了，不再每敲一下就怀疑自己手速。延迟地图上的那条对比曲线，比任何口号都刺眼。所以呢：别把「远端卡顿」当成性格问题——先给键盘一层本地预测，人与代理都会立刻轻松。",
+      "links": [
+        {
+          "label": "GitHub Foretype",
+          "url": "https://github.com/itsfabioroma/foretype"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50103917"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "jab-smart-tab-9kb",
+      "category": "小众工具",
+      "title": "jab：九千字节小模型，替你猜下一个该点哪",
+      "body": "网页上狂按切换键常常跳进广告和隐藏链。这扩展换思路：按组合键，一个跑在浏览器里的小型排序器标出它认为你最想用的控件，旁边再给三个备选；回车就点它或聚焦输入框，再按可轮换，按住再加数字可直达。模型是老派梯度提升树，大约九千字节，处理器上约两毫秒，无网络请求。作者自嘲「妈妈我想要切换键，家里就有」。开源许可友好，可装主流浏览器扩展店。新闻站上试一次，它常直接标出你真正想读的那条标题。九千字节跑在本地，却比乱按切换键更像读懂了你。所以呢：无障碍导航别只讲顺序——用本地小模型猜意图，比盲目轮询更像真人。",
+      "links": [
+        {
+          "label": "jab 官网",
+          "url": "https://jab.run/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/netanel-haber/jab"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50104944"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "byakugan-inmemory-ocr",
+      "category": "小众工具",
+      "title": "Byakugan Scan：截屏不落盘，芯片上几十毫秒内出字",
+      "body": "很多苹果电脑截屏识字会先把图写到临时目录，结果惊动搜索索引和媒体分析，拖成好几秒。这款工具改走内存：拖选区域后直接进剪贴板缓冲，再用本机视觉框架认字和条码，作者称在苹果芯片上往往五十毫秒内完成，零临时文件、零联网、无分析组件。菜单栏常驻，默认快捷键可改。可用包管理器或安装包装，需屏幕录制权限。它解决的不是「再准一点」，而是「别每次框选都写成一次磁盘事件」。抄屏幕上的验证码或表格时，速度差体感特别大。不惊动磁盘索引这件事，用过旧工具的人才懂有多爽。所以呢：比拼识字别只看准确率——先问它会不会把每次框选都写成一次磁盘事件。",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/halcyon-past/byakugan-scan"
+        },
+        {
+          "label": "官网",
+          "url": "https://byakugan-scan.aritro.cloud"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50110853"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-16",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "ctxwise-mcp-treeshake",
+      "category": "小众工具",
+      "title": "CtxWise：给工具清单做树摇，别再吞三万启动字元",
+      "body": "几家主流编码代理每次开机都可能把说明文件和所有外挂工具的巨型表格塞进上下文。这工具自称本地优先的上下文防火墙：一条命令就能透视哪些工具清单在偷额度，审计多套代理配置是否打架，扫描技能文件里的密钥与隐藏字符，还能同步并压缩规则。作者强调零配置、不调模型。开源仓库公开。很多人抱怨代理「莫名变慢」，其实是启动菜单太肥；树摇一次前后对比，数字比口号刺眼。自己跑一遍透视，往往立刻发现某个外挂占了大头。所以呢：代理变慢时别先换更大模型——先把工具菜单树摇瘦，省下的额度往往比换模型更立竿见影。",
+      "links": [
+        {
+          "label": "GitHub CtxWise",
+          "url": "https://github.com/FramY2/ctxwise"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50125990"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "llmspeed-before-you-buy",
+      "category": "小众工具",
+      "title": "llmspeed：买显卡前，先「听」本地大模型有多快",
+      "body": "纠结新显卡还是一体机时，参数表看不懂手感。这个站点让你点一块硬件、选一个模型，用社区基准估每秒吐字和首字时延，把本地推理的快慢变成可点的体验页。列表里有消费级与云端卡，也有多款常见开源模型；站点写明部分是实测、部分是相近配置推演，并开源仓库。点两块卡对比时，评论区会自己吵出「值不值」。装机种草终于有了共同尺子，不必只信某一张跑分截图。买之前先「听」一秒节奏，比空谈参数表有用。下单前先听一秒节奏，比盯着参数表空想更踏实。所以呢：装机种草别只晒跑分截图——丢这个页面让观众自己点两块卡对比，评论区会自己吵出答案。",
+      "links": [
+        {
+          "label": "llmspeed",
+          "url": "https://llmspeed.dev/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50127979"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "swift-render-code-video",
+      "category": "小众工具",
+      "title": "Swift Render：用界面框架和着色器写片，导出就是视频",
+      "body": "网页圈有时间线式视频框架，苹果生态现在有这套引擎：把运动图形写成时间的函数，用界面场景加着色器，在电脑上渲成视频文件。仓库演示一条二十秒预告片，一千二百帧高清六十帧在新芯片上约五点三秒渲完，更高分辨率约十七点八秒；作者还在工作室里用三十八条时间码批注，让模型逐条改并回传帧。可做启动片、数据驱动短片、音画联动，也有人体跟踪等实拍效果。引擎加命令行，也能嵌进你自己的应用。设计师和工程师终于能在同一套代码里对时间轴。所以呢：人工智能做视频别只会堆网页时间线——会这门语言的人可以直接把设计系统写进每一帧。",
+      "links": [
+        {
+          "label": "GitHub Swift Render",
+          "url": "https://github.com/skyblanket/swift-render"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50105169"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "connectio-one-local-origin",
+      "category": "小众工具",
+      "title": "Connectio：本地前后端共用一个地址，跨域和饼干消停",
+      "body": "前端一个端口、接口另一个端口、登录又一个——浏览器把它们当三个站，跨域报错、登录状态过不去、外部回调还要公网。这款开源桌面代理把各本地服务挂到同一源地址，按路径转发，请求当场看得见；勾一下还能开临时隧道给外网回调。官网写明免费、开源、三大桌面系统都能用，不用手写反向代理配置。本地联调里一半脾气其实来自「源」不一致；并到一个地址后，跨域提示常常自己消失。一个地址搞定前后端，新人入职少踩两小时坑，已经值了。勾上隧道，外网回调也能打进同一套本地服务。所以呢：本地联调别再跟跨域较劲——先让所有服务活在同一个源里，问题会少一半。",
+      "links": [
+        {
+          "label": "Connectio",
+          "url": "https://connectio.pulkitbanta.com/"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50127349"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-17",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
+    {
+      "id": "earshot-spare-phone-listen",
+      "category": "小众工具",
+      "title": "Earshot：旧手机听烟感、门铃和狗叫，全家手机收警报",
+      "body": "烟感不会打电话，吃灰的旧手机可以。这产品把备用机变成家里的耳朵：插电连无线网、屏关掉，放在厨房或玄关；选听烟感、门铃、狗叫，或自己写几个词描述声音，灵敏度可调。触发后家里每个人的手机几秒内收到推送，探测器掉线也会通知。站点强调音频不离开那台旧手机，只在本机判断。两大手机系统开放测试中。智能家居广告常从全屋硬件开场，这个产品从抽屉里的旧机开场，故事更好拍。出门在外突然收到「厨房烟感」推送，那一秒比任何参数表都真实。抽屉里的旧机重新上岗，故事本身就很好拍。所以呢：智能家居别一上来全屋换硬件——先让旧手机值班，内容角度也更接地气。",
+      "links": [
+        {
+          "label": "Earshot",
+          "url": "https://tryearshot.net/index.html"
+        },
+        {
+          "label": "HN Show",
+          "url": "https://news.ycombinator.com/item?id=50104940"
+        }
+      ],
+      "prompt": "",
+      "date": "2026-10-15",
+      "added": "2026-10-17T15:10:00+08:00"
+    },
     {
       "id": "trust-layer-pass-22pct",
       "category": "硬科技",
